@@ -1,27 +1,35 @@
+name: README build
+
 on:
-  schedule:
-    - cron: '0 */12 * * *' # every 12 hours
   push:
     branches:
       - master
-      - main
+  schedule:
+    - cron: '0 */3 * * *'
+
 jobs:
-  publish:
+  build:
     runs-on: ubuntu-latest
+
     steps:
-    - uses: actions/checkout@v2
-      with:
-        fetch-depth: 0
-    - name: Generate README.md
-      uses: teoxoy/profile-readme-stats@v1
-      with:
-        token: ${{ secrets.PUBLISH }}
-    - name: Update README.md
-      run: |
-        if [[ "$(git status --porcelain)" != "" ]]; then
-        git config user.name github-actions[bot]
-        git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-        git add .
-        git commit -m "Update README"
-        git push
-        fi
+      - name: checkout
+        uses: actions/checkout@v1
+      - name: setup node
+        uses: actions/setup-node@v1
+        with:
+          node-version: '13.x'
+      - name: cache
+        uses: actions/cache@v1
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-js-${{ hashFiles('package-lock.json') }}
+      - name: Install dependencies
+        run: npm install
+      - name: Generate README file
+        run: node index.js
+        env:
+          OPEN_WEATHER_MAP_KEY: ${{secrets.OPEN_WEATHER_MAP_KEY}}
+      - name: Push new README.md
+        uses: mikeal/publish-to-github-action@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.PUBLISH }}

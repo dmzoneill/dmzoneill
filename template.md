@@ -12,6 +12,10 @@
       <orgs>
       - <a href='{org_url}'>{org_name}</a>
       </orgs>
+      <h3>Commits</h3>
+      .....
+      <h3>Pull requests</h3>
+      .....
     </td>
     <td>
       <h3>Lines of code</h3>    

@@ -1,3 +1,4 @@
+<span>
 <h3>Hey</h3>
 <a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> 
 <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
@@ -10,7 +11,8 @@
 - <a href='https://github.com/Canonical-forks'>Canonical forks</a>
 - <a href='https://github.com/Intel-forks'>Intel forks</a>
 
-  
+</span>
+<span>
 <h3>Lines of code</h3>    
 <table>
   <thead>
@@ -20,117 +22,118 @@
     </tr>
   </thead>
   <tbody>
-    `     <tr>
+    <tr>
         <td><img src='https://img.shields.io/badge/_-SCSS -11DDDD.svg?style=for-the-badge' title='SCSS'  height='20px'/></td>
         <td>144</td>
-      </tr>`
-`     <tr>
+      </tr>
+<tr>
         <td><img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML'  height='20px'/></td>
         <td>2547440</td>
-      </tr>`
-`     <tr>
+      </tr>
+<tr>
         <td><img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP'  height='20px'/></td>
         <td>6246489</td>
-      </tr>`
-`     <tr>
+      </tr>
+<tr>
         <td><img src='https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white' title='C#'  height='20px'/></td>
         <td>2193401</td>
-      </tr>`
-`     <tr>
+      </tr>
+<tr>
         <td><img src='https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white' title='TeX'  height='20px'/></td>
         <td>339676</td>
-      </tr>`
-`     <tr>
+      </tr>
+<tr>
         <td><img src='https://img.shields.io/badge/perl-%2339457E.svg?style=for-the-badge&logo=perl&logoColor=white' title='Perl'  height='20px'/></td>
         <td>251007</td>
-      </tr>`
-`     <tr>
+      </tr>
+<tr>
         <td><img src='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' title='JavaScript'  height='20px'/></td>
         <td>629106</td>
-      </tr>`
-`     <tr>
+      </tr>
+<tr>
         <td><img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS'  height='20px'/></td>
         <td>96734</td>
-      </tr>`
-`     <tr>
+      </tr>
+<tr>
         <td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td>
         <td>62044</td>
-      </tr>`
-`     <tr>
+      </tr>
+<tr>
         <td><img src='https://img.shields.io/badge/_-Raku-1144DD.svg?style=for-the-badge' title='Raku'  height='20px'/></td>
         <td>582</td>
-      </tr>`
-`     <tr>
+      </tr>
+<tr>
         <td><img src='https://img.shields.io/badge/_-Batch-BB4444.svg?style=for-the-badge' title='Batchfile'  height='20px'/></td>
         <td>497</td>
-      </tr>`
-`     <tr>
+      </tr>
+<tr>
         <td><img src='https://img.shields.io/badge/_-SmallTalk-114444.svg?style=for-the-badge' title='Smalltalk'  height='20px'/></td>
         <td>10</td>
-      </tr>`
-`     <tr>
+      </tr>
+<tr>
         <td><img src='https://img.shields.io/badge/_-HACK-878787.svg?style=for-the-badge' title='Hack'  height='20px'/></td>
         <td>54801</td>
-      </tr>`
-`     <tr>
+      </tr>
+<tr>
         <td><img src='https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white' title='Java'  height='20px'/></td>
         <td>154857</td>
-      </tr>`
-`     <tr>
+      </tr>
+<tr>
         <td><img src='https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white' title='C++'  height='20px'/></td>
         <td>73179</td>
-      </tr>`
-`     <tr>
+      </tr>
+<tr>
         <td><img src='https://img.shields.io/badge/_-Roff-114466.svg?style=for-the-badge' title='Roff'  height='20px'/></td>
         <td>7676</td>
-      </tr>`
-`     <tr>
+      </tr>
+<tr>
         <td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td>
         <td>337853</td>
-      </tr>`
-`     <tr>
+      </tr>
+<tr>
         <td><img src='https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white' title='Swift'  height='20px'/></td>
         <td>163276</td>
-      </tr>`
-`     <tr>
+      </tr>
+<tr>
         <td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td>
         <td>13634</td>
-      </tr>`
-`     <tr>
+      </tr>
+<tr>
         <td><img src='https://img.shields.io/badge/_-Dockerfile -11DDDD.svg?style=for-the-badge' title='Dockerfile'  height='20px'/></td>
         <td>5088</td>
-      </tr>`
-`     <tr>
+      </tr>
+<tr>
         <td><img src='https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white' title='Kotlin'  height='20px'/></td>
         <td>24599</td>
-      </tr>`
-`     <tr>
+      </tr>
+<tr>
         <td><img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript'  height='20px'/></td>
         <td>27991</td>
-      </tr>`
-`     <tr>
+      </tr>
+<tr>
         <td><img src='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' title='Go'  height='20px'/></td>
         <td>15758</td>
-      </tr>`
-`     <tr>
+      </tr>
+<tr>
         <td><img src='https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white' title='C'  height='20px'/></td>
         <td>4986865</td>
-      </tr>`
-`     <tr>
+      </tr>
+<tr>
         <td><img src='https://img.shields.io/badge/_-ASM-6E4C13.svg?style=for-the-badge' title='Assembly'  height='20px'/></td>
         <td>293576</td>
-      </tr>`
-`     <tr>
+      </tr>
+<tr>
         <td><img src='https://img.shields.io/badge/_-NSIS-11DDDD.svg?style=for-the-badge' title='NSIS'  height='20px'/></td>
         <td>11462</td>
-      </tr>`
-`     <tr>
+      </tr>
+<tr>
         <td><img src='https://img.shields.io/badge/_-M4-701516.svg?style=for-the-badge' title='M4'  height='20px'/></td>
         <td>8485</td>
-      </tr>`
+      </tr>
 
   </tbody>
 </table>
+</span>
 
 ### Some things i've been poking at
 

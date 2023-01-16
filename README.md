@@ -26,8 +26,7 @@
     </tr>
   </thead>
   <tbody>
-    <tr>
-    <td><img src='https://img.shields.io/badge/_-SCSS -11DDDD.svg?style=for-the-badge' title='SCSS'  height='20px'/></td><td>144</td>
+    <tr><td><img src='https://img.shields.io/badge/_-SCSS -11DDDD.svg?style=for-the-badge' title='SCSS'  height='20px'/></td><td>144</td>
 <td><img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML'  height='20px'/></td><td>2547440</td>
 <td><img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP'  height='20px'/></td><td>6246489</td>
 <td><img src='https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white' title='C#'  height='20px'/></td><td>2193401</td>
@@ -60,8 +59,7 @@
 <td><img src='https://img.shields.io/badge/_-ASM-6E4C13.svg?style=for-the-badge' title='Assembly'  height='20px'/></td><td>293576</td>
 <td><img src='https://img.shields.io/badge/_-NSIS-11DDDD.svg?style=for-the-badge' title='NSIS'  height='20px'/></td><td>11462</td>
 <td><img src='https://img.shields.io/badge/_-M4-701516.svg?style=for-the-badge' title='M4'  height='20px'/></td><td>8485</td>
-
-    </tr>
+</tr>
   </tbody>
 </table>
 

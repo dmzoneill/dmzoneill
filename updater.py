@@ -123,7 +123,7 @@ class ReadmeUpdater:
             language = ""
             for lang in lang_percent:
                 if lang_percent[lang] != 0:
-                    language += lang + " " + str(lang_percent[lang]) + "%<br/>"
+                    language += "<img src='" + self.config['badges'][lang] + "' title='" + self.config['badges'][lang] + "'/>" + " " + str(lang_percent[lang]) + "%<br/>"
 
             language = language[0:len(language) - 2]
 
@@ -158,7 +158,7 @@ class ReadmeUpdater:
                                  ][1] if repo['name'] in live else ""
                 license = repo['license']['name'] if repo['license'] is not None else ""
                 updated_at = repo['updated_at'] if repo['updated_at'] is not None else ""
-                open_issues_count = str(repo['open_issues_count'])
+                # open_issues_count = str(repo['open_issues_count'])
 
                 row = rows_template
                 row = row.replace("{language}", language)
@@ -207,15 +207,10 @@ class ReadmeUpdater:
 
         langs = ""
 
-        total_percent = 0
-
         for lang in self.total_lines_lang:
 
             row = langs_template
-            # percent = round(
-            #    round(self.total_lines_lang[lang] / self.total_lines, 2) * 100, 2)
-            # total_percent += percent
-            row = row.replace("{language}", lang)
+            row = row.replace("{language}", "<img src='" + self.config['badges'][lang] + "' title='" + self.config['badges'][lang] + "'/>")
             row = row.replace("{lines}", str(self.total_lines_lang[lang]))
             langs += row + "\n"
 

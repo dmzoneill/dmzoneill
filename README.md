@@ -92,7 +92,7 @@
         </tr>
 <tr>
             <td><img style='vertical-align:middle' src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></a></td>
-            <td>337518</td>
+            <td>337921</td>
         </tr>
 <tr>
             <td><img style='vertical-align:middle' src='https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white' title='Swift'  height='20px'/></a></td>
@@ -158,7 +158,7 @@
             <td><a href='' title='' style='font-size:12pt'></a></td>
             <td><span style='font-size:12pt'>MIT License</span></td>
             <td><span style='font-size:12pt'>2023-01-16</span></td>
-            <td><img src='https://github.com/dmzoneill/markdown-badges/actions/workflows/main.yml/badge.svg' height='20px'></td>
+            <td><img src='https://avatars.githubusercontent.com/u/122704019?s=64&v=4' height='20px'></td>
         </tr>
 <tr>
             <td><img style='vertical-align:middle' src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' height='20px'/><br/><img style='vertical-align:middle' src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' height='20px'/><br</td>
@@ -366,7 +366,7 @@
             <td><a href='' title='' style='font-size:12pt'></a></td>
             <td><span style='font-size:12pt'>GNU General Public License v2.0</span></td>
             <td><span style='font-size:12pt'>2022-04-26</span></td>
-            <td><img src='https://github.com/dmzoneill/cpuminer-multi/actions/workflows/main.yml/badge.svg' height='20px'></td>
+            <td><img src='https://avatars.githubusercontent.com/u/122704019?s=64&v=4' height='20px'></td>
         </tr>
 <tr>
             <td><img style='vertical-align:middle' src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' height='20px'/><br/><img style='vertical-align:middle' src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' height='20px'/><br/><img style='vertical-align:middle' src='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' height='20px'/><br</td>

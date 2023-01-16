@@ -38,16 +38,14 @@
     <tr border: none;>
       <th>Project</th>
       <th>View</th>
-      <th>License</th>
       <th>Status</th>
     </tr>
   </thead>
   <tbody>
     <repos>
         <tr>
-            <td><a href='{html_url}' title='{name}'>{name}</a><br/>{language}</td>
+            <td><a href='{html_url}' title='{name}'>{name}</a><br/>{language}<br/>{license}</td>
             <td><a href='{live_url}' title='{live_name}'>{live_name}</a></td>
-            <td>{license}</td>
             <td align="center"><img src='{badge}' height='20px'/><br/>{updated_at}</td>
         </tr>
     </repos>

@@ -48,7 +48,7 @@
   <tbody>
     <repos>
         <tr>
-            <td><a href='{html_url}' title='{name}'>{name}</a><br/>{language}<br/>{license}</td>
+            <td><a href='{html_url}' title='{name}'>{name}</a><br/><br/>{language}<br/><br/>{license}</td>
             <td><a href='{live_url}' title='{live_name}'>{live_name}</a></td>
             <td align="center"><img src='{badge}' height='20px'/><br/>{updated_at}</td>
         </tr>

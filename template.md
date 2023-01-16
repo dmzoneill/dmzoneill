@@ -52,7 +52,7 @@
             <td><a href='{live_url}' title='{live_name}' style='font-size:12pt'>{live_name}</a></td>
             <td><span style='font-size:12pt'>{license}</span></td>
             <td><span style='font-size:12pt'>{updated_at}</span></td>
-            <td><img src='https://github.com/dmzoneill/{name}/actions/workflows/main.yml/badge.svg' height='20px'></td>
+            <td><img src='{badge}' height='20px'></td>
         </tr>
     </repos>
   </tbody>

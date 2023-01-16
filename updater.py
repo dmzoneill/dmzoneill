@@ -15,7 +15,7 @@ class ReadmeUpdater:
     config = None
     template = None
     repos = None
-    token = os.getenv("ghtoken", default = None) 
+    token = os.getenv("ghtoken", default=None)
     total_lines = 0
     total_lines_lang = {}
 
@@ -124,8 +124,11 @@ class ReadmeUpdater:
             for lang in lang_percent:
                 if lang_percent[lang] != 0:
                     badge = self.config['badges'][lang] if lang in self.config['badges'] else ""
-                    badge = "https://img.shields.io/badge/_-" + lang + " -11DDDD.svg?style=for-the-badge" if badge == "" else badge
-                    language += "<img style='vertical-align:middle' src='" + badge + "' title='" + badge + "' height='20px'/>" + "<br/>" # + str(lang_percent[lang]) + "%<br/>"
+                    badge = "https://img.shields.io/badge/_-" + lang + \
+                        " -11DDDD.svg?style=for-the-badge" if badge == "" else badge
+                    language += "<img style='vertical-align:middle' src='" + badge + "' title='" + \
+                        badge + "' height='20px'/>" + \
+                        "<br/>"  # + str(lang_percent[lang]) + "%<br/>"
 
             language = language[0:len(language) - 2]
 
@@ -162,6 +165,9 @@ class ReadmeUpdater:
                 updated_at = repo['updated_at'] if repo['updated_at'] is not None else ""
                 # open_issues_count = str(repo['open_issues_count'])
 
+                badge = "https://github.com/dmzoneill/" + \
+                    repo['name'] + "/actions/workflows/main.yml/badge.svg" if repo['fork'] is False else "https://avatars.githubusercontent.com/u/122704019?s=64&v=4"
+
                 row = rows_template
                 row = row.replace("{language}", language)
                 row = row.replace("{html_url}", html_url)
@@ -170,6 +176,7 @@ class ReadmeUpdater:
                 row = row.replace("{live_name}", live_name)
                 row = row.replace("{license}", license)
                 row = row.replace("{updated_at}", updated_at.split('T')[0])
+                row = row.replace("{badge}", badge)
                 # row = row.replace("{open_issues_count}", open_issues_count)
 
                 rows += row + "\n"
@@ -213,8 +220,10 @@ class ReadmeUpdater:
 
             row = langs_template
             badge = self.config['badges'][lang] if lang in self.config['badges'] else ""
-            badge = "https://img.shields.io/badge/_-" + lang + " -11DDDD.svg?style=for-the-badge" if badge == "" else badge
-            row = row.replace("{language}", "<img style='vertical-align:middle' src='" + badge + "' title='" + lang + "'  height='20px'/>")
+            badge = "https://img.shields.io/badge/_-" + lang + \
+                " -11DDDD.svg?style=for-the-badge" if badge == "" else badge
+            row = row.replace("{language}", "<img style='vertical-align:middle' src='" +
+                              badge + "' title='" + lang + "'  height='20px'/>")
             row = row.replace("{lines}", str(self.total_lines_lang[lang]))
             langs += row + "\n"
 

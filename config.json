@@ -1,0 +1,40 @@
+{
+  "github_url": "https://github.com/dmzoneill",
+  "linkedin_url": "https://www.linkedin.com/in/dmzoneill/",
+  "live": {
+    "ashtangayogacork.ie-android": [
+      "https://play.google.com/store/apps/details?id=ie.ayc",
+      "Android app"
+    ],
+    "ashtangayogacork.ie-ios": [
+      "https://apps.apple.com/us/app/ashtanga-yoga-cork/id1508794150",
+      "IOS app"
+    ],
+    "ashtangayogacork.ie-wearos": [
+      "https://play.google.com/store/apps/details?id=ie.ayc.wearos",
+      "Wearos App"
+    ],
+    "curriculum-vitae": ["https://cv.fio.ie", "CV"],
+    "dmzoneill": ["https://github.com/dmzoneill", "Github profile"],
+    "gnome-extension-publisher": [
+      "https://pypi.org/project/gnome-extension-publisher/",
+      "PYPI Package"
+    ],
+    "sodarr-chrome-plugin": [
+      "https://chrome.google.com/webstore/detail/sodarr/nndmepnfkempbbjjfhbogcidgfckakmb",
+      "Google chrome extension"
+    ],
+    "tado-gnome-shell-extension": [
+      "https://extensions.gnome.org/extension/5606/tado/",
+      "Gnome desktop extension"
+    ]
+  },
+  "organizations": [
+    ["https://github.com/dmzoneill-forks", "dmzoneill-forks"],
+    ["https://github.com/RedHatInsights", "RedHatInsights"],
+    ["https://github.com/app-sre", "Appsre"],
+    ["https://github.com/Redhat-forks", "Redhat forks"],
+    ["https://github.com/Canonical-forks", "Canonical forks"],
+    ["https://github.com/Intel-forks", "Intel forks"]
+  ]
+}

@@ -10,7 +10,7 @@
 </orgs>
 </td>
 <td>
-<img alt="Github" width='400px' src="https://www.clipartmax.com/png/middle/54-547108_redhat-red-hat-linux-logo.png" />
+<img alt="Github" width='400px' src="https://upload.wikimedia.org/wikipedia/commons/d/d8/Red_Hat_logo.svg" />
 </td>
 </tr>
 </table>

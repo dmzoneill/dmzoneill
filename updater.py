@@ -1,78 +1,246 @@
 import json
+import os
 import requests
 import re
+from pprint import pprint
 
-repos_url = 'https://api.github.com/users/dmzoneill/repos'
-url_url = 'https://api.github.com/users/dmzoneill'
 
-r = requests.get(repos_url)
+class ReadmeUpdater:
 
-if r.status_code == requests.codes.ok:
-    repos = r.json()
+    repos_url = 'https://api.github.com/users/dmzoneill/repos'
+    url_url = 'https://api.github.com/users/dmzoneill'
+    cache_dir = "./cache"
+    config_file = "config.json"
+    template_file = "template.md"
+    config = None
+    template = None
+    repos = None
+    token = os.getenv("ghtoken", default = None) 
+    total_lines = 0
+    total_lines_lang = {}
 
-    config = open("config.json", "r")
-    config = config.read()
-    config = json.loads(config)
-    live = config['live']
+    def __init__(self):
+        self.read_config()
+        self.read_template()
+        self.prep_cache()
+        self.get_repos()
+        self.generate_readme()
 
-    template = open("template.md", "r")
-    template = template.read()
+    def read_config(self):
+        try:
+            config = open(self.config_file, "r")
+            config = config.read()
+            self.config = json.loads(config)
+            print("Got config")
+            return True
+        except:
+            return False
 
-    # repos
-    rows_match = re.search('<repos>(.*)</repos>',
-                           template, flags=re.I | re.M | re.S)
-    rows_template = rows_match.group(1).strip()
+    def read_template(self):
+        try:
+            template = open(self.template_file, "r")
+            self.template = template.read()
+            print("Got template file")
+            return True
+        except:
+            raise Exception("Failed reading config")
 
-    rows = ""
+    def prep_cache(self):
+        if not os.path.exists(self.cache_dir):
+            os.makedirs(self.cache_dir)
 
-    repos.sort(key=lambda x: x["updated_at"], reverse=True)
+    def get_cached_file(self, name):
+        try:
+            cache_file = open(self.cache_dir + "/" + name, "r")
+            cache_file = cache_file.read()
+            print("Got cache file: " + name)
+            return cache_file
+        except:
+            return False
 
-    for repo in repos:
+    def cache_file(self, name, content):
+        try:
+            # self.prep_cache()
+            # f = open(self.cache_dir + "/" + name, "w")
+            # f.write(content)
+            # f.close()
+            print("Write cache file: " + name)
+        except:
+            raise Exception("Unable to cache: " + name)
 
-        language = repo['language'] if repo['language'] is not None else ""
-        html_url = repo['html_url']
-        name = repo['name']
-        live_url = live[repo['name']][0] if repo['name'] in live else ""
-        live_name = live[repo['name']][1] if repo['name'] in live else ""
-        license = repo['license']['name'] if repo['license'] is not None else ""
-        updated_at = repo['updated_at'] if repo['updated_at'] is not None else ""
-        open_issues_count = str(repo['open_issues_count'])
+    def get_repos(self):
+        try:
+            cache = self.get_cached_file("repos")
+            if cache is False:
+                headers = {'Authorization': 'token ' + self.token}
+                r = requests.get(self.repos_url, headers=headers)
+                if r.status_code == requests.codes.ok:
+                    self.repos = r.json()
+                    self.repos.sort(
+                        key=lambda x: x["updated_at"], reverse=True)
+                    self.cache_file("repos", json.dumps(self.repos))
+                    print("Got repos file")
+                    return True
+            else:
+                self.repos = json.loads(cache)
+                self.repos.sort(key=lambda x: x["updated_at"], reverse=True)
+                return True
+        except:
+            raise Exception("Failed reading repos")
 
-        row = rows_template
-        row = row.replace("{language}", language)
-        row = row.replace("{html_url}", html_url)
-        row = row.replace("{name}", name)
-        row = row.replace("{live_url}", live_url)
-        row = row.replace("{live_name}", live_name)
-        row = row.replace("{license}", license)
-        row = row.replace("{updated_at}", updated_at)
-        row = row.replace("{open_issues_count}", open_issues_count)
+    def get_repo_languages(self, name):
+        try:
+            # https://api.github.com/repos/dmzoneill/aa-dev-prod-watcher/languages
+            languages_url = "https://api.github.com/repos/dmzoneill/" + name + "/languages"
+            cache = self.get_cached_file(name)
+            languages = None
 
-        rows += row + "\n"
+            if cache is False:
+                headers = {'Authorization': 'token ' + self.token}
+                l = requests.get(languages_url, headers=headers)
+                if l.status_code == requests.codes.ok:
+                    languages = l.json()
+            else:
+                languages = json.loads(cache)
 
-    # orgs
-    orgs_match = re.search('<orgs>(.*)</orgs>', template,
-                           flags=re.I | re.M | re.S)
-    orgs_template = orgs_match.group(1).strip()
+            lines = 0
+            lang_percent = {}
 
-    orgs = ""
+            if languages is None:
+                return False
 
-    for org in config['organizations']:
+            for count in list(languages.values()):
+                lines += count
+                self.total_lines += count
 
-        row = orgs_template
-        row = row.replace("{org_url}", org[0])
-        row = row.replace("{org_name}", org[1])
+            for lang in languages:
+                if lang not in self.total_lines_lang:
+                    self.total_lines_lang[lang] = 0
+                self.total_lines_lang[lang] += languages[lang]
+                lang_percent[lang] = round(
+                    round(languages[lang] / lines, 2) * 100)
 
-        orgs += row + "\n"
+            language = ""
+            for lang in lang_percent:
+                if lang_percent[lang] != 0:
+                    language += lang + " " + str(lang_percent[lang]) + "%<br/>"
 
-    template = template.replace("{github_url}", config['github_url'])
-    template = template.replace("{linkedin_url}", config['linkedin_url'])
-    template = re.sub('<orgs>(.*)</orgs>', orgs,
-                      template, flags=re.I | re.M | re.S)
-    template = re.sub('<repos>(.*)</repos>', rows,
-                      template, flags=re.I | re.M | re.S)
-    print(template)
+            language = language[0:len(language) - 2]
 
-    f = open("README.md", "w")
-    f.write(template)
-    f.close()
+            if cache is False:
+                self.cache_file(name, json.dumps(languages))
+                pprint(json.dumps(languages))
+
+            return language
+        except:
+            raise Exception("Failed reading languages")
+
+    def generate_repos(self):
+        try:
+            rows_match = re.search('<repos>(.*)</repos>',
+                                   self.template, flags=re.I | re.M | re.S)
+            rows_template = rows_match.group(1).strip()
+
+            rows = ""
+
+            live = self.config['live']
+
+            for repo in self.repos:
+
+                language = self.get_repo_languages(repo['name'])
+                language = language if language is not False else repo['language']
+
+                html_url = repo['html_url']
+                name = repo['name']
+                live_url = live[repo['name']
+                                ][0] if repo['name'] in live else ""
+                live_name = live[repo['name']
+                                 ][1] if repo['name'] in live else ""
+                license = repo['license']['name'] if repo['license'] is not None else ""
+                updated_at = repo['updated_at'] if repo['updated_at'] is not None else ""
+                open_issues_count = str(repo['open_issues_count'])
+
+                row = rows_template
+                row = row.replace("{language}", language)
+                row = row.replace("{html_url}", html_url)
+                row = row.replace("{name}", name)
+                row = row.replace("{live_url}", live_url)
+                row = row.replace("{live_name}", live_name)
+                row = row.replace("{license}", license)
+                row = row.replace("{updated_at}", updated_at.split('T')[0])
+                # row = row.replace("{open_issues_count}", open_issues_count)
+
+                rows += row + "\n"
+            self.template = re.sub('<repos>(.*)</repos>', rows,
+                                   self.template, flags=re.I | re.M | re.S)
+        except:
+            raise Exception("Failed generating repo list")
+
+    def generate_orgs(self):
+        try:
+            # orgs
+            orgs_match = re.search('<orgs>(.*)</orgs>', self.template,
+                                   flags=re.I | re.M | re.S)
+            orgs_template = orgs_match.group(1).strip()
+
+            orgs = ""
+
+            for org in self.config['organizations']:
+
+                row = orgs_template
+                row = row.replace("{org_url}", org[0])
+                row = row.replace("{org_name}", org[1])
+
+                orgs += row + "\n"
+
+            self.template = re.sub('<orgs>(.*)</orgs>', orgs,
+                                   self.template, flags=re.I | re.M | re.S)
+            return True
+        except:
+            raise Exception("Failed generating org list")
+
+    def favourite_langs(self):
+        # langs
+        langs_match = re.search('<langs>(.*)</langs>', self.template,
+                                flags=re.I | re.M | re.S)
+        langs_template = langs_match.group(1).strip()
+
+        langs = ""
+
+        total_percent = 0
+
+        for lang in self.total_lines_lang:
+
+            row = langs_template
+            # percent = round(
+            #    round(self.total_lines_lang[lang] / self.total_lines, 2) * 100, 2)
+            # total_percent += percent
+            row = row.replace("{language}", lang)
+            row = row.replace("{lines}", str(self.total_lines_lang[lang]))
+            langs += row + "\n"
+
+        self.template = re.sub('<langs>(.*)</langs>', langs,
+                               self.template, flags=re.I | re.M | re.S)
+
+    def generate_readme(self):
+        try:
+            self.generate_orgs()
+            self.generate_repos()
+            self.favourite_langs()
+            self.template = self.template.replace(
+                "{github_url}", self.config['github_url'])
+            self.template = self.template.replace(
+                "{linkedin_url}", self.config['linkedin_url'])
+
+            print(self.template)
+
+            f = open("README.md", "w")
+            f.write(self.template)
+            f.close()
+            return True
+
+        except:
+            raise Exception("Failed generating readme")
+
+
+ReadmeUpdater()

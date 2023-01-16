@@ -1,6 +1,7 @@
 name: profile updater
 
 on:
+  repository_dispatch:
   push:
   schedule:
     - cron: '0 0 * * *'

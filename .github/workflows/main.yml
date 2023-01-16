@@ -1,13 +1,12 @@
 name: profile updater
 
-permissions:
-  contents: write-all
-
 on:
   push:
   schedule:
     - cron: '0 0 * * *'
     
+permissions: write-all
+
 jobs:
   build:
     name: Update readme

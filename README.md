@@ -51,7 +51,7 @@
 <td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>171555</td>
 <td><img src='https://img.shields.io/badge/_-M4-701516.svg?style=for-the-badge' title='M4'  height='20px'/></td><td>129949</td>
 </tr><tr>
-<td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>328824</td>
+<td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>328837</td>
 <td><img src='https://img.shields.io/badge/_-Vim Script -11DDDD.svg?style=for-the-badge' title='Vim Script'  height='20px'/></td><td>258</td>
 <td><img src='https://img.shields.io/badge/_-Emacs Lisp -11DDDD.svg?style=for-the-badge' title='Emacs Lisp'  height='20px'/></td><td>210</td>
 <td><img src='https://img.shields.io/badge/_-Roff-114466.svg?style=for-the-badge' title='Roff'  height='20px'/></td><td>11219</td>

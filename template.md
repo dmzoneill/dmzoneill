@@ -40,7 +40,6 @@
       <td><b>Name</b></td>
       <td><b>Live</b></td>
       <td><b>License</b></td>
-      <td><b>Updated</b></td>
       <td><b>Status</b></td>
     </tr>
   </thead>
@@ -48,11 +47,10 @@
     <repos>
         <tr>
             <td>{language}</td>
-            <td><a href='{html_url}' title='{name}' style='font-size:12pt'>{name}</a></td>
-            <td><a href='{live_url}' title='{live_name}' style='font-size:12pt'>{live_name}</a></td>
-            <td><span style='font-size:12pt'>{license}</span></td>
-            <td><span style='font-size:12pt'>{updated_at}</span></td>
-            <td><img src='{badge}' height='20px'></td>
+            <td><a href='{html_url}' title='{name}'>{name}</a></td>
+            <td><a href='{live_url}' title='{live_name}'>{live_name}</a></td>
+            <td>{license}</td>
+            <td><img src='{badge}' height='20px'/><br/>{updated_at}</td>
         </tr>
     </repos>
   </tbody>

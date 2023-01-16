@@ -126,7 +126,7 @@ class ReadmeUpdater:
                     badge = self.config['badges'][lang] if lang in self.config['badges'] else ""
                     badge = "https://img.shields.io/badge/_-" + lang + \
                         " -11DDDD.svg?style=for-the-badge" if badge == "" else badge
-                    language += "<img style='vertical-align:middle' src='" + badge + "' title='" + \
+                    language += "<img src='" + badge + "' title='" + \
                         badge + "' height='20px'/>" + \
                         "<br/>"  # + str(lang_percent[lang]) + "%<br/>"
 
@@ -222,7 +222,7 @@ class ReadmeUpdater:
             badge = self.config['badges'][lang] if lang in self.config['badges'] else ""
             badge = "https://img.shields.io/badge/_-" + lang + \
                 " -11DDDD.svg?style=for-the-badge" if badge == "" else badge
-            row = row.replace("{language}", "<img style='vertical-align:middle' src='" +
+            row = row.replace("{language}", "<img src='" +
                               badge + "' title='" + lang + "'  height='20px'/>")
             row = row.replace("{lines}", str(self.total_lines_lang[lang]))
             langs += row + "\n"

@@ -1,27 +1,32 @@
-<span>
-<h3>Hey</h3>
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> 
-<a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+<table>
+  <thead>
+    <tr>
+      <th>About</th>
+      <th>Language</th>
+      <th>Lines</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan='28'>
+      
+        <h3>Hey</h3>
+        <a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> 
+        <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 
-<h3>Work related stuff over on</h3>
-- <a href='https://github.com/dmzoneill-forks'>My forks</a><br/>
+        <h3>Work related stuff over on</h3>
+        - <a href='https://github.com/dmzoneill-forks'>My forks</a><br/>
 - <a href='https://github.com/RedHatInsights'>RedHat Insights</a><br/>
 - <a href='https://github.com/app-sre'>AppSRE</a><br/>
 - <a href='https://github.com/Redhat-forks'>Redhat forks</a><br/>
 - <a href='https://github.com/Canonical-forks'>Canonical forks</a><br/>
 - <a href='https://github.com/Intel-forks'>Intel forks</a><br/>
 
-</span>
-<span>
-<h3>Lines of code</h3>    
-<table>
-  <thead>
-    <tr>
-      <th>Language</th>
-      <th>Lines</th>
+      
+      </td>
+      <td>{language}</td>
+      <td>{lines}</td>
     </tr>
-  </thead>
-  <tbody>
     <tr>
         <td><img src='https://img.shields.io/badge/_-SCSS -11DDDD.svg?style=for-the-badge' title='SCSS'  height='20px'/></td>
         <td>144</td>
@@ -88,7 +93,7 @@
       </tr>
 <tr>
         <td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td>
-        <td>337762</td>
+        <td>337881</td>
       </tr>
 <tr>
         <td><img src='https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white' title='Swift'  height='20px'/></td>
@@ -133,7 +138,6 @@
 
   </tbody>
 </table>
-</span>
 
 ### Some things i've been poking at
 

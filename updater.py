@@ -239,6 +239,8 @@ class ReadmeUpdater:
                 "{github_url}", self.config['github_url'])
             self.template = self.template.replace(
                 "{linkedin_url}", self.config['linkedin_url'])
+            self.template = self.template.replace(
+                "{langcount}", str(len(self.total_lines_lang) + 1))
 
             print(self.template)
 

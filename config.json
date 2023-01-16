@@ -30,9 +30,9 @@
     ]
   },
   "organizations": [
-    ["https://github.com/dmzoneill-forks", "dmzoneill-forks"],
-    ["https://github.com/RedHatInsights", "RedHatInsights"],
-    ["https://github.com/app-sre", "Appsre"],
+    ["https://github.com/dmzoneill-forks", "My forks"],
+    ["https://github.com/RedHatInsights", "RedHat Insights"],
+    ["https://github.com/app-sre", "AppSRE"],
     ["https://github.com/Redhat-forks", "Redhat forks"],
     ["https://github.com/Canonical-forks", "Canonical forks"],
     ["https://github.com/Intel-forks", "Intel forks"]

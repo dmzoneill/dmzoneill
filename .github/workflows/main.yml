@@ -1,0 +1,21 @@
+name: profile updater
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+    
+jobs:
+  build:
+    name: Update readme
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Run a one-line script
+      env:
+         ghtoken: ${{ secrets.PUBLISH }}
+      run: python updater.py
+    - uses: mikeal/publish-to-github-action@master
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        BRANCH_NAME: '' #optional defaults to master

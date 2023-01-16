@@ -4,12 +4,12 @@
 <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 
 <h3>Work related stuff over on</h3>
-- <a href='https://github.com/dmzoneill-forks'>My forks</a>
-- <a href='https://github.com/RedHatInsights'>RedHat Insights</a>
-- <a href='https://github.com/app-sre'>AppSRE</a>
-- <a href='https://github.com/Redhat-forks'>Redhat forks</a>
-- <a href='https://github.com/Canonical-forks'>Canonical forks</a>
-- <a href='https://github.com/Intel-forks'>Intel forks</a>
+- <a href='https://github.com/dmzoneill-forks'>My forks</a><br/>
+- <a href='https://github.com/RedHatInsights'>RedHat Insights</a><br/>
+- <a href='https://github.com/app-sre'>AppSRE</a><br/>
+- <a href='https://github.com/Redhat-forks'>Redhat forks</a><br/>
+- <a href='https://github.com/Canonical-forks'>Canonical forks</a><br/>
+- <a href='https://github.com/Intel-forks'>Intel forks</a><br/>
 
 </span>
 <span>

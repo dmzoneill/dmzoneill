@@ -17,8 +17,8 @@
 <table>
   <thead align="center">
     <tr border: none;>
-      <td><b>Language</b></td>
-      <td><b>Lines</b></td>
+      <th>Language</th>
+      <th>Lines</th>
     </tr>
   </thead>
   <tbody>
@@ -36,11 +36,11 @@
 <table>
   <thead align="center">
     <tr border: none;>
-      <td><b>Language</b></td>
-      <td><b>Name</b></td>
-      <td><b>Live</b></td>
-      <td><b>License</b></td>
-      <td><b>Status</b></td>
+      <th>Language</th>
+      <th>Name</th>
+      <th>Live</th>
+      <th>License</th>
+      <th>Status</th>
     </tr>
   </thead>
   <tbody>

@@ -13,15 +13,20 @@
     <tr>
       <th>Language</th>
       <th>Lines</th>
+      <th>Language</th>
+      <th>Lines</th>
+      <th>Language</th>
+      <th>Lines</th>
+      <th>Language</th>
+      <th>Lines</th>
     </tr>
   </thead>
   <tbody>
-    <langs>
-      <tr>
-        <td>{language}</td>
-        <td>{lines}</td>
-      </tr>
+    <tr>
+    <langs>      
+      <td>{language}</td><td>{lines}</td>      
     </langs>
+    </tr>
   </tbody>
 </table>
 

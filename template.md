@@ -15,7 +15,7 @@
 ### Lines of code
 
 <table>
-  <thead align="center">
+  <thead>
     <tr border: none;>
       <th>Language</th>
       <th>Lines</th>
@@ -34,7 +34,7 @@
 ### Some things i've been poking at
 
 <table>
-  <thead align="center">
+  <thead>
     <tr border: none;>
       <th>Language</th>
       <th>Name</th>
@@ -50,7 +50,7 @@
             <td><a href='{html_url}' title='{name}'>{name}</a></td>
             <td><a href='{live_url}' title='{live_name}'>{live_name}</a></td>
             <td>{license}</td>
-            <td><img src='{badge}' height='20px'/><br/>{updated_at}</td>
+            <td align="center"><img src='{badge}' height='20px'/><br/>{updated_at}</td>
         </tr>
     </repos>
   </tbody>

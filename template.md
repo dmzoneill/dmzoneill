@@ -47,11 +47,11 @@
   <tbody>
     <repos>
         <tr>
-            <td>{language}</a></td>
-            <td><a href='{html_url}' title='{name}'>{name}</a></td>
-            <td><a href='{live_url}' title='{live_name}'>{live_name}</a></td>
-            <td>{license}</td>
-            <td>{updated_at}</td>
+            <td>{language}</td>
+            <td><a href='{html_url}' title='{name}' style='font-size:12pt'>{name}</a></td>
+            <td><a href='{live_url}' title='{live_name}' style='font-size:12pt'>{live_name}</a></td>
+            <td><span style='font-size:12pt'>{license}</span></td>
+            <td><span style='font-size:12pt'>{updated_at}</span></td>
             <td><img src='https://github.com/dmzoneill/{name}/actions/workflows/main.yml/badge.svg' height='20px'></td>
         </tr>
     </repos>

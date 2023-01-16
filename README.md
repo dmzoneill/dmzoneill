@@ -88,7 +88,7 @@
       </tr>
 <tr>
         <td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td>
-        <td>337853</td>
+        <td>337762</td>
       </tr>
 <tr>
         <td><img src='https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white' title='Swift'  height='20px'/></td>
@@ -149,7 +149,7 @@
     <tr>
             <td><a href='https://github.com/dmzoneill/markdown-badges' title='markdown-badges'>markdown-badges</a><br/><img src='https://img.shields.io/badge/_-SCSS -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-SCSS -11DDDD.svg?style=for-the-badge' height='20px'/<br/><br/>MIT License</td>
             <td><a href='' title=''></a></td>
-            <td align="center"><img src='https://avatars.githubusercontent.com/u/122704019?s=64&v=4' height='20px'/><br/>2023-01-16</td>
+            <td align="center"><img src='https://github.com/dmzoneill/markdown-badges/actions/workflows/main.yml/badge.svg' height='20px'/><br/>2023-01-16</td>
         </tr>
 <tr>
             <td><a href='https://github.com/dmzoneill/MergedLogTimeline' title='MergedLogTimeline'>MergedLogTimeline</a><br/><img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' height='20px'/<br/><br/>Apache License 2.0</td>
@@ -279,7 +279,7 @@
 <tr>
             <td><a href='https://github.com/dmzoneill/cpuminer-multi' title='cpuminer-multi'>cpuminer-multi</a><br/><img src='https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white' title='https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/_-ASM-6E4C13.svg?style=for-the-badge' title='https://img.shields.io/badge/_-ASM-6E4C13.svg?style=for-the-badge' height='20px'/> <img src='https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white' title='https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white' height='20px'/<br/><br/>GNU General Public License v2.0</td>
             <td><a href='' title=''></a></td>
-            <td align="center"><img src='https://avatars.githubusercontent.com/u/122704019?s=64&v=4' height='20px'/><br/>2022-04-26</td>
+            <td align="center"><img src='https://github.com/dmzoneill/cpuminer-multi/actions/workflows/main.yml/badge.svg' height='20px'/><br/>2022-04-26</td>
         </tr>
 <tr>
             <td><a href='https://github.com/dmzoneill/curriculum-vitae' title='curriculum-vitae'>curriculum-vitae</a><br/><img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' height='20px'/<br/><br/>Apache License 2.0</td>

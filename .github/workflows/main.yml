@@ -1,5 +1,8 @@
 name: profile updater
 
+permissions:
+  contents: write-all
+
 on:
   push:
   schedule:

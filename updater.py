@@ -7,7 +7,7 @@ from pprint import pprint
 
 class ReadmeUpdater:
 
-    repos_url = 'https://api.github.com/users/dmzoneill/repos'
+    repos_url = 'https://api.github.com/users/dmzoneill/repos?per_page=100'
     url_url = 'https://api.github.com/users/dmzoneill'
     cache_dir = "./cache"
     config_file = "config.json"

@@ -260,7 +260,7 @@
             <td>TypeScript 56%<br/>Go 31%<br/>CSS 8%<br/>JavaScript 2%<br/>Dockerfile 1%<br/>Makefile 1%<br</a></td>
             <td><a href='https://github.com/dmzoneill/aa-dev-prod-watcher' title='aa-dev-prod-watcher'>aa-dev-prod-watcher</a></td>
             <td><a href='' title=''></a></td>
-            <td></td>
+            <td>Apache License 2.0</td>
             <td>2022-06-13</td>
         </tr>
 <tr>
@@ -288,7 +288,7 @@
             <td>C 92%<br/>Assembly 5%<br/>C++ 1%<br</a></td>
             <td><a href='https://github.com/dmzoneill/cpuminer-multi' title='cpuminer-multi'>cpuminer-multi</a></td>
             <td><a href='' title=''></a></td>
-            <td>Other</td>
+            <td>GNU General Public License v2.0</td>
             <td>2022-04-26</td>
         </tr>
 <tr>

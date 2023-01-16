@@ -5,7 +5,7 @@
 
 <h3>Work related stuff over on</h3>
 <orgs>
-- <a href='{org_url}'>{org_name}</a>
+- <a href='{org_url}'>{org_name}</a><br/>
 </orgs>
 </span>
 <span>

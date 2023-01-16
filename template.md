@@ -52,7 +52,7 @@
             <td><a href='{live_url}' title='{live_name}'>{live_name}</a></td>
             <td>{license}</td>
             <td>{updated_at}</td>
-            <td><img src='https://github.com/dmzoneill/{name}/actions/workflows/main.yml/badge.svg)' height='20px'></td>
+            <td><img src='https://github.com/dmzoneill/{name}/actions/workflows/main.yml/badge.svg' height='20px'></td>
         </tr>
     </repos>
   </tbody>

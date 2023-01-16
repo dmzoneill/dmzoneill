@@ -35,6 +35,18 @@
             <td>2547440</td>
         </tr>
 <tr>
+            <td>C#</a></td>
+            <td>2193401</td>
+        </tr>
+<tr>
+            <td>TeX</a></td>
+            <td>339676</td>
+        </tr>
+<tr>
+            <td>Perl</a></td>
+            <td>251007</td>
+        </tr>
+<tr>
             <td>JavaScript</a></td>
             <td>629106</td>
         </tr>
@@ -43,12 +55,24 @@
             <td>96734</td>
         </tr>
 <tr>
-            <td>Hack</a></td>
-            <td>54801</td>
-        </tr>
-<tr>
             <td>Shell</a></td>
             <td>62044</td>
+        </tr>
+<tr>
+            <td>Raku</a></td>
+            <td>582</td>
+        </tr>
+<tr>
+            <td>Batchfile</a></td>
+            <td>497</td>
+        </tr>
+<tr>
+            <td>Smalltalk</a></td>
+            <td>10</td>
+        </tr>
+<tr>
+            <td>Hack</a></td>
+            <td>54801</td>
         </tr>
 <tr>
             <td>Java</a></td>
@@ -65,10 +89,6 @@
 <tr>
             <td>Python</a></td>
             <td>337069</td>
-        </tr>
-<tr>
-            <td>C#</a></td>
-            <td>2192657</td>
         </tr>
 <tr>
             <td>Swift</a></td>
@@ -95,10 +115,6 @@
             <td>15758</td>
         </tr>
 <tr>
-            <td>Perl</a></td>
-            <td>250136</td>
-        </tr>
-<tr>
             <td>C</a></td>
             <td>4986865</td>
         </tr>
@@ -113,26 +129,6 @@
 <tr>
             <td>M4</a></td>
             <td>8485</td>
-        </tr>
-<tr>
-            <td>TeX</a></td>
-            <td>339676</td>
-        </tr>
-<tr>
-            <td>Smalltalk</a></td>
-            <td>754</td>
-        </tr>
-<tr>
-            <td>Prolog</a></td>
-            <td>729</td>
-        </tr>
-<tr>
-            <td>Raku</a></td>
-            <td>724</td>
-        </tr>
-<tr>
-            <td>Batchfile</a></td>
-            <td>497</td>
         </tr>
 
   </tbody>
@@ -152,10 +148,38 @@
   </thead>
   <tbody>
     <tr>
+            <td>PHP 100%<br</a></td>
+            <td><a href='https://github.com/dmzoneill/php-binance-bot' title='php-binance-bot'>php-binance-bot</a></td>
+            <td><a href='' title=''></a></td>
+            <td>Apache License 2.0</td>
+            <td>2023-01-16</td>
+        </tr>
+<tr>
+            <td>HTML 63%<br/>PHP 37%<br</a></td>
+            <td><a href='https://github.com/dmzoneill/MergedLogTimeline' title='MergedLogTimeline'>MergedLogTimeline</a></td>
+            <td><a href='' title=''></a></td>
+            <td>Apache License 2.0</td>
+            <td>2023-01-16</td>
+        </tr>
+<tr>
+            <td>HTML 42%<br/>C# 41%<br/>TeX 7%<br/>Perl 5%<br/>JavaScript 4%<br</a></td>
+            <td><a href='https://github.com/dmzoneill/Linux-Group-Policy' title='Linux-Group-Policy'>Linux-Group-Policy</a></td>
+            <td><a href='' title=''></a></td>
+            <td>Apache License 2.0</td>
+            <td>2023-01-16</td>
+        </tr>
+<tr>
+            <td>JavaScript 100%<br</a></td>
+            <td><a href='https://github.com/dmzoneill/MattersHighLight' title='MattersHighLight'>MattersHighLight</a></td>
+            <td><a href='' title=''></a></td>
+            <td>Apache License 2.0</td>
+            <td>2023-01-16</td>
+        </tr>
+<tr>
             <td>PHP 88%<br/>HTML 8%<br/>JavaScript 1%<br/>CSS 1%<br/>Hack 1%<br</a></td>
             <td><a href='https://github.com/dmzoneill/Evolution-BB' title='Evolution-BB'>Evolution-BB</a></td>
             <td><a href='' title=''></a></td>
-            <td></td>
+            <td>Apache License 2.0</td>
             <td>2023-01-16</td>
         </tr>
 <tr>
@@ -190,7 +214,7 @@
             <td>C# 100%<br</a></td>
             <td><a href='https://github.com/dmzoneill/filebotpp' title='filebotpp'>filebotpp</a></td>
             <td><a href='' title=''></a></td>
-            <td></td>
+            <td>Apache License 2.0</td>
             <td>2023-01-15</td>
         </tr>
 <tr>
@@ -218,15 +242,8 @@
             <td>Python 95%<br/>Makefile 5%<br</a></td>
             <td><a href='https://github.com/dmzoneill/gnome-extension-publisher' title='gnome-extension-publisher'>gnome-extension-publisher</a></td>
             <td><a href='https://pypi.org/project/gnome-extension-publisher/' title='PYPI Package'>PYPI Package</a></td>
-            <td></td>
+            <td>Apache License 2.0</td>
             <td>2023-01-14</td>
-        </tr>
-<tr>
-            <td>PHP 100%<br</a></td>
-            <td><a href='https://github.com/dmzoneill/php-binance-bot' title='php-binance-bot'>php-binance-bot</a></td>
-            <td><a href='' title=''></a></td>
-            <td></td>
-            <td>2023-01-12</td>
         </tr>
 <tr>
             <td>Python 98%<br/>Dockerfile 2%<br</a></td>
@@ -281,7 +298,7 @@
             <td>Python 100%<br</a></td>
             <td><a href='https://github.com/dmzoneill/jackett-indexarr' title='jackett-indexarr'>jackett-indexarr</a></td>
             <td><a href='' title=''></a></td>
-            <td></td>
+            <td>Apache License 2.0</td>
             <td>2022-07-10</td>
         </tr>
 <tr>
@@ -330,7 +347,7 @@
             <td>Python 80%<br/>Shell 10%<br/>PHP 9%<br</a></td>
             <td><a href='https://github.com/dmzoneill/home-helper-scripts' title='home-helper-scripts'>home-helper-scripts</a></td>
             <td><a href='' title=''></a></td>
-            <td></td>
+            <td>Apache License 2.0</td>
             <td>2022-04-17</td>
         </tr>
 <tr>
@@ -339,27 +356,6 @@
             <td><a href='' title=''></a></td>
             <td>Apache License 2.0</td>
             <td>2022-01-09</td>
-        </tr>
-<tr>
-            <td>JavaScript 100%<br</a></td>
-            <td><a href='https://github.com/dmzoneill/MattersHighLight' title='MattersHighLight'>MattersHighLight</a></td>
-            <td><a href='' title=''></a></td>
-            <td></td>
-            <td>2021-02-26</td>
-        </tr>
-<tr>
-            <td>HTML 42%<br/>C# 41%<br/>TeX 7%<br/>Perl 5%<br/>JavaScript 4%<br</a></td>
-            <td><a href='https://github.com/dmzoneill/Linux-Group-Policy' title='Linux-Group-Policy'>Linux-Group-Policy</a></td>
-            <td><a href='' title=''></a></td>
-            <td></td>
-            <td>2020-12-05</td>
-        </tr>
-<tr>
-            <td>HTML 63%<br/>PHP 37%<br</a></td>
-            <td><a href='https://github.com/dmzoneill/MergedLogTimeline' title='MergedLogTimeline'>MergedLogTimeline</a></td>
-            <td><a href='' title=''></a></td>
-            <td></td>
-            <td>2018-12-12</td>
         </tr>
 
   </tbody>

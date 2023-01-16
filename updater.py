@@ -216,11 +216,9 @@ class ReadmeUpdater:
 
         langs = ""
 
-        i = 1
+        i = 0
         output = ""
         for lang in self.total_lines_lang:
-            if i % 4 == 0:
-                output += "</tr><tr>\n"
             col = langs_template
             badge = self.config['badges'][lang] if lang in self.config['badges'] else ""
             badge = "https://img.shields.io/badge/_-" + lang + \
@@ -230,6 +228,8 @@ class ReadmeUpdater:
             col = col.replace("{lines}", str(self.total_lines_lang[lang]))
             output += col + "\n"
             i += 1
+            if i % 4 == 0:
+                output += "</tr><tr>\n"
 
         self.template = re.sub('<langs>(.*)</langs>', output,
                                self.template, flags=re.I | re.M | re.S)

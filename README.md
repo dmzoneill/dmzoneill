@@ -153,243 +153,243 @@
   </thead>
   <tbody>
     <tr>
-            <td><img style='vertical-align:middle' src='https://img.shields.io/badge/_-SCSS -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-SCSS -11DDDD.svg?style=for-the-badge' height='20px'/><br</a></td>
-            <td><a href='https://github.com/dmzoneill/markdown-badges' title='markdown-badges'>markdown-badges</a></td>
-            <td><a href='' title=''></a></td>
-            <td>MIT License</td>
-            <td>2023-01-16</td>
+            <td><img style='vertical-align:middle' src='https://img.shields.io/badge/_-SCSS -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-SCSS -11DDDD.svg?style=for-the-badge' height='20px'/><br</td>
+            <td><a href='https://github.com/dmzoneill/markdown-badges' title='markdown-badges' style='font-size:12pt'>markdown-badges</a></td>
+            <td><a href='' title='' style='font-size:12pt'></a></td>
+            <td><span style='font-size:12pt'>MIT License</span></td>
+            <td><span style='font-size:12pt'>2023-01-16</span></td>
             <td><img src='https://github.com/dmzoneill/markdown-badges/actions/workflows/main.yml/badge.svg' height='20px'></td>
         </tr>
 <tr>
-            <td><img style='vertical-align:middle' src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' height='20px'/><br/><img style='vertical-align:middle' src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' height='20px'/><br</a></td>
-            <td><a href='https://github.com/dmzoneill/MergedLogTimeline' title='MergedLogTimeline'>MergedLogTimeline</a></td>
-            <td><a href='' title=''></a></td>
-            <td>Apache License 2.0</td>
-            <td>2023-01-16</td>
+            <td><img style='vertical-align:middle' src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' height='20px'/><br/><img style='vertical-align:middle' src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' height='20px'/><br</td>
+            <td><a href='https://github.com/dmzoneill/MergedLogTimeline' title='MergedLogTimeline' style='font-size:12pt'>MergedLogTimeline</a></td>
+            <td><a href='' title='' style='font-size:12pt'></a></td>
+            <td><span style='font-size:12pt'>Apache License 2.0</span></td>
+            <td><span style='font-size:12pt'>2023-01-16</span></td>
             <td><img src='https://github.com/dmzoneill/MergedLogTimeline/actions/workflows/main.yml/badge.svg' height='20px'></td>
         </tr>
 <tr>
-            <td><img style='vertical-align:middle' src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' height='20px'/><br/><img style='vertical-align:middle' src='https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white' title='https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white' height='20px'/><br/><img style='vertical-align:middle' src='https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white' title='https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white' height='20px'/><br/><img style='vertical-align:middle' src='https://img.shields.io/badge/perl-%2339457E.svg?style=for-the-badge&logo=perl&logoColor=white' title='https://img.shields.io/badge/perl-%2339457E.svg?style=for-the-badge&logo=perl&logoColor=white' height='20px'/><br/><img style='vertical-align:middle' src='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' height='20px'/><br</a></td>
-            <td><a href='https://github.com/dmzoneill/Linux-Group-Policy' title='Linux-Group-Policy'>Linux-Group-Policy</a></td>
-            <td><a href='' title=''></a></td>
-            <td>Apache License 2.0</td>
-            <td>2023-01-16</td>
+            <td><img style='vertical-align:middle' src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' height='20px'/><br/><img style='vertical-align:middle' src='https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white' title='https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white' height='20px'/><br/><img style='vertical-align:middle' src='https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white' title='https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white' height='20px'/><br/><img style='vertical-align:middle' src='https://img.shields.io/badge/perl-%2339457E.svg?style=for-the-badge&logo=perl&logoColor=white' title='https://img.shields.io/badge/perl-%2339457E.svg?style=for-the-badge&logo=perl&logoColor=white' height='20px'/><br/><img style='vertical-align:middle' src='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' height='20px'/><br</td>
+            <td><a href='https://github.com/dmzoneill/Linux-Group-Policy' title='Linux-Group-Policy' style='font-size:12pt'>Linux-Group-Policy</a></td>
+            <td><a href='' title='' style='font-size:12pt'></a></td>
+            <td><span style='font-size:12pt'>Apache License 2.0</span></td>
+            <td><span style='font-size:12pt'>2023-01-16</span></td>
             <td><img src='https://github.com/dmzoneill/Linux-Group-Policy/actions/workflows/main.yml/badge.svg' height='20px'></td>
         </tr>
 <tr>
-            <td><img style='vertical-align:middle' src='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' height='20px'/><br</a></td>
-            <td><a href='https://github.com/dmzoneill/MattersHighLight' title='MattersHighLight'>MattersHighLight</a></td>
-            <td><a href='' title=''></a></td>
-            <td>Apache License 2.0</td>
-            <td>2023-01-16</td>
+            <td><img style='vertical-align:middle' src='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' height='20px'/><br</td>
+            <td><a href='https://github.com/dmzoneill/MattersHighLight' title='MattersHighLight' style='font-size:12pt'>MattersHighLight</a></td>
+            <td><a href='' title='' style='font-size:12pt'></a></td>
+            <td><span style='font-size:12pt'>Apache License 2.0</span></td>
+            <td><span style='font-size:12pt'>2023-01-16</span></td>
             <td><img src='https://github.com/dmzoneill/MattersHighLight/actions/workflows/main.yml/badge.svg' height='20px'></td>
         </tr>
 <tr>
-            <td><img style='vertical-align:middle' src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' height='20px'/><br/><img style='vertical-align:middle' src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' height='20px'/><br/><img style='vertical-align:middle' src='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' height='20px'/><br/><img style='vertical-align:middle' src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' height='20px'/><br/><img style='vertical-align:middle' src='https://img.shields.io/badge/_-HACK-878787.svg?style=for-the-badge' title='https://img.shields.io/badge/_-HACK-878787.svg?style=for-the-badge' height='20px'/><br</a></td>
-            <td><a href='https://github.com/dmzoneill/Evolution-BB' title='Evolution-BB'>Evolution-BB</a></td>
-            <td><a href='' title=''></a></td>
-            <td>Apache License 2.0</td>
-            <td>2023-01-16</td>
+            <td><img style='vertical-align:middle' src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' height='20px'/><br/><img style='vertical-align:middle' src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' height='20px'/><br/><img style='vertical-align:middle' src='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' height='20px'/><br/><img style='vertical-align:middle' src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' height='20px'/><br/><img style='vertical-align:middle' src='https://img.shields.io/badge/_-HACK-878787.svg?style=for-the-badge' title='https://img.shields.io/badge/_-HACK-878787.svg?style=for-the-badge' height='20px'/><br</td>
+            <td><a href='https://github.com/dmzoneill/Evolution-BB' title='Evolution-BB' style='font-size:12pt'>Evolution-BB</a></td>
+            <td><a href='' title='' style='font-size:12pt'></a></td>
+            <td><span style='font-size:12pt'>Apache License 2.0</span></td>
+            <td><span style='font-size:12pt'>2023-01-16</span></td>
             <td><img src='https://github.com/dmzoneill/Evolution-BB/actions/workflows/main.yml/badge.svg' height='20px'></td>
         </tr>
 <tr>
-            <td><img style='vertical-align:middle' src='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' height='20px'/><br/><img style='vertical-align:middle' src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' height='20px'/><br</a></td>
-            <td><a href='https://github.com/dmzoneill/CanonicalChromeExtension' title='CanonicalChromeExtension'>CanonicalChromeExtension</a></td>
-            <td><a href='' title=''></a></td>
-            <td>Apache License 2.0</td>
-            <td>2023-01-16</td>
+            <td><img style='vertical-align:middle' src='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' height='20px'/><br/><img style='vertical-align:middle' src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' height='20px'/><br</td>
+            <td><a href='https://github.com/dmzoneill/CanonicalChromeExtension' title='CanonicalChromeExtension' style='font-size:12pt'>CanonicalChromeExtension</a></td>
+            <td><a href='' title='' style='font-size:12pt'></a></td>
+            <td><span style='font-size:12pt'>Apache License 2.0</span></td>
+            <td><span style='font-size:12pt'>2023-01-16</span></td>
             <td><img src='https://github.com/dmzoneill/CanonicalChromeExtension/actions/workflows/main.yml/badge.svg' height='20px'></td>
         </tr>
 <tr>
-            <td><img style='vertical-align:middle' src='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' height='20px'/><br</a></td>
-            <td><a href='https://github.com/dmzoneill/ashtangayogacork.ie-whatsbot' title='ashtangayogacork.ie-whatsbot'>ashtangayogacork.ie-whatsbot</a></td>
-            <td><a href='' title=''></a></td>
-            <td>Apache License 2.0</td>
-            <td>2023-01-16</td>
+            <td><img style='vertical-align:middle' src='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' height='20px'/><br</td>
+            <td><a href='https://github.com/dmzoneill/ashtangayogacork.ie-whatsbot' title='ashtangayogacork.ie-whatsbot' style='font-size:12pt'>ashtangayogacork.ie-whatsbot</a></td>
+            <td><a href='' title='' style='font-size:12pt'></a></td>
+            <td><span style='font-size:12pt'>Apache License 2.0</span></td>
+            <td><span style='font-size:12pt'>2023-01-16</span></td>
             <td><img src='https://github.com/dmzoneill/ashtangayogacork.ie-whatsbot/actions/workflows/main.yml/badge.svg' height='20px'></td>
         </tr>
 <tr>
-            <td><img style='vertical-align:middle' src='https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white' title='https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white' height='20px'/><br</a></td>
-            <td><a href='https://github.com/dmzoneill/android-digiweb-usage' title='android-digiweb-usage'>android-digiweb-usage</a></td>
-            <td><a href='' title=''></a></td>
-            <td>Apache License 2.0</td>
-            <td>2023-01-16</td>
+            <td><img style='vertical-align:middle' src='https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white' title='https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white' height='20px'/><br</td>
+            <td><a href='https://github.com/dmzoneill/android-digiweb-usage' title='android-digiweb-usage' style='font-size:12pt'>android-digiweb-usage</a></td>
+            <td><a href='' title='' style='font-size:12pt'></a></td>
+            <td><span style='font-size:12pt'>Apache License 2.0</span></td>
+            <td><span style='font-size:12pt'>2023-01-16</span></td>
             <td><img src='https://github.com/dmzoneill/android-digiweb-usage/actions/workflows/main.yml/badge.svg' height='20px'></td>
         </tr>
 <tr>
-            <td><img style='vertical-align:middle' src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' height='20px'/><br</a></td>
-            <td><a href='https://github.com/dmzoneill/dmzoneill' title='dmzoneill'>dmzoneill</a></td>
-            <td><a href='https://github.com/dmzoneill' title='Github profile'>Github profile</a></td>
-            <td>Apache License 2.0</td>
-            <td>2023-01-16</td>
+            <td><img style='vertical-align:middle' src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' height='20px'/><br</td>
+            <td><a href='https://github.com/dmzoneill/dmzoneill' title='dmzoneill' style='font-size:12pt'>dmzoneill</a></td>
+            <td><a href='https://github.com/dmzoneill' title='Github profile' style='font-size:12pt'>Github profile</a></td>
+            <td><span style='font-size:12pt'>Apache License 2.0</span></td>
+            <td><span style='font-size:12pt'>2023-01-16</span></td>
             <td><img src='https://github.com/dmzoneill/dmzoneill/actions/workflows/main.yml/badge.svg' height='20px'></td>
         </tr>
 <tr>
-            <td><img style='vertical-align:middle' src='https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white' title='https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white' height='20px'/><br</a></td>
-            <td><a href='https://github.com/dmzoneill/filebotpp' title='filebotpp'>filebotpp</a></td>
-            <td><a href='' title=''></a></td>
-            <td>Apache License 2.0</td>
-            <td>2023-01-15</td>
+            <td><img style='vertical-align:middle' src='https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white' title='https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white' height='20px'/><br</td>
+            <td><a href='https://github.com/dmzoneill/filebotpp' title='filebotpp' style='font-size:12pt'>filebotpp</a></td>
+            <td><a href='' title='' style='font-size:12pt'></a></td>
+            <td><span style='font-size:12pt'>Apache License 2.0</span></td>
+            <td><span style='font-size:12pt'>2023-01-15</span></td>
             <td><img src='https://github.com/dmzoneill/filebotpp/actions/workflows/main.yml/badge.svg' height='20px'></td>
         </tr>
 <tr>
-            <td><img style='vertical-align:middle' src='https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white' title='https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white' height='20px'/><br</a></td>
-            <td><a href='https://github.com/dmzoneill/ashtangayogacork.ie-ios' title='ashtangayogacork.ie-ios'>ashtangayogacork.ie-ios</a></td>
-            <td><a href='https://apps.apple.com/us/app/ashtanga-yoga-cork/id1508794150' title='IOS app'>IOS app</a></td>
-            <td>Apache License 2.0</td>
-            <td>2023-01-15</td>
+            <td><img style='vertical-align:middle' src='https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white' title='https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white' height='20px'/><br</td>
+            <td><a href='https://github.com/dmzoneill/ashtangayogacork.ie-ios' title='ashtangayogacork.ie-ios' style='font-size:12pt'>ashtangayogacork.ie-ios</a></td>
+            <td><a href='https://apps.apple.com/us/app/ashtanga-yoga-cork/id1508794150' title='IOS app' style='font-size:12pt'>IOS app</a></td>
+            <td><span style='font-size:12pt'>Apache License 2.0</span></td>
+            <td><span style='font-size:12pt'>2023-01-15</span></td>
             <td><img src='https://github.com/dmzoneill/ashtangayogacork.ie-ios/actions/workflows/main.yml/badge.svg' height='20px'></td>
         </tr>
 <tr>
-            <td><img style='vertical-align:middle' src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' height='20px'/><br</a></td>
-            <td><a href='https://github.com/dmzoneill/filebot-nautilus' title='filebot-nautilus'>filebot-nautilus</a></td>
-            <td><a href='' title=''></a></td>
-            <td>Apache License 2.0</td>
-            <td>2023-01-15</td>
+            <td><img style='vertical-align:middle' src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' height='20px'/><br</td>
+            <td><a href='https://github.com/dmzoneill/filebot-nautilus' title='filebot-nautilus' style='font-size:12pt'>filebot-nautilus</a></td>
+            <td><a href='' title='' style='font-size:12pt'></a></td>
+            <td><span style='font-size:12pt'>Apache License 2.0</span></td>
+            <td><span style='font-size:12pt'>2023-01-15</span></td>
             <td><img src='https://github.com/dmzoneill/filebot-nautilus/actions/workflows/main.yml/badge.svg' height='20px'></td>
         </tr>
 <tr>
-            <td><img style='vertical-align:middle' src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' height='20px'/><br/><img style='vertical-align:middle' src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' height='20px'/><br/><img style='vertical-align:middle' src='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' height='20px'/><br/><img style='vertical-align:middle' src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' height='20px'/><br/><img style='vertical-align:middle' src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' height='20px'/><br</a></td>
-            <td><a href='https://github.com/dmzoneill/ashtangayogacork.ie-doorpi' title='ashtangayogacork.ie-doorpi'>ashtangayogacork.ie-doorpi</a></td>
-            <td><a href='' title=''></a></td>
-            <td>Apache License 2.0</td>
-            <td>2023-01-15</td>
+            <td><img style='vertical-align:middle' src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' height='20px'/><br/><img style='vertical-align:middle' src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' height='20px'/><br/><img style='vertical-align:middle' src='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' height='20px'/><br/><img style='vertical-align:middle' src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' height='20px'/><br/><img style='vertical-align:middle' src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' height='20px'/><br</td>
+            <td><a href='https://github.com/dmzoneill/ashtangayogacork.ie-doorpi' title='ashtangayogacork.ie-doorpi' style='font-size:12pt'>ashtangayogacork.ie-doorpi</a></td>
+            <td><a href='' title='' style='font-size:12pt'></a></td>
+            <td><span style='font-size:12pt'>Apache License 2.0</span></td>
+            <td><span style='font-size:12pt'>2023-01-15</span></td>
             <td><img src='https://github.com/dmzoneill/ashtangayogacork.ie-doorpi/actions/workflows/main.yml/badge.svg' height='20px'></td>
         </tr>
 <tr>
-            <td><img style='vertical-align:middle' src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' height='20px'/><br/><img style='vertical-align:middle' src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' height='20px'/><br</a></td>
-            <td><a href='https://github.com/dmzoneill/gnome-extension-publisher' title='gnome-extension-publisher'>gnome-extension-publisher</a></td>
-            <td><a href='https://pypi.org/project/gnome-extension-publisher/' title='PYPI Package'>PYPI Package</a></td>
-            <td>Apache License 2.0</td>
-            <td>2023-01-14</td>
+            <td><img style='vertical-align:middle' src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' height='20px'/><br/><img style='vertical-align:middle' src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' height='20px'/><br</td>
+            <td><a href='https://github.com/dmzoneill/gnome-extension-publisher' title='gnome-extension-publisher' style='font-size:12pt'>gnome-extension-publisher</a></td>
+            <td><a href='https://pypi.org/project/gnome-extension-publisher/' title='PYPI Package' style='font-size:12pt'>PYPI Package</a></td>
+            <td><span style='font-size:12pt'>Apache License 2.0</span></td>
+            <td><span style='font-size:12pt'>2023-01-14</span></td>
             <td><img src='https://github.com/dmzoneill/gnome-extension-publisher/actions/workflows/main.yml/badge.svg' height='20px'></td>
         </tr>
 <tr>
-            <td><img style='vertical-align:middle' src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' height='20px'/><br/><img style='vertical-align:middle' src='https://img.shields.io/badge/_-Dockerfile -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Dockerfile -11DDDD.svg?style=for-the-badge' height='20px'/><br</a></td>
-            <td><a href='https://github.com/dmzoneill/lidarr-youtube-downloader' title='lidarr-youtube-downloader'>lidarr-youtube-downloader</a></td>
-            <td><a href='' title=''></a></td>
-            <td>Apache License 2.0</td>
-            <td>2023-01-03</td>
+            <td><img style='vertical-align:middle' src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' height='20px'/><br/><img style='vertical-align:middle' src='https://img.shields.io/badge/_-Dockerfile -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Dockerfile -11DDDD.svg?style=for-the-badge' height='20px'/><br</td>
+            <td><a href='https://github.com/dmzoneill/lidarr-youtube-downloader' title='lidarr-youtube-downloader' style='font-size:12pt'>lidarr-youtube-downloader</a></td>
+            <td><a href='' title='' style='font-size:12pt'></a></td>
+            <td><span style='font-size:12pt'>Apache License 2.0</span></td>
+            <td><span style='font-size:12pt'>2023-01-03</span></td>
             <td><img src='https://github.com/dmzoneill/lidarr-youtube-downloader/actions/workflows/main.yml/badge.svg' height='20px'></td>
         </tr>
 <tr>
-            <td><img style='vertical-align:middle' src='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' height='20px'/><br</a></td>
-            <td><a href='https://github.com/dmzoneill/Chuckbot' title='Chuckbot'>Chuckbot</a></td>
-            <td><a href='' title=''></a></td>
-            <td>Apache License 2.0</td>
-            <td>2022-12-08</td>
+            <td><img style='vertical-align:middle' src='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' height='20px'/><br</td>
+            <td><a href='https://github.com/dmzoneill/Chuckbot' title='Chuckbot' style='font-size:12pt'>Chuckbot</a></td>
+            <td><a href='' title='' style='font-size:12pt'></a></td>
+            <td><span style='font-size:12pt'>Apache License 2.0</span></td>
+            <td><span style='font-size:12pt'>2022-12-08</span></td>
             <td><img src='https://github.com/dmzoneill/Chuckbot/actions/workflows/main.yml/badge.svg' height='20px'></td>
         </tr>
 <tr>
-            <td></a></td>
-            <td><a href='https://github.com/dmzoneill/Bootstack-Highlight-Monitor' title='Bootstack-Highlight-Monitor'>Bootstack-Highlight-Monitor</a></td>
-            <td><a href='' title=''></a></td>
-            <td>Apache License 2.0</td>
-            <td>2022-12-04</td>
+            <td></td>
+            <td><a href='https://github.com/dmzoneill/Bootstack-Highlight-Monitor' title='Bootstack-Highlight-Monitor' style='font-size:12pt'>Bootstack-Highlight-Monitor</a></td>
+            <td><a href='' title='' style='font-size:12pt'></a></td>
+            <td><span style='font-size:12pt'>Apache License 2.0</span></td>
+            <td><span style='font-size:12pt'>2022-12-04</span></td>
             <td><img src='https://github.com/dmzoneill/Bootstack-Highlight-Monitor/actions/workflows/main.yml/badge.svg' height='20px'></td>
         </tr>
 <tr>
-            <td><img style='vertical-align:middle' src='https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white' title='https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white' height='20px'/><br</a></td>
-            <td><a href='https://github.com/dmzoneill/ashtangayogacork.ie-wearos' title='ashtangayogacork.ie-wearos'>ashtangayogacork.ie-wearos</a></td>
-            <td><a href='https://play.google.com/store/apps/details?id=ie.ayc.wearos' title='Wearos App'>Wearos App</a></td>
-            <td>Apache License 2.0</td>
-            <td>2022-12-04</td>
+            <td><img style='vertical-align:middle' src='https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white' title='https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white' height='20px'/><br</td>
+            <td><a href='https://github.com/dmzoneill/ashtangayogacork.ie-wearos' title='ashtangayogacork.ie-wearos' style='font-size:12pt'>ashtangayogacork.ie-wearos</a></td>
+            <td><a href='https://play.google.com/store/apps/details?id=ie.ayc.wearos' title='Wearos App' style='font-size:12pt'>Wearos App</a></td>
+            <td><span style='font-size:12pt'>Apache License 2.0</span></td>
+            <td><span style='font-size:12pt'>2022-12-04</span></td>
             <td><img src='https://github.com/dmzoneill/ashtangayogacork.ie-wearos/actions/workflows/main.yml/badge.svg' height='20px'></td>
         </tr>
 <tr>
-            <td><img style='vertical-align:middle' src='https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white' title='https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white' height='20px'/><br</a></td>
-            <td><a href='https://github.com/dmzoneill/ashtangayogacork.ie-android' title='ashtangayogacork.ie-android'>ashtangayogacork.ie-android</a></td>
-            <td><a href='https://play.google.com/store/apps/details?id=ie.ayc' title='Android app'>Android app</a></td>
-            <td>Apache License 2.0</td>
-            <td>2022-12-04</td>
+            <td><img style='vertical-align:middle' src='https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white' title='https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white' height='20px'/><br</td>
+            <td><a href='https://github.com/dmzoneill/ashtangayogacork.ie-android' title='ashtangayogacork.ie-android' style='font-size:12pt'>ashtangayogacork.ie-android</a></td>
+            <td><a href='https://play.google.com/store/apps/details?id=ie.ayc' title='Android app' style='font-size:12pt'>Android app</a></td>
+            <td><span style='font-size:12pt'>Apache License 2.0</span></td>
+            <td><span style='font-size:12pt'>2022-12-04</span></td>
             <td><img src='https://github.com/dmzoneill/ashtangayogacork.ie-android/actions/workflows/main.yml/badge.svg' height='20px'></td>
         </tr>
 <tr>
-            <td><img style='vertical-align:middle' src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' height='20px'/><br/><img style='vertical-align:middle' src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' height='20px'/><br</a></td>
-            <td><a href='https://github.com/dmzoneill/aa-concur-reimbursement-internet' title='aa-concur-reimbursement-internet'>aa-concur-reimbursement-internet</a></td>
-            <td><a href='' title=''></a></td>
-            <td>Apache License 2.0</td>
-            <td>2022-07-23</td>
+            <td><img style='vertical-align:middle' src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' height='20px'/><br/><img style='vertical-align:middle' src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' height='20px'/><br</td>
+            <td><a href='https://github.com/dmzoneill/aa-concur-reimbursement-internet' title='aa-concur-reimbursement-internet' style='font-size:12pt'>aa-concur-reimbursement-internet</a></td>
+            <td><a href='' title='' style='font-size:12pt'></a></td>
+            <td><span style='font-size:12pt'>Apache License 2.0</span></td>
+            <td><span style='font-size:12pt'>2022-07-23</span></td>
             <td><img src='https://github.com/dmzoneill/aa-concur-reimbursement-internet/actions/workflows/main.yml/badge.svg' height='20px'></td>
         </tr>
 <tr>
-            <td><img style='vertical-align:middle' src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' height='20px'/><br/><img style='vertical-align:middle' src='https://img.shields.io/badge/_-Dockerfile -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Dockerfile -11DDDD.svg?style=for-the-badge' height='20px'/><br/><img style='vertical-align:middle' src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' height='20px'/><br</a></td>
-            <td><a href='https://github.com/dmzoneill/aa-dns-checker' title='aa-dns-checker'>aa-dns-checker</a></td>
-            <td><a href='' title=''></a></td>
-            <td>Apache License 2.0</td>
-            <td>2022-07-18</td>
+            <td><img style='vertical-align:middle' src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' height='20px'/><br/><img style='vertical-align:middle' src='https://img.shields.io/badge/_-Dockerfile -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Dockerfile -11DDDD.svg?style=for-the-badge' height='20px'/><br/><img style='vertical-align:middle' src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' height='20px'/><br</td>
+            <td><a href='https://github.com/dmzoneill/aa-dns-checker' title='aa-dns-checker' style='font-size:12pt'>aa-dns-checker</a></td>
+            <td><a href='' title='' style='font-size:12pt'></a></td>
+            <td><span style='font-size:12pt'>Apache License 2.0</span></td>
+            <td><span style='font-size:12pt'>2022-07-18</span></td>
             <td><img src='https://github.com/dmzoneill/aa-dns-checker/actions/workflows/main.yml/badge.svg' height='20px'></td>
         </tr>
 <tr>
-            <td><img style='vertical-align:middle' src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' height='20px'/><br</a></td>
-            <td><a href='https://github.com/dmzoneill/jackett-indexarr' title='jackett-indexarr'>jackett-indexarr</a></td>
-            <td><a href='' title=''></a></td>
-            <td>Apache License 2.0</td>
-            <td>2022-07-10</td>
+            <td><img style='vertical-align:middle' src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' height='20px'/><br</td>
+            <td><a href='https://github.com/dmzoneill/jackett-indexarr' title='jackett-indexarr' style='font-size:12pt'>jackett-indexarr</a></td>
+            <td><a href='' title='' style='font-size:12pt'></a></td>
+            <td><span style='font-size:12pt'>Apache License 2.0</span></td>
+            <td><span style='font-size:12pt'>2022-07-10</span></td>
             <td><img src='https://github.com/dmzoneill/jackett-indexarr/actions/workflows/main.yml/badge.svg' height='20px'></td>
         </tr>
 <tr>
-            <td><img style='vertical-align:middle' src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' height='20px'/><br/><img style='vertical-align:middle' src='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' title='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' height='20px'/><br/><img style='vertical-align:middle' src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' height='20px'/><br/><img style='vertical-align:middle' src='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' height='20px'/><br/><img style='vertical-align:middle' src='https://img.shields.io/badge/_-Dockerfile -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Dockerfile -11DDDD.svg?style=for-the-badge' height='20px'/><br/><img style='vertical-align:middle' src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' height='20px'/><br</a></td>
-            <td><a href='https://github.com/dmzoneill/aa-dev-prod-watcher' title='aa-dev-prod-watcher'>aa-dev-prod-watcher</a></td>
-            <td><a href='' title=''></a></td>
-            <td>Apache License 2.0</td>
-            <td>2022-06-13</td>
+            <td><img style='vertical-align:middle' src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' height='20px'/><br/><img style='vertical-align:middle' src='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' title='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' height='20px'/><br/><img style='vertical-align:middle' src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' height='20px'/><br/><img style='vertical-align:middle' src='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' height='20px'/><br/><img style='vertical-align:middle' src='https://img.shields.io/badge/_-Dockerfile -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Dockerfile -11DDDD.svg?style=for-the-badge' height='20px'/><br/><img style='vertical-align:middle' src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' height='20px'/><br</td>
+            <td><a href='https://github.com/dmzoneill/aa-dev-prod-watcher' title='aa-dev-prod-watcher' style='font-size:12pt'>aa-dev-prod-watcher</a></td>
+            <td><a href='' title='' style='font-size:12pt'></a></td>
+            <td><span style='font-size:12pt'>Apache License 2.0</span></td>
+            <td><span style='font-size:12pt'>2022-06-13</span></td>
             <td><img src='https://github.com/dmzoneill/aa-dev-prod-watcher/actions/workflows/main.yml/badge.svg' height='20px'></td>
         </tr>
 <tr>
-            <td><img style='vertical-align:middle' src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' height='20px'/><br/><img style='vertical-align:middle' src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' height='20px'/><br</a></td>
-            <td><a href='https://github.com/dmzoneill/aa-app-interface-stats' title='aa-app-interface-stats'>aa-app-interface-stats</a></td>
-            <td><a href='' title=''></a></td>
-            <td>Apache License 2.0</td>
-            <td>2022-05-15</td>
+            <td><img style='vertical-align:middle' src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' height='20px'/><br/><img style='vertical-align:middle' src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' height='20px'/><br</td>
+            <td><a href='https://github.com/dmzoneill/aa-app-interface-stats' title='aa-app-interface-stats' style='font-size:12pt'>aa-app-interface-stats</a></td>
+            <td><a href='' title='' style='font-size:12pt'></a></td>
+            <td><span style='font-size:12pt'>Apache License 2.0</span></td>
+            <td><span style='font-size:12pt'>2022-05-15</span></td>
             <td><img src='https://github.com/dmzoneill/aa-app-interface-stats/actions/workflows/main.yml/badge.svg' height='20px'></td>
         </tr>
 <tr>
-            <td><img style='vertical-align:middle' src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' height='20px'/><br</a></td>
-            <td><a href='https://github.com/dmzoneill/aa-jenkins-scripts' title='aa-jenkins-scripts'>aa-jenkins-scripts</a></td>
-            <td><a href='' title=''></a></td>
-            <td>Apache License 2.0</td>
-            <td>2022-05-13</td>
+            <td><img style='vertical-align:middle' src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' height='20px'/><br</td>
+            <td><a href='https://github.com/dmzoneill/aa-jenkins-scripts' title='aa-jenkins-scripts' style='font-size:12pt'>aa-jenkins-scripts</a></td>
+            <td><a href='' title='' style='font-size:12pt'></a></td>
+            <td><span style='font-size:12pt'>Apache License 2.0</span></td>
+            <td><span style='font-size:12pt'>2022-05-13</span></td>
             <td><img src='https://github.com/dmzoneill/aa-jenkins-scripts/actions/workflows/main.yml/badge.svg' height='20px'></td>
         </tr>
 <tr>
-            <td><img style='vertical-align:middle' src='https://img.shields.io/badge/perl-%2339457E.svg?style=for-the-badge&logo=perl&logoColor=white' title='https://img.shields.io/badge/perl-%2339457E.svg?style=for-the-badge&logo=perl&logoColor=white' height='20px'/><br</a></td>
-            <td><a href='https://github.com/dmzoneill/aa-rdms-check' title='aa-rdms-check'>aa-rdms-check</a></td>
-            <td><a href='' title=''></a></td>
-            <td>Apache License 2.0</td>
-            <td>2022-05-12</td>
+            <td><img style='vertical-align:middle' src='https://img.shields.io/badge/perl-%2339457E.svg?style=for-the-badge&logo=perl&logoColor=white' title='https://img.shields.io/badge/perl-%2339457E.svg?style=for-the-badge&logo=perl&logoColor=white' height='20px'/><br</td>
+            <td><a href='https://github.com/dmzoneill/aa-rdms-check' title='aa-rdms-check' style='font-size:12pt'>aa-rdms-check</a></td>
+            <td><a href='' title='' style='font-size:12pt'></a></td>
+            <td><span style='font-size:12pt'>Apache License 2.0</span></td>
+            <td><span style='font-size:12pt'>2022-05-12</span></td>
             <td><img src='https://github.com/dmzoneill/aa-rdms-check/actions/workflows/main.yml/badge.svg' height='20px'></td>
         </tr>
 <tr>
-            <td><img style='vertical-align:middle' src='https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white' title='https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white' height='20px'/><br/><img style='vertical-align:middle' src='https://img.shields.io/badge/_-ASM-6E4C13.svg?style=for-the-badge' title='https://img.shields.io/badge/_-ASM-6E4C13.svg?style=for-the-badge' height='20px'/><br/><img style='vertical-align:middle' src='https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white' title='https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white' height='20px'/><br</a></td>
-            <td><a href='https://github.com/dmzoneill/cpuminer-multi' title='cpuminer-multi'>cpuminer-multi</a></td>
-            <td><a href='' title=''></a></td>
-            <td>GNU General Public License v2.0</td>
-            <td>2022-04-26</td>
+            <td><img style='vertical-align:middle' src='https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white' title='https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white' height='20px'/><br/><img style='vertical-align:middle' src='https://img.shields.io/badge/_-ASM-6E4C13.svg?style=for-the-badge' title='https://img.shields.io/badge/_-ASM-6E4C13.svg?style=for-the-badge' height='20px'/><br/><img style='vertical-align:middle' src='https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white' title='https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white' height='20px'/><br</td>
+            <td><a href='https://github.com/dmzoneill/cpuminer-multi' title='cpuminer-multi' style='font-size:12pt'>cpuminer-multi</a></td>
+            <td><a href='' title='' style='font-size:12pt'></a></td>
+            <td><span style='font-size:12pt'>GNU General Public License v2.0</span></td>
+            <td><span style='font-size:12pt'>2022-04-26</span></td>
             <td><img src='https://github.com/dmzoneill/cpuminer-multi/actions/workflows/main.yml/badge.svg' height='20px'></td>
         </tr>
 <tr>
-            <td><img style='vertical-align:middle' src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' height='20px'/><br/><img style='vertical-align:middle' src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' height='20px'/><br/><img style='vertical-align:middle' src='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' height='20px'/><br</a></td>
-            <td><a href='https://github.com/dmzoneill/curriculum-vitae' title='curriculum-vitae'>curriculum-vitae</a></td>
-            <td><a href='https://cv.fio.ie' title='CV'>CV</a></td>
-            <td>Apache License 2.0</td>
-            <td>2022-04-20</td>
+            <td><img style='vertical-align:middle' src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' height='20px'/><br/><img style='vertical-align:middle' src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' height='20px'/><br/><img style='vertical-align:middle' src='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' height='20px'/><br</td>
+            <td><a href='https://github.com/dmzoneill/curriculum-vitae' title='curriculum-vitae' style='font-size:12pt'>curriculum-vitae</a></td>
+            <td><a href='https://cv.fio.ie' title='CV' style='font-size:12pt'>CV</a></td>
+            <td><span style='font-size:12pt'>Apache License 2.0</span></td>
+            <td><span style='font-size:12pt'>2022-04-20</span></td>
             <td><img src='https://github.com/dmzoneill/curriculum-vitae/actions/workflows/main.yml/badge.svg' height='20px'></td>
         </tr>
 <tr>
-            <td><img style='vertical-align:middle' src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' height='20px'/><br/><img style='vertical-align:middle' src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' height='20px'/><br/><img style='vertical-align:middle' src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' height='20px'/><br</a></td>
-            <td><a href='https://github.com/dmzoneill/home-helper-scripts' title='home-helper-scripts'>home-helper-scripts</a></td>
-            <td><a href='' title=''></a></td>
-            <td>Apache License 2.0</td>
-            <td>2022-04-17</td>
+            <td><img style='vertical-align:middle' src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' height='20px'/><br/><img style='vertical-align:middle' src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' height='20px'/><br/><img style='vertical-align:middle' src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' height='20px'/><br</td>
+            <td><a href='https://github.com/dmzoneill/home-helper-scripts' title='home-helper-scripts' style='font-size:12pt'>home-helper-scripts</a></td>
+            <td><a href='' title='' style='font-size:12pt'></a></td>
+            <td><span style='font-size:12pt'>Apache License 2.0</span></td>
+            <td><span style='font-size:12pt'>2022-04-17</span></td>
             <td><img src='https://github.com/dmzoneill/home-helper-scripts/actions/workflows/main.yml/badge.svg' height='20px'></td>
         </tr>
 <tr>
-            <td><img style='vertical-align:middle' src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' height='20px'/><br/><img style='vertical-align:middle' src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' height='20px'/><br/><img style='vertical-align:middle' src='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' height='20px'/><br/><img style='vertical-align:middle' src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' height='20px'/><br/><img style='vertical-align:middle' src='https://img.shields.io/badge/_-Dockerfile -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Dockerfile -11DDDD.svg?style=for-the-badge' height='20px'/><br/><img style='vertical-align:middle' src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' height='20px'/><br/><img style='vertical-align:middle' src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' height='20px'/><br</a></td>
-            <td><a href='https://github.com/dmzoneill/docker-media-center' title='docker-media-center'>docker-media-center</a></td>
-            <td><a href='' title=''></a></td>
-            <td>Apache License 2.0</td>
-            <td>2022-01-09</td>
+            <td><img style='vertical-align:middle' src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' height='20px'/><br/><img style='vertical-align:middle' src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' height='20px'/><br/><img style='vertical-align:middle' src='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' height='20px'/><br/><img style='vertical-align:middle' src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' height='20px'/><br/><img style='vertical-align:middle' src='https://img.shields.io/badge/_-Dockerfile -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Dockerfile -11DDDD.svg?style=for-the-badge' height='20px'/><br/><img style='vertical-align:middle' src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' height='20px'/><br/><img style='vertical-align:middle' src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' height='20px'/><br</td>
+            <td><a href='https://github.com/dmzoneill/docker-media-center' title='docker-media-center' style='font-size:12pt'>docker-media-center</a></td>
+            <td><a href='' title='' style='font-size:12pt'></a></td>
+            <td><span style='font-size:12pt'>Apache License 2.0</span></td>
+            <td><span style='font-size:12pt'>2022-01-09</span></td>
             <td><img src='https://github.com/dmzoneill/docker-media-center/actions/workflows/main.yml/badge.svg' height='20px'></td>
         </tr>
 

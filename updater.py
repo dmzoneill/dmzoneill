@@ -166,7 +166,7 @@ class ReadmeUpdater:
                 # open_issues_count = str(repo['open_issues_count'])
 
                 badge = "https://github.com/dmzoneill/" + \
-                    repo['name'] + "/actions/workflows/main.yml/badge.svg" if repo['fork'] is False else "https://avatars.githubusercontent.com/u/122704019?s=64&v=4"
+                    repo['name'] + "/actions/workflows/main.yml/badge.svg"
 
                 row = rows_template
                 row = row.replace("{language}", language)

@@ -5,9 +5,11 @@
 <tr>
 <td>
 <h3>Work related stuff over on</h3>
+<ul>
 <orgs>
-- <a href='{org_url}'>{org_name}</a><br/>
+<li><a href='{org_url}'>{org_name}</a></li>
 </orgs>
+</ul>
 </td>
 <td>
 <img alt="Github" width='400px' src="https://upload.wikimedia.org/wikipedia/commons/d/d8/Red_Hat_logo.svg" />

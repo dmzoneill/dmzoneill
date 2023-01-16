@@ -1,4 +1,4 @@
-name: profile updater
+name: CICD
 
 on:
   repository_dispatch:

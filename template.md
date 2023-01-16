@@ -22,11 +22,7 @@
     </tr>
   </thead>
   <tbody>
-    <tr>
-    <langs>      
-      <td>{language}</td><td>{lines}</td>      
-    </langs>
-    </tr>
+    <tr><langs><td>{language}</td><td>{lines}</td></langs></tr>
   </tbody>
 </table>
 

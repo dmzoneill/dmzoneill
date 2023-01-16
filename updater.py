@@ -127,8 +127,8 @@ class ReadmeUpdater:
                     badge = "https://img.shields.io/badge/_-" + lang + \
                         " -11DDDD.svg?style=for-the-badge" if badge == "" else badge
                     language += "<img src='" + badge + "' title='" + \
-                        badge + "' height='20px'/>" + \
-                        "<br/>"  # + str(lang_percent[lang]) + "%<br/>"
+                        badge + \
+                        "' height='20px'/> "   # + str(lang_percent[lang]) + "%<br/>"
 
             language = language[0:len(language) - 2]
 

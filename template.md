@@ -36,9 +36,8 @@
 <table>
   <thead>
     <tr border: none;>
-      <th>Language</th>
-      <th>Name</th>
-      <th>Live</th>
+      <th>Project</th>
+      <th>View</th>
       <th>License</th>
       <th>Status</th>
     </tr>
@@ -46,8 +45,7 @@
   <tbody>
     <repos>
         <tr>
-            <td>{language}</td>
-            <td><a href='{html_url}' title='{name}'>{name}</a></td>
+            <td><a href='{html_url}' title='{name}'>{name}</a><br/>{language}</td>
             <td><a href='{live_url}' title='{live_name}'>{live_name}</a></td>
             <td>{license}</td>
             <td align="center"><img src='{badge}' height='20px'/><br/>{updated_at}</td>

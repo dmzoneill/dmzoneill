@@ -23,7 +23,19 @@ jobs:
           DEFAULT_BRANCH: "main"
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Rebuild profile
-        if: always()
-        run: |-
-          curl -H 'Accept: application/vnd.github+json' -H 'Authorization: token ${{ secrets.PROFILE_HOOK }}' --request POST --data '{"event_type": "cicd-hook"}' https://api.github.com/repos/dmzoneill/dmzoneill/dispatches
+      - name: Update profile
+        env:
+          ghtoken: ${{ secrets.PUBLISH }}
+        run: python updater.py
+
+      - uses: mikeal/publish-to-github-action@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH_NAME: 'main' #optional defaults to master
+
+      - run: bash setup.sh
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PROFILE_HOOK: ${{ secrets.PROFILE_HOOK }}
+
+

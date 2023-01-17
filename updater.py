@@ -56,7 +56,7 @@ class ReadmeUpdater:
             cache_file = cache_file.read()
             print("Got cache file: " + name)
             return cache_file
-        except: # noqa
+        except:  # noqa
             return False
 
     def cache_file(self, name, content):

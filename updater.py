@@ -72,22 +72,23 @@ class ReadmeUpdater:
     def get_first_commit_date(self, repo):
         try:
             query = """
-                {
-                    repository(owner: "{owner}", name: "{repo}") {
-                        refs(refPrefix: "refs/heads/", orderBy: {direction: DESC, field: TAG_COMMIT_DATE}, first: 1) {
-                        edges {
-                            node {
-                            ... on Ref {
-                                name
-                                target {
-                                ... on Commit {
-                                    history(first: 2) {
-                                    edges {
-                                        node {
-                                        ... on Commit {
-                                            committedDate
-                                        }
-                                        }
+            {
+                repository(owner: "#owner#", name: "#repo#") {
+                    refs(refPrefix: "refs/heads/", orderBy: {
+                        direction: DESC,
+                        field: TAG_COMMIT_DATE
+                    }, first: 1) {
+                    edges {
+                        node {
+                        ... on Ref {
+                            name
+                            target {
+                            ... on Commit {
+                                history(first: 2) {
+                                edges {
+                                    node {
+                                    ... on Commit {
+                                        committedDate
                                     }
                                     }
                                 }
@@ -97,10 +98,13 @@ class ReadmeUpdater:
                         }
                         }
                     }
+                    }
                 }
-            """.format(
-                owner="dmzoneill", repo=repo
-            )  # type: ignore
+            }
+            """
+
+            query = query.replace("#owner", "dmzoneill")
+            query = query.replace("#owner", repo)
 
             headers = {"Authorization": "token " + self.token}
             request = requests.post(
@@ -302,7 +306,7 @@ class ReadmeUpdater:
             )
             col = col.replace(
                 "{language}",
-                "<img src='" + badge + "' title='" + lang + "'  height='20px'/>",
+                ("<img src='" + badge + "' title='" + lang + "'  height='20px'/>"),
             )
             col = col.replace("{lines}", str(self.total_lines_lang[lang]))
             output += col + "\n"

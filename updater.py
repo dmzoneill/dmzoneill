@@ -74,10 +74,12 @@ class ReadmeUpdater:
             headers = {"Authorization": "token " + self.token}
             page = 1
             while True:
-                r = requests.get(self.repos_url + "?page=" + str(page), headers=headers)
+                r = requests.get(self.repos_url + "&page=" + str(page), headers=headers)
                 if r.status_code == requests.codes.ok:
+                    print("got page " + str(page))
                     res = r.json()
                     if len(res) == 0:
+                        print("no repos, break")
                         break
 
                     if self.repos is not None:

@@ -18,6 +18,8 @@ while true; do
 
     action_file="https://github.com/$user/$name/blob/master/.github/workflows/main.yml"
     exists=$(curl -L -s -o /dev/null -w "%{http_code}" "$action_file")
+
+    processed=$((processed+1))
     
     [[ "$exists" != "404" ]] && echo "Skip action exists" && continue
 
@@ -41,7 +43,6 @@ while true; do
       git pull --rebase
       git push 
     )
-    processed=$((processed+1))
     echo "$processed"
   done
 

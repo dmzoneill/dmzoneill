@@ -73,19 +73,21 @@ class ReadmeUpdater:
         try:
             query = """
                 {
-                repository(owner: {owner}, name: {repo}) {
-                    refs(refPrefix: "refs/heads/", orderBy: {direction: DESC, field: TAG_COMMIT_DATE}, first: 1) {
-                    edges {
-                        node {
-                        ... on Ref {
-                            name
-                            target {
-                            ... on Commit {
-                                history(first: 2) {
-                                edges {
-                                    node {
-                                    ... on Commit {
-                                        committedDate
+                    repository(owner: "{owner}", name: "{repo}") {
+                        refs(refPrefix: "refs/heads/", orderBy: {direction: DESC, field: TAG_COMMIT_DATE}, first: 1) {
+                        edges {
+                            node {
+                            ... on Ref {
+                                name
+                                target {
+                                ... on Commit {
+                                    history(first: 2) {
+                                    edges {
+                                        node {
+                                        ... on Commit {
+                                            committedDate
+                                        }
+                                        }
                                     }
                                     }
                                 }
@@ -95,12 +97,10 @@ class ReadmeUpdater:
                         }
                         }
                     }
-                    }
-                }
                 }
             """.format(
                 owner="dmzoneill", repo=repo
-            )
+            )  # type: ignore
 
             headers = {"Authorization": "token " + self.token}
             request = requests.post(

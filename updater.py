@@ -69,6 +69,50 @@ class ReadmeUpdater:
         except:  # noqa
             raise Exception("Unable to cache: " + name)
 
+    def get_first_commit_date(self, repo):
+        try:
+            query = """
+                {
+                repository(owner: {owner}, name: {repo}) {
+                    refs(refPrefix: "refs/heads/", orderBy: {direction: DESC, field: TAG_COMMIT_DATE}, first: 1) {
+                    edges {
+                        node {
+                        ... on Ref {
+                            name
+                            target {
+                            ... on Commit {
+                                history(first: 2) {
+                                edges {
+                                    node {
+                                    ... on Commit {
+                                        committedDate
+                                    }
+                                    }
+                                }
+                                }
+                            }
+                            }
+                        }
+                        }
+                    }
+                    }
+                }
+                }
+            """.format(
+                owner="dmzoneill", repo=repo
+            )
+
+            headers = {"Authorization": "token " + self.token}
+            request = requests.post(
+                "https://api.github.com/graphql", json={"query": query}, headers=headers
+            )
+            if request.status_code == 200:
+                return request.json()
+            else:
+                return False
+        except:  # noqa
+            return False
+
     def get_repos(self):
         try:
             headers = {"Authorization": "token " + self.token}
@@ -178,7 +222,7 @@ class ReadmeUpdater:
 
                 language = self.get_repo_languages(repo["name"])
                 language = language if language is not False else repo["language"]
-
+                first_commit = json.dumps(self.get_first_commit_date(repo["name"]))
                 html_url = repo["html_url"]
                 name = repo["name"]
                 live_url = live[repo["name"]][0] if repo["name"] in live else ""
@@ -196,6 +240,7 @@ class ReadmeUpdater:
 
                 row = rows_template
                 row = row.replace("{language}", language)
+                row = row.replace("{first_commit}", first_commit)
                 row = row.replace("{html_url}", html_url)
                 row = row.replace("{name}", name)
                 row = row.replace("{live_url}", live_url)

@@ -112,9 +112,9 @@ class ReadmeUpdater:
             )
             if request.status_code == 200:
                 data = request.json()
-                edge = data['data']['repository']['refs']['edges'][0]
-                edge = edge['node']['target']['history']['edges'][0]
-                return "(" + edge['node']['committedDate'] + ")"
+                edge = data["data"]["repository"]["refs"]["edges"][0]
+                edge = edge["node"]["target"]["history"]["edges"][0]
+                return "(" + edge["node"]["committedDate"] + ")"
             else:
                 return ""
         except:  # noqa
@@ -246,7 +246,9 @@ class ReadmeUpdater:
 
                 row = rows_template
                 row = row.replace("{language}", language)
-                row = row.replace("{first_commit}", self.get_first_commit_date(repo["name"]))
+                row = row.replace(
+                    "{first_commit}", self.get_first_commit_date(repo["name"])
+                )
                 row = row.replace("{html_url}", html_url)
                 row = row.replace("{name}", name)
                 row = row.replace("{live_url}", live_url)

@@ -103,8 +103,8 @@ class ReadmeUpdater:
             }
             """
 
-            query = query.replace("#owner", "dmzoneill")
-            query = query.replace("#owner", repo)
+            query = query.replace("#owner#", "dmzoneill")
+            query = query.replace("#repo#", repo)
 
             headers = {"Authorization": "token " + self.token}
             request = requests.post(

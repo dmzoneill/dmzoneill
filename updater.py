@@ -34,7 +34,7 @@ class ReadmeUpdater:
             self.config = json.loads(config)
             print("Got config")
             return True
-        except:
+        except: # noqa:
             return False
 
     def read_template(self):
@@ -43,8 +43,8 @@ class ReadmeUpdater:
             self.template = template.read()
             print("Got template file")
             return True
-        except:
-            raise Exception("Failed reading config")
+        except: # noqa:
+            raise except: # noqaion("Failed reading config")
 
     def prep_cache(self):
         if not os.path.exists(self.cache_dir):
@@ -56,7 +56,7 @@ class ReadmeUpdater:
             cache_file = cache_file.read()
             print("Got cache file: " + name)
             return cache_file
-        except:
+        except: # noqa:
             return False
 
     def cache_file(self, name, content):
@@ -66,8 +66,8 @@ class ReadmeUpdater:
             # f.write(content)
             # f.close()
             print("Write cache file: " + name)
-        except:
-            raise Exception("Unable to cache: " + name)
+        except: # noqa:
+            raise except: # noqaion("Unable to cache: " + name)
 
     def get_repos(self):
         try:
@@ -92,8 +92,8 @@ class ReadmeUpdater:
             self.cache_file("repos", json.dumps(self.repos))
             print("Got repos")
             return True
-        except:
-            raise Exception("Failed reading repos")
+        except: # noqa:
+            raise except: # noqaion("Failed reading repos")
 
     def get_repo_languages(self, name):
         try:
@@ -106,9 +106,9 @@ class ReadmeUpdater:
 
             if cache is False:
                 headers = {"Authorization": "token " + self.token}
-                l = requests.get(languages_url, headers=headers)
-                if l.status_code == requests.codes.ok:
-                    languages = l.json()
+                res = requests.get(languages_url, headers=headers)
+                if res.status_code == requests.codes.ok:
+                    languages = res.json()
             else:
                 languages = json.loads(cache)
 
@@ -158,8 +158,8 @@ class ReadmeUpdater:
                 pprint(json.dumps(languages))
 
             return language
-        except:
-            raise Exception("Failed reading languages")
+        except: # noqa:
+            raise except: # noqaion("Failed reading languages")
 
     def generate_repos(self):
         try:
@@ -206,8 +206,8 @@ class ReadmeUpdater:
             self.template = re.sub(
                 "<repos>(.*)</repos>", rows, self.template, flags=re.I | re.M | re.S
             )
-        except:
-            raise Exception("Failed generating repo list")
+        except: # noqa:
+            raise except: # noqaion("Failed generating repo list")
 
     def generate_orgs(self):
         try:
@@ -231,8 +231,8 @@ class ReadmeUpdater:
                 "<orgs>(.*)</orgs>", orgs, self.template, flags=re.I | re.M | re.S
             )
             return True
-        except:
-            raise Exception("Failed generating org list")
+        except: # noqa:
+            raise except: # noqaion("Failed generating org list")
 
     def favourite_langs(self):
         # langs
@@ -291,8 +291,8 @@ class ReadmeUpdater:
             f.close()
             return True
 
-        except:
-            raise Exception("Failed generating readme")
+        except: # noqa:
+            raise except: # noqaion("Failed generating readme")
 
 
 ReadmeUpdater()

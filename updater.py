@@ -84,7 +84,7 @@ class ReadmeUpdater:
                             name
                             target {
                             ... on Commit {
-                                history(first: 1) {
+                                history(first: 2) {
                                 edges {
                                     node {
                                     ... on Commit {
@@ -113,8 +113,8 @@ class ReadmeUpdater:
             if request.status_code == 200:
                 data = request.json()
                 edge = data["data"]["repository"]["refs"]["edges"][0]
-                edge = edge["node"]["target"]["history"]["edges"][0]
-                return "(" + edge["node"]["committedDate"] + ")"
+                edge = edge["node"]["target"]["history"]["edges"][1]
+                return "(" + edge["node"]["committedDate"].split("-")[0] + ")"
             else:
                 return ""
         except:  # noqa

@@ -44,7 +44,7 @@ class ReadmeUpdater:
             print("Got template file")
             return True
         except: # noqa:
-            raise except: # noqaion("Failed reading config")
+            raise Exception("Failed reading config")
 
     def prep_cache(self):
         if not os.path.exists(self.cache_dir):
@@ -56,7 +56,7 @@ class ReadmeUpdater:
             cache_file = cache_file.read()
             print("Got cache file: " + name)
             return cache_file
-        except: # noqa:
+        except: # noqa
             return False
 
     def cache_file(self, name, content):
@@ -67,7 +67,7 @@ class ReadmeUpdater:
             # f.close()
             print("Write cache file: " + name)
         except: # noqa:
-            raise except: # noqaion("Unable to cache: " + name)
+            raise Exception("Unable to cache: " + name)
 
     def get_repos(self):
         try:
@@ -93,7 +93,7 @@ class ReadmeUpdater:
             print("Got repos")
             return True
         except: # noqa:
-            raise except: # noqaion("Failed reading repos")
+            raise Exception("Failed reading repos")
 
     def get_repo_languages(self, name):
         try:
@@ -159,7 +159,7 @@ class ReadmeUpdater:
 
             return language
         except: # noqa:
-            raise except: # noqaion("Failed reading languages")
+            raise Exception("Failed reading languages")
 
     def generate_repos(self):
         try:
@@ -207,7 +207,7 @@ class ReadmeUpdater:
                 "<repos>(.*)</repos>", rows, self.template, flags=re.I | re.M | re.S
             )
         except: # noqa:
-            raise except: # noqaion("Failed generating repo list")
+            raise Exception("Failed generating repo list")
 
     def generate_orgs(self):
         try:
@@ -232,7 +232,7 @@ class ReadmeUpdater:
             )
             return True
         except: # noqa:
-            raise except: # noqaion("Failed generating org list")
+            raise Exception("Failed generating org list")
 
     def favourite_langs(self):
         # langs
@@ -292,7 +292,7 @@ class ReadmeUpdater:
             return True
 
         except: # noqa:
-            raise except: # noqaion("Failed generating readme")
+            raise Exception("Failed generating readme")
 
 
 ReadmeUpdater()

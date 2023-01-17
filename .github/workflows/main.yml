@@ -15,7 +15,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
-    - name: Run a one-line script
+    - name: Run readme updater
       env:
          ghtoken: ${{ secrets.PUBLISH }}
       run: python updater.py

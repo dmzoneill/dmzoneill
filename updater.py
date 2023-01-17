@@ -70,21 +70,29 @@ class ReadmeUpdater:
 
     def get_repos(self):
         try:
-            cache = self.get_cached_file("repos")
-            if cache is False:
-                headers = {'Authorization': 'token ' + self.token}
-                r = requests.get(self.repos_url, headers=headers)
+            headers = {'Authorization': 'token ' + self.token}
+            page = 1
+            while True:
+                r = requests.get(self.repos_url + "?page=" +
+                                 str(page), headers=headers)
                 if r.status_code == requests.codes.ok:
-                    self.repos = r.json()
-                    self.repos.sort(
-                        key=lambda x: x["updated_at"], reverse=True)
-                    self.cache_file("repos", json.dumps(self.repos))
-                    print("Got repos file")
-                    return True
-            else:
-                self.repos = json.loads(cache)
-                self.repos.sort(key=lambda x: x["updated_at"], reverse=True)
-                return True
+                    res = r.json()
+                    if len(res) == 0:
+                        break
+
+                    if self.repos is not None:
+                        self.repos = self.repos + res
+                    else:
+                        self.repos = res
+                    page += 1
+                else:
+                    return False
+
+            self.repos.sort(
+                key=lambda x: x["updated_at"], reverse=True)
+            self.cache_file("repos", json.dumps(self.repos))
+            print("Got repos")
+            return True
         except:
             raise Exception("Failed reading repos")
 

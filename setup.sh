@@ -11,7 +11,7 @@ for X in $(curl "https://api.github.com/users/$user/repos?per_page=100" | jq -r 
   [[ "$name" == "dmzoneill" ]] && continue
 
   action_file="https://github.com/$user/$name/blob/master/.github/workflows/main.yml"
-  exists=$(curl -s -o /dev/null -w "%{http_code}" "$action_file")
+  exists=$(curl -L -s -o /dev/null -w "%{http_code}" "$action_file")
   
   [[ "$exists" != "404" ]] && echo "Skip action exists" && continue
 

@@ -21,7 +21,7 @@ while true; do
 
     processed=$((processed+1))
     
-    [[ "$exists" != "404" ]] && echo "Skip action exists" && continue
+    [[ "$exists" != "404" ]] && echo "Skip action exists"; echo "$processed" && continue
 
     git_url=https://$user:$pass@github.com/$user/$name.git
     git clone "$git_url"

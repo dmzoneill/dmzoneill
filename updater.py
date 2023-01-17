@@ -241,8 +241,6 @@ class ReadmeUpdater:
         )
         langs_template = langs_match.group(1).strip()
 
-        langs = ""
-
         i = 0
         output = ""
         for lang in self.total_lines_lang:

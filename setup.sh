@@ -38,12 +38,12 @@ while true; do
       git pull --rebase
       git push 
     )
-    let processed++
+    processed=$((processed+1))
   done
 
   if [ $processed -le 1 ]; then
     exit 0;
   fi
 
-  let page++
+  page=$((page+1))
 done

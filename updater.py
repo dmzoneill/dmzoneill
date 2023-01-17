@@ -84,7 +84,7 @@ class ReadmeUpdater:
                             name
                             target {
                             ... on Commit {
-                                history(first: 2) {
+                                history(first: 1) {
                                 edges {
                                     node {
                                     ... on Commit {
@@ -111,11 +111,14 @@ class ReadmeUpdater:
                 "https://api.github.com/graphql", json={"query": query}, headers=headers
             )
             if request.status_code == 200:
-                return request.json()
+                data = request.json()
+                edge = data['data']['repository']['refs']['edges'][0]
+                edge = edge['node']['target']['history']['edges'][0]
+                return "(" + edge['node']['committedDate'] + ")"
             else:
-                return False
+                return ""
         except:  # noqa
-            return False
+            return ""
 
     def get_repos(self):
         try:
@@ -226,7 +229,6 @@ class ReadmeUpdater:
 
                 language = self.get_repo_languages(repo["name"])
                 language = language if language is not False else repo["language"]
-                first_commit = json.dumps(self.get_first_commit_date(repo["name"]))
                 html_url = repo["html_url"]
                 name = repo["name"]
                 live_url = live[repo["name"]][0] if repo["name"] in live else ""
@@ -244,7 +246,7 @@ class ReadmeUpdater:
 
                 row = rows_template
                 row = row.replace("{language}", language)
-                row = row.replace("{first_commit}", first_commit)
+                row = row.replace("{first_commit}", self.get_first_commit_date(repo["name"]))
                 row = row.replace("{html_url}", html_url)
                 row = row.replace("{name}", name)
                 row = row.replace("{live_url}", live_url)

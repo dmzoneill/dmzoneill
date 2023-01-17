@@ -26,7 +26,9 @@ jobs:
       - name: Update profile
         env:
           ghtoken: ${{ secrets.PUBLISH }}
-        run: python updater.py
+        run: |-
+          python updater.py
+          rm super-linter.log
 
       - uses: mikeal/publish-to-github-action@master
         env:

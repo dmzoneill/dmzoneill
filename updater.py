@@ -7,8 +7,8 @@ from pprint import pprint
 
 class ReadmeUpdater:
 
-    repos_url = 'https://api.github.com/users/dmzoneill/repos?per_page=100'
-    url_url = 'https://api.github.com/users/dmzoneill'
+    repos_url = "https://api.github.com/users/dmzoneill/repos?per_page=100"
+    url_url = "https://api.github.com/users/dmzoneill"
     cache_dir = "./cache"
     config_file = "config.json"
     template_file = "template.md"
@@ -70,11 +70,10 @@ class ReadmeUpdater:
 
     def get_repos(self):
         try:
-            headers = {'Authorization': 'token ' + self.token}
+            headers = {"Authorization": "token " + self.token}
             page = 1
             while True:
-                r = requests.get(self.repos_url + "?page=" +
-                                 str(page), headers=headers)
+                r = requests.get(self.repos_url + "?page=" + str(page), headers=headers)
                 if r.status_code == requests.codes.ok:
                     res = r.json()
                     if len(res) == 0:
@@ -88,8 +87,7 @@ class ReadmeUpdater:
                 else:
                     return False
 
-            self.repos.sort(
-                key=lambda x: x["updated_at"], reverse=True)
+            self.repos.sort(key=lambda x: x["updated_at"], reverse=True)
             self.cache_file("repos", json.dumps(self.repos))
             print("Got repos")
             return True
@@ -99,12 +97,14 @@ class ReadmeUpdater:
     def get_repo_languages(self, name):
         try:
             # https://api.github.com/repos/dmzoneill/aa-dev-prod-watcher/languages
-            languages_url = "https://api.github.com/repos/dmzoneill/" + name + "/languages"
+            languages_url = (
+                "https://api.github.com/repos/dmzoneill/" + name + "/languages"
+            )
             cache = self.get_cached_file(name)
             languages = None
 
             if cache is False:
-                headers = {'Authorization': 'token ' + self.token}
+                headers = {"Authorization": "token " + self.token}
                 l = requests.get(languages_url, headers=headers)
                 if l.status_code == requests.codes.ok:
                     languages = l.json()
@@ -125,20 +125,32 @@ class ReadmeUpdater:
                 if lang not in self.total_lines_lang:
                     self.total_lines_lang[lang] = 0
                 self.total_lines_lang[lang] += languages[lang]
-                lang_percent[lang] = round(
-                    round(languages[lang] / lines, 2) * 100)
+                lang_percent[lang] = round(round(languages[lang] / lines, 2) * 100)
 
             language = ""
             for lang in lang_percent:
                 if lang_percent[lang] != 0:
-                    badge = self.config['badges'][lang] if lang in self.config['badges'] else ""
-                    badge = "https://img.shields.io/badge/_-" + lang + \
-                        " -11DDDD.svg?style=for-the-badge" if badge == "" else badge
-                    language += "<img src='" + badge + "' title='" + \
-                        badge + \
-                        "' height='20px'/> "   # + str(lang_percent[lang]) + "%<br/>"
+                    badge = (
+                        self.config["badges"][lang]
+                        if lang in self.config["badges"]
+                        else ""
+                    )
+                    badge = (
+                        "https://img.shields.io/badge/_-"
+                        + lang
+                        + " -11DDDD.svg?style=for-the-badge"
+                        if badge == ""
+                        else badge
+                    )
+                    language += (
+                        "<img src='"
+                        + badge
+                        + "' title='"
+                        + badge
+                        + "' height='20px'/> "
+                    )
 
-            language = language[0:len(language) - 2]
+            language = language[0 : len(language) - 2]
 
             if cache is False:
                 self.cache_file(name, json.dumps(languages))
@@ -150,31 +162,34 @@ class ReadmeUpdater:
 
     def generate_repos(self):
         try:
-            rows_match = re.search('<repos>(.*)</repos>',
-                                   self.template, flags=re.I | re.M | re.S)
+            rows_match = re.search(
+                "<repos>(.*)</repos>", self.template, flags=re.I | re.M | re.S
+            )
             rows_template = rows_match.group(1).strip()
 
             rows = ""
 
-            live = self.config['live']
+            live = self.config["live"]
 
             for repo in self.repos:
 
-                language = self.get_repo_languages(repo['name'])
-                language = language if language is not False else repo['language']
+                language = self.get_repo_languages(repo["name"])
+                language = language if language is not False else repo["language"]
 
-                html_url = repo['html_url']
-                name = repo['name']
-                live_url = live[repo['name']
-                                ][0] if repo['name'] in live else ""
-                live_name = live[repo['name']
-                                 ][1] if repo['name'] in live else ""
-                license = repo['license']['name'] if repo['license'] is not None else ""
-                updated_at = repo['updated_at'] if repo['updated_at'] is not None else ""
-                # open_issues_count = str(repo['open_issues_count'])
+                html_url = repo["html_url"]
+                name = repo["name"]
+                live_url = live[repo["name"]][0] if repo["name"] in live else ""
+                live_name = live[repo["name"]][1] if repo["name"] in live else ""
+                license = repo["license"]["name"] if repo["license"] is not None else ""
+                updated_at = (
+                    repo["updated_at"] if repo["updated_at"] is not None else ""
+                )
 
-                badge = "https://github.com/dmzoneill/" + \
-                    repo['name'] + "/actions/workflows/main.yml/badge.svg"
+                badge = (
+                    "https://github.com/dmzoneill/"
+                    + repo["name"]
+                    + "/actions/workflows/main.yml/badge.svg"
+                )
 
                 row = rows_template
                 row = row.replace("{language}", language)
@@ -183,26 +198,27 @@ class ReadmeUpdater:
                 row = row.replace("{live_url}", live_url)
                 row = row.replace("{live_name}", live_name)
                 row = row.replace("{license}", license)
-                row = row.replace("{updated_at}", updated_at.split('T')[0])
+                row = row.replace("{updated_at}", updated_at.split("T")[0])
                 row = row.replace("{badge}", badge)
-                # row = row.replace("{open_issues_count}", open_issues_count)
 
                 rows += row + "\n"
-            self.template = re.sub('<repos>(.*)</repos>', rows,
-                                   self.template, flags=re.I | re.M | re.S)
+            self.template = re.sub(
+                "<repos>(.*)</repos>", rows, self.template, flags=re.I | re.M | re.S
+            )
         except:
             raise Exception("Failed generating repo list")
 
     def generate_orgs(self):
         try:
             # orgs
-            orgs_match = re.search('<orgs>(.*)</orgs>', self.template,
-                                   flags=re.I | re.M | re.S)
+            orgs_match = re.search(
+                "<orgs>(.*)</orgs>", self.template, flags=re.I | re.M | re.S
+            )
             orgs_template = orgs_match.group(1).strip()
 
             orgs = ""
 
-            for org in self.config['organizations']:
+            for org in self.config["organizations"]:
 
                 row = orgs_template
                 row = row.replace("{org_url}", org[0])
@@ -210,16 +226,18 @@ class ReadmeUpdater:
 
                 orgs += row + "\n"
 
-            self.template = re.sub('<orgs>(.*)</orgs>', orgs,
-                                   self.template, flags=re.I | re.M | re.S)
+            self.template = re.sub(
+                "<orgs>(.*)</orgs>", orgs, self.template, flags=re.I | re.M | re.S
+            )
             return True
         except:
             raise Exception("Failed generating org list")
 
     def favourite_langs(self):
         # langs
-        langs_match = re.search('<langs>(.*)</langs>', self.template,
-                                flags=re.I | re.M | re.S)
+        langs_match = re.search(
+            "<langs>(.*)</langs>", self.template, flags=re.I | re.M | re.S
+        )
         langs_template = langs_match.group(1).strip()
 
         langs = ""
@@ -228,19 +246,27 @@ class ReadmeUpdater:
         output = ""
         for lang in self.total_lines_lang:
             col = langs_template
-            badge = self.config['badges'][lang] if lang in self.config['badges'] else ""
-            badge = "https://img.shields.io/badge/_-" + lang + \
-                " -11DDDD.svg?style=for-the-badge" if badge == "" else badge
-            col = col.replace("{language}", "<img src='" +
-                              badge + "' title='" + lang + "'  height='20px'/>")
+            badge = self.config["badges"][lang] if lang in self.config["badges"] else ""
+            badge = (
+                "https://img.shields.io/badge/_-"
+                + lang
+                + " -11DDDD.svg?style=for-the-badge"
+                if badge == ""
+                else badge
+            )
+            col = col.replace(
+                "{language}",
+                "<img src='" + badge + "' title='" + lang + "'  height='20px'/>",
+            )
             col = col.replace("{lines}", str(self.total_lines_lang[lang]))
             output += col + "\n"
             i += 1
             if i % 4 == 0:
                 output += "</tr><tr>\n"
 
-        self.template = re.sub('<langs>(.*)</langs>', output,
-                               self.template, flags=re.I | re.M | re.S)
+        self.template = re.sub(
+            "<langs>(.*)</langs>", output, self.template, flags=re.I | re.M | re.S
+        )
 
     def generate_readme(self):
         try:
@@ -248,11 +274,14 @@ class ReadmeUpdater:
             self.generate_repos()
             self.favourite_langs()
             self.template = self.template.replace(
-                "{github_url}", self.config['github_url'])
+                "{github_url}", self.config["github_url"]
+            )
             self.template = self.template.replace(
-                "{linkedin_url}", self.config['linkedin_url'])
+                "{linkedin_url}", self.config["linkedin_url"]
+            )
             self.template = self.template.replace(
-                "{langcount}", str(len(self.total_lines_lang) + 1))
+                "{langcount}", str(len(self.total_lines_lang) + 1)
+            )
 
             print(self.template)
 

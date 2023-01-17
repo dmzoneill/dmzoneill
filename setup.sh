@@ -41,7 +41,7 @@ while true; do
     let processed++
   done
 
-  if [ $processed -le 1 ]]; then
+  if [ $processed -le 1 ]; then
     exit 0;
   fi
 

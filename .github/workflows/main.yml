@@ -26,3 +26,4 @@ jobs:
     - run: bash setup.sh
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        PROFILE_HOOK: ${{ secrets.PROFILE_HOOK }}

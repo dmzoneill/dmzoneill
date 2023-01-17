@@ -18,7 +18,7 @@ class ReadmeUpdater:
     repos = None
     token = os.getenv("ghtoken", default=None)
     total_lines = 0
-    total_lines_lang = {}  # noqa
+    total_lines_lang = {}  # type: ignore
 
     def __init__(self):
         self.read_config()

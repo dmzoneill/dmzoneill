@@ -1,8 +1,9 @@
 import json
 import os
-import requests
 import re
 from pprint import pprint
+
+import requests
 
 
 class ReadmeUpdater:

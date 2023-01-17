@@ -24,7 +24,7 @@ for X in $(curl "https://api.github.com/users/$user/repos?per_page=100" | jq -r 
   cp main.yml "$name/.github/workflows/"
   
   (
-    cd $name || exit 1
+    cd "$name" || exit 1
     gh secret set profile_hook -r "$user/$name" -b "$pass"
     git config --global user.email $email
     git config --global user.name $user

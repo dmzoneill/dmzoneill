@@ -6,8 +6,11 @@ pass=$PROFILE_HOOK
 
 page=1
 while true; do
+  echo "Page: $page"
+  url="https://api.github.com/users/$user/repos?per_page=100&page=$page"
+  echo "$url"
   processed=0
-  for X in $(curl "https://api.github.com/users/$user/repos?per_page=100&page=$page" | jq -r '.[] | .ssh_url'); do
+  for X in $(curl "$url" | jq -r '.[] | .ssh_url'); do
     name=$(echo "$X" | awk -F'/' '{print $2}' | sed 's/\.git//')
     echo "$name"
 
@@ -39,9 +42,11 @@ while true; do
       git push 
     )
     processed=$((processed+1))
+    echo "$processed"
   done
 
   if [ $processed -le 1 ]; then
+    echo "Exited 0 processed"
     exit 0;
   fi
 

@@ -34,7 +34,7 @@ class ReadmeUpdater:
             self.config = json.loads(config)
             print("Got config")
             return True
-        except: # noqa:
+        except:  # noqa
             return False
 
     def read_template(self):
@@ -43,7 +43,7 @@ class ReadmeUpdater:
             self.template = template.read()
             print("Got template file")
             return True
-        except: # noqa:
+        except:  # noqa
             raise Exception("Failed reading config")
 
     def prep_cache(self):
@@ -66,7 +66,7 @@ class ReadmeUpdater:
             # f.write(content)
             # f.close()
             print("Write cache file: " + name)
-        except: # noqa:
+        except:  # noqa
             raise Exception("Unable to cache: " + name)
 
     def get_repos(self):
@@ -92,7 +92,7 @@ class ReadmeUpdater:
             self.cache_file("repos", json.dumps(self.repos))
             print("Got repos")
             return True
-        except: # noqa:
+        except:  # noqa
             raise Exception("Failed reading repos")
 
     def get_repo_languages(self, name):
@@ -158,7 +158,7 @@ class ReadmeUpdater:
                 pprint(json.dumps(languages))
 
             return language
-        except: # noqa:
+        except:  # noqa
             raise Exception("Failed reading languages")
 
     def generate_repos(self):
@@ -206,7 +206,7 @@ class ReadmeUpdater:
             self.template = re.sub(
                 "<repos>(.*)</repos>", rows, self.template, flags=re.I | re.M | re.S
             )
-        except: # noqa:
+        except:  # noqa
             raise Exception("Failed generating repo list")
 
     def generate_orgs(self):
@@ -231,7 +231,7 @@ class ReadmeUpdater:
                 "<orgs>(.*)</orgs>", orgs, self.template, flags=re.I | re.M | re.S
             )
             return True
-        except: # noqa:
+        except:  # noqa
             raise Exception("Failed generating org list")
 
     def favourite_langs(self):
@@ -291,7 +291,7 @@ class ReadmeUpdater:
             f.close()
             return True
 
-        except: # noqa:
+        except:  # noqa
             raise Exception("Failed generating readme")
 
 

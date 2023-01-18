@@ -23,7 +23,6 @@ class ReadmeUpdater:
     def __init__(self):
         self.read_config()
         self.read_template()
-        self.prep_cache()
         self.get_repos()
         self.generate_readme()
 
@@ -45,29 +44,6 @@ class ReadmeUpdater:
             return True
         except:  # noqa
             raise Exception("Failed reading config")
-
-    def prep_cache(self):
-        if not os.path.exists(self.cache_dir):
-            os.makedirs(self.cache_dir)
-
-    def get_cached_file(self, name):
-        try:
-            cache_file = open(self.cache_dir + "/" + name, "r")
-            cache_file = cache_file.read()
-            print("Got cache file: " + name)
-            return cache_file
-        except:  # noqa
-            return False
-
-    def cache_file(self, name, content):
-        try:
-            # self.prep_cache()
-            # f = open(self.cache_dir + "/" + name, "w")
-            # f.write(content)
-            # f.close()
-            print("Write cache file: " + name)
-        except:  # noqa
-            raise Exception("Unable to cache: " + name)
 
     def get_first_commit_date(self, repo):
         try:
@@ -142,7 +118,6 @@ class ReadmeUpdater:
                     return False
 
             self.repos.sort(key=lambda x: x["updated_at"], reverse=True)
-            self.cache_file("repos", json.dumps(self.repos))
             print("Got repos")
             return True
         except:  # noqa
@@ -154,16 +129,12 @@ class ReadmeUpdater:
             languages_url = (
                 "https://api.github.com/repos/dmzoneill/" + name + "/languages"
             )
-            cache = self.get_cached_file(name)
             languages = None
 
-            if cache is False:
-                headers = {"Authorization": "token " + self.token}
-                res = requests.get(languages_url, headers=headers)
-                if res.status_code == requests.codes.ok:
-                    languages = res.json()
-            else:
-                languages = json.loads(cache)
+            headers = {"Authorization": "token " + self.token}
+            res = requests.get(languages_url, headers=headers)
+            if res.status_code == requests.codes.ok:
+                languages = res.json()
 
             lines = 0
             lang_percent = {}
@@ -205,10 +176,6 @@ class ReadmeUpdater:
                     )
 
             language = language[0 : len(language) - 2]
-
-            if cache is False:
-                self.cache_file(name, json.dumps(languages))
-                pprint(json.dumps(languages))
 
             return language
         except:  # noqa

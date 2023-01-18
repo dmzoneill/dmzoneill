@@ -16,7 +16,7 @@
 </ul>
 </td>
 <td>
-<img alt="Github" width='400px' src="https://upload.wikimedia.org/wikipedia/commons/d/d8/Red_Hat_logo.svg" />
+<img alt="Github" width='400px' src="https://github.com/dmzoneill/dmzoneill/blob/main/images/redhat.svg?raw=true" />
 </td>
 </tr>
 </table>

@@ -23,7 +23,9 @@ class ReadmeUpdater:
     def __init__(self):
         self.read_config()
         self.read_template()
-        self.get_repos()
+        if self.get_repos() is False:
+            print("Rate limited")
+            return
         self.generate_readme()
 
     def read_config(self):

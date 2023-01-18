@@ -24,10 +24,11 @@
 <table>
 <tr>
 <td>
+![dmzoneills's GitHub stats](https://github-readme-stats.vercel.app/api/top-langs/?username=dmzoneill&layout=compact)
 <img src='https://github-readme-stats.vercel.app/api/top-langs/?username=dmzoneill&layout=compact'/>
 </td>
 <td>
-<img src='https://github-readme-stats.vercel.app/api?username=dmzoneill&show_icons=true&theme=dark'/>
+![dmzoneills's GitHub stats](https://github-readme-stats.vercel.app/api?username=dmzoneill&show_icons=true&theme=dark)
 </td>
 </tr>
 </table>

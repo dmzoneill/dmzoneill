@@ -21,17 +21,6 @@
 </tr>
 </table>
 
-<table>
-<tr>
-<td>
-<img src='https://github-readme-stats.vercel.app/api/top-langs/?username=dmzoneill&layout=compact'/>
-</td>
-<td>
-<img src='https://github-readme-stats.vercel.app/api?username=dmzoneill&show_icons=true&theme=dark'/>
-</td>
-</tr>
-</table>
-
 <h3>Lines of code</h3>    
 <table>
   <thead>

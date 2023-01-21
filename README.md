@@ -115,12 +115,12 @@
   </thead>
   <tbody>
     <tr>
-            <td><p><a href='https://github.com/dmzoneill/ashtangayogacork.ie-assets' title='ashtangayogacork.ie-assets'>ashtangayogacork.ie-assets</a> (2023)</p><p></p><p></p></td>
+            <td><p><a href='https://github.com/dmzoneill/ashtangayogacork.ie-assets' title='ashtangayogacork.ie-assets'>ashtangayogacork.ie-assets</a> (2023)</p><p></p><p>Apache License 2.0</p></td>
             <td><a href='' title=''></a></td>
             <td align="center"><a href='https://github.com/dmzoneill/ashtangayogacork.ie-assets/actions'><img src='https://github.com/dmzoneill/ashtangayogacork.ie-assets/actions/workflows/main.yml/badge.svg'/></a><br/>2023-01-19</td>
         </tr>
 <tr>
-            <td><p><a href='https://github.com/dmzoneill/raspberrypi-risc-assembly' title='raspberrypi-risc-assembly'>raspberrypi-risc-assembly</a> (2023)</p><p><img src='https://img.shields.io/badge/_-AngelScript -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-AngelScript -11DDDD.svg?style=for-the-badge' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' height='20px'/</p><p></p></td>
+            <td><p><a href='https://github.com/dmzoneill/raspberrypi-risc-assembly' title='raspberrypi-risc-assembly'>raspberrypi-risc-assembly</a> (2023)</p><p><img src='https://img.shields.io/badge/_-AngelScript -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-AngelScript -11DDDD.svg?style=for-the-badge' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' height='20px'/</p><p>Apache License 2.0</p></td>
             <td><a href='' title=''></a></td>
             <td align="center"><a href='https://github.com/dmzoneill/raspberrypi-risc-assembly/actions'><img src='https://github.com/dmzoneill/raspberrypi-risc-assembly/actions/workflows/main.yml/badge.svg'/></a><br/>2023-01-19</td>
         </tr>

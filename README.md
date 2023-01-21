@@ -41,12 +41,12 @@
 <td><img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS'  height='20px'/></td><td>5847856</td>
 <td><img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP'  height='20px'/></td><td>76047393</td>
 </tr><tr>
-<td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>1375716</td>
+<td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>1375714</td>
 <td><img src='https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white' title='C++'  height='20px'/></td><td>419172</td>
 <td><img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML'  height='20px'/></td><td>13567772</td>
 <td><img src='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' title='Java'  height='20px'/></td><td>2077323</td>
 </tr><tr>
-<td><img src='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' title='JavaScript'  height='20px'/></td><td>8758295</td>
+<td><img src='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' title='JavaScript'  height='20px'/></td><td>8758348</td>
 <td><img src='https://img.shields.io/badge/_-Hack -11DDDD.svg?style=for-the-badge' title='Hack'  height='20px'/></td><td>260118</td>
 <td><img src='https://img.shields.io/badge/_-Smarty -11DDDD.svg?style=for-the-badge' title='Smarty'  height='20px'/></td><td>2034035</td>
 <td><img src='https://img.shields.io/badge/_-TSQL -11DDDD.svg?style=for-the-badge' title='TSQL'  height='20px'/></td><td>163674</td>
@@ -84,7 +84,7 @@
 <td><img src='https://img.shields.io/badge/_-VBScript -11DDDD.svg?style=for-the-badge' title='VBScript'  height='20px'/></td><td>5008</td>
 <td><img src='https://img.shields.io/badge/_-Prolog -11DDDD.svg?style=for-the-badge' title='Prolog'  height='20px'/></td><td>80451</td>
 <td><img src='https://img.shields.io/badge/_-SystemVerilog -11DDDD.svg?style=for-the-badge' title='SystemVerilog'  height='20px'/></td><td>19753</td>
-<td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>440035</td>
+<td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>440034</td>
 </tr><tr>
 <td><img src='https://img.shields.io/badge/_-Vim Script -11DDDD.svg?style=for-the-badge' title='Vim Script'  height='20px'/></td><td>258</td>
 <td><img src='https://img.shields.io/badge/_-Emacs Lisp -11DDDD.svg?style=for-the-badge' title='Emacs Lisp'  height='20px'/></td><td>210</td>

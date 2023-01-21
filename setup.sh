@@ -16,7 +16,7 @@ while true; do
 
     [[ "$name" == "dmzoneill" ]] && continue
 
-    action_file="https://github.com/$user/$name/blob/master/.github/workflows/main.yml"
+    action_file="https://github.com/$user/$name/blob/main/.github/workflows/main.yml"
     exists=$(curl -L -s -o /dev/null -w "%{http_code}" "$action_file")
 
     processed=$((processed+1))

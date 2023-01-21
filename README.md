@@ -46,7 +46,7 @@
 <td><img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML'  height='20px'/></td><td>13567772</td>
 <td><img src='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' title='Java'  height='20px'/></td><td>2077323</td>
 </tr><tr>
-<td><img src='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' title='JavaScript'  height='20px'/></td><td>8758235</td>
+<td><img src='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' title='JavaScript'  height='20px'/></td><td>8758295</td>
 <td><img src='https://img.shields.io/badge/_-Hack -11DDDD.svg?style=for-the-badge' title='Hack'  height='20px'/></td><td>260118</td>
 <td><img src='https://img.shields.io/badge/_-Smarty -11DDDD.svg?style=for-the-badge' title='Smarty'  height='20px'/></td><td>2034035</td>
 <td><img src='https://img.shields.io/badge/_-TSQL -11DDDD.svg?style=for-the-badge' title='TSQL'  height='20px'/></td><td>163674</td>
@@ -84,7 +84,7 @@
 <td><img src='https://img.shields.io/badge/_-VBScript -11DDDD.svg?style=for-the-badge' title='VBScript'  height='20px'/></td><td>5008</td>
 <td><img src='https://img.shields.io/badge/_-Prolog -11DDDD.svg?style=for-the-badge' title='Prolog'  height='20px'/></td><td>80451</td>
 <td><img src='https://img.shields.io/badge/_-SystemVerilog -11DDDD.svg?style=for-the-badge' title='SystemVerilog'  height='20px'/></td><td>19753</td>
-<td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>439926</td>
+<td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>440167</td>
 </tr><tr>
 <td><img src='https://img.shields.io/badge/_-Vim Script -11DDDD.svg?style=for-the-badge' title='Vim Script'  height='20px'/></td><td>258</td>
 <td><img src='https://img.shields.io/badge/_-Emacs Lisp -11DDDD.svg?style=for-the-badge' title='Emacs Lisp'  height='20px'/></td><td>210</td>
@@ -390,7 +390,7 @@
             <td align="center"><a href='https://github.com/dmzoneill/mono-gtk-galarm/actions'><img src='https://github.com/dmzoneill/mono-gtk-galarm/actions/workflows/main.yml/badge.svg'/></a><br/>2023-01-17</td>
         </tr>
 <tr>
-            <td><p><a href='https://github.com/dmzoneill/mono-gtk-filecleaner' title='mono-gtk-filecleaner'>mono-gtk-filecleaner</a> (2009)</p><p><img src='https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white' title='https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' height='20px'/</p><p>Apache License 2.0</p></td>
+            <td><p><a href='https://github.com/dmzoneill/mono-gtk-filecleaner' title='mono-gtk-filecleaner'>mono-gtk-filecleaner</a> </p><p><img src='https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white' title='https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' height='20px'/</p><p>Apache License 2.0</p></td>
             <td><a href='' title=''></a></td>
             <td align="center"><a href='https://github.com/dmzoneill/mono-gtk-filecleaner/actions'><img src='https://github.com/dmzoneill/mono-gtk-filecleaner/actions/workflows/main.yml/badge.svg'/></a><br/>2023-01-17</td>
         </tr>

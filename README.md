@@ -1,7 +1,7 @@
 <a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> 
 <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 
-22/01/2023 16:25:04
+22/01/2023 16:32:09
 
 <table>
 <tr>
@@ -807,7 +807,7 @@
             <td align="center"><a href='https://github.com/dmzoneill/filebotpp/actions'><img src='https://github.com/dmzoneill/filebotpp/actions/workflows/main.yml/badge.svg'/></a><br/>2023-01-15</td>
         </tr>
 <tr>
-            <td><p><a href='https://github.com/dmzoneill/ashtangayogacork.ie-ios' title='ashtangayogacork.ie-ios'>ashtangayogacork.ie-ios</a> (2023)</p><p><img src='https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white' title='https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white' height='20px'/</p><p>Apache License 2.0</p></td>
+            <td><p><a href='https://github.com/dmzoneill/ashtangayogacork.ie-ios' title='ashtangayogacork.ie-ios'>ashtangayogacork.ie-ios</a> </p><p><img src='https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white' title='https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white' height='20px'/</p><p>Apache License 2.0</p></td>
             <td><a href='https://apps.apple.com/us/app/ashtanga-yoga-cork/id1508794150' title='IOS app'>IOS app</a></td>
             <td align="center"><a href='https://github.com/dmzoneill/ashtangayogacork.ie-ios/actions'><img src='https://github.com/dmzoneill/ashtangayogacork.ie-ios/actions/workflows/main.yml/badge.svg'/></a><br/>2023-01-15</td>
         </tr>

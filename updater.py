@@ -1,6 +1,7 @@
 import json
 import os
 import re
+from datetime import datetime
 from pprint import pprint
 
 import requests
@@ -296,6 +297,10 @@ class ReadmeUpdater:
             self.generate_orgs()
             self.generate_repos()
             self.favourite_langs()
+
+            now = datetime.now()
+            dt_string = now.strftime("%d/%m/%Y %H:%M:%S")
+
             self.template = self.template.replace(
                 "{github_url}", self.config["github_url"]
             )
@@ -305,6 +310,7 @@ class ReadmeUpdater:
             self.template = self.template.replace(
                 "{langcount}", str(len(self.total_lines_lang) + 1)
             )
+            self.template = self.template.replace("{last_updated}", dt_string)
 
             print(self.template)
 

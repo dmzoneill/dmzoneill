@@ -9,7 +9,7 @@ import requests
 
 class ReadmeUpdater:
 
-    repos_url = "https://api.github.com/users/dmzoneill/repos?per_page=100"
+    repos_url = "https://api.github.com/users/dmzoneill/repos?per_page=100&type=owner&sort=pushed"
     url_url = "https://api.github.com/users/dmzoneill"
     cache_dir = "./cache"
     config_file = "config.json"
@@ -128,7 +128,6 @@ class ReadmeUpdater:
 
     def get_repo_languages(self, name):
         try:
-            # https://api.github.com/repos/dmzoneill/aa-dev-prod-watcher/languages
             languages_url = (
                 "https://api.github.com/repos/dmzoneill/" + name + "/languages"
             )

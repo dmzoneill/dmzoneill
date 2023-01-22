@@ -197,12 +197,18 @@ class ReadmeUpdater:
 
             for repo in self.repos:
 
+                prepend = False
+
                 language = self.get_repo_languages(repo["name"])
                 language = language if language is not False else repo["language"]
                 html_url = repo["html_url"]
                 name = repo["name"]
                 live_url = live[repo["name"]][0] if repo["name"] in live else ""
                 live_name = live[repo["name"]][1] if repo["name"] in live else ""
+
+                if live_url != "" and live_name != "":
+                    prepend = True
+
                 license = repo["license"]["name"] if repo["license"] is not None else ""
                 updated_at = (
                     repo["updated_at"] if repo["updated_at"] is not None else ""
@@ -227,7 +233,10 @@ class ReadmeUpdater:
                 row = row.replace("{updated_at}", updated_at.split("T")[0])
                 row = row.replace("{badge}", badge)
 
-                rows += row + "\n"
+                if prepend:
+                    rows = row + "\n" + rows
+                else:
+                    rows = rows + "\n" + row
             self.template = re.sub(
                 "<repos>(.*)</repos>", rows, self.template, flags=re.I | re.M | re.S
             )

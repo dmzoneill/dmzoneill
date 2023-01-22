@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-22/01/2023 17:23:58-brightgreen" />
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-22/01/2023 17:33:11-brightgreen" height='28'/>
 
 
 <table>
@@ -84,7 +84,7 @@
 <td><img src='https://img.shields.io/badge/_-VBScript -11DDDD.svg?style=for-the-badge' title='VBScript'  height='20px'/></td><td>5008</td>
 <td><img src='https://img.shields.io/badge/_-Prolog -11DDDD.svg?style=for-the-badge' title='Prolog'  height='20px'/></td><td>80451</td>
 <td><img src='https://img.shields.io/badge/_-SystemVerilog -11DDDD.svg?style=for-the-badge' title='SystemVerilog'  height='20px'/></td><td>19753</td>
-<td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>455191</td>
+<td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>455421</td>
 </tr><tr>
 <td><img src='https://img.shields.io/badge/_-Vim Script -11DDDD.svg?style=for-the-badge' title='Vim Script'  height='20px'/></td><td>258</td>
 <td><img src='https://img.shields.io/badge/_-Emacs Lisp -11DDDD.svg?style=for-the-badge' title='Emacs Lisp'  height='20px'/></td><td>210</td>
@@ -115,6 +115,47 @@
   </thead>
   <tbody>
     <tr>
+            <td><p><a href='https://github.com/dmzoneill/curriculum-vitae' title='curriculum-vitae'>curriculum-vitae</a> (2023)</p><p><img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' height='20px'/</p><p>Apache License 2.0</p></td>
+            <td><a href='https://cv.fio.ie' title='CV'>CV</a></td>
+            <td align="center"><a href='https://github.com/dmzoneill/curriculum-vitae/actions'><img src='https://github.com/dmzoneill/curriculum-vitae/actions/workflows/main.yml/badge.svg'/></a><br/>2022-04-20</td>
+        </tr>
+<tr>
+            <td><p><a href='https://github.com/dmzoneill/sodarr-chrome-plugin' title='sodarr-chrome-plugin'>sodarr-chrome-plugin</a> (2022)</p><p><img src='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' height='20px'/> <img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' height='20px'/</p><p>Apache License 2.0</p></td>
+            <td><a href='https://chrome.google.com/webstore/detail/sodarr/nndmepnfkempbbjjfhbogcidgfckakmb' title='Google chrome extension'>Google chrome extension</a></td>
+            <td align="center"><a href='https://github.com/dmzoneill/sodarr-chrome-plugin/actions'><img src='https://github.com/dmzoneill/sodarr-chrome-plugin/actions/workflows/main.yml/badge.svg'/></a><br/>2022-06-15</td>
+        </tr>
+<tr>
+            <td><p><a href='https://github.com/dmzoneill/ashtangayogacork.ie-android' title='ashtangayogacork.ie-android'>ashtangayogacork.ie-android</a> (2023)</p><p><img src='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' title='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' height='20px'/</p><p>Apache License 2.0</p></td>
+            <td><a href='https://play.google.com/store/apps/details?id=ie.ayc' title='Android app'>Android app</a></td>
+            <td align="center"><a href='https://github.com/dmzoneill/ashtangayogacork.ie-android/actions'><img src='https://github.com/dmzoneill/ashtangayogacork.ie-android/actions/workflows/main.yml/badge.svg'/></a><br/>2022-12-04</td>
+        </tr>
+<tr>
+            <td><p><a href='https://github.com/dmzoneill/ashtangayogacork.ie-wearos' title='ashtangayogacork.ie-wearos'>ashtangayogacork.ie-wearos</a> (2023)</p><p><img src='https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white' title='https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white' height='20px'/</p><p>Apache License 2.0</p></td>
+            <td><a href='https://play.google.com/store/apps/details?id=ie.ayc.wearos' title='Wearos App'>Wearos App</a></td>
+            <td align="center"><a href='https://github.com/dmzoneill/ashtangayogacork.ie-wearos/actions'><img src='https://github.com/dmzoneill/ashtangayogacork.ie-wearos/actions/workflows/main.yml/badge.svg'/></a><br/>2022-12-04</td>
+        </tr>
+<tr>
+            <td><p><a href='https://github.com/dmzoneill/tado-gnome-shell-extension' title='tado-gnome-shell-extension'>tado-gnome-shell-extension</a> (2023)</p><p><img src='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' height='20px'/</p><p>Apache License 2.0</p></td>
+            <td><a href='https://extensions.gnome.org/extension/5606/tado/' title='Gnome desktop extension'>Gnome desktop extension</a></td>
+            <td align="center"><a href='https://github.com/dmzoneill/tado-gnome-shell-extension/actions'><img src='https://github.com/dmzoneill/tado-gnome-shell-extension/actions/workflows/main.yml/badge.svg'/></a><br/>2022-12-19</td>
+        </tr>
+<tr>
+            <td><p><a href='https://github.com/dmzoneill/gnome-extension-publisher' title='gnome-extension-publisher'>gnome-extension-publisher</a> (2023)</p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' height='20px'/</p><p>Apache License 2.0</p></td>
+            <td><a href='https://pypi.org/project/gnome-extension-publisher/' title='PYPI Package'>PYPI Package</a></td>
+            <td align="center"><a href='https://github.com/dmzoneill/gnome-extension-publisher/actions'><img src='https://github.com/dmzoneill/gnome-extension-publisher/actions/workflows/main.yml/badge.svg'/></a><br/>2023-01-14</td>
+        </tr>
+<tr>
+            <td><p><a href='https://github.com/dmzoneill/ashtangayogacork.ie-ios' title='ashtangayogacork.ie-ios'>ashtangayogacork.ie-ios</a> (2021)</p><p><img src='https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white' title='https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white' height='20px'/</p><p>Apache License 2.0</p></td>
+            <td><a href='https://apps.apple.com/us/app/ashtanga-yoga-cork/id1508794150' title='IOS app'>IOS app</a></td>
+            <td align="center"><a href='https://github.com/dmzoneill/ashtangayogacork.ie-ios/actions'><img src='https://github.com/dmzoneill/ashtangayogacork.ie-ios/actions/workflows/main.yml/badge.svg'/></a><br/>2023-01-15</td>
+        </tr>
+<tr>
+            <td><p><a href='https://github.com/dmzoneill/dmzoneill' title='dmzoneill'>dmzoneill</a> (2023)</p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' height='20px'/</p><p>Apache License 2.0</p></td>
+            <td><a href='https://github.com/dmzoneill' title='Github profile'>Github profile</a></td>
+            <td align="center"><a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill/dmzoneill/actions/workflows/main.yml/badge.svg'/></a><br/>2023-01-16</td>
+        </tr>
+
+<tr>
             <td><p><a href='https://github.com/dmzoneill/lm051-cs4001-computer-applications-robocode-reefer' title='lm051-cs4001-computer-applications-robocode-reefer'>lm051-cs4001-computer-applications-robocode-reefer</a> (2023)</p><p><img src='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' title='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' height='20px'/</p><p>Apache License 2.0</p></td>
             <td><a href='' title=''></a></td>
             <td align="center"><a href='https://github.com/dmzoneill/lm051-cs4001-computer-applications-robocode-reefer/actions'><img src='https://github.com/dmzoneill/lm051-cs4001-computer-applications-robocode-reefer/actions/workflows/main.yml/badge.svg'/></a><br/>2023-01-22</td>
@@ -800,19 +841,9 @@
             <td align="center"><a href='https://github.com/dmzoneill/android-digiweb-usage/actions'><img src='https://github.com/dmzoneill/android-digiweb-usage/actions/workflows/main.yml/badge.svg'/></a><br/>2023-01-16</td>
         </tr>
 <tr>
-            <td><p><a href='https://github.com/dmzoneill/dmzoneill' title='dmzoneill'>dmzoneill</a> (2023)</p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' height='20px'/</p><p>Apache License 2.0</p></td>
-            <td><a href='https://github.com/dmzoneill' title='Github profile'>Github profile</a></td>
-            <td align="center"><a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill/dmzoneill/actions/workflows/main.yml/badge.svg'/></a><br/>2023-01-16</td>
-        </tr>
-<tr>
             <td><p><a href='https://github.com/dmzoneill/filebotpp' title='filebotpp'>filebotpp</a> (2023)</p><p><img src='https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white' title='https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white' height='20px'/</p><p>Apache License 2.0</p></td>
             <td><a href='' title=''></a></td>
             <td align="center"><a href='https://github.com/dmzoneill/filebotpp/actions'><img src='https://github.com/dmzoneill/filebotpp/actions/workflows/main.yml/badge.svg'/></a><br/>2023-01-15</td>
-        </tr>
-<tr>
-            <td><p><a href='https://github.com/dmzoneill/ashtangayogacork.ie-ios' title='ashtangayogacork.ie-ios'>ashtangayogacork.ie-ios</a> (2021)</p><p><img src='https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white' title='https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white' height='20px'/</p><p>Apache License 2.0</p></td>
-            <td><a href='https://apps.apple.com/us/app/ashtanga-yoga-cork/id1508794150' title='IOS app'>IOS app</a></td>
-            <td align="center"><a href='https://github.com/dmzoneill/ashtangayogacork.ie-ios/actions'><img src='https://github.com/dmzoneill/ashtangayogacork.ie-ios/actions/workflows/main.yml/badge.svg'/></a><br/>2023-01-15</td>
         </tr>
 <tr>
             <td><p><a href='https://github.com/dmzoneill/filebot-nautilus' title='filebot-nautilus'>filebot-nautilus</a> (2023)</p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' height='20px'/</p><p>Apache License 2.0</p></td>
@@ -830,19 +861,9 @@
             <td align="center"><a href='https://github.com/dmzoneill/ashtangayogacork.ie-doorpi/actions'><img src='https://github.com/dmzoneill/ashtangayogacork.ie-doorpi/actions/workflows/main.yml/badge.svg'/></a><br/>2023-01-15</td>
         </tr>
 <tr>
-            <td><p><a href='https://github.com/dmzoneill/gnome-extension-publisher' title='gnome-extension-publisher'>gnome-extension-publisher</a> (2023)</p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' height='20px'/</p><p>Apache License 2.0</p></td>
-            <td><a href='https://pypi.org/project/gnome-extension-publisher/' title='PYPI Package'>PYPI Package</a></td>
-            <td align="center"><a href='https://github.com/dmzoneill/gnome-extension-publisher/actions'><img src='https://github.com/dmzoneill/gnome-extension-publisher/actions/workflows/main.yml/badge.svg'/></a><br/>2023-01-14</td>
-        </tr>
-<tr>
             <td><p><a href='https://github.com/dmzoneill/lidarr-youtube-downloader' title='lidarr-youtube-downloader'>lidarr-youtube-downloader</a> (2023)</p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' height='20px'/> <img src='https://camo.githubusercontent.com/4ec342876a40b53ffc6230a41196528690f9f42b1098fd354df46c649720b4c6/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d446f636b657226636f6c6f723d323439364544266c6f676f3d446f636b6572266c6f676f436f6c6f723d464646464646266c6162656c3d' title='https://camo.githubusercontent.com/4ec342876a40b53ffc6230a41196528690f9f42b1098fd354df46c649720b4c6/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d446f636b657226636f6c6f723d323439364544266c6f676f3d446f636b6572266c6f676f436f6c6f723d464646464646266c6162656c3d' height='20px'/</p><p>Apache License 2.0</p></td>
             <td><a href='' title=''></a></td>
             <td align="center"><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/actions'><img src='https://github.com/dmzoneill/lidarr-youtube-downloader/actions/workflows/main.yml/badge.svg'/></a><br/>2023-01-03</td>
-        </tr>
-<tr>
-            <td><p><a href='https://github.com/dmzoneill/tado-gnome-shell-extension' title='tado-gnome-shell-extension'>tado-gnome-shell-extension</a> (2023)</p><p><img src='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' height='20px'/</p><p>Apache License 2.0</p></td>
-            <td><a href='https://extensions.gnome.org/extension/5606/tado/' title='Gnome desktop extension'>Gnome desktop extension</a></td>
-            <td align="center"><a href='https://github.com/dmzoneill/tado-gnome-shell-extension/actions'><img src='https://github.com/dmzoneill/tado-gnome-shell-extension/actions/workflows/main.yml/badge.svg'/></a><br/>2022-12-19</td>
         </tr>
 <tr>
             <td><p><a href='https://github.com/dmzoneill/Chuckbot' title='Chuckbot'>Chuckbot</a> (2023)</p><p><img src='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' height='20px'/</p><p>Apache License 2.0</p></td>
@@ -853,16 +874,6 @@
             <td><p><a href='https://github.com/dmzoneill/Bootstack-Highlight-Monitor' title='Bootstack-Highlight-Monitor'>Bootstack-Highlight-Monitor</a> (2023)</p><p></p><p>Apache License 2.0</p></td>
             <td><a href='' title=''></a></td>
             <td align="center"><a href='https://github.com/dmzoneill/Bootstack-Highlight-Monitor/actions'><img src='https://github.com/dmzoneill/Bootstack-Highlight-Monitor/actions/workflows/main.yml/badge.svg'/></a><br/>2022-12-04</td>
-        </tr>
-<tr>
-            <td><p><a href='https://github.com/dmzoneill/ashtangayogacork.ie-wearos' title='ashtangayogacork.ie-wearos'>ashtangayogacork.ie-wearos</a> (2023)</p><p><img src='https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white' title='https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white' height='20px'/</p><p>Apache License 2.0</p></td>
-            <td><a href='https://play.google.com/store/apps/details?id=ie.ayc.wearos' title='Wearos App'>Wearos App</a></td>
-            <td align="center"><a href='https://github.com/dmzoneill/ashtangayogacork.ie-wearos/actions'><img src='https://github.com/dmzoneill/ashtangayogacork.ie-wearos/actions/workflows/main.yml/badge.svg'/></a><br/>2022-12-04</td>
-        </tr>
-<tr>
-            <td><p><a href='https://github.com/dmzoneill/ashtangayogacork.ie-android' title='ashtangayogacork.ie-android'>ashtangayogacork.ie-android</a> (2023)</p><p><img src='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' title='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' height='20px'/</p><p>Apache License 2.0</p></td>
-            <td><a href='https://play.google.com/store/apps/details?id=ie.ayc' title='Android app'>Android app</a></td>
-            <td align="center"><a href='https://github.com/dmzoneill/ashtangayogacork.ie-android/actions'><img src='https://github.com/dmzoneill/ashtangayogacork.ie-android/actions/workflows/main.yml/badge.svg'/></a><br/>2022-12-04</td>
         </tr>
 <tr>
             <td><p><a href='https://github.com/dmzoneill/aa-concur-reimbursement-internet' title='aa-concur-reimbursement-internet'>aa-concur-reimbursement-internet</a> (2023)</p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' height='20px'/</p><p>Apache License 2.0</p></td>
@@ -878,11 +889,6 @@
             <td><p><a href='https://github.com/dmzoneill/jackett-indexarr' title='jackett-indexarr'>jackett-indexarr</a> (2023)</p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' height='20px'/</p><p>Apache License 2.0</p></td>
             <td><a href='' title=''></a></td>
             <td align="center"><a href='https://github.com/dmzoneill/jackett-indexarr/actions'><img src='https://github.com/dmzoneill/jackett-indexarr/actions/workflows/main.yml/badge.svg'/></a><br/>2022-07-10</td>
-        </tr>
-<tr>
-            <td><p><a href='https://github.com/dmzoneill/sodarr-chrome-plugin' title='sodarr-chrome-plugin'>sodarr-chrome-plugin</a> (2022)</p><p><img src='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' height='20px'/> <img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' height='20px'/</p><p>Apache License 2.0</p></td>
-            <td><a href='https://chrome.google.com/webstore/detail/sodarr/nndmepnfkempbbjjfhbogcidgfckakmb' title='Google chrome extension'>Google chrome extension</a></td>
-            <td align="center"><a href='https://github.com/dmzoneill/sodarr-chrome-plugin/actions'><img src='https://github.com/dmzoneill/sodarr-chrome-plugin/actions/workflows/main.yml/badge.svg'/></a><br/>2022-06-15</td>
         </tr>
 <tr>
             <td><p><a href='https://github.com/dmzoneill/aa-dev-prod-watcher' title='aa-dev-prod-watcher'>aa-dev-prod-watcher</a> (2023)</p><p><img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' title='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' height='20px'/> <img src='https://camo.githubusercontent.com/4ec342876a40b53ffc6230a41196528690f9f42b1098fd354df46c649720b4c6/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d446f636b657226636f6c6f723d323439364544266c6f676f3d446f636b6572266c6f676f436f6c6f723d464646464646266c6162656c3d' title='https://camo.githubusercontent.com/4ec342876a40b53ffc6230a41196528690f9f42b1098fd354df46c649720b4c6/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d446f636b657226636f6c6f723d323439364544266c6f676f3d446f636b6572266c6f676f436f6c6f723d464646464646266c6162656c3d' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' height='20px'/</p><p>Apache License 2.0</p></td>
@@ -915,11 +921,6 @@
             <td align="center"><a href='https://github.com/dmzoneill/cpuminer-multi/actions'><img src='https://github.com/dmzoneill/cpuminer-multi/actions/workflows/main.yml/badge.svg'/></a><br/>2022-04-26</td>
         </tr>
 <tr>
-            <td><p><a href='https://github.com/dmzoneill/curriculum-vitae' title='curriculum-vitae'>curriculum-vitae</a> (2023)</p><p><img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' height='20px'/</p><p>Apache License 2.0</p></td>
-            <td><a href='https://cv.fio.ie' title='CV'>CV</a></td>
-            <td align="center"><a href='https://github.com/dmzoneill/curriculum-vitae/actions'><img src='https://github.com/dmzoneill/curriculum-vitae/actions/workflows/main.yml/badge.svg'/></a><br/>2022-04-20</td>
-        </tr>
-<tr>
             <td><p><a href='https://github.com/dmzoneill/home-helper-scripts' title='home-helper-scripts'>home-helper-scripts</a> (2023)</p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' height='20px'/</p><p>Apache License 2.0</p></td>
             <td><a href='' title=''></a></td>
             <td align="center"><a href='https://github.com/dmzoneill/home-helper-scripts/actions'><img src='https://github.com/dmzoneill/home-helper-scripts/actions/workflows/main.yml/badge.svg'/></a><br/>2022-04-17</td>
@@ -934,6 +935,5 @@
             <td><a href='' title=''></a></td>
             <td align="center"><a href='https://github.com/dmzoneill/rh-otp-auto-connect/actions'><img src='https://github.com/dmzoneill/rh-otp-auto-connect/actions/workflows/main.yml/badge.svg'/></a><br/>2021-12-08</td>
         </tr>
-
   </tbody>
 </table>

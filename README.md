@@ -1,7 +1,7 @@
 <a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> 
 <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 
-last updated: 22/01/2023 17:06:49
+last updated: 22/01/2023 17:18:44
 
 <table>
 <tr>
@@ -117,12 +117,12 @@ last updated: 22/01/2023 17:06:49
   </thead>
   <tbody>
     <tr>
-            <td><p><a href='https://github.com/dmzoneill/lm051-cs4001-computer-applications-robocode-reefer' title='lm051-cs4001-computer-applications-robocode-reefer'>lm051-cs4001-computer-applications-robocode-reefer</a> </p><p><img src='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' title='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' height='20px'/</p><p></p></td>
+            <td><p><a href='https://github.com/dmzoneill/lm051-cs4001-computer-applications-robocode-reefer' title='lm051-cs4001-computer-applications-robocode-reefer'>lm051-cs4001-computer-applications-robocode-reefer</a> (2023)</p><p><img src='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' title='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' height='20px'/</p><p>Apache License 2.0</p></td>
             <td><a href='' title=''></a></td>
             <td align="center"><a href='https://github.com/dmzoneill/lm051-cs4001-computer-applications-robocode-reefer/actions'><img src='https://github.com/dmzoneill/lm051-cs4001-computer-applications-robocode-reefer/actions/workflows/main.yml/badge.svg'/></a><br/>2023-01-22</td>
         </tr>
 <tr>
-            <td><p><a href='https://github.com/dmzoneill/home-monitoring' title='home-monitoring'>home-monitoring</a> </p><p><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' height='20px'/</p><p></p></td>
+            <td><p><a href='https://github.com/dmzoneill/home-monitoring' title='home-monitoring'>home-monitoring</a> (2023)</p><p><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' height='20px'/</p><p>Apache License 2.0</p></td>
             <td><a href='' title=''></a></td>
             <td align="center"><a href='https://github.com/dmzoneill/home-monitoring/actions'><img src='https://github.com/dmzoneill/home-monitoring/actions/workflows/main.yml/badge.svg'/></a><br/>2023-01-22</td>
         </tr>
@@ -830,11 +830,6 @@ last updated: 22/01/2023 17:06:49
             <td><p><a href='https://github.com/dmzoneill/ashtangayogacork.ie-doorpi' title='ashtangayogacork.ie-doorpi'>ashtangayogacork.ie-doorpi</a> (2023)</p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' height='20px'/> <img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' height='20px'/</p><p>Apache License 2.0</p></td>
             <td><a href='' title=''></a></td>
             <td align="center"><a href='https://github.com/dmzoneill/ashtangayogacork.ie-doorpi/actions'><img src='https://github.com/dmzoneill/ashtangayogacork.ie-doorpi/actions/workflows/main.yml/badge.svg'/></a><br/>2023-01-15</td>
-        </tr>
-<tr>
-            <td><p><a href='https://github.com/dmzoneill/css-in-readme-like-wat' title='css-in-readme-like-wat'>css-in-readme-like-wat</a> (2021)</p><p></p><p>Apache License 2.0</p></td>
-            <td><a href='' title=''></a></td>
-            <td align="center"><a href='https://github.com/dmzoneill/css-in-readme-like-wat/actions'><img src='https://github.com/dmzoneill/css-in-readme-like-wat/actions/workflows/main.yml/badge.svg'/></a><br/>2023-01-15</td>
         </tr>
 <tr>
             <td><p><a href='https://github.com/dmzoneill/gnome-extension-publisher' title='gnome-extension-publisher'>gnome-extension-publisher</a> (2023)</p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' height='20px'/</p><p>Apache License 2.0</p></td>

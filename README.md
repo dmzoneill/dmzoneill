@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-22/01/2023 17:41:01-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-22/01/2023 17:44:52-brightgreen" height='28'/>
 
 
 <table>
@@ -116,37 +116,37 @@
   <tbody>
     <tr>
             <td><p><a href='https://github.com/dmzoneill/curriculum-vitae' title='curriculum-vitae'>curriculum-vitae</a> (2023)</p><p><img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' height='20px'/</p><p>Apache License 2.0</p></td>
-            <td><a href='https://cv.fio.ie' title='CV'>CV</a></td>
+            <td><a href='https://cv.fio.ie' title='Curriculum vitae'>Curriculum vitae</a></td>
             <td align="center"><a href='https://github.com/dmzoneill/curriculum-vitae/actions'><img src='https://github.com/dmzoneill/curriculum-vitae/actions/workflows/main.yml/badge.svg'/></a><br/>2022-04-20</td>
         </tr>
 <tr>
             <td><p><a href='https://github.com/dmzoneill/sodarr-chrome-plugin' title='sodarr-chrome-plugin'>sodarr-chrome-plugin</a> (2022)</p><p><img src='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' height='20px'/> <img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' height='20px'/</p><p>Apache License 2.0</p></td>
-            <td><a href='https://chrome.google.com/webstore/detail/sodarr/nndmepnfkempbbjjfhbogcidgfckakmb' title='Google chrome extension'>Google chrome extension</a></td>
+            <td><a href='https://chrome.google.com/webstore/detail/sodarr/nndmepnfkempbbjjfhbogcidgfckakmb' title='Sodarr Google chrome extension'>Sodarr Google chrome extension</a></td>
             <td align="center"><a href='https://github.com/dmzoneill/sodarr-chrome-plugin/actions'><img src='https://github.com/dmzoneill/sodarr-chrome-plugin/actions/workflows/main.yml/badge.svg'/></a><br/>2022-06-15</td>
         </tr>
 <tr>
             <td><p><a href='https://github.com/dmzoneill/ashtangayogacork.ie-android' title='ashtangayogacork.ie-android'>ashtangayogacork.ie-android</a> (2023)</p><p><img src='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' title='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' height='20px'/</p><p>Apache License 2.0</p></td>
-            <td><a href='https://play.google.com/store/apps/details?id=ie.ayc' title='Android app'>Android app</a></td>
+            <td><a href='https://play.google.com/store/apps/details?id=ie.ayc' title='Ashtanga Yoga Cork android app'>Ashtanga Yoga Cork android app</a></td>
             <td align="center"><a href='https://github.com/dmzoneill/ashtangayogacork.ie-android/actions'><img src='https://github.com/dmzoneill/ashtangayogacork.ie-android/actions/workflows/main.yml/badge.svg'/></a><br/>2022-12-04</td>
         </tr>
 <tr>
             <td><p><a href='https://github.com/dmzoneill/ashtangayogacork.ie-wearos' title='ashtangayogacork.ie-wearos'>ashtangayogacork.ie-wearos</a> (2023)</p><p><img src='https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white' title='https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white' height='20px'/</p><p>Apache License 2.0</p></td>
-            <td><a href='https://play.google.com/store/apps/details?id=ie.ayc.wearos' title='Wearos App'>Wearos App</a></td>
+            <td><a href='https://play.google.com/store/apps/details?id=ie.ayc.wearos' title='Ashtanga Yoga Cork Wearos App'>Ashtanga Yoga Cork Wearos App</a></td>
             <td align="center"><a href='https://github.com/dmzoneill/ashtangayogacork.ie-wearos/actions'><img src='https://github.com/dmzoneill/ashtangayogacork.ie-wearos/actions/workflows/main.yml/badge.svg'/></a><br/>2022-12-04</td>
         </tr>
 <tr>
             <td><p><a href='https://github.com/dmzoneill/tado-gnome-shell-extension' title='tado-gnome-shell-extension'>tado-gnome-shell-extension</a> (2023)</p><p><img src='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' height='20px'/</p><p>Apache License 2.0</p></td>
-            <td><a href='https://extensions.gnome.org/extension/5606/tado/' title='Gnome desktop extension'>Gnome desktop extension</a></td>
+            <td><a href='https://extensions.gnome.org/extension/5606/tado/' title='Tado Gnome desktop extension'>Tado Gnome desktop extension</a></td>
             <td align="center"><a href='https://github.com/dmzoneill/tado-gnome-shell-extension/actions'><img src='https://github.com/dmzoneill/tado-gnome-shell-extension/actions/workflows/main.yml/badge.svg'/></a><br/>2022-12-19</td>
         </tr>
 <tr>
             <td><p><a href='https://github.com/dmzoneill/gnome-extension-publisher' title='gnome-extension-publisher'>gnome-extension-publisher</a> (2023)</p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' height='20px'/</p><p>Apache License 2.0</p></td>
-            <td><a href='https://pypi.org/project/gnome-extension-publisher/' title='PYPI Package'>PYPI Package</a></td>
+            <td><a href='https://pypi.org/project/gnome-extension-publisher/' title='Gnome Extension Publisher PYPI package'>Gnome Extension Publisher PYPI package</a></td>
             <td align="center"><a href='https://github.com/dmzoneill/gnome-extension-publisher/actions'><img src='https://github.com/dmzoneill/gnome-extension-publisher/actions/workflows/main.yml/badge.svg'/></a><br/>2023-01-14</td>
         </tr>
 <tr>
             <td><p><a href='https://github.com/dmzoneill/ashtangayogacork.ie-ios' title='ashtangayogacork.ie-ios'>ashtangayogacork.ie-ios</a> (2021)</p><p><img src='https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white' title='https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white' height='20px'/</p><p>Apache License 2.0</p></td>
-            <td><a href='https://apps.apple.com/us/app/ashtanga-yoga-cork/id1508794150' title='IOS app'>IOS app</a></td>
+            <td><a href='https://apps.apple.com/us/app/ashtanga-yoga-cork/id1508794150' title='Ashtanga Yoga Cork IOS app'>Ashtanga Yoga Cork IOS app</a></td>
             <td align="center"><a href='https://github.com/dmzoneill/ashtangayogacork.ie-ios/actions'><img src='https://github.com/dmzoneill/ashtangayogacork.ie-ios/actions/workflows/main.yml/badge.svg'/></a><br/>2023-01-15</td>
         </tr>
 <tr>

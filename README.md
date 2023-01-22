@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-22/01/2023 22:51:41-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-22/01/2023 23:02:52-brightgreen" height='28'/>
 
 
 <table>
@@ -126,7 +126,7 @@
         </tr>
 <tr>
             <td><p><a href='https://github.com/dmzoneill/jackett-indexarr' title='jackett-indexarr'>jackett-indexarr</a> (2023)</p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' height='20px'/</p><p>Apache License 2.0</p></td>
-            <td><a href='https://pypi.org/project/jackett-indexarr/' title='Jackett Indexarr PYPI package'>Jackett Indexarr PYPI package</a></td>
+            <td><a href='https://pypi.org/project/jackett-indexerarr/' title='Jackett Indexarr PYPI package'>Jackett Indexarr PYPI package</a></td>
             <td align="center"><a href='https://github.com/dmzoneill/jackett-indexarr/actions'><img src='https://github.com/dmzoneill/jackett-indexarr/actions/workflows/main.yml/badge.svg'/></a><br/>2022-07-10</td>
         </tr>
 <tr>

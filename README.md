@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-22/01/2023 17:56:06-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-22/01/2023 18:02:06-brightgreen" height='28'/>
 
 
 <table>
@@ -133,6 +133,11 @@
             <td><p><a href='https://github.com/dmzoneill/ashtangayogacork.ie-wearos' title='ashtangayogacork.ie-wearos'>ashtangayogacork.ie-wearos</a> (2023)</p><p><img src='https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white' title='https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white' height='20px'/</p><p>Apache License 2.0</p></td>
             <td><a href='https://play.google.com/store/apps/details?id=ie.ayc.wearos' title='Ashtanga Yoga Cork Wearos App'>Ashtanga Yoga Cork Wearos App</a></td>
             <td align="center"><a href='https://github.com/dmzoneill/ashtangayogacork.ie-wearos/actions'><img src='https://github.com/dmzoneill/ashtangayogacork.ie-wearos/actions/workflows/main.yml/badge.svg'/></a><br/>2022-12-04</td>
+        </tr>
+<tr>
+            <td><p><a href='https://github.com/dmzoneill/Chuckbot' title='Chuckbot'>Chuckbot</a> (2023)</p><p><img src='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' height='20px'/</p><p>Apache License 2.0</p></td>
+            <td><a href='https://wa.me/96592226837' title='Chat with chuck'>Chat with chuck</a></td>
+            <td align="center"><a href='https://github.com/dmzoneill/Chuckbot/actions'><img src='https://github.com/dmzoneill/Chuckbot/actions/workflows/main.yml/badge.svg'/></a><br/>2022-12-08</td>
         </tr>
 <tr>
             <td><p><a href='https://github.com/dmzoneill/tado-gnome-shell-extension' title='tado-gnome-shell-extension'>tado-gnome-shell-extension</a> (2023)</p><p><img src='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' height='20px'/</p><p>Apache License 2.0</p></td>
@@ -864,11 +869,6 @@
             <td><p><a href='https://github.com/dmzoneill/lidarr-youtube-downloader' title='lidarr-youtube-downloader'>lidarr-youtube-downloader</a> (2023)</p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' height='20px'/> <img src='https://camo.githubusercontent.com/4ec342876a40b53ffc6230a41196528690f9f42b1098fd354df46c649720b4c6/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d446f636b657226636f6c6f723d323439364544266c6f676f3d446f636b6572266c6f676f436f6c6f723d464646464646266c6162656c3d' title='https://camo.githubusercontent.com/4ec342876a40b53ffc6230a41196528690f9f42b1098fd354df46c649720b4c6/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d446f636b657226636f6c6f723d323439364544266c6f676f3d446f636b6572266c6f676f436f6c6f723d464646464646266c6162656c3d' height='20px'/</p><p>Apache License 2.0</p></td>
             <td><a href='' title=''></a></td>
             <td align="center"><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/actions'><img src='https://github.com/dmzoneill/lidarr-youtube-downloader/actions/workflows/main.yml/badge.svg'/></a><br/>2023-01-03</td>
-        </tr>
-<tr>
-            <td><p><a href='https://github.com/dmzoneill/Chuckbot' title='Chuckbot'>Chuckbot</a> (2023)</p><p><img src='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' height='20px'/</p><p>Apache License 2.0</p></td>
-            <td><a href='' title=''></a></td>
-            <td align="center"><a href='https://github.com/dmzoneill/Chuckbot/actions'><img src='https://github.com/dmzoneill/Chuckbot/actions/workflows/main.yml/badge.svg'/></a><br/>2022-12-08</td>
         </tr>
 <tr>
             <td><p><a href='https://github.com/dmzoneill/Bootstack-Highlight-Monitor' title='Bootstack-Highlight-Monitor'>Bootstack-Highlight-Monitor</a> (2023)</p><p></p><p>Apache License 2.0</p></td>

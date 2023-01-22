@@ -20,6 +20,10 @@
       "https://pypi.org/project/gnome-extension-publisher/",
       "Gnome Extension Publisher PYPI package"
     ],
+    "jackett-indexarr": [
+      "https://pypi.org/project/jackett-indexarr/",
+      "Jackett Indexarr PYPI package"
+    ],
     "sodarr-chrome-plugin": [
       "https://chrome.google.com/webstore/detail/sodarr/nndmepnfkempbbjjfhbogcidgfckakmb",
       "Sodarr Google chrome extension"

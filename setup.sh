@@ -10,9 +10,10 @@ while true; do
   url="https://api.github.com/users/$user/repos?per_page=100&page=$page"
   echo "$url"
   processed=0
-  for X in $(curl "$url" | jq -r '.[] | .ssh_url'); do
+  for X in $(curl "$url" | jq -r '.[] | .ssh_url'); do    
     name=$(echo "$X" | awk -F'/' '{print $2}' | sed 's/\.git//')
     echo "$name"
+    gh secret set profile_hook -r "$user/$name" -b "$pass"
 
     [[ "$name" == "dmzoneill" ]] && continue
 

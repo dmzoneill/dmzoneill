@@ -265,11 +265,14 @@ class ReadmeUpdater:
 
                 ## issues
                 issues_match = re.search(
-                    "<issues>(.*)</issues>", row, flags=re.I | re.M | re.S
+                    "<ul><issues>(.*)</issues></ul>", row, flags=re.I | re.M | re.S
                 )
                 issues_template = issues_match.group(1).strip()
 
                 issues_html = ""
+
+                if len(repo_issues) > 0:
+                    issues_html = "<h4>Issues</h4><ul>"
 
                 for issue in repo_issues:
                     issue_html = issues_template
@@ -277,15 +280,26 @@ class ReadmeUpdater:
                     issue_html = issue_html.replace("{issue_title}", issue["title"])
                     issues_html += issue_html
 
+                if len(repo_issues) > 0:
+                    issues_html += "</ul>"
+
                 row = re.sub(
-                    "<issues>(.*)</issues>", issues_html, row, flags=re.I | re.M | re.S
+                    "<ul><issues>(.*)</issues></ul>",
+                    issues_html,
+                    row,
+                    flags=re.I | re.M | re.S,
                 )
 
                 ## prs
-                prs_match = re.search("<prs>(.*)</prs>", row, flags=re.I | re.M | re.S)
+                prs_match = re.search(
+                    "<ul><prs>(.*)</prs></ul>", row, flags=re.I | re.M | re.S
+                )
                 prs_template = prs_match.group(1).strip()
 
                 prs_html = ""
+
+                if len(repo_issues) > 0:
+                    prs_html = "<h4>Pull requests</h4><ul>"
 
                 for pr in repo_prs:
                     pr_html = prs_template
@@ -293,7 +307,12 @@ class ReadmeUpdater:
                     pr_html = issue_html.replace("{issue_title}", pr["title"])
                     prs_html += pr_html
 
-                row = re.sub("<prs>(.*)</prs>", prs_html, row, flags=re.I | re.M | re.S)
+                if len(repo_prs) > 0:
+                    prs_html += "</ul>"
+
+                row = re.sub(
+                    "<ul><prs>(.*)</prs></ul>", prs_html, row, flags=re.I | re.M | re.S
+                )
 
                 if prepend:
                     rows = row + "\n" + rows

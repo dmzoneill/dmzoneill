@@ -10,9 +10,23 @@
 <li><a href='{org_url}'>{org_name}</a></li>
 </orgs>
 </ul>
+
+<h3>Issues {issue_count}</h3>
+<ul>
+<issues>
+<li><a href='{issue_url}'>{issue_title}</a></li>
+</issues>
+</ul>
+
+<h3>Pull Requests {pr_count}</h3>
+<ul>
+<prs>
+<li><a href='{pr_url}'>{pr_title}</a></li>
+</prs>
+</ul>
 </td>
 <td>
-<img alt="Github" width='400px' src="https://github.com/dmzoneill/dmzoneill/blob/main/images/redhat.svg?raw=true" />
+<img alt="Github" width='250px' src="https://github.com/dmzoneill/dmzoneill/blob/main/images/redhat.svg?raw=true" />
 </td>
 </tr>
 </table>
@@ -49,7 +63,7 @@
   <tbody>
     <repos>
         <tr>
-            <td><p><a href='{html_url}' title='{name}'>{name}</a> {first_commit}</p><p>{language}</p><p>{license}</p></td>
+            <td><p><a href='{html_url}' title='{name}'>{name}</a> {first_commit}</p><p>{language}</p><p>{license}</p><p><ul><issues><li><a href='{issue_url}'>{issue_title}</a></li></issues></ul></p><p><ul><prs><li><a href='{pr_url}'>{pr_title}</a></li></prs></ul></p></td>
             <td><a href='{live_url}' title='{live_name}'>{live_name}</a></td>
             <td align="center"><a href='https://github.com/dmzoneill/{name}/actions'><img src='{badge}'/></a><br/>{updated_at}</td>
         </tr>

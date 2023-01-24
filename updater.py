@@ -20,6 +20,8 @@ class ReadmeUpdater:
     token = os.getenv("ghtoken", default=None)
     total_lines = 0
     total_lines_lang = {}  # type: ignore
+    issues = []
+    prs = []
 
     def __init__(self):
         self.read_config()
@@ -126,6 +128,28 @@ class ReadmeUpdater:
         except:  # noqa
             raise Exception("Failed reading repos")
 
+    def get_repo_issues(self, repo):
+        try:
+            url = (
+                "https://api.github.com/repos/dmzoneill/" + repo + "/issues?state=open"
+            )
+            headers = {"Authorization": "token " + self.token}
+            res = requests.get(url, headers=headers)
+            if res.status_code == requests.codes.ok:
+                return res.json()
+        except:  # noqa
+            raise Exception("Failed reading issues")
+
+    def get_repo_pull_requests(self, repo):
+        try:
+            url = "https://api.github.com/repos/dmzoneill/" + repo + "/pulls?state=open"
+            headers = {"Authorization": "token " + self.token}
+            res = requests.get(url, headers=headers)
+            if res.status_code == requests.codes.ok:
+                return res.json()
+        except:  # noqa
+            raise Exception("Failed reading pull requests")
+
     def get_repo_languages(self, name):
         try:
             languages_url = (
@@ -185,6 +209,7 @@ class ReadmeUpdater:
 
     def generate_repos(self):
         try:
+
             rows_match = re.search(
                 "<repos>(.*)</repos>", self.template, flags=re.I | re.M | re.S
             )
@@ -195,6 +220,12 @@ class ReadmeUpdater:
             live = self.config["live"]
 
             for repo in self.repos:
+
+                repo_issues += self.get_repo_issues(repo["name"])
+                repo_prs += self.get_repo_pull_requests(repo["name"])
+
+                self.issues += repo_issues
+                self.prs += repo_prs
 
                 prepend = False
 
@@ -231,6 +262,38 @@ class ReadmeUpdater:
                 row = row.replace("{license}", license)
                 row = row.replace("{updated_at}", updated_at.split("T")[0])
                 row = row.replace("{badge}", badge)
+
+                ## issues
+                issues_match = re.search(
+                    "<issues>(.*)</issues>", row, flags=re.I | re.M | re.S
+                )
+                issues_template = issues_match.group(1).strip()
+
+                issues_html = ""
+
+                for issue in repo_issues:
+                    issue_html = issues_template
+                    issue_html = issue_html.replace("{issue_url}", issue["html_url"])
+                    issue_html = issue_html.replace("{issue_title}", issue["title"])
+                    issues_html += issue_html
+
+                row = re.sub(
+                    "<issues>(.*)</issues>", issues_html, row, flags=re.I | re.M | re.S
+                )
+
+                ## prs
+                prs_match = re.search("<prs>(.*)</prs>", row, flags=re.I | re.M | re.S)
+                prs_template = prs_match.group(1).strip()
+
+                prs_html = ""
+
+                for pr in repo_prs:
+                    pr_html = prs_template
+                    pr_html = issue_html.replace("{issue_url}", pr["html_url"])
+                    pr_html = issue_html.replace("{issue_title}", pr["title"])
+                    prs_html += pr_html
+
+                row = re.sub("<prs>(.*)</prs>", prs_html, row, flags=re.I | re.M | re.S)
 
                 if prepend:
                     rows = row + "\n" + rows
@@ -300,11 +363,58 @@ class ReadmeUpdater:
             "<langs>(.*)</langs>", output, self.template, flags=re.I | re.M | re.S
         )
 
+    def generate_prs(self):
+        ## prs
+        prs_match = re.search(
+            "<prs>(.*)</prs>", self.template, flags=re.I | re.M | re.S
+        )
+        prs_template = prs_match.group(1).strip()
+
+        prs_html = ""
+
+        for pr in self.prs:
+            pr_html = prs_template
+            pr_html = pr_html.replace("{pr_url}", pr["html_url"])
+            pr_html = pr_html.replace("{pr_title}", pr["title"])
+            prs_html += pr_html
+
+        self.template = re.sub(
+            "<prs>(.*)</prs>", prs_html, self.template, flags=re.I | re.M | re.S
+        )
+
+        self.template = self.template.replace("{issue_count}", str(len(self.issues)))
+
+    def generate_issues(self):
+        ## issues
+        issues_match = re.search(
+            "<issues>(.*)</issues>", self.template, flags=re.I | re.M | re.S
+        )
+        issues_template = issues_match.group(1).strip()
+
+        issues_html = ""
+
+        for issue in self.issues:
+            issue_html = issues_template
+            issue_html = issue_html.replace("{issue_url}", issue["html_url"])
+            issue_html = issue_html.replace("{issue_title}", issue["title"])
+            issues_html += issue_html
+
+        self.template = re.sub(
+            "<issues>(.*)</issues>",
+            issues_html,
+            self.template,
+            flags=re.I | re.M | re.S,
+        )
+
+        self.template = self.template.replace("{pr_count}", str(len(self.prs)))
+
     def generate_readme(self):
         try:
             self.generate_orgs()
             self.generate_repos()
             self.favourite_langs()
+            self.generate_prs()
+            self.generate_issues()
 
             now = datetime.now()
             dt_string = now.strftime("%d/%m/%Y %H:%M:%S")

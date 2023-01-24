@@ -221,8 +221,8 @@ class ReadmeUpdater:
 
             for repo in self.repos:
 
-                repo_issues += self.get_repo_issues(repo["name"])
-                repo_prs += self.get_repo_pull_requests(repo["name"])
+                repo_issues = self.get_repo_issues(repo["name"])
+                repo_prs = self.get_repo_pull_requests(repo["name"])
 
                 self.issues += repo_issues
                 self.prs += repo_prs

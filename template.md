@@ -11,14 +11,14 @@
 </orgs>
 </ul>
 
-<h3>Issues {issue_count}</h3>
+<h3>Issues ({issue_count})</h3>
 <ul>
 <issues>
 <li><a href='{issue_url}'>{issue_title}</a></li>
 </issues>
 </ul>
 
-<h3>Pull Requests {pr_count}</h3>
+<h3>Pull Requests ({pr_count})</h3>
 <ul>
 <prs>
 <li><a href='{pr_url}'>{pr_title}</a></li>

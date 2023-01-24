@@ -275,6 +275,9 @@ class ReadmeUpdater:
                     issues_html = "<h4>Issues</h4><ul>"
 
                 for issue in repo_issues:
+                    if "pull" in issue["html_url"]:
+                        continue
+
                     issue_html = issues_template
                     issue_html = issue_html.replace("{issue_url}", issue["html_url"])
                     issue_html = issue_html.replace("{issue_title}", issue["title"])

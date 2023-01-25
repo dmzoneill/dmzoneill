@@ -405,7 +405,7 @@ class ReadmeUpdater:
             "<prs>(.*)</prs>", prs_html, self.template, flags=re.I | re.M | re.S
         )
 
-        self.template = self.template.replace("{issue_count}", str(len(self.issues)))
+        self.template = self.template.replace("{pr_count}", str(len(self.prs)))
 
     def generate_issues(self):
         ## issues
@@ -433,7 +433,7 @@ class ReadmeUpdater:
         )
 
         self.template = self.template.replace(
-            "{pr_count}", str(len(self.prs) - self.issues_count_offset)
+            "{issue_count}", str(len(self.issues) - self.issues_count_offset)
         )
 
     def generate_readme(self):

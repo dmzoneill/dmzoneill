@@ -28,6 +28,16 @@ jobs:
           DEFAULT_BRANCH: "main"
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+  update-profile:
+    runs-on: ubuntu-latest
+    name: Update Profile
+    needs: run-lint
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
       - name: Update profile
         env:
           ghtoken: ${{ secrets.PUBLISH }}
@@ -40,9 +50,17 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH_NAME: 'main' #optional defaults to master
 
+  install-action:
+    runs-on: ubuntu-latest
+    name: Install action
+    needs: update-profile
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
       - run: bash setup.sh
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PROFILE_HOOK: ${{ secrets.PROFILE_HOOK }}
-
-

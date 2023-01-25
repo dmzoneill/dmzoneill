@@ -235,23 +235,33 @@ class ReadmeUpdater:
 
             live = self.config["live"]
 
-            live_repos = []
-            not_live_repos = []
+            # live_repos = []
+            # not_live_repos = []
 
             for repo in self.repos:
                 repo["get_first_commit_date"] = self.get_first_commit_date(repo["name"])
-                if repo["name"] in live:
-                    live_repos += repo
-                else:
-                    not_live_repos += repo
+            #     if repo["name"] in live:
+            #         live_repos += repo
+            #     else:
+            #         not_live_repos += repo
 
-            sorted_repos = sorted(
-                live_repos, key=lambda x: x.pushed_at, reverse=True
-            ) + sorted(
-                not_live_repos, key=lambda x: x.get_first_commit_date, reverse=True
-            )
+            # pprint.pprint(live_repos)
 
-            for repo in sorted_repos:
+            # pprint.pprint(sorted(live_repos, key=lambda x: x.pushed_at, reverse=True))
+
+            # pprint.pprint(
+            #     sorted(
+            #         not_live_repos, key=lambda x: x.get_first_commit_date, reverse=True
+            #     )
+            # )
+
+            # sorted_repos = sorted(
+            #     live_repos, key=lambda x: x.pushed_at, reverse=True
+            # ) + sorted(
+            #     not_live_repos, key=lambda x: x.get_first_commit_date, reverse=True
+            # )
+
+            for repo in self.repos:
 
                 repo_issues = self.get_repo_issues(repo["name"])
                 repo_prs = self.get_repo_pull_requests(repo["name"])

@@ -2,18 +2,12 @@ import json
 import os
 import re
 from datetime import datetime
-from pprint import pprint
-
+import pprint
 import requests
 
 
 class ReadmeUpdater:
-
-    repos_url = "https://api.github.com/users/dmzoneill/repos?per_page=100&type=owner&sort=pushed"
-    url_url = "https://api.github.com/users/dmzoneill"
-    cache_dir = "./cache"
     config_file = "config.json"
-    template_file = "template.md"
     config = None
     template = None
     repos = None
@@ -28,25 +22,30 @@ class ReadmeUpdater:
         self.read_config()
         self.read_template()
         if self.get_repos() is False:
-            print("Rate limited")
+            self.log("Rate limited")
             return
         self.generate_readme()
+
+    def log(self, message):
+        print("Updater: " + message)
 
     def read_config(self):
         try:
             config = open(self.config_file, "r")
             config = config.read()
             self.config = json.loads(config)
-            print("Got config")
+            self.log("Got config")
+            self.log(json.dumps(self.config, indent=4))
             return True
         except:  # noqa
             return False
 
     def read_template(self):
         try:
-            template = open(self.template_file, "r")
+            template = open(self.config["template_file"], "r")
             self.template = template.read()
-            print("Got template file")
+            self.log("Got template file")
+            self.log(self.template)
             return True
         except:  # noqa
             raise Exception("Failed reading config")
@@ -85,15 +84,16 @@ class ReadmeUpdater:
             }
             """
 
-            query = query.replace("#owner#", "dmzoneill")
+            query = query.replace("#owner#", self.user)
             query = query.replace("#repo#", repo)
 
             headers = {"Authorization": "token " + self.token}
             request = requests.post(
-                "https://api.github.com/graphql", json={"query": query}, headers=headers
+                self.config["graphql_url"], json={"query": query}, headers=headers
             )
             if request.status_code == 200:
                 data = request.json()
+                self.log(json.dumps(data, indent=4))
                 edge = data["data"]["repository"]["refs"]["edges"][0]
                 edge = edge["node"]["target"]["history"]["edges"][1]
                 return "(" + edge["node"]["committedDate"].split("-")[0] + ")"
@@ -107,13 +107,18 @@ class ReadmeUpdater:
             headers = {"Authorization": "token " + self.token}
             page = 1
             while True:
-                r = requests.get(self.repos_url + "&page=" + str(page), headers=headers)
+                url = self.config["repos_url"] + "&page=" + str(page)
+                self.log(url)
+                r = requests.get(url, headers=headers)
                 if r.status_code == requests.codes.ok:
-                    print("got page " + str(page))
+                    self.log("got page " + str(page))
                     res = r.json()
+
                     if len(res) == 0:
-                        print("no repos, break")
+                        self.log("no repos, break")
                         break
+
+                    self.log(json.dumps(res, indent=4))
 
                     if self.repos is not None:
                         self.repos = self.repos + res
@@ -124,38 +129,45 @@ class ReadmeUpdater:
                     return False
 
             self.repos.sort(key=lambda x: x["updated_at"], reverse=True)
-            print("Got repos")
+            self.log("Got repos")
             return True
         except:  # noqa
             raise Exception("Failed reading repos")
 
     def get_repo_issues(self, repo):
         try:
-            url = (
-                "https://api.github.com/repos/dmzoneill/" + repo + "/issues?state=open"
-            )
+            url = self.config["user_repos_url"] + "/" + repo + "/issues?state=open"
+            self.log(url)
             headers = {"Authorization": "token " + self.token}
             res = requests.get(url, headers=headers)
             if res.status_code == requests.codes.ok:
-                return res.json()
+                issues = res.json()
+                self.log(json.dumps(issues, indent=4))
+                return issues  #
+            else:
+                self.log(pprint.pformat(res))
         except:  # noqa
             raise Exception("Failed reading issues")
 
     def get_repo_pull_requests(self, repo):
         try:
-            url = "https://api.github.com/repos/dmzoneill/" + repo + "/pulls?state=open"
+            url = self.config["user_repos_url"] + "/" + repo + "/pulls?state=open"
+            self.log(url)
             headers = {"Authorization": "token " + self.token}
             res = requests.get(url, headers=headers)
             if res.status_code == requests.codes.ok:
-                return res.json()
+                pulls = res.json()
+                self.log(json.dumps(pulls, indent=4))
+                return pulls
+            else:
+                self.log(pprint.pformat(res))
         except:  # noqa
             raise Exception("Failed reading pull requests")
 
     def get_repo_languages(self, name):
         try:
-            languages_url = (
-                "https://api.github.com/repos/dmzoneill/" + name + "/languages"
-            )
+            languages_url = self.config["user_repos_url"] + "/" + name + "/languages"
+            self.log(languages_url)
             languages = None
 
             headers = {"Authorization": "token " + self.token}
@@ -168,6 +180,8 @@ class ReadmeUpdater:
 
             if languages is None:
                 return False
+
+            self.log(json.dumps(languages, indent=4))
 
             for count in list(languages.values()):
                 lines += count
@@ -246,7 +260,8 @@ class ReadmeUpdater:
                 )
 
                 badge = (
-                    "https://github.com/dmzoneill/"
+                    self.config["user_url"]
+                    + "/"
                     + repo["name"]
                     + "/actions/workflows/main.yml/badge.svg"
                 )
@@ -353,7 +368,7 @@ class ReadmeUpdater:
         except:  # noqa
             raise Exception("Failed generating org list")
 
-    def favourite_langs(self):
+    def favorite_langs(self):
         # langs
         langs_match = re.search(
             "<langs>(.*)</langs>", self.template, flags=re.I | re.M | re.S
@@ -436,13 +451,44 @@ class ReadmeUpdater:
             "{issue_count}", str(len(self.issues) - self.issues_count_offset)
         )
 
+    def generate_gists(self):
+        try:
+            headers = {"Authorization": "token " + self.token}
+            res = requests.get(self.config["gists_url"], headers=headers)
+            if res.status_code == requests.codes.ok:
+                gists = res.json()
+
+                gists_match = re.search(
+                    "<gists>(.*)</gists>", self.template, flags=re.I | re.M | re.S
+                )
+                gists_template = gists_match.group(1).strip()
+
+                gists_html = ""
+
+                for gist in gists:
+                    gist_html = gists_template
+                    gist_html = gist_html.replace("{gist_url}", gist["html_url"])
+                    gist_html = gist_html.replace("{gist_title}", gist["description"])
+                    gists_html += gist_html
+
+                self.template = re.sub(
+                    "<gists>(.*)</gists>",
+                    gists_html,
+                    self.template,
+                    flags=re.I | re.M | re.S,
+                )
+            return True
+        except:  # noqa
+            raise Exception("Failed generating gists list")
+
     def generate_readme(self):
         try:
             self.generate_orgs()
             self.generate_repos()
-            self.favourite_langs()
+            self.favorite_langs()
             self.generate_prs()
             self.generate_issues()
+            self.generate_gists()
 
             now = datetime.now()
             dt_string = now.strftime("%d/%m/%Y %H:%M:%S")
@@ -458,7 +504,7 @@ class ReadmeUpdater:
             )
             self.template = self.template.replace("{last_updated}", dt_string)
 
-            print(self.template)
+            self.log(self.template)
 
             f = open("README.md", "w")
             f.write(self.template)

@@ -1,30 +1,20 @@
 <a href="{github_url}" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="{linkedin_url}" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-{last_updated}-brightgreen" height='28'/>
 
-
 <table>
 <tr>
 <td>
-<h3>Work related stuff over on</h3>
-<ul>
-<orgs>
-<li><a href='{org_url}'>{org_name}</a></li>
-</orgs>
-</ul>
-
 <h3>Issues ({issue_count})</h3>
 <ul>
 <issues>
 <li><a href='{issue_url}'>{issue_title}</a></li>
 </issues>
 </ul>
-
 <h3>Pull Requests ({pr_count})</h3>
 <ul>
 <prs>
 <li><a href='{pr_url}'>{pr_title}</a></li>
 </prs>
 </ul>
-
 <h3>Gists</h3>
 <ul>
 <gists>
@@ -33,6 +23,12 @@
 </ul>
 </td>
 <td>
+<h3>Work related stuff over on</h3>
+<ul>
+<orgs>
+<li><a href='{org_url}'>{org_name}</a></li>
+</orgs>
+</ul>
 <img alt="Github" width='300px' src="https://github.com/dmzoneill/dmzoneill/blob/main/images/redhat.svg?raw=true" />
 </td>
 </tr>

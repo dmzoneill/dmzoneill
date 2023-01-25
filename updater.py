@@ -235,7 +235,23 @@ class ReadmeUpdater:
 
             live = self.config["live"]
 
+            live_repos = []
+            not_live_repos = []
+
             for repo in self.repos:
+                repo["get_first_commit_date"] = self.get_first_commit_date(repo["name"])
+                if repo["name"] in live:
+                    live_repos += repo
+                else:
+                    not_live_repos += repo
+
+            sorted_repos = sorted(
+                live_repos, key=lambda x: x.pushed_at, reverse=True
+            ) + sorted(
+                not_live_repos, key=lambda x: x.get_first_commit_date, reverse=True
+            )
+
+            for repo in sorted_repos:
 
                 repo_issues = self.get_repo_issues(repo["name"])
                 repo_prs = self.get_repo_pull_requests(repo["name"])
@@ -269,9 +285,7 @@ class ReadmeUpdater:
 
                 row = rows_template
                 row = row.replace("{language}", language)
-                row = row.replace(
-                    "{first_commit}", self.get_first_commit_date(repo["name"])
-                )
+                row = row.replace("{first_commit}", repo["get_first_commit_date"])
                 row = row.replace("{html_url}", html_url)
                 row = row.replace("{name}", name)
                 row = row.replace("{live_url}", live_url)
@@ -338,6 +352,7 @@ class ReadmeUpdater:
                     rows = row + "\n" + rows
                 else:
                     rows = rows + "\n" + row
+
             self.template = re.sub(
                 "<repos>(.*)</repos>", rows, self.template, flags=re.I | re.M | re.S
             )

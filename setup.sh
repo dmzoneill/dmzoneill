@@ -13,7 +13,7 @@ while true; do
   for X in $(curl "$url" | jq -r '.[] | .ssh_url'); do    
     name=$(echo "$X" | awk -F'/' '{print $2}' | sed 's/\.git//')
     echo "$name"
-    gh secret set profile_hook -r "$user/$name" -b "$pass" 2>&1 >/dev/null
+    gh secret set profile_hook -r "$user/$name" -b "$pass" >/dev/null 2>&1 
 
     [[ "$name" == "dmzoneill" ]] && continue
 

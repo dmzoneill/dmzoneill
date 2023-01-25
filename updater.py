@@ -21,6 +21,7 @@ class ReadmeUpdater:
     total_lines = 0
     total_lines_lang = {}  # type: ignore
     issues = []
+    issues_count_offset = 0
     prs = []
 
     def __init__(self):
@@ -417,7 +418,7 @@ class ReadmeUpdater:
 
         for issue in list(self.issues):
             if "pull" in issue["html_url"]:
-                self.issues.remove(issue)
+                self.issues_count_offset += 1
                 continue
             issue_html = issues_template
             issue_html = issue_html.replace("{issue_url}", issue["html_url"])
@@ -431,7 +432,9 @@ class ReadmeUpdater:
             flags=re.I | re.M | re.S,
         )
 
-        self.template = self.template.replace("{pr_count}", str(len(self.prs)))
+        self.template = self.template.replace(
+            "{pr_count}", str(len(self.prs) - self.issues_count_offset)
+        )
 
     def generate_readme(self):
         try:

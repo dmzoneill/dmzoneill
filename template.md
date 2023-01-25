@@ -24,9 +24,16 @@
 <li><a href='{pr_url}'>{pr_title}</a></li>
 </prs>
 </ul>
+
+<h3>Gists</h3>
+<ul>
+<gists>
+<li><a href='{gist_url}'>{gist_title}</a></li>
+</gists>
+</ul>
 </td>
 <td>
-<img alt="Github" width='250px' src="https://github.com/dmzoneill/dmzoneill/blob/main/images/redhat.svg?raw=true" />
+<img alt="Github" width='300px' src="https://github.com/dmzoneill/dmzoneill/blob/main/images/redhat.svg?raw=true" />
 </td>
 </tr>
 </table>

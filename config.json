@@ -1,4 +1,12 @@
 {
+  "template_file": "template.md",
+  "user": "dmzoneill",
+  "graphql_url": "https://api.github.com/graphql",
+  "repos_url": "https://api.github.com/users/dmzoneill/repos?per_page=100&type=owner&sort=pushed",
+  "gists_url": "https://api.github.com/users/dmzoneill/gists",
+  "api_url": "https://api.github.com/users/dmzoneill",
+  "user_repos_url": "https://api.github.com/repos/dmzoneill",
+  "user_url": "https://github.com/dmzoneill/",
   "github_url": "https://github.com/dmzoneill",
   "linkedin_url": "https://www.linkedin.com/in/dmzoneill/",
   "live": {

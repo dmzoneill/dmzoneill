@@ -13,7 +13,14 @@ while true; do
   for X in $(curl "$url" | jq -r '.[] | .ssh_url'); do    
     name=$(echo "$X" | awk -F'/' '{print $2}' | sed 's/\.git//')
     echo "$name"
-    gh secret set profile_hook -r "$user/$name" -b "$pass" >/dev/null 2>&1 
+
+    echo "$pass" > .githubtoken
+    unset GITHUB_TOKEN
+    gh auth login --with-token < .githubtoken
+    export GITHUB_TOKEN=$(cat .githubtoken)
+    rm .githubtoken    
+
+    gh secret set profile_hook -r "$user/$name" -b "$pass"
 
     [[ "$name" == "dmzoneill" ]] && continue
 

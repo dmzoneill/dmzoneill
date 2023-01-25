@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-25/01/2023 10:24:05-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-25/01/2023 10:46:22-brightgreen" height='28'/>
 
 
 <table>
@@ -20,7 +20,7 @@
 <li><a href='https://github.com/dmzoneill/php-binance-bot/issues/1'>Causes my IP to be blocked </a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/5'>FR: ability to filter results</a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/3'>docker-compose</a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/1'>Docker Build</a></li>
 </ul>
 
-<h3>Pull Requests (1)</h3>
+<h3>Pull Requests (0)</h3>
 <ul>
 <li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/pull/4'>Update Dockerfile</a></li>
 </ul>
@@ -46,7 +46,7 @@
     </tr>
   </thead>
   <tbody>
-    <tr><td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>467759</td>
+    <tr><td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>467840</td>
 <td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>305574</td>
 <td><img src='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' title='Java'  height='20px'/></td><td>2064091</td>
 <td><img src='https://img.shields.io/badge/_-AngelScript -11DDDD.svg?style=for-the-badge' title='AngelScript'  height='20px'/></td><td>28550</td>

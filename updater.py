@@ -18,6 +18,7 @@ class ReadmeUpdater:
     total_lines_lang = {}  # type: ignore
     issues = []
     issues_count_offset = 0
+    recent_activity = []
     prs = []
 
     def __init__(self):
@@ -380,6 +381,8 @@ class ReadmeUpdater:
                         + row
                     )
 
+                row = self.generate_recent_activity(row, name)
+
                 if prepend:
                     rows = row + "\n" + rows
                 else:
@@ -533,6 +536,91 @@ class ReadmeUpdater:
         except:  # noqa
             raise Exception("Failed generating gists list")
 
+    def generate_recent_activity(self, template="", repo=False):
+        try:
+            if len(self.recent_activity) == 0:
+                headers = {"Authorization": "token " + self.token}
+                res = requests.get(self.config["events_url"], headers=headers)
+                if res.status_code == requests.codes.ok:
+                    self.recent_activity = res.json()
+                else:
+                    return False
+
+            recent_match = re.search(
+                "<recent>(.*)</recent>",
+                self.template if repo == False else template,
+                flags=re.I | re.M | re.S,
+            )
+            recent_template = recent_match.group(1).strip()
+
+            recent_html = ""
+
+            num = 0
+            for recent in self.recent_activity:
+                if num == 5:
+                    break
+                if repo == False or repo in recent["repo"]["name"]:
+                    recent_h = recent_template
+                    if recent["type"] == "IssueCommentEvent":
+                        recent_h = recent_h.replace(
+                            "{recent_activity_url}",
+                            recent["payload"]["issue"]["html_url"],
+                        )
+                        recent_h = recent_h.replace(
+                            "{recent_activity_title}",
+                            recent["payload"]["issue"]["title"],
+                        )
+                        recent_html += recent_h
+                    elif recent["type"] == "PushEvent":
+                        recent_h = recent_h.replace(
+                            "{recent_activity_url}",
+                            recent["payload"]["commits"][0]["url"],
+                        )
+                        recent_h = recent_h.replace(
+                            "{recent_activity_title}",
+                            recent["payload"]["commits"][0]["message"],
+                        )
+                        recent_html += recent_h
+                    elif recent["type"] == "CreateEvent":
+                        recent_h = recent_h.replace(
+                            "{recent_activity_url}", recent["repo"]["name"]
+                        )
+                        recent_h = recent_h.replace(
+                            "{recent_activity_title}", recent["repo"]["url"]
+                        )
+                        recent_html += recent_h
+                    elif recent["type"] == "PullRequestEvent":
+                        recent_h = recent_h.replace(
+                            "{recent_activity_url}",
+                            recent["payload"]["pull_request"]["title"],
+                        )
+                        recent_h = recent_h.replace(
+                            "{recent_activity_title}",
+                            recent["payload"]["pull_request"]["html_url"],
+                        )
+                        recent_html += recent_h
+                    else:
+                        continue
+                    num += 1
+
+            if repo == False:
+                self.template = re.sub(
+                    "<recent>(.*)</recent>",
+                    recent_html,
+                    self.template,
+                    flags=re.I | re.M | re.S,
+                )
+                return True
+            else:
+                return re.sub(
+                    "<recent>(.*)</recent>",
+                    recent_html,
+                    template,
+                    flags=re.I | re.M | re.S,
+                )
+        except:  # noqa
+            raise Exception("Failed generating gists list")
+
     def generate_readme(self):
         try:
             self.generate_orgs()
@@ -541,6 +629,7 @@ class ReadmeUpdater:
             self.generate_prs()
             self.generate_issues()
             self.generate_gists()
+            self.generate_recent_activity()
 
             now = datetime.now()
             dt_string = now.strftime("%d/%m/%Y %H:%M:%S")

@@ -15,6 +15,12 @@
 <li><a href='{pr_url}'>{pr_title}</a> {updated_at}</li>
 </prs>
 </ul>
+<h3>Recent acivity</h3>
+<ul>
+<recent>
+<li><a href='{recent_activity_url}'>{recent_activity_title}</a></li>
+</recent>
+</ul>
 <h3>Gists</h3>
 <ul>
 <gists>
@@ -67,9 +73,20 @@
   <tbody>
     <repos>
         <tr>
-            <td><p><a href='{html_url}' title='{name}'>{name}</a> {first_commit}</p><p>{language}</p><p>{license}</p><p><ul><issues><li><a href='{issue_url}'>{issue_title}</a> {updated_at}</li></issues></ul></p><p><ul><prs><li><a href='{pr_url}'>{pr_title}</a> {updated_at}</li></prs></ul></p></td>
-            <td><a href='{live_url}' title='{live_name}'>{live_name}</a></td>
-            <td align="center"><a href='https://github.com/dmzoneill/{name}/actions'><img src='{badge}'/></a><br/>{updated_at}</td>
+            <td>
+              <p><a href='{html_url}' title='{name}'>{name}</a> {first_commit}</p><p>{language}</p>
+              <p>{license}</p>
+              <p><ul><recent><li><a href='{recent_activity_url}'>{recent_activity_title}</a></li></recent></ul></p>
+              <p><ul><issues><li><a href='{issue_url}'>{issue_title}</a> {updated_at}</li></issues></ul></p>
+              <p><ul><prs><li><a href='{pr_url}'>{pr_title}</a> {updated_at}</li></prs></ul></p>
+            </td>
+            <td>
+              <p><a href='{live_url}' title='{live_name}'>{live_name}</a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/{name}/actions'><img src='{badge}'/></a>
+              <p>{updated_at}</p>
+            </td>
         </tr>
     </repos>
   </tbody>

@@ -336,102 +336,110 @@ class ReadmeUpdater:
             raise Exception("Failed generating repo list")
 
     def generate_issues(self, template="", repo=False):
-        ## issues
-        issues_match = re.search(
-            "<ul><issues>(.*)</issues></ul>",
-            self.template if repo == False else template,
-            flags=re.I | re.M | re.S,
-        )
-        issues_template = issues_match.group(1).strip()
-
-        issues_html = ""
-        added = 0
-
-        for issue in list(self.issues):
-            if added == 5:
-                break
-            if "pull" in issue["html_url"]:
-                self.issues_count_offset += 1
-                continue
-            issue_html = issues_template
-            issue_html = issue_html.replace("{issue_url}", issue["html_url"])
-            issue_html = issue_html.replace("{issue_title}", issue["title"])
-            issue_html = issue_html.replace(
-                "{updated_at}", issue["updated_at"].split("T")[0]
-            )
-            issues_html += issue_html
-            added += 1
-
-        if repo == False:
-            self.template = self.template.replace(
-                "{issue_count}", str(len(self.issues) - self.issues_count_offset)
-            )
-
-            self.template = re.sub(
+        try:
+            ## issues
+            issues_match = re.search(
                 "<ul><issues>(.*)</issues></ul>",
-                issues_html,
-                self.template,
+                self.template if repo == False else template,
                 flags=re.I | re.M | re.S,
             )
-            return True
-        else:
-            if added > 0:
-                issues_html = "<h4>Issues</h4><ul>" + issues_html + "</ul>"
-            else:
-                issues_html = "<ul>" + issues_html + "</ul>"
-            return re.sub(
-                "<ul><issues>(.*)</issues></ul>",
-                issues_html,
-                template,
-                flags=re.I | re.M | re.S,
-            )
+            issues_template = issues_match.group(1).strip()
 
-    def generate_prs(self, template="", repo=False):
-        ## prs
-        prs_match = re.search(
-            "<ul><prs>(.*)</prs></ul>",
-            self.template if repo == False else template,
-            flags=re.I | re.M | re.S,
-        )
-        prs_template = prs_match.group(1).strip()
+            issues_html = ""
+            added = 0
 
-        prs_html = ""
-        added = 0
-
-        for pr in self.prs:
-            if added == 5:
-                break
-            if repo == False or repo in pr["url"]:
-                pr_html = prs_template
-                pr_html = pr_html.replace("{pr_url}", pr["html_url"])
-                pr_html = pr_html.replace("{pr_title}", pr["title"])
-                pr_html = pr_html.replace(
-                    "{updated_at}", pr["updated_at"].split("T")[0]
+            for issue in list(self.issues):
+                if added == 5:
+                    break
+                if "pull" in issue["html_url"]:
+                    self.issues_count_offset += 1
+                    continue
+                issue_html = issues_template
+                issue_html = issue_html.replace("{issue_url}", issue["html_url"])
+                issue_html = issue_html.replace("{issue_title}", issue["title"])
+                issue_html = issue_html.replace(
+                    "{updated_at}", issue["updated_at"].split("T")[0]
                 )
-                prs_html += pr_html
+                issues_html += issue_html
                 added += 1
 
-        if repo == False:
-            self.template = self.template.replace("{pr_count}", str(len(self.prs)))
+            if repo == False:
+                self.template = self.template.replace(
+                    "{issue_count}", str(len(self.issues) - self.issues_count_offset)
+                )
 
-            self.template = re.sub(
-                "<ul><prs>(.*)</prs></ul>",
-                "<ul>" + prs_html + "</ul>",
-                self.template,
-                flags=re.I | re.M | re.S,
-            )
-            return True
-        else:
-            if added > 0:
-                prs_html = "<h4>Pull Requests</h4><ul>" + prs_html + "</ul>"
+                self.template = re.sub(
+                    "<ul><issues>(.*)</issues></ul>",
+                    issues_html,
+                    self.template,
+                    flags=re.I | re.M | re.S,
+                )
+                return True
             else:
-                prs_html = "<ul>" + prs_html + "</ul>"
-            return re.sub(
+                if added > 0:
+                    issues_html = "<h4>Issues</h4><ul>" + issues_html + "</ul>"
+                else:
+                    issues_html = "<ul>" + issues_html + "</ul>"
+                return re.sub(
+                    "<ul><issues>(.*)</issues></ul>",
+                    issues_html,
+                    template,
+                    flags=re.I | re.M | re.S,
+                )
+        except:  # noqa
+            self.log(self.template)
+            raise Exception("Failed generating issues")
+
+    def generate_prs(self, template="", repo=False):
+        try:
+            ## prs
+            prs_match = re.search(
                 "<ul><prs>(.*)</prs></ul>",
-                prs_html,
-                template,
+                self.template if repo == False else template,
                 flags=re.I | re.M | re.S,
             )
+            prs_template = prs_match.group(1).strip()
+
+            prs_html = ""
+            added = 0
+
+            for pr in self.prs:
+                if added == 5:
+                    break
+                if repo == False or repo in pr["url"]:
+                    pr_html = prs_template
+                    pr_html = pr_html.replace("{pr_url}", pr["html_url"])
+                    pr_html = pr_html.replace("{pr_title}", pr["title"])
+                    pr_html = pr_html.replace(
+                        "{updated_at}", pr["updated_at"].split("T")[0]
+                    )
+                    prs_html += pr_html
+                    added += 1
+
+            if repo == False:
+                self.template = self.template.replace("{pr_count}", str(len(self.prs)))
+
+                self.template = re.sub(
+                    "<ul><prs>(.*)</prs></ul>",
+                    "<ul>" + prs_html + "</ul>",
+                    self.template,
+                    flags=re.I | re.M | re.S,
+                )
+                return True
+            else:
+                if added > 0:
+                    prs_html = "<h4>Pull Requests</h4><ul>" + prs_html + "</ul>"
+                else:
+                    prs_html = "<ul>" + prs_html + "</ul>"
+                return re.sub(
+                    "<ul><prs>(.*)</prs></ul>",
+                    prs_html,
+                    template,
+                    flags=re.I | re.M | re.S,
+                )
+        except:  # noqa
+            self.log(self.template)
+            raise Exception("Failed generating prs")
 
     def generate_recent_activity(self, template="", repo=False):
         try:
@@ -525,7 +533,8 @@ class ReadmeUpdater:
                     flags=re.I | re.M | re.S,
                 )
         except:  # noqa
-            raise Exception("Failed generating gists list")
+            self.log(self.template)
+            raise Exception("Failed generating activity")
 
     def generate_gists(self):
         try:
@@ -555,7 +564,8 @@ class ReadmeUpdater:
                 )
             return True
         except:  # noqa
-            raise Exception("Failed generating gists list")
+            self.log(self.template)
+            raise Exception("Failed generating gists")
 
     def generate_orgs(self):
         try:

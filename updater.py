@@ -1,9 +1,9 @@
 import json
-from operator import itemgetter
 import os
 import pprint
 import re
 from datetime import datetime
+from operator import itemgetter
 
 import requests
 

@@ -1,15 +1,15 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-26/01/2023 18:14:39-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-26/01/2023 18:30:50-brightgreen" height='28'/>
 
 <table>
 <tr>
 <td>
 <h3>Issues (4)</h3>
 <ul>
-<li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/5'>FR: ability to filter results</a> 2023-01-24T20:24:30Z</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/3'>docker-compose</a> 2023-01-24T20:24:31Z</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/1'>Docker Build</a> 2023-01-24T20:24:30Z</li><li><a href='https://github.com/dmzoneill/php-binance-bot/issues/1'>Causes my IP to be blocked </a> 2023-01-24T21:43:21Z</li>
+<li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/5'>FR: ability to filter results</a> 2023-01-24</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/3'>docker-compose</a> 2023-01-24</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/1'>Docker Build</a> 2023-01-24</li><li><a href='https://github.com/dmzoneill/php-binance-bot/issues/1'>Causes my IP to be blocked </a> 2023-01-24</li>
 </ul>
 <h3>Pull Requests (1)</h3>
 <ul>
-<li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/pull/4'>Update Dockerfile</a> 2023-01-24T20:35:17Z</li>
+<li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/pull/4'>Update Dockerfile</a> 2023-01-24</li>
 </ul>
 <h3>Gists</h3>
 <ul>
@@ -26,6 +26,7 @@
 <li><a href='https://github.com/Canonical-forks'>Canonical forks</a></li>
 <li><a href='https://github.com/Intel-forks'>Intel forks</a></li>
 
+<br/>
 <img alt="Redhat" width='200px' src="https://github.com/dmzoneill/dmzoneill/blob/main/images/redhat.svg?raw=true" />
 </ul>
 </td>
@@ -49,7 +50,7 @@
   <tbody>
     <tr><td><img src='https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white' title='Kotlin'  height='20px'/></td><td>24599</td>
 <td><img src='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' title='JavaScript'  height='20px'/></td><td>8754071</td>
-<td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>471267</td>
+<td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>471446</td>
 <td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>305926</td>
 </tr><tr>
 <td><img src='https://camo.githubusercontent.com/4ec342876a40b53ffc6230a41196528690f9f42b1098fd354df46c649720b4c6/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d446f636b657226636f6c6f723d323439364544266c6f676f3d446f636b6572266c6f676f436f6c6f723d464646464646266c6162656c3d' title='Dockerfile'  height='20px'/></td><td>5152</td>

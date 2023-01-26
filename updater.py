@@ -282,6 +282,7 @@ class ReadmeUpdater:
                     prepend = True
 
                 license = repo["license"]["name"] if repo["license"] is not None else ""
+
                 updated_at = (
                     repo["updated_at"] if repo["updated_at"] is not None else ""
                 )

@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-26/01/2023 10:06:46-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-26/01/2023 10:15:05-brightgreen" height='28'/>
 
 <table>
 <tr>
@@ -49,7 +49,7 @@
   <tbody>
     <tr><td><img src='https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white' title='Kotlin'  height='20px'/></td><td>24599</td>
 <td><img src='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' title='JavaScript'  height='20px'/></td><td>8754071</td>
-<td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>470549</td>
+<td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>470408</td>
 <td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>306106</td>
 </tr><tr>
 <td><img src='https://camo.githubusercontent.com/4ec342876a40b53ffc6230a41196528690f9f42b1098fd354df46c649720b4c6/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d446f636b657226636f6c6f723d323439364544266c6f676f3d446f636b6572266c6f676f436f6c6f723d464646464646266c6162656c3d' title='Dockerfile'  height='20px'/></td><td>5152</td>
@@ -181,7 +181,7 @@
             <td align="center"><a href='https://github.com/dmzoneill/ashtangayogacork.ie-wearos/actions'><img src='https://github.com/dmzoneill//ashtangayogacork.ie-wearos/actions/workflows/main.yml/badge.svg'/></a><br/>2022-12-04</td>
         </tr>
 
-<tr><td><h3>(2023)</h3></td><td></td><td></td></tr><tr>
+</table><h2>(2023)</h2><table><tr>
             <td><p><a href='https://github.com/dmzoneill/lm051-cs4001-computer-applications-robocode-reefer' title='lm051-cs4001-computer-applications-robocode-reefer'>lm051-cs4001-computer-applications-robocode-reefer</a> (2023)</p><p><img src='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' title='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' height='20px'/</p><p>Apache License 2.0</p><p></p><p></p></td>
             <td><a href='' title=''></a></td>
             <td align="center"><a href='https://github.com/dmzoneill/lm051-cs4001-computer-applications-robocode-reefer/actions'><img src='https://github.com/dmzoneill//lm051-cs4001-computer-applications-robocode-reefer/actions/workflows/main.yml/badge.svg'/></a><br/>2023-01-22</td>
@@ -321,12 +321,12 @@
             <td><a href='' title=''></a></td>
             <td align="center"><a href='https://github.com/dmzoneill/rh-otp-auto-connect/actions'><img src='https://github.com/dmzoneill//rh-otp-auto-connect/actions/workflows/main.yml/badge.svg'/></a><br/>2021-12-08</td>
         </tr>
-<tr><td><h3>(2022)</h3></td><td></td><td></td></tr><tr>
+</table><h2>(2022)</h2><table><tr>
             <td><p><a href='https://github.com/dmzoneill/MattersHighLight' title='MattersHighLight'>MattersHighLight</a> (2022)</p><p><img src='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' height='20px'/</p><p>Apache License 2.0</p><p></p><p></p></td>
             <td><a href='' title=''></a></td>
             <td align="center"><a href='https://github.com/dmzoneill/MattersHighLight/actions'><img src='https://github.com/dmzoneill//MattersHighLight/actions/workflows/main.yml/badge.svg'/></a><br/>2023-01-16</td>
         </tr>
-<tr><td><h3>(2018)</h3></td><td></td><td></td></tr><tr>
+</table><h2>(2018)</h2><table><tr>
             <td><p><a href='https://github.com/dmzoneill/JiraStoryScraper' title='JiraStoryScraper'>JiraStoryScraper</a> (2018)</p><p><img src='https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white' title='https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white' height='20px'/</p><p>Apache License 2.0</p><p></p><p></p></td>
             <td><a href='' title=''></a></td>
             <td align="center"><a href='https://github.com/dmzoneill/JiraStoryScraper/actions'><img src='https://github.com/dmzoneill//JiraStoryScraper/actions/workflows/main.yml/badge.svg'/></a><br/>2023-01-16</td>
@@ -341,7 +341,7 @@
             <td><a href='' title=''></a></td>
             <td align="center"><a href='https://github.com/dmzoneill/cpuminer-multi/actions'><img src='https://github.com/dmzoneill//cpuminer-multi/actions/workflows/main.yml/badge.svg'/></a><br/>2022-04-26</td>
         </tr>
-<tr><td><h3>(2015)</h3></td><td></td><td></td></tr><tr>
+</table><h2>(2015)</h2><table><tr>
             <td><p><a href='https://github.com/dmzoneill/ilabprep.intel.com' title='ilabprep.intel.com'>ilabprep.intel.com</a> (2015)</p><p><img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' height='20px'/</p><p>Apache License 2.0</p><p></p><p></p></td>
             <td><a href='' title=''></a></td>
             <td align="center"><a href='https://github.com/dmzoneill/ilabprep.intel.com/actions'><img src='https://github.com/dmzoneill//ilabprep.intel.com/actions/workflows/main.yml/badge.svg'/></a><br/>2023-01-18</td>
@@ -396,7 +396,7 @@
             <td><a href='' title=''></a></td>
             <td align="center"><a href='https://github.com/dmzoneill/csig_onp-cfgdump/actions'><img src='https://github.com/dmzoneill//csig_onp-cfgdump/actions/workflows/main.yml/badge.svg'/></a><br/>2023-01-16</td>
         </tr>
-<tr><td><h3>(2014)</h3></td><td></td><td></td></tr><tr>
+</table><h2>(2014)</h2><table><tr>
             <td><p><a href='https://github.com/dmzoneill/OC-Workspace' title='OC-Workspace'>OC-Workspace</a> (2014)</p><p><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' height='20px'/</p><p>Apache License 2.0</p><p></p><p></p></td>
             <td><a href='' title=''></a></td>
             <td align="center"><a href='https://github.com/dmzoneill/OC-Workspace/actions'><img src='https://github.com/dmzoneill//OC-Workspace/actions/workflows/main.yml/badge.svg'/></a><br/>2023-01-16</td>
@@ -481,7 +481,7 @@
             <td><a href='' title=''></a></td>
             <td align="center"><a href='https://github.com/dmzoneill/CSIG-SW-Lab-Ticker/actions'><img src='https://github.com/dmzoneill//CSIG-SW-Lab-Ticker/actions/workflows/main.yml/badge.svg'/></a><br/>2023-01-16</td>
         </tr>
-<tr><td><h3>(2013)</h3></td><td></td><td></td></tr><tr>
+</table><h2>(2013)</h2><table><tr>
             <td><p><a href='https://github.com/dmzoneill/www.linux-group-policy.com' title='www.linux-group-policy.com'>www.linux-group-policy.com</a> (2013)</p><p><img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' height='20px'/</p><p>Apache License 2.0</p><p></p><p></p></td>
             <td><a href='' title=''></a></td>
             <td align="center"><a href='https://github.com/dmzoneill/www.linux-group-policy.com/actions'><img src='https://github.com/dmzoneill//www.linux-group-policy.com/actions/workflows/main.yml/badge.svg'/></a><br/>2023-01-17</td>
@@ -516,7 +516,7 @@
             <td><a href='' title=''></a></td>
             <td align="center"><a href='https://github.com/dmzoneill/EC-SI-Scripts/actions'><img src='https://github.com/dmzoneill//EC-SI-Scripts/actions/workflows/main.yml/badge.svg'/></a><br/>2023-01-16</td>
         </tr>
-<tr><td><h3>(2011)</h3></td><td></td><td></td></tr><tr>
+</table><h2>(2011)</h2><table><tr>
             <td><p><a href='https://github.com/dmzoneill/www.feeditout.com-2008' title='www.feeditout.com-2008'>www.feeditout.com-2008</a> (2011)</p><p><img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' height='20px'/> <img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/_-PLSQL -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-PLSQL -11DDDD.svg?style=for-the-badge' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' height='20px'/</p><p>Apache License 2.0</p><p></p><p></p></td>
             <td><a href='' title=''></a></td>
             <td align="center"><a href='https://github.com/dmzoneill/www.feeditout.com-2008/actions'><img src='https://github.com/dmzoneill//www.feeditout.com-2008/actions/workflows/main.yml/badge.svg'/></a><br/>2023-01-17</td>
@@ -566,7 +566,7 @@
             <td><a href='' title=''></a></td>
             <td align="center"><a href='https://github.com/dmzoneill/aib-android-app/actions'><img src='https://github.com/dmzoneill//aib-android-app/actions/workflows/main.yml/badge.svg'/></a><br/>2023-01-17</td>
         </tr>
-<tr><td><h3>(2010)</h3></td><td></td><td></td></tr><tr>
+</table><h2>(2010)</h2><table><tr>
             <td><p><a href='https://github.com/dmzoneill/lm051-cs4313-c--mysql-example' title='lm051-cs4313-c--mysql-example'>lm051-cs4313-c--mysql-example</a> (2010)</p><p><img src='https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white' title='https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white' height='20px'/</p><p>Apache License 2.0</p><p></p><p></p></td>
             <td><a href='' title=''></a></td>
             <td align="center"><a href='https://github.com/dmzoneill/lm051-cs4313-c--mysql-example/actions'><img src='https://github.com/dmzoneill//lm051-cs4313-c--mysql-example/actions/workflows/main.yml/badge.svg'/></a><br/>2023-01-17</td>
@@ -586,7 +586,7 @@
             <td><a href='' title=''></a></td>
             <td align="center"><a href='https://github.com/dmzoneill/firstQt/actions'><img src='https://github.com/dmzoneill//firstQt/actions/workflows/main.yml/badge.svg'/></a><br/>2023-01-17</td>
         </tr>
-<tr><td><h3>(2009)</h3></td><td></td><td></td></tr><tr>
+</table><h2>(2009)</h2><table><tr>
             <td><p><a href='https://github.com/dmzoneill/synology-download-assistance-chrome-extension' title='synology-download-assistance-chrome-extension'>synology-download-assistance-chrome-extension</a> (2009)</p><p><img src='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/_-SCSS -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-SCSS -11DDDD.svg?style=for-the-badge' height='20px'/</p><p>Apache License 2.0</p><p></p><p></p></td>
             <td><a href='' title=''></a></td>
             <td align="center"><a href='https://github.com/dmzoneill/synology-download-assistance-chrome-extension/actions'><img src='https://github.com/dmzoneill//synology-download-assistance-chrome-extension/actions/workflows/main.yml/badge.svg'/></a><br/>2023-01-17</td>
@@ -666,12 +666,12 @@
             <td><a href='' title=''></a></td>
             <td align="center"><a href='https://github.com/dmzoneill/dartboard-automatic-calculator/actions'><img src='https://github.com/dmzoneill//dartboard-automatic-calculator/actions/workflows/main.yml/badge.svg'/></a><br/>2023-01-17</td>
         </tr>
-<tr><td><h3>(2008)</h3></td><td></td><td></td></tr><tr>
+</table><h2>(2008)</h2><table><tr>
             <td><p><a href='https://github.com/dmzoneill/gdownload' title='gdownload'>gdownload</a> (2008)</p><p><img src='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' title='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' height='20px'/</p><p>Apache License 2.0</p><p></p><p></p></td>
             <td><a href='' title=''></a></td>
             <td align="center"><a href='https://github.com/dmzoneill/gdownload/actions'><img src='https://github.com/dmzoneill//gdownload/actions/workflows/main.yml/badge.svg'/></a><br/>2023-01-17</td>
         </tr>
-<tr><td><h3>(2007)</h3></td><td></td><td></td></tr><tr>
+</table><h2>(2007)</h2><table><tr>
             <td><p><a href='https://github.com/dmzoneill/localmini' title='localmini'>localmini</a> (2007)</p><p><img src='https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white' title='https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white' height='20px'/</p><p>Apache License 2.0</p><p></p><p></p></td>
             <td><a href='' title=''></a></td>
             <td align="center"><a href='https://github.com/dmzoneill/localmini/actions'><img src='https://github.com/dmzoneill//localmini/actions/workflows/main.yml/badge.svg'/></a><br/>2023-01-17</td>
@@ -681,7 +681,7 @@
             <td><a href='' title=''></a></td>
             <td align="center"><a href='https://github.com/dmzoneill/lm051-konane/actions'><img src='https://github.com/dmzoneill//lm051-konane/actions/workflows/main.yml/badge.svg'/></a><br/>2023-01-17</td>
         </tr>
-<tr><td><h3>(2006)</h3></td><td></td><td></td></tr><tr>
+</table><h2>(2006)</h2><table><tr>
             <td><p><a href='https://github.com/dmzoneill/www.tadpole.tk' title='www.tadpole.tk'>www.tadpole.tk</a> (2006)</p><p><img src='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' height='20px'/> <img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/_-Hack -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Hack -11DDDD.svg?style=for-the-badge' height='20px'/</p><p>Apache License 2.0</p><p></p><p></p></td>
             <td><a href='' title=''></a></td>
             <td align="center"><a href='https://github.com/dmzoneill/www.tadpole.tk/actions'><img src='https://github.com/dmzoneill//www.tadpole.tk/actions/workflows/main.yml/badge.svg'/></a><br/>2023-01-17</td>
@@ -716,7 +716,7 @@
             <td><a href='' title=''></a></td>
             <td align="center"><a href='https://github.com/dmzoneill/apache2-virtualhost-generator/actions'><img src='https://github.com/dmzoneill//apache2-virtualhost-generator/actions/workflows/main.yml/badge.svg'/></a><br/>2023-01-17</td>
         </tr>
-<tr><td><h3>(2005)</h3></td><td></td><td></td></tr><tr>
+</table><h2>(2005)</h2><table><tr>
             <td><p><a href='https://github.com/dmzoneill/www.livingartcork.com' title='www.livingartcork.com'>www.livingartcork.com</a> (2005)</p><p><img src='https://img.shields.io/badge/_-Hack -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Hack -11DDDD.svg?style=for-the-badge' height='20px'/</p><p>Apache License 2.0</p><p></p><p></p></td>
             <td><a href='' title=''></a></td>
             <td align="center"><a href='https://github.com/dmzoneill/www.livingartcork.com/actions'><img src='https://github.com/dmzoneill//www.livingartcork.com/actions/workflows/main.yml/badge.svg'/></a><br/>2023-01-17</td>
@@ -796,7 +796,7 @@
             <td><a href='' title=''></a></td>
             <td align="center"><a href='https://github.com/dmzoneill/advanced-net-sender/actions'><img src='https://github.com/dmzoneill//advanced-net-sender/actions/workflows/main.yml/badge.svg'/></a><br/>2023-01-17</td>
         </tr>
-<tr><td><h3>(2004)</h3></td><td></td><td></td></tr><tr>
+</table><h2>(2004)</h2><table><tr>
             <td><p><a href='https://github.com/dmzoneill/www.feeditout.com2' title='www.feeditout.com2'>www.feeditout.com2</a> (2004)</p><p><img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/_-Hack -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Hack -11DDDD.svg?style=for-the-badge' height='20px'/> <img src='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' height='20px'/</p><p>Apache License 2.0</p><p></p><p></p></td>
             <td><a href='' title=''></a></td>
             <td align="center"><a href='https://github.com/dmzoneill/www.feeditout.com2/actions'><img src='https://github.com/dmzoneill//www.feeditout.com2/actions/workflows/main.yml/badge.svg'/></a><br/>2023-01-17</td>
@@ -831,7 +831,7 @@
             <td><a href='' title=''></a></td>
             <td align="center"><a href='https://github.com/dmzoneill/asocket-example/actions'><img src='https://github.com/dmzoneill//asocket-example/actions/workflows/main.yml/badge.svg'/></a><br/>2023-01-17</td>
         </tr>
-<tr><td><h3>(2003)</h3></td><td></td><td></td></tr><tr>
+</table><h2>(2003)</h2><table><tr>
             <td><p><a href='https://github.com/dmzoneill/www.antoyau.com' title='www.antoyau.com'>www.antoyau.com</a> (2003)</p><p><img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/_-Hack -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Hack -11DDDD.svg?style=for-the-badge' height='20px'/> <img src='https://img.shields.io/badge/_-AngelScript -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-AngelScript -11DDDD.svg?style=for-the-badge' height='20px'/> <img src='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-JavaScript -11DDDD.svg?style=for-the-badge' height='20px'/> <img src='https://img.shields.io/badge/_-ActionScript -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-ActionScript -11DDDD.svg?style=for-the-badge' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' height='20px'/</p><p>Apache License 2.0</p><p></p><p></p></td>
             <td><a href='' title=''></a></td>
             <td align="center"><a href='https://github.com/dmzoneill/www.antoyau.com/actions'><img src='https://github.com/dmzoneill//www.antoyau.com/actions/workflows/main.yml/badge.svg'/></a><br/>2023-01-17</td>
@@ -841,7 +841,7 @@
             <td><a href='' title=''></a></td>
             <td align="center"><a href='https://github.com/dmzoneill/qtclub/actions'><img src='https://github.com/dmzoneill//qtclub/actions/workflows/main.yml/badge.svg'/></a><br/>2023-01-17</td>
         </tr>
-<tr><td><h3>(2002)</h3></td><td></td><td></td></tr><tr>
+</table><h2>(2002)</h2><table><tr>
             <td><p><a href='https://github.com/dmzoneill/www.megalan.net' title='www.megalan.net'>www.megalan.net</a> (2002)</p><p><img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/_-Smarty -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Smarty -11DDDD.svg?style=for-the-badge' height='20px'/> <img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' height='20px'/</p><p>Apache License 2.0</p><p></p><p></p></td>
             <td><a href='' title=''></a></td>
             <td align="center"><a href='https://github.com/dmzoneill/www.megalan.net/actions'><img src='https://github.com/dmzoneill//www.megalan.net/actions/workflows/main.yml/badge.svg'/></a><br/>2023-01-17</td>
@@ -866,7 +866,7 @@
             <td><a href='' title=''></a></td>
             <td align="center"><a href='https://github.com/dmzoneill/lm051-cs4115-data-structures/actions'><img src='https://github.com/dmzoneill//lm051-cs4115-data-structures/actions/workflows/main.yml/badge.svg'/></a><br/>2023-01-17</td>
         </tr>
-<tr><td><h3>(2001)</h3></td><td></td><td></td></tr><tr>
+</table><h2>(2001)</h2><table><tr>
             <td><p><a href='https://github.com/dmzoneill/www.realmoflight.org' title='www.realmoflight.org'>www.realmoflight.org</a> (2001)</p><p><img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/_-Smarty -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Smarty -11DDDD.svg?style=for-the-badge' height='20px'/> <img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/_-TSQL -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-TSQL -11DDDD.svg?style=for-the-badge' height='20px'/</p><p>Apache License 2.0</p><p></p><p></p></td>
             <td><a href='' title=''></a></td>
             <td align="center"><a href='https://github.com/dmzoneill/www.realmoflight.org/actions'><img src='https://github.com/dmzoneill//www.realmoflight.org/actions/workflows/main.yml/badge.svg'/></a><br/>2023-01-17</td>
@@ -916,17 +916,17 @@
             <td><a href='' title=''></a></td>
             <td align="center"><a href='https://github.com/dmzoneill/evonews/actions'><img src='https://github.com/dmzoneill//evonews/actions/workflows/main.yml/badge.svg'/></a><br/>2023-01-17</td>
         </tr>
-<tr><td><h3>(2000)</h3></td><td></td><td></td></tr><tr>
+</table><h2>(2000)</h2><table><tr>
             <td><p><a href='https://github.com/dmzoneill/www.corkcountybadminton.com' title='www.corkcountybadminton.com'>www.corkcountybadminton.com</a> (2000)</p><p><img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' height='20px'/</p><p>Apache License 2.0</p><p></p><p></p></td>
             <td><a href='' title=''></a></td>
             <td align="center"><a href='https://github.com/dmzoneill/www.corkcountybadminton.com/actions'><img src='https://github.com/dmzoneill//www.corkcountybadminton.com/actions/workflows/main.yml/badge.svg'/></a><br/>2023-01-17</td>
         </tr>
-<tr><td><h3>(1997)</h3></td><td></td><td></td></tr><tr>
+</table><h2>(1997)</h2><table><tr>
             <td><p><a href='https://github.com/dmzoneill/www.davesworld.com' title='www.davesworld.com'>www.davesworld.com</a> (1997)</p><p><img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/_-PostScript -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-PostScript -11DDDD.svg?style=for-the-badge' height='20px'/</p><p>Apache License 2.0</p><p></p><p></p></td>
             <td><a href='' title=''></a></td>
             <td align="center"><a href='https://github.com/dmzoneill/www.davesworld.com/actions'><img src='https://github.com/dmzoneill//www.davesworld.com/actions/workflows/main.yml/badge.svg'/></a><br/>2023-01-17</td>
         </tr>
-<tr><td><h3></h3></td><td></td><td></td></tr><tr>
+</table><h2></h2><table><tr>
             <td><p><a href='https://github.com/dmzoneill/gnome-extension-publisher-js' title='gnome-extension-publisher-js'>gnome-extension-publisher-js</a> </p><p></p><p></p><p></p><p></p></td>
             <td><a href='' title=''></a></td>
             <td align="center"><a href='https://github.com/dmzoneill/gnome-extension-publisher-js/actions'><img src='https://github.com/dmzoneill//gnome-extension-publisher-js/actions/workflows/main.yml/badge.svg'/></a><br/>2023-01-23</td>

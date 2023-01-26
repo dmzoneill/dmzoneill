@@ -242,7 +242,7 @@ class ReadmeUpdater:
             for repo in self.repos:
                 first_commit = self.get_first_commit_date(repo["name"])
                 first_commit = (
-                    first_commit[1, self.get_first_commit_date(repo["name"]).length - 1]
+                    first_commit[1, len(self.get_first_commit_date(repo["name"])) - 1]
                     if first_commit != ""
                     else ""
                 )

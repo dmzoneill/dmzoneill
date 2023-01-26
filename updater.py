@@ -242,11 +242,7 @@ class ReadmeUpdater:
             print("generate_repos")
 
             for repo in self.repos:
-                print(repo["name"])
                 first_commit = self.get_first_commit_date(repo["name"]).strip()
-                print("xyz: " + first_commit)
-                print(len(first_commit))
-                print(len(first_commit) - 1)
                 if len(first_commit) - 1 > 4:
                     first_commit = first_commit[1:5]
                 else:

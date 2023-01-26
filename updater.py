@@ -338,7 +338,9 @@ class ReadmeUpdater:
     def generate_issues(self, template="", repo=False):
         ## issues
         issues_match = re.search(
-            "<ul><issues>(.*)</issues></ul>", self.template, flags=re.I | re.M | re.S
+            "<ul><issues>(.*)</issues></ul>",
+            self.template if repo == False else template,
+            flags=re.I | re.M | re.S,
         )
         issues_template = issues_match.group(1).strip()
 
@@ -387,7 +389,9 @@ class ReadmeUpdater:
     def generate_prs(self, template="", repo=False):
         ## prs
         prs_match = re.search(
-            "<ul><prs>(.*)</prs></ul>", self.template, flags=re.I | re.M | re.S
+            "<ul><prs>(.*)</prs></ul>",
+            self.template if repo == False else template,
+            flags=re.I | re.M | re.S,
         )
         prs_template = prs_match.group(1).strip()
 

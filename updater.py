@@ -324,6 +324,7 @@ class ReadmeUpdater:
                     issue_html = issues_template
                     issue_html = issue_html.replace("{issue_url}", issue["html_url"])
                     issue_html = issue_html.replace("{issue_title}", issue["title"])
+                    issue_html = issue_html.replace("{updated_at}", issue["updated_at"])
                     issues_html += issue_html
 
                 if len(repo_issues) > 0:
@@ -350,6 +351,7 @@ class ReadmeUpdater:
                 for pr in repo_prs:
                     pr_html = prs_template
                     pr_html = issue_html.replace("{issue_url}", pr["html_url"])
+                    pr_html = issue_html.replace("{updated_at}", pr["updated_at"])
                     pr_html = issue_html.replace("{issue_title}", pr["title"])
                     prs_html += pr_html
 

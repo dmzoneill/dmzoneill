@@ -70,7 +70,7 @@
   <tbody>
     <repos>
         <tr>
-            <td><p><a href='{html_url}' title='{name}'>{name}</a> {first_commit}</p><p>{language}</p><p>{license}</p><p><ul><issues><li><a href='{issue_url}'>{issue_title}</a></li></issues></ul></p><p><ul><prs><li><a href='{pr_url}'>{pr_title}</a></li></prs></ul></p></td>
+            <td><p><a href='{html_url}' title='{name}'>{name}</a> {first_commit}</p><p>{language}</p><p>{license}</p><p><ul><issues><li><a href='{issue_url}'>{issue_title}</a> {updated_at}</li></issues></ul></p><p><ul><prs><li><a href='{pr_url}'>{pr_title}</a> {updated_at}</li></prs></ul></p></td>
             <td><a href='{live_url}' title='{live_name}'>{live_name}</a>
             <img alt="Github" width='50px' src="https://github.com/dmzoneill/dmzoneill/blob/main/images/spacer.svg?raw=true" /><img alt="Github" width='50px' src="https://github.com/dmzoneill/dmzoneill/blob/main/images/spacer.svg?raw=true" /><img alt="Github" width='50px' src="https://github.com/dmzoneill/dmzoneill/blob/main/images/spacer.svg?raw=true" /><img alt="Github" width='50px' src="https://github.com/dmzoneill/dmzoneill/blob/main/images/spacer.svg?raw=true" />
             </td>

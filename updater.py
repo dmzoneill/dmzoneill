@@ -241,6 +241,8 @@ class ReadmeUpdater:
 
             for repo in self.repos:
                 first_commit = self.get_first_commit_date(repo["name"]).strip()
+                print(len(first_commit))
+                print(len(first_commit) - 1)
                 first_commit = (
                     first_commit[1, len(first_commit) - 1]
                     if len(first_commit) != 0

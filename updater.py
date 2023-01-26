@@ -355,12 +355,7 @@ class ReadmeUpdater:
                     and last_year_header != repo["get_first_commit_date"]
                 ):
                     last_year_header = repo["get_first_commit_date"]
-                    row = (
-                        "<tr><td><h3>"
-                        + last_year_header
-                        + "</h3></td><td></td><td></td></tr>"
-                        + row
-                    )
+                    row = "</table><h2>" + last_year_header + "</h2><table>" + row
 
                 if prepend:
                     rows = row + "\n" + rows

@@ -242,11 +242,16 @@ class ReadmeUpdater:
             print("generate_repos")
 
             for repo in self.repos:
+                print(repo["name"])
                 first_commit = self.get_first_commit_date(repo["name"]).strip()
-                print(first_commit)
+                print("xyz: " + first_commit)
                 print(len(first_commit))
                 print(len(first_commit) - 1)
-                first_commit = first_commit[1, 5] if len(first_commit) - 1 == 5 else ""
+                if len(first_commit) - 1 > 4:
+                    first_commit = first_commit[1:5]
+                else:
+                    first_commit = ""
+
                 repo["get_first_commit_date"] = first_commit
                 if repo["name"] in live:
                     live_repos.append(repo)

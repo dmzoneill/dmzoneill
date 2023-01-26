@@ -251,7 +251,7 @@ class ReadmeUpdater:
                 old_repos, key=itemgetter("get_first_commit_date"), reverse=True
             )
 
-            last_year_header == ""
+            last_year_header = ""
 
             for repo in live_repos + old_repos:
 

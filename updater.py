@@ -240,9 +240,13 @@ class ReadmeUpdater:
             old_repos = []
 
             for repo in self.repos:
-                repo["get_first_commit_date"] = self.get_first_commit_date(
-                    repo["name"]
-                ).substring(1, self.get_first_commit_date(repo["name"]).length - 1)
+                first_commit = self.get_first_commit_date(repo["name"])
+                first_commit = (
+                    first_commit[1, self.get_first_commit_date(repo["name"]).length - 1]
+                    if first_commit != ""
+                    else ""
+                )
+                repo["get_first_commit_date"] = first_commit
                 if repo["name"] in live:
                     live_repos.append(repo)
                 else:

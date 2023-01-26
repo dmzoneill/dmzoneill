@@ -1,4 +1,5 @@
 import json
+from operator import itemgetter
 import os
 import pprint
 import re
@@ -235,33 +236,27 @@ class ReadmeUpdater:
 
             live = self.config["live"]
 
-            # live_repos = []
-            # not_live_repos = []
+            live_repos = []
+            old_repos = []
 
             for repo in self.repos:
                 repo["get_first_commit_date"] = self.get_first_commit_date(repo["name"])
-            #     if repo["name"] in live:
-            #         live_repos += repo
-            #     else:
-            #         not_live_repos += repo
+                if repo["name"] in live:
+                    live_repos.append(repo)
+                else:
+                    old_repos.append(repo)
 
-            # pprint.pprint(live_repos)
+            live_repos = sorted(live_repos, key=itemgetter("pushed_at"))
+            old_repos = sorted(
+                old_repos, key=itemgetter("get_first_commit_date"), reverse=True
+            )
 
-            # pprint.pprint(sorted(live_repos, key=lambda x: x.pushed_at, reverse=True))
+            pprint.pprint(live_repos)
+            pprint.pprint(old_repos)
 
-            # pprint.pprint(
-            #     sorted(
-            #         not_live_repos, key=lambda x: x.get_first_commit_date, reverse=True
-            #     )
-            # )
+            last_year_header == ""
 
-            # sorted_repos = sorted(
-            #     live_repos, key=lambda x: x.pushed_at, reverse=True
-            # ) + sorted(
-            #     not_live_repos, key=lambda x: x.get_first_commit_date, reverse=True
-            # )
-
-            for repo in self.repos:
+            for repo in live_repos + old_repos:
 
                 repo_issues = self.get_repo_issues(repo["name"])
                 repo_prs = self.get_repo_pull_requests(repo["name"])
@@ -357,6 +352,18 @@ class ReadmeUpdater:
                 row = re.sub(
                     "<ul><prs>(.*)</prs></ul>", prs_html, row, flags=re.I | re.M | re.S
                 )
+
+                if (
+                    repo["name"] not in live
+                    and last_year_header != repo["get_first_commit_date"]
+                ):
+                    last_year_header = repo["get_first_commit_date"]
+                    row = (
+                        "<tr><td colspan='3><h3>"
+                        + last_year_header
+                        + "</h3></td></tr>"
+                        + row
+                    )
 
                 if prepend:
                     rows = row + "\n" + rows

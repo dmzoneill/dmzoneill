@@ -37,7 +37,7 @@ class ReadmeUpdater:
             config = config.read()
             self.config = json.loads(config)
             self.log("Got config")
-            self.log(json.dumps(self.config, indent=4))
+            # self.log(json.dumps(self.config, indent=4))
             return True
         except:  # noqa
             return False
@@ -95,7 +95,7 @@ class ReadmeUpdater:
             )
             if request.status_code == 200:
                 data = request.json()
-                self.log(json.dumps(data, indent=4))
+                # self.log(json.dumps(data, indent=4))
                 edge = data["data"]["repository"]["refs"]["edges"][0]
                 edge = edge["node"]["target"]["history"]["edges"][1]
                 return "(" + edge["node"]["committedDate"].split("-")[0] + ")"
@@ -120,7 +120,7 @@ class ReadmeUpdater:
                         self.log("no repos, break")
                         break
 
-                    self.log(json.dumps(res, indent=4))
+                    # self.log(json.dumps(res, indent=4))
 
                     if self.repos is not None:
                         self.repos = self.repos + res
@@ -144,7 +144,7 @@ class ReadmeUpdater:
             res = requests.get(url, headers=headers)
             if res.status_code == requests.codes.ok:
                 issues = res.json()
-                self.log(json.dumps(issues, indent=4))
+                # self.log(json.dumps(issues, indent=4))
                 return issues  #
             else:
                 self.log(pprint.pformat(res))
@@ -159,7 +159,7 @@ class ReadmeUpdater:
             res = requests.get(url, headers=headers)
             if res.status_code == requests.codes.ok:
                 pulls = res.json()
-                self.log(json.dumps(pulls, indent=4))
+                # self.log(json.dumps(pulls, indent=4))
                 return pulls
             else:
                 self.log(pprint.pformat(res))
@@ -183,7 +183,7 @@ class ReadmeUpdater:
             if languages is None:
                 return False
 
-            self.log(json.dumps(languages, indent=4))
+            # self.log(json.dumps(languages, indent=4))
 
             for count in list(languages.values()):
                 lines += count
@@ -250,9 +250,6 @@ class ReadmeUpdater:
             old_repos = sorted(
                 old_repos, key=itemgetter("get_first_commit_date"), reverse=True
             )
-
-            pprint.pprint(live_repos)
-            pprint.pprint(old_repos)
 
             last_year_header == ""
 

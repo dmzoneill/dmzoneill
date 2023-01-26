@@ -356,9 +356,9 @@ class ReadmeUpdater:
                 ):
                     last_year_header = repo["get_first_commit_date"]
                     row = (
-                        "<tr><td colspan='3><h3>"
+                        "<tr><td><h3>"
                         + last_year_header
-                        + "</h3></td></tr>"
+                        + "</h3></td><td></td><td></td></tr>"
                         + row
                     )
 

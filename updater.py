@@ -556,6 +556,7 @@ class ReadmeUpdater:
             recent_html = ""
 
             num = 0
+            added = 0
             for recent in self.recent_activity:
                 if num == 5:
                     break
@@ -571,6 +572,7 @@ class ReadmeUpdater:
                             recent["payload"]["issue"]["title"],
                         )
                         recent_html += recent_h
+                        added += 1
                     elif recent["type"] == "PushEvent":
                         recent_h = recent_h.replace(
                             "{recent_activity_url}",
@@ -581,6 +583,7 @@ class ReadmeUpdater:
                             recent["payload"]["commits"][0]["message"],
                         )
                         recent_html += recent_h
+                        added += 1
                     elif recent["type"] == "CreateEvent":
                         recent_h = recent_h.replace(
                             "{recent_activity_url}", recent["repo"]["name"]
@@ -589,6 +592,7 @@ class ReadmeUpdater:
                             "{recent_activity_title}", recent["repo"]["url"]
                         )
                         recent_html += recent_h
+                        added += 1
                     elif recent["type"] == "PullRequestEvent":
                         recent_h = recent_h.replace(
                             "{recent_activity_url}",
@@ -599,6 +603,7 @@ class ReadmeUpdater:
                             recent["payload"]["pull_request"]["html_url"],
                         )
                         recent_html += recent_h
+                        added += 1
                     else:
                         continue
                     num += 1
@@ -612,6 +617,8 @@ class ReadmeUpdater:
                 )
                 return True
             else:
+                if added > 0:
+                    recent_html = "</ul><h4>Pull requests</h4><ul>" + recent_html
                 return re.sub(
                     "<recent>(.*)</recent>",
                     recent_html,

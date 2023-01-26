@@ -55,7 +55,7 @@
 
 ### Some things i've been poking at
 
-<table>
+<table width='100%' style='width:100%'>
   <thead>
     <tr>
       <th>Project</th>

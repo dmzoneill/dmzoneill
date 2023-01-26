@@ -397,7 +397,7 @@ class ReadmeUpdater:
         for pr in self.prs:
             if added == 5:
                 break
-            if repo == False or repo in pr["full_name"]:
+            if repo == False or repo in pr["url"]:
                 pr_html = prs_template
                 pr_html = pr_html.replace("{pr_url}", pr["html_url"])
                 pr_html = pr_html.replace("{pr_title}", pr["title"])

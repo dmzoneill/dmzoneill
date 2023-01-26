@@ -14,13 +14,8 @@
     </td>
     <td>
       <h3>Work related stuff over on</h3>
-      <ul>
-      <orgs>
-      <li><a href='{org_url}'>{org_name}</a></li>
-      </orgs>
-      <br/>
-      <img alt="Redhat" width='200px' src="https://github.com/dmzoneill/dmzoneill/blob/main/images/redhat.svg?raw=true" />
-      </ul>
+      <ul><orgs><li><a href='{org_url}'>{org_name}</a></li></orgs></ul>
+      <br/><img alt="Redhat" width='200px' src="https://github.com/dmzoneill/dmzoneill/blob/main/images/redhat.svg?raw=true" />      
     </td>
   </tr>
 </table>

@@ -308,66 +308,9 @@ class ReadmeUpdater:
                 row = row.replace("{updated_at}", updated_at.split("T")[0])
                 row = row.replace("{badge}", badge)
 
-                ## issues
-                issues_match = re.search(
-                    "<ul><issues>(.*)</issues></ul>", row, flags=re.I | re.M | re.S
-                )
-                issues_template = issues_match.group(1).strip()
-
-                issues_html = ""
-
-                if len(repo_issues) > 0:
-                    issues_html = "<h4>Issues</h4><ul>"
-
-                for issue in repo_issues:
-                    if "pull" in issue["html_url"]:
-                        continue
-
-                    issue_html = issues_template
-                    issue_html = issue_html.replace("{issue_url}", issue["html_url"])
-                    issue_html = issue_html.replace("{issue_title}", issue["title"])
-                    issue_html = issue_html.replace(
-                        "{updated_at}", issue["updated_at"].split("T")[0]
-                    )
-
-                    issues_html += issue_html
-
-                if len(repo_issues) > 0:
-                    issues_html += "</ul>"
-
-                row = re.sub(
-                    "<ul><issues>(.*)</issues></ul>",
-                    issues_html,
-                    row,
-                    flags=re.I | re.M | re.S,
-                )
-
-                ## prs
-                prs_match = re.search(
-                    "<ul><prs>(.*)</prs></ul>", row, flags=re.I | re.M | re.S
-                )
-                prs_template = prs_match.group(1).strip()
-
-                prs_html = ""
-
-                if len(repo_issues) > 0:
-                    prs_html = "<h4>Pull requests</h4><ul>"
-
-                for pr in repo_prs:
-                    pr_html = prs_template
-                    pr_html = issue_html.replace("{issue_url}", pr["html_url"])
-                    pr_html = issue_html.replace(
-                        "{updated_at}", pr["updated_at"].split("T")[0]
-                    )
-                    pr_html = issue_html.replace("{issue_title}", pr["title"])
-                    prs_html += pr_html
-
-                if len(repo_prs) > 0:
-                    prs_html += "</ul>"
-
-                row = re.sub(
-                    "<ul><prs>(.*)</prs></ul>", prs_html, row, flags=re.I | re.M | re.S
-                )
+                row = self.generate_issues(row, name)
+                row = self.generate_recent_activity(row, name)
+                row = self.generate_prs(row, name)
 
                 if (
                     repo["name"] not in live
@@ -381,8 +324,6 @@ class ReadmeUpdater:
                         + row
                     )
 
-                row = self.generate_recent_activity(row, name)
-
                 if prepend:
                     rows = row + "\n" + rows
                 else:
@@ -394,96 +335,19 @@ class ReadmeUpdater:
         except:  # noqa
             raise Exception("Failed generating repo list")
 
-    def generate_orgs(self):
-        try:
-            # orgs
-            orgs_match = re.search(
-                "<orgs>(.*)</orgs>", self.template, flags=re.I | re.M | re.S
-            )
-            orgs_template = orgs_match.group(1).strip()
-
-            orgs = ""
-
-            for org in self.config["organizations"]:
-
-                row = orgs_template
-                row = row.replace("{org_url}", org[0])
-                row = row.replace("{org_name}", org[1])
-
-                orgs += row + "\n"
-
-            self.template = re.sub(
-                "<orgs>(.*)</orgs>", orgs, self.template, flags=re.I | re.M | re.S
-            )
-            return True
-        except:  # noqa
-            raise Exception("Failed generating org list")
-
-    def favorite_langs(self):
-        # langs
-        langs_match = re.search(
-            "<langs>(.*)</langs>", self.template, flags=re.I | re.M | re.S
-        )
-        langs_template = langs_match.group(1).strip()
-
-        i = 0
-        output = ""
-        for lang in self.total_lines_lang:
-            col = langs_template
-            badge = self.config["badges"][lang] if lang in self.config["badges"] else ""
-            badge = (
-                "https://img.shields.io/badge/_-"
-                + lang
-                + " -11DDDD.svg?style=for-the-badge"
-                if badge == ""
-                else badge
-            )
-            col = col.replace(
-                "{language}",
-                ("<img src='" + badge + "' title='" + lang + "'  height='20px'/>"),
-            )
-            col = col.replace("{lines}", str(self.total_lines_lang[lang]))
-            output += col + "\n"
-            i += 1
-            if i % 4 == 0:
-                output += "</tr><tr>\n"
-
-        self.template = re.sub(
-            "<langs>(.*)</langs>", output, self.template, flags=re.I | re.M | re.S
-        )
-
-    def generate_prs(self):
-        ## prs
-        prs_match = re.search(
-            "<prs>(.*)</prs>", self.template, flags=re.I | re.M | re.S
-        )
-        prs_template = prs_match.group(1).strip()
-
-        prs_html = ""
-
-        for pr in self.prs:
-            pr_html = prs_template
-            pr_html = pr_html.replace("{pr_url}", pr["html_url"])
-            pr_html = pr_html.replace("{pr_title}", pr["title"])
-            pr_html = pr_html.replace("{updated_at}", pr["updated_at"].split("T")[0])
-            prs_html += pr_html
-
-        self.template = re.sub(
-            "<prs>(.*)</prs>", prs_html, self.template, flags=re.I | re.M | re.S
-        )
-
-        self.template = self.template.replace("{pr_count}", str(len(self.prs)))
-
-    def generate_issues(self):
+    def generate_issues(self, template="", repo=False):
         ## issues
         issues_match = re.search(
-            "<issues>(.*)</issues>", self.template, flags=re.I | re.M | re.S
+            "<ul><issues>(.*)</issues></ul>", self.template, flags=re.I | re.M | re.S
         )
         issues_template = issues_match.group(1).strip()
 
         issues_html = ""
+        added = 0
 
         for issue in list(self.issues):
+            if added == 5:
+                break
             if "pull" in issue["html_url"]:
                 self.issues_count_offset += 1
                 continue
@@ -494,47 +358,76 @@ class ReadmeUpdater:
                 "{updated_at}", issue["updated_at"].split("T")[0]
             )
             issues_html += issue_html
+            added += 1
 
-        self.template = re.sub(
-            "<issues>(.*)</issues>",
-            issues_html,
-            self.template,
-            flags=re.I | re.M | re.S,
-        )
+        if repo == False:
+            self.template = self.template.replace(
+                "{issue_count}", str(len(self.issues) - self.issues_count_offset)
+            )
 
-        self.template = self.template.replace(
-            "{issue_count}", str(len(self.issues) - self.issues_count_offset)
-        )
-
-    def generate_gists(self):
-        try:
-            headers = {"Authorization": "token " + self.token}
-            res = requests.get(self.config["gists_url"], headers=headers)
-            if res.status_code == requests.codes.ok:
-                gists = res.json()
-
-                gists_match = re.search(
-                    "<gists>(.*)</gists>", self.template, flags=re.I | re.M | re.S
-                )
-                gists_template = gists_match.group(1).strip()
-
-                gists_html = ""
-
-                for gist in gists:
-                    gist_html = gists_template
-                    gist_html = gist_html.replace("{gist_url}", gist["html_url"])
-                    gist_html = gist_html.replace("{gist_title}", gist["description"])
-                    gists_html += gist_html
-
-                self.template = re.sub(
-                    "<gists>(.*)</gists>",
-                    gists_html,
-                    self.template,
-                    flags=re.I | re.M | re.S,
-                )
+            self.template = re.sub(
+                "<ul><issues>(.*)</issues></ul>",
+                issues_html,
+                self.template,
+                flags=re.I | re.M | re.S,
+            )
             return True
-        except:  # noqa
-            raise Exception("Failed generating gists list")
+        else:
+            if added > 0:
+                issues_html = "<h4>Issues</h4><ul>" + issues_html + "</ul>"
+            else:
+                issues_html = "<ul>" + issues_html + "</ul>"
+            return re.sub(
+                "<ul><issues>(.*)</issues></ul>",
+                issues_html,
+                template,
+                flags=re.I | re.M | re.S,
+            )
+
+    def generate_prs(self, template="", repo=False):
+        ## prs
+        prs_match = re.search(
+            "<ul><prs>(.*)</prs></ul>", self.template, flags=re.I | re.M | re.S
+        )
+        prs_template = prs_match.group(1).strip()
+
+        prs_html = ""
+        added = 0
+
+        for pr in self.prs:
+            if added == 5:
+                break
+            if repo == False or repo in pr["full_name"]:
+                pr_html = prs_template
+                pr_html = pr_html.replace("{pr_url}", pr["html_url"])
+                pr_html = pr_html.replace("{pr_title}", pr["title"])
+                pr_html = pr_html.replace(
+                    "{updated_at}", pr["updated_at"].split("T")[0]
+                )
+                prs_html += pr_html
+                added += 1
+
+        if repo == False:
+            self.template = self.template.replace("{pr_count}", str(len(self.prs)))
+
+            self.template = re.sub(
+                "<ul><prs>(.*)</prs></ul>",
+                "<ul>" + prs_html + "</ul>",
+                self.template,
+                flags=re.I | re.M | re.S,
+            )
+            return True
+        else:
+            if added > 0:
+                prs_html = "<h4>Pull Requests</h4><ul>" + prs_html + "</ul>"
+            else:
+                prs_html = "<ul>" + prs_html + "</ul>"
+            return re.sub(
+                "<ul><prs>(.*)</prs></ul>",
+                prs_html,
+                template,
+                flags=re.I | re.M | re.S,
+            )
 
     def generate_recent_activity(self, template="", repo=False):
         try:
@@ -547,7 +440,7 @@ class ReadmeUpdater:
                     return False
 
             recent_match = re.search(
-                "<recent>(.*)</recent>",
+                "<ul><recent>(.*)</recent></ul>",
                 self.template if repo == False else template,
                 flags=re.I | re.M | re.S,
             )
@@ -610,23 +503,113 @@ class ReadmeUpdater:
 
             if repo == False:
                 self.template = re.sub(
-                    "<recent>(.*)</recent>",
-                    recent_html,
+                    "<ul><recent>(.*)</recent></ul>",
+                    "<ul>" + recent_html + "</ul>",
                     self.template,
                     flags=re.I | re.M | re.S,
                 )
                 return True
             else:
                 if added > 0:
-                    recent_html = "</ul><h4>Pull requests</h4><ul>" + recent_html
+                    recent_html = "<h4>Recent Activity</h4><ul>" + recent_html + "</ul>"
+                else:
+                    recent_html = "<ul>" + recent_html + "</ul>"
                 return re.sub(
-                    "<recent>(.*)</recent>",
+                    "<ul><recent>(.*)</recent></ul>",
                     recent_html,
                     template,
                     flags=re.I | re.M | re.S,
                 )
         except:  # noqa
             raise Exception("Failed generating gists list")
+
+    def generate_gists(self):
+        try:
+            headers = {"Authorization": "token " + self.token}
+            res = requests.get(self.config["gists_url"], headers=headers)
+            if res.status_code == requests.codes.ok:
+                gists = res.json()
+
+                gists_match = re.search(
+                    "<gists>(.*)</gists>", self.template, flags=re.I | re.M | re.S
+                )
+                gists_template = gists_match.group(1).strip()
+
+                gists_html = ""
+
+                for gist in gists:
+                    gist_html = gists_template
+                    gist_html = gist_html.replace("{gist_url}", gist["html_url"])
+                    gist_html = gist_html.replace("{gist_title}", gist["description"])
+                    gists_html += gist_html
+
+                self.template = re.sub(
+                    "<gists>(.*)</gists>",
+                    gists_html,
+                    self.template,
+                    flags=re.I | re.M | re.S,
+                )
+            return True
+        except:  # noqa
+            raise Exception("Failed generating gists list")
+
+    def generate_orgs(self):
+        try:
+            # orgs
+            orgs_match = re.search(
+                "<orgs>(.*)</orgs>", self.template, flags=re.I | re.M | re.S
+            )
+            orgs_template = orgs_match.group(1).strip()
+
+            orgs = ""
+
+            for org in self.config["organizations"]:
+
+                row = orgs_template
+                row = row.replace("{org_url}", org[0])
+                row = row.replace("{org_name}", org[1])
+
+                orgs += row + "\n"
+
+            self.template = re.sub(
+                "<orgs>(.*)</orgs>", orgs, self.template, flags=re.I | re.M | re.S
+            )
+            return True
+        except:  # noqa
+            raise Exception("Failed generating org list")
+
+    def favorite_langs(self):
+        # langs
+        langs_match = re.search(
+            "<langs>(.*)</langs>", self.template, flags=re.I | re.M | re.S
+        )
+        langs_template = langs_match.group(1).strip()
+
+        i = 0
+        output = ""
+        for lang in self.total_lines_lang:
+            col = langs_template
+            badge = self.config["badges"][lang] if lang in self.config["badges"] else ""
+            badge = (
+                "https://img.shields.io/badge/_-"
+                + lang
+                + " -11DDDD.svg?style=for-the-badge"
+                if badge == ""
+                else badge
+            )
+            col = col.replace(
+                "{language}",
+                ("<img src='" + badge + "' title='" + lang + "'  height='20px'/>"),
+            )
+            col = col.replace("{lines}", str(self.total_lines_lang[lang]))
+            output += col + "\n"
+            i += 1
+            if i % 4 == 0:
+                output += "</tr><tr>\n"
+
+        self.template = re.sub(
+            "<langs>(.*)</langs>", output, self.template, flags=re.I | re.M | re.S
+        )
 
     def generate_readme(self):
         try:

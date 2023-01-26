@@ -352,20 +352,20 @@ class ReadmeUpdater:
                 if added == 5:
                     break
                 if "pull" in issue["html_url"]:
-                    self.issues_count_offset += 1
                     continue
-                issue_html = issues_template
-                issue_html = issue_html.replace("{issue_url}", issue["html_url"])
-                issue_html = issue_html.replace("{issue_title}", issue["title"])
-                issue_html = issue_html.replace(
-                    "{updated_at}", issue["updated_at"].split("T")[0]
-                )
-                issues_html += issue_html
-                added += 1
+                if repo == False or repo in issue["html_url"]:
+                    issue_html = issues_template
+                    issue_html = issue_html.replace("{issue_url}", issue["html_url"])
+                    issue_html = issue_html.replace("{issue_title}", issue["title"])
+                    issue_html = issue_html.replace(
+                        "{updated_at}", issue["updated_at"].split("T")[0]
+                    )
+                    issues_html += issue_html
+                    added += 1
 
             if repo == False:
                 self.template = self.template.replace(
-                    "{issue_count}", str(len(self.issues) - self.issues_count_offset)
+                    "{issue_count}", str(len(self.issues))
                 )
 
                 self.template = re.sub(

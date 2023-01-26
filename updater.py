@@ -289,7 +289,9 @@ class ReadmeUpdater:
 
                 row = rows_template
                 row = row.replace("{language}", language)
-                row = row.replace("{first_commit}", repo["get_first_commit_date"])
+                row = row.replace(
+                    "{first_commit}", "(" + repo["get_first_commit_date"] + ")"
+                )
                 row = row.replace("{html_url}", html_url)
                 row = row.replace("{name}", name)
                 row = row.replace("{live_url}", live_url)

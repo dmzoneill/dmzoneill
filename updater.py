@@ -374,6 +374,13 @@ class ReadmeUpdater:
                         + row
                     )
 
+                row = row.replace(
+                    "{spacer}",
+                    "<img width='50px' src='https://github.com/dmzoneill/dmzoneill/blob/main/images/spacer.svg?raw=true' />".repeat(
+                        15
+                    ),
+                )
+
                 if prepend:
                     rows = row + "\n" + rows
                 else:

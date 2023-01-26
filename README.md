@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-26/01/2023 22:06:50-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-26/01/2023 22:21:26-brightgreen" height='28'/>
 
 <table>
 <tr>
@@ -13,7 +13,7 @@
 </ul>
 <h3>Recent acivity</h3>
 <ul>
-<li><a href='https://api.github.com/repos/dmzoneill/dmzoneill/commits/c940f6a8bc6cfc9009ad24bedc31a0f4df5586b6'>Add recent activity</a></li><li><a href='https://api.github.com/repos/dmzoneill/dmzoneill/commits/486627bf913a7452582d6aa53cdd650e7ace48f0'>duplicate code threshold</a></li><li><a href='https://api.github.com/repos/dmzoneill/dmzoneill/commits/19b41d966f043f28eddfa37e47137d7da2e1b2ba'>spacer update</a></li><li><a href='https://api.github.com/repos/dmzoneill/dmzoneill/commits/d83ca8e9d00c7165efb6a4b055208b1d4ca7d00a'>spacer update</a></li><li><a href='https://api.github.com/repos/dmzoneill/dmzoneill/commits/d06e02c9c4e9505c3b857b33bb0253ad1a576225'>spacer update</a></li>
+<li><a href='https://api.github.com/repos/dmzoneill/dmzoneill/commits/3be3125f08a69e65a6da245b839beb63fa9b14ae'>Add recent activity</a></li><li><a href='https://api.github.com/repos/dmzoneill/dmzoneill/commits/c940f6a8bc6cfc9009ad24bedc31a0f4df5586b6'>Add recent activity</a></li><li><a href='https://api.github.com/repos/dmzoneill/dmzoneill/commits/486627bf913a7452582d6aa53cdd650e7ace48f0'>duplicate code threshold</a></li><li><a href='https://api.github.com/repos/dmzoneill/dmzoneill/commits/19b41d966f043f28eddfa37e47137d7da2e1b2ba'>spacer update</a></li><li><a href='https://api.github.com/repos/dmzoneill/dmzoneill/commits/d83ca8e9d00c7165efb6a4b055208b1d4ca7d00a'>spacer update</a></li>
 </ul>
 <h3>Gists</h3>
 <ul>
@@ -54,7 +54,7 @@
   <tbody>
     <tr><td><img src='https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white' title='Kotlin'  height='20px'/></td><td>24599</td>
 <td><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript'  height='20px'/></td><td>8754071</td>
-<td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>475174</td>
+<td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>475448</td>
 <td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>305926</td>
 </tr><tr>
 <td><img src='https://camo.githubusercontent.com/4ec342876a40b53ffc6230a41196528690f9f42b1098fd354df46c649720b4c6/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d446f636b657226636f6c6f723d323439364544266c6f676f3d446f636b6572266c6f676f436f6c6f723d464646464646266c6162656c3d' title='Dockerfile'  height='20px'/></td><td>5152</td>
@@ -134,7 +134,7 @@
             <td>
               <p><a href='https://github.com/dmzoneill/dmzoneill' title='dmzoneill'>dmzoneill</a> (2023)</p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><ul><li><a href='https://api.github.com/repos/dmzoneill/dmzoneill/commits/c940f6a8bc6cfc9009ad24bedc31a0f4df5586b6'>Add recent activity</a></li><li><a href='https://api.github.com/repos/dmzoneill/dmzoneill/commits/486627bf913a7452582d6aa53cdd650e7ace48f0'>duplicate code threshold</a></li><li><a href='https://api.github.com/repos/dmzoneill/dmzoneill/commits/19b41d966f043f28eddfa37e47137d7da2e1b2ba'>spacer update</a></li><li><a href='https://api.github.com/repos/dmzoneill/dmzoneill/commits/d83ca8e9d00c7165efb6a4b055208b1d4ca7d00a'>spacer update</a></li><li><a href='https://api.github.com/repos/dmzoneill/dmzoneill/commits/d06e02c9c4e9505c3b857b33bb0253ad1a576225'>spacer update</a></li></ul></p>
+              <p><ul></ul><h4>Pull requests</h4><ul><li><a href='https://api.github.com/repos/dmzoneill/dmzoneill/commits/3be3125f08a69e65a6da245b839beb63fa9b14ae'>Add recent activity</a></li><li><a href='https://api.github.com/repos/dmzoneill/dmzoneill/commits/c940f6a8bc6cfc9009ad24bedc31a0f4df5586b6'>Add recent activity</a></li><li><a href='https://api.github.com/repos/dmzoneill/dmzoneill/commits/486627bf913a7452582d6aa53cdd650e7ace48f0'>duplicate code threshold</a></li><li><a href='https://api.github.com/repos/dmzoneill/dmzoneill/commits/19b41d966f043f28eddfa37e47137d7da2e1b2ba'>spacer update</a></li><li><a href='https://api.github.com/repos/dmzoneill/dmzoneill/commits/d83ca8e9d00c7165efb6a4b055208b1d4ca7d00a'>spacer update</a></li></ul></p>
               <p></p>
               <p></p>
             </td>
@@ -150,7 +150,7 @@
             <td>
               <p><a href='https://github.com/dmzoneill/sodarr-chrome-plugin' title='sodarr-chrome-plugin'>sodarr-chrome-plugin</a> (2022)</p><p><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' height='20px'/> <img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><ul><li><a href='https://api.github.com/repos/dmzoneill/sodarr-chrome-plugin/commits/00f80bda6089744e9a333383ccb9943c9b373508'>Bump to 1.0.6</a></li><li><a href='https://api.github.com/repos/dmzoneill/sodarr-chrome-plugin/commits/a67400bdb9962225bdca23f755cb6c63dc8d7997'>Update main.yml</a></li></ul></p>
+              <p><ul></ul><h4>Pull requests</h4><ul><li><a href='https://api.github.com/repos/dmzoneill/sodarr-chrome-plugin/commits/00f80bda6089744e9a333383ccb9943c9b373508'>Bump to 1.0.6</a></li><li><a href='https://api.github.com/repos/dmzoneill/sodarr-chrome-plugin/commits/a67400bdb9962225bdca23f755cb6c63dc8d7997'>Update main.yml</a></li></ul></p>
               <p></p>
               <p></p>
             </td>
@@ -166,7 +166,7 @@
             <td>
               <p><a href='https://github.com/dmzoneill/lidarr-youtube-downloader' title='lidarr-youtube-downloader'>lidarr-youtube-downloader</a> (2023)</p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' height='20px'/> <img src='https://camo.githubusercontent.com/4ec342876a40b53ffc6230a41196528690f9f42b1098fd354df46c649720b4c6/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d446f636b657226636f6c6f723d323439364544266c6f676f3d446f636b6572266c6f676f436f6c6f723d464646464646266c6162656c3d' title='https://camo.githubusercontent.com/4ec342876a40b53ffc6230a41196528690f9f42b1098fd354df46c649720b4c6/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d446f636b657226636f6c6f723d323439364544266c6f676f3d446f636b6572266c6f676f436f6c6f723d464646464646266c6162656c3d' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/6'>download-only mode</a></li><li><a href='https://api.github.com/repos/dmzoneill/lidarr-youtube-downloader/commits/c903b5002fa881088be6f54e10dbad16c67296ba'>bump to 0.3.27</a></li><li><a href='https://api.github.com/repos/dmzoneill/lidarr-youtube-downloader/commits/11edd7767ef707f3ea04df607a9c805803817242'>Bump to 0.3.25</a></li><li><a href='https://api.github.com/repos/dmzoneill/lidarr-youtube-downloader/commits/80cf757d688355b7bddaebd051f1b18d3f511c71'>Bump to 0.3.23</a></li><li><a href='https://api.github.com/repos/dmzoneill/lidarr-youtube-downloader/commits/15f76089d0f31bb6d38d2efb81776eedb1d72f87'>Bump to 0.3.22</a></li></ul></p>
+              <p><ul></ul><h4>Pull requests</h4><ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/6'>download-only mode</a></li><li><a href='https://api.github.com/repos/dmzoneill/lidarr-youtube-downloader/commits/c903b5002fa881088be6f54e10dbad16c67296ba'>bump to 0.3.27</a></li><li><a href='https://api.github.com/repos/dmzoneill/lidarr-youtube-downloader/commits/11edd7767ef707f3ea04df607a9c805803817242'>Bump to 0.3.25</a></li><li><a href='https://api.github.com/repos/dmzoneill/lidarr-youtube-downloader/commits/80cf757d688355b7bddaebd051f1b18d3f511c71'>Bump to 0.3.23</a></li><li><a href='https://api.github.com/repos/dmzoneill/lidarr-youtube-downloader/commits/15f76089d0f31bb6d38d2efb81776eedb1d72f87'>Bump to 0.3.22</a></li></ul></p>
               <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/5'>FR: ability to filter results</a> 2023-01-03</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/3'>docker-compose</a> 2023-01-03</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/1'>Docker Build</a> 2023-01-03</li></ul></p>
               <p><h4>Pull requests</h4><ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/1'>Docker Build</a> 2023-01-03</li></ul></p>
             </td>
@@ -182,7 +182,7 @@
             <td>
               <p><a href='https://github.com/dmzoneill/gnome-extension-publisher' title='gnome-extension-publisher'>gnome-extension-publisher</a> (2023)</p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><ul><li><a href='https://api.github.com/repos/dmzoneill/gnome-extension-publisher/commits/d39554487ebf7ea5c8b0079cb5051cd3e194ba65'>Update main.yml</a></li><li><a href='https://api.github.com/repos/dmzoneill/gnome-extension-publisher/commits/beb4088c8390c3fb2501d9f2b46fb51daddaa01b'>Update metadata</a></li><li><a href='dmzoneill/gnome-extension-publisher-js'>https://api.github.com/repos/dmzoneill/gnome-extension-publisher-js</a></li><li><a href='https://api.github.com/repos/dmzoneill/gnome-extension-publisher/commits/f050618bd280295fb1f93b36bcbc98351829ea05'>Cleanup readme</a></li><li><a href='https://api.github.com/repos/dmzoneill/gnome-extension-publisher/commits/9a10eea6283e75246407c3bd2b0f4c82125e1a43'>bump</a></li></ul></p>
+              <p><ul></ul><h4>Pull requests</h4><ul><li><a href='https://api.github.com/repos/dmzoneill/gnome-extension-publisher/commits/d39554487ebf7ea5c8b0079cb5051cd3e194ba65'>Update main.yml</a></li><li><a href='https://api.github.com/repos/dmzoneill/gnome-extension-publisher/commits/beb4088c8390c3fb2501d9f2b46fb51daddaa01b'>Update metadata</a></li><li><a href='dmzoneill/gnome-extension-publisher-js'>https://api.github.com/repos/dmzoneill/gnome-extension-publisher-js</a></li><li><a href='https://api.github.com/repos/dmzoneill/gnome-extension-publisher/commits/f050618bd280295fb1f93b36bcbc98351829ea05'>Cleanup readme</a></li><li><a href='https://api.github.com/repos/dmzoneill/gnome-extension-publisher/commits/9a10eea6283e75246407c3bd2b0f4c82125e1a43'>bump</a></li></ul></p>
               <p></p>
               <p></p>
             </td>
@@ -198,7 +198,7 @@
             <td>
               <p><a href='https://github.com/dmzoneill/jackett-indexarr' title='jackett-indexarr'>jackett-indexarr</a> (2023)</p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><ul><li><a href='https://api.github.com/repos/dmzoneill/jackett-indexarr/commits/38ae91f6a91a51734d4cf0ccae9fd55f86367dc1'>Update main.yml</a></li></ul></p>
+              <p><ul></ul><h4>Pull requests</h4><ul><li><a href='https://api.github.com/repos/dmzoneill/jackett-indexarr/commits/38ae91f6a91a51734d4cf0ccae9fd55f86367dc1'>Update main.yml</a></li></ul></p>
               <p></p>
               <p></p>
             </td>
@@ -214,7 +214,7 @@
             <td>
               <p><a href='https://github.com/dmzoneill/tado-gnome-shell-extension' title='tado-gnome-shell-extension'>tado-gnome-shell-extension</a> (2023)</p><p><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><ul><li><a href='https://api.github.com/repos/dmzoneill/tado-gnome-shell-extension/commits/cc8dddf050db57454bab81f8543eb7b91cf66cae'>Update main.yml</a></li></ul></p>
+              <p><ul></ul><h4>Pull requests</h4><ul><li><a href='https://api.github.com/repos/dmzoneill/tado-gnome-shell-extension/commits/cc8dddf050db57454bab81f8543eb7b91cf66cae'>Update main.yml</a></li></ul></p>
               <p></p>
               <p></p>
             </td>
@@ -407,7 +407,7 @@
             <td>
               <p><a href='https://github.com/dmzoneill/php-binance-bot' title='php-binance-bot'>php-binance-bot</a> (2023)</p><p><img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><ul><li><a href='https://github.com/dmzoneill/php-binance-bot/issues/1'>Causes my IP to be blocked </a></li></ul></p>
+              <p><ul></ul><h4>Pull requests</h4><ul><li><a href='https://github.com/dmzoneill/php-binance-bot/issues/1'>Causes my IP to be blocked </a></li></ul></p>
               <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/php-binance-bot/issues/1'>Causes my IP to be blocked </a> 2023-01-16</li></ul></p>
               <p><h4>Pull requests</h4><ul></p>
             </td>
@@ -2679,7 +2679,7 @@
             <td>
               <p><a href='https://github.com/dmzoneill/gnome-extension-publisher-js' title='gnome-extension-publisher-js'>gnome-extension-publisher-js</a> ()</p><p></p>
               <p></p>
-              <p><ul><li><a href='dmzoneill/gnome-extension-publisher-js'>https://api.github.com/repos/dmzoneill/gnome-extension-publisher-js</a></li></ul></p>
+              <p><ul></ul><h4>Pull requests</h4><ul><li><a href='dmzoneill/gnome-extension-publisher-js'>https://api.github.com/repos/dmzoneill/gnome-extension-publisher-js</a></li></ul></p>
               <p></p>
               <p></p>
             </td>

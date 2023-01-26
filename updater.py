@@ -374,13 +374,6 @@ class ReadmeUpdater:
                         + row
                     )
 
-                row = row.replace(
-                    "{spacer}",
-                    "<img width='50px' src='https://github.com/dmzoneill/dmzoneill/blob/main/images/spacer.svg?raw=true' />".repeat(
-                        15
-                    ),
-                )
-
                 if prepend:
                     rows = row + "\n" + rows
                 else:
@@ -463,6 +456,7 @@ class ReadmeUpdater:
             pr_html = prs_template
             pr_html = pr_html.replace("{pr_url}", pr["html_url"])
             pr_html = pr_html.replace("{pr_title}", pr["title"])
+            pr_html = pr_html.replace("{updated_at}", pr["updated_at"])
             prs_html += pr_html
 
         self.template = re.sub(
@@ -487,6 +481,7 @@ class ReadmeUpdater:
             issue_html = issues_template
             issue_html = issue_html.replace("{issue_url}", issue["html_url"])
             issue_html = issue_html.replace("{issue_title}", issue["title"])
+            issue_html = issue_html.replace("{updated_at}", issue["updated_at"])
             issues_html += issue_html
 
         self.template = re.sub(

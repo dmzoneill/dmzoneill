@@ -367,7 +367,7 @@ class ReadmeUpdater:
             if repo == False:
                 self.template = self.template.replace(
                     "{issue_count}",
-                    str(len(self.issues) - self.self.issues_count_offset),
+                    str(len(self.issues) - self.issues_count_offset),
                 )
 
                 self.template = re.sub(

@@ -352,6 +352,7 @@ class ReadmeUpdater:
                 if added == 5:
                     break
                 if "pull" in issue["html_url"]:
+                    self.issues_count_offset += 1
                     continue
                 if repo == False or repo in issue["html_url"]:
                     issue_html = issues_template
@@ -365,7 +366,8 @@ class ReadmeUpdater:
 
             if repo == False:
                 self.template = self.template.replace(
-                    "{issue_count}", str(len(self.issues))
+                    "{issue_count}",
+                    str(len(self.issues) - self.self.issues_count_offset),
                 )
 
                 self.template = re.sub(

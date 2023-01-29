@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-28/01/2023 22:38:28-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-29/01/2023 00:26:55-brightgreen" height='28'/>
 
 <table>
   <tr>
@@ -121,22 +121,6 @@
   <tbody>
     <tr>
             <td>
-              <p><a href='https://github.com/dmzoneill/curriculum-vitae' title='curriculum-vitae'>curriculum-vitae</a> (2023)</p><p><img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' height='20px'/> <img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' height='20px'/</p>
-              <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://api.github.com/repos/dmzoneill/curriculum-vitae/commits/83721dd5429000bb57c47793aadf29d25f4d480c'>Bump to 0.1.10</a></li><li><a href='https://api.github.com/repos/dmzoneill/curriculum-vitae/commits/9e945c7618de8573cf30689b6e3ed1520be344a2'>Bump to 0.1.9</a></li><li><a href='https://api.github.com/repos/dmzoneill/curriculum-vitae/commits/816a185f398b85f276b1ef53ffbdb8e291914d5d'>Bump to 0.1.8</a></li><li><a href='https://api.github.com/repos/dmzoneill/curriculum-vitae/commits/43b5eb83793d28629aeb04c745f15c8d940876bf'>Bump to 0.1.7</a></li><li><a href='https://api.github.com/repos/dmzoneill/curriculum-vitae/commits/db78e457b6980516c83816defdf3fc23ab34d606'>Bump to 0.1.6</a></li></ul></p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-            </td>
-            <td>
-              <p><a href='https://cv.fio.ie' title='Curriculum vitae'>Curriculum vitae</a></p>
-            </td>
-            <td align="center">
-              <a href='https://github.com/dmzoneill/curriculum-vitae/actions'><img src='https://github.com/dmzoneill//curriculum-vitae/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2022-04-20</p>
-            </td>
-        </tr>
-<tr>
-            <td>
               <p><a href='https://github.com/dmzoneill/dmzoneill' title='dmzoneill'>dmzoneill</a> (2023)</p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' height='20px'/</p>
               <p>Apache License 2.0</p>
               <p><h4>Recent Activity</h4><ul><li><a href='https://api.github.com/repos/dmzoneill/curriculum-vitae/commits/83721dd5429000bb57c47793aadf29d25f4d480c'>Bump to 0.1.10</a></li><li><a href='https://api.github.com/repos/dmzoneill/dmzoneill/commits/b8da886e6f552ae2bd7b05c253c898e759d2b0bf'>Bump to 0.3.7</a></li><li><a href='https://api.github.com/repos/dmzoneill/curriculum-vitae/commits/9e945c7618de8573cf30689b6e3ed1520be344a2'>Bump to 0.1.9</a></li><li><a href='https://api.github.com/repos/dmzoneill/curriculum-vitae/commits/816a185f398b85f276b1ef53ffbdb8e291914d5d'>Bump to 0.1.8</a></li><li><a href='https://api.github.com/repos/dmzoneill/curriculum-vitae/commits/43b5eb83793d28629aeb04c745f15c8d940876bf'>Bump to 0.1.7</a></li></ul></p>
@@ -149,6 +133,22 @@
             <td align="center">
               <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
               <p>2023-01-16</p>
+            </td>
+        </tr>
+<tr>
+            <td>
+              <p><a href='https://github.com/dmzoneill/curriculum-vitae' title='curriculum-vitae'>curriculum-vitae</a> (2023)</p><p><img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' height='20px'/> <img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' height='20px'/</p>
+              <p>Apache License 2.0</p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://api.github.com/repos/dmzoneill/curriculum-vitae/commits/83721dd5429000bb57c47793aadf29d25f4d480c'>Bump to 0.1.10</a></li><li><a href='https://api.github.com/repos/dmzoneill/curriculum-vitae/commits/9e945c7618de8573cf30689b6e3ed1520be344a2'>Bump to 0.1.9</a></li><li><a href='https://api.github.com/repos/dmzoneill/curriculum-vitae/commits/816a185f398b85f276b1ef53ffbdb8e291914d5d'>Bump to 0.1.8</a></li><li><a href='https://api.github.com/repos/dmzoneill/curriculum-vitae/commits/43b5eb83793d28629aeb04c745f15c8d940876bf'>Bump to 0.1.7</a></li><li><a href='https://api.github.com/repos/dmzoneill/curriculum-vitae/commits/db78e457b6980516c83816defdf3fc23ab34d606'>Bump to 0.1.6</a></li></ul></p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+            </td>
+            <td>
+              <p><a href='https://cv.fio.ie' title='Curriculum vitae'>Curriculum vitae</a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/curriculum-vitae/actions'><img src='https://github.com/dmzoneill//curriculum-vitae/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2022-04-20</p>
             </td>
         </tr>
 <tr>

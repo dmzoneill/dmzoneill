@@ -7,12 +7,15 @@ on:
       chrome-extension-id:
         required: false
         type: string
+        default: ""
       pypi-extension:
         required: false
         type: boolean
+        default: false
       gnome-extension:
         required: false
         type: boolean
+        default: false
 
 jobs:
   static-analysis:

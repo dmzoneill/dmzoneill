@@ -278,9 +278,14 @@ jobs:
   rebuild-profile:   
     name: Dispatch rebuild profile
     runs-on: ubuntu-latest    
-    needs: [gnome-build-and-upload, pypi-build-and-upload-package, chrome-extension-upload, basic-version-bump]      
+    needs: [gnome-build-and-upload, pypi-build-and-upload-package, chrome-extension-upload, basic-version-bump]
+    if: |
+      always() &&
+      (needs.gnome-build-and-upload.result == 'success' || needs.gnome-build-and-upload.result == 'skipped') &&
+      (needs.pypi-build-and-upload-package.result == 'success' || needs.pypi-build-and-upload-package.result == 'skipped') &&
+      (needs.chrome-extension-upload.result == 'success' || needs.chrome-extension-upload.result == 'skipped') &&
+      (needs.basic-version-bump.result == 'success' || needs.basic-version-bump.result == 'skipped')
     steps:
       - name: Rebuild profile
-        if: always()
         run: |-
           curl -H 'Accept: application/vnd.github+json' -H 'Authorization: token ${{ secrets.PROFILE_HOOK }}' --request POST --data '{"event_type": "cicd-hook"}' https://api.github.com/repos/dmzoneill/dmzoneill/dispatches

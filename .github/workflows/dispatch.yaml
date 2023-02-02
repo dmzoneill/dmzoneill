@@ -22,6 +22,17 @@ on:
         default: "false"
 
 jobs:
+  debug:
+    runs-on: ubuntu-latest
+    name: output
+    steps:
+      - name: Echo
+        run : |-
+          echo ${{ github.event.inputs.basic }}
+          echo ${{ github.event.inputs.chrome-extension }}
+          echo ${{ github.event.inputs.pypi-extension }}
+          echo ${{ github.event.inputs.gnome-extension }}
+
   static-analysis:
     runs-on: ubuntu-latest
     name: Validate code

@@ -52,7 +52,7 @@ jobs:
 
       - name: Bump version      
         run: |-
-          if [! -f version]; then echo "version=0.0.1" > version; fi
+          if ! test -f version; then echo "version=0.0.1" > version; fi
           version=$(grep 'version=.*' version | awk -F'=' '{print $2}')
           next=$(echo ${version} | awk -F. '/[0-9]+\./{$NF++;print}' OFS=.)
           sed "s/$(version)/$(next)/" -i version
@@ -84,6 +84,7 @@ jobs:
               
       - name: Bump  version      
         run: |-
+          # shellcheck disable=SC2086
           version=$(grep '"version": ".*",' chrome-plugin/manifest.json | awk -F'"' '{print $4}')
           next=$(echo $version | awk -F. '/[0-9]+\./{$NF++;print}' OFS=.)
           sed "s/$version/$next/" -i chrome-plugin/manifest.json
@@ -173,6 +174,7 @@ jobs:
               
       - name: Bump       
         run: |-
+          # shellcheck disable=SC2086
           version=$(grep '^Version:' PKG-INFO | sed 's/Version: //')
           next=$(echo $version | awk -F. '/[0-9]+\./{$NF++;print}' OFS=.)
           sed "s/$version/$next/" -i PKG-INFO
@@ -239,6 +241,7 @@ jobs:
       - name: Bump
         if: steps.changes.outputs.src == 'true'
         run: |-
+          # shellcheck disable=SC2086
           version=$(grep '"version": .*' metadata.json | awk '{print $2}')
           next=$(echo $version | awk -F. '/[0-9]+\./{$NF++;print}' OFS=.)
           sed "s/$version/$next/" -i metadata.json

@@ -4,7 +4,7 @@ name: DISPATCH
 on:
   workflow_call:
     inputs:
-      chrome-extension-id:
+      chrome-extension:
         required: false
         type: string
         default: "false"
@@ -45,7 +45,7 @@ jobs:
           
   basic-version-bump:
     if: >-
-      ${{ github.event.inputs.chrome-extension-id == 'false' && 
+      ${{ github.event.inputs.chrome-extension == 'false' && 
           github.event.inputs.gnome-extension == 'false' && 
           github.event.inputs.pypi-extension == 'false' &&
           ( github.event_name == 'push' || github.event.pull_request.merged == true ) }}
@@ -73,9 +73,7 @@ jobs:
 
   chrome-extension-bump-version:
     if: >-
-      ${{ github.event.inputs.chrome-extension-id == 'false' && 
-          github.event.inputs.gnome-extension == 'false' && 
-          github.event.inputs.pypi-extension == 'false' &&
+      ${{ github.event.inputs.chrome-extension != 'false' &&
           ( github.event_name == 'push' || github.event.pull_request.merged == true ) }}
     name: Chrome bump version
     needs: static-analysis
@@ -108,7 +106,7 @@ jobs:
 
   chrome-extension-build:
     if: >-
-      ${{ github.event.inputs.chrome-extension-id != 'false' && 
+      ${{ github.event.inputs.chrome-extension != 'false' && 
         ( github.event_name == 'push' || github.event.pull_request.merged == true ) }}     
     name: Chrome extension build
     needs: chrome-extension-bump-version
@@ -138,7 +136,7 @@ jobs:
 
   chrome-extension-upload:
     if: >-
-      ${{ github.event.inputs.chrome-extension-id != 'false' && 
+      ${{ github.event.inputs.chrome-extension != 'false' && 
         ( github.event_name == 'push' || github.event.pull_request.merged == true ) }}     
     name: Chrome upload extension
     runs-on: ubuntu-latest

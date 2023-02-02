@@ -6,9 +6,26 @@ on:
 jobs:
   dispatch:
     runs-on: ubuntu-latest
-    name: CICD Profile Callback
+    name: CICD Profile
     steps:
-      - name: Repository Dispatch
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Lint Code Base
+        uses: github/super-linter@v4
+        env:
+          VALIDATE_ALL_CODEBASE: false
+          VALIDATE_MARKDOWN: false
+          VALIDATE_PYTHON_MYPY: false
+          VALIDATE_PYTHON_FLAKE8: false          
+          VALIDATE_GITHUB_ACTIONS: false
+          VALIDATE_NATURAL_LANGUAGE: false
+          DEFAULT_BRANCH: "main"
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
+      - name: Update Profile
         uses: peter-evans/repository-dispatch@v2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}

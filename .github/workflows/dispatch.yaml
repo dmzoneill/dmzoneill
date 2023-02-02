@@ -1,0 +1,14 @@
+name: DISPATCH
+
+on:
+  workflow_call:
+
+jobs:
+  dispatch:
+    steps:
+    - name: Repository Dispatch
+      uses: peter-evans/repository-dispatch@v2
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        repository: dmzoneill/dmzoneill
+        event-type: update-profile

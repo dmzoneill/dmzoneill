@@ -27,11 +27,15 @@ jobs:
     name: output
     steps:
       - name: Echo
-        run : |-
-          echo ${{ github.event.inputs.basic }}
-          echo ${{ github.event.inputs.chrome-extension }}
-          echo ${{ github.event.inputs.pypi-extension }}
-          echo ${{ github.event.inputs.gnome-extension }}
+        run : |
+          echo "${{ github.event.inputs.basic }}"
+          echo "${{ github.event.inputs.chrome-extension }}"
+          echo "${{ github.event.inputs.pypi-extension }}"
+          echo "${{ github.event.inputs.gnome-extension }}"
+          echo "${{ inputs.basic }}"
+          echo "${{ inputs.chrome-extension }}"
+          echo "${{ inputs.pypi-extension }}"
+          echo "${{ inputs.gnome-extension }}"
 
   static-analysis:
     runs-on: ubuntu-latest

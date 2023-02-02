@@ -17,7 +17,7 @@ on:
 jobs:
   static-analysis:
     runs-on: ubuntu-latest
-    name: validate code
+    name: Validate code
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
@@ -88,6 +88,7 @@ jobs:
               - 'chrome-plugin/**'
               
       - name: Bump version
+        if: steps.changes.outputs.src == 'true'
         run: |-
           version=$(grep '"version": ".*",' chrome-plugin/manifest.json | awk -F'"' '{print $4}')
           next=$(echo $version | awk -F. '/[0-9]+\./{$NF++;print}' OFS=.)
@@ -103,7 +104,7 @@ jobs:
     if: >-
       ${{ github.event.inputs.chrome-extension-id != '' &&
       ( github.event_name == 'push' || github.event.pull_request.merged == true ) }}     
-    name: chrome extension build
+    name: Chrome extension build
     needs: chrome-extension-bump-version
     runs-on: ubuntu-latest
     steps:
@@ -133,7 +134,7 @@ jobs:
     if: >-
       ${{ github.event.inputs.chrome-extension-id != '' &&
       ( github.event_name == 'push' || github.event.pull_request.merged == true ) }}    
-    name: chrome upload extension
+    name: Chrome upload extension
     runs-on: ubuntu-latest
     needs: chrome-extension-build
     env:
@@ -177,6 +178,7 @@ jobs:
               - 'PKG-INFO'
               
       - name: Bump
+        if: steps.changes.outputs.src == 'true'
         # shellcheck disable=SC2086
         run: |-
           # shellcheck disable=SC2086

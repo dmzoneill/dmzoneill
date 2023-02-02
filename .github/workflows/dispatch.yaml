@@ -51,8 +51,10 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Bump version      
+      - name: Bump version  
+        # shellcheck disable=SC2086
         run: |-
+          # shellcheck disable=SC2086
           if ! test -f version; then echo "version=0.0.1" > version; fi
           version=$(grep 'version=.*' version | awk -F'=' '{print $2}')
           next=$(echo ${version} | awk -F. '/[0-9]+\./{$NF++;print}' OFS=.)
@@ -83,7 +85,8 @@ jobs:
             src:
               - 'chrome-plugin/**'
               
-      - name: Bump  version      
+      - name: Bump version
+        # shellcheck disable=SC2086
         run: |-
           # shellcheck disable=SC2086
           version=$(grep '"version": ".*",' chrome-plugin/manifest.json | awk -F'"' '{print $4}')
@@ -173,7 +176,8 @@ jobs:
               - 'pyproject.toml'
               - 'PKG-INFO'
               
-      - name: Bump       
+      - name: Bump
+        # shellcheck disable=SC2086
         run: |-
           # shellcheck disable=SC2086
           version=$(grep '^Version:' PKG-INFO | sed 's/Version: //')
@@ -241,6 +245,7 @@ jobs:
               
       - name: Bump
         if: steps.changes.outputs.src == 'true'
+        # shellcheck disable=SC2086
         run: |-
           # shellcheck disable=SC2086
           version=$(grep '"version": .*' metadata.json | awk '{print $2}')

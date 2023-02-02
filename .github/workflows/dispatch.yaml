@@ -202,7 +202,7 @@ jobs:
     if: >-
       ${{ github.event.inputs.pypi-extension == true &&
       ( github.event_name == 'push' || github.event.pull_request.merged == true ) }}  
-    name: Pypi build / publish
+    name: Pypi module build
     needs: pypi-bump-version
     runs-on: ubuntu-latest
     steps:

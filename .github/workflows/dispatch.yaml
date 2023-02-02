@@ -199,7 +199,7 @@ jobs:
     if: >-
       ${{ github.event.inputs.pypi-extension &&
       ( github.event_name == 'push' || github.event.pull_request.merged == true ) }}  
-    name: Pypi build and upload package
+    name: Pypi build / publish
     needs: pypi-bump-version
     runs-on: ubuntu-latest
     steps:
@@ -265,7 +265,7 @@ jobs:
     if: >-
       ${{ github.event.inputs.gnome-extension &&
       ( github.event_name == 'push' || github.event.pull_request.merged == true ) }}  
-    name: Build extension
+    name: Gnome extension build
     needs: gnome-bump-version
     runs-on: ubuntu-latest
     steps:

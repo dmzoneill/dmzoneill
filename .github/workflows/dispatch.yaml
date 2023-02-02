@@ -37,8 +37,10 @@ jobs:
           
   basic-version-bump:
     if: >-
-      ${{ github.event.inputs.chrome-extension-id == '' && github.event.inputs.gnome-extension == false && github.event.inputs.pypi-extension == false
-      ( github.event_name == 'push' || github.event.pull_request.merged == true ) }}
+      ${{ github.event.inputs.chrome-extension-id == '' && 
+          github.event.inputs.gnome-extension == false && 
+          github.event.inputs.pypi-extension == false &&
+          ( github.event_name == 'push' || github.event.pull_request.merged == true ) }}
     runs-on: ubuntu-latest
     needs: static-analysis
     name: Basic version bump

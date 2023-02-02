@@ -56,7 +56,7 @@ jobs:
           if ! test -f version; then echo "version=0.0.1" > version; fi
           version=$(grep 'version=.*' version | awk -F'=' '{print $2}')
           next=$(echo ${version} | awk -F. '/[0-9]+\./{$NF++;print}' OFS=.)
-          sed "s/$(version)/$(next)/" -i version
+          sed "s/$version/$next/" -i version
 
       - name: Push changes
         uses: mikeal/publish-to-github-action@master

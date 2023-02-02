@@ -5,10 +5,12 @@ on:
 
 jobs:
   dispatch:
+    runs-on: ubuntu-latest
+    name: CICD Profile Callback
     steps:
-    - name: Repository Dispatch
-      uses: peter-evans/repository-dispatch@v2
-      with:
-        token: ${{ secrets.GITHUB_TOKEN }}
-        repository: dmzoneill/dmzoneill
-        event-type: update-profile
+      - name: Repository Dispatch
+        uses: peter-evans/repository-dispatch@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          repository: dmzoneill/dmzoneill
+          event-type: update-profile

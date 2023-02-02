@@ -84,11 +84,9 @@ jobs:
               - 'chrome-plugin/**'
               
       - name: Bump version
-        # shellcheck disable=SC2086
         run: |-
-          # shellcheck disable=SC2086
-          version=$(grep '"version": ".*",' chrome-plugin/manifest.json | awk -F'"' '{print $4}')
-          next=$(echo $version | awk -F. '/[0-9]+\./{$NF++;print}' OFS=.)
+          version="$(grep '\"version\": \".*\",' chrome-plugin/manifest.json | awk -F'\"' '{print $4}')"
+          next="$(echo $version | awk -F. '/[0-9]+\./{$NF++;print}' OFS=.)"
           sed "s/$version/$next/" -i chrome-plugin/manifest.json
   
       - name: Push changes
@@ -178,8 +176,8 @@ jobs:
         # shellcheck disable=SC2086
         run: |-
           # shellcheck disable=SC2086
-          version=$(grep '^Version:' PKG-INFO | sed 's/Version: //')
-          next=$(echo $version | awk -F. '/[0-9]+\./{$NF++;print}' OFS=.)
+          version="$(grep '^Version:' PKG-INFO | sed 's/Version: //')"
+          next="$(echo $version | awk -F. '/[0-9]+\./{$NF++;print}' OFS=.)"
           sed "s/$version/$next/" -i PKG-INFO
           sed "s/$version/$next/" -i pyproject.toml
           sed "s/$version/$next/" -i setup.py
@@ -246,8 +244,8 @@ jobs:
         # shellcheck disable=SC2086
         run: |-
           # shellcheck disable=SC2086
-          version=$(grep '"version": .*' metadata.json | awk '{print $2}')
-          next=$(echo $version | awk -F. '/[0-9]+\./{$NF++;print}' OFS=.)
+          version="$(grep '\"version\": .*' metadata.json | awk '{print $2}')"
+          next="$(echo $version | awk -F. '/[0-9]+\./{$NF++;print}' OFS=.)"
           sed "s/$version/$next/" -i metadata.json
   
       - name: Push changes

@@ -1,4 +1,4 @@
-name: Setup Repos
+name: CICD_REPOS_SETUP
 
 on:
   schedule:

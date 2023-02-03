@@ -136,7 +136,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: chrome-extension-build
     env:
-      EXTENSION_ID: ${{ github.event.inputs.chrome-extension-id }}
+      EXTENSION_ID: ${{ inputs.chrome-extension }}
 
     steps:
       - name: Download bundle artifact

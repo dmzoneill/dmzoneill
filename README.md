@@ -1,14 +1,14 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-03/02/2023 06:47:41-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-03/02/2023 07:26:10-brightgreen" height='28'/>
 
 <table>
   <tr>
     <td>
-      <h3>Issues (5)</h3>
+      <h3>Issues (9)</h3>
       <li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/5'>FR: ability to filter results</a> 2023-01-24</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/3'>docker-compose</a> 2023-01-24</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/1'>Docker Build</a> 2023-01-24</li><li><a href='https://github.com/dmzoneill/php-binance-bot/issues/1'>Causes my IP to be blocked </a> 2023-01-24</li>
-      <h3>Pull Requests (1)</h3>
-      <ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/pull/4'>Update Dockerfile</a> 2023-01-24</li></ul>
+      <h3>Pull Requests (5)</h3>
+      <ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/pull/4'>Update Dockerfile</a> 2023-01-24</li><li><a href='https://github.com/dmzoneill/Chuckbot/pull/4'>Bump engine.io from 6.2.0 to 6.2.1</a> 2023-02-03</li><li><a href='https://github.com/dmzoneill/Chuckbot/pull/3'>Bump decode-uri-component from 0.2.0 to 0.2.2</a> 2023-02-03</li><li><a href='https://github.com/dmzoneill/Chuckbot/pull/2'>Bump luxon from 1.28.0 to 1.28.1</a> 2023-02-03</li><li><a href='https://github.com/dmzoneill/Chuckbot/pull/1'>Bump json5 from 2.2.1 to 2.2.3</a> 2023-02-03</li></ul>
       <h3>Recent Acivity</h3>
-      <ul><li><a href='https://api.github.com/repos/dmzoneill/gnome-extension-publisher/commits/296fbc1d779e781e018571c1a355932d710c9882'>Update main.yml</a></li><li><a href='https://api.github.com/repos/dmzoneill/lidarr-youtube-downloader/commits/a57db3d5d271b6d4bc52016bfb780052ea204942'>Update main.yml</a></li><li><a href='https://api.github.com/repos/dmzoneill/curriculum-vitae/commits/ae45a5ddc480e7b26be7e0cdedacce1bead05ccc'>Update main.yml</a></li><li><a href='https://api.github.com/repos/dmzoneill/sodarr-chrome-plugin/commits/5efd0859941fac0324880a75de9db74b36cdc71f'>Update main.yml</a></li><li><a href='https://api.github.com/repos/dmzoneill/dmzoneill/commits/50559aa030d38873027d469ccc36b675bbbfe8c9'>Update main.yml</a></li></ul>
+      <ul><li><a href='https://api.github.com/repos/dmzoneill/ashtangayogacork.ie-wearos/commits/406e5f31525eb430c518a167eb8c59b2f121ede5'>Delete main.yml</a></li><li><a href='https://api.github.com/repos/dmzoneill/Chuckbot/commits/a267f81cfe202da7f47a8c91965add9d2e5ddce3'>Delete main.yml</a></li><li><a href='https://api.github.com/repos/dmzoneill/ashtangayogacork.ie-android/commits/ed93647b9e320f60714e0442b8f7b0dd9f790404'>Delete main.yml</a></li><li><a href='https://api.github.com/repos/dmzoneill/ashtangayogacork.ie-ios/commits/22936150fd4f868b7f8c91b53b1801752278ad6a'>Delete main.yml</a></li><li><a href='https://api.github.com/repos/dmzoneill/tado-gnome-shell-extension/commits/2c087328af1eb788e7519bb74b85654a69864d9e'>Update main.yml</a></li></ul>
       <h3>Gists</h3>
       <ul><li><a href='https://gist.github.com/d13d88b16d4d0aa90cb108a00ab3cf01'>10GB tuning</a></li><li><a href='https://gist.github.com/575ba9c32375c41cb1041e9064de0678'>Synology 108tb limit bypass</a></li><li><a href='https://gist.github.com/cbc75e502dbe2b78651f68d6320b714a'>AA active queries</a></li><li><a href='https://gist.github.com/faaa84782eaed4d2dc28ad55c19119ee'>PHP Paypal Instant Payment Notification</a></li></ul>
     </td>
@@ -41,20 +41,20 @@
     </tr>
   </thead>
   <tbody>
-    <tr><td><img src='https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white' title='Kotlin'  height='20px'/></td><td>24599</td>
-<td><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript'  height='20px'/></td><td>8754071</td>
-<td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>481900</td>
+    <tr><td><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript'  height='20px'/></td><td>8754071</td>
+<td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>481901</td>
 <td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>307194</td>
-</tr><tr>
-<td><img src='https://camo.githubusercontent.com/4ec342876a40b53ffc6230a41196528690f9f42b1098fd354df46c649720b4c6/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d446f636b657226636f6c6f723d323439364544266c6f676f3d446f636b6572266c6f676f436f6c6f723d464646464646266c6162656c3d' title='Dockerfile'  height='20px'/></td><td>5152</td>
-<td><img src='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' title='Java'  height='20px'/></td><td>2064105</td>
-<td><img src='https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white' title='Swift'  height='20px'/></td><td>163276</td>
-<td><img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS'  height='20px'/></td><td>5838662</td>
-</tr><tr>
 <td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>1367354</td>
+</tr><tr>
 <td><img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML'  height='20px'/></td><td>13131333</td>
+<td><img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS'  height='20px'/></td><td>5838662</td>
 <td><img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP'  height='20px'/></td><td>76052420</td>
 <td><img src='https://img.shields.io/badge/perl-%2339457E.svg?style=for-the-badge&logo=perl&logoColor=white' title='Perl'  height='20px'/></td><td>10092078</td>
+</tr><tr>
+<td><img src='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' title='Java'  height='20px'/></td><td>2064105</td>
+<td><img src='https://camo.githubusercontent.com/4ec342876a40b53ffc6230a41196528690f9f42b1098fd354df46c649720b4c6/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d446f636b657226636f6c6f723d323439364544266c6f676f3d446f636b6572266c6f676f436f6c6f723d464646464646266c6162656c3d' title='Dockerfile'  height='20px'/></td><td>5152</td>
+<td><img src='https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white' title='Swift'  height='20px'/></td><td>163276</td>
+<td><img src='https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white' title='Kotlin'  height='20px'/></td><td>24599</td>
 </tr><tr>
 <td><img src='https://img.shields.io/badge/_-AngelScript -11DDDD.svg?style=for-the-badge' title='AngelScript'  height='20px'/></td><td>28550</td>
 <td><img src='https://img.shields.io/badge/_-Tcl -11DDDD.svg?style=for-the-badge' title='Tcl'  height='20px'/></td><td>1281755</td>
@@ -121,25 +121,105 @@
   <tbody>
     <tr>
             <td>
-              <p><a href='https://github.com/dmzoneill/lidarr-youtube-downloader' title='lidarr-youtube-downloader'>lidarr-youtube-downloader</a> (2023)</p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' height='20px'/> <img src='https://camo.githubusercontent.com/4ec342876a40b53ffc6230a41196528690f9f42b1098fd354df46c649720b4c6/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d446f636b657226636f6c6f723d323439364544266c6f676f3d446f636b6572266c6f676f436f6c6f723d464646464646266c6162656c3d' title='https://camo.githubusercontent.com/4ec342876a40b53ffc6230a41196528690f9f42b1098fd354df46c649720b4c6/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d446f636b657226636f6c6f723d323439364544266c6f676f3d446f636b6572266c6f676f436f6c6f723d464646464646266c6162656c3d' height='20px'/</p>
+              <p><a href='https://github.com/dmzoneill/Chuckbot' title='Chuckbot'>Chuckbot</a> (2023)</p><p><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://api.github.com/repos/dmzoneill/lidarr-youtube-downloader/commits/a57db3d5d271b6d4bc52016bfb780052ea204942'>Update main.yml</a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/6'>download-only mode</a></li></ul></p>
-              <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/5'>FR: ability to filter results</a> 2023-01-03</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/3'>docker-compose</a> 2023-01-03</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/1'>Docker Build</a> 2023-01-03</li></ul></p>
-              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/pull/4'>Update Dockerfile</a> 2023-01-03</li></ul></p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://api.github.com/repos/dmzoneill/Chuckbot/commits/a267f81cfe202da7f47a8c91965add9d2e5ddce3'>Delete main.yml</a></li></ul></p>
+              <p><ul></ul></p>
+              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/Chuckbot/pull/4'>Bump engine.io from 6.2.0 to 6.2.1</a> 2022-12-08</li><li><a href='https://github.com/dmzoneill/Chuckbot/pull/3'>Bump decode-uri-component from 0.2.0 to 0.2.2</a> 2022-12-08</li><li><a href='https://github.com/dmzoneill/Chuckbot/pull/2'>Bump luxon from 1.28.0 to 1.28.1</a> 2022-12-08</li><li><a href='https://github.com/dmzoneill/Chuckbot/pull/1'>Bump json5 from 2.2.1 to 2.2.3</a> 2022-12-08</li></ul></p>
             </td>
             <td>
-              <p><a href='https://pypi.org/project/lidarr-youtube-downloader/' title='Lidarr youtube downloader PYPI package'>Lidarr youtube downloader PYPI package</a></p>
+              <p><a href='https://wa.me/96592226837' title='Chat with chuck'>Chat with chuck</a></p>
             </td>
             <td align="center">
-              <a href='https://github.com/dmzoneill/lidarr-youtube-downloader/actions'><img src='https://github.com/dmzoneill//lidarr-youtube-downloader/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2023-01-03</p>
+              <a href='https://github.com/dmzoneill/Chuckbot/actions'><img src='https://github.com/dmzoneill//Chuckbot/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2022-12-08</p>
+            </td>
+        </tr>
+<tr>
+            <td>
+              <p><a href='https://github.com/dmzoneill/jackett-indexarr' title='jackett-indexarr'>jackett-indexarr</a> (2023)</p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' height='20px'/</p>
+              <p>Apache License 2.0</p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://api.github.com/repos/dmzoneill/jackett-indexarr/commits/54d2c4099a92eb21387cbbf1ab257debebdda2f8'>Update main.yml</a></li></ul></p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+            </td>
+            <td>
+              <p><a href='https://pypi.org/project/jackett-indexerarr/' title='Jackett Indexarr PYPI package'>Jackett Indexarr PYPI package</a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/jackett-indexarr/actions'><img src='https://github.com/dmzoneill//jackett-indexarr/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2023-01-31</p>
+            </td>
+        </tr>
+<tr>
+            <td>
+              <p><a href='https://github.com/dmzoneill/ashtangayogacork.ie-wearos' title='ashtangayogacork.ie-wearos'>ashtangayogacork.ie-wearos</a> (2023)</p><p><img src='https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white' title='https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white' height='20px'/</p>
+              <p>Apache License 2.0</p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://api.github.com/repos/dmzoneill/ashtangayogacork.ie-wearos/commits/406e5f31525eb430c518a167eb8c59b2f121ede5'>Delete main.yml</a></li></ul></p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+            </td>
+            <td>
+              <p><a href='https://play.google.com/store/apps/details?id=ie.ayc.wearos' title='Ashtanga Yoga Cork Wearos App'>Ashtanga Yoga Cork Wearos App</a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/ashtangayogacork.ie-wearos/actions'><img src='https://github.com/dmzoneill//ashtangayogacork.ie-wearos/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2022-12-04</p>
+            </td>
+        </tr>
+<tr>
+            <td>
+              <p><a href='https://github.com/dmzoneill/ashtangayogacork.ie-android' title='ashtangayogacork.ie-android'>ashtangayogacork.ie-android</a> (2023)</p><p><img src='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' title='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' height='20px'/</p>
+              <p>Apache License 2.0</p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://api.github.com/repos/dmzoneill/ashtangayogacork.ie-android/commits/ed93647b9e320f60714e0442b8f7b0dd9f790404'>Delete main.yml</a></li></ul></p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+            </td>
+            <td>
+              <p><a href='https://play.google.com/store/apps/details?id=ie.ayc' title='Ashtanga Yoga Cork android app'>Ashtanga Yoga Cork android app</a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/ashtangayogacork.ie-android/actions'><img src='https://github.com/dmzoneill//ashtangayogacork.ie-android/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2022-12-04</p>
+            </td>
+        </tr>
+<tr>
+            <td>
+              <p><a href='https://github.com/dmzoneill/ashtangayogacork.ie-ios' title='ashtangayogacork.ie-ios'>ashtangayogacork.ie-ios</a> (2023)</p><p><img src='https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white' title='https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white' height='20px'/</p>
+              <p>Apache License 2.0</p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://api.github.com/repos/dmzoneill/ashtangayogacork.ie-ios/commits/22936150fd4f868b7f8c91b53b1801752278ad6a'>Delete main.yml</a></li></ul></p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+            </td>
+            <td>
+              <p><a href='https://apps.apple.com/us/app/ashtanga-yoga-cork/id1508794150' title='Ashtanga Yoga Cork IOS app'>Ashtanga Yoga Cork IOS app</a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/ashtangayogacork.ie-ios/actions'><img src='https://github.com/dmzoneill//ashtangayogacork.ie-ios/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2023-01-15</p>
+            </td>
+        </tr>
+<tr>
+            <td>
+              <p><a href='https://github.com/dmzoneill/tado-gnome-shell-extension' title='tado-gnome-shell-extension'>tado-gnome-shell-extension</a> (2023)</p><p><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' height='20px'/</p>
+              <p>Apache License 2.0</p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://api.github.com/repos/dmzoneill/tado-gnome-shell-extension/commits/2c087328af1eb788e7519bb74b85654a69864d9e'>Update main.yml</a></li></ul></p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+            </td>
+            <td>
+              <p><a href='https://extensions.gnome.org/extension/5606/tado/' title='Tado Gnome desktop extension'>Tado Gnome desktop extension</a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/tado-gnome-shell-extension/actions'><img src='https://github.com/dmzoneill//tado-gnome-shell-extension/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2022-12-19</p>
             </td>
         </tr>
 <tr>
             <td>
               <p><a href='https://github.com/dmzoneill/gnome-extension-publisher' title='gnome-extension-publisher'>gnome-extension-publisher</a> (2023)</p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://api.github.com/repos/dmzoneill/gnome-extension-publisher/commits/296fbc1d779e781e018571c1a355932d710c9882'>Update main.yml</a></li></ul></p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://api.github.com/repos/dmzoneill/gnome-extension-publisher/commits/45a40b56f6032b5ff437a545cbf0358b0e09c400'>Update main.yml</a></li><li><a href='https://api.github.com/repos/dmzoneill/gnome-extension-publisher/commits/296fbc1d779e781e018571c1a355932d710c9882'>Update main.yml</a></li></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -155,9 +235,9 @@
             <td>
               <p><a href='https://github.com/dmzoneill/dmzoneill' title='dmzoneill'>dmzoneill</a> (2023)</p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://api.github.com/repos/dmzoneill/gnome-extension-publisher/commits/296fbc1d779e781e018571c1a355932d710c9882'>Update main.yml</a></li><li><a href='https://api.github.com/repos/dmzoneill/lidarr-youtube-downloader/commits/a57db3d5d271b6d4bc52016bfb780052ea204942'>Update main.yml</a></li><li><a href='https://api.github.com/repos/dmzoneill/curriculum-vitae/commits/ae45a5ddc480e7b26be7e0cdedacce1bead05ccc'>Update main.yml</a></li><li><a href='https://api.github.com/repos/dmzoneill/sodarr-chrome-plugin/commits/5efd0859941fac0324880a75de9db74b36cdc71f'>Update main.yml</a></li><li><a href='https://api.github.com/repos/dmzoneill/dmzoneill/commits/50559aa030d38873027d469ccc36b675bbbfe8c9'>Update main.yml</a></li></ul></p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://api.github.com/repos/dmzoneill/ashtangayogacork.ie-wearos/commits/406e5f31525eb430c518a167eb8c59b2f121ede5'>Delete main.yml</a></li><li><a href='https://api.github.com/repos/dmzoneill/Chuckbot/commits/a267f81cfe202da7f47a8c91965add9d2e5ddce3'>Delete main.yml</a></li><li><a href='https://api.github.com/repos/dmzoneill/ashtangayogacork.ie-android/commits/ed93647b9e320f60714e0442b8f7b0dd9f790404'>Delete main.yml</a></li><li><a href='https://api.github.com/repos/dmzoneill/ashtangayogacork.ie-ios/commits/22936150fd4f868b7f8c91b53b1801752278ad6a'>Delete main.yml</a></li><li><a href='https://api.github.com/repos/dmzoneill/tado-gnome-shell-extension/commits/2c087328af1eb788e7519bb74b85654a69864d9e'>Update main.yml</a></li></ul></p>
+              <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/5'>FR: ability to filter results</a> 2023-01-16</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/3'>docker-compose</a> 2023-01-16</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/1'>Docker Build</a> 2023-01-16</li></ul></p>
+              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/pull/4'>Update Dockerfile</a> 2023-01-16</li></ul></p>
             </td>
             <td>
               <p><a href='https://github.com/dmzoneill' title='Github profile'>Github profile</a></p>
@@ -165,6 +245,22 @@
             <td align="center">
               <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
               <p>2023-01-16</p>
+            </td>
+        </tr>
+<tr>
+            <td>
+              <p><a href='https://github.com/dmzoneill/lidarr-youtube-downloader' title='lidarr-youtube-downloader'>lidarr-youtube-downloader</a> (2023)</p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' height='20px'/> <img src='https://camo.githubusercontent.com/4ec342876a40b53ffc6230a41196528690f9f42b1098fd354df46c649720b4c6/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d446f636b657226636f6c6f723d323439364544266c6f676f3d446f636b6572266c6f676f436f6c6f723d464646464646266c6162656c3d' title='https://camo.githubusercontent.com/4ec342876a40b53ffc6230a41196528690f9f42b1098fd354df46c649720b4c6/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d446f636b657226636f6c6f723d323439364544266c6f676f3d446f636b6572266c6f676f436f6c6f723d464646464646266c6162656c3d' height='20px'/</p>
+              <p>Apache License 2.0</p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://api.github.com/repos/dmzoneill/lidarr-youtube-downloader/commits/a57db3d5d271b6d4bc52016bfb780052ea204942'>Update main.yml</a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/6'>download-only mode</a></li></ul></p>
+              <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/5'>FR: ability to filter results</a> 2023-01-03</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/3'>docker-compose</a> 2023-01-03</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/1'>Docker Build</a> 2023-01-03</li></ul></p>
+              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/pull/4'>Update Dockerfile</a> 2023-01-03</li></ul></p>
+            </td>
+            <td>
+              <p><a href='https://pypi.org/project/lidarr-youtube-downloader/' title='Lidarr youtube downloader PYPI package'>Lidarr youtube downloader PYPI package</a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/lidarr-youtube-downloader/actions'><img src='https://github.com/dmzoneill//lidarr-youtube-downloader/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2023-01-03</p>
             </td>
         </tr>
 <tr>
@@ -197,102 +293,6 @@
             <td align="center">
               <a href='https://github.com/dmzoneill/sodarr-chrome-plugin/actions'><img src='https://github.com/dmzoneill//sodarr-chrome-plugin/actions/workflows/main.yml/badge.svg'/></a>
               <p>2022-06-15</p>
-            </td>
-        </tr>
-<tr>
-            <td>
-              <p><a href='https://github.com/dmzoneill/jackett-indexarr' title='jackett-indexarr'>jackett-indexarr</a> (2023)</p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' height='20px'/</p>
-              <p>Apache License 2.0</p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-            </td>
-            <td>
-              <p><a href='https://pypi.org/project/jackett-indexerarr/' title='Jackett Indexarr PYPI package'>Jackett Indexarr PYPI package</a></p>
-            </td>
-            <td align="center">
-              <a href='https://github.com/dmzoneill/jackett-indexarr/actions'><img src='https://github.com/dmzoneill//jackett-indexarr/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2023-01-31</p>
-            </td>
-        </tr>
-<tr>
-            <td>
-              <p><a href='https://github.com/dmzoneill/tado-gnome-shell-extension' title='tado-gnome-shell-extension'>tado-gnome-shell-extension</a> (2023)</p><p><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' height='20px'/</p>
-              <p>Apache License 2.0</p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-            </td>
-            <td>
-              <p><a href='https://extensions.gnome.org/extension/5606/tado/' title='Tado Gnome desktop extension'>Tado Gnome desktop extension</a></p>
-            </td>
-            <td align="center">
-              <a href='https://github.com/dmzoneill/tado-gnome-shell-extension/actions'><img src='https://github.com/dmzoneill//tado-gnome-shell-extension/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2022-12-19</p>
-            </td>
-        </tr>
-<tr>
-            <td>
-              <p><a href='https://github.com/dmzoneill/ashtangayogacork.ie-ios' title='ashtangayogacork.ie-ios'>ashtangayogacork.ie-ios</a> (2021)</p><p><img src='https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white' title='https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white' height='20px'/</p>
-              <p>Apache License 2.0</p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-            </td>
-            <td>
-              <p><a href='https://apps.apple.com/us/app/ashtanga-yoga-cork/id1508794150' title='Ashtanga Yoga Cork IOS app'>Ashtanga Yoga Cork IOS app</a></p>
-            </td>
-            <td align="center">
-              <a href='https://github.com/dmzoneill/ashtangayogacork.ie-ios/actions'><img src='https://github.com/dmzoneill//ashtangayogacork.ie-ios/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2023-01-15</p>
-            </td>
-        </tr>
-<tr>
-            <td>
-              <p><a href='https://github.com/dmzoneill/ashtangayogacork.ie-android' title='ashtangayogacork.ie-android'>ashtangayogacork.ie-android</a> (2023)</p><p><img src='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' title='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' height='20px'/</p>
-              <p>Apache License 2.0</p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-            </td>
-            <td>
-              <p><a href='https://play.google.com/store/apps/details?id=ie.ayc' title='Ashtanga Yoga Cork android app'>Ashtanga Yoga Cork android app</a></p>
-            </td>
-            <td align="center">
-              <a href='https://github.com/dmzoneill/ashtangayogacork.ie-android/actions'><img src='https://github.com/dmzoneill//ashtangayogacork.ie-android/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2022-12-04</p>
-            </td>
-        </tr>
-<tr>
-            <td>
-              <p><a href='https://github.com/dmzoneill/Chuckbot' title='Chuckbot'>Chuckbot</a> (2023)</p><p><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' height='20px'/</p>
-              <p>Apache License 2.0</p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-            </td>
-            <td>
-              <p><a href='https://wa.me/96592226837' title='Chat with chuck'>Chat with chuck</a></p>
-            </td>
-            <td align="center">
-              <a href='https://github.com/dmzoneill/Chuckbot/actions'><img src='https://github.com/dmzoneill//Chuckbot/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2022-12-08</p>
-            </td>
-        </tr>
-<tr>
-            <td>
-              <p><a href='https://github.com/dmzoneill/ashtangayogacork.ie-wearos' title='ashtangayogacork.ie-wearos'>ashtangayogacork.ie-wearos</a> (2023)</p><p><img src='https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white' title='https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white' height='20px'/</p>
-              <p>Apache License 2.0</p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-            </td>
-            <td>
-              <p><a href='https://play.google.com/store/apps/details?id=ie.ayc.wearos' title='Ashtanga Yoga Cork Wearos App'>Ashtanga Yoga Cork Wearos App</a></p>
-            </td>
-            <td align="center">
-              <a href='https://github.com/dmzoneill/ashtangayogacork.ie-wearos/actions'><img src='https://github.com/dmzoneill//ashtangayogacork.ie-wearos/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2022-12-04</p>
             </td>
         </tr>
 

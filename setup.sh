@@ -10,10 +10,8 @@ while true; do
   url="https://api.github.com/users/$user/repos?per_page=100&page=$page"
   echo "$url"
   processed=0
-  for X in $(curl "$url" | jq -r '.[] | .ssh_url'); do    
+  for X in $(curl "$url" | jq -r '.[] | .ssh_url'); do   
     name=$(echo "$X" | awk -F'/' '{print $2}' | sed 's/\.git//')
-    echo "$name"
-
     echo "$pass" > .githubtoken
     unset GITHUB_TOKEN
     gh auth login --with-token < .githubtoken
@@ -24,18 +22,15 @@ while true; do
 
     [[ "$name" == "dmzoneill" ]] && continue
 
-    action_file="https://github.com/$user/$name/blob/main/.github/workflows/main.yml"
+    action_file="https://github.com/$user/$name/blob/main/.github/workflows/main.yml?raw=true"
     exists=$(curl -L -s -o /tmp/last -w "%{http_code}" "$action_file")
     md5file=$(md5sum /tmp/last | awk '{print $1}')
-    echo "$md5file =? 7cb66df6acac5c1c322e08e6d468a982"
-    
-    
-    if [[ $md5file == "7cb66df6acac5c1c322e08e6d468a982" ]]; then
-       echo "Probably want to delete this"
-       echo $action_file
-    fi 
 
     processed=$((processed+1))
+
+    if [[ "$md5file" == "7cb66df6acac5c1c322e08e6d468a982" ]]; then
+       exists="404"
+    fi 
     
     [[ "$exists" != "404" ]] && echo "Skip action exists" && echo "$processed" && continue
 
@@ -45,7 +40,7 @@ while true; do
     [ ! -f "$name/LICENSE" ] && cp LICENSE "$name/"
     
     mkdir -vp "$name/.github/workflows/"
-    cp main.yml "$name/.github/workflows/"
+    cp -f main.yml "$name/.github/workflows/"
     
     (
       cd "$name" || exit 1

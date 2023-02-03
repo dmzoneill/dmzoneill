@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-03/02/2023 15:13:03-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-03/02/2023 15:29:56-brightgreen" height='28'/>
 
 <table>
   <tr>
@@ -53,8 +53,8 @@
 </tr><tr>
 <td><img src='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' title='Java'  height='20px'/></td><td>2064105</td>
 <td><img src='https://camo.githubusercontent.com/4ec342876a40b53ffc6230a41196528690f9f42b1098fd354df46c649720b4c6/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d446f636b657226636f6c6f723d323439364544266c6f676f3d446f636b6572266c6f676f436f6c6f723d464646464646266c6162656c3d' title='Dockerfile'  height='20px'/></td><td>5152</td>
-<td><img src='https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white' title='Swift'  height='20px'/></td><td>163276</td>
 <td><img src='https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white' title='Kotlin'  height='20px'/></td><td>24599</td>
+<td><img src='https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white' title='Swift'  height='20px'/></td><td>163276</td>
 </tr><tr>
 <td><img src='https://img.shields.io/badge/_-AngelScript -11DDDD.svg?style=for-the-badge' title='AngelScript'  height='20px'/></td><td>28550</td>
 <td><img src='https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white' title='C++'  height='20px'/></td><td>419172</td>
@@ -150,18 +150,18 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump js
         </tr>
 <tr>
             <td>
-              <p><a href='https://github.com/dmzoneill/ashtangayogacork.ie-wearos' title='ashtangayogacork.ie-wearos'>ashtangayogacork.ie-wearos</a> (2023)</p><p><img src='https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white' title='https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white' height='20px'/</p>
+              <p><a href='https://github.com/dmzoneill/dmzoneill' title='dmzoneill'>dmzoneill</a> (2023)</p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://api.github.com/repos/dmzoneill/ZorkTrek/commits/9801708aaabe0cdf6ee0b807e89de5d82010f531'>add github action and setup secret</a></li><li><a href='https://api.github.com/repos/dmzoneill/www.tadpole.tk/commits/64f5494d1717d4320310a20185d3074443d1f9ae'>add github action and setup secret</a></li><li><a href='https://api.github.com/repos/dmzoneill/www.realmoflight.org/commits/f8c6ff645b9a24125872e9448cd4672e83a1642c'>add github action and setup secret</a></li><li><a href='https://api.github.com/repos/dmzoneill/www.nemohackers.org4/commits/f0314d04e405a1920a960a06b9402b07b2cb675b'>add github action and setup secret</a></li><li><a href='https://api.github.com/repos/dmzoneill/www.nemohackers.org3/commits/8b4d161603e01f0783faca86dd03a1db131b4a79'>add github action and setup secret</a></li></ul></p>
+              <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/5'>FR: ability to filter results</a> 2023-01-16</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/3'>docker-compose</a> 2023-01-16</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/1'>Docker Build</a> 2023-01-16</li></ul></p>
+              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/pull/4'>Update Dockerfile</a> 2023-01-16</li></ul></p>
             </td>
             <td>
-              <p><a href='https://play.google.com/store/apps/details?id=ie.ayc.wearos' title='Ashtanga Yoga Cork Wearos App'>Ashtanga Yoga Cork Wearos App</a></p>
+              <p><a href='https://github.com/dmzoneill' title='Github profile'>Github profile</a></p>
             </td>
             <td align="center">
-              <a href='https://github.com/dmzoneill/ashtangayogacork.ie-wearos/actions'><img src='https://github.com/dmzoneill//ashtangayogacork.ie-wearos/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2022-12-04</p>
+              <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2023-01-16</p>
             </td>
         </tr>
 <tr>
@@ -182,6 +182,22 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump js
         </tr>
 <tr>
             <td>
+              <p><a href='https://github.com/dmzoneill/ashtangayogacork.ie-wearos' title='ashtangayogacork.ie-wearos'>ashtangayogacork.ie-wearos</a> (2023)</p><p><img src='https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white' title='https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white' height='20px'/</p>
+              <p>Apache License 2.0</p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+            </td>
+            <td>
+              <p><a href='https://play.google.com/store/apps/details?id=ie.ayc.wearos' title='Ashtanga Yoga Cork Wearos App'>Ashtanga Yoga Cork Wearos App</a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/ashtangayogacork.ie-wearos/actions'><img src='https://github.com/dmzoneill//ashtangayogacork.ie-wearos/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2022-12-04</p>
+            </td>
+        </tr>
+<tr>
+            <td>
               <p><a href='https://github.com/dmzoneill/ashtangayogacork.ie-android' title='ashtangayogacork.ie-android'>ashtangayogacork.ie-android</a> (2023)</p><p><img src='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' title='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' height='20px'/</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
@@ -194,22 +210,6 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump js
             <td align="center">
               <a href='https://github.com/dmzoneill/ashtangayogacork.ie-android/actions'><img src='https://github.com/dmzoneill//ashtangayogacork.ie-android/actions/workflows/main.yml/badge.svg'/></a>
               <p>2022-12-04</p>
-            </td>
-        </tr>
-<tr>
-            <td>
-              <p><a href='https://github.com/dmzoneill/dmzoneill' title='dmzoneill'>dmzoneill</a> (2023)</p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' height='20px'/</p>
-              <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://api.github.com/repos/dmzoneill/ZorkTrek/commits/9801708aaabe0cdf6ee0b807e89de5d82010f531'>add github action and setup secret</a></li><li><a href='https://api.github.com/repos/dmzoneill/www.tadpole.tk/commits/64f5494d1717d4320310a20185d3074443d1f9ae'>add github action and setup secret</a></li><li><a href='https://api.github.com/repos/dmzoneill/www.realmoflight.org/commits/f8c6ff645b9a24125872e9448cd4672e83a1642c'>add github action and setup secret</a></li><li><a href='https://api.github.com/repos/dmzoneill/www.nemohackers.org4/commits/f0314d04e405a1920a960a06b9402b07b2cb675b'>add github action and setup secret</a></li><li><a href='https://api.github.com/repos/dmzoneill/www.nemohackers.org3/commits/8b4d161603e01f0783faca86dd03a1db131b4a79'>add github action and setup secret</a></li></ul></p>
-              <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/5'>FR: ability to filter results</a> 2023-01-16</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/3'>docker-compose</a> 2023-01-16</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/1'>Docker Build</a> 2023-01-16</li></ul></p>
-              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/pull/4'>Update Dockerfile</a> 2023-01-16</li></ul></p>
-            </td>
-            <td>
-              <p><a href='https://github.com/dmzoneill' title='Github profile'>Github profile</a></p>
-            </td>
-            <td align="center">
-              <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2023-01-16</p>
             </td>
         </tr>
 <tr>

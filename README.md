@@ -1,14 +1,27 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-03/02/2023 15:29:56-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-03/02/2023 19:38:10-brightgreen" height='28'/>
 
 <table>
   <tr>
     <td>
-      <h3>Issues (8)</h3>
+      <h3>Issues (7)</h3>
       <li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/5'>FR: ability to filter results</a> 2023-01-24</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/3'>docker-compose</a> 2023-01-24</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/1'>Docker Build</a> 2023-01-24</li><li><a href='https://github.com/dmzoneill/php-binance-bot/issues/1'>Causes my IP to be blocked </a> 2023-01-24</li>
-      <h3>Pull Requests (4)</h3>
-      <ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/pull/4'>Update Dockerfile</a> 2023-01-24</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/3'>Bump loader-utils from 2.0.2 to 2.0.4 in /frontend</a> 2023-02-03</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/4'>Bump terser from 5.13.1 to 5.16.2 in /frontend</a> 2023-02-03</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/2'>Bump decode-uri-component from 0.2.0 to 0.2.2 in /frontend</a> 2023-02-03</li></ul>
+      <h3>Pull Requests (3)</h3>
+      <ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/pull/4'>Update Dockerfile</a> 2023-01-24</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/5'>Bump terser from 5.13.1 to 5.16.3 in /frontend</a> 2023-02-03</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/2'>Bump decode-uri-component from 0.2.0 to 0.2.2 in /frontend</a> 2023-02-03</li></ul>
       <h3>Recent Acivity</h3>
-      <ul><li><a href='https://api.github.com/repos/dmzoneill/ZorkTrek/commits/9801708aaabe0cdf6ee0b807e89de5d82010f531'>add github action and setup secret</a></li><li><a href='https://api.github.com/repos/dmzoneill/www.tadpole.tk/commits/64f5494d1717d4320310a20185d3074443d1f9ae'>add github action and setup secret</a></li><li><a href='https://api.github.com/repos/dmzoneill/www.realmoflight.org/commits/f8c6ff645b9a24125872e9448cd4672e83a1642c'>add github action and setup secret</a></li><li><a href='https://api.github.com/repos/dmzoneill/www.nemohackers.org4/commits/f0314d04e405a1920a960a06b9402b07b2cb675b'>add github action and setup secret</a></li><li><a href='https://api.github.com/repos/dmzoneill/www.nemohackers.org3/commits/8b4d161603e01f0783faca86dd03a1db131b4a79'>add github action and setup secret</a></li></ul>
+      <ul><li><a href='https://api.github.com/repos/dmzoneill/aa-dev-prod-watcher/commits/6a3f8ba67fd9c25de3673c854c166a798e3d0e3a'>Bump loader-utils from 2.0.2 to 2.0.4 in /frontend
+
+Bumps [loader-utils](https://github.com/webpack/loader-utils) from 2.0.2 to 2.0.4.
+- [Release notes](https://github.com/webpack/loader-utils/releases)
+- [Changelog](https://github.com/webpack/loader-utils/blob/v2.0.4/CHANGELOG.md)
+- [Commits](https://github.com/webpack/loader-utils/compare/v2.0.2...v2.0.4)
+
+---
+updated-dependencies:
+- dependency-name: loader-utils
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump loader-utils from 2.0.2 to 2.0.4 in /frontend'>https://github.com/dmzoneill/aa-dev-prod-watcher/pull/3</a></li><li><a href='https://api.github.com/repos/dmzoneill/ZorkTrek/commits/9801708aaabe0cdf6ee0b807e89de5d82010f531'>add github action and setup secret</a></li><li><a href='https://api.github.com/repos/dmzoneill/www.tadpole.tk/commits/64f5494d1717d4320310a20185d3074443d1f9ae'>add github action and setup secret</a></li><li><a href='https://api.github.com/repos/dmzoneill/www.realmoflight.org/commits/f8c6ff645b9a24125872e9448cd4672e83a1642c'>add github action and setup secret</a></li></ul>
       <h3>Gists</h3>
       <ul><li><a href='https://gist.github.com/d13d88b16d4d0aa90cb108a00ab3cf01'>10GB tuning</a></li><li><a href='https://gist.github.com/575ba9c32375c41cb1041e9064de0678'>Synology 108tb limit bypass</a></li><li><a href='https://gist.github.com/cbc75e502dbe2b78651f68d6320b714a'>AA active queries</a></li><li><a href='https://gist.github.com/faaa84782eaed4d2dc28ad55c19119ee'>PHP Paypal Instant Payment Notification</a></li></ul>
     </td>
@@ -121,6 +134,35 @@
   <tbody>
     <tr>
             <td>
+              <p><a href='https://github.com/dmzoneill/dmzoneill' title='dmzoneill'>dmzoneill</a> (2023)</p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' height='20px'/</p>
+              <p>Apache License 2.0</p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://api.github.com/repos/dmzoneill/aa-dev-prod-watcher/commits/6a3f8ba67fd9c25de3673c854c166a798e3d0e3a'>Bump loader-utils from 2.0.2 to 2.0.4 in /frontend
+
+Bumps [loader-utils](https://github.com/webpack/loader-utils) from 2.0.2 to 2.0.4.
+- [Release notes](https://github.com/webpack/loader-utils/releases)
+- [Changelog](https://github.com/webpack/loader-utils/blob/v2.0.4/CHANGELOG.md)
+- [Commits](https://github.com/webpack/loader-utils/compare/v2.0.2...v2.0.4)
+
+---
+updated-dependencies:
+- dependency-name: loader-utils
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump loader-utils from 2.0.2 to 2.0.4 in /frontend'>https://github.com/dmzoneill/aa-dev-prod-watcher/pull/3</a></li><li><a href='https://api.github.com/repos/dmzoneill/ZorkTrek/commits/9801708aaabe0cdf6ee0b807e89de5d82010f531'>add github action and setup secret</a></li><li><a href='https://api.github.com/repos/dmzoneill/www.tadpole.tk/commits/64f5494d1717d4320310a20185d3074443d1f9ae'>add github action and setup secret</a></li><li><a href='https://api.github.com/repos/dmzoneill/www.realmoflight.org/commits/f8c6ff645b9a24125872e9448cd4672e83a1642c'>add github action and setup secret</a></li></ul></p>
+              <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/5'>FR: ability to filter results</a> 2023-01-16</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/3'>docker-compose</a> 2023-01-16</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/1'>Docker Build</a> 2023-01-16</li></ul></p>
+              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/pull/4'>Update Dockerfile</a> 2023-01-16</li></ul></p>
+            </td>
+            <td>
+              <p><a href='https://github.com/dmzoneill' title='Github profile'>Github profile</a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2023-01-16</p>
+            </td>
+        </tr>
+<tr>
+            <td>
               <p><a href='https://github.com/dmzoneill/Chuckbot' title='Chuckbot'>Chuckbot</a> (2023)</p><p><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' height='20px'/</p>
               <p>Apache License 2.0</p>
               <p><h4>Recent Activity</h4><ul><li><a href='https://api.github.com/repos/dmzoneill/Chuckbot/commits/2582169f36aa38ca4679a78353f15171361fd389'>Bump json5 from 2.2.1 to 2.2.3
@@ -146,22 +188,6 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump js
             <td align="center">
               <a href='https://github.com/dmzoneill/Chuckbot/actions'><img src='https://github.com/dmzoneill//Chuckbot/actions/workflows/main.yml/badge.svg'/></a>
               <p>2022-12-08</p>
-            </td>
-        </tr>
-<tr>
-            <td>
-              <p><a href='https://github.com/dmzoneill/dmzoneill' title='dmzoneill'>dmzoneill</a> (2023)</p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' height='20px'/</p>
-              <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://api.github.com/repos/dmzoneill/ZorkTrek/commits/9801708aaabe0cdf6ee0b807e89de5d82010f531'>add github action and setup secret</a></li><li><a href='https://api.github.com/repos/dmzoneill/www.tadpole.tk/commits/64f5494d1717d4320310a20185d3074443d1f9ae'>add github action and setup secret</a></li><li><a href='https://api.github.com/repos/dmzoneill/www.realmoflight.org/commits/f8c6ff645b9a24125872e9448cd4672e83a1642c'>add github action and setup secret</a></li><li><a href='https://api.github.com/repos/dmzoneill/www.nemohackers.org4/commits/f0314d04e405a1920a960a06b9402b07b2cb675b'>add github action and setup secret</a></li><li><a href='https://api.github.com/repos/dmzoneill/www.nemohackers.org3/commits/8b4d161603e01f0783faca86dd03a1db131b4a79'>add github action and setup secret</a></li></ul></p>
-              <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/5'>FR: ability to filter results</a> 2023-01-16</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/3'>docker-compose</a> 2023-01-16</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/1'>Docker Build</a> 2023-01-16</li></ul></p>
-              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/pull/4'>Update Dockerfile</a> 2023-01-16</li></ul></p>
-            </td>
-            <td>
-              <p><a href='https://github.com/dmzoneill' title='Github profile'>Github profile</a></p>
-            </td>
-            <td align="center">
-              <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2023-01-16</p>
             </td>
         </tr>
 <tr>
@@ -1497,7 +1523,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump js
             <td>
               <p><a href='https://github.com/dmzoneill/gdownload' title='gdownload'>gdownload</a> (2023)</p><p><img src='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' title='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://api.github.com/repos/dmzoneill/gdownload/commits/16dc97d3b217d5dfe98f40e2006bd5ba9894455a'>add github action and setup secret</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -2601,9 +2627,22 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump js
             <td>
               <p><a href='https://github.com/dmzoneill/aa-dev-prod-watcher' title='aa-dev-prod-watcher'>aa-dev-prod-watcher</a> (2023)</p><p><img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' title='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' height='20px'/> <img src='https://camo.githubusercontent.com/4ec342876a40b53ffc6230a41196528690f9f42b1098fd354df46c649720b4c6/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d446f636b657226636f6c6f723d323439364544266c6f676f3d446f636b6572266c6f676f436f6c6f723d464646464646266c6162656c3d' title='https://camo.githubusercontent.com/4ec342876a40b53ffc6230a41196528690f9f42b1098fd354df46c649720b4c6/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d446f636b657226636f6c6f723d323439364544266c6f676f3d446f636b6572266c6f676f436f6c6f723d464646464646266c6162656c3d' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' height='20px'/</p>
               <p>Apache License 2.0</p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://api.github.com/repos/dmzoneill/aa-dev-prod-watcher/commits/6a3f8ba67fd9c25de3673c854c166a798e3d0e3a'>Bump loader-utils from 2.0.2 to 2.0.4 in /frontend
+
+Bumps [loader-utils](https://github.com/webpack/loader-utils) from 2.0.2 to 2.0.4.
+- [Release notes](https://github.com/webpack/loader-utils/releases)
+- [Changelog](https://github.com/webpack/loader-utils/blob/v2.0.4/CHANGELOG.md)
+- [Commits](https://github.com/webpack/loader-utils/compare/v2.0.2...v2.0.4)
+
+---
+updated-dependencies:
+- dependency-name: loader-utils
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump loader-utils from 2.0.2 to 2.0.4 in /frontend'>https://github.com/dmzoneill/aa-dev-prod-watcher/pull/3</a></li></ul></p>
               <p><ul></ul></p>
-              <p><ul></ul></p>
-              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/3'>Bump loader-utils from 2.0.2 to 2.0.4 in /frontend</a> 2022-06-13</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/4'>Bump terser from 5.13.1 to 5.16.2 in /frontend</a> 2022-06-13</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/2'>Bump decode-uri-component from 0.2.0 to 0.2.2 in /frontend</a> 2022-06-13</li></ul></p>
+              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/5'>Bump terser from 5.13.1 to 5.16.3 in /frontend</a> 2022-06-13</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/2'>Bump decode-uri-component from 0.2.0 to 0.2.2 in /frontend</a> 2022-06-13</li></ul></p>
             </td>
             <td>
               <p><a href='' title=''></a></p>
@@ -2681,7 +2720,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump js
             <td>
               <p><a href='https://github.com/dmzoneill/home-helper-scripts' title='home-helper-scripts'>home-helper-scripts</a> (2023)</p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://api.github.com/repos/dmzoneill/home-helper-scripts/commits/4485190b2e1cfc9bc484bdbf714061704aa7835b'>add github action and setup secret</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>

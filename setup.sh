@@ -25,7 +25,13 @@ while true; do
     [[ "$name" == "dmzoneill" ]] && continue
 
     action_file="https://github.com/$user/$name/blob/main/.github/workflows/main.yml"
-    exists=$(curl -L -s -o /dev/null -w "%{http_code}" "$action_file")
+    exists=$(curl -L -s -o /tmp/last -w "%{http_code}" "$action_file")
+    md5file=$(md5sum /tmp/last | awk '{print $1}')
+    
+    if [[ $md5file == "7cb66df6acac5c1c322e08e6d468a982" ]]; then
+       echo "Probably want to delete this"
+       echo $action_file
+    fi 
 
     processed=$((processed+1))
     

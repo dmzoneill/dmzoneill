@@ -1,6 +1,7 @@
 name: CICD_REPOS_SETUP
 
 on:
+  push:
   schedule:
     - cron: '0 0 * * *'
     

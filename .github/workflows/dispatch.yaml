@@ -20,6 +20,10 @@ on:
         required: false
         type: string
         default: "false"
+      validate-all:
+        required: false
+        type: boolean
+        default: false
 
 jobs:
   static-analysis:
@@ -38,7 +42,7 @@ jobs:
       - name: Lint Code Base
         uses: github/super-linter@v4
         env:
-          VALIDATE_ALL_CODEBASE: false
+          VALIDATE_ALL_CODEBASE: ${{ inputs.validate-all }}
           VALIDATE_MARKDOWN: false
           VALIDATE_PYTHON_MYPY: false
           VALIDATE_PYTHON_FLAKE8: false          

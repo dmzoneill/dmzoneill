@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-04/02/2023 15:06:58-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-04/02/2023 16:11:34-brightgreen" height='28'/>
 
 <table>
   <tr>
@@ -8,7 +8,7 @@
       <h3>Pull Requests (3)</h3>
       <ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/pull/4'>Update Dockerfile</a> 2023-01-24</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/5'>Bump terser from 5.13.1 to 5.16.3 in /frontend</a> 2023-02-03</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/2'>Bump decode-uri-component from 0.2.0 to 0.2.2 in /frontend</a> 2023-02-03</li></ul>
       <h3>Recent Acivity</h3>
-      <ul><li><a href='https://api.github.com/repos/dmzoneill/dmzoneill/commits/302ca0b546cd3b82603ee9b59b97d017997564ca'>Update jscpd to ignore html</a></li><li><a href='https://api.github.com/repos/dmzoneill/dmzoneill/commits/3bca3a5659c3aef166792c1da4eaeb3bdc142195'>linters update</a></li><li><a href='https://api.github.com/repos/dmzoneill/dmzoneill/commits/7cc80865deb484b43258a2d151ade86106eed1bf'>Update linters</a></li><li><a href='https://api.github.com/repos/dmzoneill/curriculum-vitae/commits/873cb2225d42c85514a59b64baafbba28614c2c6'>cv</a></li><li><a href='https://api.github.com/repos/dmzoneill/curriculum-vitae/commits/9f4023723756c7491cf8d531e066b8307c3ad1bd'>Bump to 0.1.36</a></li></ul>
+      <ul><li><a href='https://api.github.com/repos/dmzoneill/dmzoneill/commits/29c5e4974f5e63c1183e86adf07634a5726bf8dd'>disable VALIDATE_PHP_PSALM</a></li><li><a href='https://api.github.com/repos/dmzoneill/dmzoneill/commits/a5e106d6620cb54ec63e4ad20b2584100ca9aaee'>disable VALIDATE_PHP_PHPCS</a></li><li><a href='https://api.github.com/repos/dmzoneill/dmzoneill/commits/302ca0b546cd3b82603ee9b59b97d017997564ca'>Update jscpd to ignore html</a></li><li><a href='https://api.github.com/repos/dmzoneill/dmzoneill/commits/3bca3a5659c3aef166792c1da4eaeb3bdc142195'>linters update</a></li><li><a href='https://api.github.com/repos/dmzoneill/dmzoneill/commits/7cc80865deb484b43258a2d151ade86106eed1bf'>Update linters</a></li></ul>
       <h3>Gists</h3>
       <ul><li><a href='https://gist.github.com/d13d88b16d4d0aa90cb108a00ab3cf01'>10GB tuning</a></li><li><a href='https://gist.github.com/575ba9c32375c41cb1041e9064de0678'>Synology 108tb limit bypass</a></li><li><a href='https://gist.github.com/cbc75e502dbe2b78651f68d6320b714a'>AA active queries</a></li><li><a href='https://gist.github.com/faaa84782eaed4d2dc28ad55c19119ee'>PHP Paypal Instant Payment Notification</a></li></ul>
     </td>
@@ -123,7 +123,7 @@
             <td>
               <p><a href='https://github.com/dmzoneill/dmzoneill' title='dmzoneill'>dmzoneill</a> (2023)</p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://api.github.com/repos/dmzoneill/dmzoneill/commits/302ca0b546cd3b82603ee9b59b97d017997564ca'>Update jscpd to ignore html</a></li><li><a href='https://api.github.com/repos/dmzoneill/dmzoneill/commits/3bca3a5659c3aef166792c1da4eaeb3bdc142195'>linters update</a></li><li><a href='https://api.github.com/repos/dmzoneill/dmzoneill/commits/7cc80865deb484b43258a2d151ade86106eed1bf'>Update linters</a></li><li><a href='https://api.github.com/repos/dmzoneill/curriculum-vitae/commits/873cb2225d42c85514a59b64baafbba28614c2c6'>cv</a></li><li><a href='https://api.github.com/repos/dmzoneill/curriculum-vitae/commits/9f4023723756c7491cf8d531e066b8307c3ad1bd'>Bump to 0.1.36</a></li></ul></p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://api.github.com/repos/dmzoneill/dmzoneill/commits/29c5e4974f5e63c1183e86adf07634a5726bf8dd'>disable VALIDATE_PHP_PSALM</a></li><li><a href='https://api.github.com/repos/dmzoneill/dmzoneill/commits/a5e106d6620cb54ec63e4ad20b2584100ca9aaee'>disable VALIDATE_PHP_PHPCS</a></li><li><a href='https://api.github.com/repos/dmzoneill/dmzoneill/commits/302ca0b546cd3b82603ee9b59b97d017997564ca'>Update jscpd to ignore html</a></li><li><a href='https://api.github.com/repos/dmzoneill/dmzoneill/commits/3bca3a5659c3aef166792c1da4eaeb3bdc142195'>linters update</a></li><li><a href='https://api.github.com/repos/dmzoneill/dmzoneill/commits/7cc80865deb484b43258a2d151ade86106eed1bf'>Update linters</a></li></ul></p>
               <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/5'>FR: ability to filter results</a> 2023-01-16</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/3'>docker-compose</a> 2023-01-16</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/1'>Docker Build</a> 2023-01-16</li></ul></p>
               <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/pull/4'>Update Dockerfile</a> 2023-01-16</li></ul></p>
             </td>
@@ -2380,7 +2380,7 @@
             <td>
               <p><a href='https://github.com/dmzoneill/MergedLogTimeline' title='MergedLogTimeline'>MergedLogTimeline</a> (2023)</p><p><img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://api.github.com/repos/dmzoneill/MergedLogTimeline/commits/c2ac9d9485ebaecf5d6ed219f938616f9686e2c5'>add github action and setup secret</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -2412,7 +2412,7 @@
             <td>
               <p><a href='https://github.com/dmzoneill/MattersHighLight' title='MattersHighLight'>MattersHighLight</a> (2023)</p><p><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://api.github.com/repos/dmzoneill/MattersHighLight/commits/46acd6e1956b6c21735f721cbeac7143724b2db6'>add github action and setup secret</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>

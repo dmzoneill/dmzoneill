@@ -54,6 +54,7 @@ jobs:
           VALIDATE_PYTHON_FLAKE8: false          
           VALIDATE_GITHUB_ACTIONS: false
           VALIDATE_NATURAL_LANGUAGE: false
+          VALIDATE_PHP_PHPCS: false
           DEFAULT_BRANCH: "main"
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           

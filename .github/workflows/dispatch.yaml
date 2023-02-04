@@ -42,6 +42,7 @@ jobs:
           curl -o .github/linters/config/rubocop.yaml https://github.com/dmzoneill/dmzoneill/tree/main/.github/linters/.jscpd.json?raw=true
           curl -o .github/linters/.jscpd.json https://github.com/dmzoneill/dmzoneill/tree/main/.github/linters/.jscpd.json?raw=true
           curl -o .github/linters/.ruby-lint.yml https://github.com/dmzoneill/dmzoneill/tree/main/.github/linters/.ruby-lint.yml?raw=true
+          curl -o .github/linters/.stylelintrc.json https://github.com/dmzoneill/dmzoneill/tree/main/.github/linters/.stylelintrc.json?raw=true
 
       - name: Lint Code Base
         uses: github/super-linter@v4

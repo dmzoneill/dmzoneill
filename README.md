@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-04/02/2023 11:40:22-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-04/02/2023 11:46:50-brightgreen" height='28'/>
 
 <table>
   <tr>
@@ -8,7 +8,7 @@
       <h3>Pull Requests (3)</h3>
       <ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/pull/4'>Update Dockerfile</a> 2023-01-24</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/5'>Bump terser from 5.13.1 to 5.16.3 in /frontend</a> 2023-02-03</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/2'>Bump decode-uri-component from 0.2.0 to 0.2.2 in /frontend</a> 2023-02-03</li></ul>
       <h3>Recent Acivity</h3>
-      <ul><li><a href='https://api.github.com/repos/dmzoneill/dmzoneill/commits/96ac940581d384db4ab531e6b469a0ae976f3f53'>add .stylelintrc.json</a></li><li><a href='https://api.github.com/repos/dmzoneill/dmzoneill/commits/ef81cb3458ed9c254f9420cff66838db8e8a7392'>add .stylelintrc.json</a></li><li><a href='https://api.github.com/repos/dmzoneill/curriculum-vitae/commits/18b4ff179c93058591bff9d32242fce086688990'>Cleanup</a></li><li><a href='https://api.github.com/repos/dmzoneill/dmzoneill/commits/c14d35fa384f7fcc06299f4330535698951d5c31'>Rename step</a></li><li><a href='https://api.github.com/repos/dmzoneill/dmzoneill/commits/7cbafe4837bd2958b15cd1a771832cb8cb3e43bb'>Rename step</a></li></ul>
+      <ul><li><a href='https://api.github.com/repos/dmzoneill/curriculum-vitae/commits/ac0b2291a2af4f25c54a6fb7b4eb374d697b3043'>Bump to 0.1.25</a></li><li><a href='https://api.github.com/repos/dmzoneill/dmzoneill/commits/ac8c2ffd21f4cc7289459f321936977b77c949ac'>add .stylelintrc.json</a></li><li><a href='https://api.github.com/repos/dmzoneill/dmzoneill/commits/e2b6b18d565e5f319e2b94aa489d672756e972fc'>add .stylelintrc.json</a></li><li><a href='https://api.github.com/repos/dmzoneill/dmzoneill/commits/96ac940581d384db4ab531e6b469a0ae976f3f53'>add .stylelintrc.json</a></li><li><a href='https://api.github.com/repos/dmzoneill/dmzoneill/commits/ef81cb3458ed9c254f9420cff66838db8e8a7392'>add .stylelintrc.json</a></li></ul>
       <h3>Gists</h3>
       <ul><li><a href='https://gist.github.com/d13d88b16d4d0aa90cb108a00ab3cf01'>10GB tuning</a></li><li><a href='https://gist.github.com/575ba9c32375c41cb1041e9064de0678'>Synology 108tb limit bypass</a></li><li><a href='https://gist.github.com/cbc75e502dbe2b78651f68d6320b714a'>AA active queries</a></li><li><a href='https://gist.github.com/faaa84782eaed4d2dc28ad55c19119ee'>PHP Paypal Instant Payment Notification</a></li></ul>
     </td>
@@ -41,14 +41,14 @@
     </tr>
   </thead>
   <tbody>
-    <tr><td><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript'  height='20px'/></td><td>8754019</td>
+    <tr><td><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript'  height='20px'/></td><td>8754044</td>
 <td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>481901</td>
-<td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>308000</td>
+<td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>308304</td>
 <td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>1367495</td>
 </tr><tr>
 <td><img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML'  height='20px'/></td><td>13065741</td>
 <td><img src='https://camo.githubusercontent.com/4ec342876a40b53ffc6230a41196528690f9f42b1098fd354df46c649720b4c6/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d446f636b657226636f6c6f723d323439364544266c6f676f3d446f636b6572266c6f676f436f6c6f723d464646464646266c6162656c3d' title='Dockerfile'  height='20px'/></td><td>5152</td>
-<td><img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS'  height='20px'/></td><td>5838017</td>
+<td><img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS'  height='20px'/></td><td>5837924</td>
 <td><img src='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' title='Java'  height='20px'/></td><td>2065496</td>
 </tr><tr>
 <td><img src='https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white' title='Kotlin'  height='20px'/></td><td>24599</td>
@@ -121,25 +121,9 @@
   <tbody>
     <tr>
             <td>
-              <p><a href='https://github.com/dmzoneill/dmzoneill' title='dmzoneill'>dmzoneill</a> (2023)</p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' height='20px'/</p>
-              <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://api.github.com/repos/dmzoneill/dmzoneill/commits/96ac940581d384db4ab531e6b469a0ae976f3f53'>add .stylelintrc.json</a></li><li><a href='https://api.github.com/repos/dmzoneill/dmzoneill/commits/ef81cb3458ed9c254f9420cff66838db8e8a7392'>add .stylelintrc.json</a></li><li><a href='https://api.github.com/repos/dmzoneill/curriculum-vitae/commits/18b4ff179c93058591bff9d32242fce086688990'>Cleanup</a></li><li><a href='https://api.github.com/repos/dmzoneill/dmzoneill/commits/c14d35fa384f7fcc06299f4330535698951d5c31'>Rename step</a></li><li><a href='https://api.github.com/repos/dmzoneill/dmzoneill/commits/7cbafe4837bd2958b15cd1a771832cb8cb3e43bb'>Rename step</a></li></ul></p>
-              <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/5'>FR: ability to filter results</a> 2023-01-16</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/3'>docker-compose</a> 2023-01-16</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/1'>Docker Build</a> 2023-01-16</li></ul></p>
-              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/pull/4'>Update Dockerfile</a> 2023-01-16</li></ul></p>
-            </td>
-            <td>
-              <p><a href='https://github.com/dmzoneill' title='Github profile'>Github profile</a></p>
-            </td>
-            <td align="center">
-              <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2023-01-16</p>
-            </td>
-        </tr>
-<tr>
-            <td>
               <p><a href='https://github.com/dmzoneill/curriculum-vitae' title='curriculum-vitae'>curriculum-vitae</a> (2023)</p><p><img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' height='20px'/> <img src='https://img.shields.io/badge/perl-%2339457E.svg?style=for-the-badge&logo=perl&logoColor=white' title='https://img.shields.io/badge/perl-%2339457E.svg?style=for-the-badge&logo=perl&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white' title='https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' height='20px'/> <img src='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' title='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://api.github.com/repos/dmzoneill/curriculum-vitae/commits/18b4ff179c93058591bff9d32242fce086688990'>Cleanup</a></li><li><a href='https://api.github.com/repos/dmzoneill/curriculum-vitae/commits/75e70193b946beeafd907f2a88e4a9def50886be'>remove linting config</a></li><li><a href='https://api.github.com/repos/dmzoneill/curriculum-vitae/commits/3714cff24ad10d598314a09db3283f8c3433c5b1'>cleanup</a></li><li><a href='https://api.github.com/repos/dmzoneill/curriculum-vitae/commits/02a97ee5a41f7f094c63e743c04ca7b62e9b3d64'>refacoring linter config</a></li><li><a href='https://api.github.com/repos/dmzoneill/curriculum-vitae/commits/8a9183cc7d5a7ee873128465bed4053ce439412c'>change linter config path</a></li></ul></p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://api.github.com/repos/dmzoneill/curriculum-vitae/commits/ac0b2291a2af4f25c54a6fb7b4eb374d697b3043'>Bump to 0.1.25</a></li><li><a href='https://api.github.com/repos/dmzoneill/curriculum-vitae/commits/18b4ff179c93058591bff9d32242fce086688990'>Cleanup</a></li><li><a href='https://api.github.com/repos/dmzoneill/curriculum-vitae/commits/75e70193b946beeafd907f2a88e4a9def50886be'>remove linting config</a></li><li><a href='https://api.github.com/repos/dmzoneill/curriculum-vitae/commits/3714cff24ad10d598314a09db3283f8c3433c5b1'>cleanup</a></li><li><a href='https://api.github.com/repos/dmzoneill/curriculum-vitae/commits/02a97ee5a41f7f094c63e743c04ca7b62e9b3d64'>refacoring linter config</a></li></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -149,6 +133,22 @@
             <td align="center">
               <a href='https://github.com/dmzoneill/curriculum-vitae/actions'><img src='https://github.com/dmzoneill//curriculum-vitae/actions/workflows/main.yml/badge.svg'/></a>
               <p>2022-04-20</p>
+            </td>
+        </tr>
+<tr>
+            <td>
+              <p><a href='https://github.com/dmzoneill/dmzoneill' title='dmzoneill'>dmzoneill</a> (2023)</p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' height='20px'/</p>
+              <p>Apache License 2.0</p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://api.github.com/repos/dmzoneill/curriculum-vitae/commits/ac0b2291a2af4f25c54a6fb7b4eb374d697b3043'>Bump to 0.1.25</a></li><li><a href='https://api.github.com/repos/dmzoneill/dmzoneill/commits/ac8c2ffd21f4cc7289459f321936977b77c949ac'>add .stylelintrc.json</a></li><li><a href='https://api.github.com/repos/dmzoneill/dmzoneill/commits/e2b6b18d565e5f319e2b94aa489d672756e972fc'>add .stylelintrc.json</a></li><li><a href='https://api.github.com/repos/dmzoneill/dmzoneill/commits/96ac940581d384db4ab531e6b469a0ae976f3f53'>add .stylelintrc.json</a></li><li><a href='https://api.github.com/repos/dmzoneill/dmzoneill/commits/ef81cb3458ed9c254f9420cff66838db8e8a7392'>add .stylelintrc.json</a></li></ul></p>
+              <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/5'>FR: ability to filter results</a> 2023-01-16</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/3'>docker-compose</a> 2023-01-16</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/1'>Docker Build</a> 2023-01-16</li></ul></p>
+              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/pull/4'>Update Dockerfile</a> 2023-01-16</li></ul></p>
+            </td>
+            <td>
+              <p><a href='https://github.com/dmzoneill' title='Github profile'>Github profile</a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2023-01-16</p>
             </td>
         </tr>
 <tr>
@@ -1340,7 +1340,7 @@
             <td>
               <p><a href='https://github.com/dmzoneill/lm051-cs4115-data-structures' title='lm051-cs4115-data-structures'>lm051-cs4115-data-structures</a> (2023)</p><p><img src='https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white' title='https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://api.github.com/repos/dmzoneill/lm051-cs4115-data-structures/commits/a067edf73331624be2ad7a918c0e7c3c8632589b'>add github action and setup secret</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -1356,7 +1356,7 @@
             <td>
               <p><a href='https://github.com/dmzoneill/lm051-cs4023-operating-systems-threading' title='lm051-cs4023-operating-systems-threading'>lm051-cs4023-operating-systems-threading</a> (2023)</p><p><img src='https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white' title='https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://api.github.com/repos/dmzoneill/lm051-cs4023-operating-systems-threading/commits/4ca1c824d60c662dec18858524267217c09f44a9'>add github action and setup secret</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -1372,7 +1372,7 @@
             <td>
               <p><a href='https://github.com/dmzoneill/lm051-cs4023-distribute-systems-shapes' title='lm051-cs4023-distribute-systems-shapes'>lm051-cs4023-distribute-systems-shapes</a> (2023)</p><p><img src='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' title='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://api.github.com/repos/dmzoneill/lm051-cs4023-distribute-systems-shapes/commits/04e6b85f9d9509a53de5b5d910509a7eb0f9b353'>add github action and setup secret</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>

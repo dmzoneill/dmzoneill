@@ -1,14 +1,39 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-04/02/2023 20:36:17-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-04/02/2023 22:53:59-brightgreen" height='28'/>
 
 <table>
   <tr>
     <td>
-      <h3>Issues (7)</h3>
+      <h3>Issues (6)</h3>
       <li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/5'>FR: ability to filter results</a> 2023-01-24</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/3'>docker-compose</a> 2023-01-24</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/1'>Docker Build</a> 2023-01-24</li><li><a href='https://github.com/dmzoneill/php-binance-bot/issues/1'>Causes my IP to be blocked </a> 2023-01-24</li>
-      <h3>Pull Requests (3)</h3>
-      <ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/pull/4'>Update Dockerfile</a> 2023-01-24</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/5'>Bump terser from 5.13.1 to 5.16.3 in /frontend</a> 2023-02-03</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/2'>Bump decode-uri-component from 0.2.0 to 0.2.2 in /frontend</a> 2023-02-03</li></ul>
+      <h3>Pull Requests (2)</h3>
+      <ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/pull/4'>Update Dockerfile</a> 2023-01-24</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/6'>Bump github.com/labstack/echo/v4 from 4.7.2 to 4.9.0 in /backend</a> 2023-02-04</li></ul>
       <h3>Recent Acivity</h3>
-      <ul><li><a href='https://api.github.com/repos/dmzoneill/dmzoneill/commits/a258a59f160d1721c20938b40b5b37a53e69497a'>fix filter on issues, prs, and activity</a></li><li><a href='https://api.github.com/repos/dmzoneill/curriculum-vitae/commits/34e0e22e43ffc1759c43e5cf5fa889a607b51aae'>javascript</a></li><li><a href='https://api.github.com/repos/dmzoneill/dmzoneill/commits/f74b014cdc4607fa188e98d0b76cee51f8cdfada'>fix success logic</a></li><li><a href='https://api.github.com/repos/dmzoneill/curriculum-vitae/commits/f09808eb9269b985330beea8ccb43380b022f69b'>Remove java, not ready</a></li><li><a href='https://api.github.com/repos/dmzoneill/curriculum-vitae/commits/1e34ae60e7ef9ac5e27278964adc6e45f045f6e5'>ignore java</a></li></ul>
+      <ul><li><a href='https://api.github.com/repos/dmzoneill/aa-dev-prod-watcher/commits/196fbb25cbf93f19d47b11a2ba411406e9721655'>Bump decode-uri-component from 0.2.0 to 0.2.2 in /frontend
+
+Bumps [decode-uri-component](https://github.com/SamVerschueren/decode-uri-component) from 0.2.0 to 0.2.2.
+- [Release notes](https://github.com/SamVerschueren/decode-uri-component/releases)
+- [Commits](https://github.com/SamVerschueren/decode-uri-component/compare/v0.2.0...v0.2.2)
+
+---
+updated-dependencies:
+- dependency-name: decode-uri-component
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump decode-uri-component from 0.2.0 to 0.2.2 in /frontend'>https://github.com/dmzoneill/aa-dev-prod-watcher/pull/2</a></li><li><a href='Bump terser from 5.13.1 to 5.16.3 in /frontend'>https://github.com/dmzoneill/aa-dev-prod-watcher/pull/5</a></li><li><a href='https://api.github.com/repos/dmzoneill/aa-dev-prod-watcher/commits/08f57fb4978ac3dac28acedf253c261961119889'>Bump terser from 5.13.1 to 5.16.3 in /frontend
+
+Bumps [terser](https://github.com/terser/terser) from 5.13.1 to 5.16.3.
+- [Release notes](https://github.com/terser/terser/releases)
+- [Changelog](https://github.com/terser/terser/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/terser/terser/compare/v5.13.1...v5.16.3)
+
+---
+updated-dependencies:
+- dependency-name: terser
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump terser from 5.13.1 to 5.16.3 in /frontend'>https://github.com/dmzoneill/aa-dev-prod-watcher/pull/5</a></li></ul>
       <h3>Gists</h3>
       <ul><li><a href='https://gist.github.com/d13d88b16d4d0aa90cb108a00ab3cf01'>10GB tuning</a></li><li><a href='https://gist.github.com/575ba9c32375c41cb1041e9064de0678'>Synology 108tb limit bypass</a></li><li><a href='https://gist.github.com/cbc75e502dbe2b78651f68d6320b714a'>AA active queries</a></li><li><a href='https://gist.github.com/faaa84782eaed4d2dc28ad55c19119ee'>PHP Paypal Instant Payment Notification</a></li></ul>
     </td>
@@ -1020,7 +1045,7 @@
             <td>
               <p><a href='https://github.com/dmzoneill/netsend' title='netsend'>netsend</a> (2023)</p><p><img src='https://img.shields.io/badge/_-Visual Basic .NET -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Visual Basic .NET -11DDDD.svg?style=for-the-badge' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://api.github.com/repos/dmzoneill/netsend/commits/b683b8edb15b1d5a11d737332845d09bc87e5e7e'>add github action and setup secret</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -1036,7 +1061,7 @@
             <td>
               <p><a href='https://github.com/dmzoneill/mysqltest' title='mysqltest'>mysqltest</a> (2023)</p><p><img src='https://img.shields.io/badge/_-Visual Basic .NET -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Visual Basic .NET -11DDDD.svg?style=for-the-badge' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://api.github.com/repos/dmzoneill/mysqltest/commits/7960e11b74f224118f17857a586ab5430a57eedb'>add github action and setup secret</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -1052,7 +1077,7 @@
             <td>
               <p><a href='https://github.com/dmzoneill/mono-gtk-smart' title='mono-gtk-smart'>mono-gtk-smart</a> (2023)</p><p><img src='https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white' title='https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://api.github.com/repos/dmzoneill/mono-gtk-smart/commits/a2e2d2ae6480a169313d38091771c93e4e48d632'>add github action and setup secret</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -1068,7 +1093,7 @@
             <td>
               <p><a href='https://github.com/dmzoneill/mono-gtk-monomerge' title='mono-gtk-monomerge'>mono-gtk-monomerge</a> (2023)</p><p><img src='https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white' title='https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://api.github.com/repos/dmzoneill/mono-gtk-monomerge/commits/304b4bd32877410b74babb25ef0192ddec612e0f'>add github action and setup secret</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -1084,7 +1109,7 @@
             <td>
               <p><a href='https://github.com/dmzoneill/mono-gtk-mimagemagick' title='mono-gtk-mimagemagick'>mono-gtk-mimagemagick</a> (2023)</p><p><img src='https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white' title='https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://api.github.com/repos/dmzoneill/mono-gtk-mimagemagick/commits/ea333419e2aee774ec79ecf1ed97836b068b3b60'>add github action and setup secret</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -1100,7 +1125,7 @@
             <td>
               <p><a href='https://github.com/dmzoneill/mono-gtk-imdb' title='mono-gtk-imdb'>mono-gtk-imdb</a> (2023)</p><p><img src='https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white' title='https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://api.github.com/repos/dmzoneill/mono-gtk-imdb/commits/a68d99159ed6a3c165b9c104e63dc171c1b265f8'>add github action and setup secret</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -2588,22 +2613,34 @@
             <td>
               <p><a href='https://github.com/dmzoneill/aa-dev-prod-watcher' title='aa-dev-prod-watcher'>aa-dev-prod-watcher</a> (2023)</p><p><img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' title='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' height='20px'/> <img src='https://camo.githubusercontent.com/4ec342876a40b53ffc6230a41196528690f9f42b1098fd354df46c649720b4c6/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d446f636b657226636f6c6f723d323439364544266c6f676f3d446f636b6572266c6f676f436f6c6f723d464646464646266c6162656c3d' title='https://camo.githubusercontent.com/4ec342876a40b53ffc6230a41196528690f9f42b1098fd354df46c649720b4c6/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d446f636b657226636f6c6f723d323439364544266c6f676f3d446f636b6572266c6f676f436f6c6f723d464646464646266c6162656c3d' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://api.github.com/repos/dmzoneill/aa-dev-prod-watcher/commits/6a3f8ba67fd9c25de3673c854c166a798e3d0e3a'>Bump loader-utils from 2.0.2 to 2.0.4 in /frontend
+              <p><h4>Recent Activity</h4><ul><li><a href='https://api.github.com/repos/dmzoneill/aa-dev-prod-watcher/commits/196fbb25cbf93f19d47b11a2ba411406e9721655'>Bump decode-uri-component from 0.2.0 to 0.2.2 in /frontend
 
-Bumps [loader-utils](https://github.com/webpack/loader-utils) from 2.0.2 to 2.0.4.
-- [Release notes](https://github.com/webpack/loader-utils/releases)
-- [Changelog](https://github.com/webpack/loader-utils/blob/v2.0.4/CHANGELOG.md)
-- [Commits](https://github.com/webpack/loader-utils/compare/v2.0.2...v2.0.4)
+Bumps [decode-uri-component](https://github.com/SamVerschueren/decode-uri-component) from 0.2.0 to 0.2.2.
+- [Release notes](https://github.com/SamVerschueren/decode-uri-component/releases)
+- [Commits](https://github.com/SamVerschueren/decode-uri-component/compare/v0.2.0...v0.2.2)
 
 ---
 updated-dependencies:
-- dependency-name: loader-utils
+- dependency-name: decode-uri-component
   dependency-type: indirect
 ...
 
-Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump loader-utils from 2.0.2 to 2.0.4 in /frontend'>https://github.com/dmzoneill/aa-dev-prod-watcher/pull/3</a></li></ul></p>
+Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump decode-uri-component from 0.2.0 to 0.2.2 in /frontend'>https://github.com/dmzoneill/aa-dev-prod-watcher/pull/2</a></li><li><a href='Bump terser from 5.13.1 to 5.16.3 in /frontend'>https://github.com/dmzoneill/aa-dev-prod-watcher/pull/5</a></li><li><a href='https://api.github.com/repos/dmzoneill/aa-dev-prod-watcher/commits/08f57fb4978ac3dac28acedf253c261961119889'>Bump terser from 5.13.1 to 5.16.3 in /frontend
+
+Bumps [terser](https://github.com/terser/terser) from 5.13.1 to 5.16.3.
+- [Release notes](https://github.com/terser/terser/releases)
+- [Changelog](https://github.com/terser/terser/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/terser/terser/compare/v5.13.1...v5.16.3)
+
+---
+updated-dependencies:
+- dependency-name: terser
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump terser from 5.13.1 to 5.16.3 in /frontend'>https://github.com/dmzoneill/aa-dev-prod-watcher/pull/5</a></li></ul></p>
               <p><ul></ul></p>
-              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/5'>Bump terser from 5.13.1 to 5.16.3 in /frontend</a> 2022-06-13</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/2'>Bump decode-uri-component from 0.2.0 to 0.2.2 in /frontend</a> 2022-06-13</li></ul></p>
+              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/6'>Bump github.com/labstack/echo/v4 from 4.7.2 to 4.9.0 in /backend</a> 2022-06-13</li></ul></p>
             </td>
             <td>
               <p><a href='' title=''></a></p>

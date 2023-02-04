@@ -353,7 +353,10 @@ class ReadmeUpdater:
                     break
                 if "pull" in issue["html_url"]:
                     continue
-                if repo == False or repo in issue["html_url"]:
+                if (
+                    repo == False
+                    or self.config["user"] + "/" + str(repo) in issue["html_url"]
+                ):
                     issue_html = issues_template
                     issue_html = issue_html.replace("{issue_url}", issue["html_url"])
                     issue_html = issue_html.replace("{issue_title}", issue["title"])
@@ -407,7 +410,7 @@ class ReadmeUpdater:
             for pr in self.prs:
                 if added == 5:
                     break
-                if repo == False or repo in pr["url"]:
+                if repo == False or self.config["user"] + "/" + str(repo) in pr["url"]:
                     pr_html = prs_template
                     pr_html = pr_html.replace("{pr_url}", pr["html_url"])
                     pr_html = pr_html.replace("{pr_title}", pr["title"])
@@ -466,7 +469,10 @@ class ReadmeUpdater:
             for recent in self.recent_activity:
                 if num == 5:
                     break
-                if repo == False or repo in recent["repo"]["name"]:
+                if (
+                    repo == False
+                    or self.config["user"] + "/" + str(repo) == recent["repo"]["name"]
+                ):
                     recent_h = recent_template
                     if recent["type"] == "IssueCommentEvent":
                         recent_h = recent_h.replace(

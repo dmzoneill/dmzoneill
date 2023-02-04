@@ -35,7 +35,7 @@ jobs:
         with:
           fetch-depth: 0
           
-      - name: Disable spell check rules
+      - name: Configure linters
         run : |-
           echo "disable=SC2086" > ~/.shellcheckrc
           mkdir -vp /github/workspace/.github/linters/config

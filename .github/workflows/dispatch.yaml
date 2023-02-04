@@ -43,6 +43,7 @@ jobs:
           curl -o .github/linters/.jscpd.json https://raw.githubusercontent.com/dmzoneill/dmzoneill/main/.github/linters/.jscpd.json
           curl -o .github/linters/.ruby-lint.yml https://raw.githubusercontent.com/dmzoneill/dmzoneill/main/.github/linters/.ruby-lint.yml
           curl -o .github/linters/.stylelintrc.json https://raw.githubusercontent.com/dmzoneill/dmzoneill/main/.github/linters/.stylelintrc.json
+          curl -o .github/linters/.htmlhintrc https://raw.githubusercontent.com/dmzoneill/dmzoneill/main/.github/linters/.htmlhintrc
 
       - name: Lint Code Base
         uses: github/super-linter@v4

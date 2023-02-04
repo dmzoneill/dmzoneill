@@ -38,10 +38,10 @@ jobs:
       - name: Configure linters
         run : |-
           echo "disable=SC2086" > ~/.shellcheckrc
-          mkdir -vp /github/workspace/.github/linters/config
-          curl -o /github/workspace/.github/linters/config/rubocop.yaml https://github.com/dmzoneill/dmzoneill/tree/main/.github/linters/.jscpd.json?raw=true
-          curl -o /github/workspace/.github/linters/.jscpd.json https://github.com/dmzoneill/dmzoneill/tree/main/.github/linters/.jscpd.json?raw=true
-          curl -o /github/workspace/.github/linters/.ruby-lint.yml https://github.com/dmzoneill/dmzoneill/tree/main/.github/linters/.ruby-lint.yml?raw=true
+          mkdir -vp .github/linters/config
+          curl -o .github/linters/config/rubocop.yaml https://github.com/dmzoneill/dmzoneill/tree/main/.github/linters/.jscpd.json?raw=true
+          curl -o .github/linters/.jscpd.json https://github.com/dmzoneill/dmzoneill/tree/main/.github/linters/.jscpd.json?raw=true
+          curl -o .github/linters/.ruby-lint.yml https://github.com/dmzoneill/dmzoneill/tree/main/.github/linters/.ruby-lint.yml?raw=true
 
       - name: Lint Code Base
         uses: github/super-linter@v4

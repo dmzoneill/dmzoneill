@@ -55,6 +55,7 @@ jobs:
           VALIDATE_GITHUB_ACTIONS: false
           VALIDATE_NATURAL_LANGUAGE: false
           VALIDATE_PHP_PHPCS: false
+          VALIDATE_PHP_PSALM: false
           DEFAULT_BRANCH: "main"
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           

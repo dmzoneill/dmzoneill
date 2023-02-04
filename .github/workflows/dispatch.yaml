@@ -293,10 +293,12 @@ jobs:
     needs: [gnome-build-and-upload, pypi-build-and-upload-package, chrome-extension-upload, basic-version-bump]
     if: |
       always() &&
-      (needs.gnome-build-and-upload.result == 'success' || needs.gnome-build-and-upload.result == 'skipped') &&
-      (needs.pypi-build-and-upload-package.result == 'success' || needs.pypi-build-and-upload-package.result == 'skipped') &&
-      (needs.chrome-extension-upload.result == 'success' || needs.chrome-extension-upload.result == 'skipped') &&
-      (needs.basic-version-bump.result == 'success' || needs.basic-version-bump.result == 'skipped')
+      (
+        needs.gnome-build-and-upload.result == 'success' || 
+        needs.pypi-build-and-upload-package.result == 'success' ||
+        needs.chrome-extension-upload.result == 'success' ||
+        needs.basic-version-bump.result == 'success'
+      )
     steps:
       - name: Rebuild profile
         run: |-

@@ -52,58 +52,28 @@ class ReadmeUpdater:
             return True
         except:  # noqa
             raise Exception("Failed reading config")
+        
+    def get_first_commit_date_http(self, repo):
+        next = None
+        headers = {"Authorization": "token " + self.token}
+        url = self.config["user_repos_url"] + "/" + repo + "/commits?sha=main&per_page=1&page=1"
+        self.log(url)
+        r = requests.get(url, headers=headers)
+        if r.status_code == requests.codes.ok:
+            link = r.headers['link']
+            parts = link.split("<")
+            next_part = parts[2].split(">")
+            next = next_part[0]
 
-    def get_first_commit_date(self, repo):
-        try:
-            query = """
-            {
-                repository(owner: "#owner#", name: "#repo#") {
-                    refs(refPrefix: "refs/heads/", orderBy: {
-                        direction: DESC,
-                        field: TAG_COMMIT_DATE
-                    }, first: 1) {
-                    edges {
-                        node {
-                        ... on Ref {
-                            name
-                            target {
-                            ... on Commit {
-                                history(first: 2) {
-                                edges {
-                                    node {
-                                    ... on Commit {
-                                        committedDate
-                                    }
-                                    }
-                                }
-                                }
-                            }
-                            }
-                        }
-                        }
-                    }
-                    }
-                }
-            }
-            """
-
-            query = query.replace("#owner#", self.config["user"])
-            query = query.replace("#repo#", repo)
-
-            headers = {"Authorization": "token " + self.token}
-            request = requests.post(
-                self.config["graphql_url"], json={"query": query}, headers=headers
-            )
-            if request.status_code == 200:
-                data = request.json()
-                # self.log(json.dumps(data, indent=4))
-                edge = data["data"]["repository"]["refs"]["edges"][0]
-                edge = edge["node"]["target"]["history"]["edges"][1]
-                return "(" + edge["node"]["committedDate"].split("-")[0] + ")"
-            else:
-                return ""
-        except:  # noqa
-            return ""
+        if next != None:
+            r = requests.get(next, headers=headers)
+            if r.status_code == requests.codes.ok:
+                res = r.json()
+                self.log(res[0]['commit']['author']['date'].split("-")[0])
+                return res[0]['commit']['author']['date'].split("-")[0]
+        
+        self.log("failed")
+        return ""
 
     def get_repos(self):
         try:
@@ -243,13 +213,15 @@ class ReadmeUpdater:
             print("generate_repos")
 
             for repo in self.repos:
-                first_commit = self.get_first_commit_date(repo["name"]).strip()
+                first_commit = self.get_first_commit_date_http(repo["name"]).strip()
                 if len(first_commit) - 1 > 4:
                     first_commit = first_commit[1:5]
                 else:
                     first_commit = ""
 
                 repo["get_first_commit_date"] = first_commit
+                print(first_commit)
+
                 if repo["name"] in live:
                     live_repos.append(repo)
                 else:
@@ -263,6 +235,8 @@ class ReadmeUpdater:
             last_year_header = ""
 
             for repo in live_repos + old_repos:
+
+                print(last_year_header)
 
                 repo_issues = self.get_repo_issues(repo["name"])
                 repo_prs = self.get_repo_pull_requests(repo["name"])
@@ -323,7 +297,6 @@ class ReadmeUpdater:
                         + "</h2><table width='100%' style='width:100%'><thead><tr><th>Project</th><th>View</th><th>Status</th></tr></thead><tbody>"
                         + row
                     )
-
                 if prepend:
                     rows = row + "\n" + rows
                 else:
@@ -353,6 +326,9 @@ class ReadmeUpdater:
                     break
                 if "pull" in issue["html_url"]:
                     continue
+
+                # print("generate_issues " + self.config["user"] + "/" + str(repo) + " in " + issue["html_url"])
+
                 if (
                     repo == False
                     or self.config["user"] + "/" + str(repo) in issue["html_url"]
@@ -410,6 +386,9 @@ class ReadmeUpdater:
             for pr in self.prs:
                 if added == 5:
                     break
+
+                # print("generate_prs " + self.config["user"] + "/" + str(repo) + " in " + pr["url"])
+
                 if repo == False or self.config["user"] + "/" + str(repo) in pr["url"]:
                     pr_html = prs_template
                     pr_html = pr_html.replace("{pr_url}", pr["html_url"])
@@ -469,6 +448,9 @@ class ReadmeUpdater:
             for recent in self.recent_activity:
                 if num == 5:
                     break
+
+                # print("generate_recent_activity " + self.config["user"] + "/" + str(repo) + " == " + recent["repo"]["name"])
+
                 if (
                     repo == False
                     or self.config["user"] + "/" + str(repo) == recent["repo"]["name"]

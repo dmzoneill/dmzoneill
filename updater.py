@@ -52,15 +52,20 @@ class ReadmeUpdater:
             return True
         except:  # noqa
             raise Exception("Failed reading config")
-        
+
     def get_first_commit_date_http(self, repo):
         next = None
         headers = {"Authorization": "token " + self.token}
-        url = self.config["user_repos_url"] + "/" + repo + "/commits?sha=main&per_page=1&page=1"
+        url = (
+            self.config["user_repos_url"]
+            + "/"
+            + repo
+            + "/commits?sha=main&per_page=1&page=1"
+        )
         self.log(url)
         r = requests.get(url, headers=headers)
         if r.status_code == requests.codes.ok:
-            link = r.headers['link']
+            link = r.headers["link"]
             parts = link.split("<")
             next_part = parts[2].split(">")
             next = next_part[0]
@@ -69,9 +74,9 @@ class ReadmeUpdater:
             r = requests.get(next, headers=headers)
             if r.status_code == requests.codes.ok:
                 res = r.json()
-                self.log(res[0]['commit']['author']['date'].split("-")[0])
-                return res[0]['commit']['author']['date'].split("-")[0]
-        
+                self.log(res[0]["commit"]["author"]["date"].split("-")[0])
+                return res[0]["commit"]["author"]["date"].split("-")[0]
+
         self.log("failed")
         return ""
 

@@ -53,7 +53,7 @@
     <repos>
         <tr>
             <td>
-              <p><a href='{html_url}' title='{name}'>{name}</a> {first_commit}</p><p>{language}</p>
+              <p><h2><a href='{html_url}' title='{name}'>{name}</a> {first_commit}</h2></p><p>{language}</p>
               <p>{license}</p>
               <p><ul><recent><li><a href='{recent_activity_url}'>{recent_activity_title}</a></li></recent></ul></p>
               <p><ul><issues><li><a href='{issue_url}'>{issue_title}</a> {updated_at}</li></issues></ul></p>

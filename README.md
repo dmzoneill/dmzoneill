@@ -1,14 +1,39 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-11/02/2023 00:24:12-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-11/02/2023 17:06:32-brightgreen" height='28'/>
 
 <table>
   <tr>
     <td>
-      <h3>Issues (7)</h3>
+      <h3>Issues (5)</h3>
       <li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/5'>FR: ability to filter results</a> 2023-01-24</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/3'>docker-compose</a> 2023-01-24</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/1'>Docker Build</a> 2023-01-24</li><li><a href='https://github.com/dmzoneill/php-binance-bot/issues/1'>Causes my IP to be blocked </a> 2023-01-24</li>
-      <h3>Pull Requests (3)</h3>
-      <ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/pull/4'>Update Dockerfile</a> 2023-01-24</li><li><a href='https://github.com/dmzoneill/Chuckbot/pull/5'>Bump @sideway/formula from 3.0.0 to 3.0.1</a> 2023-02-09</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/6'>Bump github.com/labstack/echo/v4 from 4.7.2 to 4.9.0 in /backend</a> 2023-02-04</li></ul>
+      <h3>Pull Requests (1)</h3>
+      <ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/pull/4'>Update Dockerfile</a> 2023-01-24</li></ul>
       <h3>Recent Acivity</h3>
-      <ul><li><a href='https://api.github.com/repos/dmzoneill/dmzoneill/commits/11744598edb570de69070a70477680a91363ab67'>increase text size on template repo title</a></li><li><a href='https://api.github.com/repos/dmzoneill/curriculum-vitae/commits/b32d21ec6fe417ba0fd6d224fd078b2de544c5ff'>asp, vb, cobol, c</a></li><li><a href='https://api.github.com/repos/dmzoneill/curriculum-vitae/commits/2c783b123878e046cb313cb5948fe30c56b06716'>Bump to 0.3.5</a></li><li><a href='https://api.github.com/repos/dmzoneill/curriculum-vitae/commits/00b6b23be60ac8377c8c7903a9c922194aa702da'>remove offendng yml file</a></li><li><a href='https://api.github.com/repos/dmzoneill/curriculum-vitae/commits/a565327c399911c5db5285dbdcfaf9a7e7c5698a'>Bump to 0.3.2</a></li></ul>
+      <ul><li><a href='https://api.github.com/repos/dmzoneill/aa-dev-prod-watcher/commits/4248c69c771d865dfb5cf9b6ef278bf8fdd086e1'>Bump github.com/labstack/echo/v4 from 4.7.2 to 4.9.0 in /backend
+
+Bumps [github.com/labstack/echo/v4](https://github.com/labstack/echo) from 4.7.2 to 4.9.0.
+- [Release notes](https://github.com/labstack/echo/releases)
+- [Changelog](https://github.com/labstack/echo/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/labstack/echo/compare/v4.7.2...v4.9.0)
+
+---
+updated-dependencies:
+- dependency-name: github.com/labstack/echo/v4
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump github.com/labstack/echo/v4 from 4.7.2 to 4.9.0 in /backend'>https://github.com/dmzoneill/aa-dev-prod-watcher/pull/6</a></li><li><a href='https://api.github.com/repos/dmzoneill/Chuckbot/commits/0522811a5a2d993a735063d10a0f6a9c27ece964'>Bump @sideway/formula from 3.0.0 to 3.0.1
+
+Bumps [@sideway/formula](https://github.com/sideway/formula) from 3.0.0 to 3.0.1.
+- [Release notes](https://github.com/sideway/formula/releases)
+- [Commits](https://github.com/sideway/formula/compare/v3.0.0...v3.0.1)
+
+---
+updated-dependencies:
+- dependency-name: "@sideway/formula"
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump @sideway/formula from 3.0.0 to 3.0.1'>https://github.com/dmzoneill/Chuckbot/pull/5</a></li><li><a href='https://api.github.com/repos/dmzoneill/dmzoneill/commits/11744598edb570de69070a70477680a91363ab67'>increase text size on template repo title</a></li></ul>
       <h3>Gists</h3>
       <ul><li><a href='https://gist.github.com/d13d88b16d4d0aa90cb108a00ab3cf01'>10GB tuning</a></li><li><a href='https://gist.github.com/575ba9c32375c41cb1041e9064de0678'>Synology 108tb limit bypass</a></li><li><a href='https://gist.github.com/cbc75e502dbe2b78651f68d6320b714a'>AA active queries</a></li><li><a href='https://gist.github.com/faaa84782eaed4d2dc28ad55c19119ee'>PHP Paypal Instant Payment Notification</a></li></ul>
     </td>
@@ -123,6 +148,34 @@
   <tbody>
     <tr>
             <td>
+              <p><h2><a href='https://github.com/dmzoneill/Chuckbot' title='Chuckbot'>Chuckbot</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' height='20px'/</p>
+              <p>Apache License 2.0</p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://api.github.com/repos/dmzoneill/Chuckbot/commits/0522811a5a2d993a735063d10a0f6a9c27ece964'>Bump @sideway/formula from 3.0.0 to 3.0.1
+
+Bumps [@sideway/formula](https://github.com/sideway/formula) from 3.0.0 to 3.0.1.
+- [Release notes](https://github.com/sideway/formula/releases)
+- [Commits](https://github.com/sideway/formula/compare/v3.0.0...v3.0.1)
+
+---
+updated-dependencies:
+- dependency-name: "@sideway/formula"
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump @sideway/formula from 3.0.0 to 3.0.1'>https://github.com/dmzoneill/Chuckbot/pull/5</a></li></ul></p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+            </td>
+            <td>
+              <p><a href='https://wa.me/96592226837' title='Chat with chuck'>Chat with chuck</a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/Chuckbot/actions'><img src='https://github.com/dmzoneill//Chuckbot/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2022-12-08</p>
+            </td>
+        </tr>
+<tr>
+            <td>
               <p><h2><a href='https://github.com/dmzoneill/dmzoneill' title='dmzoneill'>dmzoneill</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' height='20px'/</p>
               <p>Apache License 2.0</p>
               <p><h4>Recent Activity</h4><ul><li><a href='https://api.github.com/repos/dmzoneill/dmzoneill/commits/11744598edb570de69070a70477680a91363ab67'>increase text size on template repo title</a></li><li><a href='https://api.github.com/repos/dmzoneill/dmzoneill/commits/c02e9995658486f1ec5118c7b3a6998f54967f1a'>fix first commit date</a></li><li><a href='https://api.github.com/repos/dmzoneill/dmzoneill/commits/aaaf5c0f52650a0d5ac02d9f6596e8dde665135e'>fix first commit date</a></li><li><a href='https://api.github.com/repos/dmzoneill/dmzoneill/commits/a49a8c9c0a1ea6029ba05474a32a33a63bd27c0f'>fix first commit date</a></li><li><a href='https://api.github.com/repos/dmzoneill/dmzoneill/commits/a258a59f160d1721c20938b40b5b37a53e69497a'>fix filter on issues, prs, and activity</a></li></ul></p>
@@ -135,22 +188,6 @@
             <td align="center">
               <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
               <p>2023-01-16</p>
-            </td>
-        </tr>
-<tr>
-            <td>
-              <p><h2><a href='https://github.com/dmzoneill/Chuckbot' title='Chuckbot'>Chuckbot</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' height='20px'/</p>
-              <p>Apache License 2.0</p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/Chuckbot/pull/5'>Bump @sideway/formula from 3.0.0 to 3.0.1</a> 2022-12-08</li></ul></p>
-            </td>
-            <td>
-              <p><a href='https://wa.me/96592226837' title='Chat with chuck'>Chat with chuck</a></p>
-            </td>
-            <td align="center">
-              <a href='https://github.com/dmzoneill/Chuckbot/actions'><img src='https://github.com/dmzoneill//Chuckbot/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2022-12-08</p>
             </td>
         </tr>
 <tr>
@@ -430,7 +467,20 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/aa-dev-prod-watcher' title='aa-dev-prod-watcher'>aa-dev-prod-watcher</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' title='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' height='20px'/> <img src='https://camo.githubusercontent.com/4ec342876a40b53ffc6230a41196528690f9f42b1098fd354df46c649720b4c6/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d446f636b657226636f6c6f723d323439364544266c6f676f3d446f636b6572266c6f676f436f6c6f723d464646464646266c6162656c3d' title='https://camo.githubusercontent.com/4ec342876a40b53ffc6230a41196528690f9f42b1098fd354df46c649720b4c6/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d446f636b657226636f6c6f723d323439364544266c6f676f3d446f636b6572266c6f676f436f6c6f723d464646464646266c6162656c3d' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://api.github.com/repos/dmzoneill/aa-dev-prod-watcher/commits/196fbb25cbf93f19d47b11a2ba411406e9721655'>Bump decode-uri-component from 0.2.0 to 0.2.2 in /frontend
+              <p><h4>Recent Activity</h4><ul><li><a href='https://api.github.com/repos/dmzoneill/aa-dev-prod-watcher/commits/4248c69c771d865dfb5cf9b6ef278bf8fdd086e1'>Bump github.com/labstack/echo/v4 from 4.7.2 to 4.9.0 in /backend
+
+Bumps [github.com/labstack/echo/v4](https://github.com/labstack/echo) from 4.7.2 to 4.9.0.
+- [Release notes](https://github.com/labstack/echo/releases)
+- [Changelog](https://github.com/labstack/echo/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/labstack/echo/compare/v4.7.2...v4.9.0)
+
+---
+updated-dependencies:
+- dependency-name: github.com/labstack/echo/v4
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump github.com/labstack/echo/v4 from 4.7.2 to 4.9.0 in /backend'>https://github.com/dmzoneill/aa-dev-prod-watcher/pull/6</a></li><li><a href='https://api.github.com/repos/dmzoneill/aa-dev-prod-watcher/commits/196fbb25cbf93f19d47b11a2ba411406e9721655'>Bump decode-uri-component from 0.2.0 to 0.2.2 in /frontend
 
 Bumps [decode-uri-component](https://github.com/SamVerschueren/decode-uri-component) from 0.2.0 to 0.2.2.
 - [Release notes](https://github.com/SamVerschueren/decode-uri-component/releases)
@@ -442,22 +492,9 @@ updated-dependencies:
   dependency-type: indirect
 ...
 
-Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump decode-uri-component from 0.2.0 to 0.2.2 in /frontend'>https://github.com/dmzoneill/aa-dev-prod-watcher/pull/2</a></li><li><a href='Bump terser from 5.13.1 to 5.16.3 in /frontend'>https://github.com/dmzoneill/aa-dev-prod-watcher/pull/5</a></li><li><a href='https://api.github.com/repos/dmzoneill/aa-dev-prod-watcher/commits/08f57fb4978ac3dac28acedf253c261961119889'>Bump terser from 5.13.1 to 5.16.3 in /frontend
-
-Bumps [terser](https://github.com/terser/terser) from 5.13.1 to 5.16.3.
-- [Release notes](https://github.com/terser/terser/releases)
-- [Changelog](https://github.com/terser/terser/blob/master/CHANGELOG.md)
-- [Commits](https://github.com/terser/terser/compare/v5.13.1...v5.16.3)
-
----
-updated-dependencies:
-- dependency-name: terser
-  dependency-type: indirect
-...
-
-Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump terser from 5.13.1 to 5.16.3 in /frontend'>https://github.com/dmzoneill/aa-dev-prod-watcher/pull/5</a></li></ul></p>
+Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump decode-uri-component from 0.2.0 to 0.2.2 in /frontend'>https://github.com/dmzoneill/aa-dev-prod-watcher/pull/2</a></li><li><a href='Bump terser from 5.13.1 to 5.16.3 in /frontend'>https://github.com/dmzoneill/aa-dev-prod-watcher/pull/5</a></li></ul></p>
               <p><ul></ul></p>
-              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/6'>Bump github.com/labstack/echo/v4 from 4.7.2 to 4.9.0 in /backend</a> 2022-06-13</li></ul></p>
+              <p><ul></ul></p>
             </td>
             <td>
               <p><a href='' title=''></a></p>
@@ -823,7 +860,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump te
             <td>
               <p><h2><a href='https://github.com/dmzoneill/series' title='series'>series</a> (2015)</h2></p><p><img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://api.github.com/repos/dmzoneill/series/commits/9d6457bafb039db982eb9b1e93173f8e9cd42147'>add github action and setup secret</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -2151,7 +2188,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump te
             <td>
               <p><h2><a href='https://github.com/dmzoneill/sender' title='sender'>sender</a> (2005)</h2></p><p><img src='https://img.shields.io/badge/_-Visual Basic .NET -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Visual Basic .NET -11DDDD.svg?style=for-the-badge' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://api.github.com/repos/dmzoneill/sender/commits/19b465bd5165646c5662f2f15c1ffa0c53a2bf7b'>add github action and setup secret</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -2519,7 +2556,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump te
             <td>
               <p><h2><a href='https://github.com/dmzoneill/service-controller' title='service-controller'>service-controller</a> (2002)</h2></p><p><img src='https://img.shields.io/badge/_-Visual Basic .NET -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Visual Basic .NET -11DDDD.svg?style=for-the-badge' height='20px'/> <img src='https://img.shields.io/badge/_-XSLT -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-XSLT -11DDDD.svg?style=for-the-badge' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://api.github.com/repos/dmzoneill/service-controller/commits/c3cb6529d46555160c5d99511224a0d3e5d0cc7f'>add github action and setup secret</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -2679,7 +2716,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump te
             <td>
               <p><h2><a href='https://github.com/dmzoneill/serials' title='serials'>serials</a> (2001)</h2></p><p><img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://api.github.com/repos/dmzoneill/serials/commits/229a359b14aff4e42e0f2037e520a76892990241'>add github action and setup secret</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>

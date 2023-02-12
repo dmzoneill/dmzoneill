@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-12/02/2023 21:52:08-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-12/02/2023 22:20:21-brightgreen" height='28'/>
 
 <table>
   <tr>
@@ -8,7 +8,7 @@
       <h3>Pull Requests (1)</h3>
       <ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/pull/4'>Update Dockerfile</a> 2023-01-24</li></ul>
       <h3>Recent Acivity</h3>
-      <ul><li><a href='https://api.github.com/repos/dmzoneill/filebot-nautilus/commits/8dae2bafe87aa6f45ae75f905ea65f7f54d8d697'>Bump to 0.1.4</a></li><li><a href='https://api.github.com/repos/dmzoneill/curriculum-vitae/commits/ace87b4c9a975763a31c4cb7e543f2df70b8e5e3'>C lin</a></li><li><a href='https://api.github.com/repos/dmzoneill/curriculum-vitae/commits/90e6e3b05c92635c7c897a27826f980e5c63ec1b'>C lin</a></li><li><a href='https://api.github.com/repos/dmzoneill/aa-dev-prod-watcher/commits/4248c69c771d865dfb5cf9b6ef278bf8fdd086e1'>Bump github.com/labstack/echo/v4 from 4.7.2 to 4.9.0 in /backend
+      <ul><li><a href='https://api.github.com/repos/dmzoneill/filebot-nautilus/commits/f858e7659d49bc0ead032ddbf3ec4403d289f5c0'>Bump to 0.1.7</a></li><li><a href='https://api.github.com/repos/dmzoneill/filebot-nautilus/commits/8dae2bafe87aa6f45ae75f905ea65f7f54d8d697'>Bump to 0.1.4</a></li><li><a href='https://api.github.com/repos/dmzoneill/curriculum-vitae/commits/ace87b4c9a975763a31c4cb7e543f2df70b8e5e3'>C lin</a></li><li><a href='https://api.github.com/repos/dmzoneill/curriculum-vitae/commits/90e6e3b05c92635c7c897a27826f980e5c63ec1b'>C lin</a></li><li><a href='https://api.github.com/repos/dmzoneill/aa-dev-prod-watcher/commits/4248c69c771d865dfb5cf9b6ef278bf8fdd086e1'>Bump github.com/labstack/echo/v4 from 4.7.2 to 4.9.0 in /backend
 
 Bumps [github.com/labstack/echo/v4](https://github.com/labstack/echo) from 4.7.2 to 4.9.0.
 - [Release notes](https://github.com/labstack/echo/releases)
@@ -21,7 +21,7 @@ updated-dependencies:
   dependency-type: indirect
 ...
 
-Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump github.com/labstack/echo/v4 from 4.7.2 to 4.9.0 in /backend'>https://github.com/dmzoneill/aa-dev-prod-watcher/pull/6</a></li></ul>
+Signed-off-by: dependabot[bot] <support@github.com></a></li></ul>
       <h3>Gists</h3>
       <ul><li><a href='https://gist.github.com/d13d88b16d4d0aa90cb108a00ab3cf01'>10GB tuning</a></li><li><a href='https://gist.github.com/575ba9c32375c41cb1041e9064de0678'>Synology 108tb limit bypass</a></li><li><a href='https://gist.github.com/cbc75e502dbe2b78651f68d6320b714a'>AA active queries</a></li><li><a href='https://gist.github.com/faaa84782eaed4d2dc28ad55c19119ee'>PHP Paypal Instant Payment Notification</a></li></ul>
     </td>
@@ -55,7 +55,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump gi
   </thead>
   <tbody>
     <tr><td><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript'  height='20px'/></td><td>8758968</td>
-<td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>484914</td>
+<td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>484913</td>
 <td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>310047</td>
 <td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>1367495</td>
 </tr><tr>
@@ -816,7 +816,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump de
             <td>
               <p><h2><a href='https://github.com/dmzoneill/filebot-nautilus' title='filebot-nautilus'>filebot-nautilus</a> (2016)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://api.github.com/repos/dmzoneill/filebot-nautilus/commits/8dae2bafe87aa6f45ae75f905ea65f7f54d8d697'>Bump to 0.1.4</a></li></ul></p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://api.github.com/repos/dmzoneill/filebot-nautilus/commits/f858e7659d49bc0ead032ddbf3ec4403d289f5c0'>Bump to 0.1.7</a></li><li><a href='https://api.github.com/repos/dmzoneill/filebot-nautilus/commits/8dae2bafe87aa6f45ae75f905ea65f7f54d8d697'>Bump to 0.1.4</a></li></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -1696,7 +1696,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump de
             <td>
               <p><h2><a href='https://github.com/dmzoneill/synology-download-assistance-chrome-extension' title='synology-download-assistance-chrome-extension'>synology-download-assistance-chrome-extension</a> (2009)</h2></p><p><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/_-SCSS -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-SCSS -11DDDD.svg?style=for-the-badge' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://api.github.com/repos/dmzoneill/synology-download-assistance-chrome-extension/commits/2d1b55a27a872d65862d86af4c35d02f03edc9e7'>add github action and setup secret</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>

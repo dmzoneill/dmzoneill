@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-16/02/2023 00:25:47-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-16/02/2023 07:26:01-brightgreen" height='28'/>
 
 <table>
   <tr>
@@ -8,7 +8,7 @@
       <h3>Pull Requests (1)</h3>
       <ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/pull/4'>Update Dockerfile</a> 2023-01-24</li></ul>
       <h3>Recent Acivity</h3>
-      <ul><li><a href='https://api.github.com/repos/dmzoneill/dmzoneill/commits/52889bc881880da848cc94684c3b79c39327582f'>update live repos</a></li><li><a href='https://api.github.com/repos/dmzoneill/filebot-nautilus/commits/8ee12e86f3e01dcdcf3a056c24977ceddaa42bbc'>Bump to 0.1.11</a></li><li><a href='https://api.github.com/repos/dmzoneill/filebot-nautilus/commits/98c97095b61fd9ac2bf10f39ef88172288cbe374'>Thread pool</a></li><li><a href='https://api.github.com/repos/dmzoneill/filebot-nautilus/commits/7b83d504c6f75b39b2cb4b5fa7bae424b677322b'>Updates for update_file_info_full</a></li><li><a href='https://api.github.com/repos/dmzoneill/filebot-nautilus/commits/9cf4b7aad81115b7b242d891eabc44cfca0059f4'>glib callback</a></li></ul>
+      <ul><li><a href='https://api.github.com/repos/dmzoneill/dmzoneill/commits/131c553f1fe9cb696c711805be4f8a0df27d2f46'>Bump to 0.3.8</a></li><li><a href='https://api.github.com/repos/dmzoneill/dmzoneill/commits/52889bc881880da848cc94684c3b79c39327582f'>update live repos</a></li><li><a href='https://api.github.com/repos/dmzoneill/filebot-nautilus/commits/8ee12e86f3e01dcdcf3a056c24977ceddaa42bbc'>Bump to 0.1.11</a></li><li><a href='https://api.github.com/repos/dmzoneill/filebot-nautilus/commits/98c97095b61fd9ac2bf10f39ef88172288cbe374'>Thread pool</a></li><li><a href='https://api.github.com/repos/dmzoneill/filebot-nautilus/commits/7b83d504c6f75b39b2cb4b5fa7bae424b677322b'>Updates for update_file_info_full</a></li></ul>
       <h3>Gists</h3>
       <ul><li><a href='https://gist.github.com/d13d88b16d4d0aa90cb108a00ab3cf01'>10GB tuning</a></li><li><a href='https://gist.github.com/575ba9c32375c41cb1041e9064de0678'>Synology 108tb limit bypass</a></li><li><a href='https://gist.github.com/cbc75e502dbe2b78651f68d6320b714a'>AA active queries</a></li><li><a href='https://gist.github.com/faaa84782eaed4d2dc28ad55c19119ee'>PHP Paypal Instant Payment Notification</a></li></ul>
     </td>
@@ -125,7 +125,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/dmzoneill' title='dmzoneill'>dmzoneill</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://api.github.com/repos/dmzoneill/dmzoneill/commits/52889bc881880da848cc94684c3b79c39327582f'>update live repos</a></li><li><a href='https://api.github.com/repos/dmzoneill/dmzoneill/commits/11744598edb570de69070a70477680a91363ab67'>increase text size on template repo title</a></li><li><a href='https://api.github.com/repos/dmzoneill/dmzoneill/commits/c02e9995658486f1ec5118c7b3a6998f54967f1a'>fix first commit date</a></li><li><a href='https://api.github.com/repos/dmzoneill/dmzoneill/commits/aaaf5c0f52650a0d5ac02d9f6596e8dde665135e'>fix first commit date</a></li><li><a href='https://api.github.com/repos/dmzoneill/dmzoneill/commits/a49a8c9c0a1ea6029ba05474a32a33a63bd27c0f'>fix first commit date</a></li></ul></p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://api.github.com/repos/dmzoneill/dmzoneill/commits/131c553f1fe9cb696c711805be4f8a0df27d2f46'>Bump to 0.3.8</a></li><li><a href='https://api.github.com/repos/dmzoneill/dmzoneill/commits/52889bc881880da848cc94684c3b79c39327582f'>update live repos</a></li><li><a href='https://api.github.com/repos/dmzoneill/dmzoneill/commits/11744598edb570de69070a70477680a91363ab67'>increase text size on template repo title</a></li><li><a href='https://api.github.com/repos/dmzoneill/dmzoneill/commits/c02e9995658486f1ec5118c7b3a6998f54967f1a'>fix first commit date</a></li><li><a href='https://api.github.com/repos/dmzoneill/dmzoneill/commits/aaaf5c0f52650a0d5ac02d9f6596e8dde665135e'>fix first commit date</a></li></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -146,7 +146,7 @@
               <p><ul></ul></p>
             </td>
             <td>
-              <p><a href='https://www.pling.com/p/1988412/' title='Filebot extension for nautilus'>Filebot extension for nautilus</a></p>
+              <p><a href='https://www.gnome-look.org/p/1988412/' title='Filebot extension for nautilus'>Filebot extension for nautilus</a></p>
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/filebot-nautilus/actions'><img src='https://github.com/dmzoneill//filebot-nautilus/actions/workflows/main.yml/badge.svg'/></a>
@@ -2147,7 +2147,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump de
             <td>
               <p><h2><a href='https://github.com/dmzoneill/wpc-client' title='wpc-client'>wpc-client</a> (2005)</h2></p><p><img src='https://img.shields.io/badge/_-Visual Basic .NET -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Visual Basic .NET -11DDDD.svg?style=for-the-badge' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://api.github.com/repos/dmzoneill/wpc-client/commits/d632178bd9118ca79fb20f4b4fb4bc8fa9ea2fb6'>add github action and setup secret</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>

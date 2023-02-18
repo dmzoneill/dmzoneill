@@ -2,6 +2,7 @@ import json
 import os
 import pprint
 import re
+import time
 from datetime import datetime
 from operator import itemgetter
 
@@ -53,9 +54,31 @@ class ReadmeUpdater:
         except:  # noqa
             raise Exception("Failed reading config")
 
+    def web_request_retry(self, url, headers=None):
+        retries = 3
+
+        if headers == None:
+            headers = {"Authorization": "token " + self.token}
+
+        try:
+            time.sleep(0.5)
+            while retries > 0:
+                r = requests.get(url, headers=headers)
+                if r.status_code == requests.codes.ok:
+                    return r
+                else:
+                    self.log("Not 200 for: " + url)
+                    retries = retries - 1
+        except Exception as e:
+            retries = retries - 1
+            time.sleep(5 * retries)
+            self.log(str(e))
+
+        return False
+
     def get_first_commit_date_http(self, repo):
         next = None
-        headers = {"Authorization": "token " + self.token}
+
         url = (
             self.config["user_repos_url"]
             + "/"
@@ -63,16 +86,16 @@ class ReadmeUpdater:
             + "/commits?sha=main&per_page=1&page=1"
         )
         self.log(url)
-        r = requests.get(url, headers=headers)
-        if r.status_code == requests.codes.ok:
+        r = self.web_request_retry(url)
+        if r != False:
             link = r.headers["link"]
             parts = link.split("<")
             next_part = parts[2].split(">")
             next = next_part[0]
 
         if next != None:
-            r = requests.get(next, headers=headers)
-            if r.status_code == requests.codes.ok:
+            r = self.web_request_retry(next)
+            if r != False:
                 res = r.json()
                 self.log(res[0]["commit"]["author"]["date"].split("-")[0])
                 return res[0]["commit"]["author"]["date"].split("-")[0]
@@ -82,13 +105,12 @@ class ReadmeUpdater:
 
     def get_repos(self):
         try:
-            headers = {"Authorization": "token " + self.token}
             page = 1
             while True:
                 url = self.config["repos_url"] + "&page=" + str(page)
                 self.log(url)
-                r = requests.get(url, headers=headers)
-                if r.status_code == requests.codes.ok:
+                r = self.web_request_retry(url)
+                if r != False:
                     self.log("got page " + str(page))
                     res = r.json()
 
@@ -114,11 +136,11 @@ class ReadmeUpdater:
 
     def get_repo_issues(self, repo):
         try:
-            url = self.config["user_repos_url"] + "/" + repo + "/issues?state=open"
+            url = self.config["user_repos_url"] + \
+                "/" + repo + "/issues?state=open"
             self.log(url)
-            headers = {"Authorization": "token " + self.token}
-            res = requests.get(url, headers=headers)
-            if res.status_code == requests.codes.ok:
+            res = self.web_request_retry(url)
+            if res != False:
                 issues = res.json()
                 # self.log(json.dumps(issues, indent=4))
                 return issues  #
@@ -129,11 +151,11 @@ class ReadmeUpdater:
 
     def get_repo_pull_requests(self, repo):
         try:
-            url = self.config["user_repos_url"] + "/" + repo + "/pulls?state=open"
+            url = self.config["user_repos_url"] + \
+                "/" + repo + "/pulls?state=open"
             self.log(url)
-            headers = {"Authorization": "token " + self.token}
-            res = requests.get(url, headers=headers)
-            if res.status_code == requests.codes.ok:
+            res = self.web_request_retry(url)
+            if res != False:
                 pulls = res.json()
                 # self.log(json.dumps(pulls, indent=4))
                 return pulls
@@ -144,13 +166,13 @@ class ReadmeUpdater:
 
     def get_repo_languages(self, name):
         try:
-            languages_url = self.config["user_repos_url"] + "/" + name + "/languages"
+            languages_url = self.config["user_repos_url"] + \
+                "/" + name + "/languages"
             self.log(languages_url)
             languages = None
 
-            headers = {"Authorization": "token " + self.token}
-            res = requests.get(languages_url, headers=headers)
-            if res.status_code == requests.codes.ok:
+            res = self.web_request_retry(languages_url)
+            if res != False:
                 languages = res.json()
 
             lines = 0
@@ -169,7 +191,8 @@ class ReadmeUpdater:
                 if lang not in self.total_lines_lang:
                     self.total_lines_lang[lang] = 0
                 self.total_lines_lang[lang] += languages[lang]
-                lang_percent[lang] = round(round(languages[lang] / lines, 2) * 100)
+                lang_percent[lang] = round(
+                    round(languages[lang] / lines, 2) * 100)
 
             language = ""
             for lang in lang_percent:
@@ -194,7 +217,7 @@ class ReadmeUpdater:
                         + "' height='20px'/> "
                     )
 
-            language = language[0 : len(language) - 2]
+            language = language[0: len(language) - 2]
 
             return language
         except:  # noqa
@@ -242,8 +265,11 @@ class ReadmeUpdater:
                 repo_issues = self.get_repo_issues(repo["name"])
                 repo_prs = self.get_repo_pull_requests(repo["name"])
 
-                self.issues += repo_issues
-                self.prs += repo_prs
+                if repo_issues is not None:
+                    self.issues += repo_issues
+
+                if repo_prs is not None:
+                    self.prs += repo_prs
 
                 prepend = False
 
@@ -251,8 +277,10 @@ class ReadmeUpdater:
                 language = language if language is not False else repo["language"]
                 html_url = repo["html_url"]
                 name = repo["name"]
-                live_url = live[repo["name"]][0] if repo["name"] in live else ""
-                live_name = live[repo["name"]][1] if repo["name"] in live else ""
+                live_url = live[repo["name"]
+                                ][0] if repo["name"] in live else ""
+                live_name = live[repo["name"]
+                                 ][1] if repo["name"] in live else ""
 
                 if live_url != "" and live_name != "":
                     prepend = True
@@ -311,7 +339,7 @@ class ReadmeUpdater:
 
     def generate_issues(self, template="", repo=False):
         try:
-            ## issues
+            # issues
             issues_match = re.search(
                 "<ul><issues>(.*)</issues></ul>",
                 self.template if repo == False else template,
@@ -335,8 +363,10 @@ class ReadmeUpdater:
                     or self.config["user"] + "/" + str(repo) in issue["html_url"]
                 ):
                     issue_html = issues_template
-                    issue_html = issue_html.replace("{issue_url}", issue["html_url"])
-                    issue_html = issue_html.replace("{issue_title}", issue["title"])
+                    issue_html = issue_html.replace(
+                        "{issue_url}", issue["html_url"])
+                    issue_html = issue_html.replace(
+                        "{issue_title}", issue["title"])
                     issue_html = issue_html.replace(
                         "{updated_at}", issue["updated_at"].split("T")[0]
                     )
@@ -373,7 +403,7 @@ class ReadmeUpdater:
 
     def generate_prs(self, template="", repo=False):
         try:
-            ## prs
+            # prs
             prs_match = re.search(
                 "<ul><prs>(.*)</prs></ul>",
                 self.template if repo == False else template,
@@ -401,7 +431,8 @@ class ReadmeUpdater:
                     added += 1
 
             if repo == False:
-                self.template = self.template.replace("{pr_count}", str(len(self.prs)))
+                self.template = self.template.replace(
+                    "{pr_count}", str(len(self.prs)))
 
                 self.template = re.sub(
                     "<ul><prs>(.*)</prs></ul>",
@@ -428,9 +459,9 @@ class ReadmeUpdater:
     def generate_recent_activity(self, template="", repo=False):
         try:
             if len(self.recent_activity) == 0:
-                headers = {"Authorization": "token " + self.token}
-                res = requests.get(self.config["events_url"], headers=headers)
-                if res.status_code == requests.codes.ok:
+                res = self.web_request_retry(
+                    self.config["events_url"])
+                if res != False:
                     self.recent_activity = res.json()
                 else:
                     return False
@@ -450,7 +481,8 @@ class ReadmeUpdater:
                 if num == 5:
                     break
 
-                # print("generate_recent_activity " + self.config["user"] + "/" + str(repo) + " == " + recent["repo"]["name"])
+                self.log("generate_recent_activity " +
+                         self.config["user"] + "/" + str(repo) + " == " + recent["repo"]["name"])
 
                 if (
                     repo == False
@@ -469,15 +501,17 @@ class ReadmeUpdater:
                         recent_html += recent_h
                         added += 1
                     elif recent["type"] == "PushEvent":
-                        recent_h = recent_h.replace(
-                            "{recent_activity_url}",
-                            recent["payload"]["commits"][0]["url"],
-                        )
-                        recent_h = recent_h.replace(
-                            "{recent_activity_title}",
-                            recent["payload"]["commits"][0]["message"],
-                        )
-                        recent_html += recent_h
+                        self.log(pprint.pformat(recent))
+                        if len(recent["payload"]["commits"]) > 0:
+                            recent_h = recent_h.replace(
+                                "{recent_activity_url}",
+                                recent["payload"]["commits"][0]["url"],
+                            )
+                            recent_h = recent_h.replace(
+                                "{recent_activity_title}",
+                                recent["payload"]["commits"][0]["message"],
+                            )
+                            recent_html += recent_h
                         added += 1
                     elif recent["type"] == "CreateEvent":
                         recent_h = recent_h.replace(
@@ -528,9 +562,8 @@ class ReadmeUpdater:
 
     def generate_gists(self):
         try:
-            headers = {"Authorization": "token " + self.token}
-            res = requests.get(self.config["gists_url"], headers=headers)
-            if res.status_code == requests.codes.ok:
+            res = self.web_request_retry(self.config["gists_url"])
+            if res != False:
                 gists = res.json()
 
                 gists_match = re.search(
@@ -542,8 +575,10 @@ class ReadmeUpdater:
 
                 for gist in gists:
                     gist_html = gists_template
-                    gist_html = gist_html.replace("{gist_url}", gist["html_url"])
-                    gist_html = gist_html.replace("{gist_title}", gist["description"])
+                    gist_html = gist_html.replace(
+                        "{gist_url}", gist["html_url"])
+                    gist_html = gist_html.replace(
+                        "{gist_title}", gist["description"])
                     gists_html += gist_html
 
                 self.template = re.sub(

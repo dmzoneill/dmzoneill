@@ -20,6 +20,10 @@ on:
         required: false
         type: string
         default: "false"
+      pling:
+        required: false
+        type: string
+        default: "false"
       validate-all:
         required: false
         type: boolean

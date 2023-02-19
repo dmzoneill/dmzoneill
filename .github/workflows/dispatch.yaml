@@ -62,6 +62,7 @@ jobs:
           VALIDATE_PHP_PSALM: false
           DEFAULT_BRANCH: "main"
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          JAVASCRIPT_ES_CONFIG_FILE: .eslintrc.json
           
   basic-version-bump:
     if: inputs.basic != 'false'

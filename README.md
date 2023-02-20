@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-20/02/2023 00:35:49-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-20/02/2023 22:36:03-brightgreen" height='28'/>
 
 <table>
   <tr>
@@ -8,7 +8,7 @@
       <h3>Pull Requests (1)</h3>
       <ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/pull/4'>Update Dockerfile</a> 2023-01-24</li></ul>
       <h3>Recent Acivity</h3>
-      <ul><li><a href='https://api.github.com/repos/dmzoneill/Chuckbot/commits/e633116f0862c58e1be899461c9cc9679e93d2d0'>Update readme</a></li><li><a href='https://api.github.com/repos/dmzoneill/Chuckbot/commits/4867afbf049310cdb54c06cb1d9cd150fe308332'>Update readme</a></li><li><a href='https://api.github.com/repos/dmzoneill/Chuckbot/commits/016c3e927280588ae2afbf50342b6bbb5e0bdaa3'>meme fix</a></li><li><a href='https://api.github.com/repos/dmzoneill/Chuckbot/commits/440a0da8528ac6f03585e34732cf49816b990943'>meme fix</a></li><li><a href='https://api.github.com/repos/dmzoneill/dmzoneill/commits/5acdc611be4e79275e284569f71191a7433b716f'>Update dispatch.yaml</a></li></ul>
+      <ul><li><a href='https://api.github.com/repos/dmzoneill/rh-otp-auto-connect/commits/79197ac8e0d360f32bcc47834579ec14a34b8dbe'>Update readme</a></li><li><a href='https://api.github.com/repos/dmzoneill/rh-otp-auto-connect/commits/20862a0051c665b808e02447728d711725219897'>Update readme</a></li><li><a href='dmzoneill/rh-otp-auto-connect'>https://api.github.com/repos/dmzoneill/rh-otp-auto-connect</a></li><li><a href='https://api.github.com/repos/dmzoneill/Chuckbot/commits/e633116f0862c58e1be899461c9cc9679e93d2d0'>Update readme</a></li><li><a href='https://api.github.com/repos/dmzoneill/Chuckbot/commits/4867afbf049310cdb54c06cb1d9cd150fe308332'>Update readme</a></li></ul>
       <h3>Gists</h3>
       <ul><li><a href='https://gist.github.com/d13d88b16d4d0aa90cb108a00ab3cf01'>10GB tuning</a></li><li><a href='https://gist.github.com/575ba9c32375c41cb1041e9064de0678'>Synology 108tb limit bypass</a></li><li><a href='https://gist.github.com/cbc75e502dbe2b78651f68d6320b714a'>AA active queries</a></li><li><a href='https://gist.github.com/faaa84782eaed4d2dc28ad55c19119ee'>PHP Paypal Instant Payment Notification</a></li></ul>
     </td>
@@ -42,11 +42,11 @@
   </thead>
   <tbody>
     <tr><td><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript'  height='20px'/></td><td>8760381</td>
-<td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>498438</td>
+<td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>499985</td>
 <td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>310889</td>
 <td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>1367495</td>
 </tr><tr>
-<td><img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML'  height='20px'/></td><td>13061495</td>
+<td><img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML'  height='20px'/></td><td>13061661</td>
 <td><img src='https://camo.githubusercontent.com/4ec342876a40b53ffc6230a41196528690f9f42b1098fd354df46c649720b4c6/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d446f636b657226636f6c6f723d323439364544266c6f676f3d446f636b6572266c6f676f436f6c6f723d464646464646266c6162656c3d' title='Dockerfile'  height='20px'/></td><td>5152</td>
 <td><img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS'  height='20px'/></td><td>5837924</td>
 <td><img src='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' title='Java'  height='20px'/></td><td>2064091</td>
@@ -123,22 +123,6 @@
   <tbody>
     <tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/Chuckbot' title='Chuckbot'>Chuckbot</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' height='20px'/</p>
-              <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://api.github.com/repos/dmzoneill/Chuckbot/commits/e633116f0862c58e1be899461c9cc9679e93d2d0'>Update readme</a></li><li><a href='https://api.github.com/repos/dmzoneill/Chuckbot/commits/4867afbf049310cdb54c06cb1d9cd150fe308332'>Update readme</a></li><li><a href='https://api.github.com/repos/dmzoneill/Chuckbot/commits/016c3e927280588ae2afbf50342b6bbb5e0bdaa3'>meme fix</a></li><li><a href='https://api.github.com/repos/dmzoneill/Chuckbot/commits/440a0da8528ac6f03585e34732cf49816b990943'>meme fix</a></li><li><a href='https://api.github.com/repos/dmzoneill/Chuckbot/commits/7d2502f991ed6b2f29441d8e92434472b719cdde'>Update .eslintrc.json</a></li></ul></p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-            </td>
-            <td>
-              <p><a href='https://wa.me/96592226837' title='Chat with chuck'>Chat with chuck</a></p>
-            </td>
-            <td align="center">
-              <a href='https://github.com/dmzoneill/Chuckbot/actions'><img src='https://github.com/dmzoneill//Chuckbot/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2022-12-08</p>
-            </td>
-        </tr>
-<tr>
-            <td>
               <p><h2><a href='https://github.com/dmzoneill/dmzoneill' title='dmzoneill'>dmzoneill</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' height='20px'/</p>
               <p>Apache License 2.0</p>
               <p><h4>Recent Activity</h4><ul><li><a href='https://api.github.com/repos/dmzoneill/dmzoneill/commits/5acdc611be4e79275e284569f71191a7433b716f'>Update dispatch.yaml</a></li><li><a href='https://api.github.com/repos/dmzoneill/dmzoneill/commits/0f03cfdadf08d40b2ee43227100ad946b9a35247'>Update dispatch.yaml</a></li><li><a href='https://api.github.com/repos/dmzoneill/dmzoneill/commits/b3709ac6d16dc8179c7f1a5d4bb2190a08e5a1b9'>Update dispatch.yaml</a></li><li><a href='https://api.github.com/repos/dmzoneill/dmzoneill/commits/4fd83d3475c5068a49b523c67cd9235dd444a511'>Update dispatch.yaml</a></li><li><a href='https://api.github.com/repos/dmzoneill/dmzoneill/commits/88aea780cc4105b8d1efc9d6e52903bf9f1d5f53'>Create .eslintrc.json</a></li></ul></p>
@@ -151,6 +135,22 @@
             <td align="center">
               <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
               <p>2023-01-16</p>
+            </td>
+        </tr>
+<tr>
+            <td>
+              <p><h2><a href='https://github.com/dmzoneill/Chuckbot' title='Chuckbot'>Chuckbot</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' height='20px'/</p>
+              <p>Apache License 2.0</p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://api.github.com/repos/dmzoneill/Chuckbot/commits/e633116f0862c58e1be899461c9cc9679e93d2d0'>Update readme</a></li><li><a href='https://api.github.com/repos/dmzoneill/Chuckbot/commits/4867afbf049310cdb54c06cb1d9cd150fe308332'>Update readme</a></li><li><a href='https://api.github.com/repos/dmzoneill/Chuckbot/commits/016c3e927280588ae2afbf50342b6bbb5e0bdaa3'>meme fix</a></li><li><a href='https://api.github.com/repos/dmzoneill/Chuckbot/commits/440a0da8528ac6f03585e34732cf49816b990943'>meme fix</a></li><li><a href='https://api.github.com/repos/dmzoneill/Chuckbot/commits/7d2502f991ed6b2f29441d8e92434472b719cdde'>Update .eslintrc.json</a></li></ul></p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+            </td>
+            <td>
+              <p><a href='https://wa.me/96592226837' title='Chat with chuck'>Chat with chuck</a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/Chuckbot/actions'><img src='https://github.com/dmzoneill//Chuckbot/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2022-12-08</p>
             </td>
         </tr>
 <tr>
@@ -599,7 +599,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump de
             <td>
               <p><h2><a href='https://github.com/dmzoneill/rh-otp-auto-connect' title='rh-otp-auto-connect'>rh-otp-auto-connect</a> (2021)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' height='20px'/> <img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><ul></ul></p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://api.github.com/repos/dmzoneill/rh-otp-auto-connect/commits/79197ac8e0d360f32bcc47834579ec14a34b8dbe'>Update readme</a></li><li><a href='https://api.github.com/repos/dmzoneill/rh-otp-auto-connect/commits/20862a0051c665b808e02447728d711725219897'>Update readme</a></li><li><a href='dmzoneill/rh-otp-auto-connect'>https://api.github.com/repos/dmzoneill/rh-otp-auto-connect</a></li></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>

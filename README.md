@@ -1,14 +1,14 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-23/02/2023 00:34:25-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-24/02/2023 00:33:22-brightgreen" height='28'/>
 
 <table>
   <tr>
     <td>
-      <h3>Issues (5)</h3>
+      <h3>Issues (6)</h3>
       <li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/5'>FR: ability to filter results</a> 2023-01-24</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/3'>docker-compose</a> 2023-01-24</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/1'>Docker Build</a> 2023-01-24</li><li><a href='https://github.com/dmzoneill/php-binance-bot/issues/1'>Causes my IP to be blocked </a> 2023-01-24</li>
-      <h3>Pull Requests (1)</h3>
-      <ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/pull/4'>Update Dockerfile</a> 2023-01-24</li></ul>
+      <h3>Pull Requests (2)</h3>
+      <ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/pull/4'>Update Dockerfile</a> 2023-01-24</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/7'>Bump golang.org/x/text from 0.3.7 to 0.3.8 in /backend</a> 2023-02-23</li></ul>
       <h3>Recent Acivity</h3>
-      <ul><li><a href='Change baseurl for AA in FE container'>https://github.com/RedHatInsights/tower-analytics-frontend/pull/926</a></li><li><a href='RedHatInsights/tower-analytics-frontend'>https://api.github.com/repos/RedHatInsights/tower-analytics-frontend</a></li><li><a href='https://api.github.com/repos/dmzoneill/rh-otp-auto-connect/commits/1b9c1e5312e41ecfaa2ada210e35a224b2a7e8a9'>Update rhtoken</a></li><li><a href='https://api.github.com/repos/dmzoneill/rh-otp-auto-connect/commits/79197ac8e0d360f32bcc47834579ec14a34b8dbe'>Update readme</a></li><li><a href='https://api.github.com/repos/dmzoneill/rh-otp-auto-connect/commits/20862a0051c665b808e02447728d711725219897'>Update readme</a></li></ul>
+      <ul><li><a href='https://api.github.com/repos/fullsushidev/tower-analytics-frontend/commits/75c05634519a013ab48adcd851609ea5dd593110'>pagination, parallelization and cypress version bump</a></li><li><a href='https://api.github.com/repos/fullsushidev/tower-analytics-frontend/commits/ff8af952df48bfb4ef847e84fa78da68cc3ca135'>pagination, parallelization and cypress version bump</a></li><li><a href='https://api.github.com/repos/fullsushidev/tower-analytics-frontend/commits/a7f2ed4bef2cfcd72dd895b23fb4471b4e96ed61'>test disalbing</a></li><li><a href='https://api.github.com/repos/fullsushidev/tower-analytics-frontend/commits/f2a493d13087acb1e2ae80d1b01b1ef1f89bae0e'>Change baseurl for AA in FE container</a></li><li><a href='https://api.github.com/repos/fullsushidev/tower-analytics-frontend/commits/07e08a0eee1ba49c89dbc360e29e711107660b82'>using PageTable component</a></li></ul>
       <h3>Gists</h3>
       <ul><li><a href='https://gist.github.com/d13d88b16d4d0aa90cb108a00ab3cf01'>10GB tuning</a></li><li><a href='https://gist.github.com/575ba9c32375c41cb1041e9064de0678'>Synology 108tb limit bypass</a></li><li><a href='https://gist.github.com/cbc75e502dbe2b78651f68d6320b714a'>AA active queries</a></li><li><a href='https://gist.github.com/faaa84782eaed4d2dc28ad55c19119ee'>PHP Paypal Instant Payment Notification</a></li></ul>
     </td>
@@ -489,7 +489,7 @@ updated-dependencies:
 
 Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump decode-uri-component from 0.2.0 to 0.2.2 in /frontend'>https://github.com/dmzoneill/aa-dev-prod-watcher/pull/2</a></li><li><a href='Bump terser from 5.13.1 to 5.16.3 in /frontend'>https://github.com/dmzoneill/aa-dev-prod-watcher/pull/5</a></li></ul></p>
               <p><ul></ul></p>
-              <p><ul></ul></p>
+              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/7'>Bump golang.org/x/text from 0.3.7 to 0.3.8 in /backend</a> 2022-06-13</li></ul></p>
             </td>
             <td>
               <p><a href='' title=''></a></p>

@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-25/02/2023 00:34:13-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-25/02/2023 10:55:43-brightgreen" height='28'/>
 
 <table>
   <tr>
@@ -6,9 +6,21 @@
       <h3>Issues (6)</h3>
       <li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/5'>FR: ability to filter results</a> 2023-01-24</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/3'>docker-compose</a> 2023-01-24</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/1'>Docker Build</a> 2023-01-24</li><li><a href='https://github.com/dmzoneill/php-binance-bot/issues/1'>Causes my IP to be blocked </a> 2023-01-24</li>
       <h3>Pull Requests (2)</h3>
-      <ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/pull/4'>Update Dockerfile</a> 2023-01-24</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/7'>Bump golang.org/x/text from 0.3.7 to 0.3.8 in /backend</a> 2023-02-23</li></ul>
+      <ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/pull/4'>Update Dockerfile</a> 2023-01-24</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/8'>Bump golang.org/x/net from 0.0.0-20220513224357-95641704303c to 0.7.0 in /backend</a> 2023-02-25</li></ul>
       <h3>Recent Acivity</h3>
-      <ul><li><a href='https://api.github.com/repos/fullsushidev/tower-analytics-frontend/commits/2eeca559a846a98a0eb7ff10953a120e8c28f45f'>pagination, parallelization and cypress version bump</a></li><li><a href='https://api.github.com/repos/fullsushidev/tower-analytics-frontend/commits/200fdd47fae25b2b9d085a192bfe4e93ea11c10f'>pagination, parallelization and cypress version bump</a></li><li><a href='https://api.github.com/repos/fullsushidev/tower-analytics-frontend/commits/251db047c5f761abc8e4f53ffa0fe55ac4259ab2'>pagination, parallelization and cypress version bump</a></li><li><a href='https://api.github.com/repos/dmzoneill/rh-otp-auto-connect/commits/6af4b6bc421dc0fd7f012eefda6865b24ad31978'>Update readme</a></li><li><a href='https://api.github.com/repos/dmzoneill/rh-otp-auto-connect/commits/b2158c827d12443202ffab21e8b537b61a6cb1c5'>Update workflow</a></li></ul>
+      <ul><li><a href='https://api.github.com/repos/dmzoneill/aa-dev-prod-watcher/commits/6208c3a165afb16f7247c82685e9936061d87732'>Bump golang.org/x/text from 0.3.7 to 0.3.8 in /backend
+
+Bumps [golang.org/x/text](https://github.com/golang/text) from 0.3.7 to 0.3.8.
+- [Release notes](https://github.com/golang/text/releases)
+- [Commits](https://github.com/golang/text/compare/v0.3.7...v0.3.8)
+
+---
+updated-dependencies:
+- dependency-name: golang.org/x/text
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump golang.org/x/text from 0.3.7 to 0.3.8 in /backend'>https://github.com/dmzoneill/aa-dev-prod-watcher/pull/7</a></li><li><a href='https://api.github.com/repos/fullsushidev/tower-analytics-frontend/commits/2eeca559a846a98a0eb7ff10953a120e8c28f45f'>pagination, parallelization and cypress version bump</a></li><li><a href='https://api.github.com/repos/fullsushidev/tower-analytics-frontend/commits/200fdd47fae25b2b9d085a192bfe4e93ea11c10f'>pagination, parallelization and cypress version bump</a></li><li><a href='https://api.github.com/repos/fullsushidev/tower-analytics-frontend/commits/251db047c5f761abc8e4f53ffa0fe55ac4259ab2'>pagination, parallelization and cypress version bump</a></li></ul>
       <h3>Gists</h3>
       <ul><li><a href='https://gist.github.com/d13d88b16d4d0aa90cb108a00ab3cf01'>10GB tuning</a></li><li><a href='https://gist.github.com/575ba9c32375c41cb1041e9064de0678'>Synology 108tb limit bypass</a></li><li><a href='https://gist.github.com/cbc75e502dbe2b78651f68d6320b714a'>AA active queries</a></li><li><a href='https://gist.github.com/faaa84782eaed4d2dc28ad55c19119ee'>PHP Paypal Instant Payment Notification</a></li></ul>
     </td>
@@ -462,7 +474,19 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/aa-dev-prod-watcher' title='aa-dev-prod-watcher'>aa-dev-prod-watcher</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' title='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' height='20px'/> <img src='https://camo.githubusercontent.com/4ec342876a40b53ffc6230a41196528690f9f42b1098fd354df46c649720b4c6/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d446f636b657226636f6c6f723d323439364544266c6f676f3d446f636b6572266c6f676f436f6c6f723d464646464646266c6162656c3d' title='https://camo.githubusercontent.com/4ec342876a40b53ffc6230a41196528690f9f42b1098fd354df46c649720b4c6/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d446f636b657226636f6c6f723d323439364544266c6f676f3d446f636b6572266c6f676f436f6c6f723d464646464646266c6162656c3d' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://api.github.com/repos/dmzoneill/aa-dev-prod-watcher/commits/4248c69c771d865dfb5cf9b6ef278bf8fdd086e1'>Bump github.com/labstack/echo/v4 from 4.7.2 to 4.9.0 in /backend
+              <p><h4>Recent Activity</h4><ul><li><a href='https://api.github.com/repos/dmzoneill/aa-dev-prod-watcher/commits/6208c3a165afb16f7247c82685e9936061d87732'>Bump golang.org/x/text from 0.3.7 to 0.3.8 in /backend
+
+Bumps [golang.org/x/text](https://github.com/golang/text) from 0.3.7 to 0.3.8.
+- [Release notes](https://github.com/golang/text/releases)
+- [Commits](https://github.com/golang/text/compare/v0.3.7...v0.3.8)
+
+---
+updated-dependencies:
+- dependency-name: golang.org/x/text
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump golang.org/x/text from 0.3.7 to 0.3.8 in /backend'>https://github.com/dmzoneill/aa-dev-prod-watcher/pull/7</a></li><li><a href='https://api.github.com/repos/dmzoneill/aa-dev-prod-watcher/commits/4248c69c771d865dfb5cf9b6ef278bf8fdd086e1'>Bump github.com/labstack/echo/v4 from 4.7.2 to 4.9.0 in /backend
 
 Bumps [github.com/labstack/echo/v4](https://github.com/labstack/echo) from 4.7.2 to 4.9.0.
 - [Release notes](https://github.com/labstack/echo/releases)
@@ -487,9 +511,9 @@ updated-dependencies:
   dependency-type: indirect
 ...
 
-Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump decode-uri-component from 0.2.0 to 0.2.2 in /frontend'>https://github.com/dmzoneill/aa-dev-prod-watcher/pull/2</a></li><li><a href='Bump terser from 5.13.1 to 5.16.3 in /frontend'>https://github.com/dmzoneill/aa-dev-prod-watcher/pull/5</a></li></ul></p>
+Signed-off-by: dependabot[bot] <support@github.com></a></li></ul></p>
               <p><ul></ul></p>
-              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/7'>Bump golang.org/x/text from 0.3.7 to 0.3.8 in /backend</a> 2022-06-13</li></ul></p>
+              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/8'>Bump golang.org/x/net from 0.0.0-20220513224357-95641704303c to 0.7.0 in /backend</a> 2022-06-13</li></ul></p>
             </td>
             <td>
               <p><a href='' title=''></a></p>

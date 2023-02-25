@@ -136,8 +136,7 @@ class ReadmeUpdater:
 
     def get_repo_issues(self, repo):
         try:
-            url = self.config["user_repos_url"] + \
-                "/" + repo + "/issues?state=open"
+            url = self.config["user_repos_url"] + "/" + repo + "/issues?state=open"
             self.log(url)
             res = self.web_request_retry(url)
             if res != False:
@@ -151,8 +150,7 @@ class ReadmeUpdater:
 
     def get_repo_pull_requests(self, repo):
         try:
-            url = self.config["user_repos_url"] + \
-                "/" + repo + "/pulls?state=open"
+            url = self.config["user_repos_url"] + "/" + repo + "/pulls?state=open"
             self.log(url)
             res = self.web_request_retry(url)
             if res != False:
@@ -166,8 +164,7 @@ class ReadmeUpdater:
 
     def get_repo_languages(self, name):
         try:
-            languages_url = self.config["user_repos_url"] + \
-                "/" + name + "/languages"
+            languages_url = self.config["user_repos_url"] + "/" + name + "/languages"
             self.log(languages_url)
             languages = None
 
@@ -191,8 +188,7 @@ class ReadmeUpdater:
                 if lang not in self.total_lines_lang:
                     self.total_lines_lang[lang] = 0
                 self.total_lines_lang[lang] += languages[lang]
-                lang_percent[lang] = round(
-                    round(languages[lang] / lines, 2) * 100)
+                lang_percent[lang] = round(round(languages[lang] / lines, 2) * 100)
 
             language = ""
             for lang in lang_percent:
@@ -217,7 +213,7 @@ class ReadmeUpdater:
                         + "' height='20px'/> "
                     )
 
-            language = language[0: len(language) - 2]
+            language = language[0 : len(language) - 2]
 
             return language
         except:  # noqa
@@ -277,10 +273,8 @@ class ReadmeUpdater:
                 language = language if language is not False else repo["language"]
                 html_url = repo["html_url"]
                 name = repo["name"]
-                live_url = live[repo["name"]
-                                ][0] if repo["name"] in live else ""
-                live_name = live[repo["name"]
-                                 ][1] if repo["name"] in live else ""
+                live_url = live[repo["name"]][0] if repo["name"] in live else ""
+                live_name = live[repo["name"]][1] if repo["name"] in live else ""
 
                 if live_url != "" and live_name != "":
                     prepend = True
@@ -363,10 +357,8 @@ class ReadmeUpdater:
                     or self.config["user"] + "/" + str(repo) in issue["html_url"]
                 ):
                     issue_html = issues_template
-                    issue_html = issue_html.replace(
-                        "{issue_url}", issue["html_url"])
-                    issue_html = issue_html.replace(
-                        "{issue_title}", issue["title"])
+                    issue_html = issue_html.replace("{issue_url}", issue["html_url"])
+                    issue_html = issue_html.replace("{issue_title}", issue["title"])
                     issue_html = issue_html.replace(
                         "{updated_at}", issue["updated_at"].split("T")[0]
                     )
@@ -431,8 +423,7 @@ class ReadmeUpdater:
                     added += 1
 
             if repo == False:
-                self.template = self.template.replace(
-                    "{pr_count}", str(len(self.prs)))
+                self.template = self.template.replace("{pr_count}", str(len(self.prs)))
 
                 self.template = re.sub(
                     "<ul><prs>(.*)</prs></ul>",
@@ -456,11 +447,20 @@ class ReadmeUpdater:
             self.log(self.template)
             raise Exception("Failed generating prs")
 
+    def get_commit_html_url(self, url):
+        try:
+            res = self.web_request_retry(url)
+            if res != False:
+                return res.json()["html_url"]
+            else:
+                return False
+        except:  # noqa
+            return url
+
     def generate_recent_activity(self, template="", repo=False):
         try:
             if len(self.recent_activity) == 0:
-                res = self.web_request_retry(
-                    self.config["events_url"])
+                res = self.web_request_retry(self.config["events_url"])
                 if res != False:
                     self.recent_activity = res.json()
                 else:
@@ -481,8 +481,14 @@ class ReadmeUpdater:
                 if num == 5:
                     break
 
-                self.log("generate_recent_activity " +
-                         self.config["user"] + "/" + str(repo) + " == " + recent["repo"]["name"])
+                self.log(
+                    "generate_recent_activity "
+                    + self.config["user"]
+                    + "/"
+                    + str(repo)
+                    + " == "
+                    + recent["repo"]["name"]
+                )
 
                 if (
                     repo == False
@@ -505,7 +511,9 @@ class ReadmeUpdater:
                         if len(recent["payload"]["commits"]) > 0:
                             recent_h = recent_h.replace(
                                 "{recent_activity_url}",
-                                recent["payload"]["commits"][0]["url"],
+                                self.get_commit_html_url(
+                                    recent["payload"]["commits"][0]["url"]
+                                ),
                             )
                             recent_h = recent_h.replace(
                                 "{recent_activity_title}",
@@ -575,10 +583,8 @@ class ReadmeUpdater:
 
                 for gist in gists:
                     gist_html = gists_template
-                    gist_html = gist_html.replace(
-                        "{gist_url}", gist["html_url"])
-                    gist_html = gist_html.replace(
-                        "{gist_title}", gist["description"])
+                    gist_html = gist_html.replace("{gist_url}", gist["html_url"])
+                    gist_html = gist_html.replace("{gist_title}", gist["description"])
                     gists_html += gist_html
 
                 self.template = re.sub(

@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-27/02/2023 00:34:00-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-27/02/2023 18:53:37-brightgreen" height='28'/>
 
 <table>
   <tr>
@@ -8,7 +8,7 @@
       <h3>Pull Requests (2)</h3>
       <ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/pull/4'>Update Dockerfile</a> 2023-01-24</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/8'>Bump golang.org/x/net from 0.0.0-20220513224357-95641704303c to 0.7.0 in /backend</a> 2023-02-25</li></ul>
       <h3>Recent Acivity</h3>
-      <ul><li><a href='https://github.com/dmzoneill/strongapp-api/commit/f27e63701ee2049bf4386e65210ca160e06bfc86'>add github action and setup secret</a></li><li><a href='https://github.com/dmzoneill/strongapp-api/commit/2a5ae598b4944c9996de570db6fbb7b41c363782'>Update README.md</a></li><li><a href='dmzoneill/strong-api'>https://api.github.com/repos/dmzoneill/strong-api</a></li><li><a href='dmzoneill/strong-api'>https://api.github.com/repos/dmzoneill/strong-api</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/805ea19f7c50bceb042b4851ed358248e3766739'>get commit html url</a></li></ul>
+      <ul><li><a href='https://github.com/dmzoneill/strongapp-api/commit/b19dd1db1463af85592652cfe7feef9b3339c37f'>Create sub mds for actions</a></li><li><a href='https://github.com/fullsushidev/tower-analytics-frontend/commit/7f6646cf949aabd5f154f8811f143a36f4a1943b'>pagination, parallelization and cypress version bump</a></li><li><a href='https://github.com/fullsushidev/tower-analytics-frontend/commit/13bf39eff95a93cd41db4b7102e24040539f91f4'>pagination, parallelization and cypress version bump</a></li><li><a href='https://github.com/fullsushidev/tower-analytics-frontend/commit/8c780b0a2aa29903afda09336a7bfa2abadb0a05'>pagination, parallelization and cypress version bump</a></li><li><a href='https://github.com/fullsushidev/tower-analytics-frontend/commit/f85cc38e6892c292874f03d5026745e18f89b3b8'>pagination, parallelization and cypress version bump</a></li></ul>
       <h3>Gists</h3>
       <ul><li><a href='https://gist.github.com/d13d88b16d4d0aa90cb108a00ab3cf01'>10GB tuning</a></li><li><a href='https://gist.github.com/575ba9c32375c41cb1041e9064de0678'>Synology 108tb limit bypass</a></li><li><a href='https://gist.github.com/cbc75e502dbe2b78651f68d6320b714a'>AA active queries</a></li><li><a href='https://gist.github.com/faaa84782eaed4d2dc28ad55c19119ee'>PHP Paypal Instant Payment Notification</a></li></ul>
     </td>
@@ -334,7 +334,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/strongapp-api' title='strongapp-api'>strongapp-api</a> (2023)</h2></p><p></p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/strongapp-api/commit/f27e63701ee2049bf4386e65210ca160e06bfc86'>add github action and setup secret</a></li></ul></p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/strongapp-api/commit/b19dd1db1463af85592652cfe7feef9b3339c37f'>Create sub mds for actions</a></li><li><a href='https://github.com/dmzoneill/strongapp-api/commit/f27e63701ee2049bf4386e65210ca160e06bfc86'>add github action and setup secret</a></li></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -503,19 +503,7 @@ updated-dependencies:
   dependency-type: indirect
 ...
 
-Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump github.com/labstack/echo/v4 from 4.7.2 to 4.9.0 in /backend'>https://github.com/dmzoneill/aa-dev-prod-watcher/pull/6</a></li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/commit/196fbb25cbf93f19d47b11a2ba411406e9721655'>Bump decode-uri-component from 0.2.0 to 0.2.2 in /frontend
-
-Bumps [decode-uri-component](https://github.com/SamVerschueren/decode-uri-component) from 0.2.0 to 0.2.2.
-- [Release notes](https://github.com/SamVerschueren/decode-uri-component/releases)
-- [Commits](https://github.com/SamVerschueren/decode-uri-component/compare/v0.2.0...v0.2.2)
-
----
-updated-dependencies:
-- dependency-name: decode-uri-component
-  dependency-type: indirect
-...
-
-Signed-off-by: dependabot[bot] <support@github.com></a></li></ul></p>
+Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump github.com/labstack/echo/v4 from 4.7.2 to 4.9.0 in /backend'>https://github.com/dmzoneill/aa-dev-prod-watcher/pull/6</a></li></ul></p>
               <p><ul></ul></p>
               <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/8'>Bump golang.org/x/net from 0.0.0-20220513224357-95641704303c to 0.7.0 in /backend</a> 2022-06-13</li></ul></p>
             </td>

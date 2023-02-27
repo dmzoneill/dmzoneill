@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-26/02/2023 00:37:41-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-27/02/2023 00:34:00-brightgreen" height='28'/>
 
 <table>
   <tr>
@@ -8,19 +8,7 @@
       <h3>Pull Requests (2)</h3>
       <ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/pull/4'>Update Dockerfile</a> 2023-01-24</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/8'>Bump golang.org/x/net from 0.0.0-20220513224357-95641704303c to 0.7.0 in /backend</a> 2023-02-25</li></ul>
       <h3>Recent Acivity</h3>
-      <ul><li><a href='https://github.com/dmzoneill/dmzoneill/commit/805ea19f7c50bceb042b4851ed358248e3766739'>get commit html url</a></li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/commit/6208c3a165afb16f7247c82685e9936061d87732'>Bump golang.org/x/text from 0.3.7 to 0.3.8 in /backend
-
-Bumps [golang.org/x/text](https://github.com/golang/text) from 0.3.7 to 0.3.8.
-- [Release notes](https://github.com/golang/text/releases)
-- [Commits](https://github.com/golang/text/compare/v0.3.7...v0.3.8)
-
----
-updated-dependencies:
-- dependency-name: golang.org/x/text
-  dependency-type: indirect
-...
-
-Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump golang.org/x/text from 0.3.7 to 0.3.8 in /backend'>https://github.com/dmzoneill/aa-dev-prod-watcher/pull/7</a></li><li><a href='https://github.com/fullsushidev/tower-analytics-frontend/commit/2eeca559a846a98a0eb7ff10953a120e8c28f45f'>pagination, parallelization and cypress version bump</a></li><li><a href='https://github.com/fullsushidev/tower-analytics-frontend/commit/200fdd47fae25b2b9d085a192bfe4e93ea11c10f'>pagination, parallelization and cypress version bump</a></li></ul>
+      <ul><li><a href='https://github.com/dmzoneill/strongapp-api/commit/f27e63701ee2049bf4386e65210ca160e06bfc86'>add github action and setup secret</a></li><li><a href='https://github.com/dmzoneill/strongapp-api/commit/2a5ae598b4944c9996de570db6fbb7b41c363782'>Update README.md</a></li><li><a href='dmzoneill/strong-api'>https://api.github.com/repos/dmzoneill/strong-api</a></li><li><a href='dmzoneill/strong-api'>https://api.github.com/repos/dmzoneill/strong-api</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/805ea19f7c50bceb042b4851ed358248e3766739'>get commit html url</a></li></ul>
       <h3>Gists</h3>
       <ul><li><a href='https://gist.github.com/d13d88b16d4d0aa90cb108a00ab3cf01'>10GB tuning</a></li><li><a href='https://gist.github.com/575ba9c32375c41cb1041e9064de0678'>Synology 108tb limit bypass</a></li><li><a href='https://gist.github.com/cbc75e502dbe2b78651f68d6320b714a'>AA active queries</a></li><li><a href='https://gist.github.com/faaa84782eaed4d2dc28ad55c19119ee'>PHP Paypal Instant Payment Notification</a></li></ul>
     </td>
@@ -343,6 +331,22 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump go
         </tr>
 
 </tbody></table><h2>2023</h2><table width='100%' style='width:100%'><thead><tr><th>Project</th><th>View</th><th>Status</th></tr></thead><tbody><tr>
+            <td>
+              <p><h2><a href='https://github.com/dmzoneill/strongapp-api' title='strongapp-api'>strongapp-api</a> (2023)</h2></p><p></p>
+              <p>Apache License 2.0</p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/strongapp-api/commit/f27e63701ee2049bf4386e65210ca160e06bfc86'>add github action and setup secret</a></li></ul></p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+            </td>
+            <td>
+              <p><a href='' title=''></a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/strongapp-api/actions'><img src='https://github.com/dmzoneill//strongapp-api/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2023-02-26</p>
+            </td>
+        </tr>
+<tr>
             <td>
               <p><h2><a href='https://github.com/dmzoneill/lm051-cs4001-computer-applications-robocode-reefer' title='lm051-cs4001-computer-applications-robocode-reefer'>lm051-cs4001-computer-applications-robocode-reefer</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' title='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' height='20px'/</p>
               <p>Apache License 2.0</p>

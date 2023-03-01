@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-28/02/2023 08:25:29-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-01/03/2023 00:38:34-brightgreen" height='28'/>
 
 <table>
   <tr>
@@ -8,7 +8,7 @@
       <h3>Pull Requests (2)</h3>
       <ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/pull/4'>Update Dockerfile</a> 2023-01-24</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/8'>Bump golang.org/x/net from 0.0.0-20220513224357-95641704303c to 0.7.0 in /backend</a> 2023-02-25</li></ul>
       <h3>Recent Acivity</h3>
-      <ul><li><a href='https://github.com/dmzoneill/strongapp-api/commit/532fde68c49963362fae7af21b19360b4ae5cab9'>Fix links</a></li><li><a href='https://github.com/dmzoneill/strongapp-api/commit/0a7f888874e53fd230700671e1261d1fecd3864d'>Python exmaple of logging in</a></li><li><a href='https://github.com/dmzoneill/strongapp-api/commit/b19dd1db1463af85592652cfe7feef9b3339c37f'>Create sub mds for actions</a></li><li><a href='https://github.com/fullsushidev/tower-analytics-frontend/commit/7f6646cf949aabd5f154f8811f143a36f4a1943b'>pagination, parallelization and cypress version bump</a></li><li><a href='https://github.com/fullsushidev/tower-analytics-frontend/commit/13bf39eff95a93cd41db4b7102e24040539f91f4'>pagination, parallelization and cypress version bump</a></li></ul>
+      <ul></ul>
       <h3>Gists</h3>
       <ul><li><a href='https://gist.github.com/d13d88b16d4d0aa90cb108a00ab3cf01'>10GB tuning</a></li><li><a href='https://gist.github.com/575ba9c32375c41cb1041e9064de0678'>Synology 108tb limit bypass</a></li><li><a href='https://gist.github.com/cbc75e502dbe2b78651f68d6320b714a'>AA active queries</a></li><li><a href='https://gist.github.com/faaa84782eaed4d2dc28ad55c19119ee'>PHP Paypal Instant Payment Notification</a></li></ul>
     </td>
@@ -125,7 +125,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/dmzoneill' title='dmzoneill'>dmzoneill</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/dmzoneill/commit/805ea19f7c50bceb042b4851ed358248e3766739'>get commit html url</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/5acdc611be4e79275e284569f71191a7433b716f'>Update dispatch.yaml</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/0f03cfdadf08d40b2ee43227100ad946b9a35247'>Update dispatch.yaml</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/b3709ac6d16dc8179c7f1a5d4bb2190a08e5a1b9'>Update dispatch.yaml</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/4fd83d3475c5068a49b523c67cd9235dd444a511'>Update dispatch.yaml</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -141,7 +141,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/Chuckbot' title='Chuckbot'>Chuckbot</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/Chuckbot/commit/e633116f0862c58e1be899461c9cc9679e93d2d0'>Update readme</a></li><li><a href='https://github.com/dmzoneill/Chuckbot/commit/4867afbf049310cdb54c06cb1d9cd150fe308332'>Update readme</a></li><li><a href='https://github.com/dmzoneill/Chuckbot/commit/016c3e927280588ae2afbf50342b6bbb5e0bdaa3'>meme fix</a></li><li><a href='https://github.com/dmzoneill/Chuckbot/commit/440a0da8528ac6f03585e34732cf49816b990943'>meme fix</a></li><li><a href='https://github.com/dmzoneill/Chuckbot/commit/7d2502f991ed6b2f29441d8e92434472b719cdde'>Update .eslintrc.json</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -157,7 +157,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/filebot-nautilus' title='filebot-nautilus'>filebot-nautilus</a> (2016)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/filebot-nautilus/commit/4beeb8e24c81c37a156ec5c25bfa31e036f94740'>Update main.yml</a></li><li><a href='https://github.com/dmzoneill/filebot-nautilus/commit/8ee12e86f3e01dcdcf3a056c24977ceddaa42bbc'>Bump to 0.1.11</a></li><li><a href='https://github.com/dmzoneill/filebot-nautilus/commit/98c97095b61fd9ac2bf10f39ef88172288cbe374'>Thread pool</a></li><li><a href='https://github.com/dmzoneill/filebot-nautilus/commit/7b83d504c6f75b39b2cb4b5fa7bae424b677322b'>Updates for update_file_info_full</a></li><li><a href='https://github.com/dmzoneill/filebot-nautilus/commit/9cf4b7aad81115b7b242d891eabc44cfca0059f4'>glib callback</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -173,7 +173,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/pling-publisher' title='pling-publisher'>pling-publisher</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/pling-publisher/commit/3387d08d4dbf30e354ee4534235a558f318f4d88'>Update main.yml</a></li><li><a href='https://github.com/dmzoneill/pling-publisher/commit/329d9fa5a4fb9a4bc736a9ca2592e7b077abe6f2'>add github action and setup secret</a></li><li><a href='https://github.com/dmzoneill/pling-publisher/commit/e36e5d32b2b5a75fdc41e3035da2de16df9b1c2f'>Bump to 0.1.2</a></li><li><a href='https://github.com/dmzoneill/pling-publisher/commit/f3d8c59427484d5acc6f46d026f86782204606c5'>0.1.1</a></li><li><a href='dmzoneill/pling-publisher'>https://api.github.com/repos/dmzoneill/pling-publisher</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -189,7 +189,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/gnome-extension-publisher' title='gnome-extension-publisher'>gnome-extension-publisher</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/gnome-extension-publisher/commit/efd12f59afb4aeae9ca5f23bcf12668495fb6682'>0.1.1</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -205,7 +205,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/curriculum-vitae' title='curriculum-vitae'>curriculum-vitae</a> (2020)</h2></p><p><img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white' title='https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white' title='https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/_-Visual Basic .NET -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Visual Basic .NET -11DDDD.svg?style=for-the-badge' height='20px'/> <img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' height='20px'/> <img src='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' title='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' height='20px'/> <img src='https://img.shields.io/badge/perl-%2339457E.svg?style=for-the-badge&logo=perl&logoColor=white' title='https://img.shields.io/badge/perl-%2339457E.svg?style=for-the-badge&logo=perl&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white' title='https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' height='20px'/> <img src='https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white' title='https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/_-COBOL -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-COBOL -11DDDD.svg?style=for-the-badge' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/curriculum-vitae/commit/ace87b4c9a975763a31c4cb7e543f2df70b8e5e3'>C lin</a></li><li><a href='https://github.com/dmzoneill/curriculum-vitae/commit/90e6e3b05c92635c7c897a27826f980e5c63ec1b'>C lin</a></li><li><a href='https://github.com/dmzoneill/curriculum-vitae/commit/b32d21ec6fe417ba0fd6d224fd078b2de544c5ff'>asp, vb, cobol, c</a></li><li><a href='https://github.com/dmzoneill/curriculum-vitae/commit/2c783b123878e046cb313cb5948fe30c56b06716'>Bump to 0.3.5</a></li><li><a href='https://github.com/dmzoneill/curriculum-vitae/commit/00b6b23be60ac8377c8c7903a9c922194aa702da'>remove offendng yml file</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -334,7 +334,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/strongapp-api' title='strongapp-api'>strongapp-api</a> (2023)</h2></p><p></p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/strongapp-api/commit/532fde68c49963362fae7af21b19360b4ae5cab9'>Fix links</a></li><li><a href='https://github.com/dmzoneill/strongapp-api/commit/0a7f888874e53fd230700671e1261d1fecd3864d'>Python exmaple of logging in</a></li><li><a href='https://github.com/dmzoneill/strongapp-api/commit/b19dd1db1463af85592652cfe7feef9b3339c37f'>Create sub mds for actions</a></li><li><a href='https://github.com/dmzoneill/strongapp-api/commit/f27e63701ee2049bf4386e65210ca160e06bfc86'>add github action and setup secret</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -478,32 +478,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/aa-dev-prod-watcher' title='aa-dev-prod-watcher'>aa-dev-prod-watcher</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' title='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' height='20px'/> <img src='https://camo.githubusercontent.com/4ec342876a40b53ffc6230a41196528690f9f42b1098fd354df46c649720b4c6/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d446f636b657226636f6c6f723d323439364544266c6f676f3d446f636b6572266c6f676f436f6c6f723d464646464646266c6162656c3d' title='https://camo.githubusercontent.com/4ec342876a40b53ffc6230a41196528690f9f42b1098fd354df46c649720b4c6/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d446f636b657226636f6c6f723d323439364544266c6f676f3d446f636b6572266c6f676f436f6c6f723d464646464646266c6162656c3d' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/commit/6208c3a165afb16f7247c82685e9936061d87732'>Bump golang.org/x/text from 0.3.7 to 0.3.8 in /backend
-
-Bumps [golang.org/x/text](https://github.com/golang/text) from 0.3.7 to 0.3.8.
-- [Release notes](https://github.com/golang/text/releases)
-- [Commits](https://github.com/golang/text/compare/v0.3.7...v0.3.8)
-
----
-updated-dependencies:
-- dependency-name: golang.org/x/text
-  dependency-type: indirect
-...
-
-Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump golang.org/x/text from 0.3.7 to 0.3.8 in /backend'>https://github.com/dmzoneill/aa-dev-prod-watcher/pull/7</a></li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/commit/4248c69c771d865dfb5cf9b6ef278bf8fdd086e1'>Bump github.com/labstack/echo/v4 from 4.7.2 to 4.9.0 in /backend
-
-Bumps [github.com/labstack/echo/v4](https://github.com/labstack/echo) from 4.7.2 to 4.9.0.
-- [Release notes](https://github.com/labstack/echo/releases)
-- [Changelog](https://github.com/labstack/echo/blob/master/CHANGELOG.md)
-- [Commits](https://github.com/labstack/echo/compare/v4.7.2...v4.9.0)
-
----
-updated-dependencies:
-- dependency-name: github.com/labstack/echo/v4
-  dependency-type: indirect
-...
-
-Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump github.com/labstack/echo/v4 from 4.7.2 to 4.9.0 in /backend'>https://github.com/dmzoneill/aa-dev-prod-watcher/pull/6</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/8'>Bump golang.org/x/net from 0.0.0-20220513224357-95641704303c to 0.7.0 in /backend</a> 2022-06-13</li></ul></p>
             </td>
@@ -599,7 +574,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump gi
             <td>
               <p><h2><a href='https://github.com/dmzoneill/rh-otp-auto-connect' title='rh-otp-auto-connect'>rh-otp-auto-connect</a> (2021)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' height='20px'/> <img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/rh-otp-auto-connect/commit/6af4b6bc421dc0fd7f012eefda6865b24ad31978'>Update readme</a></li><li><a href='https://github.com/dmzoneill/rh-otp-auto-connect/commit/b2158c827d12443202ffab21e8b537b61a6cb1c5'>Update workflow</a></li><li><a href='https://github.com/dmzoneill/rh-otp-auto-connect/commit/6eb17caabd73e1d00c2f59775b2d2f1be1ee1dd8'>Updates</a></li><li><a href='https://github.com/dmzoneill/rh-otp-auto-connect/commit/1b9c1e5312e41ecfaa2ada210e35a224b2a7e8a9'>Update rhtoken</a></li><li><a href='https://github.com/dmzoneill/rh-otp-auto-connect/commit/79197ac8e0d360f32bcc47834579ec14a34b8dbe'>Update readme</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>

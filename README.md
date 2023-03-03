@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-03/03/2023 07:46:59-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-03/03/2023 22:55:29-brightgreen" height='28'/>
 
 <table>
   <tr>
@@ -8,7 +8,7 @@
       <h3>Pull Requests (1)</h3>
       <ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/pull/4'>Update Dockerfile</a> 2023-01-24</li></ul>
       <h3>Recent Acivity</h3>
-      <ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/commit/6bd688dceb43018c69ba891ed5a2785de7630124'>Bump dns-packet from 5.3.1 to 5.4.0 in /frontend
+      <ul><li><a href='https://github.com/dmzoneill/strongapp-api/commit/f6a7b7f06ef76167f722765339ceab26e4005c1e'>samples and refactoring</a></li><li><a href='https://github.com/dmzoneill/strongapp-api/commit/2e2c9cf20a71ee92e45e5d1d8a2ff7505626b709'>samples and refactoring</a></li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/commit/6bd688dceb43018c69ba891ed5a2785de7630124'>Bump dns-packet from 5.3.1 to 5.4.0 in /frontend
 
 Bumps [dns-packet](https://github.com/mafintosh/dns-packet) from 5.3.1 to 5.4.0.
 - [Release notes](https://github.com/mafintosh/dns-packet/releases)
@@ -33,7 +33,7 @@ updated-dependencies:
   dependency-type: indirect
 ...
 
-Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump golang.org/x/net from 0.0.0-20220513224357-95641704303c to 0.7.0 in /backend'>https://github.com/dmzoneill/aa-dev-prod-watcher/pull/8</a></li><li><a href='https://github.com/dmzoneill/rh-otp-auto-connect/commit/037684569b72f316d4b78218a4fd356be5e7d437'>Update docs</a></li></ul>
+Signed-off-by: dependabot[bot] <support@github.com></a></li></ul>
       <h3>Gists</h3>
       <ul><li><a href='https://gist.github.com/d13d88b16d4d0aa90cb108a00ab3cf01'>10GB tuning</a></li><li><a href='https://gist.github.com/575ba9c32375c41cb1041e9064de0678'>Synology 108tb limit bypass</a></li><li><a href='https://gist.github.com/cbc75e502dbe2b78651f68d6320b714a'>AA active queries</a></li><li><a href='https://gist.github.com/faaa84782eaed4d2dc28ad55c19119ee'>PHP Paypal Instant Payment Notification</a></li></ul>
     </td>
@@ -359,7 +359,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump go
             <td>
               <p><h2><a href='https://github.com/dmzoneill/strongapp-api' title='strongapp-api'>strongapp-api</a> (2023)</h2></p><p></p>
               <p>Apache License 2.0</p>
-              <p><ul></ul></p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/strongapp-api/commit/f6a7b7f06ef76167f722765339ceab26e4005c1e'>samples and refactoring</a></li><li><a href='https://github.com/dmzoneill/strongapp-api/commit/2e2c9cf20a71ee92e45e5d1d8a2ff7505626b709'>samples and refactoring</a></li></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -633,7 +633,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump go
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/rh-otp-auto-connect/actions'><img src='https://github.com/dmzoneill//rh-otp-auto-connect/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2023-02-20</p>
+              <p>2023-03-03</p>
             </td>
         </tr>
 <tr>

@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-04/03/2023 00:34:25-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-04/03/2023 21:26:16-brightgreen" height='28'/>
 
 <table>
   <tr>
@@ -8,7 +8,7 @@
       <h3>Pull Requests (1)</h3>
       <ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/pull/4'>Update Dockerfile</a> 2023-01-24</li></ul>
       <h3>Recent Acivity</h3>
-      <ul><li><a href='https://github.com/dmzoneill/strongapp-api/commit/f6a7b7f06ef76167f722765339ceab26e4005c1e'>samples and refactoring</a></li><li><a href='https://github.com/dmzoneill/strongapp-api/commit/2e2c9cf20a71ee92e45e5d1d8a2ff7505626b709'>samples and refactoring</a></li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/commit/6bd688dceb43018c69ba891ed5a2785de7630124'>Bump dns-packet from 5.3.1 to 5.4.0 in /frontend
+      <ul><li><a href='https://github.com/dmzoneill/strongapp-api/commit/b906929cfdcd4c6f1b397d4fb77999d9de6aa746'>Chartjs example</a></li><li><a href='https://github.com/dmzoneill/strongapp-api/commit/efb6f90b163d3ff6ea3735a171b44dc3512ba031'>Readme and stats</a></li><li><a href='https://github.com/dmzoneill/strongapp-api/commit/f6a7b7f06ef76167f722765339ceab26e4005c1e'>samples and refactoring</a></li><li><a href='https://github.com/dmzoneill/strongapp-api/commit/2e2c9cf20a71ee92e45e5d1d8a2ff7505626b709'>samples and refactoring</a></li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/commit/6bd688dceb43018c69ba891ed5a2785de7630124'>Bump dns-packet from 5.3.1 to 5.4.0 in /frontend
 
 Bumps [dns-packet](https://github.com/mafintosh/dns-packet) from 5.3.1 to 5.4.0.
 - [Release notes](https://github.com/mafintosh/dns-packet/releases)
@@ -18,18 +18,6 @@ Bumps [dns-packet](https://github.com/mafintosh/dns-packet) from 5.3.1 to 5.4.0.
 ---
 updated-dependencies:
 - dependency-name: dns-packet
-  dependency-type: indirect
-...
-
-Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump dns-packet from 5.3.1 to 5.4.0 in /frontend'>https://github.com/dmzoneill/aa-dev-prod-watcher/pull/9</a></li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/commit/73b9704886ceb31be8c505e97bcc19afae88a1e6'>Bump golang.org/x/net in /backend
-
-Bumps [golang.org/x/net](https://github.com/golang/net) from 0.0.0-20220513224357-95641704303c to 0.7.0.
-- [Release notes](https://github.com/golang/net/releases)
-- [Commits](https://github.com/golang/net/commits/v0.7.0)
-
----
-updated-dependencies:
-- dependency-name: golang.org/x/net
   dependency-type: indirect
 ...
 
@@ -359,7 +347,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li></ul>
             <td>
               <p><h2><a href='https://github.com/dmzoneill/strongapp-api' title='strongapp-api'>strongapp-api</a> (2023)</h2></p><p></p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/strongapp-api/commit/f6a7b7f06ef76167f722765339ceab26e4005c1e'>samples and refactoring</a></li><li><a href='https://github.com/dmzoneill/strongapp-api/commit/2e2c9cf20a71ee92e45e5d1d8a2ff7505626b709'>samples and refactoring</a></li></ul></p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/strongapp-api/commit/b906929cfdcd4c6f1b397d4fb77999d9de6aa746'>Chartjs example</a></li><li><a href='https://github.com/dmzoneill/strongapp-api/commit/efb6f90b163d3ff6ea3735a171b44dc3512ba031'>Readme and stats</a></li><li><a href='https://github.com/dmzoneill/strongapp-api/commit/f6a7b7f06ef76167f722765339ceab26e4005c1e'>samples and refactoring</a></li><li><a href='https://github.com/dmzoneill/strongapp-api/commit/2e2c9cf20a71ee92e45e5d1d8a2ff7505626b709'>samples and refactoring</a></li></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>

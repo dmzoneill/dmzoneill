@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-13/03/2023 00:33:58-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-14/03/2023 00:33:30-brightgreen" height='28'/>
 
 <table>
   <tr>
@@ -8,7 +8,18 @@
       <h3>Pull Requests (1)</h3>
       <ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/pull/4'>Update Dockerfile</a> 2023-01-24</li></ul>
       <h3>Recent Acivity</h3>
-      <ul><li><a href='https://github.com/dmzoneill-forks/text-to-img-craiyon-scrapper/commit/ea7470a6a84c35aa2912d18aaac5fdc9394eb0f8'>Update index.js</a></li><li><a href='https://github.com/dmzoneill/curriculum-vitae/commit/2c14689ba70a69630efb6a6931fb9b3523bafbbc'>cu -> oneill</a></li><li><a href='https://github.com/dmzoneill/curriculum-vitae/commit/646346a3a329ff3ab1fab8bbf4b9bf88f3e57148'>update launchpad id</a></li><li><a href='https://github.com/dmzoneill/curriculum-vitae/commit/72268f258587f2c5e2dfc67753f0d93bce78b554'>update launchpad id</a></li><li><a href='https://github.com/dmzoneill/curriculum-vitae/commit/20afd1e9544681f05680e706cc47da741c56b269'>update name</a></li></ul>
+      <ul><li><a href='Wisdom-aa-collector'>https://github.com/ansible/galaxy_ng/pull/1639</a></li><li><a href='https://github.com/Redhat-forks/galaxy_ng/commit/a7c53b3178c570e39ad33779504983acc3a98689'>Wisdom-aa-collector
+
+Weekly export of collection information to s3
+https://issues.redhat.com/browse/AA-1624</a></li><li><a href='https://github.com/Redhat-forks/galaxy_ng/commit/382ac995a8bca3257a168cd32f124d9d3188a98f'>wisdom-aa-collector
+
+Weekly export of collection information to s3
+
+https://issues.redhat.com/browse/AA-1624</a></li><li><a href='Redhat-forks/galaxy_ng'>https://api.github.com/repos/Redhat-forks/galaxy_ng</a></li><li><a href='https://github.com/Redhat-forks/galaxy_ng/commit/c62413be840c3710b37afd6fc8b0ca1964e787c3'>wisdom-aa-collector
+
+Weekly export of collection information to s3
+
+https://issues.redhat.com/browse/AA-1624</a></li></ul>
       <h3>Gists</h3>
       <ul><li><a href='https://gist.github.com/d13d88b16d4d0aa90cb108a00ab3cf01'>10GB tuning</a></li><li><a href='https://gist.github.com/575ba9c32375c41cb1041e9064de0678'>Synology 108tb limit bypass</a></li><li><a href='https://gist.github.com/cbc75e502dbe2b78651f68d6320b714a'>AA active queries</a></li><li><a href='https://gist.github.com/faaa84782eaed4d2dc28ad55c19119ee'>PHP Paypal Instant Payment Notification</a></li></ul>
     </td>

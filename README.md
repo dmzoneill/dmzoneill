@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-14/03/2023 00:33:30-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-15/03/2023 00:33:22-brightgreen" height='28'/>
 
 <table>
   <tr>
@@ -8,17 +8,9 @@
       <h3>Pull Requests (1)</h3>
       <ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/pull/4'>Update Dockerfile</a> 2023-01-24</li></ul>
       <h3>Recent Acivity</h3>
-      <ul><li><a href='Wisdom-aa-collector'>https://github.com/ansible/galaxy_ng/pull/1639</a></li><li><a href='https://github.com/Redhat-forks/galaxy_ng/commit/a7c53b3178c570e39ad33779504983acc3a98689'>Wisdom-aa-collector
+      <ul><li><a href='https://github.com/dmzoneill/docker-media-center-sensitive/commit/e613c853d58b802d83351a67dbaa088952ca4ef2'>add github action and setup secret</a></li><li><a href='dmzoneill/docker-media-center-sensitive'>https://api.github.com/repos/dmzoneill/docker-media-center-sensitive</a></li><li><a href='dmzoneill/docker-media-center-sensitive'>https://api.github.com/repos/dmzoneill/docker-media-center-sensitive</a></li><li><a href='https://github.com/dmzoneill/docker-media-center/commit/3b0da126ed890736311bd8565a5bc30d338f4a91'>updates</a></li><li><a href='https://github.com/Redhat-forks/galaxy_ng/commit/9c97cf24dde72d7c5c37dcfa48cf1bd144828390'>Wisdom-aa-collector
 
 Weekly export of collection information to s3
-https://issues.redhat.com/browse/AA-1624</a></li><li><a href='https://github.com/Redhat-forks/galaxy_ng/commit/382ac995a8bca3257a168cd32f124d9d3188a98f'>wisdom-aa-collector
-
-Weekly export of collection information to s3
-
-https://issues.redhat.com/browse/AA-1624</a></li><li><a href='Redhat-forks/galaxy_ng'>https://api.github.com/repos/Redhat-forks/galaxy_ng</a></li><li><a href='https://github.com/Redhat-forks/galaxy_ng/commit/c62413be840c3710b37afd6fc8b0ca1964e787c3'>wisdom-aa-collector
-
-Weekly export of collection information to s3
-
 https://issues.redhat.com/browse/AA-1624</a></li></ul>
       <h3>Gists</h3>
       <ul><li><a href='https://gist.github.com/d13d88b16d4d0aa90cb108a00ab3cf01'>10GB tuning</a></li><li><a href='https://gist.github.com/575ba9c32375c41cb1041e9064de0678'>Synology 108tb limit bypass</a></li><li><a href='https://gist.github.com/cbc75e502dbe2b78651f68d6320b714a'>AA active queries</a></li><li><a href='https://gist.github.com/faaa84782eaed4d2dc28ad55c19119ee'>PHP Paypal Instant Payment Notification</a></li></ul>
@@ -53,9 +45,9 @@ https://issues.redhat.com/browse/AA-1624</a></li></ul>
   </thead>
   <tbody>
     <tr><td><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript'  height='20px'/></td><td>8770842</td>
-<td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>509991</td>
+<td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>510017</td>
 <td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>310889</td>
-<td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>1367788</td>
+<td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>1367858</td>
 </tr><tr>
 <td><img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML'  height='20px'/></td><td>13065660</td>
 <td><img src='https://camo.githubusercontent.com/4ec342876a40b53ffc6230a41196528690f9f42b1098fd354df46c649720b4c6/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d446f636b657226636f6c6f723d323439364544266c6f676f3d446f636b6572266c6f676f436f6c6f723d464646464646266c6162656c3d' title='Dockerfile'  height='20px'/></td><td>5152</td>
@@ -610,7 +602,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump go
             <td>
               <p><h2><a href='https://github.com/dmzoneill/docker-media-center' title='docker-media-center'>docker-media-center</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' height='20px'/> <img src='https://img.shields.io/badge/_-Roff -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Roff -11DDDD.svg?style=for-the-badge' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' height='20px'/> <img src='https://camo.githubusercontent.com/4ec342876a40b53ffc6230a41196528690f9f42b1098fd354df46c649720b4c6/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d446f636b657226636f6c6f723d323439364544266c6f676f3d446f636b6572266c6f676f436f6c6f723d464646464646266c6162656c3d' title='https://camo.githubusercontent.com/4ec342876a40b53ffc6230a41196528690f9f42b1098fd354df46c649720b4c6/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d446f636b657226636f6c6f723d323439364544266c6f676f3d446f636b6572266c6f676f436f6c6f723d464646464646266c6162656c3d' height='20px'/> <img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><ul></ul></p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/docker-media-center/commit/3b0da126ed890736311bd8565a5bc30d338f4a91'>updates</a></li><li><a href='https://github.com/dmzoneill/docker-media-center/commit/46d799081eae7f70504e293e481012022087c165'>Updates</a></li></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -2812,6 +2804,22 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump go
             <td align="center">
               <a href='https://github.com/dmzoneill/www.davesworld.com/actions'><img src='https://github.com/dmzoneill//www.davesworld.com/actions/workflows/main.yml/badge.svg'/></a>
               <p>2023-01-17</p>
+            </td>
+        </tr>
+</tbody></table><h2></h2><table width='100%' style='width:100%'><thead><tr><th>Project</th><th>View</th><th>Status</th></tr></thead><tbody><tr>
+            <td>
+              <p><h2><a href='https://github.com/dmzoneill/docker-media-center-sensitive' title='docker-media-center-sensitive'>docker-media-center-sensitive</a> ()</h2></p><p></p>
+              <p>Apache License 2.0</p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/docker-media-center-sensitive/commit/e613c853d58b802d83351a67dbaa088952ca4ef2'>add github action and setup secret</a></li><li><a href='dmzoneill/docker-media-center-sensitive'>https://api.github.com/repos/dmzoneill/docker-media-center-sensitive</a></li><li><a href='dmzoneill/docker-media-center-sensitive'>https://api.github.com/repos/dmzoneill/docker-media-center-sensitive</a></li></ul></p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+            </td>
+            <td>
+              <p><a href='' title=''></a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/docker-media-center-sensitive/actions'><img src='https://github.com/dmzoneill//docker-media-center-sensitive/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2023-03-14</p>
             </td>
         </tr>
   </tbody>

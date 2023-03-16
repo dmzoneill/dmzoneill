@@ -1,17 +1,17 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-15/03/2023 00:33:22-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-16/03/2023 00:34:22-brightgreen" height='28'/>
 
 <table>
   <tr>
     <td>
-      <h3>Issues (5)</h3>
+      <h3>Issues (6)</h3>
       <li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/5'>FR: ability to filter results</a> 2023-01-24</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/3'>docker-compose</a> 2023-01-24</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/1'>Docker Build</a> 2023-01-24</li><li><a href='https://github.com/dmzoneill/php-binance-bot/issues/1'>Causes my IP to be blocked </a> 2023-01-24</li>
-      <h3>Pull Requests (1)</h3>
-      <ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/pull/4'>Update Dockerfile</a> 2023-01-24</li></ul>
+      <h3>Pull Requests (2)</h3>
+      <ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/pull/4'>Update Dockerfile</a> 2023-01-24</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/10'>Bump webpack from 5.72.1 to 5.76.0 in /frontend</a> 2023-03-15</li></ul>
       <h3>Recent Acivity</h3>
-      <ul><li><a href='https://github.com/dmzoneill/docker-media-center-sensitive/commit/e613c853d58b802d83351a67dbaa088952ca4ef2'>add github action and setup secret</a></li><li><a href='dmzoneill/docker-media-center-sensitive'>https://api.github.com/repos/dmzoneill/docker-media-center-sensitive</a></li><li><a href='dmzoneill/docker-media-center-sensitive'>https://api.github.com/repos/dmzoneill/docker-media-center-sensitive</a></li><li><a href='https://github.com/dmzoneill/docker-media-center/commit/3b0da126ed890736311bd8565a5bc30d338f4a91'>updates</a></li><li><a href='https://github.com/Redhat-forks/galaxy_ng/commit/9c97cf24dde72d7c5c37dcfa48cf1bd144828390'>Wisdom-aa-collector
+      <ul><li><a href='https://github.com/Redhat-forks/galaxy_ng/commit/77781b21e1acf4c57a2fa7b2c282c72e49e03de0'>Wisdom-aa-collector
 
 Weekly export of collection information to s3
-https://issues.redhat.com/browse/AA-1624</a></li></ul>
+https://issues.redhat.com/browse/AA-1624</a></li><li><a href='https://github.com/open-wa/wa-automate-nodejs/issues/3067'>sendLinkWithAutoPreview thumbnail doesn't work</a></li><li><a href='https://github.com/dmzoneill/docker-media-center-sensitive/commit/e613c853d58b802d83351a67dbaa088952ca4ef2'>add github action and setup secret</a></li><li><a href='dmzoneill/docker-media-center-sensitive'>https://api.github.com/repos/dmzoneill/docker-media-center-sensitive</a></li><li><a href='dmzoneill/docker-media-center-sensitive'>https://api.github.com/repos/dmzoneill/docker-media-center-sensitive</a></li></ul>
       <h3>Gists</h3>
       <ul><li><a href='https://gist.github.com/d13d88b16d4d0aa90cb108a00ab3cf01'>10GB tuning</a></li><li><a href='https://gist.github.com/575ba9c32375c41cb1041e9064de0678'>Synology 108tb limit bypass</a></li><li><a href='https://gist.github.com/cbc75e502dbe2b78651f68d6320b714a'>AA active queries</a></li><li><a href='https://gist.github.com/faaa84782eaed4d2dc28ad55c19119ee'>PHP Paypal Instant Payment Notification</a></li></ul>
     </td>
@@ -524,7 +524,7 @@ updated-dependencies:
 
 Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump golang.org/x/net from 0.0.0-20220513224357-95641704303c to 0.7.0 in /backend'>https://github.com/dmzoneill/aa-dev-prod-watcher/pull/8</a></li></ul></p>
               <p><ul></ul></p>
-              <p><ul></ul></p>
+              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/10'>Bump webpack from 5.72.1 to 5.76.0 in /frontend</a> 2022-06-13</li></ul></p>
             </td>
             <td>
               <p><a href='' title=''></a></p>

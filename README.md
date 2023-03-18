@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-17/03/2023 19:34:43-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-18/03/2023 00:34:22-brightgreen" height='28'/>
 
 <table>
   <tr>
@@ -8,10 +8,10 @@
       <h3>Pull Requests (2)</h3>
       <ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/pull/4'>Update Dockerfile</a> 2023-01-24</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/10'>Bump webpack from 5.72.1 to 5.76.0 in /frontend</a> 2023-03-15</li></ul>
       <h3>Recent Acivity</h3>
-      <ul><li><a href='https://github.com/Redhat-forks/galaxy_ng/commit/77781b21e1acf4c57a2fa7b2c282c72e49e03de0'>Wisdom-aa-collector
+      <ul><li><a href='https://github.com/dmzoneill/hevyapp-api/commit/cd41976b4a46a0f41f8b3204ae4348787c661eb8'>Fix keys in js</a></li><li><a href='https://github.com/dmzoneill/hevyapp-api/commit/29cb14584940f7b18da5b0361a130d86a6ad6fe7'>updates for hevy</a></li><li><a href='https://github.com/Redhat-forks/galaxy_ng/commit/77781b21e1acf4c57a2fa7b2c282c72e49e03de0'>Wisdom-aa-collector
 
 Weekly export of collection information to s3
-https://issues.redhat.com/browse/AA-1624</a></li><li><a href='https://github.com/open-wa/wa-automate-nodejs/issues/3067'>sendLinkWithAutoPreview thumbnail doesn't work</a></li><li><a href='https://github.com/dmzoneill/docker-media-center-sensitive/commit/e613c853d58b802d83351a67dbaa088952ca4ef2'>add github action and setup secret</a></li><li><a href='dmzoneill/docker-media-center-sensitive'>https://api.github.com/repos/dmzoneill/docker-media-center-sensitive</a></li><li><a href='dmzoneill/docker-media-center-sensitive'>https://api.github.com/repos/dmzoneill/docker-media-center-sensitive</a></li></ul>
+https://issues.redhat.com/browse/AA-1624</a></li><li><a href='https://github.com/open-wa/wa-automate-nodejs/issues/3067'>sendLinkWithAutoPreview thumbnail doesn't work</a></li><li><a href='https://github.com/dmzoneill/docker-media-center-sensitive/commit/e613c853d58b802d83351a67dbaa088952ca4ef2'>add github action and setup secret</a></li></ul>
       <h3>Gists</h3>
       <ul><li><a href='https://gist.github.com/d13d88b16d4d0aa90cb108a00ab3cf01'>10GB tuning</a></li><li><a href='https://gist.github.com/575ba9c32375c41cb1041e9064de0678'>Synology 108tb limit bypass</a></li><li><a href='https://gist.github.com/cbc75e502dbe2b78651f68d6320b714a'>AA active queries</a></li><li><a href='https://gist.github.com/faaa84782eaed4d2dc28ad55c19119ee'>PHP Paypal Instant Payment Notification</a></li></ul>
     </td>
@@ -353,7 +353,7 @@ https://issues.redhat.com/browse/AA-1624</a></li><li><a href='https://github.com
             <td>
               <p><h2><a href='https://github.com/dmzoneill/hevyapp-api' title='hevyapp-api'>hevyapp-api</a> (2023)</h2></p><p></p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/hevyapp-api/commit/9062efc75f217d1aa4f1a1cfb1ed68142a204568'>add github action and setup secret</a></li><li><a href='https://github.com/dmzoneill/hevyapp-api/commit/0757428a8b41a5db199942c0c7f66081976cc96e'>Update api</a></li><li><a href='dmzoneill/hevyapp-api'>https://api.github.com/repos/dmzoneill/hevyapp-api</a></li><li><a href='dmzoneill/hevyapp-api'>https://api.github.com/repos/dmzoneill/hevyapp-api</a></li></ul></p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/hevyapp-api/commit/cd41976b4a46a0f41f8b3204ae4348787c661eb8'>Fix keys in js</a></li><li><a href='https://github.com/dmzoneill/hevyapp-api/commit/29cb14584940f7b18da5b0361a130d86a6ad6fe7'>updates for hevy</a></li><li><a href='https://github.com/dmzoneill/hevyapp-api/commit/9062efc75f217d1aa4f1a1cfb1ed68142a204568'>add github action and setup secret</a></li><li><a href='https://github.com/dmzoneill/hevyapp-api/commit/0757428a8b41a5db199942c0c7f66081976cc96e'>Update api</a></li><li><a href='dmzoneill/hevyapp-api'>https://api.github.com/repos/dmzoneill/hevyapp-api</a></li></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>

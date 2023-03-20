@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-19/03/2023 00:34:41-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-20/03/2023 00:34:43-brightgreen" height='28'/>
 
 <table>
   <tr>
@@ -8,10 +8,10 @@
       <h3>Pull Requests (3)</h3>
       <ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/pull/4'>Update Dockerfile</a> 2023-01-24</li><li><a href='https://github.com/dmzoneill/Chuckbot/pull/6'>Bump webpack from 5.75.0 to 5.76.2</a> 2023-03-18</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/10'>Bump webpack from 5.72.1 to 5.76.0 in /frontend</a> 2023-03-15</li></ul>
       <h3>Recent Acivity</h3>
-      <ul><li><a href='https://github.com/dmzoneill/hevyapp-api/commit/cd41976b4a46a0f41f8b3204ae4348787c661eb8'>Fix keys in js</a></li><li><a href='https://github.com/dmzoneill/hevyapp-api/commit/29cb14584940f7b18da5b0361a130d86a6ad6fe7'>updates for hevy</a></li><li><a href='https://github.com/Redhat-forks/galaxy_ng/commit/77781b21e1acf4c57a2fa7b2c282c72e49e03de0'>Wisdom-aa-collector
+      <ul><li><a href='https://github.com/dmzoneill/Chuckbot/commit/ac7bb02f0b4be1678d6c7cde31fade3455589ebb'>jackett downloads</a></li><li><a href='https://github.com/dmzoneill/hevyapp-api/commit/cd41976b4a46a0f41f8b3204ae4348787c661eb8'>Fix keys in js</a></li><li><a href='https://github.com/dmzoneill/hevyapp-api/commit/29cb14584940f7b18da5b0361a130d86a6ad6fe7'>updates for hevy</a></li><li><a href='https://github.com/Redhat-forks/galaxy_ng/commit/77781b21e1acf4c57a2fa7b2c282c72e49e03de0'>Wisdom-aa-collector
 
 Weekly export of collection information to s3
-https://issues.redhat.com/browse/AA-1624</a></li><li><a href='https://github.com/open-wa/wa-automate-nodejs/issues/3067'>sendLinkWithAutoPreview thumbnail doesn't work</a></li><li><a href='https://github.com/dmzoneill/docker-media-center-sensitive/commit/e613c853d58b802d83351a67dbaa088952ca4ef2'>add github action and setup secret</a></li></ul>
+https://issues.redhat.com/browse/AA-1624</a></li><li><a href='https://github.com/open-wa/wa-automate-nodejs/issues/3067'>sendLinkWithAutoPreview thumbnail doesn't work</a></li></ul>
       <h3>Gists</h3>
       <ul><li><a href='https://gist.github.com/d13d88b16d4d0aa90cb108a00ab3cf01'>10GB tuning</a></li><li><a href='https://gist.github.com/575ba9c32375c41cb1041e9064de0678'>Synology 108tb limit bypass</a></li><li><a href='https://gist.github.com/cbc75e502dbe2b78651f68d6320b714a'>AA active queries</a></li><li><a href='https://gist.github.com/faaa84782eaed4d2dc28ad55c19119ee'>PHP Paypal Instant Payment Notification</a></li></ul>
     </td>
@@ -44,7 +44,7 @@ https://issues.redhat.com/browse/AA-1624</a></li><li><a href='https://github.com
     </tr>
   </thead>
   <tbody>
-    <tr><td><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript'  height='20px'/></td><td>8770842</td>
+    <tr><td><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript'  height='20px'/></td><td>8774304</td>
 <td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>510017</td>
 <td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>310889</td>
 <td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>1367858</td>
@@ -128,7 +128,7 @@ https://issues.redhat.com/browse/AA-1624</a></li><li><a href='https://github.com
             <td>
               <p><h2><a href='https://github.com/dmzoneill/Chuckbot' title='Chuckbot'>Chuckbot</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/Chuckbot/commit/2a16c2b6cca5981bdcd43fb3dda445dc4422aaad'>refine gpt interaction</a></li></ul></p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/Chuckbot/commit/ac7bb02f0b4be1678d6c7cde31fade3455589ebb'>jackett downloads</a></li><li><a href='https://github.com/dmzoneill/Chuckbot/commit/2a16c2b6cca5981bdcd43fb3dda445dc4422aaad'>refine gpt interaction</a></li></ul></p>
               <p><ul></ul></p>
               <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/Chuckbot/pull/6'>Bump webpack from 5.75.0 to 5.76.2</a> 2022-12-08</li></ul></p>
             </td>

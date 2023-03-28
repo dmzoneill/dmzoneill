@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-27/03/2023 00:32:07-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-28/03/2023 00:34:45-brightgreen" height='28'/>
 
 <table>
   <tr>
@@ -8,10 +8,12 @@
       <h3>Pull Requests (3)</h3>
       <ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/pull/4'>Update Dockerfile</a> 2023-01-24</li><li><a href='https://github.com/dmzoneill/Chuckbot/pull/6'>Bump webpack from 5.75.0 to 5.76.2</a> 2023-03-18</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/10'>Bump webpack from 5.72.1 to 5.76.0 in /frontend</a> 2023-03-15</li></ul>
       <h3>Recent Acivity</h3>
-      <ul><li><a href='https://github.com/RedHatInsights/insights-analytics-collector/commit/8726e43107f8ad9b5f8217f7632d7adab3a045f0'>licensing-option</a></li><li><a href='licensing-option'>https://github.com/RedHatInsights/insights-analytics-collector/pull/13</a></li><li><a href='licensing-option'>https://github.com/RedHatInsights/insights-analytics-collector/pull/13</a></li><li><a href='Redhat-forks/insights-analytics-collector'>https://api.github.com/repos/Redhat-forks/insights-analytics-collector</a></li><li><a href='https://github.com/Redhat-forks/galaxy_ng/commit/453dd0041b765987e3c09ea9e056f480d25d84ba'>Wisdom-aa-collector
+      <ul><li><a href='https://github.com/RedHatInsights/insights-analytics-collector/commit/a449f64763829a7c1ff03c066fe1791cd32c8da5'>PATH for s3 shippping</a></li><li><a href='PATH for s3 shippping'>https://github.com/RedHatInsights/insights-analytics-collector/pull/14</a></li><li><a href='PATH for s3 shippping'>https://github.com/RedHatInsights/insights-analytics-collector/pull/14</a></li><li><a href='Redhat-forks/insights-analytics-collector'>https://api.github.com/repos/Redhat-forks/insights-analytics-collector</a></li><li><a href='https://github.com/Redhat-forks/galaxy_ng/commit/cd093660a1ac54c69082ab156ff0ae02440168cf'>Wisdom-aa-collector
 
 Weekly export of collection information to s3
-https://issues.redhat.com/browse/AA-1624</a></li></ul>
+https://issues.redhat.com/browse/AA-1624
+
+Issue: AA-1624</a></li></ul>
       <h3>Gists</h3>
       <ul><li><a href='https://gist.github.com/dmzoneill/d13d88b16d4d0aa90cb108a00ab3cf01'>10GB tuning</a></li><li><a href='https://gist.github.com/dmzoneill/575ba9c32375c41cb1041e9064de0678'>Synology 108tb limit bypass</a></li><li><a href='https://gist.github.com/dmzoneill/cbc75e502dbe2b78651f68d6320b714a'>AA active queries</a></li><li><a href='https://gist.github.com/dmzoneill/faaa84782eaed4d2dc28ad55c19119ee'>PHP Paypal Instant Payment Notification</a></li></ul>
     </td>

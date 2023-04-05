@@ -1,14 +1,14 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-04/04/2023 00:31:15-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-05/04/2023 00:30:02-brightgreen" height='28'/>
 
 <table>
   <tr>
     <td>
-      <h3>Issues (8)</h3>
+      <h3>Issues (7)</h3>
       <li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/7'>Truenas, Kubernetes, Lidarr and LYD</a> 2023-03-24</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/5'>FR: ability to filter results</a> 2023-01-24</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/3'>docker-compose</a> 2023-01-24</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/1'>Docker Build</a> 2023-01-24</li><li><a href='https://github.com/dmzoneill/php-binance-bot/issues/1'>Causes my IP to be blocked </a> 2023-01-24</li>
-      <h3>Pull Requests (3)</h3>
-      <ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/pull/4'>Update Dockerfile</a> 2023-01-24</li><li><a href='https://github.com/dmzoneill/Chuckbot/pull/6'>Bump webpack from 5.75.0 to 5.76.2</a> 2023-03-18</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/10'>Bump webpack from 5.72.1 to 5.76.0 in /frontend</a> 2023-03-15</li></ul>
+      <h3>Pull Requests (2)</h3>
+      <ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/pull/4'>Update Dockerfile</a> 2023-01-24</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/10'>Bump webpack from 5.72.1 to 5.76.0 in /frontend</a> 2023-03-15</li></ul>
       <h3>Recent Acivity</h3>
-      <ul><li><a href='https://github.com/dmzoneill/hevyapp-api/commit/284cfc19b0a284cf50738b961630e2c079469f25'>workouts update</a></li><li><a href='https://github.com/Redhat-forks/insights-analytics-collector/commit/bc560b1159ed8312f6a6ff22a0181007692e921a'>0.3.1 Release</a></li><li><a href='https://github.com/Redhat-forks/insights-analytics-collector/commit/cfb9752f1fef2bc3e9ac3580aa587300ae930804'>0.3.1 Release</a></li><li><a href='https://github.com/Redhat-forks/insights-analytics-collector/commit/a887813fb563c5c91b2ab7083e87a9b03d2a7f3a'>0.3.1 Release</a></li><li><a href='https://github.com/Redhat-forks/insights-analytics-collector/commit/535f49beef93e9553fd816d3f61ee200321f19d4'>0.3.1 Release</a></li></ul>
+      <ul><li><a href='https://github.com/dmzoneill/Chuckbot/commit/959d92d0a799da40086ac4e3f7b1d7915ce4f7ef'>A number of updates</a></li><li><a href='https://github.com/jlobos/instagram-web-api/issues/302'> Cannot read properties of null (reading '0')</a></li><li><a href='RedHatInsights/insights-analytics-collector'>https://api.github.com/repos/RedHatInsights/insights-analytics-collector</a></li><li><a href='https://github.com/Redhat-forks/insights-analytics-collector/commit/b33793b316a46713b4fe16118ee64c0b6ecafbf3'>0.3.0 Release</a></li><li><a href='https://github.com/Redhat-forks/insights-analytics-collector/commit/fc8bfcf5ae900f5934116ac0f0f2edc129234d9b'>Create main.yml</a></li></ul>
       <h3>Gists</h3>
       <ul><li><a href='https://gist.github.com/dmzoneill/d13d88b16d4d0aa90cb108a00ab3cf01'>10GB tuning</a></li><li><a href='https://gist.github.com/dmzoneill/575ba9c32375c41cb1041e9064de0678'>Synology 108tb limit bypass</a></li><li><a href='https://gist.github.com/dmzoneill/cbc75e502dbe2b78651f68d6320b714a'>AA active queries</a></li><li><a href='https://gist.github.com/dmzoneill/faaa84782eaed4d2dc28ad55c19119ee'>PHP Paypal Instant Payment Notification</a></li></ul>
     </td>
@@ -41,8 +41,8 @@
     </tr>
   </thead>
   <tbody>
-    <tr><td><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript'  height='20px'/></td><td>8774304</td>
-<td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>510017</td>
+    <tr><td><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript'  height='20px'/></td><td>8821250</td>
+<td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>510786</td>
 <td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>310889</td>
 <td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>1367858</td>
 </tr><tr>
@@ -123,6 +123,22 @@
   <tbody>
     <tr>
             <td>
+              <p><h2><a href='https://github.com/dmzoneill/Chuckbot' title='Chuckbot'>Chuckbot</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' height='20px'/</p>
+              <p>Apache License 2.0</p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/Chuckbot/commit/959d92d0a799da40086ac4e3f7b1d7915ce4f7ef'>A number of updates</a></li><li><a href='https://github.com/dmzoneill/Chuckbot/commit/ac7bb02f0b4be1678d6c7cde31fade3455589ebb'>jackett downloads</a></li></ul></p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+            </td>
+            <td>
+              <p><a href='https://wa.me/96592226837' title='Chat with chuck'>Chat with chuck</a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/Chuckbot/actions'><img src='https://github.com/dmzoneill//Chuckbot/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2022-12-08</p>
+            </td>
+        </tr>
+<tr>
+            <td>
               <p><h2><a href='https://github.com/dmzoneill/dmzoneill' title='dmzoneill'>dmzoneill</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' height='20px'/</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
@@ -135,22 +151,6 @@
             <td align="center">
               <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
               <p>2023-01-16</p>
-            </td>
-        </tr>
-<tr>
-            <td>
-              <p><h2><a href='https://github.com/dmzoneill/Chuckbot' title='Chuckbot'>Chuckbot</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' height='20px'/</p>
-              <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/Chuckbot/commit/ac7bb02f0b4be1678d6c7cde31fade3455589ebb'>jackett downloads</a></li><li><a href='https://github.com/dmzoneill/Chuckbot/commit/2a16c2b6cca5981bdcd43fb3dda445dc4422aaad'>refine gpt interaction</a></li></ul></p>
-              <p><ul></ul></p>
-              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/Chuckbot/pull/6'>Bump webpack from 5.75.0 to 5.76.2</a> 2022-12-08</li></ul></p>
-            </td>
-            <td>
-              <p><a href='https://wa.me/96592226837' title='Chat with chuck'>Chat with chuck</a></p>
-            </td>
-            <td align="center">
-              <a href='https://github.com/dmzoneill/Chuckbot/actions'><img src='https://github.com/dmzoneill//Chuckbot/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2022-12-08</p>
             </td>
         </tr>
 <tr>
@@ -334,7 +334,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/strongapp-api' title='strongapp-api'>strongapp-api</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' title='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' height='20px'/> <img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' height='20px'/> <img src='https://img.shields.io/badge/perl-%2339457E.svg?style=for-the-badge&logo=perl&logoColor=white' title='https://img.shields.io/badge/perl-%2339457E.svg?style=for-the-badge&logo=perl&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' title='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/strongapp-api/commit/6cf71b15da47689873863ba738ec781620bdbb5f'>Update README.md</a></li><li><a href='https://github.com/dmzoneill/strongapp-api/commit/0a73b5e58bf3ee9ee9b0269f7929763d284080eb'>Update README.md</a></li><li><a href='https://github.com/dmzoneill/strongapp-api/commit/128cb7a04c4969a57b496969625a05f9bbde9d4e'>Update README.md</a></li><li><a href='https://github.com/dmzoneill/strongapp-api/commit/4f1f228119d2f5fe6a0f9faf52383e19bbab6313'>Update README.md</a></li><li><a href='https://github.com/dmzoneill/strongapp-api/commit/e541ee71740176fc142d89fc23b720a4d592d7f9'>Update README.md</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -350,7 +350,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/hevyapp-api' title='hevyapp-api'>hevyapp-api</a> (2023)</h2></p><p></p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/hevyapp-api/commit/284cfc19b0a284cf50738b961630e2c079469f25'>workouts update</a></li><li><a href='https://github.com/dmzoneill/hevyapp-api/commit/cd41976b4a46a0f41f8b3204ae4348787c661eb8'>Fix keys in js</a></li><li><a href='https://github.com/dmzoneill/hevyapp-api/commit/29cb14584940f7b18da5b0361a130d86a6ad6fe7'>updates for hevy</a></li><li><a href='https://github.com/dmzoneill/hevyapp-api/commit/9062efc75f217d1aa4f1a1cfb1ed68142a204568'>add github action and setup secret</a></li><li><a href='https://github.com/dmzoneill/hevyapp-api/commit/0757428a8b41a5db199942c0c7f66081976cc96e'>Update api</a></li></ul></p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/hevyapp-api/commit/284cfc19b0a284cf50738b961630e2c079469f25'>workouts update</a></li><li><a href='https://github.com/dmzoneill/hevyapp-api/commit/cd41976b4a46a0f41f8b3204ae4348787c661eb8'>Fix keys in js</a></li><li><a href='https://github.com/dmzoneill/hevyapp-api/commit/29cb14584940f7b18da5b0361a130d86a6ad6fe7'>updates for hevy</a></li></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -494,32 +494,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/aa-dev-prod-watcher' title='aa-dev-prod-watcher'>aa-dev-prod-watcher</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' title='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' height='20px'/> <img src='https://camo.githubusercontent.com/4ec342876a40b53ffc6230a41196528690f9f42b1098fd354df46c649720b4c6/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d446f636b657226636f6c6f723d323439364544266c6f676f3d446f636b6572266c6f676f436f6c6f723d464646464646266c6162656c3d' title='https://camo.githubusercontent.com/4ec342876a40b53ffc6230a41196528690f9f42b1098fd354df46c649720b4c6/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d446f636b657226636f6c6f723d323439364544266c6f676f3d446f636b6572266c6f676f436f6c6f723d464646464646266c6162656c3d' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/commit/6bd688dceb43018c69ba891ed5a2785de7630124'>Bump dns-packet from 5.3.1 to 5.4.0 in /frontend
-
-Bumps [dns-packet](https://github.com/mafintosh/dns-packet) from 5.3.1 to 5.4.0.
-- [Release notes](https://github.com/mafintosh/dns-packet/releases)
-- [Changelog](https://github.com/mafintosh/dns-packet/blob/master/CHANGELOG.md)
-- [Commits](https://github.com/mafintosh/dns-packet/compare/v5.3.1...5.4.0)
-
----
-updated-dependencies:
-- dependency-name: dns-packet
-  dependency-type: indirect
-...
-
-Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump dns-packet from 5.3.1 to 5.4.0 in /frontend'>https://github.com/dmzoneill/aa-dev-prod-watcher/pull/9</a></li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/commit/73b9704886ceb31be8c505e97bcc19afae88a1e6'>Bump golang.org/x/net in /backend
-
-Bumps [golang.org/x/net](https://github.com/golang/net) from 0.0.0-20220513224357-95641704303c to 0.7.0.
-- [Release notes](https://github.com/golang/net/releases)
-- [Commits](https://github.com/golang/net/commits/v0.7.0)
-
----
-updated-dependencies:
-- dependency-name: golang.org/x/net
-  dependency-type: indirect
-...
-
-Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump golang.org/x/net from 0.0.0-20220513224357-95641704303c to 0.7.0 in /backend'>https://github.com/dmzoneill/aa-dev-prod-watcher/pull/8</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/10'>Bump webpack from 5.72.1 to 5.76.0 in /frontend</a> 2022-06-13</li></ul></p>
             </td>
@@ -615,7 +590,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump go
             <td>
               <p><h2><a href='https://github.com/dmzoneill/rh-otp-auto-connect' title='rh-otp-auto-connect'>rh-otp-auto-connect</a> (2021)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' height='20px'/> <img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/rh-otp-auto-connect/commit/037684569b72f316d4b78218a4fd356be5e7d437'>Update docs</a></li><li><a href='https://github.com/dmzoneill/rh-otp-auto-connect/commit/88d0a849ade0ad51278ad40cbdc3dd65adc807bc'>Add safe store of creds in pass</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -743,7 +718,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump go
             <td>
               <p><h2><a href='https://github.com/dmzoneill/ashtangayogacork.ie-doorpi' title='ashtangayogacork.ie-doorpi'>ashtangayogacork.ie-doorpi</a> (2019)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' height='20px'/> <img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/ashtangayogacork.ie-doorpi/commit/61ec88949adb7d2b73f9bd4fd64430b98d5f085a'>add github action and setup secret</a></li><li><a href='https://github.com/dmzoneill/ashtangayogacork.ie-doorpi/commit/ce601ec7e2412a7cb2b9de1a82d80520e6859369'>fix protocol</a></li><li><a href='https://github.com/dmzoneill/ashtangayogacork.ie-doorpi/commit/f12a9be7ebebe600c8f732048b0d33c242cc7f36'>cleanup</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>

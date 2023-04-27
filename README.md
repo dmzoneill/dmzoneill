@@ -1,16 +1,14 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-26/04/2023 00:32:48-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-27/04/2023 00:35:23-brightgreen" height='28'/>
 
 <table>
   <tr>
     <td>
       <h3>Issues (10)</h3>
-      <li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/8'>Typer module error</a> 2023-04-24</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/7'>Truenas, Kubernetes, Lidarr and LYD</a> 2023-04-16</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/5'>FR: ability to filter results</a> 2023-01-24</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/3'>docker-compose</a> 2023-01-24</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/1'>Docker Build</a> 2023-01-24</li>
+      <li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/8'>Typer module error</a> 2023-04-26</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/7'>Truenas, Kubernetes, Lidarr and LYD</a> 2023-04-16</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/5'>FR: ability to filter results</a> 2023-01-24</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/3'>docker-compose</a> 2023-01-24</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/1'>Docker Build</a> 2023-01-24</li>
       <h3>Pull Requests (4)</h3>
       <ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/pull/9'>Updated lyd.py and dockerfile to avoid issues in portainer</a> 2023-04-23</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/pull/4'>Update Dockerfile</a> 2023-01-24</li><li><a href='https://github.com/dmzoneill/Chuckbot/pull/7'>Bump yaml from 2.2.1 to 2.2.2</a> 2023-04-24</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/10'>Bump webpack from 5.72.1 to 5.76.0 in /frontend</a> 2023-03-15</li></ul>
       <h3>Recent Acivity</h3>
-      <ul><li><a href='https://github.com/RedHatInsights/insights-analytics-collector/commit/3b76217021818e934015aa98feebdaf77bc6329f'>Auto publish to pypi</a></li><li><a href='Auto publish to pypi'>https://github.com/RedHatInsights/insights-analytics-collector/pull/22</a></li><li><a href='Auto publish to pypi'>https://github.com/RedHatInsights/insights-analytics-collector/pull/22</a></li><li><a href='https://github.com/Redhat-forks/insights-analytics-collector/commit/f64a5e3e45954cbb62232519f5b4550c0194fb62'>Merge pull request #21 from Redhat-forks/auto-publish
-
-Auto publish to pypi</a></li><li><a href='https://github.com/RedHatInsights/insights-analytics-collector/commit/0fd3be4dcf3c6227b04bb9177a7bf042437c369a'>Auto publish to pypi</a></li></ul>
+      <ul><li><a href='https://github.com/RedHatInsights/insights-analytics-collector/commit/98dac288d9fee3f0a11e375523798bb895c6408a'>Dont merge me (#23)</a></li><li><a href='Dont merge me'>https://github.com/RedHatInsights/insights-analytics-collector/pull/23</a></li><li><a href='Dont merge me'>https://github.com/RedHatInsights/insights-analytics-collector/pull/23</a></li><li><a href='https://github.com/Redhat-forks/insights-analytics-collector/commit/8726e43107f8ad9b5f8217f7632d7adab3a045f0'>licensing-option</a></li><li><a href='https://github.com/RedHatInsights/insights-analytics-collector/commit/3b76217021818e934015aa98feebdaf77bc6329f'>Auto publish to pypi</a></li></ul>
       <h3>Gists</h3>
       <ul><li><a href='https://gist.github.com/dmzoneill/d13d88b16d4d0aa90cb108a00ab3cf01'>10GB tuning</a></li><li><a href='https://gist.github.com/dmzoneill/575ba9c32375c41cb1041e9064de0678'>Synology 108tb limit bypass</a></li><li><a href='https://gist.github.com/dmzoneill/cbc75e502dbe2b78651f68d6320b714a'>AA active queries</a></li><li><a href='https://gist.github.com/dmzoneill/faaa84782eaed4d2dc28ad55c19119ee'>PHP Paypal Instant Payment Notification</a></li></ul>
     </td>
@@ -125,22 +123,6 @@ Auto publish to pypi</a></li><li><a href='https://github.com/RedHatInsights/insi
   <tbody>
     <tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/Chuckbot' title='Chuckbot'>Chuckbot</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' height='20px'/</p>
-              <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/Chuckbot/commit/959d92d0a799da40086ac4e3f7b1d7915ce4f7ef'>A number of updates</a></li></ul></p>
-              <p><ul></ul></p>
-              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/Chuckbot/pull/7'>Bump yaml from 2.2.1 to 2.2.2</a> 2023-04-08</li></ul></p>
-            </td>
-            <td>
-              <p><a href='https://wa.me/96592226837' title='Chat with chuck'>Chat with chuck</a></p>
-            </td>
-            <td align="center">
-              <a href='https://github.com/dmzoneill/Chuckbot/actions'><img src='https://github.com/dmzoneill//Chuckbot/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2023-04-08</p>
-            </td>
-        </tr>
-<tr>
-            <td>
               <p><h2><a href='https://github.com/dmzoneill/dmzoneill' title='dmzoneill'>dmzoneill</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' height='20px'/</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
@@ -153,6 +135,22 @@ Auto publish to pypi</a></li><li><a href='https://github.com/RedHatInsights/insi
             <td align="center">
               <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
               <p>2023-01-16</p>
+            </td>
+        </tr>
+<tr>
+            <td>
+              <p><h2><a href='https://github.com/dmzoneill/Chuckbot' title='Chuckbot'>Chuckbot</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' height='20px'/</p>
+              <p>Apache License 2.0</p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/Chuckbot/commit/959d92d0a799da40086ac4e3f7b1d7915ce4f7ef'>A number of updates</a></li></ul></p>
+              <p><ul></ul></p>
+              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/Chuckbot/pull/7'>Bump yaml from 2.2.1 to 2.2.2</a> 2023-04-08</li></ul></p>
+            </td>
+            <td>
+              <p><a href='https://wa.me/96592226837' title='Chat with chuck'>Chat with chuck</a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/Chuckbot/actions'><img src='https://github.com/dmzoneill//Chuckbot/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2023-04-08</p>
             </td>
         </tr>
 <tr>

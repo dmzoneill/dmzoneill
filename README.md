@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-18/05/2023 00:30:47-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-19/05/2023 00:32:58-brightgreen" height='28'/>
 
 <table>
   <tr>
@@ -8,7 +8,22 @@
       <h3>Pull Requests (2)</h3>
       <ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/pull/4'>Update Dockerfile</a> 2023-01-24</li><li><a href='https://github.com/dmzoneill/Chuckbot/pull/8'>Bump engine.io from 6.4.1 to 6.4.2</a> 2023-05-04</li></ul>
       <h3>Recent Acivity</h3>
-      <ul><li><a href='https://github.com/Redhat-forks/galaxy_ng/commit/73be2360c1c9c030d3f7c7eaf11d740b9896e5c6'>Wisdom-aa-collector
+      <ul><li><a href='https://github.com/Redhat-forks/galaxy_ng/commit/caef9ce91e8557ecaf91cf2c3f1e447f9c26e4db'>Wisdom-aa-collector
+
+Weekly export of collection information to s3
+https://issues.redhat.com/browse/AAH-2343
+
+Issue: AAH-2343</a></li><li><a href='https://github.com/Redhat-forks/galaxy_ng/commit/2c59d141e9a69bef948ca53de809ca8bb058ff44'>Update deps: pulp-ansible and galaxy-importer (#1702)
+
+* Update minimum pulp-ansible to 0.17.1, allows for beta-galaxy to pickup performance fix
+* Update minimum galaxy-importer dep, allows later version to get picked up in CRC deploy
+
+No-Issue</a></li><li><a href='https://github.com/Redhat-forks/galaxy_ng/commit/1411f3a7a7e72c3ced7dbdbcd44ca10c90e4eea0'>Wisdom-aa-collector
+
+Weekly export of collection information to s3
+https://issues.redhat.com/browse/AAH-2343
+
+Issue: AAH-2343</a></li><li><a href='https://github.com/Redhat-forks/galaxy_ng/commit/73be2360c1c9c030d3f7c7eaf11d740b9896e5c6'>Wisdom-aa-collector
 
 Weekly export of collection information to s3
 https://issues.redhat.com/browse/AAH-2343
@@ -18,25 +33,7 @@ Issue: AAH-2343</a></li><li><a href='https://github.com/Redhat-forks/galaxy_ng/c
 Weekly export of collection information to s3
 https://issues.redhat.com/browse/AAH-2343
 
-Issue: AAH-2343</a></li><li><a href='https://github.com/Redhat-forks/galaxy_ng/commit/46a0abb9000a698112592b6db3913fcb5d5281b6'>Wisdom-aa-collector
-
-Weekly export of collection information to s3
-https://issues.redhat.com/browse/AAH-2343
-
-Issue: AAH-2343</a></li><li><a href='https://github.com/Redhat-forks/galaxy_ng/commit/54743d3c6911d8232554aeebecebae6e0b967fb6'>Wisdom-aa-collector
-
-Weekly export of collection information to s3
-https://issues.redhat.com/browse/AA-1624
-
-Issue: AA-1624</a></li><li><a href='https://github.com/Redhat-forks/galaxy_ng/commit/2676cd7e532867f7063e1f44a250deeeaa128ccd'>Reduce query time for a collection's versions in the UI api. (#1651)
-
-* Reduce query time for a collection's versions in the UI api.
-* Add integration test for ui collectiondetail view.
-* Add standalone mark to test.
-
-No-Issue
-
-Signed-off-by: James Tanner <tanner.jc@gmail.com></a></li></ul>
+Issue: AAH-2343</a></li></ul>
       <h3>Gists</h3>
       <ul><li><a href='https://gist.github.com/dmzoneill/d13d88b16d4d0aa90cb108a00ab3cf01'>10GB tuning</a></li><li><a href='https://gist.github.com/dmzoneill/575ba9c32375c41cb1041e9064de0678'>Synology 108tb limit bypass</a></li><li><a href='https://gist.github.com/dmzoneill/cbc75e502dbe2b78651f68d6320b714a'>AA active queries</a></li><li><a href='https://gist.github.com/dmzoneill/faaa84782eaed4d2dc28ad55c19119ee'>PHP Paypal Instant Payment Notification</a></li></ul>
     </td>

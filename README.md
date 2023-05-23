@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-22/05/2023 00:34:04-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-23/05/2023 00:33:42-brightgreen" height='28'/>
 
 <table>
   <tr>
@@ -8,27 +8,18 @@
       <h3>Pull Requests (2)</h3>
       <ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/pull/4'>Update Dockerfile</a> 2023-01-24</li><li><a href='https://github.com/dmzoneill/Chuckbot/pull/8'>Bump engine.io from 6.4.1 to 6.4.2</a> 2023-05-04</li></ul>
       <h3>Recent Acivity</h3>
-      <ul><li><a href='https://github.com/Redhat-forks/galaxy_ng/commit/caef9ce91e8557ecaf91cf2c3f1e447f9c26e4db'>Wisdom-aa-collector
+      <ul><li><a href='https://github.com/Redhat-forks/galaxy_ng/commit/0c669d9aa215acfb12ae652eefcb456da92c9e44'>update test (#1725)
 
-Weekly export of collection information to s3
+* update test
+No-Issue
+
+* fix lint
+No-Issue</a></li><li><a href='https://github.com/Redhat-forks/galaxy_ng/commit/a7b3d028ff79aaa059bc51c244b04b33d43067cd'>Wisdom-aa-collector
+
+Export functionality to s3
 https://issues.redhat.com/browse/AAH-2343
 
-Issue: AAH-2343</a></li><li><a href='https://github.com/Redhat-forks/galaxy_ng/commit/2c59d141e9a69bef948ca53de809ca8bb058ff44'>Update deps: pulp-ansible and galaxy-importer (#1702)
-
-* Update minimum pulp-ansible to 0.17.1, allows for beta-galaxy to pickup performance fix
-* Update minimum galaxy-importer dep, allows later version to get picked up in CRC deploy
-
-No-Issue</a></li><li><a href='https://github.com/Redhat-forks/galaxy_ng/commit/1411f3a7a7e72c3ced7dbdbcd44ca10c90e4eea0'>Wisdom-aa-collector
-
-Weekly export of collection information to s3
-https://issues.redhat.com/browse/AAH-2343
-
-Issue: AAH-2343</a></li><li><a href='https://github.com/Redhat-forks/galaxy_ng/commit/73be2360c1c9c030d3f7c7eaf11d740b9896e5c6'>Wisdom-aa-collector
-
-Weekly export of collection information to s3
-https://issues.redhat.com/browse/AAH-2343
-
-Issue: AAH-2343</a></li><li><a href='https://github.com/Redhat-forks/galaxy_ng/commit/15d08f41d6cc746b6684359c0644ed71ac8c0ce2'>Wisdom-aa-collector
+Issue: AAH-2343</a></li><li><a href='https://github.com/ansible/galaxy_ng/pull/1639'>Wisdom-aa-collector</a></li><li><a href='https://github.com/ansible/galaxy_ng/pull/1639'>Wisdom-aa-collector</a></li><li><a href='https://github.com/Redhat-forks/galaxy_ng/commit/449ae61e20f985e508996be8477ba6d85f009bf5'>Wisdom-aa-collector
 
 Weekly export of collection information to s3
 https://issues.redhat.com/browse/AAH-2343

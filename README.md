@@ -1,12 +1,12 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-12/07/2023 00:40:28-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-13/07/2023 00:35:29-brightgreen" height='28'/>
 
 <table>
   <tr>
     <td>
-      <h3>Issues (11)</h3>
+      <h3>Issues (12)</h3>
       <li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/12'>REQ: Ability to set percentage match cutoff and/or keyword blacklist such as "live" or whitelist "official" in title.</a> 2023-06-16</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/11'>Deployment Loop and "workaround".</a> 2023-05-10</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/7'>Truenas, Kubernetes, Lidarr and LYD</a> 2023-04-16</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/5'>FR: ability to filter results</a> 2023-01-24</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/3'>docker-compose</a> 2023-01-24</li>
-      <h3>Pull Requests (4)</h3>
-      <ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/pull/4'>Update Dockerfile</a> 2023-01-24</li><li><a href='https://github.com/dmzoneill/Chuckbot/pull/9'>Bump socket.io-parser from 4.2.2 to 4.2.3</a> 2023-05-24</li><li><a href='https://github.com/dmzoneill/Chuckbot/pull/8'>Bump engine.io from 6.4.1 to 6.4.2</a> 2023-05-04</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/11'>Bump semver from 5.7.1 to 5.7.2 in /frontend</a> 2023-07-11</li></ul>
+      <h3>Pull Requests (5)</h3>
+      <ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/pull/4'>Update Dockerfile</a> 2023-01-24</li><li><a href='https://github.com/dmzoneill/Chuckbot/pull/10'>Bump semver from 5.7.1 to 5.7.2</a> 2023-07-12</li><li><a href='https://github.com/dmzoneill/Chuckbot/pull/9'>Bump socket.io-parser from 4.2.2 to 4.2.3</a> 2023-05-24</li><li><a href='https://github.com/dmzoneill/Chuckbot/pull/8'>Bump engine.io from 6.4.1 to 6.4.2</a> 2023-05-04</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/11'>Bump semver from 5.7.1 to 5.7.2 in /frontend</a> 2023-07-11</li></ul>
       <h3>Recent Acivity</h3>
       <ul><li><a href='https://github.com/RedHatInsights/insights-ingress-go/pull/328'>Add hub mime type for uploads</a></li><li><a href='https://github.com/Redhat-forks/insights-ingress-go/commit/01124eb476577020601fcbf99b0d278279452338'>Add hub mime type for uploads</a></li><li><a href='Add hub mime type for uploads'>https://github.com/RedHatInsights/insights-ingress-go/pull/328</a></li><li><a href='https://github.com/Redhat-forks/insights-ingress-go/commit/cb519e4201aab3255c1fc3a31c20542c04d9be3b'>Add hub mime type for uploads</a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/12'>REQ: Ability to set percentage match cutoff and/or keyword blacklist such as "live" or whitelist "official" in title.</a></li></ul>
       <h3>Gists</h3>
@@ -123,6 +123,34 @@
   <tbody>
     <tr>
             <td>
+              <p><h2><a href='https://github.com/dmzoneill/Chuckbot' title='Chuckbot'>Chuckbot</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' height='20px'/</p>
+              <p>Apache License 2.0</p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/Chuckbot/commit/6886a931e0cec26010749a8ec95f9e6f75dd4a35'>Genrral updates</a></li><li><a href='https://github.com/dmzoneill/Chuckbot/commit/fa6ec43e1cce7d09c7e6060c330fd29410d00c0f'>Genrral updates</a></li><li><a href='https://github.com/dmzoneill/Chuckbot/commit/1b038dbf86089c7b9d0c93d06a7bb62b4736dd0f'>Bump yaml from 2.2.1 to 2.2.2
+
+Bumps [yaml](https://github.com/eemeli/yaml) from 2.2.1 to 2.2.2.
+- [Release notes](https://github.com/eemeli/yaml/releases)
+- [Commits](https://github.com/eemeli/yaml/compare/v2.2.1...v2.2.2)
+
+---
+updated-dependencies:
+- dependency-name: yaml
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump yaml from 2.2.1 to 2.2.2'>https://github.com/dmzoneill/Chuckbot/pull/7</a></li></ul></p>
+              <p><ul></ul></p>
+              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/Chuckbot/pull/10'>Bump semver from 5.7.1 to 5.7.2</a> 2023-04-08</li><li><a href='https://github.com/dmzoneill/Chuckbot/pull/9'>Bump socket.io-parser from 4.2.2 to 4.2.3</a> 2023-04-08</li><li><a href='https://github.com/dmzoneill/Chuckbot/pull/8'>Bump engine.io from 6.4.1 to 6.4.2</a> 2023-04-08</li></ul></p>
+            </td>
+            <td>
+              <p><a href='https://wa.me/96592226837' title='Chat with chuck'>Chat with chuck</a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/Chuckbot/actions'><img src='https://github.com/dmzoneill//Chuckbot/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2023-04-08</p>
+            </td>
+        </tr>
+<tr>
+            <td>
               <p><h2><a href='https://github.com/dmzoneill/dmzoneill' title='dmzoneill'>dmzoneill</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' height='20px'/</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
@@ -151,34 +179,6 @@
             <td align="center">
               <a href='https://github.com/dmzoneill/curriculum-vitae/actions'><img src='https://github.com/dmzoneill//curriculum-vitae/actions/workflows/main.yml/badge.svg'/></a>
               <p>2022-04-20</p>
-            </td>
-        </tr>
-<tr>
-            <td>
-              <p><h2><a href='https://github.com/dmzoneill/Chuckbot' title='Chuckbot'>Chuckbot</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' height='20px'/</p>
-              <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/Chuckbot/commit/6886a931e0cec26010749a8ec95f9e6f75dd4a35'>Genrral updates</a></li><li><a href='https://github.com/dmzoneill/Chuckbot/commit/fa6ec43e1cce7d09c7e6060c330fd29410d00c0f'>Genrral updates</a></li><li><a href='https://github.com/dmzoneill/Chuckbot/commit/1b038dbf86089c7b9d0c93d06a7bb62b4736dd0f'>Bump yaml from 2.2.1 to 2.2.2
-
-Bumps [yaml](https://github.com/eemeli/yaml) from 2.2.1 to 2.2.2.
-- [Release notes](https://github.com/eemeli/yaml/releases)
-- [Commits](https://github.com/eemeli/yaml/compare/v2.2.1...v2.2.2)
-
----
-updated-dependencies:
-- dependency-name: yaml
-  dependency-type: direct:production
-...
-
-Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump yaml from 2.2.1 to 2.2.2'>https://github.com/dmzoneill/Chuckbot/pull/7</a></li></ul></p>
-              <p><ul></ul></p>
-              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/Chuckbot/pull/9'>Bump socket.io-parser from 4.2.2 to 4.2.3</a> 2023-04-08</li><li><a href='https://github.com/dmzoneill/Chuckbot/pull/8'>Bump engine.io from 6.4.1 to 6.4.2</a> 2023-04-08</li></ul></p>
-            </td>
-            <td>
-              <p><a href='https://wa.me/96592226837' title='Chat with chuck'>Chat with chuck</a></p>
-            </td>
-            <td align="center">
-              <a href='https://github.com/dmzoneill/Chuckbot/actions'><img src='https://github.com/dmzoneill//Chuckbot/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2023-04-08</p>
             </td>
         </tr>
 <tr>

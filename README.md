@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-04/08/2023 00:34:30-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-05/08/2023 00:31:27-brightgreen" height='28'/>
 
 <table>
   <tr>
@@ -141,19 +141,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/Chuckbot' title='Chuckbot'>Chuckbot</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/Chuckbot/commit/6886a931e0cec26010749a8ec95f9e6f75dd4a35'>Genrral updates</a></li><li><a href='https://github.com/dmzoneill/Chuckbot/commit/fa6ec43e1cce7d09c7e6060c330fd29410d00c0f'>Genrral updates</a></li><li><a href='https://github.com/dmzoneill/Chuckbot/commit/1b038dbf86089c7b9d0c93d06a7bb62b4736dd0f'>Bump yaml from 2.2.1 to 2.2.2
-
-Bumps [yaml](https://github.com/eemeli/yaml) from 2.2.1 to 2.2.2.
-- [Release notes](https://github.com/eemeli/yaml/releases)
-- [Commits](https://github.com/eemeli/yaml/compare/v2.2.1...v2.2.2)
-
----
-updated-dependencies:
-- dependency-name: yaml
-  dependency-type: direct:production
-...
-
-Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump yaml from 2.2.1 to 2.2.2'>https://github.com/dmzoneill/Chuckbot/pull/7</a></li></ul></p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/Chuckbot/commit/6886a931e0cec26010749a8ec95f9e6f75dd4a35'>Genrral updates</a></li><li><a href='https://github.com/dmzoneill/Chuckbot/commit/fa6ec43e1cce7d09c7e6060c330fd29410d00c0f'>Genrral updates</a></li></ul></p>
               <p><ul></ul></p>
               <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/Chuckbot/pull/10'>Bump semver from 5.7.1 to 5.7.2</a> 2023-04-08</li><li><a href='https://github.com/dmzoneill/Chuckbot/pull/9'>Bump socket.io-parser from 4.2.2 to 4.2.3</a> 2023-04-08</li><li><a href='https://github.com/dmzoneill/Chuckbot/pull/8'>Bump engine.io from 6.4.1 to 6.4.2</a> 2023-04-08</li></ul></p>
             </td>
@@ -185,7 +173,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump ya
             <td>
               <p><h2><a href='https://github.com/dmzoneill/lidarr-youtube-downloader' title='lidarr-youtube-downloader'>lidarr-youtube-downloader</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' height='20px'/> <img src='https://camo.githubusercontent.com/4ec342876a40b53ffc6230a41196528690f9f42b1098fd354df46c649720b4c6/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d446f636b657226636f6c6f723d323439364544266c6f676f3d446f636b6572266c6f676f436f6c6f723d464646464646266c6162656c3d' title='https://camo.githubusercontent.com/4ec342876a40b53ffc6230a41196528690f9f42b1098fd354df46c649720b4c6/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d446f636b657226636f6c6f723d323439364544266c6f676f3d446f636b6572266c6f676f436f6c6f723d464646464646266c6162656c3d' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/12'>REQ: Ability to set percentage match cutoff and/or keyword blacklist such as "live" or whitelist "official" in title.</a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/12'>REQ: Ability to set percentage match cutoff and/or keyword blacklist such as "live" or whitelist "official" in title.</a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/10'>Unable to extract uploader id; please report this issue on https://yt-dl.org/bug </a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/commit/c00c4c649742551a31055b081ef8054d4e3cfffa'>Update Dockerfile</a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/commit/da0df4874919e7be040601bf3f1681a146d19ac3'>Updated lyd.py and dockerfile to avoid issues in portainer</a></li></ul></p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/12'>REQ: Ability to set percentage match cutoff and/or keyword blacklist such as "live" or whitelist "official" in title.</a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/12'>REQ: Ability to set percentage match cutoff and/or keyword blacklist such as "live" or whitelist "official" in title.</a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/10'>Unable to extract uploader id; please report this issue on https://yt-dl.org/bug </a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/commit/c00c4c649742551a31055b081ef8054d4e3cfffa'>Update Dockerfile</a></li></ul></p>
               <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/13'>Alittle help with docker compose</a> 2023-07-10</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/12'>REQ: Ability to set percentage match cutoff and/or keyword blacklist such as "live" or whitelist "official" in title.</a> 2023-07-10</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/11'>Deployment Loop and "workaround".</a> 2023-07-10</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/7'>Truenas, Kubernetes, Lidarr and LYD</a> 2023-07-10</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/5'>FR: ability to filter results</a> 2023-07-10</li></ul></p>
               <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/pull/4'>Update Dockerfile</a> 2023-07-10</li></ul></p>
             </td>
@@ -522,19 +510,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump ya
             <td>
               <p><h2><a href='https://github.com/dmzoneill/aa-dev-prod-watcher' title='aa-dev-prod-watcher'>aa-dev-prod-watcher</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' title='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' height='20px'/> <img src='https://camo.githubusercontent.com/4ec342876a40b53ffc6230a41196528690f9f42b1098fd354df46c649720b4c6/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d446f636b657226636f6c6f723d323439364544266c6f676f3d446f636b6572266c6f676f436f6c6f723d464646464646266c6162656c3d' title='https://camo.githubusercontent.com/4ec342876a40b53ffc6230a41196528690f9f42b1098fd354df46c649720b4c6/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d446f636b657226636f6c6f723d323439364544266c6f676f3d446f636b6572266c6f676f436f6c6f723d464646464646266c6162656c3d' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/commit/979d2ddc368d986939e7b88430de8e5b5380fa2a'>Bump webpack from 5.72.1 to 5.76.0 in /frontend
-
-Bumps [webpack](https://github.com/webpack/webpack) from 5.72.1 to 5.76.0.
-- [Release notes](https://github.com/webpack/webpack/releases)
-- [Commits](https://github.com/webpack/webpack/compare/v5.72.1...v5.76.0)
-
----
-updated-dependencies:
-- dependency-name: webpack
-  dependency-type: direct:development
-...
-
-Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump webpack from 5.72.1 to 5.76.0 in /frontend'>https://github.com/dmzoneill/aa-dev-prod-watcher/pull/10</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/11'>Bump semver from 5.7.1 to 5.7.2 in /frontend</a> 2022-06-13</li></ul></p>
             </td>

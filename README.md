@@ -1,12 +1,12 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-06/10/2023 00:32:55-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-07/10/2023 00:31:46-brightgreen" height='28'/>
 
 <table>
   <tr>
     <td>
-      <h3>Issues (15)</h3>
+      <h3>Issues (16)</h3>
       <li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/15'>usage</a> 2023-09-25</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/14'>/bin/sh: 1: youtube-dl: not found</a> 2023-08-21</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/13'>Alittle help with docker compose</a> 2023-08-14</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/12'>REQ: Ability to set percentage match cutoff and/or keyword blacklist such as "live" or whitelist "official" in title.</a> 2023-06-16</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/11'>Deployment Loop and "workaround".</a> 2023-05-10</li>
-      <h3>Pull Requests (5)</h3>
-      <ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/pull/4'>Update Dockerfile</a> 2023-01-24</li><li><a href='https://github.com/dmzoneill/Chuckbot/pull/10'>Bump semver from 5.7.1 to 5.7.2</a> 2023-07-12</li><li><a href='https://github.com/dmzoneill/Chuckbot/pull/9'>Bump socket.io-parser from 4.2.2 to 4.2.3</a> 2023-05-24</li><li><a href='https://github.com/dmzoneill/Chuckbot/pull/8'>Bump engine.io from 6.4.1 to 6.4.2</a> 2023-05-04</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/11'>Bump semver from 5.7.1 to 5.7.2 in /frontend</a> 2023-07-11</li></ul>
+      <h3>Pull Requests (6)</h3>
+      <ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/pull/4'>Update Dockerfile</a> 2023-01-24</li><li><a href='https://github.com/dmzoneill/Chuckbot/pull/10'>Bump semver from 5.7.1 to 5.7.2</a> 2023-07-12</li><li><a href='https://github.com/dmzoneill/Chuckbot/pull/9'>Bump socket.io-parser from 4.2.2 to 4.2.3</a> 2023-05-24</li><li><a href='https://github.com/dmzoneill/Chuckbot/pull/8'>Bump engine.io from 6.4.1 to 6.4.2</a> 2023-05-04</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/12'>Bump postcss from 8.4.13 to 8.4.31 in /frontend</a> 2023-10-06</li></ul>
       <h3>Recent Acivity</h3>
       <ul><li><a href='https://github.com/RedHatInsights/tower-analytics-frontend/commit/9bb30b4bfd3a2e9eaa8f5db4bb070566fa7328bb'>add replace statement to remove extra / in slug</a></li><li><a href='https://github.com/RedHatInsights/tower-analytics-frontend/commit/e3c15a5c22081efeadff6a2d7645c8b341284cf1'>remove alert banner</a></li><li><a href='[AA-1856] Remove alert banner'>https://github.com/RedHatInsights/tower-analytics-frontend/pull/992</a></li><li><a href='https://github.com/RedHatInsights/tower-analytics-frontend/pull/992'>[AA-1856] Remove alert banner</a></li><li><a href='https://github.com/RedHatInsights/tower-analytics-frontend/pull/992'>[AA-1856] Remove alert banner</a></li></ul>
       <h3>Gists</h3>
@@ -512,7 +512,7 @@
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
-              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/11'>Bump semver from 5.7.1 to 5.7.2 in /frontend</a> 2022-06-13</li></ul></p>
+              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/12'>Bump postcss from 8.4.13 to 8.4.31 in /frontend</a> 2022-06-13</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/11'>Bump semver from 5.7.1 to 5.7.2 in /frontend</a> 2022-06-13</li></ul></p>
             </td>
             <td>
               <p><a href='' title=''></a></p>

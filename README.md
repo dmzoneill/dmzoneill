@@ -1,12 +1,12 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-10/11/2023 00:30:01-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-11/11/2023 00:31:45-brightgreen" height='28'/>
 
 <table>
   <tr>
     <td>
-      <h3>Issues (17)</h3>
-      <li><a href='https://github.com/dmzoneill/sodarr-chrome-plugin/issues/2'>Any Guide to make it work on Windows?</a> 2023-11-05</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/15'>usage</a> 2023-10-17</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/14'>/bin/sh: 1: youtube-dl: not found</a> 2023-10-17</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/13'>Alittle help with docker compose</a> 2023-08-14</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/12'>REQ: Ability to set percentage match cutoff and/or keyword blacklist such as "live" or whitelist "official" in title.</a> 2023-06-16</li>
-      <h3>Pull Requests (6)</h3>
-      <ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/pull/4'>Update Dockerfile</a> 2023-01-24</li><li><a href='https://github.com/dmzoneill/Chuckbot/pull/10'>Bump semver from 5.7.1 to 5.7.2</a> 2023-07-12</li><li><a href='https://github.com/dmzoneill/Chuckbot/pull/9'>Bump socket.io-parser from 4.2.2 to 4.2.3</a> 2023-05-24</li><li><a href='https://github.com/dmzoneill/Chuckbot/pull/8'>Bump engine.io from 6.4.1 to 6.4.2</a> 2023-05-04</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/12'>Bump postcss from 8.4.13 to 8.4.31 in /frontend</a> 2023-10-06</li></ul>
+      <h3>Issues (19)</h3>
+      <li><a href='https://github.com/dmzoneill/sodarr-chrome-plugin/issues/2'>Any Guide to make it work on Windows?</a> 2023-11-05</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/17'>pip installation fails on Raspberry Pi: EntryPoint must be in 'name=module:attrs [extras]' format", 'lyd-unmapped=lidarr_youtube_downloader.lyd-unmapped:app </a> 2023-11-10</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/15'>usage</a> 2023-10-17</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/14'>/bin/sh: 1: youtube-dl: not found</a> 2023-11-10</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/13'>Alittle help with docker compose</a> 2023-08-14</li>
+      <h3>Pull Requests (7)</h3>
+      <ul><li><a href='https://github.com/dmzoneill/Chuckbot/pull/10'>Bump semver from 5.7.1 to 5.7.2</a> 2023-07-12</li><li><a href='https://github.com/dmzoneill/Chuckbot/pull/9'>Bump socket.io-parser from 4.2.2 to 4.2.3</a> 2023-05-24</li><li><a href='https://github.com/dmzoneill/Chuckbot/pull/8'>Bump engine.io from 6.4.1 to 6.4.2</a> 2023-05-04</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/pull/16'>doc: add hint that complete git repo is needed for docker build</a> 2023-11-10</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/pull/4'>Update Dockerfile</a> 2023-01-24</li></ul>
       <h3>Recent Acivity</h3>
       <ul><li><a href='https://github.com/RedHatInsights/tower-analytics-frontend/commit/e5293990c8951cd006ea9710f5b8607b6fb2b689'>Temporary ephemeral fixes for broken tests</a></li><li><a href='https://github.com/RedHatInsights/tower-analytics-frontend/pull/1005'>Update the Automation Analytics documentation url to the latest version</a></li><li><a href='https://github.com/RedHatInsights/tower-analytics-frontend/pull/1005'>Update the Automation Analytics documentation url to the latest version</a></li><li><a href='https://github.com/unnecessary-username/tower-analytics-frontend/commit/1fc2638bacbd213da3259088203915d044148eb4'>fix redirect to job explorer page</a></li><li><a href='https://github.com/RedHatInsights/tower-analytics-frontend/pull/1005'>Update the Automation Analytics documentation url to the latest version</a></li></ul>
       <h3>Gists</h3>
@@ -52,18 +52,18 @@
 <td><img src='https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white' title='Kotlin'  height='20px'/></td><td>24599</td>
 </tr><tr>
 <td><img src='https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white' title='Swift'  height='20px'/></td><td>163276</td>
-<td><img src='https://camo.githubusercontent.com/4ec342876a40b53ffc6230a41196528690f9f42b1098fd354df46c649720b4c6/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d446f636b657226636f6c6f723d323439364544266c6f676f3d446f636b6572266c6f676f436f6c6f723d464646464646266c6162656c3d' title='Dockerfile'  height='20px'/></td><td>5179</td>
 <td><img src='https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white' title='C#'  height='20px'/></td><td>3379139</td>
 <td><img src='https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white' title='C++'  height='20px'/></td><td>428363</td>
-</tr><tr>
 <td><img src='https://img.shields.io/badge/_-Visual Basic .NET -11DDDD.svg?style=for-the-badge' title='Visual Basic .NET'  height='20px'/></td><td>758279</td>
+</tr><tr>
 <td><img src='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' title='Go'  height='20px'/></td><td>26262</td>
 <td><img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP'  height='20px'/></td><td>76059922</td>
 <td><img src='https://img.shields.io/badge/perl-%2339457E.svg?style=for-the-badge&logo=perl&logoColor=white' title='Perl'  height='20px'/></td><td>10102682</td>
-</tr><tr>
 <td><img src='https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white' title='Ruby'  height='20px'/></td><td>507181</td>
+</tr><tr>
 <td><img src='https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white' title='C'  height='20px'/></td><td>15564301</td>
 <td><img src='https://img.shields.io/badge/_-COBOL -11DDDD.svg?style=for-the-badge' title='COBOL'  height='20px'/></td><td>964</td>
+<td><img src='https://camo.githubusercontent.com/4ec342876a40b53ffc6230a41196528690f9f42b1098fd354df46c649720b4c6/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d446f636b657226636f6c6f723d323439364544266c6f676f3d446f636b6572266c6f676f436f6c6f723d464646464646266c6162656c3d' title='Dockerfile'  height='20px'/></td><td>5179</td>
 <td><img src='https://img.shields.io/badge/_-AngelScript -11DDDD.svg?style=for-the-badge' title='AngelScript'  height='20px'/></td><td>28550</td>
 </tr><tr>
 <td><img src='https://img.shields.io/badge/_-Tcl -11DDDD.svg?style=for-the-badge' title='Tcl'  height='20px'/></td><td>1281755</td>
@@ -123,6 +123,22 @@
   <tbody>
     <tr>
             <td>
+              <p><h2><a href='https://github.com/dmzoneill/lidarr-youtube-downloader' title='lidarr-youtube-downloader'>lidarr-youtube-downloader</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' height='20px'/> <img src='https://camo.githubusercontent.com/4ec342876a40b53ffc6230a41196528690f9f42b1098fd354df46c649720b4c6/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d446f636b657226636f6c6f723d323439364544266c6f676f3d446f636b6572266c6f676f436f6c6f723d464646464646266c6162656c3d' title='https://camo.githubusercontent.com/4ec342876a40b53ffc6230a41196528690f9f42b1098fd354df46c649720b4c6/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d446f636b657226636f6c6f723d323439364544266c6f676f3d446f636b6572266c6f676f436f6c6f723d464646464646266c6162656c3d' height='20px'/</p>
+              <p>Apache License 2.0</p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/14'>/bin/sh: 1: youtube-dl: not found</a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/15'>usage</a></li></ul></p>
+              <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/17'>pip installation fails on Raspberry Pi: EntryPoint must be in 'name=module:attrs [extras]' format", 'lyd-unmapped=lidarr_youtube_downloader.lyd-unmapped:app </a> 2023-11-10</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/15'>usage</a> 2023-11-10</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/14'>/bin/sh: 1: youtube-dl: not found</a> 2023-11-10</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/13'>Alittle help with docker compose</a> 2023-11-10</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/12'>REQ: Ability to set percentage match cutoff and/or keyword blacklist such as "live" or whitelist "official" in title.</a> 2023-11-10</li></ul></p>
+              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/pull/16'>doc: add hint that complete git repo is needed for docker build</a> 2023-11-10</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/pull/4'>Update Dockerfile</a> 2023-11-10</li></ul></p>
+            </td>
+            <td>
+              <p><a href='https://pypi.org/project/lidarr-youtube-downloader/' title='Lidarr youtube downloader PYPI package'>Lidarr youtube downloader PYPI package</a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/lidarr-youtube-downloader/actions'><img src='https://github.com/dmzoneill//lidarr-youtube-downloader/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2023-11-10</p>
+            </td>
+        </tr>
+<tr>
+            <td>
               <p><h2><a href='https://github.com/dmzoneill/dmzoneill' title='dmzoneill'>dmzoneill</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' height='20px'/</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
@@ -167,22 +183,6 @@
             <td align="center">
               <a href='https://github.com/dmzoneill/curriculum-vitae/actions'><img src='https://github.com/dmzoneill//curriculum-vitae/actions/workflows/main.yml/badge.svg'/></a>
               <p>2022-04-20</p>
-            </td>
-        </tr>
-<tr>
-            <td>
-              <p><h2><a href='https://github.com/dmzoneill/lidarr-youtube-downloader' title='lidarr-youtube-downloader'>lidarr-youtube-downloader</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' height='20px'/> <img src='https://camo.githubusercontent.com/4ec342876a40b53ffc6230a41196528690f9f42b1098fd354df46c649720b4c6/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d446f636b657226636f6c6f723d323439364544266c6f676f3d446f636b6572266c6f676f436f6c6f723d464646464646266c6162656c3d' title='https://camo.githubusercontent.com/4ec342876a40b53ffc6230a41196528690f9f42b1098fd354df46c649720b4c6/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d446f636b657226636f6c6f723d323439364544266c6f676f3d446f636b6572266c6f676f436f6c6f723d464646464646266c6162656c3d' height='20px'/</p>
-              <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/14'>/bin/sh: 1: youtube-dl: not found</a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/15'>usage</a></li></ul></p>
-              <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/15'>usage</a> 2023-09-14</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/14'>/bin/sh: 1: youtube-dl: not found</a> 2023-09-14</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/13'>Alittle help with docker compose</a> 2023-09-14</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/12'>REQ: Ability to set percentage match cutoff and/or keyword blacklist such as "live" or whitelist "official" in title.</a> 2023-09-14</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/11'>Deployment Loop and "workaround".</a> 2023-09-14</li></ul></p>
-              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/pull/4'>Update Dockerfile</a> 2023-09-14</li></ul></p>
-            </td>
-            <td>
-              <p><a href='https://pypi.org/project/lidarr-youtube-downloader/' title='Lidarr youtube downloader PYPI package'>Lidarr youtube downloader PYPI package</a></p>
-            </td>
-            <td align="center">
-              <a href='https://github.com/dmzoneill/lidarr-youtube-downloader/actions'><img src='https://github.com/dmzoneill//lidarr-youtube-downloader/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2023-09-14</p>
             </td>
         </tr>
 <tr>

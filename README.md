@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-15/12/2023 21:48:25-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-16/12/2023 00:30:30-brightgreen" height='28'/>
 
 <table>
   <tr>
@@ -8,7 +8,15 @@
       <h3>Pull Requests (8)</h3>
       <ul><li><a href='https://github.com/dmzoneill/Chuckbot/pull/10'>Bump semver from 5.7.1 to 5.7.2</a> 2023-07-12</li><li><a href='https://github.com/dmzoneill/Chuckbot/pull/9'>Bump socket.io-parser from 4.2.2 to 4.2.3</a> 2023-05-24</li><li><a href='https://github.com/dmzoneill/Chuckbot/pull/8'>Bump engine.io from 6.4.1 to 6.4.2</a> 2023-05-04</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/pull/20'>build: remove numpy dependency</a> 2023-12-12</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/pull/16'>doc: add hint that complete git repo is needed for docker build</a> 2023-11-11</li></ul>
       <h3>Recent Acivity</h3>
-      <ul><li><a href='https://github.com/dmzoneill/pling-publisher/commit/3b308cd1ec16536da0e12c2654a2c7677c3de5e3'>Update version</a></li><li><a href='https://github.com/dmzoneill/pling-publisher/commit/f12002cb82b9b130b29aaec8feb91d0d2e7c8bd8'>Update pyproject.toml</a></li><li><a href='https://github.com/dmzoneill/pling-publisher/commit/0b0521a88ffc3e7c1df02b71308510e7d89a4539'>Update PKG-INFO</a></li><li><a href='https://github.com/dmzoneill/pling-publisher/commit/3f1abefddc312ac94b0483599d38d75f791269f4'>Update PKG-INFO</a></li><li><a href='https://github.com/dmzoneill/pling-publisher/commit/5ed42b9b3879c6939ff5ea5983ce081edfe2bda5'>Update README.md</a></li></ul>
+      <ul><li><a href='Redhat-forks/awx'>https://api.github.com/repos/Redhat-forks/awx</a></li><li><a href='https://github.com/Redhat-forks/awx/commit/325f5250db18e233fa29200a54ef2e32d781311e'>Narrow the actor types accepted for RBAC evaluations (#14709)
+
+* Narrow the scope of RBAC evaluations
+
+* Update tests for RBAC method changes
+
+* Simplify querset for credentials in org
+
+* Fix call pattern to pass in team role obj</a></li><li><a href='https://github.com/dmzoneill/pling-publisher/commit/3b308cd1ec16536da0e12c2654a2c7677c3de5e3'>Update version</a></li><li><a href='https://github.com/dmzoneill/pling-publisher/commit/f12002cb82b9b130b29aaec8feb91d0d2e7c8bd8'>Update pyproject.toml</a></li><li><a href='https://github.com/dmzoneill/pling-publisher/commit/0b0521a88ffc3e7c1df02b71308510e7d89a4539'>Update PKG-INFO</a></li></ul>
       <h3>Gists</h3>
       <ul><li><a href='https://gist.github.com/dmzoneill/664484ef2b798118a83347205f84c66b'>keybase.md</a></li><li><a href='https://gist.github.com/dmzoneill/67a908fb949dc95bbbf02f0446a07f0a'>durex fun</a></li><li><a href='https://gist.github.com/dmzoneill/d13d88b16d4d0aa90cb108a00ab3cf01'>10GB tuning</a></li><li><a href='https://gist.github.com/dmzoneill/575ba9c32375c41cb1041e9064de0678'>Synology 108tb limit bypass</a></li><li><a href='https://gist.github.com/dmzoneill/cbc75e502dbe2b78651f68d6320b714a'>AA active queries</a></li><li><a href='https://gist.github.com/dmzoneill/faaa84782eaed4d2dc28ad55c19119ee'>PHP Paypal Instant Payment Notification</a></li></ul>
     </td>
@@ -123,22 +131,6 @@
   <tbody>
     <tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/pling-publisher' title='pling-publisher'>pling-publisher</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' height='20px'/</p>
-              <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/pling-publisher/commit/3b308cd1ec16536da0e12c2654a2c7677c3de5e3'>Update version</a></li><li><a href='https://github.com/dmzoneill/pling-publisher/commit/f12002cb82b9b130b29aaec8feb91d0d2e7c8bd8'>Update pyproject.toml</a></li><li><a href='https://github.com/dmzoneill/pling-publisher/commit/0b0521a88ffc3e7c1df02b71308510e7d89a4539'>Update PKG-INFO</a></li><li><a href='https://github.com/dmzoneill/pling-publisher/commit/3f1abefddc312ac94b0483599d38d75f791269f4'>Update PKG-INFO</a></li><li><a href='https://github.com/dmzoneill/pling-publisher/commit/5ed42b9b3879c6939ff5ea5983ce081edfe2bda5'>Update README.md</a></li></ul></p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-            </td>
-            <td>
-              <p><a href='https://pypi.org/project/pling-publisher/' title='Pling publisher'>Pling publisher</a></p>
-            </td>
-            <td align="center">
-              <a href='https://github.com/dmzoneill/pling-publisher/actions'><img src='https://github.com/dmzoneill//pling-publisher/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2023-02-18</p>
-            </td>
-        </tr>
-<tr>
-            <td>
               <p><h2><a href='https://github.com/dmzoneill/dmzoneill' title='dmzoneill'>dmzoneill</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' height='20px'/</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
@@ -151,6 +143,22 @@
             <td align="center">
               <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
               <p>2023-01-16</p>
+            </td>
+        </tr>
+<tr>
+            <td>
+              <p><h2><a href='https://github.com/dmzoneill/pling-publisher' title='pling-publisher'>pling-publisher</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' height='20px'/</p>
+              <p>Apache License 2.0</p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/pling-publisher/commit/3b308cd1ec16536da0e12c2654a2c7677c3de5e3'>Update version</a></li><li><a href='https://github.com/dmzoneill/pling-publisher/commit/f12002cb82b9b130b29aaec8feb91d0d2e7c8bd8'>Update pyproject.toml</a></li><li><a href='https://github.com/dmzoneill/pling-publisher/commit/0b0521a88ffc3e7c1df02b71308510e7d89a4539'>Update PKG-INFO</a></li><li><a href='https://github.com/dmzoneill/pling-publisher/commit/3f1abefddc312ac94b0483599d38d75f791269f4'>Update PKG-INFO</a></li><li><a href='https://github.com/dmzoneill/pling-publisher/commit/5ed42b9b3879c6939ff5ea5983ce081edfe2bda5'>Update README.md</a></li></ul></p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+            </td>
+            <td>
+              <p><a href='https://pypi.org/project/pling-publisher/' title='Pling publisher'>Pling publisher</a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/pling-publisher/actions'><img src='https://github.com/dmzoneill//pling-publisher/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2023-02-18</p>
             </td>
         </tr>
 <tr>

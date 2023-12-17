@@ -1,22 +1,40 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-17/12/2023 00:35:05-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-17/12/2023 17:08:31-brightgreen" height='28'/>
 
 <table>
   <tr>
     <td>
-      <h3>Issues (18)</h3>
+      <h3>Issues (15)</h3>
       <li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/15'>usage</a> 2023-10-17</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/14'>/bin/sh: 1: youtube-dl: not found</a> 2023-11-16</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/13'>Alittle help with docker compose</a> 2023-08-14</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/12'>REQ: Ability to set percentage match cutoff and/or keyword blacklist such as "live" or whitelist "official" in title.</a> 2023-06-16</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/11'>Deployment Loop and "workaround".</a> 2023-05-10</li>
-      <h3>Pull Requests (8)</h3>
-      <ul><li><a href='https://github.com/dmzoneill/Chuckbot/pull/10'>Bump semver from 5.7.1 to 5.7.2</a> 2023-07-12</li><li><a href='https://github.com/dmzoneill/Chuckbot/pull/9'>Bump socket.io-parser from 4.2.2 to 4.2.3</a> 2023-05-24</li><li><a href='https://github.com/dmzoneill/Chuckbot/pull/8'>Bump engine.io from 6.4.1 to 6.4.2</a> 2023-05-04</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/pull/20'>build: remove numpy dependency</a> 2023-12-12</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/pull/16'>doc: add hint that complete git repo is needed for docker build</a> 2023-11-11</li></ul>
+      <h3>Pull Requests (5)</h3>
+      <ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/pull/4'>Update Dockerfile</a> 2023-01-24</li><li><a href='https://github.com/dmzoneill/Chuckbot/pull/12'>Bump @babel/traverse from 7.21.5 to 7.23.6</a> 2023-12-17</li><li><a href='https://github.com/dmzoneill/Chuckbot/pull/11'>Bump undici from 5.22.0 to 5.28.2</a> 2023-12-17</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/12'>Bump postcss from 8.4.13 to 8.4.31 in /frontend</a> 2023-10-06</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/11'>Bump semver from 5.7.1 to 5.7.2 in /frontend</a> 2023-07-11</li></ul>
       <h3>Recent Acivity</h3>
-      <ul><li><a href='Redhat-forks/awx'>https://api.github.com/repos/Redhat-forks/awx</a></li><li><a href='https://github.com/Redhat-forks/awx/commit/325f5250db18e233fa29200a54ef2e32d781311e'>Narrow the actor types accepted for RBAC evaluations (#14709)
+      <ul><li><a href='https://github.com/dmzoneill/Chuckbot/commit/c8d5e909fd0ee7aee6c3cd6c2ffc3913e073d459'>Bump semver from 5.7.1 to 5.7.2
 
-* Narrow the scope of RBAC evaluations
+Bumps [semver](https://github.com/npm/node-semver) from 5.7.1 to 5.7.2.
+- [Release notes](https://github.com/npm/node-semver/releases)
+- [Changelog](https://github.com/npm/node-semver/blob/v5.7.2/CHANGELOG.md)
+- [Commits](https://github.com/npm/node-semver/compare/v5.7.1...v5.7.2)
 
-* Update tests for RBAC method changes
+---
+updated-dependencies:
+- dependency-name: semver
+  dependency-type: indirect
+...
 
-* Simplify querset for credentials in org
+Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump semver from 5.7.1 to 5.7.2'>https://github.com/dmzoneill/Chuckbot/pull/10</a></li><li><a href='https://github.com/dmzoneill/Chuckbot/commit/e4fe9d3d118f82f38e4d02b25c90bc9e8fa9ce19'>Bump socket.io-parser from 4.2.2 to 4.2.3
 
-* Fix call pattern to pass in team role obj</a></li><li><a href='https://github.com/dmzoneill/pling-publisher/commit/3b308cd1ec16536da0e12c2654a2c7677c3de5e3'>Update version</a></li><li><a href='https://github.com/dmzoneill/pling-publisher/commit/f12002cb82b9b130b29aaec8feb91d0d2e7c8bd8'>Update pyproject.toml</a></li><li><a href='https://github.com/dmzoneill/pling-publisher/commit/0b0521a88ffc3e7c1df02b71308510e7d89a4539'>Update PKG-INFO</a></li></ul>
+Bumps [socket.io-parser](https://github.com/socketio/socket.io-parser) from 4.2.2 to 4.2.3.
+- [Release notes](https://github.com/socketio/socket.io-parser/releases)
+- [Changelog](https://github.com/socketio/socket.io-parser/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/socketio/socket.io-parser/compare/4.2.2...4.2.3)
+
+---
+updated-dependencies:
+- dependency-name: socket.io-parser
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump socket.io-parser from 4.2.2 to 4.2.3'>https://github.com/dmzoneill/Chuckbot/pull/9</a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/commit/578c979c5be415721d6706328291c9808d753bb6'>doc: add hint that complete git repo is needed for docker build</a></li></ul>
       <h3>Gists</h3>
       <ul><li><a href='https://gist.github.com/dmzoneill/664484ef2b798118a83347205f84c66b'>keybase.md</a></li><li><a href='https://gist.github.com/dmzoneill/67a908fb949dc95bbbf02f0446a07f0a'>durex fun</a></li><li><a href='https://gist.github.com/dmzoneill/d13d88b16d4d0aa90cb108a00ab3cf01'>10GB tuning</a></li><li><a href='https://gist.github.com/dmzoneill/575ba9c32375c41cb1041e9064de0678'>Synology 108tb limit bypass</a></li><li><a href='https://gist.github.com/dmzoneill/cbc75e502dbe2b78651f68d6320b714a'>AA active queries</a></li><li><a href='https://gist.github.com/dmzoneill/faaa84782eaed4d2dc28ad55c19119ee'>PHP Paypal Instant Payment Notification</a></li></ul>
     </td>
@@ -71,7 +89,7 @@
 </tr><tr>
 <td><img src='https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white' title='C'  height='20px'/></td><td>15564301</td>
 <td><img src='https://img.shields.io/badge/_-COBOL -11DDDD.svg?style=for-the-badge' title='COBOL'  height='20px'/></td><td>964</td>
-<td><img src='https://camo.githubusercontent.com/4ec342876a40b53ffc6230a41196528690f9f42b1098fd354df46c649720b4c6/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d446f636b657226636f6c6f723d323439364544266c6f676f3d446f636b6572266c6f676f436f6c6f723d464646464646266c6162656c3d' title='Dockerfile'  height='20px'/></td><td>5179</td>
+<td><img src='https://camo.githubusercontent.com/4ec342876a40b53ffc6230a41196528690f9f42b1098fd354df46c649720b4c6/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d446f636b657226636f6c6f723d323439364544266c6f676f3d446f636b6572266c6f676f436f6c6f723d464646464646266c6162656c3d' title='Dockerfile'  height='20px'/></td><td>5173</td>
 <td><img src='https://img.shields.io/badge/_-AngelScript -11DDDD.svg?style=for-the-badge' title='AngelScript'  height='20px'/></td><td>28550</td>
 </tr><tr>
 <td><img src='https://img.shields.io/badge/_-Tcl -11DDDD.svg?style=for-the-badge' title='Tcl'  height='20px'/></td><td>1281755</td>
@@ -131,6 +149,83 @@
   <tbody>
     <tr>
             <td>
+              <p><h2><a href='https://github.com/dmzoneill/Chuckbot' title='Chuckbot'>Chuckbot</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' height='20px'/</p>
+              <p>Apache License 2.0</p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/Chuckbot/commit/c8d5e909fd0ee7aee6c3cd6c2ffc3913e073d459'>Bump semver from 5.7.1 to 5.7.2
+
+Bumps [semver](https://github.com/npm/node-semver) from 5.7.1 to 5.7.2.
+- [Release notes](https://github.com/npm/node-semver/releases)
+- [Changelog](https://github.com/npm/node-semver/blob/v5.7.2/CHANGELOG.md)
+- [Commits](https://github.com/npm/node-semver/compare/v5.7.1...v5.7.2)
+
+---
+updated-dependencies:
+- dependency-name: semver
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump semver from 5.7.1 to 5.7.2'>https://github.com/dmzoneill/Chuckbot/pull/10</a></li><li><a href='https://github.com/dmzoneill/Chuckbot/commit/e4fe9d3d118f82f38e4d02b25c90bc9e8fa9ce19'>Bump socket.io-parser from 4.2.2 to 4.2.3
+
+Bumps [socket.io-parser](https://github.com/socketio/socket.io-parser) from 4.2.2 to 4.2.3.
+- [Release notes](https://github.com/socketio/socket.io-parser/releases)
+- [Changelog](https://github.com/socketio/socket.io-parser/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/socketio/socket.io-parser/compare/4.2.2...4.2.3)
+
+---
+updated-dependencies:
+- dependency-name: socket.io-parser
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump socket.io-parser from 4.2.2 to 4.2.3'>https://github.com/dmzoneill/Chuckbot/pull/9</a></li><li><a href='https://github.com/dmzoneill/Chuckbot/commit/16d9da742388b8d5631abf2254168927b841044f'>Bump engine.io from 6.4.1 to 6.4.2
+
+Bumps [engine.io](https://github.com/socketio/engine.io) from 6.4.1 to 6.4.2.
+- [Release notes](https://github.com/socketio/engine.io/releases)
+- [Changelog](https://github.com/socketio/engine.io/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/socketio/engine.io/compare/6.4.1...6.4.2)
+
+---
+updated-dependencies:
+- dependency-name: engine.io
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com></a></li></ul></p>
+              <p><ul></ul></p>
+              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/Chuckbot/pull/12'>Bump @babel/traverse from 7.21.5 to 7.23.6</a> 2023-04-08</li><li><a href='https://github.com/dmzoneill/Chuckbot/pull/11'>Bump undici from 5.22.0 to 5.28.2</a> 2023-04-08</li></ul></p>
+            </td>
+            <td>
+              <p><a href='https://wa.me/96592226837' title='Chat with chuck'>Chat with chuck</a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/Chuckbot/actions'><img src='https://github.com/dmzoneill//Chuckbot/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2023-04-08</p>
+            </td>
+        </tr>
+<tr>
+            <td>
+              <p><h2><a href='https://github.com/dmzoneill/lidarr-youtube-downloader' title='lidarr-youtube-downloader'>lidarr-youtube-downloader</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' height='20px'/> <img src='https://camo.githubusercontent.com/4ec342876a40b53ffc6230a41196528690f9f42b1098fd354df46c649720b4c6/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d446f636b657226636f6c6f723d323439364544266c6f676f3d446f636b6572266c6f676f436f6c6f723d464646464646266c6162656c3d' title='https://camo.githubusercontent.com/4ec342876a40b53ffc6230a41196528690f9f42b1098fd354df46c649720b4c6/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d446f636b657226636f6c6f723d323439364544266c6f676f3d446f636b6572266c6f676f436f6c6f723d464646464646266c6162656c3d' height='20px'/</p>
+              <p>Apache License 2.0</p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/commit/578c979c5be415721d6706328291c9808d753bb6'>doc: add hint that complete git repo is needed for docker build</a></li><li><a href='doc: add hint that complete git repo is needed for docker build'>https://github.com/dmzoneill/lidarr-youtube-downloader/pull/16</a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/commit/7172df03c052937c9fccd875507c2a3fac567e78'>build: remove numpy dependency
+
+Numpy is a big package and needs a lot of time for installing. As numpy is not used in the whole codebase, this removes it from the dependency list</a></li><li><a href='build: remove numpy dependency'>https://github.com/dmzoneill/lidarr-youtube-downloader/pull/20</a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/commit/efe4cfeaf893fed58b2206c3256c04c7ad535f7c'>fix: remove entrypoint with invalid name
+
+The entrypoint has an invalid name, which pip complains about
+
+Fixes #17</a></li></ul></p>
+              <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/15'>usage</a> 2023-11-24</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/14'>/bin/sh: 1: youtube-dl: not found</a> 2023-11-24</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/13'>Alittle help with docker compose</a> 2023-11-24</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/12'>REQ: Ability to set percentage match cutoff and/or keyword blacklist such as "live" or whitelist "official" in title.</a> 2023-11-24</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/11'>Deployment Loop and "workaround".</a> 2023-11-24</li></ul></p>
+              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/pull/4'>Update Dockerfile</a> 2023-11-24</li></ul></p>
+            </td>
+            <td>
+              <p><a href='https://pypi.org/project/lidarr-youtube-downloader/' title='Lidarr youtube downloader PYPI package'>Lidarr youtube downloader PYPI package</a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/lidarr-youtube-downloader/actions'><img src='https://github.com/dmzoneill//lidarr-youtube-downloader/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2023-11-24</p>
+            </td>
+        </tr>
+<tr>
+            <td>
               <p><h2><a href='https://github.com/dmzoneill/dmzoneill' title='dmzoneill'>dmzoneill</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' height='20px'/</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
@@ -159,42 +254,6 @@
             <td align="center">
               <a href='https://github.com/dmzoneill/pling-publisher/actions'><img src='https://github.com/dmzoneill//pling-publisher/actions/workflows/main.yml/badge.svg'/></a>
               <p>2023-02-18</p>
-            </td>
-        </tr>
-<tr>
-            <td>
-              <p><h2><a href='https://github.com/dmzoneill/lidarr-youtube-downloader' title='lidarr-youtube-downloader'>lidarr-youtube-downloader</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' height='20px'/> <img src='https://camo.githubusercontent.com/4ec342876a40b53ffc6230a41196528690f9f42b1098fd354df46c649720b4c6/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d446f636b657226636f6c6f723d323439364544266c6f676f3d446f636b6572266c6f676f436f6c6f723d464646464646266c6162656c3d' title='https://camo.githubusercontent.com/4ec342876a40b53ffc6230a41196528690f9f42b1098fd354df46c649720b4c6/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d446f636b657226636f6c6f723d323439364544266c6f676f3d446f636b6572266c6f676f436f6c6f723d464646464646266c6162656c3d' height='20px'/</p>
-              <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/commit/efe4cfeaf893fed58b2206c3256c04c7ad535f7c'>fix: remove entrypoint with invalid name
-
-The entrypoint has an invalid name, which pip complains about
-
-Fixes #17</a></li><li><a href='fix: remove entrypoint with invalid name'>https://github.com/dmzoneill/lidarr-youtube-downloader/pull/19</a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/14'>/bin/sh: 1: youtube-dl: not found</a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/17'>pip installation fails on Raspberry Pi: EntryPoint must be in 'name=module:attrs [extras]' format", 'lyd-unmapped=lidarr_youtube_downloader.lyd-unmapped:app </a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/14'>/bin/sh: 1: youtube-dl: not found</a></li></ul></p>
-              <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/15'>usage</a> 2023-11-24</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/14'>/bin/sh: 1: youtube-dl: not found</a> 2023-11-24</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/13'>Alittle help with docker compose</a> 2023-11-24</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/12'>REQ: Ability to set percentage match cutoff and/or keyword blacklist such as "live" or whitelist "official" in title.</a> 2023-11-24</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/11'>Deployment Loop and "workaround".</a> 2023-11-24</li></ul></p>
-              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/pull/20'>build: remove numpy dependency</a> 2023-11-24</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/pull/16'>doc: add hint that complete git repo is needed for docker build</a> 2023-11-24</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/pull/4'>Update Dockerfile</a> 2023-11-24</li></ul></p>
-            </td>
-            <td>
-              <p><a href='https://pypi.org/project/lidarr-youtube-downloader/' title='Lidarr youtube downloader PYPI package'>Lidarr youtube downloader PYPI package</a></p>
-            </td>
-            <td align="center">
-              <a href='https://github.com/dmzoneill/lidarr-youtube-downloader/actions'><img src='https://github.com/dmzoneill//lidarr-youtube-downloader/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2023-11-24</p>
-            </td>
-        </tr>
-<tr>
-            <td>
-              <p><h2><a href='https://github.com/dmzoneill/Chuckbot' title='Chuckbot'>Chuckbot</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' height='20px'/</p>
-              <p>Apache License 2.0</p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/Chuckbot/pull/10'>Bump semver from 5.7.1 to 5.7.2</a> 2023-04-08</li><li><a href='https://github.com/dmzoneill/Chuckbot/pull/9'>Bump socket.io-parser from 4.2.2 to 4.2.3</a> 2023-04-08</li><li><a href='https://github.com/dmzoneill/Chuckbot/pull/8'>Bump engine.io from 6.4.1 to 6.4.2</a> 2023-04-08</li></ul></p>
-            </td>
-            <td>
-              <p><a href='https://wa.me/96592226837' title='Chat with chuck'>Chat with chuck</a></p>
-            </td>
-            <td align="center">
-              <a href='https://github.com/dmzoneill/Chuckbot/actions'><img src='https://github.com/dmzoneill//Chuckbot/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2023-04-08</p>
             </td>
         </tr>
 <tr>

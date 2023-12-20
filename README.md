@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-19/12/2023 00:31:18-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-20/12/2023 00:27:18-brightgreen" height='28'/>
 
 <table>
   <tr>
@@ -8,7 +8,7 @@
       <h3>Pull Requests (5)</h3>
       <ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/pull/4'>Update Dockerfile</a> 2023-01-24</li><li><a href='https://github.com/dmzoneill/Chuckbot/pull/12'>Bump @babel/traverse from 7.21.5 to 7.23.6</a> 2023-12-17</li><li><a href='https://github.com/dmzoneill/Chuckbot/pull/11'>Bump undici from 5.22.0 to 5.28.2</a> 2023-12-17</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/12'>Bump postcss from 8.4.13 to 8.4.31 in /frontend</a> 2023-10-06</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/11'>Bump semver from 5.7.1 to 5.7.2 in /frontend</a> 2023-07-11</li></ul>
       <h3>Recent Acivity</h3>
-      <ul><li><a href='https://github.com/dmzoneill/docker-media-center/commit/c3f759bc051051f392e12d1a5a539331b86090c6'>Servie file</a></li><li><a href='https://github.com/dmzoneill/Chuckbot/commit/c8d5e909fd0ee7aee6c3cd6c2ffc3913e073d459'>Bump semver from 5.7.1 to 5.7.2
+      <ul><li><a href='https://github.com/RedHatInsights/tower-analytics-frontend/commit/774b9251faed33a7417597b8e06c231d30481686'>Update @redhat-cloud-services/rbac-client to 1.2.13</a></li><li><a href='Update @redhat-cloud-services/rbac-client to 1.2.13'>https://github.com/RedHatInsights/tower-analytics-frontend/pull/1023</a></li><li><a href='https://github.com/ansible/awx/commit/43019400596524d0160f50c6929ee32186dc0f92'>Fix lint trailing whitespace</a></li><li><a href='https://github.com/dmzoneill/docker-media-center/commit/c3f759bc051051f392e12d1a5a539331b86090c6'>Servie file</a></li><li><a href='https://github.com/dmzoneill/Chuckbot/commit/c8d5e909fd0ee7aee6c3cd6c2ffc3913e073d459'>Bump semver from 5.7.1 to 5.7.2
 
 Bumps [semver](https://github.com/npm/node-semver) from 5.7.1 to 5.7.2.
 - [Release notes](https://github.com/npm/node-semver/releases)
@@ -21,20 +21,7 @@ updated-dependencies:
   dependency-type: indirect
 ...
 
-Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump semver from 5.7.1 to 5.7.2'>https://github.com/dmzoneill/Chuckbot/pull/10</a></li><li><a href='https://github.com/dmzoneill/Chuckbot/commit/e4fe9d3d118f82f38e4d02b25c90bc9e8fa9ce19'>Bump socket.io-parser from 4.2.2 to 4.2.3
-
-Bumps [socket.io-parser](https://github.com/socketio/socket.io-parser) from 4.2.2 to 4.2.3.
-- [Release notes](https://github.com/socketio/socket.io-parser/releases)
-- [Changelog](https://github.com/socketio/socket.io-parser/blob/main/CHANGELOG.md)
-- [Commits](https://github.com/socketio/socket.io-parser/compare/4.2.2...4.2.3)
-
----
-updated-dependencies:
-- dependency-name: socket.io-parser
-  dependency-type: indirect
-...
-
-Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump socket.io-parser from 4.2.2 to 4.2.3'>https://github.com/dmzoneill/Chuckbot/pull/9</a></li></ul>
+Signed-off-by: dependabot[bot] <support@github.com></a></li></ul>
       <h3>Gists</h3>
       <ul><li><a href='https://gist.github.com/dmzoneill/664484ef2b798118a83347205f84c66b'>keybase.md</a></li><li><a href='https://gist.github.com/dmzoneill/67a908fb949dc95bbbf02f0446a07f0a'>durex fun</a></li><li><a href='https://gist.github.com/dmzoneill/d13d88b16d4d0aa90cb108a00ab3cf01'>10GB tuning</a></li><li><a href='https://gist.github.com/dmzoneill/575ba9c32375c41cb1041e9064de0678'>Synology 108tb limit bypass</a></li><li><a href='https://gist.github.com/dmzoneill/cbc75e502dbe2b78651f68d6320b714a'>AA active queries</a></li><li><a href='https://gist.github.com/dmzoneill/faaa84782eaed4d2dc28ad55c19119ee'>PHP Paypal Instant Payment Notification</a></li></ul>
     </td>

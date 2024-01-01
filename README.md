@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-31/12/2023 00:32:41-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-01/01/2024 00:33:31-brightgreen" height='28'/>
 
 <table>
   <tr>
@@ -8,20 +8,7 @@
       <h3>Pull Requests (5)</h3>
       <ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/pull/4'>Update Dockerfile</a> 2023-01-24</li><li><a href='https://github.com/dmzoneill/Chuckbot/pull/12'>Bump @babel/traverse from 7.21.5 to 7.23.6</a> 2023-12-17</li><li><a href='https://github.com/dmzoneill/Chuckbot/pull/11'>Bump undici from 5.22.0 to 5.28.2</a> 2023-12-17</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/12'>Bump postcss from 8.4.13 to 8.4.31 in /frontend</a> 2023-10-06</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/11'>Bump semver from 5.7.1 to 5.7.2 in /frontend</a> 2023-07-11</li></ul>
       <h3>Recent Acivity</h3>
-      <ul><li><a href='https://github.com/RedHatInsights/tower-analytics-frontend/commit/774b9251faed33a7417597b8e06c231d30481686'>Update @redhat-cloud-services/rbac-client to 1.2.13</a></li><li><a href='Update @redhat-cloud-services/rbac-client to 1.2.13'>https://github.com/RedHatInsights/tower-analytics-frontend/pull/1023</a></li><li><a href='https://github.com/ansible/awx/commit/43019400596524d0160f50c6929ee32186dc0f92'>Fix lint trailing whitespace</a></li><li><a href='https://github.com/dmzoneill/docker-media-center/commit/c3f759bc051051f392e12d1a5a539331b86090c6'>Servie file</a></li><li><a href='https://github.com/dmzoneill/Chuckbot/commit/c8d5e909fd0ee7aee6c3cd6c2ffc3913e073d459'>Bump semver from 5.7.1 to 5.7.2
-
-Bumps [semver](https://github.com/npm/node-semver) from 5.7.1 to 5.7.2.
-- [Release notes](https://github.com/npm/node-semver/releases)
-- [Changelog](https://github.com/npm/node-semver/blob/v5.7.2/CHANGELOG.md)
-- [Commits](https://github.com/npm/node-semver/compare/v5.7.1...v5.7.2)
-
----
-updated-dependencies:
-- dependency-name: semver
-  dependency-type: indirect
-...
-
-Signed-off-by: dependabot[bot] <support@github.com></a></li></ul>
+      <ul><li><a href='https://github.com/dmzoneill/urban-dictionary/commit/bd3a81e2206e81a16b148ac94cb995c190f0540c'>add github action and setup secret</a></li><li><a href='dmzoneill/urban-dictionary'>https://api.github.com/repos/dmzoneill/urban-dictionary</a></li><li><a href='dmzoneill/urban-dictionary'>https://api.github.com/repos/dmzoneill/urban-dictionary</a></li><li><a href='https://github.com/RedHatInsights/tower-analytics-frontend/commit/774b9251faed33a7417597b8e06c231d30481686'>Update @redhat-cloud-services/rbac-client to 1.2.13</a></li><li><a href='Update @redhat-cloud-services/rbac-client to 1.2.13'>https://github.com/RedHatInsights/tower-analytics-frontend/pull/1023</a></li></ul>
       <h3>Gists</h3>
       <ul><li><a href='https://gist.github.com/dmzoneill/664484ef2b798118a83347205f84c66b'>keybase.md</a></li><li><a href='https://gist.github.com/dmzoneill/67a908fb949dc95bbbf02f0446a07f0a'>durex fun</a></li><li><a href='https://gist.github.com/dmzoneill/d13d88b16d4d0aa90cb108a00ab3cf01'>10GB tuning</a></li><li><a href='https://gist.github.com/dmzoneill/575ba9c32375c41cb1041e9064de0678'>Synology 108tb limit bypass</a></li><li><a href='https://gist.github.com/dmzoneill/cbc75e502dbe2b78651f68d6320b714a'>AA active queries</a></li><li><a href='https://gist.github.com/dmzoneill/faaa84782eaed4d2dc28ad55c19119ee'>PHP Paypal Instant Payment Notification</a></li></ul>
     </td>
@@ -54,7 +41,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li></ul>
     </tr>
   </thead>
   <tbody>
-    <tr><td><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript'  height='20px'/></td><td>8855757</td>
+    <tr><td><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript'  height='20px'/></td><td>8861358</td>
 <td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>514042</td>
 <td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>310889</td>
 <td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>1368096</td>
@@ -216,15 +203,15 @@ Numpy is a big package and needs a lot of time for installing. As numpy is not u
 The entrypoint has an invalid name, which pip complains about
 
 Fixes #17</a></li></ul></p>
-              <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/15'>usage</a> 2023-11-24</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/14'>/bin/sh: 1: youtube-dl: not found</a> 2023-11-24</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/13'>Alittle help with docker compose</a> 2023-11-24</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/12'>REQ: Ability to set percentage match cutoff and/or keyword blacklist such as "live" or whitelist "official" in title.</a> 2023-11-24</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/11'>Deployment Loop and "workaround".</a> 2023-11-24</li></ul></p>
-              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/pull/4'>Update Dockerfile</a> 2023-11-24</li></ul></p>
+              <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/15'>usage</a> 2023-12-31</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/14'>/bin/sh: 1: youtube-dl: not found</a> 2023-12-31</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/13'>Alittle help with docker compose</a> 2023-12-31</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/12'>REQ: Ability to set percentage match cutoff and/or keyword blacklist such as "live" or whitelist "official" in title.</a> 2023-12-31</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/11'>Deployment Loop and "workaround".</a> 2023-12-31</li></ul></p>
+              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/pull/4'>Update Dockerfile</a> 2023-12-31</li></ul></p>
             </td>
             <td>
               <p><a href='https://pypi.org/project/lidarr-youtube-downloader/' title='Lidarr youtube downloader PYPI package'>Lidarr youtube downloader PYPI package</a></p>
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/lidarr-youtube-downloader/actions'><img src='https://github.com/dmzoneill//lidarr-youtube-downloader/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2023-11-24</p>
+              <p>2023-12-31</p>
             </td>
         </tr>
 <tr>
@@ -389,6 +376,22 @@ Fixes #17</a></li></ul></p>
         </tr>
 
 </tbody></table><h2>2023</h2><table width='100%' style='width:100%'><thead><tr><th>Project</th><th>View</th><th>Status</th></tr></thead><tbody><tr>
+            <td>
+              <p><h2><a href='https://github.com/dmzoneill/urban-dictionary' title='urban-dictionary'>urban-dictionary</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' height='20px'/</p>
+              <p>MIT License</p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/urban-dictionary/commit/bd3a81e2206e81a16b148ac94cb995c190f0540c'>add github action and setup secret</a></li><li><a href='dmzoneill/urban-dictionary'>https://api.github.com/repos/dmzoneill/urban-dictionary</a></li><li><a href='dmzoneill/urban-dictionary'>https://api.github.com/repos/dmzoneill/urban-dictionary</a></li></ul></p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+            </td>
+            <td>
+              <p><a href='' title=''></a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/urban-dictionary/actions'><img src='https://github.com/dmzoneill//urban-dictionary/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2023-12-31</p>
+            </td>
+        </tr>
+<tr>
             <td>
               <p><h2><a href='https://github.com/dmzoneill/hevyapp-api' title='hevyapp-api'>hevyapp-api</a> (2023)</h2></p><p></p>
               <p>Apache License 2.0</p>

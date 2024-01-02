@@ -4,6 +4,10 @@ name: DISPATCH
 on:
   workflow_call:
     inputs:
+      npmjs:
+        required: false
+        type: string
+        default: "false"
       chrome-extension:
         required: false
         type: string
@@ -330,7 +334,51 @@ jobs:
       - name: Publish
         run: |-
           bash -c "pling publish --username \"${{ secrets.CI_USERNAME }}\" --password \"${{ secrets.CI_PASSWORD }}\" --project-id ${{ inputs.pling }}";
-      
+
+
+  npmjs-bump-version:
+    if: inputs.npmjs != 'false'
+    name: npmjs bump version
+    needs: static-analysis
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+                      
+      - name: Bump version  
+        run: |-
+          if ! test -f version; then echo "version=0.0.1" > version; fi
+          version=$(grep 'version=.*' version | awk -F'=' '{print $2}')
+          next=$(echo $version | awk -F. '/[0-9]+\./{$NF++;print}' OFS=.)
+          sed "s/$version/$next/" -i version
+          sed "s/$version/$next/" -i package.json
+  
+      - name: Push changes
+        if: steps.changes.outputs.src == 'true'
+        uses: mikeal/publish-to-github-action@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH_NAME: 'main' #optional defaults to master
+
+  npmjs-upload:
+    if: inputs.npmjs != 'false'
+    name: npmjs project build
+    needs: npmjs-bump-version
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Use Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20.x'
+          
+      - name: Publish
+        run: |-
+          bash -c "npm set \"//npm.pkg.github.com/:_authToken=${{ secrets.NPM }}\"";
+          bash -c "npm publish --access public";        
+
 
   rebuild-profile:   
     name: Dispatch rebuild profile

@@ -376,7 +376,7 @@ jobs:
           
       - name: Publish
         run: |-
-          bash -c "npm set \"//npm.pkg.github.com/:_authToken=${{ secrets.NPM }}\"";
+          bash -c "npm set "//registry.npmjs.org/:_authToken" ${{ secrets.NPM }}";
           bash -c "npm publish --access public";        
 
 

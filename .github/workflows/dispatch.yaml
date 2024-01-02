@@ -354,6 +354,8 @@ jobs:
           echo $next
           sed "s/$version/$next/" -i version
           sed "s/$version/$next/" -i package.json
+          cat version
+          cat package.json
           
   
       - name: Push changes

@@ -350,8 +350,11 @@ jobs:
           if ! test -f version; then echo "version=0.0.1" > version; fi
           version=$(grep 'version=.*' version | awk -F'=' '{print $2}')
           next=$(echo $version | awk -F. '/[0-9]+\./{$NF++;print}' OFS=.)
+          echo $version
+          echo $next
           sed "s/$version/$next/" -i version
           sed "s/$version/$next/" -i package.json
+          
   
       - name: Push changes
         if: steps.changes.outputs.src == 'true'

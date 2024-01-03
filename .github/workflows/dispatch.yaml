@@ -354,7 +354,7 @@ jobs:
           sed "s/$version/$next/" -i package.json          
   
       - name: Push changes
-        if: steps.changes.outputs == 'true'
+        if: steps.changes.outputs.src == 'true'
         uses: mikeal/publish-to-github-action@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

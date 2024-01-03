@@ -206,11 +206,7 @@ class ReadmeUpdater:
                         else badge
                     )
                     language += (
-                        "<img src='"
-                        + badge
-                        + "' title='"
-                        + lang
-                        + "' height='20px'/> "
+                        "<img src='" + badge + "' title='" + lang + "' height='20px'/> "
                     )
 
             language = language[0 : len(language) - 2]

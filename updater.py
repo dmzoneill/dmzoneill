@@ -209,7 +209,7 @@ class ReadmeUpdater:
                         "<img src='"
                         + badge
                         + "' title='"
-                        + badge
+                        + lang
                         + "' height='20px'/> "
                     )
 

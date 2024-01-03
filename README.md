@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-02/01/2024 08:32:11-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-03/01/2024 00:32:38-brightgreen" height='28'/>
 
 <table>
   <tr>
@@ -8,7 +8,7 @@
       <h3>Pull Requests (5)</h3>
       <ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/pull/4'>Update Dockerfile</a> 2023-01-24</li><li><a href='https://github.com/dmzoneill/Chuckbot/pull/12'>Bump @babel/traverse from 7.21.5 to 7.23.6</a> 2023-12-17</li><li><a href='https://github.com/dmzoneill/Chuckbot/pull/11'>Bump undici from 5.22.0 to 5.28.2</a> 2023-12-17</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/12'>Bump postcss from 8.4.13 to 8.4.31 in /frontend</a> 2023-10-06</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/11'>Bump semver from 5.7.1 to 5.7.2 in /frontend</a> 2023-07-11</li></ul>
       <h3>Recent Acivity</h3>
-      <ul><li><a href='https://github.com/dmzoneill/urban-dictionary/commit/8e1ea1ce53c91544e774fd140e9d3a7d48505278'>Update README.md</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/802d97416849fcb5a050552d40b67cd253a95614'>Update dispatch.yaml</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/ba9f00bd1d8f643c6db6792547bee4e9fc09703a'>Update dispatch.yaml</a></li><li><a href='https://github.com/dmzoneill/urban-dictionary/commit/66f6626571b1feeef33d526371d63bc93890b599'>Update README.md</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/52d50c203cf7c314b87bcf05121de8d05d82f8f0'>Update dispatch.yaml</a></li></ul>
+      <ul><li><a href='https://github.com/dmzoneill/urban-dictionary/commit/fd599c0837386b87a86814e4961c41dfade7d070'>Update package.json</a></li><li><a href='https://github.com/dmzoneill/urban-dictionary/commit/4c1b30bc99f2cbab5a5ae2ca095d189a8ddba435'>Update README.md</a></li><li><a href='https://github.com/dmzoneill/urban-dictionary/commit/db68d66ec287da4981c0bbc8901ad9a96d67681d'>Update README.md</a></li><li><a href='https://github.com/dmzoneill/urban-dictionary/commit/50faf3040f4c0b2e6e5469b2066393650d39d0cb'>Update README.md</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/7f2179a0c4f5a2b7c903212525f6c2eb364bf7d9'>Update dispatch.yaml</a></li></ul>
       <h3>Gists</h3>
       <ul><li><a href='https://gist.github.com/dmzoneill/664484ef2b798118a83347205f84c66b'>keybase.md</a></li><li><a href='https://gist.github.com/dmzoneill/67a908fb949dc95bbbf02f0446a07f0a'>durex fun</a></li><li><a href='https://gist.github.com/dmzoneill/d13d88b16d4d0aa90cb108a00ab3cf01'>10GB tuning</a></li><li><a href='https://gist.github.com/dmzoneill/575ba9c32375c41cb1041e9064de0678'>Synology 108tb limit bypass</a></li><li><a href='https://gist.github.com/dmzoneill/cbc75e502dbe2b78651f68d6320b714a'>AA active queries</a></li><li><a href='https://gist.github.com/dmzoneill/faaa84782eaed4d2dc28ad55c19119ee'>PHP Paypal Instant Payment Notification</a></li></ul>
     </td>
@@ -125,7 +125,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/dmzoneill' title='dmzoneill'>dmzoneill</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/dmzoneill/commit/802d97416849fcb5a050552d40b67cd253a95614'>Update dispatch.yaml</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/ba9f00bd1d8f643c6db6792547bee4e9fc09703a'>Update dispatch.yaml</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/52d50c203cf7c314b87bcf05121de8d05d82f8f0'>Update dispatch.yaml</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/ba3526cd919aa17999b08b2c9e289e2a6478e0e9'>Update dispatch.yaml</a></li></ul></p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/dmzoneill/commit/7f2179a0c4f5a2b7c903212525f6c2eb364bf7d9'>Update dispatch.yaml</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/8e69ba46b0ec092900b7f69421f0362f49b510f5'>Update dispatch.yaml</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/9b1b3e7fd0a8ff89bd98ee6fe50a32d8316c5f6d'>Update dispatch.yaml</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/fd99213b115a91a0b727f5bb38e4629ae57eb2eb'>Update dispatch.yaml</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/defcc11e8a071d7085129dc2f59e47f963161521'>Update dispatch.yaml</a></li></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -377,22 +377,6 @@ Fixes #17</a></li></ul></p>
 
 </tbody></table><h2>2023</h2><table width='100%' style='width:100%'><thead><tr><th>Project</th><th>View</th><th>Status</th></tr></thead><tbody><tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/urban-dictionary' title='urban-dictionary'>urban-dictionary</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' height='20px'/</p>
-              <p>MIT License</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/urban-dictionary/commit/8e1ea1ce53c91544e774fd140e9d3a7d48505278'>Update README.md</a></li><li><a href='https://github.com/dmzoneill/urban-dictionary/commit/66f6626571b1feeef33d526371d63bc93890b599'>Update README.md</a></li><li><a href='https://github.com/dmzoneill/urban-dictionary/commit/81484bce93d8d50fe0f31699e518bd7bb5fa431a'>Update main.yml</a></li><li><a href='https://github.com/dmzoneill/urban-dictionary/commit/11509a024952c1ea42d10cd62963a2b797430f61'>Update version</a></li><li><a href='https://github.com/dmzoneill/urban-dictionary/commit/bd3a81e2206e81a16b148ac94cb995c190f0540c'>add github action and setup secret</a></li></ul></p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-            </td>
-            <td>
-              <p><a href='' title=''></a></p>
-            </td>
-            <td align="center">
-              <a href='https://github.com/dmzoneill/urban-dictionary/actions'><img src='https://github.com/dmzoneill//urban-dictionary/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2023-12-31</p>
-            </td>
-        </tr>
-<tr>
-            <td>
               <p><h2><a href='https://github.com/dmzoneill/hevyapp-api' title='hevyapp-api'>hevyapp-api</a> (2023)</h2></p><p></p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
@@ -404,7 +388,23 @@ Fixes #17</a></li></ul></p>
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/hevyapp-api/actions'><img src='https://github.com/dmzoneill//hevyapp-api/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2023-12-16</p>
+              <p>2024-01-02</p>
+            </td>
+        </tr>
+<tr>
+            <td>
+              <p><h2><a href='https://github.com/dmzoneill/urban-dictionary' title='urban-dictionary'>urban-dictionary</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' height='20px'/</p>
+              <p>MIT License</p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/urban-dictionary/commit/fd599c0837386b87a86814e4961c41dfade7d070'>Update package.json</a></li><li><a href='https://github.com/dmzoneill/urban-dictionary/commit/4c1b30bc99f2cbab5a5ae2ca095d189a8ddba435'>Update README.md</a></li><li><a href='https://github.com/dmzoneill/urban-dictionary/commit/db68d66ec287da4981c0bbc8901ad9a96d67681d'>Update README.md</a></li><li><a href='https://github.com/dmzoneill/urban-dictionary/commit/50faf3040f4c0b2e6e5469b2066393650d39d0cb'>Update README.md</a></li><li><a href='https://github.com/dmzoneill/urban-dictionary/commit/a0416cc7a06ec038b8bc5e835f885b38cf283aa4'>Update README.md</a></li></ul></p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+            </td>
+            <td>
+              <p><a href='' title=''></a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/urban-dictionary/actions'><img src='https://github.com/dmzoneill//urban-dictionary/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2023-12-31</p>
             </td>
         </tr>
 <tr>

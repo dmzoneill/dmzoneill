@@ -1,16 +1,16 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-03/01/2024 08:29:49-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-04/01/2024 00:31:20-brightgreen" height='28'/>
 
 <table>
   <tr>
     <td>
-      <h3>Issues (15)</h3>
+      <h3>Issues (13)</h3>
       <li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/15'>usage</a> 2023-10-17</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/14'>/bin/sh: 1: youtube-dl: not found</a> 2023-11-16</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/13'>Alittle help with docker compose</a> 2023-08-14</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/12'>REQ: Ability to set percentage match cutoff and/or keyword blacklist such as "live" or whitelist "official" in title.</a> 2023-06-16</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/11'>Deployment Loop and "workaround".</a> 2023-05-10</li>
-      <h3>Pull Requests (5)</h3>
-      <ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/pull/4'>Update Dockerfile</a> 2023-01-24</li><li><a href='https://github.com/dmzoneill/Chuckbot/pull/12'>Bump @babel/traverse from 7.21.5 to 7.23.6</a> 2023-12-17</li><li><a href='https://github.com/dmzoneill/Chuckbot/pull/11'>Bump undici from 5.22.0 to 5.28.2</a> 2023-12-17</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/12'>Bump postcss from 8.4.13 to 8.4.31 in /frontend</a> 2023-10-06</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/11'>Bump semver from 5.7.1 to 5.7.2 in /frontend</a> 2023-07-11</li></ul>
+      <h3>Pull Requests (3)</h3>
+      <ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/pull/4'>Update Dockerfile</a> 2023-01-24</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/12'>Bump postcss from 8.4.13 to 8.4.31 in /frontend</a> 2023-10-06</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/11'>Bump semver from 5.7.1 to 5.7.2 in /frontend</a> 2023-07-11</li></ul>
       <h3>Recent Acivity</h3>
-      <ul><li><a href='https://github.com/dmzoneill/dmzoneill/commit/ee24240ba0b2d45f531719ac399cc25736410d48'>Update config.json</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/1ff68217d17cef66fcf591bd2ea2c8b7e25516c7'>Update config.json</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/bb80096a0bb3dc15f296d820212846cd65e30a02'>Update updater.py</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/0cfaf733ad0109fd96234b67d43921b9bfe1b647'>Update updater.py</a></li><li><a href='https://github.com/dmzoneill/urban-dictionary/commit/fd599c0837386b87a86814e4961c41dfade7d070'>Update package.json</a></li></ul>
+      <ul><li><a href='Bump @babel/traverse from 7.21.5 to 7.23.6'>https://github.com/dmzoneill/Chuckbot/pull/12</a></li><li><a href='https://github.com/dmzoneill/Chuckbot/commit/f431336308326ef98dca3dba651a9847e33b58b1'>Package update</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/6d96dc43583050434ac2bfd1804526d17a272918'>Update dispatch.yaml</a></li><li><a href='https://github.com/dmzoneill/urban-dictionary/commit/d70dc927cf732dfa06ad93f385d6739de2addeed'>Update README.md</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/ee24240ba0b2d45f531719ac399cc25736410d48'>Update config.json</a></li></ul>
       <h3>Gists</h3>
-      <ul><li><a href='https://gist.github.com/dmzoneill/664484ef2b798118a83347205f84c66b'>keybase.md</a></li><li><a href='https://gist.github.com/dmzoneill/67a908fb949dc95bbbf02f0446a07f0a'>durex fun</a></li><li><a href='https://gist.github.com/dmzoneill/d13d88b16d4d0aa90cb108a00ab3cf01'>10GB tuning</a></li><li><a href='https://gist.github.com/dmzoneill/575ba9c32375c41cb1041e9064de0678'>Synology 108tb limit bypass</a></li><li><a href='https://gist.github.com/dmzoneill/cbc75e502dbe2b78651f68d6320b714a'>AA active queries</a></li><li><a href='https://gist.github.com/dmzoneill/faaa84782eaed4d2dc28ad55c19119ee'>PHP Paypal Instant Payment Notification</a></li></ul>
+      <ul><li><a href='https://gist.github.com/dmzoneill/4f1a46c512245a21ce819a9f465679aa'>AWX development on kind</a></li><li><a href='https://gist.github.com/dmzoneill/664484ef2b798118a83347205f84c66b'>keybase.md</a></li><li><a href='https://gist.github.com/dmzoneill/67a908fb949dc95bbbf02f0446a07f0a'>durex fun</a></li><li><a href='https://gist.github.com/dmzoneill/d13d88b16d4d0aa90cb108a00ab3cf01'>10GB tuning</a></li><li><a href='https://gist.github.com/dmzoneill/575ba9c32375c41cb1041e9064de0678'>Synology 108tb limit bypass</a></li><li><a href='https://gist.github.com/dmzoneill/cbc75e502dbe2b78651f68d6320b714a'>AA active queries</a></li><li><a href='https://gist.github.com/dmzoneill/faaa84782eaed4d2dc28ad55c19119ee'>PHP Paypal Instant Payment Notification</a></li></ul>
     </td>
     <td>
       <h3>Work related stuff over on</h3>
@@ -41,7 +41,7 @@
     </tr>
   </thead>
   <tbody>
-    <tr><td><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript'  height='20px'/></td><td>8861358</td>
+    <tr><td><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript'  height='20px'/></td><td>8811084</td>
 <td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>513945</td>
 <td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>310889</td>
 <td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>1368096</td>
@@ -123,25 +123,9 @@
   <tbody>
     <tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/dmzoneill' title='dmzoneill'>dmzoneill</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
-              <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/dmzoneill/commit/ee24240ba0b2d45f531719ac399cc25736410d48'>Update config.json</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/1ff68217d17cef66fcf591bd2ea2c8b7e25516c7'>Update config.json</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/bb80096a0bb3dc15f296d820212846cd65e30a02'>Update updater.py</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/0cfaf733ad0109fd96234b67d43921b9bfe1b647'>Update updater.py</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/7f2179a0c4f5a2b7c903212525f6c2eb364bf7d9'>Update dispatch.yaml</a></li></ul></p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-            </td>
-            <td>
-              <p><a href='https://github.com/dmzoneill' title='Github profile'>Github profile</a></p>
-            </td>
-            <td align="center">
-              <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2023-01-16</p>
-            </td>
-        </tr>
-<tr>
-            <td>
               <p><h2><a href='https://github.com/dmzoneill/Chuckbot' title='Chuckbot'>Chuckbot</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/Chuckbot/commit/c8d5e909fd0ee7aee6c3cd6c2ffc3913e073d459'>Bump semver from 5.7.1 to 5.7.2
+              <p><h4>Recent Activity</h4><ul><li><a href='Bump @babel/traverse from 7.21.5 to 7.23.6'>https://github.com/dmzoneill/Chuckbot/pull/12</a></li><li><a href='https://github.com/dmzoneill/Chuckbot/commit/f431336308326ef98dca3dba651a9847e33b58b1'>Package update</a></li><li><a href='https://github.com/dmzoneill/Chuckbot/commit/c8d5e909fd0ee7aee6c3cd6c2ffc3913e073d459'>Bump semver from 5.7.1 to 5.7.2
 
 Bumps [semver](https://github.com/npm/node-semver) from 5.7.1 to 5.7.2.
 - [Release notes](https://github.com/npm/node-semver/releases)
@@ -167,22 +151,9 @@ updated-dependencies:
   dependency-type: indirect
 ...
 
-Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump socket.io-parser from 4.2.2 to 4.2.3'>https://github.com/dmzoneill/Chuckbot/pull/9</a></li><li><a href='https://github.com/dmzoneill/Chuckbot/commit/16d9da742388b8d5631abf2254168927b841044f'>Bump engine.io from 6.4.1 to 6.4.2
-
-Bumps [engine.io](https://github.com/socketio/engine.io) from 6.4.1 to 6.4.2.
-- [Release notes](https://github.com/socketio/engine.io/releases)
-- [Changelog](https://github.com/socketio/engine.io/blob/main/CHANGELOG.md)
-- [Commits](https://github.com/socketio/engine.io/compare/6.4.1...6.4.2)
-
----
-updated-dependencies:
-- dependency-name: engine.io
-  dependency-type: indirect
-...
-
 Signed-off-by: dependabot[bot] <support@github.com></a></li></ul></p>
               <p><ul></ul></p>
-              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/Chuckbot/pull/12'>Bump @babel/traverse from 7.21.5 to 7.23.6</a> 2023-04-08</li><li><a href='https://github.com/dmzoneill/Chuckbot/pull/11'>Bump undici from 5.22.0 to 5.28.2</a> 2023-04-08</li></ul></p>
+              <p><ul></ul></p>
             </td>
             <td>
               <p><a href='https://wa.me/96592226837' title='Chat with chuck'>Chat with chuck</a></p>
@@ -190,6 +161,22 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li></ul></p>
             <td align="center">
               <a href='https://github.com/dmzoneill/Chuckbot/actions'><img src='https://github.com/dmzoneill//Chuckbot/actions/workflows/main.yml/badge.svg'/></a>
               <p>2023-04-08</p>
+            </td>
+        </tr>
+<tr>
+            <td>
+              <p><h2><a href='https://github.com/dmzoneill/dmzoneill' title='dmzoneill'>dmzoneill</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
+              <p>Apache License 2.0</p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/dmzoneill/commit/6d96dc43583050434ac2bfd1804526d17a272918'>Update dispatch.yaml</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/ee24240ba0b2d45f531719ac399cc25736410d48'>Update config.json</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/1ff68217d17cef66fcf591bd2ea2c8b7e25516c7'>Update config.json</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/bb80096a0bb3dc15f296d820212846cd65e30a02'>Update updater.py</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/0cfaf733ad0109fd96234b67d43921b9bfe1b647'>Update updater.py</a></li></ul></p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+            </td>
+            <td>
+              <p><a href='https://github.com/dmzoneill' title='Github profile'>Github profile</a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2023-01-16</p>
             </td>
         </tr>
 <tr>
@@ -377,6 +364,22 @@ Fixes #17</a></li></ul></p>
 
 </tbody></table><h2>2023</h2><table width='100%' style='width:100%'><thead><tr><th>Project</th><th>View</th><th>Status</th></tr></thead><tbody><tr>
             <td>
+              <p><h2><a href='https://github.com/dmzoneill/strongapp-api' title='strongapp-api'>strongapp-api</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' title='Java' height='20px'/> <img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/perl-%2339457E.svg?style=for-the-badge&logo=perl&logoColor=white' title='Perl' height='20px'/> <img src='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' title='Go' height='20px'/</p>
+              <p>Apache License 2.0</p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+            </td>
+            <td>
+              <p><a href='' title=''></a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/strongapp-api/actions'><img src='https://github.com/dmzoneill//strongapp-api/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2024-01-03</p>
+            </td>
+        </tr>
+<tr>
+            <td>
               <p><h2><a href='https://github.com/dmzoneill/hevyapp-api' title='hevyapp-api'>hevyapp-api</a> (2023)</h2></p><p></p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
@@ -395,7 +398,7 @@ Fixes #17</a></li></ul></p>
             <td>
               <p><h2><a href='https://github.com/dmzoneill/urban-dictionary' title='urban-dictionary'>urban-dictionary</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/</p>
               <p>MIT License</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/urban-dictionary/commit/fd599c0837386b87a86814e4961c41dfade7d070'>Update package.json</a></li><li><a href='https://github.com/dmzoneill/urban-dictionary/commit/4c1b30bc99f2cbab5a5ae2ca095d189a8ddba435'>Update README.md</a></li><li><a href='https://github.com/dmzoneill/urban-dictionary/commit/db68d66ec287da4981c0bbc8901ad9a96d67681d'>Update README.md</a></li><li><a href='https://github.com/dmzoneill/urban-dictionary/commit/50faf3040f4c0b2e6e5469b2066393650d39d0cb'>Update README.md</a></li><li><a href='https://github.com/dmzoneill/urban-dictionary/commit/a0416cc7a06ec038b8bc5e835f885b38cf283aa4'>Update README.md</a></li></ul></p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/urban-dictionary/commit/d70dc927cf732dfa06ad93f385d6739de2addeed'>Update README.md</a></li><li><a href='https://github.com/dmzoneill/urban-dictionary/commit/fd599c0837386b87a86814e4961c41dfade7d070'>Update package.json</a></li><li><a href='https://github.com/dmzoneill/urban-dictionary/commit/4c1b30bc99f2cbab5a5ae2ca095d189a8ddba435'>Update README.md</a></li><li><a href='https://github.com/dmzoneill/urban-dictionary/commit/db68d66ec287da4981c0bbc8901ad9a96d67681d'>Update README.md</a></li><li><a href='https://github.com/dmzoneill/urban-dictionary/commit/50faf3040f4c0b2e6e5469b2066393650d39d0cb'>Update README.md</a></li></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -405,22 +408,6 @@ Fixes #17</a></li></ul></p>
             <td align="center">
               <a href='https://github.com/dmzoneill/urban-dictionary/actions'><img src='https://github.com/dmzoneill//urban-dictionary/actions/workflows/main.yml/badge.svg'/></a>
               <p>2023-12-31</p>
-            </td>
-        </tr>
-<tr>
-            <td>
-              <p><h2><a href='https://github.com/dmzoneill/strongapp-api' title='strongapp-api'>strongapp-api</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' title='Java' height='20px'/> <img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/perl-%2339457E.svg?style=for-the-badge&logo=perl&logoColor=white' title='Perl' height='20px'/> <img src='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' title='Go' height='20px'/</p>
-              <p>Apache License 2.0</p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-            </td>
-            <td>
-              <p><a href='' title=''></a></p>
-            </td>
-            <td align="center">
-              <a href='https://github.com/dmzoneill/strongapp-api/actions'><img src='https://github.com/dmzoneill//strongapp-api/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2023-09-29</p>
             </td>
         </tr>
 <tr>

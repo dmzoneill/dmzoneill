@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-05/01/2024 00:31:17-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-06/01/2024 00:31:13-brightgreen" height='28'/>
 
 <table>
   <tr>
@@ -8,12 +8,12 @@
       <h3>Pull Requests (3)</h3>
       <ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/pull/4'>Update Dockerfile</a> 2023-01-24</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/12'>Bump postcss from 8.4.13 to 8.4.31 in /frontend</a> 2023-10-06</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/11'>Bump semver from 5.7.1 to 5.7.2 in /frontend</a> 2023-07-11</li></ul>
       <h3>Recent Acivity</h3>
-      <ul><li><a href='https://github.com/dmzoneill/sodarr-chrome-plugin/commit/07efde0345fc2f3c4c82c08118af835253f7794e'>Fix radarr element selector</a></li><li><a href='https://github.com/dmzoneill/sodarr-chrome-plugin/commit/900dbba64ccd0ed083e3ca864e56ab7662c06b0c'>Fix radarr element selector</a></li><li><a href='https://github.com/dmzoneill/Chuckbot/commit/656c46345edb088dea8adc492ab82c0164e717d4'>Fix dependancy</a></li><li><a href='https://github.com/ansible/awx/commit/47479074786bb3944bf2968e9a766dec5a6ff0eb'>Mesh UI support
+      <ul><li><a href='https://github.com/dmzoneill/sodarr-chrome-plugin/commit/9cf714dd278c979f8f5d512fcfb52fb16169510d'>Update README.md</a></li><li><a href='https://github.com/dmzoneill/sodarr-chrome-plugin/commit/07efde0345fc2f3c4c82c08118af835253f7794e'>Fix radarr element selector</a></li><li><a href='https://github.com/dmzoneill/sodarr-chrome-plugin/commit/900dbba64ccd0ed083e3ca864e56ab7662c06b0c'>Fix radarr element selector</a></li><li><a href='https://github.com/dmzoneill/Chuckbot/commit/656c46345edb088dea8adc492ab82c0164e717d4'>Fix dependancy</a></li><li><a href='https://github.com/ansible/awx/commit/47479074786bb3944bf2968e9a766dec5a6ff0eb'>Mesh UI support
 
 - add endpoint
 - delete endpoint (wip)
 - associate
-- disassociate</a></li><li><a href='Bump @babel/traverse from 7.21.5 to 7.23.6'>https://github.com/dmzoneill/Chuckbot/pull/12</a></li></ul>
+- disassociate</a></li></ul>
       <h3>Gists</h3>
       <ul><li><a href='https://gist.github.com/dmzoneill/4f1a46c512245a21ce819a9f465679aa'>AWX development on kind</a></li><li><a href='https://gist.github.com/dmzoneill/664484ef2b798118a83347205f84c66b'>keybase.md</a></li><li><a href='https://gist.github.com/dmzoneill/67a908fb949dc95bbbf02f0446a07f0a'>durex fun</a></li><li><a href='https://gist.github.com/dmzoneill/d13d88b16d4d0aa90cb108a00ab3cf01'>10GB tuning</a></li><li><a href='https://gist.github.com/dmzoneill/575ba9c32375c41cb1041e9064de0678'>Synology 108tb limit bypass</a></li><li><a href='https://gist.github.com/dmzoneill/cbc75e502dbe2b78651f68d6320b714a'>AA active queries</a></li><li><a href='https://gist.github.com/dmzoneill/faaa84782eaed4d2dc28ad55c19119ee'>PHP Paypal Instant Payment Notification</a></li></ul>
     </td>
@@ -130,7 +130,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/sodarr-chrome-plugin' title='sodarr-chrome-plugin'>sodarr-chrome-plugin</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/sodarr-chrome-plugin/commit/07efde0345fc2f3c4c82c08118af835253f7794e'>Fix radarr element selector</a></li><li><a href='https://github.com/dmzoneill/sodarr-chrome-plugin/commit/900dbba64ccd0ed083e3ca864e56ab7662c06b0c'>Fix radarr element selector</a></li><li><a href='https://github.com/dmzoneill/sodarr-chrome-plugin/issues/2'>Any Guide to make it work on Windows?</a></li></ul></p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/sodarr-chrome-plugin/commit/9cf714dd278c979f8f5d512fcfb52fb16169510d'>Update README.md</a></li><li><a href='https://github.com/dmzoneill/sodarr-chrome-plugin/commit/07efde0345fc2f3c4c82c08118af835253f7794e'>Fix radarr element selector</a></li><li><a href='https://github.com/dmzoneill/sodarr-chrome-plugin/commit/900dbba64ccd0ed083e3ca864e56ab7662c06b0c'>Fix radarr element selector</a></li><li><a href='https://github.com/dmzoneill/sodarr-chrome-plugin/issues/2'>Any Guide to make it work on Windows?</a></li></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -140,6 +140,22 @@
             <td align="center">
               <a href='https://github.com/dmzoneill/sodarr-chrome-plugin/actions'><img src='https://github.com/dmzoneill//sodarr-chrome-plugin/actions/workflows/main.yml/badge.svg'/></a>
               <p>2023-11-26</p>
+            </td>
+        </tr>
+<tr>
+            <td>
+              <p><h2><a href='https://github.com/dmzoneill/dmzoneill' title='dmzoneill'>dmzoneill</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
+              <p>Apache License 2.0</p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/dmzoneill/commit/6d96dc43583050434ac2bfd1804526d17a272918'>Update dispatch.yaml</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/ee24240ba0b2d45f531719ac399cc25736410d48'>Update config.json</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/1ff68217d17cef66fcf591bd2ea2c8b7e25516c7'>Update config.json</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/bb80096a0bb3dc15f296d820212846cd65e30a02'>Update updater.py</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/0cfaf733ad0109fd96234b67d43921b9bfe1b647'>Update updater.py</a></li></ul></p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+            </td>
+            <td>
+              <p><a href='https://github.com/dmzoneill' title='Github profile'>Github profile</a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2023-01-16</p>
             </td>
         </tr>
 <tr>
@@ -169,22 +185,6 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump se
             <td align="center">
               <a href='https://github.com/dmzoneill/Chuckbot/actions'><img src='https://github.com/dmzoneill//Chuckbot/actions/workflows/main.yml/badge.svg'/></a>
               <p>2023-04-08</p>
-            </td>
-        </tr>
-<tr>
-            <td>
-              <p><h2><a href='https://github.com/dmzoneill/dmzoneill' title='dmzoneill'>dmzoneill</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
-              <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/dmzoneill/commit/6d96dc43583050434ac2bfd1804526d17a272918'>Update dispatch.yaml</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/ee24240ba0b2d45f531719ac399cc25736410d48'>Update config.json</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/1ff68217d17cef66fcf591bd2ea2c8b7e25516c7'>Update config.json</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/bb80096a0bb3dc15f296d820212846cd65e30a02'>Update updater.py</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/0cfaf733ad0109fd96234b67d43921b9bfe1b647'>Update updater.py</a></li></ul></p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-            </td>
-            <td>
-              <p><a href='https://github.com/dmzoneill' title='Github profile'>Github profile</a></p>
-            </td>
-            <td align="center">
-              <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2023-01-16</p>
             </td>
         </tr>
 <tr>

@@ -1,14 +1,14 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-06/01/2024 18:10:51-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-07/01/2024 00:35:35-brightgreen" height='28'/>
 
 <table>
   <tr>
     <td>
-      <h3>Issues (13)</h3>
+      <h3>Issues (12)</h3>
       <li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/15'>usage</a> 2023-10-17</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/14'>/bin/sh: 1: youtube-dl: not found</a> 2023-11-16</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/13'>Alittle help with docker compose</a> 2023-08-14</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/12'>REQ: Ability to set percentage match cutoff and/or keyword blacklist such as "live" or whitelist "official" in title.</a> 2023-06-16</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/11'>Deployment Loop and "workaround".</a> 2023-05-10</li>
-      <h3>Pull Requests (3)</h3>
-      <ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/pull/4'>Update Dockerfile</a> 2023-01-24</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/12'>Bump postcss from 8.4.13 to 8.4.31 in /frontend</a> 2023-10-06</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/11'>Bump semver from 5.7.1 to 5.7.2 in /frontend</a> 2023-07-11</li></ul>
+      <h3>Pull Requests (2)</h3>
+      <ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/12'>Bump postcss from 8.4.13 to 8.4.31 in /frontend</a> 2023-10-06</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/11'>Bump semver from 5.7.1 to 5.7.2 in /frontend</a> 2023-07-11</li></ul>
       <h3>Recent Acivity</h3>
-      <ul><li><a href='https://github.com/dmzoneill/sodarr-chrome-plugin/commit/9422375f4b9fd5ca5aa8427514012461ea2d845c'>Remove permissions</a></li><li><a href='https://github.com/dmzoneill/sodarr-chrome-plugin/commit/9cf714dd278c979f8f5d512fcfb52fb16169510d'>Update README.md</a></li><li><a href='https://github.com/dmzoneill/sodarr-chrome-plugin/commit/07efde0345fc2f3c4c82c08118af835253f7794e'>Fix radarr element selector</a></li><li><a href='https://github.com/dmzoneill/sodarr-chrome-plugin/commit/900dbba64ccd0ed083e3ca864e56ab7662c06b0c'>Fix radarr element selector</a></li><li><a href='https://github.com/dmzoneill/Chuckbot/commit/656c46345edb088dea8adc492ab82c0164e717d4'>Fix dependancy</a></li></ul>
+      <ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/commit/e6f0a93ac97d0e83732212bef67a3f3542ae76f8'>Update lyd.py</a></li><li><a href='Update Dockerfile'>https://github.com/dmzoneill/lidarr-youtube-downloader/pull/4</a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/commit/f83ea39c5b4f96f459e23fe6137192a29b04d5d3'>Update README.md</a></li><li><a href='https://github.com/dmzoneill/sodarr-chrome-plugin/commit/9422375f4b9fd5ca5aa8427514012461ea2d845c'>Remove permissions</a></li><li><a href='https://github.com/dmzoneill/sodarr-chrome-plugin/commit/9cf714dd278c979f8f5d512fcfb52fb16169510d'>Update README.md</a></li></ul>
       <h3>Gists</h3>
       <ul><li><a href='https://gist.github.com/dmzoneill/4f1a46c512245a21ce819a9f465679aa'>AWX development on kind</a></li><li><a href='https://gist.github.com/dmzoneill/664484ef2b798118a83347205f84c66b'>keybase.md</a></li><li><a href='https://gist.github.com/dmzoneill/67a908fb949dc95bbbf02f0446a07f0a'>durex fun</a></li><li><a href='https://gist.github.com/dmzoneill/d13d88b16d4d0aa90cb108a00ab3cf01'>10GB tuning</a></li><li><a href='https://gist.github.com/dmzoneill/575ba9c32375c41cb1041e9064de0678'>Synology 108tb limit bypass</a></li><li><a href='https://gist.github.com/dmzoneill/cbc75e502dbe2b78651f68d6320b714a'>AA active queries</a></li><li><a href='https://gist.github.com/dmzoneill/faaa84782eaed4d2dc28ad55c19119ee'>PHP Paypal Instant Payment Notification</a></li></ul>
     </td>
@@ -44,7 +44,7 @@
     <tr><td><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript'  height='20px'/></td><td>8811063</td>
 <td><img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS'  height='20px'/></td><td>5837924</td>
 <td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>310889</td>
-<td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>513945</td>
+<td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>513946</td>
 </tr><tr>
 <td><img src='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' title='Java'  height='20px'/></td><td>2071977</td>
 <td><img src='https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white' title='Kotlin'  height='20px'/></td><td>24599</td>
@@ -123,18 +123,18 @@
   <tbody>
     <tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/sodarr-chrome-plugin' title='sodarr-chrome-plugin'>sodarr-chrome-plugin</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/lidarr-youtube-downloader' title='lidarr-youtube-downloader'>lidarr-youtube-downloader</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/> <img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/sodarr-chrome-plugin/commit/9422375f4b9fd5ca5aa8427514012461ea2d845c'>Remove permissions</a></li><li><a href='https://github.com/dmzoneill/sodarr-chrome-plugin/commit/9cf714dd278c979f8f5d512fcfb52fb16169510d'>Update README.md</a></li><li><a href='https://github.com/dmzoneill/sodarr-chrome-plugin/commit/07efde0345fc2f3c4c82c08118af835253f7794e'>Fix radarr element selector</a></li><li><a href='https://github.com/dmzoneill/sodarr-chrome-plugin/commit/900dbba64ccd0ed083e3ca864e56ab7662c06b0c'>Fix radarr element selector</a></li></ul></p>
-              <p><ul></ul></p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/commit/e6f0a93ac97d0e83732212bef67a3f3542ae76f8'>Update lyd.py</a></li><li><a href='Update Dockerfile'>https://github.com/dmzoneill/lidarr-youtube-downloader/pull/4</a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/commit/f83ea39c5b4f96f459e23fe6137192a29b04d5d3'>Update README.md</a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/commit/578c979c5be415721d6706328291c9808d753bb6'>doc: add hint that complete git repo is needed for docker build</a></li><li><a href='doc: add hint that complete git repo is needed for docker build'>https://github.com/dmzoneill/lidarr-youtube-downloader/pull/16</a></li></ul></p>
+              <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/15'>usage</a> 2023-12-31</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/14'>/bin/sh: 1: youtube-dl: not found</a> 2023-12-31</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/13'>Alittle help with docker compose</a> 2023-12-31</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/12'>REQ: Ability to set percentage match cutoff and/or keyword blacklist such as "live" or whitelist "official" in title.</a> 2023-12-31</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/11'>Deployment Loop and "workaround".</a> 2023-12-31</li></ul></p>
               <p><ul></ul></p>
             </td>
             <td>
-              <p><a href='https://chrome.google.com/webstore/detail/sodarr/nndmepnfkempbbjjfhbogcidgfckakmb' title='Sodarr Google chrome extension'>Sodarr Google chrome extension</a></p>
+              <p><a href='https://pypi.org/project/lidarr-youtube-downloader/' title='Lidarr youtube downloader PYPI package'>Lidarr youtube downloader PYPI package</a></p>
             </td>
             <td align="center">
-              <a href='https://github.com/dmzoneill/sodarr-chrome-plugin/actions'><img src='https://github.com/dmzoneill//sodarr-chrome-plugin/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2023-11-26</p>
+              <a href='https://github.com/dmzoneill/lidarr-youtube-downloader/actions'><img src='https://github.com/dmzoneill//lidarr-youtube-downloader/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2023-12-31</p>
             </td>
         </tr>
 <tr>
@@ -151,6 +151,22 @@
             <td align="center">
               <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
               <p>2023-01-16</p>
+            </td>
+        </tr>
+<tr>
+            <td>
+              <p><h2><a href='https://github.com/dmzoneill/sodarr-chrome-plugin' title='sodarr-chrome-plugin'>sodarr-chrome-plugin</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/</p>
+              <p>Apache License 2.0</p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/sodarr-chrome-plugin/commit/9422375f4b9fd5ca5aa8427514012461ea2d845c'>Remove permissions</a></li><li><a href='https://github.com/dmzoneill/sodarr-chrome-plugin/commit/9cf714dd278c979f8f5d512fcfb52fb16169510d'>Update README.md</a></li><li><a href='https://github.com/dmzoneill/sodarr-chrome-plugin/commit/07efde0345fc2f3c4c82c08118af835253f7794e'>Fix radarr element selector</a></li><li><a href='https://github.com/dmzoneill/sodarr-chrome-plugin/commit/900dbba64ccd0ed083e3ca864e56ab7662c06b0c'>Fix radarr element selector</a></li></ul></p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+            </td>
+            <td>
+              <p><a href='https://chrome.google.com/webstore/detail/sodarr/nndmepnfkempbbjjfhbogcidgfckakmb' title='Sodarr Google chrome extension'>Sodarr Google chrome extension</a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/sodarr-chrome-plugin/actions'><img src='https://github.com/dmzoneill//sodarr-chrome-plugin/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2023-11-26</p>
             </td>
         </tr>
 <tr>
@@ -180,28 +196,6 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump se
             <td align="center">
               <a href='https://github.com/dmzoneill/Chuckbot/actions'><img src='https://github.com/dmzoneill//Chuckbot/actions/workflows/main.yml/badge.svg'/></a>
               <p>2023-04-08</p>
-            </td>
-        </tr>
-<tr>
-            <td>
-              <p><h2><a href='https://github.com/dmzoneill/lidarr-youtube-downloader' title='lidarr-youtube-downloader'>lidarr-youtube-downloader</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/> <img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile' height='20px'/</p>
-              <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/commit/578c979c5be415721d6706328291c9808d753bb6'>doc: add hint that complete git repo is needed for docker build</a></li><li><a href='doc: add hint that complete git repo is needed for docker build'>https://github.com/dmzoneill/lidarr-youtube-downloader/pull/16</a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/commit/7172df03c052937c9fccd875507c2a3fac567e78'>build: remove numpy dependency
-
-Numpy is a big package and needs a lot of time for installing. As numpy is not used in the whole codebase, this removes it from the dependency list</a></li><li><a href='build: remove numpy dependency'>https://github.com/dmzoneill/lidarr-youtube-downloader/pull/20</a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/commit/efe4cfeaf893fed58b2206c3256c04c7ad535f7c'>fix: remove entrypoint with invalid name
-
-The entrypoint has an invalid name, which pip complains about
-
-Fixes #17</a></li></ul></p>
-              <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/15'>usage</a> 2023-12-31</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/14'>/bin/sh: 1: youtube-dl: not found</a> 2023-12-31</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/13'>Alittle help with docker compose</a> 2023-12-31</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/12'>REQ: Ability to set percentage match cutoff and/or keyword blacklist such as "live" or whitelist "official" in title.</a> 2023-12-31</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/11'>Deployment Loop and "workaround".</a> 2023-12-31</li></ul></p>
-              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/pull/4'>Update Dockerfile</a> 2023-12-31</li></ul></p>
-            </td>
-            <td>
-              <p><a href='https://pypi.org/project/lidarr-youtube-downloader/' title='Lidarr youtube downloader PYPI package'>Lidarr youtube downloader PYPI package</a></p>
-            </td>
-            <td align="center">
-              <a href='https://github.com/dmzoneill/lidarr-youtube-downloader/actions'><img src='https://github.com/dmzoneill//lidarr-youtube-downloader/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2023-12-31</p>
             </td>
         </tr>
 <tr>

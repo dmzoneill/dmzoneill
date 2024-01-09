@@ -1,14 +1,40 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-09/01/2024 00:32:03-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-09/01/2024 22:50:24-brightgreen" height='28'/>
 
 <table>
   <tr>
     <td>
-      <h3>Issues (12)</h3>
+      <h3>Issues (15)</h3>
       <li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/15'>usage</a> 2023-10-17</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/14'>/bin/sh: 1: youtube-dl: not found</a> 2023-11-16</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/13'>Alittle help with docker compose</a> 2023-08-14</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/12'>REQ: Ability to set percentage match cutoff and/or keyword blacklist such as "live" or whitelist "official" in title.</a> 2023-06-16</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/11'>Deployment Loop and "workaround".</a> 2023-05-10</li>
-      <h3>Pull Requests (2)</h3>
-      <ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/12'>Bump postcss from 8.4.13 to 8.4.31 in /frontend</a> 2023-10-06</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/11'>Bump semver from 5.7.1 to 5.7.2 in /frontend</a> 2023-07-11</li></ul>
+      <h3>Pull Requests (5)</h3>
+      <ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/17'>Bump @babel/traverse from 7.18.0 to 7.23.7 in /frontend</a> 2024-01-09</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/16'>Bump follow-redirects from 1.15.0 to 1.15.4 in /frontend</a> 2024-01-09</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/14'>Bump axios from 0.27.2 to 1.6.0 in /frontend</a> 2024-01-09</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/15'>Bump golang.org/x/crypto from 0.0.0-20220513210258-46612604a0f9 to 0.17.0 in /backend</a> 2024-01-09</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/13'>Bump golang.org/x/net from 0.7.0 to 0.17.0 in /backend</a> 2024-01-09</li></ul>
       <h3>Recent Acivity</h3>
-      <ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/commit/e6f0a93ac97d0e83732212bef67a3f3542ae76f8'>Update lyd.py</a></li><li><a href='Update Dockerfile'>https://github.com/dmzoneill/lidarr-youtube-downloader/pull/4</a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/commit/f83ea39c5b4f96f459e23fe6137192a29b04d5d3'>Update README.md</a></li><li><a href='https://github.com/dmzoneill/sodarr-chrome-plugin/commit/9422375f4b9fd5ca5aa8427514012461ea2d845c'>Remove permissions</a></li><li><a href='https://github.com/dmzoneill/sodarr-chrome-plugin/commit/9cf714dd278c979f8f5d512fcfb52fb16169510d'>Update README.md</a></li></ul>
+      <ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/commit/b191bc50dfae34a9904d0dfe0c7b6b1e12ce72be'>Bump semver from 5.7.1 to 5.7.2 in /frontend
+
+Bumps [semver](https://github.com/npm/node-semver) from 5.7.1 to 5.7.2.
+- [Release notes](https://github.com/npm/node-semver/releases)
+- [Changelog](https://github.com/npm/node-semver/blob/v5.7.2/CHANGELOG.md)
+- [Commits](https://github.com/npm/node-semver/compare/v5.7.1...v5.7.2)
+
+---
+updated-dependencies:
+- dependency-name: semver
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump semver from 5.7.1 to 5.7.2 in /frontend'>https://github.com/dmzoneill/aa-dev-prod-watcher/pull/11</a></li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/commit/844a1a9567e4828d52ec0dbd49bfedd5c4a90d20'>Bump postcss from 8.4.13 to 8.4.31 in /frontend
+
+Bumps [postcss](https://github.com/postcss/postcss) from 8.4.13 to 8.4.31.
+- [Release notes](https://github.com/postcss/postcss/releases)
+- [Changelog](https://github.com/postcss/postcss/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/postcss/postcss/compare/8.4.13...8.4.31)
+
+---
+updated-dependencies:
+- dependency-name: postcss
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump postcss from 8.4.13 to 8.4.31 in /frontend'>https://github.com/dmzoneill/aa-dev-prod-watcher/pull/12</a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/commit/e6f0a93ac97d0e83732212bef67a3f3542ae76f8'>Update lyd.py</a></li></ul>
       <h3>Gists</h3>
       <ul><li><a href='https://gist.github.com/dmzoneill/4f1a46c512245a21ce819a9f465679aa'>AWX development on kind</a></li><li><a href='https://gist.github.com/dmzoneill/664484ef2b798118a83347205f84c66b'>keybase.md</a></li><li><a href='https://gist.github.com/dmzoneill/67a908fb949dc95bbbf02f0446a07f0a'>durex fun</a></li><li><a href='https://gist.github.com/dmzoneill/d13d88b16d4d0aa90cb108a00ab3cf01'>10GB tuning</a></li><li><a href='https://gist.github.com/dmzoneill/575ba9c32375c41cb1041e9064de0678'>Synology 108tb limit bypass</a></li><li><a href='https://gist.github.com/dmzoneill/cbc75e502dbe2b78651f68d6320b714a'>AA active queries</a></li><li><a href='https://gist.github.com/dmzoneill/faaa84782eaed4d2dc28ad55c19119ee'>PHP Paypal Instant Payment Notification</a></li></ul>
     </td>
@@ -539,9 +565,35 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump se
             <td>
               <p><h2><a href='https://github.com/dmzoneill/aa-dev-prod-watcher' title='aa-dev-prod-watcher'>aa-dev-prod-watcher</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript' height='20px'/> <img src='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' title='Go' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
               <p>Apache License 2.0</p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/commit/b191bc50dfae34a9904d0dfe0c7b6b1e12ce72be'>Bump semver from 5.7.1 to 5.7.2 in /frontend
+
+Bumps [semver](https://github.com/npm/node-semver) from 5.7.1 to 5.7.2.
+- [Release notes](https://github.com/npm/node-semver/releases)
+- [Changelog](https://github.com/npm/node-semver/blob/v5.7.2/CHANGELOG.md)
+- [Commits](https://github.com/npm/node-semver/compare/v5.7.1...v5.7.2)
+
+---
+updated-dependencies:
+- dependency-name: semver
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump semver from 5.7.1 to 5.7.2 in /frontend'>https://github.com/dmzoneill/aa-dev-prod-watcher/pull/11</a></li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/commit/844a1a9567e4828d52ec0dbd49bfedd5c4a90d20'>Bump postcss from 8.4.13 to 8.4.31 in /frontend
+
+Bumps [postcss](https://github.com/postcss/postcss) from 8.4.13 to 8.4.31.
+- [Release notes](https://github.com/postcss/postcss/releases)
+- [Changelog](https://github.com/postcss/postcss/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/postcss/postcss/compare/8.4.13...8.4.31)
+
+---
+updated-dependencies:
+- dependency-name: postcss
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump postcss from 8.4.13 to 8.4.31 in /frontend'>https://github.com/dmzoneill/aa-dev-prod-watcher/pull/12</a></li></ul></p>
               <p><ul></ul></p>
-              <p><ul></ul></p>
-              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/12'>Bump postcss from 8.4.13 to 8.4.31 in /frontend</a> 2022-06-13</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/11'>Bump semver from 5.7.1 to 5.7.2 in /frontend</a> 2022-06-13</li></ul></p>
+              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/17'>Bump @babel/traverse from 7.18.0 to 7.23.7 in /frontend</a> 2022-06-13</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/16'>Bump follow-redirects from 1.15.0 to 1.15.4 in /frontend</a> 2022-06-13</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/14'>Bump axios from 0.27.2 to 1.6.0 in /frontend</a> 2022-06-13</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/15'>Bump golang.org/x/crypto from 0.0.0-20220513210258-46612604a0f9 to 0.17.0 in /backend</a> 2022-06-13</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/13'>Bump golang.org/x/net from 0.7.0 to 0.17.0 in /backend</a> 2022-06-13</li></ul></p>
             </td>
             <td>
               <p><a href='' title=''></a></p>

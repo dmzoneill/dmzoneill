@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-10/01/2024 00:33:17-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-11/01/2024 00:31:33-brightgreen" height='28'/>
 
 <table>
   <tr>
@@ -8,7 +8,17 @@
       <h3>Pull Requests (5)</h3>
       <ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/17'>Bump @babel/traverse from 7.18.0 to 7.23.7 in /frontend</a> 2024-01-09</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/16'>Bump follow-redirects from 1.15.0 to 1.15.4 in /frontend</a> 2024-01-09</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/14'>Bump axios from 0.27.2 to 1.6.0 in /frontend</a> 2024-01-09</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/15'>Bump golang.org/x/crypto from 0.0.0-20220513210258-46612604a0f9 to 0.17.0 in /backend</a> 2024-01-09</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/13'>Bump golang.org/x/net from 0.7.0 to 0.17.0 in /backend</a> 2024-01-09</li></ul>
       <h3>Recent Acivity</h3>
-      <ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/commit/b191bc50dfae34a9904d0dfe0c7b6b1e12ce72be'>Bump semver from 5.7.1 to 5.7.2 in /frontend
+      <ul><li><a href='https://github.com/ansible/awx/commit/22df3fe8d9cd38383317fdd195bfa3e26a171238'>Cleanup
+
+- Remove peer selection on add and edit instance
+- Added conconcial name and order comlums names same on endpoints and
+  peers
+- Other cleanup items</a></li><li><a href='https://github.com/ansible/awx/commit/da2eb4f3d20418af88977d3b77e20c38fbad0e8a'>Cleanup
+
+- Remove peer selection on add and edit instance
+- Added conconcial name and order comlums names same on endpoints and
+  peers
+- Other cleanup items</a></li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/commit/b191bc50dfae34a9904d0dfe0c7b6b1e12ce72be'>Bump semver from 5.7.1 to 5.7.2 in /frontend
 
 Bumps [semver](https://github.com/npm/node-semver) from 5.7.1 to 5.7.2.
 - [Release notes](https://github.com/npm/node-semver/releases)
@@ -34,7 +44,7 @@ updated-dependencies:
   dependency-type: indirect
 ...
 
-Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump postcss from 8.4.13 to 8.4.31 in /frontend'>https://github.com/dmzoneill/aa-dev-prod-watcher/pull/12</a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/commit/e6f0a93ac97d0e83732212bef67a3f3542ae76f8'>Update lyd.py</a></li></ul>
+Signed-off-by: dependabot[bot] <support@github.com></a></li></ul>
       <h3>Gists</h3>
       <ul><li><a href='https://gist.github.com/dmzoneill/4f1a46c512245a21ce819a9f465679aa'>AWX development on kind</a></li><li><a href='https://gist.github.com/dmzoneill/664484ef2b798118a83347205f84c66b'>keybase.md</a></li><li><a href='https://gist.github.com/dmzoneill/67a908fb949dc95bbbf02f0446a07f0a'>durex fun</a></li><li><a href='https://gist.github.com/dmzoneill/d13d88b16d4d0aa90cb108a00ab3cf01'>10GB tuning</a></li><li><a href='https://gist.github.com/dmzoneill/575ba9c32375c41cb1041e9064de0678'>Synology 108tb limit bypass</a></li><li><a href='https://gist.github.com/dmzoneill/cbc75e502dbe2b78651f68d6320b714a'>AA active queries</a></li><li><a href='https://gist.github.com/dmzoneill/faaa84782eaed4d2dc28ad55c19119ee'>PHP Paypal Instant Payment Notification</a></li></ul>
     </td>

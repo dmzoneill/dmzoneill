@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-12/01/2024 00:32:07-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-13/01/2024 00:32:21-brightgreen" height='28'/>
 
 <table>
   <tr>
@@ -171,7 +171,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump se
               <p><h2><a href='https://github.com/dmzoneill/lidarr-youtube-downloader' title='lidarr-youtube-downloader'>lidarr-youtube-downloader</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/> <img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile' height='20px'/</p>
               <p>Apache License 2.0</p>
               <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/commit/e6f0a93ac97d0e83732212bef67a3f3542ae76f8'>Update lyd.py</a></li><li><a href='Update Dockerfile'>https://github.com/dmzoneill/lidarr-youtube-downloader/pull/4</a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/commit/f83ea39c5b4f96f459e23fe6137192a29b04d5d3'>Update README.md</a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/commit/578c979c5be415721d6706328291c9808d753bb6'>doc: add hint that complete git repo is needed for docker build</a></li><li><a href='doc: add hint that complete git repo is needed for docker build'>https://github.com/dmzoneill/lidarr-youtube-downloader/pull/16</a></li></ul></p>
-              <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/15'>usage</a> 2023-12-31</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/14'>/bin/sh: 1: youtube-dl: not found</a> 2023-12-31</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/13'>Alittle help with docker compose</a> 2023-12-31</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/12'>REQ: Ability to set percentage match cutoff and/or keyword blacklist such as "live" or whitelist "official" in title.</a> 2023-12-31</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/11'>Deployment Loop and "workaround".</a> 2023-12-31</li></ul></p>
+              <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/15'>usage</a> 2024-01-12</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/14'>/bin/sh: 1: youtube-dl: not found</a> 2024-01-12</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/13'>Alittle help with docker compose</a> 2024-01-12</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/12'>REQ: Ability to set percentage match cutoff and/or keyword blacklist such as "live" or whitelist "official" in title.</a> 2024-01-12</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/11'>Deployment Loop and "workaround".</a> 2024-01-12</li></ul></p>
               <p><ul></ul></p>
             </td>
             <td>
@@ -179,7 +179,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump se
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/lidarr-youtube-downloader/actions'><img src='https://github.com/dmzoneill//lidarr-youtube-downloader/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2023-12-31</p>
+              <p>2024-01-12</p>
             </td>
         </tr>
 <tr>

@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-25/01/2024 00:32:31-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-26/01/2024 00:30:27-brightgreen" height='28'/>
 
 <table>
   <tr>
@@ -8,15 +8,9 @@
       <h3>Pull Requests (5)</h3>
       <ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/17'>Bump @babel/traverse from 7.18.0 to 7.23.7 in /frontend</a> 2024-01-09</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/16'>Bump follow-redirects from 1.15.0 to 1.15.4 in /frontend</a> 2024-01-09</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/14'>Bump axios from 0.27.2 to 1.6.0 in /frontend</a> 2024-01-09</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/15'>Bump golang.org/x/crypto from 0.0.0-20220513210258-46612604a0f9 to 0.17.0 in /backend</a> 2024-01-09</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/13'>Bump golang.org/x/net from 0.7.0 to 0.17.0 in /backend</a> 2024-01-09</li></ul>
       <h3>Recent Acivity</h3>
-      <ul><li><a href='https://github.com/ansible/awx/commit/2f9c272c5ed52bb759d415b8fed00972459fb00b'>Bug Error reporting and handling in GH14575/GH12682
-
-This targets a bug that tries to parse blank string as None for panelid
-and dashboardid.
-
-It also prints more errors reporting to the console to diagnose
-reporting issues</a></li><li><a href='https://github.com/ansible/awx/commit/55576fdef1b96b17431cba5dd9f845180c0a4c1c'>Bug: Error reporting and handling in GH14575/GH12682</a></li><li><a href='https://github.com/ansible/awx/commit/aae429d051c365fd3eafd9fd40a93854f5a4577c'>This targets lack of error reporting and handling in GH14575/GH12682</a></li><li><a href='https://github.com/ansible/awx/issues/12682'>Grafana Notification => ValueError: invalid literal for int() with base 10: ''</a></li><li><a href='https://github.com/ansible/awx/issues/14675'>Grafana Notification is not working.</a></li></ul>
+      <ul><li><a href='https://github.com/dmzoneill/home-helper-scripts/commit/31dcc84d12d0efada4b15377664e9ad82e4f594c'>mintor updates</a></li><li><a href='https://github.com/ansible/awx/issues/14769'>Cannot sync GitHub repo using HTTPS - certificate issue</a></li><li><a href='https://github.com/ansible/awx/issues/14767'>Cannot sync any GitHub or GitLab repo using SSH</a></li><li><a href='https://github.com/ansible/awx/issues/14703'>Fix Delinea imports and import test</a></li><li><a href='Ansible operator > v1.31.0 not available'>https://github.com/ansible/awx-operator/pull/1696</a></li></ul>
       <h3>Gists</h3>
-      <ul><li><a href='https://gist.github.com/dmzoneill/4f1a46c512245a21ce819a9f465679aa'>AWX development on kind</a></li><li><a href='https://gist.github.com/dmzoneill/664484ef2b798118a83347205f84c66b'>keybase.md</a></li><li><a href='https://gist.github.com/dmzoneill/67a908fb949dc95bbbf02f0446a07f0a'>durex fun</a></li><li><a href='https://gist.github.com/dmzoneill/d13d88b16d4d0aa90cb108a00ab3cf01'>10GB tuning</a></li><li><a href='https://gist.github.com/dmzoneill/575ba9c32375c41cb1041e9064de0678'>Synology 108tb limit bypass</a></li><li><a href='https://gist.github.com/dmzoneill/cbc75e502dbe2b78651f68d6320b714a'>AA active queries</a></li><li><a href='https://gist.github.com/dmzoneill/faaa84782eaed4d2dc28ad55c19119ee'>PHP Paypal Instant Payment Notification</a></li></ul>
+      <ul><li><a href='https://gist.github.com/dmzoneill/c46333fd076cf2a4d46944a6e02a0936'>awx-14578</a></li><li><a href='https://gist.github.com/dmzoneill/4f1a46c512245a21ce819a9f465679aa'>AWX development on kind</a></li><li><a href='https://gist.github.com/dmzoneill/664484ef2b798118a83347205f84c66b'>keybase.md</a></li><li><a href='https://gist.github.com/dmzoneill/67a908fb949dc95bbbf02f0446a07f0a'>durex fun</a></li><li><a href='https://gist.github.com/dmzoneill/d13d88b16d4d0aa90cb108a00ab3cf01'>10GB tuning</a></li><li><a href='https://gist.github.com/dmzoneill/575ba9c32375c41cb1041e9064de0678'>Synology 108tb limit bypass</a></li><li><a href='https://gist.github.com/dmzoneill/cbc75e502dbe2b78651f68d6320b714a'>AA active queries</a></li><li><a href='https://gist.github.com/dmzoneill/faaa84782eaed4d2dc28ad55c19119ee'>PHP Paypal Instant Payment Notification</a></li></ul>
     </td>
     <td>
       <h3>Work related stuff over on</h3>
@@ -622,7 +616,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump po
             <td>
               <p><h2><a href='https://github.com/dmzoneill/home-helper-scripts' title='home-helper-scripts'>home-helper-scripts</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><ul></ul></p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/home-helper-scripts/commit/31dcc84d12d0efada4b15377664e9ad82e4f594c'>mintor updates</a></li></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>

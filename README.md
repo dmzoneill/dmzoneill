@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-29/01/2024 00:32:14-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-30/01/2024 00:31:30-brightgreen" height='28'/>
 
 <table>
   <tr>
@@ -8,7 +8,17 @@
       <h3>Pull Requests (5)</h3>
       <ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/17'>Bump @babel/traverse from 7.18.0 to 7.23.7 in /frontend</a> 2024-01-09</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/16'>Bump follow-redirects from 1.15.0 to 1.15.4 in /frontend</a> 2024-01-09</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/14'>Bump axios from 0.27.2 to 1.6.0 in /frontend</a> 2024-01-09</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/15'>Bump golang.org/x/crypto from 0.0.0-20220513210258-46612604a0f9 to 0.17.0 in /backend</a> 2024-01-09</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/13'>Bump golang.org/x/net from 0.7.0 to 0.17.0 in /backend</a> 2024-01-09</li></ul>
       <h3>Recent Acivity</h3>
-      <ul><li><a href='https://github.com/dmzoneill/home-helper-scripts/commit/31dcc84d12d0efada4b15377664e9ad82e4f594c'>mintor updates</a></li><li><a href='https://github.com/ansible/awx/issues/14769'>Cannot sync GitHub repo using HTTPS - certificate issue</a></li><li><a href='https://github.com/ansible/awx/issues/14767'>Cannot sync any GitHub or GitLab repo using SSH</a></li><li><a href='https://github.com/ansible/awx/issues/14703'>Fix Delinea imports and import test</a></li><li><a href='Ansible operator > v1.31.0 not available'>https://github.com/ansible/awx-operator/pull/1696</a></li></ul>
+      <ul><li><a href='https://github.com/ansible/awx/issues/14655'>AWX doesn't send Twilio SMS Notification to multiple destinations</a></li><li><a href='https://github.com/ansible/awx-operator/commit/a534c856dbebc853191fb2547346007a60f137db'>Fix Ansible operator url target and update to 1.34
+
+The url has changed from
+https://github.com/operator-framework/operator-sdk/releases
+to
+https://github.com/operator-framework/ansible-operator-plugins/releases</a></li><li><a href='Fix makefile ansible-operator URL'>https://github.com/ansible/awx-operator/pull/1696</a></li><li><a href='https://github.com/ansible/awx-operator/pull/1696'>Ansible operator > v1.31.0 not available</a></li><li><a href='https://github.com/ansible/awx-operator/commit/9b22c9b0e0e13858a9448bc04574be2f557608d8'>Fix Ansible operator url target and update to 1.34
+
+The url has changed from
+https://github.com/operator-framework/operator-sdk/releases
+to
+https://github.com/operator-framework/ansible-operator-plugins/releases</a></li></ul>
       <h3>Gists</h3>
       <ul><li><a href='https://gist.github.com/dmzoneill/c46333fd076cf2a4d46944a6e02a0936'>awx-14578</a></li><li><a href='https://gist.github.com/dmzoneill/4f1a46c512245a21ce819a9f465679aa'>AWX development on kind</a></li><li><a href='https://gist.github.com/dmzoneill/664484ef2b798118a83347205f84c66b'>keybase.md</a></li><li><a href='https://gist.github.com/dmzoneill/67a908fb949dc95bbbf02f0446a07f0a'>durex fun</a></li><li><a href='https://gist.github.com/dmzoneill/d13d88b16d4d0aa90cb108a00ab3cf01'>10GB tuning</a></li><li><a href='https://gist.github.com/dmzoneill/575ba9c32375c41cb1041e9064de0678'>Synology 108tb limit bypass</a></li><li><a href='https://gist.github.com/dmzoneill/cbc75e502dbe2b78651f68d6320b714a'>AA active queries</a></li><li><a href='https://gist.github.com/dmzoneill/faaa84782eaed4d2dc28ad55c19119ee'>PHP Paypal Instant Payment Notification</a></li></ul>
     </td>
@@ -125,7 +135,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/dmzoneill' title='dmzoneill'>dmzoneill</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/dmzoneill/commit/6d96dc43583050434ac2bfd1804526d17a272918'>Update dispatch.yaml</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/ee24240ba0b2d45f531719ac399cc25736410d48'>Update config.json</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/1ff68217d17cef66fcf591bd2ea2c8b7e25516c7'>Update config.json</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/bb80096a0bb3dc15f296d820212846cd65e30a02'>Update updater.py</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/0cfaf733ad0109fd96234b67d43921b9bfe1b647'>Update updater.py</a></li></ul></p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/dmzoneill/commit/6d96dc43583050434ac2bfd1804526d17a272918'>Update dispatch.yaml</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/ee24240ba0b2d45f531719ac399cc25736410d48'>Update config.json</a></li></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -366,7 +376,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/urban-dictionary' title='urban-dictionary'>urban-dictionary</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/</p>
               <p>MIT License</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/urban-dictionary/commit/d70dc927cf732dfa06ad93f385d6739de2addeed'>Update README.md</a></li><li><a href='https://github.com/dmzoneill/urban-dictionary/commit/fd599c0837386b87a86814e4961c41dfade7d070'>Update package.json</a></li><li><a href='https://github.com/dmzoneill/urban-dictionary/commit/4c1b30bc99f2cbab5a5ae2ca095d189a8ddba435'>Update README.md</a></li><li><a href='https://github.com/dmzoneill/urban-dictionary/commit/db68d66ec287da4981c0bbc8901ad9a96d67681d'>Update README.md</a></li><li><a href='https://github.com/dmzoneill/urban-dictionary/commit/50faf3040f4c0b2e6e5469b2066393650d39d0cb'>Update README.md</a></li></ul></p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/urban-dictionary/commit/d70dc927cf732dfa06ad93f385d6739de2addeed'>Update README.md</a></li></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>

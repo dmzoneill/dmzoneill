@@ -1,12 +1,12 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-05/02/2024 00:32:53-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-06/02/2024 00:32:06-brightgreen" height='28'/>
 
 <table>
   <tr>
     <td>
-      <h3>Issues (16)</h3>
+      <h3>Issues (18)</h3>
       <li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/21'>Issue with Lidarr recognizing downloaded audio and incorrect metadata in Jellyfin</a> 2024-01-21</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/15'>usage</a> 2023-10-17</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/14'>/bin/sh: 1: youtube-dl: not found</a> 2023-11-16</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/13'>Alittle help with docker compose</a> 2023-08-14</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/12'>REQ: Ability to set percentage match cutoff and/or keyword blacklist such as "live" or whitelist "official" in title.</a> 2024-01-20</li>
-      <h3>Pull Requests (5)</h3>
-      <ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/17'>Bump @babel/traverse from 7.18.0 to 7.23.7 in /frontend</a> 2024-01-09</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/16'>Bump follow-redirects from 1.15.0 to 1.15.4 in /frontend</a> 2024-01-09</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/14'>Bump axios from 0.27.2 to 1.6.0 in /frontend</a> 2024-01-09</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/15'>Bump golang.org/x/crypto from 0.0.0-20220513210258-46612604a0f9 to 0.17.0 in /backend</a> 2024-01-09</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/13'>Bump golang.org/x/net from 0.7.0 to 0.17.0 in /backend</a> 2024-01-09</li></ul>
+      <h3>Pull Requests (7)</h3>
+      <ul><li><a href='https://github.com/dmzoneill/aa-dns-checker/pull/2'>Bump fastapi from 0.79.0 to 0.109.1</a> 2024-02-05</li><li><a href='https://github.com/dmzoneill/aa-dns-checker/pull/1'>Bump starlette from 0.19.1 to 0.36.2</a> 2024-02-05</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/17'>Bump @babel/traverse from 7.18.0 to 7.23.7 in /frontend</a> 2024-01-09</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/16'>Bump follow-redirects from 1.15.0 to 1.15.4 in /frontend</a> 2024-01-09</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/14'>Bump axios from 0.27.2 to 1.6.0 in /frontend</a> 2024-01-09</li></ul>
       <h3>Recent Acivity</h3>
       <ul><li><a href='https://github.com/ansible/awx/commit/4e10b436c7c0e17097361c2f4ac2a46a860bb05c'>GH13983 - Add additional check for bad templates</a></li><li><a href='https://github.com/ansible/awx/commit/59a23d5bfe66c02047b11d4c9d07c6ec41f136d9'>GH13983 - Add additional check for bad templates</a></li><li><a href='https://github.com/ansible/awx/commit/b540e53fc2566c0a3c6e2960af9f04fe144981be'>GH13983 - Add additional check for bad templates</a></li><li><a href='https://github.com/ansible/awx/commit/b230ff53ba409828337b6d8f68afa7988f9d6dfb'>GH13983 - Add additional check for bad templates</a></li><li><a href='https://github.com/ansible/awx/commit/2fa5116197e69e67942bdd1507c821591a416234'>Project updates do not run against hosts
 
@@ -515,7 +515,7 @@
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
-              <p><ul></ul></p>
+              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/aa-dns-checker/pull/2'>Bump fastapi from 0.79.0 to 0.109.1</a> 2022-07-18</li><li><a href='https://github.com/dmzoneill/aa-dns-checker/pull/1'>Bump starlette from 0.19.1 to 0.36.2</a> 2022-07-18</li></ul></p>
             </td>
             <td>
               <p><a href='' title=''></a></p>

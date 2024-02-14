@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-13/02/2024 00:30:21-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-14/02/2024 00:29:39-brightgreen" height='28'/>
 
 <table>
   <tr>
@@ -8,12 +8,13 @@
       <h3>Pull Requests (8)</h3>
       <ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/pull/22'>Use yt-dlp</a> 2024-02-10</li><li><a href='https://github.com/dmzoneill/aa-dns-checker/pull/2'>Bump fastapi from 0.79.0 to 0.109.1</a> 2024-02-05</li><li><a href='https://github.com/dmzoneill/aa-dns-checker/pull/1'>Bump starlette from 0.19.1 to 0.36.2</a> 2024-02-05</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/17'>Bump @babel/traverse from 7.18.0 to 7.23.7 in /frontend</a> 2024-01-09</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/16'>Bump follow-redirects from 1.15.0 to 1.15.4 in /frontend</a> 2024-01-09</li></ul>
       <h3>Recent Acivity</h3>
-      <ul><li><a href='https://github.com/ansible/awx/commit/3ae72219b4fb3eaffe87b566e8327564bca427ab'>Change parsing of docker info in dev build
+      <ul><li><a href='https://github.com/ansible/awx/pull/14553'>fix(sec): upgrade aiohttp to </a></li><li><a href='fix(sec): upgrade aiohttp to '>https://github.com/ansible/awx/pull/14553</a></li><li><a href='https://github.com/mabashian/awx/commit/4b637c13194b8297c19b8270d0eda7c41013abb9'>gitignore pyenv python-version file
 
-This is a non-functional change. The way os_info is populated with docker info
-and grep 'Operating System' breaks on podman and likely in other places. This
-makes it work on both podman and docker, and it will continue to return the
-exact same strings everywhere else.</a></li><li><a href='Change parsing of docker info in dev build'>https://github.com/ansible/awx/pull/14120</a></li><li><a href='https://github.com/ansible/awx/pull/13382'>set the real ip to logs  (login)</a></li><li><a href='Change failing PR to draft'>https://github.com/ansible/awx/pull/14865</a></li><li><a href='ansible/awx'>https://api.github.com/repos/ansible/awx</a></li></ul>
+pyenv local can be use to set directory specific python version in `.python-version` file in the directory
+
+Signed-off-by: Hao Liu <44379968+TheRealHaoLiu@users.noreply.github.com></a></li><li><a href='https://github.com/wolfsoldier47/awx/commit/4822dd79fcdfb0f046c62b41f013eeebb25fef97'>Revert "Improve performance for awx cli export  (#13182)"</a></li><li><a href='https://github.com/lucas-benedito/awx/commit/8ba1a2bcf7caae4921bac3761dc0b77a68b25db5'>Reset search params when prompt launch credential type dropdown changes
+
+* Fix credential validation bugs</a></li></ul>
       <h3>Gists</h3>
       <ul><li><a href='https://gist.github.com/dmzoneill/c46333fd076cf2a4d46944a6e02a0936'>awx-14578</a></li><li><a href='https://gist.github.com/dmzoneill/4f1a46c512245a21ce819a9f465679aa'>AWX development on kind</a></li><li><a href='https://gist.github.com/dmzoneill/664484ef2b798118a83347205f84c66b'>keybase.md</a></li><li><a href='https://gist.github.com/dmzoneill/67a908fb949dc95bbbf02f0446a07f0a'>durex fun</a></li><li><a href='https://gist.github.com/dmzoneill/d13d88b16d4d0aa90cb108a00ab3cf01'>10GB tuning</a></li><li><a href='https://gist.github.com/dmzoneill/575ba9c32375c41cb1041e9064de0678'>Synology 108tb limit bypass</a></li><li><a href='https://gist.github.com/dmzoneill/cbc75e502dbe2b78651f68d6320b714a'>AA active queries</a></li><li><a href='https://gist.github.com/dmzoneill/faaa84782eaed4d2dc28ad55c19119ee'>PHP Paypal Instant Payment Notification</a></li></ul>
     </td>

@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-14/02/2024 00:29:39-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-15/02/2024 00:29:51-brightgreen" height='28'/>
 
 <table>
   <tr>
@@ -8,13 +8,19 @@
       <h3>Pull Requests (8)</h3>
       <ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/pull/22'>Use yt-dlp</a> 2024-02-10</li><li><a href='https://github.com/dmzoneill/aa-dns-checker/pull/2'>Bump fastapi from 0.79.0 to 0.109.1</a> 2024-02-05</li><li><a href='https://github.com/dmzoneill/aa-dns-checker/pull/1'>Bump starlette from 0.19.1 to 0.36.2</a> 2024-02-05</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/17'>Bump @babel/traverse from 7.18.0 to 7.23.7 in /frontend</a> 2024-01-09</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/16'>Bump follow-redirects from 1.15.0 to 1.15.4 in /frontend</a> 2024-01-09</li></ul>
       <h3>Recent Acivity</h3>
-      <ul><li><a href='https://github.com/ansible/awx/pull/14553'>fix(sec): upgrade aiohttp to </a></li><li><a href='fix(sec): upgrade aiohttp to '>https://github.com/ansible/awx/pull/14553</a></li><li><a href='https://github.com/mabashian/awx/commit/4b637c13194b8297c19b8270d0eda7c41013abb9'>gitignore pyenv python-version file
+      <ul><li><a href='https://github.com/ansible/awx/commit/b6f9b73418161e3b785148f92fcd6cffbb576ce3'>adding iputils</a></li><li><a href='adding iputils'>https://github.com/ansible/awx/pull/14338</a></li><li><a href='https://github.com/onefourfive/awx/commit/db1af57daa09a7cfa1e42e8820dbb81aa2cb0cc3'>Revert "Adding PR check to ensure JIRA links are present"
 
-pyenv local can be use to set directory specific python version in `.python-version` file in the directory
+This reverts commit 3ae6174050900d61e349afb3e804367ba9957720.</a></li><li><a href='https://github.com/ZitaNemeckova/awx/commit/14f636af8408c78ce1c50ff2e4dbe5b37b710e87'>Setting credential_type as required (#14651)
 
-Signed-off-by: Hao Liu <44379968+TheRealHaoLiu@users.noreply.github.com></a></li><li><a href='https://github.com/wolfsoldier47/awx/commit/4822dd79fcdfb0f046c62b41f013eeebb25fef97'>Revert "Improve performance for awx cli export  (#13182)"</a></li><li><a href='https://github.com/lucas-benedito/awx/commit/8ba1a2bcf7caae4921bac3761dc0b77a68b25db5'>Reset search params when prompt launch credential type dropdown changes
+* Setting credential_type as required
 
-* Fix credential validation bugs</a></li></ul>
+* Added test for missing credential_type in credential module
+
+* Corrected test assertion
+
+---------
+
+Co-authored-by: Lucas Benedito <lbenedit@redhat.com></a></li><li><a href='https://github.com/cNeha/awx/commit/a06a2a883c8bc088bfed8f8d4927a2fb46fa0efe'>Adding "address" property</a></li></ul>
       <h3>Gists</h3>
       <ul><li><a href='https://gist.github.com/dmzoneill/c46333fd076cf2a4d46944a6e02a0936'>awx-14578</a></li><li><a href='https://gist.github.com/dmzoneill/4f1a46c512245a21ce819a9f465679aa'>AWX development on kind</a></li><li><a href='https://gist.github.com/dmzoneill/664484ef2b798118a83347205f84c66b'>keybase.md</a></li><li><a href='https://gist.github.com/dmzoneill/67a908fb949dc95bbbf02f0446a07f0a'>durex fun</a></li><li><a href='https://gist.github.com/dmzoneill/d13d88b16d4d0aa90cb108a00ab3cf01'>10GB tuning</a></li><li><a href='https://gist.github.com/dmzoneill/575ba9c32375c41cb1041e9064de0678'>Synology 108tb limit bypass</a></li><li><a href='https://gist.github.com/dmzoneill/cbc75e502dbe2b78651f68d6320b714a'>AA active queries</a></li><li><a href='https://gist.github.com/dmzoneill/faaa84782eaed4d2dc28ad55c19119ee'>PHP Paypal Instant Payment Notification</a></li></ul>
     </td>
@@ -596,7 +602,7 @@ Signed-off-by: Hao Liu <44379968+TheRealHaoLiu@users.noreply.github.com></a></li
             <td>
               <p><h2><a href='https://github.com/dmzoneill/home-helper-scripts' title='home-helper-scripts'>home-helper-scripts</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/home-helper-scripts/commit/31dcc84d12d0efada4b15377664e9ad82e4f594c'>mintor updates</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>

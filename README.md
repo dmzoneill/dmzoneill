@@ -1,24 +1,31 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-28/02/2024 00:29:46-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-28/02/2024 09:35:27-brightgreen" height='28'/>
 
 <table>
   <tr>
     <td>
-      <h3>Issues (23)</h3>
-      <li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/23'>Track Format & FFMPEG not adding metadata</a> 2024-02-26</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/21'>Issue with Lidarr recognizing downloaded audio and incorrect metadata in Jellyfin</a> 2024-02-23</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/15'>usage</a> 2023-10-17</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/14'>/bin/sh: 1: youtube-dl: not found</a> 2023-11-16</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/13'>Alittle help with docker compose</a> 2023-08-14</li>
-      <h3>Pull Requests (11)</h3>
-      <ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/pull/22'>Use yt-dlp</a> 2024-02-10</li><li><a href='https://github.com/dmzoneill/Chuckbot/pull/14'>Bump ip from 1.1.8 to 1.1.9</a> 2024-02-20</li><li><a href='https://github.com/dmzoneill/Chuckbot/pull/13'>Bump undici from 5.28.2 to 5.28.3</a> 2024-02-16</li><li><a href='https://github.com/dmzoneill/aa-dns-checker/pull/2'>Bump fastapi from 0.79.0 to 0.109.1</a> 2024-02-05</li><li><a href='https://github.com/dmzoneill/aa-dns-checker/pull/1'>Bump starlette from 0.19.1 to 0.36.2</a> 2024-02-05</li></ul>
+      <h3>Issues (17)</h3>
+      <li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/23'>Track Format & FFMPEG not adding metadata</a> 2024-02-28</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/21'>Issue with Lidarr recognizing downloaded audio and incorrect metadata in Jellyfin</a> 2024-02-23</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/15'>usage</a> 2023-10-17</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/13'>Alittle help with docker compose</a> 2023-08-14</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/12'>REQ: Ability to set percentage match cutoff and/or keyword blacklist such as "live" or whitelist "official" in title.</a> 2024-01-20</li>
+      <h3>Pull Requests (6)</h3>
+      <ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/19'>Bump es5-ext from 0.10.61 to 0.10.63 in /frontend</a> 2024-02-27</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/18'>Bump axios from 0.27.2 to 0.28.0 in /frontend</a> 2024-02-21</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/17'>Bump @babel/traverse from 7.18.0 to 7.23.7 in /frontend</a> 2024-01-09</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/16'>Bump follow-redirects from 1.15.0 to 1.15.4 in /frontend</a> 2024-01-09</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/15'>Bump golang.org/x/crypto from 0.0.0-20220513210258-46612604a0f9 to 0.17.0 in /backend</a> 2024-01-09</li></ul>
       <h3>Recent Acivity</h3>
-      <ul><li><a href='https://github.com/msilmser/awx/commit/88e406e121dc4ca70dc82169dd49f62d33400d8f'>Fix CVEs and bump receptorctl (#14925)
+      <ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/23'>Track Format & FFMPEG not adding metadata</a></li><li><a href='Use yt-dlp'>https://github.com/dmzoneill/lidarr-youtube-downloader/pull/22</a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/commit/385c73443ef16df1f009403c1ddb3c8efdb6c735'>feat: Use original name for yt-dlp
 
-CVE-2023-47627
-CVE-2023-49083
-CVE-2023-41040
-CVE-2024-22195
-CVE-2023-46137</a></li><li><a href='https://github.com/ansible/awx/commit/237adc6150012a1c58dbf19b5db220ecd26997e9'>Publish multi-arch versioned awx-ee
+Fixes #14</a></li><li><a href='https://github.com/dmzoneill/aa-dns-checker/commit/38283330fdd23cefee13fb59cf09f262cef8a9a1'>Bump starlette from 0.19.1 to 0.36.2
 
-dependent on https://github.com/ansible/awx-ee/pull/235</a></li><li><a href='Multi arch publish awx ee'>https://github.com/ansible/awx/pull/14930</a></li><li><a href='https://github.com/ansible/awx/pull/14916'>[DAB RBAC] Cache organization child evaluations and remove hacks</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/f762aa8176c7c526f83a35353896b2e2a84a2714'>Start translations</a></li></ul>
+Bumps [starlette](https://github.com/encode/starlette) from 0.19.1 to 0.36.2.
+- [Release notes](https://github.com/encode/starlette/releases)
+- [Changelog](https://github.com/encode/starlette/blob/master/docs/release-notes.md)
+- [Commits](https://github.com/encode/starlette/compare/0.19.1...0.36.2)
+
+---
+updated-dependencies:
+- dependency-name: starlette
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump starlette from 0.19.1 to 0.36.2'>https://github.com/dmzoneill/aa-dns-checker/pull/1</a></li></ul>
       <h3>Gists</h3>
-      <ul><li><a href='https://gist.github.com/dmzoneill/b3dace5030bea5d05211cbf1a74d7140'></a></li><li><a href='https://gist.github.com/dmzoneill/daef323146469618c550241f35e4b503'></a></li><li><a href='https://gist.github.com/dmzoneill/809f32f1ca301ce6f0dc2bad741ec15e'></a></li><li><a href='https://gist.github.com/dmzoneill/c46333fd076cf2a4d46944a6e02a0936'>awx-14578</a></li><li><a href='https://gist.github.com/dmzoneill/4f1a46c512245a21ce819a9f465679aa'>AWX development on kind</a></li><li><a href='https://gist.github.com/dmzoneill/664484ef2b798118a83347205f84c66b'>keybase.md</a></li><li><a href='https://gist.github.com/dmzoneill/67a908fb949dc95bbbf02f0446a07f0a'>durex fun</a></li><li><a href='https://gist.github.com/dmzoneill/d13d88b16d4d0aa90cb108a00ab3cf01'>10GB tuning</a></li><li><a href='https://gist.github.com/dmzoneill/575ba9c32375c41cb1041e9064de0678'>Synology 108tb limit bypass</a></li><li><a href='https://gist.github.com/dmzoneill/cbc75e502dbe2b78651f68d6320b714a'>AA active queries</a></li><li><a href='https://gist.github.com/dmzoneill/faaa84782eaed4d2dc28ad55c19119ee'>PHP Paypal Instant Payment Notification</a></li></ul>
+      <ul><li><a href='https://gist.github.com/dmzoneill/b3dace5030bea5d05211cbf1a74d7140'>PostGres Enum Errors</a></li><li><a href='https://gist.github.com/dmzoneill/daef323146469618c550241f35e4b503'>AWX Strings 1</a></li><li><a href='https://gist.github.com/dmzoneill/809f32f1ca301ce6f0dc2bad741ec15e'>AWX Strings 2</a></li><li><a href='https://gist.github.com/dmzoneill/4f1a46c512245a21ce819a9f465679aa'>AWX development on kind</a></li><li><a href='https://gist.github.com/dmzoneill/664484ef2b798118a83347205f84c66b'>keybase.md</a></li><li><a href='https://gist.github.com/dmzoneill/67a908fb949dc95bbbf02f0446a07f0a'>durex fun</a></li><li><a href='https://gist.github.com/dmzoneill/d13d88b16d4d0aa90cb108a00ab3cf01'>10GB tuning</a></li><li><a href='https://gist.github.com/dmzoneill/575ba9c32375c41cb1041e9064de0678'>Synology 108tb limit bypass</a></li><li><a href='https://gist.github.com/dmzoneill/cbc75e502dbe2b78651f68d6320b714a'>AA active queries</a></li><li><a href='https://gist.github.com/dmzoneill/faaa84782eaed4d2dc28ad55c19119ee'>PHP Paypal Instant Payment Notification</a></li></ul>
     </td>
     <td>
       <h3>Work related stuff over on</h3>
@@ -52,7 +59,7 @@ dependent on https://github.com/ansible/awx-ee/pull/235</a></li><li><a href='Mul
     <tr><td><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript'  height='20px'/></td><td>8811063</td>
 <td><img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS'  height='20px'/></td><td>5837924</td>
 <td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>315600</td>
-<td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>612625</td>
+<td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>619035</td>
 </tr><tr>
 <td><img src='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' title='Java'  height='20px'/></td><td>2071977</td>
 <td><img src='https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white' title='Kotlin'  height='20px'/></td><td>24599</td>
@@ -71,7 +78,7 @@ dependent on https://github.com/ansible/awx-ee/pull/235</a></li><li><a href='Mul
 </tr><tr>
 <td><img src='https://img.shields.io/badge/_-COBOL -11DDDD.svg?style=for-the-badge' title='COBOL'  height='20px'/></td><td>964</td>
 <td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>1368096</td>
-<td><img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile'  height='20px'/></td><td>5667</td>
+<td><img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile'  height='20px'/></td><td>5585</td>
 <td><img src='https://img.shields.io/badge/_-AngelScript -11DDDD.svg?style=for-the-badge' title='AngelScript'  height='20px'/></td><td>28550</td>
 </tr><tr>
 <td><img src='https://img.shields.io/badge/_-Tcl -11DDDD.svg?style=for-the-badge' title='Tcl'  height='20px'/></td><td>1281755</td>
@@ -131,6 +138,63 @@ dependent on https://github.com/ansible/awx-ee/pull/235</a></li><li><a href='Mul
   <tbody>
     <tr>
             <td>
+              <p><h2><a href='https://github.com/dmzoneill/lidarr-youtube-downloader' title='lidarr-youtube-downloader'>lidarr-youtube-downloader</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/> <img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile' height='20px'/</p>
+              <p>Apache License 2.0</p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/23'>Track Format & FFMPEG not adding metadata</a></li><li><a href='Use yt-dlp'>https://github.com/dmzoneill/lidarr-youtube-downloader/pull/22</a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/commit/385c73443ef16df1f009403c1ddb3c8efdb6c735'>feat: Use original name for yt-dlp
+
+Fixes #14</a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/21'>Issue with Lidarr recognizing downloaded audio and incorrect metadata in Jellyfin</a></li></ul></p>
+              <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/23'>Track Format & FFMPEG not adding metadata</a> 2024-02-18</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/21'>Issue with Lidarr recognizing downloaded audio and incorrect metadata in Jellyfin</a> 2024-02-18</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/15'>usage</a> 2024-02-18</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/13'>Alittle help with docker compose</a> 2024-02-18</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/12'>REQ: Ability to set percentage match cutoff and/or keyword blacklist such as "live" or whitelist "official" in title.</a> 2024-02-18</li></ul></p>
+              <p><ul></ul></p>
+            </td>
+            <td>
+              <p><a href='https://pypi.org/project/lidarr-youtube-downloader/' title='Lidarr youtube downloader PYPI package'>Lidarr youtube downloader PYPI package</a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/lidarr-youtube-downloader/actions'><img src='https://github.com/dmzoneill//lidarr-youtube-downloader/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2024-02-18</p>
+            </td>
+        </tr>
+<tr>
+            <td>
+              <p><h2><a href='https://github.com/dmzoneill/Chuckbot' title='Chuckbot'>Chuckbot</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/</p>
+              <p>Apache License 2.0</p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/Chuckbot/commit/0efcbaf82d8ad958b9e02ba8e0b45a24a7e34933'>Bump undici from 5.28.2 to 5.28.3
+
+Bumps [undici](https://github.com/nodejs/undici) from 5.28.2 to 5.28.3.
+- [Release notes](https://github.com/nodejs/undici/releases)
+- [Commits](https://github.com/nodejs/undici/compare/v5.28.2...v5.28.3)
+
+---
+updated-dependencies:
+- dependency-name: undici
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump undici from 5.28.2 to 5.28.3'>https://github.com/dmzoneill/Chuckbot/pull/13</a></li><li><a href='https://github.com/dmzoneill/Chuckbot/commit/5c5e375d32675a6aa2c54db01d8c2cf77548768b'>Bump ip from 1.1.8 to 1.1.9
+
+Bumps [ip](https://github.com/indutny/node-ip) from 1.1.8 to 1.1.9.
+- [Commits](https://github.com/indutny/node-ip/compare/v1.1.8...v1.1.9)
+
+---
+updated-dependencies:
+- dependency-name: ip
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump ip from 1.1.8 to 1.1.9'>https://github.com/dmzoneill/Chuckbot/pull/14</a></li></ul></p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+            </td>
+            <td>
+              <p><a href='https://wa.me/96592226837' title='Chat with chuck'>Chat with chuck</a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/Chuckbot/actions'><img src='https://github.com/dmzoneill//Chuckbot/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2023-04-08</p>
+            </td>
+        </tr>
+<tr>
+            <td>
               <p><h2><a href='https://github.com/dmzoneill/dmzoneill' title='dmzoneill'>dmzoneill</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
@@ -143,38 +207,6 @@ dependent on https://github.com/ansible/awx-ee/pull/235</a></li><li><a href='Mul
             <td align="center">
               <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
               <p>2023-01-16</p>
-            </td>
-        </tr>
-<tr>
-            <td>
-              <p><h2><a href='https://github.com/dmzoneill/Chuckbot' title='Chuckbot'>Chuckbot</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/</p>
-              <p>Apache License 2.0</p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/Chuckbot/pull/14'>Bump ip from 1.1.8 to 1.1.9</a> 2023-04-08</li><li><a href='https://github.com/dmzoneill/Chuckbot/pull/13'>Bump undici from 5.28.2 to 5.28.3</a> 2023-04-08</li></ul></p>
-            </td>
-            <td>
-              <p><a href='https://wa.me/96592226837' title='Chat with chuck'>Chat with chuck</a></p>
-            </td>
-            <td align="center">
-              <a href='https://github.com/dmzoneill/Chuckbot/actions'><img src='https://github.com/dmzoneill//Chuckbot/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2023-04-08</p>
-            </td>
-        </tr>
-<tr>
-            <td>
-              <p><h2><a href='https://github.com/dmzoneill/lidarr-youtube-downloader' title='lidarr-youtube-downloader'>lidarr-youtube-downloader</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/> <img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile' height='20px'/</p>
-              <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/21'>Issue with Lidarr recognizing downloaded audio and incorrect metadata in Jellyfin</a></li></ul></p>
-              <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/23'>Track Format & FFMPEG not adding metadata</a> 2024-02-18</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/21'>Issue with Lidarr recognizing downloaded audio and incorrect metadata in Jellyfin</a> 2024-02-18</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/15'>usage</a> 2024-02-18</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/14'>/bin/sh: 1: youtube-dl: not found</a> 2024-02-18</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/13'>Alittle help with docker compose</a> 2024-02-18</li></ul></p>
-              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/pull/22'>Use yt-dlp</a> 2024-02-18</li></ul></p>
-            </td>
-            <td>
-              <p><a href='https://pypi.org/project/lidarr-youtube-downloader/' title='Lidarr youtube downloader PYPI package'>Lidarr youtube downloader PYPI package</a></p>
-            </td>
-            <td align="center">
-              <a href='https://github.com/dmzoneill/lidarr-youtube-downloader/actions'><img src='https://github.com/dmzoneill//lidarr-youtube-downloader/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2024-02-18</p>
             </td>
         </tr>
 <tr>
@@ -339,6 +371,22 @@ dependent on https://github.com/ansible/awx-ee/pull/235</a></li><li><a href='Mul
         </tr>
 
 </tbody></table><h2>2024</h2><table width='100%' style='width:100%'><thead><tr><th>Project</th><th>View</th><th>Status</th></tr></thead><tbody><tr>
+            <td>
+              <p><h2><a href='https://github.com/dmzoneill/awx-nightlies' title='awx-nightlies'>awx-nightlies</a> (2024)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/</p>
+              <p>Apache License 2.0</p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/awx-nightlies/commit/188eac844b0e93f7c3c018d8240fbb57575eaa61'>Update awx.yml</a></li><li><a href='https://github.com/dmzoneill/awx-nightlies/commit/f57da24caa601ecf0858cc128b898014dd401ef0'>Update awxdraft.py</a></li><li><a href='https://github.com/dmzoneill/awx-nightlies/commit/74a5b52fb11bc6dba94ebb48b05fd2861a49a5ff'>Update awx.yml</a></li><li><a href='https://github.com/dmzoneill/awx-nightlies/commit/d52e145fb2d55d6ea1564e0acab5f3e193c62cdd'>Update awx.yml</a></li><li><a href='https://github.com/dmzoneill/awx-nightlies/commit/d3bb01e5e61719b26ef515c9c20f6ce79e249d41'>Update awxdraft.py</a></li></ul></p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+            </td>
+            <td>
+              <p><a href='' title=''></a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/awx-nightlies/actions'><img src='https://github.com/dmzoneill//awx-nightlies/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2024-02-28</p>
+            </td>
+        </tr>
+<tr>
             <td>
               <p><h2><a href='https://github.com/dmzoneill/DFakeSeeder' title='DFakeSeeder'>DFakeSeeder</a> (2024)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
               <p>Apache License 2.0</p>
@@ -534,9 +582,34 @@ dependent on https://github.com/ansible/awx-ee/pull/235</a></li><li><a href='Mul
             <td>
               <p><h2><a href='https://github.com/dmzoneill/aa-dns-checker' title='aa-dns-checker'>aa-dns-checker</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/</p>
               <p>Apache License 2.0</p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/aa-dns-checker/commit/38283330fdd23cefee13fb59cf09f262cef8a9a1'>Bump starlette from 0.19.1 to 0.36.2
+
+Bumps [starlette](https://github.com/encode/starlette) from 0.19.1 to 0.36.2.
+- [Release notes](https://github.com/encode/starlette/releases)
+- [Changelog](https://github.com/encode/starlette/blob/master/docs/release-notes.md)
+- [Commits](https://github.com/encode/starlette/compare/0.19.1...0.36.2)
+
+---
+updated-dependencies:
+- dependency-name: starlette
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump starlette from 0.19.1 to 0.36.2'>https://github.com/dmzoneill/aa-dns-checker/pull/1</a></li><li><a href='https://github.com/dmzoneill/aa-dns-checker/commit/ff6247a8bdfed0b91e02f7e057cfc6b7c84a2200'>Bump fastapi from 0.79.0 to 0.109.1
+
+Bumps [fastapi](https://github.com/tiangolo/fastapi) from 0.79.0 to 0.109.1.
+- [Release notes](https://github.com/tiangolo/fastapi/releases)
+- [Commits](https://github.com/tiangolo/fastapi/compare/0.79.0...0.109.1)
+
+---
+updated-dependencies:
+- dependency-name: fastapi
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump fastapi from 0.79.0 to 0.109.1'>https://github.com/dmzoneill/aa-dns-checker/pull/2</a></li></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
-              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/aa-dns-checker/pull/2'>Bump fastapi from 0.79.0 to 0.109.1</a> 2022-07-18</li><li><a href='https://github.com/dmzoneill/aa-dns-checker/pull/1'>Bump starlette from 0.19.1 to 0.36.2</a> 2022-07-18</li></ul></p>
             </td>
             <td>
               <p><a href='' title=''></a></p>

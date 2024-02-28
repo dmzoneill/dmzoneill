@@ -1,12 +1,12 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-28/02/2024 11:44:24-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-28/02/2024 14:05:31-brightgreen" height='28'/>
 
 <table>
   <tr>
     <td>
-      <h3>Issues (13)</h3>
+      <h3>Issues (12)</h3>
       <li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/23'>Track Format & FFMPEG not adding metadata</a> 2024-02-28</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/21'>Issue with Lidarr recognizing downloaded audio and incorrect metadata in Jellyfin</a> 2024-02-23</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/15'>usage</a> 2023-10-17</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/13'>Alittle help with docker compose</a> 2023-08-14</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/12'>REQ: Ability to set percentage match cutoff and/or keyword blacklist such as "live" or whitelist "official" in title.</a> 2024-01-20</li>
-      <h3>Pull Requests (2)</h3>
-      <ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/15'>Bump golang.org/x/crypto from 0.0.0-20220513210258-46612604a0f9 to 0.17.0 in /backend</a> 2024-01-09</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/13'>Bump golang.org/x/net from 0.7.0 to 0.17.0 in /backend</a> 2024-01-09</li></ul>
+      <h3>Pull Requests (1)</h3>
+      <ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/13'>Bump golang.org/x/net from 0.7.0 to 0.17.0 in /backend</a> 2024-02-28</li></ul>
       <h3>Recent Acivity</h3>
       <ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/commit/6252fe402c5c777767c2da79036f357ebf05c4a4'>Bump axios from 0.27.2 to 0.28.0 in /frontend
 
@@ -149,6 +149,22 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump @b
   <tbody>
     <tr>
             <td>
+              <p><h2><a href='https://github.com/dmzoneill/dmzoneill' title='dmzoneill'>dmzoneill</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
+              <p>Apache License 2.0</p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+            </td>
+            <td>
+              <p><a href='https://github.com/dmzoneill' title='Github profile'>Github profile</a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2023-01-16</p>
+            </td>
+        </tr>
+<tr>
+            <td>
               <p><h2><a href='https://github.com/dmzoneill/lidarr-youtube-downloader' title='lidarr-youtube-downloader'>lidarr-youtube-downloader</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/> <img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile' height='20px'/</p>
               <p>Apache License 2.0</p>
               <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/commit/b76cecde7f4281fb61b1ff29892367ac4613d022'>Fix lint</a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/23'>Track Format & FFMPEG not adding metadata</a></li><li><a href='Use yt-dlp'>https://github.com/dmzoneill/lidarr-youtube-downloader/pull/22</a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/commit/385c73443ef16df1f009403c1ddb3c8efdb6c735'>feat: Use original name for yt-dlp
@@ -163,22 +179,6 @@ Fixes #14</a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downl
             <td align="center">
               <a href='https://github.com/dmzoneill/lidarr-youtube-downloader/actions'><img src='https://github.com/dmzoneill//lidarr-youtube-downloader/actions/workflows/main.yml/badge.svg'/></a>
               <p>2024-02-18</p>
-            </td>
-        </tr>
-<tr>
-            <td>
-              <p><h2><a href='https://github.com/dmzoneill/dmzoneill' title='dmzoneill'>dmzoneill</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
-              <p>Apache License 2.0</p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-            </td>
-            <td>
-              <p><a href='https://github.com/dmzoneill' title='Github profile'>Github profile</a></p>
-            </td>
-            <td align="center">
-              <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2023-01-16</p>
             </td>
         </tr>
 <tr>
@@ -662,7 +662,7 @@ updated-dependencies:
 
 Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump @babel/traverse from 7.18.0 to 7.23.7 in /frontend'>https://github.com/dmzoneill/aa-dev-prod-watcher/pull/17</a></li><li><a href='Bump follow-redirects from 1.15.0 to 1.15.4 in /frontend'>https://github.com/dmzoneill/aa-dev-prod-watcher/pull/16</a></li></ul></p>
               <p><ul></ul></p>
-              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/15'>Bump golang.org/x/crypto from 0.0.0-20220513210258-46612604a0f9 to 0.17.0 in /backend</a> 2022-06-13</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/13'>Bump golang.org/x/net from 0.7.0 to 0.17.0 in /backend</a> 2022-06-13</li></ul></p>
+              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/13'>Bump golang.org/x/net from 0.7.0 to 0.17.0 in /backend</a> 2022-06-13</li></ul></p>
             </td>
             <td>
               <p><a href='' title=''></a></p>

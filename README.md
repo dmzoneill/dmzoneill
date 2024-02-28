@@ -1,29 +1,40 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-28/02/2024 09:35:27-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-28/02/2024 11:44:24-brightgreen" height='28'/>
 
 <table>
   <tr>
     <td>
-      <h3>Issues (17)</h3>
+      <h3>Issues (13)</h3>
       <li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/23'>Track Format & FFMPEG not adding metadata</a> 2024-02-28</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/21'>Issue with Lidarr recognizing downloaded audio and incorrect metadata in Jellyfin</a> 2024-02-23</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/15'>usage</a> 2023-10-17</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/13'>Alittle help with docker compose</a> 2023-08-14</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/12'>REQ: Ability to set percentage match cutoff and/or keyword blacklist such as "live" or whitelist "official" in title.</a> 2024-01-20</li>
-      <h3>Pull Requests (6)</h3>
-      <ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/19'>Bump es5-ext from 0.10.61 to 0.10.63 in /frontend</a> 2024-02-27</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/18'>Bump axios from 0.27.2 to 0.28.0 in /frontend</a> 2024-02-21</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/17'>Bump @babel/traverse from 7.18.0 to 7.23.7 in /frontend</a> 2024-01-09</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/16'>Bump follow-redirects from 1.15.0 to 1.15.4 in /frontend</a> 2024-01-09</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/15'>Bump golang.org/x/crypto from 0.0.0-20220513210258-46612604a0f9 to 0.17.0 in /backend</a> 2024-01-09</li></ul>
+      <h3>Pull Requests (2)</h3>
+      <ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/15'>Bump golang.org/x/crypto from 0.0.0-20220513210258-46612604a0f9 to 0.17.0 in /backend</a> 2024-01-09</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/13'>Bump golang.org/x/net from 0.7.0 to 0.17.0 in /backend</a> 2024-01-09</li></ul>
       <h3>Recent Acivity</h3>
-      <ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/23'>Track Format & FFMPEG not adding metadata</a></li><li><a href='Use yt-dlp'>https://github.com/dmzoneill/lidarr-youtube-downloader/pull/22</a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/commit/385c73443ef16df1f009403c1ddb3c8efdb6c735'>feat: Use original name for yt-dlp
+      <ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/commit/6252fe402c5c777767c2da79036f357ebf05c4a4'>Bump axios from 0.27.2 to 0.28.0 in /frontend
 
-Fixes #14</a></li><li><a href='https://github.com/dmzoneill/aa-dns-checker/commit/38283330fdd23cefee13fb59cf09f262cef8a9a1'>Bump starlette from 0.19.1 to 0.36.2
-
-Bumps [starlette](https://github.com/encode/starlette) from 0.19.1 to 0.36.2.
-- [Release notes](https://github.com/encode/starlette/releases)
-- [Changelog](https://github.com/encode/starlette/blob/master/docs/release-notes.md)
-- [Commits](https://github.com/encode/starlette/compare/0.19.1...0.36.2)
+Bumps [axios](https://github.com/axios/axios) from 0.27.2 to 0.28.0.
+- [Release notes](https://github.com/axios/axios/releases)
+- [Changelog](https://github.com/axios/axios/blob/v0.28.0/CHANGELOG.md)
+- [Commits](https://github.com/axios/axios/compare/v0.27.2...v0.28.0)
 
 ---
 updated-dependencies:
-- dependency-name: starlette
+- dependency-name: axios
   dependency-type: direct:production
 ...
 
-Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump starlette from 0.19.1 to 0.36.2'>https://github.com/dmzoneill/aa-dns-checker/pull/1</a></li></ul>
+Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump axios from 0.27.2 to 0.28.0 in /frontend'>https://github.com/dmzoneill/aa-dev-prod-watcher/pull/18</a></li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/commit/3314dbc4abcb0a5d472b31dac529aa8edff41151'>Bump @babel/traverse from 7.18.0 to 7.23.7 in /frontend
+
+Bumps [@babel/traverse](https://github.com/babel/babel/tree/HEAD/packages/babel-traverse) from 7.18.0 to 7.23.7.
+- [Release notes](https://github.com/babel/babel/releases)
+- [Changelog](https://github.com/babel/babel/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/babel/babel/commits/v7.23.7/packages/babel-traverse)
+
+---
+updated-dependencies:
+- dependency-name: "@babel/traverse"
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump @babel/traverse from 7.18.0 to 7.23.7 in /frontend'>https://github.com/dmzoneill/aa-dev-prod-watcher/pull/17</a></li><li><a href='Bump follow-redirects from 1.15.0 to 1.15.4 in /frontend'>https://github.com/dmzoneill/aa-dev-prod-watcher/pull/16</a></li></ul>
       <h3>Gists</h3>
       <ul><li><a href='https://gist.github.com/dmzoneill/b3dace5030bea5d05211cbf1a74d7140'>PostGres Enum Errors</a></li><li><a href='https://gist.github.com/dmzoneill/daef323146469618c550241f35e4b503'>AWX Strings 1</a></li><li><a href='https://gist.github.com/dmzoneill/809f32f1ca301ce6f0dc2bad741ec15e'>AWX Strings 2</a></li><li><a href='https://gist.github.com/dmzoneill/4f1a46c512245a21ce819a9f465679aa'>AWX development on kind</a></li><li><a href='https://gist.github.com/dmzoneill/664484ef2b798118a83347205f84c66b'>keybase.md</a></li><li><a href='https://gist.github.com/dmzoneill/67a908fb949dc95bbbf02f0446a07f0a'>durex fun</a></li><li><a href='https://gist.github.com/dmzoneill/d13d88b16d4d0aa90cb108a00ab3cf01'>10GB tuning</a></li><li><a href='https://gist.github.com/dmzoneill/575ba9c32375c41cb1041e9064de0678'>Synology 108tb limit bypass</a></li><li><a href='https://gist.github.com/dmzoneill/cbc75e502dbe2b78651f68d6320b714a'>AA active queries</a></li><li><a href='https://gist.github.com/dmzoneill/faaa84782eaed4d2dc28ad55c19119ee'>PHP Paypal Instant Payment Notification</a></li></ul>
     </td>
@@ -58,7 +69,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump st
   <tbody>
     <tr><td><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript'  height='20px'/></td><td>8811063</td>
 <td><img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS'  height='20px'/></td><td>5837924</td>
-<td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>315600</td>
+<td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>315621</td>
 <td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>619035</td>
 </tr><tr>
 <td><img src='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' title='Java'  height='20px'/></td><td>2071977</td>
@@ -78,7 +89,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump st
 </tr><tr>
 <td><img src='https://img.shields.io/badge/_-COBOL -11DDDD.svg?style=for-the-badge' title='COBOL'  height='20px'/></td><td>964</td>
 <td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>1368096</td>
-<td><img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile'  height='20px'/></td><td>5585</td>
+<td><img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile'  height='20px'/></td><td>5972</td>
 <td><img src='https://img.shields.io/badge/_-AngelScript -11DDDD.svg?style=for-the-badge' title='AngelScript'  height='20px'/></td><td>28550</td>
 </tr><tr>
 <td><img src='https://img.shields.io/badge/_-Tcl -11DDDD.svg?style=for-the-badge' title='Tcl'  height='20px'/></td><td>1281755</td>
@@ -140,7 +151,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump st
             <td>
               <p><h2><a href='https://github.com/dmzoneill/lidarr-youtube-downloader' title='lidarr-youtube-downloader'>lidarr-youtube-downloader</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/> <img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/23'>Track Format & FFMPEG not adding metadata</a></li><li><a href='Use yt-dlp'>https://github.com/dmzoneill/lidarr-youtube-downloader/pull/22</a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/commit/385c73443ef16df1f009403c1ddb3c8efdb6c735'>feat: Use original name for yt-dlp
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/commit/b76cecde7f4281fb61b1ff29892367ac4613d022'>Fix lint</a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/23'>Track Format & FFMPEG not adding metadata</a></li><li><a href='Use yt-dlp'>https://github.com/dmzoneill/lidarr-youtube-downloader/pull/22</a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/commit/385c73443ef16df1f009403c1ddb3c8efdb6c735'>feat: Use original name for yt-dlp
 
 Fixes #14</a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/21'>Issue with Lidarr recognizing downloaded audio and incorrect metadata in Jellyfin</a></li></ul></p>
               <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/23'>Track Format & FFMPEG not adding metadata</a> 2024-02-18</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/21'>Issue with Lidarr recognizing downloaded audio and incorrect metadata in Jellyfin</a> 2024-02-18</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/15'>usage</a> 2024-02-18</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/13'>Alittle help with docker compose</a> 2024-02-18</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/12'>REQ: Ability to set percentage match cutoff and/or keyword blacklist such as "live" or whitelist "official" in title.</a> 2024-02-18</li></ul></p>
@@ -152,6 +163,22 @@ Fixes #14</a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downl
             <td align="center">
               <a href='https://github.com/dmzoneill/lidarr-youtube-downloader/actions'><img src='https://github.com/dmzoneill//lidarr-youtube-downloader/actions/workflows/main.yml/badge.svg'/></a>
               <p>2024-02-18</p>
+            </td>
+        </tr>
+<tr>
+            <td>
+              <p><h2><a href='https://github.com/dmzoneill/dmzoneill' title='dmzoneill'>dmzoneill</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
+              <p>Apache License 2.0</p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+            </td>
+            <td>
+              <p><a href='https://github.com/dmzoneill' title='Github profile'>Github profile</a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2023-01-16</p>
             </td>
         </tr>
 <tr>
@@ -191,22 +218,6 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump ip
             <td align="center">
               <a href='https://github.com/dmzoneill/Chuckbot/actions'><img src='https://github.com/dmzoneill//Chuckbot/actions/workflows/main.yml/badge.svg'/></a>
               <p>2023-04-08</p>
-            </td>
-        </tr>
-<tr>
-            <td>
-              <p><h2><a href='https://github.com/dmzoneill/dmzoneill' title='dmzoneill'>dmzoneill</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
-              <p>Apache License 2.0</p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-            </td>
-            <td>
-              <p><a href='https://github.com/dmzoneill' title='Github profile'>Github profile</a></p>
-            </td>
-            <td align="center">
-              <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2023-01-16</p>
             </td>
         </tr>
 <tr>
@@ -404,6 +415,22 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump ip
         </tr>
 </tbody></table><h2>2023</h2><table width='100%' style='width:100%'><thead><tr><th>Project</th><th>View</th><th>Status</th></tr></thead><tbody><tr>
             <td>
+              <p><h2><a href='https://github.com/dmzoneill/hevyapp-api' title='hevyapp-api'>hevyapp-api</a> (2023)</h2></p><p></p>
+              <p>Apache License 2.0</p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+            </td>
+            <td>
+              <p><a href='' title=''></a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/hevyapp-api/actions'><img src='https://github.com/dmzoneill//hevyapp-api/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2024-02-28</p>
+            </td>
+        </tr>
+<tr>
+            <td>
               <p><h2><a href='https://github.com/dmzoneill/strongapp-api' title='strongapp-api'>strongapp-api</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' title='Java' height='20px'/> <img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/perl-%2339457E.svg?style=for-the-badge&logo=perl&logoColor=white' title='Perl' height='20px'/> <img src='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' title='Go' height='20px'/</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
@@ -416,22 +443,6 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump ip
             <td align="center">
               <a href='https://github.com/dmzoneill/strongapp-api/actions'><img src='https://github.com/dmzoneill//strongapp-api/actions/workflows/main.yml/badge.svg'/></a>
               <p>2024-02-19</p>
-            </td>
-        </tr>
-<tr>
-            <td>
-              <p><h2><a href='https://github.com/dmzoneill/hevyapp-api' title='hevyapp-api'>hevyapp-api</a> (2023)</h2></p><p></p>
-              <p>Apache License 2.0</p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-            </td>
-            <td>
-              <p><a href='' title=''></a></p>
-            </td>
-            <td align="center">
-              <a href='https://github.com/dmzoneill/hevyapp-api/actions'><img src='https://github.com/dmzoneill//hevyapp-api/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2024-02-16</p>
             </td>
         </tr>
 <tr>
@@ -623,9 +634,35 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump fa
             <td>
               <p><h2><a href='https://github.com/dmzoneill/aa-dev-prod-watcher' title='aa-dev-prod-watcher'>aa-dev-prod-watcher</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript' height='20px'/> <img src='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' title='Go' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
               <p>Apache License 2.0</p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/commit/6252fe402c5c777767c2da79036f357ebf05c4a4'>Bump axios from 0.27.2 to 0.28.0 in /frontend
+
+Bumps [axios](https://github.com/axios/axios) from 0.27.2 to 0.28.0.
+- [Release notes](https://github.com/axios/axios/releases)
+- [Changelog](https://github.com/axios/axios/blob/v0.28.0/CHANGELOG.md)
+- [Commits](https://github.com/axios/axios/compare/v0.27.2...v0.28.0)
+
+---
+updated-dependencies:
+- dependency-name: axios
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump axios from 0.27.2 to 0.28.0 in /frontend'>https://github.com/dmzoneill/aa-dev-prod-watcher/pull/18</a></li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/commit/3314dbc4abcb0a5d472b31dac529aa8edff41151'>Bump @babel/traverse from 7.18.0 to 7.23.7 in /frontend
+
+Bumps [@babel/traverse](https://github.com/babel/babel/tree/HEAD/packages/babel-traverse) from 7.18.0 to 7.23.7.
+- [Release notes](https://github.com/babel/babel/releases)
+- [Changelog](https://github.com/babel/babel/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/babel/babel/commits/v7.23.7/packages/babel-traverse)
+
+---
+updated-dependencies:
+- dependency-name: "@babel/traverse"
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump @babel/traverse from 7.18.0 to 7.23.7 in /frontend'>https://github.com/dmzoneill/aa-dev-prod-watcher/pull/17</a></li><li><a href='Bump follow-redirects from 1.15.0 to 1.15.4 in /frontend'>https://github.com/dmzoneill/aa-dev-prod-watcher/pull/16</a></li></ul></p>
               <p><ul></ul></p>
-              <p><ul></ul></p>
-              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/19'>Bump es5-ext from 0.10.61 to 0.10.63 in /frontend</a> 2022-06-13</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/18'>Bump axios from 0.27.2 to 0.28.0 in /frontend</a> 2022-06-13</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/17'>Bump @babel/traverse from 7.18.0 to 7.23.7 in /frontend</a> 2022-06-13</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/16'>Bump follow-redirects from 1.15.0 to 1.15.4 in /frontend</a> 2022-06-13</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/15'>Bump golang.org/x/crypto from 0.0.0-20220513210258-46612604a0f9 to 0.17.0 in /backend</a> 2022-06-13</li></ul></p>
+              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/15'>Bump golang.org/x/crypto from 0.0.0-20220513210258-46612604a0f9 to 0.17.0 in /backend</a> 2022-06-13</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/13'>Bump golang.org/x/net from 0.7.0 to 0.17.0 in /backend</a> 2022-06-13</li></ul></p>
             </td>
             <td>
               <p><a href='' title=''></a></p>
@@ -728,7 +765,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump fa
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/rh-otp-auto-connect/actions'><img src='https://github.com/dmzoneill//rh-otp-auto-connect/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2023-04-11</p>
+              <p>2024-02-28</p>
             </td>
         </tr>
 <tr>

@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-28/02/2024 14:05:31-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-29/02/2024 00:30:33-brightgreen" height='28'/>
 
 <table>
   <tr>
@@ -8,33 +8,19 @@
       <h3>Pull Requests (1)</h3>
       <ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/13'>Bump golang.org/x/net from 0.7.0 to 0.17.0 in /backend</a> 2024-02-28</li></ul>
       <h3>Recent Acivity</h3>
-      <ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/commit/6252fe402c5c777767c2da79036f357ebf05c4a4'>Bump axios from 0.27.2 to 0.28.0 in /frontend
+      <ul><li><a href='https://github.com/dmzoneill/awx-nightlies/commit/4da0b270d9ba0b017c379a583fb7cb8aceb88607'>add github action and setup secret</a></li><li><a href='https://github.com/dmzoneill/awx-nightlies/commit/ae1325958c989e3c73fc263457725ee31397eae3'>Update awx.yml</a></li><li><a href='https://github.com/ansible/awx/pull/14939'>Add setting for configuring optional URL prefix for /api</a></li><li><a href='https://github.com/oweel/awx/commit/4d80f886e0256874c52b7c814d3759aa2750a49f'>Revert "Drop cython dep" (#14884)
 
-Bumps [axios](https://github.com/axios/axios) from 0.27.2 to 0.28.0.
-- [Release notes](https://github.com/axios/axios/releases)
-- [Changelog](https://github.com/axios/axios/blob/v0.28.0/CHANGELOG.md)
-- [Commits](https://github.com/axios/axios/compare/v0.27.2...v0.28.0)
+* Revert "Remove cython lib"
 
----
-updated-dependencies:
-- dependency-name: axios
-  dependency-type: direct:production
-...
+This reverts commit 46f816e7a41655169efc1b1357dce9a19b5c1da7.
 
-Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump axios from 0.27.2 to 0.28.0 in /frontend'>https://github.com/dmzoneill/aa-dev-prod-watcher/pull/18</a></li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/commit/3314dbc4abcb0a5d472b31dac529aa8edff41151'>Bump @babel/traverse from 7.18.0 to 7.23.7 in /frontend
+* Revert "WIP consider droping cython dep"
 
-Bumps [@babel/traverse](https://github.com/babel/babel/tree/HEAD/packages/babel-traverse) from 7.18.0 to 7.23.7.
-- [Release notes](https://github.com/babel/babel/releases)
-- [Changelog](https://github.com/babel/babel/blob/main/CHANGELOG.md)
-- [Commits](https://github.com/babel/babel/commits/v7.23.7/packages/babel-traverse)
+This reverts commit 54b32c10f0229a207f62dbfadbaf885c9a41bd8b.
 
----
-updated-dependencies:
-- dependency-name: "@babel/traverse"
-  dependency-type: indirect
-...
+* Update Cython comment</a></li><li><a href='https://github.com/philipsd6/awx/commit/9009a21a329cb5b35c480fe416ce1a70717827e1'>Update Mesh.js to allow for running AWX at non-root path (URL prefixing) (#14020)
 
-Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump @babel/traverse from 7.18.0 to 7.23.7 in /frontend'>https://github.com/dmzoneill/aa-dev-prod-watcher/pull/17</a></li><li><a href='Bump follow-redirects from 1.15.0 to 1.15.4 in /frontend'>https://github.com/dmzoneill/aa-dev-prod-watcher/pull/16</a></li></ul>
+Co-authored-by: Michael Abashian <mabashia@redhat.com></a></li></ul>
       <h3>Gists</h3>
       <ul><li><a href='https://gist.github.com/dmzoneill/b3dace5030bea5d05211cbf1a74d7140'>PostGres Enum Errors</a></li><li><a href='https://gist.github.com/dmzoneill/daef323146469618c550241f35e4b503'>AWX Strings 1</a></li><li><a href='https://gist.github.com/dmzoneill/809f32f1ca301ce6f0dc2bad741ec15e'>AWX Strings 2</a></li><li><a href='https://gist.github.com/dmzoneill/4f1a46c512245a21ce819a9f465679aa'>AWX development on kind</a></li><li><a href='https://gist.github.com/dmzoneill/664484ef2b798118a83347205f84c66b'>keybase.md</a></li><li><a href='https://gist.github.com/dmzoneill/67a908fb949dc95bbbf02f0446a07f0a'>durex fun</a></li><li><a href='https://gist.github.com/dmzoneill/d13d88b16d4d0aa90cb108a00ab3cf01'>10GB tuning</a></li><li><a href='https://gist.github.com/dmzoneill/575ba9c32375c41cb1041e9064de0678'>Synology 108tb limit bypass</a></li><li><a href='https://gist.github.com/dmzoneill/cbc75e502dbe2b78651f68d6320b714a'>AA active queries</a></li><li><a href='https://gist.github.com/dmzoneill/faaa84782eaed4d2dc28ad55c19119ee'>PHP Paypal Instant Payment Notification</a></li></ul>
     </td>
@@ -70,7 +56,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump @b
     <tr><td><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript'  height='20px'/></td><td>8811063</td>
 <td><img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS'  height='20px'/></td><td>5837924</td>
 <td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>315621</td>
-<td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>619035</td>
+<td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>615821</td>
 </tr><tr>
 <td><img src='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' title='Java'  height='20px'/></td><td>2071977</td>
 <td><img src='https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white' title='Kotlin'  height='20px'/></td><td>24599</td>
@@ -385,7 +371,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump ip
             <td>
               <p><h2><a href='https://github.com/dmzoneill/awx-nightlies' title='awx-nightlies'>awx-nightlies</a> (2024)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/awx-nightlies/commit/188eac844b0e93f7c3c018d8240fbb57575eaa61'>Update awx.yml</a></li><li><a href='https://github.com/dmzoneill/awx-nightlies/commit/f57da24caa601ecf0858cc128b898014dd401ef0'>Update awxdraft.py</a></li><li><a href='https://github.com/dmzoneill/awx-nightlies/commit/74a5b52fb11bc6dba94ebb48b05fd2861a49a5ff'>Update awx.yml</a></li><li><a href='https://github.com/dmzoneill/awx-nightlies/commit/d52e145fb2d55d6ea1564e0acab5f3e193c62cdd'>Update awx.yml</a></li><li><a href='https://github.com/dmzoneill/awx-nightlies/commit/d3bb01e5e61719b26ef515c9c20f6ce79e249d41'>Update awxdraft.py</a></li></ul></p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/awx-nightlies/commit/4da0b270d9ba0b017c379a583fb7cb8aceb88607'>add github action and setup secret</a></li><li><a href='https://github.com/dmzoneill/awx-nightlies/commit/ae1325958c989e3c73fc263457725ee31397eae3'>Update awx.yml</a></li><li><a href='https://github.com/dmzoneill/awx-nightlies/commit/944e83c842fb6d92460d517e324a42fb278d9123'>Update awxdraft.py</a></li><li><a href='https://github.com/dmzoneill/awx-nightlies/commit/b9a26b5ad1b9f7d528dd67959844f05b2491b18a'>Update awxdraft.py</a></li><li><a href='https://github.com/dmzoneill/awx-nightlies/commit/188eac844b0e93f7c3c018d8240fbb57575eaa61'>Update awx.yml</a></li></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -634,7 +620,18 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump fa
             <td>
               <p><h2><a href='https://github.com/dmzoneill/aa-dev-prod-watcher' title='aa-dev-prod-watcher'>aa-dev-prod-watcher</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript' height='20px'/> <img src='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' title='Go' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/commit/6252fe402c5c777767c2da79036f357ebf05c4a4'>Bump axios from 0.27.2 to 0.28.0 in /frontend
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/commit/d1301ff3e5ea2a1504185414da5d44a1bdc8be41'>Bump golang.org/x/crypto in /backend
+
+Bumps [golang.org/x/crypto](https://github.com/golang/crypto) from 0.0.0-20220513210258-46612604a0f9 to 0.17.0.
+- [Commits](https://github.com/golang/crypto/commits/v0.17.0)
+
+---
+updated-dependencies:
+- dependency-name: golang.org/x/crypto
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump golang.org/x/crypto from 0.0.0-20220513210258-46612604a0f9 to 0.17.0 in /backend'>https://github.com/dmzoneill/aa-dev-prod-watcher/pull/15</a></li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/commit/6252fe402c5c777767c2da79036f357ebf05c4a4'>Bump axios from 0.27.2 to 0.28.0 in /frontend
 
 Bumps [axios](https://github.com/axios/axios) from 0.27.2 to 0.28.0.
 - [Release notes](https://github.com/axios/axios/releases)
@@ -660,7 +657,7 @@ updated-dependencies:
   dependency-type: indirect
 ...
 
-Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump @babel/traverse from 7.18.0 to 7.23.7 in /frontend'>https://github.com/dmzoneill/aa-dev-prod-watcher/pull/17</a></li><li><a href='Bump follow-redirects from 1.15.0 to 1.15.4 in /frontend'>https://github.com/dmzoneill/aa-dev-prod-watcher/pull/16</a></li></ul></p>
+Signed-off-by: dependabot[bot] <support@github.com></a></li></ul></p>
               <p><ul></ul></p>
               <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/13'>Bump golang.org/x/net from 0.7.0 to 0.17.0 in /backend</a> 2022-06-13</li></ul></p>
             </td>

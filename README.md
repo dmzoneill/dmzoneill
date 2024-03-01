@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-29/02/2024 00:30:33-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-01/03/2024 00:32:54-brightgreen" height='28'/>
 
 <table>
   <tr>
@@ -8,7 +8,7 @@
       <h3>Pull Requests (1)</h3>
       <ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/13'>Bump golang.org/x/net from 0.7.0 to 0.17.0 in /backend</a> 2024-02-28</li></ul>
       <h3>Recent Acivity</h3>
-      <ul><li><a href='https://github.com/dmzoneill/awx-nightlies/commit/4da0b270d9ba0b017c379a583fb7cb8aceb88607'>add github action and setup secret</a></li><li><a href='https://github.com/dmzoneill/awx-nightlies/commit/ae1325958c989e3c73fc263457725ee31397eae3'>Update awx.yml</a></li><li><a href='https://github.com/ansible/awx/pull/14939'>Add setting for configuring optional URL prefix for /api</a></li><li><a href='https://github.com/oweel/awx/commit/4d80f886e0256874c52b7c814d3759aa2750a49f'>Revert "Drop cython dep" (#14884)
+      <ul><li><a href='https://github.com/ansible/awx/pull/14939'>Add setting for configuring optional URL prefix for /api</a></li><li><a href='https://github.com/dmzoneill/awx-nightlies/commit/4da0b270d9ba0b017c379a583fb7cb8aceb88607'>add github action and setup secret</a></li><li><a href='https://github.com/dmzoneill/awx-nightlies/commit/ae1325958c989e3c73fc263457725ee31397eae3'>Update awx.yml</a></li><li><a href='https://github.com/ansible/awx/pull/14939'>Add setting for configuring optional URL prefix for /api</a></li><li><a href='https://github.com/oweel/awx/commit/4d80f886e0256874c52b7c814d3759aa2750a49f'>Revert "Drop cython dep" (#14884)
 
 * Revert "Remove cython lib"
 
@@ -18,9 +18,7 @@ This reverts commit 46f816e7a41655169efc1b1357dce9a19b5c1da7.
 
 This reverts commit 54b32c10f0229a207f62dbfadbaf885c9a41bd8b.
 
-* Update Cython comment</a></li><li><a href='https://github.com/philipsd6/awx/commit/9009a21a329cb5b35c480fe416ce1a70717827e1'>Update Mesh.js to allow for running AWX at non-root path (URL prefixing) (#14020)
-
-Co-authored-by: Michael Abashian <mabashia@redhat.com></a></li></ul>
+* Update Cython comment</a></li></ul>
       <h3>Gists</h3>
       <ul><li><a href='https://gist.github.com/dmzoneill/b3dace5030bea5d05211cbf1a74d7140'>PostGres Enum Errors</a></li><li><a href='https://gist.github.com/dmzoneill/daef323146469618c550241f35e4b503'>AWX Strings 1</a></li><li><a href='https://gist.github.com/dmzoneill/809f32f1ca301ce6f0dc2bad741ec15e'>AWX Strings 2</a></li><li><a href='https://gist.github.com/dmzoneill/4f1a46c512245a21ce819a9f465679aa'>AWX development on kind</a></li><li><a href='https://gist.github.com/dmzoneill/664484ef2b798118a83347205f84c66b'>keybase.md</a></li><li><a href='https://gist.github.com/dmzoneill/67a908fb949dc95bbbf02f0446a07f0a'>durex fun</a></li><li><a href='https://gist.github.com/dmzoneill/d13d88b16d4d0aa90cb108a00ab3cf01'>10GB tuning</a></li><li><a href='https://gist.github.com/dmzoneill/575ba9c32375c41cb1041e9064de0678'>Synology 108tb limit bypass</a></li><li><a href='https://gist.github.com/dmzoneill/cbc75e502dbe2b78651f68d6320b714a'>AA active queries</a></li><li><a href='https://gist.github.com/dmzoneill/faaa84782eaed4d2dc28ad55c19119ee'>PHP Paypal Instant Payment Notification</a></li></ul>
     </td>

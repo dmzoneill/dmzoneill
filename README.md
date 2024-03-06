@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-05/03/2024 00:31:24-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-06/03/2024 00:31:12-brightgreen" height='28'/>
 
 <table>
   <tr>
@@ -8,14 +8,23 @@
       <h3>Pull Requests (1)</h3>
       <ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/13'>Bump golang.org/x/net from 0.7.0 to 0.17.0 in /backend</a> 2024-02-28</li></ul>
       <h3>Recent Acivity</h3>
-      <ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/12'>REQ: Ability to set percentage match cutoff and/or keyword blacklist such as "live" or whitelist "official" in title.</a></li><li><a href='https://github.com/ansible/awx/commit/ec28eff7f72ef87d065a1ef7a0815442aff382fb'>Convert swagger release fixture to env var (#14940)
+      <ul><li><a href='dnf clean cache'>https://github.com/ansible/awx/pull/14950</a></li><li><a href='ansible/awx'>https://api.github.com/repos/ansible/awx</a></li><li><a href='https://github.com/hakbailey/awx/commit/a4a2fabc0164da936865863f5d6893f449f629d3'>Add test for utils method is_testing</a></li><li><a href='https://github.com/TheRealHaoLiu/awx/commit/887604317e75dd8ffdd6673077763011ac6844d1'>Integrate resources API in Controller (#14896)
 
-`pytest awx/main/tests/docs --release=$(VERSION_TARGET)`
-where --release is required breaks test discovery and running in vscode (from within the container)</a></li><li><a href='https://github.com/ansible/awx/commit/901aad7dfcb1038c3b2d5566d833c7a1d769cfe6'>English string validation to error code validation</a></li><li><a href='https://github.com/hakbailey/awx/commit/b3466d4449c521c51b142bc4ebc48af32d636525'>Make JWT the first auth class and default
+* add resources api to controller
 
-* No harm in adding it to the list. If a JWT auth header is provided,
-  then process it (valid or not). If a JWT is not provided, move on to
-  the next auth.</a></li><li><a href='https://github.com/AlanCoding/awx/commit/a49d894cf1885f5a4a7e6b2825051ba96b6ecfed'>Added missing AWS secret management lookup creds.</a></li></ul>
+* update setting
+
+models are not the source of truth in AWX
+
+* Force creation of ServiceID object in tests
+
+* fix typo
+
+* settings fix for CI
+
+---------
+
+Co-authored-by: Alan Rominger <arominge@redhat.com></a></li><li><a href='https://github.com/ansible/awx/commit/a4a2fabc0164da936865863f5d6893f449f629d3'>Add test for utils method is_testing</a></li></ul>
       <h3>Gists</h3>
       <ul><li><a href='https://gist.github.com/dmzoneill/b3dace5030bea5d05211cbf1a74d7140'>PostGres Enum Errors</a></li><li><a href='https://gist.github.com/dmzoneill/daef323146469618c550241f35e4b503'>AWX Strings 1</a></li><li><a href='https://gist.github.com/dmzoneill/809f32f1ca301ce6f0dc2bad741ec15e'>AWX Strings 2</a></li><li><a href='https://gist.github.com/dmzoneill/4f1a46c512245a21ce819a9f465679aa'>AWX development on kind</a></li><li><a href='https://gist.github.com/dmzoneill/664484ef2b798118a83347205f84c66b'>keybase.md</a></li><li><a href='https://gist.github.com/dmzoneill/67a908fb949dc95bbbf02f0446a07f0a'>durex fun</a></li><li><a href='https://gist.github.com/dmzoneill/d13d88b16d4d0aa90cb108a00ab3cf01'>10GB tuning</a></li><li><a href='https://gist.github.com/dmzoneill/575ba9c32375c41cb1041e9064de0678'>Synology 108tb limit bypass</a></li><li><a href='https://gist.github.com/dmzoneill/cbc75e502dbe2b78651f68d6320b714a'>AA active queries</a></li><li><a href='https://gist.github.com/dmzoneill/faaa84782eaed4d2dc28ad55c19119ee'>PHP Paypal Instant Payment Notification</a></li></ul>
     </td>

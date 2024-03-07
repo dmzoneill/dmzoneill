@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-06/03/2024 00:31:12-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-07/03/2024 00:26:59-brightgreen" height='28'/>
 
 <table>
   <tr>
@@ -8,23 +8,7 @@
       <h3>Pull Requests (1)</h3>
       <ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/13'>Bump golang.org/x/net from 0.7.0 to 0.17.0 in /backend</a> 2024-02-28</li></ul>
       <h3>Recent Acivity</h3>
-      <ul><li><a href='dnf clean cache'>https://github.com/ansible/awx/pull/14950</a></li><li><a href='ansible/awx'>https://api.github.com/repos/ansible/awx</a></li><li><a href='https://github.com/hakbailey/awx/commit/a4a2fabc0164da936865863f5d6893f449f629d3'>Add test for utils method is_testing</a></li><li><a href='https://github.com/TheRealHaoLiu/awx/commit/887604317e75dd8ffdd6673077763011ac6844d1'>Integrate resources API in Controller (#14896)
-
-* add resources api to controller
-
-* update setting
-
-models are not the source of truth in AWX
-
-* Force creation of ServiceID object in tests
-
-* fix typo
-
-* settings fix for CI
-
----------
-
-Co-authored-by: Alan Rominger <arominge@redhat.com></a></li><li><a href='https://github.com/ansible/awx/commit/a4a2fabc0164da936865863f5d6893f449f629d3'>Add test for utils method is_testing</a></li></ul>
+      <ul><li><a href='https://github.com/ansible/awx/commit/6ee96d8d631a54f7aa776af39514e77acb70bfac'>English string validation to error code validation</a></li><li><a href='https://github.com/ansible/awx/commit/c0b2ddd917ffcbb82c3394857add89f3208150d6'>English string validation to error code validation</a></li><li><a href='https://github.com/ansible/awx/commit/43dd795d196a04b483b9b2948bc6f1adfcda37a0'>English string validation to error code validation</a></li><li><a href='https://github.com/ansible/awx/commit/fc41a63be6d056b2377e629525837a6b74a6a86e'>English string validation to error code validation</a></li><li><a href='https://github.com/ansible/awx/commit/7000b6a162b0e776419087e8d49c62ea0908fb99'>English string validation to error code validation</a></li></ul>
       <h3>Gists</h3>
       <ul><li><a href='https://gist.github.com/dmzoneill/b3dace5030bea5d05211cbf1a74d7140'>PostGres Enum Errors</a></li><li><a href='https://gist.github.com/dmzoneill/daef323146469618c550241f35e4b503'>AWX Strings 1</a></li><li><a href='https://gist.github.com/dmzoneill/809f32f1ca301ce6f0dc2bad741ec15e'>AWX Strings 2</a></li><li><a href='https://gist.github.com/dmzoneill/4f1a46c512245a21ce819a9f465679aa'>AWX development on kind</a></li><li><a href='https://gist.github.com/dmzoneill/664484ef2b798118a83347205f84c66b'>keybase.md</a></li><li><a href='https://gist.github.com/dmzoneill/67a908fb949dc95bbbf02f0446a07f0a'>durex fun</a></li><li><a href='https://gist.github.com/dmzoneill/d13d88b16d4d0aa90cb108a00ab3cf01'>10GB tuning</a></li><li><a href='https://gist.github.com/dmzoneill/575ba9c32375c41cb1041e9064de0678'>Synology 108tb limit bypass</a></li><li><a href='https://gist.github.com/dmzoneill/cbc75e502dbe2b78651f68d6320b714a'>AA active queries</a></li><li><a href='https://gist.github.com/dmzoneill/faaa84782eaed4d2dc28ad55c19119ee'>PHP Paypal Instant Payment Notification</a></li></ul>
     </td>
@@ -391,7 +375,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump ip
             <td>
               <p><h2><a href='https://github.com/dmzoneill/DFakeSeeder' title='DFakeSeeder'>DFakeSeeder</a> (2024)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/f762aa8176c7c526f83a35353896b2e2a84a2714'>Start translations</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/8cd1a84a9136bae38f9309313f3394766b1a7d2f'>Cleanup</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/aca34997de32904670a65d95f69e6d74a8af351b'>Show splash icon</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/23ca5f1b1f564ecf23c80a4f82c56b3924d33b25'>Fix title</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/06dc613e46c1e94c89c38fccc71081f85476698a'>Package building updates</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>

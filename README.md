@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-15/03/2024 00:30:45-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-16/03/2024 00:29:24-brightgreen" height='28'/>
 
 <table>
   <tr>
@@ -8,7 +8,11 @@
       <h3>Pull Requests (1)</h3>
       <ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/13'>Bump golang.org/x/net from 0.7.0 to 0.17.0 in /backend</a> 2024-02-28</li></ul>
       <h3>Recent Acivity</h3>
-      <ul><li><a href='https://github.com/ansible/awx/issues/14985'>webhook notification body is not valid anymore</a></li><li><a href='Loosen up body check on template'>https://github.com/ansible/awx/pull/14995</a></li><li><a href='ansible/awx'>https://api.github.com/repos/ansible/awx</a></li><li><a href='https://github.com/ansible/awx/issues/14985'>webhook notification body is not valid anymore</a></li><li><a href='https://github.com/ansible/awx/issues/14985'>webhook notification body is not valid anymore</a></li></ul>
+      <ul><li><a href='https://github.com/ansible/awx/commit/d903c524f590055b3373d6a563d22f36f4d6d6ae'>Fix for 14924  - Unformatted help text toast message (#14990)
+
+Fix for 14924  - Unformatted help text is popped out when peers for intances are changed
+
+Co-authored-by: David O Neill <daoneill@redhat.com></a></li><li><a href='https://github.com/ansible/awx/issues/14985'>webhook notification body is not valid anymore</a></li><li><a href='Loosen up body check on template'>https://github.com/ansible/awx/pull/14995</a></li><li><a href='ansible/awx'>https://api.github.com/repos/ansible/awx</a></li><li><a href='https://github.com/ansible/awx/issues/14985'>webhook notification body is not valid anymore</a></li></ul>
       <h3>Gists</h3>
       <ul><li><a href='https://gist.github.com/dmzoneill/f234183850275c36dd43564e81126338'>fail ci with approvers</a></li><li><a href='https://gist.github.com/dmzoneill/b3dace5030bea5d05211cbf1a74d7140'>PostGres Enum Errors</a></li><li><a href='https://gist.github.com/dmzoneill/daef323146469618c550241f35e4b503'>AWX Strings 1</a></li><li><a href='https://gist.github.com/dmzoneill/809f32f1ca301ce6f0dc2bad741ec15e'>AWX Strings 2</a></li><li><a href='https://gist.github.com/dmzoneill/4f1a46c512245a21ce819a9f465679aa'>AWX development on kind</a></li><li><a href='https://gist.github.com/dmzoneill/664484ef2b798118a83347205f84c66b'>keybase.md</a></li><li><a href='https://gist.github.com/dmzoneill/67a908fb949dc95bbbf02f0446a07f0a'>durex fun</a></li><li><a href='https://gist.github.com/dmzoneill/d13d88b16d4d0aa90cb108a00ab3cf01'>10GB tuning</a></li><li><a href='https://gist.github.com/dmzoneill/575ba9c32375c41cb1041e9064de0678'>Synology 108tb limit bypass</a></li><li><a href='https://gist.github.com/dmzoneill/cbc75e502dbe2b78651f68d6320b714a'>AA active queries</a></li><li><a href='https://gist.github.com/dmzoneill/faaa84782eaed4d2dc28ad55c19119ee'>PHP Paypal Instant Payment Notification</a></li></ul>
     </td>
@@ -171,18 +175,7 @@ updated-dependencies:
   dependency-type: indirect
 ...
 
-Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump undici from 5.28.2 to 5.28.3'>https://github.com/dmzoneill/Chuckbot/pull/13</a></li><li><a href='https://github.com/dmzoneill/Chuckbot/commit/5c5e375d32675a6aa2c54db01d8c2cf77548768b'>Bump ip from 1.1.8 to 1.1.9
-
-Bumps [ip](https://github.com/indutny/node-ip) from 1.1.8 to 1.1.9.
-- [Commits](https://github.com/indutny/node-ip/compare/v1.1.8...v1.1.9)
-
----
-updated-dependencies:
-- dependency-name: ip
-  dependency-type: indirect
-...
-
-Signed-off-by: dependabot[bot] <support@github.com></a></li></ul></p>
+Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump undici from 5.28.2 to 5.28.3'>https://github.com/dmzoneill/Chuckbot/pull/13</a></li></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>

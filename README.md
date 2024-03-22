@@ -1,10 +1,10 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-21/03/2024 00:31:30-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-22/03/2024 00:29:50-brightgreen" height='28'/>
 
 <table>
   <tr>
     <td>
-      <h3>Issues (15)</h3>
-      <li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/24'>Error Building using Dockerfile</a> 2024-03-19</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/23'>Track Format & FFMPEG not adding metadata</a> 2024-02-28</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/21'>Issue with Lidarr recognizing downloaded audio and incorrect metadata in Jellyfin</a> 2024-02-23</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/15'>usage</a> 2023-10-17</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/13'>Alittle help with docker compose</a> 2023-08-14</li>
+      <h3>Issues (16)</h3>
+      <li><a href='https://github.com/dmzoneill/tado-gnome-shell-extension/issues/1'>Not compatible with Gnome 45</a> 2024-03-21</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/24'>Error Building using Dockerfile</a> 2024-03-19</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/23'>Track Format & FFMPEG not adding metadata</a> 2024-02-28</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/21'>Issue with Lidarr recognizing downloaded audio and incorrect metadata in Jellyfin</a> 2024-02-23</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/15'>usage</a> 2023-10-17</li>
       <h3>Pull Requests (3)</h3>
       <ul><li><a href='https://github.com/dmzoneill/Chuckbot/pull/15'>Bump follow-redirects from 1.15.4 to 1.15.6</a> 2024-03-16</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/20'>Bump follow-redirects from 1.15.4 to 1.15.6 in /frontend</a> 2024-03-16</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/13'>Bump golang.org/x/net from 0.7.0 to 0.17.0 in /backend</a> 2024-02-28</li></ul>
       <h3>Recent Acivity</h3>
@@ -336,7 +336,7 @@ Fixes #14</a></li></ul></p>
               <p><h2><a href='https://github.com/dmzoneill/tado-gnome-shell-extension' title='tado-gnome-shell-extension'>tado-gnome-shell-extension</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
-              <p><ul></ul></p>
+              <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/tado-gnome-shell-extension/issues/1'>Not compatible with Gnome 45</a> 2022-12-19</li></ul></p>
               <p><ul></ul></p>
             </td>
             <td>

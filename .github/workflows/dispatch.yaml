@@ -401,7 +401,9 @@ jobs:
           VALIDATE_NATURAL_LANGUAGE: ${{ inputs.VALIDATE_NATURAL_LANGUAGE }}
           VALIDATE_OPENAPI: ${{ inputs.VALIDATE_OPENAPI }}
           VALIDATE_PERL: ${{ inputs.VALIDATE_PERL }}
-          VALIDATE_PHP: ${{ inputs.VALIDATE_PHP }}
+          {{ if ne(inputs.VALIDATE_PHP, 'false') }}
+            VALIDATE_PHP: ${{ inputs.VALIDATE_PHP }}
+          {{ end }}
           VALIDATE_PHP_BUILTIN: ${{ inputs.VALIDATE_PHP_BUILTIN }}
           VALIDATE_PHP_PHPCS: ${{ inputs.VALIDATE_PHP_PHPCS }}
           VALIDATE_PHP_PHPSTAN: ${{ inputs.VALIDATE_PHP_PHPSTAN }}

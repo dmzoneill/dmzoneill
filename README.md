@@ -1,18 +1,27 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-25/03/2024 00:31:10-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-25/03/2024 19:11:48-brightgreen" height='28'/>
 
 <table>
   <tr>
     <td>
-      <h3>Issues (17)</h3>
-      <li><a href='https://github.com/dmzoneill/tado-gnome-shell-extension/issues/1'>Not compatible with Gnome 45</a> 2024-03-21</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/24'>Error Building using Dockerfile</a> 2024-03-19</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/23'>Track Format & FFMPEG not adding metadata</a> 2024-02-28</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/21'>Issue with Lidarr recognizing downloaded audio and incorrect metadata in Jellyfin</a> 2024-02-23</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/15'>usage</a> 2023-10-17</li>
-      <h3>Pull Requests (4)</h3>
-      <ul><li><a href='https://github.com/dmzoneill/Chuckbot/pull/15'>Bump follow-redirects from 1.15.4 to 1.15.6</a> 2024-03-16</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/21'>Bump webpack-dev-middleware from 5.3.1 to 5.3.4 in /frontend</a> 2024-03-23</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/20'>Bump follow-redirects from 1.15.4 to 1.15.6 in /frontend</a> 2024-03-16</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/13'>Bump golang.org/x/net from 0.7.0 to 0.17.0 in /backend</a> 2024-02-28</li></ul>
+      <h3>Issues (12)</h3>
+      <li><a href='https://github.com/dmzoneill/tado-gnome-shell-extension/issues/1'>Not compatible with Gnome 45</a> 2024-03-21</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/23'>Track Format & FFMPEG not adding metadata</a> 2024-03-25</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/21'>Issue with Lidarr recognizing downloaded audio and incorrect metadata in Jellyfin</a> 2024-02-23</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/13'>Alittle help with docker compose</a> 2024-03-25</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/12'>REQ: Ability to set percentage match cutoff and/or keyword blacklist such as "live" or whitelist "official" in title.</a> 2024-03-25</li>
+      <h3>Pull Requests (1)</h3>
+      <ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/13'>Bump golang.org/x/net from 0.7.0 to 0.17.0 in /backend</a> 2024-02-28</li></ul>
       <h3>Recent Acivity</h3>
-      <ul><li><a href='https://github.com/ansible/awx/commit/d903c524f590055b3373d6a563d22f36f4d6d6ae'>Fix for 14924  - Unformatted help text toast message (#14990)
+      <ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/24'>Error Building using Dockerfile</a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/commit/8bbe51084147bd0f4b3c5c74728ecfd3bbfca2fb'>Fix dockefile</a></li><li><a href='https://github.com/ansible/awx/commit/ccebcdeffe23a79d78a4672d20752e039d8aa857'>Loosen up body check on template
+
+https://github.com/ansible/awx/issues/14985
+https://github.com/ansible/awx/issues/13983</a></li><li><a href='https://github.com/ansible/awx/commit/a6354450829461c30240dbe3e5d1eb0e7c398f2c'>Fix failing bulk launch job due to create partition race
+
+https://github.com/ansible/awx/pull/14910/files
+
+introduced a bug where we no longer accept the right exceptions
+
+when 2 job launch at the sametime and try to create jobevent table partition 1 of the job will fail</a></li><li><a href='https://github.com/ansible/awx/commit/d903c524f590055b3373d6a563d22f36f4d6d6ae'>Fix for 14924  - Unformatted help text toast message (#14990)
 
 Fix for 14924  - Unformatted help text is popped out when peers for intances are changed
 
-Co-authored-by: David O Neill <daoneill@redhat.com></a></li><li><a href='https://github.com/ansible/awx/issues/14985'>webhook notification body is not valid anymore</a></li><li><a href='Loosen up body check on template'>https://github.com/ansible/awx/pull/14995</a></li><li><a href='ansible/awx'>https://api.github.com/repos/ansible/awx</a></li><li><a href='https://github.com/ansible/awx/issues/14985'>webhook notification body is not valid anymore</a></li></ul>
+Co-authored-by: David O Neill <daoneill@redhat.com></a></li></ul>
       <h3>Gists</h3>
       <ul><li><a href='https://gist.github.com/dmzoneill/f234183850275c36dd43564e81126338'>fail ci with approvers</a></li><li><a href='https://gist.github.com/dmzoneill/b3dace5030bea5d05211cbf1a74d7140'>PostGres Enum Errors</a></li><li><a href='https://gist.github.com/dmzoneill/daef323146469618c550241f35e4b503'>AWX Strings 1</a></li><li><a href='https://gist.github.com/dmzoneill/809f32f1ca301ce6f0dc2bad741ec15e'>AWX Strings 2</a></li><li><a href='https://gist.github.com/dmzoneill/4f1a46c512245a21ce819a9f465679aa'>AWX development on kind</a></li><li><a href='https://gist.github.com/dmzoneill/664484ef2b798118a83347205f84c66b'>keybase.md</a></li><li><a href='https://gist.github.com/dmzoneill/67a908fb949dc95bbbf02f0446a07f0a'>durex fun</a></li><li><a href='https://gist.github.com/dmzoneill/d13d88b16d4d0aa90cb108a00ab3cf01'>10GB tuning</a></li><li><a href='https://gist.github.com/dmzoneill/575ba9c32375c41cb1041e9064de0678'>Synology 108tb limit bypass</a></li><li><a href='https://gist.github.com/dmzoneill/cbc75e502dbe2b78651f68d6320b714a'>AA active queries</a></li><li><a href='https://gist.github.com/dmzoneill/faaa84782eaed4d2dc28ad55c19119ee'>PHP Paypal Instant Payment Notification</a></li></ul>
     </td>
@@ -67,7 +76,7 @@ Co-authored-by: David O Neill <daoneill@redhat.com></a></li><li><a href='https:/
 </tr><tr>
 <td><img src='https://img.shields.io/badge/_-COBOL -11DDDD.svg?style=for-the-badge' title='COBOL'  height='20px'/></td><td>964</td>
 <td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>1368096</td>
-<td><img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile'  height='20px'/></td><td>5972</td>
+<td><img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile'  height='20px'/></td><td>5851</td>
 <td><img src='https://img.shields.io/badge/_-AngelScript -11DDDD.svg?style=for-the-badge' title='AngelScript'  height='20px'/></td><td>28550</td>
 </tr><tr>
 <td><img src='https://img.shields.io/badge/_-Tcl -11DDDD.svg?style=for-the-badge' title='Tcl'  height='20px'/></td><td>1281755</td>
@@ -127,39 +136,11 @@ Co-authored-by: David O Neill <daoneill@redhat.com></a></li><li><a href='https:/
   <tbody>
     <tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/dmzoneill' title='dmzoneill'>dmzoneill</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
-              <p>Apache License 2.0</p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-            </td>
-            <td>
-              <p><a href='https://github.com/dmzoneill' title='Github profile'>Github profile</a></p>
-            </td>
-            <td align="center">
-              <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2023-01-16</p>
-            </td>
-        </tr>
-<tr>
-            <td>
               <p><h2><a href='https://github.com/dmzoneill/Chuckbot' title='Chuckbot'>Chuckbot</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/Chuckbot/commit/0efcbaf82d8ad958b9e02ba8e0b45a24a7e34933'>Bump undici from 5.28.2 to 5.28.3
-
-Bumps [undici](https://github.com/nodejs/undici) from 5.28.2 to 5.28.3.
-- [Release notes](https://github.com/nodejs/undici/releases)
-- [Commits](https://github.com/nodejs/undici/compare/v5.28.2...v5.28.3)
-
----
-updated-dependencies:
-- dependency-name: undici
-  dependency-type: indirect
-...
-
-Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump undici from 5.28.2 to 5.28.3'>https://github.com/dmzoneill/Chuckbot/pull/13</a></li></ul></p>
               <p><ul></ul></p>
-              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/Chuckbot/pull/15'>Bump follow-redirects from 1.15.4 to 1.15.6</a> 2023-04-08</li></ul></p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
             </td>
             <td>
               <p><a href='https://wa.me/96592226837' title='Chat with chuck'>Chat with chuck</a></p>
@@ -173,10 +154,8 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump un
             <td>
               <p><h2><a href='https://github.com/dmzoneill/lidarr-youtube-downloader' title='lidarr-youtube-downloader'>lidarr-youtube-downloader</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/> <img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/12'>REQ: Ability to set percentage match cutoff and/or keyword blacklist such as "live" or whitelist "official" in title.</a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/commit/b76cecde7f4281fb61b1ff29892367ac4613d022'>Fix lint</a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/23'>Track Format & FFMPEG not adding metadata</a></li><li><a href='Use yt-dlp'>https://github.com/dmzoneill/lidarr-youtube-downloader/pull/22</a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/commit/385c73443ef16df1f009403c1ddb3c8efdb6c735'>feat: Use original name for yt-dlp
-
-Fixes #14</a></li></ul></p>
-              <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/24'>Error Building using Dockerfile</a> 2024-03-20</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/23'>Track Format & FFMPEG not adding metadata</a> 2024-03-20</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/21'>Issue with Lidarr recognizing downloaded audio and incorrect metadata in Jellyfin</a> 2024-03-20</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/15'>usage</a> 2024-03-20</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/13'>Alittle help with docker compose</a> 2024-03-20</li></ul></p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/24'>Error Building using Dockerfile</a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/commit/8bbe51084147bd0f4b3c5c74728ecfd3bbfca2fb'>Fix dockefile</a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/12'>REQ: Ability to set percentage match cutoff and/or keyword blacklist such as "live" or whitelist "official" in title.</a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/commit/b76cecde7f4281fb61b1ff29892367ac4613d022'>Fix lint</a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/23'>Track Format & FFMPEG not adding metadata</a></li></ul></p>
+              <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/23'>Track Format & FFMPEG not adding metadata</a> 2024-03-20</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/21'>Issue with Lidarr recognizing downloaded audio and incorrect metadata in Jellyfin</a> 2024-03-20</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/13'>Alittle help with docker compose</a> 2024-03-20</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/12'>REQ: Ability to set percentage match cutoff and/or keyword blacklist such as "live" or whitelist "official" in title.</a> 2024-03-20</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/11'>Deployment Loop and "workaround".</a> 2024-03-20</li></ul></p>
               <p><ul></ul></p>
             </td>
             <td>
@@ -185,6 +164,22 @@ Fixes #14</a></li></ul></p>
             <td align="center">
               <a href='https://github.com/dmzoneill/lidarr-youtube-downloader/actions'><img src='https://github.com/dmzoneill//lidarr-youtube-downloader/actions/workflows/main.yml/badge.svg'/></a>
               <p>2024-03-20</p>
+            </td>
+        </tr>
+<tr>
+            <td>
+              <p><h2><a href='https://github.com/dmzoneill/dmzoneill' title='dmzoneill'>dmzoneill</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
+              <p>Apache License 2.0</p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+            </td>
+            <td>
+              <p><a href='https://github.com/dmzoneill' title='Github profile'>Github profile</a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2023-01-16</p>
             </td>
         </tr>
 <tr>
@@ -573,19 +568,7 @@ updated-dependencies:
   dependency-type: direct:production
 ...
 
-Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump starlette from 0.19.1 to 0.36.2'>https://github.com/dmzoneill/aa-dns-checker/pull/1</a></li><li><a href='https://github.com/dmzoneill/aa-dns-checker/commit/ff6247a8bdfed0b91e02f7e057cfc6b7c84a2200'>Bump fastapi from 0.79.0 to 0.109.1
-
-Bumps [fastapi](https://github.com/tiangolo/fastapi) from 0.79.0 to 0.109.1.
-- [Release notes](https://github.com/tiangolo/fastapi/releases)
-- [Commits](https://github.com/tiangolo/fastapi/compare/0.79.0...0.109.1)
-
----
-updated-dependencies:
-- dependency-name: fastapi
-  dependency-type: direct:production
-...
-
-Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump fastapi from 0.79.0 to 0.109.1'>https://github.com/dmzoneill/aa-dns-checker/pull/2</a></li></ul></p>
+Signed-off-by: dependabot[bot] <support@github.com></a></li></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -640,7 +623,7 @@ updated-dependencies:
 
 Signed-off-by: dependabot[bot] <support@github.com></a></li></ul></p>
               <p><ul></ul></p>
-              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/21'>Bump webpack-dev-middleware from 5.3.1 to 5.3.4 in /frontend</a> 2022-06-13</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/20'>Bump follow-redirects from 1.15.4 to 1.15.6 in /frontend</a> 2022-06-13</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/13'>Bump golang.org/x/net from 0.7.0 to 0.17.0 in /backend</a> 2022-06-13</li></ul></p>
+              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/13'>Bump golang.org/x/net from 0.7.0 to 0.17.0 in /backend</a> 2022-06-13</li></ul></p>
             </td>
             <td>
               <p><a href='' title=''></a></p>

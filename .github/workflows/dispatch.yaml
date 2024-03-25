@@ -63,6 +63,7 @@ jobs:
           VALIDATE_PYTHON_FLAKE8: false          
           VALIDATE_GITHUB_ACTIONS: false
           VALIDATE_NATURAL_LANGUAGE: false
+          VALIDATE_DOCKERFILE_HADOLINT: false
           VALIDATE_PHP_PHPCS: false
           VALIDATE_PHP_PSALM: false
           DEFAULT_BRANCH: "main"

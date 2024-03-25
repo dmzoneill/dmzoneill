@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-25/03/2024 19:11:48-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-25/03/2024 21:45:14-brightgreen" height='28'/>
 
 <table>
   <tr>
@@ -8,20 +8,32 @@
       <h3>Pull Requests (1)</h3>
       <ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/13'>Bump golang.org/x/net from 0.7.0 to 0.17.0 in /backend</a> 2024-02-28</li></ul>
       <h3>Recent Acivity</h3>
-      <ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/24'>Error Building using Dockerfile</a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/commit/8bbe51084147bd0f4b3c5c74728ecfd3bbfca2fb'>Fix dockefile</a></li><li><a href='https://github.com/ansible/awx/commit/ccebcdeffe23a79d78a4672d20752e039d8aa857'>Loosen up body check on template
+      <ul><li><a href='https://github.com/dmzoneill/dmzoneill/commit/447ccd12e9084bde90b15c48aea2c741700b1334'>Update main.yml</a></li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/commit/da92bd601f2ea16cd93fae854ae42a463a51ff3c'>Bump follow-redirects from 1.15.4 to 1.15.6 in /frontend
 
-https://github.com/ansible/awx/issues/14985
-https://github.com/ansible/awx/issues/13983</a></li><li><a href='https://github.com/ansible/awx/commit/a6354450829461c30240dbe3e5d1eb0e7c398f2c'>Fix failing bulk launch job due to create partition race
+Bumps [follow-redirects](https://github.com/follow-redirects/follow-redirects) from 1.15.4 to 1.15.6.
+- [Release notes](https://github.com/follow-redirects/follow-redirects/releases)
+- [Commits](https://github.com/follow-redirects/follow-redirects/compare/v1.15.4...v1.15.6)
 
-https://github.com/ansible/awx/pull/14910/files
+---
+updated-dependencies:
+- dependency-name: follow-redirects
+  dependency-type: indirect
+...
 
-introduced a bug where we no longer accept the right exceptions
+Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump follow-redirects from 1.15.4 to 1.15.6 in /frontend'>https://github.com/dmzoneill/aa-dev-prod-watcher/pull/20</a></li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/commit/1a48a16224241551aadba59f8a34ef48f71b3e3d'>Bump webpack-dev-middleware from 5.3.1 to 5.3.4 in /frontend
 
-when 2 job launch at the sametime and try to create jobevent table partition 1 of the job will fail</a></li><li><a href='https://github.com/ansible/awx/commit/d903c524f590055b3373d6a563d22f36f4d6d6ae'>Fix for 14924  - Unformatted help text toast message (#14990)
+Bumps [webpack-dev-middleware](https://github.com/webpack/webpack-dev-middleware) from 5.3.1 to 5.3.4.
+- [Release notes](https://github.com/webpack/webpack-dev-middleware/releases)
+- [Changelog](https://github.com/webpack/webpack-dev-middleware/blob/v5.3.4/CHANGELOG.md)
+- [Commits](https://github.com/webpack/webpack-dev-middleware/compare/v5.3.1...v5.3.4)
 
-Fix for 14924  - Unformatted help text is popped out when peers for intances are changed
+---
+updated-dependencies:
+- dependency-name: webpack-dev-middleware
+  dependency-type: indirect
+...
 
-Co-authored-by: David O Neill <daoneill@redhat.com></a></li></ul>
+Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump webpack-dev-middleware from 5.3.1 to 5.3.4 in /frontend'>https://github.com/dmzoneill/aa-dev-prod-watcher/pull/21</a></li></ul>
       <h3>Gists</h3>
       <ul><li><a href='https://gist.github.com/dmzoneill/f234183850275c36dd43564e81126338'>fail ci with approvers</a></li><li><a href='https://gist.github.com/dmzoneill/b3dace5030bea5d05211cbf1a74d7140'>PostGres Enum Errors</a></li><li><a href='https://gist.github.com/dmzoneill/daef323146469618c550241f35e4b503'>AWX Strings 1</a></li><li><a href='https://gist.github.com/dmzoneill/809f32f1ca301ce6f0dc2bad741ec15e'>AWX Strings 2</a></li><li><a href='https://gist.github.com/dmzoneill/4f1a46c512245a21ce819a9f465679aa'>AWX development on kind</a></li><li><a href='https://gist.github.com/dmzoneill/664484ef2b798118a83347205f84c66b'>keybase.md</a></li><li><a href='https://gist.github.com/dmzoneill/67a908fb949dc95bbbf02f0446a07f0a'>durex fun</a></li><li><a href='https://gist.github.com/dmzoneill/d13d88b16d4d0aa90cb108a00ab3cf01'>10GB tuning</a></li><li><a href='https://gist.github.com/dmzoneill/575ba9c32375c41cb1041e9064de0678'>Synology 108tb limit bypass</a></li><li><a href='https://gist.github.com/dmzoneill/cbc75e502dbe2b78651f68d6320b714a'>AA active queries</a></li><li><a href='https://gist.github.com/dmzoneill/faaa84782eaed4d2dc28ad55c19119ee'>PHP Paypal Instant Payment Notification</a></li></ul>
     </td>
@@ -136,9 +148,37 @@ Co-authored-by: David O Neill <daoneill@redhat.com></a></li></ul>
   <tbody>
     <tr>
             <td>
+              <p><h2><a href='https://github.com/dmzoneill/dmzoneill' title='dmzoneill'>dmzoneill</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
+              <p>Apache License 2.0</p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/dmzoneill/commit/447ccd12e9084bde90b15c48aea2c741700b1334'>Update main.yml</a></li></ul></p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+            </td>
+            <td>
+              <p><a href='https://github.com/dmzoneill' title='Github profile'>Github profile</a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2023-01-16</p>
+            </td>
+        </tr>
+<tr>
+            <td>
               <p><h2><a href='https://github.com/dmzoneill/Chuckbot' title='Chuckbot'>Chuckbot</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><ul></ul></p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/Chuckbot/commit/4a5d02b0a1561ffbcb69958b4682c49ea91c0e53'>Bump follow-redirects from 1.15.4 to 1.15.6
+
+Bumps [follow-redirects](https://github.com/follow-redirects/follow-redirects) from 1.15.4 to 1.15.6.
+- [Release notes](https://github.com/follow-redirects/follow-redirects/releases)
+- [Commits](https://github.com/follow-redirects/follow-redirects/compare/v1.15.4...v1.15.6)
+
+---
+updated-dependencies:
+- dependency-name: follow-redirects
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump follow-redirects from 1.15.4 to 1.15.6'>https://github.com/dmzoneill/Chuckbot/pull/15</a></li></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -154,7 +194,7 @@ Co-authored-by: David O Neill <daoneill@redhat.com></a></li></ul>
             <td>
               <p><h2><a href='https://github.com/dmzoneill/lidarr-youtube-downloader' title='lidarr-youtube-downloader'>lidarr-youtube-downloader</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/> <img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/24'>Error Building using Dockerfile</a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/commit/8bbe51084147bd0f4b3c5c74728ecfd3bbfca2fb'>Fix dockefile</a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/12'>REQ: Ability to set percentage match cutoff and/or keyword blacklist such as "live" or whitelist "official" in title.</a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/commit/b76cecde7f4281fb61b1ff29892367ac4613d022'>Fix lint</a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/23'>Track Format & FFMPEG not adding metadata</a></li></ul></p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/24'>Error Building using Dockerfile</a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/commit/8bbe51084147bd0f4b3c5c74728ecfd3bbfca2fb'>Fix dockefile</a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/12'>REQ: Ability to set percentage match cutoff and/or keyword blacklist such as "live" or whitelist "official" in title.</a></li></ul></p>
               <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/23'>Track Format & FFMPEG not adding metadata</a> 2024-03-20</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/21'>Issue with Lidarr recognizing downloaded audio and incorrect metadata in Jellyfin</a> 2024-03-20</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/13'>Alittle help with docker compose</a> 2024-03-20</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/12'>REQ: Ability to set percentage match cutoff and/or keyword blacklist such as "live" or whitelist "official" in title.</a> 2024-03-20</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/11'>Deployment Loop and "workaround".</a> 2024-03-20</li></ul></p>
               <p><ul></ul></p>
             </td>
@@ -164,22 +204,6 @@ Co-authored-by: David O Neill <daoneill@redhat.com></a></li></ul>
             <td align="center">
               <a href='https://github.com/dmzoneill/lidarr-youtube-downloader/actions'><img src='https://github.com/dmzoneill//lidarr-youtube-downloader/actions/workflows/main.yml/badge.svg'/></a>
               <p>2024-03-20</p>
-            </td>
-        </tr>
-<tr>
-            <td>
-              <p><h2><a href='https://github.com/dmzoneill/dmzoneill' title='dmzoneill'>dmzoneill</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
-              <p>Apache License 2.0</p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-            </td>
-            <td>
-              <p><a href='https://github.com/dmzoneill' title='Github profile'>Github profile</a></p>
-            </td>
-            <td align="center">
-              <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2023-01-16</p>
             </td>
         </tr>
 <tr>
@@ -555,20 +579,7 @@ Co-authored-by: David O Neill <daoneill@redhat.com></a></li></ul>
             <td>
               <p><h2><a href='https://github.com/dmzoneill/aa-dns-checker' title='aa-dns-checker'>aa-dns-checker</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/aa-dns-checker/commit/38283330fdd23cefee13fb59cf09f262cef8a9a1'>Bump starlette from 0.19.1 to 0.36.2
-
-Bumps [starlette](https://github.com/encode/starlette) from 0.19.1 to 0.36.2.
-- [Release notes](https://github.com/encode/starlette/releases)
-- [Changelog](https://github.com/encode/starlette/blob/master/docs/release-notes.md)
-- [Commits](https://github.com/encode/starlette/compare/0.19.1...0.36.2)
-
----
-updated-dependencies:
-- dependency-name: starlette
-  dependency-type: direct:production
-...
-
-Signed-off-by: dependabot[bot] <support@github.com></a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -584,7 +595,32 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li></ul></p>
             <td>
               <p><h2><a href='https://github.com/dmzoneill/aa-dev-prod-watcher' title='aa-dev-prod-watcher'>aa-dev-prod-watcher</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript' height='20px'/> <img src='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' title='Go' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/commit/d1301ff3e5ea2a1504185414da5d44a1bdc8be41'>Bump golang.org/x/crypto in /backend
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/commit/da92bd601f2ea16cd93fae854ae42a463a51ff3c'>Bump follow-redirects from 1.15.4 to 1.15.6 in /frontend
+
+Bumps [follow-redirects](https://github.com/follow-redirects/follow-redirects) from 1.15.4 to 1.15.6.
+- [Release notes](https://github.com/follow-redirects/follow-redirects/releases)
+- [Commits](https://github.com/follow-redirects/follow-redirects/compare/v1.15.4...v1.15.6)
+
+---
+updated-dependencies:
+- dependency-name: follow-redirects
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump follow-redirects from 1.15.4 to 1.15.6 in /frontend'>https://github.com/dmzoneill/aa-dev-prod-watcher/pull/20</a></li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/commit/1a48a16224241551aadba59f8a34ef48f71b3e3d'>Bump webpack-dev-middleware from 5.3.1 to 5.3.4 in /frontend
+
+Bumps [webpack-dev-middleware](https://github.com/webpack/webpack-dev-middleware) from 5.3.1 to 5.3.4.
+- [Release notes](https://github.com/webpack/webpack-dev-middleware/releases)
+- [Changelog](https://github.com/webpack/webpack-dev-middleware/blob/v5.3.4/CHANGELOG.md)
+- [Commits](https://github.com/webpack/webpack-dev-middleware/compare/v5.3.1...v5.3.4)
+
+---
+updated-dependencies:
+- dependency-name: webpack-dev-middleware
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump webpack-dev-middleware from 5.3.1 to 5.3.4 in /frontend'>https://github.com/dmzoneill/aa-dev-prod-watcher/pull/21</a></li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/commit/d1301ff3e5ea2a1504185414da5d44a1bdc8be41'>Bump golang.org/x/crypto in /backend
 
 Bumps [golang.org/x/crypto](https://github.com/golang/crypto) from 0.0.0-20220513210258-46612604a0f9 to 0.17.0.
 - [Commits](https://github.com/golang/crypto/commits/v0.17.0)
@@ -592,32 +628,6 @@ Bumps [golang.org/x/crypto](https://github.com/golang/crypto) from 0.0.0-2022051
 ---
 updated-dependencies:
 - dependency-name: golang.org/x/crypto
-  dependency-type: indirect
-...
-
-Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump golang.org/x/crypto from 0.0.0-20220513210258-46612604a0f9 to 0.17.0 in /backend'>https://github.com/dmzoneill/aa-dev-prod-watcher/pull/15</a></li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/commit/6252fe402c5c777767c2da79036f357ebf05c4a4'>Bump axios from 0.27.2 to 0.28.0 in /frontend
-
-Bumps [axios](https://github.com/axios/axios) from 0.27.2 to 0.28.0.
-- [Release notes](https://github.com/axios/axios/releases)
-- [Changelog](https://github.com/axios/axios/blob/v0.28.0/CHANGELOG.md)
-- [Commits](https://github.com/axios/axios/compare/v0.27.2...v0.28.0)
-
----
-updated-dependencies:
-- dependency-name: axios
-  dependency-type: direct:production
-...
-
-Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump axios from 0.27.2 to 0.28.0 in /frontend'>https://github.com/dmzoneill/aa-dev-prod-watcher/pull/18</a></li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/commit/3314dbc4abcb0a5d472b31dac529aa8edff41151'>Bump @babel/traverse from 7.18.0 to 7.23.7 in /frontend
-
-Bumps [@babel/traverse](https://github.com/babel/babel/tree/HEAD/packages/babel-traverse) from 7.18.0 to 7.23.7.
-- [Release notes](https://github.com/babel/babel/releases)
-- [Changelog](https://github.com/babel/babel/blob/main/CHANGELOG.md)
-- [Commits](https://github.com/babel/babel/commits/v7.23.7/packages/babel-traverse)
-
----
-updated-dependencies:
-- dependency-name: "@babel/traverse"
   dependency-type: indirect
 ...
 

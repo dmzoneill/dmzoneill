@@ -358,89 +358,338 @@ jobs:
           curl -o .github/linters/.stylelintrc.json https://raw.githubusercontent.com/dmzoneill/dmzoneill/main/.github/linters/.stylelintrc.json
           curl -o .github/linters/.htmlhintrc https://raw.githubusercontent.com/dmzoneill/dmzoneill/main/.github/linters/.htmlhintrc
           curl -o .github/linters/.eslintrc.json https://raw.githubusercontent.com/dmzoneill/dmzoneill/main/.github/linters/.eslintrc.json
+      
+      - name: Set environment variables
+        run: |
+          echo "DEFAULT_BRANCH=main" >> $GITHUB_ENV
+          echo "GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }}" >> $GITHUB_ENV
+          
+          if [ "${{ inputs.VALIDATE_ALL_CODEBASE }}" != "true" ]; then
+            echo "VALIDATE_ALL_CODEBASE=${{ inputs.VALIDATE_ALL_CODEBASE }}" >> $GITHUB_ENV
+          fi
+          
+          if [ "${{ inputs.VALIDATE_ANSIBLE }}" != "true" ]; then
+            echo "VALIDATE_ANSIBLE=${{ inputs.VALIDATE_ANSIBLE }}" >> $GITHUB_ENV
+          fi
+          
+          if [ "${{ inputs.VALIDATE_ARM }}" != "true" ]; then
+            echo "VALIDATE_ARM=${{ inputs.VALIDATE_ARM }}" >> $GITHUB_ENV
+          fi
+          
+          if [ "${{ inputs.VALIDATE_BASH }}" != "true" ]; then
+            echo "VALIDATE_BASH=${{ inputs.VALIDATE_BASH }}" >> $GITHUB_ENV
+          fi
+          
+          if [ "${{ inputs.VALIDATE_BASH_EXEC }}" != "true" ]; then
+            echo "VALIDATE_BASH_EXEC=${{ inputs.VALIDATE_BASH_EXEC }}" >> $GITHUB_ENV
+          fi
+          
+          if [ "${{ inputs.VALIDATE_CPP }}" != "true" ]; then
+            echo "VALIDATE_CPP=${{ inputs.VALIDATE_CPP }}" >> $GITHUB_ENV
+          fi
+          
+          if [ "${{ inputs.VALIDATE_CHECKOV }}" != "true" ]; then
+            echo "VALIDATE_CHECKOV=${{ inputs.VALIDATE_CHECKOV }}" >> $GITHUB_ENV
+          fi
+          
+          if [ "${{ inputs.VALIDATE_CLANG_FORMAT }}" != "true" ]; then
+            echo "VALIDATE_CLANG_FORMAT=${{ inputs.VALIDATE_CLANG_FORMAT }}" >> $GITHUB_ENV
+          fi
+          
+               if [ "${{ inputs.VALIDATE_DART }}" != "true" ]; then
+            echo "VALIDATE_DART=${{ inputs.VALIDATE_DART }}" >> $GITHUB_ENV
+          fi
+          
+          if [ "${{ inputs.VALIDATE_DOCKERFILE_HADOLINT }}" != "true" ]; then
+            echo "VALIDATE_DOCKERFILE_HADOLINT=${{ inputs.VALIDATE_DOCKERFILE_HADOLINT }}" >> $GITHUB_ENV
+          fi
+          
+          if [ "${{ inputs.VALIDATE_EDITORCONFIG }}" != "true" ]; then
+            echo "VALIDATE_EDITORCONFIG=${{ inputs.VALIDATE_EDITORCONFIG }}" >> $GITHUB_ENV
+          fi
+          
+          if [ "${{ inputs.VALIDATE_ENV }}" != "true" ]; then
+            echo "VALIDATE_ENV=${{ inputs.VALIDATE_ENV }}" >> $GITHUB_ENV
+          fi
+          
+          if [ "${{ inputs.VALIDATE_GHERKIN }}" != "true" ]; then
+            echo "VALIDATE_GHERKIN=${{ inputs.VALIDATE_GHERKIN }}" >> $GITHUB_ENV
+          fi
+          
+          if [ "${{ inputs.VALIDATE_GITHUB_ACTIONS }}" != "true" ]; then
+            echo "VALIDATE_GITHUB_ACTIONS=${{ inputs.VALIDATE_GITHUB_ACTIONS }}" >> $GITHUB_ENV
+          fi
+          
+          if [ "${{ inputs.VALIDATE_GITLEAKS }}" != "true" ]; then
+            echo "VALIDATE_GITLEAKS=${{ inputs.VALIDATE_GITLEAKS }}" >> $GITHUB_ENV
+          fi
+          
+          if [ "${{ inputs.VALIDATE_GO }}" != "true" ]; then
+            echo "VALIDATE_GO=${{ inputs.VALIDATE_GO }}" >> $GITHUB_ENV
+          fi
+          
+          if [ "${{ inputs.VALIDATE_GO_MODULES }}" != "true" ]; then
+            echo "VALIDATE_GO_MODULES=${{ inputs.VALIDATE_GO_MODULES }}" >> $GITHUB_ENV
+          fi
+          
+          if [ "${{ inputs.VALIDATE_GOOGLE_JAVA_FORMAT }}" != "true" ]; then
+            echo "VALIDATE_GOOGLE_JAVA_FORMAT=${{ inputs.VALIDATE_GOOGLE_JAVA_FORMAT }}" >> $GITHUB_ENV
+          fi
+          
+          if [ "${{ inputs.VALIDATE_GROOVY }}" != "true" ]; then
+            echo "VALIDATE_GROOVY=${{ inputs.VALIDATE_GROOVY }}" >> $GITHUB_ENV
+          fi
+          
+          if [ "${{ inputs.VALIDATE_HTML }}" != "true" ]; then
+            echo "VALIDATE_HTML=${{ inputs.VALIDATE_HTML }}" >> $GITHUB_ENV
+          fi
+          
+          if [ "${{ inputs.VALIDATE_JAVA }}" != "true" ]; then
+            echo "VALIDATE_JAVA=${{ inputs.VALIDATE_JAVA }}" >> $GITHUB_ENV
+          fi
+          
+          if [ "${{ inputs.VALIDATE_JAVASCRIPT_ES }}" != "true" ]; then
+            echo "VALIDATE_JAVASCRIPT_ES=${{ inputs.VALIDATE_JAVASCRIPT_ES }}" >> $GITHUB_ENV
+          fi
+               
+            if [ "${{ inputs.VALIDATE_LUA }}" != "true" ]; then
+            echo "VALIDATE_LUA=${{ inputs.VALIDATE_LUA }}" >> $GITHUB_ENV
+          fi
+          
+          if [ "${{ inputs.VALIDATE_MARKDOWN }}" != "true" ]; then
+            echo "VALIDATE_MARKDOWN=${{ inputs.VALIDATE_MARKDOWN }}" >> $GITHUB_ENV
+          fi
+          
+          if [ "${{ inputs.VALIDATE_NATURAL_LANGUAGE }}" != "true" ]; then
+            echo "VALIDATE_NATURAL_LANGUAGE=${{ inputs.VALIDATE_NATURAL_LANGUAGE }}" >> $GITHUB_ENV
+          fi
+          
+          if [ "${{ inputs.VALIDATE_OPENAPI }}" != "true" ]; then
+            echo "VALIDATE_OPENAPI=${{ inputs.VALIDATE_OPENAPI }}" >> $GITHUB_ENV
+          fi
+          
+          if [ "${{ inputs.VALIDATE_PERL }}" != "true" ]; then
+            echo "VALIDATE_PERL=${{ inputs.VALIDATE_PERL }}" >> $GITHUB_ENV
+          fi
+          
+          if [ "${{ inputs.VALIDATE_PHP }}" != "true" ]; then
+            echo "VALIDATE_PHP=${{ inputs.VALIDATE_PHP }}" >> $GITHUB_ENV
+          fi
+          
+          if [ "${{ inputs.VALIDATE_PHP_BUILTIN }}" != "true" ]; then
+            echo "VALIDATE_PHP_BUILTIN=${{ inputs.VALIDATE_PHP_BUILTIN }}" >> $GITHUB_ENV
+          fi
+          
+          if [ "${{ inputs.VALIDATE_PHP_PHPCS }}" != "true" ]; then
+            echo "VALIDATE_PHP_PHPCS=${{ inputs.VALIDATE_PHP_PHPCS }}" >> $GITHUB_ENV
+          fi
+          
+          if [ "${{ inputs.VALIDATE_PHP_PHPSTAN }}" != "true" ]; then
+            echo "VALIDATE_PHP_PHPSTAN=${{ inputs.VALIDATE_PHP_PHPSTAN }}" >> $GITHUB_ENV
+          fi
+          
+          if [ "${{ inputs.VALIDATE_PHP_PSALM }}" != "true" ]; then
+            echo "VALIDATE_PHP_PSALM=${{ inputs.VALIDATE_PHP_PSALM }}" >> $GITHUB_ENV
+          fi
+          
+          if [ "${{ inputs.VALIDATE_POWERSHELL }}" != "true" ]; then
+            echo "VALIDATE_POWERSHELL=${{ inputs.VALIDATE_POWERSHELL }}" >> $GITHUB_ENV
+          fi
+          
+          if [ "${{ inputs.VALIDATE_PROTOBUF }}" != "true" ]; then
+            echo "VALIDATE_PROTOBUF=${{ inputs.VALIDATE_PROTOBUF }}" >> $GITHUB_ENV
+          fi
+          
+          if [ "${{ inputs.VALIDATE_PYTHON }}" != "true" ]; then
+            echo "VALIDATE_PYTHON=${{ inputs.VALIDATE_PYTHON }}" >> $GITHUB_ENV
+          fi
+          
+          if [ "${{ inputs.VALIDATE_PYTHON_BLACK }}" != "true" ]; then
+            echo "VALIDATE_PYTHON_BLACK=${{ inputs.VALIDATE_PYTHON_BLACK }}" >> $GITHUB_ENV
+          fi
+          
+          if [ "${{ inputs.VALIDATE_PYTHON_FLAKE8 }}" != "true" ]; then
+            echo "VALIDATE_PYTHON_FLAKE8=${{ inputs.VALIDATE_PYTHON_FLAKE8 }}" >> $GITHUB_ENV
+          fi
+          
+          if [ "${{ inputs.VALIDATE_PYTHON_ISORT }}" != "true" ]; then
+            echo "VALIDATE_PYTHON_ISORT=${{ inputs.VALIDATE_PYTHON_ISORT }}" >> $GITHUB_ENV
+          fi
+          
+          if [ "${{ inputs.VALIDATE_PYTHON_MYPY }}" != "true" ]; then
+            echo "VALIDATE_PYTHON_MYPY=${{ inputs.VALIDATE_PYTHON_MYPY }}" >> $GITHUB_ENV
+          fi
+          
+          if [ "${{ inputs.VALIDATE_PYTHON_PYLINT }}" != "true" ]; then
+            echo "VALIDATE_PYTHON_PYLINT=${{ inputs.VALIDATE_PYTHON_PYLINT }}" >> $GITHUB_ENV
+          fi
+          
+          if [ "${{ inputs.VALIDATE_R }}" != "true" ]; then
+            echo "VALIDATE_R=${{ inputs.VALIDATE_R }}" >> $GITHUB_ENV
+          fi
+          
+          if [ "${{ inputs.VALIDATE_RAKU }}" != "true" ]; then
+            echo "VALIDATE_RAKU=${{ inputs.VALIDATE_RAKU }}" >> $GITHUB_ENV
+          fi
+          
+          if [ "${{ inputs.VALIDATE_RENOVATE }}" != "true" ]; then
+            echo "VALIDATE_RENOVATE=${{ inputs.VALIDATE_RENOVATE }}" >> $GITHUB_ENV
+          fi
+                  
+          if [ "${{ inputs.VALIDATE_RUBY }}" != "true" ]; then
+            echo "VALIDATE_RUBY=${{ inputs.VALIDATE_RUBY }}" >> $GITHUB_ENV
+          fi
+          
+          if [ "${{ inputs.VALIDATE_PHP_BUILTIN }}" != "true" ]; then
+            echo "VALIDATE_PHP_BUILTIN=${{ inputs.VALIDATE_PHP_BUILTIN }}" >> $GITHUB_ENV
+          fi
+          
+          if [ "${{ inputs.VALIDATE_PHP_PHPCS }}" != "true" ]; then
+            echo "VALIDATE_PHP_PHPCS=${{ inputs.VALIDATE_PHP_PHPCS }}" >> $GITHUB_ENV
+          fi
+          
+          if [ "${{ inputs.VALIDATE_PHP_PHPSTAN }}" != "true" ]; then
+            echo "VALIDATE_PHP_PHPSTAN=${{ inputs.VALIDATE_PHP_PHPSTAN }}" >> $GITHUB_ENV
+          fi
+          
+          if [ "${{ inputs.VALIDATE_PHP_PSALM }}" != "true" ]; then
+            echo "VALIDATE_PHP_PSALM=${{ inputs.VALIDATE_PHP_PSALM }}" >> $GITHUB_ENV
+          fi
+          
+          if [ "${{ inputs.VALIDATE_POWERSHELL }}" != "true" ]; then
+            echo "VALIDATE_POWERSHELL=${{ inputs.VALIDATE_POWERSHELL }}" >> $GITHUB_ENV
+          fi
+          
+          if [ "${{ inputs.VALIDATE_PROTOBUF }}" != "true" ]; then
+            echo "VALIDATE_PROTOBUF=${{ inputs.VALIDATE_PROTOBUF }}" >> $GITHUB_ENV
+          fi
+          
+          if [ "${{ inputs.VALIDATE_PYTHON }}" != "true" ]; then
+            echo "VALIDATE_PYTHON=${{ inputs.VALIDATE_PYTHON }}" >> $GITHUB_ENV
+          fi
+          
+          if [ "${{ inputs.VALIDATE_PYTHON_BLACK }}" != "true" ]; then
+            echo "VALIDATE_PYTHON_BLACK=${{ inputs.VALIDATE_PYTHON_BLACK }}" >> $GITHUB_ENV
+          fi
+          
+          if [ "${{ inputs.VALIDATE_PYTHON_FLAKE8 }}" != "true" ]; then
+            echo "VALIDATE_PYTHON_FLAKE8=${{ inputs.VALIDATE_PYTHON_FLAKE8 }}" >> $GITHUB_ENV
+          fi
+          
+          if [ "${{ inputs.VALIDATE_PYTHON_ISORT }}" != "true" ]; then
+            echo "VALIDATE_PYTHON_ISORT=${{ inputs.VALIDATE_PYTHON_ISORT }}" >> $GITHUB_ENV
+          fi
+          
+          if [ "${{ inputs.VALIDATE_PYTHON_MYPY }}" != "true" ]; then
+            echo "VALIDATE_PYTHON_MYPY=${{ inputs.VALIDATE_PYTHON_MYPY }}" >> $GITHUB_ENV
+          fi
+          
+          if [ "${{ inputs.VALIDATE_PYTHON_PYLINT }}" != "true" ]; then
+            echo "VALIDATE_PYTHON_PYLINT=${{ inputs.VALIDATE_PYTHON_PYLINT }}" >> $GITHUB_ENV
+          fi
+          
+          if [ "${{ inputs.VALIDATE_R }}" != "true" ]; then
+            echo "VALIDATE_R=${{ inputs.VALIDATE_R }}" >> $GITHUB_ENV
+          fi
+          
+          if [ "${{ inputs.VALIDATE_RAKU }}" != "true" ]; then
+            echo "VALIDATE_RAKU=${{ inputs.VALIDATE_RAKU }}" >> $GITHUB_ENV
+          fi
+          
+          if [ "${{ inputs.VALIDATE_RENOVATE }}" != "true" ]; then
+            echo "VALIDATE_RENOVATE=${{ inputs.VALIDATE_RENOVATE }}" >> $GITHUB_ENV
+          fi
+          
+          if [ "${{ inputs.VALIDATE_RUBY }}" != "true" ]; then
+            echo "VALIDATE_RUBY=${{ inputs.VALIDATE_RUBY }}" >> $GITHUB_ENV
+          fi
+          
+          if [ "${{ inputs.VALIDATE_RUST_2015 }}" != "true" ]; then
+            echo "VALIDATE_RUST_2015=${{ inputs.VALIDATE_RUST_2015 }}" >> $GITHUB_ENV
+          fi
+          
+          if [ "${{ inputs.VALIDATE_RUST_2018 }}" != "true" ]; then
+            echo "VALIDATE_RUST_2018=${{ inputs.VALIDATE_RUST_2018 }}" >> $GITHUB_ENV
+          fi
+          
+          if [ "${{ inputs.VALIDATE_RUST_2021 }}" != "true" ]; then
+            echo "VALIDATE_RUST_2021=${{ inputs.VALIDATE_RUST_2021 }}" >> $GITHUB_ENV
+          fi
+          
+          if [ "${{ inputs.VALIDATE_RUST_CLIPPY }}" != "true" ]; then
+            echo "VALIDATE_RUST_CLIPPY=${{ inputs.VALIDATE_RUST_CLIPPY }}" >> $GITHUB_ENV
+          fi
+          
+          if [ "${{ inputs.VALIDATE_SCALAFMT }}" != "true" ]; then
+            echo "VALIDATE_SCALAFMT=${{ inputs.VALIDATE_SCALAFMT }}" >> $GITHUB_ENV
+          fi
+          
+          if [ "${{ inputs.VALIDATE_SHELL_SHFMT }}" != "true" ]; then
+            echo "VALIDATE_SHELL_SHFMT=${{ inputs.VALIDATE_SHELL_SHFMT }}" >> $GITHUB_ENV
+          fi
+          
+          if [ "${{ inputs.VALIDATE_SNAKEMAKE_LINT }}" != "true" ]; then
+            echo "VALIDATE_SNAKEMAKE_LINT=${{ inputs.VALIDATE_SNAKEMAKE_LINT }}" >> $GITHUB_ENV
+          fi
+          
+          if [ "${{ inputs.VALIDATE_SNAKEMAKE_SNAKEFMT }}" != "true" ]; then
+            echo "VALIDATE_SNAKEMAKE_SNAKEFMT=${{ inputs.VALIDATE_SNAKEMAKE_SNAKEFMT }}" >> $GITHUB_ENV
+          fi
+          
+          if [ "${{ inputs.VALIDATE_STATES }}" != "true" ]; then
+            echo "VALIDATE_STATES=${{ inputs.VALIDATE_STATES }}" >> $GITHUB_ENV
+          fi
+          
+          if [ "${{ inputs.VALIDATE_SQL }}" != "true" ]; then
+            echo "VALIDATE_SQL=${{ inputs.VALIDATE_SQL }}" >> $GITHUB_ENV
+          fi
+          
+          if [ "${{ inputs.VALIDATE_SQLFLUFF }}" != "true" ]; then
+            echo "VALIDATE_SQLFLUFF=${{ inputs.VALIDATE_SQLFLUFF }}" >> $GITHUB_ENV
+          fi
+          
+          if [ "${{ inputs.VALIDATE_TEKTON }}" != "true" ]; then
+            echo "VALIDATE_TEKTON=${{ inputs.VALIDATE_TEKTON }}" >> $GITHUB_ENV
+          fi
+          
+          if [ "${{ inputs.VALIDATE_TERRAFORM_FMT }}" != "true" ]; then
+            echo "VALIDATE_TERRAFORM_FMT=${{ inputs.VALIDATE_TERRAFORM_FMT }}" >> $GITHUB_ENV
+          fi
+          
+          if [ "${{ inputs.VALIDATE_TERRAFORM_TERRASCAN }}" != "true" ]; then
+            echo "VALIDATE_TERRAFORM_TERRASCAN=${{ inputs.VALIDATE_TERRAFORM_TERRASCAN }}" >> $GITHUB_ENV
+          fi
+          
+          if [ "${{ inputs.VALIDATE_TERRAFORM_TFLINT }}" != "true" ]; then
+            echo "VALIDATE_TERRAFORM_TFLINT=${{ inputs.VALIDATE_TERRAFORM_TFLINT }}" >> $GITHUB_ENV
+          fi
+          
+          if [ "${{ inputs.VALIDATE_TERRAGRUNT }}" != "true" ]; then
+            echo "VALIDATE_TERRAGRUNT=${{ inputs.VALIDATE_TERRAGRUNT }}" >> $GITHUB_ENV
+          fi
+          
+          if [ "${{ inputs.VALIDATE_TSX }}" != "true" ]; then
+            echo "VALIDATE_TSX=${{ inputs.VALIDATE_TSX }}" >> $GITHUB_ENV
+          fi
+          
+          if [ "${{ inputs.VALIDATE_TYPESCRIPT_ES }}" != "true" ]; then
+            echo "VALIDATE_TYPESCRIPT_ES=${{ inputs.VALIDATE_TYPESCRIPT_ES }}" >> $GITHUB_ENV
+          fi
+          
+          if [ "${{ inputs.VALIDATE_TYPESCRIPT_STANDARD }}" != "true" ]; then
+            echo "VALIDATE_TYPESCRIPT_STANDARD=${{ inputs.VALIDATE_TYPESCRIPT_STANDARD }}" >> $GITHUB_ENV
+          fi
+          
+          if [ "${{ inputs.VALIDATE_XML }}" != "true" ]; then
+            echo "VALIDATE_XML=${{ inputs.VALIDATE_XML }}" >> $GITHUB_ENV
+          fi
+          
+          if [ "${{ inputs.VALIDATE_YAML }}" != "true" ]; then
+            echo "VALIDATE_YAML=${{ inputs.VALIDATE_YAML }}" >> $GITHUB_ENV
+          fi
 
       - name: Lint Code Base
         uses: github/super-linter@v4
-        env:
-          VALIDATE_ALL_CODEBASE: ${{ inputs.VALIDATE_ALL_CODEBASE != 'false' && inputs.VALIDATE_ALL_CODEBASE }}
-          VALIDATE_ANSIBLE: ${{ inputs.VALIDATE_ANSIBLE != 'false' && inputs.VALIDATE_ANSIBLE }}
-          VALIDATE_ARM: ${{ inputs.VALIDATE_ARM != 'false' && inputs.VALIDATE_ARM }}
-          VALIDATE_BASH: ${{ inputs.VALIDATE_BASH != 'false' && inputs.VALIDATE_BASH }}
-          VALIDATE_BASH_EXEC: ${{ inputs.VALIDATE_BASH_EXEC != 'false' && inputs.VALIDATE_BASH_EXEC }}
-          VALIDATE_CPP: ${{ inputs.VALIDATE_CPP != 'false' && inputs.VALIDATE_CPP }}
-          VALIDATE_CHECKOV: ${{ inputs.VALIDATE_CHECKOV != 'false' && inputs.VALIDATE_CHECKOV }}
-          VALIDATE_CLANG_FORMAT: ${{ inputs.VALIDATE_CLANG_FORMAT != 'false' && inputs.VALIDATE_CLANG_FORMAT }}
-          VALIDATE_CLOJURE: ${{ inputs.VALIDATE_CLOJURE != 'false' && inputs.VALIDATE_CLOJURE }}
-          VALIDATE_CLOUDFORMATION: ${{ inputs.VALIDATE_CLOUDFORMATION != 'false' && inputs.VALIDATE_CLOUDFORMATION }}
-          VALIDATE_COFFEESCRIPT: ${{ inputs.VALIDATE_COFFEESCRIPT != 'false' && inputs.VALIDATE_COFFEESCRIPT }}
-          VALIDATE_CSHARP: ${{ inputs.VALIDATE_CSHARP != 'false' && inputs.VALIDATE_CSHARP }}
-          VALIDATE_CSS: ${{ inputs.VALIDATE_CSS != 'false' && inputs.VALIDATE_CSS }}
-          VALIDATE_DART: ${{ inputs.VALIDATE_DART != 'false' && inputs.VALIDATE_DART }}
-          VALIDATE_DOCKERFILE_HADOLINT: ${{ inputs.VALIDATE_DOCKERFILE_HADOLINT != 'false' && inputs.VALIDATE_DOCKERFILE_HADOLINT }}
-          VALIDATE_EDITORCONFIG: ${{ inputs.VALIDATE_EDITORCONFIG != 'false' && inputs.VALIDATE_EDITORCONFIG }}
-          VALIDATE_ENV: ${{ inputs.VALIDATE_ENV != 'false' && inputs.VALIDATE_ENV }}
-          VALIDATE_GHERKIN: ${{ inputs.VALIDATE_GHERKIN != 'false' && inputs.VALIDATE_GHERKIN }}
-          VALIDATE_GITHUB_ACTIONS: ${{ inputs.VALIDATE_GITHUB_ACTIONS != 'false' && inputs.VALIDATE_GITHUB_ACTIONS }}
-          VALIDATE_GITLEAKS: ${{ inputs.VALIDATE_GITLEAKS != 'false' && inputs.VALIDATE_GITLEAKS }}
-          VALIDATE_GO: ${{ inputs.VALIDATE_GO != 'false' && inputs.VALIDATE_GO }}
-          VALIDATE_GO_MODULES: ${{ inputs.VALIDATE_GO_MODULES != 'false' && inputs.VALIDATE_GO_MODULES }}
-          VALIDATE_GOOGLE_JAVA_FORMAT: ${{ inputs.VALIDATE_GOOGLE_JAVA_FORMAT != 'false' && inputs.VALIDATE_GOOGLE_JAVA_FORMAT }}
-          VALIDATE_GROOVY: ${{ inputs.VALIDATE_GROOVY != 'false' && inputs.VALIDATE_GROOVY }}
-          VALIDATE_HTML: ${{ inputs.VALIDATE_HTML != 'false' && inputs.VALIDATE_HTML }}
-          VALIDATE_JAVA: ${{ inputs.VALIDATE_JAVA != 'false' && inputs.VALIDATE_JAVA }}
-          VALIDATE_JAVASCRIPT_ES: ${{ inputs.VALIDATE_JAVASCRIPT_ES != 'false' && inputs.VALIDATE_JAVASCRIPT_ES }}
-          VALIDATE_JAVASCRIPT_STANDARD: ${{ inputs.VALIDATE_JAVASCRIPT_STANDARD != 'false' && inputs.VALIDATE_JAVASCRIPT_STANDARD }}
-          VALIDATE_JSCPD: ${{ inputs.VALIDATE_JSCPD != 'false' && inputs.VALIDATE_JSCPD }}
-          VALIDATE_JSON: ${{ inputs.VALIDATE_JSON != 'false' && inputs.VALIDATE_JSON }}
-          VALIDATE_JSX: ${{ inputs.VALIDATE_JSX != 'false' && inputs.VALIDATE_JSX }}
-          VALIDATE_KOTLIN: ${{ inputs.VALIDATE_KOTLIN != 'false' && inputs.VALIDATE_KOTLIN }}
-          VALIDATE_KUBERNETES_KUBECONFORM: ${{ inputs.VALIDATE_KUBERNETES_KUBECONFORM != 'false' && inputs.VALIDATE_KUBERNETES_KUBECONFORM }}
-          VALIDATE_LATEX: ${{ inputs.VALIDATE_LATEX != 'false' && inputs.VALIDATE_LATEX }}
-          VALIDATE_LUA: ${{ inputs.VALIDATE_LUA != 'false' && inputs.VALIDATE_LUA }}
-          VALIDATE_MARKDOWN: ${{ inputs.VALIDATE_MARKDOWN != 'false' && inputs.VALIDATE_MARKDOWN }}
-          VALIDATE_NATURAL_LANGUAGE: ${{ inputs.VALIDATE_NATURAL_LANGUAGE != 'false' && inputs.VALIDATE_NATURAL_LANGUAGE }}
-          VALIDATE_OPENAPI: ${{ inputs.VALIDATE_OPENAPI != 'false' && inputs.VALIDATE_OPENAPI }}
-          VALIDATE_PERL: ${{ inputs.VALIDATE_PERL != 'false' && inputs.VALIDATE_PERL }}
-          VALIDATE_PHP: ${{ inputs.VALIDATE_PHP != 'false' && inputs.VALIDATE_PHP }}
-          VALIDATE_PHP_BUILTIN: ${{ inputs.VALIDATE_PHP_BUILTIN != 'false' && inputs.VALIDATE_PHP_BUILTIN }}
-          VALIDATE_PHP_PHPCS: ${{ inputs.VALIDATE_PHP_PHPCS != 'false' && inputs.VALIDATE_PHP_PHPCS }}
-          VALIDATE_PHP_PHPSTAN: ${{ inputs.VALIDATE_PHP_PHPSTAN != 'false' && inputs.VALIDATE_PHP_PHPSTAN }}
-          VALIDATE_PHP_PSALM: ${{ inputs.VALIDATE_PHP_PSALM != 'false' && inputs.VALIDATE_PHP_PSALM }}
-          VALIDATE_POWERSHELL: ${{ inputs.VALIDATE_POWERSHELL != 'false' && inputs.VALIDATE_POWERSHELL }}
-          VALIDATE_PROTOBUF: ${{ inputs.VALIDATE_PROTOBUF != 'false' && inputs.VALIDATE_PROTOBUF }}
-          VALIDATE_PYTHON: ${{ inputs.VALIDATE_PYTHON != 'false' && inputs.VALIDATE_PYTHON }}
-          VALIDATE_PYTHON_BLACK: ${{ inputs.VALIDATE_PYTHON_BLACK != 'false' && inputs.VALIDATE_PYTHON_BLACK }}
-          VALIDATE_PYTHON_FLAKE8: ${{ inputs.VALIDATE_PYTHON_FLAKE8 != 'false' && inputs.VALIDATE_PYTHON_FLAKE8 }}
-          VALIDATE_PYTHON_ISORT: ${{ inputs.VALIDATE_PYTHON_ISORT != 'false' && inputs.VALIDATE_PYTHON_ISORT }}
-          VALIDATE_PYTHON_MYPY: ${{ inputs.VALIDATE_PYTHON_MYPY != 'false' && inputs.VALIDATE_PYTHON_MYPY }}
-          VALIDATE_PYTHON_PYLINT: ${{ inputs.VALIDATE_PYTHON_PYLINT != 'false' && inputs.VALIDATE_PYTHON_PYLINT }}
-          VALIDATE_R: ${{ inputs.VALIDATE_R != 'false' && inputs.VALIDATE_R }}
-          VALIDATE_RAKU: ${{ inputs.VALIDATE_RAKU != 'false' && inputs.VALIDATE_RAKU }}
-          VALIDATE_RENOVATE: ${{ inputs.VALIDATE_RENOVATE != 'false' && inputs.VALIDATE_RENOVATE }}
-          VALIDATE_RUBY: ${{ inputs.VALIDATE_RUBY != 'false' && inputs.VALIDATE_RUBY }}
-          VALIDATE_RUST_2015: ${{ inputs.VALIDATE_RUST_2015 != 'false' && inputs.VALIDATE_RUST_2015 }}
-          VALIDATE_RUST_2018: ${{ inputs.VALIDATE_RUST_2018 != 'false' && inputs.VALIDATE_RUST_2018 }}
-          VALIDATE_RUST_2021: ${{ inputs.VALIDATE_RUST_2021 != 'false' && inputs.VALIDATE_RUST_2021 }}
-          VALIDATE_RUST_CLIPPY: ${{ inputs.VALIDATE_RUST_CLIPPY != 'false' && inputs.VALIDATE_RUST_CLIPPY }}
-          VALIDATE_SCALAFMT: ${{ inputs.VALIDATE_SCALAFMT != 'false' && inputs.VALIDATE_SCALAFMT }}
-          VALIDATE_SHELL_SHFMT: ${{ inputs.VALIDATE_SHELL_SHFMT != 'false' && inputs.VALIDATE_SHELL_SHFMT }}
-          VALIDATE_SNAKEMAKE_LINT: ${{ inputs.VALIDATE_SNAKEMAKE_LINT != 'false' && inputs.VALIDATE_SNAKEMAKE_LINT }}
-          VALIDATE_SNAKEMAKE_SNAKEFMT: ${{ inputs.VALIDATE_SNAKEMAKE_SNAKEFMT != 'false' && inputs.VALIDATE_SNAKEMAKE_SNAKEFMT }}
-          VALIDATE_STATES: ${{ inputs.VALIDATE_STATES != 'false' && inputs.VALIDATE_STATES }}
-          VALIDATE_SQL: ${{ inputs.VALIDATE_SQL != 'false' && inputs.VALIDATE_SQL }}
-          VALIDATE_SQLFLUFF: ${{ inputs.VALIDATE_SQLFLUFF != 'false' && inputs.VALIDATE_SQLFLUFF }}
-          VALIDATE_TEKTON: ${{ inputs.VALIDATE_TEKTON != 'false' && inputs.VALIDATE_TEKTON }}
-          VALIDATE_TERRAFORM_FMT: ${{ inputs.VALIDATE_TERRAFORM_FMT != 'false' && inputs.VALIDATE_TERRAFORM_FMT }}
-          VALIDATE_TERRAFORM_TERRASCAN: ${{ inputs.VALIDATE_TERRAFORM_TERRASCAN != 'false' && inputs.VALIDATE_TERRAFORM_TERRASCAN }}
-          VALIDATE_TERRAFORM_TFLINT: ${{ inputs.VALIDATE_TERRAFORM_TFLINT != 'false' && inputs.VALIDATE_TERRAFORM_TFLINT }}
-          VALIDATE_TERRAGRUNT: ${{ inputs.VALIDATE_TERRAGRUNT != 'false' && inputs.VALIDATE_TERRAGRUNT }}
-          VALIDATE_TSX: ${{ inputs.VALIDATE_TSX != 'false' && inputs.VALIDATE_TSX }}
-          VALIDATE_TYPESCRIPT_ES: ${{ inputs.VALIDATE_TYPESCRIPT_ES != 'false' && inputs.VALIDATE_TYPESCRIPT_ES }}
-          VALIDATE_TYPESCRIPT_STANDARD: ${{ inputs.VALIDATE_TYPESCRIPT_STANDARD != 'false' && inputs.VALIDATE_TYPESCRIPT_STANDARD }}
-          VALIDATE_XML: ${{ inputs.VALIDATE_XML != 'false' && inputs.VALIDATE_XML }}
-          VALIDATE_YAML: ${{ inputs.VALIDATE_YAML != 'false' && inputs.VALIDATE_YAML }}
-          DEFAULT_BRANCH: "main"
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           
   basic-version-bump:
     if: inputs.basic != 'false'

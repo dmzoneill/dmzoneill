@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-29/03/2024 00:32:34-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-30/03/2024 00:32:08-brightgreen" height='28'/>
 
 <table>
   <tr>
@@ -8,10 +8,13 @@
       <h3>Pull Requests (3)</h3>
       <ul><li><a href='https://github.com/dmzoneill/Chuckbot/pull/16'>Bump express from 4.18.2 to 4.19.2</a> 2024-03-28</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/22'>Bump express from 4.18.1 to 4.19.2 in /frontend</a> 2024-03-28</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/13'>Bump golang.org/x/net from 0.7.0 to 0.17.0 in /backend</a> 2024-02-28</li></ul>
       <h3>Recent Acivity</h3>
-      <ul><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/dff82e450139cf609e4f066b578e093c730cdde8'>Update Readme</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/147ed47a09746d4af8b23460c6f9455266ea2ad8'>GTK4 Upgrade
-tests
+      <ul><li><a href='https://github.com/ansible/awx/issues/15021'>Wrong nginx upstream configuration on IPv4-only daemons</a></li><li><a href='https://github.com/ansible/awx/commit/dd9160135d991b052db2e6461c1e8cd699cee857'>Prune dangle image periodically (#14957)
 
-Wip</a></li><li><a href='https://github.com/ansible/awx/issues/15016'>duplicate key value violates unique constraint "pg_type_typname_nsp_index"</a></li><li><a href='https://github.com/ansible/awx/issues/14563'>Error on create_partition</a></li><li><a href='https://github.com/ansible/awx/issues/15016'>duplicate key value violates unique constraint "pg_type_typname_nsp_index"</a></li></ul>
+Prune dangle image periodically
+
+pairs with https://github.com/ansible/ansible-runner/pull/1342
+
+this fix the problem of us forcefully remove images when setting changing ee image that's being used in a job causing the job to fail</a></li><li><a href='https://github.com/ansible/awx/commit/4b6f7e0ebefd820a78492526d88d7ad04bfcc2e5'>Add link to service-index URL</a></li><li><a href='Add link to service-index URL'>https://github.com/ansible/awx/pull/14984</a></li><li><a href='https://github.com/ansible/awx/commit/9be64f3de5a99c4b97af7a979288f9866e985abb'>Improve social documentation release_process.md</a></li></ul>
       <h3>Gists</h3>
       <ul><li><a href='https://gist.github.com/dmzoneill/f234183850275c36dd43564e81126338'>fail ci with approvers</a></li><li><a href='https://gist.github.com/dmzoneill/b3dace5030bea5d05211cbf1a74d7140'>PostGres Enum Errors</a></li><li><a href='https://gist.github.com/dmzoneill/daef323146469618c550241f35e4b503'>AWX Strings 1</a></li><li><a href='https://gist.github.com/dmzoneill/809f32f1ca301ce6f0dc2bad741ec15e'>AWX Strings 2</a></li><li><a href='https://gist.github.com/dmzoneill/4f1a46c512245a21ce819a9f465679aa'>AWX development on kind</a></li><li><a href='https://gist.github.com/dmzoneill/664484ef2b798118a83347205f84c66b'>keybase.md</a></li><li><a href='https://gist.github.com/dmzoneill/67a908fb949dc95bbbf02f0446a07f0a'>durex fun</a></li><li><a href='https://gist.github.com/dmzoneill/d13d88b16d4d0aa90cb108a00ab3cf01'>10GB tuning</a></li><li><a href='https://gist.github.com/dmzoneill/575ba9c32375c41cb1041e9064de0678'>Synology 108tb limit bypass</a></li><li><a href='https://gist.github.com/dmzoneill/cbc75e502dbe2b78651f68d6320b714a'>AA active queries</a></li><li><a href='https://gist.github.com/dmzoneill/faaa84782eaed4d2dc28ad55c19119ee'>PHP Paypal Instant Payment Notification</a></li></ul>
     </td>
@@ -126,6 +129,22 @@ Wip</a></li><li><a href='https://github.com/ansible/awx/issues/15016'>duplicate 
   <tbody>
     <tr>
             <td>
+              <p><h2><a href='https://github.com/dmzoneill/dmzoneill' title='dmzoneill'>dmzoneill</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
+              <p>Apache License 2.0</p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/dmzoneill/commit/41f16a93faf8e654f696f699ffbb735c5b4f21db'>Update dispatch.yaml</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/3b9652a6582b953854ba06fb8806711e1614d80c'>Update dispatch.yaml</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/9939f9274709057f1e5bae1e6858f8f8c9f665e5'>Update dispatch.yaml</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/21839a16e51880c0dcfc07f725a2e7c1b1ab0293'>Update dispatch.yaml</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/c877930d81ea017eb3fa2fea48ecb1bf35742251'>Update dispatch.yaml</a></li></ul></p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+            </td>
+            <td>
+              <p><a href='https://github.com/dmzoneill' title='Github profile'>Github profile</a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2023-01-16</p>
+            </td>
+        </tr>
+<tr>
+            <td>
               <p><h2><a href='https://github.com/dmzoneill/Chuckbot' title='Chuckbot'>Chuckbot</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/</p>
               <p>Apache License 2.0</p>
               <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/Chuckbot/commit/4a5d02b0a1561ffbcb69958b4682c49ea91c0e53'>Bump follow-redirects from 1.15.4 to 1.15.6
@@ -154,22 +173,6 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump fo
         </tr>
 <tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/dmzoneill' title='dmzoneill'>dmzoneill</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
-              <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/dmzoneill/commit/41f16a93faf8e654f696f699ffbb735c5b4f21db'>Update dispatch.yaml</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/3b9652a6582b953854ba06fb8806711e1614d80c'>Update dispatch.yaml</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/9939f9274709057f1e5bae1e6858f8f8c9f665e5'>Update dispatch.yaml</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/21839a16e51880c0dcfc07f725a2e7c1b1ab0293'>Update dispatch.yaml</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/c877930d81ea017eb3fa2fea48ecb1bf35742251'>Update dispatch.yaml</a></li></ul></p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-            </td>
-            <td>
-              <p><a href='https://github.com/dmzoneill' title='Github profile'>Github profile</a></p>
-            </td>
-            <td align="center">
-              <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2023-01-16</p>
-            </td>
-        </tr>
-<tr>
-            <td>
               <p><h2><a href='https://github.com/dmzoneill/tado-gnome-shell-extension' title='tado-gnome-shell-extension'>tado-gnome-shell-extension</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
               <p>Apache License 2.0</p>
               <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/tado-gnome-shell-extension/issues/1'>Not compatible with Gnome 45</a></li><li><a href='https://github.com/dmzoneill/tado-gnome-shell-extension/commit/7e584020d319847ff9984c760d1dec9a7f5c171d'>Update metadata.json</a></li></ul></p>
@@ -188,7 +191,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump fo
             <td>
               <p><h2><a href='https://github.com/dmzoneill/lidarr-youtube-downloader' title='lidarr-youtube-downloader'>lidarr-youtube-downloader</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/> <img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/commit/8800df9be2259bfc296cb71da12878232d7a125f'>Update main.yml</a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/commit/84ca43be48ec86105f207fbcaeac8184d7349663'>Update main.yml</a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/24'>Error Building using Dockerfile</a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/commit/8bbe51084147bd0f4b3c5c74728ecfd3bbfca2fb'>Fix dockefile</a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/12'>REQ: Ability to set percentage match cutoff and/or keyword blacklist such as "live" or whitelist "official" in title.</a></li></ul></p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/commit/8800df9be2259bfc296cb71da12878232d7a125f'>Update main.yml</a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/commit/84ca43be48ec86105f207fbcaeac8184d7349663'>Update main.yml</a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/24'>Error Building using Dockerfile</a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/commit/8bbe51084147bd0f4b3c5c74728ecfd3bbfca2fb'>Fix dockefile</a></li></ul></p>
               <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/23'>Track Format & FFMPEG not adding metadata</a> 2024-03-20</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/21'>Issue with Lidarr recognizing downloaded audio and incorrect metadata in Jellyfin</a> 2024-03-20</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/13'>Alittle help with docker compose</a> 2024-03-20</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/12'>REQ: Ability to set percentage match cutoff and/or keyword blacklist such as "live" or whitelist "official" in title.</a> 2024-03-20</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/11'>Deployment Loop and "workaround".</a> 2024-03-20</li></ul></p>
               <p><ul></ul></p>
             </td>

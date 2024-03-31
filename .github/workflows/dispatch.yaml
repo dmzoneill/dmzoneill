@@ -825,6 +825,9 @@ jobs:
           sed "s/$version/$next/" -i PKG-INFO
           sed "s/$version/$next/" -i pyproject.toml
           sed "s/$version/$next/" -i setup.py
+          if test -f version; then sed "s/$version/$next/" -i *.spec; fi
+          if test -f version; then sed "s/$version/$next/" -i control; fi
+          if test -f version; then sed "s/$version/$next/" -i README.md; fi
   
       - name: Push changes
         if: steps.changes.outputs.src == 'true'

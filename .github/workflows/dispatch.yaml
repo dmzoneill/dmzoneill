@@ -1037,12 +1037,16 @@ jobs:
 
             const releaseId = response.data.id;
 
+            const fs = require('fs');
+            const { promises: fsPromises } = fs;
+            const { data } = await fsPromises.readFile(artifactPath);
+
             await github.repos.uploadReleaseAsset({
               owner: context.repo.owner,
               repo: context.repo.repo,
               release_id: releaseId,
               name: artifactName,
-              data: await fs.readFile(artifactPath)
+              data
             });
 
   npmjs-bump-version:

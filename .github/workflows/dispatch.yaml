@@ -995,15 +995,14 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
   
-      - name: Build
-        run: |
-          make deb
-    
+      - name: Build Debian package
+        run: make deb
+
       - name: Get package name and version
         id: get_package_info
         run: |
-          package_name=$(grep '^Package:' control | cut -d' ' -f2-)
-          package_version=$(grep '^Version:' control | cut -d' ' -f2-)
+          package_name=$(grep '^Package:' debian/control | cut -d' ' -f2-)
+          package_version=$(grep '^Version:' debian/control | cut -d' ' -f2-)
           echo "PACKAGE_NAME=${package_name}" >> $GITHUB_ENV
           echo "PACKAGE_VERSION=${package_version}" >> $GITHUB_ENV  
 
@@ -1025,14 +1024,18 @@ jobs:
           draft: false
           prerelease: false
 
+      - name: Write asset path to env file
+        run: echo "ASSET_PATH=${{ env.PACKAGE_NAME }}_${{ env.PACKAGE_VERSION }}.deb" >> $GITHUB_ENV
+
       - name: Upload Debian package as release asset
         id: upload-release-asset
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ASSET_PATH: ${{ env.ASSET_PATH }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./*.deb
+          asset_path: ${{ env.ASSET_PATH }}
           asset_name: ${{ env.PACKAGE_NAME }}_${{ env.PACKAGE_VERSION }}.deb
           asset_content_type: application/octet-stream
 

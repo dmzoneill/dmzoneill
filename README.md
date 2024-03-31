@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-30/03/2024 00:32:08-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-31/03/2024 00:32:54-brightgreen" height='28'/>
 
 <table>
   <tr>
@@ -8,13 +8,7 @@
       <h3>Pull Requests (3)</h3>
       <ul><li><a href='https://github.com/dmzoneill/Chuckbot/pull/16'>Bump express from 4.18.2 to 4.19.2</a> 2024-03-28</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/22'>Bump express from 4.18.1 to 4.19.2 in /frontend</a> 2024-03-28</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/13'>Bump golang.org/x/net from 0.7.0 to 0.17.0 in /backend</a> 2024-02-28</li></ul>
       <h3>Recent Acivity</h3>
-      <ul><li><a href='https://github.com/ansible/awx/issues/15021'>Wrong nginx upstream configuration on IPv4-only daemons</a></li><li><a href='https://github.com/ansible/awx/commit/dd9160135d991b052db2e6461c1e8cd699cee857'>Prune dangle image periodically (#14957)
-
-Prune dangle image periodically
-
-pairs with https://github.com/ansible/ansible-runner/pull/1342
-
-this fix the problem of us forcefully remove images when setting changing ee image that's being used in a job causing the job to fail</a></li><li><a href='https://github.com/ansible/awx/commit/4b6f7e0ebefd820a78492526d88d7ad04bfcc2e5'>Add link to service-index URL</a></li><li><a href='Add link to service-index URL'>https://github.com/ansible/awx/pull/14984</a></li><li><a href='https://github.com/ansible/awx/commit/9be64f3de5a99c4b97af7a979288f9866e985abb'>Improve social documentation release_process.md</a></li></ul>
+      <ul><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/c799f3fb18664c82f0ca77931f4e05b1ba149dd9'>Update screenshot</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/f776ee7e3a498f156c084f50056e3c1938ea6aef'>Lint updates</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/bb4d0b105126fd89a15614b67c02d84e52dcc1d0'>Cleanup</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/96d9f9afd4961492dec45f1d404275fb4e0908bc'>Lint checks</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/4bb8d5b87446dbcb48e6898adb95c152ebf47f8f'>Final fixes for gtk4</a></li></ul>
       <h3>Gists</h3>
       <ul><li><a href='https://gist.github.com/dmzoneill/f234183850275c36dd43564e81126338'>fail ci with approvers</a></li><li><a href='https://gist.github.com/dmzoneill/b3dace5030bea5d05211cbf1a74d7140'>PostGres Enum Errors</a></li><li><a href='https://gist.github.com/dmzoneill/daef323146469618c550241f35e4b503'>AWX Strings 1</a></li><li><a href='https://gist.github.com/dmzoneill/809f32f1ca301ce6f0dc2bad741ec15e'>AWX Strings 2</a></li><li><a href='https://gist.github.com/dmzoneill/4f1a46c512245a21ce819a9f465679aa'>AWX development on kind</a></li><li><a href='https://gist.github.com/dmzoneill/664484ef2b798118a83347205f84c66b'>keybase.md</a></li><li><a href='https://gist.github.com/dmzoneill/67a908fb949dc95bbbf02f0446a07f0a'>durex fun</a></li><li><a href='https://gist.github.com/dmzoneill/d13d88b16d4d0aa90cb108a00ab3cf01'>10GB tuning</a></li><li><a href='https://gist.github.com/dmzoneill/575ba9c32375c41cb1041e9064de0678'>Synology 108tb limit bypass</a></li><li><a href='https://gist.github.com/dmzoneill/cbc75e502dbe2b78651f68d6320b714a'>AA active queries</a></li><li><a href='https://gist.github.com/dmzoneill/faaa84782eaed4d2dc28ad55c19119ee'>PHP Paypal Instant Payment Notification</a></li></ul>
     </td>
@@ -47,8 +41,8 @@ this fix the problem of us forcefully remove images when setting changing ee ima
     </tr>
   </thead>
   <tbody>
-    <tr><td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>658937</td>
-<td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>315727</td>
+    <tr><td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>660913</td>
+<td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>315834</td>
 <td><img src='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' title='Java'  height='20px'/></td><td>2071977</td>
 <td><img src='https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white' title='Kotlin'  height='20px'/></td><td>24599</td>
 </tr><tr>
@@ -368,10 +362,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump fo
             <td>
               <p><h2><a href='https://github.com/dmzoneill/DFakeSeeder' title='DFakeSeeder'>DFakeSeeder</a> (2024)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/dff82e450139cf609e4f066b578e093c730cdde8'>Update Readme</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/147ed47a09746d4af8b23460c6f9455266ea2ad8'>GTK4 Upgrade
-tests
-
-Wip</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/0b25e82b9b495ccf6b16d309c6eed8c518abd2d6'>mkae file uptes / requirements</a></li></ul></p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/c799f3fb18664c82f0ca77931f4e05b1ba149dd9'>Update screenshot</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/f776ee7e3a498f156c084f50056e3c1938ea6aef'>Lint updates</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/bb4d0b105126fd89a15614b67c02d84e52dcc1d0'>Cleanup</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/96d9f9afd4961492dec45f1d404275fb4e0908bc'>Lint checks</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/4bb8d5b87446dbcb48e6898adb95c152ebf47f8f'>Final fixes for gtk4</a></li></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>

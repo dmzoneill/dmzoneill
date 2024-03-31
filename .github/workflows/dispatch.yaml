@@ -1006,12 +1006,44 @@ jobs:
           package_version=$(cat debbuild/DEBIAN/control | grep Version | sed 's/Version: //')
           echo "::set-output name=package_name::$package_name"
           echo "::set-output name=package_version::$package_version"
-  
+
       - name: Store files as artifact
+        id: store_artifact
         uses: actions/upload-artifact@v2
         with:
           name: ${{ steps.get_package_info.outputs.package_name }}_${{ steps.get_package_info.outputs.package_version }}
           path: ${{ steps.get_package_info.outputs.package_name }}_${{ steps.get_package_info.outputs.package_version }}.deb
+
+      - name: Create Release
+        id: create_release
+        uses: actions/github-script@v3
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const artifactId = '${{ steps.store_artifact.outputs.artifact_id }}';
+            const artifactName = '${{ steps.get_package_info.outputs.package_name }}_${{ steps.get_package_info.outputs.package_version }}.deb';
+            const artifactPath = `${artifactId}/${artifactName}`;
+            const packageVersion = '${{ steps.get_package_info.outputs.package_version }}';
+
+            const response = await github.repos.createRelease({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              tag_name: `v${packageVersion}`, // Change this to your desired tag name
+              name: `Release v${packageVersion}`, // Change this to your desired release name
+              body: 'Release notes go here', // Change this to your desired release notes
+              draft: false,
+              prerelease: false
+            });
+
+            const releaseId = response.data.id;
+
+            await github.repos.uploadReleaseAsset({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              release_id: releaseId,
+              name: artifactName,
+              data: await fs.readFile(artifactPath)
+            });
 
   npmjs-bump-version:
     if: inputs.npmjs != 'false'

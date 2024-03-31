@@ -1012,7 +1012,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: ${{ env.PACKAGE_NAME }}_${{ env.PACKAGE_VERSION }}.deb
-          path: "*.deb"
+          path: ./*.deb
 
       - name: Create Release
         id: create_release

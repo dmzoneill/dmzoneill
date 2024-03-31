@@ -1045,7 +1045,7 @@ jobs:
               repo: context.repo.repo,
               release_id: releaseId,
               name: artifactName,
-              data.
+              data,
               headers: {
                 'content-type': 'application/octet-stream'
               }

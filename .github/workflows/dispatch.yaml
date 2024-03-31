@@ -1020,9 +1020,8 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
-            const artifactId = '${{ steps.store_artifact.outputs.artifact_id }}';
             const artifactName = '${{ env.PACKAGE_NAME }}_${{ env.PACKAGE_VERSION }}.deb';
-            const artifactPath = `${artifactId}/${artifactName}`;
+            const artifactPath = `${artifactName}`;
             const packageVersion = '${{ env.PACKAGE_VERSION }}';
 
             const response = await github.repos.createRelease({

@@ -28,6 +28,10 @@ on:
         required: false
         type: string
         default: "false"
+      deb-build:
+        required: false
+        type: string
+        default: "false"
       VALIDATE_ALL_CODEBASE:
         required: false
         type: string
@@ -826,7 +830,6 @@ jobs:
           sed "s/$version/$next/" -i pyproject.toml
           sed "s/$version/$next/" -i setup.py
           if test -f version; then sed "s/$version/$next/" -i *.spec; fi
-          if test -f version; then sed "s/$version/$next/" -i control; fi
           if test -f version; then sed "s/$version/$next/" -i README.md; fi
   
       - name: Push changes
@@ -961,6 +964,40 @@ jobs:
         run: |-
           bash -c "pling publish --username \"${{ secrets.CI_USERNAME }}\" --password \"${{ secrets.CI_PASSWORD }}\" --project-id ${{ inputs.pling }}";
 
+  deb-build-version:
+    if: inputs.deb-build != 'false'
+    name: Deb bump version
+    needs: static-analysis
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+                      
+      - name: Bump version  
+        run: |-
+          version=$(grep 'version=.*' version | awk -F'=' '{print $2}')
+          next=$(echo $version | awk -F. '/[0-9]+\./{$NF++;print}' OFS=.)
+          sed "s/$version/$next/" -i control
+  
+      - name: Push changes
+        if: steps.changes.outputs.src == 'true'
+        uses: mikeal/publish-to-github-action@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH_NAME: 'main' #optional defaults to master
+
+  deb-build-and-upload:
+    if: inputs.deb-build != 'false'
+    name: Deb build
+    needs: deb-build-version
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+                                
+      - name: Build
+        run: |-
+          make deb
 
   npmjs-bump-version:
     if: inputs.npmjs != 'false'

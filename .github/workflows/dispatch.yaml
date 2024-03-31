@@ -1096,7 +1096,7 @@ jobs:
   rebuild-profile:   
     name: Dispatch rebuild profile
     runs-on: ubuntu-latest    
-    needs: [gnome-build-and-upload, pypi-build-and-upload-package, chrome-extension-upload, basic-version-bump, pling-build-and-upload, npmjs-upload]
+    needs: [deb-build-and-upload, gnome-build-and-upload, pypi-build-and-upload-package, chrome-extension-upload, basic-version-bump, pling-build-and-upload, npmjs-upload]
     if: |
       always() &&
       (
@@ -1104,7 +1104,8 @@ jobs:
         needs.pypi-build-and-upload-package.result == 'success' ||
         needs.chrome-extension-upload.result == 'success' ||
         needs.basic-version-bump.result == 'success' ||
-        needs.pling-build-and-upload.result == 'success'
+        needs.pling-build-and-upload.result == 'success' ||
+        needs.deb-build-and-upload.result == 'success'
       )
     steps:
       - name: Rebuild profile

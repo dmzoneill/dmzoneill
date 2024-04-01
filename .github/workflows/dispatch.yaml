@@ -813,18 +813,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-        
-      - name: Filter
-        uses: dorny/paths-filter@v2
-        id: changes
-        with:
-          filters: |
-            src:
-              - '*/**'
-              - 'setup.py'
-              - 'pyproject.toml'
-              - 'PKG-INFO'
-              
+                      
       - name: Bump
         if: steps.changes.outputs.src == 'true'
         run: |-

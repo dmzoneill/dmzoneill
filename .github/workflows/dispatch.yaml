@@ -36,7 +36,7 @@ on:
         required: false
         type: string
         default: "false"
-      flatpak-build-and-publish:
+      flatpak:
         required: false
         type: string
         default: "false"      
@@ -989,7 +989,7 @@ jobs:
             ghcr.io/dmzoneill/${{ env.APP_NAME }}:latest
 
   flatpak-build-and-publish:
-    if: inputs.flatpak-build-and-publish != 'false'
+    if: inputs.flatpak != 'false'
     needs: bump-versions
     name: Flatpak build and publish
     runs-on: ubuntu-latest    

@@ -957,9 +957,9 @@ jobs:
         run: |-
           bash -c "pling publish --username \"${{ secrets.CI_USERNAME }}\" --password \"${{ secrets.CI_PASSWORD }}\" --project-id ${{ inputs.pling }}";
 
-  deb-build-bump-version:
+  deb-build-and-upload:
     if: inputs.deb-build != 'false'
-    name: Deb bump version
+    name: Deb build and publish
     needs: static-analysis
     runs-on: ubuntu-latest
     steps:
@@ -968,25 +968,18 @@ jobs:
                       
       - name: Bump version  
         run: |-
+          if ! test -f version; then echo "version=0.0.1" > version; fi
           version=$(grep 'version=.*' version | awk -F'=' '{print $2}')
           next=$(echo $version | awk -F. '/[0-9]+\./{$NF++;print}' OFS=.)
           sed "s/$version/$next/" -i control
-  
+          sed "s/$version/$next/" -i version
+
       - name: Push changes
         if: steps.changes.outputs.src == 'true'
         uses: mikeal/publish-to-github-action@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH_NAME: 'main' #optional defaults to master
-
-  deb-build-and-upload:
-    if: inputs.deb-build != 'false'
-    name: Deb build
-    needs: deb-build-bump-version
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v2
   
       - name: Build Debian package
         run: make deb

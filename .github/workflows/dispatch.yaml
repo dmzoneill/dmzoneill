@@ -36,6 +36,10 @@ on:
         required: false
         type: string
         default: "false"
+      flatpak-build-and-publish:
+        required: false
+        type: string
+        default: "false"      
       VALIDATE_ALL_CODEBASE:
         required: false
         type: string
@@ -983,11 +987,43 @@ jobs:
           tags: |
             ghcr.io/dmzoneill/${{ env.APP_NAME }}:${{ env.NEXT_VERSION }}
             ghcr.io/dmzoneill/${{ env.APP_NAME }}:latest
+
+  flatpak-build-and-publish:
+    if: inputs.flatpak-build-and-publish != 'false'
+    needs: bump-versions
+    name: Flatpak build and publish
+    runs-on: ubuntu-latest    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
       
+      - name: Set up Flatpak
+        uses: flatpak/flatpak-builder-action@v3
+        
+      - name: Install dependencies
+        run: |
+          flatpak install flathub org.freedesktop.Platform/x86_64/22.08 org.freedesktop.Sdk/x86_64/22.08
+      
+      - name: Extract app-id from manifest.json and set as environment variable
+        run: |
+          export APP_ID=$(jq -r '.["app-id"]' manifest.json)
+          echo "APP_ID=$APP_ID" >> $GITHUB_ENV
+      
+      - name: Build Flatpak
+        run: |
+          flatpak-builder --force-clean --install-deps-from=flathub --repo=repo-dir build-dir $APP_ID manifest.json
+      
+      - name: Publish Flatpak to Flathub
+        uses: flatpak/flatpak-builder-action/push-to-flathub@v2
+        with:
+          repo: repo-dir
+          subject: ${{ github.actor }}
+          personal_token: ""
+
   rebuild-profile:   
     name: Dispatch rebuild profile
     runs-on: ubuntu-latest    
-    needs: [docker-publish, deb-build-and-upload, gnome-build-and-upload, pypi-build-and-upload-package, chrome-extension-upload, pling-build-and-upload, npmjs-upload]
+    needs: [docker-publish, deb-build-and-upload, gnome-build-and-upload, pypi-build-and-upload-package, chrome-extension-upload, pling-build-and-upload, npmjs-upload,  flatpak-build-and-publish]
     if: |
       always() &&
       (
@@ -996,7 +1032,8 @@ jobs:
         needs.pypi-build-and-upload-package.result == 'success' ||
         needs.chrome-extension-upload.result == 'success' ||
         needs.pling-build-and-upload.result == 'success' ||
-        needs.deb-build-and-upload.result == 'success'
+        needs.deb-build-and-upload.result == 'success' ||
+        needs.flatpak-build-and-publish.result == 'success'
       )
     steps:
       - name: Rebuild profile

@@ -1086,10 +1086,10 @@ jobs:
           token: ${{ secrets.NPM }}   
 
   docker-publish:
-    if: inputs.docker-build != 'false'
     runs-on: ubuntu-latest
     needs: [npmjs-bump-version, deb-build-bump-version, pling-bump-version, basic-version-bump, pypi-bump-version]
     if: |
+      inputs.docker-build != 'false' && 
       always() &&
       (
         needs.npmjs-bump-version.result == 'success' || 

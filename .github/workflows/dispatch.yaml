@@ -1101,6 +1101,9 @@ jobs:
         with:
           username: feeditout
           password: ${{ secrets.DOCKER_TOKEN }}
+
+      - name: Checkout
+        uses: actions/checkout@v2
   
       - name: Setup target name:tag
         run: |

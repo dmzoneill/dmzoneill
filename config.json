@@ -56,6 +56,10 @@
     "pling-publisher": [
       "https://pypi.org/project/pling-publisher/",
       "Pling publisher"
+    ],
+    "DFakeSeeder": [
+      "https://github.com/dmzoneill/DFakeSeeder",
+      "DFakeSeeder"
     ]
   },
   "organizations": [

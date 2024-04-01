@@ -1128,8 +1128,8 @@ jobs:
           tags: |
             feeditout/${{ env.APP_NAME }}:${{ env.NEXT_VERSION }}
             feeditout/${{ env.APP_NAME }}:latest
-            ghcr.io/dmzoenill/app:${{ env.APP_NAME }}:${{ env.NEXT_VERSION }}
-            ghcr.io/dmzoenill/app:${{ env.APP_NAME }}:latest
+            ghcr.io/dmzoneill/${{ env.APP_NAME }}:${{ env.NEXT_VERSION }}
+            ghcr.io/dmzoneill/${{ env.APP_NAME }}:latest
 
   rebuild-profile:   
     name: Dispatch rebuild profile

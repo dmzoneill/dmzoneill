@@ -719,7 +719,7 @@ jobs:
           version=$(grep 'version=.*' version | awk -F'=' '{print $2}')
           next=$(echo $version | awk -F. '/[0-9]+\./{$NF++;print}' OFS=.)
           if test -f control; then sed "s/$version/$next/" -i control; fi
-          if test -f ${{ env.APP_NAME }.spec; then sed "s/$version/$next/" -i ${{ env.APP_NAME }.spec; fi
+          if test -f ${{ env.APP_NAME }}.spec; then sed "s/$version/$next/" -i ${{ env.APP_NAME }}.spec; fi
           if test -f PKG-INFO; then sed "s/$version/$next/" -i PKG-INFO; fi
           if test -f pyproject.toml; then sed "s/$version/$next/" -i pyproject.toml; fi
           if test -f setup.py; then sed "s/$version/$next/" -i setup.py; fi

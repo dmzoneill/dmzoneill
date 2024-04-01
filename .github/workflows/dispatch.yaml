@@ -32,6 +32,10 @@ on:
         required: false
         type: string
         default: "false"
+      rpm-build:
+        required: false
+        type: string
+        default: "false"
       docker-build:
         required: false
         type: string
@@ -356,7 +360,7 @@ jobs:
     name: Lint
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
           
@@ -709,7 +713,7 @@ jobs:
     needs: lint
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
@@ -727,7 +731,7 @@ jobs:
     needs: unit-test
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
@@ -745,7 +749,7 @@ jobs:
     needs: integration-test
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
@@ -785,8 +789,10 @@ jobs:
       EXTENSION_ID: ${{ inputs.chrome-extension }}
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
-
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          
       - uses: dorny/paths-filter@v2
         id: changes
         with:
@@ -826,8 +832,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
-     
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+        
       - name: Build
         run: |-
           pip3 install trove-classifiers ptyprocess msgpack lockfile distlib tomlkit tomli shellingham rapidfuzz pyrsistent poetry-core platformdirs pkginfo pexpect packaging jeepney jaraco.classes filelock dulwich crashtest cachecontrol virtualenv SecretStorage jsonschema cleo keyring poetry-plugin-export poetry bumpver
@@ -849,7 +857,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Filter
         uses: dorny/paths-filter@v2
@@ -885,7 +895,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
                       
       - name: Install publisher
         run: |-
@@ -902,7 +914,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
   
       - name: Build Debian package
         run: make deb
@@ -947,6 +961,67 @@ jobs:
           asset_name: ${{ env.PACKAGE_NAME }}_${{ env.PACKAGE_VERSION }}.deb
           asset_content_type: application/octet-stream
 
+  rpm-build-and-upload:
+    if: inputs.rpm-build != 'false'
+    name: Rpm publish
+    needs: bump-versions
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Env
+        run: |
+          echo "APP_NAME=$(echo "${{ github.repository }}" | awk -F'/' '{print tolower($2)}')" >> $GITHUB_ENV
+  
+      - name: build RPM package
+        id: rpm
+        uses: naveenrajm7/rpmbuild@master
+        with:
+          spec_file: ${{ env.APP_NAME }}.spec
+
+      - name: Get package name and version
+        id: get_package_info
+        run: |
+          package_name=$(grep '^Package:' control | cut -d' ' -f2-)
+          package_version=$(grep '^Version:' control | cut -d' ' -f2-)
+          echo "PACKAGE_NAME=${package_name}" >> $GITHUB_ENV
+          echo "PACKAGE_VERSION=${package_version}" >> $GITHUB_ENV  
+
+      - name: Store rpm package as artifact
+        uses: actions/upload-artifact@v1.0.0
+        with:
+          name: ${{ env.PACKAGE_NAME }}_${{ env.PACKAGE_VERSION }}.rpm
+          path: ${{ steps.rpm.outputs.rpm_dir_path }}
+
+      - name: Create GitHub release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: v${{ env.PACKAGE_VERSION }}
+          release_name: Release v${{ env.PACKAGE_VERSION }}
+          body: Release notes go here
+          draft: false
+          prerelease: false
+
+      - name: Set asset path
+        run: echo "ASSET_PATH=${{ env.PACKAGE_NAME }}_${{ env.PACKAGE_VERSION }}.deb" >> $GITHUB_ENV
+
+      - name: Upload Debian package as release asset
+        id: upload-release-asset
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ${{ env.ASSET_PATH }}
+          asset_name: ${{ env.PACKAGE_NAME }}_${{ env.PACKAGE_VERSION }}.rpm
+          asset_content_type: application/octet-stream
+
   npmjs-upload:
     if: inputs.npmjs != 'false'
     name: Npmjs publish
@@ -954,7 +1029,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Use Node.js
         uses: actions/setup-node@v3
@@ -979,7 +1056,9 @@ jobs:
         uses: docker/setup-buildx-action@v3
   
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
   
       - name: Setup target name:tag
         run: |

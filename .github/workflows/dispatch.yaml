@@ -968,7 +968,7 @@ jobs:
         run: |-
           bash -c "pling publish --username \"${{ secrets.CI_USERNAME }}\" --password \"${{ secrets.CI_PASSWORD }}\" --project-id ${{ inputs.pling }}";
 
-  deb-build-version:
+  deb-build-bump-version:
     if: inputs.deb-build != 'false'
     name: Deb bump version
     needs: static-analysis
@@ -993,7 +993,7 @@ jobs:
   deb-build-and-upload:
     if: inputs.deb-build != 'false'
     name: Deb build
-    needs: deb-build-version
+    needs: deb-build-bump-version
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -1087,8 +1087,17 @@ jobs:
 
   docker-publish:
     if: inputs.docker-build != 'false'
-    needs: static-analysis
     runs-on: ubuntu-latest
+    needs: [npmjs-bump-version, deb-build-bump-version, pling-bump-version, basic-version-bump, pypi-bump-version]
+    if: |
+      always() &&
+      (
+        needs.npmjs-bump-version.result == 'success' || 
+        needs.deb-build-bump-version.result == 'success' || 
+        needs.pling-bump-version.result == 'success' ||
+        needs.basic-version-bump.result == 'success' ||
+        needs.pypi-bump-version.result == 'success'
+      )
     steps:
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v3

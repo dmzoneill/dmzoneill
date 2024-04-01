@@ -698,67 +698,48 @@ jobs:
 
       - name: Lint Code Base
         uses: github/super-linter@v4
-          
-  basic-version-bump:
-    if: inputs.basic != 'false'
+
+  bump-versions:
+    name: Bump all verions
     runs-on: ubuntu-latest
     needs: static-analysis
-    name: Basic bump version
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
         with:
           fetch-depth: 0
 
+      - name: Setup variables
+        run: |
+          echo "APP_NAME=$(echo "${{ github.repository }}" | awk -F'/' '{print tolower($2)}')" >> $GITHUB_ENV
+
       - name: Bump version  
         run: |-
           if ! test -f version; then echo "version=0.0.1" > version; fi
           version=$(grep 'version=.*' version | awk -F'=' '{print $2}')
           next=$(echo $version | awk -F. '/[0-9]+\./{$NF++;print}' OFS=.)
-          sed "s/$version/$next/" -i version
+          if test -f control; then sed "s/$version/$next/" -i control; fi
+          if test -f ${{ env.APP_NAME }.spec; then sed "s/$version/$next/" -i ${{ env.APP_NAME }.spec; fi
+          if test -f PKG-INFO; then sed "s/$version/$next/" -i PKG-INFO; fi
+          if test -f pyproject.toml; then sed "s/$version/$next/" -i pyproject.toml; fi
+          if test -f setup.py; then sed "s/$version/$next/" -i setup.py; fi
+          if test -f version; then sed "s/$version/$next/" -i version; fi
+          if test -f README.md; then sed "s/$version/$next/" -i README.md; fi
+          if test -f chrome-plugin/manifest.json; then sed "s/$version/$next/" -i chrome-plugin/manifest.json; fi
+          if test -f metadata.json; then sed "s/$version/$next/" -i metadata.json; fi
+          if test -f package.json; then sed "s/$version/$next/" -i package.json; fi
 
       - name: Push changes
         uses: mikeal/publish-to-github-action@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH_NAME: 'main' #optional defaults to master
-
-  chrome-extension-bump-version:
-    if: inputs.chrome-extension != 'false'
-    name: Chrome bump version
-    needs: static-analysis
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-        
-      - name: Filter
-        uses: dorny/paths-filter@v2
-        id: changes
-        with:
-          filters: |
-            src:
-              - 'chrome-plugin/**'
-              
-      - name: Bump version
-        if: steps.changes.outputs.src == 'true'
-        run: |-
-          version=$(grep '"version": ".*",' chrome-plugin/manifest.json | awk -F'"' '{print $4}')
-          next=$(echo $version | awk -F. '/[0-9]+\./{$NF++;print}' OFS=.)
-          sed "s/$version/$next/" -i chrome-plugin/manifest.json
-  
-      - name: Push changes
-        if: steps.changes.outputs.src == 'true'
-        uses: mikeal/publish-to-github-action@master
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH_NAME: 'main' #optional defaults to master
+          BRANCH_NAME: 'main'
 
   chrome-extension-build:
     if: inputs.chrome-extension != 'false'   
     name: Chrome extension build
-    needs: chrome-extension-bump-version
     runs-on: ubuntu-latest
+    needs: bump-versions
     steps:
       - name: Checkout
         uses: actions/checkout@v2
@@ -804,38 +785,10 @@ jobs:
         run: |-
           chrome-webstore-upload upload --source chrome-extension-${{ github.sha }}.zip --extension-id ${{ env.EXTENSION_ID }} --client-id ${{ secrets.CI_GOOGLE_CLIENT_ID }} --client-secret ${{ secrets.CI_GOOGLE_CLIENT_SECRET }} --refresh-token ${{ secrets.CI_GOOGLE_REFRESH_TOKEN }} --auto-publish
 
-      
-  pypi-bump-version:
-    if: inputs.pypi-extension != 'false'
-    name: PyPI bump version
-    needs: static-analysis
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-                      
-      - name: Bump
-        if: steps.changes.outputs.src == 'true'
-        run: |-
-          version=$(grep '^Version:' PKG-INFO | sed 's/Version: //')
-          next=$(echo $version | awk -F. '/[0-9]+\./{$NF++;print}' OFS=.)
-          sed "s/$version/$next/" -i PKG-INFO
-          sed "s/$version/$next/" -i pyproject.toml
-          sed "s/$version/$next/" -i setup.py
-          if test -f version; then sed "s/$version/$next/" -i *.spec; fi
-          if test -f version; then sed "s/$version/$next/" -i README.md; fi
-  
-      - name: Push changes
-        if: steps.changes.outputs.src == 'true'
-        uses: mikeal/publish-to-github-action@master
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH_NAME: 'main' #optional defaults to master
-
   pypi-build-and-upload-package:
     if: inputs.pypi-extension != 'false'
     name: Pypi module build
-    needs: pypi-bump-version
+    needs: bump-versions
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -855,16 +808,15 @@ jobs:
           # shellcheck disable=SC2035
           python3 -m twine upload --verbose --non-interactive --config-file ~/.pypirc --repository pypi dist/*
 
-
-  gnome-bump-version:
-    if: inputs.gnome-extension != 'false' 
-    name: Gnome bump version
-    needs: static-analysis
+  gnome-build-and-upload:
+    if: inputs.gnome-extension != 'false'
+    name: Gnome extension build
+    needs: bump-versions
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-        
+
       - name: Filter
         uses: dorny/paths-filter@v2
         id: changes
@@ -877,31 +829,6 @@ jobs:
               - 'images/**'
               - 'schemas/**'
               - 'icons/**'
-              
-      - name: Bump
-        if: steps.changes.outputs.src == 'true'
-        # shellcheck disable=SC2086
-        run: |-
-          # shellcheck disable=SC2086
-          version=$(grep '"version": .*' metadata.json | awk '{print $2}')
-          next=$(echo $version | awk -F. '/[0-9]+\./{$NF++;print}' OFS=.)
-          sed "s/$version/$next/" -i metadata.json
-  
-      - name: Push changes
-        if: steps.changes.outputs.src == 'true'
-        uses: mikeal/publish-to-github-action@master
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH_NAME: 'main' #optional defaults to master
-
-  gnome-build-and-upload:
-    if: inputs.gnome-extension != 'false'
-    name: Gnome extension build
-    needs: gnome-bump-version
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v2
                       
       - name: Build
         run: |-
@@ -917,33 +844,10 @@ jobs:
         run: |-
           bash -c "gep publisharchive --username \"${{ secrets.CI_USERNAME }}\" --password \"${{ secrets.CI_PASSWORD }}\" --file gnome-extension-${{ github.sha }}.zip";
       
-  pling-bump-version:
-    if: inputs.pling != 'false'
-    name: Pling bump version
-    needs: static-analysis
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-                      
-      - name: Bump version  
-        run: |-
-          if ! test -f version; then echo "version=0.0.1" > version; fi
-          version=$(grep 'version=.*' version | awk -F'=' '{print $2}')
-          next=$(echo $version | awk -F. '/[0-9]+\./{$NF++;print}' OFS=.)
-          sed "s/$version/$next/" -i version
-  
-      - name: Push changes
-        if: steps.changes.outputs.src == 'true'
-        uses: mikeal/publish-to-github-action@master
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH_NAME: 'main' #optional defaults to master
-
   pling-build-and-upload:
     if: inputs.pling != 'false'
     name: Pling project build
-    needs: pling-bump-version
+    needs: bump-versions
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -960,26 +864,11 @@ jobs:
   deb-build-and-upload:
     if: inputs.deb-build != 'false'
     name: Deb build and publish
-    needs: static-analysis
+    needs: bump-versions
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-                      
-      - name: Bump version  
-        run: |-
-          if ! test -f version; then echo "version=0.0.1" > version; fi
-          version=$(grep 'version=.*' version | awk -F'=' '{print $2}')
-          next=$(echo $version | awk -F. '/[0-9]+\./{$NF++;print}' OFS=.)
-          sed "s/$version/$next/" -i control
-          sed "s/$version/$next/" -i version
-
-      - name: Push changes
-        if: steps.changes.outputs.src == 'true'
-        uses: mikeal/publish-to-github-action@master
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH_NAME: 'main' #optional defaults to master
   
       - name: Build Debian package
         run: make deb
@@ -1024,34 +913,10 @@ jobs:
           asset_name: ${{ env.PACKAGE_NAME }}_${{ env.PACKAGE_VERSION }}.deb
           asset_content_type: application/octet-stream
 
-  npmjs-bump-version:
-    if: inputs.npmjs != 'false'
-    name: npmjs bump version
-    needs: static-analysis
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-                      
-      - name: Bump version  
-        run: |-
-          if ! test -f version; then echo "version=0.0.1" > version; fi
-          version=$(grep 'version=.*' version | awk -F'=' '{print $2}')
-          next=$(echo $version | awk -F. '/[0-9]+\./{$NF++;print}' OFS=.)
-          sed "s/$version/$next/" -i version
-          sed "s/$version/$next/" -i package.json          
-  
-      - name: Push changes
-        if: steps.changes.outputs.src == 'true'
-        uses: mikeal/publish-to-github-action@master
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH_NAME: 'main' #optional defaults to master
-
   npmjs-upload:
     if: inputs.npmjs != 'false'
     name: npmjs project build
-    needs: npmjs-bump-version
+    needs: bump-versions
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -1068,18 +933,10 @@ jobs:
           token: ${{ secrets.NPM }}   
 
   docker-publish:
+    if: inputs.docker-build != 'false'
     name: Docker build and publish
     runs-on: ubuntu-latest
-    needs: [npmjs-bump-version, pling-bump-version, basic-version-bump, pypi-bump-version]
-    if: |
-      inputs.docker-build != 'false' && 
-      always() &&
-      (
-        needs.npmjs-bump-version.result == 'success' ||  
-        needs.pling-bump-version.result == 'success' ||
-        needs.basic-version-bump.result == 'success' ||
-        needs.pypi-bump-version.result == 'success'
-      )
+    needs: bump-versions
     steps:
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v3
@@ -1129,7 +986,7 @@ jobs:
   rebuild-profile:   
     name: Dispatch rebuild profile
     runs-on: ubuntu-latest    
-    needs: [docker-publish, deb-build-and-upload, gnome-build-and-upload, pypi-build-and-upload-package, chrome-extension-upload, basic-version-bump, pling-build-and-upload, npmjs-upload]
+    needs: [docker-publish, deb-build-and-upload, gnome-build-and-upload, pypi-build-and-upload-package, chrome-extension-upload, pling-build-and-upload, npmjs-upload]
     if: |
       always() &&
       (
@@ -1137,7 +994,6 @@ jobs:
         needs.gnome-build-and-upload.result == 'success' || 
         needs.pypi-build-and-upload-package.result == 'success' ||
         needs.chrome-extension-upload.result == 'success' ||
-        needs.basic-version-bump.result == 'success' ||
         needs.pling-build-and-upload.result == 'success' ||
         needs.deb-build-and-upload.result == 'success'
       )

@@ -728,6 +728,7 @@ jobs:
           if test -f chrome-plugin/manifest.json; then sed "s/$version/$next/" -i chrome-plugin/manifest.json; fi
           if test -f metadata.json; then sed "s/$version/$next/" -i metadata.json; fi
           if test -f package.json; then sed "s/$version/$next/" -i package.json; fi
+          if test -f manifest.json; then sed "s/$version/$next/" -i manifest.json; fi
 
       - name: Push changes
         uses: mikeal/publish-to-github-action@master

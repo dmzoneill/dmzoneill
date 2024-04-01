@@ -1026,33 +1026,30 @@ jobs:
     if: inputs.flatpak-build != 'false'
     needs: bump-versions
     name: Flatpak build and publish
-    runs-on: ubuntu-latest    
+    runs-on: ubuntu-22.04    
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       
-      - name: Set up Flatpak
-        uses: flatpak/flatpak-builder-action@v3
-        
+      - name: Set up Flatpak environment
+        uses: flatpak/flatpak-builder-action@v1
+      
       - name: Install dependencies
         run: |
           flatpak install flathub org.freedesktop.Platform/x86_64/22.08 org.freedesktop.Sdk/x86_64/22.08
       
-      - name: Extract app-id from manifest.json and set as environment variable
-        run: |
-          export APP_ID=$(jq -r '.["app-id"]' manifest.json)
-          echo "APP_ID=$APP_ID" >> $GITHUB_ENV
-      
       - name: Build Flatpak
         run: |
-          flatpak-builder --force-clean --install-deps-from=flathub --repo=repo-dir build-dir $APP_ID manifest.json
+          flatpak-builder --force-clean --install-deps-from=flathub --repo=repo-dir ${{ github.workspace }}/build-dir ie.fio.dfakeseeder manifest.json
       
-      - name: Publish Flatpak to Flathub
-        uses: flatpak/flatpak-builder-action/push-to-flathub@v2
+      - name: Publish to Flathub
+        uses: flathub-infra/flatpak-github-actions/flat-manager@v1
         with:
-          repo: repo-dir
-          subject: ${{ github.actor }}
-          personal_token: ""
+          flat-manager-url: https://hub.flathub.org/
+          repository: stable
+          token: ${{ secrets.FLATHUB_TOKEN }}
 
   rebuild-profile:   
     name: Dispatch rebuild profile

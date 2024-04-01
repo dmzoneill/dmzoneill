@@ -780,7 +780,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH_NAME: 'main'
 
-  chrome-extension-build-and-publish:
+  chrome:
     if: inputs.chrome-extension != 'false'   
     name: Chrome publish
     runs-on: ubuntu-latest
@@ -825,7 +825,7 @@ jobs:
         run: |-
           chrome-webstore-upload upload --source chrome-extension-${{ github.sha }}.zip --extension-id ${{ env.EXTENSION_ID }} --client-id ${{ secrets.CI_GOOGLE_CLIENT_ID }} --client-secret ${{ secrets.CI_GOOGLE_CLIENT_SECRET }} --refresh-token ${{ secrets.CI_GOOGLE_REFRESH_TOKEN }} --auto-publish
 
-  pypi-build-and-upload-package:
+  pypi:
     if: inputs.pypi-extension != 'false'
     name: Pypi publish
     needs: bump-versions
@@ -850,7 +850,7 @@ jobs:
           # shellcheck disable=SC2035
           python3 -m twine upload --verbose --non-interactive --config-file ~/.pypirc --repository pypi dist/*
 
-  gnome-build-and-upload:
+  gnome:
     if: inputs.gnome-extension != 'false'
     name: Gnome publish
     needs: bump-versions
@@ -888,7 +888,7 @@ jobs:
         run: |-
           bash -c "gep publisharchive --username \"${{ secrets.CI_USERNAME }}\" --password \"${{ secrets.CI_PASSWORD }}\" --file gnome-extension-${{ github.sha }}.zip";
       
-  pling-build-and-upload:
+  pling:
     if: inputs.pling != 'false'
     name: Pling publish
     needs: bump-versions
@@ -907,7 +907,7 @@ jobs:
         run: |-
           bash -c "pling publish --username \"${{ secrets.CI_USERNAME }}\" --password \"${{ secrets.CI_PASSWORD }}\" --project-id ${{ inputs.pling }}";
 
-  deb-build-and-upload:
+  deb:
     if: inputs.deb-build != 'false'
     name: Deb publish
     needs: bump-versions
@@ -961,7 +961,7 @@ jobs:
           asset_name: ${{ env.PACKAGE_NAME }}_${{ env.PACKAGE_VERSION }}.deb
           asset_content_type: application/octet-stream
 
-  rpm-build-and-upload:
+  rpm:
     if: inputs.rpm-build != 'false'
     name: Rpm publish
     needs: bump-versions
@@ -1022,7 +1022,7 @@ jobs:
           asset_name: ${{ env.PACKAGE_NAME }}_${{ env.PACKAGE_VERSION }}.rpm
           asset_content_type: application/octet-stream
 
-  npmjs-upload:
+  npmjs:
     if: inputs.npmjs != 'false'
     name: Npmjs publish
     needs: bump-versions
@@ -1043,7 +1043,7 @@ jobs:
         with:
           token: ${{ secrets.NPM }}   
 
-  docker-publish:
+  docker:
     if: inputs.docker-build != 'false'
     name: Docker publish
     runs-on: ubuntu-latest
@@ -1096,7 +1096,7 @@ jobs:
             ghcr.io/dmzoneill/${{ env.APP_NAME }}:${{ env.NEXT_VERSION }}
             ghcr.io/dmzoneill/${{ env.APP_NAME }}:latest
 
-  flatpak-build-and-publish:
+  flatpak:
     if: inputs.flatpak-build != 'false'
     needs: bump-versions
     name: Flatpak publish
@@ -1128,18 +1128,18 @@ jobs:
   rebuild-profile:   
     name: Rebuild Profile
     runs-on: ubuntu-latest    
-    needs: [docker-publish, deb-build-and-upload, rpm-build-and-upload, gnome-build-and-upload, pypi-build-and-upload-package, chrome-extension-build-and-publish, pling-build-and-upload, npmjs-upload,  flatpak-build-and-publish]
+    needs: [docker, deb, rpm, gnome, pypi, chrome, pling, npmjs, flatpak]
     if: |
       always() &&
       (
-        needs.rpm-build-and-upload.result == 'success' ||
-        needs.docker-publish.result == 'success' || 
-        needs.gnome-build-and-upload.result == 'success' || 
-        needs.pypi-build-and-upload-package.result == 'success' ||
-        needs.chrome-extension-build-and-publish.result == 'success' ||
-        needs.pling-build-and-upload.result == 'success' ||
-        needs.deb-build-and-upload.result == 'success' ||
-        needs.flatpak-build-and-publish.result == 'success'
+        needs.rpm.result == 'success' ||
+        needs.docker.result == 'success' || 
+        needs.gnome.result == 'success' || 
+        needs.pypi.result == 'success' ||
+        needs.chrome.result == 'success' ||
+        needs.pling.result == 'success' ||
+        needs.deb.result == 'success' ||
+        needs.flatpak.result == 'success'
       )
     steps:
       - name: Rebuild profile

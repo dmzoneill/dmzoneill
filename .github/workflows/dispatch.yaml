@@ -32,6 +32,10 @@ on:
         required: false
         type: string
         default: "false"
+      docker-build:
+        required: false
+        type: string
+        default: "false"
       VALIDATE_ALL_CODEBASE:
         required: false
         type: string
@@ -1081,14 +1085,45 @@ jobs:
         with:
           token: ${{ secrets.NPM }}   
 
+  docker-publish:
+    if: inputs.docker-build != 'false'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set up QEMU
+        uses: docker/setup-qemu-action@v3
+  
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+  
+      - name: Login to Docker Hub
+        uses: docker/login-action@v3
+        with:
+          username: feeditout
+          password: ${{ secrets.DOCKER_TOKEN }}
+  
+      - name: Setup target name:tag
+        run: |
+          echo "APP_NAME=$(echo "${{ github.repository }}" | awk -F'/' '{print tolower($2)}')" >> $GITHUB_ENV
+          version=$(grep 'version=.*' version | awk -F'=' '{print $2}')
+          next=$(echo $version | awk -F. '/[0-9]+\./{$NF++;print}' OFS=.)
+          echo "NEXT_VERSION=$next" >> $GITHUB_ENV
+  
+      - name: Build and push
+        uses: docker/build-push-action@v5
+        with:
+          push: true
+          tags: |
+            feeditout/${{ env.APP_NAME }}:${{ env.NEXT_VERSION }}
+            feeditout/${{ env.APP_NAME }}:latest
 
   rebuild-profile:   
     name: Dispatch rebuild profile
     runs-on: ubuntu-latest    
-    needs: [deb-build-and-upload, gnome-build-and-upload, pypi-build-and-upload-package, chrome-extension-upload, basic-version-bump, pling-build-and-upload, npmjs-upload]
+    needs: [docker-publish, deb-build-and-upload, gnome-build-and-upload, pypi-build-and-upload-package, chrome-extension-upload, basic-version-bump, pling-build-and-upload, npmjs-upload]
     if: |
       always() &&
       (
+        needs.docker-publish.result == 'success' || 
         needs.gnome-build-and-upload.result == 'success' || 
         needs.pypi-build-and-upload-package.result == 'success' ||
         needs.chrome-extension-upload.result == 'success' ||

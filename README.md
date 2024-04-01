@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-01/04/2024 08:44:03-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-01/04/2024 09:33:46-brightgreen" height='28'/>
 
 <table>
   <tr>
@@ -8,7 +8,7 @@
       <h3>Pull Requests (3)</h3>
       <ul><li><a href='https://github.com/dmzoneill/Chuckbot/pull/16'>Bump express from 4.18.2 to 4.19.2</a> 2024-03-28</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/22'>Bump express from 4.18.1 to 4.19.2 in /frontend</a> 2024-03-28</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/13'>Bump golang.org/x/net from 0.7.0 to 0.17.0 in /backend</a> 2024-02-28</li></ul>
       <h3>Recent Acivity</h3>
-      <ul><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/5d7c93824f82a42a07f0c7137738b7fe3c0012cd'>Update .gitignore</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/4a1fb170412a0f82b44655dcf11d813fd42e401f'>Update dispatch.yaml</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/e2ae5685f2643af641da07bb9f271425e96ed0da'>Update .gitignore</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/af90d6a15df4cf7eb52ee55f21ca813c36c35448'>Update dispatch.yaml</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/1c85bf57c6a0e0d7c4b03c6a9a7be103ae2c41cd'>Update .gitignore</a></li></ul>
+      <ul><li><a href='https://github.com/dmzoneill/dmzoneill/commit/355b3d9e98dbd1382d09bfb85bef3bd8552ec692'>Update dispatch.yaml</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/8f68a6ddc11e29046a45c2fdfa3f79b917edf3c2'>Update dispatch.yaml</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/a22f5d9c9e87a55cebf21546866882eab38bc481'>Update main.yml</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/26923ea25d4b333bc30d671c2e3d5bb6597eb332'>Update dispatch.yaml</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/5d7c93824f82a42a07f0c7137738b7fe3c0012cd'>Update .gitignore</a></li></ul>
       <h3>Gists</h3>
       <ul><li><a href='https://gist.github.com/dmzoneill/f234183850275c36dd43564e81126338'>fail ci with approvers</a></li><li><a href='https://gist.github.com/dmzoneill/b3dace5030bea5d05211cbf1a74d7140'>PostGres Enum Errors</a></li><li><a href='https://gist.github.com/dmzoneill/daef323146469618c550241f35e4b503'>AWX Strings 1</a></li><li><a href='https://gist.github.com/dmzoneill/809f32f1ca301ce6f0dc2bad741ec15e'>AWX Strings 2</a></li><li><a href='https://gist.github.com/dmzoneill/4f1a46c512245a21ce819a9f465679aa'>AWX development on kind</a></li><li><a href='https://gist.github.com/dmzoneill/664484ef2b798118a83347205f84c66b'>keybase.md</a></li><li><a href='https://gist.github.com/dmzoneill/67a908fb949dc95bbbf02f0446a07f0a'>durex fun</a></li><li><a href='https://gist.github.com/dmzoneill/d13d88b16d4d0aa90cb108a00ab3cf01'>10GB tuning</a></li><li><a href='https://gist.github.com/dmzoneill/575ba9c32375c41cb1041e9064de0678'>Synology 108tb limit bypass</a></li><li><a href='https://gist.github.com/dmzoneill/cbc75e502dbe2b78651f68d6320b714a'>AA active queries</a></li><li><a href='https://gist.github.com/dmzoneill/faaa84782eaed4d2dc28ad55c19119ee'>PHP Paypal Instant Payment Notification</a></li></ul>
     </td>
@@ -42,70 +42,61 @@
   </thead>
   <tbody>
     <tr><td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>663598</td>
-<td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>317539</td>
-<td><img src='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' title='Java'  height='20px'/></td><td>2071977</td>
+<td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>188481</td>
+<td><img src='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' title='Java'  height='20px'/></td><td>251816</td>
 <td><img src='https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white' title='Kotlin'  height='20px'/></td><td>24599</td>
 </tr><tr>
 <td><img src='https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white' title='Swift'  height='20px'/></td><td>163276</td>
-<td><img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML'  height='20px'/></td><td>13065660</td>
-<td><img src='https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white' title='C#'  height='20px'/></td><td>3379139</td>
-<td><img src='https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white' title='C++'  height='20px'/></td><td>428363</td>
+<td><img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML'  height='20px'/></td><td>8488110</td>
+<td><img src='https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white' title='C#'  height='20px'/></td><td>2273050</td>
+<td><img src='https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white' title='C++'  height='20px'/></td><td>329459</td>
 </tr><tr>
-<td><img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS'  height='20px'/></td><td>5837975</td>
-<td><img src='https://img.shields.io/badge/_-Visual Basic .NET -11DDDD.svg?style=for-the-badge' title='Visual Basic .NET'  height='20px'/></td><td>758279</td>
+<td><img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS'  height='20px'/></td><td>3532630</td>
+<td><img src='https://img.shields.io/badge/_-Visual Basic .NET -11DDDD.svg?style=for-the-badge' title='Visual Basic .NET'  height='20px'/></td><td>67817</td>
 <td><img src='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' title='Go'  height='20px'/></td><td>26262</td>
-<td><img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP'  height='20px'/></td><td>76059922</td>
+<td><img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP'  height='20px'/></td><td>38367373</td>
 </tr><tr>
-<td><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript'  height='20px'/></td><td>8811063</td>
-<td><img src='https://img.shields.io/badge/perl-%2339457E.svg?style=for-the-badge&logo=perl&logoColor=white' title='Perl'  height='20px'/></td><td>10102682</td>
-<td><img src='https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white' title='Ruby'  height='20px'/></td><td>507181</td>
-<td><img src='https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white' title='C'  height='20px'/></td><td>15564301</td>
+<td><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript'  height='20px'/></td><td>5364780</td>
+<td><img src='https://img.shields.io/badge/perl-%2339457E.svg?style=for-the-badge&logo=perl&logoColor=white' title='Perl'  height='20px'/></td><td>9838545</td>
+<td><img src='https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white' title='Ruby'  height='20px'/></td><td>411482</td>
+<td><img src='https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white' title='C'  height='20px'/></td><td>10551927</td>
 </tr><tr>
 <td><img src='https://img.shields.io/badge/_-COBOL -11DDDD.svg?style=for-the-badge' title='COBOL'  height='20px'/></td><td>964</td>
-<td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>1368096</td>
-<td><img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile'  height='20px'/></td><td>5851</td>
-<td><img src='https://img.shields.io/badge/_-AngelScript -11DDDD.svg?style=for-the-badge' title='AngelScript'  height='20px'/></td><td>28550</td>
+<td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>704655</td>
+<td><img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile'  height='20px'/></td><td>5302</td>
+<td><img src='https://img.shields.io/badge/_-AngelScript -11DDDD.svg?style=for-the-badge' title='AngelScript'  height='20px'/></td><td>262</td>
 </tr><tr>
 <td><img src='https://img.shields.io/badge/_-Tcl -11DDDD.svg?style=for-the-badge' title='Tcl'  height='20px'/></td><td>1281755</td>
 <td><img src='https://img.shields.io/badge/_-Inno Setup -11DDDD.svg?style=for-the-badge' title='Inno Setup'  height='20px'/></td><td>6073</td>
-<td><img src='https://img.shields.io/badge/_-XSLT -11DDDD.svg?style=for-the-badge' title='XSLT'  height='20px'/></td><td>190587</td>
+<td><img src='https://img.shields.io/badge/_-XSLT -11DDDD.svg?style=for-the-badge' title='XSLT'  height='20px'/></td><td>29323</td>
 <td><img src='https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white' title='PowerShell'  height='20px'/></td><td>3697</td>
 </tr><tr>
-<td><img src='https://img.shields.io/badge/_-Batchfile -11DDDD.svg?style=for-the-badge' title='Batchfile'  height='20px'/></td><td>5320</td>
+<td><img src='https://img.shields.io/badge/_-Batchfile -11DDDD.svg?style=for-the-badge' title='Batchfile'  height='20px'/></td><td>3886</td>
 <td><img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript'  height='20px'/></td><td>27991</td>
-<td><img src='https://img.shields.io/badge/_-Roff -11DDDD.svg?style=for-the-badge' title='Roff'  height='20px'/></td><td>912336</td>
-<td><img src='https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white' title='TeX'  height='20px'/></td><td>587802</td>
+<td><img src='https://img.shields.io/badge/_-Roff -11DDDD.svg?style=for-the-badge' title='Roff'  height='20px'/></td><td>255585</td>
+<td><img src='https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white' title='TeX'  height='20px'/></td><td>339676</td>
 </tr><tr>
-<td><img src='https://img.shields.io/badge/_-Raku -11DDDD.svg?style=for-the-badge' title='Raku'  height='20px'/></td><td>871051</td>
+<td><img src='https://img.shields.io/badge/_-Raku -11DDDD.svg?style=for-the-badge' title='Raku'  height='20px'/></td><td>863953</td>
 <td><img src='https://img.shields.io/badge/_-Smalltalk -11DDDD.svg?style=for-the-badge' title='Smalltalk'  height='20px'/></td><td>10</td>
-<td><img src='https://img.shields.io/badge/_-Hack -11DDDD.svg?style=for-the-badge' title='Hack'  height='20px'/></td><td>260118</td>
+<td><img src='https://img.shields.io/badge/_-Hack -11DDDD.svg?style=for-the-badge' title='Hack'  height='20px'/></td><td>140124</td>
 <td><img src='https://img.shields.io/badge/_-Classic ASP -11DDDD.svg?style=for-the-badge' title='Classic ASP'  height='20px'/></td><td>842274</td>
 </tr><tr>
 <td><img src='https://img.shields.io/badge/_-TSQL -11DDDD.svg?style=for-the-badge' title='TSQL'  height='20px'/></td><td>163674</td>
-<td><img src='https://img.shields.io/badge/_-SCSS -11DDDD.svg?style=for-the-badge' title='SCSS'  height='20px'/></td><td>50670</td>
-<td><img src='https://img.shields.io/badge/_-Smarty -11DDDD.svg?style=for-the-badge' title='Smarty'  height='20px'/></td><td>2034035</td>
+<td><img src='https://img.shields.io/badge/_-SCSS -11DDDD.svg?style=for-the-badge' title='SCSS'  height='20px'/></td><td>17776</td>
+<td><img src='https://img.shields.io/badge/_-Smarty -11DDDD.svg?style=for-the-badge' title='Smarty'  height='20px'/></td><td>1327875</td>
 <td><img src='https://img.shields.io/badge/_-VBScript -11DDDD.svg?style=for-the-badge' title='VBScript'  height='20px'/></td><td>5008</td>
 </tr><tr>
-<td><img src='https://img.shields.io/badge/_-M4 -11DDDD.svg?style=for-the-badge' title='M4'  height='20px'/></td><td>131699</td>
+<td><img src='https://img.shields.io/badge/_-M4 -11DDDD.svg?style=for-the-badge' title='M4'  height='20px'/></td><td>121464</td>
 <td><img src='https://img.shields.io/badge/_-Vim Script -11DDDD.svg?style=for-the-badge' title='Vim Script'  height='20px'/></td><td>258</td>
 <td><img src='https://img.shields.io/badge/_-Emacs Lisp -11DDDD.svg?style=for-the-badge' title='Emacs Lisp'  height='20px'/></td><td>210</td>
-<td><img src='https://camo.githubusercontent.com/6e5b1cbf25a32a79ed458dc14f5a66b8d89e525de7a9558ec10a50e7129ea2cc/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d50757070657426636f6c6f723d323232323232266c6f676f3d507570706574266c6f676f436f6c6f723d464641453141266c6162656c3d' title='Puppet'  height='20px'/></td><td>128888</td>
+<td><img src='https://camo.githubusercontent.com/6e5b1cbf25a32a79ed458dc14f5a66b8d89e525de7a9558ec10a50e7129ea2cc/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d50757070657426636f6c6f723d323232323232266c6f676f3d507570706574266c6f676f436f6c6f723d464641453141266c6162656c3d' title='Puppet'  height='20px'/></td><td>113379</td>
 </tr><tr>
 <td><img src='https://img.shields.io/badge/_-Pascal -11DDDD.svg?style=for-the-badge' title='Pascal'  height='20px'/></td><td>1080</td>
-<td><img src='https://img.shields.io/badge/_-SystemVerilog -11DDDD.svg?style=for-the-badge' title='SystemVerilog'  height='20px'/></td><td>19753</td>
-<td><img src='https://img.shields.io/badge/_-Prolog -11DDDD.svg?style=for-the-badge' title='Prolog'  height='20px'/></td><td>80451</td>
-<td><img src='https://img.shields.io/static/v1?style=for-the-badge&message=AssemblyScript&color=007AAC&logo=AssemblyScript&logoColor=FFFFFF&label=' title='Assembly'  height='20px'/></td><td>293576</td>
-</tr><tr>
-<td><img src='https://img.shields.io/badge/_-NSIS -11DDDD.svg?style=for-the-badge' title='NSIS'  height='20px'/></td><td>11462</td>
-<td><img src='https://img.shields.io/badge/_-PLSQL -11DDDD.svg?style=for-the-badge' title='PLSQL'  height='20px'/></td><td>60389</td>
-<td><img src='https://img.shields.io/badge/_-QMake -11DDDD.svg?style=for-the-badge' title='QMake'  height='20px'/></td><td>468</td>
-<td><img src='https://img.shields.io/badge/_-Rich Text Format -11DDDD.svg?style=for-the-badge' title='Rich Text Format'  height='20px'/></td><td>78076</td>
-</tr><tr>
-<td><img src='https://img.shields.io/badge/_-ActionScript -11DDDD.svg?style=for-the-badge' title='ActionScript'  height='20px'/></td><td>4399</td>
+<td><img src='https://img.shields.io/badge/_-SystemVerilog -11DDDD.svg?style=for-the-badge' title='SystemVerilog'  height='20px'/></td><td>5288</td>
 <td><img src='https://img.shields.io/badge/_-ColdFusion -11DDDD.svg?style=for-the-badge' title='ColdFusion'  height='20px'/></td><td>19136</td>
 <td><img src='https://img.shields.io/badge/_-ASP.NET -11DDDD.svg?style=for-the-badge' title='ASP.NET'  height='20px'/></td><td>715</td>
-<td><img src='https://img.shields.io/badge/_-PostScript -11DDDD.svg?style=for-the-badge' title='PostScript'  height='20px'/></td><td>425843</td>
 </tr><tr>
+<td><img src='https://img.shields.io/badge/_-PostScript -11DDDD.svg?style=for-the-badge' title='PostScript'  height='20px'/></td><td>425843</td>
 </tr>
   </tbody>
 </table>
@@ -125,7 +116,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/dmzoneill' title='dmzoneill'>dmzoneill</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/dmzoneill/commit/4a1fb170412a0f82b44655dcf11d813fd42e401f'>Update dispatch.yaml</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/af90d6a15df4cf7eb52ee55f21ca813c36c35448'>Update dispatch.yaml</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/058a3a4ae597654ec940b206c836f85df919a229'>Update dispatch.yaml</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/3f349341a1156993e7989ae056fffb6489c85868'>Update dispatch.yaml</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/1be1cdb5fa1f01285a6332b7a041be563c22d29d'>Update dispatch.yaml</a></li></ul></p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/dmzoneill/commit/355b3d9e98dbd1382d09bfb85bef3bd8552ec692'>Update dispatch.yaml</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/8f68a6ddc11e29046a45c2fdfa3f79b917edf3c2'>Update dispatch.yaml</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/26923ea25d4b333bc30d671c2e3d5bb6597eb332'>Update dispatch.yaml</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/4a1fb170412a0f82b44655dcf11d813fd42e401f'>Update dispatch.yaml</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/af90d6a15df4cf7eb52ee55f21ca813c36c35448'>Update dispatch.yaml</a></li></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -185,7 +176,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump fo
             <td>
               <p><h2><a href='https://github.com/dmzoneill/lidarr-youtube-downloader' title='lidarr-youtube-downloader'>lidarr-youtube-downloader</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/> <img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/commit/8800df9be2259bfc296cb71da12878232d7a125f'>Update main.yml</a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/commit/84ca43be48ec86105f207fbcaeac8184d7349663'>Update main.yml</a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/24'>Error Building using Dockerfile</a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/commit/8bbe51084147bd0f4b3c5c74728ecfd3bbfca2fb'>Fix dockefile</a></li></ul></p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/commit/8800df9be2259bfc296cb71da12878232d7a125f'>Update main.yml</a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/commit/84ca43be48ec86105f207fbcaeac8184d7349663'>Update main.yml</a></li></ul></p>
               <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/23'>Track Format & FFMPEG not adding metadata</a> 2024-03-20</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/21'>Issue with Lidarr recognizing downloaded audio and incorrect metadata in Jellyfin</a> 2024-03-20</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/13'>Alittle help with docker compose</a> 2024-03-20</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/12'>REQ: Ability to set percentage match cutoff and/or keyword blacklist such as "live" or whitelist "official" in title.</a> 2024-03-20</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/11'>Deployment Loop and "workaround".</a> 2024-03-20</li></ul></p>
               <p><ul></ul></p>
             </td>
@@ -362,7 +353,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump fo
             <td>
               <p><h2><a href='https://github.com/dmzoneill/DFakeSeeder' title='DFakeSeeder'>DFakeSeeder</a> (2024)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/5d7c93824f82a42a07f0c7137738b7fe3c0012cd'>Update .gitignore</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/e2ae5685f2643af641da07bb9f271425e96ed0da'>Update .gitignore</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/1c85bf57c6a0e0d7c4b03c6a9a7be103ae2c41cd'>Update .gitignore</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/5fd5f737f9b4f86902bac6c342c9a73cd37ef524'>Update .gitignore</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/bb6dc48b10441a2a7117e11f1e78f961d8c650d4'>Update .gitignore</a></li></ul></p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/a22f5d9c9e87a55cebf21546866882eab38bc481'>Update main.yml</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/5d7c93824f82a42a07f0c7137738b7fe3c0012cd'>Update .gitignore</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/e2ae5685f2643af641da07bb9f271425e96ed0da'>Update .gitignore</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/1c85bf57c6a0e0d7c4b03c6a9a7be103ae2c41cd'>Update .gitignore</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/5fd5f737f9b4f86902bac6c342c9a73cd37ef524'>Update .gitignore</a></li></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -1313,7 +1304,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump we
         </tr>
 <tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/EC-SI-LMT-DHCP-SECONDARY' title='EC-SI-LMT-DHCP-SECONDARY'>EC-SI-LMT-DHCP-SECONDARY</a> (2014)</h2></p><p><img src='https://img.shields.io/badge/_-Prolog -11DDDD.svg?style=for-the-badge' title='Prolog' height='20px'/> <img src='https://img.shields.io/badge/_-SystemVerilog -11DDDD.svg?style=for-the-badge' title='SystemVerilog' height='20px'/> <img src='https://img.shields.io/badge/perl-%2339457E.svg?style=for-the-badge&logo=perl&logoColor=white' title='Perl' height='20px'/> <img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/EC-SI-LMT-DHCP-SECONDARY' title='EC-SI-LMT-DHCP-SECONDARY'>EC-SI-LMT-DHCP-SECONDARY</a> (2014)</h2></p><p>Prolog</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
@@ -1329,7 +1320,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump we
         </tr>
 <tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/EC-SI-LMT-DHCP-PRIMARY' title='EC-SI-LMT-DHCP-PRIMARY'>EC-SI-LMT-DHCP-PRIMARY</a> (2014)</h2></p><p><img src='https://img.shields.io/badge/perl-%2339457E.svg?style=for-the-badge&logo=perl&logoColor=white' title='Perl' height='20px'/> <img src='https://img.shields.io/badge/_-Prolog -11DDDD.svg?style=for-the-badge' title='Prolog' height='20px'/> <img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML' height='20px'/> <img src='https://img.shields.io/badge/_-SystemVerilog -11DDDD.svg?style=for-the-badge' title='SystemVerilog' height='20px'/> <img src='https://img.shields.io/badge/_-Raku -11DDDD.svg?style=for-the-badge' title='Raku' height='20px'/> <img src='https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white' title='C++' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/EC-SI-LMT-DHCP-PRIMARY' title='EC-SI-LMT-DHCP-PRIMARY'>EC-SI-LMT-DHCP-PRIMARY</a> (2014)</h2></p><p>Perl</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
@@ -1345,7 +1336,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump we
         </tr>
 <tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/EC-SI-DotNetAsyncServiceNow' title='EC-SI-DotNetAsyncServiceNow'>EC-SI-DotNetAsyncServiceNow</a> (2014)</h2></p><p><img src='https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white' title='C#' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/EC-SI-DotNetAsyncServiceNow' title='EC-SI-DotNetAsyncServiceNow'>EC-SI-DotNetAsyncServiceNow</a> (2014)</h2></p><p>C#</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
@@ -1361,7 +1352,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump we
         </tr>
 <tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/EC-SI-CfengineAnalytics' title='EC-SI-CfengineAnalytics'>EC-SI-CfengineAnalytics</a> (2014)</h2></p><p><img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/EC-SI-CfengineAnalytics' title='EC-SI-CfengineAnalytics'>EC-SI-CfengineAnalytics</a> (2014)</h2></p><p>PHP</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
@@ -1377,7 +1368,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump we
         </tr>
 <tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/CSIG-SW-SDN-ReleasePackager' title='CSIG-SW-SDN-ReleasePackager'>CSIG-SW-SDN-ReleasePackager</a> (2014)</h2></p><p><img src='https://img.shields.io/badge/perl-%2339457E.svg?style=for-the-badge&logo=perl&logoColor=white' title='Perl' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/CSIG-SW-SDN-ReleasePackager' title='CSIG-SW-SDN-ReleasePackager'>CSIG-SW-SDN-ReleasePackager</a> (2014)</h2></p><p>Perl</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
@@ -1393,7 +1384,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump we
         </tr>
 <tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/CSIG-SW-SDN-NOS-CHEF-REPO' title='CSIG-SW-SDN-NOS-CHEF-REPO'>CSIG-SW-SDN-NOS-CHEF-REPO</a> (2014)</h2></p><p><img src='https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white' title='Ruby' height='20px'/> <img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/CSIG-SW-SDN-NOS-CHEF-REPO' title='CSIG-SW-SDN-NOS-CHEF-REPO'>CSIG-SW-SDN-NOS-CHEF-REPO</a> (2014)</h2></p><p>Ruby</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
@@ -1409,7 +1400,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump we
         </tr>
 <tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/CSIG-SW-SDN-NOS-CHEF' title='CSIG-SW-SDN-NOS-CHEF'>CSIG-SW-SDN-NOS-CHEF</a> (2014)</h2></p><p><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/_-Roff -11DDDD.svg?style=for-the-badge' title='Roff' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/CSIG-SW-SDN-NOS-CHEF' title='CSIG-SW-SDN-NOS-CHEF'>CSIG-SW-SDN-NOS-CHEF</a> (2014)</h2></p><p>Shell</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
@@ -1425,7 +1416,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump we
         </tr>
 <tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/CSIG-SW-Lab-Ticker' title='CSIG-SW-Lab-Ticker'>CSIG-SW-Lab-Ticker</a> (2014)</h2></p><p><img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML' height='20px'/> <img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/CSIG-SW-Lab-Ticker' title='CSIG-SW-Lab-Ticker'>CSIG-SW-Lab-Ticker</a> (2014)</h2></p><p>HTML</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
@@ -1441,7 +1432,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump we
         </tr>
 <tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/cpuminer-multi' title='cpuminer-multi'>cpuminer-multi</a> (2014)</h2></p><p><img src='https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white' title='C' height='20px'/> <img src='https://img.shields.io/static/v1?style=for-the-badge&message=AssemblyScript&color=007AAC&logo=AssemblyScript&logoColor=FFFFFF&label=' title='Assembly' height='20px'/> <img src='https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white' title='C++' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/cpuminer-multi' title='cpuminer-multi'>cpuminer-multi</a> (2014)</h2></p><p>C</p>
               <p>GNU General Public License v2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
@@ -1457,7 +1448,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump we
         </tr>
 </tbody></table><h2>2013</h2><table width='100%' style='width:100%'><thead><tr><th>Project</th><th>View</th><th>Status</th></tr></thead><tbody><tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/www.linux-group-policy.com' title='www.linux-group-policy.com'>www.linux-group-policy.com</a> (2013)</h2></p><p><img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/> <img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/www.linux-group-policy.com' title='www.linux-group-policy.com'>www.linux-group-policy.com</a> (2013)</h2></p><p>PHP</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
@@ -1473,7 +1464,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump we
         </tr>
 <tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/www.feeditout.com1' title='www.feeditout.com1'>www.feeditout.com1</a> (2013)</h2></p><p><img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/> <img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/www.feeditout.com1' title='www.feeditout.com1'>www.feeditout.com1</a> (2013)</h2></p><p>PHP</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
@@ -1489,7 +1480,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump we
         </tr>
 <tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/synologydownloadassistant.com' title='synologydownloadassistant.com'>synologydownloadassistant.com</a> (2013)</h2></p><p><img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/> <img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP' height='20px'/> <img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/_-SCSS -11DDDD.svg?style=for-the-badge' title='SCSS' height='20px'/> <img src='https://img.shields.io/badge/_-Hack -11DDDD.svg?style=for-the-badge' title='Hack' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/synologydownloadassistant.com' title='synologydownloadassistant.com'>synologydownloadassistant.com</a> (2013)</h2></p><p>CSS</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
@@ -1505,7 +1496,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump we
         </tr>
 <tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/iLab-Puppet-Install' title='iLab-Puppet-Install'>iLab-Puppet-Install</a> (2013)</h2></p><p><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/_-Roff -11DDDD.svg?style=for-the-badge' title='Roff' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/iLab-Puppet-Install' title='iLab-Puppet-Install'>iLab-Puppet-Install</a> (2013)</h2></p><p>Shell</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
@@ -1521,7 +1512,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump we
         </tr>
 <tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/iLab-Puppet-Config-Global' title='iLab-Puppet-Config-Global'>iLab-Puppet-Config-Global</a> (2013)</h2></p><p><img src='https://camo.githubusercontent.com/6e5b1cbf25a32a79ed458dc14f5a66b8d89e525de7a9558ec10a50e7129ea2cc/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d50757070657426636f6c6f723d323232323232266c6f676f3d507570706574266c6f676f436f6c6f723d464641453141266c6162656c3d' title='Puppet' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white' title='Ruby' height='20px'/> <img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/iLab-Puppet-Config-Global' title='iLab-Puppet-Config-Global'>iLab-Puppet-Config-Global</a> (2013)</h2></p><p>Puppet</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
@@ -1537,7 +1528,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump we
         </tr>
 <tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/iLab-Puppet-Config-GER-SIE-EC' title='iLab-Puppet-Config-GER-SIE-EC'>iLab-Puppet-Config-GER-SIE-EC</a> (2013)</h2></p><p><img src='https://camo.githubusercontent.com/6e5b1cbf25a32a79ed458dc14f5a66b8d89e525de7a9558ec10a50e7129ea2cc/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d50757070657426636f6c6f723d323232323232266c6f676f3d507570706574266c6f676f436f6c6f723d464641453141266c6162656c3d' title='Puppet' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/iLab-Puppet-Config-GER-SIE-EC' title='iLab-Puppet-Config-GER-SIE-EC'>iLab-Puppet-Config-GER-SIE-EC</a> (2013)</h2></p><p>Puppet</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
@@ -1553,7 +1544,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump we
         </tr>
 <tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/EC-SI-Scripts' title='EC-SI-Scripts'>EC-SI-Scripts</a> (2013)</h2></p><p><img src='https://img.shields.io/badge/perl-%2339457E.svg?style=for-the-badge&logo=perl&logoColor=white' title='Perl' height='20px'/> <img src='https://img.shields.io/badge/_-Prolog -11DDDD.svg?style=for-the-badge' title='Prolog' height='20px'/> <img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML' height='20px'/> <img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP' height='20px'/> <img src='https://img.shields.io/badge/_-SystemVerilog -11DDDD.svg?style=for-the-badge' title='SystemVerilog' height='20px'/> <img src='https://img.shields.io/badge/_-Raku -11DDDD.svg?style=for-the-badge' title='Raku' height='20px'/> <img src='https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white' title='C++' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/EC-SI-Scripts' title='EC-SI-Scripts'>EC-SI-Scripts</a> (2013)</h2></p><p>Perl</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
@@ -1569,7 +1560,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump we
         </tr>
 </tbody></table><h2>2011</h2><table width='100%' style='width:100%'><thead><tr><th>Project</th><th>View</th><th>Status</th></tr></thead><tbody><tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/www.feeditout.com-2008' title='www.feeditout.com-2008'>www.feeditout.com-2008</a> (2011)</h2></p><p><img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP' height='20px'/> <img src='https://img.shields.io/badge/_-PLSQL -11DDDD.svg?style=for-the-badge' title='PLSQL' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/www.feeditout.com-2008' title='www.feeditout.com-2008'>www.feeditout.com-2008</a> (2011)</h2></p><p>HTML</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
@@ -1585,7 +1576,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump we
         </tr>
 <tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/ultimetable-android-app' title='ultimetable-android-app'>ultimetable-android-app</a> (2011)</h2></p><p><img src='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' title='Java' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/ultimetable-android-app' title='ultimetable-android-app'>ultimetable-android-app</a> (2011)</h2></p><p>Java</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
@@ -1601,7 +1592,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump we
         </tr>
 <tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/servicescan' title='servicescan'>servicescan</a> (2011)</h2></p><p><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/> <img src='https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white' title='C++' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/servicescan' title='servicescan'>servicescan</a> (2011)</h2></p><p>Makefile</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
@@ -1617,7 +1608,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump we
         </tr>
 <tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/meteor-android-widget' title='meteor-android-widget'>meteor-android-widget</a> (2011)</h2></p><p><img src='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' title='Java' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/meteor-android-widget' title='meteor-android-widget'>meteor-android-widget</a> (2011)</h2></p><p>Java</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
@@ -1633,7 +1624,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump we
         </tr>
 <tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/lm051-cs4023-distribute-systems-shapes' title='lm051-cs4023-distribute-systems-shapes'>lm051-cs4023-distribute-systems-shapes</a> (2011)</h2></p><p><img src='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' title='Java' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/lm051-cs4023-distribute-systems-shapes' title='lm051-cs4023-distribute-systems-shapes'>lm051-cs4023-distribute-systems-shapes</a> (2011)</h2></p><p>Java</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
@@ -1649,7 +1640,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump we
         </tr>
 <tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/feeditout-productions-android-app' title='feeditout-productions-android-app'>feeditout-productions-android-app</a> (2011)</h2></p><p><img src='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' title='Java' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/feeditout-productions-android-app' title='feeditout-productions-android-app'>feeditout-productions-android-app</a> (2011)</h2></p><p>Java</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
@@ -1665,7 +1656,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump we
         </tr>
 <tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/clonezilla-altiris-imaging' title='clonezilla-altiris-imaging'>clonezilla-altiris-imaging</a> (2011)</h2></p><p><img src='https://img.shields.io/badge/perl-%2339457E.svg?style=for-the-badge&logo=perl&logoColor=white' title='Perl' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/clonezilla-altiris-imaging' title='clonezilla-altiris-imaging'>clonezilla-altiris-imaging</a> (2011)</h2></p><p>Perl</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
@@ -1681,7 +1672,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump we
         </tr>
 <tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/bus-eireann-android-app' title='bus-eireann-android-app'>bus-eireann-android-app</a> (2011)</h2></p><p><img src='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' title='Java' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/bus-eireann-android-app' title='bus-eireann-android-app'>bus-eireann-android-app</a> (2011)</h2></p><p>Java</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
@@ -1697,7 +1688,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump we
         </tr>
 <tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/apoker-android-app' title='apoker-android-app'>apoker-android-app</a> (2011)</h2></p><p><img src='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' title='Java' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/apoker-android-app' title='apoker-android-app'>apoker-android-app</a> (2011)</h2></p><p>Java</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
@@ -1713,7 +1704,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump we
         </tr>
 <tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/aib-android-app' title='aib-android-app'>aib-android-app</a> (2011)</h2></p><p><img src='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' title='Java' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/aib-android-app' title='aib-android-app'>aib-android-app</a> (2011)</h2></p><p>Java</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
@@ -1729,7 +1720,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump we
         </tr>
 </tbody></table><h2>2010</h2><table width='100%' style='width:100%'><thead><tr><th>Project</th><th>View</th><th>Status</th></tr></thead><tbody><tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/lm051-cs4313-c--mysql-example' title='lm051-cs4313-c--mysql-example'>lm051-cs4313-c--mysql-example</a> (2010)</h2></p><p><img src='https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white' title='C++' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/lm051-cs4313-c--mysql-example' title='lm051-cs4313-c--mysql-example'>lm051-cs4313-c--mysql-example</a> (2010)</h2></p><p>C++</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
@@ -1745,7 +1736,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump we
         </tr>
 <tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/mono-gtk-alltomp3' title='mono-gtk-alltomp3'>mono-gtk-alltomp3</a> (2010)</h2></p><p><img src='https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white' title='C#' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/mono-gtk-alltomp3' title='mono-gtk-alltomp3'>mono-gtk-alltomp3</a> (2010)</h2></p><p>C#</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
@@ -1761,7 +1752,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump we
         </tr>
 <tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/lm051-cs4001-computer-applications' title='lm051-cs4001-computer-applications'>lm051-cs4001-computer-applications</a> (2010)</h2></p><p><img src='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' title='Java' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/lm051-cs4001-computer-applications' title='lm051-cs4001-computer-applications'>lm051-cs4001-computer-applications</a> (2010)</h2></p><p>Java</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
@@ -1777,7 +1768,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump we
         </tr>
 <tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/firstQt' title='firstQt'>firstQt</a> (2010)</h2></p><p><img src='https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white' title='C++' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/> <img src='https://img.shields.io/badge/_-QMake -11DDDD.svg?style=for-the-badge' title='QMake' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/firstQt' title='firstQt'>firstQt</a> (2010)</h2></p><p>C++</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
@@ -1793,7 +1784,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump we
         </tr>
 </tbody></table><h2>2009</h2><table width='100%' style='width:100%'><thead><tr><th>Project</th><th>View</th><th>Status</th></tr></thead><tbody><tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/synology-download-assistance-chrome-extension' title='synology-download-assistance-chrome-extension'>synology-download-assistance-chrome-extension</a> (2009)</h2></p><p><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/> <img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML' height='20px'/> <img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP' height='20px'/> <img src='https://img.shields.io/badge/_-SCSS -11DDDD.svg?style=for-the-badge' title='SCSS' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/synology-download-assistance-chrome-extension' title='synology-download-assistance-chrome-extension'>synology-download-assistance-chrome-extension</a> (2009)</h2></p><p>JavaScript</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
@@ -1809,7 +1800,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump we
         </tr>
 <tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/mono-gtk-smart' title='mono-gtk-smart'>mono-gtk-smart</a> (2009)</h2></p><p><img src='https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white' title='C#' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/mono-gtk-smart' title='mono-gtk-smart'>mono-gtk-smart</a> (2009)</h2></p><p>C#</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
@@ -1825,7 +1816,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump we
         </tr>
 <tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/mono-gtk-monomerge' title='mono-gtk-monomerge'>mono-gtk-monomerge</a> (2009)</h2></p><p><img src='https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white' title='C#' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/mono-gtk-monomerge' title='mono-gtk-monomerge'>mono-gtk-monomerge</a> (2009)</h2></p><p>C#</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
@@ -1841,7 +1832,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump we
         </tr>
 <tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/mono-gtk-mimagemagick' title='mono-gtk-mimagemagick'>mono-gtk-mimagemagick</a> (2009)</h2></p><p><img src='https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white' title='C#' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/mono-gtk-mimagemagick' title='mono-gtk-mimagemagick'>mono-gtk-mimagemagick</a> (2009)</h2></p><p>C#</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
@@ -1857,7 +1848,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump we
         </tr>
 <tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/mono-gtk-imdb' title='mono-gtk-imdb'>mono-gtk-imdb</a> (2009)</h2></p><p><img src='https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white' title='C#' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/mono-gtk-imdb' title='mono-gtk-imdb'>mono-gtk-imdb</a> (2009)</h2></p><p>C#</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
@@ -1873,7 +1864,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump we
         </tr>
 <tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/mono-gtk-gtkstarter' title='mono-gtk-gtkstarter'>mono-gtk-gtkstarter</a> (2009)</h2></p><p><img src='https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white' title='C++' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/mono-gtk-gtkstarter' title='mono-gtk-gtkstarter'>mono-gtk-gtkstarter</a> (2009)</h2></p><p>C++</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
@@ -1889,7 +1880,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump we
         </tr>
 <tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/mono-gtk-gtk-foober' title='mono-gtk-gtk-foober'>mono-gtk-gtk-foober</a> (2009)</h2></p><p><img src='https://img.shields.io/badge/_-Roff -11DDDD.svg?style=for-the-badge' title='Roff' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/mono-gtk-gtk-foober' title='mono-gtk-gtk-foober'>mono-gtk-gtk-foober</a> (2009)</h2></p><p>Roff</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
@@ -1905,7 +1896,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump we
         </tr>
 <tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/mono-gtk-gsambamonitor' title='mono-gtk-gsambamonitor'>mono-gtk-gsambamonitor</a> (2009)</h2></p><p><img src='https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white' title='C#' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/mono-gtk-gsambamonitor' title='mono-gtk-gsambamonitor'>mono-gtk-gsambamonitor</a> (2009)</h2></p><p>C#</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
@@ -1921,7 +1912,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump we
         </tr>
 <tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/mono-gtk-gmx' title='mono-gtk-gmx'>mono-gtk-gmx</a> (2009)</h2></p><p><img src='https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white' title='C#' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/mono-gtk-gmx' title='mono-gtk-gmx'>mono-gtk-gmx</a> (2009)</h2></p><p>C#</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
@@ -1937,7 +1928,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump we
         </tr>
 <tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/mono-gtk-gmpd' title='mono-gtk-gmpd'>mono-gtk-gmpd</a> (2009)</h2></p><p><img src='https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white' title='C#' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/mono-gtk-gmpd' title='mono-gtk-gmpd'>mono-gtk-gmpd</a> (2009)</h2></p><p>C#</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
@@ -1953,7 +1944,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump we
         </tr>
 <tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/mono-gtk-galarm' title='mono-gtk-galarm'>mono-gtk-galarm</a> (2009)</h2></p><p><img src='https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white' title='C#' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/mono-gtk-galarm' title='mono-gtk-galarm'>mono-gtk-galarm</a> (2009)</h2></p><p>C#</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
@@ -1969,7 +1960,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump we
         </tr>
 <tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/mono-gtk-filecleaner' title='mono-gtk-filecleaner'>mono-gtk-filecleaner</a> (2009)</h2></p><p><img src='https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white' title='C#' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/mono-gtk-filecleaner' title='mono-gtk-filecleaner'>mono-gtk-filecleaner</a> (2009)</h2></p><p>C#</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
@@ -1985,7 +1976,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump we
         </tr>
 <tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/lm051-cs4146-document-architectures' title='lm051-cs4146-document-architectures'>lm051-cs4146-document-architectures</a> (2009)</h2></p><p><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/> <img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/lm051-cs4146-document-architectures' title='lm051-cs4146-document-architectures'>lm051-cs4146-document-architectures</a> (2009)</h2></p><p>JavaScript</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
@@ -2001,7 +1992,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump we
         </tr>
 <tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/lm051-cs4023-operating-systems-threading' title='lm051-cs4023-operating-systems-threading'>lm051-cs4023-operating-systems-threading</a> (2009)</h2></p><p><img src='https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white' title='C' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/lm051-cs4023-operating-systems-threading' title='lm051-cs4023-operating-systems-threading'>lm051-cs4023-operating-systems-threading</a> (2009)</h2></p><p>C</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
@@ -2017,7 +2008,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump we
         </tr>
 <tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/lm051-cs4012-data-representation-modelling-website' title='lm051-cs4012-data-representation-modelling-website'>lm051-cs4012-data-representation-modelling-website</a> (2009)</h2></p><p><img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/lm051-cs4012-data-representation-modelling-website' title='lm051-cs4012-data-representation-modelling-website'>lm051-cs4012-data-representation-modelling-website</a> (2009)</h2></p><p>HTML</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
@@ -2033,7 +2024,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump we
         </tr>
 <tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/dartboard-automatic-calculator' title='dartboard-automatic-calculator'>dartboard-automatic-calculator</a> (2009)</h2></p><p><img src='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' title='Java' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/dartboard-automatic-calculator' title='dartboard-automatic-calculator'>dartboard-automatic-calculator</a> (2009)</h2></p><p>Java</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
@@ -2049,7 +2040,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump we
         </tr>
 </tbody></table><h2>2008</h2><table width='100%' style='width:100%'><thead><tr><th>Project</th><th>View</th><th>Status</th></tr></thead><tbody><tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/gdownload' title='gdownload'>gdownload</a> (2008)</h2></p><p><img src='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' title='Java' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/gdownload' title='gdownload'>gdownload</a> (2008)</h2></p><p>Java</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
@@ -2065,7 +2056,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump we
         </tr>
 </tbody></table><h2>2007</h2><table width='100%' style='width:100%'><thead><tr><th>Project</th><th>View</th><th>Status</th></tr></thead><tbody><tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/localmini' title='localmini'>localmini</a> (2007)</h2></p><p><img src='https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white' title='C#' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/localmini' title='localmini'>localmini</a> (2007)</h2></p><p>C#</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
@@ -2081,7 +2072,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump we
         </tr>
 <tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/lm051-konane' title='lm051-konane'>lm051-konane</a> (2007)</h2></p><p><img src='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' title='Java' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/lm051-konane' title='lm051-konane'>lm051-konane</a> (2007)</h2></p><p>Java</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
@@ -2097,7 +2088,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump we
         </tr>
 </tbody></table><h2>2006</h2><table width='100%' style='width:100%'><thead><tr><th>Project</th><th>View</th><th>Status</th></tr></thead><tbody><tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/www.tadpole.tk' title='www.tadpole.tk'>www.tadpole.tk</a> (2006)</h2></p><p><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML' height='20px'/> <img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/> <img src='https://img.shields.io/badge/_-Hack -11DDDD.svg?style=for-the-badge' title='Hack' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/www.tadpole.tk' title='www.tadpole.tk'>www.tadpole.tk</a> (2006)</h2></p><p>JavaScript</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
@@ -2113,7 +2104,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump we
         </tr>
 <tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/screensaver' title='screensaver'>screensaver</a> (2006)</h2></p><p><img src='https://img.shields.io/badge/_-Visual Basic .NET -11DDDD.svg?style=for-the-badge' title='Visual Basic .NET' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/screensaver' title='screensaver'>screensaver</a> (2006)</h2></p><p>Visual Basic .NET</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
@@ -2129,7 +2120,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump we
         </tr>
 <tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/php-sockets' title='php-sockets'>php-sockets</a> (2006)</h2></p><p><img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/php-sockets' title='php-sockets'>php-sockets</a> (2006)</h2></p><p>PHP</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
@@ -2145,7 +2136,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump we
         </tr>
 <tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/php-gd-playing' title='php-gd-playing'>php-gd-playing</a> (2006)</h2></p><p><img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP' height='20px'/> <img src='https://img.shields.io/badge/_-Hack -11DDDD.svg?style=for-the-badge' title='Hack' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/php-gd-playing' title='php-gd-playing'>php-gd-playing</a> (2006)</h2></p><p>PHP</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
@@ -2161,7 +2152,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump we
         </tr>
 <tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/killboard.unknown-heroes.com' title='killboard.unknown-heroes.com'>killboard.unknown-heroes.com</a> (2006)</h2></p><p><img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP' height='20px'/> <img src='https://img.shields.io/badge/_-Smarty -11DDDD.svg?style=for-the-badge' title='Smarty' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/killboard.unknown-heroes.com' title='killboard.unknown-heroes.com'>killboard.unknown-heroes.com</a> (2006)</h2></p><p>PHP</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
@@ -2177,7 +2168,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump we
         </tr>
 <tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/clickhere-screensheild-delay' title='clickhere-screensheild-delay'>clickhere-screensheild-delay</a> (2006)</h2></p><p><img src='https://img.shields.io/badge/_-Visual Basic .NET -11DDDD.svg?style=for-the-badge' title='Visual Basic .NET' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/clickhere-screensheild-delay' title='clickhere-screensheild-delay'>clickhere-screensheild-delay</a> (2006)</h2></p><p>Visual Basic .NET</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
@@ -2193,7 +2184,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump we
         </tr>
 <tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/apache2-virtualhost-generator' title='apache2-virtualhost-generator'>apache2-virtualhost-generator</a> (2006)</h2></p><p><img src='https://img.shields.io/badge/_-Visual Basic .NET -11DDDD.svg?style=for-the-badge' title='Visual Basic .NET' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/apache2-virtualhost-generator' title='apache2-virtualhost-generator'>apache2-virtualhost-generator</a> (2006)</h2></p><p>Visual Basic .NET</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
@@ -2209,7 +2200,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump we
         </tr>
 </tbody></table><h2>2005</h2><table width='100%' style='width:100%'><thead><tr><th>Project</th><th>View</th><th>Status</th></tr></thead><tbody><tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/www.livingartcork.com' title='www.livingartcork.com'>www.livingartcork.com</a> (2005)</h2></p><p><img src='https://img.shields.io/badge/_-Hack -11DDDD.svg?style=for-the-badge' title='Hack' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/www.livingartcork.com' title='www.livingartcork.com'>www.livingartcork.com</a> (2005)</h2></p><p>Hack</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
@@ -2225,7 +2216,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump we
         </tr>
 <tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/www.feeditout.com' title='www.feeditout.com'>www.feeditout.com</a> (2005)</h2></p><p><img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP' height='20px'/> <img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/www.feeditout.com' title='www.feeditout.com'>www.feeditout.com</a> (2005)</h2></p><p>PHP</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
@@ -2241,7 +2232,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump we
         </tr>
 <tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/www.biosed.org' title='www.biosed.org'>www.biosed.org</a> (2005)</h2></p><p><img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/> <img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML' height='20px'/> <img src='https://img.shields.io/badge/_-Hack -11DDDD.svg?style=for-the-badge' title='Hack' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/www.biosed.org' title='www.biosed.org'>www.biosed.org</a> (2005)</h2></p><p>PHP</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
@@ -2257,7 +2248,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump we
         </tr>
 <tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/wpc-client' title='wpc-client'>wpc-client</a> (2005)</h2></p><p><img src='https://img.shields.io/badge/_-Visual Basic .NET -11DDDD.svg?style=for-the-badge' title='Visual Basic .NET' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/wpc-client' title='wpc-client'>wpc-client</a> (2005)</h2></p><p>Visual Basic .NET</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
@@ -2273,7 +2264,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump we
         </tr>
 <tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/sender' title='sender'>sender</a> (2005)</h2></p><p><img src='https://img.shields.io/badge/_-Visual Basic .NET -11DDDD.svg?style=for-the-badge' title='Visual Basic .NET' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/sender' title='sender'>sender</a> (2005)</h2></p><p>Visual Basic .NET</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
@@ -2289,7 +2280,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump we
         </tr>
 <tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/remote-process-control' title='remote-process-control'>remote-process-control</a> (2005)</h2></p><p><img src='https://img.shields.io/badge/_-Visual Basic .NET -11DDDD.svg?style=for-the-badge' title='Visual Basic .NET' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/remote-process-control' title='remote-process-control'>remote-process-control</a> (2005)</h2></p><p>Visual Basic .NET</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
@@ -2305,7 +2296,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump we
         </tr>
 <tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/ping' title='ping'>ping</a> (2005)</h2></p><p><img src='https://img.shields.io/badge/_-Visual Basic .NET -11DDDD.svg?style=for-the-badge' title='Visual Basic .NET' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/ping' title='ping'>ping</a> (2005)</h2></p><p>Visual Basic .NET</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
@@ -2321,7 +2312,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump we
         </tr>
 <tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/netsend' title='netsend'>netsend</a> (2005)</h2></p><p><img src='https://img.shields.io/badge/_-Visual Basic .NET -11DDDD.svg?style=for-the-badge' title='Visual Basic .NET' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/netsend' title='netsend'>netsend</a> (2005)</h2></p><p>Visual Basic .NET</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
@@ -2337,7 +2328,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump we
         </tr>
 <tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/mysqltest' title='mysqltest'>mysqltest</a> (2005)</h2></p><p><img src='https://img.shields.io/badge/_-Visual Basic .NET -11DDDD.svg?style=for-the-badge' title='Visual Basic .NET' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/mysqltest' title='mysqltest'>mysqltest</a> (2005)</h2></p><p>Visual Basic .NET</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
@@ -2353,7 +2344,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump we
         </tr>
 <tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/lm051' title='lm051'>lm051</a> (2005)</h2></p><p><img src='https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white' title='TeX' height='20px'/> <img src='https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white' title='C#' height='20px'/> <img src='https://img.shields.io/badge/_-Rich Text Format -11DDDD.svg?style=for-the-badge' title='Rich Text Format' height='20px'/> <img src='https://img.shields.io/badge/_-XSLT -11DDDD.svg?style=for-the-badge' title='XSLT' height='20px'/> <img src='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' title='Java' height='20px'/> <img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/lm051' title='lm051'>lm051</a> (2005)</h2></p><p>TeX</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
@@ -2369,7 +2360,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump we
         </tr>
 <tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/lansecure' title='lansecure'>lansecure</a> (2005)</h2></p><p><img src='https://img.shields.io/badge/_-Visual Basic .NET -11DDDD.svg?style=for-the-badge' title='Visual Basic .NET' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/lansecure' title='lansecure'>lansecure</a> (2005)</h2></p><p>Visual Basic .NET</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
@@ -2385,7 +2376,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump we
         </tr>
 <tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/fr00t' title='fr00t'>fr00t</a> (2005)</h2></p><p><img src='https://img.shields.io/badge/_-Visual Basic .NET -11DDDD.svg?style=for-the-badge' title='Visual Basic .NET' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/fr00t' title='fr00t'>fr00t</a> (2005)</h2></p><p>Visual Basic .NET</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
@@ -2401,7 +2392,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump we
         </tr>
 <tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/clickhere-machine-configurator' title='clickhere-machine-configurator'>clickhere-machine-configurator</a> (2005)</h2></p><p><img src='https://img.shields.io/badge/_-Visual Basic .NET -11DDDD.svg?style=for-the-badge' title='Visual Basic .NET' height='20px'/> <img src='https://img.shields.io/badge/_-XSLT -11DDDD.svg?style=for-the-badge' title='XSLT' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/clickhere-machine-configurator' title='clickhere-machine-configurator'>clickhere-machine-configurator</a> (2005)</h2></p><p>Visual Basic .NET</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
@@ -2417,7 +2408,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump we
         </tr>
 <tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/clickhere-interopservices-workgroup-machines' title='clickhere-interopservices-workgroup-machines'>clickhere-interopservices-workgroup-machines</a> (2005)</h2></p><p><img src='https://img.shields.io/badge/_-Visual Basic .NET -11DDDD.svg?style=for-the-badge' title='Visual Basic .NET' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/clickhere-interopservices-workgroup-machines' title='clickhere-interopservices-workgroup-machines'>clickhere-interopservices-workgroup-machines</a> (2005)</h2></p><p>Visual Basic .NET</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
@@ -2433,7 +2424,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump we
         </tr>
 <tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/apache-config-gui' title='apache-config-gui'>apache-config-gui</a> (2005)</h2></p><p><img src='https://img.shields.io/badge/_-Visual Basic .NET -11DDDD.svg?style=for-the-badge' title='Visual Basic .NET' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/apache-config-gui' title='apache-config-gui'>apache-config-gui</a> (2005)</h2></p><p>Visual Basic .NET</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
@@ -2449,7 +2440,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump we
         </tr>
 <tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/advanced-net-sender' title='advanced-net-sender'>advanced-net-sender</a> (2005)</h2></p><p><img src='https://img.shields.io/badge/_-Visual Basic .NET -11DDDD.svg?style=for-the-badge' title='Visual Basic .NET' height='20px'/> <img src='https://img.shields.io/badge/_-XSLT -11DDDD.svg?style=for-the-badge' title='XSLT' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/advanced-net-sender' title='advanced-net-sender'>advanced-net-sender</a> (2005)</h2></p><p>Visual Basic .NET</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
@@ -2465,7 +2456,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump we
         </tr>
 </tbody></table><h2>2004</h2><table width='100%' style='width:100%'><thead><tr><th>Project</th><th>View</th><th>Status</th></tr></thead><tbody><tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/www.feeditout.com2' title='www.feeditout.com2'>www.feeditout.com2</a> (2004)</h2></p><p><img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP' height='20px'/> <img src='https://img.shields.io/badge/_-Hack -11DDDD.svg?style=for-the-badge' title='Hack' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/www.feeditout.com2' title='www.feeditout.com2'>www.feeditout.com2</a> (2004)</h2></p><p>PHP</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
@@ -2481,7 +2472,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump we
         </tr>
 <tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/wpc-administrator' title='wpc-administrator'>wpc-administrator</a> (2004)</h2></p><p><img src='https://img.shields.io/badge/_-Visual Basic .NET -11DDDD.svg?style=for-the-badge' title='Visual Basic .NET' height='20px'/> <img src='https://img.shields.io/badge/_-XSLT -11DDDD.svg?style=for-the-badge' title='XSLT' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/wpc-administrator' title='wpc-administrator'>wpc-administrator</a> (2004)</h2></p><p>Visual Basic .NET</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
@@ -2497,7 +2488,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump we
         </tr>
 <tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/simple-send-source' title='simple-send-source'>simple-send-source</a> (2004)</h2></p><p><img src='https://img.shields.io/badge/_-Visual Basic .NET -11DDDD.svg?style=for-the-badge' title='Visual Basic .NET' height='20px'/> <img src='https://img.shields.io/badge/_-XSLT -11DDDD.svg?style=for-the-badge' title='XSLT' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/simple-send-source' title='simple-send-source'>simple-send-source</a> (2004)</h2></p><p>Visual Basic .NET</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
@@ -2513,7 +2504,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump we
         </tr>
 <tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/network-utility' title='network-utility'>network-utility</a> (2004)</h2></p><p><img src='https://img.shields.io/badge/_-Visual Basic .NET -11DDDD.svg?style=for-the-badge' title='Visual Basic .NET' height='20px'/> <img src='https://img.shields.io/badge/_-XSLT -11DDDD.svg?style=for-the-badge' title='XSLT' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/network-utility' title='network-utility'>network-utility</a> (2004)</h2></p><p>Visual Basic .NET</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
@@ -2529,7 +2520,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump we
         </tr>
 <tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/lm051-cs4512-imperative-programming-projects' title='lm051-cs4512-imperative-programming-projects'>lm051-cs4512-imperative-programming-projects</a> (2004)</h2></p><p><img src='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' title='Java' height='20px'/> <img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/lm051-cs4512-imperative-programming-projects' title='lm051-cs4512-imperative-programming-projects'>lm051-cs4512-imperative-programming-projects</a> (2004)</h2></p><p>Java</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
@@ -2545,7 +2536,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump we
         </tr>
 <tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/forum.unknown-heroes.com' title='forum.unknown-heroes.com'>forum.unknown-heroes.com</a> (2004)</h2></p><p><img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP' height='20px'/> <img src='https://img.shields.io/badge/_-Smarty -11DDDD.svg?style=for-the-badge' title='Smarty' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/forum.unknown-heroes.com' title='forum.unknown-heroes.com'>forum.unknown-heroes.com</a> (2004)</h2></p><p>PHP</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
@@ -2561,7 +2552,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump we
         </tr>
 <tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/asocket-example' title='asocket-example'>asocket-example</a> (2004)</h2></p><p><img src='https://img.shields.io/badge/_-Visual Basic .NET -11DDDD.svg?style=for-the-badge' title='Visual Basic .NET' height='20px'/> <img src='https://img.shields.io/badge/_-XSLT -11DDDD.svg?style=for-the-badge' title='XSLT' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/asocket-example' title='asocket-example'>asocket-example</a> (2004)</h2></p><p>Visual Basic .NET</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
@@ -2577,7 +2568,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump we
         </tr>
 </tbody></table><h2>2003</h2><table width='100%' style='width:100%'><thead><tr><th>Project</th><th>View</th><th>Status</th></tr></thead><tbody><tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/www.antoyau.com' title='www.antoyau.com'>www.antoyau.com</a> (2003)</h2></p><p><img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP' height='20px'/> <img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML' height='20px'/> <img src='https://img.shields.io/badge/_-Hack -11DDDD.svg?style=for-the-badge' title='Hack' height='20px'/> <img src='https://img.shields.io/badge/_-AngelScript -11DDDD.svg?style=for-the-badge' title='AngelScript' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/_-ActionScript -11DDDD.svg?style=for-the-badge' title='ActionScript' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/www.antoyau.com' title='www.antoyau.com'>www.antoyau.com</a> (2003)</h2></p><p>PHP</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
@@ -2593,7 +2584,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump we
         </tr>
 <tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/qtclub' title='qtclub'>qtclub</a> (2003)</h2></p><p><img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP' height='20px'/> <img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML' height='20px'/> <img src='https://img.shields.io/badge/_-Hack -11DDDD.svg?style=for-the-badge' title='Hack' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/qtclub' title='qtclub'>qtclub</a> (2003)</h2></p><p>PHP</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>

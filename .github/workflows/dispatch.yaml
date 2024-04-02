@@ -862,7 +862,7 @@ jobs:
   pypi:
     if: inputs.pypi-extension != 'false'
     name: Pypi publish
-    needs: bump-versions
+    needs: create-release
     runs-on: ubuntu-latest
     steps:
       - name: Checkout

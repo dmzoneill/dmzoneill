@@ -941,7 +941,18 @@ jobs:
           name: ${{ env.PACKAGE_NAME }}_${{ env.PACKAGE_VERSION }}.deb
           path: ./*.deb
 
+      - name: Check if release already exists
+        id: check_release
+        run: |
+          RELEASE_EXISTS=$(curl -s -o /dev/null -w "%{http_code}" https://api.github.com/repos/${{ github.repository }}/releases/tags/v${{ env.PACKAGE_VERSION }})
+          if [[ $RELEASE_EXISTS -eq 404 ]]; then
+            echo "RELEASE_EXISTS=false" >> $GITHUB_ENV
+          else
+            echo "RELEASE_EXISTS=true" >> $GITHUB_ENV
+          fi
+      
       - name: Create GitHub release
+        if: env.RELEASE_EXISTS == 'false'
         id: create_release
         uses: actions/create-release@v1
         env:
@@ -999,7 +1010,18 @@ jobs:
           name: ${{ env.PACKAGE_NAME }}-0.${{ env.PACKAGE_VERSION }}.rpm
           path: ./rpmbuild/RPMS/x86_64/${{ env.PACKAGE_NAME }}-${{ env.PACKAGE_VERSION }}-1.x86_64.rpm
 
+      - name: Check if release already exists
+        id: check_release
+        run: |
+          RELEASE_EXISTS=$(curl -s -o /dev/null -w "%{http_code}" https://api.github.com/repos/${{ github.repository }}/releases/tags/v${{ env.PACKAGE_VERSION }})
+          if [[ $RELEASE_EXISTS -eq 404 ]]; then
+            echo "RELEASE_EXISTS=false" >> $GITHUB_ENV
+          else
+            echo "RELEASE_EXISTS=true" >> $GITHUB_ENV
+          fi
+      
       - name: Create GitHub release
+        if: env.RELEASE_EXISTS == 'false'
         id: create_release
         uses: actions/create-release@v1
         env:

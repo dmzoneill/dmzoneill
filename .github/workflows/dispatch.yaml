@@ -982,11 +982,8 @@ jobs:
         run: |
           echo "APP_NAME=$(echo "${{ github.repository }}" | awk -F'/' '{print tolower($2)}')" >> $GITHUB_ENV
   
-      - name: build RPM package
-        id: rpm
-        uses: naveenrajm7/rpmbuild@master
-        with:
-          spec_file: ${{ env.APP_NAME }}.spec
+      - name: Build Debian package
+        run: make rpm
 
       - name: Get package name and version
         id: get_package_info
@@ -999,7 +996,7 @@ jobs:
       - name: Store rpm package as artifact
         uses: actions/upload-artifact@v1.0.0
         with:
-          name: ${{ env.PACKAGE_NAME }}_${{ env.PACKAGE_VERSION }}.rpm
+          name: ${{ env.PACKAGE_NAME }}-0.${{ env.PACKAGE_VERSION }}.rpm
           path: ${{ steps.rpm.outputs.rpm_dir_path }}
 
       - name: Create GitHub release
@@ -1015,7 +1012,7 @@ jobs:
           prerelease: false
 
       - name: Set asset path
-        run: echo "ASSET_PATH=${{ env.PACKAGE_NAME }}_${{ env.PACKAGE_VERSION }}.deb" >> $GITHUB_ENV
+        run: echo "ASSET_PATH=${{ env.PACKAGE_NAME }}-0.${{ env.PACKAGE_VERSION }}.rpm" >> $GITHUB_ENV
 
       - name: Upload Debian package as release asset
         id: upload-release-asset
@@ -1025,7 +1022,7 @@ jobs:
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
           asset_path: ${{ env.ASSET_PATH }}
-          asset_name: ${{ env.PACKAGE_NAME }}_${{ env.PACKAGE_VERSION }}.rpm
+          asset_name: ${{ env.PACKAGE_NAME }}-0.${{ env.PACKAGE_VERSION }}.rpm
           asset_content_type: application/octet-stream
 
   npmjs:

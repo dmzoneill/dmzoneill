@@ -982,7 +982,7 @@ jobs:
         run: |
           echo "APP_NAME=$(echo "${{ github.repository }}" | awk -F'/' '{print tolower($2)}')" >> $GITHUB_ENV
   
-      - name: Build Debian package
+      - name: Build RPM package
         run: make rpm
 
       - name: Get package name and version
@@ -1014,7 +1014,7 @@ jobs:
       - name: Set asset path
         run: echo "ASSET_PATH=./rpmbuild/RPMS/x86_64/${{ env.PACKAGE_NAME }}-0.${{ env.PACKAGE_VERSION }}.rpm" >> $GITHUB_ENV
 
-      - name: Upload Debian package as release asset
+      - name: Upload RPM package as release asset
         id: upload-release-asset
         uses: actions/upload-release-asset@v1
         env:

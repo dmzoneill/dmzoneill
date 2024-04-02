@@ -997,7 +997,7 @@ jobs:
         uses: actions/upload-artifact@v1.0.0
         with:
           name: ${{ env.PACKAGE_NAME }}-0.${{ env.PACKAGE_VERSION }}.rpm
-          path: ./rpmbuild/RPMS/x86_64/${{ env.PACKAGE_NAME }}-0.${{ env.PACKAGE_VERSION }}.rpm
+          path: ./rpmbuild/RPMS/x86_64/${{ env.PACKAGE_NAME }}-0.${{ env.PACKAGE_VERSION }}-1.rpm
 
       - name: Create GitHub release
         id: create_release
@@ -1012,7 +1012,7 @@ jobs:
           prerelease: false
 
       - name: Set asset path
-        run: echo "ASSET_PATH=./rpmbuild/RPMS/x86_64/${{ env.PACKAGE_NAME }}-0.${{ env.PACKAGE_VERSION }}.rpm" >> $GITHUB_ENV
+        run: echo "ASSET_PATH=./rpmbuild/RPMS/x86_64/${{ env.PACKAGE_NAME }}-0.${{ env.PACKAGE_VERSION }}-1.rpm" >> $GITHUB_ENV
 
       - name: Upload RPM package as release asset
         id: upload-release-asset
@@ -1022,7 +1022,7 @@ jobs:
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
           asset_path: ${{ env.ASSET_PATH }}
-          asset_name: ${{ env.PACKAGE_NAME }}-0.${{ env.PACKAGE_VERSION }}.rpm
+          asset_name: ${{ env.PACKAGE_NAME }}-0.${{ env.PACKAGE_VERSION }}-1.rpm
           asset_content_type: application/octet-stream
 
   npmjs:

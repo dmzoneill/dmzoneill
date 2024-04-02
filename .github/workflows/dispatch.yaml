@@ -786,11 +786,39 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH_NAME: 'main'
 
+  create-release:
+    name: Create github release
+    needs: bump-versions
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+  
+      - name: Get version
+        id: get_package_info
+        run: |
+          package_version=$(grep '^Version:' control | cut -d' ' -f2-)
+          echo "PACKAGE_VERSION=${package_version}" >> $GITHUB_ENV  
+      
+      - name: Create GitHub release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: v${{ env.PACKAGE_VERSION }}
+          release_name: Release v${{ env.PACKAGE_VERSION }}
+          body: ""
+          draft: false
+          prerelease: false
+
   chrome:
     if: inputs.chrome-extension != 'false'   
     name: Chrome publish
     runs-on: ubuntu-latest
-    needs: bump-versions
+    needs: create-release
     env:
       EXTENSION_ID: ${{ inputs.chrome-extension }}
     steps:
@@ -859,7 +887,7 @@ jobs:
   gnome:
     if: inputs.gnome-extension != 'false'
     name: Gnome publish
-    needs: bump-versions
+    needs: create-release
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -897,7 +925,7 @@ jobs:
   pling:
     if: inputs.pling != 'false'
     name: Pling publish
-    needs: bump-versions
+    needs: create-release
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -916,7 +944,7 @@ jobs:
   deb:
     if: inputs.deb-build != 'false'
     name: Deb publish
-    needs: bump-versions
+    needs: create-release
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -940,32 +968,15 @@ jobs:
         with:
           name: ${{ env.PACKAGE_NAME }}_${{ env.PACKAGE_VERSION }}.deb
           path: ./*.deb
-
-      - name: Check if release already exists
-        id: check_release
-        run: |
-          RELEASE_EXISTS=$(curl -s -o /dev/null -w "%{http_code}" https://api.github.com/repos/${{ github.repository }}/releases/tags/v${{ env.PACKAGE_VERSION }})
-          if [[ $RELEASE_EXISTS -eq 404 ]]; then
-            echo "RELEASE_EXISTS=false" >> $GITHUB_ENV
-          else
-            echo "RELEASE_EXISTS=true" >> $GITHUB_ENV
-          fi
       
-      - name: Create GitHub release
-        if: env.RELEASE_EXISTS == 'false'
-        id: create_release
-        uses: actions/create-release@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          tag_name: v${{ env.PACKAGE_VERSION }}
-          release_name: Release v${{ env.PACKAGE_VERSION }}
-          body: Release notes go here
-          draft: false
-          prerelease: false
-
       - name: Set asset path
         run: echo "ASSET_PATH=${{ env.PACKAGE_NAME }}_${{ env.PACKAGE_VERSION }}.deb" >> $GITHUB_ENV
+
+      - name: Get Release Information
+        id: get_release_info
+        run: |
+          UPLOAD_URL=$(curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" https://api.github.com/repos/${{ github.repository }}/releases/tags/v${{ env.PACKAGE_VERSION }} | jq -r '.upload_url')
+          echo "UPLOAD_URL=$UPLOAD_URL" >> $GITHUB_ENV
 
       - name: Upload Debian package as release asset
         id: upload-release-asset
@@ -973,7 +984,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          upload_url: ${{ env.UPLOAD_URL }}
           asset_path: ${{ env.ASSET_PATH }}
           asset_name: ${{ env.PACKAGE_NAME }}_${{ env.PACKAGE_VERSION }}.deb
           asset_content_type: application/octet-stream
@@ -981,7 +992,7 @@ jobs:
   rpm:
     if: inputs.rpm-build != 'false'
     name: Rpm publish
-    needs: bump-versions
+    needs: create-release
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -1009,32 +1020,15 @@ jobs:
         with:
           name: ${{ env.PACKAGE_NAME }}-0.${{ env.PACKAGE_VERSION }}.rpm
           path: ./rpmbuild/RPMS/x86_64/${{ env.PACKAGE_NAME }}-${{ env.PACKAGE_VERSION }}-1.x86_64.rpm
-
-      - name: Check if release already exists
-        id: check_release
-        run: |
-          RELEASE_EXISTS=$(curl -s -o /dev/null -w "%{http_code}" https://api.github.com/repos/${{ github.repository }}/releases/tags/v${{ env.PACKAGE_VERSION }})
-          if [[ $RELEASE_EXISTS -eq 404 ]]; then
-            echo "RELEASE_EXISTS=false" >> $GITHUB_ENV
-          else
-            echo "RELEASE_EXISTS=true" >> $GITHUB_ENV
-          fi
       
-      - name: Create GitHub release
-        if: env.RELEASE_EXISTS == 'false'
-        id: create_release
-        uses: actions/create-release@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          tag_name: v${{ env.PACKAGE_VERSION }}
-          release_name: Release v${{ env.PACKAGE_VERSION }}
-          body: Release notes go here
-          draft: false
-          prerelease: false
-
       - name: Set asset path
         run: echo "ASSET_PATH=./rpmbuild/RPMS/x86_64/${{ env.PACKAGE_NAME }}-${{ env.PACKAGE_VERSION }}-1.x86_64.rpm" >> $GITHUB_ENV
+
+      - name: Get Release Information
+        id: get_release_info
+        run: |
+          UPLOAD_URL=$(curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" https://api.github.com/repos/${{ github.repository }}/releases/tags/v${{ env.PACKAGE_VERSION }} | jq -r '.upload_url')
+          echo "UPLOAD_URL=$UPLOAD_URL" >> $GITHUB_ENV
 
       - name: Upload RPM package as release asset
         id: upload-release-asset
@@ -1042,7 +1036,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          upload_url: ${{ env.UPLOAD_URL }}
           asset_path: ${{ env.ASSET_PATH }}
           asset_name: ${{ env.PACKAGE_NAME }}-${{ env.PACKAGE_VERSION }}-1.x86_64.rpm
           asset_content_type: application/octet-stream
@@ -1050,7 +1044,7 @@ jobs:
   npmjs:
     if: inputs.npmjs != 'false'
     name: Npmjs publish
-    needs: bump-versions
+    needs: create-release
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -1072,7 +1066,7 @@ jobs:
     if: inputs.docker-build != 'false'
     name: Docker publish
     runs-on: ubuntu-latest
-    needs: bump-versions
+    needs: create-release
     steps:
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v3
@@ -1123,7 +1117,7 @@ jobs:
 
   flatpak:
     if: inputs.flatpak-build != 'false'
-    needs: bump-versions
+    needs: create-release
     name: Flatpak publish
     runs-on: ubuntu-22.04    
     steps:

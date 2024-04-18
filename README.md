@@ -1,14 +1,14 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-17/04/2024 00:33:09-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-18/04/2024 00:32:09-brightgreen" height='28'/>
 
 <table>
   <tr>
     <td>
-      <h3>Issues (16)</h3>
+      <h3>Issues (17)</h3>
       <li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/23'>Track Format & FFMPEG not adding metadata</a> 2024-03-25</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/21'>Issue with Lidarr recognizing downloaded audio and incorrect metadata in Jellyfin</a> 2024-02-23</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/13'>Alittle help with docker compose</a> 2024-03-25</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/12'>REQ: Ability to set percentage match cutoff and/or keyword blacklist such as "live" or whitelist "official" in title.</a> 2024-03-25</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/11'>Deployment Loop and "workaround".</a> 2023-05-10</li>
-      <h3>Pull Requests (6)</h3>
-      <ul><li><a href='https://github.com/dmzoneill/Chuckbot/pull/18'>Bump tar from 6.2.0 to 6.2.1</a> 2024-04-11</li><li><a href='https://github.com/dmzoneill/Chuckbot/pull/17'>Bump undici from 5.28.3 to 5.28.4</a> 2024-04-04</li><li><a href='https://github.com/dmzoneill/Chuckbot/pull/16'>Bump express from 4.18.2 to 4.19.2</a> 2024-03-28</li><li><a href='https://github.com/dmzoneill/aa-dns-checker/pull/3'>Bump idna from 3.6 to 3.7</a> 2024-04-12</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/22'>Bump express from 4.18.1 to 4.19.2 in /frontend</a> 2024-03-28</li></ul>
+      <h3>Pull Requests (7)</h3>
+      <ul><li><a href='https://github.com/dmzoneill/Chuckbot/pull/18'>Bump tar from 6.2.0 to 6.2.1</a> 2024-04-11</li><li><a href='https://github.com/dmzoneill/Chuckbot/pull/17'>Bump undici from 5.28.3 to 5.28.4</a> 2024-04-04</li><li><a href='https://github.com/dmzoneill/Chuckbot/pull/16'>Bump express from 4.18.2 to 4.19.2</a> 2024-03-28</li><li><a href='https://github.com/dmzoneill/aa-dns-checker/pull/4'>Bump gunicorn from 20.1.0 to 22.0.0</a> 2024-04-17</li><li><a href='https://github.com/dmzoneill/aa-dns-checker/pull/3'>Bump idna from 3.6 to 3.7</a> 2024-04-12</li></ul>
       <h3>Recent Acivity</h3>
-      <ul><li><a href='https://github.com/dmzoneill/pass-totp/commit/a23eb5ea660450a49bc2dea1263f1e8889ce7229'>add github action and setup secret</a></li><li><a href='https://github.com/dmzoneill/pass-totp/commit/b05e637269ded01b3a08edf2e5fbc79ea0f2f580'>Add totp script</a></li><li><a href='dmzoneill/pass-totp'>https://api.github.com/repos/dmzoneill/pass-totp</a></li><li><a href='dmzoneill/pass-totp'>https://api.github.com/repos/dmzoneill/pass-totp</a></li><li><a href='https://github.com/open-wa/wa-automate-nodejs/issues/3180'> Error upon restarting application: Checking session integrity > Session integrity check failed, trying again... 2 > WAPI inject: 3ms</a></li></ul>
+      <ul><li><a href='https://github.com/Redhat-forks/ansible-sign/commit/4f50ab48b6559cd290501d1ab735c082d5fe9acd'>Upgrade to python 3.11</a></li><li><a href='Upgrade to python 3.11'>https://github.com/ansible/ansible-sign/pull/52</a></li><li><a href='https://github.com/Redhat-forks/ansible-sign/commit/ee3ea51add8c061bd36bde1d6df7746847ec159e'>Initial commit</a></li><li><a href='Redhat-forks/ansible-sign'>https://api.github.com/repos/Redhat-forks/ansible-sign</a></li><li><a href='https://github.com/dmzoneill/pass-totp/commit/764e578f8f5382b214dd964b6aa42750fbd76c91'>Sync script</a></li></ul>
       <h3>Gists</h3>
       <ul><li><a href='https://gist.github.com/dmzoneill/f234183850275c36dd43564e81126338'>fail ci with approvers</a></li><li><a href='https://gist.github.com/dmzoneill/b3dace5030bea5d05211cbf1a74d7140'>PostGres Enum Errors</a></li><li><a href='https://gist.github.com/dmzoneill/daef323146469618c550241f35e4b503'>AWX Strings 1</a></li><li><a href='https://gist.github.com/dmzoneill/809f32f1ca301ce6f0dc2bad741ec15e'>AWX Strings 2</a></li><li><a href='https://gist.github.com/dmzoneill/4f1a46c512245a21ce819a9f465679aa'>AWX development on kind</a></li><li><a href='https://gist.github.com/dmzoneill/664484ef2b798118a83347205f84c66b'>keybase.md</a></li><li><a href='https://gist.github.com/dmzoneill/67a908fb949dc95bbbf02f0446a07f0a'>durex fun</a></li><li><a href='https://gist.github.com/dmzoneill/d13d88b16d4d0aa90cb108a00ab3cf01'>10GB tuning</a></li><li><a href='https://gist.github.com/dmzoneill/575ba9c32375c41cb1041e9064de0678'>Synology 108tb limit bypass</a></li><li><a href='https://gist.github.com/dmzoneill/cbc75e502dbe2b78651f68d6320b714a'>AA active queries</a></li><li><a href='https://gist.github.com/dmzoneill/faaa84782eaed4d2dc28ad55c19119ee'>PHP Paypal Instant Payment Notification</a></li></ul>
     </td>
@@ -62,7 +62,7 @@
 <td><img src='https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white' title='C'  height='20px'/></td><td>15564301</td>
 </tr><tr>
 <td><img src='https://img.shields.io/badge/_-COBOL -11DDDD.svg?style=for-the-badge' title='COBOL'  height='20px'/></td><td>964</td>
-<td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>1369830</td>
+<td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>1370976</td>
 <td><img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile'  height='20px'/></td><td>6053</td>
 <td><img src='https://img.shields.io/badge/_-AngelScript -11DDDD.svg?style=for-the-badge' title='AngelScript'  height='20px'/></td><td>28550</td>
 </tr><tr>
@@ -350,7 +350,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/pass-totp' title='pass-totp'>pass-totp</a> (2024)</h2></p><p><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/pass-totp/commit/a23eb5ea660450a49bc2dea1263f1e8889ce7229'>add github action and setup secret</a></li><li><a href='https://github.com/dmzoneill/pass-totp/commit/b05e637269ded01b3a08edf2e5fbc79ea0f2f580'>Add totp script</a></li><li><a href='dmzoneill/pass-totp'>https://api.github.com/repos/dmzoneill/pass-totp</a></li><li><a href='dmzoneill/pass-totp'>https://api.github.com/repos/dmzoneill/pass-totp</a></li></ul></p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/pass-totp/commit/764e578f8f5382b214dd964b6aa42750fbd76c91'>Sync script</a></li><li><a href='https://github.com/dmzoneill/pass-totp/commit/a23eb5ea660450a49bc2dea1263f1e8889ce7229'>add github action and setup secret</a></li><li><a href='https://github.com/dmzoneill/pass-totp/commit/b05e637269ded01b3a08edf2e5fbc79ea0f2f580'>Add totp script</a></li><li><a href='dmzoneill/pass-totp'>https://api.github.com/repos/dmzoneill/pass-totp</a></li><li><a href='dmzoneill/pass-totp'>https://api.github.com/repos/dmzoneill/pass-totp</a></li></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -560,7 +560,7 @@
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
-              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/aa-dns-checker/pull/3'>Bump idna from 3.6 to 3.7</a> 2022-07-18</li></ul></p>
+              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/aa-dns-checker/pull/4'>Bump gunicorn from 20.1.0 to 22.0.0</a> 2022-07-18</li><li><a href='https://github.com/dmzoneill/aa-dns-checker/pull/3'>Bump idna from 3.6 to 3.7</a> 2022-07-18</li></ul></p>
             </td>
             <td>
               <p><a href='' title=''></a></p>

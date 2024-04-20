@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-19/04/2024 00:32:59-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-20/04/2024 00:30:10-brightgreen" height='28'/>
 
 <table>
   <tr>
@@ -8,7 +8,13 @@
       <h3>Pull Requests (7)</h3>
       <ul><li><a href='https://github.com/dmzoneill/Chuckbot/pull/18'>Bump tar from 6.2.0 to 6.2.1</a> 2024-04-11</li><li><a href='https://github.com/dmzoneill/Chuckbot/pull/17'>Bump undici from 5.28.3 to 5.28.4</a> 2024-04-04</li><li><a href='https://github.com/dmzoneill/Chuckbot/pull/16'>Bump express from 4.18.2 to 4.19.2</a> 2024-03-28</li><li><a href='https://github.com/dmzoneill/aa-dns-checker/pull/4'>Bump gunicorn from 20.1.0 to 22.0.0</a> 2024-04-17</li><li><a href='https://github.com/dmzoneill/aa-dns-checker/pull/3'>Bump idna from 3.6 to 3.7</a> 2024-04-12</li></ul>
       <h3>Recent Acivity</h3>
-      <ul><li><a href='https://github.com/Redhat-forks/ansible-sign/commit/4f50ab48b6559cd290501d1ab735c082d5fe9acd'>Upgrade to python 3.11</a></li><li><a href='Upgrade to python 3.11'>https://github.com/ansible/ansible-sign/pull/52</a></li><li><a href='https://github.com/Redhat-forks/ansible-sign/commit/ee3ea51add8c061bd36bde1d6df7746847ec159e'>Initial commit</a></li><li><a href='Redhat-forks/ansible-sign'>https://api.github.com/repos/Redhat-forks/ansible-sign</a></li><li><a href='https://github.com/dmzoneill/pass-totp/commit/764e578f8f5382b214dd964b6aa42750fbd76c91'>Sync script</a></li></ul>
+      <ul><li><a href='https://github.com/ansible/awx-ee/commit/6bf8ce019c3ec8450839f8c55c2427ac74e2271b'>Python 3.11 upgrade
+
+Shoud be built with appropriate build arg
+ansible-builder build -v3 --build-arg PYCMD=/usr/bin/python3.11 -t py311</a></li><li><a href='https://github.com/ansible/awx-ee/commit/c0b9ecd57b2781a9da14be3bf2746160b9057c5c'>Python 3.11 upgrade
+
+Shoud be built with appropriate build arg
+ansible-builder build -v3 --build-arg PYCMD=/usr/bin/python3.11 -t py311</a></li><li><a href='Python 3.11 upgrade'>https://github.com/ansible/awx-ee/pull/244</a></li><li><a href='https://github.com/ansible/awx-ee/commit/ce2d2af53048de2e0c2cda3b94e7efd5813e9170'>Add EE definition</a></li><li><a href='ansible/awx-ee'>https://api.github.com/repos/ansible/awx-ee</a></li></ul>
       <h3>Gists</h3>
       <ul><li><a href='https://gist.github.com/dmzoneill/f234183850275c36dd43564e81126338'>fail ci with approvers</a></li><li><a href='https://gist.github.com/dmzoneill/b3dace5030bea5d05211cbf1a74d7140'>PostGres Enum Errors</a></li><li><a href='https://gist.github.com/dmzoneill/daef323146469618c550241f35e4b503'>AWX Strings 1</a></li><li><a href='https://gist.github.com/dmzoneill/809f32f1ca301ce6f0dc2bad741ec15e'>AWX Strings 2</a></li><li><a href='https://gist.github.com/dmzoneill/4f1a46c512245a21ce819a9f465679aa'>AWX development on kind</a></li><li><a href='https://gist.github.com/dmzoneill/664484ef2b798118a83347205f84c66b'>keybase.md</a></li><li><a href='https://gist.github.com/dmzoneill/67a908fb949dc95bbbf02f0446a07f0a'>durex fun</a></li><li><a href='https://gist.github.com/dmzoneill/d13d88b16d4d0aa90cb108a00ab3cf01'>10GB tuning</a></li><li><a href='https://gist.github.com/dmzoneill/575ba9c32375c41cb1041e9064de0678'>Synology 108tb limit bypass</a></li><li><a href='https://gist.github.com/dmzoneill/cbc75e502dbe2b78651f68d6320b714a'>AA active queries</a></li><li><a href='https://gist.github.com/dmzoneill/faaa84782eaed4d2dc28ad55c19119ee'>PHP Paypal Instant Payment Notification</a></li></ul>
     </td>
@@ -576,7 +582,7 @@
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
-              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/22'>Bump express from 4.18.1 to 4.19.2 in /frontend</a> 2022-06-13</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/13'>Bump golang.org/x/net from 0.7.0 to 0.17.0 in /backend</a> 2022-06-13</li></ul></p>
+              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/23'>Bump golang.org/x/net from 0.10.0 to 0.23.0 in /backend</a> 2022-06-13</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/22'>Bump express from 4.18.1 to 4.19.2 in /frontend</a> 2022-06-13</li></ul></p>
             </td>
             <td>
               <p><a href='' title=''></a></p>

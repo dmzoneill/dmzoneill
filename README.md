@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-20/04/2024 00:30:10-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-21/04/2024 00:32:38-brightgreen" height='28'/>
 
 <table>
   <tr>
@@ -8,13 +8,7 @@
       <h3>Pull Requests (7)</h3>
       <ul><li><a href='https://github.com/dmzoneill/Chuckbot/pull/18'>Bump tar from 6.2.0 to 6.2.1</a> 2024-04-11</li><li><a href='https://github.com/dmzoneill/Chuckbot/pull/17'>Bump undici from 5.28.3 to 5.28.4</a> 2024-04-04</li><li><a href='https://github.com/dmzoneill/Chuckbot/pull/16'>Bump express from 4.18.2 to 4.19.2</a> 2024-03-28</li><li><a href='https://github.com/dmzoneill/aa-dns-checker/pull/4'>Bump gunicorn from 20.1.0 to 22.0.0</a> 2024-04-17</li><li><a href='https://github.com/dmzoneill/aa-dns-checker/pull/3'>Bump idna from 3.6 to 3.7</a> 2024-04-12</li></ul>
       <h3>Recent Acivity</h3>
-      <ul><li><a href='https://github.com/ansible/awx-ee/commit/6bf8ce019c3ec8450839f8c55c2427ac74e2271b'>Python 3.11 upgrade
-
-Shoud be built with appropriate build arg
-ansible-builder build -v3 --build-arg PYCMD=/usr/bin/python3.11 -t py311</a></li><li><a href='https://github.com/ansible/awx-ee/commit/c0b9ecd57b2781a9da14be3bf2746160b9057c5c'>Python 3.11 upgrade
-
-Shoud be built with appropriate build arg
-ansible-builder build -v3 --build-arg PYCMD=/usr/bin/python3.11 -t py311</a></li><li><a href='Python 3.11 upgrade'>https://github.com/ansible/awx-ee/pull/244</a></li><li><a href='https://github.com/ansible/awx-ee/commit/ce2d2af53048de2e0c2cda3b94e7efd5813e9170'>Add EE definition</a></li><li><a href='ansible/awx-ee'>https://api.github.com/repos/ansible/awx-ee</a></li></ul>
+      <ul><li><a href='https://github.com/dmzoneill/authy-gnupass-totp/commit/d6021123976c9c612a24caa6839ef021a1d2b35d'>lint</a></li><li><a href='https://github.com/dmzoneill/authy-gnupass-totp/commit/2684210af0e0c2d5b5f18ee987ab4b2e6e80cb05'>lint</a></li><li><a href='https://github.com/dmzoneill/authy-gnupass-totp/commit/640f6cebe262e73265b0676dac4bca22f0073d99'>lint</a></li><li><a href='https://github.com/dmzoneill/authy-gnupass-totp/commit/30d27bc6fc91f60a87ec78911568dd3ee75fb6bc'>lint</a></li><li><a href='https://github.com/dmzoneill/authy-gnupass-totp/commit/1e340a36a832ab99122456f0e7cb1a90f9a8343f'>lint</a></li></ul>
       <h3>Gists</h3>
       <ul><li><a href='https://gist.github.com/dmzoneill/f234183850275c36dd43564e81126338'>fail ci with approvers</a></li><li><a href='https://gist.github.com/dmzoneill/b3dace5030bea5d05211cbf1a74d7140'>PostGres Enum Errors</a></li><li><a href='https://gist.github.com/dmzoneill/daef323146469618c550241f35e4b503'>AWX Strings 1</a></li><li><a href='https://gist.github.com/dmzoneill/809f32f1ca301ce6f0dc2bad741ec15e'>AWX Strings 2</a></li><li><a href='https://gist.github.com/dmzoneill/4f1a46c512245a21ce819a9f465679aa'>AWX development on kind</a></li><li><a href='https://gist.github.com/dmzoneill/664484ef2b798118a83347205f84c66b'>keybase.md</a></li><li><a href='https://gist.github.com/dmzoneill/67a908fb949dc95bbbf02f0446a07f0a'>durex fun</a></li><li><a href='https://gist.github.com/dmzoneill/d13d88b16d4d0aa90cb108a00ab3cf01'>10GB tuning</a></li><li><a href='https://gist.github.com/dmzoneill/575ba9c32375c41cb1041e9064de0678'>Synology 108tb limit bypass</a></li><li><a href='https://gist.github.com/dmzoneill/cbc75e502dbe2b78651f68d6320b714a'>AA active queries</a></li><li><a href='https://gist.github.com/dmzoneill/faaa84782eaed4d2dc28ad55c19119ee'>PHP Paypal Instant Payment Notification</a></li></ul>
     </td>
@@ -47,7 +41,7 @@ ansible-builder build -v3 --build-arg PYCMD=/usr/bin/python3.11 -t py311</a></li
     </tr>
   </thead>
   <tbody>
-    <tr><td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>663916</td>
+    <tr><td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>675970</td>
 <td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>318214</td>
 <td><img src='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' title='Java'  height='20px'/></td><td>2071977</td>
 <td><img src='https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white' title='Kotlin'  height='20px'/></td><td>24599</td>
@@ -140,7 +134,7 @@ ansible-builder build -v3 --build-arg PYCMD=/usr/bin/python3.11 -t py311</a></li
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2023-01-16</p>
+              <p>2024-04-20</p>
             </td>
         </tr>
 <tr>
@@ -354,9 +348,9 @@ ansible-builder build -v3 --build-arg PYCMD=/usr/bin/python3.11 -t py311</a></li
 
 </tbody></table><h2>2024</h2><table width='100%' style='width:100%'><thead><tr><th>Project</th><th>View</th><th>Status</th></tr></thead><tbody><tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/pass-totp' title='pass-totp'>pass-totp</a> (2024)</h2></p><p><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/authy-gnupass-totp' title='authy-gnupass-totp'>authy-gnupass-totp</a> (2024)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/pass-totp/commit/764e578f8f5382b214dd964b6aa42750fbd76c91'>Sync script</a></li><li><a href='https://github.com/dmzoneill/pass-totp/commit/a23eb5ea660450a49bc2dea1263f1e8889ce7229'>add github action and setup secret</a></li><li><a href='https://github.com/dmzoneill/pass-totp/commit/b05e637269ded01b3a08edf2e5fbc79ea0f2f580'>Add totp script</a></li><li><a href='dmzoneill/pass-totp'>https://api.github.com/repos/dmzoneill/pass-totp</a></li><li><a href='dmzoneill/pass-totp'>https://api.github.com/repos/dmzoneill/pass-totp</a></li></ul></p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/authy-gnupass-totp/commit/d6021123976c9c612a24caa6839ef021a1d2b35d'>lint</a></li><li><a href='https://github.com/dmzoneill/authy-gnupass-totp/commit/2684210af0e0c2d5b5f18ee987ab4b2e6e80cb05'>lint</a></li><li><a href='https://github.com/dmzoneill/authy-gnupass-totp/commit/640f6cebe262e73265b0676dac4bca22f0073d99'>lint</a></li><li><a href='https://github.com/dmzoneill/authy-gnupass-totp/commit/30d27bc6fc91f60a87ec78911568dd3ee75fb6bc'>lint</a></li><li><a href='https://github.com/dmzoneill/authy-gnupass-totp/commit/1e340a36a832ab99122456f0e7cb1a90f9a8343f'>lint</a></li></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -364,8 +358,8 @@ ansible-builder build -v3 --build-arg PYCMD=/usr/bin/python3.11 -t py311</a></li
               <p><a href='' title=''></a></p>
             </td>
             <td align="center">
-              <a href='https://github.com/dmzoneill/pass-totp/actions'><img src='https://github.com/dmzoneill//pass-totp/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2024-04-16</p>
+              <a href='https://github.com/dmzoneill/authy-gnupass-totp/actions'><img src='https://github.com/dmzoneill//authy-gnupass-totp/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2024-04-20</p>
             </td>
         </tr>
 <tr>

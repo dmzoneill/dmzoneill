@@ -60,6 +60,10 @@
     "DFakeSeeder": [
       "https://github.com/dmzoneill/DFakeSeeder",
       "DFakeSeeder"
+    ],
+    "authy-gnupass-totp": [
+      "https://github.com/dmzoneill/authy-gnupass-totp",
+      "Authy GNU Pass Totp"
     ]
   },
   "organizations": [

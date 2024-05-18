@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-18/05/2024 00:25:42-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-18/05/2024 15:59:40-brightgreen" height='28'/>
 
 <table>
   <tr>
@@ -8,7 +8,30 @@
       <h3>Pull Requests (3)</h3>
       <ul><li><a href='https://github.com/dmzoneill/Chuckbot/pull/19'>Bump protobufjs and youtubei</a> 2024-05-13</li><li><a href='https://github.com/dmzoneill/aa-dns-checker/pull/4'>Bump gunicorn from 20.1.0 to 22.0.0</a> 2024-04-17</li><li><a href='https://github.com/dmzoneill/aa-dns-checker/pull/3'>Bump idna from 3.6 to 3.7</a> 2024-04-12</li></ul>
       <h3>Recent Acivity</h3>
-      <ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/commit/2da138744f2ed335588fc0093293ae29315df465'>Bump express from 4.18.1 to 4.19.2 in /frontend
+      <ul><li><a href='https://github.com/dmzoneill/dmzoneill/commit/14ef0b4fe4aeca9824dcc50bd118e57d1b13e6a7'>Update repos</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/398b5d2392375320d0d83680585135ca6528d515'>Fix add, rmeove, up, down, paus, resume</a></li><li><a href='https://github.com/Redhat-forks/awx/commit/aacf9653c590e7f4ad563af7d58892bd3befba61'>Use filtering/sorting from django-ansible-base (#14726)
+
+* Move filtering to DAB
+
+* add comment to trigger building a new image
+
+Signed-off-by: jessicamack <jmack@redhat.com>
+
+* remove unneeded comment
+
+Signed-off-by: jessicamack <jmack@redhat.com>
+
+* remove unused imports
+
+Signed-off-by: jessicamack <jmack@redhat.com>
+
+* change mock import
+
+Signed-off-by: jessicamack <jmack@redhat.com>
+
+---------
+
+Signed-off-by: jessicamack <jmack@redhat.com>
+Co-authored-by: jessicamack <jmack@redhat.com></a></li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/commit/2da138744f2ed335588fc0093293ae29315df465'>Bump express from 4.18.1 to 4.19.2 in /frontend
 
 Bumps [express](https://github.com/expressjs/express) from 4.18.1 to 4.19.2.
 - [Release notes](https://github.com/expressjs/express/releases)
@@ -21,18 +44,7 @@ updated-dependencies:
   dependency-type: indirect
 ...
 
-Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump express from 4.18.1 to 4.19.2 in /frontend'>https://github.com/dmzoneill/aa-dev-prod-watcher/pull/22</a></li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/commit/541b0c1427591d58c68d4a2162df2f8c593b0342'>Bump golang.org/x/net from 0.10.0 to 0.23.0 in /backend
-
-Bumps [golang.org/x/net](https://github.com/golang/net) from 0.10.0 to 0.23.0.
-- [Commits](https://github.com/golang/net/compare/v0.10.0...v0.23.0)
-
----
-updated-dependencies:
-- dependency-name: golang.org/x/net
-  dependency-type: indirect
-...
-
-Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump golang.org/x/net from 0.10.0 to 0.23.0 in /backend'>https://github.com/dmzoneill/aa-dev-prod-watcher/pull/23</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/4a981e353a1cc46ab2862d81f281b6861869439f'>Update Readme</a></li></ul>
+Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump express from 4.18.1 to 4.19.2 in /frontend'>https://github.com/dmzoneill/aa-dev-prod-watcher/pull/22</a></li></ul>
       <h3>Gists</h3>
       <ul><li><a href='https://gist.github.com/dmzoneill/7c9159b30950621c065791e7861be174'>Python GTK4 ColumnView Sorting and Binding</a></li><li><a href='https://gist.github.com/dmzoneill/19a4fbd799f1e5bcc050ddb4b0a65403'>sorted listed model gtk4</a></li><li><a href='https://gist.github.com/dmzoneill/74033698f65a5a1539d686452a73dce8'>Pygtk4 ColumnView</a></li><li><a href='https://gist.github.com/dmzoneill/497746f38c5786c96e8859f1131667af'>awx-operator 2.15..16</a></li><li><a href='https://gist.github.com/dmzoneill/f234183850275c36dd43564e81126338'>fail ci with approvers</a></li><li><a href='https://gist.github.com/dmzoneill/b3dace5030bea5d05211cbf1a74d7140'>PostGres Enum Errors</a></li><li><a href='https://gist.github.com/dmzoneill/daef323146469618c550241f35e4b503'>AWX Strings 1</a></li><li><a href='https://gist.github.com/dmzoneill/809f32f1ca301ce6f0dc2bad741ec15e'>AWX Strings 2</a></li><li><a href='https://gist.github.com/dmzoneill/4f1a46c512245a21ce819a9f465679aa'>AWX development on kind</a></li><li><a href='https://gist.github.com/dmzoneill/664484ef2b798118a83347205f84c66b'>keybase.md</a></li><li><a href='https://gist.github.com/dmzoneill/67a908fb949dc95bbbf02f0446a07f0a'>durex fun</a></li><li><a href='https://gist.github.com/dmzoneill/d13d88b16d4d0aa90cb108a00ab3cf01'>10GB tuning</a></li><li><a href='https://gist.github.com/dmzoneill/575ba9c32375c41cb1041e9064de0678'>Synology 108tb limit bypass</a></li><li><a href='https://gist.github.com/dmzoneill/cbc75e502dbe2b78651f68d6320b714a'>AA active queries</a></li><li><a href='https://gist.github.com/dmzoneill/faaa84782eaed4d2dc28ad55c19119ee'>PHP Paypal Instant Payment Notification</a></li></ul>
     </td>
@@ -65,8 +77,8 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump go
     </tr>
   </thead>
   <tbody>
-    <tr><td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>693408</td>
-<td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>318811</td>
+    <tr><td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>644814</td>
+<td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>319479</td>
 <td><img src='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' title='Java'  height='20px'/></td><td>2071977</td>
 <td><img src='https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white' title='Kotlin'  height='20px'/></td><td>24599</td>
 </tr><tr>
@@ -87,7 +99,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump go
 </tr><tr>
 <td><img src='https://img.shields.io/badge/_-COBOL -11DDDD.svg?style=for-the-badge' title='COBOL'  height='20px'/></td><td>964</td>
 <td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>1370976</td>
-<td><img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile'  height='20px'/></td><td>6788</td>
+<td><img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile'  height='20px'/></td><td>6914</td>
 <td><img src='https://img.shields.io/badge/_-AngelScript -11DDDD.svg?style=for-the-badge' title='AngelScript'  height='20px'/></td><td>28550</td>
 </tr><tr>
 <td><img src='https://img.shields.io/badge/_-Tcl -11DDDD.svg?style=for-the-badge' title='Tcl'  height='20px'/></td><td>1281755</td>
@@ -147,9 +159,25 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump go
   <tbody>
     <tr>
             <td>
+              <p><h2><a href='https://github.com/dmzoneill/dmzoneill' title='dmzoneill'>dmzoneill</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
+              <p>Apache License 2.0</p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/dmzoneill/commit/14ef0b4fe4aeca9824dcc50bd118e57d1b13e6a7'>Update repos</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/691a3f3ddd92b79b5fb3917d455d460a70eb8de9'>Update dispatch.yaml</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/e1d37748e525659be2c6d414a808304f157791a7'>Update dispatch.yaml</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/d0400b835e761f4058a6ef354c3f0bdc27464951'>Update dispatch.yaml</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/7da3eb1951a62ab6854c48755111340008a1fcf5'>Update dispatch.yaml</a></li></ul></p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+            </td>
+            <td>
+              <p><a href='https://github.com/dmzoneill' title='Github profile'>Github profile</a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2024-05-18</p>
+            </td>
+        </tr>
+<tr>
+            <td>
               <p><h2><a href='https://github.com/dmzoneill/DFakeSeeder' title='DFakeSeeder'>DFakeSeeder</a> (2024)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/> <img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/4a981e353a1cc46ab2862d81f281b6861869439f'>Update Readme</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/d58af9fa7c6c67a3ee154a5e4d6f9c12158c1169'>Numerous updates and fixes</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/b70b5e71ef63aa2be21c6c75a71eb03379257f61'>Updates</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/082b2ed359f592d27cd711a00f0aee1c9d9341af'>UDP functionality</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/9112490423f36a184018cf93cf4071a4d23ec27b'>UDP supporter pre-work</a></li></ul></p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/398b5d2392375320d0d83680585135ca6528d515'>Fix add, rmeove, up, down, paus, resume</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/4a981e353a1cc46ab2862d81f281b6861869439f'>Update Readme</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/d58af9fa7c6c67a3ee154a5e4d6f9c12158c1169'>Numerous updates and fixes</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/b70b5e71ef63aa2be21c6c75a71eb03379257f61'>Updates</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/082b2ed359f592d27cd711a00f0aee1c9d9341af'>UDP functionality</a></li></ul></p>
               <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/7'>seeder log</a> 2024-05-18</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/5'>status column view selection and filtering</a> 2024-05-18</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/4'>log select box single torrent</a> 2024-05-18</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/3'>rightclick context update tracker, stop, pause, resume</a> 2024-05-18</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/2'>multi select toolbar updates</a> 2024-05-18</li></ul></p>
               <p><ul></ul></p>
             </td>
@@ -159,22 +187,6 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump go
             <td align="center">
               <a href='https://github.com/dmzoneill/DFakeSeeder/actions'><img src='https://github.com/dmzoneill//DFakeSeeder/actions/workflows/main.yml/badge.svg'/></a>
               <p>2024-05-18</p>
-            </td>
-        </tr>
-<tr>
-            <td>
-              <p><h2><a href='https://github.com/dmzoneill/dmzoneill' title='dmzoneill'>dmzoneill</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
-              <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/dmzoneill/commit/691a3f3ddd92b79b5fb3917d455d460a70eb8de9'>Update dispatch.yaml</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/e1d37748e525659be2c6d414a808304f157791a7'>Update dispatch.yaml</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/d0400b835e761f4058a6ef354c3f0bdc27464951'>Update dispatch.yaml</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/7da3eb1951a62ab6854c48755111340008a1fcf5'>Update dispatch.yaml</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/2eec356fbb7c5efd9920bda1ec75aa6b6c0a9eb8'>Update dispatch.yaml</a></li></ul></p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-            </td>
-            <td>
-              <p><a href='https://github.com/dmzoneill' title='Github profile'>Github profile</a></p>
-            </td>
-            <td align="center">
-              <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2024-05-17</p>
             </td>
         </tr>
 <tr>
@@ -216,6 +228,22 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li></ul></p>
             <td align="center">
               <a href='https://github.com/dmzoneill/Chuckbot/actions'><img src='https://github.com/dmzoneill//Chuckbot/actions/workflows/main.yml/badge.svg'/></a>
               <p>2024-05-16</p>
+            </td>
+        </tr>
+<tr>
+            <td>
+              <p><h2><a href='https://github.com/dmzoneill/authy-gnupass-totp' title='authy-gnupass-totp'>authy-gnupass-totp</a> (2024)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/</p>
+              <p>Apache License 2.0</p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/authy-gnupass-totp/commit/d6021123976c9c612a24caa6839ef021a1d2b35d'>lint</a></li><li><a href='https://github.com/dmzoneill/authy-gnupass-totp/commit/2684210af0e0c2d5b5f18ee987ab4b2e6e80cb05'>lint</a></li><li><a href='https://github.com/dmzoneill/authy-gnupass-totp/commit/640f6cebe262e73265b0676dac4bca22f0073d99'>lint</a></li><li><a href='https://github.com/dmzoneill/authy-gnupass-totp/commit/30d27bc6fc91f60a87ec78911568dd3ee75fb6bc'>lint</a></li><li><a href='https://github.com/dmzoneill/authy-gnupass-totp/commit/1e340a36a832ab99122456f0e7cb1a90f9a8343f'>lint</a></li></ul></p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+            </td>
+            <td>
+              <p><a href='https://github.com/dmzoneill/authy-gnupass-totp' title='Authy GNU Pass Totp'>Authy GNU Pass Totp</a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/authy-gnupass-totp/actions'><img src='https://github.com/dmzoneill//authy-gnupass-totp/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2024-04-20</p>
             </td>
         </tr>
 <tr>
@@ -396,22 +424,6 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li></ul></p>
         </tr>
 
 </tbody></table><h2>2024</h2><table width='100%' style='width:100%'><thead><tr><th>Project</th><th>View</th><th>Status</th></tr></thead><tbody><tr>
-            <td>
-              <p><h2><a href='https://github.com/dmzoneill/authy-gnupass-totp' title='authy-gnupass-totp'>authy-gnupass-totp</a> (2024)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/</p>
-              <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/authy-gnupass-totp/commit/d6021123976c9c612a24caa6839ef021a1d2b35d'>lint</a></li><li><a href='https://github.com/dmzoneill/authy-gnupass-totp/commit/2684210af0e0c2d5b5f18ee987ab4b2e6e80cb05'>lint</a></li><li><a href='https://github.com/dmzoneill/authy-gnupass-totp/commit/640f6cebe262e73265b0676dac4bca22f0073d99'>lint</a></li><li><a href='https://github.com/dmzoneill/authy-gnupass-totp/commit/30d27bc6fc91f60a87ec78911568dd3ee75fb6bc'>lint</a></li><li><a href='https://github.com/dmzoneill/authy-gnupass-totp/commit/1e340a36a832ab99122456f0e7cb1a90f9a8343f'>lint</a></li></ul></p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-            </td>
-            <td>
-              <p><a href='' title=''></a></p>
-            </td>
-            <td align="center">
-              <a href='https://github.com/dmzoneill/authy-gnupass-totp/actions'><img src='https://github.com/dmzoneill//authy-gnupass-totp/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2024-04-20</p>
-            </td>
-        </tr>
-<tr>
             <td>
               <p><h2><a href='https://github.com/dmzoneill/awx-nightlies' title='awx-nightlies'>awx-nightlies</a> (2024)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/</p>
               <p>Apache License 2.0</p>

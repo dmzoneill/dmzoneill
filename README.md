@@ -1,12 +1,12 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-19/06/2024 00:32:23-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-20/06/2024 00:33:49-brightgreen" height='28'/>
 
 <table>
   <tr>
     <td>
-      <h3>Issues (18)</h3>
+      <h3>Issues (19)</h3>
       <li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/23'>Track Format & FFMPEG not adding metadata</a> 2024-03-25</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/21'>Issue with Lidarr recognizing downloaded audio and incorrect metadata in Jellyfin</a> 2024-02-23</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/13'>Alittle help with docker compose</a> 2024-03-25</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/12'>REQ: Ability to set percentage match cutoff and/or keyword blacklist such as "live" or whitelist "official" in title.</a> 2024-03-25</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/11'>Deployment Loop and "workaround".</a> 2023-05-10</li>
-      <h3>Pull Requests (2)</h3>
-      <ul><li><a href='https://github.com/dmzoneill/aa-dns-checker/pull/4'>Bump gunicorn from 20.1.0 to 22.0.0</a> 2024-04-17</li><li><a href='https://github.com/dmzoneill/aa-dns-checker/pull/3'>Bump idna from 3.6 to 3.7</a> 2024-04-12</li></ul>
+      <h3>Pull Requests (3)</h3>
+      <ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/24'>Bump ws from 8.6.0 to 8.17.1 in /frontend</a> 2024-06-19</li><li><a href='https://github.com/dmzoneill/aa-dns-checker/pull/4'>Bump gunicorn from 20.1.0 to 22.0.0</a> 2024-04-17</li><li><a href='https://github.com/dmzoneill/aa-dns-checker/pull/3'>Bump idna from 3.6 to 3.7</a> 2024-04-12</li></ul>
       <h3>Recent Acivity</h3>
       <ul><li><a href='https://github.com/dmzoneill/k8s-media-center/commit/b36394b2a56321df8287438e5b2c93d8e46d6713'>add github action and setup secret</a></li><li><a href='https://github.com/dmzoneill/k8s-media-center/commit/1b338c166471706c345e1e2ed347b346e2fb91f4'>monitoring updates</a></li><li><a href='dmzoneill/k8s-media-center'>https://api.github.com/repos/dmzoneill/k8s-media-center</a></li><li><a href='https://github.com/dmzoneill/k8s-media-center/commit/1b338c166471706c345e1e2ed347b346e2fb91f4'>monitoring updates</a></li><li><a href='dmzoneill/k8s-media-center'>https://api.github.com/repos/dmzoneill/k8s-media-center</a></li></ul>
       <h3>Gists</h3>
@@ -135,7 +135,7 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2024-06-18</p>
+              <p>2024-06-19</p>
             </td>
         </tr>
 <tr>
@@ -405,7 +405,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump ta
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/hevyapp-api/actions'><img src='https://github.com/dmzoneill//hevyapp-api/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2024-04-16</p>
+              <p>2024-06-19</p>
             </td>
         </tr>
 <tr>
@@ -582,14 +582,14 @@ updated-dependencies:
 
 Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump golang.org/x/net from 0.10.0 to 0.23.0 in /backend'>https://github.com/dmzoneill/aa-dev-prod-watcher/pull/23</a></li></ul></p>
               <p><ul></ul></p>
-              <p><ul></ul></p>
+              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/24'>Bump ws from 8.6.0 to 8.17.1 in /frontend</a> 2024-06-19</li></ul></p>
             </td>
             <td>
               <p><a href='' title=''></a></p>
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/aa-dev-prod-watcher/actions'><img src='https://github.com/dmzoneill//aa-dev-prod-watcher/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2024-05-18</p>
+              <p>2024-06-19</p>
             </td>
         </tr>
 <tr>

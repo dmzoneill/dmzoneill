@@ -1,10 +1,10 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-12/07/2024 00:32:42-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-13/07/2024 00:35:22-brightgreen" height='28'/>
 
 <table>
   <tr>
     <td>
       <h3>Issues (20)</h3>
-      <li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/25'>Most releases found are missing tracks</a> 2024-07-11</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/23'>Track Format & FFMPEG not adding metadata</a> 2024-03-25</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/21'>Issue with Lidarr recognizing downloaded audio and incorrect metadata in Jellyfin</a> 2024-02-23</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/13'>Alittle help with docker compose</a> 2024-03-25</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/12'>REQ: Ability to set percentage match cutoff and/or keyword blacklist such as "live" or whitelist "official" in title.</a> 2024-03-25</li>
+      <li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/25'>Most releases found are missing tracks</a> 2024-07-12</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/23'>Track Format & FFMPEG not adding metadata</a> 2024-03-25</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/21'>Issue with Lidarr recognizing downloaded audio and incorrect metadata in Jellyfin</a> 2024-02-23</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/13'>Alittle help with docker compose</a> 2024-03-25</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/12'>REQ: Ability to set percentage match cutoff and/or keyword blacklist such as "live" or whitelist "official" in title.</a> 2024-03-25</li>
       <h3>Pull Requests (3)</h3>
       <ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/24'>Bump ws from 8.6.0 to 8.17.1 in /frontend</a> 2024-06-19</li><li><a href='https://github.com/dmzoneill/aa-dns-checker/pull/4'>Bump gunicorn from 20.1.0 to 22.0.0</a> 2024-04-17</li><li><a href='https://github.com/dmzoneill/aa-dns-checker/pull/3'>Bump idna from 3.6 to 3.7</a> 2024-04-12</li></ul>
       <h3>Recent Acivity</h3>
@@ -135,7 +135,7 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2024-07-11</p>
+              <p>2024-07-12</p>
             </td>
         </tr>
 <tr>

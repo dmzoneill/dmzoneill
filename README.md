@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-21/07/2024 00:35:41-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-22/07/2024 00:35:48-brightgreen" height='28'/>
 
 <table>
   <tr>
@@ -135,7 +135,7 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2024-07-20</p>
+              <p>2024-07-21</p>
             </td>
         </tr>
 <tr>
@@ -187,7 +187,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump ta
             <td>
               <p><h2><a href='https://github.com/dmzoneill/authy-gnupass-totp' title='authy-gnupass-totp'>authy-gnupass-totp</a> (2024)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/authy-gnupass-totp/commit/d6021123976c9c612a24caa6839ef021a1d2b35d'>lint</a></li><li><a href='https://github.com/dmzoneill/authy-gnupass-totp/commit/2684210af0e0c2d5b5f18ee987ab4b2e6e80cb05'>lint</a></li><li><a href='https://github.com/dmzoneill/authy-gnupass-totp/commit/640f6cebe262e73265b0676dac4bca22f0073d99'>lint</a></li><li><a href='https://github.com/dmzoneill/authy-gnupass-totp/commit/30d27bc6fc91f60a87ec78911568dd3ee75fb6bc'>lint</a></li><li><a href='https://github.com/dmzoneill/authy-gnupass-totp/commit/1e340a36a832ab99122456f0e7cb1a90f9a8343f'>lint</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>

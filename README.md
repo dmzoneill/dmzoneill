@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-28/07/2024 00:36:15-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-29/07/2024 00:35:13-brightgreen" height='28'/>
 
 <table>
   <tr>
@@ -8,7 +8,7 @@
       <h3>Pull Requests (3)</h3>
       <ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/24'>Bump ws from 8.6.0 to 8.17.1 in /frontend</a> 2024-06-19</li><li><a href='https://github.com/dmzoneill/aa-dns-checker/pull/4'>Bump gunicorn from 20.1.0 to 22.0.0</a> 2024-04-17</li><li><a href='https://github.com/dmzoneill/aa-dns-checker/pull/3'>Bump idna from 3.6 to 3.7</a> 2024-04-12</li></ul>
       <h3>Recent Acivity</h3>
-      <ul><li><a href='https://github.com/Redhat-forks/django-ansible-base/commit/c64f9a57cbe40409bed7f459f6327c4208c94ba2'>Enable/Disable authentication maps</a></li><li><a href='https://github.com/Redhat-forks/django-ansible-base/commit/ea5addfa2d0202e527a2f4bd84dad2e973637513'>Enable/Disable authentication maps</a></li><li><a href='https://github.com/Redhat-forks/django-ansible-base/commit/21c8857d5378b7a8b62ccd4b7c710305e8b2ccea'>Enable/Disable authentication maps</a></li><li><a href='https://github.com/Redhat-forks/django-ansible-base/commit/4a91e93679dfd1a52794c35d013f7023d55a395d'>Enable/Disable authentication maps</a></li><li><a href='Enable/Disable authentication maps'>https://github.com/ansible/django-ansible-base/pull/530</a></li></ul>
+      <ul><li><a href='https://github.com/Redhat-forks/django-ansible-base/commit/65f3650b4bea01ba73f7626e77cb0ec0c51b3c72'>Enable/Disable authentication maps</a></li><li><a href='https://github.com/Redhat-forks/django-ansible-base/commit/392a419cbdd08b5f37f0f2ee842c528efa7634ab'>Enable/Disable authentication maps</a></li><li><a href='https://github.com/Redhat-forks/django-ansible-base/commit/c64f9a57cbe40409bed7f459f6327c4208c94ba2'>Enable/Disable authentication maps</a></li><li><a href='https://github.com/Redhat-forks/django-ansible-base/commit/ea5addfa2d0202e527a2f4bd84dad2e973637513'>Enable/Disable authentication maps</a></li><li><a href='https://github.com/Redhat-forks/django-ansible-base/commit/21c8857d5378b7a8b62ccd4b7c710305e8b2ccea'>Enable/Disable authentication maps</a></li></ul>
       <h3>Gists</h3>
       <ul><li><a href='https://gist.github.com/dmzoneill/21aaa839698c07a1a2007bcfec12d2d4'>network watch</a></li><li><a href='https://gist.github.com/dmzoneill/7c9159b30950621c065791e7861be174'>Python GTK4 ColumnView Sorting and Binding</a></li><li><a href='https://gist.github.com/dmzoneill/19a4fbd799f1e5bcc050ddb4b0a65403'>sorted listed model gtk4</a></li><li><a href='https://gist.github.com/dmzoneill/74033698f65a5a1539d686452a73dce8'>Pygtk4 ColumnView</a></li><li><a href='https://gist.github.com/dmzoneill/497746f38c5786c96e8859f1131667af'>awx-operator 2.15..16</a></li><li><a href='https://gist.github.com/dmzoneill/f234183850275c36dd43564e81126338'>fail ci with approvers</a></li><li><a href='https://gist.github.com/dmzoneill/b3dace5030bea5d05211cbf1a74d7140'>PostGres Enum Errors</a></li><li><a href='https://gist.github.com/dmzoneill/daef323146469618c550241f35e4b503'>AWX Strings 1</a></li><li><a href='https://gist.github.com/dmzoneill/809f32f1ca301ce6f0dc2bad741ec15e'>AWX Strings 2</a></li><li><a href='https://gist.github.com/dmzoneill/4f1a46c512245a21ce819a9f465679aa'>AWX development on kind</a></li><li><a href='https://gist.github.com/dmzoneill/664484ef2b798118a83347205f84c66b'>keybase.md</a></li><li><a href='https://gist.github.com/dmzoneill/67a908fb949dc95bbbf02f0446a07f0a'>durex fun</a></li><li><a href='https://gist.github.com/dmzoneill/d13d88b16d4d0aa90cb108a00ab3cf01'>10GB tuning</a></li><li><a href='https://gist.github.com/dmzoneill/575ba9c32375c41cb1041e9064de0678'>Synology 108tb limit bypass</a></li><li><a href='https://gist.github.com/dmzoneill/cbc75e502dbe2b78651f68d6320b714a'>AA active queries</a></li><li><a href='https://gist.github.com/dmzoneill/faaa84782eaed4d2dc28ad55c19119ee'>PHP Paypal Instant Payment Notification</a></li></ul>
     </td>
@@ -135,7 +135,7 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2024-07-27</p>
+              <p>2024-07-28</p>
             </td>
         </tr>
 <tr>
@@ -207,7 +207,7 @@
               <p><h2><a href='https://github.com/dmzoneill/lidarr-youtube-downloader' title='lidarr-youtube-downloader'>lidarr-youtube-downloader</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/> <img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile' height='20px'/</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
-              <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/25'>Most releases found are missing tracks</a> 2024-06-29</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/23'>Track Format & FFMPEG not adding metadata</a> 2024-06-29</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/21'>Issue with Lidarr recognizing downloaded audio and incorrect metadata in Jellyfin</a> 2024-06-29</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/13'>Alittle help with docker compose</a> 2024-06-29</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/12'>REQ: Ability to set percentage match cutoff and/or keyword blacklist such as "live" or whitelist "official" in title.</a> 2024-06-29</li></ul></p>
+              <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/25'>Most releases found are missing tracks</a> 2024-07-28</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/23'>Track Format & FFMPEG not adding metadata</a> 2024-07-28</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/21'>Issue with Lidarr recognizing downloaded audio and incorrect metadata in Jellyfin</a> 2024-07-28</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/13'>Alittle help with docker compose</a> 2024-07-28</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/12'>REQ: Ability to set percentage match cutoff and/or keyword blacklist such as "live" or whitelist "official" in title.</a> 2024-07-28</li></ul></p>
               <p><ul></ul></p>
             </td>
             <td>
@@ -215,7 +215,7 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/lidarr-youtube-downloader/actions'><img src='https://github.com/dmzoneill//lidarr-youtube-downloader/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2024-06-29</p>
+              <p>2024-07-28</p>
             </td>
         </tr>
 <tr>

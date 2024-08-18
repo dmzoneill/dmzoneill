@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-17/08/2024 00:33:13-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-18/08/2024 00:35:28-brightgreen" height='28'/>
 
 <table>
   <tr>
@@ -135,14 +135,14 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2024-08-16</p>
+              <p>2024-08-17</p>
             </td>
         </tr>
 <tr>
             <td>
               <p><h2><a href='https://github.com/dmzoneill/Chuckbot' title='Chuckbot'>Chuckbot</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/Chuckbot/commit/17f5f96c0d8c295339be9f5a5b013d84c0500c73'>Persona support</a></li><li><a href='https://github.com/dmzoneill/Chuckbot/commit/d7d6d2622de7487359e066538e43d6ef0f10a772'>fix</a></li></ul></p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/Chuckbot/commit/17f5f96c0d8c295339be9f5a5b013d84c0500c73'>Persona support</a></li></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -158,7 +158,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/DFakeSeeder' title='DFakeSeeder'>DFakeSeeder</a> (2024)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/> <img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/4b49da5e7a47a869ba7332c4455c244802a96079'>Quicker updates</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/398b5d2392375320d0d83680585135ca6528d515'>Fix add, rmeove, up, down, paus, resume</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/4a981e353a1cc46ab2862d81f281b6861869439f'>Update Readme</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/d58af9fa7c6c67a3ee154a5e4d6f9c12158c1169'>Numerous updates and fixes</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/b70b5e71ef63aa2be21c6c75a71eb03379257f61'>Updates</a></li></ul></p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/4b49da5e7a47a869ba7332c4455c244802a96079'>Quicker updates</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/398b5d2392375320d0d83680585135ca6528d515'>Fix add, rmeove, up, down, paus, resume</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/4a981e353a1cc46ab2862d81f281b6861869439f'>Update Readme</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/d58af9fa7c6c67a3ee154a5e4d6f9c12158c1169'>Numerous updates and fixes</a></li></ul></p>
               <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/7'>seeder log</a> 2024-05-18</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/5'>status column view selection and filtering</a> 2024-05-18</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/4'>log select box single torrent</a> 2024-05-18</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/3'>rightclick context update tracker, stop, pause, resume</a> 2024-05-18</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/2'>multi select toolbar updates</a> 2024-05-18</li></ul></p>
               <p><ul></ul></p>
             </td>

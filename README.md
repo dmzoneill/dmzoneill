@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-18/08/2024 00:35:28-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-19/08/2024 00:36:30-brightgreen" height='28'/>
 
 <table>
   <tr>
@@ -135,7 +135,7 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2024-08-17</p>
+              <p>2024-08-18</p>
             </td>
         </tr>
 <tr>
@@ -158,7 +158,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/DFakeSeeder' title='DFakeSeeder'>DFakeSeeder</a> (2024)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/> <img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/4b49da5e7a47a869ba7332c4455c244802a96079'>Quicker updates</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/398b5d2392375320d0d83680585135ca6528d515'>Fix add, rmeove, up, down, paus, resume</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/4a981e353a1cc46ab2862d81f281b6861869439f'>Update Readme</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/d58af9fa7c6c67a3ee154a5e4d6f9c12158c1169'>Numerous updates and fixes</a></li></ul></p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/4b49da5e7a47a869ba7332c4455c244802a96079'>Quicker updates</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/398b5d2392375320d0d83680585135ca6528d515'>Fix add, rmeove, up, down, paus, resume</a></li></ul></p>
               <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/7'>seeder log</a> 2024-05-18</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/5'>status column view selection and filtering</a> 2024-05-18</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/4'>log select box single torrent</a> 2024-05-18</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/3'>rightclick context update tracker, stop, pause, resume</a> 2024-05-18</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/2'>multi select toolbar updates</a> 2024-05-18</li></ul></p>
               <p><ul></ul></p>
             </td>
@@ -543,31 +543,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/aa-dev-prod-watcher' title='aa-dev-prod-watcher'>aa-dev-prod-watcher</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript' height='20px'/> <img src='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' title='Go' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/commit/2da138744f2ed335588fc0093293ae29315df465'>Bump express from 4.18.1 to 4.19.2 in /frontend
-
-Bumps [express](https://github.com/expressjs/express) from 4.18.1 to 4.19.2.
-- [Release notes](https://github.com/expressjs/express/releases)
-- [Changelog](https://github.com/expressjs/express/blob/master/History.md)
-- [Commits](https://github.com/expressjs/express/compare/4.18.1...4.19.2)
-
----
-updated-dependencies:
-- dependency-name: express
-  dependency-type: indirect
-...
-
-Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump express from 4.18.1 to 4.19.2 in /frontend'>https://github.com/dmzoneill/aa-dev-prod-watcher/pull/22</a></li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/commit/541b0c1427591d58c68d4a2162df2f8c593b0342'>Bump golang.org/x/net from 0.10.0 to 0.23.0 in /backend
-
-Bumps [golang.org/x/net](https://github.com/golang/net) from 0.10.0 to 0.23.0.
-- [Commits](https://github.com/golang/net/compare/v0.10.0...v0.23.0)
-
----
-updated-dependencies:
-- dependency-name: golang.org/x/net
-  dependency-type: indirect
-...
-
-Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump golang.org/x/net from 0.10.0 to 0.23.0 in /backend'>https://github.com/dmzoneill/aa-dev-prod-watcher/pull/23</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/24'>Bump ws from 8.6.0 to 8.17.1 in /frontend</a> 2024-06-19</li></ul></p>
             </td>

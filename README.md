@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-15/10/2024 00:38:51-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-16/10/2024 00:36:04-brightgreen" height='28'/>
 
 <table>
   <tr>
@@ -8,7 +8,7 @@
       <h3>Pull Requests (8)</h3>
       <ul><li><a href='https://github.com/dmzoneill/dmzoneill/pull/2'>Bump actions/download-artifact from 3 to 4.1.7 in /.github/workflows</a> 2024-09-03</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/28'>Bump send and express in /frontend</a> 2024-09-17</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/27'>Bump serve-static and express in /frontend</a> 2024-09-17</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/26'>Bump path-to-regexp and express in /frontend</a> 2024-09-15</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/25'>Bump webpack from 5.76.0 to 5.94.0 in /frontend</a> 2024-08-30</li></ul>
       <h3>Recent Acivity</h3>
-      <ul><li><a href='https://github.com/dmzoneill/Chuckbot/commit/95bf6a9bc13a2cce1258f5c688fee121fe971c34'>Bug fixes fo og_Data and url image thumbs nails</a></li><li><a href='https://github.com/dmzoneill/k8s-media-center/commit/affa96b27936de722cf096be4a2ba70c47665402'>restructuring</a></li><li><a href='https://github.com/Redhat-forks/django-ansible-base/commit/65f3650b4bea01ba73f7626e77cb0ec0c51b3c72'>Enable/Disable authentication maps</a></li><li><a href='https://github.com/Redhat-forks/django-ansible-base/commit/392a419cbdd08b5f37f0f2ee842c528efa7634ab'>Enable/Disable authentication maps</a></li><li><a href='https://github.com/Redhat-forks/django-ansible-base/commit/c64f9a57cbe40409bed7f459f6327c4208c94ba2'>Enable/Disable authentication maps</a></li></ul>
+      <ul><li><a href='https://github.com/dmzoneill/rh-otp-auto-connect/commit/c5b2743623c5151992b90513b7bbaf593a586ff4'>cleanup</a></li><li><a href='https://github.com/dmzoneill/Chuckbot/commit/95bf6a9bc13a2cce1258f5c688fee121fe971c34'>Bug fixes fo og_Data and url image thumbs nails</a></li><li><a href='https://github.com/dmzoneill/k8s-media-center/commit/affa96b27936de722cf096be4a2ba70c47665402'>restructuring</a></li><li><a href='https://github.com/Redhat-forks/django-ansible-base/commit/65f3650b4bea01ba73f7626e77cb0ec0c51b3c72'>Enable/Disable authentication maps</a></li><li><a href='https://github.com/Redhat-forks/django-ansible-base/commit/392a419cbdd08b5f37f0f2ee842c528efa7634ab'>Enable/Disable authentication maps</a></li></ul>
       <h3>Gists</h3>
       <ul><li><a href='https://gist.github.com/dmzoneill/21aaa839698c07a1a2007bcfec12d2d4'>network watch</a></li><li><a href='https://gist.github.com/dmzoneill/7c9159b30950621c065791e7861be174'>Python GTK4 ColumnView Sorting and Binding</a></li><li><a href='https://gist.github.com/dmzoneill/19a4fbd799f1e5bcc050ddb4b0a65403'>sorted listed model gtk4</a></li><li><a href='https://gist.github.com/dmzoneill/74033698f65a5a1539d686452a73dce8'>Pygtk4 ColumnView</a></li><li><a href='https://gist.github.com/dmzoneill/497746f38c5786c96e8859f1131667af'>awx-operator 2.15..16</a></li><li><a href='https://gist.github.com/dmzoneill/f234183850275c36dd43564e81126338'>fail ci with approvers</a></li><li><a href='https://gist.github.com/dmzoneill/b3dace5030bea5d05211cbf1a74d7140'>PostGres Enum Errors</a></li><li><a href='https://gist.github.com/dmzoneill/daef323146469618c550241f35e4b503'>AWX Strings 1</a></li><li><a href='https://gist.github.com/dmzoneill/809f32f1ca301ce6f0dc2bad741ec15e'>AWX Strings 2</a></li><li><a href='https://gist.github.com/dmzoneill/4f1a46c512245a21ce819a9f465679aa'>AWX development on kind</a></li><li><a href='https://gist.github.com/dmzoneill/664484ef2b798118a83347205f84c66b'>keybase.md</a></li><li><a href='https://gist.github.com/dmzoneill/67a908fb949dc95bbbf02f0446a07f0a'>durex fun</a></li><li><a href='https://gist.github.com/dmzoneill/d13d88b16d4d0aa90cb108a00ab3cf01'>10GB tuning</a></li><li><a href='https://gist.github.com/dmzoneill/575ba9c32375c41cb1041e9064de0678'>Synology 108tb limit bypass</a></li><li><a href='https://gist.github.com/dmzoneill/cbc75e502dbe2b78651f68d6320b714a'>AA active queries</a></li><li><a href='https://gist.github.com/dmzoneill/faaa84782eaed4d2dc28ad55c19119ee'>PHP Paypal Instant Payment Notification</a></li></ul>
     </td>
@@ -41,7 +41,7 @@
     </tr>
   </thead>
   <tbody>
-    <tr><td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>646329</td>
+    <tr><td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>643755</td>
 <td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>322458</td>
 <td><img src='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' title='Java'  height='20px'/></td><td>2071977</td>
 <td><img src='https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white' title='Kotlin'  height='20px'/></td><td>24599</td>
@@ -128,14 +128,14 @@
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
-              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/dmzoneill/pull/2'>Bump actions/download-artifact from 3 to 4.1.7 in /.github/workflows</a> 2024-10-14</li></ul></p>
+              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/dmzoneill/pull/2'>Bump actions/download-artifact from 3 to 4.1.7 in /.github/workflows</a> 2024-10-15</li></ul></p>
             </td>
             <td>
               <p><a href='https://github.com/dmzoneill' title='Github profile'>Github profile</a></p>
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2024-10-14</p>
+              <p>2024-10-15</p>
             </td>
         </tr>
 <tr>
@@ -669,6 +669,22 @@
         </tr>
 </tbody></table><h2>2021</h2><table width='100%' style='width:100%'><thead><tr><th>Project</th><th>View</th><th>Status</th></tr></thead><tbody><tr>
             <td>
+              <p><h2><a href='https://github.com/dmzoneill/rh-otp-auto-connect' title='rh-otp-auto-connect'>rh-otp-auto-connect</a> (2021)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/</p>
+              <p>Apache License 2.0</p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/rh-otp-auto-connect/commit/c5b2743623c5151992b90513b7bbaf593a586ff4'>cleanup</a></li></ul></p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+            </td>
+            <td>
+              <p><a href='' title=''></a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/rh-otp-auto-connect/actions'><img src='https://github.com/dmzoneill//rh-otp-auto-connect/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2024-10-15</p>
+            </td>
+        </tr>
+<tr>
+            <td>
               <p><h2><a href='https://github.com/dmzoneill/php-binance-bot' title='php-binance-bot'>php-binance-bot</a> (2021)</h2></p><p><img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP' height='20px'/</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
@@ -681,22 +697,6 @@
             <td align="center">
               <a href='https://github.com/dmzoneill/php-binance-bot/actions'><img src='https://github.com/dmzoneill//php-binance-bot/actions/workflows/main.yml/badge.svg'/></a>
               <p>2024-05-26</p>
-            </td>
-        </tr>
-<tr>
-            <td>
-              <p><h2><a href='https://github.com/dmzoneill/rh-otp-auto-connect' title='rh-otp-auto-connect'>rh-otp-auto-connect</a> (2021)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/</p>
-              <p>Apache License 2.0</p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-            </td>
-            <td>
-              <p><a href='' title=''></a></p>
-            </td>
-            <td align="center">
-              <a href='https://github.com/dmzoneill/rh-otp-auto-connect/actions'><img src='https://github.com/dmzoneill//rh-otp-auto-connect/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2024-02-28</p>
             </td>
         </tr>
 </tbody></table><h2>2020</h2><table width='100%' style='width:100%'><thead><tr><th>Project</th><th>View</th><th>Status</th></tr></thead><tbody><tr>

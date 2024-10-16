@@ -1,12 +1,12 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-16/10/2024 00:36:04-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-16/10/2024 18:12:53-brightgreen" height='28'/>
 
 <table>
   <tr>
     <td>
-      <h3>Issues (26)</h3>
-      <li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/25'>Most releases found are missing tracks</a> 2024-07-12</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/23'>Track Format & FFMPEG not adding metadata</a> 2024-03-25</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/21'>Issue with Lidarr recognizing downloaded audio and incorrect metadata in Jellyfin</a> 2024-02-23</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/13'>Alittle help with docker compose</a> 2024-03-25</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/12'>REQ: Ability to set percentage match cutoff and/or keyword blacklist such as "live" or whitelist "official" in title.</a> 2024-03-25</li>
-      <h3>Pull Requests (8)</h3>
-      <ul><li><a href='https://github.com/dmzoneill/dmzoneill/pull/2'>Bump actions/download-artifact from 3 to 4.1.7 in /.github/workflows</a> 2024-09-03</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/28'>Bump send and express in /frontend</a> 2024-09-17</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/27'>Bump serve-static and express in /frontend</a> 2024-09-17</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/26'>Bump path-to-regexp and express in /frontend</a> 2024-09-15</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/25'>Bump webpack from 5.76.0 to 5.94.0 in /frontend</a> 2024-08-30</li></ul>
+      <h3>Issues (22)</h3>
+      <li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/25'>Most releases found are missing tracks</a> 2024-10-16</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/23'>Track Format & FFMPEG not adding metadata</a> 2024-03-25</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/21'>Issue with Lidarr recognizing downloaded audio and incorrect metadata in Jellyfin</a> 2024-02-23</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/13'>Alittle help with docker compose</a> 2024-03-25</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/12'>REQ: Ability to set percentage match cutoff and/or keyword blacklist such as "live" or whitelist "official" in title.</a> 2024-03-25</li>
+      <h3>Pull Requests (4)</h3>
+      <ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/25'>Bump webpack from 5.76.0 to 5.94.0 in /frontend</a> 2024-10-16</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/24'>Bump ws from 8.6.0 to 8.17.1 in /frontend</a> 2024-10-16</li><li><a href='https://github.com/dmzoneill/aa-dns-checker/pull/4'>Bump gunicorn from 20.1.0 to 22.0.0</a> 2024-04-17</li><li><a href='https://github.com/dmzoneill/aa-dns-checker/pull/3'>Bump idna from 3.6 to 3.7</a> 2024-04-12</li></ul>
       <h3>Recent Acivity</h3>
       <ul><li><a href='https://github.com/dmzoneill/rh-otp-auto-connect/commit/c5b2743623c5151992b90513b7bbaf593a586ff4'>cleanup</a></li><li><a href='https://github.com/dmzoneill/Chuckbot/commit/95bf6a9bc13a2cce1258f5c688fee121fe971c34'>Bug fixes fo og_Data and url image thumbs nails</a></li><li><a href='https://github.com/dmzoneill/k8s-media-center/commit/affa96b27936de722cf096be4a2ba70c47665402'>restructuring</a></li><li><a href='https://github.com/Redhat-forks/django-ansible-base/commit/65f3650b4bea01ba73f7626e77cb0ec0c51b3c72'>Enable/Disable authentication maps</a></li><li><a href='https://github.com/Redhat-forks/django-ansible-base/commit/392a419cbdd08b5f37f0f2ee842c528efa7634ab'>Enable/Disable authentication maps</a></li></ul>
       <h3>Gists</h3>
@@ -56,7 +56,7 @@
 <td><img src='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' title='Go'  height='20px'/></td><td>26262</td>
 <td><img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP'  height='20px'/></td><td>76059922</td>
 </tr><tr>
-<td><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript'  height='20px'/></td><td>8821175</td>
+<td><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript'  height='20px'/></td><td>8822990</td>
 <td><img src='https://img.shields.io/badge/perl-%2339457E.svg?style=for-the-badge&logo=perl&logoColor=white' title='Perl'  height='20px'/></td><td>10102682</td>
 <td><img src='https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white' title='Ruby'  height='20px'/></td><td>507181</td>
 <td><img src='https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white' title='C'  height='20px'/></td><td>15564301</td>
@@ -128,14 +128,14 @@
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
-              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/dmzoneill/pull/2'>Bump actions/download-artifact from 3 to 4.1.7 in /.github/workflows</a> 2024-10-15</li></ul></p>
+              <p><ul></ul></p>
             </td>
             <td>
               <p><a href='https://github.com/dmzoneill' title='Github profile'>Github profile</a></p>
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2024-10-15</p>
+              <p>2024-10-16</p>
             </td>
         </tr>
 <tr>
@@ -545,7 +545,7 @@
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
-              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/28'>Bump send and express in /frontend</a> 2024-09-17</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/27'>Bump serve-static and express in /frontend</a> 2024-09-17</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/26'>Bump path-to-regexp and express in /frontend</a> 2024-09-17</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/25'>Bump webpack from 5.76.0 to 5.94.0 in /frontend</a> 2024-09-17</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/24'>Bump ws from 8.6.0 to 8.17.1 in /frontend</a> 2024-09-17</li></ul></p>
+              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/25'>Bump webpack from 5.76.0 to 5.94.0 in /frontend</a> 2024-09-17</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/24'>Bump ws from 8.6.0 to 8.17.1 in /frontend</a> 2024-09-17</li></ul></p>
             </td>
             <td>
               <p><a href='' title=''></a></p>
@@ -2873,22 +2873,6 @@
             <td align="center">
               <a href='https://github.com/dmzoneill/k8s-media-center/actions'><img src='https://github.com/dmzoneill//k8s-media-center/actions/workflows/main.yml/badge.svg'/></a>
               <p>2024-08-01</p>
-            </td>
-        </tr>
-<tr>
-            <td>
-              <p><h2><a href='https://github.com/dmzoneill/docker-media-center-sensitive' title='docker-media-center-sensitive'>docker-media-center-sensitive</a> ()</h2></p><p></p>
-              <p>Apache License 2.0</p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-            </td>
-            <td>
-              <p><a href='' title=''></a></p>
-            </td>
-            <td align="center">
-              <a href='https://github.com/dmzoneill/docker-media-center-sensitive/actions'><img src='https://github.com/dmzoneill//docker-media-center-sensitive/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2023-03-14</p>
             </td>
         </tr>
   </tbody>

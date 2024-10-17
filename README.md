@@ -1,14 +1,60 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-17/10/2024 00:38:05-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-17/10/2024 21:51:36-brightgreen" height='28'/>
 
 <table>
   <tr>
     <td>
-      <h3>Issues (21)</h3>
+      <h3>Issues (19)</h3>
       <li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/25'>Most releases found are missing tracks</a> 2024-10-16</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/23'>Track Format & FFMPEG not adding metadata</a> 2024-03-25</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/21'>Issue with Lidarr recognizing downloaded audio and incorrect metadata in Jellyfin</a> 2024-02-23</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/13'>Alittle help with docker compose</a> 2024-03-25</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/12'>REQ: Ability to set percentage match cutoff and/or keyword blacklist such as "live" or whitelist "official" in title.</a> 2024-03-25</li>
-      <h3>Pull Requests (3)</h3>
-      <ul><li><a href='https://github.com/dmzoneill/aa-dns-checker/pull/5'>Bump starlette from 0.36.2 to 0.40.0</a> 2024-10-16</li><li><a href='https://github.com/dmzoneill/aa-dns-checker/pull/3'>Bump idna from 3.6 to 3.7</a> 2024-10-16</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/29'>Bump cookie and express in /frontend</a> 2024-10-16</li></ul>
+      <h3>Pull Requests (1)</h3>
+      <ul><li><a href='https://github.com/dmzoneill/aa-dns-checker/pull/3'>Bump idna from 3.6 to 3.7</a> 2024-10-16</li></ul>
       <h3>Recent Acivity</h3>
-      <ul><li><a href='https://github.com/dmzoneill/rh-otp-auto-connect/commit/c5b2743623c5151992b90513b7bbaf593a586ff4'>cleanup</a></li><li><a href='https://github.com/dmzoneill/Chuckbot/commit/95bf6a9bc13a2cce1258f5c688fee121fe971c34'>Bug fixes fo og_Data and url image thumbs nails</a></li><li><a href='https://github.com/dmzoneill/k8s-media-center/commit/affa96b27936de722cf096be4a2ba70c47665402'>restructuring</a></li><li><a href='https://github.com/Redhat-forks/django-ansible-base/commit/65f3650b4bea01ba73f7626e77cb0ec0c51b3c72'>Enable/Disable authentication maps</a></li><li><a href='https://github.com/Redhat-forks/django-ansible-base/commit/392a419cbdd08b5f37f0f2ee842c528efa7634ab'>Enable/Disable authentication maps</a></li></ul>
+      <ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/commit/1f2e892a63d60945b0b8b5c0184574f0fde785c4'>Bump cookie and express in /frontend
+
+Bumps [cookie](https://github.com/jshttp/cookie) and [express](https://github.com/expressjs/express). These dependencies needed to be updated together.
+
+Updates `cookie` from 0.6.0 to 0.7.1
+- [Release notes](https://github.com/jshttp/cookie/releases)
+- [Commits](https://github.com/jshttp/cookie/compare/v0.6.0...v0.7.1)
+
+Updates `express` from 4.21.0 to 4.21.1
+- [Release notes](https://github.com/expressjs/express/releases)
+- [Changelog](https://github.com/expressjs/express/blob/4.21.1/History.md)
+- [Commits](https://github.com/expressjs/express/compare/4.21.0...4.21.1)
+
+---
+updated-dependencies:
+- dependency-name: cookie
+  dependency-type: indirect
+- dependency-name: express
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump cookie and express in /frontend'>https://github.com/dmzoneill/aa-dev-prod-watcher/pull/29</a></li><li><a href='https://github.com/dmzoneill/aa-dns-checker/commit/613cf173f9a51d3c1b149ebba17e274b6f0d4544'>Bump starlette from 0.36.2 to 0.40.0
+
+Bumps [starlette](https://github.com/encode/starlette) from 0.36.2 to 0.40.0.
+- [Release notes](https://github.com/encode/starlette/releases)
+- [Changelog](https://github.com/encode/starlette/blob/master/docs/release-notes.md)
+- [Commits](https://github.com/encode/starlette/compare/0.36.2...0.40.0)
+
+---
+updated-dependencies:
+- dependency-name: starlette
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump starlette from 0.36.2 to 0.40.0'>https://github.com/dmzoneill/aa-dns-checker/pull/5</a></li><li><a href='https://github.com/dmzoneill/aa-dns-checker/commit/8f11e968505fc12ad3d5a15dbc3feb35eeaf9ec3'>Bump gunicorn from 20.1.0 to 22.0.0
+
+Bumps [gunicorn](https://github.com/benoitc/gunicorn) from 20.1.0 to 22.0.0.
+- [Release notes](https://github.com/benoitc/gunicorn/releases)
+- [Commits](https://github.com/benoitc/gunicorn/compare/20.1.0...22.0.0)
+
+---
+updated-dependencies:
+- dependency-name: gunicorn
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] <support@github.com></a></li></ul>
       <h3>Gists</h3>
       <ul><li><a href='https://gist.github.com/dmzoneill/21aaa839698c07a1a2007bcfec12d2d4'>network watch</a></li><li><a href='https://gist.github.com/dmzoneill/7c9159b30950621c065791e7861be174'>Python GTK4 ColumnView Sorting and Binding</a></li><li><a href='https://gist.github.com/dmzoneill/19a4fbd799f1e5bcc050ddb4b0a65403'>sorted listed model gtk4</a></li><li><a href='https://gist.github.com/dmzoneill/74033698f65a5a1539d686452a73dce8'>Pygtk4 ColumnView</a></li><li><a href='https://gist.github.com/dmzoneill/497746f38c5786c96e8859f1131667af'>awx-operator 2.15..16</a></li><li><a href='https://gist.github.com/dmzoneill/f234183850275c36dd43564e81126338'>fail ci with approvers</a></li><li><a href='https://gist.github.com/dmzoneill/b3dace5030bea5d05211cbf1a74d7140'>PostGres Enum Errors</a></li><li><a href='https://gist.github.com/dmzoneill/daef323146469618c550241f35e4b503'>AWX Strings 1</a></li><li><a href='https://gist.github.com/dmzoneill/809f32f1ca301ce6f0dc2bad741ec15e'>AWX Strings 2</a></li><li><a href='https://gist.github.com/dmzoneill/4f1a46c512245a21ce819a9f465679aa'>AWX development on kind</a></li><li><a href='https://gist.github.com/dmzoneill/664484ef2b798118a83347205f84c66b'>keybase.md</a></li><li><a href='https://gist.github.com/dmzoneill/67a908fb949dc95bbbf02f0446a07f0a'>durex fun</a></li><li><a href='https://gist.github.com/dmzoneill/d13d88b16d4d0aa90cb108a00ab3cf01'>10GB tuning</a></li><li><a href='https://gist.github.com/dmzoneill/575ba9c32375c41cb1041e9064de0678'>Synology 108tb limit bypass</a></li><li><a href='https://gist.github.com/dmzoneill/cbc75e502dbe2b78651f68d6320b714a'>AA active queries</a></li><li><a href='https://gist.github.com/dmzoneill/faaa84782eaed4d2dc28ad55c19119ee'>PHP Paypal Instant Payment Notification</a></li></ul>
     </td>
@@ -56,7 +102,7 @@
 <td><img src='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' title='Go'  height='20px'/></td><td>26262</td>
 <td><img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP'  height='20px'/></td><td>76059922</td>
 </tr><tr>
-<td><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript'  height='20px'/></td><td>8822990</td>
+<td><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript'  height='20px'/></td><td>8826433</td>
 <td><img src='https://img.shields.io/badge/perl-%2339457E.svg?style=for-the-badge&logo=perl&logoColor=white' title='Perl'  height='20px'/></td><td>10102682</td>
 <td><img src='https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white' title='Ruby'  height='20px'/></td><td>507181</td>
 <td><img src='https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white' title='C'  height='20px'/></td><td>15564301</td>
@@ -126,7 +172,19 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/dmzoneill' title='dmzoneill'>dmzoneill</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><ul></ul></p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/dmzoneill/commit/d8ecf63d255dd1e2f2c18d74fae94083177a1766'>Bump actions/download-artifact from 3 to 4.1.7 in /.github/workflows
+
+Bumps [actions/download-artifact](https://github.com/actions/download-artifact) from 3 to 4.1.7.
+- [Release notes](https://github.com/actions/download-artifact/releases)
+- [Commits](https://github.com/actions/download-artifact/compare/v3...v4.1.7)
+
+---
+updated-dependencies:
+- dependency-name: actions/download-artifact
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump actions/download-artifact from 3 to 4.1.7 in /.github/workflows'>https://github.com/dmzoneill/dmzoneill/pull/2</a></li></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -135,14 +193,14 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2024-10-16</p>
+              <p>2024-10-17</p>
             </td>
         </tr>
 <tr>
             <td>
               <p><h2><a href='https://github.com/dmzoneill/Chuckbot' title='Chuckbot'>Chuckbot</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/Chuckbot/commit/95bf6a9bc13a2cce1258f5c688fee121fe971c34'>Bug fixes fo og_Data and url image thumbs nails</a></li></ul></p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/Chuckbot/commit/9fef6c2a0618832b961149437d5fefb388de1393'>Fixes for sending images</a></li><li><a href='https://github.com/dmzoneill/Chuckbot/commit/95bf6a9bc13a2cce1258f5c688fee121fe971c34'>Bug fixes fo og_Data and url image thumbs nails</a></li></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -151,7 +209,7 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/Chuckbot/actions'><img src='https://github.com/dmzoneill//Chuckbot/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2024-10-16</p>
+              <p>2024-10-17</p>
             </td>
         </tr>
 <tr>
@@ -206,7 +264,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/lidarr-youtube-downloader' title='lidarr-youtube-downloader'>lidarr-youtube-downloader</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/> <img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><ul></ul></p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/25'>Most releases found are missing tracks</a></li></ul></p>
               <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/25'>Most releases found are missing tracks</a> 2024-08-31</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/23'>Track Format & FFMPEG not adding metadata</a> 2024-08-31</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/21'>Issue with Lidarr recognizing downloaded audio and incorrect metadata in Jellyfin</a> 2024-08-31</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/13'>Alittle help with docker compose</a> 2024-08-31</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/12'>REQ: Ability to set percentage match cutoff and/or keyword blacklist such as "live" or whitelist "official" in title.</a> 2024-08-31</li></ul></p>
               <p><ul></ul></p>
             </td>
@@ -367,7 +425,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/k8s-media-center' title='k8s-media-center'>k8s-media-center</a> (2024)</h2></p><p><img src='https://img.shields.io/badge/_-Jinja -11DDDD.svg?style=for-the-badge' title='Jinja' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/> <img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/k8s-media-center/commit/affa96b27936de722cf096be4a2ba70c47665402'>restructuring</a></li></ul></p>
+              <p><h4>Recent Activity</h4><ul><li><a href='dmzoneill/k8s-media-center'>https://api.github.com/repos/dmzoneill/k8s-media-center</a></li><li><a href='https://github.com/dmzoneill/k8s-media-center/commit/affa96b27936de722cf096be4a2ba70c47665402'>restructuring</a></li></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -557,41 +615,111 @@
         </tr>
 </tbody></table><h2>2022</h2><table width='100%' style='width:100%'><thead><tr><th>Project</th><th>View</th><th>Status</th></tr></thead><tbody><tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/aa-dns-checker' title='aa-dns-checker'>aa-dns-checker</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/</p>
-              <p>Apache License 2.0</p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/aa-dns-checker/pull/5'>Bump starlette from 0.36.2 to 0.40.0</a> 2024-10-16</li><li><a href='https://github.com/dmzoneill/aa-dns-checker/pull/3'>Bump idna from 3.6 to 3.7</a> 2024-10-16</li></ul></p>
-            </td>
-            <td>
-              <p><a href='' title=''></a></p>
-            </td>
-            <td align="center">
-              <a href='https://github.com/dmzoneill/aa-dns-checker/actions'><img src='https://github.com/dmzoneill//aa-dns-checker/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2024-10-16</p>
-            </td>
-        </tr>
-<tr>
-            <td>
               <p><h2><a href='https://github.com/dmzoneill/aa-dev-prod-watcher' title='aa-dev-prod-watcher'>aa-dev-prod-watcher</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript' height='20px'/> <img src='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' title='Go' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
               <p>Apache License 2.0</p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/commit/1f2e892a63d60945b0b8b5c0184574f0fde785c4'>Bump cookie and express in /frontend
+
+Bumps [cookie](https://github.com/jshttp/cookie) and [express](https://github.com/expressjs/express). These dependencies needed to be updated together.
+
+Updates `cookie` from 0.6.0 to 0.7.1
+- [Release notes](https://github.com/jshttp/cookie/releases)
+- [Commits](https://github.com/jshttp/cookie/compare/v0.6.0...v0.7.1)
+
+Updates `express` from 4.21.0 to 4.21.1
+- [Release notes](https://github.com/expressjs/express/releases)
+- [Changelog](https://github.com/expressjs/express/blob/4.21.1/History.md)
+- [Commits](https://github.com/expressjs/express/compare/4.21.0...4.21.1)
+
+---
+updated-dependencies:
+- dependency-name: cookie
+  dependency-type: indirect
+- dependency-name: express
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump cookie and express in /frontend'>https://github.com/dmzoneill/aa-dev-prod-watcher/pull/29</a></li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/commit/705881b22315055d358be6fcbc8a7316591f7aee'>Bump webpack from 5.76.0 to 5.95.0 in /frontend
+
+Bumps [webpack](https://github.com/webpack/webpack) from 5.76.0 to 5.95.0.
+- [Release notes](https://github.com/webpack/webpack/releases)
+- [Commits](https://github.com/webpack/webpack/compare/v5.76.0...v5.95.0)
+
+---
+updated-dependencies:
+- dependency-name: webpack
+  dependency-type: direct:development
+...
+
+Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump webpack from 5.76.0 to 5.95.0 in /frontend'>https://github.com/dmzoneill/aa-dev-prod-watcher/pull/30</a></li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/commit/7f00d766f8ff2d08a2ef7d471607f8dcd6f7265c'>Bump ws from 8.6.0 to 8.17.1 in /frontend
+
+Bumps [ws](https://github.com/websockets/ws) from 8.6.0 to 8.17.1.
+- [Release notes](https://github.com/websockets/ws/releases)
+- [Commits](https://github.com/websockets/ws/compare/8.6.0...8.17.1)
+
+---
+updated-dependencies:
+- dependency-name: ws
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com></a></li></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
-              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/29'>Bump cookie and express in /frontend</a> 2024-10-16</li></ul></p>
             </td>
             <td>
               <p><a href='' title=''></a></p>
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/aa-dev-prod-watcher/actions'><img src='https://github.com/dmzoneill//aa-dev-prod-watcher/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2024-10-16</p>
+              <p>2024-10-17</p>
+            </td>
+        </tr>
+<tr>
+            <td>
+              <p><h2><a href='https://github.com/dmzoneill/aa-dns-checker' title='aa-dns-checker'>aa-dns-checker</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/</p>
+              <p>Apache License 2.0</p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/aa-dns-checker/commit/613cf173f9a51d3c1b149ebba17e274b6f0d4544'>Bump starlette from 0.36.2 to 0.40.0
+
+Bumps [starlette](https://github.com/encode/starlette) from 0.36.2 to 0.40.0.
+- [Release notes](https://github.com/encode/starlette/releases)
+- [Changelog](https://github.com/encode/starlette/blob/master/docs/release-notes.md)
+- [Commits](https://github.com/encode/starlette/compare/0.36.2...0.40.0)
+
+---
+updated-dependencies:
+- dependency-name: starlette
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump starlette from 0.36.2 to 0.40.0'>https://github.com/dmzoneill/aa-dns-checker/pull/5</a></li><li><a href='https://github.com/dmzoneill/aa-dns-checker/commit/8f11e968505fc12ad3d5a15dbc3feb35eeaf9ec3'>Bump gunicorn from 20.1.0 to 22.0.0
+
+Bumps [gunicorn](https://github.com/benoitc/gunicorn) from 20.1.0 to 22.0.0.
+- [Release notes](https://github.com/benoitc/gunicorn/releases)
+- [Commits](https://github.com/benoitc/gunicorn/compare/20.1.0...22.0.0)
+
+---
+updated-dependencies:
+- dependency-name: gunicorn
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump gunicorn from 20.1.0 to 22.0.0'>https://github.com/dmzoneill/aa-dns-checker/pull/4</a></li></ul></p>
+              <p><ul></ul></p>
+              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/aa-dns-checker/pull/3'>Bump idna from 3.6 to 3.7</a> 2024-10-17</li></ul></p>
+            </td>
+            <td>
+              <p><a href='' title=''></a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/aa-dns-checker/actions'><img src='https://github.com/dmzoneill//aa-dns-checker/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2024-10-17</p>
             </td>
         </tr>
 <tr>
             <td>
               <p><h2><a href='https://github.com/dmzoneill/docker-media-center' title='docker-media-center'>docker-media-center</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/_-Roff -11DDDD.svg?style=for-the-badge' title='Roff' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/> <img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile' height='20px'/> <img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><ul></ul></p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/docker-media-center/commit/7bce68e4d81111f5534b8838ce9ad6cb79bbf774'>updates</a></li></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>

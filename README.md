@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-18/10/2024 00:35:45-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-18/10/2024 07:20:38-brightgreen" height='28'/>
 
 <table>
   <tr>
@@ -8,7 +8,7 @@
       <h3>Pull Requests (1)</h3>
       <ul><li><a href='https://github.com/dmzoneill/aa-dns-checker/pull/3'>Bump idna from 3.6 to 3.7</a> 2024-10-16</li></ul>
       <h3>Recent Acivity</h3>
-      <ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/commit/1f2e892a63d60945b0b8b5c0184574f0fde785c4'>Bump cookie and express in /frontend
+      <ul><li><a href='https://github.com/dmzoneill/Chuckbot/commit/35e2be59df4cfa78030d524fe6549cca93d20c5b'>lint</a></li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/commit/1f2e892a63d60945b0b8b5c0184574f0fde785c4'>Bump cookie and express in /frontend
 
 Bumps [cookie](https://github.com/jshttp/cookie) and [express](https://github.com/expressjs/express). These dependencies needed to be updated together.
 
@@ -42,19 +42,7 @@ updated-dependencies:
   dependency-type: direct:production
 ...
 
-Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump starlette from 0.36.2 to 0.40.0'>https://github.com/dmzoneill/aa-dns-checker/pull/5</a></li><li><a href='https://github.com/dmzoneill/aa-dns-checker/commit/8f11e968505fc12ad3d5a15dbc3feb35eeaf9ec3'>Bump gunicorn from 20.1.0 to 22.0.0
-
-Bumps [gunicorn](https://github.com/benoitc/gunicorn) from 20.1.0 to 22.0.0.
-- [Release notes](https://github.com/benoitc/gunicorn/releases)
-- [Commits](https://github.com/benoitc/gunicorn/compare/20.1.0...22.0.0)
-
----
-updated-dependencies:
-- dependency-name: gunicorn
-  dependency-type: direct:production
-...
-
-Signed-off-by: dependabot[bot] <support@github.com></a></li></ul>
+Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump starlette from 0.36.2 to 0.40.0'>https://github.com/dmzoneill/aa-dns-checker/pull/5</a></li></ul>
       <h3>Gists</h3>
       <ul><li><a href='https://gist.github.com/dmzoneill/21aaa839698c07a1a2007bcfec12d2d4'>network watch</a></li><li><a href='https://gist.github.com/dmzoneill/7c9159b30950621c065791e7861be174'>Python GTK4 ColumnView Sorting and Binding</a></li><li><a href='https://gist.github.com/dmzoneill/19a4fbd799f1e5bcc050ddb4b0a65403'>sorted listed model gtk4</a></li><li><a href='https://gist.github.com/dmzoneill/74033698f65a5a1539d686452a73dce8'>Pygtk4 ColumnView</a></li><li><a href='https://gist.github.com/dmzoneill/497746f38c5786c96e8859f1131667af'>awx-operator 2.15..16</a></li><li><a href='https://gist.github.com/dmzoneill/f234183850275c36dd43564e81126338'>fail ci with approvers</a></li><li><a href='https://gist.github.com/dmzoneill/b3dace5030bea5d05211cbf1a74d7140'>PostGres Enum Errors</a></li><li><a href='https://gist.github.com/dmzoneill/daef323146469618c550241f35e4b503'>AWX Strings 1</a></li><li><a href='https://gist.github.com/dmzoneill/809f32f1ca301ce6f0dc2bad741ec15e'>AWX Strings 2</a></li><li><a href='https://gist.github.com/dmzoneill/4f1a46c512245a21ce819a9f465679aa'>AWX development on kind</a></li><li><a href='https://gist.github.com/dmzoneill/664484ef2b798118a83347205f84c66b'>keybase.md</a></li><li><a href='https://gist.github.com/dmzoneill/67a908fb949dc95bbbf02f0446a07f0a'>durex fun</a></li><li><a href='https://gist.github.com/dmzoneill/d13d88b16d4d0aa90cb108a00ab3cf01'>10GB tuning</a></li><li><a href='https://gist.github.com/dmzoneill/575ba9c32375c41cb1041e9064de0678'>Synology 108tb limit bypass</a></li><li><a href='https://gist.github.com/dmzoneill/cbc75e502dbe2b78651f68d6320b714a'>AA active queries</a></li><li><a href='https://gist.github.com/dmzoneill/faaa84782eaed4d2dc28ad55c19119ee'>PHP Paypal Instant Payment Notification</a></li></ul>
     </td>
@@ -193,7 +181,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump ac
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2024-10-17</p>
+              <p>2024-10-18</p>
             </td>
         </tr>
 <tr>
@@ -216,7 +204,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump ac
             <td>
               <p><h2><a href='https://github.com/dmzoneill/Chuckbot' title='Chuckbot'>Chuckbot</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/Chuckbot/commit/9fef6c2a0618832b961149437d5fefb388de1393'>Fixes for sending images</a></li><li><a href='https://github.com/dmzoneill/Chuckbot/commit/95bf6a9bc13a2cce1258f5c688fee121fe971c34'>Bug fixes fo og_Data and url image thumbs nails</a></li></ul></p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/Chuckbot/commit/35e2be59df4cfa78030d524fe6549cca93d20c5b'>lint</a></li><li><a href='https://github.com/dmzoneill/Chuckbot/commit/9fef6c2a0618832b961149437d5fefb388de1393'>Fixes for sending images</a></li><li><a href='https://github.com/dmzoneill/Chuckbot/commit/95bf6a9bc13a2cce1258f5c688fee121fe971c34'>Bug fixes fo og_Data and url image thumbs nails</a></li></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>

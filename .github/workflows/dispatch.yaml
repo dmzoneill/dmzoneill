@@ -841,7 +841,7 @@ jobs:
   
       - name: Archive chrome-extension artifact
         if: steps.changes.outputs.src == 'true'
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: chrome-extension-${{ github.sha }}
           path: chrome-extension-${{ github.sha }}.zip
@@ -964,7 +964,7 @@ jobs:
           echo "PACKAGE_VERSION=${package_version}" >> $GITHUB_ENV  
 
       - name: Store Debian package as artifact
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: ${{ env.PACKAGE_NAME }}_${{ env.PACKAGE_VERSION }}.deb
           path: ./*.deb
@@ -1016,7 +1016,7 @@ jobs:
           echo "PACKAGE_VERSION=${package_version}" >> $GITHUB_ENV  
 
       - name: Store rpm package as artifact
-        uses: actions/upload-artifact@v1.0.0
+        uses: actions/upload-artifact@v4
         with:
           name: ${{ env.PACKAGE_NAME }}-0.${{ env.PACKAGE_VERSION }}.rpm
           path: ./rpmbuild/RPMS/x86_64/${{ env.PACKAGE_NAME }}-${{ env.PACKAGE_VERSION }}-1.x86_64.rpm

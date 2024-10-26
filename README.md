@@ -1,12 +1,12 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-25/10/2024 00:38:18-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-26/10/2024 00:36:41-brightgreen" height='28'/>
 
 <table>
   <tr>
     <td>
-      <h3>Issues (19)</h3>
+      <h3>Issues (20)</h3>
       <li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/25'>Most releases found are missing tracks</a> 2024-10-16</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/23'>Track Format & FFMPEG not adding metadata</a> 2024-03-25</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/21'>Issue with Lidarr recognizing downloaded audio and incorrect metadata in Jellyfin</a> 2024-02-23</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/13'>Alittle help with docker compose</a> 2024-03-25</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/12'>REQ: Ability to set percentage match cutoff and/or keyword blacklist such as "live" or whitelist "official" in title.</a> 2024-03-25</li>
-      <h3>Pull Requests (1)</h3>
-      <ul><li><a href='https://github.com/dmzoneill/aa-dns-checker/pull/3'>Bump idna from 3.6 to 3.7</a> 2024-10-16</li></ul>
+      <h3>Pull Requests (2)</h3>
+      <ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/31'>Bump http-proxy-middleware from 2.0.6 to 2.0.7 in /frontend</a> 2024-10-25</li><li><a href='https://github.com/dmzoneill/aa-dns-checker/pull/3'>Bump idna from 3.6 to 3.7</a> 2024-10-16</li></ul>
       <h3>Recent Acivity</h3>
       <ul><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/c0db12ffca981bf9e4bb52442968bafdb486d632'>lint</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/992c5fba159d5c781ee3d4fc6bb9dc7a38b6cfef'>Update dispatch.yaml</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/8151a21d2e109b1155a5aa98a55006476d8a2499'>lint</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/fd3773a71e06a4456e1dbefc08445c2afbf9bf67'>Update dispatch.yaml</a></li><li><a href='https://github.com/dmzoneill/Chuckbot/commit/7c8611b31493d8b13640ee5d6015ffe7e03b7886'>Fix standard lint</a></li></ul>
       <h3>Gists</h3>
@@ -147,7 +147,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump ac
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2024-10-24</p>
+              <p>2024-10-25</p>
             </td>
         </tr>
 <tr>
@@ -618,14 +618,14 @@ updated-dependencies:
 
 Signed-off-by: dependabot[bot] <support@github.com></a></li></ul></p>
               <p><ul></ul></p>
-              <p><ul></ul></p>
+              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/31'>Bump http-proxy-middleware from 2.0.6 to 2.0.7 in /frontend</a> 2024-10-25</li></ul></p>
             </td>
             <td>
               <p><a href='' title=''></a></p>
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/aa-dev-prod-watcher/actions'><img src='https://github.com/dmzoneill//aa-dev-prod-watcher/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2024-10-17</p>
+              <p>2024-10-25</p>
             </td>
         </tr>
 <tr>

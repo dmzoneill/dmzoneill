@@ -1,14 +1,27 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-27/10/2024 18:59:44-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-27/10/2024 19:20:50-brightgreen" height='28'/>
 
 <table>
   <tr>
     <td>
-      <h3>Issues (20)</h3>
+      <h3>Issues (19)</h3>
       <li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/25'>Most releases found are missing tracks</a> 2024-10-16</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/23'>Track Format & FFMPEG not adding metadata</a> 2024-03-25</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/21'>Issue with Lidarr recognizing downloaded audio and incorrect metadata in Jellyfin</a> 2024-02-23</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/13'>Alittle help with docker compose</a> 2024-03-25</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/12'>REQ: Ability to set percentage match cutoff and/or keyword blacklist such as "live" or whitelist "official" in title.</a> 2024-03-25</li>
-      <h3>Pull Requests (2)</h3>
-      <ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/31'>Bump http-proxy-middleware from 2.0.6 to 2.0.7 in /frontend</a> 2024-10-25</li><li><a href='https://github.com/dmzoneill/aa-dns-checker/pull/3'>Bump idna from 3.6 to 3.7</a> 2024-10-16</li></ul>
+      <h3>Pull Requests (1)</h3>
+      <ul><li><a href='https://github.com/dmzoneill/aa-dns-checker/pull/3'>Bump idna from 3.6 to 3.7</a> 2024-10-16</li></ul>
       <h3>Recent Acivity</h3>
-      <ul><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/75aeed1a4ce3021ec0a0fa38f3e1f346a1e6869f'>lint</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/47634b0c6caad4dc87fe011bd8b0bae2c421d4aa'>lint</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/0ecc83d1c1748179bf7b6ce1266647ee749dc887'>lint</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/934ca170b2d0c619b846d8f9dc1ad94836545159'>lint</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/a0f4666b145d50dde00d3baefbc5beff006fb748'>Lint</a></li></ul>
+      <ul><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/53132a0e27678ef59745f1ea2aa596b6b6fcfb25'>Update main.yml</a></li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/commit/781e580d1dae29e966caf199f997cd2a153f4993'>Bump http-proxy-middleware from 2.0.6 to 2.0.7 in /frontend
+
+Bumps [http-proxy-middleware](https://github.com/chimurai/http-proxy-middleware) from 2.0.6 to 2.0.7.
+- [Release notes](https://github.com/chimurai/http-proxy-middleware/releases)
+- [Changelog](https://github.com/chimurai/http-proxy-middleware/blob/v2.0.7/CHANGELOG.md)
+- [Commits](https://github.com/chimurai/http-proxy-middleware/compare/v2.0.6...v2.0.7)
+
+---
+updated-dependencies:
+- dependency-name: http-proxy-middleware
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump http-proxy-middleware from 2.0.6 to 2.0.7 in /frontend'>https://github.com/dmzoneill/aa-dev-prod-watcher/pull/31</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/a37ff4447e17400b1738a80fd8956d4159e4797b'>Fix typo</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/202e143a835c83137c8cc4b643dad0751ef9b8ed'>Fix deploy steps</a></li></ul>
       <h3>Gists</h3>
       <ul><li><a href='https://gist.github.com/dmzoneill/21aaa839698c07a1a2007bcfec12d2d4'>network watch</a></li><li><a href='https://gist.github.com/dmzoneill/7c9159b30950621c065791e7861be174'>Python GTK4 ColumnView Sorting and Binding</a></li><li><a href='https://gist.github.com/dmzoneill/19a4fbd799f1e5bcc050ddb4b0a65403'>sorted listed model gtk4</a></li><li><a href='https://gist.github.com/dmzoneill/74033698f65a5a1539d686452a73dce8'>Pygtk4 ColumnView</a></li><li><a href='https://gist.github.com/dmzoneill/497746f38c5786c96e8859f1131667af'>awx-operator 2.15..16</a></li><li><a href='https://gist.github.com/dmzoneill/f234183850275c36dd43564e81126338'>fail ci with approvers</a></li><li><a href='https://gist.github.com/dmzoneill/b3dace5030bea5d05211cbf1a74d7140'>PostGres Enum Errors</a></li><li><a href='https://gist.github.com/dmzoneill/daef323146469618c550241f35e4b503'>AWX Strings 1</a></li><li><a href='https://gist.github.com/dmzoneill/809f32f1ca301ce6f0dc2bad741ec15e'>AWX Strings 2</a></li><li><a href='https://gist.github.com/dmzoneill/4f1a46c512245a21ce819a9f465679aa'>AWX development on kind</a></li><li><a href='https://gist.github.com/dmzoneill/664484ef2b798118a83347205f84c66b'>keybase.md</a></li><li><a href='https://gist.github.com/dmzoneill/67a908fb949dc95bbbf02f0446a07f0a'>durex fun</a></li><li><a href='https://gist.github.com/dmzoneill/d13d88b16d4d0aa90cb108a00ab3cf01'>10GB tuning</a></li><li><a href='https://gist.github.com/dmzoneill/575ba9c32375c41cb1041e9064de0678'>Synology 108tb limit bypass</a></li><li><a href='https://gist.github.com/dmzoneill/cbc75e502dbe2b78651f68d6320b714a'>AA active queries</a></li><li><a href='https://gist.github.com/dmzoneill/faaa84782eaed4d2dc28ad55c19119ee'>PHP Paypal Instant Payment Notification</a></li></ul>
     </td>
@@ -42,7 +55,7 @@
   </thead>
   <tbody>
     <tr><td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>640861</td>
-<td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>323212</td>
+<td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>323267</td>
 <td><img src='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' title='Java'  height='20px'/></td><td>2071977</td>
 <td><img src='https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white' title='Kotlin'  height='20px'/></td><td>24599</td>
 </tr><tr>
@@ -63,7 +76,7 @@
 </tr><tr>
 <td><img src='https://img.shields.io/badge/_-COBOL -11DDDD.svg?style=for-the-badge' title='COBOL'  height='20px'/></td><td>964</td>
 <td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>1373195</td>
-<td><img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile'  height='20px'/></td><td>6909</td>
+<td><img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile'  height='20px'/></td><td>6940</td>
 <td><img src='https://img.shields.io/badge/_-Jinja -11DDDD.svg?style=for-the-badge' title='Jinja'  height='20px'/></td><td>21013</td>
 </tr><tr>
 <td><img src='https://img.shields.io/badge/_-AngelScript -11DDDD.svg?style=for-the-badge' title='AngelScript'  height='20px'/></td><td>28550</td>
@@ -126,7 +139,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/DFakeSeeder' title='DFakeSeeder'>DFakeSeeder</a> (2024)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/> <img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/75aeed1a4ce3021ec0a0fa38f3e1f346a1e6869f'>lint</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/47634b0c6caad4dc87fe011bd8b0bae2c421d4aa'>lint</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/0ecc83d1c1748179bf7b6ce1266647ee749dc887'>lint</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/934ca170b2d0c619b846d8f9dc1ad94836545159'>lint</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/a0f4666b145d50dde00d3baefbc5beff006fb748'>Lint</a></li></ul></p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/53132a0e27678ef59745f1ea2aa596b6b6fcfb25'>Update main.yml</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/a37ff4447e17400b1738a80fd8956d4159e4797b'>Fix typo</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/202e143a835c83137c8cc4b643dad0751ef9b8ed'>Fix deploy steps</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/75aeed1a4ce3021ec0a0fa38f3e1f346a1e6869f'>lint</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/47634b0c6caad4dc87fe011bd8b0bae2c421d4aa'>lint</a></li></ul></p>
               <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/7'>seeder log</a> 2024-10-27</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/5'>status column view selection and filtering</a> 2024-10-27</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/4'>log select box single torrent</a> 2024-10-27</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/3'>rightclick context update tracker, stop, pause, resume</a> 2024-10-27</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/2'>multi select toolbar updates</a> 2024-10-27</li></ul></p>
               <p><ul></ul></p>
             </td>
@@ -571,7 +584,20 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump ac
             <td>
               <p><h2><a href='https://github.com/dmzoneill/aa-dev-prod-watcher' title='aa-dev-prod-watcher'>aa-dev-prod-watcher</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript' height='20px'/> <img src='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' title='Go' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/commit/1f2e892a63d60945b0b8b5c0184574f0fde785c4'>Bump cookie and express in /frontend
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/commit/781e580d1dae29e966caf199f997cd2a153f4993'>Bump http-proxy-middleware from 2.0.6 to 2.0.7 in /frontend
+
+Bumps [http-proxy-middleware](https://github.com/chimurai/http-proxy-middleware) from 2.0.6 to 2.0.7.
+- [Release notes](https://github.com/chimurai/http-proxy-middleware/releases)
+- [Changelog](https://github.com/chimurai/http-proxy-middleware/blob/v2.0.7/CHANGELOG.md)
+- [Commits](https://github.com/chimurai/http-proxy-middleware/compare/v2.0.6...v2.0.7)
+
+---
+updated-dependencies:
+- dependency-name: http-proxy-middleware
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump http-proxy-middleware from 2.0.6 to 2.0.7 in /frontend'>https://github.com/dmzoneill/aa-dev-prod-watcher/pull/31</a></li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/commit/1f2e892a63d60945b0b8b5c0184574f0fde785c4'>Bump cookie and express in /frontend
 
 Bumps [cookie](https://github.com/jshttp/cookie) and [express](https://github.com/expressjs/express). These dependencies needed to be updated together.
 
@@ -604,28 +630,16 @@ updated-dependencies:
   dependency-type: direct:development
 ...
 
-Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump webpack from 5.76.0 to 5.95.0 in /frontend'>https://github.com/dmzoneill/aa-dev-prod-watcher/pull/30</a></li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/commit/7f00d766f8ff2d08a2ef7d471607f8dcd6f7265c'>Bump ws from 8.6.0 to 8.17.1 in /frontend
-
-Bumps [ws](https://github.com/websockets/ws) from 8.6.0 to 8.17.1.
-- [Release notes](https://github.com/websockets/ws/releases)
-- [Commits](https://github.com/websockets/ws/compare/8.6.0...8.17.1)
-
----
-updated-dependencies:
-- dependency-name: ws
-  dependency-type: indirect
-...
-
 Signed-off-by: dependabot[bot] <support@github.com></a></li></ul></p>
               <p><ul></ul></p>
-              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/31'>Bump http-proxy-middleware from 2.0.6 to 2.0.7 in /frontend</a> 2024-10-25</li></ul></p>
+              <p><ul></ul></p>
             </td>
             <td>
               <p><a href='' title=''></a></p>
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/aa-dev-prod-watcher/actions'><img src='https://github.com/dmzoneill//aa-dev-prod-watcher/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2024-10-25</p>
+              <p>2024-10-27</p>
             </td>
         </tr>
 <tr>

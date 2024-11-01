@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-31/10/2024 00:37:23-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-01/11/2024 00:40:25-brightgreen" height='28'/>
 
 <table>
   <tr>
@@ -8,7 +8,7 @@
       <h3>Pull Requests (1)</h3>
       <ul><li><a href='https://github.com/dmzoneill/aa-dns-checker/pull/3'>Bump idna from 3.6 to 3.7</a> 2024-10-16</li></ul>
       <h3>Recent Acivity</h3>
-      <ul><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/53132a0e27678ef59745f1ea2aa596b6b6fcfb25'>Update main.yml</a></li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/commit/781e580d1dae29e966caf199f997cd2a153f4993'>Bump http-proxy-middleware from 2.0.6 to 2.0.7 in /frontend
+      <ul><li><a href='https://github.com/dmzoneill/authy-gnupass-totp/commit/d355808d3036e6f91da2ca882520f581790407f2'>Update README.md</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/53132a0e27678ef59745f1ea2aa596b6b6fcfb25'>Update main.yml</a></li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/commit/781e580d1dae29e966caf199f997cd2a153f4993'>Bump http-proxy-middleware from 2.0.6 to 2.0.7 in /frontend
 
 Bumps [http-proxy-middleware](https://github.com/chimurai/http-proxy-middleware) from 2.0.6 to 2.0.7.
 - [Release notes](https://github.com/chimurai/http-proxy-middleware/releases)
@@ -21,7 +21,7 @@ updated-dependencies:
   dependency-type: indirect
 ...
 
-Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump http-proxy-middleware from 2.0.6 to 2.0.7 in /frontend'>https://github.com/dmzoneill/aa-dev-prod-watcher/pull/31</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/a37ff4447e17400b1738a80fd8956d4159e4797b'>Fix typo</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/202e143a835c83137c8cc4b643dad0751ef9b8ed'>Fix deploy steps</a></li></ul>
+Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump http-proxy-middleware from 2.0.6 to 2.0.7 in /frontend'>https://github.com/dmzoneill/aa-dev-prod-watcher/pull/31</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/a37ff4447e17400b1738a80fd8956d4159e4797b'>Fix typo</a></li></ul>
       <h3>Gists</h3>
       <ul><li><a href='https://gist.github.com/dmzoneill/21aaa839698c07a1a2007bcfec12d2d4'>network watch</a></li><li><a href='https://gist.github.com/dmzoneill/7c9159b30950621c065791e7861be174'>Python GTK4 ColumnView Sorting and Binding</a></li><li><a href='https://gist.github.com/dmzoneill/19a4fbd799f1e5bcc050ddb4b0a65403'>sorted listed model gtk4</a></li><li><a href='https://gist.github.com/dmzoneill/74033698f65a5a1539d686452a73dce8'>Pygtk4 ColumnView</a></li><li><a href='https://gist.github.com/dmzoneill/497746f38c5786c96e8859f1131667af'>awx-operator 2.15..16</a></li><li><a href='https://gist.github.com/dmzoneill/f234183850275c36dd43564e81126338'>fail ci with approvers</a></li><li><a href='https://gist.github.com/dmzoneill/b3dace5030bea5d05211cbf1a74d7140'>PostGres Enum Errors</a></li><li><a href='https://gist.github.com/dmzoneill/daef323146469618c550241f35e4b503'>AWX Strings 1</a></li><li><a href='https://gist.github.com/dmzoneill/809f32f1ca301ce6f0dc2bad741ec15e'>AWX Strings 2</a></li><li><a href='https://gist.github.com/dmzoneill/4f1a46c512245a21ce819a9f465679aa'>AWX development on kind</a></li><li><a href='https://gist.github.com/dmzoneill/664484ef2b798118a83347205f84c66b'>keybase.md</a></li><li><a href='https://gist.github.com/dmzoneill/67a908fb949dc95bbbf02f0446a07f0a'>durex fun</a></li><li><a href='https://gist.github.com/dmzoneill/d13d88b16d4d0aa90cb108a00ab3cf01'>10GB tuning</a></li><li><a href='https://gist.github.com/dmzoneill/575ba9c32375c41cb1041e9064de0678'>Synology 108tb limit bypass</a></li><li><a href='https://gist.github.com/dmzoneill/cbc75e502dbe2b78651f68d6320b714a'>AA active queries</a></li><li><a href='https://gist.github.com/dmzoneill/faaa84782eaed4d2dc28ad55c19119ee'>PHP Paypal Instant Payment Notification</a></li></ul>
     </td>
@@ -137,6 +137,22 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump ht
   <tbody>
     <tr>
             <td>
+              <p><h2><a href='https://github.com/dmzoneill/authy-gnupass-totp' title='authy-gnupass-totp'>authy-gnupass-totp</a> (2024)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/</p>
+              <p>Apache License 2.0</p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/authy-gnupass-totp/commit/d355808d3036e6f91da2ca882520f581790407f2'>Update README.md</a></li></ul></p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+            </td>
+            <td>
+              <p><a href='https://github.com/dmzoneill/authy-gnupass-totp' title='Authy GNU Pass Totp'>Authy GNU Pass Totp</a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/authy-gnupass-totp/actions'><img src='https://github.com/dmzoneill//authy-gnupass-totp/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2024-10-31</p>
+            </td>
+        </tr>
+<tr>
+            <td>
               <p><h2><a href='https://github.com/dmzoneill/dmzoneill' title='dmzoneill'>dmzoneill</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
               <p>Apache License 2.0</p>
               <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/dmzoneill/commit/992c5fba159d5c781ee3d4fc6bb9dc7a38b6cfef'>Update dispatch.yaml</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/fd3773a71e06a4456e1dbefc08445c2afbf9bf67'>Update dispatch.yaml</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/d8ecf63d255dd1e2f2c18d74fae94083177a1766'>Bump actions/download-artifact from 3 to 4.1.7 in /.github/workflows
@@ -160,7 +176,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump ac
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2024-10-30</p>
+              <p>2024-10-31</p>
             </td>
         </tr>
 <tr>
@@ -193,22 +209,6 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump ac
             <td align="center">
               <a href='https://github.com/dmzoneill/Chuckbot/actions'><img src='https://github.com/dmzoneill//Chuckbot/actions/workflows/main.yml/badge.svg'/></a>
               <p>2024-10-17</p>
-            </td>
-        </tr>
-<tr>
-            <td>
-              <p><h2><a href='https://github.com/dmzoneill/authy-gnupass-totp' title='authy-gnupass-totp'>authy-gnupass-totp</a> (2024)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/</p>
-              <p>Apache License 2.0</p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-            </td>
-            <td>
-              <p><a href='https://github.com/dmzoneill/authy-gnupass-totp' title='Authy GNU Pass Totp'>Authy GNU Pass Totp</a></p>
-            </td>
-            <td align="center">
-              <a href='https://github.com/dmzoneill/authy-gnupass-totp/actions'><img src='https://github.com/dmzoneill//authy-gnupass-totp/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2024-04-20</p>
             </td>
         </tr>
 <tr>

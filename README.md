@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-01/11/2024 00:40:25-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-02/11/2024 00:36:04-brightgreen" height='28'/>
 
 <table>
   <tr>
@@ -137,22 +137,6 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump ht
   <tbody>
     <tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/authy-gnupass-totp' title='authy-gnupass-totp'>authy-gnupass-totp</a> (2024)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/</p>
-              <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/authy-gnupass-totp/commit/d355808d3036e6f91da2ca882520f581790407f2'>Update README.md</a></li></ul></p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-            </td>
-            <td>
-              <p><a href='https://github.com/dmzoneill/authy-gnupass-totp' title='Authy GNU Pass Totp'>Authy GNU Pass Totp</a></p>
-            </td>
-            <td align="center">
-              <a href='https://github.com/dmzoneill/authy-gnupass-totp/actions'><img src='https://github.com/dmzoneill//authy-gnupass-totp/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2024-10-31</p>
-            </td>
-        </tr>
-<tr>
-            <td>
               <p><h2><a href='https://github.com/dmzoneill/dmzoneill' title='dmzoneill'>dmzoneill</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
               <p>Apache License 2.0</p>
               <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/dmzoneill/commit/992c5fba159d5c781ee3d4fc6bb9dc7a38b6cfef'>Update dispatch.yaml</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/fd3773a71e06a4456e1dbefc08445c2afbf9bf67'>Update dispatch.yaml</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/d8ecf63d255dd1e2f2c18d74fae94083177a1766'>Bump actions/download-artifact from 3 to 4.1.7 in /.github/workflows
@@ -176,6 +160,22 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump ac
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2024-11-01</p>
+            </td>
+        </tr>
+<tr>
+            <td>
+              <p><h2><a href='https://github.com/dmzoneill/authy-gnupass-totp' title='authy-gnupass-totp'>authy-gnupass-totp</a> (2024)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/</p>
+              <p>Apache License 2.0</p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/authy-gnupass-totp/commit/d355808d3036e6f91da2ca882520f581790407f2'>Update README.md</a></li></ul></p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+            </td>
+            <td>
+              <p><a href='https://github.com/dmzoneill/authy-gnupass-totp' title='Authy GNU Pass Totp'>Authy GNU Pass Totp</a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/authy-gnupass-totp/actions'><img src='https://github.com/dmzoneill//authy-gnupass-totp/actions/workflows/main.yml/badge.svg'/></a>
               <p>2024-10-31</p>
             </td>
         </tr>

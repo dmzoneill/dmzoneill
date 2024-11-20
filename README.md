@@ -1,14 +1,23 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-19/11/2024 00:39:46-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-20/11/2024 00:37:39-brightgreen" height='28'/>
 
 <table>
   <tr>
     <td>
-      <h3>Issues (19)</h3>
+      <h3>Issues (20)</h3>
       <li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/25'>Most releases found are missing tracks</a> 2024-10-16</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/23'>Track Format & FFMPEG not adding metadata</a> 2024-03-25</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/21'>Issue with Lidarr recognizing downloaded audio and incorrect metadata in Jellyfin</a> 2024-02-23</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/13'>Alittle help with docker compose</a> 2024-03-25</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/12'>REQ: Ability to set percentage match cutoff and/or keyword blacklist such as "live" or whitelist "official" in title.</a> 2024-03-25</li>
-      <h3>Pull Requests (1)</h3>
-      <ul><li><a href='https://github.com/dmzoneill/aa-dns-checker/pull/3'>Bump idna from 3.6 to 3.7</a> 2024-10-16</li></ul>
+      <h3>Pull Requests (2)</h3>
+      <ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/32'>Bump cross-spawn from 7.0.3 to 7.0.6 in /frontend</a> 2024-11-20</li><li><a href='https://github.com/dmzoneill/aa-dns-checker/pull/3'>Bump idna from 3.6 to 3.7</a> 2024-10-16</li></ul>
       <h3>Recent Acivity</h3>
-      <ul><li><a href='https://github.com/Redhat-forks/django-ansible-base/commit/9dbc32d96b3dc6813afe2945c796eb37cb566063'>Enable/Disable authentication maps</a></li><li><a href='https://github.com/Redhat-forks/django-ansible-base/commit/4f96d66b8045b01f66d7b1a012a0debe724f0084'>Enable/Disable authentication maps</a></li><li><a href='https://github.com/Redhat-forks/django-ansible-base/commit/ae1de48ad15495b1f04b207fb4a1116eb65b029a'>Enable/Disable authentication maps</a></li><li><a href='https://github.com/Redhat-forks/django-ansible-base/commit/a432580c59bae7167ffeac7a0dadbb6703a5b465'>Enable/Disable authentication maps</a></li><li><a href='https://github.com/Redhat-forks/django-ansible-base/commit/d5f2b35996225749f2432a8418d9e446544b8392'>Enable/Disable authentication maps</a></li></ul>
+      <ul><li><a href='https://github.com/Redhat-forks/django-ansible-base/commit/2cf0b5bdc271b762c813a6e8f29371224272db8f'>Downgrade reverse-sync log to debug (#645)
+
+In AWX this is super noisy
+
+```
+tools_awx_1       | 2024-11-12 14:07:31,708 ERROR    [-] ansible_base.resource_registry.apps RESOURCE_SERVER is not configured. Reverse sync will not be enabled.
+```
+
+At a point our plan changed, so that this case is intended. So No need
+to issue an error log if it's intended.</a></li><li><a href='https://github.com/Redhat-forks/django-ansible-base/commit/a776c198bc9e2703b00d8dcec603d40e1b37dedc'>Enable/Disable authentication maps</a></li><li><a href='https://github.com/Redhat-forks/django-ansible-base/commit/9dbc32d96b3dc6813afe2945c796eb37cb566063'>Enable/Disable authentication maps</a></li><li><a href='https://github.com/Redhat-forks/django-ansible-base/commit/4f96d66b8045b01f66d7b1a012a0debe724f0084'>Enable/Disable authentication maps</a></li><li><a href='https://github.com/Redhat-forks/django-ansible-base/commit/ae1de48ad15495b1f04b207fb4a1116eb65b029a'>Enable/Disable authentication maps</a></li></ul>
       <h3>Gists</h3>
       <ul><li><a href='https://gist.github.com/dmzoneill/21aaa839698c07a1a2007bcfec12d2d4'>network watch</a></li><li><a href='https://gist.github.com/dmzoneill/7c9159b30950621c065791e7861be174'>Python GTK4 ColumnView Sorting and Binding</a></li><li><a href='https://gist.github.com/dmzoneill/19a4fbd799f1e5bcc050ddb4b0a65403'>sorted listed model gtk4</a></li><li><a href='https://gist.github.com/dmzoneill/74033698f65a5a1539d686452a73dce8'>Pygtk4 ColumnView</a></li><li><a href='https://gist.github.com/dmzoneill/497746f38c5786c96e8859f1131667af'>awx-operator 2.15..16</a></li><li><a href='https://gist.github.com/dmzoneill/f234183850275c36dd43564e81126338'>fail ci with approvers</a></li><li><a href='https://gist.github.com/dmzoneill/b3dace5030bea5d05211cbf1a74d7140'>PostGres Enum Errors</a></li><li><a href='https://gist.github.com/dmzoneill/daef323146469618c550241f35e4b503'>AWX Strings 1</a></li><li><a href='https://gist.github.com/dmzoneill/809f32f1ca301ce6f0dc2bad741ec15e'>AWX Strings 2</a></li><li><a href='https://gist.github.com/dmzoneill/4f1a46c512245a21ce819a9f465679aa'>AWX development on kind</a></li><li><a href='https://gist.github.com/dmzoneill/664484ef2b798118a83347205f84c66b'>keybase.md</a></li><li><a href='https://gist.github.com/dmzoneill/67a908fb949dc95bbbf02f0446a07f0a'>durex fun</a></li><li><a href='https://gist.github.com/dmzoneill/d13d88b16d4d0aa90cb108a00ab3cf01'>10GB tuning</a></li><li><a href='https://gist.github.com/dmzoneill/575ba9c32375c41cb1041e9064de0678'>Synology 108tb limit bypass</a></li><li><a href='https://gist.github.com/dmzoneill/cbc75e502dbe2b78651f68d6320b714a'>AA active queries</a></li><li><a href='https://gist.github.com/dmzoneill/faaa84782eaed4d2dc28ad55c19119ee'>PHP Paypal Instant Payment Notification</a></li></ul>
     </td>
@@ -147,7 +156,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump ac
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2024-11-18</p>
+              <p>2024-11-19</p>
             </td>
         </tr>
 <tr>
@@ -619,14 +628,14 @@ updated-dependencies:
 
 Signed-off-by: dependabot[bot] <support@github.com></a></li></ul></p>
               <p><ul></ul></p>
-              <p><ul></ul></p>
+              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/32'>Bump cross-spawn from 7.0.3 to 7.0.6 in /frontend</a> 2024-11-20</li></ul></p>
             </td>
             <td>
               <p><a href='' title=''></a></p>
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/aa-dev-prod-watcher/actions'><img src='https://github.com/dmzoneill//aa-dev-prod-watcher/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2024-10-27</p>
+              <p>2024-11-20</p>
             </td>
         </tr>
 <tr>

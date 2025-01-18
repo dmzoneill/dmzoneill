@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-17/01/2025 00:37:41-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-18/01/2025 00:35:21-brightgreen" height='28'/>
 
 <table>
   <tr>
@@ -137,7 +137,7 @@ Signed-off-by: Rick Elrod <rick@elrod.me></a></li><li><a href='SAML fixes'>https
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2025-01-16</p>
+              <p>2025-01-17</p>
             </td>
         </tr>
 <tr>
@@ -369,7 +369,7 @@ Signed-off-by: Rick Elrod <rick@elrod.me></a></li><li><a href='SAML fixes'>https
             <td>
               <p><h2><a href='https://github.com/dmzoneill/k8s-media-center' title='k8s-media-center'>k8s-media-center</a> (2024)</h2></p><p><img src='https://img.shields.io/badge/_-Jinja -11DDDD.svg?style=for-the-badge' title='Jinja' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/> <img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='dmzoneill/k8s-media-center'>https://api.github.com/repos/dmzoneill/k8s-media-center</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -595,19 +595,7 @@ updated-dependencies:
   dependency-type: indirect
 ...
 
-Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump cookie and express in /frontend'>https://github.com/dmzoneill/aa-dev-prod-watcher/pull/29</a></li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/commit/705881b22315055d358be6fcbc8a7316591f7aee'>Bump webpack from 5.76.0 to 5.95.0 in /frontend
-
-Bumps [webpack](https://github.com/webpack/webpack) from 5.76.0 to 5.95.0.
-- [Release notes](https://github.com/webpack/webpack/releases)
-- [Commits](https://github.com/webpack/webpack/compare/v5.76.0...v5.95.0)
-
----
-updated-dependencies:
-- dependency-name: webpack
-  dependency-type: direct:development
-...
-
-Signed-off-by: dependabot[bot] <support@github.com></a></li></ul></p>
+Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump cookie and express in /frontend'>https://github.com/dmzoneill/aa-dev-prod-watcher/pull/29</a></li></ul></p>
               <p><ul></ul></p>
               <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/34'>Bump nanoid from 3.3.6 to 3.3.8 in /frontend</a> 2024-12-12</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/33'>Bump path-to-regexp and express in /frontend</a> 2024-12-12</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/32'>Bump cross-spawn from 7.0.3 to 7.0.6 in /frontend</a> 2024-12-12</li></ul></p>
             </td>
@@ -636,19 +624,7 @@ updated-dependencies:
   dependency-type: direct:production
 ...
 
-Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump starlette from 0.36.2 to 0.40.0'>https://github.com/dmzoneill/aa-dns-checker/pull/5</a></li><li><a href='https://github.com/dmzoneill/aa-dns-checker/commit/8f11e968505fc12ad3d5a15dbc3feb35eeaf9ec3'>Bump gunicorn from 20.1.0 to 22.0.0
-
-Bumps [gunicorn](https://github.com/benoitc/gunicorn) from 20.1.0 to 22.0.0.
-- [Release notes](https://github.com/benoitc/gunicorn/releases)
-- [Commits](https://github.com/benoitc/gunicorn/compare/20.1.0...22.0.0)
-
----
-updated-dependencies:
-- dependency-name: gunicorn
-  dependency-type: direct:production
-...
-
-Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump gunicorn from 20.1.0 to 22.0.0'>https://github.com/dmzoneill/aa-dns-checker/pull/4</a></li></ul></p>
+Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump starlette from 0.36.2 to 0.40.0'>https://github.com/dmzoneill/aa-dns-checker/pull/5</a></li></ul></p>
               <p><ul></ul></p>
               <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/aa-dns-checker/pull/3'>Bump idna from 3.6 to 3.7</a> 2024-10-17</li></ul></p>
             </td>
@@ -664,7 +640,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump gu
             <td>
               <p><h2><a href='https://github.com/dmzoneill/docker-media-center' title='docker-media-center'>docker-media-center</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/_-Roff -11DDDD.svg?style=for-the-badge' title='Roff' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/> <img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile' height='20px'/> <img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/docker-media-center/commit/7bce68e4d81111f5534b8838ce9ad6cb79bbf774'>updates</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>

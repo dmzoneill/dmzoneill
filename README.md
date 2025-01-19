@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-18/01/2025 00:35:21-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-19/01/2025 00:39:08-brightgreen" height='28'/>
 
 <table>
   <tr>
@@ -128,7 +128,7 @@ Signed-off-by: Rick Elrod <rick@elrod.me></a></li><li><a href='SAML fixes'>https
             <td>
               <p><h2><a href='https://github.com/dmzoneill/dmzoneill' title='dmzoneill'>dmzoneill</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/dmzoneill/commit/992c5fba159d5c781ee3d4fc6bb9dc7a38b6cfef'>Update dispatch.yaml</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/fd3773a71e06a4456e1dbefc08445c2afbf9bf67'>Update dispatch.yaml</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -137,14 +137,14 @@ Signed-off-by: Rick Elrod <rick@elrod.me></a></li><li><a href='SAML fixes'>https
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2025-01-17</p>
+              <p>2025-01-18</p>
             </td>
         </tr>
 <tr>
             <td>
               <p><h2><a href='https://github.com/dmzoneill/Chuckbot' title='Chuckbot'>Chuckbot</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/Chuckbot/commit/00efac8c31765382dc397f90bb2d06237ab6d3e9'>fix news</a></li><li><a href='https://github.com/dmzoneill/Chuckbot/commit/7c8611b31493d8b13640ee5d6015ffe7e03b7886'>Fix standard lint</a></li><li><a href='https://github.com/dmzoneill/Chuckbot/commit/b050cc624050a88488005cee70dcf377a3634ae4'>Fix standard lint</a></li><li><a href='https://github.com/dmzoneill/Chuckbot/commit/35e2be59df4cfa78030d524fe6549cca93d20c5b'>lint</a></li></ul></p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/Chuckbot/commit/00efac8c31765382dc397f90bb2d06237ab6d3e9'>fix news</a></li></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -574,28 +574,7 @@ updated-dependencies:
   dependency-type: indirect
 ...
 
-Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump http-proxy-middleware from 2.0.6 to 2.0.7 in /frontend'>https://github.com/dmzoneill/aa-dev-prod-watcher/pull/31</a></li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/commit/1f2e892a63d60945b0b8b5c0184574f0fde785c4'>Bump cookie and express in /frontend
-
-Bumps [cookie](https://github.com/jshttp/cookie) and [express](https://github.com/expressjs/express). These dependencies needed to be updated together.
-
-Updates `cookie` from 0.6.0 to 0.7.1
-- [Release notes](https://github.com/jshttp/cookie/releases)
-- [Commits](https://github.com/jshttp/cookie/compare/v0.6.0...v0.7.1)
-
-Updates `express` from 4.21.0 to 4.21.1
-- [Release notes](https://github.com/expressjs/express/releases)
-- [Changelog](https://github.com/expressjs/express/blob/4.21.1/History.md)
-- [Commits](https://github.com/expressjs/express/compare/4.21.0...4.21.1)
-
----
-updated-dependencies:
-- dependency-name: cookie
-  dependency-type: indirect
-- dependency-name: express
-  dependency-type: indirect
-...
-
-Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump cookie and express in /frontend'>https://github.com/dmzoneill/aa-dev-prod-watcher/pull/29</a></li></ul></p>
+Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump http-proxy-middleware from 2.0.6 to 2.0.7 in /frontend'>https://github.com/dmzoneill/aa-dev-prod-watcher/pull/31</a></li></ul></p>
               <p><ul></ul></p>
               <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/34'>Bump nanoid from 3.3.6 to 3.3.8 in /frontend</a> 2024-12-12</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/33'>Bump path-to-regexp and express in /frontend</a> 2024-12-12</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/32'>Bump cross-spawn from 7.0.3 to 7.0.6 in /frontend</a> 2024-12-12</li></ul></p>
             </td>
@@ -611,20 +590,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump co
             <td>
               <p><h2><a href='https://github.com/dmzoneill/aa-dns-checker' title='aa-dns-checker'>aa-dns-checker</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/aa-dns-checker/commit/613cf173f9a51d3c1b149ebba17e274b6f0d4544'>Bump starlette from 0.36.2 to 0.40.0
-
-Bumps [starlette](https://github.com/encode/starlette) from 0.36.2 to 0.40.0.
-- [Release notes](https://github.com/encode/starlette/releases)
-- [Changelog](https://github.com/encode/starlette/blob/master/docs/release-notes.md)
-- [Commits](https://github.com/encode/starlette/compare/0.36.2...0.40.0)
-
----
-updated-dependencies:
-- dependency-name: starlette
-  dependency-type: direct:production
-...
-
-Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump starlette from 0.36.2 to 0.40.0'>https://github.com/dmzoneill/aa-dns-checker/pull/5</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/aa-dns-checker/pull/3'>Bump idna from 3.6 to 3.7</a> 2024-10-17</li></ul></p>
             </td>

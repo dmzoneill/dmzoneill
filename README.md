@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-28/01/2025 00:36:37-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-29/01/2025 00:36:17-brightgreen" height='28'/>
 
 <table>
   <tr>
@@ -137,7 +137,7 @@ Signed-off-by: Rick Elrod <rick@elrod.me></a></li><li><a href='SAML fixes'>https
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2025-01-27</p>
+              <p>2025-01-28</p>
             </td>
         </tr>
 <tr>
@@ -176,7 +176,7 @@ Signed-off-by: Rick Elrod <rick@elrod.me></a></li><li><a href='SAML fixes'>https
             <td>
               <p><h2><a href='https://github.com/dmzoneill/DFakeSeeder' title='DFakeSeeder'>DFakeSeeder</a> (2024)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/> <img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/53132a0e27678ef59745f1ea2aa596b6b6fcfb25'>Update main.yml</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/a37ff4447e17400b1738a80fd8956d4159e4797b'>Fix typo</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/202e143a835c83137c8cc4b643dad0751ef9b8ed'>Fix deploy steps</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/75aeed1a4ce3021ec0a0fa38f3e1f346a1e6869f'>lint</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/47634b0c6caad4dc87fe011bd8b0bae2c421d4aa'>lint</a></li></ul></p>
+              <p><ul></ul></p>
               <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/7'>seeder log</a> 2024-10-27</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/5'>status column view selection and filtering</a> 2024-10-27</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/4'>log select box single torrent</a> 2024-10-27</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/3'>rightclick context update tracker, stop, pause, resume</a> 2024-10-27</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/2'>multi select toolbar updates</a> 2024-10-27</li></ul></p>
               <p><ul></ul></p>
             </td>
@@ -561,20 +561,7 @@ Signed-off-by: Rick Elrod <rick@elrod.me></a></li><li><a href='SAML fixes'>https
             <td>
               <p><h2><a href='https://github.com/dmzoneill/aa-dev-prod-watcher' title='aa-dev-prod-watcher'>aa-dev-prod-watcher</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript' height='20px'/> <img src='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' title='Go' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/commit/781e580d1dae29e966caf199f997cd2a153f4993'>Bump http-proxy-middleware from 2.0.6 to 2.0.7 in /frontend
-
-Bumps [http-proxy-middleware](https://github.com/chimurai/http-proxy-middleware) from 2.0.6 to 2.0.7.
-- [Release notes](https://github.com/chimurai/http-proxy-middleware/releases)
-- [Changelog](https://github.com/chimurai/http-proxy-middleware/blob/v2.0.7/CHANGELOG.md)
-- [Commits](https://github.com/chimurai/http-proxy-middleware/compare/v2.0.6...v2.0.7)
-
----
-updated-dependencies:
-- dependency-name: http-proxy-middleware
-  dependency-type: indirect
-...
-
-Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump http-proxy-middleware from 2.0.6 to 2.0.7 in /frontend'>https://github.com/dmzoneill/aa-dev-prod-watcher/pull/31</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/34'>Bump nanoid from 3.3.6 to 3.3.8 in /frontend</a> 2024-12-12</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/33'>Bump path-to-regexp and express in /frontend</a> 2024-12-12</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/32'>Bump cross-spawn from 7.0.3 to 7.0.6 in /frontend</a> 2024-12-12</li></ul></p>
             </td>

@@ -749,6 +749,16 @@ jobs:
         run: |
           echo "APP_NAME=$(echo "${{ github.repository }}" | awk -F'/' '{print tolower($2)}')" >> $GITHUB_ENV
 
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install pipenv
+          pipenv install --dev
+
       - name: Run tests
         run: |
           make test || true

@@ -941,7 +941,9 @@ jobs:
           rm -f setup.py setup.cfg
           rm -rf build dist *.egg-info
           pip3 install trove-classifiers ptyprocess msgpack lockfile distlib tomlkit tomli shellingham rapidfuzz pyrsistent poetry-core platformdirs pkginfo pexpect packaging jeepney jaraco.classes filelock dulwich crashtest cachecontrol virtualenv SecretStorage jsonschema cleo keyring poetry-plugin-export poetry bumpver
-          python3 -m pip install --upgrade build setuptools wheel twine
+          python3 -m pip install --upgrade pip build setuptools wheel twine
+          python3 -m pip install --upgrade --force-reinstall "packaging>=24.2"
+          
           echo "setuptools version:"
           python3 -m pip show setuptools | grep -E '^Name|^Version'
           
@@ -950,6 +952,9 @@ jobs:
           
           echo "build version:"
           python3 -m pip show build | grep -E '^Name|^Version' 
+
+          echo "packaging version:"
+          python3 -m pip show packaging | grep -E '^Name|^Version'
           
           python3 -m build
           unzip -p dist/*.whl '*.dist-info/METADATA' | grep -i license

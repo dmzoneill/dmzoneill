@@ -731,6 +731,14 @@ jobs:
         run: |
           echo "APP_NAME=$(echo "${{ github.repository }}" | awk -F'/' '{print tolower($2)}')" >> $GITHUB_ENV
 
+      - name: Run Setup
+        run: |
+          make setup || true
+
+      - name: Run test setup
+        run: |
+          make test-setup || true
+
       - name: Run tests
         run: |
           make test || true

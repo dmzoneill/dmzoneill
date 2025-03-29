@@ -941,6 +941,8 @@ jobs:
           pip3 install trove-classifiers ptyprocess msgpack lockfile distlib tomlkit tomli shellingham rapidfuzz pyrsistent poetry-core platformdirs pkginfo pexpect packaging jeepney jaraco.classes filelock dulwich crashtest cachecontrol virtualenv SecretStorage jsonschema cleo keyring poetry-plugin-export poetry bumpver
           python3 -m pip install --upgrade build setuptools wheel twine
           python3 -m build
+          unzip -p dist/*.whl '*.dist-info/METADATA' | grep -i license
+          find . -name 'setup.*'
     
       - name: Upload step
         run: |-

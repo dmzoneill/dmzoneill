@@ -736,17 +736,29 @@ jobs:
         run: |
           echo "APP_NAME=$(echo "${{ github.repository }}" | awk -F'/' '{print tolower($2)}')" >> $GITHUB_ENV
 
-      - name: Run Setup
+      - name: Run setup
         run: |
-          make setup || true
+          if [[ "${{ inputs.test-ready }}" == "true" ]]; then
+            make setup
+          else
+            make setup || true
+          fi
 
       - name: Run test setup
         run: |
-          make test-setup || true
+          if [[ "${{ inputs.test-ready }}" == "true" ]]; then
+            make test-setup
+          else
+            make test-setup || true
+          fi
 
       - name: Run tests
         run: |
-          make test || true
+          if [[ "${{ inputs.test-ready }}" == "true" ]]; then
+            make test
+          else
+            make test || true
+          fi
 
   integration-test:
     name: Run integration tests
@@ -772,17 +784,29 @@ jobs:
           pip install pipenv
           pipenv install --dev
 
-      - name: Run Setup
+      - name: Run setup
         run: |
-          make setup || true
+          if [[ "${{ inputs.test-ready }}" == "true" ]]; then
+            make setup
+          else
+            make setup || true
+          fi
 
       - name: Run test setup
         run: |
-          make test-setup || true
+          if [[ "${{ inputs.test-ready }}" == "true" ]]; then
+            make test-setup
+          else
+            make test-setup || true
+          fi
 
       - name: Run tests
         run: |
-          make test || true
+          if [[ "${{ inputs.test-ready }}" == "true" ]]; then
+            make test
+          else
+            make test || true
+          fi
           
   bump-versions:
     if: |

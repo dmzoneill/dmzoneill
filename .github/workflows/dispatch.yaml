@@ -4,6 +4,11 @@ name: DISPATCH
 on:
   workflow_call:
     inputs:
+      test-ready:
+        description: 'Whether tests should fail the job or not'
+        required: false
+        default: 'false'
+        type: string
       npmjs:
         required: false
         type: string

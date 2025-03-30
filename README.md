@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-30/03/2025 00:42:17-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-30/03/2025 10:28:36-brightgreen" height='28'/>
 
 <table>
   <tr>
@@ -8,7 +8,7 @@
       <h3>Pull Requests (5)</h3>
       <ul><li><a href='https://github.com/dmzoneill/aa-dns-checker/pull/6'>Bump gunicorn from 22.0.0 to 23.0.0</a> 2025-03-22</li><li><a href='https://github.com/dmzoneill/aa-dns-checker/pull/3'>Bump idna from 3.6 to 3.7</a> 2024-10-16</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/34'>Bump nanoid from 3.3.6 to 3.3.8 in /frontend</a> 2024-12-12</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/33'>Bump path-to-regexp and express in /frontend</a> 2024-12-06</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/32'>Bump cross-spawn from 7.0.3 to 7.0.6 in /frontend</a> 2024-11-20</li></ul>
       <h3>Recent Acivity</h3>
-      <ul><li><a href='https://github.com/dmzoneill/jira-creator/commit/e8eab414a1ee726e7fecfa1f5b61b8d40f1c9ae3'>Update ci file</a></li><li><a href='https://github.com/dmzoneill/jira-creator/commit/96e2e97ef9005650d15b414a2b1a11dc323b1a06'>Update ci file</a></li><li><a href='https://github.com/dmzoneill/jira-creator/commit/ee92fd1adf691a2e9b6eb82ac53c9a59a1533fe1'>Update makefile</a></li><li><a href='https://github.com/dmzoneill/jira-creator/commit/1629029a2dd654ba50755ab75fe13f2ad7fa4b0d'>update readme</a></li><li><a href='https://github.com/dmzoneill/jira-creator/commit/f9ef6abe6b422f5da324ef9068ac1f947eff6b94'>update readme</a></li></ul>
+      <ul><li><a href='https://github.com/dmzoneill/jira-creator/commit/cfe4faa97351a0b69f8381b7cff63f1543d56108'>Readme</a></li><li><a href='https://github.com/dmzoneill/jira-creator/commit/d9ee6120ee5be28d399890662951940b4d23f43d'>Remove aliases</a></li><li><a href='https://github.com/dmzoneill/jira-creator/commit/5243d399cdc6f89ca70c823ef5b4f16b5de307a5'>Update readme</a></li><li><a href='https://github.com/dmzoneill/jira-creator/commit/300cb9309d825577cc5fca8462c4ff12d407eb74'>Add story points functions and tests</a></li><li><a href='https://github.com/dmzoneill/jira-creator/commit/695cb2fbff7ce42c309eb58346a54697d6697d27'>Add story points functions and tests</a></li></ul>
       <h3>Gists</h3>
       <ul><li><a href='https://gist.github.com/dmzoneill/75f298b2d1e4ef6347ea2f11bd20cdbf'>konflux PR message ceanup</a></li><li><a href='https://gist.github.com/dmzoneill/c5027e6374bdc521495df4e63d15b797'>Konflux PR cleanup</a></li><li><a href='https://gist.github.com/dmzoneill/67c01a5c078d4e18c713f28db5a1ee36'>Jira issue/epic match status</a></li><li><a href='https://gist.github.com/dmzoneill/1307f038f9c38353df2cad9a2ae15c20'></a></li><li><a href='https://gist.github.com/dmzoneill/b12f50e8914bbcb496d260f02a81fa56'></a></li><li><a href='https://gist.github.com/dmzoneill/21aaa839698c07a1a2007bcfec12d2d4'>network watch</a></li><li><a href='https://gist.github.com/dmzoneill/7c9159b30950621c065791e7861be174'>Python GTK4 ColumnView Sorting and Binding</a></li><li><a href='https://gist.github.com/dmzoneill/19a4fbd799f1e5bcc050ddb4b0a65403'>sorted listed model gtk4</a></li><li><a href='https://gist.github.com/dmzoneill/74033698f65a5a1539d686452a73dce8'>Pygtk4 ColumnView</a></li><li><a href='https://gist.github.com/dmzoneill/497746f38c5786c96e8859f1131667af'>awx-operator 2.15..16</a></li><li><a href='https://gist.github.com/dmzoneill/f234183850275c36dd43564e81126338'>fail ci with approvers</a></li><li><a href='https://gist.github.com/dmzoneill/b3dace5030bea5d05211cbf1a74d7140'>PostGres Enum Errors</a></li><li><a href='https://gist.github.com/dmzoneill/daef323146469618c550241f35e4b503'>AWX Strings 1</a></li><li><a href='https://gist.github.com/dmzoneill/809f32f1ca301ce6f0dc2bad741ec15e'>AWX Strings 2</a></li><li><a href='https://gist.github.com/dmzoneill/4f1a46c512245a21ce819a9f465679aa'>AWX development on kind</a></li><li><a href='https://gist.github.com/dmzoneill/664484ef2b798118a83347205f84c66b'>keybase.md</a></li><li><a href='https://gist.github.com/dmzoneill/67a908fb949dc95bbbf02f0446a07f0a'>durex fun</a></li><li><a href='https://gist.github.com/dmzoneill/d13d88b16d4d0aa90cb108a00ab3cf01'>10GB tuning</a></li><li><a href='https://gist.github.com/dmzoneill/575ba9c32375c41cb1041e9064de0678'>Synology 108tb limit bypass</a></li><li><a href='https://gist.github.com/dmzoneill/cbc75e502dbe2b78651f68d6320b714a'>AA active queries</a></li><li><a href='https://gist.github.com/dmzoneill/faaa84782eaed4d2dc28ad55c19119ee'>PHP Paypal Instant Payment Notification</a></li></ul>
     </td>
@@ -41,8 +41,8 @@
     </tr>
   </thead>
   <tbody>
-    <tr><td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>726233</td>
-<td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>327575</td>
+    <tr><td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>754321</td>
+<td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>328540</td>
 <td><img src='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' title='Java'  height='20px'/></td><td>2071977</td>
 <td><img src='https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white' title='Kotlin'  height='20px'/></td><td>24599</td>
 </tr><tr>
@@ -126,7 +126,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/dmzoneill' title='dmzoneill'>dmzoneill</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/dmzoneill/commit/4c6b1a5a8dec272225b7a8ecc9b6553cda46674a'>Update dispatch.yaml</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/fd6c517b4ddc900cc9925ce6b1f75bf8423e0f8e'>Update dispatch.yaml</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/d05bc00def69668c990ed441dd46257113578f8d'>Update dispatch.yaml</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/050f2746ad905e893ff613a8855d36b76f6e4deb'>Update dispatch.yaml</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/140b61d8915e84d36747cdbe0eb8cf8ec0cc0920'>Update dispatch.yaml</a></li></ul></p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/dmzoneill/commit/6c02b05a129e1e24a76b4ad07ee7bdbc7a581985'>Update dispatch.yaml</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/7b87881d30606bcdb663db070e1a193d6c3fc1e0'>Update dispatch.yaml</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/6003766f79998dae1d048b33ff4cf4e7215702fc'>Update dispatch.yaml</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/8ee331ba01f24d8c5ef47d00fa391f6bd1842139'>Update dispatch.yaml</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/f0c3e3e35c74c5397c979924546b51a84102bdf8'>Update dispatch.yaml</a></li></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -135,7 +135,7 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2025-03-29</p>
+              <p>2025-03-30</p>
             </td>
         </tr>
 <tr>
@@ -367,7 +367,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/jira-creator' title='jira-creator'>jira-creator</a> (2025)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/> <img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/jira-creator/commit/e8eab414a1ee726e7fecfa1f5b61b8d40f1c9ae3'>Update ci file</a></li><li><a href='https://github.com/dmzoneill/jira-creator/commit/96e2e97ef9005650d15b414a2b1a11dc323b1a06'>Update ci file</a></li><li><a href='https://github.com/dmzoneill/jira-creator/commit/ee92fd1adf691a2e9b6eb82ac53c9a59a1533fe1'>Update makefile</a></li><li><a href='https://github.com/dmzoneill/jira-creator/commit/1629029a2dd654ba50755ab75fe13f2ad7fa4b0d'>update readme</a></li><li><a href='https://github.com/dmzoneill/jira-creator/commit/f9ef6abe6b422f5da324ef9068ac1f947eff6b94'>update readme</a></li></ul></p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/jira-creator/commit/cfe4faa97351a0b69f8381b7cff63f1543d56108'>Readme</a></li><li><a href='https://github.com/dmzoneill/jira-creator/commit/d9ee6120ee5be28d399890662951940b4d23f43d'>Remove aliases</a></li><li><a href='https://github.com/dmzoneill/jira-creator/commit/5243d399cdc6f89ca70c823ef5b4f16b5de307a5'>Update readme</a></li><li><a href='https://github.com/dmzoneill/jira-creator/commit/300cb9309d825577cc5fca8462c4ff12d407eb74'>Add story points functions and tests</a></li><li><a href='https://github.com/dmzoneill/jira-creator/commit/695cb2fbff7ce42c309eb58346a54697d6697d27'>Add story points functions and tests</a></li></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -376,7 +376,7 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/jira-creator/actions'><img src='https://github.com/dmzoneill//jira-creator/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2025-03-29</p>
+              <p>2025-03-30</p>
             </td>
         </tr>
 </tbody></table><h2>2024</h2><table width='100%' style='width:100%'><thead><tr><th>Project</th><th>View</th><th>Status</th></tr></thead><tbody><tr>

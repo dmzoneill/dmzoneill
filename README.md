@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-02/04/2025 00:38:54-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-03/04/2025 00:38:14-brightgreen" height='28'/>
 
 <table>
   <tr>
@@ -8,20 +8,25 @@
       <h3>Pull Requests (5)</h3>
       <ul><li><a href='https://github.com/dmzoneill/aa-dns-checker/pull/6'>Bump gunicorn from 22.0.0 to 23.0.0</a> 2025-03-22</li><li><a href='https://github.com/dmzoneill/aa-dns-checker/pull/3'>Bump idna from 3.6 to 3.7</a> 2024-10-16</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/34'>Bump nanoid from 3.3.6 to 3.3.8 in /frontend</a> 2024-12-12</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/33'>Bump path-to-regexp and express in /frontend</a> 2024-12-06</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/32'>Bump cross-spawn from 7.0.3 to 7.0.6 in /frontend</a> 2024-11-20</li></ul>
       <h3>Recent Acivity</h3>
-      <ul><li><a href='https://github.com/dmzoneill/jira-creator/commit/a65afd2ee521f4137d3c855e68f172a79439ae4b'>Enhance Jira CLI with acceptance criteria handling, linting improvements, and AI-driven validation
+      <ul><li><a href='https://github.com/dmzoneill/jira-creator/commit/856e9b5f99801ecd444b699ea5f0f6aaeca9eaa2'>Refactor tests in `test_search_with_options.py` to use fixtures for `JiraCLI` and improve exception handling; clean up unused imports and commented-out code.</a></li><li><a href='https://github.com/dmzoneill/jira-creator/commit/84d4313246ccd2317881266e7fbc66bae9109024'>**Commit Message:**
 
-- Added `set_acceptance_criteria` and `get_acceptance_criteria` methods to JiraClient and integrated into the CLI.
-- Introduced a new CLI command for setting acceptance criteria with improved error handling and output.
-- Added interactive linting to the `edit-issue` command, allowing iterative improvements to Jira descriptions.
-- Integrated AI-based validation for description, acceptance criteria, and summary fields with caching to avoid redundant processing.
-- Updated `Makefile` to improve test run duration reporting with `--durations=10` in pytest.
-- Refined linting behavior to flag missing Epics for non-Epic issue types, with better reporting of lint issues.
-- Enhanced test suite with new tests for acceptance criteria and description validation, cache directory creation, and exception handling in CLI commands.
-- Removed deprecated tests related to AI prompt fallback and no-AI editing behavior.
+Refactor import statements for improved organization and readability
 
-Other improvements:
-- Simplified template formatting in Jira issue templates (bug, story, task, epic, etc.).
-- Fixed several issues with mock handling and dependency management in tests.</a></li><li><a href='https://github.com/dmzoneill/jira-creator/commit/87cf14a69e1bf6668636b2342f656c54210d26ab'>fix tests</a></li><li><a href='https://github.com/dmzoneill/jira-creator/commit/027dc3d4fd191588b86848618c5619822cfdc6ac'>More lint checks</a></li><li><a href='https://github.com/dmzoneill/jira-creator/commit/c6194373e2d2203e1fa935f497bb486fda051018'>REmove 204 check, added assign function</a></li><li><a href='https://github.com/dmzoneill/jira-creator/commit/d726886d648ffac4bd20126665d9d56dd8161a19'>REmove 204 check, added assign function</a></li></ul>
+- Updated import statements in `client.py`, `rh_jira.py`, and test files to comply with isort conventions.
+- Removed redundant imports in `rh_jira.py` to streamline the code.
+- Added a blank line for better separation in `test_lint_all.py`.
+- Ensured consistent formatting across files for better maintainability.</a></li><li><a href='https://github.com/dmzoneill/jira-creator/commit/f42f8338cc58365d9e0cf84de9935e0088cceb93'>lint</a></li><li><a href='https://github.com/dmzoneill/jira-creator/commit/87c58cc9e96955d5d73b9cae5252af30bca22742'>lint</a></li><li><a href='https://github.com/dmzoneill/jira-creator/commit/65b223f4d0a6021e2df1125d41f1dd58f52b9419'>Enhance Jira Integration with Acceptance Criteria Management
+
+- Added functionality to set and retrieve acceptance criteria for Jira issues.
+- Introduced new commands in the CLI for setting acceptance criteria.
+- Updated validation logic to include checks for acceptance criteria.
+- Enhanced test coverage for acceptance criteria handling, including edge cases.
+- Improved output formatting in linting processes to provide clearer feedback.
+- Added caching mechanism for AI suggestions related to acceptance criteria and descriptions.
+- Updated Makefile to include pytest duration reporting for performance insights.
+- Refactored existing tests to ensure compatibility with new features and improve overall test reliability.
+
+This commit significantly improves the management of acceptance criteria in Jira issues, ensuring better compliance with project requirements and enhancing user experience.</a></li></ul>
       <h3>Gists</h3>
       <ul><li><a href='https://gist.github.com/dmzoneill/75f298b2d1e4ef6347ea2f11bd20cdbf'>konflux PR message ceanup</a></li><li><a href='https://gist.github.com/dmzoneill/c5027e6374bdc521495df4e63d15b797'>Konflux PR cleanup</a></li><li><a href='https://gist.github.com/dmzoneill/67c01a5c078d4e18c713f28db5a1ee36'>Jira issue/epic match status</a></li><li><a href='https://gist.github.com/dmzoneill/1307f038f9c38353df2cad9a2ae15c20'></a></li><li><a href='https://gist.github.com/dmzoneill/b12f50e8914bbcb496d260f02a81fa56'></a></li><li><a href='https://gist.github.com/dmzoneill/21aaa839698c07a1a2007bcfec12d2d4'>network watch</a></li><li><a href='https://gist.github.com/dmzoneill/7c9159b30950621c065791e7861be174'>Python GTK4 ColumnView Sorting and Binding</a></li><li><a href='https://gist.github.com/dmzoneill/19a4fbd799f1e5bcc050ddb4b0a65403'>sorted listed model gtk4</a></li><li><a href='https://gist.github.com/dmzoneill/74033698f65a5a1539d686452a73dce8'>Pygtk4 ColumnView</a></li><li><a href='https://gist.github.com/dmzoneill/497746f38c5786c96e8859f1131667af'>awx-operator 2.15..16</a></li><li><a href='https://gist.github.com/dmzoneill/f234183850275c36dd43564e81126338'>fail ci with approvers</a></li><li><a href='https://gist.github.com/dmzoneill/b3dace5030bea5d05211cbf1a74d7140'>PostGres Enum Errors</a></li><li><a href='https://gist.github.com/dmzoneill/daef323146469618c550241f35e4b503'>AWX Strings 1</a></li><li><a href='https://gist.github.com/dmzoneill/809f32f1ca301ce6f0dc2bad741ec15e'>AWX Strings 2</a></li><li><a href='https://gist.github.com/dmzoneill/4f1a46c512245a21ce819a9f465679aa'>AWX development on kind</a></li><li><a href='https://gist.github.com/dmzoneill/664484ef2b798118a83347205f84c66b'>keybase.md</a></li><li><a href='https://gist.github.com/dmzoneill/67a908fb949dc95bbbf02f0446a07f0a'>durex fun</a></li><li><a href='https://gist.github.com/dmzoneill/d13d88b16d4d0aa90cb108a00ab3cf01'>10GB tuning</a></li><li><a href='https://gist.github.com/dmzoneill/575ba9c32375c41cb1041e9064de0678'>Synology 108tb limit bypass</a></li><li><a href='https://gist.github.com/dmzoneill/cbc75e502dbe2b78651f68d6320b714a'>AA active queries</a></li><li><a href='https://gist.github.com/dmzoneill/faaa84782eaed4d2dc28ad55c19119ee'>PHP Paypal Instant Payment Notification</a></li></ul>
     </td>
@@ -54,7 +59,7 @@ Other improvements:
     </tr>
   </thead>
   <tbody>
-    <tr><td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>833868</td>
+    <tr><td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>840152</td>
 <td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>328747</td>
 <td><img src='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' title='Java'  height='20px'/></td><td>2071977</td>
 <td><img src='https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white' title='Kotlin'  height='20px'/></td><td>24599</td>
@@ -148,7 +153,7 @@ Other improvements:
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2025-04-01</p>
+              <p>2025-04-02</p>
             </td>
         </tr>
 <tr>
@@ -380,20 +385,25 @@ Other improvements:
             <td>
               <p><h2><a href='https://github.com/dmzoneill/jira-creator' title='jira-creator'>jira-creator</a> (2025)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/> <img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/jira-creator/commit/a65afd2ee521f4137d3c855e68f172a79439ae4b'>Enhance Jira CLI with acceptance criteria handling, linting improvements, and AI-driven validation
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/jira-creator/commit/856e9b5f99801ecd444b699ea5f0f6aaeca9eaa2'>Refactor tests in `test_search_with_options.py` to use fixtures for `JiraCLI` and improve exception handling; clean up unused imports and commented-out code.</a></li><li><a href='https://github.com/dmzoneill/jira-creator/commit/84d4313246ccd2317881266e7fbc66bae9109024'>**Commit Message:**
 
-- Added `set_acceptance_criteria` and `get_acceptance_criteria` methods to JiraClient and integrated into the CLI.
-- Introduced a new CLI command for setting acceptance criteria with improved error handling and output.
-- Added interactive linting to the `edit-issue` command, allowing iterative improvements to Jira descriptions.
-- Integrated AI-based validation for description, acceptance criteria, and summary fields with caching to avoid redundant processing.
-- Updated `Makefile` to improve test run duration reporting with `--durations=10` in pytest.
-- Refined linting behavior to flag missing Epics for non-Epic issue types, with better reporting of lint issues.
-- Enhanced test suite with new tests for acceptance criteria and description validation, cache directory creation, and exception handling in CLI commands.
-- Removed deprecated tests related to AI prompt fallback and no-AI editing behavior.
+Refactor import statements for improved organization and readability
 
-Other improvements:
-- Simplified template formatting in Jira issue templates (bug, story, task, epic, etc.).
-- Fixed several issues with mock handling and dependency management in tests.</a></li><li><a href='https://github.com/dmzoneill/jira-creator/commit/87cf14a69e1bf6668636b2342f656c54210d26ab'>fix tests</a></li><li><a href='https://github.com/dmzoneill/jira-creator/commit/027dc3d4fd191588b86848618c5619822cfdc6ac'>More lint checks</a></li><li><a href='https://github.com/dmzoneill/jira-creator/commit/c6194373e2d2203e1fa935f497bb486fda051018'>REmove 204 check, added assign function</a></li><li><a href='https://github.com/dmzoneill/jira-creator/commit/d726886d648ffac4bd20126665d9d56dd8161a19'>REmove 204 check, added assign function</a></li></ul></p>
+- Updated import statements in `client.py`, `rh_jira.py`, and test files to comply with isort conventions.
+- Removed redundant imports in `rh_jira.py` to streamline the code.
+- Added a blank line for better separation in `test_lint_all.py`.
+- Ensured consistent formatting across files for better maintainability.</a></li><li><a href='https://github.com/dmzoneill/jira-creator/commit/f42f8338cc58365d9e0cf84de9935e0088cceb93'>lint</a></li><li><a href='https://github.com/dmzoneill/jira-creator/commit/87c58cc9e96955d5d73b9cae5252af30bca22742'>lint</a></li><li><a href='https://github.com/dmzoneill/jira-creator/commit/65b223f4d0a6021e2df1125d41f1dd58f52b9419'>Enhance Jira Integration with Acceptance Criteria Management
+
+- Added functionality to set and retrieve acceptance criteria for Jira issues.
+- Introduced new commands in the CLI for setting acceptance criteria.
+- Updated validation logic to include checks for acceptance criteria.
+- Enhanced test coverage for acceptance criteria handling, including edge cases.
+- Improved output formatting in linting processes to provide clearer feedback.
+- Added caching mechanism for AI suggestions related to acceptance criteria and descriptions.
+- Updated Makefile to include pytest duration reporting for performance insights.
+- Refactored existing tests to ensure compatibility with new features and improve overall test reliability.
+
+This commit significantly improves the management of acceptance criteria in Jira issues, ensuring better compliance with project requirements and enhancing user experience.</a></li></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -402,7 +412,7 @@ Other improvements:
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/jira-creator/actions'><img src='https://github.com/dmzoneill//jira-creator/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2025-04-01</p>
+              <p>2025-04-02</p>
             </td>
         </tr>
 </tbody></table><h2>2024</h2><table width='100%' style='width:100%'><thead><tr><th>Project</th><th>View</th><th>Status</th></tr></thead><tbody><tr>
@@ -457,7 +467,7 @@ Other improvements:
             <td>
               <p><h2><a href='https://github.com/dmzoneill/TaperMonkey' title='TaperMonkey'>TaperMonkey</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/TaperMonkey/commit/22ebd07a58d9b32fdad36c5e687d3913ef635f38'>Redhat tapermoneiy scripts</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>

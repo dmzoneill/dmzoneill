@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-08/04/2025 00:39:55-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-09/04/2025 00:39:18-brightgreen" height='28'/>
 
 <table>
   <tr>
@@ -8,7 +8,15 @@
       <h3>Pull Requests (5)</h3>
       <ul><li><a href='https://github.com/dmzoneill/aa-dns-checker/pull/6'>Bump gunicorn from 22.0.0 to 23.0.0</a> 2025-03-22</li><li><a href='https://github.com/dmzoneill/aa-dns-checker/pull/3'>Bump idna from 3.6 to 3.7</a> 2024-10-16</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/34'>Bump nanoid from 3.3.6 to 3.3.8 in /frontend</a> 2024-12-12</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/33'>Bump path-to-regexp and express in /frontend</a> 2024-12-06</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/32'>Bump cross-spawn from 7.0.3 to 7.0.6 in /frontend</a> 2024-11-20</li></ul>
       <h3>Recent Acivity</h3>
-      <ul><li><a href='https://github.com/dmzoneill/jira-creator/commit/bafda6c44e14d75efae357d732a778c106457314'>Add mypy and textlint to development dependencies, update README for clarity, and improve README generation logic.</a></li><li><a href='https://github.com/dmzoneill/jira-creator/commit/1402262c82b7048ee947ef52ccc2a0dbc4f98ff1'>Add mypy support, update dependencies, enhance README, and improve linting setup.</a></li><li><a href='https://github.com/dmzoneill/jira-creator/commit/6fd1c18c72ef3e36b402f96c51dfc423ac924629'>Add jscpd configuration, update Makefile for jscpd installation, enhance README, and improve CLI commands with better error handling and filtering options.</a></li><li><a href='https://github.com/dmzoneill/jira-creator/commit/15ba4855acfcacaf53829746c21b414965a6cd82'>Update README for clarity and consistency; minor adjustments in test files for formatting.</a></li><li><a href='https://github.com/dmzoneill/jira-creator/commit/fdb4e57fe3997496a79bc75fe00d1592ac8283a3'>Add new commands and update existing ones; introduce TODO file for future enhancements.</a></li></ul>
+      <ul><li><a href='https://github.com/dmzoneill/jira-creator/commit/2fed494f7acca3f45fc81ac322eb524f221dfe55'>Refactor Makefile and enhance JIRA creator functionality
+
+- Added helper targets for printing headers in Makefile.
+- Improved installation process by including linters in the 'install' target.
+- Updated various commands in the JIRA creator to utilize environment variables for field names.
+- Introduced a new command for generating quarterly connection reports.
+- Enhanced error handling and logging across various functions.
+- Updated README for clarity and improved instructions.
+- Refactored tests to use consistent naming conventions and added new tests for recent features.</a></li><li><a href='https://github.com/dmzoneill/jira-creator/commit/bafda6c44e14d75efae357d732a778c106457314'>Add mypy and textlint to development dependencies, update README for clarity, and improve README generation logic.</a></li><li><a href='https://github.com/dmzoneill/jira-creator/commit/1402262c82b7048ee947ef52ccc2a0dbc4f98ff1'>Add mypy support, update dependencies, enhance README, and improve linting setup.</a></li><li><a href='https://github.com/dmzoneill/jira-creator/commit/6fd1c18c72ef3e36b402f96c51dfc423ac924629'>Add jscpd configuration, update Makefile for jscpd installation, enhance README, and improve CLI commands with better error handling and filtering options.</a></li><li><a href='https://github.com/dmzoneill/jira-creator/commit/15ba4855acfcacaf53829746c21b414965a6cd82'>Update README for clarity and consistency; minor adjustments in test files for formatting.</a></li></ul>
       <h3>Gists</h3>
       <ul><li><a href='https://gist.github.com/dmzoneill/75f298b2d1e4ef6347ea2f11bd20cdbf'>konflux PR message ceanup</a></li><li><a href='https://gist.github.com/dmzoneill/c5027e6374bdc521495df4e63d15b797'>Konflux PR cleanup</a></li><li><a href='https://gist.github.com/dmzoneill/67c01a5c078d4e18c713f28db5a1ee36'>Jira issue/epic match status</a></li><li><a href='https://gist.github.com/dmzoneill/1307f038f9c38353df2cad9a2ae15c20'></a></li><li><a href='https://gist.github.com/dmzoneill/b12f50e8914bbcb496d260f02a81fa56'></a></li><li><a href='https://gist.github.com/dmzoneill/21aaa839698c07a1a2007bcfec12d2d4'>network watch</a></li><li><a href='https://gist.github.com/dmzoneill/7c9159b30950621c065791e7861be174'>Python GTK4 ColumnView Sorting and Binding</a></li><li><a href='https://gist.github.com/dmzoneill/19a4fbd799f1e5bcc050ddb4b0a65403'>sorted listed model gtk4</a></li><li><a href='https://gist.github.com/dmzoneill/74033698f65a5a1539d686452a73dce8'>Pygtk4 ColumnView</a></li><li><a href='https://gist.github.com/dmzoneill/497746f38c5786c96e8859f1131667af'>awx-operator 2.15..16</a></li><li><a href='https://gist.github.com/dmzoneill/f234183850275c36dd43564e81126338'>fail ci with approvers</a></li><li><a href='https://gist.github.com/dmzoneill/b3dace5030bea5d05211cbf1a74d7140'>PostGres Enum Errors</a></li><li><a href='https://gist.github.com/dmzoneill/daef323146469618c550241f35e4b503'>AWX Strings 1</a></li><li><a href='https://gist.github.com/dmzoneill/809f32f1ca301ce6f0dc2bad741ec15e'>AWX Strings 2</a></li><li><a href='https://gist.github.com/dmzoneill/4f1a46c512245a21ce819a9f465679aa'>AWX development on kind</a></li><li><a href='https://gist.github.com/dmzoneill/664484ef2b798118a83347205f84c66b'>keybase.md</a></li><li><a href='https://gist.github.com/dmzoneill/67a908fb949dc95bbbf02f0446a07f0a'>durex fun</a></li><li><a href='https://gist.github.com/dmzoneill/d13d88b16d4d0aa90cb108a00ab3cf01'>10GB tuning</a></li><li><a href='https://gist.github.com/dmzoneill/575ba9c32375c41cb1041e9064de0678'>Synology 108tb limit bypass</a></li><li><a href='https://gist.github.com/dmzoneill/cbc75e502dbe2b78651f68d6320b714a'>AA active queries</a></li><li><a href='https://gist.github.com/dmzoneill/faaa84782eaed4d2dc28ad55c19119ee'>PHP Paypal Instant Payment Notification</a></li></ul>
     </td>
@@ -41,8 +49,8 @@
     </tr>
   </thead>
   <tbody>
-    <tr><td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>871552</td>
-<td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>330358</td>
+    <tr><td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>874993</td>
+<td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>330285</td>
 <td><img src='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' title='Java'  height='20px'/></td><td>2071977</td>
 <td><img src='https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white' title='Kotlin'  height='20px'/></td><td>24599</td>
 </tr><tr>
@@ -135,7 +143,7 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2025-04-07</p>
+              <p>2025-04-08</p>
             </td>
         </tr>
 <tr>
@@ -367,7 +375,15 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/jira-creator' title='jira-creator'>jira-creator</a> (2025)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/> <img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/jira-creator/commit/bafda6c44e14d75efae357d732a778c106457314'>Add mypy and textlint to development dependencies, update README for clarity, and improve README generation logic.</a></li><li><a href='https://github.com/dmzoneill/jira-creator/commit/1402262c82b7048ee947ef52ccc2a0dbc4f98ff1'>Add mypy support, update dependencies, enhance README, and improve linting setup.</a></li><li><a href='https://github.com/dmzoneill/jira-creator/commit/6fd1c18c72ef3e36b402f96c51dfc423ac924629'>Add jscpd configuration, update Makefile for jscpd installation, enhance README, and improve CLI commands with better error handling and filtering options.</a></li><li><a href='https://github.com/dmzoneill/jira-creator/commit/15ba4855acfcacaf53829746c21b414965a6cd82'>Update README for clarity and consistency; minor adjustments in test files for formatting.</a></li><li><a href='https://github.com/dmzoneill/jira-creator/commit/fdb4e57fe3997496a79bc75fe00d1592ac8283a3'>Add new commands and update existing ones; introduce TODO file for future enhancements.</a></li></ul></p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/jira-creator/commit/2fed494f7acca3f45fc81ac322eb524f221dfe55'>Refactor Makefile and enhance JIRA creator functionality
+
+- Added helper targets for printing headers in Makefile.
+- Improved installation process by including linters in the 'install' target.
+- Updated various commands in the JIRA creator to utilize environment variables for field names.
+- Introduced a new command for generating quarterly connection reports.
+- Enhanced error handling and logging across various functions.
+- Updated README for clarity and improved instructions.
+- Refactored tests to use consistent naming conventions and added new tests for recent features.</a></li><li><a href='https://github.com/dmzoneill/jira-creator/commit/bafda6c44e14d75efae357d732a778c106457314'>Add mypy and textlint to development dependencies, update README for clarity, and improve README generation logic.</a></li><li><a href='https://github.com/dmzoneill/jira-creator/commit/1402262c82b7048ee947ef52ccc2a0dbc4f98ff1'>Add mypy support, update dependencies, enhance README, and improve linting setup.</a></li><li><a href='https://github.com/dmzoneill/jira-creator/commit/6fd1c18c72ef3e36b402f96c51dfc423ac924629'>Add jscpd configuration, update Makefile for jscpd installation, enhance README, and improve CLI commands with better error handling and filtering options.</a></li><li><a href='https://github.com/dmzoneill/jira-creator/commit/15ba4855acfcacaf53829746c21b414965a6cd82'>Update README for clarity and consistency; minor adjustments in test files for formatting.</a></li></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -376,7 +392,7 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/jira-creator/actions'><img src='https://github.com/dmzoneill//jira-creator/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2025-04-07</p>
+              <p>2025-04-08</p>
             </td>
         </tr>
 </tbody></table><h2>2024</h2><table width='100%' style='width:100%'><thead><tr><th>Project</th><th>View</th><th>Status</th></tr></thead><tbody><tr>

@@ -368,6 +368,14 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+
+      - name: Project specific checks
+        run: |
+          if [ -f checks.sh ]; then
+            echo "Running checks.sh..."
+            exit $(./checks.sh)
+          fi
+        shell: bash
           
       - name: Configure linters
         run : |-

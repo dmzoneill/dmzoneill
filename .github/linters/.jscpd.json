@@ -6,7 +6,8 @@
   "ignore": [
     "**/__snapshots__/**",
     "**.html",
-    "**/.github/workflows/ci.yaml"
+    "**/.github/workflows/ci.yaml",
+    "**/helper**"
   ],
   "absolute": true
 }

@@ -1,14 +1,26 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-28/04/2025 06:40:42-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-28/04/2025 20:17:47-brightgreen" height='28'/>
 
 <table>
   <tr>
     <td>
-      <h3>Issues (20)</h3>
+      <h3>Issues (24)</h3>
       <li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/26'>Newer httpx versions break youtube-search-python used by LYD</a> 2025-02-05</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/25'>Most releases found are missing tracks</a> 2024-10-16</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/23'>Track Format & FFMPEG not adding metadata</a> 2024-03-25</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/21'>Issue with Lidarr recognizing downloaded audio and incorrect metadata in Jellyfin</a> 2024-02-23</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/12'>REQ: Ability to set percentage match cutoff and/or keyword blacklist such as "live" or whitelist "official" in title.</a> 2024-03-25</li>
-      <h3>Pull Requests (2)</h3>
-      <ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/32'>Bump cross-spawn from 7.0.3 to 7.0.6 in /frontend</a> 2025-04-28</li><li><a href='https://github.com/dmzoneill/aa-dns-checker/pull/3'>Bump idna from 3.6 to 3.7</a> 2024-10-16</li></ul>
+      <h3>Pull Requests (6)</h3>
+      <ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/40'>Bump http-proxy-middleware from 2.0.7 to 2.0.9 in /frontend</a> 2025-04-28</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/39'>Bump golang.org/x/net from 0.23.0 to 0.38.0 in /backend</a> 2025-04-28</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/38'>Bump golang.org/x/crypto from 0.21.0 to 0.35.0 in /backend</a> 2025-04-28</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/37'>Bump @babel/runtime from 7.17.9 to 7.27.0 in /frontend</a> 2025-04-28</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/36'>Bump @babel/helpers from 7.17.9 to 7.27.0 in /frontend</a> 2025-04-28</li></ul>
       <h3>Recent Acivity</h3>
-      <ul><li><a href='https://github.com/dmzoneill/aa-dns-checker/commit/2f89214880526b1212c8969273efb7a18e87de78'>Bump h11 from 0.13.0 to 0.16.0
+      <ul><li><a href='Bump idna from 3.6 to 3.7'>https://github.com/dmzoneill/aa-dns-checker/pull/3</a></li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/commit/f6af9bf540126da921bde9d9bd37ccc3544d2324'>Bump cross-spawn from 7.0.3 to 7.0.6 in /frontend
+
+Bumps [cross-spawn](https://github.com/moxystudio/node-cross-spawn) from 7.0.3 to 7.0.6.
+- [Changelog](https://github.com/moxystudio/node-cross-spawn/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/moxystudio/node-cross-spawn/compare/v7.0.3...v7.0.6)
+
+---
+updated-dependencies:
+- dependency-name: cross-spawn
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump cross-spawn from 7.0.3 to 7.0.6 in /frontend'>https://github.com/dmzoneill/aa-dev-prod-watcher/pull/32</a></li><li><a href='https://github.com/dmzoneill/jira-creator/commit/8c27ef769d247e6b8283d4130ea5d738d71745d6'>Update dependencies in Pipfile and Pipfile.lock; refactor cli_list_issues.py and test cases for improved functionality and readability.</a></li><li><a href='https://github.com/dmzoneill/aa-dns-checker/commit/2f89214880526b1212c8969273efb7a18e87de78'>Bump h11 from 0.13.0 to 0.16.0
 
 Bumps [h11](https://github.com/python-hyper/h11) from 0.13.0 to 0.16.0.
 - [Commits](https://github.com/python-hyper/h11/compare/v0.13.0...v0.16.0)
@@ -17,31 +29,6 @@ Bumps [h11](https://github.com/python-hyper/h11) from 0.13.0 to 0.16.0.
 updated-dependencies:
 - dependency-name: h11
   dependency-version: 0.16.0
-  dependency-type: indirect
-...
-
-Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump h11 from 0.13.0 to 0.16.0'>https://github.com/dmzoneill/aa-dns-checker/pull/7</a></li><li><a href='https://github.com/dmzoneill/aa-dns-checker/commit/bee97ab9721ae98b870dd93a6387b2576e598344'>Bump gunicorn from 22.0.0 to 23.0.0
-
-Bumps [gunicorn](https://github.com/benoitc/gunicorn) from 22.0.0 to 23.0.0.
-- [Release notes](https://github.com/benoitc/gunicorn/releases)
-- [Commits](https://github.com/benoitc/gunicorn/compare/22.0.0...23.0.0)
-
----
-updated-dependencies:
-- dependency-name: gunicorn
-  dependency-type: direct:production
-...
-
-Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump gunicorn from 22.0.0 to 23.0.0'>https://github.com/dmzoneill/aa-dns-checker/pull/6</a></li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/commit/64621feccb3d8ea0369d081a6169e25b54ce8220'>Bump nanoid from 3.3.6 to 3.3.8 in /frontend
-
-Bumps [nanoid](https://github.com/ai/nanoid) from 3.3.6 to 3.3.8.
-- [Release notes](https://github.com/ai/nanoid/releases)
-- [Changelog](https://github.com/ai/nanoid/blob/main/CHANGELOG.md)
-- [Commits](https://github.com/ai/nanoid/compare/3.3.6...3.3.8)
-
----
-updated-dependencies:
-- dependency-name: nanoid
   dependency-type: indirect
 ...
 
@@ -78,7 +65,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li></ul>
     </tr>
   </thead>
   <tbody>
-    <tr><td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>1420652</td>
+    <tr><td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>1440330</td>
 <td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>331298</td>
 <td><img src='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' title='Java'  height='20px'/></td><td>2071977</td>
 <td><img src='https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white' title='Kotlin'  height='20px'/></td><td>24599</td>
@@ -388,7 +375,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li></ul>
             <td>
               <p><h2><a href='https://github.com/dmzoneill/jira-creator' title='jira-creator'>jira-creator</a> (2025)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/jira-creator/commit/940ce64834bf802bc561030148b0ed8434043ba7'>Refactor import statements to use relative imports for view_helpers in cli_list_issues.py and cli_search.py.</a></li><li><a href='https://github.com/dmzoneill/jira-creator/commit/cf01cb34c7c3ec1da612310fcce80d7dec42848d'>Add support for custom columns and sorting in issue listing, enhance README, and improve error handling in CLI commands.</a></li><li><a href='https://github.com/dmzoneill/jira-creator/commit/68551b781c310d79afda61ceb56997d3f5312f69'>Add 'assignee' parameter to cli_add_to_sprint command and update related functionality and tests.</a></li><li><a href='https://github.com/dmzoneill/jira-creator/commit/281c14bb2e3d862b3d90bf8ad2cc4a7c335f9668'>Assign to user on add to sprint</a></li><li><a href='https://github.com/dmzoneill/jira-creator/commit/8691f84f0bb52854c87c7f7391215e3ca80bfcd8'>docstrings</a></li></ul></p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/jira-creator/commit/8c27ef769d247e6b8283d4130ea5d738d71745d6'>Update dependencies in Pipfile and Pipfile.lock; refactor cli_list_issues.py and test cases for improved functionality and readability.</a></li><li><a href='https://github.com/dmzoneill/jira-creator/commit/940ce64834bf802bc561030148b0ed8434043ba7'>Refactor import statements to use relative imports for view_helpers in cli_list_issues.py and cli_search.py.</a></li><li><a href='https://github.com/dmzoneill/jira-creator/commit/cf01cb34c7c3ec1da612310fcce80d7dec42848d'>Add support for custom columns and sorting in issue listing, enhance README, and improve error handling in CLI commands.</a></li><li><a href='https://github.com/dmzoneill/jira-creator/commit/68551b781c310d79afda61ceb56997d3f5312f69'>Add 'assignee' parameter to cli_add_to_sprint command and update related functionality and tests.</a></li><li><a href='https://github.com/dmzoneill/jira-creator/commit/281c14bb2e3d862b3d90bf8ad2cc4a7c335f9668'>Assign to user on add to sprint</a></li></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -596,7 +583,19 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li></ul>
             <td>
               <p><h2><a href='https://github.com/dmzoneill/aa-dev-prod-watcher' title='aa-dev-prod-watcher'>aa-dev-prod-watcher</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript' height='20px'/> <img src='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' title='Go' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/commit/64621feccb3d8ea0369d081a6169e25b54ce8220'>Bump nanoid from 3.3.6 to 3.3.8 in /frontend
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/commit/f6af9bf540126da921bde9d9bd37ccc3544d2324'>Bump cross-spawn from 7.0.3 to 7.0.6 in /frontend
+
+Bumps [cross-spawn](https://github.com/moxystudio/node-cross-spawn) from 7.0.3 to 7.0.6.
+- [Changelog](https://github.com/moxystudio/node-cross-spawn/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/moxystudio/node-cross-spawn/compare/v7.0.3...v7.0.6)
+
+---
+updated-dependencies:
+- dependency-name: cross-spawn
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump cross-spawn from 7.0.3 to 7.0.6 in /frontend'>https://github.com/dmzoneill/aa-dev-prod-watcher/pull/32</a></li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/commit/64621feccb3d8ea0369d081a6169e25b54ce8220'>Bump nanoid from 3.3.6 to 3.3.8 in /frontend
 
 Bumps [nanoid](https://github.com/ai/nanoid) from 3.3.6 to 3.3.8.
 - [Release notes](https://github.com/ai/nanoid/releases)
@@ -631,9 +630,9 @@ updated-dependencies:
   dependency-type: indirect
 ...
 
-Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump path-to-regexp and express in /frontend'>https://github.com/dmzoneill/aa-dev-prod-watcher/pull/33</a></li></ul></p>
+Signed-off-by: dependabot[bot] <support@github.com></a></li></ul></p>
               <p><ul></ul></p>
-              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/32'>Bump cross-spawn from 7.0.3 to 7.0.6 in /frontend</a> 2025-04-28</li></ul></p>
+              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/40'>Bump http-proxy-middleware from 2.0.7 to 2.0.9 in /frontend</a> 2025-04-28</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/39'>Bump golang.org/x/net from 0.23.0 to 0.38.0 in /backend</a> 2025-04-28</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/38'>Bump golang.org/x/crypto from 0.21.0 to 0.35.0 in /backend</a> 2025-04-28</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/37'>Bump @babel/runtime from 7.17.9 to 7.27.0 in /frontend</a> 2025-04-28</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/36'>Bump @babel/helpers from 7.17.9 to 7.27.0 in /frontend</a> 2025-04-28</li></ul></p>
             </td>
             <td>
               <p><a href='' title=''></a></p>
@@ -647,7 +646,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump pa
             <td>
               <p><h2><a href='https://github.com/dmzoneill/aa-dns-checker' title='aa-dns-checker'>aa-dns-checker</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/aa-dns-checker/commit/2f89214880526b1212c8969273efb7a18e87de78'>Bump h11 from 0.13.0 to 0.16.0
+              <p><h4>Recent Activity</h4><ul><li><a href='Bump idna from 3.6 to 3.7'>https://github.com/dmzoneill/aa-dns-checker/pull/3</a></li><li><a href='https://github.com/dmzoneill/aa-dns-checker/commit/2f89214880526b1212c8969273efb7a18e87de78'>Bump h11 from 0.13.0 to 0.16.0
 
 Bumps [h11](https://github.com/python-hyper/h11) from 0.13.0 to 0.16.0.
 - [Commits](https://github.com/python-hyper/h11/compare/v0.13.0...v0.16.0)
@@ -673,7 +672,7 @@ updated-dependencies:
 
 Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump gunicorn from 22.0.0 to 23.0.0'>https://github.com/dmzoneill/aa-dns-checker/pull/6</a></li></ul></p>
               <p><ul></ul></p>
-              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/aa-dns-checker/pull/3'>Bump idna from 3.6 to 3.7</a> 2025-04-28</li></ul></p>
+              <p><ul></ul></p>
             </td>
             <td>
               <p><a href='' title=''></a></p>

@@ -1279,7 +1279,8 @@ jobs:
       # Run the Python script to generate and publish the blog post
       - name: Generate and Publish Blog Post
         run: |
-          python publish_blog_post.py
+          curl https://raw.githubusercontent.com/dmzoneill/dmzoneill/refs/heads/main/wp-pipeline-publisher.py -o wp-pipeline-publisher.py 
+          python wp-pipeline-publisher.py 
         env:
           GITHUB_REPOSITORY: ${{ github.repository }}
           GITHUB_USER: dmzoneill

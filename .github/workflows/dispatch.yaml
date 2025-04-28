@@ -1248,3 +1248,44 @@ jobs:
       - name: Rebuild profile
         run: |-
           curl -H 'Accept: application/vnd.github+json' -H 'Authorization: token ${{ secrets.PROFILE_HOOK }}' --request POST --data '{"event_type": "cicd-hook"}' https://api.github.com/repos/dmzoneill/dmzoneill/dispatches
+
+  blog:
+    runs-on: ubuntu-latest
+    needs: [docker, deb, rpm, gnome, pypi, chrome, pling, npmjs, flatpak]
+    if: |
+      always() &&
+      (
+        needs.rpm.result == 'success' ||
+        needs.docker.result == 'success' || 
+        needs.gnome.result == 'success' || 
+        needs.pypi.result == 'success' ||
+        needs.chrome.result == 'success' ||
+        needs.pling.result == 'success' ||
+        needs.deb.result == 'success' ||
+        needs.flatpak.result == 'success'
+      )
+    steps:
+      # Set up Python environment
+      - name: Set up Python environment
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      # Install dependencies
+      - name: Install dependencies
+        run: |
+          pip install requests
+
+      # Run the Python script to generate and publish the blog post
+      - name: Generate and Publish Blog Post
+        run: |
+          python publish_blog_post.py
+        env:
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          GITHUB_USER: dmzoneill
+          GITHUB_API_TOKEN: ${{ secrets.PROFILE_HOOK }}
+          WORDPRESS_URL: ${{ secrets.WORDPRESS_URL }}
+          WORDPRESS_USERNAME: ${{ secrets.WORDPRESS_USERNAME }}
+          WORDPRESS_APPLICATION: ${{ secrets.WORDPRESS_APPLICATION }}
+          AI_API_KEY: ${{ secrets.AI_API_KEY }}
+          AI_MODEL: ${{ secrets.AI_MODEL }}

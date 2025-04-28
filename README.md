@@ -1,16 +1,53 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-28/04/2025 00:42:18-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-28/04/2025 06:40:42-brightgreen" height='28'/>
 
 <table>
   <tr>
     <td>
-      <h3>Issues (25)</h3>
-      <li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/26'>Newer httpx versions break youtube-search-python used by LYD</a> 2025-02-05</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/25'>Most releases found are missing tracks</a> 2024-10-16</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/23'>Track Format & FFMPEG not adding metadata</a> 2024-03-25</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/21'>Issue with Lidarr recognizing downloaded audio and incorrect metadata in Jellyfin</a> 2024-02-23</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/13'>Alittle help with docker compose</a> 2024-03-25</li>
-      <h3>Pull Requests (6)</h3>
-      <ul><li><a href='https://github.com/dmzoneill/aa-dns-checker/pull/7'>Bump h11 from 0.13.0 to 0.16.0</a> 2025-04-24</li><li><a href='https://github.com/dmzoneill/aa-dns-checker/pull/6'>Bump gunicorn from 22.0.0 to 23.0.0</a> 2025-03-22</li><li><a href='https://github.com/dmzoneill/aa-dns-checker/pull/3'>Bump idna from 3.6 to 3.7</a> 2024-10-16</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/34'>Bump nanoid from 3.3.6 to 3.3.8 in /frontend</a> 2024-12-12</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/33'>Bump path-to-regexp and express in /frontend</a> 2024-12-06</li></ul>
+      <h3>Issues (20)</h3>
+      <li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/26'>Newer httpx versions break youtube-search-python used by LYD</a> 2025-02-05</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/25'>Most releases found are missing tracks</a> 2024-10-16</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/23'>Track Format & FFMPEG not adding metadata</a> 2024-03-25</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/21'>Issue with Lidarr recognizing downloaded audio and incorrect metadata in Jellyfin</a> 2024-02-23</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/12'>REQ: Ability to set percentage match cutoff and/or keyword blacklist such as "live" or whitelist "official" in title.</a> 2024-03-25</li>
+      <h3>Pull Requests (2)</h3>
+      <ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/32'>Bump cross-spawn from 7.0.3 to 7.0.6 in /frontend</a> 2025-04-28</li><li><a href='https://github.com/dmzoneill/aa-dns-checker/pull/3'>Bump idna from 3.6 to 3.7</a> 2024-10-16</li></ul>
       <h3>Recent Acivity</h3>
-      <ul><li><a href='https://github.com/dmzoneill/jira-creator/commit/940ce64834bf802bc561030148b0ed8434043ba7'>Refactor import statements to use relative imports for view_helpers in cli_list_issues.py and cli_search.py.</a></li><li><a href='https://github.com/dmzoneill/jira-creator/commit/cf01cb34c7c3ec1da612310fcce80d7dec42848d'>Add support for custom columns and sorting in issue listing, enhance README, and improve error handling in CLI commands.</a></li><li><a href='https://github.com/dmzoneill/jira-creator/commit/68551b781c310d79afda61ceb56997d3f5312f69'>Add 'assignee' parameter to cli_add_to_sprint command and update related functionality and tests.</a></li><li><a href='https://github.com/dmzoneill/jira-creator/commit/281c14bb2e3d862b3d90bf8ad2cc4a7c335f9668'>Assign to user on add to sprint</a></li><li><a href='https://github.com/dmzoneill/jira-creator/commit/8691f84f0bb52854c87c7f7391215e3ca80bfcd8'>docstrings</a></li></ul>
+      <ul><li><a href='https://github.com/dmzoneill/aa-dns-checker/commit/2f89214880526b1212c8969273efb7a18e87de78'>Bump h11 from 0.13.0 to 0.16.0
+
+Bumps [h11](https://github.com/python-hyper/h11) from 0.13.0 to 0.16.0.
+- [Commits](https://github.com/python-hyper/h11/compare/v0.13.0...v0.16.0)
+
+---
+updated-dependencies:
+- dependency-name: h11
+  dependency-version: 0.16.0
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump h11 from 0.13.0 to 0.16.0'>https://github.com/dmzoneill/aa-dns-checker/pull/7</a></li><li><a href='https://github.com/dmzoneill/aa-dns-checker/commit/bee97ab9721ae98b870dd93a6387b2576e598344'>Bump gunicorn from 22.0.0 to 23.0.0
+
+Bumps [gunicorn](https://github.com/benoitc/gunicorn) from 22.0.0 to 23.0.0.
+- [Release notes](https://github.com/benoitc/gunicorn/releases)
+- [Commits](https://github.com/benoitc/gunicorn/compare/22.0.0...23.0.0)
+
+---
+updated-dependencies:
+- dependency-name: gunicorn
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump gunicorn from 22.0.0 to 23.0.0'>https://github.com/dmzoneill/aa-dns-checker/pull/6</a></li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/commit/64621feccb3d8ea0369d081a6169e25b54ce8220'>Bump nanoid from 3.3.6 to 3.3.8 in /frontend
+
+Bumps [nanoid](https://github.com/ai/nanoid) from 3.3.6 to 3.3.8.
+- [Release notes](https://github.com/ai/nanoid/releases)
+- [Changelog](https://github.com/ai/nanoid/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/ai/nanoid/compare/3.3.6...3.3.8)
+
+---
+updated-dependencies:
+- dependency-name: nanoid
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com></a></li></ul>
       <h3>Gists</h3>
-      <ul><li><a href='https://gist.github.com/dmzoneill/441f88a5c73136b8128c252ad84100b3'></a></li><li><a href='https://gist.github.com/dmzoneill/80bfef9603448c33df02ce0aa98fcd59'>AI git Commit</a></li><li><a href='https://gist.github.com/dmzoneill/75f298b2d1e4ef6347ea2f11bd20cdbf'>konflux PR message ceanup</a></li><li><a href='https://gist.github.com/dmzoneill/c5027e6374bdc521495df4e63d15b797'>Konflux PR cleanup</a></li><li><a href='https://gist.github.com/dmzoneill/67c01a5c078d4e18c713f28db5a1ee36'>Jira issue/epic match status</a></li><li><a href='https://gist.github.com/dmzoneill/1307f038f9c38353df2cad9a2ae15c20'></a></li><li><a href='https://gist.github.com/dmzoneill/b12f50e8914bbcb496d260f02a81fa56'></a></li><li><a href='https://gist.github.com/dmzoneill/21aaa839698c07a1a2007bcfec12d2d4'>network watch</a></li><li><a href='https://gist.github.com/dmzoneill/7c9159b30950621c065791e7861be174'>Python GTK4 ColumnView Sorting and Binding</a></li><li><a href='https://gist.github.com/dmzoneill/19a4fbd799f1e5bcc050ddb4b0a65403'>sorted listed model gtk4</a></li><li><a href='https://gist.github.com/dmzoneill/74033698f65a5a1539d686452a73dce8'>Pygtk4 ColumnView</a></li><li><a href='https://gist.github.com/dmzoneill/497746f38c5786c96e8859f1131667af'>awx-operator 2.15..16</a></li><li><a href='https://gist.github.com/dmzoneill/f234183850275c36dd43564e81126338'>fail ci with approvers</a></li><li><a href='https://gist.github.com/dmzoneill/b3dace5030bea5d05211cbf1a74d7140'>PostGres Enum Errors</a></li><li><a href='https://gist.github.com/dmzoneill/daef323146469618c550241f35e4b503'>AWX Strings 1</a></li><li><a href='https://gist.github.com/dmzoneill/809f32f1ca301ce6f0dc2bad741ec15e'>AWX Strings 2</a></li><li><a href='https://gist.github.com/dmzoneill/4f1a46c512245a21ce819a9f465679aa'>AWX development on kind</a></li><li><a href='https://gist.github.com/dmzoneill/664484ef2b798118a83347205f84c66b'>keybase.md</a></li><li><a href='https://gist.github.com/dmzoneill/67a908fb949dc95bbbf02f0446a07f0a'>durex fun</a></li><li><a href='https://gist.github.com/dmzoneill/d13d88b16d4d0aa90cb108a00ab3cf01'>10GB tuning</a></li><li><a href='https://gist.github.com/dmzoneill/575ba9c32375c41cb1041e9064de0678'>Synology 108tb limit bypass</a></li><li><a href='https://gist.github.com/dmzoneill/cbc75e502dbe2b78651f68d6320b714a'>AA active queries</a></li><li><a href='https://gist.github.com/dmzoneill/faaa84782eaed4d2dc28ad55c19119ee'>PHP Paypal Instant Payment Notification</a></li></ul>
+      <ul><li><a href='https://gist.github.com/dmzoneill/441f88a5c73136b8128c252ad84100b3'></a></li><li><a href='https://gist.github.com/dmzoneill/80bfef9603448c33df02ce0aa98fcd59'>AI git Commit</a></li><li><a href='https://gist.github.com/dmzoneill/7c9159b30950621c065791e7861be174'>Python GTK4 ColumnView Sorting and Binding</a></li><li><a href='https://gist.github.com/dmzoneill/19a4fbd799f1e5bcc050ddb4b0a65403'>sorted listed model gtk4</a></li><li><a href='https://gist.github.com/dmzoneill/74033698f65a5a1539d686452a73dce8'>Pygtk4 ColumnView</a></li><li><a href='https://gist.github.com/dmzoneill/497746f38c5786c96e8859f1131667af'>awx-operator 2.15..16</a></li><li><a href='https://gist.github.com/dmzoneill/67a908fb949dc95bbbf02f0446a07f0a'>durex fun</a></li><li><a href='https://gist.github.com/dmzoneill/d13d88b16d4d0aa90cb108a00ab3cf01'>10GB tuning</a></li><li><a href='https://gist.github.com/dmzoneill/575ba9c32375c41cb1041e9064de0678'>Synology 108tb limit bypass</a></li><li><a href='https://gist.github.com/dmzoneill/cbc75e502dbe2b78651f68d6320b714a'>AA active queries</a></li><li><a href='https://gist.github.com/dmzoneill/faaa84782eaed4d2dc28ad55c19119ee'>PHP Paypal Instant Payment Notification</a></li></ul>
     </td>
     <td>
       <h3>Work related stuff over on</h3>
@@ -41,7 +78,7 @@
     </tr>
   </thead>
   <tbody>
-    <tr><td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>1419688</td>
+    <tr><td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>1420652</td>
 <td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>331298</td>
 <td><img src='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' title='Java'  height='20px'/></td><td>2071977</td>
 <td><img src='https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white' title='Kotlin'  height='20px'/></td><td>24599</td>
@@ -135,7 +172,7 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2025-04-27</p>
+              <p>2025-04-28</p>
             </td>
         </tr>
 <tr>
@@ -191,7 +228,7 @@
               <p><h2><a href='https://github.com/dmzoneill/lidarr-youtube-downloader' title='lidarr-youtube-downloader'>lidarr-youtube-downloader</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/> <img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile' height='20px'/</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
-              <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/26'>Newer httpx versions break youtube-search-python used by LYD</a> 2025-04-25</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/25'>Most releases found are missing tracks</a> 2025-04-25</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/23'>Track Format & FFMPEG not adding metadata</a> 2025-04-25</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/21'>Issue with Lidarr recognizing downloaded audio and incorrect metadata in Jellyfin</a> 2025-04-25</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/13'>Alittle help with docker compose</a> 2025-04-25</li></ul></p>
+              <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/26'>Newer httpx versions break youtube-search-python used by LYD</a> 2025-04-25</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/25'>Most releases found are missing tracks</a> 2025-04-25</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/23'>Track Format & FFMPEG not adding metadata</a> 2025-04-25</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/21'>Issue with Lidarr recognizing downloaded audio and incorrect metadata in Jellyfin</a> 2025-04-25</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/12'>REQ: Ability to set percentage match cutoff and/or keyword blacklist such as "live" or whitelist "official" in title.</a> 2025-04-25</li></ul></p>
               <p><ul></ul></p>
             </td>
             <td>
@@ -360,7 +397,7 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/jira-creator/actions'><img src='https://github.com/dmzoneill//jira-creator/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2025-04-27</p>
+              <p>2025-04-28</p>
             </td>
         </tr>
 </tbody></table><h2>2024</h2><table width='100%' style='width:100%'><thead><tr><th>Project</th><th>View</th><th>Status</th></tr></thead><tbody><tr>
@@ -557,34 +594,93 @@
         </tr>
 </tbody></table><h2>2022</h2><table width='100%' style='width:100%'><thead><tr><th>Project</th><th>View</th><th>Status</th></tr></thead><tbody><tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/aa-dns-checker' title='aa-dns-checker'>aa-dns-checker</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/</p>
-              <p>Apache License 2.0</p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/aa-dns-checker/pull/7'>Bump h11 from 0.13.0 to 0.16.0</a> 2025-03-22</li><li><a href='https://github.com/dmzoneill/aa-dns-checker/pull/6'>Bump gunicorn from 22.0.0 to 23.0.0</a> 2025-03-22</li><li><a href='https://github.com/dmzoneill/aa-dns-checker/pull/3'>Bump idna from 3.6 to 3.7</a> 2025-03-22</li></ul></p>
-            </td>
-            <td>
-              <p><a href='' title=''></a></p>
-            </td>
-            <td align="center">
-              <a href='https://github.com/dmzoneill/aa-dns-checker/actions'><img src='https://github.com/dmzoneill//aa-dns-checker/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2025-03-22</p>
-            </td>
-        </tr>
-<tr>
-            <td>
               <p><h2><a href='https://github.com/dmzoneill/aa-dev-prod-watcher' title='aa-dev-prod-watcher'>aa-dev-prod-watcher</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript' height='20px'/> <img src='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' title='Go' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
               <p>Apache License 2.0</p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/commit/64621feccb3d8ea0369d081a6169e25b54ce8220'>Bump nanoid from 3.3.6 to 3.3.8 in /frontend
+
+Bumps [nanoid](https://github.com/ai/nanoid) from 3.3.6 to 3.3.8.
+- [Release notes](https://github.com/ai/nanoid/releases)
+- [Changelog](https://github.com/ai/nanoid/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/ai/nanoid/compare/3.3.6...3.3.8)
+
+---
+updated-dependencies:
+- dependency-name: nanoid
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump nanoid from 3.3.6 to 3.3.8 in /frontend'>https://github.com/dmzoneill/aa-dev-prod-watcher/pull/34</a></li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/commit/0465c1ad5e468e671025e43dde63ca682da01dfe'>Bump path-to-regexp and express in /frontend
+
+Bumps [path-to-regexp](https://github.com/pillarjs/path-to-regexp) and [express](https://github.com/expressjs/express). These dependencies needed to be updated together.
+
+Updates `path-to-regexp` from 0.1.10 to 0.1.12
+- [Release notes](https://github.com/pillarjs/path-to-regexp/releases)
+- [Changelog](https://github.com/pillarjs/path-to-regexp/blob/master/History.md)
+- [Commits](https://github.com/pillarjs/path-to-regexp/compare/v0.1.10...v0.1.12)
+
+Updates `express` from 4.21.1 to 4.21.2
+- [Release notes](https://github.com/expressjs/express/releases)
+- [Changelog](https://github.com/expressjs/express/blob/4.21.2/History.md)
+- [Commits](https://github.com/expressjs/express/compare/4.21.1...4.21.2)
+
+---
+updated-dependencies:
+- dependency-name: path-to-regexp
+  dependency-type: indirect
+- dependency-name: express
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump path-to-regexp and express in /frontend'>https://github.com/dmzoneill/aa-dev-prod-watcher/pull/33</a></li></ul></p>
               <p><ul></ul></p>
-              <p><ul></ul></p>
-              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/34'>Bump nanoid from 3.3.6 to 3.3.8 in /frontend</a> 2024-12-12</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/33'>Bump path-to-regexp and express in /frontend</a> 2024-12-12</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/32'>Bump cross-spawn from 7.0.3 to 7.0.6 in /frontend</a> 2024-12-12</li></ul></p>
+              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/32'>Bump cross-spawn from 7.0.3 to 7.0.6 in /frontend</a> 2025-04-28</li></ul></p>
             </td>
             <td>
               <p><a href='' title=''></a></p>
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/aa-dev-prod-watcher/actions'><img src='https://github.com/dmzoneill//aa-dev-prod-watcher/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2024-12-12</p>
+              <p>2025-04-28</p>
+            </td>
+        </tr>
+<tr>
+            <td>
+              <p><h2><a href='https://github.com/dmzoneill/aa-dns-checker' title='aa-dns-checker'>aa-dns-checker</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/</p>
+              <p>Apache License 2.0</p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/aa-dns-checker/commit/2f89214880526b1212c8969273efb7a18e87de78'>Bump h11 from 0.13.0 to 0.16.0
+
+Bumps [h11](https://github.com/python-hyper/h11) from 0.13.0 to 0.16.0.
+- [Commits](https://github.com/python-hyper/h11/compare/v0.13.0...v0.16.0)
+
+---
+updated-dependencies:
+- dependency-name: h11
+  dependency-version: 0.16.0
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump h11 from 0.13.0 to 0.16.0'>https://github.com/dmzoneill/aa-dns-checker/pull/7</a></li><li><a href='https://github.com/dmzoneill/aa-dns-checker/commit/bee97ab9721ae98b870dd93a6387b2576e598344'>Bump gunicorn from 22.0.0 to 23.0.0
+
+Bumps [gunicorn](https://github.com/benoitc/gunicorn) from 22.0.0 to 23.0.0.
+- [Release notes](https://github.com/benoitc/gunicorn/releases)
+- [Commits](https://github.com/benoitc/gunicorn/compare/22.0.0...23.0.0)
+
+---
+updated-dependencies:
+- dependency-name: gunicorn
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump gunicorn from 22.0.0 to 23.0.0'>https://github.com/dmzoneill/aa-dns-checker/pull/6</a></li></ul></p>
+              <p><ul></ul></p>
+              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/aa-dns-checker/pull/3'>Bump idna from 3.6 to 3.7</a> 2025-04-28</li></ul></p>
+            </td>
+            <td>
+              <p><a href='' title=''></a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/aa-dns-checker/actions'><img src='https://github.com/dmzoneill//aa-dns-checker/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2025-04-28</p>
             </td>
         </tr>
 <tr>

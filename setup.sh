@@ -89,7 +89,7 @@ while true; do
       git pull --rebase
       git push 
     )
-    echo "    done with $name"
+    echo "    $name updarted"
   done
 
   if [ $processed -le 1 ]; then
@@ -99,3 +99,5 @@ while true; do
 
   page=$((page+1))
 done
+
+echo "done"

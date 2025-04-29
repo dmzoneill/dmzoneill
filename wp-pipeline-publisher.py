@@ -236,8 +236,7 @@ def get_github_release():
 
 # Generate description using OpenAI
 def generate_description(prompt):
-    user_prompt = f"Please include a title for the post.\n\n"
-    user_prompt += prompt
+    user_prompt = prompt
     ai_provider = OpenAIProvider()
 
     system_prompt = """
@@ -269,15 +268,15 @@ def generate_description(prompt):
 
     Post format:
 
-    - ** At the top put "Title: (Generate a short descriptive title)" **
-    - Provide the post in HTML format, ensuring it is compatible with WordPress.
-    - No HTML comments: Ensure the HTML output doesn’t include comments (e.g., <!-- comment -->).
-    - All URLs must be valid for images and hyperlinks, including those to GitHub user pages or relevant documentation.
-    - If images are included in the repository's README.md, incorporate them into the post when appropriate.
-    - Avoid overstatement: Ensure the tone and content are appropriate to the scale of the changes.
-    - If the changes are minor (like updates to a TODO file), avoid grandiose claims such as "major release"
-      or "feature enhancement." Acknowledge the scope of the modifications realistically.
-    - Specific GitHub page: Use the GitHub user page https://github.com/dmzoneill/ as needed.
+    ** At the top put "Title: (Generate a short descriptive title)" **
+    Provide the post in HTML format, ensuring it is compatible with WordPress.
+    No HTML comments: Ensure the HTML output doesn’t include comments (e.g., <!-- comment -->).
+    All URLs must be valid for images and hyperlinks, including those to GitHub user pages or relevant documentation.
+    If images are included in the repository's README.md, incorporate them into the post when appropriate.
+    Avoid overstatement: Ensure the tone and content are appropriate to the scale of the changes.
+    If the changes are minor (like updates to a TODO file), avoid grandiose claims such as "major release"
+    or "feature enhancement." Acknowledge the scope of the modifications realistically.
+    Specific GitHub page: Use the GitHub user page https://github.com/dmzoneill/ as needed.
     """
 
     try:

@@ -1,19 +1,14 @@
 import os
 import requests
-from cryptography.hazmat.primitives.asymmetric import rsa
-from cryptography.hazmat.primitives import hashes
-from cryptography.hazmat.primitives.asymmetric import padding
-from cryptography.hazmat.backends import default_backend
-from cryptography.hazmat.primitives import serialization
-from base64 import b64encode
+import subprocess
 
 # Constants
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
 GITHUB_USER = "dmzoneill"
 REPO_LIST_URL = f"https://api.github.com/users/{GITHUB_USER}/repos?per_page=100"
 SECRETS = [
-    "PROFILE_HOOK", "ACTIONS_RUNNER_DEBUG", "ACTIONS_STEP_DEBUG", "AI_API_KEY", "AI_MODEL", 
-    "DOCKER_TOKEN", "PUBLISH", "PYPI_TOKEN", "WORDPRESS_APPLICATION", "WORDPRESS_PASSWORD", 
+    "PROFILE_HOOK", "AI_API_KEY", "AI_MODEL", 
+    "DOCKER_TOKEN", "PYPI_TOKEN", "WORDPRESS_APPLICATION", "WORDPRESS_PASSWORD", 
     "WORDPRESS_URL", "WORDPRESS_USERNAME"
 ]
 
@@ -23,31 +18,19 @@ headers = {
     "Accept": "application/vnd.github.v3+json"
 }
 
-# Function to fetch public key for encrypting secrets
-def fetch_public_key(repo_name):
-    url = f"https://api.github.com/repos/{GITHUB_USER}/{repo_name}/actions/secrets/public-key"
+# Function to fetch existing secrets for a repository
+# Function to fetch existing secrets for a repository
+def fetch_existing_secrets(repo_name):
+    url = f"https://api.github.com/repos/{GITHUB_USER}/{repo_name}/actions/secrets"
     response = requests.get(url, headers=headers)
     if response.status_code == 200:
-        return response.json()
+        # Ensure the response is parsed as JSON
+        secrets = response.json()
+        # Return a set of secret names
+        return {secret["name"] for secret in secrets['secrets']}  # This assumes the response is a list of secrets with 'name' as a key
     else:
-        print(f"Failed to fetch public key for {repo_name}, status code: {response.status_code}")
-        print(f"{response.content}")
-        raise Exception("Cant proceed")
-
-# Function to encrypt the secret value using the public key
-def encrypt_secret(public_key, secret_value):
-    public_key_pem = serialization.load_pem_public_key(
-        public_key.encode(), backend=default_backend()
-    )
-    encrypted_value = public_key_pem.encrypt(
-        secret_value.encode(),
-        padding.OAEP(
-            mgf=padding.MGF1(algorithm=hashes.SHA256()),
-            algorithm=hashes.SHA256(),
-            label=None
-        )
-    )
-    return b64encode(encrypted_value).decode()
+        print(f"Failed to fetch existing secrets for {repo_name}, status code: {response.status_code}")
+        return set()
 
 # Function to fetch secrets from the environment
 def fetch_secrets_from_env():
@@ -65,45 +48,44 @@ def fetch_secrets_from_env():
 
     return secrets, missing_secrets
 
-# Function to print secrets and check for unset ones
-def print_secrets(secrets, missing_secrets):
-    print("Secrets in environment:")
+
+# Function to authenticate using GitHub CLI
+def authenticate_gh():
+    # Unset the GITHUB_TOKEN environment variable to prevent conflict
+    os.environ.pop("GITHUB_TOKEN", None)
+
+    # Create a temporary file for the token
+    with open(".githubtoken", "w") as f:
+        f.write(f"{GITHUB_TOKEN}")
+
+    # Authenticate using the GitHub CLI
+    subprocess.run(["gh", "auth", "login", "--with-token"], input=open(".githubtoken").read(), text=True, check=True)
+
+    # Clean up the token file
+    os.remove(".githubtoken")
+
+
+def set_secrets_with_gh(repo_name, secrets):
+    # Fetch existing secrets for the repository
+    existing_secrets = fetch_existing_secrets(repo_name)
     
-    for secret, secret_value in secrets.items():
-        if secret_value:
-            print(f"{secret}: SET")
-        else:
-            print(f"{secret}: UNSET")
-
-    if missing_secrets:
-        print("\nMissing Secrets (not set in environment):")
-        for missing_secret in missing_secrets:
-            print(f"- {missing_secret}")
-
-# Function to set secrets in repositories
-def set_secrets_for_repo(repo_name, secrets):
-    public_key_data = fetch_public_key(repo_name)
-    if not public_key_data:
-        print(f"Skipping {repo_name} due to failure in fetching public key")
-        raise Exception("Cant proceed")
-
-    public_key = public_key_data["key"]
+    # Authenticate with GitHub CLI
+    authenticate_gh()
+    
     for secret, value in secrets.items():
         if value is None:
             print(f"Skipping unset secret {secret} for {repo_name}")
             continue
         
-        encrypted_value = encrypt_secret(public_key, value)
-        url = f"https://api.github.com/repos/{GITHUB_USER}/{repo_name}/actions/secrets/{secret}"
-        payload = {
-            "encrypted_value": encrypted_value,
-            "key_id": public_key_data["key_id"]
-        }
-        response = requests.put(url, headers=headers, json=payload)
-        if response.status_code == 201:
-            print(f"Successfully set secret {secret} for repository {repo_name}")
-        else:
-            print(f"Failed to set secret {secret} for repository {repo_name}, status code: {response.status_code}")
+        # Skip if the secret already exists
+        if secret in existing_secrets:
+            print(f"Secret {secret} already exists in repository {repo_name}. Skipping...")
+            continue
+        
+        # Use GitHub CLI to set the secret
+        print(f"Setting secret {secret} for repository {repo_name} using GitHub CLI")
+        subprocess.run(["gh", "secret", "set", secret, "-r", f"{GITHUB_USER}/{repo_name}", "-b", value], check=True)
+        print(f"Successfully set secret {secret} for repository {repo_name}")
 
 # Function to get all repositories
 def get_repositories():
@@ -122,29 +104,27 @@ def get_repositories():
             break
     return repos
 
-# Main function to fetch and print secrets, check missing ones, and update repositories
+
 def main():
     # Fetch secrets from environment
-    secrets, missing_secrets = fetch_secrets_from_env()
+    secrets = {secret: os.getenv(secret) for secret in SECRETS}
     
-    # Print secrets and check for missing ones
-    print_secrets(secrets, missing_secrets)
-
-    # If there are missing secrets, abort the operation
+    # Check for missing secrets
+    missing_secrets = [secret for secret, value in secrets.items() if value is None]
     if missing_secrets:
-        print("\nSome secrets are missing. Please set them in the environment.")
+        print(f"Missing secrets: {', '.join(missing_secrets)}")
         return
-
-    print("Proceeding with the repository update...")
 
     # Fetch repositories to update
     repos = get_repositories()
 
+    # Set secrets for each repository
     for repo in repos:
         if repo == "dmzoneill":
             continue
         print(f"Setting secrets for repository: {repo}")
-        set_secrets_for_repo(repo, secrets)
+        set_secrets_with_gh(repo, secrets)
+
 
 if __name__ == "__main__":
     main()

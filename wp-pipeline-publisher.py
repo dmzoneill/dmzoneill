@@ -269,7 +269,7 @@ def generate_description(prompt):
 
     Post format:
 
-    - At the top put "Title: (Generate a short descriptive title)"
+    - ** At the top put "Title: (Generate a short descriptive title)" **
     - Provide the post in HTML format, ensuring it is compatible with WordPress.
     - No HTML comments: Ensure the HTML output doesn’t include comments (e.g., <!-- comment -->).
     - All URLs must be valid for images and hyperlinks, including those to GitHub user pages or relevant documentation.

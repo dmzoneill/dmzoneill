@@ -66,7 +66,7 @@ while true; do
        exists="404"
     fi 
     
-    [[ "$exists" != "404" ]] && echo "Skip action exists" && echo "$processed" && continue
+    [[ "$exists" != "404" ]] && echo "    Actions config exists" && echo "$processed" && continue
 
     echo "    Cloning $name.."
     git_url=https://$user:$pass@github.com/$user/$name.git

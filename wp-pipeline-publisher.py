@@ -291,7 +291,8 @@ def generate_description(prompt):
             description = re.sub(r"Title:\s*.*\n", "", response).strip()
             return title, description
         else:
-            return "Untitled", response.strip()
+            title = strip_html_tags(response.strip().splitlines()[0])
+            return title, response.strip()
 
     except Exception as e:
         print(f"Error generating description: {e}")

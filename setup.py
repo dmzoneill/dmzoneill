@@ -31,7 +31,8 @@ def fetch_public_key(repo_name):
         return response.json()
     else:
         print(f"Failed to fetch public key for {repo_name}, status code: {response.status_code}")
-        return None
+        print(f"{response.content}")
+        raise Exception("Cant proceed")
 
 # Function to encrypt the secret value using the public key
 def encrypt_secret(public_key, secret_value):
@@ -84,7 +85,7 @@ def set_secrets_for_repo(repo_name, secrets):
     public_key_data = fetch_public_key(repo_name)
     if not public_key_data:
         print(f"Skipping {repo_name} due to failure in fetching public key")
-        return
+        raise Exception("Cant proceed")
 
     public_key = public_key_data["key"]
     for secret, value in secrets.items():

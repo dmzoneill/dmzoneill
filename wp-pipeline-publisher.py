@@ -283,6 +283,9 @@ def generate_description(prompt):
     try:
         response = ai_provider.improve_text(system_prompt, user_prompt)
         
+        print(system_prompt)
+        print(response)
+
         title_match = re.search(r"Title:\s*(.*)", response)  # Match the title
         if title_match:
             title = title_match.group(1).strip()

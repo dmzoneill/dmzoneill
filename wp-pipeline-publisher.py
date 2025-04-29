@@ -453,6 +453,7 @@ def main():
         # Get the commit date from the latest commit
         commit_url = f"https://api.github.com/repos/{GITHUB_USER}/{GITHUB_REPO_NAME}/commits"
         commit_response = requests.get(commit_url, headers={'Authorization': f'token {GITHUB_API_TOKEN}'})
+        print(f"\nCommit url: {commit_url}")
         print(commit_response.content)
         
         if commit_response.status_code != 200:

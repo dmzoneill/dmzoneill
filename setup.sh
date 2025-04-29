@@ -46,7 +46,7 @@ while true; do
 
     # Check repository access
     echo "    Checking repository access for $user/$name..."
-    gh repo view "$user/$name" || { echo "Failed to access repository $user/$name. Skipping."; continue; }
+    gh repo view "$user/$name" || { echo "    Failed to access repository $user/$name. Skipping."; continue; }
 
     # Skip the main repository
     if [[ "$name" == "dmzoneill" ]]; then
@@ -58,7 +58,7 @@ while true; do
     echo "    Setting up secrets for $name.."
     secrets=("PROFILE_HOOK" "ACTIONS_RUNNER_DEBUG" "ACTIONS_STEP_DEBUG" "AI_API_KEY" "AI_MODEL" "DOCKER_TOKEN" "PUBLISH" "PYPI_TOKEN" "WORDPRESS_APPLICATION" "WORDPRESS_PASSWORD" "WORDPRESS_URL" "WORDPRESS_USERNAME")
     for secret in "${secrets[@]}"; do
-      gh secret set "$secret" -r "$user/$name" -b "${!secret}" || { echo "Failed to set secret $secret for $name"; exit 1; }
+      gh secret set "$secret" -r "$user/$name" -b "${!secret}" || { echo "      Failed to set secret $secret for $name"; exit 1; }
     done
 
     # Check if the GitHub Actions file exists

@@ -21,9 +21,6 @@ WORDPRESS_APPLICATION = os.getenv("WORDPRESS_APPLICATION")
 print(GITHUB_USER)
 print(GITHUB_RUN_ID)
 print(GITHUB_REPO_NAME)
-print(WORDPRESS_URL)
-print(WORDPRESS_USERNAME)
-
 
 class OpenAIProvider():
 
@@ -456,6 +453,7 @@ def main():
         # Get the commit date from the latest commit
         commit_url = f"https://api.github.com/repos/{GITHUB_USER}/{GITHUB_REPO_NAME}/commits"
         commit_response = requests.get(commit_url, headers={'Authorization': f'token {GITHUB_API_TOKEN}'})
+        print(commit_response.content)
         
         if commit_response.status_code != 200:
             print(f"Failed to fetch commits for {GITHUB_REPO_NAME}. Status code: {commit_response.status_code}")

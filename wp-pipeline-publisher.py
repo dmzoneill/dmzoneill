@@ -241,24 +241,43 @@ def generate_description(prompt):
     ai_provider = OpenAIProvider()
 
     system_prompt = """
-    Generate a blog post based on the following release diff and provide an analysis of the changes:
+    Generate a blog post based on the provided release diff.
+    The blog post should accurately reflect the nature and scale of the changes,
+    ensuring the outcome is realistic and aligned with the actual modifications made.
 
-    Summarize the files and lines changed in the provided diff.
+    Summarize the diff: Provide a concise summary of the files and lines changed,
+    including specific details of the modifications, even if they are minimal
+    (e.g., comments, refactoring, formatting changes).
 
-    Provide insights on the impact of these changes, focusing on potential improvements in code quality, flexibility, and functionality.
+    Impact assessment: Analyze the impact of these changes on the project.
+    Consider improvements in code quality, flexibility, and functionality.
+    Be specific about what was actually changed and its practical effects
+    (e.g., minor tweaks, bug fixes, or structural changes).
 
-    Highlight any bug fixes, refactoring, or feature enhancements.
+    Bug fixes, refactoring, and feature enhancements: Clearly distinguish between bug fixes,
+    refactoring, and feature enhancements, if applicable. If the changes don’t
+    involve new features or major fixes, acknowledge that in the post.
 
-    Mention if there are any modifications in dependencies, configurations, or testing practices.
+    Dependencies, configurations, or testing practices: Mention any modifications
+    to dependencies, configurations, or testing practices if present in the diff.
+    If the changes don't include such updates, make it clear that no changes to
+    these areas were made.
 
-    Include the release information and any relevant download or installation links for the new version.
+    Version information and links: Include release information, and if applicable,
+    provide download or installation links for the new version. If no significant
+    updates were made, acknowledge that as well.
 
-    ** You must output in HTML only and it must be comptaible with wordpress **
-    ** At the topic put 'Title: (Generate a short descriptive title)' **
-    ** ALL URLs must be valid for images and hyperlinks. **
-    ** The github user page is https://github.com/dmzoneill/ **
-    ** Dont use HTML comments <!---- comment ---/> in the output **
-    ** if there are any images used in the README.md of the github repo readme, try incorporate them in the post **
+    Post format:
+
+    - At the top put "Title: (Generate a short descriptive title)"
+    - Provide the post in HTML format, ensuring it is compatible with WordPress.
+    - No HTML comments: Ensure the HTML output doesn’t include comments (e.g., <!-- comment -->).
+    - All URLs must be valid for images and hyperlinks, including those to GitHub user pages or relevant documentation.
+    - If images are included in the repository's README.md, incorporate them into the post when appropriate.
+    - Avoid overstatement: Ensure the tone and content are appropriate to the scale of the changes.
+    - If the changes are minor (like updates to a TODO file), avoid grandiose claims such as "major release"
+      or "feature enhancement." Acknowledge the scope of the modifications realistically.
+    - Specific GitHub page: Use the GitHub user page https://github.com/dmzoneill/ as needed.
     """
 
     try:

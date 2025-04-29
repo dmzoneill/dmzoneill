@@ -27,6 +27,7 @@ while true; do
   processed=0
   for X in $(curl "$url" | jq -r '.[] | .ssh_url'); do   
     name=$(echo "$X" | awk -F'/' '{print $2}' | sed 's/\.git//')
+    echo "  Setting up $name.."
     echo "$pass" > .githubtoken
     unset GITHUB_TOKEN
     gh auth login --with-token < .githubtoken
@@ -35,12 +36,12 @@ while true; do
 
     # Skip the main repository
     if [[ "$name" == "dmzoneill" ]]; then
-      echo "Skipping repository $name"
+      echo "    Skipping repository $name"
       continue
     fi
 
+    echo "    Setting up secrets for $name.."
     # Set secrets for each repository except 'dmzoneill'
-    gh secret set GITHUB_TOKEN -r "$user/$name" -b "$GITHUB_TOKEN"
     gh secret set PROFILE_HOOK -r "$user/$name" -b "$PROFILE_HOOK"
     gh secret set ACTIONS_RUNNER_DEBUG -r "$user/$name" -b "$ACTIONS_RUNNER_DEBUG"
     gh secret set ACTIONS_STEP_DEBUG -r "$user/$name" -b "$ACTIONS_STEP_DEBUG"
@@ -54,6 +55,7 @@ while true; do
     gh secret set WORDPRESS_URL -r "$user/$name" -b "$WORDPRESS_URL"
     gh secret set WORDPRESS_USERNAME -r "$user/$name" -b "$WORDPRESS_USERNAME"
 
+    echo "    Checking github actions file for $name.."
     action_file="https://github.com/$user/$name/blob/main/.github/workflows/main.yml?raw=true"
     exists=$(curl -L -s -o /tmp/last -w "%{http_code}" "$action_file")
     md5file=$(md5sum /tmp/last | awk '{print $1}')
@@ -66,11 +68,13 @@ while true; do
     
     [[ "$exists" != "404" ]] && echo "Skip action exists" && echo "$processed" && continue
 
+    echo "    Cloning $name.."
     git_url=https://$user:$pass@github.com/$user/$name.git
     git clone "$git_url"
 
     [ ! -f "$name/LICENSE" ] && cp LICENSE "$name/"
     
+    echo "    Commiting actions and licence to $name.."
     mkdir -vp "$name/.github/workflows/"
     cp -f main.yml "$name/.github/workflows/"
     
@@ -85,7 +89,7 @@ while true; do
       git pull --rebase
       git push 
     )
-    echo "$processed"
+    echo "    done with $name"
   done
 
   if [ $processed -le 1 ]; then

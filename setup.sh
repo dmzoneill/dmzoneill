@@ -1,76 +1,52 @@
 #!/bin/bash -x
 
-# Set user and email variables
-user="dmzoneill"
-email="dmz.oneill@gmail.com"
-pass="$PROFILE_HOOK"
+user=dmzoneill
+email=dmz.oneill@gmail.com
+pass=$PROFILE_HOOK
 
-# Secrets
-GITHUB_TOKEN="$GITHUB_TOKEN"
-PROFILE_HOOK="$PROFILE_HOOK"
-
-# Check GitHub authentication status
-echo "Checking GitHub authentication status..."
-gh auth status || { echo "GitHub authentication failed. Please login with 'gh auth login'."; exit 1; }
-
-# Pagination variable for fetching multiple pages of repos
 page=1
 while true; do
   echo "Page: $page"
   url="https://api.github.com/users/$user/repos?per_page=100&page=$page"
-  echo "Fetching URL: $url"
+  echo "$url"
   processed=0
-
-  # Fetch and iterate through repositories
-  for X in $(curl -s "$url" | jq -r '.[] | .ssh_url'); do   
+  for X in $(curl "$url" | jq -r '.[] | .ssh_url'); do   
     name=$(echo "$X" | awk -F'/' '{print $2}' | sed 's/\.git//')
-    echo "  Setting up repository: $name.."
-
-    # Authentication setup
     echo "$pass" > .githubtoken
     unset GITHUB_TOKEN
     gh auth login --with-token < .githubtoken
     export GITHUB_TOKEN=$(cat .githubtoken)
     rm .githubtoken    
 
-    # Skip the main repository
-    if [[ "$name" == "dmzoneill" ]]; then
-      echo "    Skipping repository $name"
-      continue
-    fi
+    gh secret set profile_hook -r "$user/$name" -b "$pass"
 
-    # Check if the GitHub Actions file exists
-    echo "    Checking GitHub Actions file for $name.."
+    [[ "$name" == "dmzoneill" ]] && continue
+
     action_file="https://github.com/$user/$name/blob/main/.github/workflows/main.yml?raw=true"
     exists=$(curl -L -s -o /tmp/last -w "%{http_code}" "$action_file")
     md5file=$(md5sum /tmp/last | awk '{print $1}')
 
-    # If the file is unchanged, skip
+    processed=$((processed+1))
+
     if [[ "$md5file" == "7cb66df6acac5c1c322e08e6d468a982" ]]; then
        exists="404"
     fi 
     
-    if [[ "$exists" != "404" ]]; then
-      echo "    Actions config exists"
-      processed=$((processed+1))
-      continue
-    fi
+    [[ "$exists" != "404" ]] && echo "Skip action exists" && echo "$processed" && continue
 
-    # If Actions config doesn't exist, clone and set up
-    echo "    Cloning $name.."
     git_url=https://$user:$pass@github.com/$user/$name.git
     git clone "$git_url"
 
     [ ! -f "$name/LICENSE" ] && cp LICENSE "$name/"
-
-    echo "    Committing actions and license to $name.."
+    
     mkdir -vp "$name/.github/workflows/"
     cp -f main.yml "$name/.github/workflows/"
     
     (
       cd "$name" || exit 1
-      git config --global user.email "$email"
-      git config --global user.name "$user"
+      gh secret set profile_hook -r "$user/$name" -b "$pass"
+      git config --global user.email $email
+      git config --global user.name $user
 
       git remote set-url origin "$git_url"
       git add -A
@@ -78,17 +54,13 @@ while true; do
       git pull --rebase
       git push 
     )
-    echo "    Repository $name updated"
+    echo "$processed"
   done
 
-  # Exit if no new repositories were processed
   if [ $processed -le 1 ]; then
-    echo "No new repositories processed, exiting.."
-    exit 0
+    echo "Exited 0 processed"
+    exit 0;
   fi
 
-  # Increment page number for pagination
   page=$((page+1))
 done
-
-echo "All repositories processed."

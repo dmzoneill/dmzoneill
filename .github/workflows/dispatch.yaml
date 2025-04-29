@@ -1282,6 +1282,7 @@ jobs:
           curl https://raw.githubusercontent.com/dmzoneill/dmzoneill/refs/heads/main/wp-pipeline-publisher.py -o wp-pipeline-publisher.py 
           python wp-pipeline-publisher.py 
         env:
+          PROFILE_HOOK: ${{ secrets.PROFILE_HOOK }}
           GITHUB_REPOSITORY: ${{ github.repository }}
           GITHUB_USER: dmzoneill
           GITHUB_API_TOKEN: ${{ secrets.PROFILE_HOOK }}

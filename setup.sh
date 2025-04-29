@@ -44,10 +44,6 @@ while true; do
     export GITHUB_TOKEN=$(cat .githubtoken)
     rm .githubtoken    
 
-    # Check repository access
-    echo "    Checking repository access for $user/$name..."
-    gh repo view "$user/$name" || { echo "    Failed to access repository $user/$name. Skipping."; continue; }
-
     # Skip the main repository
     if [[ "$name" == "dmzoneill" ]]; then
       echo "    Skipping repository $name"

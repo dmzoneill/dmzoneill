@@ -240,43 +240,63 @@ def generate_description(prompt):
     ai_provider = OpenAIProvider()
 
     system_prompt = """
-    Generate a blog post based on the provided release diff.
-    The blog post should accurately reflect the nature and scale of the changes,
-    ensuring the outcome is realistic and aligned with the actual modifications made.
+    Please generate a blog post based on the provided release diff.
 
-    Summarize the diff: Provide a concise summary of the files and lines changed,
-    including specific details of the modifications, even if they are minimal
-    (e.g., comments, refactoring, formatting changes).
+    Make sure the **Title** is always placed at the top and follows this format:
+    "Title: some title"  
+    This should be the very first line of the blog post.
 
-    Impact assessment: Analyze the impact of these changes on the project.
-    Consider improvements in code quality, flexibility, and functionality.
-    Be specific about what was actually changed and its practical effects
-    (e.g., minor tweaks, bug fixes, or structural changes).
+    Then, proceed to generate the rest of the content in a personal and relatable style,
+    avoiding a formal business tone. The post should be friendly and easy to read,
+    with a clear and simple breakdown of the changes made.
 
-    Bug fixes, refactoring, and feature enhancements: Clearly distinguish between bug fixes,
-    refactoring, and feature enhancements, if applicable. If the changes don’t
-    involve new features or major fixes, acknowledge that in the post.
+    1. **Summarize the Diff**  
+    Start with a simple summary of what’s changed—whether it's files, lines, or small tweaks.
+    It could be a mix of bug fixes, refactoring, or small improvements like better formatting
+    or clearer comments. Even small changes matter!
 
-    Dependencies, configurations, or testing practices: Mention any modifications
-    to dependencies, configurations, or testing practices if present in the diff.
-    If the changes don't include such updates, make it clear that no changes to
-    these areas were made.
+    2. **How Does This Change the Project?**  
+    Reflect on what the update means in a real-world sense. Was there a noticeable improvement
+    in code quality, or did we fix something that was causing frustration? Talk about the
+    practical effects of the changes—did it help clean things up, make the project easier
+    to use, or smooth out an annoying bug?
 
-    Version information and links: Include release information, and if applicable,
-    provide download or installation links for the new version. If no significant
-    updates were made, acknowledge that as well.
+    3. **Bug Fixes, Refactoring, and Feature Enhancements**  
+    If the changes involved bug fixes, explain what got fixed and why it matters.
+    If there was refactoring, keep it casual but explain how the code is now cleaner
+    or easier to maintain. If there were no new features, mention it without any over-the-top
+    language—just a simple acknowledgment that this is a small but meaningful update.
 
-    Post format:
+    4. **What About Dependencies or Configurations?**  
+    If you made any changes to dependencies, testing setups, or configurations, mention them
+    briefly. If nothing in this area was changed, feel free to say so. We want the post to be
+    clear and not overhype anything.
 
-    ** At the top put "Title: (Generate a short descriptive title)" **
-    Provide the post in HTML format, ensuring it is compatible with WordPress.
-    No HTML comments: Ensure the HTML output doesn’t include comments (e.g., <!-- comment -->).
-    All URLs must be valid for images and hyperlinks, including those to GitHub user pages or relevant documentation.
-    If images are included in the repository's README.md, incorporate them into the post when appropriate.
-    Avoid overstatement: Ensure the tone and content are appropriate to the scale of the changes.
-    If the changes are minor (like updates to a TODO file), avoid grandiose claims such as "major release"
-    or "feature enhancement." Acknowledge the scope of the modifications realistically.
-    Specific GitHub page: Use the GitHub user page https://github.com/dmzoneill/ as needed.
+    5. **Release Info and Links**  
+    Give a quick heads-up about the version number and any relevant links. If it’s a minor release,
+    be honest about it—don’t exaggerate the importance of the update, but let people know where
+    they can find more details.
+
+    Post Format:
+
+    - **Start with a Title**  
+    Ensure the **Title** is the first line and follows the format "Title: some title".
+
+    - **HTML Format for WordPress**  
+    Make sure the content is ready to go for WordPress. Skip any HTML comments (no `<!-- comment -->`),
+    and make sure the links are valid, including for images or GitHub references. If there’s an image
+    in the README, include that in the post if it fits!
+
+    - **Keep It Real**  
+    The tone should feel like you’re sharing the update with a friend—nothing too formal or too grandiose.
+    If the changes are small (like updating a TODO file), let people know that the update is more about
+    cleaning things up than adding huge new features.
+
+    - **GitHub Page Reference**  
+    Don’t forget to include the GitHub user page https://github.com/dmzoneill/ when needed.
+
+    The key is to make the post feel like a casual, friendly update, rather than a corporate announcement.
+    Let people know what changed, why it matters, and how it will affect them—but keep it laid-back and easy to read.
     """
 
     try:
@@ -497,7 +517,7 @@ def main():
         publish_date = datetime.fromisoformat(commit_date).strftime('%Y-%m-%dT%H:%M:%S')
         print(f"Commit date for {GITHUB_REPO_NAME}: {publish_date}")
 
-        # Get release links (RPM, DEB, etc.)
+        # Get release links (RPM, DEB, etc.)e
         release_links = get_release_links()
 
         prompt = generate_blog_post_prompt(release_links, diff, publish_date)

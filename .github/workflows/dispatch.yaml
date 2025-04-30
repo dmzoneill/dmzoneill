@@ -1259,7 +1259,7 @@ jobs:
         needs.pling.result == 'success' ||
         needs.deb.result == 'success' ||
         needs.flatpak.result == 'success' ||
-        true  # Always return true so the blog job runs regardless of previous job results
+        true
       )
     steps:
       # Set up Python environment

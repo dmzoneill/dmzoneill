@@ -1248,6 +1248,19 @@ jobs:
   blog:
     runs-on: ubuntu-latest
     needs: [docker, deb, rpm, gnome, pypi, chrome, pling, npmjs, flatpak]
+    if: |
+      always() &&
+      (
+        needs.rpm.result == 'success' ||
+        needs.docker.result == 'success' || 
+        needs.gnome.result == 'success' || 
+        needs.pypi.result == 'success' ||
+        needs.chrome.result == 'success' ||
+        needs.pling.result == 'success' ||
+        needs.deb.result == 'success' ||
+        needs.flatpak.result == 'success' ||
+        true  # Always return true so the blog job runs regardless of previous job results
+      )
     steps:
       # Set up Python environment
       - name: Set up Python environment

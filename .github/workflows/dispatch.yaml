@@ -708,6 +708,11 @@ jobs:
           if [ "${{ inputs.VALIDATE_TYPESCRIPT_STANDARD }}" != "true" ]; then
             echo "VALIDATE_TYPESCRIPT_STANDARD=${{ inputs.VALIDATE_TYPESCRIPT_STANDARD }}" >> $GITHUB_ENV
           fi
+
+          if [ "${{ inputs.VALIDATE_JAVASCRIPT_STANDARD }}" != "true" ]; then
+            echo "VALIDATE_JAVASCRIPT_STANDARD=${{ inputs.VALIDATE_JAVASCRIPT_STANDARD }}" >> $GITHUB_ENV
+          fi
+          
           
           if [ "${{ inputs.VALIDATE_XML }}" != "true" ]; then
             echo "VALIDATE_XML=${{ inputs.VALIDATE_XML }}" >> $GITHUB_ENV

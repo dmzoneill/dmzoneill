@@ -241,59 +241,60 @@ def generate_description(prompt):
 
     system_prompt = """
     Please generate a blog post based on the provided release diff.
+    The content should be formatted in **HTML for WordPress**, not markdown.
 
     Make sure the **Title** is always placed at the top and follows this format:
-    "Title: some title"  
-    This should be the very first line of the blog post.
+    <h1>Title: some title</h1>. This should be the very first line of the blog post.
 
     Then, proceed to generate the rest of the content in a personal and relatable style,
-    avoiding a formal business tone. The post should be friendly and easy to read,
-    with a clear and simple breakdown of the changes made.
+    using **HTML tags** for formatting (like <p>, <ul>, <li>, etc.) and avoiding markdown
+    formatting (like **bold**, *italic*, etc.). Keep the tone friendly,
+    simple, and easy to read, with clear structure. Do not use markdown syntax.
 
     1. **Summarize the Diff**  
-    Start with a simple summary of what’s changed—whether it's files, lines, or small tweaks.
-    It could be a mix of bug fixes, refactoring, or small improvements like better formatting
-    or clearer comments. Even small changes matter!
+        Start with a simple summary of what’s changed—whether it's files, lines, or small tweaks.
+        It could be a mix of bug fixes, refactoring, or small improvements like better formatting
+        or clearer comments. Even small changes matter!
 
     2. **How Does This Change the Project?**  
-    Reflect on what the update means in a real-world sense. Was there a noticeable improvement
-    in code quality, or did we fix something that was causing frustration? Talk about the
-    practical effects of the changes—did it help clean things up, make the project easier
-    to use, or smooth out an annoying bug?
+        Reflect on what the update means in a real-world sense. Was there a noticeable improvement
+        in code quality, or did we fix something that was causing frustration? Talk about the practical
+        effects of the changes—did it help clean things up, make the project easier to use,
+        or smooth out an annoying bug?
 
     3. **Bug Fixes, Refactoring, and Feature Enhancements**  
-    If the changes involved bug fixes, explain what got fixed and why it matters.
-    If there was refactoring, keep it casual but explain how the code is now cleaner
-    or easier to maintain. If there were no new features, mention it without any over-the-top
-    language—just a simple acknowledgment that this is a small but meaningful update.
+        If the changes involved bug fixes, explain what got fixed and why it matters.
+        If there was refactoring, keep it casual but explain how the code is now cleaner
+        or easier to maintain. If there were no new features, mention it without any over-the-top
+        language—just a simple acknowledgment that this is a small but meaningful update.
 
     4. **What About Dependencies or Configurations?**  
-    If you made any changes to dependencies, testing setups, or configurations, mention them
-    briefly. If nothing in this area was changed, feel free to say so. We want the post to be
-    clear and not overhype anything.
+        If you made any changes to dependencies, testing setups, or configurations, mention them briefly.
+        If nothing in this area was changed, feel free to say so. We want the post to be clear
+        and not overhype anything.
 
     5. **Release Info and Links**  
-    Give a quick heads-up about the version number and any relevant links. If it’s a minor release,
-    be honest about it—don’t exaggerate the importance of the update, but let people know where
-    they can find more details.
+        Give a quick heads-up about the version number and any relevant links.
+        If it’s a minor release, be honest about it—don’t exaggerate the importance of the update,
+        but let people know where they can find more details.
 
-    Post Format:
+    **Post Format:**
 
     - **Start with a Title**  
-    Ensure the **Title** is the first line and follows the format "Title: some title".
+        Ensure the **Title** is the first line and follows the format Title: some title.
 
     - **HTML Format for WordPress**  
-    Make sure the content is ready to go for WordPress. Skip any HTML comments (no `<!-- comment -->`),
-    and make sure the links are valid, including for images or GitHub references. If there’s an image
-    in the README, include that in the post if it fits!
+        Make sure the content is ready to go for WordPress. Skip any HTML comments (no <!-- comment -->),
+        and make sure the links are valid, including for images or GitHub references.
+        If there’s an image in the README, include that in the post if it fits!
 
     - **Keep It Real**  
-    The tone should feel like you’re sharing the update with a friend—nothing too formal or too grandiose.
-    If the changes are small (like updating a TODO file), let people know that the update is more about
-    cleaning things up than adding huge new features.
+        The tone should feel like you’re sharing the update with a friend—nothing too formal or
+        too grandiose. If the changes are small (like updating a TODO file), let people know that
+        the update is more about cleaning things up than adding huge new features.
 
     - **GitHub Page Reference**  
-    Don’t forget to include the GitHub user page https://github.com/dmzoneill/ when needed.
+        Don’t forget to include the GitHub user page https://github.com/dmzoneill/ when needed.
 
     The key is to make the post feel like a casual, friendly update, rather than a corporate announcement.
     Let people know what changed, why it matters, and how it will affect them—but keep it laid-back and easy to read.

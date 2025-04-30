@@ -713,6 +713,9 @@ jobs:
             echo "VALIDATE_JAVASCRIPT_STANDARD=${{ inputs.VALIDATE_JAVASCRIPT_STANDARD }}" >> $GITHUB_ENV
           fi
           
+          if [ "${{ inputs.VALIDATE_JSCPD }}" != "true" ]; then
+            echo "VALIDATE_JSCPD=${{ inputs.VALIDATE_JSCPD }}" >> $GITHUB_ENV
+          fi
           
           if [ "${{ inputs.VALIDATE_XML }}" != "true" ]; then
             echo "VALIDATE_XML=${{ inputs.VALIDATE_XML }}" >> $GITHUB_ENV

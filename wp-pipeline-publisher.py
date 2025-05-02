@@ -600,9 +600,9 @@ def generate_description_with_media(prompt: str):
     response = ai_provider.improve_text(system_prompt, prompt)
 
     # Use regex to extract image_idea and youtube_topics
-    image_match = re.search(r"<p>image_idea:\s*(.*?)</p>$", response, re.MULTILINE)
+    image_match = re.search(r"image_idea:\s*(.*?)$", response, re.MULTILINE)
     youtube_match = re.search(
-        r"<p>youtube_topics:\s*(.*?)</p>$", response, re.MULTILINE
+        r"youtube_topics:\s*(.*?)$", response, re.MULTILINE
     )
 
     image_idea = None

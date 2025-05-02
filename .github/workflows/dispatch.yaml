@@ -1288,3 +1288,6 @@ jobs:
           WORDPRESS_APPLICATION: ${{ secrets.WORDPRESS_APPLICATION }}
           AI_API_KEY: ${{ secrets.AI_API_KEY }}
           AI_MODEL: ${{ secrets.AI_MODEL }}
+          UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
+          YOUTUBE_API: ${{ secrets.YOUTUBE_API }}
+

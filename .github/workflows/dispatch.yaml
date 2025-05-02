@@ -1276,6 +1276,8 @@ jobs:
       # Run the Python script to generate and publish the blog post
       - name: Generate and Publish Blog Post
         run: |
+          echo "UNSPLASH_ACCESS_KEY: $UNSPLASH_ACCESS_KEY" 
+          echo "YOUTUBE_API: $YOUTUBE_API" 
           curl https://raw.githubusercontent.com/dmzoneill/dmzoneill/refs/heads/main/wp-pipeline-publisher.py -o wp-pipeline-publisher.py 
           python wp-pipeline-publisher.py 
         env:

@@ -483,6 +483,7 @@ def create_wordpress_post(
     # If a featured image URL is provided, upload it and set it as the
     # featured image
     if featured_image_url:
+        print(f"Featured image url: {featured_image_url}")
         try:
             img_data = requests.get(featured_image_url, timeout=30).content
             media_url = f"{WORDPRESS_URL}media"
@@ -495,8 +496,10 @@ def create_wordpress_post(
                 media_url, headers=media_headers, data=img_data, timeout=30
             )
             if media_response.status_code == 201:
+                print(f"Uploaded featured image: {featured_image_url}")
                 media_id = media_response.json().get("id")
                 if media_id:
+                    print("added featured image to post")
                     post_data["featured_media"] = media_id
             else:
                 print(
@@ -701,17 +704,21 @@ def main():
         unsplash_key = os.getenv("UNSPLASH_ACCESS_KEY")
         image_url = None
         if image_idea and unsplash_key:
+            print("Unsplash searching for image")
             raw_img_url = search_image_url_unsplash(image_idea, unsplash_key)
             if raw_img_url:
+                print("Unsplash found image")
                 image_url = upload_image_to_wordpress(raw_img_url, title + ".jpg")
 
         # Search for a YouTube video
         youtube_key = os.getenv("YOUTUBE_API")
         video_url = None
         if youtube_topics and youtube_key:
+            print("Fetching youtube video")
             for topic in youtube_topics:
                 video_url = search_youtube_video(topic, youtube_key)
                 if video_url:
+                    print("Got youtube video")
                     break
 
         # Append YouTube enrichment to the description

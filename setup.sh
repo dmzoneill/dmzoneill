@@ -23,10 +23,17 @@ while true; do
 
     gh secret set profile_hook -r "$user/$name" -b "$pass"
     
-    action_file="https://github.com/$user/$name/blob/main/.github/workflows/main.yml?raw=true"
-    echo "$action_file"
 
-    status_code=$(curl -L -s -o /tmp/last -w "%{http_code}" "$action_file")
+    api_url="https://api.github.com/repos/$user/$name/contents/.github/workflows/main.yml"
+    echo "$api_url"
+    
+    # Use API to get raw file contents with token auth
+    status_code=$(curl -s -L \
+      -H "Authorization: token $GITHUB_TOKEN" \
+      -H "Accept: application/vnd.github.v3.raw" \
+      -w "%{http_code}" \
+      -o /tmp/last "$api_url")
+
     md5file=$(md5sum /tmp/last | awk '{print $1}')
     rm /tmp/last
     processed=$((processed+1))

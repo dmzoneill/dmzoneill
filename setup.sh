@@ -22,20 +22,27 @@ while true; do
     [[ "$name" == "dmzoneill" ]] && continue
 
     gh secret set profile_hook -r "$user/$name" -b "$pass"
-
-    action_file="https://github.com/$user/$name/blob/main/.github/workflows/main.yml?raw=true"
-    echo $action_file
     
-    exists=$(curl -L -s -o /tmp/last -w "%{http_code}" "$action_file")
+    action_file="https://github.com/$user/$name/blob/main/.github/workflows/main.yml?raw=true"
+    echo "$action_file"
+
+    status_code=$(curl -L -s -o /tmp/last -w "%{http_code}" "$action_file")
     md5file=$(md5sum /tmp/last | awk '{print $1}')
     rm /tmp/last
     processed=$((processed+1))
 
+    echo "Status code: $status_code"
+    echo "md5sum: $md5file"
+   
+    # Heuristic to detect a GitHub 404 page masquerading as a 200 response
     if [[ "$md5file" == "7cb66df6acac5c1c322e08e6d468a982" ]]; then
-       exists="404"
-    fi 
-    
-    [[ "$exists" != "404" ]] && echo "Skip action exists" && echo "$processed" && continue
+       status_code="404"
+    fi
+
+    if [[ "$status_code" != "404" ]]; then
+        echo "Skip action exists"
+        continue
+    fi
 
     git_url=https://$user:$pass@github.com/$user/$name.git
     git clone "$git_url"

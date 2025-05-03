@@ -19,14 +19,16 @@ while true; do
     export GITHUB_TOKEN=$(cat .githubtoken)
     rm .githubtoken    
 
-    gh secret set profile_hook -r "$user/$name" -b "$pass"
-
     [[ "$name" == "dmzoneill" ]] && continue
 
+    gh secret set profile_hook -r "$user/$name" -b "$pass"
+
     action_file="https://github.com/$user/$name/blob/main/.github/workflows/main.yml?raw=true"
+    echo $action_file
+    
     exists=$(curl -L -s -o /tmp/last -w "%{http_code}" "$action_file")
     md5file=$(md5sum /tmp/last | awk '{print $1}')
-
+    rm /tmp/last
     processed=$((processed+1))
 
     if [[ "$md5file" == "7cb66df6acac5c1c322e08e6d468a982" ]]; then

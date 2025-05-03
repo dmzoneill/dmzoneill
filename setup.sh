@@ -12,6 +12,7 @@ while true; do
   processed=0
   for X in $(curl "$url" | jq -r '.[] | .ssh_url'); do   
     name=$(echo "$X" | awk -F'/' '{print $2}' | sed 's/\.git//')
+    echo $name
     echo "$pass" > .githubtoken
     unset GITHUB_TOKEN
     gh auth login --with-token < .githubtoken

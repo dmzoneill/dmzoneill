@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-03/05/2025 00:38:41-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-04/05/2025 00:43:24-brightgreen" height='28'/>
 
 <table>
   <tr>
@@ -8,12 +8,7 @@
       <h3>Pull Requests (6)</h3>
       <ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/40'>Bump http-proxy-middleware from 2.0.7 to 2.0.9 in /frontend</a> 2025-04-28</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/39'>Bump golang.org/x/net from 0.23.0 to 0.38.0 in /backend</a> 2025-04-28</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/38'>Bump golang.org/x/crypto from 0.21.0 to 0.35.0 in /backend</a> 2025-04-28</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/37'>Bump @babel/runtime from 7.17.9 to 7.27.0 in /frontend</a> 2025-04-28</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/36'>Bump @babel/helpers from 7.17.9 to 7.27.0 in /frontend</a> 2025-04-28</li></ul>
       <h3>Recent Acivity</h3>
-      <ul><li><a href='https://github.com/dmzoneill/jira-creator/commit/16dd537e11999a5dc2554a7836cf86a16f3d4cc6'>Refactor AI provider integration and enhance CLI commands for Jira issue management, including setting components and projects, while improving error handling and documentation.
-Refactor environment variable names in codebase to use JIRA prefix for consistency and clarity in AI provider integration. Update related documentation and ensure all references are correctly modified.</a></li><li><a href='https://github.com/dmzoneill/jira-creator/commit/cafbf8203ca0b019bfd93088ba3e82cfacead66f'>Refactor AI provider integration and enhance CLI commands for Jira issue management, including setting components and projects, while improving error handling and documentation.
-Refactor environment variable names in codebase to use JIRA prefix for consistency and clarity in AI provider integration. Update related documentation and ensure all references are correctly modified.</a></li><li><a href='https://github.com/dmzoneill/jira-creator/commit/3d913906e8f232f037db3817e09c267c87fd4a6a'>Refactor AI provider integration and enhance CLI commands for Jira issue management, including setting components and projects, while improving error handling and documentation.
-Refactor environment variable names in codebase to use JIRA prefix for consistency and clarity in AI provider integration. Update related documentation and ensure all references are correctly modified.</a></li><li><a href='https://github.com/dmzoneill/jira-creator/commit/0cc88dedfd2efb47b2d98b1a20d8f83ca949399b'>Refactor AI provider integration and enhance CLI commands for Jira issue management, including setting components and projects, while improving error handling and documentation.
-Refactor environment variable names in codebase to use JIRA prefix for consistency and clarity in AI provider integration. Update related documentation and ensure all references are correctly modified.</a></li><li><a href='https://github.com/dmzoneill/jira-creator/commit/43c7bcfa3655b69fa00e7d2bfc274d931e233809'>Refactor AI provider integration and enhance CLI commands for Jira issue management, including setting components and projects, while improving error handling and documentation.
-Refactor environment variable names in codebase to use JIRA prefix for consistency and clarity in AI provider integration. Update related documentation and ensure all references are correctly modified.</a></li></ul>
+      <ul><li><a href='https://github.com/dmzoneill/feeditout-ansible-migrator/commit/6a9c409d21b6c90dc00da29c5a4a469c75a6aa40'>Initial commit</a></li><li><a href='https://github.com/dmzoneill/feeditout-ansible-migrator/commit/5ceafe7af3b3a3a968aa57ff0c8ad78c3489d471'>add github action and setup secret</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/7067818bb64b9c6b0069a1cb3d28dcf9194a8b77'>Update setup.sh</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/efe5c8b6fa610b675f24601e44dc6868f3ad27cd'>Update setup.sh</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/1c2b03d84b2fdd3ff02a0364cb4620fc78a55a21'>Update setup.sh</a></li></ul>
       <h3>Gists</h3>
       <ul><li><a href='https://gist.github.com/dmzoneill/441f88a5c73136b8128c252ad84100b3'></a></li><li><a href='https://gist.github.com/dmzoneill/80bfef9603448c33df02ce0aa98fcd59'>AI git Commit</a></li><li><a href='https://gist.github.com/dmzoneill/7c9159b30950621c065791e7861be174'>Python GTK4 ColumnView Sorting and Binding</a></li><li><a href='https://gist.github.com/dmzoneill/19a4fbd799f1e5bcc050ddb4b0a65403'>sorted listed model gtk4</a></li><li><a href='https://gist.github.com/dmzoneill/74033698f65a5a1539d686452a73dce8'>Pygtk4 ColumnView</a></li><li><a href='https://gist.github.com/dmzoneill/497746f38c5786c96e8859f1131667af'>awx-operator 2.15..16</a></li><li><a href='https://gist.github.com/dmzoneill/67a908fb949dc95bbbf02f0446a07f0a'>durex fun</a></li><li><a href='https://gist.github.com/dmzoneill/d13d88b16d4d0aa90cb108a00ab3cf01'>10GB tuning</a></li><li><a href='https://gist.github.com/dmzoneill/575ba9c32375c41cb1041e9064de0678'>Synology 108tb limit bypass</a></li><li><a href='https://gist.github.com/dmzoneill/cbc75e502dbe2b78651f68d6320b714a'>AA active queries</a></li><li><a href='https://gist.github.com/dmzoneill/faaa84782eaed4d2dc28ad55c19119ee'>PHP Paypal Instant Payment Notification</a></li></ul>
     </td>
@@ -47,7 +42,7 @@ Refactor environment variable names in codebase to use JIRA prefix for consisten
   </thead>
   <tbody>
     <tr><td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>1487779</td>
-<td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>331333</td>
+<td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>334110</td>
 <td><img src='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' title='Java'  height='20px'/></td><td>2071977</td>
 <td><img src='https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white' title='Kotlin'  height='20px'/></td><td>24599</td>
 </tr><tr>
@@ -67,7 +62,7 @@ Refactor environment variable names in codebase to use JIRA prefix for consisten
 <td><img src='https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white' title='C'  height='20px'/></td><td>15564301</td>
 </tr><tr>
 <td><img src='https://img.shields.io/badge/_-COBOL -11DDDD.svg?style=for-the-badge' title='COBOL'  height='20px'/></td><td>964</td>
-<td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>1373377</td>
+<td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>1373761</td>
 <td><img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile'  height='20px'/></td><td>8443</td>
 <td><img src='https://img.shields.io/badge/_-Jinja -11DDDD.svg?style=for-the-badge' title='Jinja'  height='20px'/></td><td>21013</td>
 </tr><tr>
@@ -131,7 +126,7 @@ Refactor environment variable names in codebase to use JIRA prefix for consisten
             <td>
               <p><h2><a href='https://github.com/dmzoneill/dmzoneill' title='dmzoneill'>dmzoneill</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/dmzoneill/commit/c20dcc60b0b1f8d41207b7d4ab3d9f000bfe4a95'>Update dispatch.yaml</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/fb3969dee3518125e7e171b5991323c1b9f67de6'>Add YouTube API and Unsplash access key to secrets; enhance logging for featured image and media processing in WordPress post creation.</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/a5aedbd1aea141b343374d77a2056b29b5b811d4'>Add YouTube and Unsplash API integration for enhanced content enrichment in blog posts, and refactor code for improved readability and error handling.</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/9d370dfc953c0c5c8ff7a68bc4a68f89f0a01e39'>Update dispatch.yaml</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/9edef50de17f0e21bbf57cc8e60a919b0bc570e3'>Refactor wp-pipeline-publisher.py to enhance functionality with image and video enrichment, improve error handling, and optimize API requests.</a></li></ul></p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/dmzoneill/commit/7067818bb64b9c6b0069a1cb3d28dcf9194a8b77'>Update setup.sh</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/efe5c8b6fa610b675f24601e44dc6868f3ad27cd'>Update setup.sh</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/1c2b03d84b2fdd3ff02a0364cb4620fc78a55a21'>Update setup.sh</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/9b5b971c5ee5551bedb0f294f165a3f889ecea73'>Update setup.sh</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/c20dcc60b0b1f8d41207b7d4ab3d9f000bfe4a95'>Update dispatch.yaml</a></li></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -140,7 +135,7 @@ Refactor environment variable names in codebase to use JIRA prefix for consisten
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2025-05-02</p>
+              <p>2025-05-03</p>
             </td>
         </tr>
 <tr>
@@ -353,6 +348,22 @@ Refactor environment variable names in codebase to use JIRA prefix for consisten
         </tr>
 
 </tbody></table><h2>2025</h2><table width='100%' style='width:100%'><thead><tr><th>Project</th><th>View</th><th>Status</th></tr></thead><tbody><tr>
+            <td>
+              <p><h2><a href='https://github.com/dmzoneill/feeditout-ansible-migrator' title='feeditout-ansible-migrator'>feeditout-ansible-migrator</a> (2025)</h2></p><p><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
+              <p>Apache License 2.0</p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/feeditout-ansible-migrator/commit/6a9c409d21b6c90dc00da29c5a4a469c75a6aa40'>Initial commit</a></li><li><a href='https://github.com/dmzoneill/feeditout-ansible-migrator/commit/5ceafe7af3b3a3a968aa57ff0c8ad78c3489d471'>add github action and setup secret</a></li><li><a href='dmzoneill/feeditout-ansible-migrator'>https://api.github.com/repos/dmzoneill/feeditout-ansible-migrator</a></li><li><a href='dmzoneill/feeditout-ansible-migrator'>https://api.github.com/repos/dmzoneill/feeditout-ansible-migrator</a></li></ul></p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+            </td>
+            <td>
+              <p><a href='' title=''></a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/feeditout-ansible-migrator/actions'><img src='https://github.com/dmzoneill//feeditout-ansible-migrator/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2025-05-03</p>
+            </td>
+        </tr>
+<tr>
             <td>
               <p><h2><a href='https://github.com/dmzoneill/jira-creator' title='jira-creator'>jira-creator</a> (2025)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
               <p>Apache License 2.0</p>

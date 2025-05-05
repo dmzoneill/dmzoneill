@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-04/05/2025 00:43:24-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-05/05/2025 00:42:46-brightgreen" height='28'/>
 
 <table>
   <tr>
@@ -8,7 +8,7 @@
       <h3>Pull Requests (6)</h3>
       <ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/40'>Bump http-proxy-middleware from 2.0.7 to 2.0.9 in /frontend</a> 2025-04-28</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/39'>Bump golang.org/x/net from 0.23.0 to 0.38.0 in /backend</a> 2025-04-28</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/38'>Bump golang.org/x/crypto from 0.21.0 to 0.35.0 in /backend</a> 2025-04-28</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/37'>Bump @babel/runtime from 7.17.9 to 7.27.0 in /frontend</a> 2025-04-28</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/36'>Bump @babel/helpers from 7.17.9 to 7.27.0 in /frontend</a> 2025-04-28</li></ul>
       <h3>Recent Acivity</h3>
-      <ul><li><a href='https://github.com/dmzoneill/feeditout-ansible-migrator/commit/6a9c409d21b6c90dc00da29c5a4a469c75a6aa40'>Initial commit</a></li><li><a href='https://github.com/dmzoneill/feeditout-ansible-migrator/commit/5ceafe7af3b3a3a968aa57ff0c8ad78c3489d471'>add github action and setup secret</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/7067818bb64b9c6b0069a1cb3d28dcf9194a8b77'>Update setup.sh</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/efe5c8b6fa610b675f24601e44dc6868f3ad27cd'>Update setup.sh</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/1c2b03d84b2fdd3ff02a0364cb4620fc78a55a21'>Update setup.sh</a></li></ul>
+      <ul><li><a href='https://github.com/dmzoneill/feeditout-ansible-migrator/commit/ff395510b03e7117c171fe616cb5adf01505c9dc'>Fix YAML syntax for apt tasks in Apache role and enhance fail2ban unban logic to check current bans before unbanning IPs.</a></li><li><a href='https://github.com/dmzoneill/feeditout-ansible-migrator/commit/31855b454a9758d5d97ea0a0ef1339ec70219ff9'>Refactor Ansible playbooks to use simplified 'apt' module syntax instead of 'ansible.builtin.apt' for improved readability and consistency.</a></li><li><a href='https://github.com/dmzoneill/feeditout-ansible-migrator/commit/48ee6dd01e21464f1abd1f026471bb0db5b135df'>Refactor Ansible playbooks to simplify package installation by removing redundant 'ansible.builtin.' prefix from 'apt' module calls.</a></li><li><a href='https://github.com/dmzoneill/feeditout-ansible-migrator/commit/73b49df81c2089cba8edf90596752c689d27145e'>Refactor ansible-pull.service.j2 and Ansible tasks to correct apt module usage and improve service environment configuration.</a></li><li><a href='https://github.com/dmzoneill/feeditout-ansible-migrator/commit/fa56651660760419534e5712dd66869ae65786cd'>Refactor Ansible playbooks and roles for consistency and clarity, including updates to linting rules, improved variable handling, and standardized package management commands.</a></li></ul>
       <h3>Gists</h3>
       <ul><li><a href='https://gist.github.com/dmzoneill/441f88a5c73136b8128c252ad84100b3'></a></li><li><a href='https://gist.github.com/dmzoneill/80bfef9603448c33df02ce0aa98fcd59'>AI git Commit</a></li><li><a href='https://gist.github.com/dmzoneill/7c9159b30950621c065791e7861be174'>Python GTK4 ColumnView Sorting and Binding</a></li><li><a href='https://gist.github.com/dmzoneill/19a4fbd799f1e5bcc050ddb4b0a65403'>sorted listed model gtk4</a></li><li><a href='https://gist.github.com/dmzoneill/74033698f65a5a1539d686452a73dce8'>Pygtk4 ColumnView</a></li><li><a href='https://gist.github.com/dmzoneill/497746f38c5786c96e8859f1131667af'>awx-operator 2.15..16</a></li><li><a href='https://gist.github.com/dmzoneill/67a908fb949dc95bbbf02f0446a07f0a'>durex fun</a></li><li><a href='https://gist.github.com/dmzoneill/d13d88b16d4d0aa90cb108a00ab3cf01'>10GB tuning</a></li><li><a href='https://gist.github.com/dmzoneill/575ba9c32375c41cb1041e9064de0678'>Synology 108tb limit bypass</a></li><li><a href='https://gist.github.com/dmzoneill/cbc75e502dbe2b78651f68d6320b714a'>AA active queries</a></li><li><a href='https://gist.github.com/dmzoneill/faaa84782eaed4d2dc28ad55c19119ee'>PHP Paypal Instant Payment Notification</a></li></ul>
     </td>
@@ -41,8 +41,8 @@
     </tr>
   </thead>
   <tbody>
-    <tr><td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>1487779</td>
-<td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>334110</td>
+    <tr><td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>1505592</td>
+<td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>334248</td>
 <td><img src='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' title='Java'  height='20px'/></td><td>2071977</td>
 <td><img src='https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white' title='Kotlin'  height='20px'/></td><td>24599</td>
 </tr><tr>
@@ -62,32 +62,32 @@
 <td><img src='https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white' title='C'  height='20px'/></td><td>15564301</td>
 </tr><tr>
 <td><img src='https://img.shields.io/badge/_-COBOL -11DDDD.svg?style=for-the-badge' title='COBOL'  height='20px'/></td><td>964</td>
-<td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>1373761</td>
+<td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>1416405</td>
 <td><img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile'  height='20px'/></td><td>8443</td>
-<td><img src='https://img.shields.io/badge/_-Jinja -11DDDD.svg?style=for-the-badge' title='Jinja'  height='20px'/></td><td>21013</td>
+<td><img src='https://img.shields.io/badge/_-M4 -11DDDD.svg?style=for-the-badge' title='M4'  height='20px'/></td><td>132592</td>
 </tr><tr>
+<td><img src='https://img.shields.io/badge/_-Jinja -11DDDD.svg?style=for-the-badge' title='Jinja'  height='20px'/></td><td>21715</td>
 <td><img src='https://img.shields.io/badge/_-AngelScript -11DDDD.svg?style=for-the-badge' title='AngelScript'  height='20px'/></td><td>28550</td>
 <td><img src='https://img.shields.io/badge/_-Tcl -11DDDD.svg?style=for-the-badge' title='Tcl'  height='20px'/></td><td>1281755</td>
 <td><img src='https://img.shields.io/badge/_-Inno Setup -11DDDD.svg?style=for-the-badge' title='Inno Setup'  height='20px'/></td><td>6073</td>
-<td><img src='https://img.shields.io/badge/_-XSLT -11DDDD.svg?style=for-the-badge' title='XSLT'  height='20px'/></td><td>190587</td>
 </tr><tr>
+<td><img src='https://img.shields.io/badge/_-XSLT -11DDDD.svg?style=for-the-badge' title='XSLT'  height='20px'/></td><td>190587</td>
 <td><img src='https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white' title='PowerShell'  height='20px'/></td><td>3697</td>
 <td><img src='https://img.shields.io/badge/_-Batchfile -11DDDD.svg?style=for-the-badge' title='Batchfile'  height='20px'/></td><td>5320</td>
 <td><img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript'  height='20px'/></td><td>27991</td>
-<td><img src='https://img.shields.io/badge/_-Roff -11DDDD.svg?style=for-the-badge' title='Roff'  height='20px'/></td><td>912336</td>
 </tr><tr>
+<td><img src='https://img.shields.io/badge/_-Roff -11DDDD.svg?style=for-the-badge' title='Roff'  height='20px'/></td><td>912336</td>
 <td><img src='https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white' title='TeX'  height='20px'/></td><td>587802</td>
 <td><img src='https://img.shields.io/badge/_-Raku -11DDDD.svg?style=for-the-badge' title='Raku'  height='20px'/></td><td>871051</td>
 <td><img src='https://img.shields.io/badge/_-Smalltalk -11DDDD.svg?style=for-the-badge' title='Smalltalk'  height='20px'/></td><td>10</td>
-<td><img src='https://img.shields.io/badge/_-Hack -11DDDD.svg?style=for-the-badge' title='Hack'  height='20px'/></td><td>260118</td>
 </tr><tr>
+<td><img src='https://img.shields.io/badge/_-Hack -11DDDD.svg?style=for-the-badge' title='Hack'  height='20px'/></td><td>260118</td>
 <td><img src='https://img.shields.io/badge/_-Classic ASP -11DDDD.svg?style=for-the-badge' title='Classic ASP'  height='20px'/></td><td>842274</td>
 <td><img src='https://img.shields.io/badge/_-TSQL -11DDDD.svg?style=for-the-badge' title='TSQL'  height='20px'/></td><td>163674</td>
 <td><img src='https://img.shields.io/badge/_-SCSS -11DDDD.svg?style=for-the-badge' title='SCSS'  height='20px'/></td><td>50670</td>
-<td><img src='https://img.shields.io/badge/_-Smarty -11DDDD.svg?style=for-the-badge' title='Smarty'  height='20px'/></td><td>2034035</td>
 </tr><tr>
+<td><img src='https://img.shields.io/badge/_-Smarty -11DDDD.svg?style=for-the-badge' title='Smarty'  height='20px'/></td><td>2034035</td>
 <td><img src='https://img.shields.io/badge/_-VBScript -11DDDD.svg?style=for-the-badge' title='VBScript'  height='20px'/></td><td>5008</td>
-<td><img src='https://img.shields.io/badge/_-M4 -11DDDD.svg?style=for-the-badge' title='M4'  height='20px'/></td><td>131699</td>
 <td><img src='https://img.shields.io/badge/_-Vim Script -11DDDD.svg?style=for-the-badge' title='Vim Script'  height='20px'/></td><td>258</td>
 <td><img src='https://img.shields.io/badge/_-Emacs Lisp -11DDDD.svg?style=for-the-badge' title='Emacs Lisp'  height='20px'/></td><td>210</td>
 </tr><tr>
@@ -135,7 +135,7 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2025-05-03</p>
+              <p>2025-05-04</p>
             </td>
         </tr>
 <tr>
@@ -349,9 +349,9 @@
 
 </tbody></table><h2>2025</h2><table width='100%' style='width:100%'><thead><tr><th>Project</th><th>View</th><th>Status</th></tr></thead><tbody><tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/feeditout-ansible-migrator' title='feeditout-ansible-migrator'>feeditout-ansible-migrator</a> (2025)</h2></p><p><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/feeditout-ansible-migrator' title='feeditout-ansible-migrator'>feeditout-ansible-migrator</a> (2025)</h2></p><p><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/> <img src='https://img.shields.io/badge/_-M4 -11DDDD.svg?style=for-the-badge' title='M4' height='20px'/> <img src='https://img.shields.io/badge/_-Jinja -11DDDD.svg?style=for-the-badge' title='Jinja' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/feeditout-ansible-migrator/commit/6a9c409d21b6c90dc00da29c5a4a469c75a6aa40'>Initial commit</a></li><li><a href='https://github.com/dmzoneill/feeditout-ansible-migrator/commit/5ceafe7af3b3a3a968aa57ff0c8ad78c3489d471'>add github action and setup secret</a></li><li><a href='dmzoneill/feeditout-ansible-migrator'>https://api.github.com/repos/dmzoneill/feeditout-ansible-migrator</a></li><li><a href='dmzoneill/feeditout-ansible-migrator'>https://api.github.com/repos/dmzoneill/feeditout-ansible-migrator</a></li></ul></p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/feeditout-ansible-migrator/commit/ff395510b03e7117c171fe616cb5adf01505c9dc'>Fix YAML syntax for apt tasks in Apache role and enhance fail2ban unban logic to check current bans before unbanning IPs.</a></li><li><a href='https://github.com/dmzoneill/feeditout-ansible-migrator/commit/31855b454a9758d5d97ea0a0ef1339ec70219ff9'>Refactor Ansible playbooks to use simplified 'apt' module syntax instead of 'ansible.builtin.apt' for improved readability and consistency.</a></li><li><a href='https://github.com/dmzoneill/feeditout-ansible-migrator/commit/48ee6dd01e21464f1abd1f026471bb0db5b135df'>Refactor Ansible playbooks to simplify package installation by removing redundant 'ansible.builtin.' prefix from 'apt' module calls.</a></li><li><a href='https://github.com/dmzoneill/feeditout-ansible-migrator/commit/73b49df81c2089cba8edf90596752c689d27145e'>Refactor ansible-pull.service.j2 and Ansible tasks to correct apt module usage and improve service environment configuration.</a></li><li><a href='https://github.com/dmzoneill/feeditout-ansible-migrator/commit/fa56651660760419534e5712dd66869ae65786cd'>Refactor Ansible playbooks and roles for consistency and clarity, including updates to linting rules, improved variable handling, and standardized package management commands.</a></li></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -360,7 +360,7 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/feeditout-ansible-migrator/actions'><img src='https://github.com/dmzoneill//feeditout-ansible-migrator/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2025-05-03</p>
+              <p>2025-05-04</p>
             </td>
         </tr>
 <tr>
@@ -592,42 +592,7 @@ updated-dependencies:
   dependency-type: indirect
 ...
 
-Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump cross-spawn from 7.0.3 to 7.0.6 in /frontend'>https://github.com/dmzoneill/aa-dev-prod-watcher/pull/32</a></li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/commit/64621feccb3d8ea0369d081a6169e25b54ce8220'>Bump nanoid from 3.3.6 to 3.3.8 in /frontend
-
-Bumps [nanoid](https://github.com/ai/nanoid) from 3.3.6 to 3.3.8.
-- [Release notes](https://github.com/ai/nanoid/releases)
-- [Changelog](https://github.com/ai/nanoid/blob/main/CHANGELOG.md)
-- [Commits](https://github.com/ai/nanoid/compare/3.3.6...3.3.8)
-
----
-updated-dependencies:
-- dependency-name: nanoid
-  dependency-type: indirect
-...
-
-Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump nanoid from 3.3.6 to 3.3.8 in /frontend'>https://github.com/dmzoneill/aa-dev-prod-watcher/pull/34</a></li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/commit/0465c1ad5e468e671025e43dde63ca682da01dfe'>Bump path-to-regexp and express in /frontend
-
-Bumps [path-to-regexp](https://github.com/pillarjs/path-to-regexp) and [express](https://github.com/expressjs/express). These dependencies needed to be updated together.
-
-Updates `path-to-regexp` from 0.1.10 to 0.1.12
-- [Release notes](https://github.com/pillarjs/path-to-regexp/releases)
-- [Changelog](https://github.com/pillarjs/path-to-regexp/blob/master/History.md)
-- [Commits](https://github.com/pillarjs/path-to-regexp/compare/v0.1.10...v0.1.12)
-
-Updates `express` from 4.21.1 to 4.21.2
-- [Release notes](https://github.com/expressjs/express/releases)
-- [Changelog](https://github.com/expressjs/express/blob/4.21.2/History.md)
-- [Commits](https://github.com/expressjs/express/compare/4.21.1...4.21.2)
-
----
-updated-dependencies:
-- dependency-name: path-to-regexp
-  dependency-type: indirect
-- dependency-name: express
-  dependency-type: indirect
-...
-
-Signed-off-by: dependabot[bot] <support@github.com></a></li></ul></p>
+Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump cross-spawn from 7.0.3 to 7.0.6 in /frontend'>https://github.com/dmzoneill/aa-dev-prod-watcher/pull/32</a></li></ul></p>
               <p><ul></ul></p>
               <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/40'>Bump http-proxy-middleware from 2.0.7 to 2.0.9 in /frontend</a> 2025-04-28</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/39'>Bump golang.org/x/net from 0.23.0 to 0.38.0 in /backend</a> 2025-04-28</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/38'>Bump golang.org/x/crypto from 0.21.0 to 0.35.0 in /backend</a> 2025-04-28</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/37'>Bump @babel/runtime from 7.17.9 to 7.27.0 in /frontend</a> 2025-04-28</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/36'>Bump @babel/helpers from 7.17.9 to 7.27.0 in /frontend</a> 2025-04-28</li></ul></p>
             </td>
@@ -643,31 +608,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li></ul></p>
             <td>
               <p><h2><a href='https://github.com/dmzoneill/aa-dns-checker' title='aa-dns-checker'>aa-dns-checker</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='Bump idna from 3.6 to 3.7'>https://github.com/dmzoneill/aa-dns-checker/pull/3</a></li><li><a href='https://github.com/dmzoneill/aa-dns-checker/commit/2f89214880526b1212c8969273efb7a18e87de78'>Bump h11 from 0.13.0 to 0.16.0
-
-Bumps [h11](https://github.com/python-hyper/h11) from 0.13.0 to 0.16.0.
-- [Commits](https://github.com/python-hyper/h11/compare/v0.13.0...v0.16.0)
-
----
-updated-dependencies:
-- dependency-name: h11
-  dependency-version: 0.16.0
-  dependency-type: indirect
-...
-
-Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump h11 from 0.13.0 to 0.16.0'>https://github.com/dmzoneill/aa-dns-checker/pull/7</a></li><li><a href='https://github.com/dmzoneill/aa-dns-checker/commit/bee97ab9721ae98b870dd93a6387b2576e598344'>Bump gunicorn from 22.0.0 to 23.0.0
-
-Bumps [gunicorn](https://github.com/benoitc/gunicorn) from 22.0.0 to 23.0.0.
-- [Release notes](https://github.com/benoitc/gunicorn/releases)
-- [Commits](https://github.com/benoitc/gunicorn/compare/22.0.0...23.0.0)
-
----
-updated-dependencies:
-- dependency-name: gunicorn
-  dependency-type: direct:production
-...
-
-Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump gunicorn from 22.0.0 to 23.0.0'>https://github.com/dmzoneill/aa-dns-checker/pull/6</a></li></ul></p>
+              <p><h4>Recent Activity</h4><ul><li><a href='Bump idna from 3.6 to 3.7'>https://github.com/dmzoneill/aa-dns-checker/pull/3</a></li></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>

@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-06/05/2025 00:40:15-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-06/05/2025 07:54:05-brightgreen" height='28'/>
 
 <table>
   <tr>
@@ -8,7 +8,7 @@
       <h3>Pull Requests (6)</h3>
       <ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/40'>Bump http-proxy-middleware from 2.0.7 to 2.0.9 in /frontend</a> 2025-04-28</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/39'>Bump golang.org/x/net from 0.23.0 to 0.38.0 in /backend</a> 2025-04-28</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/38'>Bump golang.org/x/crypto from 0.21.0 to 0.35.0 in /backend</a> 2025-04-28</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/37'>Bump @babel/runtime from 7.17.9 to 7.27.0 in /frontend</a> 2025-04-28</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/36'>Bump @babel/helpers from 7.17.9 to 7.27.0 in /frontend</a> 2025-04-28</li></ul>
       <h3>Recent Acivity</h3>
-      <ul><li><a href='https://github.com/dmzoneill/feeditout-ansible-migrator/commit/c9afe58e9eff4c50e04df095cf823adf317d250e'>Update inventory and playbook configurations for migration, add DNS and keyboard role implementations, and refine fail2ban unban logic.</a></li><li><a href='https://github.com/dmzoneill/feeditout-ansible-migrator/commit/ff395510b03e7117c171fe616cb5adf01505c9dc'>Fix YAML syntax for apt tasks in Apache role and enhance fail2ban unban logic to check current bans before unbanning IPs.</a></li><li><a href='https://github.com/dmzoneill/feeditout-ansible-migrator/commit/31855b454a9758d5d97ea0a0ef1339ec70219ff9'>Refactor Ansible playbooks to use simplified 'apt' module syntax instead of 'ansible.builtin.apt' for improved readability and consistency.</a></li><li><a href='https://github.com/dmzoneill/feeditout-ansible-migrator/commit/48ee6dd01e21464f1abd1f026471bb0db5b135df'>Refactor Ansible playbooks to simplify package installation by removing redundant 'ansible.builtin.' prefix from 'apt' module calls.</a></li><li><a href='https://github.com/dmzoneill/feeditout-ansible-migrator/commit/73b49df81c2089cba8edf90596752c689d27145e'>Refactor ansible-pull.service.j2 and Ansible tasks to correct apt module usage and improve service environment configuration.</a></li></ul>
+      <ul><li><a href='https://github.com/dmzoneill/feeditout-ansible-migrator/commit/dae6ea6eaa52f91a79e0ef7a71ea774ab121bf5d'>Fix task notifications, update package list, and enhance opendkim configuration with PidFile setting.</a></li><li><a href='https://github.com/dmzoneill/feeditout-ansible-migrator/commit/c8a7fe05708070e03f573e5a377b9f52e474bac7'>Fix notification case sensitivity and add error handling for auditd tasks</a></li><li><a href='https://github.com/dmzoneill/feeditout-ansible-migrator/commit/ec94bab53a215d36f9c5fd244a68c2d541d33451'>Remove obsolete Makefile checks from ansible_pull role and add error handling for auditd service tasks; update package list to include vim.</a></li><li><a href='https://github.com/dmzoneill/feeditout-ansible-migrator/commit/90fbff74213aac6654c33a6eaa8ca1e335022be6'>Refactor ansible-pull tasks to use a boolean flag for target host checks and update package list to include vim.</a></li><li><a href='https://github.com/dmzoneill/feeditout-ansible-migrator/commit/a551f0945f207ffc42cf71ee3483c6bfc621acd1'>Add NTP, PHP-FPM, and iptables roles; update ansible configuration and playbooks for improved service management and fact caching.</a></li></ul>
       <h3>Gists</h3>
       <ul><li><a href='https://gist.github.com/dmzoneill/441f88a5c73136b8128c252ad84100b3'></a></li><li><a href='https://gist.github.com/dmzoneill/80bfef9603448c33df02ce0aa98fcd59'>AI git Commit</a></li><li><a href='https://gist.github.com/dmzoneill/7c9159b30950621c065791e7861be174'>Python GTK4 ColumnView Sorting and Binding</a></li><li><a href='https://gist.github.com/dmzoneill/19a4fbd799f1e5bcc050ddb4b0a65403'>sorted listed model gtk4</a></li><li><a href='https://gist.github.com/dmzoneill/74033698f65a5a1539d686452a73dce8'>Pygtk4 ColumnView</a></li><li><a href='https://gist.github.com/dmzoneill/497746f38c5786c96e8859f1131667af'>awx-operator 2.15..16</a></li><li><a href='https://gist.github.com/dmzoneill/67a908fb949dc95bbbf02f0446a07f0a'>durex fun</a></li><li><a href='https://gist.github.com/dmzoneill/d13d88b16d4d0aa90cb108a00ab3cf01'>10GB tuning</a></li><li><a href='https://gist.github.com/dmzoneill/575ba9c32375c41cb1041e9064de0678'>Synology 108tb limit bypass</a></li><li><a href='https://gist.github.com/dmzoneill/cbc75e502dbe2b78651f68d6320b714a'>AA active queries</a></li><li><a href='https://gist.github.com/dmzoneill/faaa84782eaed4d2dc28ad55c19119ee'>PHP Paypal Instant Payment Notification</a></li></ul>
     </td>
@@ -42,7 +42,7 @@
   </thead>
   <tbody>
     <tr><td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>1505592</td>
-<td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>334371</td>
+<td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>334480</td>
 <td><img src='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' title='Java'  height='20px'/></td><td>2071977</td>
 <td><img src='https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white' title='Kotlin'  height='20px'/></td><td>24599</td>
 </tr><tr>
@@ -135,7 +135,7 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2025-05-05</p>
+              <p>2025-05-06</p>
             </td>
         </tr>
 <tr>
@@ -351,7 +351,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/feeditout-ansible-migrator' title='feeditout-ansible-migrator'>feeditout-ansible-migrator</a> (2025)</h2></p><p><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/> <img src='https://img.shields.io/badge/_-M4 -11DDDD.svg?style=for-the-badge' title='M4' height='20px'/> <img src='https://img.shields.io/badge/_-Jinja -11DDDD.svg?style=for-the-badge' title='Jinja' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/feeditout-ansible-migrator/commit/c9afe58e9eff4c50e04df095cf823adf317d250e'>Update inventory and playbook configurations for migration, add DNS and keyboard role implementations, and refine fail2ban unban logic.</a></li><li><a href='https://github.com/dmzoneill/feeditout-ansible-migrator/commit/ff395510b03e7117c171fe616cb5adf01505c9dc'>Fix YAML syntax for apt tasks in Apache role and enhance fail2ban unban logic to check current bans before unbanning IPs.</a></li><li><a href='https://github.com/dmzoneill/feeditout-ansible-migrator/commit/31855b454a9758d5d97ea0a0ef1339ec70219ff9'>Refactor Ansible playbooks to use simplified 'apt' module syntax instead of 'ansible.builtin.apt' for improved readability and consistency.</a></li><li><a href='https://github.com/dmzoneill/feeditout-ansible-migrator/commit/48ee6dd01e21464f1abd1f026471bb0db5b135df'>Refactor Ansible playbooks to simplify package installation by removing redundant 'ansible.builtin.' prefix from 'apt' module calls.</a></li><li><a href='https://github.com/dmzoneill/feeditout-ansible-migrator/commit/73b49df81c2089cba8edf90596752c689d27145e'>Refactor ansible-pull.service.j2 and Ansible tasks to correct apt module usage and improve service environment configuration.</a></li></ul></p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/feeditout-ansible-migrator/commit/dae6ea6eaa52f91a79e0ef7a71ea774ab121bf5d'>Fix task notifications, update package list, and enhance opendkim configuration with PidFile setting.</a></li><li><a href='https://github.com/dmzoneill/feeditout-ansible-migrator/commit/c8a7fe05708070e03f573e5a377b9f52e474bac7'>Fix notification case sensitivity and add error handling for auditd tasks</a></li><li><a href='https://github.com/dmzoneill/feeditout-ansible-migrator/commit/ec94bab53a215d36f9c5fd244a68c2d541d33451'>Remove obsolete Makefile checks from ansible_pull role and add error handling for auditd service tasks; update package list to include vim.</a></li><li><a href='https://github.com/dmzoneill/feeditout-ansible-migrator/commit/90fbff74213aac6654c33a6eaa8ca1e335022be6'>Refactor ansible-pull tasks to use a boolean flag for target host checks and update package list to include vim.</a></li><li><a href='https://github.com/dmzoneill/feeditout-ansible-migrator/commit/a551f0945f207ffc42cf71ee3483c6bfc621acd1'>Add NTP, PHP-FPM, and iptables roles; update ansible configuration and playbooks for improved service management and fact caching.</a></li></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -360,7 +360,7 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/feeditout-ansible-migrator/actions'><img src='https://github.com/dmzoneill//feeditout-ansible-migrator/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2025-05-05</p>
+              <p>2025-05-06</p>
             </td>
         </tr>
 <tr>
@@ -580,19 +580,7 @@ Refactor environment variable names in codebase to use JIRA prefix for consisten
             <td>
               <p><h2><a href='https://github.com/dmzoneill/aa-dev-prod-watcher' title='aa-dev-prod-watcher'>aa-dev-prod-watcher</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript' height='20px'/> <img src='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' title='Go' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/commit/f6af9bf540126da921bde9d9bd37ccc3544d2324'>Bump cross-spawn from 7.0.3 to 7.0.6 in /frontend
-
-Bumps [cross-spawn](https://github.com/moxystudio/node-cross-spawn) from 7.0.3 to 7.0.6.
-- [Changelog](https://github.com/moxystudio/node-cross-spawn/blob/master/CHANGELOG.md)
-- [Commits](https://github.com/moxystudio/node-cross-spawn/compare/v7.0.3...v7.0.6)
-
----
-updated-dependencies:
-- dependency-name: cross-spawn
-  dependency-type: indirect
-...
-
-Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump cross-spawn from 7.0.3 to 7.0.6 in /frontend'>https://github.com/dmzoneill/aa-dev-prod-watcher/pull/32</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/40'>Bump http-proxy-middleware from 2.0.7 to 2.0.9 in /frontend</a> 2025-04-28</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/39'>Bump golang.org/x/net from 0.23.0 to 0.38.0 in /backend</a> 2025-04-28</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/38'>Bump golang.org/x/crypto from 0.21.0 to 0.35.0 in /backend</a> 2025-04-28</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/37'>Bump @babel/runtime from 7.17.9 to 7.27.0 in /frontend</a> 2025-04-28</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/36'>Bump @babel/helpers from 7.17.9 to 7.27.0 in /frontend</a> 2025-04-28</li></ul></p>
             </td>
@@ -608,7 +596,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump cr
             <td>
               <p><h2><a href='https://github.com/dmzoneill/aa-dns-checker' title='aa-dns-checker'>aa-dns-checker</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='Bump idna from 3.6 to 3.7'>https://github.com/dmzoneill/aa-dns-checker/pull/3</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>

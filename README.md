@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-06/05/2025 07:54:05-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-07/05/2025 00:40:13-brightgreen" height='28'/>
 
 <table>
   <tr>
@@ -8,7 +8,7 @@
       <h3>Pull Requests (6)</h3>
       <ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/40'>Bump http-proxy-middleware from 2.0.7 to 2.0.9 in /frontend</a> 2025-04-28</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/39'>Bump golang.org/x/net from 0.23.0 to 0.38.0 in /backend</a> 2025-04-28</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/38'>Bump golang.org/x/crypto from 0.21.0 to 0.35.0 in /backend</a> 2025-04-28</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/37'>Bump @babel/runtime from 7.17.9 to 7.27.0 in /frontend</a> 2025-04-28</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/36'>Bump @babel/helpers from 7.17.9 to 7.27.0 in /frontend</a> 2025-04-28</li></ul>
       <h3>Recent Acivity</h3>
-      <ul><li><a href='https://github.com/dmzoneill/feeditout-ansible-migrator/commit/dae6ea6eaa52f91a79e0ef7a71ea774ab121bf5d'>Fix task notifications, update package list, and enhance opendkim configuration with PidFile setting.</a></li><li><a href='https://github.com/dmzoneill/feeditout-ansible-migrator/commit/c8a7fe05708070e03f573e5a377b9f52e474bac7'>Fix notification case sensitivity and add error handling for auditd tasks</a></li><li><a href='https://github.com/dmzoneill/feeditout-ansible-migrator/commit/ec94bab53a215d36f9c5fd244a68c2d541d33451'>Remove obsolete Makefile checks from ansible_pull role and add error handling for auditd service tasks; update package list to include vim.</a></li><li><a href='https://github.com/dmzoneill/feeditout-ansible-migrator/commit/90fbff74213aac6654c33a6eaa8ca1e335022be6'>Refactor ansible-pull tasks to use a boolean flag for target host checks and update package list to include vim.</a></li><li><a href='https://github.com/dmzoneill/feeditout-ansible-migrator/commit/a551f0945f207ffc42cf71ee3483c6bfc621acd1'>Add NTP, PHP-FPM, and iptables roles; update ansible configuration and playbooks for improved service management and fact caching.</a></li></ul>
+      <ul><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/42749064440bfd9ab5d42259119a38ac13e60de9'>Update ansible_pull_repo_url and add Socket configuration in opendmarc.conf</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/94baebe516a5cd1487194fac34c969741af71b63'>Update ansible_pull_repo_url and modify opendmarc PidFile path in configuration files.</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/7eb50b4e711c53a042d5551875cde5a7abd978d4'>Update ansible_pull repository URL and modify opendmarc PID file path for improved organization.</a></li><li><a href='dmzoneill/ansible-feeditout-com'>https://api.github.com/repos/dmzoneill/ansible-feeditout-com</a></li><li><a href='dmzoneill/ansible-feeditout-com'>https://api.github.com/repos/dmzoneill/ansible-feeditout-com</a></li></ul>
       <h3>Gists</h3>
       <ul><li><a href='https://gist.github.com/dmzoneill/441f88a5c73136b8128c252ad84100b3'></a></li><li><a href='https://gist.github.com/dmzoneill/80bfef9603448c33df02ce0aa98fcd59'>AI git Commit</a></li><li><a href='https://gist.github.com/dmzoneill/7c9159b30950621c065791e7861be174'>Python GTK4 ColumnView Sorting and Binding</a></li><li><a href='https://gist.github.com/dmzoneill/19a4fbd799f1e5bcc050ddb4b0a65403'>sorted listed model gtk4</a></li><li><a href='https://gist.github.com/dmzoneill/74033698f65a5a1539d686452a73dce8'>Pygtk4 ColumnView</a></li><li><a href='https://gist.github.com/dmzoneill/497746f38c5786c96e8859f1131667af'>awx-operator 2.15..16</a></li><li><a href='https://gist.github.com/dmzoneill/67a908fb949dc95bbbf02f0446a07f0a'>durex fun</a></li><li><a href='https://gist.github.com/dmzoneill/d13d88b16d4d0aa90cb108a00ab3cf01'>10GB tuning</a></li><li><a href='https://gist.github.com/dmzoneill/575ba9c32375c41cb1041e9064de0678'>Synology 108tb limit bypass</a></li><li><a href='https://gist.github.com/dmzoneill/cbc75e502dbe2b78651f68d6320b714a'>AA active queries</a></li><li><a href='https://gist.github.com/dmzoneill/faaa84782eaed4d2dc28ad55c19119ee'>PHP Paypal Instant Payment Notification</a></li></ul>
     </td>
@@ -56,7 +56,7 @@
 <td><img src='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' title='Go'  height='20px'/></td><td>26262</td>
 <td><img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP'  height='20px'/></td><td>76059922</td>
 </tr><tr>
-<td><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript'  height='20px'/></td><td>8507026</td>
+<td><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript'  height='20px'/></td><td>8525535</td>
 <td><img src='https://img.shields.io/badge/perl-%2339457E.svg?style=for-the-badge&logo=perl&logoColor=white' title='Perl'  height='20px'/></td><td>10102682</td>
 <td><img src='https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white' title='Ruby'  height='20px'/></td><td>507181</td>
 <td><img src='https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white' title='C'  height='20px'/></td><td>15564301</td>
@@ -66,7 +66,7 @@
 <td><img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile'  height='20px'/></td><td>8443</td>
 <td><img src='https://img.shields.io/badge/_-M4 -11DDDD.svg?style=for-the-badge' title='M4'  height='20px'/></td><td>132592</td>
 </tr><tr>
-<td><img src='https://img.shields.io/badge/_-Jinja -11DDDD.svg?style=for-the-badge' title='Jinja'  height='20px'/></td><td>21715</td>
+<td><img src='https://img.shields.io/badge/_-Jinja -11DDDD.svg?style=for-the-badge' title='Jinja'  height='20px'/></td><td>21843</td>
 <td><img src='https://img.shields.io/badge/_-AngelScript -11DDDD.svg?style=for-the-badge' title='AngelScript'  height='20px'/></td><td>28550</td>
 <td><img src='https://img.shields.io/badge/_-Tcl -11DDDD.svg?style=for-the-badge' title='Tcl'  height='20px'/></td><td>1281755</td>
 <td><img src='https://img.shields.io/badge/_-Inno Setup -11DDDD.svg?style=for-the-badge' title='Inno Setup'  height='20px'/></td><td>6073</td>
@@ -126,7 +126,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/dmzoneill' title='dmzoneill'>dmzoneill</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/dmzoneill/commit/7067818bb64b9c6b0069a1cb3d28dcf9194a8b77'>Update setup.sh</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/efe5c8b6fa610b675f24601e44dc6868f3ad27cd'>Update setup.sh</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/1c2b03d84b2fdd3ff02a0364cb4620fc78a55a21'>Update setup.sh</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/9b5b971c5ee5551bedb0f294f165a3f889ecea73'>Update setup.sh</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/c20dcc60b0b1f8d41207b7d4ab3d9f000bfe4a95'>Update dispatch.yaml</a></li></ul></p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/dmzoneill/commit/b536e4326060f78be1a98b1eaf3cefec1ecdb616'>Update dispatch.yaml</a></li></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -349,9 +349,9 @@
 
 </tbody></table><h2>2025</h2><table width='100%' style='width:100%'><thead><tr><th>Project</th><th>View</th><th>Status</th></tr></thead><tbody><tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/feeditout-ansible-migrator' title='feeditout-ansible-migrator'>feeditout-ansible-migrator</a> (2025)</h2></p><p><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/> <img src='https://img.shields.io/badge/_-M4 -11DDDD.svg?style=for-the-badge' title='M4' height='20px'/> <img src='https://img.shields.io/badge/_-Jinja -11DDDD.svg?style=for-the-badge' title='Jinja' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/ansible-feeditout-com' title='ansible-feeditout-com'>ansible-feeditout-com</a> (2025)</h2></p><p><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/> <img src='https://img.shields.io/badge/_-M4 -11DDDD.svg?style=for-the-badge' title='M4' height='20px'/> <img src='https://img.shields.io/badge/_-Jinja -11DDDD.svg?style=for-the-badge' title='Jinja' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/feeditout-ansible-migrator/commit/dae6ea6eaa52f91a79e0ef7a71ea774ab121bf5d'>Fix task notifications, update package list, and enhance opendkim configuration with PidFile setting.</a></li><li><a href='https://github.com/dmzoneill/feeditout-ansible-migrator/commit/c8a7fe05708070e03f573e5a377b9f52e474bac7'>Fix notification case sensitivity and add error handling for auditd tasks</a></li><li><a href='https://github.com/dmzoneill/feeditout-ansible-migrator/commit/ec94bab53a215d36f9c5fd244a68c2d541d33451'>Remove obsolete Makefile checks from ansible_pull role and add error handling for auditd service tasks; update package list to include vim.</a></li><li><a href='https://github.com/dmzoneill/feeditout-ansible-migrator/commit/90fbff74213aac6654c33a6eaa8ca1e335022be6'>Refactor ansible-pull tasks to use a boolean flag for target host checks and update package list to include vim.</a></li><li><a href='https://github.com/dmzoneill/feeditout-ansible-migrator/commit/a551f0945f207ffc42cf71ee3483c6bfc621acd1'>Add NTP, PHP-FPM, and iptables roles; update ansible configuration and playbooks for improved service management and fact caching.</a></li></ul></p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/42749064440bfd9ab5d42259119a38ac13e60de9'>Update ansible_pull_repo_url and add Socket configuration in opendmarc.conf</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/94baebe516a5cd1487194fac34c969741af71b63'>Update ansible_pull_repo_url and modify opendmarc PidFile path in configuration files.</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/7eb50b4e711c53a042d5551875cde5a7abd978d4'>Update ansible_pull repository URL and modify opendmarc PID file path for improved organization.</a></li><li><a href='dmzoneill/ansible-feeditout-com'>https://api.github.com/repos/dmzoneill/ansible-feeditout-com</a></li><li><a href='dmzoneill/ansible-feeditout-com'>https://api.github.com/repos/dmzoneill/ansible-feeditout-com</a></li></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -359,7 +359,7 @@
               <p><a href='' title=''></a></p>
             </td>
             <td align="center">
-              <a href='https://github.com/dmzoneill/feeditout-ansible-migrator/actions'><img src='https://github.com/dmzoneill//feeditout-ansible-migrator/actions/workflows/main.yml/badge.svg'/></a>
+              <a href='https://github.com/dmzoneill/ansible-feeditout-com/actions'><img src='https://github.com/dmzoneill//ansible-feeditout-com/actions/workflows/main.yml/badge.svg'/></a>
               <p>2025-05-06</p>
             </td>
         </tr>
@@ -367,12 +367,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/jira-creator' title='jira-creator'>jira-creator</a> (2025)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/jira-creator/commit/16dd537e11999a5dc2554a7836cf86a16f3d4cc6'>Refactor AI provider integration and enhance CLI commands for Jira issue management, including setting components and projects, while improving error handling and documentation.
-Refactor environment variable names in codebase to use JIRA prefix for consistency and clarity in AI provider integration. Update related documentation and ensure all references are correctly modified.</a></li><li><a href='https://github.com/dmzoneill/jira-creator/commit/cafbf8203ca0b019bfd93088ba3e82cfacead66f'>Refactor AI provider integration and enhance CLI commands for Jira issue management, including setting components and projects, while improving error handling and documentation.
-Refactor environment variable names in codebase to use JIRA prefix for consistency and clarity in AI provider integration. Update related documentation and ensure all references are correctly modified.</a></li><li><a href='https://github.com/dmzoneill/jira-creator/commit/3d913906e8f232f037db3817e09c267c87fd4a6a'>Refactor AI provider integration and enhance CLI commands for Jira issue management, including setting components and projects, while improving error handling and documentation.
-Refactor environment variable names in codebase to use JIRA prefix for consistency and clarity in AI provider integration. Update related documentation and ensure all references are correctly modified.</a></li><li><a href='https://github.com/dmzoneill/jira-creator/commit/0cc88dedfd2efb47b2d98b1a20d8f83ca949399b'>Refactor AI provider integration and enhance CLI commands for Jira issue management, including setting components and projects, while improving error handling and documentation.
-Refactor environment variable names in codebase to use JIRA prefix for consistency and clarity in AI provider integration. Update related documentation and ensure all references are correctly modified.</a></li><li><a href='https://github.com/dmzoneill/jira-creator/commit/43c7bcfa3655b69fa00e7d2bfc274d931e233809'>Refactor AI provider integration and enhance CLI commands for Jira issue management, including setting components and projects, while improving error handling and documentation.
-Refactor environment variable names in codebase to use JIRA prefix for consistency and clarity in AI provider integration. Update related documentation and ensure all references are correctly modified.</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -708,9 +703,7 @@ Refactor environment variable names in codebase to use JIRA prefix for consisten
             <td>
               <p><h2><a href='https://github.com/dmzoneill/rh-otp-auto-connect' title='rh-otp-auto-connect'>rh-otp-auto-connect</a> (2021)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/rh-otp-auto-connect/commit/b7db8deeccd25171ac898f441f9376a5078ef3b7'>Remove deprecated macOS and Linux autostart configurations; introduce systemd service for OTP auto-connect and update related scripts for improved functionality and logging.
-Remove deprecated autostart and plist files; implement systemd service for OTP auto-connect and enhance credential retrieval methods in the application.
-Update GitHub Actions workflow to disable JSCPD, MyPy, Pylint, and Hadolint validations; refactor main.py for improved readability and consistency in string formatting; enhance error logging; and modify vpn-connect script for better variable handling.</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -2896,6 +2889,22 @@ Update GitHub Actions workflow to disable JSCPD, MyPy, Pylint, and Hadolint vali
             <td align="center">
               <a href='https://github.com/dmzoneill/www.davesworld.com/actions'><img src='https://github.com/dmzoneill//www.davesworld.com/actions/workflows/main.yml/badge.svg'/></a>
               <p>2023-01-17</p>
+            </td>
+        </tr>
+</tbody></table><h2></h2><table width='100%' style='width:100%'><thead><tr><th>Project</th><th>View</th><th>Status</th></tr></thead><tbody><tr>
+            <td>
+              <p><h2><a href='https://github.com/dmzoneill/pass-gnome-extension' title='pass-gnome-extension'>pass-gnome-extension</a> ()</h2></p><p><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/</p>
+              <p>GNU General Public License v2.0</p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+            </td>
+            <td>
+              <p><a href='' title=''></a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/pass-gnome-extension/actions'><img src='https://github.com/dmzoneill//pass-gnome-extension/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2025-05-06</p>
             </td>
         </tr>
   </tbody>

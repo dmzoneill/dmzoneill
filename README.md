@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-07/05/2025 00:40:13-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-08/05/2025 00:42:05-brightgreen" height='28'/>
 
 <table>
   <tr>
@@ -8,7 +8,7 @@
       <h3>Pull Requests (6)</h3>
       <ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/40'>Bump http-proxy-middleware from 2.0.7 to 2.0.9 in /frontend</a> 2025-04-28</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/39'>Bump golang.org/x/net from 0.23.0 to 0.38.0 in /backend</a> 2025-04-28</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/38'>Bump golang.org/x/crypto from 0.21.0 to 0.35.0 in /backend</a> 2025-04-28</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/37'>Bump @babel/runtime from 7.17.9 to 7.27.0 in /frontend</a> 2025-04-28</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/36'>Bump @babel/helpers from 7.17.9 to 7.27.0 in /frontend</a> 2025-04-28</li></ul>
       <h3>Recent Acivity</h3>
-      <ul><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/42749064440bfd9ab5d42259119a38ac13e60de9'>Update ansible_pull_repo_url and add Socket configuration in opendmarc.conf</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/94baebe516a5cd1487194fac34c969741af71b63'>Update ansible_pull_repo_url and modify opendmarc PidFile path in configuration files.</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/7eb50b4e711c53a042d5551875cde5a7abd978d4'>Update ansible_pull repository URL and modify opendmarc PID file path for improved organization.</a></li><li><a href='dmzoneill/ansible-feeditout-com'>https://api.github.com/repos/dmzoneill/ansible-feeditout-com</a></li><li><a href='dmzoneill/ansible-feeditout-com'>https://api.github.com/repos/dmzoneill/ansible-feeditout-com</a></li></ul>
+      <ul><li><a href='https://github.com/dmzoneill/TamperMonkey/commit/f6bb727ac0e6387898c444c6cb8a52f4b4738121'>Update README.md</a></li><li><a href='https://github.com/dmzoneill/TamperMonkey/commit/e4460f44e5dfe9fa3fe91c90ab7ecf56746ee094'>Add multiple user scripts for message and issue management in Slack and Jira, including ChatGPT integration for message cleanup and automatic Epic transitions in Jira.</a></li><li><a href='https://github.com/dmzoneill/pass-gnome-extension/commit/3d0d8c387d6c442f72e41037797cefe6696b828b'>add github action and setup secret</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/99dbfb364e2a23bd70aea48df79ff380ed0b6d13'>Add OpenDMARC socket configuration and ensure directory exists for Postfix integration</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/42749064440bfd9ab5d42259119a38ac13e60de9'>Update ansible_pull_repo_url and add Socket configuration in opendmarc.conf</a></li></ul>
       <h3>Gists</h3>
       <ul><li><a href='https://gist.github.com/dmzoneill/441f88a5c73136b8128c252ad84100b3'></a></li><li><a href='https://gist.github.com/dmzoneill/80bfef9603448c33df02ce0aa98fcd59'>AI git Commit</a></li><li><a href='https://gist.github.com/dmzoneill/7c9159b30950621c065791e7861be174'>Python GTK4 ColumnView Sorting and Binding</a></li><li><a href='https://gist.github.com/dmzoneill/19a4fbd799f1e5bcc050ddb4b0a65403'>sorted listed model gtk4</a></li><li><a href='https://gist.github.com/dmzoneill/74033698f65a5a1539d686452a73dce8'>Pygtk4 ColumnView</a></li><li><a href='https://gist.github.com/dmzoneill/497746f38c5786c96e8859f1131667af'>awx-operator 2.15..16</a></li><li><a href='https://gist.github.com/dmzoneill/67a908fb949dc95bbbf02f0446a07f0a'>durex fun</a></li><li><a href='https://gist.github.com/dmzoneill/d13d88b16d4d0aa90cb108a00ab3cf01'>10GB tuning</a></li><li><a href='https://gist.github.com/dmzoneill/575ba9c32375c41cb1041e9064de0678'>Synology 108tb limit bypass</a></li><li><a href='https://gist.github.com/dmzoneill/cbc75e502dbe2b78651f68d6320b714a'>AA active queries</a></li><li><a href='https://gist.github.com/dmzoneill/faaa84782eaed4d2dc28ad55c19119ee'>PHP Paypal Instant Payment Notification</a></li></ul>
     </td>
@@ -56,7 +56,7 @@
 <td><img src='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' title='Go'  height='20px'/></td><td>26262</td>
 <td><img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP'  height='20px'/></td><td>76059922</td>
 </tr><tr>
-<td><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript'  height='20px'/></td><td>8525535</td>
+<td><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript'  height='20px'/></td><td>8529044</td>
 <td><img src='https://img.shields.io/badge/perl-%2339457E.svg?style=for-the-badge&logo=perl&logoColor=white' title='Perl'  height='20px'/></td><td>10102682</td>
 <td><img src='https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white' title='Ruby'  height='20px'/></td><td>507181</td>
 <td><img src='https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white' title='C'  height='20px'/></td><td>15564301</td>
@@ -135,7 +135,7 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2025-05-06</p>
+              <p>2025-05-07</p>
             </td>
         </tr>
 <tr>
@@ -351,7 +351,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/ansible-feeditout-com' title='ansible-feeditout-com'>ansible-feeditout-com</a> (2025)</h2></p><p><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/> <img src='https://img.shields.io/badge/_-M4 -11DDDD.svg?style=for-the-badge' title='M4' height='20px'/> <img src='https://img.shields.io/badge/_-Jinja -11DDDD.svg?style=for-the-badge' title='Jinja' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/42749064440bfd9ab5d42259119a38ac13e60de9'>Update ansible_pull_repo_url and add Socket configuration in opendmarc.conf</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/94baebe516a5cd1487194fac34c969741af71b63'>Update ansible_pull_repo_url and modify opendmarc PidFile path in configuration files.</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/7eb50b4e711c53a042d5551875cde5a7abd978d4'>Update ansible_pull repository URL and modify opendmarc PID file path for improved organization.</a></li><li><a href='dmzoneill/ansible-feeditout-com'>https://api.github.com/repos/dmzoneill/ansible-feeditout-com</a></li><li><a href='dmzoneill/ansible-feeditout-com'>https://api.github.com/repos/dmzoneill/ansible-feeditout-com</a></li></ul></p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/99dbfb364e2a23bd70aea48df79ff380ed0b6d13'>Add OpenDMARC socket configuration and ensure directory exists for Postfix integration</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/42749064440bfd9ab5d42259119a38ac13e60de9'>Update ansible_pull_repo_url and add Socket configuration in opendmarc.conf</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/94baebe516a5cd1487194fac34c969741af71b63'>Update ansible_pull_repo_url and modify opendmarc PidFile path in configuration files.</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/7eb50b4e711c53a042d5551875cde5a7abd978d4'>Update ansible_pull repository URL and modify opendmarc PID file path for improved organization.</a></li><li><a href='dmzoneill/ansible-feeditout-com'>https://api.github.com/repos/dmzoneill/ansible-feeditout-com</a></li></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -413,6 +413,22 @@
         </tr>
 </tbody></table><h2>2023</h2><table width='100%' style='width:100%'><thead><tr><th>Project</th><th>View</th><th>Status</th></tr></thead><tbody><tr>
             <td>
+              <p><h2><a href='https://github.com/dmzoneill/TamperMonkey' title='TamperMonkey'>TamperMonkey</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/</p>
+              <p>Apache License 2.0</p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/TamperMonkey/commit/f6bb727ac0e6387898c444c6cb8a52f4b4738121'>Update README.md</a></li></ul></p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+            </td>
+            <td>
+              <p><a href='' title=''></a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/TamperMonkey/actions'><img src='https://github.com/dmzoneill//TamperMonkey/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2025-05-07</p>
+            </td>
+        </tr>
+<tr>
+            <td>
               <p><h2><a href='https://github.com/dmzoneill/strongapp-api' title='strongapp-api'>strongapp-api</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' title='Java' height='20px'/> <img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/perl-%2339457E.svg?style=for-the-badge&logo=perl&logoColor=white' title='Perl' height='20px'/> <img src='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' title='Go' height='20px'/</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
@@ -441,22 +457,6 @@
             <td align="center">
               <a href='https://github.com/dmzoneill/hevyapp-api/actions'><img src='https://github.com/dmzoneill//hevyapp-api/actions/workflows/main.yml/badge.svg'/></a>
               <p>2025-04-25</p>
-            </td>
-        </tr>
-<tr>
-            <td>
-              <p><h2><a href='https://github.com/dmzoneill/TaperMonkey' title='TaperMonkey'>TaperMonkey</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/</p>
-              <p>Apache License 2.0</p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-            </td>
-            <td>
-              <p><a href='' title=''></a></p>
-            </td>
-            <td align="center">
-              <a href='https://github.com/dmzoneill/TaperMonkey/actions'><img src='https://github.com/dmzoneill//TaperMonkey/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2025-03-17</p>
             </td>
         </tr>
 <tr>
@@ -2895,7 +2895,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/pass-gnome-extension' title='pass-gnome-extension'>pass-gnome-extension</a> ()</h2></p><p><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/</p>
               <p>GNU General Public License v2.0</p>
-              <p><ul></ul></p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/pass-gnome-extension/commit/3d0d8c387d6c442f72e41037797cefe6696b828b'>add github action and setup secret</a></li></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -2904,7 +2904,7 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/pass-gnome-extension/actions'><img src='https://github.com/dmzoneill//pass-gnome-extension/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2025-05-06</p>
+              <p>2025-05-07</p>
             </td>
         </tr>
   </tbody>

@@ -732,6 +732,7 @@ jobs:
         uses: dmzoneill/dmzoneill/.github/actions/redis@main
         with:
           message: "${{ github.repository }} lint complete for commit ${{ github.sha }}"
+          redis_password: ${{ secrets.REDIS_PASSWORD }}
 
   unit-test:
     name: Run unit tests
@@ -790,6 +791,7 @@ jobs:
         uses: dmzoneill/dmzoneill/.github/actions/redis@main
         with:
           message: "${{ github.repository }} unit test complete for commit ${{ github.sha }}"
+          redis_password: ${{ secrets.REDIS_PASSWORD }}
 
   integration-test:
     name: Run integration tests
@@ -848,6 +850,7 @@ jobs:
         uses: dmzoneill/dmzoneill/.github/actions/redis@main
         with:
           message: "${{ github.repository }} integration test complete for commit ${{ github.sha }}"
+          redis_password: ${{ secrets.REDIS_PASSWORD }}
 
   bump-versions:
     if: |
@@ -896,6 +899,7 @@ jobs:
         uses: dmzoneill/dmzoneill/.github/actions/redis@main
         with:
           message: "${{ github.repository }} bumped versiobs ${{ github.sha }}"
+          redis_password: ${{ secrets.REDIS_PASSWORD }}
 
   create-release:
     name: Create github release
@@ -930,6 +934,7 @@ jobs:
         uses: dmzoneill/dmzoneill/.github/actions/redis@main
         with:
           message: "${{ github.repository }} created release for ${{ github.sha }}"
+          redis_password: ${{ secrets.REDIS_PASSWORD }}
 
   chrome:
     if: inputs.chrome-extension != 'false'   
@@ -980,6 +985,7 @@ jobs:
         uses: dmzoneill/dmzoneill/.github/actions/redis@main
         with:
           message: "${{ github.repository }} pushed chrome plugin for ${{ github.sha }}"
+          redis_password: ${{ secrets.REDIS_PASSWORD }}
 
   pypi:
     if: inputs.pypi-extension != 'false'
@@ -1010,6 +1016,7 @@ jobs:
         uses: dmzoneill/dmzoneill/.github/actions/redis@main
         with:
           message: "${{ github.repository }} pushed pypi module for ${{ github.sha }}"
+          redis_password: ${{ secrets.REDIS_PASSWORD }}
 
   gnome:
     if: inputs.gnome-extension != 'false'
@@ -1053,6 +1060,7 @@ jobs:
         uses: dmzoneill/dmzoneill/.github/actions/redis@main
         with:
           message: "${{ github.repository }} published gnome plugin for ${{ github.sha }}"
+          redis_password: ${{ secrets.REDIS_PASSWORD }}
 
   pling:
     if: inputs.pling != 'false'
@@ -1077,6 +1085,7 @@ jobs:
         uses: dmzoneill/dmzoneill/.github/actions/redis@main
         with:
           message: "${{ github.repository }} published pling release for ${{ github.sha }}"
+          redis_password: ${{ secrets.REDIS_PASSWORD }}
 
   deb:
     if: inputs.deb-build != 'false'
@@ -1130,6 +1139,7 @@ jobs:
         uses: dmzoneill/dmzoneill/.github/actions/redis@main
         with:
           message: "${{ github.repository }} created deb for ${{ github.sha }}"
+          redis_password: ${{ secrets.REDIS_PASSWORD }}
 
   rpm:
     if: inputs.rpm-build != 'false'
@@ -1187,6 +1197,7 @@ jobs:
         uses: dmzoneill/dmzoneill/.github/actions/redis@main
         with:
           message: "${{ github.repository }} created rpm for ${{ github.sha }}"
+          redis_password: ${{ secrets.REDIS_PASSWORD }}
 
   npmjs:
     if: inputs.npmjs != 'false'
@@ -1213,6 +1224,7 @@ jobs:
         uses: dmzoneill/dmzoneill/.github/actions/redis@main
         with:
           message: "${{ github.repository }} published to npmjs for ${{ github.sha }}"
+          redis_password: ${{ secrets.REDIS_PASSWORD }}
 
   docker:
     if: inputs.docker-build != 'false'
@@ -1271,6 +1283,7 @@ jobs:
         uses: dmzoneill/dmzoneill/.github/actions/redis@main
         with:
           message: "${{ github.repository }} published container image for ${{ github.sha }}"
+          redis_password: ${{ secrets.REDIS_PASSWORD }}
 
   flatpak:
     if: inputs.flatpak-build != 'false'
@@ -1305,6 +1318,7 @@ jobs:
         uses: dmzoneill/dmzoneill/.github/actions/redis@main
         with:
           message: "${{ github.repository }} published flatpak for ${{ github.sha }}"
+          redis_password: ${{ secrets.REDIS_PASSWORD }}
 
   rebuild-profile:   
     name: Rebuild Profile
@@ -1367,4 +1381,5 @@ jobs:
         uses: dmzoneill/dmzoneill/.github/actions/redis@main
         with:
           message: "${{ github.repository }} published blog post for ${{ github.sha }}"
+          redis_password: ${{ secrets.REDIS_PASSWORD }}
 

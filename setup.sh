@@ -4,6 +4,10 @@ user=dmzoneill
 email=dmz.oneill@gmail.com
 pass=$PROFILE_HOOK
 
+# Local reference md5sums
+local_main_md5=$(md5sum main.yml | awk '{print $1}')
+local_ai_md5=$(md5sum ai-responder.yml | awk '{print $1}')
+
 page=1
 while true; do
   echo "Page: $page"
@@ -22,34 +26,43 @@ while true; do
     rm -f .githubtoken    
 
     gh secret set profile_hook -r "$user/$name" -b "$pass"
-
     [[ "$name" == "dmzoneill" ]] && continue
 
-    # Check if main.yml exists
+    # === Check main.yml
     main_url="https://raw.githubusercontent.com/$user/$name/main/.github/workflows/main.yml"
     curl -s -L -o /tmp/main_check "$main_url"
-    main_md5=$(md5sum /tmp/main_check | awk '{print $1}')
-    if [[ "$main_md5" == "7cb66df6acac5c1c322e08e6d468a982" || ! -s /tmp/main_check ]]; then
-      main_status="404"
+    main_md5=$(md5sum /tmp/main_check 2>/dev/null | awk '{print $1}')
+    if [[ ! -s /tmp/main_check || "$main_md5" == "7cb66df6acac5c1c322e08e6d468a982" ]]; then
+      main_status="missing"
+    elif grep -q "^name:" /tmp/main_check; then
+      main_status="present"
     else
-      main_status="200"
+      main_status="corrupt"
     fi
 
-    # Check if ai-responder.yml exists
+    # === Check ai-responder.yml
     ai_url="https://raw.githubusercontent.com/$user/$name/main/.github/workflows/ai-responder.yml"
     curl -s -L -o /tmp/ai_check "$ai_url"
-    ai_md5=$(md5sum /tmp/ai_check | awk '{print $1}')
-    if [[ "$ai_md5" == "7cb66df6acac5c1c322e08e6d468a982" || "$ai_md5" == "d41d8cd98f00b204e9800998ecf8427e" || ! -s /tmp/ai_check ]]; then
-      ai_status="404"
+    ai_md5=$(md5sum /tmp/ai_check 2>/dev/null | awk '{print $1}')
+    if [[ ! -s /tmp/ai_check || "$ai_md5" == "d41d8cd98f00b204e9800998ecf8427e" ]]; then
+      ai_status="missing"
+    elif grep -q "^name:" /tmp/ai_check; then
+      ai_status="present"
     else
-      ai_status="200"
+      ai_status="corrupt"
     fi
 
-    echo "$name: main_status=$main_status, ai_status=$ai_status"
+    echo "$name: main_status=$main_status, main_md5=$main_md5, local_main_md5=$local_main_md5"
+    echo "$name: ai_status=$ai_status, ai_md5=$ai_md5, local_ai_md5=$local_ai_md5"
 
-    # Only proceed if either file is missing
-    if [[ "$main_status" != "404" && "$ai_status" != "404" ]]; then
-      echo "Skip: both actions exist in $name"
+    skip_main="false"
+    skip_ai="false"
+
+    [[ "$main_status" == "present" && "$main_md5" == "$local_main_md5" ]] && skip_main="true"
+    [[ "$ai_status" == "present" && "$ai_md5" == "$local_ai_md5" ]] && skip_ai="true"
+
+    if [[ "$skip_main" == "true" && "$skip_ai" == "true" ]]; then
+      echo "Skip: both files match in $name"
       continue
     fi
 
@@ -60,8 +73,8 @@ while true; do
     [ ! -f "$name/LICENSE" ] && cp LICENSE "$name/"
 
     mkdir -vp "$name/.github/workflows/"
-    [ "$main_status" == "404" ] && cp -f main.yml "$name/.github/workflows/"
-    [ "$ai_status" == "404" ] && cp -f ai-responder.yml "$name/.github/workflows/"
+    [[ "$skip_main" != "true" ]] && cp -f main.yml "$name/.github/workflows/"
+    [[ "$skip_ai" != "true" ]] && cp -f ai-responder.yml "$name/.github/workflows/"
     
     (
       cd "$name" || exit 1
@@ -71,7 +84,7 @@ while true; do
 
       git remote set-url origin "$git_url"
       git add -A
-      git commit -a -m "Add missing GitHub Actions workflows"
+      git commit -a -m "Add or update GitHub Actions workflows"
       git pull --rebase
       git push
     )

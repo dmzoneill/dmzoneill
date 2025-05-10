@@ -13,7 +13,7 @@ def main():
     port = os.getenv("REDIS_PORT", "6380")
     password = os.getenv("REDIS_PASSWORD")
     use_ssl = os.getenv("REDIS_SSL", "true").lower() == "true"
-    url_base = f"{'https' if use_ssl else 'http'}://{host}:{port}"
+    url_base = f"http://{host}:{port}"
 
     # Construct the URL
     url = f"{url_base}/rpush/fio"

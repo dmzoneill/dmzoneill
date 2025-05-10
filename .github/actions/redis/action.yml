@@ -4,6 +4,9 @@ inputs:
   message:
     description: 'The message to send to the Redis queue'
     required: true
+  redis_password:
+    description: 'Redis password passed in from workflow secrets'
+    required: true
 runs:
   using: "composite"
   steps:
@@ -12,7 +15,7 @@ runs:
       shell: bash
 
     - name: Download script
-      run: curl -O https://raw.githubusercontent.com/dmzoneill/dmzoneill/refs/heads/main/redis.py
+      run: curl -O https://raw.githubusercontent.com/dmzoneill/dmzoneill/main/redis.py
       shell: bash
 
     - name: Run redis.py
@@ -20,4 +23,4 @@ runs:
         python redis.py "${{ inputs.message }}"
       shell: bash
       env:
-        REDIS_PASSWORD: ${{ secrets.REDIS_PASSWORD }}
+        REDIS_PASSWORD: ${{ inputs.redis_password }}

@@ -19,7 +19,8 @@ SECRETS = [
     "YOUTUBE_API",
     "UNSPLASH_ACCESS_KEY",
     "CI_USERNAME",
-    "CI_PASSWORD"
+    "CI_PASSWORD",
+    "REDIS_PASSWORD"
 ]
 
 # Headers for GitHub API requests

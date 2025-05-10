@@ -15,7 +15,7 @@ runs:
       shell: bash
 
     - name: Download script
-      run: curl -O https://raw.githubusercontent.com/dmzoneill/dmzoneill/main/redis.py
+      run: curl -O https://raw.githubusercontent.com/dmzoneill/dmzoneill/main/redis-notify.py
       shell: bash
 
     - name: Run redis.py

@@ -18,9 +18,9 @@ runs:
       run: curl -O https://raw.githubusercontent.com/dmzoneill/dmzoneill/main/redis-notify.py
       shell: bash
 
-    - name: Run redis.py
+    - name: Run redis-notify.py
       run: |
-        python redis.py "${{ inputs.message }}"
+        python redis-notify.py "${{ inputs.message }}"
       shell: bash
       env:
         REDIS_PASSWORD: ${{ inputs.redis_password }}

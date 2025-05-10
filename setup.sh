@@ -10,9 +10,11 @@ while true; do
   url="https://api.github.com/users/$user/repos?per_page=100&page=$page"
   echo "$url"
   processed=0
-  for X in $(curl "$url" | jq -r '.[] | .ssh_url'); do   
+
+  for X in $(curl -s "$url" | jq -r '.[] | .ssh_url'); do   
     name=$(echo "$X" | awk -F'/' '{print $2}' | sed 's/\.git//')
-    echo $name
+    echo "Checking repo: $name"
+
     echo "$pass" > .githubtoken
     unset GITHUB_TOKEN
     gh auth login --with-token < .githubtoken
@@ -20,19 +22,30 @@ while true; do
     rm -f .githubtoken    
 
     gh secret set profile_hook -r "$user/$name" -b "$pass"
+
     [[ "$name" == "dmzoneill" ]] && continue
 
     # Check if main.yml exists
-    main_url="https://github.com/$user/$name/blob/main/.github/workflows/main.yml?raw=true"
-    main_status=$(curl -L -s -o /tmp/main_check -w "%{http_code}" "$main_url")
+    main_url="https://raw.githubusercontent.com/$user/$name/main/.github/workflows/main.yml"
+    curl -s -L -o /tmp/main_check "$main_url"
     main_md5=$(md5sum /tmp/main_check | awk '{print $1}')
-    [ "$main_md5" == "7cb66df6acac5c1c322e08e6d468a982" ] && main_status="404"
+    if [[ "$main_md5" == "7cb66df6acac5c1c322e08e6d468a982" || ! -s /tmp/main_check ]]; then
+      main_status="404"
+    else
+      main_status="200"
+    fi
 
     # Check if ai-responder.yml exists
-    ai_url="https://github.com/$user/$name/blob/main/.github/workflows/ai-responder.yml?raw=true"
-    ai_status=$(curl -L -s -o /tmp/ai_check -w "%{http_code}" "$ai_url")
+    ai_url="https://raw.githubusercontent.com/$user/$name/main/.github/workflows/ai-responder.yml"
+    curl -s -L -o /tmp/ai_check "$ai_url"
     ai_md5=$(md5sum /tmp/ai_check | awk '{print $1}')
-    [ "$ai_md5" == "d41d8cd98f00b204e9800998ecf8427e" ] && ai_status="404"
+    if [[ "$ai_md5" == "7cb66df6acac5c1c322e08e6d468a982" || "$ai_md5" == "d41d8cd98f00b204e9800998ecf8427e" || ! -s /tmp/ai_check ]]; then
+      ai_status="404"
+    else
+      ai_status="200"
+    fi
+
+    echo "$name: main_status=$main_status, ai_status=$ai_status"
 
     # Only proceed if either file is missing
     if [[ "$main_status" != "404" && "$ai_status" != "404" ]]; then
@@ -40,18 +53,6 @@ while true; do
       continue
     fi
 
-    api_url="https://api.github.com/repos/$user/$name/contents/.github/workflows/main.yml"
-    echo "$api_url"
-    
-    # Use API to get raw file contents with token auth
-    status_code=$(curl -s -L \
-      -H "Authorization: token $GITHUB_TOKEN" \
-      -H "Accept: application/vnd.github.v3.raw" \
-      -w "%{http_code}" \
-      -o /tmp/last "$api_url")
-
-    md5file=$(md5sum /tmp/last | awk '{print $1}')
-    rm /tmp/last
     processed=$((processed+1))
     git_url="https://$user:$pass@github.com/$user/$name.git"
     git clone "$git_url"
@@ -79,7 +80,7 @@ while true; do
 
   if [ "$processed" -le 1 ]; then
     echo "Exited 0 processed"
-    exit 0;
+    exit 0
   fi
 
   page=$((page+1))

@@ -728,6 +728,11 @@ jobs:
       - name: Lint Code Base
         uses: github/super-linter@v4
 
+      - name: Send message to Redis
+        uses: ./.github/actions/redis
+        with:
+          message: "${{ github.repository }} lint complete for commit ${{ github.sha }}"
+
   unit-test:
     name: Run unit tests
     runs-on: ubuntu-latest
@@ -780,6 +785,11 @@ jobs:
           else
             make test || true
           fi
+
+      - name: Send message to Redis
+        uses: ./.github/actions/redis
+        with:
+          message: "${{ github.repository }} unit test complete for commit ${{ github.sha }}"
 
   integration-test:
     name: Run integration tests
@@ -834,6 +844,11 @@ jobs:
             make test || true
           fi
           
+      - name: Send message to Redis
+        uses: ./.github/actions/redis
+        with:
+          message: "${{ github.repository }} integration test complete for commit ${{ github.sha }}"
+
   bump-versions:
     if: |
       always() &&
@@ -877,6 +892,11 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH_NAME: 'main'
 
+      - name: Send message to Redis
+        uses: ./.github/actions/redis
+        with:
+          message: "${{ github.repository }} bumped versiobs ${{ github.sha }}"
+
   create-release:
     name: Create github release
     needs: bump-versions
@@ -905,6 +925,11 @@ jobs:
           body: ""
           draft: false
           prerelease: false
+
+      - name: Send message to Redis
+        uses: ./.github/actions/redis
+        with:
+          message: "${{ github.repository }} created release for ${{ github.sha }}"
 
   chrome:
     if: inputs.chrome-extension != 'false'   
@@ -951,6 +976,11 @@ jobs:
         run: |-
           chrome-webstore-upload upload --source chrome-extension-${{ github.sha }}.zip --extension-id ${{ env.EXTENSION_ID }} --client-id ${{ secrets.CI_GOOGLE_CLIENT_ID }} --client-secret ${{ secrets.CI_GOOGLE_CLIENT_SECRET }} --refresh-token ${{ secrets.CI_GOOGLE_REFRESH_TOKEN }} --auto-publish
 
+      - name: Send message to Redis
+        uses: ./.github/actions/redis
+        with:
+          message: "${{ github.repository }} pushed chrome plugin for ${{ github.sha }}"
+
   pypi:
     if: inputs.pypi-extension != 'false'
     name: Pypi publish
@@ -975,6 +1005,11 @@ jobs:
           printf "[pypi]\n  username = __token__\n  password = ${{ secrets.PYPI_TOKEN }}" > ~/.pypirc
           # shellcheck disable=SC2035
           python3 -m twine upload --verbose --non-interactive --config-file ~/.pypirc --repository pypi dist/*
+
+      - name: Send message to Redis
+        uses: ./.github/actions/redis
+        with:
+          message: "${{ github.repository }} pushed pypi module for ${{ github.sha }}"
 
   gnome:
     if: inputs.gnome-extension != 'false'
@@ -1014,6 +1049,11 @@ jobs:
         run: |-
           bash -c "gep publisharchive --username \"${{ secrets.CI_USERNAME }}\" --password \"${{ secrets.CI_PASSWORD }}\" --file gnome-extension-${{ github.sha }}.zip";
       
+      - name: Send message to Redis
+        uses: ./.github/actions/redis
+        with:
+          message: "${{ github.repository }} published gnome plugin for ${{ github.sha }}"
+
   pling:
     if: inputs.pling != 'false'
     name: Pling publish
@@ -1032,6 +1072,11 @@ jobs:
       - name: Publish
         run: |-
           bash -c "pling publish --username \"${{ secrets.CI_USERNAME }}\" --password \"${{ secrets.CI_PASSWORD }}\" --project-id ${{ inputs.pling }}";
+
+      - name: Send message to Redis
+        uses: ./.github/actions/redis
+        with:
+          message: "${{ github.repository }} published pling release for ${{ github.sha }}"
 
   deb:
     if: inputs.deb-build != 'false'
@@ -1080,6 +1125,11 @@ jobs:
           asset_path: ${{ env.ASSET_PATH }}
           asset_name: ${{ env.PACKAGE_NAME }}_${{ env.PACKAGE_VERSION }}.deb
           asset_content_type: application/octet-stream
+
+      - name: Send message to Redis
+        uses: ./.github/actions/redis
+        with:
+          message: "${{ github.repository }} created deb for ${{ github.sha }}"
 
   rpm:
     if: inputs.rpm-build != 'false'
@@ -1133,6 +1183,11 @@ jobs:
           asset_name: ${{ env.PACKAGE_NAME }}-${{ env.PACKAGE_VERSION }}-1.x86_64.rpm
           asset_content_type: application/octet-stream
 
+      - name: Send message to Redis
+        uses: ./.github/actions/redis
+        with:
+          message: "${{ github.repository }} created rpm for ${{ github.sha }}"
+
   npmjs:
     if: inputs.npmjs != 'false'
     name: Npmjs publish
@@ -1153,6 +1208,11 @@ jobs:
         uses: JS-DevTools/npm-publish@v3
         with:
           token: ${{ secrets.NPM }}   
+
+      - name: Send message to Redis
+        uses: ./.github/actions/redis
+        with:
+          message: "${{ github.repository }} published to npmjs for ${{ github.sha }}"
 
   docker:
     if: inputs.docker-build != 'false'
@@ -1207,6 +1267,11 @@ jobs:
             ghcr.io/dmzoneill/${{ env.APP_NAME }}:${{ env.NEXT_VERSION }}
             ghcr.io/dmzoneill/${{ env.APP_NAME }}:latest
 
+      - name: Send message to Redis
+        uses: ./.github/actions/redis
+        with:
+          message: "${{ github.repository }} published container image for ${{ github.sha }}"
+
   flatpak:
     if: inputs.flatpak-build != 'false'
     needs: create-release
@@ -1235,6 +1300,11 @@ jobs:
           flat-manager-url: https://hub.flathub.org/
           repository: stable
           token: ${{ secrets.FLATHUB_TOKEN }}
+
+      - name: Send message to Redis
+        uses: ./.github/actions/redis
+        with:
+          message: "${{ github.repository }} published flatpak for ${{ github.sha }}"
 
   rebuild-profile:   
     name: Rebuild Profile
@@ -1292,4 +1362,9 @@ jobs:
           AI_MODEL: ${{ secrets.AI_MODEL }}
           UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
           YOUTUBE_API: ${{ secrets.YOUTUBE_API }}
+
+      - name: Send message to Redis
+        uses: ./.github/actions/redis
+        with:
+          message: "${{ github.repository }} published blog post for ${{ github.sha }}"
 

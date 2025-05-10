@@ -1,0 +1,20 @@
+name: Send Redis Message
+description: Push a message to Redis queue
+inputs:
+  message:
+    description: 'The message to send to the Redis queue'
+    required: true
+runs:
+  using: "composite"
+  steps:
+    - name: Install Redis client
+      run: pip install redis
+
+    - name: Download script
+      run: curl -O https://raw.githubusercontent.com/dmzoneill/dmzoneill/refs/heads/main/redis.py
+
+    - name: Run redis.py
+      run: |
+        python redis.py "${{ inputs.message }}"
+      env:
+        REDIS_PASSWORD: ${{ secrets.REDIS_PASSWORD }}

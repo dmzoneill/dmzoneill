@@ -9,12 +9,15 @@ runs:
   steps:
     - name: Install Redis client
       run: pip install redis
+      shell: bash
 
     - name: Download script
       run: curl -O https://raw.githubusercontent.com/dmzoneill/dmzoneill/refs/heads/main/redis.py
+      shell: bash
 
     - name: Run redis.py
       run: |
         python redis.py "${{ inputs.message }}"
+      shell: bash
       env:
         REDIS_PASSWORD: ${{ secrets.REDIS_PASSWORD }}

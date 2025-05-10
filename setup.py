@@ -5,7 +5,7 @@ import subprocess
 # Constants
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
 GITHUB_USER = "dmzoneill"
-REPO_LIST_URL = f"https://api.github.com/user/repos?per_page=100"
+REPO_LIST_URL = f"https://api.github.com/user/repos?affiliation=owner&per_page=100"
 SECRETS = [
     "PROFILE_HOOK",
     "AI_API_KEY",

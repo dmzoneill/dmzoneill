@@ -22,8 +22,9 @@ while true; do
     echo "$pass" > .githubtoken
     unset GITHUB_TOKEN
     gh auth login --with-token < .githubtoken
-    export GITHUB_TOKEN=$(cat .githubtoken)
-    rm -f .githubtoken    
+    GITHUB_TOKEN=$(cat .githubtoken)
+    export GITHUB_TOKEN
+    rm -f .githubtoken
 
     gh secret set profile_hook -r "$user/$name" -b "$pass"
     [[ "$name" == "dmzoneill" ]] && continue

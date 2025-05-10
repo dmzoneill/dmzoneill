@@ -44,7 +44,7 @@ while true; do
     ai_url="https://raw.githubusercontent.com/$user/$name/main/.github/workflows/ai-responder.yml"
     curl -s -L -o /tmp/ai_check "$ai_url"
     ai_md5=$(md5sum /tmp/ai_check 2>/dev/null | awk '{print $1}')
-    if [[ ! -s /tmp/ai_check || "$ai_md5" == "d41d8cd98f00b204e9800998ecf8427e" ]]; then
+    if [[ ! -s /tmp/ai_check || "$ai_md5" == "49eb909a86fe4c14013b3a0478ec0a0f" ]]; then
       ai_status="missing"
     elif grep -q "^name:" /tmp/ai_check; then
       ai_status="present"

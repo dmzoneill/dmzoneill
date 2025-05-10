@@ -7,9 +7,19 @@ GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
 GITHUB_USER = "dmzoneill"
 REPO_LIST_URL = f"https://api.github.com/users/{GITHUB_USER}/repos?per_page=100"
 SECRETS = [
-    "PROFILE_HOOK", "AI_API_KEY", "AI_MODEL", 
-    "DOCKER_TOKEN", "PYPI_TOKEN", "WORDPRESS_APPLICATION", "WORDPRESS_PASSWORD", 
-    "WORDPRESS_URL", "WORDPRESS_USERNAME", "YOUTUBE_API", "UNSPLASH_ACCESS_KEY"
+    "PROFILE_HOOK",
+    "AI_API_KEY",
+    "AI_MODEL",
+    "DOCKER_TOKEN",
+    "PYPI_TOKEN",
+    "WORDPRESS_APPLICATION",
+    "WORDPRESS_PASSWORD",
+    "WORDPRESS_URL",
+    "WORDPRESS_USERNAME",
+    "YOUTUBE_API",
+    "UNSPLASH_ACCESS_KEY",
+    "CI_USERNAME",
+    "CI_PASSWORD"
 ]
 
 # Headers for GitHub API requests
@@ -74,18 +84,32 @@ def set_secrets_with_gh(repo_name, secrets):
     
     for secret, value in secrets.items():
         if value is None:
-            print(f"Skipping unset secret {secret} for {repo_name}")
+            print(f"  Skipping unset secret {secret} for {repo_name}")
             continue
         
         # Skip if the secret already exists
         if secret in existing_secrets:
-            print(f"Secret {secret} already exists in repository {repo_name}. Skipping...")
+            print(f"  Secret {secret} already exists in repository {repo_name}. Skipping...")
             continue
         
         # Use GitHub CLI to set the secret
-        print(f"Setting secret {secret} for repository {repo_name} using GitHub CLI")
-        subprocess.run(["gh", "secret", "set", secret, "-r", f"{GITHUB_USER}/{repo_name}", "-b", value], check=True)
-        print(f"Successfully set secret {secret} for repository {repo_name}")
+        print(f"\n  Setting secret {secret} for repository {repo_name} using GitHub CLI")
+
+        cmd = [
+            "gh", "secret", "set", secret,
+            "-R", f"{GITHUB_USER}/{repo_name}",
+            "-b", value
+        ]
+
+        print(f"    Running: {' '.join(cmd)}")
+
+        try:
+            subprocess.run(cmd, check=True, capture_output=True, text=True)
+            print(f"      ✅ Successfully set secret {secret} for repository {repo_name}\n")
+        except subprocess.CalledProcessError as e:
+            print(f"  ❌ Failed to set secret {secret} for {repo_name}")
+            print(f"  STDERR: {e.stderr}")
+            print(f"  STDOUT: {e.stdout}")
 
 # Function to get all repositories
 def get_repositories():
@@ -122,7 +146,7 @@ def main():
     for repo in repos:
         if repo == "dmzoneill":
             continue
-        print(f"Setting secrets for repository: {repo}")
+        print(f"\nSetting secrets for repository: {repo}")
         set_secrets_with_gh(repo, secrets)
 
 

@@ -1,7 +1,6 @@
 import sys
 import os
 import requests
-import json
 import base64
 
 def main():
@@ -16,16 +15,16 @@ def main():
     port = os.getenv("REDIS_PORT", "6380")
     password = os.getenv("REDIS_PASSWORD")
 
-    url = f"http://{host}:{port}/EXEC"
-    payload = json.dumps(["RPUSH", "fio", message])
-    headers = {"Content-Type": "application/json"}
+    # Webdis RPUSH endpoint
+    url = f"http://{host}:{port}/RPUSH/fio"
+    headers = {}
 
     if password:
         token = base64.b64encode(f"{password}:".encode()).decode()
         headers["Authorization"] = f"Basic {token}"
 
     try:
-        resp = requests.post(url, data=payload, headers=headers)
+        resp = requests.post(url, data=message.encode(), headers=headers)
         resp.raise_for_status()
         print(f"Webdis response: {resp.text}")
     except Exception as e:

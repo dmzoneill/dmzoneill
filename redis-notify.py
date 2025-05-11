@@ -2,6 +2,7 @@ import sys
 import os
 import requests
 import base64
+import urllib.parse
 
 def main():
     if len(sys.argv) != 2:
@@ -15,16 +16,19 @@ def main():
     port = os.getenv("REDIS_PORT", "6380")
     password = os.getenv("REDIS_PASSWORD")
 
-    # Webdis RPUSH endpoint
-    url = f"http://{host}:{port}/RPUSH/fio"
-    headers = {}
+    url = f"http://{host}:{port}/"
+    headers = {
+        "Content-Type": "text/plain"
+    }
 
     if password:
         token = base64.b64encode(f"{password}:".encode()).decode()
         headers["Authorization"] = f"Basic {token}"
 
+    payload = f"RPUSH/fio/{message}"
+
     try:
-        resp = requests.post(url, data=message.encode(), headers=headers)
+        resp = requests.post(url, data=payload.encode(), headers=headers)
         resp.raise_for_status()
         print(f"Webdis response: {resp.text}")
     except Exception as e:

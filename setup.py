@@ -20,14 +20,15 @@ SECRETS = [
     "UNSPLASH_ACCESS_KEY",
     "CI_USERNAME",
     "CI_PASSWORD",
-    "REDIS_PASSWORD"
+    "REDIS_PASSWORD",
 ]
 
 # Headers for GitHub API requests
 headers = {
     "Authorization": f"token {GITHUB_TOKEN}",
-    "Accept": "application/vnd.github.v3+json"
+    "Accept": "application/vnd.github.v3+json",
 }
+
 
 # Function to fetch existing secrets for a repository
 # Function to fetch existing secrets for a repository
@@ -38,10 +39,15 @@ def fetch_existing_secrets(repo_name):
         # Ensure the response is parsed as JSON
         secrets = response.json()
         # Return a set of secret names
-        return {secret["name"] for secret in secrets['secrets']}  # This assumes the response is a list of secrets with 'name' as a key
+        return {
+            secret["name"] for secret in secrets["secrets"]
+        }  # This assumes the response is a list of secrets with 'name' as a key
     else:
-        print(f"Failed to fetch existing secrets for {repo_name}, status code: {response.status_code}")
+        print(
+            f"Failed to fetch existing secrets for {repo_name}, status code: {response.status_code}"
+        )
         return set()
+
 
 # Function to fetch secrets from the environment
 def fetch_secrets_from_env():
@@ -70,7 +76,12 @@ def authenticate_gh():
         f.write(f"{GITHUB_TOKEN}")
 
     # Authenticate using the GitHub CLI
-    subprocess.run(["gh", "auth", "login", "--with-token"], input=open(".githubtoken").read(), text=True, check=True)
+    subprocess.run(
+        ["gh", "auth", "login", "--with-token"],
+        input=open(".githubtoken").read(),
+        text=True,
+        check=True,
+    )
 
     # Clean up the token file
     os.remove(".githubtoken")
@@ -79,38 +90,50 @@ def authenticate_gh():
 def set_secrets_with_gh(repo_name, secrets):
     # Fetch existing secrets for the repository
     existing_secrets = fetch_existing_secrets(repo_name)
-    
+
     # Authenticate with GitHub CLI
     authenticate_gh()
-    
+
     for secret, value in secrets.items():
         if value is None:
             print(f"  Skipping unset secret {secret} for {repo_name}")
             continue
-        
+
         # Skip if the secret already exists
         if secret in existing_secrets:
-            print(f"  Secret {secret} already exists in repository {repo_name}. Skipping...")
+            print(
+                f"  Secret {secret} already exists in repository {repo_name}. Skipping..."
+            )
             continue
-        
+
         # Use GitHub CLI to set the secret
-        print(f"\n  Setting secret {secret} for repository {repo_name} using GitHub CLI")
+        print(
+            f"\n  Setting secret {secret} for repository {repo_name} using GitHub CLI"
+        )
 
         cmd = [
-            "gh", "secret", "set", secret,
-            "-R", f"{GITHUB_USER}/{repo_name}",
-            "-b", value
+            "gh",
+            "secret",
+            "set",
+            secret,
+            "-R",
+            f"{GITHUB_USER}/{repo_name}",
+            "-b",
+            value,
         ]
 
         print(f"    Running: {' '.join(cmd)}")
 
         try:
             subprocess.run(cmd, check=True, capture_output=True, text=True)
-            print(f"      ✅ Successfully set secret {secret} for repository {repo_name}\n")
+            print(
+                f"      ✅ Successfully set secret {secret} for repository {repo_name}\n"
+            )
         except subprocess.CalledProcessError as e:
             print(f"  ❌ Failed to set secret {secret} for {repo_name}")
             print(f"  STDERR: {e.stderr}")
             print(f"  STDOUT: {e.stdout}")
+
 
 # Function to get all repositories
 def get_repositories():
@@ -122,7 +145,9 @@ def get_repositories():
             repos_data = response.json()
             if not repos_data:
                 break
-            repos.extend([repo["name"] for repo in repos_data if repo["name"] != "dmzoneill"])
+            repos.extend(
+                [repo["name"] for repo in repos_data if repo["name"] != "dmzoneill"]
+            )
             page += 1
         else:
             print(f"Failed to fetch repositories, status code: {response.status_code}")
@@ -133,7 +158,7 @@ def get_repositories():
 def main():
     # Fetch secrets from environment
     secrets = {secret: os.getenv(secret) for secret in SECRETS}
-    
+
     # Check for missing secrets
     missing_secrets = [secret for secret, value in secrets.items() if value is None]
     if missing_secrets:

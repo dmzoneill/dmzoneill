@@ -2,7 +2,7 @@ import sys
 import os
 import requests
 import base64
-import urllib.parse
+
 
 def main():
     if len(sys.argv) != 2:
@@ -17,9 +17,7 @@ def main():
     password = os.getenv("REDIS_PASSWORD")
 
     url = f"http://{host}:{port}/"
-    headers = {
-        "Content-Type": "text/plain"
-    }
+    headers = {"Content-Type": "text/plain"}
 
     if password:
         token = base64.b64encode(f"{password}:".encode()).decode()
@@ -34,6 +32,7 @@ def main():
     except Exception as e:
         print(f"Error sending message: {e}")
         sys.exit(1)
+
 
 if __name__ == "__main__":
     main()

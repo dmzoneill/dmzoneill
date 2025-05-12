@@ -2,6 +2,7 @@ import base64
 import os
 import re
 from datetime import datetime
+from pathlib import Path
 
 import requests
 
@@ -604,9 +605,7 @@ def generate_description_with_media(prompt: str):
 
     # Use regex to extract image_idea and youtube_topics
     image_match = re.search(r"image_idea:\s*(.*?)$", response, re.MULTILINE)
-    youtube_match = re.search(
-        r"youtube_topics:\s*(.*?)$", response, re.MULTILINE
-    )
+    youtube_match = re.search(r"youtube_topics:\s*(.*?)$", response, re.MULTILINE)
 
     image_idea = None
     youtube_topics = []
@@ -639,6 +638,67 @@ def generate_description_with_media(prompt: str):
         return title, content, image_idea, youtube_topics
 
     return None, response, image_idea, youtube_topics
+
+
+def is_substantial_change(
+    diff: str, commit_message: str, override_keyword="Blog = true"
+) -> bool:
+    # Force include if override keyword is in commit message
+    if override_keyword.lower() in commit_message.lower():
+        return True
+
+    if not diff or not commit_message:
+        return False
+
+    # Count added and removed lines
+    added_lines = sum(
+        1
+        for line in diff.splitlines()
+        if line.startswith("+") and not line.startswith("+++")
+    )
+    removed_lines = sum(
+        1
+        for line in diff.splitlines()
+        if line.startswith("-") and not line.startswith("---")
+    )
+    total_changes = added_lines + removed_lines
+
+    # Extract changed files
+    changed_files = re.findall(r"^diff --git a/(.+?) b/\1", diff, re.MULTILINE)
+
+    if not changed_files:
+        return False
+
+    # Skip if all files are dotfiles or in .github/** or similar
+    all_hidden = all(
+        Path(file).parts[0].startswith(".") or "/." in file for file in changed_files
+    )
+    if all_hidden:
+        return False
+
+    # CommitLint type detection
+    commit_type_match = re.match(
+        r"^(feat|fix|perf|docs|chore|style|refactor|test|ci|build)(\(.+\))?:",
+        commit_message.strip(),
+    )
+    commit_type = commit_type_match.group(1) if commit_type_match else None
+
+    # If it's a code-impacting type, consider it substantial if any changes were made
+    if commit_type in {"feat", "fix", "perf"}:
+        return True
+
+    # For others, check if there's at least one non-trivial change
+    if total_changes >= 5:
+        # Also exclude if only markdown or doc files were touched
+        non_doc_files = [
+            f
+            for f in changed_files
+            if not re.search(r"\.(md|txt|gitignore|yml|yaml|json)$", f)
+        ]
+        if non_doc_files:
+            return True
+
+    return False
 
 
 def main():
@@ -674,6 +734,11 @@ def main():
             commit_no += 1
 
         diff = get_commit_diff(commit_data[commit_no]["sha"])
+        commit_msg = commit_data[commit_no]["commit"]["message"]
+
+        if not is_substantial_change(diff, commit_msg):
+            print(f"\nCommit url: {commit_url}")
+            return
 
         commit_date = commit_data[0]["commit"]["author"]["date"]
         publish_date = datetime.fromisoformat(commit_date).strftime("%Y-%m-%dT%H:%M:%S")

@@ -3,6 +3,7 @@
 import os
 import requests
 
+
 def get_issue_content(repo, issue_number, github_token):
     url = f"https://api.github.com/repos/{repo}/issues/{issue_number}"
     headers = {
@@ -14,6 +15,7 @@ def get_issue_content(repo, issue_number, github_token):
     data = response.json()
     return data["title"], data["body"]
 
+
 def generate_ai_reply(title, body, repo_url, openai_key):
     prompt = "You're a helpful AI assistant. Reply concisely to the following GitHub issue.\n"
     if repo_url:
@@ -23,7 +25,7 @@ def generate_ai_reply(title, body, repo_url, openai_key):
         "model": "gpt-4o",
         "messages": [
             {"role": "system", "content": prompt},
-            {"role": "user", "content": f"{title}\n\n{body}"}
+            {"role": "user", "content": f"{title}\n\n{body}"},
         ],
         "temperature": 0.5,
     }
@@ -36,10 +38,11 @@ def generate_ai_reply(title, body, repo_url, openai_key):
         "https://api.openai.com/v1/chat/completions",
         headers=headers,
         json=payload,
-        timeout=30
+        timeout=30,
     )
     response.raise_for_status()
     return response.json()["choices"][0]["message"]["content"]
+
 
 def post_comment(repo, issue_number, comment, github_token):
     url = f"https://api.github.com/repos/{repo}/issues/{issue_number}/comments"
@@ -49,6 +52,7 @@ def post_comment(repo, issue_number, comment, github_token):
     }
     response = requests.post(url, headers=headers, json={"body": comment}, timeout=10)
     response.raise_for_status()
+
 
 def main():
     openai_key = os.getenv("OPENAI_API_KEY")
@@ -63,6 +67,7 @@ def main():
     title, body = get_issue_content(repo, issue_number, github_token)
     comment = generate_ai_reply(title, body, repo_url, openai_key)
     post_comment(repo, issue_number, comment, github_token)
+
 
 if __name__ == "__main__":
     main()

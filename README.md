@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-11/05/2025 00:43:13-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-12/05/2025 00:43:16-brightgreen" height='28'/>
 
 <table>
   <tr>
@@ -8,7 +8,7 @@
       <h3>Pull Requests (2)</h3>
       <ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/41'>Bump @babel/runtime from 7.17.9 to 7.27.1 in /frontend</a> 2025-05-09</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/35'>Bump axios from 0.28.0 to 0.30.0 in /frontend</a> 2025-04-28</li></ul>
       <h3>Recent Acivity</h3>
-      <ul><li><a href='https://github.com/dmzoneill/dmzoneill/commit/4d69dd745f4edcdb9f41f9d93248cc77b7f3c30b'>feat(redis-notify): add basic authentication support for Redis connection</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/653f68b3b84fa06d0ff5652d1520332d50263334'>feat(redis-notify): add JSON payload support and basic auth for Webdis requests</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/fbec744db8324b2af33a9d1720ef4f873dbc910b'>fix(redis-notify): remove Redis client installation and update message sending method</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/747e0baccae749558ed36896563e289f3df4cf1e'>fix(redis): update script to use Webdis for message sending</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/cb621cf27cf2ee3d672f0c0f979bf7adf5567742'>feat(redis): update Webdis configuration file path and add new settings</a></li></ul>
+      <ul><li><a href='https://github.com/dmzoneill/dmzoneill/commit/08e16f211c7ddd77de39d6fec5e25b240707d5ba'>fix(redis-notify): update payload format for Redis command execution</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/4d69dd745f4edcdb9f41f9d93248cc77b7f3c30b'>feat(redis-notify): add basic authentication support for Redis connection</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/653f68b3b84fa06d0ff5652d1520332d50263334'>feat(redis-notify): add JSON payload support and basic auth for Webdis requests</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/fbec744db8324b2af33a9d1720ef4f873dbc910b'>fix(redis-notify): remove Redis client installation and update message sending method</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/747e0baccae749558ed36896563e289f3df4cf1e'>fix(redis): update script to use Webdis for message sending</a></li></ul>
       <h3>Gists</h3>
       <ul><li><a href='https://gist.github.com/dmzoneill/441f88a5c73136b8128c252ad84100b3'></a></li><li><a href='https://gist.github.com/dmzoneill/80bfef9603448c33df02ce0aa98fcd59'>AI git Commit</a></li><li><a href='https://gist.github.com/dmzoneill/7c9159b30950621c065791e7861be174'>Python GTK4 ColumnView Sorting and Binding</a></li><li><a href='https://gist.github.com/dmzoneill/19a4fbd799f1e5bcc050ddb4b0a65403'>sorted listed model gtk4</a></li><li><a href='https://gist.github.com/dmzoneill/74033698f65a5a1539d686452a73dce8'>Pygtk4 ColumnView</a></li><li><a href='https://gist.github.com/dmzoneill/497746f38c5786c96e8859f1131667af'>awx-operator 2.15..16</a></li><li><a href='https://gist.github.com/dmzoneill/67a908fb949dc95bbbf02f0446a07f0a'>durex fun</a></li><li><a href='https://gist.github.com/dmzoneill/d13d88b16d4d0aa90cb108a00ab3cf01'>10GB tuning</a></li><li><a href='https://gist.github.com/dmzoneill/575ba9c32375c41cb1041e9064de0678'>Synology 108tb limit bypass</a></li><li><a href='https://gist.github.com/dmzoneill/cbc75e502dbe2b78651f68d6320b714a'>AA active queries</a></li><li><a href='https://gist.github.com/dmzoneill/faaa84782eaed4d2dc28ad55c19119ee'>PHP Paypal Instant Payment Notification</a></li></ul>
     </td>
@@ -41,7 +41,7 @@
     </tr>
   </thead>
   <tbody>
-    <tr><td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>1538343</td>
+    <tr><td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>1538406</td>
 <td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>1479531</td>
 <td><img src='https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white' title='Swift'  height='20px'/></td><td>163276</td>
 <td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>338153</td>
@@ -126,7 +126,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/dmzoneill' title='dmzoneill'>dmzoneill</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/dmzoneill/commit/4d69dd745f4edcdb9f41f9d93248cc77b7f3c30b'>feat(redis-notify): add basic authentication support for Redis connection</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/653f68b3b84fa06d0ff5652d1520332d50263334'>feat(redis-notify): add JSON payload support and basic auth for Webdis requests</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/fbec744db8324b2af33a9d1720ef4f873dbc910b'>fix(redis-notify): remove Redis client installation and update message sending method</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/747e0baccae749558ed36896563e289f3df4cf1e'>fix(redis): update script to use Webdis for message sending</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/d379e7adbb6a919e2d87478eb3ceb3874773b2ff'>chore(redis): rename redis.py to redis-notify.py and update action.yml accordingly</a></li></ul></p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/dmzoneill/commit/08e16f211c7ddd77de39d6fec5e25b240707d5ba'>fix(redis-notify): update payload format for Redis command execution</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/4d69dd745f4edcdb9f41f9d93248cc77b7f3c30b'>feat(redis-notify): add basic authentication support for Redis connection</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/653f68b3b84fa06d0ff5652d1520332d50263334'>feat(redis-notify): add JSON payload support and basic auth for Webdis requests</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/fbec744db8324b2af33a9d1720ef4f873dbc910b'>fix(redis-notify): remove Redis client installation and update message sending method</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/747e0baccae749558ed36896563e289f3df4cf1e'>fix(redis): update script to use Webdis for message sending</a></li></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -135,7 +135,7 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2025-05-10</p>
+              <p>2025-05-11</p>
             </td>
         </tr>
 <tr>
@@ -1759,7 +1759,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/mono-gtk-alltomp3' title='mono-gtk-alltomp3'>mono-gtk-alltomp3</a> (2010)</h2></p><p><img src='https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white' title='C#' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/mono-gtk-alltomp3/commit/122fdf8304d4a3a9af43315ace3747b549fb7879'>Add or update GitHub Actions workflows</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>

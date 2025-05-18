@@ -10,6 +10,10 @@ inputs:
 runs:
   using: "composite"
   steps:
+    - name: Install dependencies
+      run: pip install requests
+      shell: bash
+
     - name: Download script
       run: curl -O https://raw.githubusercontent.com/dmzoneill/dmzoneill/main/redis-notify.py
       shell: bash

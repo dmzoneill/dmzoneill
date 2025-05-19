@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-18/05/2025 06:24:39-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-19/05/2025 00:53:51-brightgreen" height='28'/>
 
 <table>
   <tr>
@@ -8,7 +8,7 @@
       <h3>Pull Requests (2)</h3>
       <ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/41'>Bump @babel/runtime from 7.17.9 to 7.27.1 in /frontend</a> 2025-05-09</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/35'>Bump axios from 0.28.0 to 0.30.0 in /frontend</a> 2025-04-28</li></ul>
       <h3>Recent Acivity</h3>
-      <ul><li><a href='https://github.com/dmzoneill/pass-gnome-extension/commit/7ccaa704b178da1936260f152b753a9b006f2f53'>chore: update version to 0.0.7 and clean up code formatting</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/83186c3923a5b4f58461d438701f47006141f763'>feat: add substantial change detection for commits</a></li><li><a href='https://github.com/dmzoneill/pass-gnome-extension/commit/f200e700a77513cadff9624d14ad1eb3ecff6cb9'>chore: update version to 0.0.7 and clean up code formatting</a></li><li><a href='https://github.com/dmzoneill/pass-gnome-extension/commit/6de3a211156f6f4252a0ef134562fdd58b1d98c6'>Review feedback</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/08e16f211c7ddd77de39d6fec5e25b240707d5ba'>fix(redis-notify): update payload format for Redis command execution</a></li></ul>
+      <ul><li><a href='https://github.com/dmzoneill/pass-gnome-extension/commit/21034a1f9c8d31df50359dc8b2135e65035da246'>Add or update GitHub Actions workflows</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/ad332ffe61e7ad7975116fdeef00eb326394706d'>fix(ssl): update SSL certificate paths for fio.ie configuration</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/50bc19d1fb16c85950b5f9424b8c89ba6807b53c'>fix(ssl): update SSL certificate paths for multiple domains</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/b4b6975d446f0d8b39b1c932840be7c9a4dab12f'>fix(ssl): update SSL certificate paths for feeditout sites</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/ed289684e797c27e4a5b3241e2753cd6f6576882'>feat(apache2): update configuration copy task and version to 0.0.57</a></li></ul>
       <h3>Gists</h3>
       <ul><li><a href='https://gist.github.com/dmzoneill/441f88a5c73136b8128c252ad84100b3'></a></li><li><a href='https://gist.github.com/dmzoneill/80bfef9603448c33df02ce0aa98fcd59'>AI git Commit</a></li><li><a href='https://gist.github.com/dmzoneill/7c9159b30950621c065791e7861be174'>Python GTK4 ColumnView Sorting and Binding</a></li><li><a href='https://gist.github.com/dmzoneill/19a4fbd799f1e5bcc050ddb4b0a65403'>sorted listed model gtk4</a></li><li><a href='https://gist.github.com/dmzoneill/74033698f65a5a1539d686452a73dce8'>Pygtk4 ColumnView</a></li><li><a href='https://gist.github.com/dmzoneill/497746f38c5786c96e8859f1131667af'>awx-operator 2.15..16</a></li><li><a href='https://gist.github.com/dmzoneill/67a908fb949dc95bbbf02f0446a07f0a'>durex fun</a></li><li><a href='https://gist.github.com/dmzoneill/d13d88b16d4d0aa90cb108a00ab3cf01'>10GB tuning</a></li><li><a href='https://gist.github.com/dmzoneill/575ba9c32375c41cb1041e9064de0678'>Synology 108tb limit bypass</a></li><li><a href='https://gist.github.com/dmzoneill/cbc75e502dbe2b78651f68d6320b714a'>AA active queries</a></li><li><a href='https://gist.github.com/dmzoneill/faaa84782eaed4d2dc28ad55c19119ee'>PHP Paypal Instant Payment Notification</a></li></ul>
     </td>
@@ -44,7 +44,7 @@
     <tr><td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>1540667</td>
 <td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>1479531</td>
 <td><img src='https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white' title='Swift'  height='20px'/></td><td>163276</td>
-<td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>338123</td>
+<td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>338273</td>
 </tr><tr>
 <td><img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile'  height='20px'/></td><td>8531</td>
 <td><img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS'  height='20px'/></td><td>5840765</td>
@@ -351,7 +351,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/pass-gnome-extension' title='pass-gnome-extension'>pass-gnome-extension</a> (2025)</h2></p><p><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/pass-gnome-extension/commit/7ccaa704b178da1936260f152b753a9b006f2f53'>chore: update version to 0.0.7 and clean up code formatting</a></li><li><a href='https://github.com/dmzoneill/pass-gnome-extension/commit/f200e700a77513cadff9624d14ad1eb3ecff6cb9'>chore: update version to 0.0.7 and clean up code formatting</a></li><li><a href='https://github.com/dmzoneill/pass-gnome-extension/commit/6de3a211156f6f4252a0ef134562fdd58b1d98c6'>Review feedback</a></li><li><a href='https://github.com/dmzoneill/pass-gnome-extension/commit/a03293f9140aa8fa89e7489a0ee7456bb8b05ed2'>Add or update GitHub Actions workflows</a></li></ul></p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/pass-gnome-extension/commit/21034a1f9c8d31df50359dc8b2135e65035da246'>Add or update GitHub Actions workflows</a></li><li><a href='https://github.com/dmzoneill/pass-gnome-extension/commit/fae62ba675d0efb77c7eaa53e9a6e51c5d81661c'>chore: update version to 0.0.7 and clean up code formatting</a></li><li><a href='https://github.com/dmzoneill/pass-gnome-extension/commit/7ccaa704b178da1936260f152b753a9b006f2f53'>chore: update version to 0.0.7 and clean up code formatting</a></li><li><a href='https://github.com/dmzoneill/pass-gnome-extension/commit/f200e700a77513cadff9624d14ad1eb3ecff6cb9'>chore: update version to 0.0.7 and clean up code formatting</a></li><li><a href='https://github.com/dmzoneill/pass-gnome-extension/commit/6de3a211156f6f4252a0ef134562fdd58b1d98c6'>Review feedback</a></li></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -360,14 +360,14 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/pass-gnome-extension/actions'><img src='https://github.com/dmzoneill//pass-gnome-extension/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2025-05-18</p>
+              <p>2025-05-19</p>
             </td>
         </tr>
 <tr>
             <td>
               <p><h2><a href='https://github.com/dmzoneill/ansible-feeditout-com' title='ansible-feeditout-com'>ansible-feeditout-com</a> (2025)</h2></p><p><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/> <img src='https://img.shields.io/badge/_-Jinja -11DDDD.svg?style=for-the-badge' title='Jinja' height='20px'/> <img src='https://img.shields.io/badge/_-M4 -11DDDD.svg?style=for-the-badge' title='M4' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/cb621cf27cf2ee3d672f0c0f979bf7adf5567742'>feat(redis): update Webdis configuration file path and add new settings</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/a0183d4b9ef6ed62e62b637619fda7e165d352ea'>feat(redis): configure Webdis and restart services</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/0fb0b81d8feef8a7756d4b267a7e937bbf65e53c'>feat(redis): add Webdis installation and configuration</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/3e73894d53dcb129bfd47d441f8e30880cbc5a13'>feat(redis): install Redis and Webdis with configuration updates</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/639f9dba3a64486bd1601320aab75e1bb52ce546'>feat(redis): ensure /run/redis directory exists for PID file</a></li></ul></p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/ad332ffe61e7ad7975116fdeef00eb326394706d'>fix(ssl): update SSL certificate paths for fio.ie configuration</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/50bc19d1fb16c85950b5f9424b8c89ba6807b53c'>fix(ssl): update SSL certificate paths for multiple domains</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/b4b6975d446f0d8b39b1c932840be7c9a4dab12f'>fix(ssl): update SSL certificate paths for feeditout sites</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/ed289684e797c27e4a5b3241e2753cd6f6576882'>feat(apache2): update configuration copy task and version to 0.0.57</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/68c2092695a4af6fe4d06dad0d964474961bf3a0'>chore(postfix): remove obsolete Apache configuration files and add postfix-updatecerts script</a></li></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -376,7 +376,7 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/ansible-feeditout-com/actions'><img src='https://github.com/dmzoneill//ansible-feeditout-com/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2025-05-10</p>
+              <p>2025-05-18</p>
             </td>
         </tr>
 <tr>
@@ -440,7 +440,7 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/strongapp-api/actions'><img src='https://github.com/dmzoneill//strongapp-api/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2025-05-10</p>
+              <p>2025-05-18</p>
             </td>
         </tr>
 <tr>
@@ -1023,7 +1023,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/NPG-SW-Lab-SBar' title='NPG-SW-Lab-SBar'>NPG-SW-Lab-SBar</a> (2015)</h2></p><p><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/> <img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/NPG-SW-Lab-SBar/commit/6470e4d85094f7f6943404d3f4503cad8647a7cd'>Add or update GitHub Actions workflows</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -1823,7 +1823,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/mono-gtk-monomerge' title='mono-gtk-monomerge'>mono-gtk-monomerge</a> (2009)</h2></p><p><img src='https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white' title='C#' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/mono-gtk-monomerge/commit/bbd60f844c4f4e0fdb59f359e134760820704c5b'>Add or update GitHub Actions workflows</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -1887,7 +1887,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/mono-gtk-imdb' title='mono-gtk-imdb'>mono-gtk-imdb</a> (2009)</h2></p><p><img src='https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white' title='C#' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/mono-gtk-imdb/commit/6f8bb2854859392cbdba0bcb18a595ab9b5dad0a'>Add or update GitHub Actions workflows</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -1919,7 +1919,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/mono-gtk-gsambamonitor' title='mono-gtk-gsambamonitor'>mono-gtk-gsambamonitor</a> (2009)</h2></p><p><img src='https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white' title='C#' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/mono-gtk-gsambamonitor/commit/3755d0b4054f1ba5e5dc5e6de1aed05ae836b8a5'>Add or update GitHub Actions workflows</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -1951,7 +1951,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/mono-gtk-gtkstarter' title='mono-gtk-gtkstarter'>mono-gtk-gtkstarter</a> (2009)</h2></p><p><img src='https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white' title='C++' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/mono-gtk-gtkstarter/commit/85df9da708c6e12f97c5b25f9302c036ad8f7f58'>Add or update GitHub Actions workflows</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -1983,7 +1983,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/mono-gtk-mimagemagick' title='mono-gtk-mimagemagick'>mono-gtk-mimagemagick</a> (2009)</h2></p><p><img src='https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white' title='C#' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/mono-gtk-mimagemagick/commit/44142799bc654c8039b76d6c62c02cc0d612c393'>Add or update GitHub Actions workflows</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -1999,7 +1999,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/mono-gtk-gtk-foober' title='mono-gtk-gtk-foober'>mono-gtk-gtk-foober</a> (2009)</h2></p><p><img src='https://img.shields.io/badge/_-Roff -11DDDD.svg?style=for-the-badge' title='Roff' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/mono-gtk-gtk-foober/commit/7303ad75fb602ad58d367407f9f6083c0f37bb5d'>Add or update GitHub Actions workflows</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -2047,7 +2047,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/mono-gtk-smart' title='mono-gtk-smart'>mono-gtk-smart</a> (2009)</h2></p><p><img src='https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white' title='C#' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/mono-gtk-smart/commit/91d7bb6972857427542ee1eae55de351c30788af'>Add or update GitHub Actions workflows</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -2303,7 +2303,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/mysqltest' title='mysqltest'>mysqltest</a> (2005)</h2></p><p><img src='https://img.shields.io/badge/_-Visual Basic .NET -11DDDD.svg?style=for-the-badge' title='Visual Basic .NET' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/mysqltest/commit/3a57388d67d5f6743a2ba5c99543f74cee21fd59'>Add or update GitHub Actions workflows</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -2367,7 +2367,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/netsend' title='netsend'>netsend</a> (2005)</h2></p><p><img src='https://img.shields.io/badge/_-Visual Basic .NET -11DDDD.svg?style=for-the-badge' title='Visual Basic .NET' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/netsend/commit/9be258260ddbc997488354f4d75edfe372ab94db'>Add or update GitHub Actions workflows</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -2575,7 +2575,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/network-utility' title='network-utility'>network-utility</a> (2004)</h2></p><p><img src='https://img.shields.io/badge/_-Visual Basic .NET -11DDDD.svg?style=for-the-badge' title='Visual Basic .NET' height='20px'/> <img src='https://img.shields.io/badge/_-XSLT -11DDDD.svg?style=for-the-badge' title='XSLT' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/network-utility/commit/03450ae92c4a7c04bf70d52f203aa31242af31ce'>Add or update GitHub Actions workflows</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>

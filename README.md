@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-20/05/2025 00:43:27-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-21/05/2025 00:41:57-brightgreen" height='28'/>
 
 <table>
   <tr>
@@ -8,7 +8,7 @@
       <h3>Pull Requests (2)</h3>
       <ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/41'>Bump @babel/runtime from 7.17.9 to 7.27.1 in /frontend</a> 2025-05-09</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/35'>Bump axios from 0.28.0 to 0.30.0 in /frontend</a> 2025-04-28</li></ul>
       <h3>Recent Acivity</h3>
-      <ul><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/2e155a9793d943727cefdf17602e5c8a0113dd3c'>feat(apache2): add proxy modules and remove mod_php to prevent MPM conflict</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/c447279dc1ac5a16154b33b09ed33fa49fb764a2'>feat(apache2): update to use mpm_event module and ensure symlinks exist</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/ac0955fb5958dc86bf26cf1c069510bd5635e869'>feat(apache2): ensure required Apache modules are installed and enabled</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/ebe6ede3ea74e75710bcede409d327a256ae266b'>feat(apache2): add tasks to install and enable required Apache modules</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/ab54aa7a420105e54888d257070eb8459c056769'>refactor(apache2): streamline removal of broken Apache modules and their packages</a></li></ul>
+      <ul><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/f45c10723df49033cfae94c43acd9ef6883f92ab'>fix(apache2): correct loop variable usage in SSL cert check and DocumentRoot creation</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/a75d6b035bc143766ebdc0a3dbcd9f2ac6f2b257'>fix(ssl): update SSL certificate paths for ashtangayoga.ie</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/bdd9618da810b8726454d6d0a941827ca1ebaa9b'>fix(ssl): update certificate paths for multiple domains</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/c4befb4db1a3a16c6a39d849aad9ec1240dac895'>fix(ssl-config): update certificate paths for multiple domains</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/86924811727b4179bd9e89f1b058622e66f35760'>fix(apache2): correct SSL certificate file paths in configuration</a></li></ul>
       <h3>Gists</h3>
       <ul><li><a href='https://gist.github.com/dmzoneill/441f88a5c73136b8128c252ad84100b3'></a></li><li><a href='https://gist.github.com/dmzoneill/80bfef9603448c33df02ce0aa98fcd59'>AI git Commit</a></li><li><a href='https://gist.github.com/dmzoneill/7c9159b30950621c065791e7861be174'>Python GTK4 ColumnView Sorting and Binding</a></li><li><a href='https://gist.github.com/dmzoneill/19a4fbd799f1e5bcc050ddb4b0a65403'>sorted listed model gtk4</a></li><li><a href='https://gist.github.com/dmzoneill/74033698f65a5a1539d686452a73dce8'>Pygtk4 ColumnView</a></li><li><a href='https://gist.github.com/dmzoneill/497746f38c5786c96e8859f1131667af'>awx-operator 2.15..16</a></li><li><a href='https://gist.github.com/dmzoneill/67a908fb949dc95bbbf02f0446a07f0a'>durex fun</a></li><li><a href='https://gist.github.com/dmzoneill/d13d88b16d4d0aa90cb108a00ab3cf01'>10GB tuning</a></li><li><a href='https://gist.github.com/dmzoneill/575ba9c32375c41cb1041e9064de0678'>Synology 108tb limit bypass</a></li><li><a href='https://gist.github.com/dmzoneill/cbc75e502dbe2b78651f68d6320b714a'>AA active queries</a></li><li><a href='https://gist.github.com/dmzoneill/faaa84782eaed4d2dc28ad55c19119ee'>PHP Paypal Instant Payment Notification</a></li></ul>
     </td>
@@ -44,7 +44,7 @@
     <tr><td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>1540667</td>
 <td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>1479531</td>
 <td><img src='https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white' title='Swift'  height='20px'/></td><td>163276</td>
-<td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>338526</td>
+<td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>338673</td>
 </tr><tr>
 <td><img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile'  height='20px'/></td><td>8531</td>
 <td><img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS'  height='20px'/></td><td>5840765</td>
@@ -135,7 +135,7 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2025-05-19</p>
+              <p>2025-05-20</p>
             </td>
         </tr>
 <tr>
@@ -190,7 +190,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/sodarr-chrome-plugin' title='sodarr-chrome-plugin'>sodarr-chrome-plugin</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/sodarr-chrome-plugin/commit/9bdd01c93e418f19950c55d579d8e80f442b3c5a'>Add or update GitHub Actions workflows</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -351,7 +351,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/ansible-feeditout-com' title='ansible-feeditout-com'>ansible-feeditout-com</a> (2025)</h2></p><p><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/> <img src='https://img.shields.io/badge/_-Jinja -11DDDD.svg?style=for-the-badge' title='Jinja' height='20px'/> <img src='https://img.shields.io/badge/_-M4 -11DDDD.svg?style=for-the-badge' title='M4' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/2e155a9793d943727cefdf17602e5c8a0113dd3c'>feat(apache2): add proxy modules and remove mod_php to prevent MPM conflict</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/c447279dc1ac5a16154b33b09ed33fa49fb764a2'>feat(apache2): update to use mpm_event module and ensure symlinks exist</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/ac0955fb5958dc86bf26cf1c069510bd5635e869'>feat(apache2): ensure required Apache modules are installed and enabled</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/ebe6ede3ea74e75710bcede409d327a256ae266b'>feat(apache2): add tasks to install and enable required Apache modules</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/ab54aa7a420105e54888d257070eb8459c056769'>refactor(apache2): streamline removal of broken Apache modules and their packages</a></li></ul></p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/f45c10723df49033cfae94c43acd9ef6883f92ab'>fix(apache2): correct loop variable usage in SSL cert check and DocumentRoot creation</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/a75d6b035bc143766ebdc0a3dbcd9f2ac6f2b257'>fix(ssl): update SSL certificate paths for ashtangayoga.ie</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/bdd9618da810b8726454d6d0a941827ca1ebaa9b'>fix(ssl): update certificate paths for multiple domains</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/c4befb4db1a3a16c6a39d849aad9ec1240dac895'>fix(ssl-config): update certificate paths for multiple domains</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/86924811727b4179bd9e89f1b058622e66f35760'>fix(apache2): correct SSL certificate file paths in configuration</a></li></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -360,7 +360,7 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/ansible-feeditout-com/actions'><img src='https://github.com/dmzoneill//ansible-feeditout-com/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2025-05-19</p>
+              <p>2025-05-20</p>
             </td>
         </tr>
 <tr>
@@ -431,7 +431,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/strongapp-api' title='strongapp-api'>strongapp-api</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' title='Java' height='20px'/> <img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/perl-%2339457E.svg?style=for-the-badge&logo=perl&logoColor=white' title='Perl' height='20px'/> <img src='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' title='Go' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/strongapp-api/commit/3551494bfb361d8d7e4fb5b5c0626c572e9d5e65'>Add or update GitHub Actions workflows</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -719,7 +719,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/rh-otp-auto-connect' title='rh-otp-auto-connect'>rh-otp-auto-connect</a> (2021)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/rh-otp-auto-connect/commit/c4932b2ba976a8bf5c5868015e81c2f41202ec0c'>Add or update GitHub Actions workflows</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -831,7 +831,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/seedmagepp' title='seedmagepp'>seedmagepp</a> (2019)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/seedmagepp/commit/aad0bf578d32f1a4810edd2fe902f8136df96ca7'>Add or update GitHub Actions workflows</a></li></ul></p>
+              <p><ul></ul></p>
               <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/seedmagepp/issues/1'>Questions : difference between Uploaded and session_uploaded and Enhancement for already downloaded file.</a> 2025-05-10</li></ul></p>
               <p><ul></ul></p>
             </td>
@@ -1039,7 +1039,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/shannon.ir.intel.com' title='shannon.ir.intel.com'>shannon.ir.intel.com</a> (2015)</h2></p><p><img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/> <img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/shannon.ir.intel.com/commit/3229e1e1ede4503441b3522323445f084f9aed1f'>Add or update GitHub Actions workflows</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -1055,7 +1055,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/series' title='series'>series</a> (2015)</h2></p><p><img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/series/commit/940bb17a68b3df70a9d95b47119842e08bc6a432'>Add or update GitHub Actions workflows</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -1647,7 +1647,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/servicescan' title='servicescan'>servicescan</a> (2011)</h2></p><p><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/> <img src='https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white' title='C++' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/servicescan/commit/186863bea57c41bb9364e149b48d3c6bc6ffac2a'>Add or update GitHub Actions workflows</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -1967,7 +1967,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/synology-download-assistance-chrome-extension' title='synology-download-assistance-chrome-extension'>synology-download-assistance-chrome-extension</a> (2009)</h2></p><p><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/> <img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML' height='20px'/> <img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP' height='20px'/> <img src='https://img.shields.io/badge/_-SCSS -11DDDD.svg?style=for-the-badge' title='SCSS' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/synology-download-assistance-chrome-extension/commit/d6c9975c2a9fb27ea91112a03e67f18cca4bef3a'>Add or update GitHub Actions workflows</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -2143,7 +2143,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/screensaver' title='screensaver'>screensaver</a> (2006)</h2></p><p><img src='https://img.shields.io/badge/_-Visual Basic .NET -11DDDD.svg?style=for-the-badge' title='Visual Basic .NET' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/screensaver/commit/1f3d741d432a466bf26cb9cc7cc9d1923e522c33'>Add or update GitHub Actions workflows</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -2287,7 +2287,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/remote-process-control' title='remote-process-control'>remote-process-control</a> (2005)</h2></p><p><img src='https://img.shields.io/badge/_-Visual Basic .NET -11DDDD.svg?style=for-the-badge' title='Visual Basic .NET' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/remote-process-control/commit/fc954a6e6b203cfc7601430d01e406dbad6aab4e'>Add or update GitHub Actions workflows</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -2319,7 +2319,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/sender' title='sender'>sender</a> (2005)</h2></p><p><img src='https://img.shields.io/badge/_-Visual Basic .NET -11DDDD.svg?style=for-the-badge' title='Visual Basic .NET' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/sender/commit/25f852cb67fe3356ff1fa1dd520ecd48bfc46f83'>Add or update GitHub Actions workflows</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -2495,7 +2495,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/simple-send-source' title='simple-send-source'>simple-send-source</a> (2004)</h2></p><p><img src='https://img.shields.io/badge/_-Visual Basic .NET -11DDDD.svg?style=for-the-badge' title='Visual Basic .NET' height='20px'/> <img src='https://img.shields.io/badge/_-XSLT -11DDDD.svg?style=for-the-badge' title='XSLT' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/simple-send-source/commit/a6a8f114986235d347b603191b21e534cb0b9a62'>Add or update GitHub Actions workflows</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -2703,7 +2703,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/service-controller' title='service-controller'>service-controller</a> (2002)</h2></p><p><img src='https://img.shields.io/badge/_-Visual Basic .NET -11DDDD.svg?style=for-the-badge' title='Visual Basic .NET' height='20px'/> <img src='https://img.shields.io/badge/_-XSLT -11DDDD.svg?style=for-the-badge' title='XSLT' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/service-controller/commit/1573903844a449cd587d37aa82b9e0c424551c1d'>Add or update GitHub Actions workflows</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -2831,7 +2831,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/serials' title='serials'>serials</a> (2001)</h2></p><p><img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/serials/commit/42bad72ef7a73de293fdd7bfa2e68a09c7b41d41'>Add or update GitHub Actions workflows</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>

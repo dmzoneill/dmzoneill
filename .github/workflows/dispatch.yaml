@@ -731,7 +731,7 @@ jobs:
       - name: Send message to Redis
         uses: dmzoneill/dmzoneill/.github/actions/redis@main
         with:
-          message: "${{ github.repository }} lint complete for commit ${{ github.sha }}"
+          message: "${{ github.repository }} lint complete"
           redis_password: ${{ secrets.REDIS_PASSWORD }}
 
   unit-test:
@@ -790,7 +790,7 @@ jobs:
       - name: Send message to Redis
         uses: dmzoneill/dmzoneill/.github/actions/redis@main
         with:
-          message: "${{ github.repository }} unit test complete for commit ${{ github.sha }}"
+          message: "${{ github.repository }} unit test complete"
           redis_password: ${{ secrets.REDIS_PASSWORD }}
 
   integration-test:
@@ -849,7 +849,7 @@ jobs:
       - name: Send message to Redis
         uses: dmzoneill/dmzoneill/.github/actions/redis@main
         with:
-          message: "${{ github.repository }} integration test complete for commit ${{ github.sha }}"
+          message: "${{ github.repository }} integration test complete"
           redis_password: ${{ secrets.REDIS_PASSWORD }}
 
   bump-versions:
@@ -898,7 +898,7 @@ jobs:
       - name: Send message to Redis
         uses: dmzoneill/dmzoneill/.github/actions/redis@main
         with:
-          message: "${{ github.repository }} bumped versiobs ${{ github.sha }}"
+          message: "${{ github.repository }} bumped version"
           redis_password: ${{ secrets.REDIS_PASSWORD }}
 
   create-release:
@@ -933,7 +933,7 @@ jobs:
       - name: Send message to Redis
         uses: dmzoneill/dmzoneill/.github/actions/redis@main
         with:
-          message: "${{ github.repository }} created release for ${{ github.sha }}"
+          message: "${{ github.repository }} created release"
           redis_password: ${{ secrets.REDIS_PASSWORD }}
 
   chrome:
@@ -984,7 +984,7 @@ jobs:
       - name: Send message to Redis
         uses: dmzoneill/dmzoneill/.github/actions/redis@main
         with:
-          message: "${{ github.repository }} pushed chrome plugin for ${{ github.sha }}"
+          message: "${{ github.repository }} pushed chrome plugin"
           redis_password: ${{ secrets.REDIS_PASSWORD }}
 
   pypi:
@@ -1015,7 +1015,7 @@ jobs:
       - name: Send message to Redis
         uses: dmzoneill/dmzoneill/.github/actions/redis@main
         with:
-          message: "${{ github.repository }} pushed pypi module for ${{ github.sha }}"
+          message: "${{ github.repository }} pushed pypi module"
           redis_password: ${{ secrets.REDIS_PASSWORD }}
 
   gnome:
@@ -1059,7 +1059,7 @@ jobs:
       - name: Send message to Redis
         uses: dmzoneill/dmzoneill/.github/actions/redis@main
         with:
-          message: "${{ github.repository }} published gnome plugin for ${{ github.sha }}"
+          message: "${{ github.repository }} published gnome plugin"
           redis_password: ${{ secrets.REDIS_PASSWORD }}
 
   pling:
@@ -1084,7 +1084,7 @@ jobs:
       - name: Send message to Redis
         uses: dmzoneill/dmzoneill/.github/actions/redis@main
         with:
-          message: "${{ github.repository }} published pling release for ${{ github.sha }}"
+          message: "${{ github.repository }} published pling release"
           redis_password: ${{ secrets.REDIS_PASSWORD }}
 
   deb:
@@ -1138,7 +1138,7 @@ jobs:
       - name: Send message to Redis
         uses: dmzoneill/dmzoneill/.github/actions/redis@main
         with:
-          message: "${{ github.repository }} created deb for ${{ github.sha }}"
+          message: "${{ github.repository }} created deb"
           redis_password: ${{ secrets.REDIS_PASSWORD }}
 
   rpm:
@@ -1196,7 +1196,7 @@ jobs:
       - name: Send message to Redis
         uses: dmzoneill/dmzoneill/.github/actions/redis@main
         with:
-          message: "${{ github.repository }} created rpm for ${{ github.sha }}"
+          message: "${{ github.repository }} created rpm"
           redis_password: ${{ secrets.REDIS_PASSWORD }}
 
   npmjs:
@@ -1223,7 +1223,7 @@ jobs:
       - name: Send message to Redis
         uses: dmzoneill/dmzoneill/.github/actions/redis@main
         with:
-          message: "${{ github.repository }} published to npmjs for ${{ github.sha }}"
+          message: "${{ github.repository }} published to npmjs"
           redis_password: ${{ secrets.REDIS_PASSWORD }}
 
   docker:
@@ -1282,7 +1282,7 @@ jobs:
       - name: Send message to Redis
         uses: dmzoneill/dmzoneill/.github/actions/redis@main
         with:
-          message: "${{ github.repository }} published container image for ${{ github.sha }}"
+          message: "${{ github.repository }} published container image"
           redis_password: ${{ secrets.REDIS_PASSWORD }}
 
   flatpak:
@@ -1317,7 +1317,7 @@ jobs:
       - name: Send message to Redis
         uses: dmzoneill/dmzoneill/.github/actions/redis@main
         with:
-          message: "${{ github.repository }} published flatpak for ${{ github.sha }}"
+          message: "${{ github.repository }} published flatpak"
           redis_password: ${{ secrets.REDIS_PASSWORD }}
 
   rebuild-profile:   
@@ -1380,6 +1380,6 @@ jobs:
       - name: Send message to Redis
         uses: dmzoneill/dmzoneill/.github/actions/redis@main
         with:
-          message: "${{ github.repository }} published blog post for ${{ github.sha }}"
+          message: "${{ github.repository }} published blog post"
           redis_password: ${{ secrets.REDIS_PASSWORD }}
 

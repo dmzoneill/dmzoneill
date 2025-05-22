@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-21/05/2025 00:41:57-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-22/05/2025 00:42:29-brightgreen" height='28'/>
 
 <table>
   <tr>
@@ -8,7 +8,7 @@
       <h3>Pull Requests (2)</h3>
       <ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/41'>Bump @babel/runtime from 7.17.9 to 7.27.1 in /frontend</a> 2025-05-09</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/35'>Bump axios from 0.28.0 to 0.30.0 in /frontend</a> 2025-04-28</li></ul>
       <h3>Recent Acivity</h3>
-      <ul><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/f45c10723df49033cfae94c43acd9ef6883f92ab'>fix(apache2): correct loop variable usage in SSL cert check and DocumentRoot creation</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/a75d6b035bc143766ebdc0a3dbcd9f2ac6f2b257'>fix(ssl): update SSL certificate paths for ashtangayoga.ie</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/bdd9618da810b8726454d6d0a941827ca1ebaa9b'>fix(ssl): update certificate paths for multiple domains</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/c4befb4db1a3a16c6a39d849aad9ec1240dac895'>fix(ssl-config): update certificate paths for multiple domains</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/86924811727b4179bd9e89f1b058622e66f35760'>fix(apache2): correct SSL certificate file paths in configuration</a></li></ul>
+      <ul><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/4400b1262fa95f2cd36935c0cb74d6a50fe48ef0'>fix(playbooks): correct apache2 path in reconcile.yml and main.yml</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/7e2cf648595a1d1c72dd9e79dd3f59f14665a6f7'>fix(certbot): restore apache2 service in reconcile.yml and clean up missing.sh output</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/8ce9bf5adb76846876339a4b39d0afa67f06e4dc'>feat(makefile): add reconcile-role to run specific roles in playbook</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/7e30eb09b1cf86e74daa1d4d7fd01f49a9fdcd34'>feat(makefile): add reconcile-role playbook for specific role execution</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/86a06dc4dcf06c3464b855f945319db70c6fabd4'>feat(makefile): add static networking configuration task</a></li></ul>
       <h3>Gists</h3>
       <ul><li><a href='https://gist.github.com/dmzoneill/441f88a5c73136b8128c252ad84100b3'></a></li><li><a href='https://gist.github.com/dmzoneill/80bfef9603448c33df02ce0aa98fcd59'>AI git Commit</a></li><li><a href='https://gist.github.com/dmzoneill/7c9159b30950621c065791e7861be174'>Python GTK4 ColumnView Sorting and Binding</a></li><li><a href='https://gist.github.com/dmzoneill/19a4fbd799f1e5bcc050ddb4b0a65403'>sorted listed model gtk4</a></li><li><a href='https://gist.github.com/dmzoneill/74033698f65a5a1539d686452a73dce8'>Pygtk4 ColumnView</a></li><li><a href='https://gist.github.com/dmzoneill/497746f38c5786c96e8859f1131667af'>awx-operator 2.15..16</a></li><li><a href='https://gist.github.com/dmzoneill/67a908fb949dc95bbbf02f0446a07f0a'>durex fun</a></li><li><a href='https://gist.github.com/dmzoneill/d13d88b16d4d0aa90cb108a00ab3cf01'>10GB tuning</a></li><li><a href='https://gist.github.com/dmzoneill/575ba9c32375c41cb1041e9064de0678'>Synology 108tb limit bypass</a></li><li><a href='https://gist.github.com/dmzoneill/cbc75e502dbe2b78651f68d6320b714a'>AA active queries</a></li><li><a href='https://gist.github.com/dmzoneill/faaa84782eaed4d2dc28ad55c19119ee'>PHP Paypal Instant Payment Notification</a></li></ul>
     </td>
@@ -42,9 +42,9 @@
   </thead>
   <tbody>
     <tr><td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>1540667</td>
-<td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>1479531</td>
+<td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>1482193</td>
 <td><img src='https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white' title='Swift'  height='20px'/></td><td>163276</td>
-<td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>338673</td>
+<td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>338970</td>
 </tr><tr>
 <td><img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile'  height='20px'/></td><td>8531</td>
 <td><img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS'  height='20px'/></td><td>5840765</td>
@@ -135,7 +135,7 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2025-05-20</p>
+              <p>2025-05-21</p>
             </td>
         </tr>
 <tr>
@@ -174,7 +174,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/tado-gnome-shell-extension' title='tado-gnome-shell-extension'>tado-gnome-shell-extension</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/tado-gnome-shell-extension/commit/9065350588a0ad99a6cb5e3dd505274bd2af5f27'>Add or update GitHub Actions workflows</a></li></ul></p>
+              <p><ul></ul></p>
               <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/tado-gnome-shell-extension/issues/2'>Got this message after trying to enable it (Gnome45):</a> 2025-05-10</li></ul></p>
               <p><ul></ul></p>
             </td>
@@ -351,7 +351,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/ansible-feeditout-com' title='ansible-feeditout-com'>ansible-feeditout-com</a> (2025)</h2></p><p><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/> <img src='https://img.shields.io/badge/_-Jinja -11DDDD.svg?style=for-the-badge' title='Jinja' height='20px'/> <img src='https://img.shields.io/badge/_-M4 -11DDDD.svg?style=for-the-badge' title='M4' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/f45c10723df49033cfae94c43acd9ef6883f92ab'>fix(apache2): correct loop variable usage in SSL cert check and DocumentRoot creation</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/a75d6b035bc143766ebdc0a3dbcd9f2ac6f2b257'>fix(ssl): update SSL certificate paths for ashtangayoga.ie</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/bdd9618da810b8726454d6d0a941827ca1ebaa9b'>fix(ssl): update certificate paths for multiple domains</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/c4befb4db1a3a16c6a39d849aad9ec1240dac895'>fix(ssl-config): update certificate paths for multiple domains</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/86924811727b4179bd9e89f1b058622e66f35760'>fix(apache2): correct SSL certificate file paths in configuration</a></li></ul></p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/4400b1262fa95f2cd36935c0cb74d6a50fe48ef0'>fix(playbooks): correct apache2 path in reconcile.yml and main.yml</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/7e2cf648595a1d1c72dd9e79dd3f59f14665a6f7'>fix(certbot): restore apache2 service in reconcile.yml and clean up missing.sh output</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/8ce9bf5adb76846876339a4b39d0afa67f06e4dc'>feat(makefile): add reconcile-role to run specific roles in playbook</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/7e30eb09b1cf86e74daa1d4d7fd01f49a9fdcd34'>feat(makefile): add reconcile-role playbook for specific role execution</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/86a06dc4dcf06c3464b855f945319db70c6fabd4'>feat(makefile): add static networking configuration task</a></li></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -360,7 +360,7 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/ansible-feeditout-com/actions'><img src='https://github.com/dmzoneill//ansible-feeditout-com/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2025-05-20</p>
+              <p>2025-05-21</p>
             </td>
         </tr>
 <tr>
@@ -447,7 +447,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/urban-dictionary' title='urban-dictionary'>urban-dictionary</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/</p>
               <p>MIT License</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/urban-dictionary/commit/af9343dcb117b8926c72f773c268b17a6ff9d4f6'>Add or update GitHub Actions workflows</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -463,7 +463,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/TamperMonkey' title='TamperMonkey'>TamperMonkey</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/TamperMonkey/commit/a6d43577f0976fa3d7f649eabb758399b142c759'>Add or update GitHub Actions workflows</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -863,7 +863,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/webhost' title='webhost'>webhost</a> (2018)</h2></p><p><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/webhost/commit/1d1313670d51e8a59aa2c7c9021a7d14d77484f9'>Add or update GitHub Actions workflows</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -1503,7 +1503,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/synologydownloadassistant.com' title='synologydownloadassistant.com'>synologydownloadassistant.com</a> (2013)</h2></p><p><img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/> <img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP' height='20px'/> <img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/_-SCSS -11DDDD.svg?style=for-the-badge' title='SCSS' height='20px'/> <img src='https://img.shields.io/badge/_-Hack -11DDDD.svg?style=for-the-badge' title='Hack' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/synologydownloadassistant.com/commit/4854c52db6a98c3a59a240099a3815b16f926a64'>Add or update GitHub Actions workflows</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -1615,7 +1615,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/ultimetable-android-app' title='ultimetable-android-app'>ultimetable-android-app</a> (2011)</h2></p><p><img src='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' title='Java' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/ultimetable-android-app/commit/55b8ad8b7d31ef1ac2785ec0079ad921200d4650'>Add or update GitHub Actions workflows</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>

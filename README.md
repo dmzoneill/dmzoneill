@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-22/05/2025 03:38:54-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-23/05/2025 00:42:29-brightgreen" height='28'/>
 
 <table>
   <tr>
@@ -8,7 +8,7 @@
       <h3>Pull Requests (2)</h3>
       <ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/41'>Bump @babel/runtime from 7.17.9 to 7.27.1 in /frontend</a> 2025-05-09</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/35'>Bump axios from 0.28.0 to 0.30.0 in /frontend</a> 2025-04-28</li></ul>
       <h3>Recent Acivity</h3>
-      <ul><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/28684cefea116d5ddb0d68916ca73484dd41b196'>fix(makefile): increase verbosity level for ansible playbooks</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/4400b1262fa95f2cd36935c0cb74d6a50fe48ef0'>fix(playbooks): correct apache2 path in reconcile.yml and main.yml</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/7e2cf648595a1d1c72dd9e79dd3f59f14665a6f7'>fix(certbot): restore apache2 service in reconcile.yml and clean up missing.sh output</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/8ce9bf5adb76846876339a4b39d0afa67f06e4dc'>feat(makefile): add reconcile-role to run specific roles in playbook</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/7e30eb09b1cf86e74daa1d4d7fd01f49a9fdcd34'>feat(makefile): add reconcile-role playbook for specific role execution</a></li></ul>
+      <ul><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/43e101cdd29571936b2610cfb73524ca00c3e48a'>refactor(certbot): streamline orphan cleanup script and improve directory handling</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/e6d3ef10e5a30fb501c71d507e799f57293d3456'>refactor(apt): simplify apt-listbugs removal process</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/8b4f9f42f7c07bb69d39b496e3b281c4e82ecc8b'>fix(apt): update apt-listbugs removal process to prevent errors</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/af2220a8e95f28acebedafeaa4e415cead18cb6a'>fix(apt): handle apt-listbugs removal errors gracefully</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/8d4afb43c0f7596e86a0fde7cf703987dab6f046'>feat(apt): add patch for apt-listbugs postrm script and force removal logic</a></li></ul>
       <h3>Gists</h3>
       <ul><li><a href='https://gist.github.com/dmzoneill/441f88a5c73136b8128c252ad84100b3'></a></li><li><a href='https://gist.github.com/dmzoneill/80bfef9603448c33df02ce0aa98fcd59'>AI git Commit</a></li><li><a href='https://gist.github.com/dmzoneill/7c9159b30950621c065791e7861be174'>Python GTK4 ColumnView Sorting and Binding</a></li><li><a href='https://gist.github.com/dmzoneill/19a4fbd799f1e5bcc050ddb4b0a65403'>sorted listed model gtk4</a></li><li><a href='https://gist.github.com/dmzoneill/74033698f65a5a1539d686452a73dce8'>Pygtk4 ColumnView</a></li><li><a href='https://gist.github.com/dmzoneill/497746f38c5786c96e8859f1131667af'>awx-operator 2.15..16</a></li><li><a href='https://gist.github.com/dmzoneill/67a908fb949dc95bbbf02f0446a07f0a'>durex fun</a></li><li><a href='https://gist.github.com/dmzoneill/d13d88b16d4d0aa90cb108a00ab3cf01'>10GB tuning</a></li><li><a href='https://gist.github.com/dmzoneill/575ba9c32375c41cb1041e9064de0678'>Synology 108tb limit bypass</a></li><li><a href='https://gist.github.com/dmzoneill/cbc75e502dbe2b78651f68d6320b714a'>AA active queries</a></li><li><a href='https://gist.github.com/dmzoneill/faaa84782eaed4d2dc28ad55c19119ee'>PHP Paypal Instant Payment Notification</a></li></ul>
     </td>
@@ -42,7 +42,7 @@
   </thead>
   <tbody>
     <tr><td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>1540667</td>
-<td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>1482193</td>
+<td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>1484595</td>
 <td><img src='https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white' title='Swift'  height='20px'/></td><td>163276</td>
 <td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>338970</td>
 </tr><tr>
@@ -351,7 +351,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/ansible-feeditout-com' title='ansible-feeditout-com'>ansible-feeditout-com</a> (2025)</h2></p><p><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/> <img src='https://img.shields.io/badge/_-Jinja -11DDDD.svg?style=for-the-badge' title='Jinja' height='20px'/> <img src='https://img.shields.io/badge/_-M4 -11DDDD.svg?style=for-the-badge' title='M4' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/28684cefea116d5ddb0d68916ca73484dd41b196'>fix(makefile): increase verbosity level for ansible playbooks</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/4400b1262fa95f2cd36935c0cb74d6a50fe48ef0'>fix(playbooks): correct apache2 path in reconcile.yml and main.yml</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/7e2cf648595a1d1c72dd9e79dd3f59f14665a6f7'>fix(certbot): restore apache2 service in reconcile.yml and clean up missing.sh output</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/8ce9bf5adb76846876339a4b39d0afa67f06e4dc'>feat(makefile): add reconcile-role to run specific roles in playbook</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/7e30eb09b1cf86e74daa1d4d7fd01f49a9fdcd34'>feat(makefile): add reconcile-role playbook for specific role execution</a></li></ul></p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/43e101cdd29571936b2610cfb73524ca00c3e48a'>refactor(certbot): streamline orphan cleanup script and improve directory handling</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/e6d3ef10e5a30fb501c71d507e799f57293d3456'>refactor(apt): simplify apt-listbugs removal process</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/8b4f9f42f7c07bb69d39b496e3b281c4e82ecc8b'>fix(apt): update apt-listbugs removal process to prevent errors</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/af2220a8e95f28acebedafeaa4e415cead18cb6a'>fix(apt): handle apt-listbugs removal errors gracefully</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/8d4afb43c0f7596e86a0fde7cf703987dab6f046'>feat(apt): add patch for apt-listbugs postrm script and force removal logic</a></li></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -360,7 +360,7 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/ansible-feeditout-com/actions'><img src='https://github.com/dmzoneill//ansible-feeditout-com/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2025-05-21</p>
+              <p>2025-05-22</p>
             </td>
         </tr>
 <tr>
@@ -767,7 +767,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/ZorkTrek' title='ZorkTrek'>ZorkTrek</a> (2020)</h2></p><p><img src='https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white' title='C++' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/ZorkTrek/commit/1260b8d5b2ec0446eda9c62ca05acc846a689e8a'>Add or update GitHub Actions workflows</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -975,7 +975,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/wordpress-theme-intel' title='wordpress-theme-intel'>wordpress-theme-intel</a> (2015)</h2></p><p><img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/wordpress-theme-intel/commit/078445d086fcca4d456009c3e12183cff75a1975'>Add or update GitHub Actions workflows</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -991,7 +991,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/wordpress-plugin-intel-user-calendar' title='wordpress-plugin-intel-user-calendar'>wordpress-plugin-intel-user-calendar</a> (2015)</h2></p><p><img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP' height='20px'/> <img src='https://img.shields.io/badge/_-Smarty -11DDDD.svg?style=for-the-badge' title='Smarty' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/wordpress-plugin-intel-user-calendar/commit/3cf9e23910d758d63d55f41253c940d77ec96907'>Add or update GitHub Actions workflows</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -1487,7 +1487,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/www.feeditout.com1' title='www.feeditout.com1'>www.feeditout.com1</a> (2013)</h2></p><p><img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/> <img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/www.feeditout.com1/commit/9575a9c5ec995c581d8cadb1fb0cd76701c9f459'>Add or update GitHub Actions workflows</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -1519,7 +1519,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/www.linux-group-policy.com' title='www.linux-group-policy.com'>www.linux-group-policy.com</a> (2013)</h2></p><p><img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/> <img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/www.linux-group-policy.com/commit/747b0893b1b6788157406b7dd8343873059450d4'>Add or update GitHub Actions workflows</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -1599,7 +1599,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/www.feeditout.com-2008' title='www.feeditout.com-2008'>www.feeditout.com-2008</a> (2011)</h2></p><p><img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP' height='20px'/> <img src='https://img.shields.io/badge/_-PLSQL -11DDDD.svg?style=for-the-badge' title='PLSQL' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/www.feeditout.com-2008/commit/6adb3fe66cc7816d5189cdd9f9b159fc2abb4452'>Add or update GitHub Actions workflows</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -2175,7 +2175,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/www.tadpole.tk' title='www.tadpole.tk'>www.tadpole.tk</a> (2006)</h2></p><p><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML' height='20px'/> <img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/> <img src='https://img.shields.io/badge/_-Hack -11DDDD.svg?style=for-the-badge' title='Hack' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/www.tadpole.tk/commit/a587053db6b3822aa2ecbd7c128e1ba752026c04'>Add or update GitHub Actions workflows</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -2239,7 +2239,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/www.biosed.org' title='www.biosed.org'>www.biosed.org</a> (2005)</h2></p><p><img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/> <img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML' height='20px'/> <img src='https://img.shields.io/badge/_-Hack -11DDDD.svg?style=for-the-badge' title='Hack' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/www.biosed.org/commit/6f417baee62e9731781173fb0bfbfd6c0370a34f'>Add or update GitHub Actions workflows</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -2255,7 +2255,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/www.livingartcork.com' title='www.livingartcork.com'>www.livingartcork.com</a> (2005)</h2></p><p><img src='https://img.shields.io/badge/_-Hack -11DDDD.svg?style=for-the-badge' title='Hack' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/www.livingartcork.com/commit/5d8d8a9af77238ec192aa1f62076dae07a8be0ea'>Add or update GitHub Actions workflows</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -2271,7 +2271,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/wpc-client' title='wpc-client'>wpc-client</a> (2005)</h2></p><p><img src='https://img.shields.io/badge/_-Visual Basic .NET -11DDDD.svg?style=for-the-badge' title='Visual Basic .NET' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/wpc-client/commit/250f3093983df17bc244696ad645a37da664c707'>Add or update GitHub Actions workflows</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -2335,7 +2335,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/www.feeditout.com' title='www.feeditout.com'>www.feeditout.com</a> (2005)</h2></p><p><img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP' height='20px'/> <img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/www.feeditout.com/commit/6be75ffd2c81fa07073a67b15080233ad19050ac'>Add or update GitHub Actions workflows</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -2511,7 +2511,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/www.feeditout.com2' title='www.feeditout.com2'>www.feeditout.com2</a> (2004)</h2></p><p><img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP' height='20px'/> <img src='https://img.shields.io/badge/_-Hack -11DDDD.svg?style=for-the-badge' title='Hack' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/www.feeditout.com2/commit/31757f567cc8935075233858564306ec9b1d42ea'>Add or update GitHub Actions workflows</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -2527,7 +2527,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/wpc-administrator' title='wpc-administrator'>wpc-administrator</a> (2004)</h2></p><p><img src='https://img.shields.io/badge/_-Visual Basic .NET -11DDDD.svg?style=for-the-badge' title='Visual Basic .NET' height='20px'/> <img src='https://img.shields.io/badge/_-XSLT -11DDDD.svg?style=for-the-badge' title='XSLT' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/wpc-administrator/commit/15c5662e88b7071c5e705571eba488ea3a9305e0'>Add or update GitHub Actions workflows</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -2607,7 +2607,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/www.antoyau.com' title='www.antoyau.com'>www.antoyau.com</a> (2003)</h2></p><p><img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP' height='20px'/> <img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML' height='20px'/> <img src='https://img.shields.io/badge/_-Hack -11DDDD.svg?style=for-the-badge' title='Hack' height='20px'/> <img src='https://img.shields.io/badge/_-ActionScript -11DDDD.svg?style=for-the-badge' title='ActionScript' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/www.antoyau.com/commit/891442e15bf346210ccb3c4de53a8fbf4a46925e'>Add or update GitHub Actions workflows</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -2639,7 +2639,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/www.livingartcork.net' title='www.livingartcork.net'>www.livingartcork.net</a> (2002)</h2></p><p><img src='https://img.shields.io/badge/_-Hack -11DDDD.svg?style=for-the-badge' title='Hack' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/www.livingartcork.net/commit/941e0c44c2ba40ac2760a4e771cd7a88303ecc97'>Add or update GitHub Actions workflows</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -2671,7 +2671,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/www.megalan.net' title='www.megalan.net'>www.megalan.net</a> (2002)</h2></p><p><img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP' height='20px'/> <img src='https://img.shields.io/badge/_-Smarty -11DDDD.svg?style=for-the-badge' title='Smarty' height='20px'/> <img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/www.megalan.net/commit/4b7b37a43f560597c128cb5506514272df4cb186'>Add or update GitHub Actions workflows</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -2719,7 +2719,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/www.nemohackers.org1' title='www.nemohackers.org1'>www.nemohackers.org1</a> (2001)</h2></p><p><img src='https://img.shields.io/badge/perl-%2339457E.svg?style=for-the-badge&logo=perl&logoColor=white' title='Perl' height='20px'/> <img src='https://img.shields.io/badge/_-Raku -11DDDD.svg?style=for-the-badge' title='Raku' height='20px'/> <img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML' height='20px'/> <img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/www.nemohackers.org1/commit/6126d44a056f64033178e86d4ff675ef06fb6412'>Add or update GitHub Actions workflows</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -2735,7 +2735,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/www.nemohackers.org2' title='www.nemohackers.org2'>www.nemohackers.org2</a> (2001)</h2></p><p><img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP' height='20px'/> <img src='https://img.shields.io/badge/perl-%2339457E.svg?style=for-the-badge&logo=perl&logoColor=white' title='Perl' height='20px'/> <img src='https://img.shields.io/badge/_-Raku -11DDDD.svg?style=for-the-badge' title='Raku' height='20px'/> <img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/www.nemohackers.org2/commit/dcd286953c2ba24f1b443355cc68544db4f8bc33'>Add or update GitHub Actions workflows</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -2751,7 +2751,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/www.realmoflight.org' title='www.realmoflight.org'>www.realmoflight.org</a> (2001)</h2></p><p><img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP' height='20px'/> <img src='https://img.shields.io/badge/_-Smarty -11DDDD.svg?style=for-the-badge' title='Smarty' height='20px'/> <img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML' height='20px'/> <img src='https://img.shields.io/badge/_-TSQL -11DDDD.svg?style=for-the-badge' title='TSQL' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/www.realmoflight.org/commit/7f98c38ac7bb45f0510482c096a187343355b87a'>Add or update GitHub Actions workflows</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -2767,7 +2767,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/www.clickherecork.com' title='www.clickherecork.com'>www.clickherecork.com</a> (2001)</h2></p><p><img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP' height='20px'/> <img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML' height='20px'/> <img src='https://img.shields.io/badge/_-Smarty -11DDDD.svg?style=for-the-badge' title='Smarty' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/> <img src='https://img.shields.io/badge/perl-%2339457E.svg?style=for-the-badge&logo=perl&logoColor=white' title='Perl' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/www.clickherecork.com/commit/2eaf1a367c73380040980079cffb328e3a03009d'>Add or update GitHub Actions workflows</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -2799,7 +2799,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/www.nemohackers.org4' title='www.nemohackers.org4'>www.nemohackers.org4</a> (2001)</h2></p><p><img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP' height='20px'/> <img src='https://img.shields.io/badge/perl-%2339457E.svg?style=for-the-badge&logo=perl&logoColor=white' title='Perl' height='20px'/> <img src='https://img.shields.io/badge/_-Raku -11DDDD.svg?style=for-the-badge' title='Raku' height='20px'/> <img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/www.nemohackers.org4/commit/15e559e2d45e627397015876cc49b5ab6d60bc80'>Add or update GitHub Actions workflows</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -2815,7 +2815,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/www.nemohackers.org3' title='www.nemohackers.org3'>www.nemohackers.org3</a> (2001)</h2></p><p><img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP' height='20px'/> <img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML' height='20px'/> <img src='https://img.shields.io/badge/perl-%2339457E.svg?style=for-the-badge&logo=perl&logoColor=white' title='Perl' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/_-Hack -11DDDD.svg?style=for-the-badge' title='Hack' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/www.nemohackers.org3/commit/42cec7a32233242ae9c0334f01f335ae4923ac91'>Add or update GitHub Actions workflows</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -2847,7 +2847,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/www.corrosioncomputers.org' title='www.corrosioncomputers.org'>www.corrosioncomputers.org</a> (2001)</h2></p><p><img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/www.corrosioncomputers.org/commit/1ebad4652372881baf232a523e08e61e91fa90d4'>Add or update GitHub Actions workflows</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -2879,7 +2879,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/www.corkcountybadminton.com' title='www.corkcountybadminton.com'>www.corkcountybadminton.com</a> (2000)</h2></p><p><img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/www.corkcountybadminton.com/commit/7471ee05ec3c2f9a2418349a324be815c5167130'>Add or update GitHub Actions workflows</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -2895,7 +2895,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/www.davesworld.com' title='www.davesworld.com'>www.davesworld.com</a> (1997)</h2></p><p><img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML' height='20px'/> <img src='https://img.shields.io/badge/_-PostScript -11DDDD.svg?style=for-the-badge' title='PostScript' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/www.davesworld.com/commit/4624d8a3624c20d250b1683a157a5012291cbabd'>Add or update GitHub Actions workflows</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>

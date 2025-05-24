@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-23/05/2025 00:42:29-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-24/05/2025 00:39:08-brightgreen" height='28'/>
 
 <table>
   <tr>
@@ -8,7 +8,7 @@
       <h3>Pull Requests (2)</h3>
       <ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/41'>Bump @babel/runtime from 7.17.9 to 7.27.1 in /frontend</a> 2025-05-09</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/35'>Bump axios from 0.28.0 to 0.30.0 in /frontend</a> 2025-04-28</li></ul>
       <h3>Recent Acivity</h3>
-      <ul><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/43e101cdd29571936b2610cfb73524ca00c3e48a'>refactor(certbot): streamline orphan cleanup script and improve directory handling</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/e6d3ef10e5a30fb501c71d507e799f57293d3456'>refactor(apt): simplify apt-listbugs removal process</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/8b4f9f42f7c07bb69d39b496e3b281c4e82ecc8b'>fix(apt): update apt-listbugs removal process to prevent errors</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/af2220a8e95f28acebedafeaa4e415cead18cb6a'>fix(apt): handle apt-listbugs removal errors gracefully</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/8d4afb43c0f7596e86a0fde7cf703987dab6f046'>feat(apt): add patch for apt-listbugs postrm script and force removal logic</a></li></ul>
+      <ul><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/0b2f0cd937acfb2b28eeeabdea3b8d892569c6bb'>chore(postfix): remove obsolete database files and update compatibility level</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/d061223c91568614eca683a52ee231aff81be220'>chore(postfix): remove obsolete database files and update task configuration</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/0b2f0cd937acfb2b28eeeabdea3b8d892569c6bb'>chore(postfix): remove obsolete database files and update compatibility level</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/d061223c91568614eca683a52ee231aff81be220'>chore(postfix): remove obsolete database files and update task configuration</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/d061223c91568614eca683a52ee231aff81be220'>chore(postfix): remove obsolete database files and update task configuration</a></li></ul>
       <h3>Gists</h3>
       <ul><li><a href='https://gist.github.com/dmzoneill/441f88a5c73136b8128c252ad84100b3'></a></li><li><a href='https://gist.github.com/dmzoneill/80bfef9603448c33df02ce0aa98fcd59'>AI git Commit</a></li><li><a href='https://gist.github.com/dmzoneill/7c9159b30950621c065791e7861be174'>Python GTK4 ColumnView Sorting and Binding</a></li><li><a href='https://gist.github.com/dmzoneill/19a4fbd799f1e5bcc050ddb4b0a65403'>sorted listed model gtk4</a></li><li><a href='https://gist.github.com/dmzoneill/74033698f65a5a1539d686452a73dce8'>Pygtk4 ColumnView</a></li><li><a href='https://gist.github.com/dmzoneill/497746f38c5786c96e8859f1131667af'>awx-operator 2.15..16</a></li><li><a href='https://gist.github.com/dmzoneill/67a908fb949dc95bbbf02f0446a07f0a'>durex fun</a></li><li><a href='https://gist.github.com/dmzoneill/d13d88b16d4d0aa90cb108a00ab3cf01'>10GB tuning</a></li><li><a href='https://gist.github.com/dmzoneill/575ba9c32375c41cb1041e9064de0678'>Synology 108tb limit bypass</a></li><li><a href='https://gist.github.com/dmzoneill/cbc75e502dbe2b78651f68d6320b714a'>AA active queries</a></li><li><a href='https://gist.github.com/dmzoneill/faaa84782eaed4d2dc28ad55c19119ee'>PHP Paypal Instant Payment Notification</a></li></ul>
     </td>
@@ -42,7 +42,7 @@
   </thead>
   <tbody>
     <tr><td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>1540667</td>
-<td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>1484595</td>
+<td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>1487217</td>
 <td><img src='https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white' title='Swift'  height='20px'/></td><td>163276</td>
 <td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>338970</td>
 </tr><tr>
@@ -126,7 +126,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/dmzoneill' title='dmzoneill'>dmzoneill</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/dmzoneill/commit/83186c3923a5b4f58461d438701f47006141f763'>feat: add substantial change detection for commits</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/08e16f211c7ddd77de39d6fec5e25b240707d5ba'>fix(redis-notify): update payload format for Redis command execution</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/4d69dd745f4edcdb9f41f9d93248cc77b7f3c30b'>feat(redis-notify): add basic authentication support for Redis connection</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/653f68b3b84fa06d0ff5652d1520332d50263334'>feat(redis-notify): add JSON payload support and basic auth for Webdis requests</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/fbec744db8324b2af33a9d1720ef4f873dbc910b'>fix(redis-notify): remove Redis client installation and update message sending method</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -135,7 +135,7 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2025-05-22</p>
+              <p>2025-05-23</p>
             </td>
         </tr>
 <tr>
@@ -351,7 +351,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/ansible-feeditout-com' title='ansible-feeditout-com'>ansible-feeditout-com</a> (2025)</h2></p><p><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/> <img src='https://img.shields.io/badge/_-Jinja -11DDDD.svg?style=for-the-badge' title='Jinja' height='20px'/> <img src='https://img.shields.io/badge/_-M4 -11DDDD.svg?style=for-the-badge' title='M4' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/43e101cdd29571936b2610cfb73524ca00c3e48a'>refactor(certbot): streamline orphan cleanup script and improve directory handling</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/e6d3ef10e5a30fb501c71d507e799f57293d3456'>refactor(apt): simplify apt-listbugs removal process</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/8b4f9f42f7c07bb69d39b496e3b281c4e82ecc8b'>fix(apt): update apt-listbugs removal process to prevent errors</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/af2220a8e95f28acebedafeaa4e415cead18cb6a'>fix(apt): handle apt-listbugs removal errors gracefully</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/8d4afb43c0f7596e86a0fde7cf703987dab6f046'>feat(apt): add patch for apt-listbugs postrm script and force removal logic</a></li></ul></p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/0b2f0cd937acfb2b28eeeabdea3b8d892569c6bb'>chore(postfix): remove obsolete database files and update compatibility level</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/d061223c91568614eca683a52ee231aff81be220'>chore(postfix): remove obsolete database files and update task configuration</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/0b2f0cd937acfb2b28eeeabdea3b8d892569c6bb'>chore(postfix): remove obsolete database files and update compatibility level</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/d061223c91568614eca683a52ee231aff81be220'>chore(postfix): remove obsolete database files and update task configuration</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/d061223c91568614eca683a52ee231aff81be220'>chore(postfix): remove obsolete database files and update task configuration</a></li></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -360,14 +360,14 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/ansible-feeditout-com/actions'><img src='https://github.com/dmzoneill//ansible-feeditout-com/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2025-05-22</p>
+              <p>2025-05-23</p>
             </td>
         </tr>
 <tr>
             <td>
               <p><h2><a href='https://github.com/dmzoneill/pass-gnome-extension' title='pass-gnome-extension'>pass-gnome-extension</a> (2025)</h2></p><p><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/pass-gnome-extension/commit/21034a1f9c8d31df50359dc8b2135e65035da246'>Add or update GitHub Actions workflows</a></li><li><a href='https://github.com/dmzoneill/pass-gnome-extension/commit/fae62ba675d0efb77c7eaa53e9a6e51c5d81661c'>chore: update version to 0.0.7 and clean up code formatting</a></li><li><a href='https://github.com/dmzoneill/pass-gnome-extension/commit/7ccaa704b178da1936260f152b753a9b006f2f53'>chore: update version to 0.0.7 and clean up code formatting</a></li><li><a href='https://github.com/dmzoneill/pass-gnome-extension/commit/f200e700a77513cadff9624d14ad1eb3ecff6cb9'>chore: update version to 0.0.7 and clean up code formatting</a></li><li><a href='https://github.com/dmzoneill/pass-gnome-extension/commit/6de3a211156f6f4252a0ef134562fdd58b1d98c6'>Review feedback</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>

@@ -6,10 +6,14 @@ import base64
 
 def main():
     if len(sys.argv) != 2:
-        print("Usage: python send_webdis_message.py <message>")
+        print("Usage: python redis-.py <message>")
         sys.exit(1)
 
     message = sys.argv[1]
+
+    # Remove "dmzoneill/" prefix if present
+    if message.startswith("dmzoneill/"):
+        message = message[len("dmzoneill/"):]
 
     # Configuration
     host = os.getenv("REDIS_HOST", "185.219.84.242")

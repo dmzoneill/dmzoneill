@@ -1,14 +1,14 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-25/05/2025 00:43:36-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-26/05/2025 00:41:17-brightgreen" height='28'/>
 
 <table>
   <tr>
     <td>
-      <h3>Issues (20)</h3>
+      <h3>Issues (21)</h3>
       <li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/7'>seeder log</a> 2024-05-13</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/5'>status column view selection and filtering</a> 2024-05-13</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/4'>log select box single torrent</a> 2024-05-13</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/3'>rightclick context update tracker, stop, pause, resume</a> 2024-05-13</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/2'>multi select toolbar updates</a> 2024-05-18</li>
       <h3>Pull Requests (2)</h3>
       <ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/41'>Bump @babel/runtime from 7.17.9 to 7.27.1 in /frontend</a> 2025-05-09</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/35'>Bump axios from 0.28.0 to 0.30.0 in /frontend</a> 2025-04-28</li></ul>
       <h3>Recent Acivity</h3>
-      <ul><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/37813a5cf8efdecec3ff45b4897c6c06e9a899f2'>feat(postfix): add postmaster alias for email notifications</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/55c39877c47500fa938fab1e825da79716eb43b0'>fix(postfix): remove duplicate smtpd_tls_auth_only setting and add postmaster alias</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/2d6da7e95fbee2cf787ebdba89b8009093acf464'>feat(postfix): enable SASL authentication and configure permissions</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/df4f0942c297d9e0ade5de65be8ca1e3ebc36201'>feat(postfix): enable SASL authentication and configure socket permissions</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/d1658f0dcd3a23e37e026d1555026bc143775a62'>feat(postfix): sync passwd and group into postfix chroot</a></li></ul>
+      <ul><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/5820acfc0defe2cb3484f2953990acc037c3d3a5'>style(fail2ban): format configuration for consistency and readability</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/3b313697367669b147fc7aefe157c74afccc022f'>fix(fail2ban): update action configurations for iptables multiport support</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/d239bc364010bd03de083034d439599143614f51'>fix(fail2ban): update action to use iptables-multiport for multiple services</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/6a563a78eaca111a882dfe7603f6ce4bd52115ef'>fix(fail2ban): correct action syntax in jail.local configuration</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/845c675384190613c52427d2f69d8be89093a9c2'>feat(fail2ban): add new action configuration for email notifications</a></li></ul>
       <h3>Gists</h3>
       <ul><li><a href='https://gist.github.com/dmzoneill/441f88a5c73136b8128c252ad84100b3'></a></li><li><a href='https://gist.github.com/dmzoneill/80bfef9603448c33df02ce0aa98fcd59'>AI git Commit</a></li><li><a href='https://gist.github.com/dmzoneill/7c9159b30950621c065791e7861be174'>Python GTK4 ColumnView Sorting and Binding</a></li><li><a href='https://gist.github.com/dmzoneill/19a4fbd799f1e5bcc050ddb4b0a65403'>sorted listed model gtk4</a></li><li><a href='https://gist.github.com/dmzoneill/74033698f65a5a1539d686452a73dce8'>Pygtk4 ColumnView</a></li><li><a href='https://gist.github.com/dmzoneill/497746f38c5786c96e8859f1131667af'>awx-operator 2.15..16</a></li><li><a href='https://gist.github.com/dmzoneill/67a908fb949dc95bbbf02f0446a07f0a'>durex fun</a></li><li><a href='https://gist.github.com/dmzoneill/d13d88b16d4d0aa90cb108a00ab3cf01'>10GB tuning</a></li><li><a href='https://gist.github.com/dmzoneill/575ba9c32375c41cb1041e9064de0678'>Synology 108tb limit bypass</a></li><li><a href='https://gist.github.com/dmzoneill/cbc75e502dbe2b78651f68d6320b714a'>AA active queries</a></li><li><a href='https://gist.github.com/dmzoneill/faaa84782eaed4d2dc28ad55c19119ee'>PHP Paypal Instant Payment Notification</a></li></ul>
     </td>
@@ -41,8 +41,8 @@
     </tr>
   </thead>
   <tbody>
-    <tr><td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>1541747</td>
-<td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>1487217</td>
+    <tr><td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>1524053</td>
+<td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>1446771</td>
 <td><img src='https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white' title='Swift'  height='20px'/></td><td>163276</td>
 <td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>338970</td>
 </tr><tr>
@@ -64,7 +64,7 @@
 <td><img src='https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white' title='Ruby'  height='20px'/></td><td>507181</td>
 <td><img src='https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white' title='C'  height='20px'/></td><td>15566491</td>
 <td><img src='https://img.shields.io/badge/_-COBOL -11DDDD.svg?style=for-the-badge' title='COBOL'  height='20px'/></td><td>964</td>
-<td><img src='https://img.shields.io/badge/_-Jinja -11DDDD.svg?style=for-the-badge' title='Jinja'  height='20px'/></td><td>22385</td>
+<td><img src='https://img.shields.io/badge/_-Jinja -11DDDD.svg?style=for-the-badge' title='Jinja'  height='20px'/></td><td>22796</td>
 </tr><tr>
 <td><img src='https://img.shields.io/badge/_-M4 -11DDDD.svg?style=for-the-badge' title='M4'  height='20px'/></td><td>132592</td>
 <td><img src='https://img.shields.io/badge/_-ActionScript -11DDDD.svg?style=for-the-badge' title='ActionScript'  height='20px'/></td><td>32949</td>
@@ -126,7 +126,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/dmzoneill' title='dmzoneill'>dmzoneill</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><ul></ul></p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/dmzoneill/commit/22928fd4437ee7d48ffd9886d05d608e978d2955'>feat(redis): add dependency installation step and update usage message</a></li></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -135,7 +135,7 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2025-05-24</p>
+              <p>2025-05-25</p>
             </td>
         </tr>
 <tr>
@@ -159,7 +159,7 @@
               <p><h2><a href='https://github.com/dmzoneill/lidarr-youtube-downloader' title='lidarr-youtube-downloader'>lidarr-youtube-downloader</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/> <img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile' height='20px'/</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
-              <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/25'>Most releases found are missing tracks</a> 2025-05-10</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/23'>Track Format & FFMPEG not adding metadata</a> 2025-05-10</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/21'>Issue with Lidarr recognizing downloaded audio and incorrect metadata in Jellyfin</a> 2025-05-10</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/12'>REQ: Ability to set percentage match cutoff and/or keyword blacklist such as "live" or whitelist "official" in title.</a> 2025-05-10</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/11'>Deployment Loop and "workaround".</a> 2025-05-10</li></ul></p>
+              <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/27'>There should be a way to pass cookies to the downloader</a> 2025-05-10</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/25'>Most releases found are missing tracks</a> 2025-05-10</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/23'>Track Format & FFMPEG not adding metadata</a> 2025-05-10</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/21'>Issue with Lidarr recognizing downloaded audio and incorrect metadata in Jellyfin</a> 2025-05-10</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/12'>REQ: Ability to set percentage match cutoff and/or keyword blacklist such as "live" or whitelist "official" in title.</a> 2025-05-10</li></ul></p>
               <p><ul></ul></p>
             </td>
             <td>
@@ -349,9 +349,9 @@
 
 </tbody></table><h2>2025</h2><table width='100%' style='width:100%'><thead><tr><th>Project</th><th>View</th><th>Status</th></tr></thead><tbody><tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/ansible-feeditout-com' title='ansible-feeditout-com'>ansible-feeditout-com</a> (2025)</h2></p><p><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/> <img src='https://img.shields.io/badge/_-Jinja -11DDDD.svg?style=for-the-badge' title='Jinja' height='20px'/> <img src='https://img.shields.io/badge/_-M4 -11DDDD.svg?style=for-the-badge' title='M4' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/ansible-feeditout-com' title='ansible-feeditout-com'>ansible-feeditout-com</a> (2025)</h2></p><p><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/> <img src='https://img.shields.io/badge/_-Jinja -11DDDD.svg?style=for-the-badge' title='Jinja' height='20px'/> <img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/_-M4 -11DDDD.svg?style=for-the-badge' title='M4' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/37813a5cf8efdecec3ff45b4897c6c06e9a899f2'>feat(postfix): add postmaster alias for email notifications</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/55c39877c47500fa938fab1e825da79716eb43b0'>fix(postfix): remove duplicate smtpd_tls_auth_only setting and add postmaster alias</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/2d6da7e95fbee2cf787ebdba89b8009093acf464'>feat(postfix): enable SASL authentication and configure permissions</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/df4f0942c297d9e0ade5de65be8ca1e3ebc36201'>feat(postfix): enable SASL authentication and configure socket permissions</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/d1658f0dcd3a23e37e026d1555026bc143775a62'>feat(postfix): sync passwd and group into postfix chroot</a></li></ul></p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/5820acfc0defe2cb3484f2953990acc037c3d3a5'>style(fail2ban): format configuration for consistency and readability</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/3b313697367669b147fc7aefe157c74afccc022f'>fix(fail2ban): update action configurations for iptables multiport support</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/d239bc364010bd03de083034d439599143614f51'>fix(fail2ban): update action to use iptables-multiport for multiple services</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/6a563a78eaca111a882dfe7603f6ce4bd52115ef'>fix(fail2ban): correct action syntax in jail.local configuration</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/845c675384190613c52427d2f69d8be89093a9c2'>feat(fail2ban): add new action configuration for email notifications</a></li></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -360,7 +360,7 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/ansible-feeditout-com/actions'><img src='https://github.com/dmzoneill//ansible-feeditout-com/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2025-05-24</p>
+              <p>2025-05-25</p>
             </td>
         </tr>
 <tr>

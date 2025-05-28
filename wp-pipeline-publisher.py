@@ -688,7 +688,7 @@ def is_substantial_change(
         return True
 
     # For others, check if there's at least one non-trivial change
-    if total_changes >= 5:
+    if total_changes >= 25:
         # Also exclude if only markdown or doc files were touched
         non_doc_files = [
             f

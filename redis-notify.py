@@ -13,6 +13,7 @@ def main():
 
     # Remove "dmzoneill/" prefix if present
     message = message.replace("/dmzoneill", "")
+    print(message)
 
     # Configuration
     host = os.getenv("REDIS_HOST", "185.219.84.242")

@@ -358,8 +358,17 @@ on:
         type: string
         default: "true"
 
-
 jobs:
+  pipeline-start:
+    name: Notify pipeline start
+    runs-on: ubuntu-latest
+    steps:
+      - name: Notify Webdis pipeline started
+        uses: dmzoneill/dmzoneill/.github/actions/redis@main
+        with:
+          message: ${{ github.sha }}
+          redis_password: ${{ secrets.REDIS_PASSWORD }}
+
   lint:
     runs-on: ubuntu-latest
     name: Lint
@@ -1383,3 +1392,22 @@ jobs:
           message: "${{ github.repository }} published blog post"
           redis_password: ${{ secrets.REDIS_PASSWORD }}
 
+  pipeline-finalize:
+    name: Finalize pipeline
+    runs-on: ubuntu-latest
+    needs: [rebuild-profile, blog]  # or your final jobs
+    if: always()
+    steps:
+      - name: Set status message
+        run: |
+          if [[ "${{ job.status }}" == "success" ]]; then
+            echo "PIPELINE_STATUS=succeeded" >> $GITHUB_ENV
+          else
+            echo "PIPELINE_STATUS=failed" >> $GITHUB_ENV
+          fi
+
+      - name: Notify Webdis pipeline finished
+        uses: dmzoneill/dmzoneill/.github/actions/redis@main
+        with:
+          message: ${{ github.sha }}
+          redis_password: ${{ secrets.REDIS_PASSWORD }}

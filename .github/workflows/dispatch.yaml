@@ -360,7 +360,7 @@ on:
 
 jobs:
   pipeline-start:
-    name: Notify pipeline start
+    name: Pipeline start
     runs-on: ubuntu-latest
     steps:
       - name: Notify Webdis pipeline started
@@ -371,6 +371,7 @@ jobs:
 
   lint:
     runs-on: ubuntu-latest
+    needs: pipeline-start
     name: Lint
     steps:
       - name: Checkout code
@@ -1392,8 +1393,8 @@ jobs:
           message: "${{ github.sha }} ${{ github.repository }} published blog post"
           redis_password: ${{ secrets.REDIS_PASSWORD }}
 
-  pipeline-finalize:
-    name: Finalize pipeline
+  pipeline-end:
+    name: Pipeline end
     runs-on: ubuntu-latest
     needs: [rebuild-profile, blog]  # or your final jobs
     if: always()

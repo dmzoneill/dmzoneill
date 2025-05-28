@@ -12,7 +12,7 @@ def main():
     message = sys.argv[1]
 
     # Remove "dmzoneill/" prefix if present
-    message = message.replace("/dmzoneill", "")
+    message = message.replace("dmzoneill/", "")
     print(message)
 
     # Configuration

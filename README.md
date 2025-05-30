@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-29/05/2025 00:40:25-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-30/05/2025 00:40:34-brightgreen" height='28'/>
 
 <table>
   <tr>
@@ -8,7 +8,7 @@
       <h3>Pull Requests (2)</h3>
       <ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/41'>Bump @babel/runtime from 7.17.9 to 7.27.1 in /frontend</a> 2025-05-09</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/35'>Bump axios from 0.28.0 to 0.30.0 in /frontend</a> 2025-04-28</li></ul>
       <h3>Recent Acivity</h3>
-      <ul><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/3aae5589f86c05219f2886aa9b484ff5fab02cd0'>chore(vars): replace hardcoded values with role variables in migrated.yml</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/6579558741658c9adc9b5c65ae0e5a808ef55a50'>fix notifier</a></li><li><a href='https://github.com/dmzoneill/dmzoneill/commit/3e2f07e15a66cf8ad18ba25dbc61af130c9e3a53'>fix notifier</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/5a2328f255fc6bce6bdf917f080eb46605a2af2b'>chore(vars): replace hardcoded values with role variables in migrated.yml</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/8d045ae7f9b19beaa318161be922c2b172c17c15'>chore(host_vars): restructure domain configuration for clarity and consistency</a></li></ul>
+      <ul><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/fcd6c998e7f63adf8c5af7eb76dd279c688318c4'>feat(apache2): add role_user and loglevel configuration options</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/06bc43c261a4ec07a8f2135cdf2e35d6cb3a06d9'>feat(apache2): add www redirect vhosts for HTTP and HTTPS</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/d38cff7f9b9c0dfa05013628c17af13ca67be887'>fix(templates): correct condition for domain aliases in insecure.conf.j2</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/bee222161987b7dc91f2d7efa4de761cb0a3f272'>refactor(apache2): remove www redirect vhosts for HTTP and HTTPS</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/98fdfd9496483182a5575ae3398e132dbc428c20'>feat(apache2): add www redirect vhosts for HTTP and HTTPS</a></li></ul>
       <h3>Gists</h3>
       <ul><li><a href='https://gist.github.com/dmzoneill/441f88a5c73136b8128c252ad84100b3'></a></li><li><a href='https://gist.github.com/dmzoneill/80bfef9603448c33df02ce0aa98fcd59'>AI git Commit</a></li><li><a href='https://gist.github.com/dmzoneill/7c9159b30950621c065791e7861be174'>Python GTK4 ColumnView Sorting and Binding</a></li><li><a href='https://gist.github.com/dmzoneill/19a4fbd799f1e5bcc050ddb4b0a65403'>sorted listed model gtk4</a></li><li><a href='https://gist.github.com/dmzoneill/74033698f65a5a1539d686452a73dce8'>Pygtk4 ColumnView</a></li><li><a href='https://gist.github.com/dmzoneill/497746f38c5786c96e8859f1131667af'>awx-operator 2.15..16</a></li><li><a href='https://gist.github.com/dmzoneill/67a908fb949dc95bbbf02f0446a07f0a'>durex fun</a></li><li><a href='https://gist.github.com/dmzoneill/d13d88b16d4d0aa90cb108a00ab3cf01'>10GB tuning</a></li><li><a href='https://gist.github.com/dmzoneill/575ba9c32375c41cb1041e9064de0678'>Synology 108tb limit bypass</a></li><li><a href='https://gist.github.com/dmzoneill/cbc75e502dbe2b78651f68d6320b714a'>AA active queries</a></li><li><a href='https://gist.github.com/dmzoneill/faaa84782eaed4d2dc28ad55c19119ee'>PHP Paypal Instant Payment Notification</a></li></ul>
     </td>
@@ -42,7 +42,7 @@
   </thead>
   <tbody>
     <tr><td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>1524040</td>
-<td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>1446772</td>
+<td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>1446779</td>
 <td><img src='https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white' title='Swift'  height='20px'/></td><td>163276</td>
 <td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>338970</td>
 </tr><tr>
@@ -64,7 +64,7 @@
 <td><img src='https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white' title='Ruby'  height='20px'/></td><td>507181</td>
 <td><img src='https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white' title='C'  height='20px'/></td><td>15566491</td>
 <td><img src='https://img.shields.io/badge/_-COBOL -11DDDD.svg?style=for-the-badge' title='COBOL'  height='20px'/></td><td>964</td>
-<td><img src='https://img.shields.io/badge/_-Jinja -11DDDD.svg?style=for-the-badge' title='Jinja'  height='20px'/></td><td>26557</td>
+<td><img src='https://img.shields.io/badge/_-Jinja -11DDDD.svg?style=for-the-badge' title='Jinja'  height='20px'/></td><td>29559</td>
 </tr><tr>
 <td><img src='https://img.shields.io/badge/_-M4 -11DDDD.svg?style=for-the-badge' title='M4'  height='20px'/></td><td>132592</td>
 <td><img src='https://img.shields.io/badge/_-ActionScript -11DDDD.svg?style=for-the-badge' title='ActionScript'  height='20px'/></td><td>32949</td>
@@ -135,7 +135,7 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2025-05-28</p>
+              <p>2025-05-29</p>
             </td>
         </tr>
 <tr>
@@ -351,7 +351,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/ansible-feeditout-com' title='ansible-feeditout-com'>ansible-feeditout-com</a> (2025)</h2></p><p><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/_-Jinja -11DDDD.svg?style=for-the-badge' title='Jinja' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/> <img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/_-M4 -11DDDD.svg?style=for-the-badge' title='M4' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/3aae5589f86c05219f2886aa9b484ff5fab02cd0'>chore(vars): replace hardcoded values with role variables in migrated.yml</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/5a2328f255fc6bce6bdf917f080eb46605a2af2b'>chore(vars): replace hardcoded values with role variables in migrated.yml</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/8d045ae7f9b19beaa318161be922c2b172c17c15'>chore(host_vars): restructure domain configuration for clarity and consistency</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/407460705a31fc0140ca4599846065cd6db26a48'>fix(redis): update http_host to allow only IPv4 address</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/da54654f13f4b0978985e9a3a67ad7f7a77c8ec4'>feat(redis): add template for webdis configuration file</a></li></ul></p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/fcd6c998e7f63adf8c5af7eb76dd279c688318c4'>feat(apache2): add role_user and loglevel configuration options</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/06bc43c261a4ec07a8f2135cdf2e35d6cb3a06d9'>feat(apache2): add www redirect vhosts for HTTP and HTTPS</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/d38cff7f9b9c0dfa05013628c17af13ca67be887'>fix(templates): correct condition for domain aliases in insecure.conf.j2</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/bee222161987b7dc91f2d7efa4de761cb0a3f272'>refactor(apache2): remove www redirect vhosts for HTTP and HTTPS</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/98fdfd9496483182a5575ae3398e132dbc428c20'>feat(apache2): add www redirect vhosts for HTTP and HTTPS</a></li></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -360,7 +360,7 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/ansible-feeditout-com/actions'><img src='https://github.com/dmzoneill//ansible-feeditout-com/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2025-05-28</p>
+              <p>2025-05-29</p>
             </td>
         </tr>
 <tr>

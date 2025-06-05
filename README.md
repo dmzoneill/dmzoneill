@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-04/06/2025 00:41:50-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-05/06/2025 00:40:51-brightgreen" height='28'/>
 
 <table>
   <tr>
@@ -8,7 +8,7 @@
       <h3>Pull Requests (2)</h3>
       <ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/41'>Bump @babel/runtime from 7.17.9 to 7.27.1 in /frontend</a> 2025-05-09</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/35'>Bump axios from 0.28.0 to 0.30.0 in /frontend</a> 2025-04-28</li></ul>
       <h3>Recent Acivity</h3>
-      <ul><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/0fd4615496af9a919e3ab03547c7052d28b22e7f'>refactor(iptables): simplify rule normalization by removing log level handling</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/a9ff03a3316a9e15cce9250d61c5b5b6f679f0ac'>fix(iptables): update log prefix and remove log level handling</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/817cab40b311fe3d364e68ada25d53b5b66f10c6'>fix(iptables): update log_prefix to remove unnecessary characters</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/9a8f09ed6275a175a9b3fff2837cd444258f2ee3'>fix(iptables): correct log_prefix formatting in migrated.yml</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/4b2677b5b7bf225667908e406cb79488e93d07e6'>fix(iptables): reorder ctstate values for clarity</a></li></ul>
+      <ul><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/dfddad66cb5fc8fbd914c82a1ec91ef7e1b68853'>fix(grub): update regex to remove quotes from GRUB_CMDLINE_LINUX</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/1a271b1fd2517eff5ee6bce4df6b3d68c67f688f'>do it</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/3d51890d642f12b2200f5302c99762b223d66bee'>feat(grub): update GRUB_CMDLINE_LINUX and ensure GRUB_TIMEOUT is set to 120 seconds</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/8b6bb2f3aedbaac697b8226350c065b2d7b581ce'>feat(grub): update GRUB_CMDLINE_LINUX and set GRUB_TIMEOUT to 120 seconds</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/344346a29ba93a53a3b420b065cbb7b5c00bf4c1'>chore(host_vars): update migrated secrets file with new values</a></li></ul>
       <h3>Gists</h3>
       <ul><li><a href='https://gist.github.com/dmzoneill/441f88a5c73136b8128c252ad84100b3'></a></li><li><a href='https://gist.github.com/dmzoneill/80bfef9603448c33df02ce0aa98fcd59'>AI git Commit</a></li><li><a href='https://gist.github.com/dmzoneill/7c9159b30950621c065791e7861be174'>Python GTK4 ColumnView Sorting and Binding</a></li><li><a href='https://gist.github.com/dmzoneill/19a4fbd799f1e5bcc050ddb4b0a65403'>sorted listed model gtk4</a></li><li><a href='https://gist.github.com/dmzoneill/74033698f65a5a1539d686452a73dce8'>Pygtk4 ColumnView</a></li><li><a href='https://gist.github.com/dmzoneill/497746f38c5786c96e8859f1131667af'>awx-operator 2.15..16</a></li><li><a href='https://gist.github.com/dmzoneill/67a908fb949dc95bbbf02f0446a07f0a'>durex fun</a></li><li><a href='https://gist.github.com/dmzoneill/d13d88b16d4d0aa90cb108a00ab3cf01'>10GB tuning</a></li><li><a href='https://gist.github.com/dmzoneill/575ba9c32375c41cb1041e9064de0678'>Synology 108tb limit bypass</a></li><li><a href='https://gist.github.com/dmzoneill/cbc75e502dbe2b78651f68d6320b714a'>AA active queries</a></li><li><a href='https://gist.github.com/dmzoneill/faaa84782eaed4d2dc28ad55c19119ee'>PHP Paypal Instant Payment Notification</a></li></ul>
     </td>
@@ -135,7 +135,7 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2025-06-03</p>
+              <p>2025-06-04</p>
             </td>
         </tr>
 <tr>
@@ -351,7 +351,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/ansible-feeditout-com' title='ansible-feeditout-com'>ansible-feeditout-com</a> (2025)</h2></p><p><img src='https://img.shields.io/badge/_-Jinja -11DDDD.svg?style=for-the-badge' title='Jinja' height='20px'/> <img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/> <img src='https://img.shields.io/badge/_-M4 -11DDDD.svg?style=for-the-badge' title='M4' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/0fd4615496af9a919e3ab03547c7052d28b22e7f'>refactor(iptables): simplify rule normalization by removing log level handling</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/a9ff03a3316a9e15cce9250d61c5b5b6f679f0ac'>fix(iptables): update log prefix and remove log level handling</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/817cab40b311fe3d364e68ada25d53b5b66f10c6'>fix(iptables): update log_prefix to remove unnecessary characters</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/9a8f09ed6275a175a9b3fff2837cd444258f2ee3'>fix(iptables): correct log_prefix formatting in migrated.yml</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/4b2677b5b7bf225667908e406cb79488e93d07e6'>fix(iptables): reorder ctstate values for clarity</a></li></ul></p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/dfddad66cb5fc8fbd914c82a1ec91ef7e1b68853'>fix(grub): update regex to remove quotes from GRUB_CMDLINE_LINUX</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/1a271b1fd2517eff5ee6bce4df6b3d68c67f688f'>do it</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/3d51890d642f12b2200f5302c99762b223d66bee'>feat(grub): update GRUB_CMDLINE_LINUX and ensure GRUB_TIMEOUT is set to 120 seconds</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/8b6bb2f3aedbaac697b8226350c065b2d7b581ce'>feat(grub): update GRUB_CMDLINE_LINUX and set GRUB_TIMEOUT to 120 seconds</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/344346a29ba93a53a3b420b065cbb7b5c00bf4c1'>chore(host_vars): update migrated secrets file with new values</a></li></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -360,7 +360,7 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/ansible-feeditout-com/actions'><img src='https://github.com/dmzoneill//ansible-feeditout-com/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2025-06-03</p>
+              <p>2025-06-04</p>
             </td>
         </tr>
 <tr>

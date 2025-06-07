@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-06/06/2025 00:41:01-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-07/06/2025 00:41:39-brightgreen" height='28'/>
 
 <table>
   <tr>
@@ -8,7 +8,7 @@
       <h3>Pull Requests (3)</h3>
       <ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/42'>Bump webpack-dev-server from 4.9.0 to 5.2.1 in /frontend</a> 2025-06-05</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/41'>Bump @babel/runtime from 7.17.9 to 7.27.1 in /frontend</a> 2025-05-09</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/35'>Bump axios from 0.28.0 to 0.30.0 in /frontend</a> 2025-04-28</li></ul>
       <h3>Recent Acivity</h3>
-      <ul><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/865b449feecabc78bdc028db73201b259b0a1e6e'>feat(node_exporter): add systemd collector support to Node Exporter container configuration</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/d51470f7a827d2b15fad54d81f522cb1778bc65e'>feat(node_exporter): add systemd collector support to Node Exporter container configuration</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/c4ca2dae359d4fca8fe7079ec14b25c2b93643c9'>fix(prometheus): reduce alert duration from 1m to 10s for service checks</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/2c6b844b9262f94e627cdc966bf3405d80b1fbe3'>fix(prometheus): reduce alert duration from 1m to 10s for service checks</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/6d3fab08a6abdef4571e01a747c8c2797f5ddd5f'>fix(prometheus): correct template file extensions from .yaml to .yml</a></li></ul>
+      <ul><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/5c8a0e65a466d4cfb1378f43f581250bf4151379'>fix(alert_webhook): update Redis channel to list for alert publishing</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/cc5cf112291a0f9fbba2e496bbc16b2d74d39e6a'>fix(alert_webhook): update Redis channel to list and change listener port</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/8f7c099099efb73a8874ea40b7b51a64e1fd85e0'>feat(alert_webhook): add logging and error handling for Redis connection and webhook processing</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/cf1934bdfe2ddedf7d36f64716b79c78c5e3f235'>feat(alert_webhook): enhance Redis connection handling and logging in webhook service</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/bbf62b9b42b73b8fdfc7c5d30f9eae3fc56b8a94'>fix(alertmanager): update webhook URL to include path</a></li></ul>
       <h3>Gists</h3>
       <ul><li><a href='https://gist.github.com/dmzoneill/441f88a5c73136b8128c252ad84100b3'></a></li><li><a href='https://gist.github.com/dmzoneill/80bfef9603448c33df02ce0aa98fcd59'>AI git Commit</a></li><li><a href='https://gist.github.com/dmzoneill/7c9159b30950621c065791e7861be174'>Python GTK4 ColumnView Sorting and Binding</a></li><li><a href='https://gist.github.com/dmzoneill/19a4fbd799f1e5bcc050ddb4b0a65403'>sorted listed model gtk4</a></li><li><a href='https://gist.github.com/dmzoneill/74033698f65a5a1539d686452a73dce8'>Pygtk4 ColumnView</a></li><li><a href='https://gist.github.com/dmzoneill/497746f38c5786c96e8859f1131667af'>awx-operator 2.15..16</a></li><li><a href='https://gist.github.com/dmzoneill/67a908fb949dc95bbbf02f0446a07f0a'>durex fun</a></li><li><a href='https://gist.github.com/dmzoneill/d13d88b16d4d0aa90cb108a00ab3cf01'>10GB tuning</a></li><li><a href='https://gist.github.com/dmzoneill/575ba9c32375c41cb1041e9064de0678'>Synology 108tb limit bypass</a></li><li><a href='https://gist.github.com/dmzoneill/cbc75e502dbe2b78651f68d6320b714a'>AA active queries</a></li><li><a href='https://gist.github.com/dmzoneill/faaa84782eaed4d2dc28ad55c19119ee'>PHP Paypal Instant Payment Notification</a></li></ul>
     </td>
@@ -41,7 +41,7 @@
     </tr>
   </thead>
   <tbody>
-    <tr><td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>1544658</td>
+    <tr><td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>1545423</td>
 <td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>1446775</td>
 <td><img src='https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white' title='Swift'  height='20px'/></td><td>163276</td>
 <td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>339120</td>
@@ -64,7 +64,7 @@
 <td><img src='https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white' title='Ruby'  height='20px'/></td><td>507181</td>
 <td><img src='https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white' title='C'  height='20px'/></td><td>15566491</td>
 <td><img src='https://img.shields.io/badge/_-COBOL -11DDDD.svg?style=for-the-badge' title='COBOL'  height='20px'/></td><td>964</td>
-<td><img src='https://img.shields.io/badge/_-Jinja -11DDDD.svg?style=for-the-badge' title='Jinja'  height='20px'/></td><td>82401</td>
+<td><img src='https://img.shields.io/badge/_-Jinja -11DDDD.svg?style=for-the-badge' title='Jinja'  height='20px'/></td><td>82661</td>
 </tr><tr>
 <td><img src='https://img.shields.io/badge/_-M4 -11DDDD.svg?style=for-the-badge' title='M4'  height='20px'/></td><td>132592</td>
 <td><img src='https://img.shields.io/badge/_-ActionScript -11DDDD.svg?style=for-the-badge' title='ActionScript'  height='20px'/></td><td>32949</td>
@@ -135,7 +135,7 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2025-06-05</p>
+              <p>2025-06-06</p>
             </td>
         </tr>
 <tr>
@@ -351,7 +351,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/ansible-feeditout-com' title='ansible-feeditout-com'>ansible-feeditout-com</a> (2025)</h2></p><p><img src='https://img.shields.io/badge/_-Jinja -11DDDD.svg?style=for-the-badge' title='Jinja' height='20px'/> <img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/> <img src='https://img.shields.io/badge/_-M4 -11DDDD.svg?style=for-the-badge' title='M4' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/865b449feecabc78bdc028db73201b259b0a1e6e'>feat(node_exporter): add systemd collector support to Node Exporter container configuration</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/d51470f7a827d2b15fad54d81f522cb1778bc65e'>feat(node_exporter): add systemd collector support to Node Exporter container configuration</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/c4ca2dae359d4fca8fe7079ec14b25c2b93643c9'>fix(prometheus): reduce alert duration from 1m to 10s for service checks</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/2c6b844b9262f94e627cdc966bf3405d80b1fbe3'>fix(prometheus): reduce alert duration from 1m to 10s for service checks</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/6d3fab08a6abdef4571e01a747c8c2797f5ddd5f'>fix(prometheus): correct template file extensions from .yaml to .yml</a></li></ul></p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/5c8a0e65a466d4cfb1378f43f581250bf4151379'>fix(alert_webhook): update Redis channel to list for alert publishing</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/cc5cf112291a0f9fbba2e496bbc16b2d74d39e6a'>fix(alert_webhook): update Redis channel to list and change listener port</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/8f7c099099efb73a8874ea40b7b51a64e1fd85e0'>feat(alert_webhook): add logging and error handling for Redis connection and webhook processing</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/cf1934bdfe2ddedf7d36f64716b79c78c5e3f235'>feat(alert_webhook): enhance Redis connection handling and logging in webhook service</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/bbf62b9b42b73b8fdfc7c5d30f9eae3fc56b8a94'>fix(alertmanager): update webhook URL to include path</a></li></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -360,7 +360,7 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/ansible-feeditout-com/actions'><img src='https://github.com/dmzoneill//ansible-feeditout-com/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2025-06-05</p>
+              <p>2025-06-07</p>
             </td>
         </tr>
 <tr>
@@ -718,8 +718,8 @@
 </tbody></table><h2>2021</h2><table width='100%' style='width:100%'><thead><tr><th>Project</th><th>View</th><th>Status</th></tr></thead><tbody><tr>
             <td>
               <p><h2><a href='https://github.com/dmzoneill/rh-otp-auto-connect' title='rh-otp-auto-connect'>rh-otp-auto-connect</a> (2021)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/</p>
-              <p>Other</p>
-              <p><ul></ul></p>
+              <p>Apache License 2.0</p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/rh-otp-auto-connect/commit/4ab274bc497b7e52326eb33d8081eedf37523eba'>Add or update GitHub Actions workflows</a></li></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -728,7 +728,7 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/rh-otp-auto-connect/actions'><img src='https://github.com/dmzoneill//rh-otp-auto-connect/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2025-06-05</p>
+              <p>2025-06-06</p>
             </td>
         </tr>
 <tr>

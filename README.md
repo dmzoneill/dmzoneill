@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-26/06/2025 00:41:52-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-27/06/2025 00:41:40-brightgreen" height='28'/>
 
 <table>
   <tr>
@@ -78,7 +78,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li></ul>
 <td><img src='https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white' title='Ruby'  height='20px'/></td><td>507181</td>
 <td><img src='https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white' title='C'  height='20px'/></td><td>15566491</td>
 <td><img src='https://img.shields.io/badge/_-COBOL -11DDDD.svg?style=for-the-badge' title='COBOL'  height='20px'/></td><td>964</td>
-<td><img src='https://img.shields.io/badge/_-Jinja -11DDDD.svg?style=for-the-badge' title='Jinja'  height='20px'/></td><td>83371</td>
+<td><img src='https://img.shields.io/badge/_-Jinja -11DDDD.svg?style=for-the-badge' title='Jinja'  height='20px'/></td><td>86868</td>
 </tr><tr>
 <td><img src='https://img.shields.io/badge/_-M4 -11DDDD.svg?style=for-the-badge' title='M4'  height='20px'/></td><td>132592</td>
 <td><img src='https://img.shields.io/badge/_-ActionScript -11DDDD.svg?style=for-the-badge' title='ActionScript'  height='20px'/></td><td>32949</td>
@@ -149,7 +149,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li></ul>
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2025-06-25</p>
+              <p>2025-06-26</p>
             </td>
         </tr>
 <tr>
@@ -363,6 +363,22 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li></ul>
 
 </tbody></table><h2>2025</h2><table width='100%' style='width:100%'><thead><tr><th>Project</th><th>View</th><th>Status</th></tr></thead><tbody><tr>
             <td>
+              <p><h2><a href='https://github.com/dmzoneill/ansible-feeditout-com' title='ansible-feeditout-com'>ansible-feeditout-com</a> (2025)</h2></p><p><img src='https://img.shields.io/badge/_-Jinja -11DDDD.svg?style=for-the-badge' title='Jinja' height='20px'/> <img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/> <img src='https://img.shields.io/badge/_-M4 -11DDDD.svg?style=for-the-badge' title='M4' height='20px'/</p>
+              <p>Apache License 2.0</p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/8bf14b2738d98ea58bf9fbdf8244517d1e733f07'>dashboards</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/bb69b6a89ac4be57bc8c3bb7ddf2ad9fb1863551'>feat(grafana): update service monitoring dashboard with new metrics and configurations</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/e0b5114b51130000131ff3e59170508a4e521cdf'>feat(grafana): add CORS headers and update service checks in Grafana dashboard configuration</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/12883822716853aaf7bf8845a43ac18ad27c6064'>fix(grafana_dashboard): update datasource configuration to use Prometheus with uid</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/300af636998207927b368b33920f9e07d1b03021'>feat(grafana): add full TCP port and service health dashboard configuration</a></li></ul></p>
+              <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/2'>replace htacces swith central sso</a> 2025-06-26</li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/1'>invenstigate indempotant issues</a> 2025-06-26</li></ul></p>
+              <p><ul></ul></p>
+            </td>
+            <td>
+              <p><a href='' title=''></a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/ansible-feeditout-com/actions'><img src='https://github.com/dmzoneill//ansible-feeditout-com/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2025-06-26</p>
+            </td>
+        </tr>
+<tr>
+            <td>
               <p><h2><a href='https://github.com/dmzoneill/pass-gnome-extension' title='pass-gnome-extension'>pass-gnome-extension</a> (2025)</h2></p><p><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
               <p>Apache License 2.0</p>
               <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/pass-gnome-extension/commit/717ba7534ea2d094e2a5a9fa3fb578d4555f122c'>style: format import statements and improve spacing in extension.js</a></li><li><a href='https://github.com/dmzoneill/pass-gnome-extension/commit/9b9e353f5c60e42a19396a7bc2ab49f6111e64ba'>feat(Makefile): add zip target for packaging extension files</a></li><li><a href='https://github.com/dmzoneill/pass-gnome-extension/commit/b06b0abff41d069d31896fc37c0af242422b093c'>feat(workflow): update gnome-extension parameter in dispatch workflow</a></li></ul></p>
@@ -375,22 +391,6 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li></ul>
             <td align="center">
               <a href='https://github.com/dmzoneill/pass-gnome-extension/actions'><img src='https://github.com/dmzoneill//pass-gnome-extension/actions/workflows/main.yml/badge.svg'/></a>
               <p>2025-06-23</p>
-            </td>
-        </tr>
-<tr>
-            <td>
-              <p><h2><a href='https://github.com/dmzoneill/ansible-feeditout-com' title='ansible-feeditout-com'>ansible-feeditout-com</a> (2025)</h2></p><p><img src='https://img.shields.io/badge/_-Jinja -11DDDD.svg?style=for-the-badge' title='Jinja' height='20px'/> <img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/> <img src='https://img.shields.io/badge/_-M4 -11DDDD.svg?style=for-the-badge' title='M4' height='20px'/</p>
-              <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/8bf14b2738d98ea58bf9fbdf8244517d1e733f07'>dashboards</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/bb69b6a89ac4be57bc8c3bb7ddf2ad9fb1863551'>feat(grafana): update service monitoring dashboard with new metrics and configurations</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/e0b5114b51130000131ff3e59170508a4e521cdf'>feat(grafana): add CORS headers and update service checks in Grafana dashboard configuration</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/12883822716853aaf7bf8845a43ac18ad27c6064'>fix(grafana_dashboard): update datasource configuration to use Prometheus with uid</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/300af636998207927b368b33920f9e07d1b03021'>feat(grafana): add full TCP port and service health dashboard configuration</a></li></ul></p>
-              <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/2'>replace htacces swith central sso</a> 2025-06-08</li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/1'>invenstigate indempotant issues</a> 2025-06-08</li></ul></p>
-              <p><ul></ul></p>
-            </td>
-            <td>
-              <p><a href='' title=''></a></p>
-            </td>
-            <td align="center">
-              <a href='https://github.com/dmzoneill/ansible-feeditout-com/actions'><img src='https://github.com/dmzoneill//ansible-feeditout-com/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2025-06-08</p>
             </td>
         </tr>
 <tr>

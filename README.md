@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-02/07/2025 00:43:26-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-03/07/2025 00:43:19-brightgreen" height='28'/>
 
 <table>
   <tr>
@@ -8,21 +8,7 @@
       <h3>Pull Requests (0)</h3>
       <ul></ul>
       <h3>Recent Acivity</h3>
-      <ul><li><a href='https://github.com/dmzoneill/pass-gnome-extension/commit/717ba7534ea2d094e2a5a9fa3fb578d4555f122c'>style: format import statements and improve spacing in extension.js</a></li><li><a href='https://github.com/dmzoneill/pass-gnome-extension/commit/9b9e353f5c60e42a19396a7bc2ab49f6111e64ba'>feat(Makefile): add zip target for packaging extension files</a></li><li><a href='https://github.com/dmzoneill/pass-gnome-extension/commit/b06b0abff41d069d31896fc37c0af242422b093c'>feat(workflow): update gnome-extension parameter in dispatch workflow</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/8bf14b2738d98ea58bf9fbdf8244517d1e733f07'>dashboards</a></li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/commit/b01e692efe8e033065944ac16d995b2bffd7ee7d'>Bump axios from 0.28.0 to 0.30.0 in /frontend
-
-Bumps [axios](https://github.com/axios/axios) from 0.28.0 to 0.30.0.
-- [Release notes](https://github.com/axios/axios/releases)
-- [Changelog](https://github.com/axios/axios/blob/v0.30.0/CHANGELOG.md)
-- [Commits](https://github.com/axios/axios/compare/v0.28.0...v0.30.0)
-
----
-updated-dependencies:
-- dependency-name: axios
-  dependency-version: 0.30.0
-  dependency-type: direct:production
-...
-
-Signed-off-by: dependabot[bot] <support@github.com></a></li></ul>
+      <ul><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/360cf3899219ac9fa89abaf7e3c94de2c4736ba9'>feat(vnc): add VNC server configuration and templates</a></li><li><a href='chore(pipelines): update default image and revision parameters in YAM…'>https://github.com/RedHatInsights/bonfire-tekton/pull/69</a></li><li><a href='Redhat-forks/bonfire-tekton'>https://api.github.com/repos/Redhat-forks/bonfire-tekton</a></li><li><a href='https://github.com/dmzoneill/pass-gnome-extension/commit/717ba7534ea2d094e2a5a9fa3fb578d4555f122c'>style: format import statements and improve spacing in extension.js</a></li><li><a href='https://github.com/dmzoneill/pass-gnome-extension/commit/9b9e353f5c60e42a19396a7bc2ab49f6111e64ba'>feat(Makefile): add zip target for packaging extension files</a></li></ul>
       <h3>Gists</h3>
       <ul><li><a href='https://gist.github.com/dmzoneill/441f88a5c73136b8128c252ad84100b3'>AI support fos slack and jira</a></li><li><a href='https://gist.github.com/dmzoneill/80bfef9603448c33df02ce0aa98fcd59'>AI git Commit</a></li><li><a href='https://gist.github.com/dmzoneill/7c9159b30950621c065791e7861be174'>Python GTK4 ColumnView Sorting and Binding</a></li><li><a href='https://gist.github.com/dmzoneill/19a4fbd799f1e5bcc050ddb4b0a65403'>sorted listed model gtk4</a></li><li><a href='https://gist.github.com/dmzoneill/74033698f65a5a1539d686452a73dce8'>Pygtk4 ColumnView</a></li><li><a href='https://gist.github.com/dmzoneill/497746f38c5786c96e8859f1131667af'>awx-operator 2.15..16</a></li><li><a href='https://gist.github.com/dmzoneill/67a908fb949dc95bbbf02f0446a07f0a'>durex fun</a></li><li><a href='https://gist.github.com/dmzoneill/d13d88b16d4d0aa90cb108a00ab3cf01'>10GB tuning</a></li><li><a href='https://gist.github.com/dmzoneill/575ba9c32375c41cb1041e9064de0678'>Synology 108tb limit bypass</a></li><li><a href='https://gist.github.com/dmzoneill/cbc75e502dbe2b78651f68d6320b714a'>AA active queries</a></li><li><a href='https://gist.github.com/dmzoneill/faaa84782eaed4d2dc28ad55c19119ee'>PHP Paypal Instant Payment Notification</a></li></ul>
     </td>
@@ -56,7 +42,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li></ul>
   </thead>
   <tbody>
     <tr><td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>1545423</td>
-<td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>1446775</td>
+<td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>1447154</td>
 <td><img src='https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white' title='Swift'  height='20px'/></td><td>163276</td>
 <td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>339072</td>
 </tr><tr>
@@ -78,7 +64,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li></ul>
 <td><img src='https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white' title='Ruby'  height='20px'/></td><td>507181</td>
 <td><img src='https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white' title='C'  height='20px'/></td><td>15566491</td>
 <td><img src='https://img.shields.io/badge/_-COBOL -11DDDD.svg?style=for-the-badge' title='COBOL'  height='20px'/></td><td>964</td>
-<td><img src='https://img.shields.io/badge/_-Jinja -11DDDD.svg?style=for-the-badge' title='Jinja'  height='20px'/></td><td>86868</td>
+<td><img src='https://img.shields.io/badge/_-Jinja -11DDDD.svg?style=for-the-badge' title='Jinja'  height='20px'/></td><td>87407</td>
 </tr><tr>
 <td><img src='https://img.shields.io/badge/_-M4 -11DDDD.svg?style=for-the-badge' title='M4'  height='20px'/></td><td>132592</td>
 <td><img src='https://img.shields.io/badge/_-ActionScript -11DDDD.svg?style=for-the-badge' title='ActionScript'  height='20px'/></td><td>32949</td>
@@ -149,7 +135,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li></ul>
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2025-07-01</p>
+              <p>2025-07-02</p>
             </td>
         </tr>
 <tr>
@@ -365,8 +351,8 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li></ul>
             <td>
               <p><h2><a href='https://github.com/dmzoneill/ansible-feeditout-com' title='ansible-feeditout-com'>ansible-feeditout-com</a> (2025)</h2></p><p><img src='https://img.shields.io/badge/_-Jinja -11DDDD.svg?style=for-the-badge' title='Jinja' height='20px'/> <img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/> <img src='https://img.shields.io/badge/_-M4 -11DDDD.svg?style=for-the-badge' title='M4' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/8bf14b2738d98ea58bf9fbdf8244517d1e733f07'>dashboards</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/bb69b6a89ac4be57bc8c3bb7ddf2ad9fb1863551'>feat(grafana): update service monitoring dashboard with new metrics and configurations</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/e0b5114b51130000131ff3e59170508a4e521cdf'>feat(grafana): add CORS headers and update service checks in Grafana dashboard configuration</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/12883822716853aaf7bf8845a43ac18ad27c6064'>fix(grafana_dashboard): update datasource configuration to use Prometheus with uid</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/300af636998207927b368b33920f9e07d1b03021'>feat(grafana): add full TCP port and service health dashboard configuration</a></li></ul></p>
-              <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/2'>replace htacces swith central sso</a> 2025-06-26</li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/1'>invenstigate indempotant issues</a> 2025-06-26</li></ul></p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/360cf3899219ac9fa89abaf7e3c94de2c4736ba9'>feat(vnc): add VNC server configuration and templates</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/8bf14b2738d98ea58bf9fbdf8244517d1e733f07'>dashboards</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/bb69b6a89ac4be57bc8c3bb7ddf2ad9fb1863551'>feat(grafana): update service monitoring dashboard with new metrics and configurations</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/e0b5114b51130000131ff3e59170508a4e521cdf'>feat(grafana): add CORS headers and update service checks in Grafana dashboard configuration</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/commit/12883822716853aaf7bf8845a43ac18ad27c6064'>fix(grafana_dashboard): update datasource configuration to use Prometheus with uid</a></li></ul></p>
+              <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/2'>replace htacces swith central sso</a> 2025-07-02</li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/1'>invenstigate indempotant issues</a> 2025-07-02</li></ul></p>
               <p><ul></ul></p>
             </td>
             <td>
@@ -374,7 +360,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li></ul>
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/ansible-feeditout-com/actions'><img src='https://github.com/dmzoneill//ansible-feeditout-com/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2025-06-26</p>
+              <p>2025-07-02</p>
             </td>
         </tr>
 <tr>

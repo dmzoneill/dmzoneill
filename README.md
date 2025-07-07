@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-06/07/2025 00:44:53-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-07/07/2025 00:44:05-brightgreen" height='28'/>
 
 <table>
   <tr>
@@ -137,7 +137,7 @@ fix(supervisord): set autorestart to false for openvpn</a></li></ul>
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2025-07-05</p>
+              <p>2025-07-06</p>
             </td>
         </tr>
 <tr>
@@ -444,7 +444,7 @@ fix(supervisord): set autorestart to false for openvpn</a></li></ul></p>
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/strongapp-api/actions'><img src='https://github.com/dmzoneill//strongapp-api/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2025-07-03</p>
+              <p>2025-07-06</p>
             </td>
         </tr>
 <tr>
@@ -751,7 +751,7 @@ Signed-off-by: dependabot[bot] <support@github.com></a></li><li><a href='Bump we
             <td>
               <p><h2><a href='https://github.com/dmzoneill/rh-otp-auto-connect' title='rh-otp-auto-connect'>rh-otp-auto-connect</a> (2021)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/rh-otp-auto-connect/commit/4ab274bc497b7e52326eb33d8081eedf37523eba'>Add or update GitHub Actions workflows</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>

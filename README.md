@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-30/07/2025 00:45:16-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-31/07/2025 00:44:42-brightgreen" height='28'/>
 
 <table>
   <tr>
@@ -135,7 +135,7 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2025-07-29</p>
+              <p>2025-07-30</p>
             </td>
         </tr>
 <tr>
@@ -431,6 +431,22 @@ fix(supervisord): set autorestart to false for openvpn</a></li></ul></p>
         </tr>
 </tbody></table><h2>2023</h2><table width='100%' style='width:100%'><thead><tr><th>Project</th><th>View</th><th>Status</th></tr></thead><tbody><tr>
             <td>
+              <p><h2><a href='https://github.com/dmzoneill/urban-dictionary' title='urban-dictionary'>urban-dictionary</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/</p>
+              <p>MIT License</p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+            </td>
+            <td>
+              <p><a href='' title=''></a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/urban-dictionary/actions'><img src='https://github.com/dmzoneill//urban-dictionary/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2025-07-30</p>
+            </td>
+        </tr>
+<tr>
+            <td>
               <p><h2><a href='https://github.com/dmzoneill/hevyapp-api' title='hevyapp-api'>hevyapp-api</a> (2023)</h2></p><p></p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
@@ -459,22 +475,6 @@ fix(supervisord): set autorestart to false for openvpn</a></li></ul></p>
             <td align="center">
               <a href='https://github.com/dmzoneill/strongapp-api/actions'><img src='https://github.com/dmzoneill//strongapp-api/actions/workflows/main.yml/badge.svg'/></a>
               <p>2025-07-06</p>
-            </td>
-        </tr>
-<tr>
-            <td>
-              <p><h2><a href='https://github.com/dmzoneill/urban-dictionary' title='urban-dictionary'>urban-dictionary</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/</p>
-              <p>MIT License</p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-            </td>
-            <td>
-              <p><a href='' title=''></a></p>
-            </td>
-            <td align="center">
-              <a href='https://github.com/dmzoneill/urban-dictionary/actions'><img src='https://github.com/dmzoneill//urban-dictionary/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2025-05-10</p>
             </td>
         </tr>
 <tr>

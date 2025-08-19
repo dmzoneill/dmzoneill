@@ -31,26 +31,32 @@ while true; do
 
     # === Check main.yml
     main_url="https://raw.githubusercontent.com/$user/$name/main/.github/workflows/main.yml"
-    curl -s -L -o /tmp/main_check "$main_url"
-    main_md5=$(md5sum /tmp/main_check 2>/dev/null | awk '{print $1}')
-    if [[ ! -s /tmp/main_check || "$main_md5" == "7cb66df6acac5c1c322e08e6d468a982" ]]; then
-      main_status="missing"
-    elif grep -q "^name:" /tmp/main_check; then
-      main_status="present"
+    if curl -s -f -L "$main_url" > /tmp/main_check; then
+      if grep -q "^name:" /tmp/main_check; then
+        main_status="present"
+        main_md5=$(md5sum /tmp/main_check 2>/dev/null | awk '{print $1}')
+      else
+        main_status="corrupt"
+        main_md5=""
+      fi
     else
-      main_status="corrupt"
+      main_status="missing"
+      main_md5=""
     fi
 
     # === Check ai-responder.yml
     ai_url="https://raw.githubusercontent.com/$user/$name/main/.github/workflows/ai-responder.yml"
-    curl -s -L -o /tmp/ai_check "$ai_url"
-    ai_md5=$(md5sum /tmp/ai_check 2>/dev/null | awk '{print $1}')
-    if [[ ! -s /tmp/ai_check || "$ai_md5" == "78d09260a3bf2bd46c2d5ceb6b496128" ]]; then
-      ai_status="missing"
-    elif grep -q "^name:" /tmp/ai_check; then
-      ai_status="present"
+    if curl -s -f -L "$ai_url" > /tmp/ai_check; then
+      if grep -q "^name:" /tmp/ai_check; then
+        ai_status="present"
+        ai_md5=$(md5sum /tmp/ai_check 2>/dev/null | awk '{print $1}')
+      else
+        ai_status="corrupt"
+        ai_md5=""
+      fi
     else
-      ai_status="corrupt"
+      ai_status="missing"
+      ai_md5=""
     fi
 
     echo "$name: main_status=$main_status, main_md5=$main_md5, local_main_md5=$local_main_md5"

@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-16/09/2025 00:39:37-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-17/09/2025 00:41:19-brightgreen" height='28'/>
 
 <table>
   <tr>
@@ -135,7 +135,7 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2025-09-15</p>
+              <p>2025-09-16</p>
             </td>
         </tr>
 <tr>
@@ -367,7 +367,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/jira-creator' title='jira-creator'>jira-creator</a> (2025)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/jira-creator/commit/a378c696896c5311991ab92332de21df6c86c2f2'>Add or update GitHub Actions workflows</a></li><li><a href='https://github.com/dmzoneill/jira-creator/commit/f82a446ff643c855ff37d948419d3ade94096782'>test(tests): update import style in test_blocked_plugin.py</a></li><li><a href='https://github.com/dmzoneill/jira-creator/commit/68c4a03eca26da7c52f61b9dd34e5cd0b33cf065'>test(tests): remove unnecessary blank line in test_blocked_plugin.py</a></li><li><a href='https://github.com/dmzoneill/jira-creator/commit/fa0fcd6eab7dd859ea90a826f5aa28a14cff3314'>fix(workflows): correct YAML syntax for event triggers in workflows</a></li><li><a href='https://github.com/dmzoneill/jira-creator/commit/d6eeabf5e89b4ea95554d0746162fbdfd23a8f05'>feat: initialize jira_creator package structure and add exception handling modules</a></li></ul></p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/jira-creator/commit/a378c696896c5311991ab92332de21df6c86c2f2'>Add or update GitHub Actions workflows</a></li><li><a href='https://github.com/dmzoneill/jira-creator/commit/f82a446ff643c855ff37d948419d3ade94096782'>test(tests): update import style in test_blocked_plugin.py</a></li><li><a href='https://github.com/dmzoneill/jira-creator/commit/68c4a03eca26da7c52f61b9dd34e5cd0b33cf065'>test(tests): remove unnecessary blank line in test_blocked_plugin.py</a></li><li><a href='https://github.com/dmzoneill/jira-creator/commit/fa0fcd6eab7dd859ea90a826f5aa28a14cff3314'>fix(workflows): correct YAML syntax for event triggers in workflows</a></li></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>

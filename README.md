@@ -1,10 +1,10 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-24/09/2025 00:41:25-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-26/09/2025 00:39:52-brightgreen" height='28'/>
 
 <table>
   <tr>
     <td>
-      <h3>Issues (28)</h3>
-      <li><a href='https://github.com/dmzoneill/curriculum-vitae/issues/2'>Print and screen css</a> 2025-06-07</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/28'>Stuck?</a> 2025-08-05</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/27'>There should be a way to pass cookies to the downloader</a> 2025-05-25</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/25'>Most releases found are missing tracks</a> 2025-09-15</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/23'>Track Format & FFMPEG not adding metadata</a> 2024-03-25</li>
+      <h3>Issues (29)</h3>
+      <li><a href='https://github.com/dmzoneill/curriculum-vitae/issues/2'>Print and screen css</a> 2025-06-07</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/29'>[FR] Only search for missing songs from artists with a given tag</a> 2025-09-24</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/28'>Stuck?</a> 2025-08-05</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/27'>There should be a way to pass cookies to the downloader</a> 2025-05-25</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/25'>Most releases found are missing tracks</a> 2025-09-15</li>
       <h3>Pull Requests (4)</h3>
       <ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/45'>Bump axios from 0.30.0 to 1.12.0 in /frontend</a> 2025-09-13</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/44'>Bump gopkg.in/yaml.v3 from 3.0.0 to 3.0.1 in /backend</a> 2025-08-28</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/43'>Bump on-headers and compression in /frontend</a> 2025-07-18</li><li><a href='https://github.com/dmzoneill/aa-dns-checker/pull/8'>Bump starlette from 0.40.0 to 0.47.2</a> 2025-07-21</li></ul>
       <h3>Recent Acivity</h3>
@@ -135,7 +135,7 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2025-09-23</p>
+              <p>2025-09-24</p>
             </td>
         </tr>
 <tr>
@@ -239,7 +239,7 @@
               <p><h2><a href='https://github.com/dmzoneill/lidarr-youtube-downloader' title='lidarr-youtube-downloader'>lidarr-youtube-downloader</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/> <img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile' height='20px'/</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
-              <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/28'>Stuck?</a> 2025-09-12</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/27'>There should be a way to pass cookies to the downloader</a> 2025-09-12</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/25'>Most releases found are missing tracks</a> 2025-09-12</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/23'>Track Format & FFMPEG not adding metadata</a> 2025-09-12</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/21'>Issue with Lidarr recognizing downloaded audio and incorrect metadata in Jellyfin</a> 2025-09-12</li></ul></p>
+              <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/29'>[FR] Only search for missing songs from artists with a given tag</a> 2025-09-12</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/28'>Stuck?</a> 2025-09-12</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/27'>There should be a way to pass cookies to the downloader</a> 2025-09-12</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/25'>Most releases found are missing tracks</a> 2025-09-12</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/23'>Track Format & FFMPEG not adding metadata</a> 2025-09-12</li></ul></p>
               <p><ul></ul></p>
             </td>
             <td>
@@ -360,7 +360,7 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/jira-creator/actions'><img src='https://github.com/dmzoneill//jira-creator/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2025-09-19</p>
+              <p>2025-09-24</p>
             </td>
         </tr>
 <tr>

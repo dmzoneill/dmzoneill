@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-01/10/2025 00:43:59-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-02/10/2025 00:37:58-brightgreen" height='28'/>
 
 <table>
   <tr>
@@ -6,7 +6,7 @@
       <h3>Issues (31)</h3>
       <li><a href='https://github.com/dmzoneill/curriculum-vitae/issues/2'>Print and screen css</a> 2025-06-07</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/29'>[FR] Only search for missing songs from artists with a given tag</a> 2025-09-24</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/28'>Stuck?</a> 2025-08-05</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/27'>There should be a way to pass cookies to the downloader</a> 2025-05-25</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/25'>Most releases found are missing tracks</a> 2025-09-15</li>
       <h3>Pull Requests (6)</h3>
-      <ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/46'>Bump brace-expansion from 1.1.11 to 1.1.12 in /frontend</a> 2025-09-30</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/47'>Bump form-data from 4.0.0 to 4.0.4 in /frontend</a> 2025-09-30</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/45'>Bump axios from 0.30.0 to 1.12.0 in /frontend</a> 2025-09-13</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/44'>Bump gopkg.in/yaml.v3 from 3.0.0 to 3.0.1 in /backend</a> 2025-08-28</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/43'>Bump on-headers and compression in /frontend</a> 2025-07-18</li></ul>
+      <ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/48'>Bump axios from 0.30.0 to 0.30.2 in /frontend</a> 2025-10-01</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/46'>Bump brace-expansion from 1.1.11 to 1.1.12 in /frontend</a> 2025-09-30</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/47'>Bump form-data from 4.0.0 to 4.0.4 in /frontend</a> 2025-09-30</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/44'>Bump gopkg.in/yaml.v3 from 3.0.0 to 3.0.1 in /backend</a> 2025-08-28</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/43'>Bump on-headers and compression in /frontend</a> 2025-07-18</li></ul>
       <h3>Recent Acivity</h3>
       <ul><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/849ea1834e24434dba271292d62a6fbb9849cf58'>docs: update README with new features and installation instructions</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/06e8aaebeb30e8957a0de5f5cf376487a6b2bc1b'>Fix runtime language switching in settings dialogs and column headers
 
@@ -200,7 +200,7 @@ Co-Authored-By: Claude <noreply@anthropic.com></a></li><li><a href='https://gith
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2025-09-30</p>
+              <p>2025-10-01</p>
             </td>
         </tr>
 <tr>
@@ -570,7 +570,7 @@ Co-Authored-By: Claude <noreply@anthropic.com></a></li></ul></p>
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/hevyapp-api/actions'><img src='https://github.com/dmzoneill//hevyapp-api/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2025-08-04</p>
+              <p>2025-10-01</p>
             </td>
         </tr>
 <tr>
@@ -723,14 +723,14 @@ Co-Authored-By: Claude <noreply@anthropic.com></a></li></ul></p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
-              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/46'>Bump brace-expansion from 1.1.11 to 1.1.12 in /frontend</a> 2025-09-30</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/47'>Bump form-data from 4.0.0 to 4.0.4 in /frontend</a> 2025-09-30</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/45'>Bump axios from 0.30.0 to 1.12.0 in /frontend</a> 2025-09-30</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/44'>Bump gopkg.in/yaml.v3 from 3.0.0 to 3.0.1 in /backend</a> 2025-09-30</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/43'>Bump on-headers and compression in /frontend</a> 2025-09-30</li></ul></p>
+              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/48'>Bump axios from 0.30.0 to 0.30.2 in /frontend</a> 2025-10-01</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/46'>Bump brace-expansion from 1.1.11 to 1.1.12 in /frontend</a> 2025-10-01</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/47'>Bump form-data from 4.0.0 to 4.0.4 in /frontend</a> 2025-10-01</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/44'>Bump gopkg.in/yaml.v3 from 3.0.0 to 3.0.1 in /backend</a> 2025-10-01</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/43'>Bump on-headers and compression in /frontend</a> 2025-10-01</li></ul></p>
             </td>
             <td>
               <p><a href='' title=''></a></p>
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/aa-dev-prod-watcher/actions'><img src='https://github.com/dmzoneill//aa-dev-prod-watcher/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2025-09-30</p>
+              <p>2025-10-01</p>
             </td>
         </tr>
 <tr>

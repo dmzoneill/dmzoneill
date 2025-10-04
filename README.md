@@ -1,14 +1,25 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-03/10/2025 00:38:17-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-04/10/2025 00:37:29-brightgreen" height='28'/>
 
 <table>
   <tr>
     <td>
-      <h3>Issues (31)</h3>
+      <h3>Issues (32)</h3>
       <li><a href='https://github.com/dmzoneill/curriculum-vitae/issues/2'>Print and screen css</a> 2025-06-07</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/29'>[FR] Only search for missing songs from artists with a given tag</a> 2025-09-24</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/28'>Stuck?</a> 2025-08-05</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/27'>There should be a way to pass cookies to the downloader</a> 2025-05-25</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/25'>Most releases found are missing tracks</a> 2025-09-15</li>
-      <h3>Pull Requests (6)</h3>
-      <ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/48'>Bump axios from 0.30.0 to 0.30.2 in /frontend</a> 2025-10-01</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/46'>Bump brace-expansion from 1.1.11 to 1.1.12 in /frontend</a> 2025-09-30</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/47'>Bump form-data from 4.0.0 to 4.0.4 in /frontend</a> 2025-09-30</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/44'>Bump gopkg.in/yaml.v3 from 3.0.0 to 3.0.1 in /backend</a> 2025-08-28</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/43'>Bump on-headers and compression in /frontend</a> 2025-07-18</li></ul>
+      <h3>Pull Requests (7)</h3>
+      <ul><li><a href='https://github.com/dmzoneill/DFakeSeeder/pull/8'>Bump setuptools from 67.7.2 to 78.1.1</a> 2025-10-03</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/48'>Bump axios from 0.30.0 to 0.30.2 in /frontend</a> 2025-10-01</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/46'>Bump brace-expansion from 1.1.11 to 1.1.12 in /frontend</a> 2025-09-30</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/47'>Bump form-data from 4.0.0 to 4.0.4 in /frontend</a> 2025-09-30</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/44'>Bump gopkg.in/yaml.v3 from 3.0.0 to 3.0.1 in /backend</a> 2025-08-28</li></ul>
       <h3>Recent Acivity</h3>
-      <ul><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/849ea1834e24434dba271292d62a6fbb9849cf58'>docs: update README with new features and installation instructions</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/06e8aaebeb30e8957a0de5f5cf376487a6b2bc1b'>Fix runtime language switching in settings dialogs and column headers
+      <ul><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/1538125b61edaa5e16e811f9c8a95d44c67fc0ba'>Fix theme switching implementation
+
+- Use GTK Settings instead of Adwaita-only approach for broader compatibility
+- Add CSS classes (.theme-light, .theme-dark) for explicit theme styling
+- Connect View to AppSettings changes for real-time theme switching
+- Enhance CSS with explicit light/dark theme styles
+- Support both gtk-application-prefer-dark-theme and Adwaita StyleManager
+- Add comprehensive error handling and fallback behavior
+
+🤖 Generated with [Claude Code](https://claude.com/claude-code)
+
+Co-Authored-By: Claude <noreply@anthropic.com></a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/849ea1834e24434dba271292d62a6fbb9849cf58'>docs: update README with new features and installation instructions</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/06e8aaebeb30e8957a0de5f5cf376487a6b2bc1b'>Fix runtime language switching in settings dialogs and column headers
 
 This commit resolves critical issues where language changes would only work
 once and column headers wouldn't translate at all. Multiple fixes were
@@ -106,15 +117,15 @@ Co-Authored-By: Claude <noreply@anthropic.com></a></li><li><a href='https://gith
     </tr>
   </thead>
   <tbody>
-    <tr><td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>2771607</td>
-<td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>1447408</td>
+    <tr><td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>2893456</td>
+<td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>1461619</td>
 <td><img src='https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white' title='Swift'  height='20px'/></td><td>163276</td>
 <td><img src='https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white' title='Kotlin'  height='20px'/></td><td>24599</td>
 </tr><tr>
 <td><img src='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' title='Java'  height='20px'/></td><td>2071977</td>
 <td><img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML'  height='20px'/></td><td>13065602</td>
 <td><img src='https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white' title='C#'  height='20px'/></td><td>3378405</td>
-<td><img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS'  height='20px'/></td><td>5845735</td>
+<td><img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS'  height='20px'/></td><td>5849039</td>
 </tr><tr>
 <td><img src='https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white' title='C++'  height='20px'/></td><td>428363</td>
 <td><img src='https://img.shields.io/badge/_-Visual Basic .NET -11DDDD.svg?style=for-the-badge' title='Visual Basic .NET'  height='20px'/></td><td>758279</td>
@@ -124,7 +135,7 @@ Co-Authored-By: Claude <noreply@anthropic.com></a></li><li><a href='https://gith
 <td><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript'  height='20px'/></td><td>8524795</td>
 <td><img src='https://img.shields.io/badge/perl-%2339457E.svg?style=for-the-badge&logo=perl&logoColor=white' title='Perl'  height='20px'/></td><td>9274404</td>
 <td><img src='https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white' title='Ruby'  height='20px'/></td><td>507181</td>
-<td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>339027</td>
+<td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>342355</td>
 </tr><tr>
 <td><img src='https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white' title='C'  height='20px'/></td><td>15566491</td>
 <td><img src='https://img.shields.io/badge/_-COBOL -11DDDD.svg?style=for-the-badge' title='COBOL'  height='20px'/></td><td>964</td>
@@ -189,25 +200,20 @@ Co-Authored-By: Claude <noreply@anthropic.com></a></li><li><a href='https://gith
   <tbody>
     <tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/dmzoneill' title='dmzoneill'>dmzoneill</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/DFakeSeeder' title='DFakeSeeder'>DFakeSeeder</a> (2024)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-            </td>
-            <td>
-              <p><a href='https://github.com/dmzoneill' title='Github profile'>Github profile</a></p>
-            </td>
-            <td align="center">
-              <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2025-10-02</p>
-            </td>
-        </tr>
-<tr>
-            <td>
-              <p><h2><a href='https://github.com/dmzoneill/DFakeSeeder' title='DFakeSeeder'>DFakeSeeder</a> (2024)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
-              <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/849ea1834e24434dba271292d62a6fbb9849cf58'>docs: update README with new features and installation instructions</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/06e8aaebeb30e8957a0de5f5cf376487a6b2bc1b'>Fix runtime language switching in settings dialogs and column headers
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/1538125b61edaa5e16e811f9c8a95d44c67fc0ba'>Fix theme switching implementation
+
+- Use GTK Settings instead of Adwaita-only approach for broader compatibility
+- Add CSS classes (.theme-light, .theme-dark) for explicit theme styling
+- Connect View to AppSettings changes for real-time theme switching
+- Enhance CSS with explicit light/dark theme styles
+- Support both gtk-application-prefer-dark-theme and Adwaita StyleManager
+- Add comprehensive error handling and fallback behavior
+
+🤖 Generated with [Claude Code](https://claude.com/claude-code)
+
+Co-Authored-By: Claude <noreply@anthropic.com></a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/849ea1834e24434dba271292d62a6fbb9849cf58'>docs: update README with new features and installation instructions</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/06e8aaebeb30e8957a0de5f5cf376487a6b2bc1b'>Fix runtime language switching in settings dialogs and column headers
 
 This commit resolves critical issues where language changes would only work
 once and column headers wouldn't translate at all. Multiple fixes were
@@ -273,15 +279,31 @@ required to restore proper translation functionality:
 🤖 Generated with [Claude Code](https://claude.com/claude-code)
 
 Co-Authored-By: Claude <noreply@anthropic.com></a></li></ul></p>
-              <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/7'>seeder log</a> 2025-09-28</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/5'>status column view selection and filtering</a> 2025-09-28</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/4'>log select box single torrent</a> 2025-09-28</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/3'>rightclick context update tracker, stop, pause, resume</a> 2025-09-28</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/2'>multi select toolbar updates</a> 2025-09-28</li></ul></p>
-              <p><ul></ul></p>
+              <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/7'>seeder log</a> 2025-10-03</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/5'>status column view selection and filtering</a> 2025-10-03</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/4'>log select box single torrent</a> 2025-10-03</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/3'>rightclick context update tracker, stop, pause, resume</a> 2025-10-03</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/2'>multi select toolbar updates</a> 2025-10-03</li></ul></p>
+              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/DFakeSeeder/pull/8'>Bump setuptools from 67.7.2 to 78.1.1</a> 2025-10-03</li></ul></p>
             </td>
             <td>
               <p><a href='https://github.com/dmzoneill/DFakeSeeder' title='DFakeSeeder'>DFakeSeeder</a></p>
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/DFakeSeeder/actions'><img src='https://github.com/dmzoneill//DFakeSeeder/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2025-09-28</p>
+              <p>2025-10-03</p>
+            </td>
+        </tr>
+<tr>
+            <td>
+              <p><h2><a href='https://github.com/dmzoneill/dmzoneill' title='dmzoneill'>dmzoneill</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
+              <p>Apache License 2.0</p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+            </td>
+            <td>
+              <p><a href='https://github.com/dmzoneill' title='Github profile'>Github profile</a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2025-10-03</p>
             </td>
         </tr>
 <tr>

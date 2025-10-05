@@ -1,14 +1,46 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-04/10/2025 00:37:29-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-05/10/2025 00:43:48-brightgreen" height='28'/>
 
 <table>
   <tr>
     <td>
-      <h3>Issues (32)</h3>
+      <h3>Issues (31)</h3>
       <li><a href='https://github.com/dmzoneill/curriculum-vitae/issues/2'>Print and screen css</a> 2025-06-07</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/29'>[FR] Only search for missing songs from artists with a given tag</a> 2025-09-24</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/28'>Stuck?</a> 2025-08-05</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/27'>There should be a way to pass cookies to the downloader</a> 2025-05-25</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/25'>Most releases found are missing tracks</a> 2025-09-15</li>
-      <h3>Pull Requests (7)</h3>
-      <ul><li><a href='https://github.com/dmzoneill/DFakeSeeder/pull/8'>Bump setuptools from 67.7.2 to 78.1.1</a> 2025-10-03</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/48'>Bump axios from 0.30.0 to 0.30.2 in /frontend</a> 2025-10-01</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/46'>Bump brace-expansion from 1.1.11 to 1.1.12 in /frontend</a> 2025-09-30</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/47'>Bump form-data from 4.0.0 to 4.0.4 in /frontend</a> 2025-09-30</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/44'>Bump gopkg.in/yaml.v3 from 3.0.0 to 3.0.1 in /backend</a> 2025-08-28</li></ul>
+      <h3>Pull Requests (6)</h3>
+      <ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/48'>Bump axios from 0.30.0 to 0.30.2 in /frontend</a> 2025-10-01</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/46'>Bump brace-expansion from 1.1.11 to 1.1.12 in /frontend</a> 2025-09-30</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/47'>Bump form-data from 4.0.0 to 4.0.4 in /frontend</a> 2025-09-30</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/44'>Bump gopkg.in/yaml.v3 from 3.0.0 to 3.0.1 in /backend</a> 2025-08-28</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/43'>Bump on-headers and compression in /frontend</a> 2025-07-18</li></ul>
       <h3>Recent Acivity</h3>
-      <ul><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/1538125b61edaa5e16e811f9c8a95d44c67fc0ba'>Fix theme switching implementation
+      <ul><li><a href='Bump setuptools from 67.7.2 to 78.1.1'>https://github.com/dmzoneill/DFakeSeeder/pull/8</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/53153746df989c6cbc02eef0d9cba4792dc12290'>first commit</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/9379bccf664be5e979f734f256cf40a218b347d7'>Update documentation and Dockerfile for standardized dependency management
+
+**README.md Updates:**
+- Update language count from 15 to 21
+- Add system tray and D-Bus IPC features
+- Add comprehensive PyPI installation instructions with system dependencies
+- Add GNOME Shell restart instructions for all installation methods
+- Update DEB/RPM installation sections with automatic desktop integration notes
+- Remove outdated PyPy/MyPy references
+- Add PyPI publishing targets documentation
+- Add dfs-tray command documentation
+- Update architecture section with D-Bus IPC
+
+**Dockerfile Updates:**
+- Replace requirements.txt with Pipfile/Pipfile.lock
+- Use pipenv for dependency management
+- Install pipenv and use `pipenv install --system --deploy`
+- Consistent with project's standardized dependency management
+
+**New Documentation:**
+- Created plans/PACKAGING.md - comprehensive packaging documentation
+- Documents all 5 packaging formats (PyPI, DEB, RPM, Docker, Flatpak)
+- Complete build commands and installation instructions
+- Desktop integration features for each format
+- Recent improvements and known issues
+- Future enhancement roadmap
+
+All documentation now accurately reflects:
+- 21 language support
+- Complete desktop integration (icons, desktop files, GNOME cache clearing)
+- D-Bus IPC between main app and tray
+- Pipfile-based dependency management
+- PyPI publishing workflow</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/1538125b61edaa5e16e811f9c8a95d44c67fc0ba'>Fix theme switching implementation
 
 - Use GTK Settings instead of Adwaita-only approach for broader compatibility
 - Add CSS classes (.theme-light, .theme-dark) for explicit theme styling
@@ -19,72 +51,7 @@
 
 🤖 Generated with [Claude Code](https://claude.com/claude-code)
 
-Co-Authored-By: Claude <noreply@anthropic.com></a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/849ea1834e24434dba271292d62a6fbb9849cf58'>docs: update README with new features and installation instructions</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/06e8aaebeb30e8957a0de5f5cf376487a6b2bc1b'>Fix runtime language switching in settings dialogs and column headers
-
-This commit resolves critical issues where language changes would only work
-once and column headers wouldn't translate at all. Multiple fixes were
-required to restore proper translation functionality:
-
-## Settings Dialog Translation Fixes
-
-### Issue 1: Infinite Loop Prevention
-- **Problem**: Settings tabs inherited TranslationMixin which connected to
-  language-changed signals, creating infinite loops during language switches
-- **Solution**: Block TranslationMixin signal connections in all settings tabs
-  by setting `_language_change_connected = True` before calling translation methods
-- **Files**: general_tab.py, connection_tab.py, bittorrent_tab.py,
-  simulation_tab.py, advanced_tab.py
-
-### Issue 2: Signal Connection Destruction
-- **Problem**: Language dropdown used `disconnect()` instead of `handler_block()`,
-  permanently destroying signal connection after first language change
-- **Solution**: Replace disconnect/reconnect pattern with handler_block/handler_unblock
-  to preserve signal connection integrity
-- **Files**: general_tab.py
-
-### Issue 3: Settings Translation Architecture
-- **Problem**: Settings dialog was connected to model language-changed signal,
-  creating circular dependencies and loops
-- **Solution**: Remove model signal connection, implement direct translation
-  handling in `_handle_settings_translation()` method
-- **Files**: general_tab.py
-
-## Column Translation Fixes
-
-### Issue 4: Translation Function Timing
-- **Problem**: ColumnTranslations.register_translation_function() was called
-  AFTER language-changed signal emission, so column components received
-  signals with outdated translation functions
-- **Solution**: Move translation function re-registration to occur BEFORE
-  signal emission in model.handle_settings_changed()
-- **Files**: model.py
-
-### Issue 5: Static Method Bug
-- **Problem**: ColumnTranslations.get_column_title() used undefined `cls`
-  variable in static method context, causing translation failures
-- **Solution**: Replace `cls._get_translation_function()` with
-  `ColumnTranslations._get_translation_function()`
-- **Files**: column_translations.py
-
-## Debug Enhancements
-- Added comprehensive debug output throughout translation system
-- Enhanced signal flow tracking in AppSettings, Model, and UI components
-- Added translation function registration logging
-
-## Architecture Improvements
-- Prevented TranslationMixin auto-connection in settings tabs to avoid loops
-- Improved signal management using proper GTK block/unblock patterns
-- Fixed translation function lifecycle management in column system
-
-## Result
-- Language switching now works consistently for multiple changes
-- All UI elements including column headers translate properly
-- Settings dialog translates itself without interfering with main app
-- No more infinite loops or hanging during language changes
-
-🤖 Generated with [Claude Code](https://claude.com/claude-code)
-
-Co-Authored-By: Claude <noreply@anthropic.com></a></li><li><a href='https://github.com/dmzoneill/jira-creator/commit/6443173fa3f54029fa6ecd24eadc1c47e0427fc2'>feat(plugins): add lint-all plugin for batch issue linting</a></li><li><a href='https://github.com/RedHatInsights/tower-analytics-frontend/pull/1141'>Update quay url for backend</a></li></ul>
+Co-Authored-By: Claude <noreply@anthropic.com></a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/849ea1834e24434dba271292d62a6fbb9849cf58'>docs: update README with new features and installation instructions</a></li></ul>
       <h3>Gists</h3>
       <ul><li><a href='https://gist.github.com/dmzoneill/441f88a5c73136b8128c252ad84100b3'>AI support fos slack and jira</a></li><li><a href='https://gist.github.com/dmzoneill/80bfef9603448c33df02ce0aa98fcd59'>AI git Commit</a></li><li><a href='https://gist.github.com/dmzoneill/7c9159b30950621c065791e7861be174'>Python GTK4 ColumnView Sorting and Binding</a></li><li><a href='https://gist.github.com/dmzoneill/19a4fbd799f1e5bcc050ddb4b0a65403'>sorted listed model gtk4</a></li><li><a href='https://gist.github.com/dmzoneill/74033698f65a5a1539d686452a73dce8'>Pygtk4 ColumnView</a></li><li><a href='https://gist.github.com/dmzoneill/497746f38c5786c96e8859f1131667af'>awx-operator 2.15..16</a></li><li><a href='https://gist.github.com/dmzoneill/67a908fb949dc95bbbf02f0446a07f0a'>durex fun</a></li><li><a href='https://gist.github.com/dmzoneill/d13d88b16d4d0aa90cb108a00ab3cf01'>10GB tuning</a></li><li><a href='https://gist.github.com/dmzoneill/575ba9c32375c41cb1041e9064de0678'>Synology 108tb limit bypass</a></li><li><a href='https://gist.github.com/dmzoneill/cbc75e502dbe2b78651f68d6320b714a'>AA active queries</a></li><li><a href='https://gist.github.com/dmzoneill/faaa84782eaed4d2dc28ad55c19119ee'>PHP Paypal Instant Payment Notification</a></li></ul>
     </td>
@@ -139,7 +106,7 @@ Co-Authored-By: Claude <noreply@anthropic.com></a></li><li><a href='https://gith
 </tr><tr>
 <td><img src='https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white' title='C'  height='20px'/></td><td>15566491</td>
 <td><img src='https://img.shields.io/badge/_-COBOL -11DDDD.svg?style=for-the-badge' title='COBOL'  height='20px'/></td><td>964</td>
-<td><img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile'  height='20px'/></td><td>8531</td>
+<td><img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile'  height='20px'/></td><td>8574</td>
 <td><img src='https://img.shields.io/badge/_-Jinja -11DDDD.svg?style=for-the-badge' title='Jinja'  height='20px'/></td><td>321555</td>
 </tr><tr>
 <td><img src='https://img.shields.io/badge/_-M4 -11DDDD.svg?style=for-the-badge' title='M4'  height='20px'/></td><td>132592</td>
@@ -202,7 +169,39 @@ Co-Authored-By: Claude <noreply@anthropic.com></a></li><li><a href='https://gith
             <td>
               <p><h2><a href='https://github.com/dmzoneill/DFakeSeeder' title='DFakeSeeder'>DFakeSeeder</a> (2024)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/1538125b61edaa5e16e811f9c8a95d44c67fc0ba'>Fix theme switching implementation
+              <p><h4>Recent Activity</h4><ul><li><a href='Bump setuptools from 67.7.2 to 78.1.1'>https://github.com/dmzoneill/DFakeSeeder/pull/8</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/53153746df989c6cbc02eef0d9cba4792dc12290'>first commit</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/9379bccf664be5e979f734f256cf40a218b347d7'>Update documentation and Dockerfile for standardized dependency management
+
+**README.md Updates:**
+- Update language count from 15 to 21
+- Add system tray and D-Bus IPC features
+- Add comprehensive PyPI installation instructions with system dependencies
+- Add GNOME Shell restart instructions for all installation methods
+- Update DEB/RPM installation sections with automatic desktop integration notes
+- Remove outdated PyPy/MyPy references
+- Add PyPI publishing targets documentation
+- Add dfs-tray command documentation
+- Update architecture section with D-Bus IPC
+
+**Dockerfile Updates:**
+- Replace requirements.txt with Pipfile/Pipfile.lock
+- Use pipenv for dependency management
+- Install pipenv and use `pipenv install --system --deploy`
+- Consistent with project's standardized dependency management
+
+**New Documentation:**
+- Created plans/PACKAGING.md - comprehensive packaging documentation
+- Documents all 5 packaging formats (PyPI, DEB, RPM, Docker, Flatpak)
+- Complete build commands and installation instructions
+- Desktop integration features for each format
+- Recent improvements and known issues
+- Future enhancement roadmap
+
+All documentation now accurately reflects:
+- 21 language support
+- Complete desktop integration (icons, desktop files, GNOME cache clearing)
+- D-Bus IPC between main app and tray
+- Pipfile-based dependency management
+- PyPI publishing workflow</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/1538125b61edaa5e16e811f9c8a95d44c67fc0ba'>Fix theme switching implementation
 
 - Use GTK Settings instead of Adwaita-only approach for broader compatibility
 - Add CSS classes (.theme-light, .theme-dark) for explicit theme styling
@@ -213,81 +212,16 @@ Co-Authored-By: Claude <noreply@anthropic.com></a></li><li><a href='https://gith
 
 🤖 Generated with [Claude Code](https://claude.com/claude-code)
 
-Co-Authored-By: Claude <noreply@anthropic.com></a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/849ea1834e24434dba271292d62a6fbb9849cf58'>docs: update README with new features and installation instructions</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/06e8aaebeb30e8957a0de5f5cf376487a6b2bc1b'>Fix runtime language switching in settings dialogs and column headers
-
-This commit resolves critical issues where language changes would only work
-once and column headers wouldn't translate at all. Multiple fixes were
-required to restore proper translation functionality:
-
-## Settings Dialog Translation Fixes
-
-### Issue 1: Infinite Loop Prevention
-- **Problem**: Settings tabs inherited TranslationMixin which connected to
-  language-changed signals, creating infinite loops during language switches
-- **Solution**: Block TranslationMixin signal connections in all settings tabs
-  by setting `_language_change_connected = True` before calling translation methods
-- **Files**: general_tab.py, connection_tab.py, bittorrent_tab.py,
-  simulation_tab.py, advanced_tab.py
-
-### Issue 2: Signal Connection Destruction
-- **Problem**: Language dropdown used `disconnect()` instead of `handler_block()`,
-  permanently destroying signal connection after first language change
-- **Solution**: Replace disconnect/reconnect pattern with handler_block/handler_unblock
-  to preserve signal connection integrity
-- **Files**: general_tab.py
-
-### Issue 3: Settings Translation Architecture
-- **Problem**: Settings dialog was connected to model language-changed signal,
-  creating circular dependencies and loops
-- **Solution**: Remove model signal connection, implement direct translation
-  handling in `_handle_settings_translation()` method
-- **Files**: general_tab.py
-
-## Column Translation Fixes
-
-### Issue 4: Translation Function Timing
-- **Problem**: ColumnTranslations.register_translation_function() was called
-  AFTER language-changed signal emission, so column components received
-  signals with outdated translation functions
-- **Solution**: Move translation function re-registration to occur BEFORE
-  signal emission in model.handle_settings_changed()
-- **Files**: model.py
-
-### Issue 5: Static Method Bug
-- **Problem**: ColumnTranslations.get_column_title() used undefined `cls`
-  variable in static method context, causing translation failures
-- **Solution**: Replace `cls._get_translation_function()` with
-  `ColumnTranslations._get_translation_function()`
-- **Files**: column_translations.py
-
-## Debug Enhancements
-- Added comprehensive debug output throughout translation system
-- Enhanced signal flow tracking in AppSettings, Model, and UI components
-- Added translation function registration logging
-
-## Architecture Improvements
-- Prevented TranslationMixin auto-connection in settings tabs to avoid loops
-- Improved signal management using proper GTK block/unblock patterns
-- Fixed translation function lifecycle management in column system
-
-## Result
-- Language switching now works consistently for multiple changes
-- All UI elements including column headers translate properly
-- Settings dialog translates itself without interfering with main app
-- No more infinite loops or hanging during language changes
-
-🤖 Generated with [Claude Code](https://claude.com/claude-code)
-
-Co-Authored-By: Claude <noreply@anthropic.com></a></li></ul></p>
-              <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/7'>seeder log</a> 2025-10-03</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/5'>status column view selection and filtering</a> 2025-10-03</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/4'>log select box single torrent</a> 2025-10-03</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/3'>rightclick context update tracker, stop, pause, resume</a> 2025-10-03</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/2'>multi select toolbar updates</a> 2025-10-03</li></ul></p>
-              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/DFakeSeeder/pull/8'>Bump setuptools from 67.7.2 to 78.1.1</a> 2025-10-03</li></ul></p>
+Co-Authored-By: Claude <noreply@anthropic.com></a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/849ea1834e24434dba271292d62a6fbb9849cf58'>docs: update README with new features and installation instructions</a></li></ul></p>
+              <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/7'>seeder log</a> 2025-10-04</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/5'>status column view selection and filtering</a> 2025-10-04</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/4'>log select box single torrent</a> 2025-10-04</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/3'>rightclick context update tracker, stop, pause, resume</a> 2025-10-04</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/2'>multi select toolbar updates</a> 2025-10-04</li></ul></p>
+              <p><ul></ul></p>
             </td>
             <td>
               <p><a href='https://github.com/dmzoneill/DFakeSeeder' title='DFakeSeeder'>DFakeSeeder</a></p>
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/DFakeSeeder/actions'><img src='https://github.com/dmzoneill//DFakeSeeder/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2025-10-03</p>
+              <p>2025-10-04</p>
             </td>
         </tr>
 <tr>
@@ -303,7 +237,7 @@ Co-Authored-By: Claude <noreply@anthropic.com></a></li></ul></p>
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2025-10-03</p>
+              <p>2025-10-04</p>
             </td>
         </tr>
 <tr>

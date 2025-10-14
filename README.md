@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-13/10/2025 00:41:35-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-14/10/2025 00:39:01-brightgreen" height='28'/>
 
 <table>
   <tr>
@@ -8,50 +8,63 @@
       <h3>Pull Requests (6)</h3>
       <ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/48'>Bump axios from 0.30.0 to 0.30.2 in /frontend</a> 2025-10-01</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/46'>Bump brace-expansion from 1.1.11 to 1.1.12 in /frontend</a> 2025-09-30</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/47'>Bump form-data from 4.0.0 to 4.0.4 in /frontend</a> 2025-09-30</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/44'>Bump gopkg.in/yaml.v3 from 3.0.0 to 3.0.1 in /backend</a> 2025-08-28</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/43'>Bump on-headers and compression in /frontend</a> 2025-07-18</li></ul>
       <h3>Recent Acivity</h3>
-      <ul><li><a href='Bump setuptools from 67.7.2 to 78.1.1'>https://github.com/dmzoneill/DFakeSeeder/pull/8</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/53153746df989c6cbc02eef0d9cba4792dc12290'>first commit</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/9379bccf664be5e979f734f256cf40a218b347d7'>Update documentation and Dockerfile for standardized dependency management
+      <ul><li><a href='https://github.com/dmzoneill/rh-otp-auto-connect/commit/d3341c25a496e2cda197a393e5a05c8ff3187ab7'>fix(rhtoken): comment out debug print statement
 
-**README.md Updates:**
-- Update language count from 15 to 21
-- Add system tray and D-Bus IPC features
-- Add comprehensive PyPI installation instructions with system dependencies
-- Add GNOME Shell restart instructions for all installation methods
-- Update DEB/RPM installation sections with automatic desktop integration notes
-- Remove outdated PyPy/MyPy references
-- Add PyPI publishing targets documentation
-- Add dfs-tray command documentation
-- Update architecture section with D-Bus IPC
-
-**Dockerfile Updates:**
-- Replace requirements.txt with Pipfile/Pipfile.lock
-- Use pipenv for dependency management
-- Install pipenv and use `pipenv install --system --deploy`
-- Consistent with project's standardized dependency management
-
-**New Documentation:**
-- Created plans/PACKAGING.md - comprehensive packaging documentation
-- Documents all 5 packaging formats (PyPI, DEB, RPM, Docker, Flatpak)
-- Complete build commands and installation instructions
-- Desktop integration features for each format
-- Recent improvements and known issues
-- Future enhancement roadmap
-
-All documentation now accurately reflects:
-- 21 language support
-- Complete desktop integration (icons, desktop files, GNOME cache clearing)
-- D-Bus IPC between main app and tray
-- Pipfile-based dependency management
-- PyPI publishing workflow</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/1538125b61edaa5e16e811f9c8a95d44c67fc0ba'>Fix theme switching implementation
-
-- Use GTK Settings instead of Adwaita-only approach for broader compatibility
-- Add CSS classes (.theme-light, .theme-dark) for explicit theme styling
-- Connect View to AppSettings changes for real-time theme switching
-- Enhance CSS with explicit light/dark theme styles
-- Support both gtk-application-prefer-dark-theme and Adwaita StyleManager
-- Add comprehensive error handling and fallback behavior
+Comment out debug print that was outputting environment variables.
 
 🤖 Generated with [Claude Code](https://claude.com/claude-code)
 
-Co-Authored-By: Claude <noreply@anthropic.com></a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/849ea1834e24434dba271292d62a6fbb9849cf58'>docs: update README with new features and installation instructions</a></li></ul>
+Co-Authored-By: Claude <noreply@anthropic.com></a></li><li><a href='https://github.com/dmzoneill/rh-otp-auto-connect/commit/be16f7442863f6660dc344cebc754fe3f1ae82c1'>fix(ci): revert Python version to 3.11 to match CI workflow
+
+The reusable workflow (dmzoneill/dmzoneill) is hardcoded to Python 3.11.
+Reverting all files back to 3.11 for CI compatibility:
+
+- Pipfile and Pipfile.lock: python_version = "3.11"
+- pyproject.toml: Black target py311, mypy 3.11
+- GitHub Actions ci.yml: python-version = "3.11"
+- Documentation: Requirements changed to Python 3.11+
+
+Note: Update the reusable workflow to 3.13 if you want to use
+the newer Python version that matches your local environment.
+
+🤖 Generated with [Claude Code](https://claude.com/claude-code)
+
+Co-Authored-By: Claude <noreply@anthropic.com></a></li><li><a href='https://github.com/dmzoneill/rh-otp-auto-connect/commit/21db892bf97820b7cc11dba301a13a8c222e2681'>fix(lint): add markdownlint configuration to allow doc formatting
+
+Disable overly strict markdownlint rules:
+- MD041: Allow HTML/badges before heading (common in READMEs)
+- MD040: Allow code blocks without language (for ASCII art/output)
+- MD024: Allow duplicate headings in different sections
+
+These rules conflict with standard documentation practices and
+the rich formatting we use in our comprehensive documentation.
+
+🤖 Generated with [Claude Code](https://claude.com/claude-code)
+
+Co-Authored-By: Claude <noreply@anthropic.com></a></li><li><a href='https://github.com/dmzoneill/rh-otp-auto-connect/commit/29763227bbb428dd25fb7ae042a2f8f60781debe'>fix(lint): correct textlint terminology errors in documentation
+
+- Replace "CLI tool" with "command-line tool"
+- Replace "Bug fix/fixes" with "bugfix/bugfixes"
+- Replace "End-user" with "end user"
+
+Fixes linting failures in super-linter NATURAL_LANGUAGE checks.
+
+🤖 Generated with [Claude Code](https://claude.com/claude-code)
+
+Co-Authored-By: Claude <noreply@anthropic.com></a></li><li><a href='https://github.com/dmzoneill/rh-otp-auto-connect/commit/719fc612949334a6482f031625f226aac26c3fce'>fix(ci): standardize Python version to 3.13 across all configs
+
+- Remove Python version matrix from CI workflow (was testing 3.8-3.12)
+- Update Pipfile and regenerate Pipfile.lock for Python 3.13
+- Update pyproject.toml: Black target (py313) and mypy version (3.13)
+- Update documentation badges and requirements to Python 3.13+
+- Align with current running service (Python 3.13.7)
+
+This ensures consistent Python version across development, CI, and
+production environments, fixing the pipenv installation failures.
+
+🤖 Generated with [Claude Code](https://claude.com/claude-code)
+
+Co-Authored-By: Claude <noreply@anthropic.com></a></li></ul>
       <h3>Gists</h3>
       <ul><li><a href='https://gist.github.com/dmzoneill/441f88a5c73136b8128c252ad84100b3'>AI support fos slack and jira</a></li><li><a href='https://gist.github.com/dmzoneill/80bfef9603448c33df02ce0aa98fcd59'>AI git Commit</a></li><li><a href='https://gist.github.com/dmzoneill/7c9159b30950621c065791e7861be174'>Python GTK4 ColumnView Sorting and Binding</a></li><li><a href='https://gist.github.com/dmzoneill/19a4fbd799f1e5bcc050ddb4b0a65403'>sorted listed model gtk4</a></li><li><a href='https://gist.github.com/dmzoneill/74033698f65a5a1539d686452a73dce8'>Pygtk4 ColumnView</a></li><li><a href='https://gist.github.com/dmzoneill/497746f38c5786c96e8859f1131667af'>awx-operator 2.15..16</a></li><li><a href='https://gist.github.com/dmzoneill/67a908fb949dc95bbbf02f0446a07f0a'>durex fun</a></li><li><a href='https://gist.github.com/dmzoneill/d13d88b16d4d0aa90cb108a00ab3cf01'>10GB tuning</a></li><li><a href='https://gist.github.com/dmzoneill/575ba9c32375c41cb1041e9064de0678'>Synology 108tb limit bypass</a></li><li><a href='https://gist.github.com/dmzoneill/cbc75e502dbe2b78651f68d6320b714a'>AA active queries</a></li><li><a href='https://gist.github.com/dmzoneill/faaa84782eaed4d2dc28ad55c19119ee'>PHP Paypal Instant Payment Notification</a></li></ul>
     </td>
@@ -84,8 +97,8 @@ Co-Authored-By: Claude <noreply@anthropic.com></a></li><li><a href='https://gith
     </tr>
   </thead>
   <tbody>
-    <tr><td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>2893456</td>
-<td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>1461619</td>
+    <tr><td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>2966641</td>
+<td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>1464311</td>
 <td><img src='https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white' title='Swift'  height='20px'/></td><td>163276</td>
 <td><img src='https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white' title='Kotlin'  height='20px'/></td><td>24599</td>
 </tr><tr>
@@ -99,15 +112,15 @@ Co-Authored-By: Claude <noreply@anthropic.com></a></li><li><a href='https://gith
 <td><img src='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' title='Go'  height='20px'/></td><td>26262</td>
 <td><img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP'  height='20px'/></td><td>76066961</td>
 </tr><tr>
-<td><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript'  height='20px'/></td><td>8524795</td>
+<td><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript'  height='20px'/></td><td>8577808</td>
 <td><img src='https://img.shields.io/badge/perl-%2339457E.svg?style=for-the-badge&logo=perl&logoColor=white' title='Perl'  height='20px'/></td><td>9274404</td>
 <td><img src='https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white' title='Ruby'  height='20px'/></td><td>507181</td>
-<td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>342355</td>
+<td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>358084</td>
 </tr><tr>
 <td><img src='https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white' title='C'  height='20px'/></td><td>15566491</td>
 <td><img src='https://img.shields.io/badge/_-COBOL -11DDDD.svg?style=for-the-badge' title='COBOL'  height='20px'/></td><td>964</td>
 <td><img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile'  height='20px'/></td><td>8574</td>
-<td><img src='https://img.shields.io/badge/_-Jinja -11DDDD.svg?style=for-the-badge' title='Jinja'  height='20px'/></td><td>321555</td>
+<td><img src='https://img.shields.io/badge/_-Jinja -11DDDD.svg?style=for-the-badge' title='Jinja'  height='20px'/></td><td>322382</td>
 </tr><tr>
 <td><img src='https://img.shields.io/badge/_-M4 -11DDDD.svg?style=for-the-badge' title='M4'  height='20px'/></td><td>132592</td>
 <td><img src='https://img.shields.io/badge/_-ActionScript -11DDDD.svg?style=for-the-badge' title='ActionScript'  height='20px'/></td><td>32949</td>
@@ -178,7 +191,7 @@ Co-Authored-By: Claude <noreply@anthropic.com></a></li><li><a href='https://gith
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2025-10-12</p>
+              <p>2025-10-13</p>
             </td>
         </tr>
 <tr>
@@ -803,9 +816,65 @@ Co-Authored-By: Claude <noreply@anthropic.com></a></li><li><a href='https://gith
         </tr>
 </tbody></table><h2>2021</h2><table width='100%' style='width:100%'><thead><tr><th>Project</th><th>View</th><th>Status</th></tr></thead><tbody><tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/rh-otp-auto-connect' title='rh-otp-auto-connect'>rh-otp-auto-connect</a> (2021)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/rh-otp-auto-connect' title='rh-otp-auto-connect'>rh-otp-auto-connect</a> (2021)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/> <img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><ul></ul></p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/rh-otp-auto-connect/commit/d3341c25a496e2cda197a393e5a05c8ff3187ab7'>fix(rhtoken): comment out debug print statement
+
+Comment out debug print that was outputting environment variables.
+
+🤖 Generated with [Claude Code](https://claude.com/claude-code)
+
+Co-Authored-By: Claude <noreply@anthropic.com></a></li><li><a href='https://github.com/dmzoneill/rh-otp-auto-connect/commit/be16f7442863f6660dc344cebc754fe3f1ae82c1'>fix(ci): revert Python version to 3.11 to match CI workflow
+
+The reusable workflow (dmzoneill/dmzoneill) is hardcoded to Python 3.11.
+Reverting all files back to 3.11 for CI compatibility:
+
+- Pipfile and Pipfile.lock: python_version = "3.11"
+- pyproject.toml: Black target py311, mypy 3.11
+- GitHub Actions ci.yml: python-version = "3.11"
+- Documentation: Requirements changed to Python 3.11+
+
+Note: Update the reusable workflow to 3.13 if you want to use
+the newer Python version that matches your local environment.
+
+🤖 Generated with [Claude Code](https://claude.com/claude-code)
+
+Co-Authored-By: Claude <noreply@anthropic.com></a></li><li><a href='https://github.com/dmzoneill/rh-otp-auto-connect/commit/21db892bf97820b7cc11dba301a13a8c222e2681'>fix(lint): add markdownlint configuration to allow doc formatting
+
+Disable overly strict markdownlint rules:
+- MD041: Allow HTML/badges before heading (common in READMEs)
+- MD040: Allow code blocks without language (for ASCII art/output)
+- MD024: Allow duplicate headings in different sections
+
+These rules conflict with standard documentation practices and
+the rich formatting we use in our comprehensive documentation.
+
+🤖 Generated with [Claude Code](https://claude.com/claude-code)
+
+Co-Authored-By: Claude <noreply@anthropic.com></a></li><li><a href='https://github.com/dmzoneill/rh-otp-auto-connect/commit/29763227bbb428dd25fb7ae042a2f8f60781debe'>fix(lint): correct textlint terminology errors in documentation
+
+- Replace "CLI tool" with "command-line tool"
+- Replace "Bug fix/fixes" with "bugfix/bugfixes"
+- Replace "End-user" with "end user"
+
+Fixes linting failures in super-linter NATURAL_LANGUAGE checks.
+
+🤖 Generated with [Claude Code](https://claude.com/claude-code)
+
+Co-Authored-By: Claude <noreply@anthropic.com></a></li><li><a href='https://github.com/dmzoneill/rh-otp-auto-connect/commit/719fc612949334a6482f031625f226aac26c3fce'>fix(ci): standardize Python version to 3.13 across all configs
+
+- Remove Python version matrix from CI workflow (was testing 3.8-3.12)
+- Update Pipfile and regenerate Pipfile.lock for Python 3.13
+- Update pyproject.toml: Black target (py313) and mypy version (3.13)
+- Update documentation badges and requirements to Python 3.13+
+- Align with current running service (Python 3.13.7)
+
+This ensures consistent Python version across development, CI, and
+production environments, fixing the pipenv installation failures.
+
+🤖 Generated with [Claude Code](https://claude.com/claude-code)
+
+Co-Authored-By: Claude <noreply@anthropic.com></a></li></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -814,7 +883,7 @@ Co-Authored-By: Claude <noreply@anthropic.com></a></li><li><a href='https://gith
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/rh-otp-auto-connect/actions'><img src='https://github.com/dmzoneill//rh-otp-auto-connect/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2025-06-06</p>
+              <p>2025-10-13</p>
             </td>
         </tr>
 <tr>

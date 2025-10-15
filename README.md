@@ -1,66 +1,96 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-14/10/2025 00:39:01-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-15/10/2025 00:42:13-brightgreen" height='28'/>
 
 <table>
   <tr>
     <td>
-      <h3>Issues (31)</h3>
+      <h3>Issues (33)</h3>
       <li><a href='https://github.com/dmzoneill/curriculum-vitae/issues/2'>Print and screen css</a> 2025-06-07</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/29'>[FR] Only search for missing songs from artists with a given tag</a> 2025-09-24</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/28'>Stuck?</a> 2025-08-05</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/27'>There should be a way to pass cookies to the downloader</a> 2025-05-25</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/25'>Most releases found are missing tracks</a> 2025-09-15</li>
-      <h3>Pull Requests (6)</h3>
-      <ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/48'>Bump axios from 0.30.0 to 0.30.2 in /frontend</a> 2025-10-01</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/46'>Bump brace-expansion from 1.1.11 to 1.1.12 in /frontend</a> 2025-09-30</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/47'>Bump form-data from 4.0.0 to 4.0.4 in /frontend</a> 2025-09-30</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/44'>Bump gopkg.in/yaml.v3 from 3.0.0 to 3.0.1 in /backend</a> 2025-08-28</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/43'>Bump on-headers and compression in /frontend</a> 2025-07-18</li></ul>
+      <h3>Pull Requests (8)</h3>
+      <ul><li><a href='https://github.com/dmzoneill/DFakeSeeder/pull/10'>build(deps): bump requests from 2.31.0 to 2.32.4</a> 2025-10-14</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/pull/9'>build(deps): bump urllib3 from 1.26.18 to 2.5.0</a> 2025-10-14</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/48'>Bump axios from 0.30.0 to 0.30.2 in /frontend</a> 2025-10-01</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/46'>Bump brace-expansion from 1.1.11 to 1.1.12 in /frontend</a> 2025-09-30</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/47'>Bump form-data from 4.0.0 to 4.0.4 in /frontend</a> 2025-09-30</li></ul>
       <h3>Recent Acivity</h3>
-      <ul><li><a href='https://github.com/dmzoneill/rh-otp-auto-connect/commit/d3341c25a496e2cda197a393e5a05c8ff3187ab7'>fix(rhtoken): comment out debug print statement
+      <ul><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/8a764b7555ef021c329ac815f8ebb1bddf4a6891'>fix: Add settings UI build to ui-build Makefile target
 
-Comment out debug print that was outputting environment variables.
+The ui-build target was only building ui.xml -> generated.xml but was missing
+the settings.xml -> settings_generated.xml build step. This meant that changes
+to settings UI files (like general.xml) were not being compiled into the
+generated settings file that the application actually loads.
+
+Changes:
+- Added xmllint build step for settings.xml -> settings_generated.xml
+- Generated settings_generated.xml now includes watch folder UI (+173 lines)
+- Settings UI changes now properly propagate to the application
+
+This fixes the issue where watch folder settings were added to general.xml
+but were not appearing in the GUI because settings_generated.xml was stale.
+
+Impact: All future settings UI modifications will now be properly built.</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/3b59e80879bcd73cbd699c86252a6ed5fe6e5565'>style: Fix isort import ordering in general_tab.py
+
+Add blank line between standard library import (os) and third-party import
+(gi.repository.Gio) to comply with isort --profile=black formatting rules.</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/f984778fe94a1133f19b5109d5170536812d916a'>feat: Add watch folder settings to GUI
+
+Added complete watch folder configuration to the General settings tab, exposing
+the existing backend functionality that was previously only configurable via
+JSON files.
+
+Features added:
+- Enable/disable watch folder toggle
+- Folder path selection with browse dialog (GTK4 FileDialog)
+- Scan interval configuration (1-300 seconds)
+- Auto-start torrents toggle
+- Delete added torrent files toggle
+
+Technical implementation:
+- Added 6 new widgets to general.xml (GtkSwitch, GtkEntry, GtkButton, GtkSpinButton)
+- Implemented signal handlers in general_tab.py for all watch folder controls
+- Connected settings to AppSettings with dotted path notation (watch_folder.enabled, etc.)
+- Integrated with existing TorrentFolderWatcher backend
+- Added folder browser dialog using GTK4 FileDialog with async callback
+
+Backend integration:
+- Settings automatically saved to ~/.config/dfakeseeder/settings.json
+- Controller.py already listens for watch_folder setting changes (line 126)
+- TorrentFolderWatcher handles the actual folder monitoring
+- No backend changes needed - only exposed existing functionality
+
+Files modified:
+- d_fake_seeder/components/ui/settings/general.xml: +173 lines (watch folder UI)
+- d_fake_seeder/components/component/settings/general_tab.py: +118 lines (handlers)
+
+This resolves the issue where watch folder settings existed in config but had
+no GUI controls for users to configure them.</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/de4955c7e6e0f4a79a23d81057643af2ee1f9af3'>docs: Add explanation of Irish pronunciation origin to project name
+
+Added comprehensive explanation of the "D' Fake Seeder" name origin to multiple
+locations throughout the documentation and UI:
+
+Documentation updates:
+- README.md: New "About the Name" section explaining Irish pronunciation
+- CLAUDE.md: Added name origin explanation to Overview section
+
+UI updates:
+- view.py: Added name explanation to About dialog using set_comments()
+
+The explanation describes how the Irish English accent pronounces "th" as "d",
+turning "The Fake Seeder" into "D' Fake Seeder" - celebrating the project's
+Irish heritage while describing what it does.
+
+Note: setup.py already uses README.md as long_description, so PyPI package
+will automatically include this explanation.
 
 🤖 Generated with [Claude Code](https://claude.com/claude-code)
 
-Co-Authored-By: Claude <noreply@anthropic.com></a></li><li><a href='https://github.com/dmzoneill/rh-otp-auto-connect/commit/be16f7442863f6660dc344cebc754fe3f1ae82c1'>fix(ci): revert Python version to 3.11 to match CI workflow
+Co-Authored-By: Claude <noreply@anthropic.com></a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/4a7ebdf2194c143552894c184756d7a64497b86b'>fix: Update Makefile PYTHONPATH for all tray application targets
 
-The reusable workflow (dmzoneill/dmzoneill) is hardcoded to Python 3.11.
-Reverting all files back to 3.11 for CI compatibility:
+Fixed PYTHONPATH configuration for tray application targets to match
+the fix applied to main application targets. All tray targets now run
+from project root with proper module resolution.
 
-- Pipfile and Pipfile.lock: python_version = "3.11"
-- pyproject.toml: Black target py311, mypy 3.11
-- GitHub Actions ci.yml: python-version = "3.11"
-- Documentation: Requirements changed to Python 3.11+
+Targets fixed:
+- run-tray: Added PYTHONPATH=$(pwd)
+- run-tray-debug: Added PYTHONPATH=$(pwd)
+- run-with-tray: Added PYTHONPATH=$(pwd)
+- run-debug-with-tray: Added PYTHONPATH=$(pwd)
 
-Note: Update the reusable workflow to 3.13 if you want to use
-the newer Python version that matches your local environment.
-
-🤖 Generated with [Claude Code](https://claude.com/claude-code)
-
-Co-Authored-By: Claude <noreply@anthropic.com></a></li><li><a href='https://github.com/dmzoneill/rh-otp-auto-connect/commit/21db892bf97820b7cc11dba301a13a8c222e2681'>fix(lint): add markdownlint configuration to allow doc formatting
-
-Disable overly strict markdownlint rules:
-- MD041: Allow HTML/badges before heading (common in READMEs)
-- MD040: Allow code blocks without language (for ASCII art/output)
-- MD024: Allow duplicate headings in different sections
-
-These rules conflict with standard documentation practices and
-the rich formatting we use in our comprehensive documentation.
-
-🤖 Generated with [Claude Code](https://claude.com/claude-code)
-
-Co-Authored-By: Claude <noreply@anthropic.com></a></li><li><a href='https://github.com/dmzoneill/rh-otp-auto-connect/commit/29763227bbb428dd25fb7ae042a2f8f60781debe'>fix(lint): correct textlint terminology errors in documentation
-
-- Replace "CLI tool" with "command-line tool"
-- Replace "Bug fix/fixes" with "bugfix/bugfixes"
-- Replace "End-user" with "end user"
-
-Fixes linting failures in super-linter NATURAL_LANGUAGE checks.
-
-🤖 Generated with [Claude Code](https://claude.com/claude-code)
-
-Co-Authored-By: Claude <noreply@anthropic.com></a></li><li><a href='https://github.com/dmzoneill/rh-otp-auto-connect/commit/719fc612949334a6482f031625f226aac26c3fce'>fix(ci): standardize Python version to 3.13 across all configs
-
-- Remove Python version matrix from CI workflow (was testing 3.8-3.12)
-- Update Pipfile and regenerate Pipfile.lock for Python 3.13
-- Update pyproject.toml: Black target (py313) and mypy version (3.13)
-- Update documentation badges and requirements to Python 3.13+
-- Align with current running service (Python 3.13.7)
-
-This ensures consistent Python version across development, CI, and
-production environments, fixing the pipenv installation failures.
+This resolves ModuleNotFoundError when running tray application via make.
 
 🤖 Generated with [Claude Code](https://claude.com/claude-code)
 
@@ -97,25 +127,25 @@ Co-Authored-By: Claude <noreply@anthropic.com></a></li></ul>
     </tr>
   </thead>
   <tbody>
-    <tr><td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>2966641</td>
-<td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>1464311</td>
+    <tr><td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>3135221</td>
+<td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>1471948</td>
 <td><img src='https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white' title='Swift'  height='20px'/></td><td>163276</td>
 <td><img src='https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white' title='Kotlin'  height='20px'/></td><td>24599</td>
 </tr><tr>
 <td><img src='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' title='Java'  height='20px'/></td><td>2071977</td>
 <td><img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML'  height='20px'/></td><td>13065602</td>
 <td><img src='https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white' title='C#'  height='20px'/></td><td>3378405</td>
-<td><img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS'  height='20px'/></td><td>5849039</td>
+<td><img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS'  height='20px'/></td><td>5845620</td>
 </tr><tr>
 <td><img src='https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white' title='C++'  height='20px'/></td><td>428363</td>
 <td><img src='https://img.shields.io/badge/_-Visual Basic .NET -11DDDD.svg?style=for-the-badge' title='Visual Basic .NET'  height='20px'/></td><td>758279</td>
 <td><img src='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' title='Go'  height='20px'/></td><td>26262</td>
 <td><img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP'  height='20px'/></td><td>76066961</td>
 </tr><tr>
-<td><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript'  height='20px'/></td><td>8577808</td>
+<td><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript'  height='20px'/></td><td>8587615</td>
 <td><img src='https://img.shields.io/badge/perl-%2339457E.svg?style=for-the-badge&logo=perl&logoColor=white' title='Perl'  height='20px'/></td><td>9274404</td>
 <td><img src='https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white' title='Ruby'  height='20px'/></td><td>507181</td>
-<td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>358084</td>
+<td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>369423</td>
 </tr><tr>
 <td><img src='https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white' title='C'  height='20px'/></td><td>15566491</td>
 <td><img src='https://img.shields.io/badge/_-COBOL -11DDDD.svg?style=for-the-badge' title='COBOL'  height='20px'/></td><td>964</td>
@@ -180,6 +210,108 @@ Co-Authored-By: Claude <noreply@anthropic.com></a></li></ul>
   <tbody>
     <tr>
             <td>
+              <p><h2><a href='https://github.com/dmzoneill/DFakeSeeder' title='DFakeSeeder'>DFakeSeeder</a> (2024)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/</p>
+              <p>Apache License 2.0</p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/8a764b7555ef021c329ac815f8ebb1bddf4a6891'>fix: Add settings UI build to ui-build Makefile target
+
+The ui-build target was only building ui.xml -> generated.xml but was missing
+the settings.xml -> settings_generated.xml build step. This meant that changes
+to settings UI files (like general.xml) were not being compiled into the
+generated settings file that the application actually loads.
+
+Changes:
+- Added xmllint build step for settings.xml -> settings_generated.xml
+- Generated settings_generated.xml now includes watch folder UI (+173 lines)
+- Settings UI changes now properly propagate to the application
+
+This fixes the issue where watch folder settings were added to general.xml
+but were not appearing in the GUI because settings_generated.xml was stale.
+
+Impact: All future settings UI modifications will now be properly built.</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/3b59e80879bcd73cbd699c86252a6ed5fe6e5565'>style: Fix isort import ordering in general_tab.py
+
+Add blank line between standard library import (os) and third-party import
+(gi.repository.Gio) to comply with isort --profile=black formatting rules.</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/f984778fe94a1133f19b5109d5170536812d916a'>feat: Add watch folder settings to GUI
+
+Added complete watch folder configuration to the General settings tab, exposing
+the existing backend functionality that was previously only configurable via
+JSON files.
+
+Features added:
+- Enable/disable watch folder toggle
+- Folder path selection with browse dialog (GTK4 FileDialog)
+- Scan interval configuration (1-300 seconds)
+- Auto-start torrents toggle
+- Delete added torrent files toggle
+
+Technical implementation:
+- Added 6 new widgets to general.xml (GtkSwitch, GtkEntry, GtkButton, GtkSpinButton)
+- Implemented signal handlers in general_tab.py for all watch folder controls
+- Connected settings to AppSettings with dotted path notation (watch_folder.enabled, etc.)
+- Integrated with existing TorrentFolderWatcher backend
+- Added folder browser dialog using GTK4 FileDialog with async callback
+
+Backend integration:
+- Settings automatically saved to ~/.config/dfakeseeder/settings.json
+- Controller.py already listens for watch_folder setting changes (line 126)
+- TorrentFolderWatcher handles the actual folder monitoring
+- No backend changes needed - only exposed existing functionality
+
+Files modified:
+- d_fake_seeder/components/ui/settings/general.xml: +173 lines (watch folder UI)
+- d_fake_seeder/components/component/settings/general_tab.py: +118 lines (handlers)
+
+This resolves the issue where watch folder settings existed in config but had
+no GUI controls for users to configure them.</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/de4955c7e6e0f4a79a23d81057643af2ee1f9af3'>docs: Add explanation of Irish pronunciation origin to project name
+
+Added comprehensive explanation of the "D' Fake Seeder" name origin to multiple
+locations throughout the documentation and UI:
+
+Documentation updates:
+- README.md: New "About the Name" section explaining Irish pronunciation
+- CLAUDE.md: Added name origin explanation to Overview section
+
+UI updates:
+- view.py: Added name explanation to About dialog using set_comments()
+
+The explanation describes how the Irish English accent pronounces "th" as "d",
+turning "The Fake Seeder" into "D' Fake Seeder" - celebrating the project's
+Irish heritage while describing what it does.
+
+Note: setup.py already uses README.md as long_description, so PyPI package
+will automatically include this explanation.
+
+🤖 Generated with [Claude Code](https://claude.com/claude-code)
+
+Co-Authored-By: Claude <noreply@anthropic.com></a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/4a7ebdf2194c143552894c184756d7a64497b86b'>fix: Update Makefile PYTHONPATH for all tray application targets
+
+Fixed PYTHONPATH configuration for tray application targets to match
+the fix applied to main application targets. All tray targets now run
+from project root with proper module resolution.
+
+Targets fixed:
+- run-tray: Added PYTHONPATH=$(pwd)
+- run-tray-debug: Added PYTHONPATH=$(pwd)
+- run-with-tray: Added PYTHONPATH=$(pwd)
+- run-debug-with-tray: Added PYTHONPATH=$(pwd)
+
+This resolves ModuleNotFoundError when running tray application via make.
+
+🤖 Generated with [Claude Code](https://claude.com/claude-code)
+
+Co-Authored-By: Claude <noreply@anthropic.com></a></li></ul></p>
+              <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/7'>seeder log</a> 2025-10-14</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/5'>status column view selection and filtering</a> 2025-10-14</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/4'>log select box single torrent</a> 2025-10-14</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/3'>rightclick context update tracker, stop, pause, resume</a> 2025-10-14</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/2'>multi select toolbar updates</a> 2025-10-14</li></ul></p>
+              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/DFakeSeeder/pull/10'>build(deps): bump requests from 2.31.0 to 2.32.4</a> 2025-10-14</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/pull/9'>build(deps): bump urllib3 from 1.26.18 to 2.5.0</a> 2025-10-14</li></ul></p>
+            </td>
+            <td>
+              <p><a href='https://github.com/dmzoneill/DFakeSeeder' title='DFakeSeeder'>DFakeSeeder</a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/DFakeSeeder/actions'><img src='https://github.com/dmzoneill//DFakeSeeder/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2025-10-14</p>
+            </td>
+        </tr>
+<tr>
+            <td>
               <p><h2><a href='https://github.com/dmzoneill/dmzoneill' title='dmzoneill'>dmzoneill</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
@@ -191,66 +323,7 @@ Co-Authored-By: Claude <noreply@anthropic.com></a></li></ul>
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2025-10-13</p>
-            </td>
-        </tr>
-<tr>
-            <td>
-              <p><h2><a href='https://github.com/dmzoneill/DFakeSeeder' title='DFakeSeeder'>DFakeSeeder</a> (2024)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
-              <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='Bump setuptools from 67.7.2 to 78.1.1'>https://github.com/dmzoneill/DFakeSeeder/pull/8</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/53153746df989c6cbc02eef0d9cba4792dc12290'>first commit</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/9379bccf664be5e979f734f256cf40a218b347d7'>Update documentation and Dockerfile for standardized dependency management
-
-**README.md Updates:**
-- Update language count from 15 to 21
-- Add system tray and D-Bus IPC features
-- Add comprehensive PyPI installation instructions with system dependencies
-- Add GNOME Shell restart instructions for all installation methods
-- Update DEB/RPM installation sections with automatic desktop integration notes
-- Remove outdated PyPy/MyPy references
-- Add PyPI publishing targets documentation
-- Add dfs-tray command documentation
-- Update architecture section with D-Bus IPC
-
-**Dockerfile Updates:**
-- Replace requirements.txt with Pipfile/Pipfile.lock
-- Use pipenv for dependency management
-- Install pipenv and use `pipenv install --system --deploy`
-- Consistent with project's standardized dependency management
-
-**New Documentation:**
-- Created plans/PACKAGING.md - comprehensive packaging documentation
-- Documents all 5 packaging formats (PyPI, DEB, RPM, Docker, Flatpak)
-- Complete build commands and installation instructions
-- Desktop integration features for each format
-- Recent improvements and known issues
-- Future enhancement roadmap
-
-All documentation now accurately reflects:
-- 21 language support
-- Complete desktop integration (icons, desktop files, GNOME cache clearing)
-- D-Bus IPC between main app and tray
-- Pipfile-based dependency management
-- PyPI publishing workflow</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/1538125b61edaa5e16e811f9c8a95d44c67fc0ba'>Fix theme switching implementation
-
-- Use GTK Settings instead of Adwaita-only approach for broader compatibility
-- Add CSS classes (.theme-light, .theme-dark) for explicit theme styling
-- Connect View to AppSettings changes for real-time theme switching
-- Enhance CSS with explicit light/dark theme styles
-- Support both gtk-application-prefer-dark-theme and Adwaita StyleManager
-- Add comprehensive error handling and fallback behavior
-
-🤖 Generated with [Claude Code](https://claude.com/claude-code)
-
-Co-Authored-By: Claude <noreply@anthropic.com></a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/849ea1834e24434dba271292d62a6fbb9849cf58'>docs: update README with new features and installation instructions</a></li></ul></p>
-              <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/7'>seeder log</a> 2025-10-04</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/5'>status column view selection and filtering</a> 2025-10-04</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/4'>log select box single torrent</a> 2025-10-04</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/3'>rightclick context update tracker, stop, pause, resume</a> 2025-10-04</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/2'>multi select toolbar updates</a> 2025-10-04</li></ul></p>
-              <p><ul></ul></p>
-            </td>
-            <td>
-              <p><a href='https://github.com/dmzoneill/DFakeSeeder' title='DFakeSeeder'>DFakeSeeder</a></p>
-            </td>
-            <td align="center">
-              <a href='https://github.com/dmzoneill/DFakeSeeder/actions'><img src='https://github.com/dmzoneill//DFakeSeeder/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2025-10-04</p>
+              <p>2025-10-14</p>
             </td>
         </tr>
 <tr>
@@ -816,61 +889,204 @@ Co-Authored-By: Claude <noreply@anthropic.com></a></li><li><a href='https://gith
         </tr>
 </tbody></table><h2>2021</h2><table width='100%' style='width:100%'><thead><tr><th>Project</th><th>View</th><th>Status</th></tr></thead><tbody><tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/rh-otp-auto-connect' title='rh-otp-auto-connect'>rh-otp-auto-connect</a> (2021)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/> <img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/rh-otp-auto-connect' title='rh-otp-auto-connect'>rh-otp-auto-connect</a> (2021)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/rh-otp-auto-connect/commit/d3341c25a496e2cda197a393e5a05c8ff3187ab7'>fix(rhtoken): comment out debug print statement
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/rh-otp-auto-connect/commit/f66667c5105461dd259f99ac967ce3b452902409'>feat: add OpenShift cluster management endpoints and terminal integration
 
-Comment out debug print that was outputting environment variables.
+Add comprehensive cluster management system with CRUD operations,
+automated token acquisition, and desktop integration.
+
+API Endpoints (11 new):
+- GET /token/oc-login - Get oc login command via rhtoken automation
+- GET /token/clusters - List all configured clusters
+- GET /token/clusters/search - Search clusters by query
+- GET /token/clusters/{id} - Get specific cluster details
+- POST /token/clusters/{id} - Add new cluster configuration
+- PUT /token/clusters/{id} - Update cluster configuration
+- DELETE /token/clusters/{id} - Delete cluster configuration
+- POST /token/clusters/{id}/open-terminal - Open terminal with oc login
+- POST /token/clusters/{id}/open-web - Open cluster web console
+
+Core Components:
+- Cluster Config Manager (cluster_config.py) - CRUD operations on rhtoken.json
+- Token Routes (token.py) - FastAPI endpoints for cluster management
+- rhtoken script enhancements - Auto ChromeDriver management
+- kubeconfig.sh integration - Persistent KUBECONFIG management
+
+Features:
+- Centralized cluster configuration in rhtoken.json
+- Support for 6+ OpenShift environments (ephemeral, prod, stage, etc.)
+- Automated browser authentication via Selenium
+- One-click terminal access with persistent kubeconfig
+- One-click web console access in default browser
+- GNOME extension integration with cluster submenus
+- OAuth URL to console URL transformation
+- Search and filter clusters by name, description, URL
+
+Technical Details:
+- Pydantic models for type safety (ClusterConfig, ClusterResponse)
+- Bearer token authentication for all endpoints
+- Background process spawning for terminal/browser operations
+- File-based cluster configuration with atomic updates
+- Error handling with appropriate HTTP status codes
+
+Dependencies:
+- Added selenium and beautifulsoup4 to Pipfile
+- Chrome/Chromium browser required for automation
+- gnome-terminal for terminal integration
+- xdg-open for browser integration
+
+This enables developers to manage multiple OpenShift clusters from a
+single interface with automated authentication and quick access.
 
 🤖 Generated with [Claude Code](https://claude.com/claude-code)
 
-Co-Authored-By: Claude <noreply@anthropic.com></a></li><li><a href='https://github.com/dmzoneill/rh-otp-auto-connect/commit/be16f7442863f6660dc344cebc754fe3f1ae82c1'>fix(ci): revert Python version to 3.11 to match CI workflow
+Co-Authored-By: Claude <noreply@anthropic.com></a></li><li><a href='https://github.com/dmzoneill/rh-otp-auto-connect/commit/c1d88fd931af10a0f7a093ba698c567dd5538fb1'>docs: add comprehensive cluster management documentation
 
-The reusable workflow (dmzoneill/dmzoneill) is hardcoded to Python 3.11.
-Reverting all files back to 3.11 for CI compatibility:
+- Add 11 new cluster management endpoints to API.md
+  - OpenShift token acquisition (oc-login)
+  - Cluster CRUD operations (list, get, add, update, delete, search)
+  - Terminal and web console integration
+- Create new CLUSTER_WORKFLOWS.md with 12 Mermaid diagrams
+  - Detailed workflows for all cluster management operations
+  - rhtoken automation flow
+  - GNOME extension integration
+  - kubeconfig management
+- Update README.md
+  - Add cluster management to feature list
+  - New section for OpenShift Cluster Management (component 6)
+  - Update diagram count to 40+
+  - Add cluster workflows to quick links
+- Update ARCHITECTURE.md
+  - Add cluster management to system architecture diagram
+  - Document Cluster Config Manager component
+  - Add cluster management endpoints summary (11 endpoints)
+  - Update file structure with new token routes and utilities
+  - Add cluster workflows to related documentation
 
-- Pipfile and Pipfile.lock: python_version = "3.11"
-- pyproject.toml: Black target py311, mypy 3.11
-- GitHub Actions ci.yml: python-version = "3.11"
-- Documentation: Requirements changed to Python 3.11+
-
-Note: Update the reusable workflow to 3.13 if you want to use
-the newer Python version that matches your local environment.
-
-🤖 Generated with [Claude Code](https://claude.com/claude-code)
-
-Co-Authored-By: Claude <noreply@anthropic.com></a></li><li><a href='https://github.com/dmzoneill/rh-otp-auto-connect/commit/21db892bf97820b7cc11dba301a13a8c222e2681'>fix(lint): add markdownlint configuration to allow doc formatting
-
-Disable overly strict markdownlint rules:
-- MD041: Allow HTML/badges before heading (common in READMEs)
-- MD040: Allow code blocks without language (for ASCII art/output)
-- MD024: Allow duplicate headings in different sections
-
-These rules conflict with standard documentation practices and
-the rich formatting we use in our comprehensive documentation.
-
-🤖 Generated with [Claude Code](https://claude.com/claude-code)
-
-Co-Authored-By: Claude <noreply@anthropic.com></a></li><li><a href='https://github.com/dmzoneill/rh-otp-auto-connect/commit/29763227bbb428dd25fb7ae042a2f8f60781debe'>fix(lint): correct textlint terminology errors in documentation
-
-- Replace "CLI tool" with "command-line tool"
-- Replace "Bug fix/fixes" with "bugfix/bugfixes"
-- Replace "End-user" with "end user"
-
-Fixes linting failures in super-linter NATURAL_LANGUAGE checks.
+This documents the new cluster management features that enable:
+- Centralized configuration of multiple OpenShift clusters
+- One-click terminal access with persistent kubeconfig
+- One-click web console access
+- Automated token acquisition via rhtoken/Selenium
+- GNOME extension integration for easy cluster access
 
 🤖 Generated with [Claude Code](https://claude.com/claude-code)
 
-Co-Authored-By: Claude <noreply@anthropic.com></a></li><li><a href='https://github.com/dmzoneill/rh-otp-auto-connect/commit/719fc612949334a6482f031625f226aac26c3fce'>fix(ci): standardize Python version to 3.13 across all configs
+Co-Authored-By: Claude <noreply@anthropic.com></a></li><li><a href='https://github.com/dmzoneill/rh-otp-auto-connect/commit/ba9db175c4c324eded9efd12cd57a02d6488b7ea'>fix: terminal now drops to shell after rhtoken login completes
 
-- Remove Python version matrix from CI workflow (was testing 3.8-3.12)
-- Update Pipfile and regenerate Pipfile.lock for Python 3.13
-- Update pyproject.toml: Black target (py313) and mypy version (3.13)
-- Update documentation badges and requirements to Python 3.13+
-- Align with current running service (Python 3.13.7)
+Keep terminal open with interactive bash shell after rhtoken authentication
+completes, instead of just showing "Press Enter to close".
 
-This ensures consistent Python version across development, CI, and
-production environments, fixing the pipenv installation failures.
+Problem:
+After rhtoken successfully authenticated and logged in to the cluster,
+the terminal would show "Press Enter to close..." and exit when the user
+pressed Enter, instead of providing an interactive shell session.
+
+Solution:
+Changed terminal command from:
+  rhtoken <cluster>; echo ""; echo "Press Enter to close..."; read
+
+To:
+  rhtoken <cluster>; exec bash
+
+Behavior:
+- rhtoken runs and authenticates to the cluster
+- After successful login, exec bash starts an interactive shell
+- Terminal stays open with working directory and environment
+- User can immediately run kubectl/oc commands
+- KUBECONFIG is already set from rhtoken execution
+- Terminal closes when user exits the shell (Ctrl+D or 'exit')
+
+Benefits:
+- Better UX: Terminal stays open for work
+- No extra keystroke needed to continue
+- Immediate access to cluster after login
+- Standard terminal behavior (close with exit/Ctrl+D)
+
+🤖 Generated with [Claude Code](https://claude.com/claude-code)
+
+Co-Authored-By: Claude <noreply@anthropic.com></a></li><li><a href='https://github.com/dmzoneill/rh-otp-auto-connect/commit/ccaa68b60944f857541f52e526b7d6876580c3db'>fix: resolve socket timeout in open-terminal endpoint
+
+Fix the terminal opening functionality by running rhtoken directly in the
+terminal instead of pre-fetching the oc login command, which was causing
+60-second timeouts.
+
+Problem:
+The original implementation called `rhtoken --query --headless` to get
+the oc login command before opening the terminal. This required full
+Selenium authentication which took over 60 seconds, causing socket
+timeouts and 504 Gateway Timeout errors.
+
+Solution:
+- Run `rhtoken <cluster_id>` directly in the terminal window
+- Let rhtoken authenticate interactively in the terminal
+- Terminal opens immediately without waiting for authentication
+- No more socket timeouts or 504 errors
+
+Changes:
+- Removed pre-authentication subprocess call
+- Simplified terminal command to execute rhtoken directly
+- Removed timeout and CalledProcessError exception handlers
+- Added comprehensive debug logging throughout the endpoint
+- Log levels: INFO for flow, DEBUG for details, ERROR for failures
+
+Benefits:
+- Instant terminal opening (no API timeout)
+- Better user experience (see authentication progress)
+- Simpler code (fewer subprocess calls)
+- More reliable (no dependency on Selenium completing in 60s)
+
+Debug Logging Added:
+- [open-terminal] prefix for all logs
+- Script path and existence checks
+- Terminal command construction details
+- Process PID tracking
+- Full exception tracebacks on errors
+
+🤖 Generated with [Claude Code](https://claude.com/claude-code)
+
+Co-Authored-By: Claude <noreply@anthropic.com></a></li><li><a href='https://github.com/dmzoneill/rh-otp-auto-connect/commit/30ea84700136bfdaf7905dd321e29f1ca105f459'>feat: add FastAPI endpoints for cluster terminal and web console access
+
+Create centralized API endpoints for opening cluster terminals and web
+consoles, enabling reuse across GNOME extension and Chrome extension.
+
+New FastAPI Endpoints:
+- POST /token/clusters/{id}/open-terminal - Opens terminal with oc login
+  - Executes rhtoken to get login command
+  - Opens gnome-terminal with oc login command
+  - Returns success status and message
+
+- POST /token/clusters/{id}/open-web - Opens cluster web console in browser
+  - Transforms OAuth URL to console URL
+  - Opens xdg-open with console URL
+  - Returns success status, message, and URL
+
+GNOME Extension Updates:
+- Updated _openClusterTerminal() to use /open-terminal endpoint
+- Updated _openClusterWeb() to use /open-web endpoint
+- Removed direct command execution from extension
+- All logic now centralized in FastAPI for consistency
+
+Benefits:
+- Single source of truth for terminal/web opening logic
+- Reusable across GNOME extension and Chrome extension
+- Easier to maintain and debug
+- Consistent error handling and logging
+- Server-side execution for better reliability
+
+Architecture:
+- URL transformation logic in FastAPI
+- GNOME extension makes authenticated API calls
+- FastAPI handles subprocess execution (gnome-terminal, xdg-open)
+- Chrome extension can use same endpoints via native host
+
+Implementation Details:
+- Added transform_oauth_to_console_url() helper function
+- OAuth URL: https://oauth-openshift.apps.X/oauth/token/request
+- Console URL: https://console-openshift-console.apps.X/
+- Both endpoints require Bearer token authentication
+- Subprocess spawned with DEVNULL and start_new_session
 
 🤖 Generated with [Claude Code](https://claude.com/claude-code)
 
@@ -883,7 +1099,7 @@ Co-Authored-By: Claude <noreply@anthropic.com></a></li></ul></p>
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/rh-otp-auto-connect/actions'><img src='https://github.com/dmzoneill//rh-otp-auto-connect/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2025-10-13</p>
+              <p>2025-10-14</p>
             </td>
         </tr>
 <tr>

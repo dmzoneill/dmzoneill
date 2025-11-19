@@ -1,100 +1,14 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-16/10/2025 00:40:08-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-19/11/2025 00:45:36-brightgreen" height='28'/>
 
 <table>
   <tr>
     <td>
-      <h3>Issues (33)</h3>
+      <h3>Issues (36)</h3>
       <li><a href='https://github.com/dmzoneill/curriculum-vitae/issues/2'>Print and screen css</a> 2025-06-07</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/29'>[FR] Only search for missing songs from artists with a given tag</a> 2025-09-24</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/28'>Stuck?</a> 2025-08-05</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/27'>There should be a way to pass cookies to the downloader</a> 2025-05-25</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/25'>Most releases found are missing tracks</a> 2025-09-15</li>
-      <h3>Pull Requests (8)</h3>
-      <ul><li><a href='https://github.com/dmzoneill/DFakeSeeder/pull/10'>build(deps): bump requests from 2.31.0 to 2.32.4</a> 2025-10-14</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/pull/9'>build(deps): bump urllib3 from 1.26.18 to 2.5.0</a> 2025-10-14</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/48'>Bump axios from 0.30.0 to 0.30.2 in /frontend</a> 2025-10-01</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/46'>Bump brace-expansion from 1.1.11 to 1.1.12 in /frontend</a> 2025-09-30</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/47'>Bump form-data from 4.0.0 to 4.0.4 in /frontend</a> 2025-09-30</li></ul>
+      <h3>Pull Requests (11)</h3>
+      <ul><li><a href='https://github.com/dmzoneill/DFakeSeeder/pull/10'>build(deps): bump requests from 2.31.0 to 2.32.4</a> 2025-10-14</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/pull/9'>build(deps): bump urllib3 from 1.26.18 to 2.5.0</a> 2025-10-14</li><li><a href='https://github.com/dmzoneill/pass-gnome-extension/pull/1'>Bump js-yaml from 3.14.1 to 3.14.2</a> 2025-11-18</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/50'>Bump form-data from 4.0.0 to 4.0.5 in /frontend</a> 2025-11-17</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/49'>Bump js-yaml from 4.1.0 to 4.1.1 in /frontend</a> 2025-11-15</li></ul>
       <h3>Recent Acivity</h3>
-      <ul><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/8a764b7555ef021c329ac815f8ebb1bddf4a6891'>fix: Add settings UI build to ui-build Makefile target
-
-The ui-build target was only building ui.xml -> generated.xml but was missing
-the settings.xml -> settings_generated.xml build step. This meant that changes
-to settings UI files (like general.xml) were not being compiled into the
-generated settings file that the application actually loads.
-
-Changes:
-- Added xmllint build step for settings.xml -> settings_generated.xml
-- Generated settings_generated.xml now includes watch folder UI (+173 lines)
-- Settings UI changes now properly propagate to the application
-
-This fixes the issue where watch folder settings were added to general.xml
-but were not appearing in the GUI because settings_generated.xml was stale.
-
-Impact: All future settings UI modifications will now be properly built.</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/3b59e80879bcd73cbd699c86252a6ed5fe6e5565'>style: Fix isort import ordering in general_tab.py
-
-Add blank line between standard library import (os) and third-party import
-(gi.repository.Gio) to comply with isort --profile=black formatting rules.</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/f984778fe94a1133f19b5109d5170536812d916a'>feat: Add watch folder settings to GUI
-
-Added complete watch folder configuration to the General settings tab, exposing
-the existing backend functionality that was previously only configurable via
-JSON files.
-
-Features added:
-- Enable/disable watch folder toggle
-- Folder path selection with browse dialog (GTK4 FileDialog)
-- Scan interval configuration (1-300 seconds)
-- Auto-start torrents toggle
-- Delete added torrent files toggle
-
-Technical implementation:
-- Added 6 new widgets to general.xml (GtkSwitch, GtkEntry, GtkButton, GtkSpinButton)
-- Implemented signal handlers in general_tab.py for all watch folder controls
-- Connected settings to AppSettings with dotted path notation (watch_folder.enabled, etc.)
-- Integrated with existing TorrentFolderWatcher backend
-- Added folder browser dialog using GTK4 FileDialog with async callback
-
-Backend integration:
-- Settings automatically saved to ~/.config/dfakeseeder/settings.json
-- Controller.py already listens for watch_folder setting changes (line 126)
-- TorrentFolderWatcher handles the actual folder monitoring
-- No backend changes needed - only exposed existing functionality
-
-Files modified:
-- d_fake_seeder/components/ui/settings/general.xml: +173 lines (watch folder UI)
-- d_fake_seeder/components/component/settings/general_tab.py: +118 lines (handlers)
-
-This resolves the issue where watch folder settings existed in config but had
-no GUI controls for users to configure them.</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/de4955c7e6e0f4a79a23d81057643af2ee1f9af3'>docs: Add explanation of Irish pronunciation origin to project name
-
-Added comprehensive explanation of the "D' Fake Seeder" name origin to multiple
-locations throughout the documentation and UI:
-
-Documentation updates:
-- README.md: New "About the Name" section explaining Irish pronunciation
-- CLAUDE.md: Added name origin explanation to Overview section
-
-UI updates:
-- view.py: Added name explanation to About dialog using set_comments()
-
-The explanation describes how the Irish English accent pronounces "th" as "d",
-turning "The Fake Seeder" into "D' Fake Seeder" - celebrating the project's
-Irish heritage while describing what it does.
-
-Note: setup.py already uses README.md as long_description, so PyPI package
-will automatically include this explanation.
-
-🤖 Generated with [Claude Code](https://claude.com/claude-code)
-
-Co-Authored-By: Claude <noreply@anthropic.com></a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/4a7ebdf2194c143552894c184756d7a64497b86b'>fix: Update Makefile PYTHONPATH for all tray application targets
-
-Fixed PYTHONPATH configuration for tray application targets to match
-the fix applied to main application targets. All tray targets now run
-from project root with proper module resolution.
-
-Targets fixed:
-- run-tray: Added PYTHONPATH=$(pwd)
-- run-tray-debug: Added PYTHONPATH=$(pwd)
-- run-with-tray: Added PYTHONPATH=$(pwd)
-- run-debug-with-tray: Added PYTHONPATH=$(pwd)
-
-This resolves ModuleNotFoundError when running tray application via make.
-
-🤖 Generated with [Claude Code](https://claude.com/claude-code)
-
-Co-Authored-By: Claude <noreply@anthropic.com></a></li></ul>
+      <ul></ul>
       <h3>Gists</h3>
       <ul><li><a href='https://gist.github.com/dmzoneill/441f88a5c73136b8128c252ad84100b3'>AI support fos slack and jira</a></li><li><a href='https://gist.github.com/dmzoneill/80bfef9603448c33df02ce0aa98fcd59'>AI git Commit</a></li><li><a href='https://gist.github.com/dmzoneill/7c9159b30950621c065791e7861be174'>Python GTK4 ColumnView Sorting and Binding</a></li><li><a href='https://gist.github.com/dmzoneill/19a4fbd799f1e5bcc050ddb4b0a65403'>sorted listed model gtk4</a></li><li><a href='https://gist.github.com/dmzoneill/74033698f65a5a1539d686452a73dce8'>Pygtk4 ColumnView</a></li><li><a href='https://gist.github.com/dmzoneill/497746f38c5786c96e8859f1131667af'>awx-operator 2.15..16</a></li><li><a href='https://gist.github.com/dmzoneill/67a908fb949dc95bbbf02f0446a07f0a'>durex fun</a></li><li><a href='https://gist.github.com/dmzoneill/d13d88b16d4d0aa90cb108a00ab3cf01'>10GB tuning</a></li><li><a href='https://gist.github.com/dmzoneill/575ba9c32375c41cb1041e9064de0678'>Synology 108tb limit bypass</a></li><li><a href='https://gist.github.com/dmzoneill/cbc75e502dbe2b78651f68d6320b714a'>AA active queries</a></li><li><a href='https://gist.github.com/dmzoneill/faaa84782eaed4d2dc28ad55c19119ee'>PHP Paypal Instant Payment Notification</a></li></ul>
     </td>
@@ -127,7 +41,7 @@ Co-Authored-By: Claude <noreply@anthropic.com></a></li></ul>
     </tr>
   </thead>
   <tbody>
-    <tr><td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>3135221</td>
+    <tr><td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>3186977</td>
 <td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>1471948</td>
 <td><img src='https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white' title='Swift'  height='20px'/></td><td>163276</td>
 <td><img src='https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white' title='Kotlin'  height='20px'/></td><td>24599</td>
@@ -210,6 +124,22 @@ Co-Authored-By: Claude <noreply@anthropic.com></a></li></ul>
   <tbody>
     <tr>
             <td>
+              <p><h2><a href='https://github.com/dmzoneill/DFakeSeeder' title='DFakeSeeder'>DFakeSeeder</a> (2024)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/</p>
+              <p>Apache License 2.0</p>
+              <p><ul></ul></p>
+              <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/7'>seeder log</a> 2025-10-26</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/5'>status column view selection and filtering</a> 2025-10-26</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/4'>log select box single torrent</a> 2025-10-26</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/3'>rightclick context update tracker, stop, pause, resume</a> 2025-10-26</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/2'>multi select toolbar updates</a> 2025-10-26</li></ul></p>
+              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/DFakeSeeder/pull/10'>build(deps): bump requests from 2.31.0 to 2.32.4</a> 2025-10-26</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/pull/9'>build(deps): bump urllib3 from 1.26.18 to 2.5.0</a> 2025-10-26</li></ul></p>
+            </td>
+            <td>
+              <p><a href='https://github.com/dmzoneill/DFakeSeeder' title='DFakeSeeder'>DFakeSeeder</a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/DFakeSeeder/actions'><img src='https://github.com/dmzoneill//DFakeSeeder/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2025-10-26</p>
+            </td>
+        </tr>
+<tr>
+            <td>
               <p><h2><a href='https://github.com/dmzoneill/dmzoneill' title='dmzoneill'>dmzoneill</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
@@ -221,109 +151,7 @@ Co-Authored-By: Claude <noreply@anthropic.com></a></li></ul>
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2025-10-15</p>
-            </td>
-        </tr>
-<tr>
-            <td>
-              <p><h2><a href='https://github.com/dmzoneill/DFakeSeeder' title='DFakeSeeder'>DFakeSeeder</a> (2024)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/</p>
-              <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/8a764b7555ef021c329ac815f8ebb1bddf4a6891'>fix: Add settings UI build to ui-build Makefile target
-
-The ui-build target was only building ui.xml -> generated.xml but was missing
-the settings.xml -> settings_generated.xml build step. This meant that changes
-to settings UI files (like general.xml) were not being compiled into the
-generated settings file that the application actually loads.
-
-Changes:
-- Added xmllint build step for settings.xml -> settings_generated.xml
-- Generated settings_generated.xml now includes watch folder UI (+173 lines)
-- Settings UI changes now properly propagate to the application
-
-This fixes the issue where watch folder settings were added to general.xml
-but were not appearing in the GUI because settings_generated.xml was stale.
-
-Impact: All future settings UI modifications will now be properly built.</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/3b59e80879bcd73cbd699c86252a6ed5fe6e5565'>style: Fix isort import ordering in general_tab.py
-
-Add blank line between standard library import (os) and third-party import
-(gi.repository.Gio) to comply with isort --profile=black formatting rules.</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/f984778fe94a1133f19b5109d5170536812d916a'>feat: Add watch folder settings to GUI
-
-Added complete watch folder configuration to the General settings tab, exposing
-the existing backend functionality that was previously only configurable via
-JSON files.
-
-Features added:
-- Enable/disable watch folder toggle
-- Folder path selection with browse dialog (GTK4 FileDialog)
-- Scan interval configuration (1-300 seconds)
-- Auto-start torrents toggle
-- Delete added torrent files toggle
-
-Technical implementation:
-- Added 6 new widgets to general.xml (GtkSwitch, GtkEntry, GtkButton, GtkSpinButton)
-- Implemented signal handlers in general_tab.py for all watch folder controls
-- Connected settings to AppSettings with dotted path notation (watch_folder.enabled, etc.)
-- Integrated with existing TorrentFolderWatcher backend
-- Added folder browser dialog using GTK4 FileDialog with async callback
-
-Backend integration:
-- Settings automatically saved to ~/.config/dfakeseeder/settings.json
-- Controller.py already listens for watch_folder setting changes (line 126)
-- TorrentFolderWatcher handles the actual folder monitoring
-- No backend changes needed - only exposed existing functionality
-
-Files modified:
-- d_fake_seeder/components/ui/settings/general.xml: +173 lines (watch folder UI)
-- d_fake_seeder/components/component/settings/general_tab.py: +118 lines (handlers)
-
-This resolves the issue where watch folder settings existed in config but had
-no GUI controls for users to configure them.</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/de4955c7e6e0f4a79a23d81057643af2ee1f9af3'>docs: Add explanation of Irish pronunciation origin to project name
-
-Added comprehensive explanation of the "D' Fake Seeder" name origin to multiple
-locations throughout the documentation and UI:
-
-Documentation updates:
-- README.md: New "About the Name" section explaining Irish pronunciation
-- CLAUDE.md: Added name origin explanation to Overview section
-
-UI updates:
-- view.py: Added name explanation to About dialog using set_comments()
-
-The explanation describes how the Irish English accent pronounces "th" as "d",
-turning "The Fake Seeder" into "D' Fake Seeder" - celebrating the project's
-Irish heritage while describing what it does.
-
-Note: setup.py already uses README.md as long_description, so PyPI package
-will automatically include this explanation.
-
-🤖 Generated with [Claude Code](https://claude.com/claude-code)
-
-Co-Authored-By: Claude <noreply@anthropic.com></a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/commit/4a7ebdf2194c143552894c184756d7a64497b86b'>fix: Update Makefile PYTHONPATH for all tray application targets
-
-Fixed PYTHONPATH configuration for tray application targets to match
-the fix applied to main application targets. All tray targets now run
-from project root with proper module resolution.
-
-Targets fixed:
-- run-tray: Added PYTHONPATH=$(pwd)
-- run-tray-debug: Added PYTHONPATH=$(pwd)
-- run-with-tray: Added PYTHONPATH=$(pwd)
-- run-debug-with-tray: Added PYTHONPATH=$(pwd)
-
-This resolves ModuleNotFoundError when running tray application via make.
-
-🤖 Generated with [Claude Code](https://claude.com/claude-code)
-
-Co-Authored-By: Claude <noreply@anthropic.com></a></li></ul></p>
-              <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/7'>seeder log</a> 2025-10-14</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/5'>status column view selection and filtering</a> 2025-10-14</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/4'>log select box single torrent</a> 2025-10-14</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/3'>rightclick context update tracker, stop, pause, resume</a> 2025-10-14</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/2'>multi select toolbar updates</a> 2025-10-14</li></ul></p>
-              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/DFakeSeeder/pull/10'>build(deps): bump requests from 2.31.0 to 2.32.4</a> 2025-10-14</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/pull/9'>build(deps): bump urllib3 from 1.26.18 to 2.5.0</a> 2025-10-14</li></ul></p>
-            </td>
-            <td>
-              <p><a href='https://github.com/dmzoneill/DFakeSeeder' title='DFakeSeeder'>DFakeSeeder</a></p>
-            </td>
-            <td align="center">
-              <a href='https://github.com/dmzoneill/DFakeSeeder/actions'><img src='https://github.com/dmzoneill//DFakeSeeder/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2025-10-14</p>
+              <p>2025-10-26</p>
             </td>
         </tr>
 <tr>
@@ -411,7 +239,7 @@ Co-Authored-By: Claude <noreply@anthropic.com></a></li></ul></p>
               <p><h2><a href='https://github.com/dmzoneill/lidarr-youtube-downloader' title='lidarr-youtube-downloader'>lidarr-youtube-downloader</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/> <img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile' height='20px'/</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
-              <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/29'>[FR] Only search for missing songs from artists with a given tag</a> 2025-09-12</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/28'>Stuck?</a> 2025-09-12</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/27'>There should be a way to pass cookies to the downloader</a> 2025-09-12</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/25'>Most releases found are missing tracks</a> 2025-09-12</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/23'>Track Format & FFMPEG not adding metadata</a> 2025-09-12</li></ul></p>
+              <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/29'>[FR] Only search for missing songs from artists with a given tag</a> 2025-11-03</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/28'>Stuck?</a> 2025-11-03</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/27'>There should be a way to pass cookies to the downloader</a> 2025-11-03</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/25'>Most releases found are missing tracks</a> 2025-11-03</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/23'>Track Format & FFMPEG not adding metadata</a> 2025-11-03</li></ul></p>
               <p><ul></ul></p>
             </td>
             <td>
@@ -419,7 +247,7 @@ Co-Authored-By: Claude <noreply@anthropic.com></a></li></ul></p>
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/lidarr-youtube-downloader/actions'><img src='https://github.com/dmzoneill//lidarr-youtube-downloader/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2025-09-12</p>
+              <p>2025-11-03</p>
             </td>
         </tr>
 <tr>
@@ -521,9 +349,25 @@ Co-Authored-By: Claude <noreply@anthropic.com></a></li></ul></p>
 
 </tbody></table><h2>2025</h2><table width='100%' style='width:100%'><thead><tr><th>Project</th><th>View</th><th>Status</th></tr></thead><tbody><tr>
             <td>
+              <p><h2><a href='https://github.com/dmzoneill/pass-gnome-extension' title='pass-gnome-extension'>pass-gnome-extension</a> (2025)</h2></p><p><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
+              <p>Apache License 2.0</p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/pass-gnome-extension/pull/1'>Bump js-yaml from 3.14.1 to 3.14.2</a> 2025-11-18</li></ul></p>
+            </td>
+            <td>
+              <p><a href='' title=''></a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/pass-gnome-extension/actions'><img src='https://github.com/dmzoneill//pass-gnome-extension/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2025-11-18</p>
+            </td>
+        </tr>
+<tr>
+            <td>
               <p><h2><a href='https://github.com/dmzoneill/jira-creator' title='jira-creator'>jira-creator</a> (2025)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/jira-creator/commit/6443173fa3f54029fa6ecd24eadc1c47e0427fc2'>feat(plugins): add lint-all plugin for batch issue linting</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -533,22 +377,6 @@ Co-Authored-By: Claude <noreply@anthropic.com></a></li></ul></p>
             <td align="center">
               <a href='https://github.com/dmzoneill/jira-creator/actions'><img src='https://github.com/dmzoneill//jira-creator/actions/workflows/main.yml/badge.svg'/></a>
               <p>2025-09-24</p>
-            </td>
-        </tr>
-<tr>
-            <td>
-              <p><h2><a href='https://github.com/dmzoneill/pass-gnome-extension' title='pass-gnome-extension'>pass-gnome-extension</a> (2025)</h2></p><p><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
-              <p>Apache License 2.0</p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-            </td>
-            <td>
-              <p><a href='' title=''></a></p>
-            </td>
-            <td align="center">
-              <a href='https://github.com/dmzoneill/pass-gnome-extension/actions'><img src='https://github.com/dmzoneill//pass-gnome-extension/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2025-08-19</p>
             </td>
         </tr>
 <tr>
@@ -612,7 +440,7 @@ Co-Authored-By: Claude <noreply@anthropic.com></a></li></ul></p>
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/hevyapp-api/actions'><img src='https://github.com/dmzoneill//hevyapp-api/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2025-10-01</p>
+              <p>2025-11-16</p>
             </td>
         </tr>
 <tr>
@@ -765,14 +593,14 @@ Co-Authored-By: Claude <noreply@anthropic.com></a></li></ul></p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
-              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/48'>Bump axios from 0.30.0 to 0.30.2 in /frontend</a> 2025-10-01</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/46'>Bump brace-expansion from 1.1.11 to 1.1.12 in /frontend</a> 2025-10-01</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/47'>Bump form-data from 4.0.0 to 4.0.4 in /frontend</a> 2025-10-01</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/44'>Bump gopkg.in/yaml.v3 from 3.0.0 to 3.0.1 in /backend</a> 2025-10-01</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/43'>Bump on-headers and compression in /frontend</a> 2025-10-01</li></ul></p>
+              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/50'>Bump form-data from 4.0.0 to 4.0.5 in /frontend</a> 2025-11-17</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/49'>Bump js-yaml from 4.1.0 to 4.1.1 in /frontend</a> 2025-11-17</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/48'>Bump axios from 0.30.0 to 0.30.2 in /frontend</a> 2025-11-17</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/46'>Bump brace-expansion from 1.1.11 to 1.1.12 in /frontend</a> 2025-11-17</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/44'>Bump gopkg.in/yaml.v3 from 3.0.0 to 3.0.1 in /backend</a> 2025-11-17</li></ul></p>
             </td>
             <td>
               <p><a href='' title=''></a></p>
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/aa-dev-prod-watcher/actions'><img src='https://github.com/dmzoneill//aa-dev-prod-watcher/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2025-10-01</p>
+              <p>2025-11-17</p>
             </td>
         </tr>
 <tr>
@@ -877,7 +705,7 @@ Co-Authored-By: Claude <noreply@anthropic.com></a></li></ul></p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
-              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/aa-dns-checker/pull/8'>Bump starlette from 0.40.0 to 0.47.2</a> 2025-05-10</li></ul></p>
+              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/aa-dns-checker/pull/9'>Bump starlette from 0.40.0 to 0.49.1</a> 2025-05-10</li></ul></p>
             </td>
             <td>
               <p><a href='' title=''></a></p>
@@ -889,217 +717,18 @@ Co-Authored-By: Claude <noreply@anthropic.com></a></li></ul></p>
         </tr>
 </tbody></table><h2>2021</h2><table width='100%' style='width:100%'><thead><tr><th>Project</th><th>View</th><th>Status</th></tr></thead><tbody><tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/rh-otp-auto-connect' title='rh-otp-auto-connect'>rh-otp-auto-connect</a> (2021)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/redhatter' title='redhatter'>redhatter</a> (2021)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/rh-otp-auto-connect/commit/f66667c5105461dd259f99ac967ce3b452902409'>feat: add OpenShift cluster management endpoints and terminal integration
-
-Add comprehensive cluster management system with CRUD operations,
-automated token acquisition, and desktop integration.
-
-API Endpoints (11 new):
-- GET /token/oc-login - Get oc login command via rhtoken automation
-- GET /token/clusters - List all configured clusters
-- GET /token/clusters/search - Search clusters by query
-- GET /token/clusters/{id} - Get specific cluster details
-- POST /token/clusters/{id} - Add new cluster configuration
-- PUT /token/clusters/{id} - Update cluster configuration
-- DELETE /token/clusters/{id} - Delete cluster configuration
-- POST /token/clusters/{id}/open-terminal - Open terminal with oc login
-- POST /token/clusters/{id}/open-web - Open cluster web console
-
-Core Components:
-- Cluster Config Manager (cluster_config.py) - CRUD operations on rhtoken.json
-- Token Routes (token.py) - FastAPI endpoints for cluster management
-- rhtoken script enhancements - Auto ChromeDriver management
-- kubeconfig.sh integration - Persistent KUBECONFIG management
-
-Features:
-- Centralized cluster configuration in rhtoken.json
-- Support for 6+ OpenShift environments (ephemeral, prod, stage, etc.)
-- Automated browser authentication via Selenium
-- One-click terminal access with persistent kubeconfig
-- One-click web console access in default browser
-- GNOME extension integration with cluster submenus
-- OAuth URL to console URL transformation
-- Search and filter clusters by name, description, URL
-
-Technical Details:
-- Pydantic models for type safety (ClusterConfig, ClusterResponse)
-- Bearer token authentication for all endpoints
-- Background process spawning for terminal/browser operations
-- File-based cluster configuration with atomic updates
-- Error handling with appropriate HTTP status codes
-
-Dependencies:
-- Added selenium and beautifulsoup4 to Pipfile
-- Chrome/Chromium browser required for automation
-- gnome-terminal for terminal integration
-- xdg-open for browser integration
-
-This enables developers to manage multiple OpenShift clusters from a
-single interface with automated authentication and quick access.
-
-🤖 Generated with [Claude Code](https://claude.com/claude-code)
-
-Co-Authored-By: Claude <noreply@anthropic.com></a></li><li><a href='https://github.com/dmzoneill/rh-otp-auto-connect/commit/c1d88fd931af10a0f7a093ba698c567dd5538fb1'>docs: add comprehensive cluster management documentation
-
-- Add 11 new cluster management endpoints to API.md
-  - OpenShift token acquisition (oc-login)
-  - Cluster CRUD operations (list, get, add, update, delete, search)
-  - Terminal and web console integration
-- Create new CLUSTER_WORKFLOWS.md with 12 Mermaid diagrams
-  - Detailed workflows for all cluster management operations
-  - rhtoken automation flow
-  - GNOME extension integration
-  - kubeconfig management
-- Update README.md
-  - Add cluster management to feature list
-  - New section for OpenShift Cluster Management (component 6)
-  - Update diagram count to 40+
-  - Add cluster workflows to quick links
-- Update ARCHITECTURE.md
-  - Add cluster management to system architecture diagram
-  - Document Cluster Config Manager component
-  - Add cluster management endpoints summary (11 endpoints)
-  - Update file structure with new token routes and utilities
-  - Add cluster workflows to related documentation
-
-This documents the new cluster management features that enable:
-- Centralized configuration of multiple OpenShift clusters
-- One-click terminal access with persistent kubeconfig
-- One-click web console access
-- Automated token acquisition via rhtoken/Selenium
-- GNOME extension integration for easy cluster access
-
-🤖 Generated with [Claude Code](https://claude.com/claude-code)
-
-Co-Authored-By: Claude <noreply@anthropic.com></a></li><li><a href='https://github.com/dmzoneill/rh-otp-auto-connect/commit/ba9db175c4c324eded9efd12cd57a02d6488b7ea'>fix: terminal now drops to shell after rhtoken login completes
-
-Keep terminal open with interactive bash shell after rhtoken authentication
-completes, instead of just showing "Press Enter to close".
-
-Problem:
-After rhtoken successfully authenticated and logged in to the cluster,
-the terminal would show "Press Enter to close..." and exit when the user
-pressed Enter, instead of providing an interactive shell session.
-
-Solution:
-Changed terminal command from:
-  rhtoken <cluster>; echo ""; echo "Press Enter to close..."; read
-
-To:
-  rhtoken <cluster>; exec bash
-
-Behavior:
-- rhtoken runs and authenticates to the cluster
-- After successful login, exec bash starts an interactive shell
-- Terminal stays open with working directory and environment
-- User can immediately run kubectl/oc commands
-- KUBECONFIG is already set from rhtoken execution
-- Terminal closes when user exits the shell (Ctrl+D or 'exit')
-
-Benefits:
-- Better UX: Terminal stays open for work
-- No extra keystroke needed to continue
-- Immediate access to cluster after login
-- Standard terminal behavior (close with exit/Ctrl+D)
-
-🤖 Generated with [Claude Code](https://claude.com/claude-code)
-
-Co-Authored-By: Claude <noreply@anthropic.com></a></li><li><a href='https://github.com/dmzoneill/rh-otp-auto-connect/commit/ccaa68b60944f857541f52e526b7d6876580c3db'>fix: resolve socket timeout in open-terminal endpoint
-
-Fix the terminal opening functionality by running rhtoken directly in the
-terminal instead of pre-fetching the oc login command, which was causing
-60-second timeouts.
-
-Problem:
-The original implementation called `rhtoken --query --headless` to get
-the oc login command before opening the terminal. This required full
-Selenium authentication which took over 60 seconds, causing socket
-timeouts and 504 Gateway Timeout errors.
-
-Solution:
-- Run `rhtoken <cluster_id>` directly in the terminal window
-- Let rhtoken authenticate interactively in the terminal
-- Terminal opens immediately without waiting for authentication
-- No more socket timeouts or 504 errors
-
-Changes:
-- Removed pre-authentication subprocess call
-- Simplified terminal command to execute rhtoken directly
-- Removed timeout and CalledProcessError exception handlers
-- Added comprehensive debug logging throughout the endpoint
-- Log levels: INFO for flow, DEBUG for details, ERROR for failures
-
-Benefits:
-- Instant terminal opening (no API timeout)
-- Better user experience (see authentication progress)
-- Simpler code (fewer subprocess calls)
-- More reliable (no dependency on Selenium completing in 60s)
-
-Debug Logging Added:
-- [open-terminal] prefix for all logs
-- Script path and existence checks
-- Terminal command construction details
-- Process PID tracking
-- Full exception tracebacks on errors
-
-🤖 Generated with [Claude Code](https://claude.com/claude-code)
-
-Co-Authored-By: Claude <noreply@anthropic.com></a></li><li><a href='https://github.com/dmzoneill/rh-otp-auto-connect/commit/30ea84700136bfdaf7905dd321e29f1ca105f459'>feat: add FastAPI endpoints for cluster terminal and web console access
-
-Create centralized API endpoints for opening cluster terminals and web
-consoles, enabling reuse across GNOME extension and Chrome extension.
-
-New FastAPI Endpoints:
-- POST /token/clusters/{id}/open-terminal - Opens terminal with oc login
-  - Executes rhtoken to get login command
-  - Opens gnome-terminal with oc login command
-  - Returns success status and message
-
-- POST /token/clusters/{id}/open-web - Opens cluster web console in browser
-  - Transforms OAuth URL to console URL
-  - Opens xdg-open with console URL
-  - Returns success status, message, and URL
-
-GNOME Extension Updates:
-- Updated _openClusterTerminal() to use /open-terminal endpoint
-- Updated _openClusterWeb() to use /open-web endpoint
-- Removed direct command execution from extension
-- All logic now centralized in FastAPI for consistency
-
-Benefits:
-- Single source of truth for terminal/web opening logic
-- Reusable across GNOME extension and Chrome extension
-- Easier to maintain and debug
-- Consistent error handling and logging
-- Server-side execution for better reliability
-
-Architecture:
-- URL transformation logic in FastAPI
-- GNOME extension makes authenticated API calls
-- FastAPI handles subprocess execution (gnome-terminal, xdg-open)
-- Chrome extension can use same endpoints via native host
-
-Implementation Details:
-- Added transform_oauth_to_console_url() helper function
-- OAuth URL: https://oauth-openshift.apps.X/oauth/token/request
-- Console URL: https://console-openshift-console.apps.X/
-- Both endpoints require Bearer token authentication
-- Subprocess spawned with DEVNULL and start_new_session
-
-🤖 Generated with [Claude Code](https://claude.com/claude-code)
-
-Co-Authored-By: Claude <noreply@anthropic.com></a></li></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
+              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/redhatter/pull/1'>chore(deps): bump starlette from 0.48.0 to 0.49.1</a> 2025-11-04</li></ul></p>
             </td>
             <td>
               <p><a href='' title=''></a></p>
             </td>
             <td align="center">
-              <a href='https://github.com/dmzoneill/rh-otp-auto-connect/actions'><img src='https://github.com/dmzoneill//rh-otp-auto-connect/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2025-10-14</p>
+              <a href='https://github.com/dmzoneill/redhatter/actions'><img src='https://github.com/dmzoneill//redhatter/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2025-11-04</p>
             </td>
         </tr>
 <tr>

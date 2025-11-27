@@ -1,12 +1,12 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-26/11/2025 00:46:47-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-27/11/2025 00:42:58-brightgreen" height='28'/>
 
 <table>
   <tr>
     <td>
-      <h3>Issues (37)</h3>
+      <h3>Issues (38)</h3>
       <li><a href='https://github.com/dmzoneill/curriculum-vitae/issues/2'>Print and screen css</a> 2025-06-07</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/29'>[FR] Only search for missing songs from artists with a given tag</a> 2025-09-24</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/28'>Stuck?</a> 2025-08-05</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/27'>There should be a way to pass cookies to the downloader</a> 2025-05-25</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/25'>Most releases found are missing tracks</a> 2025-09-15</li>
-      <h3>Pull Requests (12)</h3>
-      <ul><li><a href='https://github.com/dmzoneill/DFakeSeeder/pull/10'>build(deps): bump requests from 2.31.0 to 2.32.4</a> 2025-10-14</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/pull/9'>build(deps): bump urllib3 from 1.26.18 to 2.5.0</a> 2025-10-14</li><li><a href='https://github.com/dmzoneill/pass-gnome-extension/pull/1'>Bump js-yaml from 3.14.1 to 3.14.2</a> 2025-11-18</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/51'>Bump golang.org/x/crypto from 0.36.0 to 0.45.0 in /backend</a> 2025-11-20</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/50'>Bump form-data from 4.0.0 to 4.0.5 in /frontend</a> 2025-11-17</li></ul>
+      <h3>Pull Requests (13)</h3>
+      <ul><li><a href='https://github.com/dmzoneill/DFakeSeeder/pull/10'>build(deps): bump requests from 2.31.0 to 2.32.4</a> 2025-10-14</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/pull/9'>build(deps): bump urllib3 from 1.26.18 to 2.5.0</a> 2025-10-14</li><li><a href='https://github.com/dmzoneill/pass-gnome-extension/pull/1'>Bump js-yaml from 3.14.1 to 3.14.2</a> 2025-11-18</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/52'>Bump node-forge from 1.3.1 to 1.3.2 in /frontend</a> 2025-11-26</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/51'>Bump golang.org/x/crypto from 0.36.0 to 0.45.0 in /backend</a> 2025-11-20</li></ul>
       <h3>Recent Acivity</h3>
       <ul></ul>
       <h3>Gists</h3>
@@ -135,7 +135,7 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2025-11-25</p>
+              <p>2025-11-26</p>
             </td>
         </tr>
 <tr>
@@ -593,14 +593,14 @@
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
-              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/51'>Bump golang.org/x/crypto from 0.36.0 to 0.45.0 in /backend</a> 2025-11-20</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/50'>Bump form-data from 4.0.0 to 4.0.5 in /frontend</a> 2025-11-20</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/49'>Bump js-yaml from 4.1.0 to 4.1.1 in /frontend</a> 2025-11-20</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/48'>Bump axios from 0.30.0 to 0.30.2 in /frontend</a> 2025-11-20</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/46'>Bump brace-expansion from 1.1.11 to 1.1.12 in /frontend</a> 2025-11-20</li></ul></p>
+              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/52'>Bump node-forge from 1.3.1 to 1.3.2 in /frontend</a> 2025-11-26</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/51'>Bump golang.org/x/crypto from 0.36.0 to 0.45.0 in /backend</a> 2025-11-26</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/50'>Bump form-data from 4.0.0 to 4.0.5 in /frontend</a> 2025-11-26</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/49'>Bump js-yaml from 4.1.0 to 4.1.1 in /frontend</a> 2025-11-26</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/48'>Bump axios from 0.30.0 to 0.30.2 in /frontend</a> 2025-11-26</li></ul></p>
             </td>
             <td>
               <p><a href='' title=''></a></p>
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/aa-dev-prod-watcher/actions'><img src='https://github.com/dmzoneill//aa-dev-prod-watcher/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2025-11-20</p>
+              <p>2025-11-26</p>
             </td>
         </tr>
 <tr>

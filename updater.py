@@ -500,7 +500,10 @@ class ReadmeUpdater:
                     or self.config["user"] + "/" + str(repo) == recent["repo"]["name"]
                 ):
                     recent_h = recent_template
-                    if recent["type"] == "IssueCommentEvent" and "issue" in recent["payload"]:
+                    if (
+                        recent["type"] == "IssueCommentEvent"
+                        and "issue" in recent["payload"]
+                    ):
                         recent_h = recent_h.replace(
                             "{recent_activity_url}",
                             recent["payload"]["issue"]["html_url"],
@@ -517,9 +520,7 @@ class ReadmeUpdater:
                         if len(commits) > 0:
                             recent_h = recent_h.replace(
                                 "{recent_activity_url}",
-                                self.get_commit_html_url(
-                                    commits[0]["url"]
-                                ),
+                                self.get_commit_html_url(commits[0]["url"]),
                             )
                             recent_h = recent_h.replace(
                                 "{recent_activity_title}",
@@ -536,7 +537,10 @@ class ReadmeUpdater:
                         )
                         recent_html += recent_h
                         added += 1
-                    elif recent["type"] == "PullRequestEvent" and "pull_request" in recent["payload"]:
+                    elif (
+                        recent["type"] == "PullRequestEvent"
+                        and "pull_request" in recent["payload"]
+                    ):
                         recent_h = recent_h.replace(
                             "{recent_activity_url}",
                             recent["payload"]["pull_request"]["html_url"],

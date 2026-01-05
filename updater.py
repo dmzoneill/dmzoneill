@@ -14,7 +14,7 @@ class ReadmeUpdater:
     config = None
     template = None
     repos = None
-    token = os.getenv("ghtoken", default=None)
+    token = os.getenv("ghtoken") or os.getenv("GITHUB_TOKEN")
     total_lines = 0
     total_lines_lang = {}  # type: ignore
     issues = []
@@ -57,8 +57,11 @@ class ReadmeUpdater:
     def web_request_retry(self, url, headers=None):
         retries = 3
 
-        if headers == None:
-            headers = {"Authorization": "token " + self.token}
+        if headers is None:
+            if self.token:
+                headers = {"Authorization": "token " + self.token}
+            else:
+                headers = {}
 
         try:
             time.sleep(0.5)
@@ -87,11 +90,12 @@ class ReadmeUpdater:
         )
         self.log(url)
         r = self.web_request_retry(url)
-        if r != False:
+        if r is not False and "link" in r.headers:
             link = r.headers["link"]
             parts = link.split("<")
-            next_part = parts[2].split(">")
-            next = next_part[0]
+            if len(parts) > 2:
+                next_part = parts[2].split(">")
+                next = next_part[0]
 
         if next != None:
             r = self.web_request_retry(next)
@@ -324,7 +328,8 @@ class ReadmeUpdater:
             self.template = re.sub(
                 "<repos>(.*)</repos>", rows, self.template, flags=re.I | re.M | re.S
             )
-        except:  # noqa
+        except Exception as e:
+            self.log(str(e))
             raise Exception("Failed generating repo list")
 
     def generate_issues(self, template="", repo=False):
@@ -369,7 +374,7 @@ class ReadmeUpdater:
 
                 self.template = re.sub(
                     "<ul><issues>(.*)</issues></ul>",
-                    issues_html,
+                    "<ul>" + issues_html + "</ul>",
                     self.template,
                     flags=re.I | re.M | re.S,
                 )
@@ -385,8 +390,10 @@ class ReadmeUpdater:
                     template,
                     flags=re.I | re.M | re.S,
                 )
-        except:  # noqa
-            self.log(self.template)
+        except Exception as e:
+            self.log(str(e))
+            if repo:
+                return template
             raise Exception("Failed generating issues")
 
     def generate_prs(self, template="", repo=False):
@@ -439,8 +446,10 @@ class ReadmeUpdater:
                     template,
                     flags=re.I | re.M | re.S,
                 )
-        except:  # noqa
-            self.log(self.template)
+        except Exception as e:
+            self.log(str(e))
+            if repo:
+                return template
             raise Exception("Failed generating prs")
 
     def get_commit_html_url(self, url):
@@ -457,10 +466,10 @@ class ReadmeUpdater:
         try:
             if len(self.recent_activity) == 0:
                 res = self.web_request_retry(self.config["events_url"])
-                if res != False:
+                if res is not False:
                     self.recent_activity = res.json()
                 else:
-                    return False
+                    return template if repo else False
 
             recent_match = re.search(
                 "<ul><recent>(.*)</recent></ul>",
@@ -491,7 +500,7 @@ class ReadmeUpdater:
                     or self.config["user"] + "/" + str(repo) == recent["repo"]["name"]
                 ):
                     recent_h = recent_template
-                    if recent["type"] == "IssueCommentEvent":
+                    if recent["type"] == "IssueCommentEvent" and "issue" in recent["payload"]:
                         recent_h = recent_h.replace(
                             "{recent_activity_url}",
                             recent["payload"]["issue"]["html_url"],
@@ -504,36 +513,37 @@ class ReadmeUpdater:
                         added += 1
                     elif recent["type"] == "PushEvent":
                         self.log(pprint.pformat(recent))
-                        if len(recent["payload"]["commits"]) > 0:
+                        commits = recent["payload"].get("commits", [])
+                        if len(commits) > 0:
                             recent_h = recent_h.replace(
                                 "{recent_activity_url}",
                                 self.get_commit_html_url(
-                                    recent["payload"]["commits"][0]["url"]
+                                    commits[0]["url"]
                                 ),
                             )
                             recent_h = recent_h.replace(
                                 "{recent_activity_title}",
-                                recent["payload"]["commits"][0]["message"],
+                                commits[0]["message"],
                             )
                             recent_html += recent_h
-                        added += 1
+                            added += 1
                     elif recent["type"] == "CreateEvent":
                         recent_h = recent_h.replace(
-                            "{recent_activity_url}", recent["repo"]["name"]
+                            "{recent_activity_url}", recent["repo"]["url"]
                         )
                         recent_h = recent_h.replace(
-                            "{recent_activity_title}", recent["repo"]["url"]
+                            "{recent_activity_title}", recent["repo"]["name"]
                         )
                         recent_html += recent_h
                         added += 1
-                    elif recent["type"] == "PullRequestEvent":
+                    elif recent["type"] == "PullRequestEvent" and "pull_request" in recent["payload"]:
                         recent_h = recent_h.replace(
                             "{recent_activity_url}",
-                            recent["payload"]["pull_request"]["title"],
+                            recent["payload"]["pull_request"]["html_url"],
                         )
                         recent_h = recent_h.replace(
                             "{recent_activity_title}",
-                            recent["payload"]["pull_request"]["html_url"],
+                            recent["payload"]["pull_request"]["title"],
                         )
                         recent_html += recent_h
                         added += 1
@@ -560,8 +570,10 @@ class ReadmeUpdater:
                     template,
                     flags=re.I | re.M | re.S,
                 )
-        except:  # noqa
-            self.log(self.template)
+        except Exception as e:
+            self.log(str(e))
+            if repo:
+                return template
             raise Exception("Failed generating activity")
 
     def generate_gists(self):

@@ -1,12 +1,12 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-06/01/2026 00:44:48-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-07/01/2026 00:44:06-brightgreen" height='28'/>
 
 <table>
   <tr>
     <td>
-      <h3>Issues (61)</h3>
+      <h3>Issues (63)</h3>
       <ul><li><a href='https://github.com/dmzoneill/curriculum-vitae/issues/2'>Print and screen css</a> 2025-06-07</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/29'>[FR] Only search for missing songs from artists with a given tag</a> 2025-09-24</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/28'>Stuck?</a> 2025-08-05</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/27'>There should be a way to pass cookies to the downloader</a> 2025-05-25</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/25'>Most releases found are missing tracks</a> 2025-09-15</li></ul>
-      <h3>Pull Requests (7)</h3>
-      <ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/50'>Bump form-data from 4.0.0 to 4.0.5 in /frontend</a> 2026-01-05</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/48'>Bump axios from 0.30.0 to 0.30.2 in /frontend</a> 2025-12-01</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/44'>Bump gopkg.in/yaml.v3 from 3.0.0 to 3.0.1 in /backend</a> 2025-12-01</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/43'>Bump on-headers and compression in /frontend</a> 2025-12-01</li><li><a href='https://github.com/dmzoneill/aa-dns-checker/pull/9'>Bump starlette from 0.40.0 to 0.49.1</a> 2025-10-28</li></ul>
+      <h3>Pull Requests (8)</h3>
+      <ul><li><a href='https://github.com/dmzoneill/DFakeSeeder/pull/12'>chore(deps): bump aiohttp from 3.13.2 to 3.13.3</a> 2026-01-06</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/50'>Bump form-data from 4.0.0 to 4.0.5 in /frontend</a> 2026-01-05</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/48'>Bump axios from 0.30.0 to 0.30.2 in /frontend</a> 2025-12-01</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/44'>Bump gopkg.in/yaml.v3 from 3.0.0 to 3.0.1 in /backend</a> 2025-12-01</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/43'>Bump on-headers and compression in /frontend</a> 2025-12-01</li></ul>
       <h3>Recent Acivity</h3>
       <ul></ul>
       <h3>Gists</h3>
@@ -41,7 +41,7 @@
     </tr>
   </thead>
   <tbody>
-    <tr><td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>5541033</td>
+    <tr><td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>5555103</td>
 <td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>1551207</td>
 <td><img src='https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white' title='Swift'  height='20px'/></td><td>163276</td>
 <td><img src='https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white' title='Kotlin'  height='20px'/></td><td>24599</td>
@@ -124,6 +124,22 @@
   <tbody>
     <tr>
             <td>
+              <p><h2><a href='https://github.com/dmzoneill/DFakeSeeder' title='DFakeSeeder'>DFakeSeeder</a> (2024)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/</p>
+              <p>Apache License 2.0</p>
+              <p><ul></ul></p>
+              <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/7'>seeder log</a> 2026-01-06</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/5'>status column view selection and filtering</a> 2026-01-06</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/4'>log select box single torrent</a> 2026-01-06</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/3'>rightclick context update tracker, stop, pause, resume</a> 2026-01-06</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/2'>multi select toolbar updates</a> 2026-01-06</li></ul></p>
+              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/DFakeSeeder/pull/12'>chore(deps): bump aiohttp from 3.13.2 to 3.13.3</a> 2026-01-06</li></ul></p>
+            </td>
+            <td>
+              <p><a href='https://github.com/dmzoneill/DFakeSeeder' title='DFakeSeeder'>DFakeSeeder</a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/DFakeSeeder/actions'><img src='https://github.com/dmzoneill//DFakeSeeder/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2026-01-06</p>
+            </td>
+        </tr>
+<tr>
+            <td>
               <p><h2><a href='https://github.com/dmzoneill/dmzoneill' title='dmzoneill'>dmzoneill</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
@@ -135,23 +151,7 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2026-01-05</p>
-            </td>
-        </tr>
-<tr>
-            <td>
-              <p><h2><a href='https://github.com/dmzoneill/DFakeSeeder' title='DFakeSeeder'>DFakeSeeder</a> (2024)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/</p>
-              <p>Apache License 2.0</p>
-              <p><ul></ul></p>
-              <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/7'>seeder log</a> 2025-12-19</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/5'>status column view selection and filtering</a> 2025-12-19</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/4'>log select box single torrent</a> 2025-12-19</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/3'>rightclick context update tracker, stop, pause, resume</a> 2025-12-19</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/2'>multi select toolbar updates</a> 2025-12-19</li></ul></p>
-              <p><ul></ul></p>
-            </td>
-            <td>
-              <p><a href='https://github.com/dmzoneill/DFakeSeeder' title='DFakeSeeder'>DFakeSeeder</a></p>
-            </td>
-            <td align="center">
-              <a href='https://github.com/dmzoneill/DFakeSeeder/actions'><img src='https://github.com/dmzoneill//DFakeSeeder/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2025-12-19</p>
+              <p>2026-01-06</p>
             </td>
         </tr>
 <tr>
@@ -352,7 +352,7 @@
               <p><h2><a href='https://github.com/dmzoneill/redhat-ai-workflow' title='redhat-ai-workflow'>redhat-ai-workflow</a> (2025)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
-              <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/redhat-ai-workflow/issues/29'>[Auto] Tool Error: slack_post_message</a> 2026-01-05</li><li><a href='https://github.com/dmzoneill/redhat-ai-workflow/issues/28'>[Auto] Tool Error: jira_transition</a> 2026-01-05</li><li><a href='https://github.com/dmzoneill/redhat-ai-workflow/issues/27'>[Auto] Tool Error: gitlab_mr_comments</a> 2026-01-05</li><li><a href='https://github.com/dmzoneill/redhat-ai-workflow/issues/26'>[Auto] Tool Error: gitlab_mr_view</a> 2026-01-05</li><li><a href='https://github.com/dmzoneill/redhat-ai-workflow/issues/25'>[Auto] Tool Error: kubectl_get_limitranges</a> 2026-01-05</li></ul></p>
+              <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/redhat-ai-workflow/issues/30'>[Auto] Tool Error: slack_get_user</a> 2026-01-06</li><li><a href='https://github.com/dmzoneill/redhat-ai-workflow/issues/29'>[Auto] Tool Error: slack_post_message</a> 2026-01-06</li><li><a href='https://github.com/dmzoneill/redhat-ai-workflow/issues/28'>[Auto] Tool Error: jira_transition</a> 2026-01-06</li><li><a href='https://github.com/dmzoneill/redhat-ai-workflow/issues/27'>[Auto] Tool Error: gitlab_mr_comments</a> 2026-01-06</li><li><a href='https://github.com/dmzoneill/redhat-ai-workflow/issues/26'>[Auto] Tool Error: gitlab_mr_view</a> 2026-01-06</li></ul></p>
               <p><ul></ul></p>
             </td>
             <td>
@@ -360,7 +360,7 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/redhat-ai-workflow/actions'><img src='https://github.com/dmzoneill//redhat-ai-workflow/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2026-01-05</p>
+              <p>2026-01-06</p>
             </td>
         </tr>
 <tr>

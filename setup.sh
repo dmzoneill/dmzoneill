@@ -2,7 +2,14 @@
 
 # Fixes pagination and robustness for updating repositories with workflows.
 # Uses the GitHub API Link header to detect next page, caches responses,
-# and authenticates once at the start (if PROFILE_HOOK is provided).
+# authenticates once at the start (if PROFILE_HOOK is provided),
+# and correctly handles repositories owned by orgs or other users.
+#
+# Key fixes vs previous:
+# - Use repo owner and name from API (don't assume owner == $user)
+# - Clone into a temporary directory to avoid name collisions (eg ".github")
+# - Use per-repo local git config instead of --global
+# - Better header normalization and Link: rel="next" detection
 
 user=dmzoneill
 email=dmz.oneill@gmail.com
@@ -37,6 +44,22 @@ fi
 
 tmpdir=$(mktemp -d)
 trap 'rm -rf "$tmpdir"' EXIT
+
+# Where to place clones (avoid name collisions with repo dirs like ".github")
+clone_base="$tmpdir/clones"
+mkdir -p "$clone_base"
+
+# Determine current repo full name to skip (if running inside a git repo)
+current_full=""
+if git rev-parse --is-inside-work-tree >/dev/null 2>&1; then
+  origin_url=$(git config --get remote.origin.url || echo "")
+  # Try parse owner/name from origin url
+  case "$origin_url" in
+    git@github.com:*/*) current_full=${origin_url#git@github.com:}; current_full=${current_full%.git} ;;
+    https://github.com/*/*) current_full=${origin_url#https://github.com/}; current_full=${current_full%.git} ;;
+    *) current_full="" ;;
+  esac
+fi
 
 page=1
 while true; do
@@ -84,22 +107,25 @@ while true; do
   fi
 
   # Iterate repos from cached body (preserves safety for names with spaces)
-  jq -r '.[] | .ssh_url' "$body" | while IFS= read -r X; do
-    # Extract name from ssh_url which is usually like git@github.com:owner/name.git
-    # This works by taking the part after the colon or last slash.
-    name=$(basename "$X" | sed 's/\.git$//')
-    echo "Checking repo: $name"
-
-    # Set the secret for the repo (no-op if already set)
-    if [ -n "$pass" ]; then
-      gh secret set profile_hook -r "$user/$name" -b "$pass" || echo "Failed to set secret for $name"
-    fi
+  # Use owner and name explicitly so we don't assume owner == $user
+  jq -r '.[] | [.owner.login, .name, .ssh_url] | @tsv' "$body" | \
+  while IFS=$'\t' read -r repo_owner repo_name repo_ssh; do
+    repo_full="$repo_owner/$repo_name"
+    echo "Checking repo: $repo_full (ssh_url: $repo_ssh)"
 
     # Skip the repository that is this repository itself
-    [[ "$name" == "$user" ]] && continue
+    if [ -n "$current_full" ] && [ "$repo_full" = "$current_full" ]; then
+      echo "Skipping current repository $repo_full"
+      continue
+    fi
+
+    # Set the secret for the repo (no-op if already set). Use the repo full name.
+    if [ -n "$pass" ]; then
+      gh secret set profile_hook -r "$repo_full" -b "$pass" || echo "Failed to set secret for $repo_full"
+    fi
 
     # === Check main.yml
-    main_url="https://raw.githubusercontent.com/$user/$name/main/.github/workflows/main.yml"
+    main_url="https://raw.githubusercontent.com/$repo_owner/$repo_name/main/.github/workflows/main.yml"
     if curl -s -f -L "$main_url" > /tmp/main_check 2>/dev/null; then
       if grep -q "^name:" /tmp/main_check; then
         main_status="present"
@@ -114,7 +140,7 @@ while true; do
     fi
 
     # === Check ai-responder.yml
-    ai_url="https://raw.githubusercontent.com/$user/$name/main/.github/workflows/ai-responder.yml"
+    ai_url="https://raw.githubusercontent.com/$repo_owner/$repo_name/main/.github/workflows/ai-responder.yml"
     if curl -s -f -L "$ai_url" > /tmp/ai_check 2>/dev/null; then
       if grep -q "^name:" /tmp/ai_check; then
         ai_status="present"
@@ -128,8 +154,8 @@ while true; do
       ai_md5=""
     fi
 
-    echo "$name: main_status=$main_status, main_md5=$main_md5, local_main_md5=$local_main_md5"
-    echo "$name: ai_status=$ai_status, ai_md5=$ai_md5, local_ai_md5=$local_ai_md5"
+    echo "$repo_full: main_status=$main_status, main_md5=$main_md5, local_main_md5=$local_main_md5"
+    echo "$repo_full: ai_status=$ai_status, ai_md5=$ai_md5, local_ai_md5=$local_ai_md5"
 
     skip_main="false"
     skip_ai="false"
@@ -139,42 +165,58 @@ while true; do
     [[ "$ai_status" == "present" ]] && skip_ai="true"
 
     if [[ "$skip_main" == "true" && "$skip_ai" == "true" ]]; then
-      echo "Skip: both files already exist in $name"
+      echo "Skip: both files already exist in $repo_full"
       continue
     fi
 
-    git_url="https://$user:$pass@github.com/$user/$name.git"
-    if ! git clone "$git_url"; then
-      echo "Failed to clone $git_url"
+    # Build clone URL. If we have credentials use them to avoid rate limits for large batches.
+    if [ -n "$pass" ]; then
+      git_url="https://$user:$pass@github.com/$repo_owner/$repo_name.git"
+    else
+      git_url="https://github.com/$repo_owner/$repo_name.git"
+    fi
+
+    target_dir="$clone_base/$repo_owner-$repo_name"
+    rm -rf "$target_dir"
+    if ! git clone --depth 1 "$git_url" "$target_dir"; then
+      echo "Failed to clone $git_url (into $target_dir)"
       continue
     fi
 
-    [ ! -f "$name/LICENSE" ] && cp LICENSE "$name/" || true
+    # Copy LICENSE from this repo if target doesn't have it and current repo has it
+    if [ -f LICENSE ] && [ ! -f "$target_dir/LICENSE" ]; then
+      cp -f LICENSE "$target_dir/" || true
+    fi
 
-    mkdir -vp "$name/.github/workflows/"
-    [[ "$skip_main" != "true" ]] && cp -f main.yml "$name/.github/workflows/" || true
-    [[ "$skip_ai" != "true" ]] && cp -f ai-responder.yml "$name/.github/workflows/" || true
+    mkdir -p "$target_dir/.github/workflows/"
+    [[ "$skip_main" != "true" ]] && cp -f main.yml "$target_dir/.github/workflows/" || true
+    [[ "$skip_ai" != "true" ]] && cp -f ai-responder.yml "$target_dir/.github/workflows/" || true
 
     (
-      cd "$name" || exit 1
+      cd "$target_dir" || exit 1
       # Attempt to set secret again in the repo's context
       if [ -n "$pass" ]; then
-        gh secret set profile_hook -r "$user/$name" -b "$pass" || echo "Failed to set secret inside $name"
+        gh secret set profile_hook -r "$repo_full" -b "$pass" || echo "Failed to set secret inside $repo_full"
       fi
-      git config --global user.email "$email"
-      git config --global user.name "$user"
+
+      # Use local repo config rather than global
+      git config user.email "$email"
+      git config user.name "$user"
 
       git remote set-url origin "$git_url"
       git add -A
       # Only commit if there are changes
       if ! git diff --cached --quiet; then
         git commit -m "Add or update GitHub Actions workflows" || echo "git commit had no changes or failed"
-        git pull --rebase || echo "git pull --rebase failed in $name"
-        git push || echo "git push failed in $name"
+        git pull --rebase || echo "git pull --rebase failed in $repo_full"
+        git push || echo "git push failed in $repo_full"
       else
-        echo "No changes to commit in $name"
+        echo "No changes to commit in $repo_full"
       fi
     )
+
+    # Clean up clone to save space; comment out if you want to keep clones.
+    rm -rf "$target_dir"
   done
 
   # Debug: show raw headers (trimmed)

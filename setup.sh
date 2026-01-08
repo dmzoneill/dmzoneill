@@ -9,9 +9,18 @@ email=dmz.oneill@gmail.com
 pass=${PROFILE_HOOK:-}
 per_page=100
 
-# Local reference md5sums
-local_main_md5=$(md5sum main.yml | awk '{print $1}')
-local_ai_md5=$(md5sum ai-responder.yml | awk '{print $1}')
+# Local reference md5sums (only if files exist in this repo)
+if [ -f main.yml ]; then
+  local_main_md5=$(md5sum main.yml | awk '{print $1}')
+else
+  local_main_md5=""
+fi
+
+if [ -f ai-responder.yml ]; then
+  local_ai_md5=$(md5sum ai-responder.yml | awk '{print $1}')
+else
+  local_ai_md5=""
+fi
 
 # Authenticate once (so gh and API requests can use the token)
 if [ -n "$pass" ]; then
@@ -32,7 +41,14 @@ trap 'rm -rf "$tmpdir"' EXIT
 page=1
 while true; do
   echo "Page: $page"
-  url="https://api.github.com/users/$user/repos?per_page=$per_page&page=$page"
+
+  # Use authenticated endpoint when token present to include private repos
+  if [ -n "$GITHUB_TOKEN" ]; then
+    api_base="https://api.github.com/user/repos"
+  else
+    api_base="https://api.github.com/users/$user/repos"
+  fi
+  url="$api_base?per_page=$per_page&page=$page"
   echo "$url"
 
   headers="$tmpdir/headers.$page"
@@ -45,17 +61,21 @@ while true; do
     curl -sS -D "$headers" -o "$body" "$url"
   fi
 
-  # Check HTTP status
-  http_status=$(awk 'NR==1 {print $2}' "$headers" 2>/dev/null || echo "")
+  # Get the last HTTP status line in case of redirects (multiple header blocks)
+  http_status=$(awk '/^HTTP\/[0-9.]+/ {code=$2} END {print code}' "$headers" 2>/dev/null || echo "")
+  echo "HTTP status: $http_status"
   if [ "$http_status" != "200" ] && [ "$http_status" != "201" ]; then
     echo "GitHub API returned HTTP $http_status for page $page"
-    cat "$body"
+    echo "Response headers:"
+    sed -n '1,200p' "$headers" || true
+    echo "Response body:"
+    sed -n '1,200p' "$body" || true
     exit 1
   fi
 
   # Count repos returned
   repo_count=$(jq 'length' "$body" 2>/dev/null || echo 0)
-  echo "Repos on this page: $repo_count"
+  echo "Repos on this page (jq length): $repo_count"
 
   # If no repos, we're done
   if [ "$repo_count" -eq 0 ]; then
@@ -65,7 +85,9 @@ while true; do
 
   # Iterate repos from cached body (preserves safety for names with spaces)
   jq -r '.[] | .ssh_url' "$body" | while IFS= read -r X; do
-    name=$(echo "$X" | awk -F'/' '{print $2}' | sed 's/\.git//')
+    # Extract name from ssh_url which is usually like git@github.com:owner/name.git
+    # This works by taking the part after the colon or last slash.
+    name=$(basename "$X" | sed 's/\.git$//')
     echo "Checking repo: $name"
 
     # Set the secret for the repo (no-op if already set)
@@ -74,7 +96,7 @@ while true; do
     fi
 
     # Skip the repository that is this repository itself
-    [[ "$name" == "dmzoneill" ]] && continue
+    [[ "$name" == "$user" ]] && continue
 
     # === Check main.yml
     main_url="https://raw.githubusercontent.com/$user/$name/main/.github/workflows/main.yml"
@@ -127,11 +149,11 @@ while true; do
       continue
     fi
 
-    [ ! -f "$name/LICENSE" ] && cp LICENSE "$name/"
+    [ ! -f "$name/LICENSE" ] && cp LICENSE "$name/" || true
 
     mkdir -vp "$name/.github/workflows/"
-    [[ "$skip_main" != "true" ]] && cp -f main.yml "$name/.github/workflows/"
-    [[ "$skip_ai" != "true" ]] && cp -f ai-responder.yml "$name/.github/workflows/"
+    [[ "$skip_main" != "true" ]] && cp -f main.yml "$name/.github/workflows/" || true
+    [[ "$skip_ai" != "true" ]] && cp -f ai-responder.yml "$name/.github/workflows/" || true
 
     (
       cd "$name" || exit 1
@@ -155,8 +177,22 @@ while true; do
     )
   done
 
-  # Check Link header for a rel="next" link; if present, continue to next page
-  if grep -i '^link:' "$headers" 2>/dev/null | grep -q 'rel="next"'; then
+  # Debug: show raw headers (trimmed)
+  echo "Response headers (raw):"
+  sed -n '1,200p' "$headers" || true
+
+  # Normalize CRLFs (remove CR) and take the last Link header (handles redirects/multiple header blocks)
+  normalized_headers="$tmpdir/headers.$page.norm"
+  tr -d '\r' < "$headers" > "$normalized_headers" || cp -f "$headers" "$normalized_headers"
+
+  last_link=$(grep -i '^link:' "$normalized_headers" 2>/dev/null | tail -n1 || true)
+  if [ -n "$last_link" ]; then
+    echo "Found Link header: $last_link"
+  else
+    echo "No Link header found on page $page"
+  fi
+
+  if echo "$last_link" | grep -q 'rel="next"'; then
     page=$((page+1))
     continue
   fi

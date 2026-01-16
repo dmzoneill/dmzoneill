@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-15/01/2026 00:41:33-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-16/01/2026 00:45:18-brightgreen" height='28'/>
 
 <table>
   <tr>
@@ -135,7 +135,7 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2026-01-14</p>
+              <p>2026-01-15</p>
             </td>
         </tr>
 <tr>
@@ -368,7 +368,7 @@
               <p><h2><a href='https://github.com/dmzoneill/redhat-ai-workflow' title='redhat-ai-workflow'>redhat-ai-workflow</a> (2025)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
-              <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/redhat-ai-workflow/issues/96'>[Auto] Tool Error: gitlab_mr_comment</a> 2026-01-14</li><li><a href='https://github.com/dmzoneill/redhat-ai-workflow/issues/95'>[Auto] Tool Error: gitlab_mr_diff</a> 2026-01-14</li><li><a href='https://github.com/dmzoneill/redhat-ai-workflow/issues/94'>[Auto] Tool Error: git_blame</a> 2026-01-14</li><li><a href='https://github.com/dmzoneill/redhat-ai-workflow/issues/93'>[Auto] Tool Error: gitlab_commit_list</a> 2026-01-14</li><li><a href='https://github.com/dmzoneill/redhat-ai-workflow/issues/92'>[Auto] Tool Error: gitlab_mr_view</a> 2026-01-14</li></ul></p>
+              <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/redhat-ai-workflow/issues/98'>[Auto] Tool Error: k8s_namespace_health</a> 2026-01-14</li><li><a href='https://github.com/dmzoneill/redhat-ai-workflow/issues/97'>[Auto] Tool Error: appinterface_search</a> 2026-01-14</li><li><a href='https://github.com/dmzoneill/redhat-ai-workflow/issues/96'>[Auto] Tool Error: gitlab_mr_comment</a> 2026-01-14</li><li><a href='https://github.com/dmzoneill/redhat-ai-workflow/issues/95'>[Auto] Tool Error: gitlab_mr_diff</a> 2026-01-14</li><li><a href='https://github.com/dmzoneill/redhat-ai-workflow/issues/94'>[Auto] Tool Error: git_blame</a> 2026-01-14</li></ul></p>
               <p><ul></ul></p>
             </td>
             <td>

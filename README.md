@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-17/01/2026 00:42:44-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-18/01/2026 00:47:25-brightgreen" height='28'/>
 
 <table>
   <tr>
@@ -135,7 +135,7 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2026-01-16</p>
+              <p>2026-01-17</p>
             </td>
         </tr>
 <tr>
@@ -1821,22 +1821,6 @@
         </tr>
 <tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/lm051-cs4001-computer-applications' title='lm051-cs4001-computer-applications'>lm051-cs4001-computer-applications</a> (2010)</h2></p><p><img src='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' title='Java' height='20px'/</p>
-              <p>Apache License 2.0</p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-            </td>
-            <td>
-              <p><a href='' title=''></a></p>
-            </td>
-            <td align="center">
-              <a href='https://github.com/dmzoneill/lm051-cs4001-computer-applications/actions'><img src='https://github.com/dmzoneill//lm051-cs4001-computer-applications/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2025-05-10</p>
-            </td>
-        </tr>
-<tr>
-            <td>
               <p><h2><a href='https://github.com/dmzoneill/firstQt' title='firstQt'>firstQt</a> (2010)</h2></p><p><img src='https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white' title='C++' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/> <img src='https://img.shields.io/badge/_-QMake -11DDDD.svg?style=for-the-badge' title='QMake' height='20px'/</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
@@ -2953,6 +2937,22 @@
             <td align="center">
               <a href='https://github.com/dmzoneill/Xenith/actions'><img src='https://github.com/dmzoneill//Xenith/actions/workflows/main.yml/badge.svg'/></a>
               <p>2026-01-08</p>
+            </td>
+        </tr>
+<tr>
+            <td>
+              <p><h2><a href='https://github.com/dmzoneill/lm051-cs4001-computer-applications' title='lm051-cs4001-computer-applications'>lm051-cs4001-computer-applications</a> ()</h2></p><p><img src='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' title='Java' height='20px'/</p>
+              <p>Apache License 2.0</p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+            </td>
+            <td>
+              <p><a href='' title=''></a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/lm051-cs4001-computer-applications/actions'><img src='https://github.com/dmzoneill//lm051-cs4001-computer-applications/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2025-05-10</p>
             </td>
         </tr>
   </tbody>

@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-18/01/2026 00:47:25-brightgreen" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-19/01/2026 00:46:42-brightgreen" height='28'/>
 
 <table>
   <tr>
@@ -41,7 +41,7 @@
     </tr>
   </thead>
   <tbody>
-    <tr><td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>6348365</td>
+    <tr><td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>6898820</td>
 <td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>1585421</td>
 <td><img src='https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white' title='Swift'  height='20px'/></td><td>163276</td>
 <td><img src='https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white' title='Kotlin'  height='20px'/></td><td>24599</td>
@@ -59,12 +59,12 @@
 <td><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript'  height='20px'/></td><td>8611571</td>
 <td><img src='https://img.shields.io/badge/perl-%2339457E.svg?style=for-the-badge&logo=perl&logoColor=white' title='Perl'  height='20px'/></td><td>9274404</td>
 <td><img src='https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white' title='Ruby'  height='20px'/></td><td>507181</td>
-<td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>431284</td>
+<td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>431682</td>
 </tr><tr>
 <td><img src='https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white' title='C'  height='20px'/></td><td>15566491</td>
 <td><img src='https://img.shields.io/badge/_-COBOL -11DDDD.svg?style=for-the-badge' title='COBOL'  height='20px'/></td><td>964</td>
 <td><img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile'  height='20px'/></td><td>10113</td>
-<td><img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript'  height='20px'/></td><td>188035</td>
+<td><img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript'  height='20px'/></td><td>546026</td>
 </tr><tr>
 <td><img src='https://img.shields.io/badge/_-Jinja -11DDDD.svg?style=for-the-badge' title='Jinja'  height='20px'/></td><td>322382</td>
 <td><img src='https://img.shields.io/badge/_-M4 -11DDDD.svg?style=for-the-badge' title='M4'  height='20px'/></td><td>132592</td>
@@ -135,7 +135,7 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2026-01-17</p>
+              <p>2026-01-18</p>
             </td>
         </tr>
 <tr>
@@ -365,10 +365,26 @@
         </tr>
 </tbody></table><h2>2025</h2><table width='100%' style='width:100%'><thead><tr><th>Project</th><th>View</th><th>Status</th></tr></thead><tbody><tr>
             <td>
+              <p><h2><a href='https://github.com/dmzoneill/pass-gnome-extension' title='pass-gnome-extension'>pass-gnome-extension</a> (2025)</h2></p><p><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
+              <p>Apache License 2.0</p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+            </td>
+            <td>
+              <p><a href='' title=''></a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/pass-gnome-extension/actions'><img src='https://github.com/dmzoneill//pass-gnome-extension/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2026-01-18</p>
+            </td>
+        </tr>
+<tr>
+            <td>
               <p><h2><a href='https://github.com/dmzoneill/redhat-ai-workflow' title='redhat-ai-workflow'>redhat-ai-workflow</a> (2025)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
-              <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/redhat-ai-workflow/issues/100'>[Auto] Tool Error: code_search</a> 2026-01-14</li><li><a href='https://github.com/dmzoneill/redhat-ai-workflow/issues/99'>[Auto] Tool Error: code_stats</a> 2026-01-14</li><li><a href='https://github.com/dmzoneill/redhat-ai-workflow/issues/98'>[Auto] Tool Error: k8s_namespace_health</a> 2026-01-14</li><li><a href='https://github.com/dmzoneill/redhat-ai-workflow/issues/97'>[Auto] Tool Error: appinterface_search</a> 2026-01-14</li><li><a href='https://github.com/dmzoneill/redhat-ai-workflow/issues/96'>[Auto] Tool Error: gitlab_mr_comment</a> 2026-01-14</li></ul></p>
+              <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/redhat-ai-workflow/issues/102'>[Auto] Tool Error: code_search</a> 2026-01-18</li><li><a href='https://github.com/dmzoneill/redhat-ai-workflow/issues/101'>[Auto] Tool Error: code_search</a> 2026-01-18</li><li><a href='https://github.com/dmzoneill/redhat-ai-workflow/issues/100'>[Auto] Tool Error: code_search</a> 2026-01-18</li><li><a href='https://github.com/dmzoneill/redhat-ai-workflow/issues/99'>[Auto] Tool Error: code_stats</a> 2026-01-18</li><li><a href='https://github.com/dmzoneill/redhat-ai-workflow/issues/98'>[Auto] Tool Error: k8s_namespace_health</a> 2026-01-18</li></ul></p>
               <p><ul></ul></p>
             </td>
             <td>
@@ -376,7 +392,7 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/redhat-ai-workflow/actions'><img src='https://github.com/dmzoneill//redhat-ai-workflow/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2026-01-14</p>
+              <p>2026-01-18</p>
             </td>
         </tr>
 <tr>
@@ -393,22 +409,6 @@
             <td align="center">
               <a href='https://github.com/dmzoneill/jira-creator/actions'><img src='https://github.com/dmzoneill//jira-creator/actions/workflows/main.yml/badge.svg'/></a>
               <p>2026-01-12</p>
-            </td>
-        </tr>
-<tr>
-            <td>
-              <p><h2><a href='https://github.com/dmzoneill/pass-gnome-extension' title='pass-gnome-extension'>pass-gnome-extension</a> (2025)</h2></p><p><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
-              <p>Apache License 2.0</p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-            </td>
-            <td>
-              <p><a href='' title=''></a></p>
-            </td>
-            <td align="center">
-              <a href='https://github.com/dmzoneill/pass-gnome-extension/actions'><img src='https://github.com/dmzoneill//pass-gnome-extension/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2025-12-01</p>
             </td>
         </tr>
 <tr>
@@ -1821,6 +1821,22 @@
         </tr>
 <tr>
             <td>
+              <p><h2><a href='https://github.com/dmzoneill/lm051-cs4001-computer-applications' title='lm051-cs4001-computer-applications'>lm051-cs4001-computer-applications</a> (2010)</h2></p><p><img src='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' title='Java' height='20px'/</p>
+              <p>Apache License 2.0</p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+            </td>
+            <td>
+              <p><a href='' title=''></a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/lm051-cs4001-computer-applications/actions'><img src='https://github.com/dmzoneill//lm051-cs4001-computer-applications/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2025-05-10</p>
+            </td>
+        </tr>
+<tr>
+            <td>
               <p><h2><a href='https://github.com/dmzoneill/firstQt' title='firstQt'>firstQt</a> (2010)</h2></p><p><img src='https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white' title='C++' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/> <img src='https://img.shields.io/badge/_-QMake -11DDDD.svg?style=for-the-badge' title='QMake' height='20px'/</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
@@ -2937,22 +2953,6 @@
             <td align="center">
               <a href='https://github.com/dmzoneill/Xenith/actions'><img src='https://github.com/dmzoneill//Xenith/actions/workflows/main.yml/badge.svg'/></a>
               <p>2026-01-08</p>
-            </td>
-        </tr>
-<tr>
-            <td>
-              <p><h2><a href='https://github.com/dmzoneill/lm051-cs4001-computer-applications' title='lm051-cs4001-computer-applications'>lm051-cs4001-computer-applications</a> ()</h2></p><p><img src='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' title='Java' height='20px'/</p>
-              <p>Apache License 2.0</p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-            </td>
-            <td>
-              <p><a href='' title=''></a></p>
-            </td>
-            <td align="center">
-              <a href='https://github.com/dmzoneill/lm051-cs4001-computer-applications/actions'><img src='https://github.com/dmzoneill//lm051-cs4001-computer-applications/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2025-05-10</p>
             </td>
         </tr>
   </tbody>

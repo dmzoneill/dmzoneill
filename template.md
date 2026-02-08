@@ -5,6 +5,7 @@
 <table width='100%' style='width:100%'>
   <tr>
     <td>
+      <h3>The Inevitable Upgrade</h3>
       <blockquote>
       <p><em>First, engineers said machine code was enough and resisted assembly.<br/>
       Then they said assembly was enough and resisted C.<br/>

@@ -1,10 +1,10 @@
 {
   "https://api.github.com/repos/dmzoneill/Bootstack-Highlight-Monitor/languages": {
-    "t": 1770590143.3112996,
+    "t": 1770591272.6377735,
     "v": {}
   },
   "https://api.github.com/repos/dmzoneill/DFakeSeeder/issues?state=open": {
-    "t": 1770590137.6733923,
+    "t": 1770591264.6800485,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/DFakeSeeder/issues/7",
@@ -39,11 +39,11 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/DFakeSeeder/pulls?state=open": {
-    "t": 1770590138.6953838,
+    "t": 1770591265.6043286,
     "v": []
   },
   "https://api.github.com/repos/dmzoneill/EC-SI-Scripts/issues?state=open": {
-    "t": 1770590149.2394278,
+    "t": 1770591278.6630735,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/EC-SI-Scripts/issues/1",
@@ -54,11 +54,11 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/EC-SI-Scripts/pulls?state=open": {
-    "t": 1770590150.2165635,
+    "t": 1770591279.8008416,
     "v": []
   },
   "https://api.github.com/repos/dmzoneill/ansible-feeditout-com/issues?state=open": {
-    "t": 1770590139.6535296,
+    "t": 1770591268.7369056,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/ansible-feeditout-com/issues/2",
@@ -75,15 +75,15 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/ansible-feeditout-com/pulls?state=open": {
-    "t": 1770590140.5886426,
+    "t": 1770591269.612782,
     "v": []
   },
   "https://api.github.com/repos/dmzoneill/ashtangayogacork.ie-assets/languages": {
-    "t": 1770590144.1879487,
+    "t": 1770591273.5447435,
     "v": {}
   },
   "https://api.github.com/repos/dmzoneill/ashtangayogacork.ie/issues?state=open": {
-    "t": 1770590152.0843167,
+    "t": 1770591281.694586,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/ashtangayogacork.ie/issues/26",
@@ -100,11 +100,11 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/ashtangayogacork.ie/pulls?state=open": {
-    "t": 1770590153.1219466,
+    "t": 1770591282.8622346,
     "v": []
   },
   "https://api.github.com/repos/dmzoneill/curriculum-vitae/issues?state=open": {
-    "t": 1770590129.5917132,
+    "t": 1770591258.446872,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/curriculum-vitae/issues/2",
@@ -115,11 +115,11 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/curriculum-vitae/pulls?state=open": {
-    "t": 1770590130.4676554,
+    "t": 1770591259.6349647,
     "v": []
   },
   "https://api.github.com/repos/dmzoneill/gnome-extension-publisher/issues?state=open": {
-    "t": 1770590135.6348784,
+    "t": 1770591262.5516837,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/gnome-extension-publisher/issues/2",
@@ -130,15 +130,15 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/gnome-extension-publisher/pulls?state=open": {
-    "t": 1770590136.608239,
+    "t": 1770591263.6834764,
     "v": []
   },
   "https://api.github.com/repos/dmzoneill/hevyapp-api/languages": {
-    "t": 1770590141.5576773,
+    "t": 1770591270.675091,
     "v": {}
   },
   "https://api.github.com/repos/dmzoneill/lidarr-youtube-downloader/issues?state=open": {
-    "t": 1770590131.5706415,
+    "t": 1770591266.667021,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/lidarr-youtube-downloader/issues/29",
@@ -151,12 +151,6 @@
         "title": "Stuck?",
         "updated_at": "2025-08-05T09:11:19Z",
         "url": "https://api.github.com/repos/dmzoneill/lidarr-youtube-downloader/issues/28"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/lidarr-youtube-downloader/issues/27",
-        "title": "There should be a way to pass cookies to the downloader",
-        "updated_at": "2025-05-25T08:54:17Z",
-        "url": "https://api.github.com/repos/dmzoneill/lidarr-youtube-downloader/issues/27"
       },
       {
         "html_url": "https://github.com/dmzoneill/lidarr-youtube-downloader/issues/25",
@@ -175,18 +169,6 @@
         "title": "Issue with Lidarr recognizing downloaded audio and incorrect metadata in Jellyfin",
         "updated_at": "2024-02-23T21:53:22Z",
         "url": "https://api.github.com/repos/dmzoneill/lidarr-youtube-downloader/issues/21"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/lidarr-youtube-downloader/issues/12",
-        "title": "REQ: Ability to set percentage match cutoff and/or keyword blacklist such as \"live\" or whitelist \"official\" in title.",
-        "updated_at": "2024-03-25T18:54:47Z",
-        "url": "https://api.github.com/repos/dmzoneill/lidarr-youtube-downloader/issues/12"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/lidarr-youtube-downloader/issues/11",
-        "title": "Deployment Loop and \"workaround\".",
-        "updated_at": "2023-05-10T16:06:45Z",
-        "url": "https://api.github.com/repos/dmzoneill/lidarr-youtube-downloader/issues/11"
       },
       {
         "html_url": "https://github.com/dmzoneill/lidarr-youtube-downloader/issues/7",
@@ -215,19 +197,19 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/lidarr-youtube-downloader/pulls?state=open": {
-    "t": 1770590132.4835181,
+    "t": 1770591267.6103377,
     "v": []
   },
   "https://api.github.com/repos/dmzoneill/my-history/languages": {
-    "t": 1770590151.0952945,
+    "t": 1770591280.6855183,
     "v": {}
   },
   "https://api.github.com/repos/dmzoneill/pass/languages": {
-    "t": 1770590142.4401538,
+    "t": 1770591271.7009835,
     "v": {}
   },
   "https://api.github.com/repos/dmzoneill/php-binance-bot/issues?state=open": {
-    "t": 1770590145.1556263,
+    "t": 1770591274.5322597,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/php-binance-bot/issues/1",
@@ -238,11 +220,11 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/php-binance-bot/pulls?state=open": {
-    "t": 1770590146.0422146,
+    "t": 1770591275.6004567,
     "v": []
   },
   "https://api.github.com/repos/dmzoneill/seedmagepp/issues?state=open": {
-    "t": 1770590147.1139412,
+    "t": 1770591276.622897,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/seedmagepp/issues/1",
@@ -253,11 +235,11 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/seedmagepp/pulls?state=open": {
-    "t": 1770590148.2612925,
+    "t": 1770591277.5510821,
     "v": []
   },
   "https://api.github.com/repos/dmzoneill/tado-gnome-shell-extension/issues?state=open": {
-    "t": 1770590133.4752471,
+    "t": 1770591260.6046674,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/tado-gnome-shell-extension/issues/2",
@@ -268,11 +250,11 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/tado-gnome-shell-extension/pulls?state=open": {
-    "t": 1770590134.4756293,
+    "t": 1770591261.4977822,
     "v": []
   },
   "https://api.github.com/users/dmzoneill/gists": {
-    "t": 1770590154.0709507,
+    "t": 1770591283.901999,
     "v": [
       {
         "description": "Complete Guide: Multi-Instance Ollama Setup with NPU, Intel GPU, and NVIDIA GPU",

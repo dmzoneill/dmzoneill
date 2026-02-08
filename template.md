@@ -1,8 +1,6 @@
-<a href="{github_url}" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="{linkedin_url}" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-{last_updated}-brightgreen" height='28'/> &nbsp;&nbsp; <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=dmzoneill&color=brightgreen&style=for-the-badge" height='28'/>
+<a href="{github_url}" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="{linkedin_url}" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-{last_updated}-brightgreen" height='28'/> &nbsp;&nbsp; <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=dmzoneill&color=brightgreen&style=for-the-badge" height='28'/> &nbsp;&nbsp; <img alt="Redhat" width='30' height='25' src="https://github.com/dmzoneill/dmzoneill/blob/main/images/redhat.svg?raw=true" />
 
 <img src="generated/timeline.svg" width="760" alt="timeline"/>
-
-{currently_working_on}
 
 <table width='100%' style='width:100%'>
   <tr>
@@ -20,15 +18,9 @@
     <td>
       <h3>Work related stuff over on</h3>
       <ul><orgs><li><a href='{org_url}'>{org_name}</a></li></orgs></ul>
-      <br/><img alt="Redhat" width='200px' src="https://github.com/dmzoneill/dmzoneill/blob/main/images/redhat.svg?raw=true" />
     </td>
   </tr>
 </table>
-
-<table><tr>
-<td><img src="generated/stats.svg" width="355" alt="stats"/></td>
-<td><img src="generated/top_repos.svg" width="355" alt="top repos"/></td>
-</tr></table>
 
 <details>
 <summary><strong>Issues ({issue_count})</strong></summary>

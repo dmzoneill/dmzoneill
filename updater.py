@@ -3,10 +3,282 @@ import os
 import pprint
 import re
 import time
+from collections import defaultdict
 from datetime import datetime
 from operator import itemgetter
 
 import requests
+
+CACHE_FILE = "generated/cache.json"
+CACHE_TTL_HOURS = 12
+PERMANENT_CACHE_FILE = "generated/permanent_cache.json"
+
+FONT = (
+    "-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, "
+    "sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'"
+)
+
+
+def fmt(n):
+    if n >= 1_000_000:
+        return f"{n / 1_000_000:.1f}M"
+    if n >= 1_000:
+        return f"{n / 1_000:.1f}k"
+    return str(n)
+
+
+def esc(text):
+    return (
+        str(text)
+        .replace("&", "&amp;")
+        .replace("<", "&lt;")
+        .replace(">", "&gt;")
+        .replace('"', "&quot;")
+        .replace("'", "&#39;")
+    )
+
+
+def svg_stats(repos, stars, issues, prs, loc, lang_count, width=335, height=220):
+    items = [
+        ("Repositories", fmt(repos)),
+        ("Stars Earned", fmt(stars)),
+        ("Open Issues", fmt(issues)),
+        ("Open PRs", fmt(prs)),
+        ("Lines of Code", fmt(loc)),
+        ("Languages", fmt(lang_count)),
+    ]
+    right = width - 30
+    rows = ""
+    for i, (label, value) in enumerate(items):
+        y = 48 + i * 27
+        delay = 0.1 * i
+        rows += f"""    <g style="animation:slideIn .4s ease-out {delay:.1f}s both">
+      <text x="30" y="{y}" class="label">{label}</text>
+      <text x="{right}" y="{y}" class="value" text-anchor="end">{value}</text>
+    </g>\n"""
+
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}">
+  <style>
+    @keyframes slideIn {{ from {{ opacity:0; transform:translateX(-10px) }} to {{ opacity:1; transform:translateX(0) }} }}
+    .card  {{ fill: #0d1117; stroke: #30363d; stroke-width: 1; }}
+    .head  {{ font: bold 14px {FONT}; fill: #58a6ff; }}
+    .label {{ font: 13px {FONT}; fill: #8b949e; }}
+    .value {{ font: bold 13px {FONT}; fill: #e6edf3; }}
+    @media (prefers-color-scheme: light) {{
+      .card  {{ fill: #ffffff; stroke: #d0d7de; }}
+      .head  {{ fill: #0969da; }}
+      .label {{ fill: #57606a; }}
+      .value {{ fill: #1f2328; }}
+    }}
+  </style>
+  <rect class="card" width="{width}" height="{height}" rx="8"/>
+  <text class="head" x="30" y="28">GitHub Stats</text>
+  <line x1="30" y1="35" x2="{right}" y2="35" stroke="#21262d" stroke-width="0.5"/>
+{rows}</svg>"""
+
+
+def svg_top_repos(repos, width=335, height=260):
+    starred = sorted(
+        [(r["name"], r.get("stargazers_count", 0)) for r in repos if r.get("stargazers_count", 0) > 0],
+        key=lambda x: x[1],
+        reverse=True,
+    )[:10]
+    if not starred:
+        return f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}"/>'
+
+    max_stars = starred[0][1]
+    bar_area_left = int(width * 0.45)
+    bar_area_right = width - 20
+    bar_area_w = bar_area_right - bar_area_left
+    bar_h = 16
+    row_h = 22
+    top_pad = 40
+
+    bars = ""
+    for i, (name, stars) in enumerate(starred):
+        y = top_pad + i * row_h
+        w = (stars / max_stars) * bar_area_w if max_stars > 0 else 0
+        color_idx = i % 8
+        colors = ["#58a6ff", "#bc8cff", "#3fb950", "#f0883e", "#f778ba", "#79c0ff", "#d2a8ff", "#56d364"]
+        color = colors[color_idx]
+        display_name = name if len(name) <= 18 else name[:16] + ".."
+
+        bars += (
+            f'  <text x="{bar_area_left - 8}" y="{y + bar_h - 3}" class="rname" text-anchor="end">{esc(display_name)}</text>\n'
+            f'  <rect x="{bar_area_left}" y="{y}" width="{w:.1f}" height="{bar_h}" rx="3" fill="{color}" opacity="0.85"/>\n'
+            f'  <text x="{bar_area_left + w + 6:.1f}" y="{y + bar_h - 3}" class="scount">{stars}</text>\n'
+        )
+
+    actual_h = top_pad + len(starred) * row_h + 15
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{actual_h}" viewBox="0 0 {width} {actual_h}">
+  <style>
+    .card   {{ fill: #0d1117; stroke: #30363d; stroke-width: 1; }}
+    .head   {{ font: bold 14px {FONT}; fill: #58a6ff; }}
+    .rname  {{ font: 12px {FONT}; fill: #8b949e; }}
+    .scount {{ font: bold 11px {FONT}; fill: #e6edf3; }}
+    @media (prefers-color-scheme: light) {{
+      .card   {{ fill: #ffffff; stroke: #d0d7de; }}
+      .head   {{ fill: #0969da; }}
+      .rname  {{ fill: #57606a; }}
+      .scount {{ fill: #1f2328; }}
+    }}
+  </style>
+  <rect class="card" width="{width}" height="{actual_h}" rx="8"/>
+  <text class="head" x="30" y="28">Most Starred Repos</text>
+  <line x1="30" y1="35" x2="{width - 30}" y2="35" stroke="#21262d" stroke-width="0.5"/>
+{bars}
+</svg>"""
+
+
+def svg_timeline(repos, width=720, height=140):
+    year_counts = defaultdict(int)
+    for r in repos:
+        y = r.get("first_commit_year") or r.get("get_first_commit_date") or r.get("created_at", "")[:4]
+        if y and str(y).isdigit():
+            year_counts[int(y)] += 1
+
+    if not year_counts:
+        return f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}"/>'
+
+    min_year = min(year_counts)
+    max_year = max(year_counts)
+    if min_year == max_year:
+        max_year = min_year + 1
+    max_count = max(year_counts.values())
+
+    left = 60
+    right = width - 40
+    line_y = height // 2 + 5
+    span = right - left
+
+    elements = ""
+    elements += f'  <line x1="{left}" y1="{line_y}" x2="{right}" y2="{line_y}" stroke="#30363d" stroke-width="1.5"/>\n'
+
+    for year, count in sorted(year_counts.items()):
+        frac = (year - min_year) / (max_year - min_year)
+        x = left + frac * span
+        r = 5 + (count / max_count) * 18
+        elements += (
+            f'  <circle cx="{x:.1f}" cy="{line_y}" r="{r:.1f}" fill="#58a6ff" opacity="0.3"/>\n'
+            f'  <circle cx="{x:.1f}" cy="{line_y}" r="{r * 0.6:.1f}" fill="#58a6ff" opacity="0.6"/>\n'
+            f'  <circle cx="{x:.1f}" cy="{line_y}" r="{max(3, r * 0.3):.1f}" fill="#58a6ff"/>\n'
+            f'  <text x="{x:.1f}" y="{line_y + r + 14:.1f}" class="tyear" text-anchor="middle">{year}</text>\n'
+            f'  <text x="{x:.1f}" y="{line_y - r - 6:.1f}" class="tcount" text-anchor="middle">{count}</text>\n'
+        )
+
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}">
+  <style>
+    .card   {{ fill: #0d1117; stroke: #30363d; stroke-width: 1; }}
+    .head   {{ font: bold 14px {FONT}; fill: #58a6ff; }}
+    .tyear  {{ font: bold 10px {FONT}; fill: #484f58; }}
+    .tcount {{ font: bold 11px {FONT}; fill: #8b949e; }}
+    @media (prefers-color-scheme: light) {{
+      .card   {{ fill: #ffffff; stroke: #d0d7de; }}
+      .head   {{ fill: #0969da; }}
+      .tyear  {{ fill: #57606a; }}
+      .tcount {{ fill: #57606a; }}
+    }}
+  </style>
+  <rect class="card" width="{width}" height="{height}" rx="8"/>
+  <text class="head" x="30" y="25">Project Timeline</text>
+{elements}
+</svg>"""
+
+REPOS_GRAPHQL = """
+query($login: String!, $cursor: String) {
+  user(login: $login) {
+    repositories(
+      first: 100
+      after: $cursor
+      ownerAffiliations: OWNER
+      orderBy: {field: PUSHED_AT, direction: DESC}
+    ) {
+      pageInfo { hasNextPage endCursor }
+      nodes {
+        name
+        url
+        isArchived
+        isFork
+        createdAt
+        updatedAt
+        pushedAt
+        stargazerCount
+        forkCount
+        primaryLanguage { name }
+        openIssueCount: issues(states: OPEN) { totalCount }
+        licenseInfo { name }
+        languages(first: 10, orderBy: {field: SIZE, direction: DESC}) {
+          edges { size node { name } }
+        }
+      }
+    }
+  }
+}
+"""
+
+
+class DiskCache:
+    def __init__(self, path=CACHE_FILE, ttl_hours=CACHE_TTL_HOURS):
+        self.path = path
+        self.ttl_seconds = ttl_hours * 3600
+        self.data = {}
+        self._load()
+
+    def _load(self):
+        try:
+            with open(self.path, "r") as f:
+                self.data = json.load(f)
+        except (FileNotFoundError, json.JSONDecodeError):
+            self.data = {}
+
+    def save(self):
+        os.makedirs(os.path.dirname(self.path) or ".", exist_ok=True)
+        now = time.time()
+        self.data = {
+            k: v for k, v in self.data.items()
+            if now - v.get("t", 0) <= self.ttl_seconds
+        }
+        with open(self.path, "w") as f:
+            json.dump(self.data, f, sort_keys=True, indent=2)
+
+    def get(self, key):
+        entry = self.data.get(key)
+        if entry is None:
+            return None
+        cached_at = entry.get("t", 0)
+        if time.time() - cached_at > self.ttl_seconds:
+            return None
+        return entry.get("v")
+
+    def set(self, key, value):
+        self.data[key] = {"t": time.time(), "v": value}
+
+
+class PermanentCache:
+    """Cache with no expiry — for data that never changes (e.g. first commit dates)."""
+
+    def __init__(self, path=PERMANENT_CACHE_FILE):
+        self.path = path
+        self.data = {}
+        self._load()
+
+    def _load(self):
+        try:
+            with open(self.path, "r") as f:
+                self.data = json.load(f)
+        except (FileNotFoundError, json.JSONDecodeError):
+            self.data = {}
+
+    def save(self):
+        os.makedirs(os.path.dirname(self.path) or ".", exist_ok=True)
+        with open(self.path, "w") as f:
+            json.dump(self.data, f, sort_keys=True, indent=2)
+
+    def get(self, key):
+        return self.data.get(key)
+
+    def set(self, key, value):
+        self.data[key] = value
 
 
 class ReadmeUpdater:
@@ -17,18 +289,23 @@ class ReadmeUpdater:
     token = os.getenv("ghtoken") or os.getenv("GITHUB_TOKEN")
     total_lines = 0
     total_lines_lang = {}  # type: ignore
+    repo_languages = {}  # type: ignore
     issues = []
     issues_count_offset = 0
     recent_activity = []
     prs = []
 
     def __init__(self):
+        self.cache = DiskCache()
+        self.perm_cache = PermanentCache()
         self.read_config()
         self.read_template()
         if self.get_repos() is False:
             self.log("Rate limited")
             return
         self.generate_readme()
+        self.cache.save()
+        self.perm_cache.save()
 
     def log(self, message):
         print("Updater: " + message)
@@ -79,7 +356,78 @@ class ReadmeUpdater:
 
         return False
 
+    @staticmethod
+    def _slim_cache_data(url, data):
+        """Strip cached API responses to only the keys the code actually uses."""
+        if data is None:
+            return data
+        if "/issues?" in url or "/pulls?" in url:
+            # issues/PRs: only need html_url, title, updated_at, url, pull_request (presence check)
+            if isinstance(data, list):
+                return [
+                    {k: item[k] for k in ("html_url", "title", "updated_at", "url", "pull_request") if k in item}
+                    for item in data
+                ]
+        elif "/gists" in url:
+            # gists: only need html_url, description
+            if isinstance(data, list):
+                return [
+                    {k: item[k] for k in ("html_url", "description") if k in item}
+                    for item in data
+                ]
+        elif "/commits/" in url or "/git/commits/" in url:
+            # commit lookups: only need html_url
+            if isinstance(data, dict):
+                return {k: data[k] for k in ("html_url",) if k in data}
+        return data
+
+    def web_request_retry_cached(self, url, headers=None):
+        cached = self.cache.get(url)
+        if cached is not None:
+            self.log("Cache hit: " + url)
+            return cached
+        r = self.web_request_retry(url, headers)
+        if r is not False:
+            data = r.json()
+            data = self._slim_cache_data(url, data)
+            self.cache.set(url, data)
+            return data
+        return None
+
+    def fetch_graphql(self, query, variables):
+        headers = {"Content-Type": "application/json"}
+        if self.token:
+            headers["Authorization"] = "bearer " + self.token
+        payload = json.dumps({"query": query, "variables": variables})
+        for attempt in range(3):
+            try:
+                time.sleep(0.5)
+                r = requests.post(
+                    self.config["graphql_url"],
+                    headers=headers,
+                    data=payload,
+                )
+                if r.status_code == 200:
+                    body = r.json()
+                    if "errors" in body:
+                        self.log("GraphQL errors: " + str(body["errors"]))
+                        return None
+                    return body.get("data")
+                self.log(
+                    "GraphQL HTTP " + str(r.status_code) + " (attempt " + str(attempt + 1) + ")"
+                )
+            except Exception as e:
+                self.log("GraphQL error: " + str(e) + " (attempt " + str(attempt + 1) + ")")
+            time.sleep(1)
+        return None
+
     def get_first_commit_date_http(self, repo):
+        cache_key = "first_commit:" + repo
+        cached = self.perm_cache.get(cache_key)
+        if cached is not None:
+            self.log("Permanent cache hit for first commit: " + repo)
+            return cached
+
         next = None
 
         url = (
@@ -101,15 +449,89 @@ class ReadmeUpdater:
             r = self.web_request_retry(next)
             if r != False:
                 res = r.json()
-                self.log(res[0]["commit"]["author"]["date"].split("-")[0])
-                return res[0]["commit"]["author"]["date"].split("-")[0]
+                year = res[0]["commit"]["author"]["date"].split("-")[0]
+                self.log(year)
+                self.perm_cache.set(cache_key, year)
+                return year
 
         self.log("failed")
         return ""
 
     def get_repos(self):
         try:
+            login = self.config["user"]
+            cursor = None
+            all_nodes = []
+
+            while True:
+                self.log("GraphQL repos page (cursor=" + str(cursor is not None) + ")")
+                data = self.fetch_graphql(REPOS_GRAPHQL, {"login": login, "cursor": cursor})
+                if not data:
+                    self.log("GraphQL failed, falling back to REST")
+                    return self._get_repos_rest()
+
+                user = data["user"]
+                repos_data = user["repositories"]
+                all_nodes.extend(repos_data["nodes"])
+
+                if repos_data["pageInfo"]["hasNextPage"]:
+                    cursor = repos_data["pageInfo"]["endCursor"]
+                else:
+                    break
+
+            self.repos = []
+            self.repo_languages = {}
+            langs_agg = defaultdict(int)
+
+            for node in all_nodes:
+                repo = {
+                    "name": node["name"],
+                    "html_url": node["url"],
+                    "stargazers_count": node.get("stargazerCount", 0),
+                    "forks_count": node.get("forkCount", 0),
+                    "fork": node.get("isFork", False),
+                    "archived": node.get("isArchived", False),
+                    "created_at": node.get("createdAt", ""),
+                    "updated_at": node.get("updatedAt", ""),
+                    "pushed_at": node.get("pushedAt", ""),
+                    "language": (node.get("primaryLanguage") or {}).get("name"),
+                    "open_issues_count": (node.get("openIssueCount") or {}).get("totalCount", 0),
+                    "license": {"name": (node.get("licenseInfo") or {}).get("name")} if node.get("licenseInfo") else None,
+                }
+                self.repos.append(repo)
+
+                # Store per-repo language data
+                repo_langs = {}
+                for edge in (node.get("languages") or {}).get("edges", []):
+                    lang_name = edge["node"]["name"]
+                    lang_bytes = edge["size"]
+                    repo_langs[lang_name] = lang_bytes
+                self.repo_languages[node["name"]] = repo_langs
+
+                # Aggregate languages — skip forks and archived repos
+                if not repo["fork"] and not repo["archived"]:
+                    for lang_name, lang_bytes in repo_langs.items():
+                        langs_agg[lang_name] += lang_bytes
+                        self.total_lines += lang_bytes
+
+            self.total_lines_lang = dict(langs_agg)
+
+            self.repos.sort(key=lambda x: x["updated_at"], reverse=True)
+            self.log(
+                "Got repos via GraphQL: " + str(len(self.repos))
+                + ", Languages: " + str(len(self.total_lines_lang))
+                + ", LoC: " + str(self.total_lines)
+            )
+            return True
+        except Exception as e:
+            self.log("GraphQL get_repos error: " + str(e))
+            raise Exception("Failed reading repos")
+
+    def _get_repos_rest(self):
+        """Fallback REST-based repo fetching."""
+        try:
             page = 1
+            self.repos = []
             while True:
                 url = self.config["repos_url"] + "&page=" + str(page)
                 self.log(url)
@@ -122,18 +544,13 @@ class ReadmeUpdater:
                         self.log("no repos, break")
                         break
 
-                    # self.log(json.dumps(res, indent=4))
-
-                    if self.repos is not None:
-                        self.repos = self.repos + res
-                    else:
-                        self.repos = res
+                    self.repos = self.repos + res
                     page += 1
                 else:
                     return False
 
             self.repos.sort(key=lambda x: x["updated_at"], reverse=True)
-            self.log("Got repos")
+            self.log("Got repos via REST")
             return True
         except:  # noqa
             raise Exception("Failed reading repos")
@@ -142,13 +559,11 @@ class ReadmeUpdater:
         try:
             url = self.config["user_repos_url"] + "/" + repo + "/issues?state=open"
             self.log(url)
-            res = self.web_request_retry(url)
-            if res != False:
-                issues = res.json()
-                # self.log(json.dumps(issues, indent=4))
-                return issues  #
+            data = self.web_request_retry_cached(url)
+            if data is not None:
+                return data
             else:
-                self.log(pprint.pformat(res))
+                self.log("No data for issues: " + repo)
         except:  # noqa
             raise Exception("Failed reading issues")
 
@@ -156,42 +571,38 @@ class ReadmeUpdater:
         try:
             url = self.config["user_repos_url"] + "/" + repo + "/pulls?state=open"
             self.log(url)
-            res = self.web_request_retry(url)
-            if res != False:
-                pulls = res.json()
-                # self.log(json.dumps(pulls, indent=4))
-                return pulls
+            data = self.web_request_retry_cached(url)
+            if data is not None:
+                return data
             else:
-                self.log(pprint.pformat(res))
+                self.log("No data for pulls: " + repo)
         except:  # noqa
             raise Exception("Failed reading pull requests")
 
     def get_repo_languages(self, name):
         try:
-            languages_url = self.config["user_repos_url"] + "/" + name + "/languages"
-            self.log(languages_url)
-            languages = None
+            languages = self.repo_languages.get(name)
 
-            res = self.web_request_retry(languages_url)
-            if res != False:
-                languages = res.json()
+            if not languages:
+                # Fallback to REST if no GraphQL data
+                languages_url = self.config["user_repos_url"] + "/" + name + "/languages"
+                self.log(languages_url)
+                data = self.web_request_retry_cached(languages_url)
+                if data is not None:
+                    languages = data
+                else:
+                    return False
 
             lines = 0
             lang_percent = {}
 
-            if languages is None:
-                return False
-
-            # self.log(json.dumps(languages, indent=4))
-
             for count in list(languages.values()):
                 lines += count
-                self.total_lines += count
+
+            if lines == 0:
+                return False
 
             for lang in languages:
-                if lang not in self.total_lines_lang:
-                    self.total_lines_lang[lang] = 0
-                self.total_lines_lang[lang] += languages[lang]
                 lang_percent[lang] = round(round(languages[lang] / lines, 2) * 100)
 
             language = ""
@@ -234,32 +645,54 @@ class ReadmeUpdater:
             live_repos = []
             old_repos = []
 
-            print("generate_repos")
+            self.log("generate_repos")
 
+            fetched = 0
             for repo in self.repos:
                 repo["get_first_commit_date"] = self.get_first_commit_date_http(
                     repo["name"]
                 )
-                print(repo["get_first_commit_date"])
+                self.log(repo["name"] + " -> " + repo["get_first_commit_date"])
+                fetched += 1
+                if fetched % 20 == 0:
+                    self.perm_cache.save()
 
                 if repo["name"] in live:
                     live_repos.append(repo)
                 else:
                     old_repos.append(repo)
 
+            self.perm_cache.save()
+
             live_repos = sorted(live_repos, key=itemgetter("pushed_at"))
             old_repos = sorted(
                 old_repos, key=itemgetter("get_first_commit_date"), reverse=True
             )
 
+            # Count repos per year for collapsed section headers
+            year_counts = defaultdict(int)
+            for repo in old_repos:
+                year = repo["get_first_commit_date"]
+                if year:
+                    year_counts[year] += 1
+
             last_year_header = ""
+            details_open = False
 
             for repo in live_repos + old_repos:
 
-                print(last_year_header)
-
-                repo_issues = self.get_repo_issues(repo["name"])
-                repo_prs = self.get_repo_pull_requests(repo["name"])
+                # Skip issues/PRs fetch for repos with 0 open issues
+                if repo.get("open_issues_count", 0) > 0:
+                    repo_issues = self.get_repo_issues(repo["name"])
+                    repo_prs = self.get_repo_pull_requests(repo["name"])
+                else:
+                    self.log(
+                        "Skipping issues/PRs for "
+                        + repo["name"]
+                        + " (0 open issues)"
+                    )
+                    repo_issues = None
+                    repo_prs = None
 
                 if repo_issues is not None:
                     self.issues += repo_issues
@@ -270,7 +703,7 @@ class ReadmeUpdater:
                 prepend = False
 
                 language = self.get_repo_languages(repo["name"])
-                language = language if language is not False else repo["language"]
+                language = language if language is not False else (repo["language"] or "")
                 html_url = repo["html_url"]
                 name = repo["name"]
                 live_url = live[repo["name"]][0] if repo["name"] in live else ""
@@ -314,16 +747,27 @@ class ReadmeUpdater:
                     and last_year_header != repo["get_first_commit_date"]
                 ):
                     last_year_header = repo["get_first_commit_date"]
+                    count = year_counts.get(last_year_header, 0)
+                    close_prev = "</tbody></table></details>" if details_open else "</tbody></table>"
                     row = (
-                        "</tbody></table><h2>"
+                        close_prev
+                        + "<details><summary><strong>"
                         + last_year_header
-                        + "</h2><table width='100%' style='width:100%'><thead><tr><th>Project</th><th>View</th><th>Status</th></tr></thead><tbody>"
+                        + " ("
+                        + str(count)
+                        + " projects)</strong></summary>"
+                        + "<table width='100%' style='width:100%'><thead><tr><th>Project</th><th>View</th><th>Status</th></tr></thead><tbody>"
                         + row
                     )
+                    details_open = True
                 if prepend:
                     rows = row + "\n" + rows
                 else:
                     rows = rows + "\n" + row
+
+            # Close the final <details> if one was opened
+            if details_open:
+                rows += "</details>"
 
             self.template = re.sub(
                 "<repos>(.*)</repos>", rows, self.template, flags=re.I | re.M | re.S
@@ -346,7 +790,7 @@ class ReadmeUpdater:
             added = 0
 
             for issue in list(self.issues):
-                if added == 5:
+                if repo != False and added == 5:
                     break
                 if "pull" in issue["html_url"]:
                     continue
@@ -410,7 +854,7 @@ class ReadmeUpdater:
             added = 0
 
             for pr in self.prs:
-                if added == 5:
+                if repo != False and added == 5:
                     break
 
                 # print("generate_prs " + self.config["user"] + "/" + str(repo) + " in " + pr["url"])
@@ -454,9 +898,9 @@ class ReadmeUpdater:
 
     def get_commit_html_url(self, url):
         try:
-            res = self.web_request_retry(url)
-            if res != False:
-                return res.json()["html_url"]
+            data = self.web_request_retry_cached(url)
+            if data is not None:
+                return data["html_url"]
             else:
                 return False
         except:  # noqa
@@ -483,7 +927,7 @@ class ReadmeUpdater:
             num = 0
             added = 0
             for recent in self.recent_activity:
-                if num == 5:
+                if repo != False and num == 5:
                     break
 
                 self.log(
@@ -582,10 +1026,8 @@ class ReadmeUpdater:
 
     def generate_gists(self):
         try:
-            res = self.web_request_retry(self.config["gists_url"])
-            if res != False:
-                gists = res.json()
-
+            gists = self.web_request_retry_cached(self.config["gists_url"])
+            if gists is not None:
                 gists_match = re.search(
                     "<gists>(.*)</gists>", self.template, flags=re.I | re.M | re.S
                 )
@@ -668,6 +1110,31 @@ class ReadmeUpdater:
             "<langs>(.*)</langs>", output, self.template, flags=re.I | re.M | re.S
         )
 
+    def generate_svgs(self):
+        os.makedirs("generated", exist_ok=True)
+
+        total_stars = sum(r.get("stargazers_count", 0) for r in self.repos)
+        with open("generated/stats.svg", "w") as f:
+            f.write(
+                svg_stats(
+                    repos=len(self.repos),
+                    stars=total_stars,
+                    issues=len(self.issues),
+                    prs=len(self.prs),
+                    loc=self.total_lines,
+                    lang_count=len(self.total_lines_lang),
+                )
+            )
+        self.log("Wrote generated/stats.svg")
+
+        with open("generated/top_repos.svg", "w") as f:
+            f.write(svg_top_repos(self.repos))
+        self.log("Wrote generated/top_repos.svg")
+
+        with open("generated/timeline.svg", "w") as f:
+            f.write(svg_timeline(self.repos))
+        self.log("Wrote generated/timeline.svg")
+
     def generate_readme(self):
         try:
             self.generate_orgs()
@@ -677,6 +1144,29 @@ class ReadmeUpdater:
             self.generate_issues()
             self.generate_gists()
             self.generate_recent_activity()
+            self.generate_svgs()
+
+            # Currently working on — most recently pushed non-profile repo
+            working_on = ""
+            if self.repos:
+                sorted_by_push = sorted(
+                    [r for r in self.repos if r["name"] != self.config["user"] and not r.get("fork", False) and not r.get("archived", False)],
+                    key=lambda x: x.get("pushed_at", ""),
+                    reverse=True,
+                )
+                if sorted_by_push:
+                    cw = sorted_by_push[0]
+                    cw_lang = cw.get("language") or ""
+                    cw_lang_badge = ""
+                    if cw_lang:
+                        cw_lang_badge = " <img src='https://img.shields.io/badge/-" + cw_lang + "-informational?style=flat' alt='" + cw_lang + "'/>"
+                    working_on = (
+                        "<h4>Currently working on</h4>"
+                        "<p><a href='" + cw["html_url"] + "'><strong>" + cw["name"] + "</strong></a>"
+                        + cw_lang_badge
+                        + " &mdash; last pushed " + (cw.get("pushed_at", "")[:10]) + "</p>"
+                    )
+            self.template = self.template.replace("{currently_working_on}", working_on)
 
             now = datetime.now()
             dt_string = now.strftime("%d/%m/%Y %H:%M:%S")

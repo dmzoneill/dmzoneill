@@ -1,0 +1,153 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="140" viewBox="0 0 720 140">
+  <style>
+    .card   { fill: #0d1117; stroke: #30363d; stroke-width: 1; }
+    .head   { font: bold 14px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'; fill: #58a6ff; }
+    .tyear  { font: bold 10px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'; fill: #484f58; }
+    .tcount { font: bold 11px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'; fill: #8b949e; }
+    @media (prefers-color-scheme: light) {
+      .card   { fill: #ffffff; stroke: #d0d7de; }
+      .head   { fill: #0969da; }
+      .tyear  { fill: #57606a; }
+      .tcount { fill: #57606a; }
+    }
+  </style>
+  <rect class="card" width="720" height="140" rx="8"/>
+  <text class="head" x="30" y="25">Project Timeline</text>
+  <line x1="60" y1="75" x2="680" y2="75" stroke="#30363d" stroke-width="1.5"/>
+  <circle cx="60.0" cy="75" r="5.9" fill="#58a6ff" opacity="0.3"/>
+  <circle cx="60.0" cy="75" r="3.6" fill="#58a6ff" opacity="0.6"/>
+  <circle cx="60.0" cy="75" r="3.0" fill="#58a6ff"/>
+  <text x="60.0" y="94.9" class="tyear" text-anchor="middle">1997</text>
+  <text x="60.0" y="63.1" class="tcount" text-anchor="middle">1</text>
+  <circle cx="124.1" cy="75" r="5.9" fill="#58a6ff" opacity="0.3"/>
+  <circle cx="124.1" cy="75" r="3.6" fill="#58a6ff" opacity="0.6"/>
+  <circle cx="124.1" cy="75" r="3.0" fill="#58a6ff"/>
+  <text x="124.1" y="94.9" class="tyear" text-anchor="middle">2000</text>
+  <text x="124.1" y="63.1" class="tcount" text-anchor="middle">1</text>
+  <circle cx="145.5" cy="75" r="14.5" fill="#58a6ff" opacity="0.3"/>
+  <circle cx="145.5" cy="75" r="8.7" fill="#58a6ff" opacity="0.6"/>
+  <circle cx="145.5" cy="75" r="4.3" fill="#58a6ff"/>
+  <text x="145.5" y="103.5" class="tyear" text-anchor="middle">2001</text>
+  <text x="145.5" y="54.5" class="tcount" text-anchor="middle">10</text>
+  <circle cx="166.9" cy="75" r="9.7" fill="#58a6ff" opacity="0.3"/>
+  <circle cx="166.9" cy="75" r="5.8" fill="#58a6ff" opacity="0.6"/>
+  <circle cx="166.9" cy="75" r="3.0" fill="#58a6ff"/>
+  <text x="166.9" y="98.7" class="tyear" text-anchor="middle">2002</text>
+  <text x="166.9" y="59.3" class="tcount" text-anchor="middle">5</text>
+  <circle cx="188.3" cy="75" r="6.9" fill="#58a6ff" opacity="0.3"/>
+  <circle cx="188.3" cy="75" r="4.1" fill="#58a6ff" opacity="0.6"/>
+  <circle cx="188.3" cy="75" r="3.0" fill="#58a6ff"/>
+  <text x="188.3" y="95.9" class="tyear" text-anchor="middle">2003</text>
+  <text x="188.3" y="62.1" class="tcount" text-anchor="middle">2</text>
+  <circle cx="209.7" cy="75" r="11.6" fill="#58a6ff" opacity="0.3"/>
+  <circle cx="209.7" cy="75" r="7.0" fill="#58a6ff" opacity="0.6"/>
+  <circle cx="209.7" cy="75" r="3.5" fill="#58a6ff"/>
+  <text x="209.7" y="100.6" class="tyear" text-anchor="middle">2004</text>
+  <text x="209.7" y="57.4" class="tcount" text-anchor="middle">7</text>
+  <circle cx="231.0" cy="75" r="20.2" fill="#58a6ff" opacity="0.3"/>
+  <circle cx="231.0" cy="75" r="12.1" fill="#58a6ff" opacity="0.6"/>
+  <circle cx="231.0" cy="75" r="6.0" fill="#58a6ff"/>
+  <text x="231.0" y="109.2" class="tyear" text-anchor="middle">2005</text>
+  <text x="231.0" y="48.8" class="tcount" text-anchor="middle">16</text>
+  <circle cx="252.4" cy="75" r="11.6" fill="#58a6ff" opacity="0.3"/>
+  <circle cx="252.4" cy="75" r="7.0" fill="#58a6ff" opacity="0.6"/>
+  <circle cx="252.4" cy="75" r="3.5" fill="#58a6ff"/>
+  <text x="252.4" y="100.6" class="tyear" text-anchor="middle">2006</text>
+  <text x="252.4" y="57.4" class="tcount" text-anchor="middle">7</text>
+  <circle cx="273.8" cy="75" r="6.9" fill="#58a6ff" opacity="0.3"/>
+  <circle cx="273.8" cy="75" r="4.1" fill="#58a6ff" opacity="0.6"/>
+  <circle cx="273.8" cy="75" r="3.0" fill="#58a6ff"/>
+  <text x="273.8" y="95.9" class="tyear" text-anchor="middle">2007</text>
+  <text x="273.8" y="62.1" class="tcount" text-anchor="middle">2</text>
+  <circle cx="295.2" cy="75" r="5.9" fill="#58a6ff" opacity="0.3"/>
+  <circle cx="295.2" cy="75" r="3.6" fill="#58a6ff" opacity="0.6"/>
+  <circle cx="295.2" cy="75" r="3.0" fill="#58a6ff"/>
+  <text x="295.2" y="94.9" class="tyear" text-anchor="middle">2008</text>
+  <text x="295.2" y="63.1" class="tcount" text-anchor="middle">1</text>
+  <circle cx="316.6" cy="75" r="20.2" fill="#58a6ff" opacity="0.3"/>
+  <circle cx="316.6" cy="75" r="12.1" fill="#58a6ff" opacity="0.6"/>
+  <circle cx="316.6" cy="75" r="6.0" fill="#58a6ff"/>
+  <text x="316.6" y="109.2" class="tyear" text-anchor="middle">2009</text>
+  <text x="316.6" y="48.8" class="tcount" text-anchor="middle">16</text>
+  <circle cx="337.9" cy="75" r="8.8" fill="#58a6ff" opacity="0.3"/>
+  <circle cx="337.9" cy="75" r="5.3" fill="#58a6ff" opacity="0.6"/>
+  <circle cx="337.9" cy="75" r="3.0" fill="#58a6ff"/>
+  <text x="337.9" y="97.8" class="tyear" text-anchor="middle">2010</text>
+  <text x="337.9" y="60.2" class="tcount" text-anchor="middle">4</text>
+  <circle cx="359.3" cy="75" r="14.5" fill="#58a6ff" opacity="0.3"/>
+  <circle cx="359.3" cy="75" r="8.7" fill="#58a6ff" opacity="0.6"/>
+  <circle cx="359.3" cy="75" r="4.3" fill="#58a6ff"/>
+  <text x="359.3" y="103.5" class="tyear" text-anchor="middle">2011</text>
+  <text x="359.3" y="54.5" class="tcount" text-anchor="middle">10</text>
+  <circle cx="380.7" cy="75" r="5.9" fill="#58a6ff" opacity="0.3"/>
+  <circle cx="380.7" cy="75" r="3.6" fill="#58a6ff" opacity="0.6"/>
+  <circle cx="380.7" cy="75" r="3.0" fill="#58a6ff"/>
+  <text x="380.7" y="94.9" class="tyear" text-anchor="middle">2012</text>
+  <text x="380.7" y="63.1" class="tcount" text-anchor="middle">1</text>
+  <circle cx="402.1" cy="75" r="11.6" fill="#58a6ff" opacity="0.3"/>
+  <circle cx="402.1" cy="75" r="7.0" fill="#58a6ff" opacity="0.6"/>
+  <circle cx="402.1" cy="75" r="3.5" fill="#58a6ff"/>
+  <text x="402.1" y="100.6" class="tyear" text-anchor="middle">2013</text>
+  <text x="402.1" y="57.4" class="tcount" text-anchor="middle">7</text>
+  <circle cx="423.4" cy="75" r="23.0" fill="#58a6ff" opacity="0.3"/>
+  <circle cx="423.4" cy="75" r="13.8" fill="#58a6ff" opacity="0.6"/>
+  <circle cx="423.4" cy="75" r="6.9" fill="#58a6ff"/>
+  <text x="423.4" y="112.0" class="tyear" text-anchor="middle">2014</text>
+  <text x="423.4" y="46.0" class="tcount" text-anchor="middle">19</text>
+  <circle cx="444.8" cy="75" r="18.3" fill="#58a6ff" opacity="0.3"/>
+  <circle cx="444.8" cy="75" r="11.0" fill="#58a6ff" opacity="0.6"/>
+  <circle cx="444.8" cy="75" r="5.5" fill="#58a6ff"/>
+  <text x="444.8" y="107.3" class="tyear" text-anchor="middle">2015</text>
+  <text x="444.8" y="50.7" class="tcount" text-anchor="middle">14</text>
+  <circle cx="466.2" cy="75" r="6.9" fill="#58a6ff" opacity="0.3"/>
+  <circle cx="466.2" cy="75" r="4.1" fill="#58a6ff" opacity="0.6"/>
+  <circle cx="466.2" cy="75" r="3.0" fill="#58a6ff"/>
+  <text x="466.2" y="95.9" class="tyear" text-anchor="middle">2016</text>
+  <text x="466.2" y="62.1" class="tcount" text-anchor="middle">2</text>
+  <circle cx="509.0" cy="75" r="9.7" fill="#58a6ff" opacity="0.3"/>
+  <circle cx="509.0" cy="75" r="5.8" fill="#58a6ff" opacity="0.6"/>
+  <circle cx="509.0" cy="75" r="3.0" fill="#58a6ff"/>
+  <text x="509.0" y="98.7" class="tyear" text-anchor="middle">2018</text>
+  <text x="509.0" y="59.3" class="tcount" text-anchor="middle">5</text>
+  <circle cx="530.3" cy="75" r="8.8" fill="#58a6ff" opacity="0.3"/>
+  <circle cx="530.3" cy="75" r="5.3" fill="#58a6ff" opacity="0.6"/>
+  <circle cx="530.3" cy="75" r="3.0" fill="#58a6ff"/>
+  <text x="530.3" y="97.8" class="tyear" text-anchor="middle">2019</text>
+  <text x="530.3" y="60.2" class="tcount" text-anchor="middle">4</text>
+  <circle cx="551.7" cy="75" r="12.6" fill="#58a6ff" opacity="0.3"/>
+  <circle cx="551.7" cy="75" r="7.5" fill="#58a6ff" opacity="0.6"/>
+  <circle cx="551.7" cy="75" r="3.8" fill="#58a6ff"/>
+  <text x="551.7" y="101.6" class="tyear" text-anchor="middle">2020</text>
+  <text x="551.7" y="56.4" class="tcount" text-anchor="middle">8</text>
+  <circle cx="573.1" cy="75" r="7.8" fill="#58a6ff" opacity="0.3"/>
+  <circle cx="573.1" cy="75" r="4.7" fill="#58a6ff" opacity="0.6"/>
+  <circle cx="573.1" cy="75" r="3.0" fill="#58a6ff"/>
+  <text x="573.1" y="96.8" class="tyear" text-anchor="middle">2021</text>
+  <text x="573.1" y="61.2" class="tcount" text-anchor="middle">3</text>
+  <circle cx="594.5" cy="75" r="18.3" fill="#58a6ff" opacity="0.3"/>
+  <circle cx="594.5" cy="75" r="11.0" fill="#58a6ff" opacity="0.6"/>
+  <circle cx="594.5" cy="75" r="5.5" fill="#58a6ff"/>
+  <text x="594.5" y="107.3" class="tyear" text-anchor="middle">2022</text>
+  <text x="594.5" y="50.7" class="tcount" text-anchor="middle">14</text>
+  <circle cx="615.9" cy="75" r="18.3" fill="#58a6ff" opacity="0.3"/>
+  <circle cx="615.9" cy="75" r="11.0" fill="#58a6ff" opacity="0.6"/>
+  <circle cx="615.9" cy="75" r="5.5" fill="#58a6ff"/>
+  <text x="615.9" y="107.3" class="tyear" text-anchor="middle">2023</text>
+  <text x="615.9" y="50.7" class="tcount" text-anchor="middle">14</text>
+  <circle cx="637.2" cy="75" r="8.8" fill="#58a6ff" opacity="0.3"/>
+  <circle cx="637.2" cy="75" r="5.3" fill="#58a6ff" opacity="0.6"/>
+  <circle cx="637.2" cy="75" r="3.0" fill="#58a6ff"/>
+  <text x="637.2" y="97.8" class="tyear" text-anchor="middle">2024</text>
+  <text x="637.2" y="60.2" class="tcount" text-anchor="middle">4</text>
+  <circle cx="658.6" cy="75" r="9.7" fill="#58a6ff" opacity="0.3"/>
+  <circle cx="658.6" cy="75" r="5.8" fill="#58a6ff" opacity="0.6"/>
+  <circle cx="658.6" cy="75" r="3.0" fill="#58a6ff"/>
+  <text x="658.6" y="98.7" class="tyear" text-anchor="middle">2025</text>
+  <text x="658.6" y="59.3" class="tcount" text-anchor="middle">5</text>
+  <circle cx="680.0" cy="75" r="7.8" fill="#58a6ff" opacity="0.3"/>
+  <circle cx="680.0" cy="75" r="4.7" fill="#58a6ff" opacity="0.6"/>
+  <circle cx="680.0" cy="75" r="3.0" fill="#58a6ff"/>
+  <text x="680.0" y="96.8" class="tyear" text-anchor="middle">2026</text>
+  <text x="680.0" y="61.2" class="tcount" text-anchor="middle">3</text>
+
+</svg>

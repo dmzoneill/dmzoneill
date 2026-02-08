@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="335" height="275" viewBox="0 0 335 275">
+  <style>
+    .card   { fill: #0d1117; stroke: #30363d; stroke-width: 1; }
+    .head   { font: bold 14px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'; fill: #58a6ff; }
+    .rname  { font: 12px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'; fill: #8b949e; }
+    .scount { font: bold 11px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'; fill: #e6edf3; }
+    @media (prefers-color-scheme: light) {
+      .card   { fill: #ffffff; stroke: #d0d7de; }
+      .head   { fill: #0969da; }
+      .rname  { fill: #57606a; }
+      .scount { fill: #1f2328; }
+    }
+  </style>
+  <rect class="card" width="335" height="275" rx="8"/>
+  <text class="head" x="30" y="28">Most Starred Repos</text>
+  <line x1="30" y1="35" x2="305" y2="35" stroke="#21262d" stroke-width="0.5"/>
+  <text x="142" y="53" class="rname" text-anchor="end">lidarr-youtube-d..</text>
+  <rect x="150" y="40" width="165.0" height="16" rx="3" fill="#58a6ff" opacity="0.85"/>
+  <text x="321.0" y="53" class="scount">69</text>
+  <text x="142" y="75" class="rname" text-anchor="end">hevyapp-api</text>
+  <rect x="150" y="62" width="86.1" height="16" rx="3" fill="#bc8cff" opacity="0.85"/>
+  <text x="242.1" y="75" class="scount">36</text>
+  <text x="142" y="97" class="rname" text-anchor="end">strongapp-api</text>
+  <rect x="150" y="84" width="50.2" height="16" rx="3" fill="#3fb950" opacity="0.85"/>
+  <text x="206.2" y="97" class="scount">21</text>
+  <text x="142" y="119" class="rname" text-anchor="end">php-binance-bot</text>
+  <rect x="150" y="106" width="12.0" height="16" rx="3" fill="#f0883e" opacity="0.85"/>
+  <text x="168.0" y="119" class="scount">5</text>
+  <text x="142" y="141" class="rname" text-anchor="end">filebotpp</text>
+  <rect x="150" y="128" width="9.6" height="16" rx="3" fill="#f778ba" opacity="0.85"/>
+  <text x="165.6" y="141" class="scount">4</text>
+  <text x="142" y="163" class="rname" text-anchor="end">jira-creator</text>
+  <rect x="150" y="150" width="7.2" height="16" rx="3" fill="#79c0ff" opacity="0.85"/>
+  <text x="163.2" y="163" class="scount">3</text>
+  <text x="142" y="185" class="rname" text-anchor="end">filebot-nautilus</text>
+  <rect x="150" y="172" width="7.2" height="16" rx="3" fill="#d2a8ff" opacity="0.85"/>
+  <text x="163.2" y="185" class="scount">3</text>
+  <text x="142" y="207" class="rname" text-anchor="end">aa-concur-reimbu..</text>
+  <rect x="150" y="194" width="4.8" height="16" rx="3" fill="#56d364" opacity="0.85"/>
+  <text x="160.8" y="207" class="scount">2</text>
+  <text x="142" y="229" class="rname" text-anchor="end">redhat-ai-workflow</text>
+  <rect x="150" y="216" width="2.4" height="16" rx="3" fill="#58a6ff" opacity="0.85"/>
+  <text x="158.4" y="229" class="scount">1</text>
+  <text x="142" y="251" class="rname" text-anchor="end">aa-dev-prod-watc..</text>
+  <rect x="150" y="238" width="2.4" height="16" rx="3" fill="#bc8cff" opacity="0.85"/>
+  <text x="158.4" y="251" class="scount">1</text>
+
+</svg>

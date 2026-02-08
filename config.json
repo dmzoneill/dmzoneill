@@ -64,6 +64,14 @@
     "authy-gnupass-totp": [
       "https://github.com/dmzoneill/authy-gnupass-totp",
       "Authy GNU Pass Totp"
+    ],
+    "jira_creator": [
+      "https://github.com/dmzoneill/jira_creator",
+      "Jira Creator"
+    ],
+    "redhat-ai-workflow": [
+      "https://github.com/dmzoneill/redhat-ai-workflow",
+      "RedHat AI Workflow"
     ]
   },
   "organizations": [

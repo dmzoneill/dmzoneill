@@ -15,7 +15,7 @@
       The pattern is old. The objection is always new. The outcome is always the same.<br/>
       The tools win. The engineers who adopt them, win faster.</em></p>
       </blockquote>
-      <br/>
+      <p>&nbsp;</p>
     </td>
     <td>
       <h3>Work related stuff over on</h3>

@@ -196,6 +196,7 @@ query($login: String!, $cursor: String) {
       pageInfo { hasNextPage endCursor }
       nodes {
         name
+        description
         url
         isArchived
         isFork
@@ -486,6 +487,7 @@ class ReadmeUpdater:
             for node in all_nodes:
                 repo = {
                     "name": node["name"],
+                    "description": node.get("description") or "",
                     "html_url": node["url"],
                     "stargazers_count": node.get("stargazerCount", 0),
                     "forks_count": node.get("forkCount", 0),
@@ -1156,15 +1158,56 @@ class ReadmeUpdater:
                 )
                 if sorted_by_push:
                     cw = sorted_by_push[0]
-                    cw_lang = cw.get("language") or ""
-                    cw_lang_badge = ""
-                    if cw_lang:
-                        cw_lang_badge = " <img src='https://img.shields.io/badge/-" + cw_lang + "-informational?style=flat' alt='" + cw_lang + "'/>"
+                    cw_name = cw["name"]
+                    cw_desc = cw.get("description") or ""
+                    cw_stars = cw.get("stargazers_count", 0)
+                    cw_forks = cw.get("forks_count", 0)
+                    cw_pushed = cw.get("pushed_at", "")[:10]
+
+                    # Language breakdown from repo_languages
+                    cw_langs = self.repo_languages.get(cw_name, {})
+                    cw_total_bytes = sum(cw_langs.values()) if cw_langs else 0
+                    lang_parts = ""
+                    if cw_langs and cw_total_bytes > 0:
+                        sorted_langs = sorted(cw_langs.items(), key=lambda x: x[1], reverse=True)[:5]
+                        for lang, bytes_count in sorted_langs:
+                            pct = round(bytes_count / cw_total_bytes * 100)
+                            if pct > 0:
+                                lang_parts += lang + " " + str(pct) + "% &middot; "
+                        lang_parts = lang_parts.rstrip(" &middot; ")
+
+                    # Format lines
+                    cw_loc = ""
+                    if cw_total_bytes > 0:
+                        if cw_total_bytes >= 1000000:
+                            cw_loc = str(round(cw_total_bytes / 1000000, 1)) + "M"
+                        elif cw_total_bytes >= 1000:
+                            cw_loc = str(round(cw_total_bytes / 1000, 1)) + "k"
+                        else:
+                            cw_loc = str(cw_total_bytes)
+
+                    desc_line = ""
+                    if cw_desc:
+                        desc_line = "<br/><em>" + cw_desc + "</em>"
+
+                    stats_line = ""
+                    stats_parts = []
+                    if cw_stars > 0:
+                        stats_parts.append("&#11088; " + str(cw_stars))
+                    if cw_forks > 0:
+                        stats_parts.append("&#128258; " + str(cw_forks) + " forks")
+                    if cw_loc:
+                        stats_parts.append(cw_loc + " lines")
+                    if lang_parts:
+                        stats_parts.append(lang_parts)
+                    stats_parts.append("Last pushed " + cw_pushed)
+                    stats_line = " &middot; ".join(stats_parts)
+
                     working_on = (
                         "<h4>Currently working on</h4>"
-                        "<p><a href='" + cw["html_url"] + "'><strong>" + cw["name"] + "</strong></a>"
-                        + cw_lang_badge
-                        + " &mdash; last pushed " + (cw.get("pushed_at", "")[:10]) + "</p>"
+                        "<p><a href='" + cw["html_url"] + "'><strong>" + cw_name + "</strong></a>"
+                        + desc_line
+                        + "<br/>" + stats_line + "</p>"
                     )
             self.template = self.template.replace("{currently_working_on}", working_on)
 

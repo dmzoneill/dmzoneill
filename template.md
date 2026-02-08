@@ -1,36 +1,21 @@
 <a href="{github_url}" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="{linkedin_url}" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-{last_updated}-brightgreen" height='28'/> &nbsp;&nbsp; <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=dmzoneill&color=brightgreen&style=for-the-badge" height='28'/>
 
-<blockquote>
-<p><em>First, engineers said machine code was enough and resisted assembly.<br/>
-Then they said assembly was enough and resisted C.<br/>
-Then they said C was enough and resisted Python.<br/>
-Then they said Python was enough and resisted AI.<br/>
-At every turn, the tools got smarter and the engineers got louder.<br/>
-The pattern is old. The objection is always new. The outcome is always the same.<br/>
-The tools win. The engineers who adopt them, win faster.</em></p>
-</blockquote>
+<img src="generated/timeline.svg" width="760" alt="timeline"/>
 
 {currently_working_on}
 
 <table width='100%' style='width:100%'>
   <tr>
     <td>
-      <details>
-      <summary><strong>Issues ({issue_count})</strong></summary>
-      <ul><issues><li><a href='{issue_url}'>{issue_title}</a> {updated_at}</li></issues></ul>
-      </details>
-      <details>
-      <summary><strong>Pull Requests ({pr_count})</strong></summary>
-      <ul><prs><li><a href='{pr_url}'>{pr_title}</a> {updated_at}</li></prs></ul>
-      </details>
-      <details>
-      <summary><strong>Recent Activity</strong></summary>
-      <ul><recent><li><a href='{recent_activity_url}'>{recent_activity_title}</a></li></recent></ul>
-      </details>
-      <details>
-      <summary><strong>Gists</strong></summary>
-      <ul><gists><li><a href='{gist_url}'>{gist_title}</a></li></gists></ul>
-      </details>
+      <blockquote>
+      <p><em>First, engineers said machine code was enough and resisted assembly.<br/>
+      Then they said assembly was enough and resisted C.<br/>
+      Then they said C was enough and resisted Python.<br/>
+      Then they said Python was enough and resisted AI.<br/>
+      At every turn, the tools got smarter and the engineers got louder.<br/>
+      The pattern is old. The objection is always new. The outcome is always the same.<br/>
+      The tools win. The engineers who adopt them, win faster.</em></p>
+      </blockquote>
     </td>
     <td>
       <h3>Work related stuff over on</h3>
@@ -41,16 +26,26 @@ The tools win. The engineers who adopt them, win faster.</em></p>
 </table>
 
 <table><tr>
-<td><img src="generated/stats.svg" width="335" alt="stats"/></td>
-<td><img src="generated/top_repos.svg" width="335" alt="top repos"/></td>
+<td><img src="generated/stats.svg" width="355" alt="stats"/></td>
+<td><img src="generated/top_repos.svg" width="355" alt="top repos"/></td>
 </tr></table>
 
-<table><tr>
-<td><img src="https://streak-stats.demolab.com/?user=dmzoneill&theme=dark&hide_border=true" width="335" alt="streak"/></td>
-<td><img src="https://github-readme-stats.vercel.app/api?username=dmzoneill&show_icons=true&theme=dark&hide_border=true&count_private=true" width="335" alt="github stats"/></td>
-</tr></table>
-
-<img src="generated/timeline.svg" width="720" alt="timeline"/>
+<details>
+<summary><strong>Issues ({issue_count})</strong></summary>
+<ul><issues><li><a href='{issue_url}'>{issue_title}</a> {updated_at}</li></issues></ul>
+</details>
+<details>
+<summary><strong>Pull Requests ({pr_count})</strong></summary>
+<ul><prs><li><a href='{pr_url}'>{pr_title}</a> {updated_at}</li></prs></ul>
+</details>
+<details>
+<summary><strong>Recent Activity</strong></summary>
+<ul><recent><li><a href='{recent_activity_url}'>{recent_activity_title}</a></li></recent></ul>
+</details>
+<details>
+<summary><strong>Gists</strong></summary>
+<ul><gists><li><a href='{gist_url}'>{gist_title}</a></li></gists></ul>
+</details>
 
 <h3>Lines of code</h3>
 <table width='100%' style='width:100%'>

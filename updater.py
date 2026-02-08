@@ -38,7 +38,7 @@ def esc(text):
     )
 
 
-def svg_stats(repos, stars, issues, prs, loc, lang_count, width=335, height=220):
+def svg_stats(repos, stars, issues, prs, loc, lang_count, width=355, height=220):
     items = [
         ("Repositories", fmt(repos)),
         ("Stars Earned", fmt(stars)),
@@ -77,7 +77,7 @@ def svg_stats(repos, stars, issues, prs, loc, lang_count, width=335, height=220)
 {rows}</svg>"""
 
 
-def svg_top_repos(repos, width=335, height=260):
+def svg_top_repos(repos, width=355, height=260):
     starred = sorted(
         [(r["name"], r.get("stargazers_count", 0)) for r in repos if r.get("stargazers_count", 0) > 0],
         key=lambda x: x[1],
@@ -130,7 +130,7 @@ def svg_top_repos(repos, width=335, height=260):
 </svg>"""
 
 
-def svg_timeline(repos, width=720, height=140):
+def svg_timeline(repos, width=760, height=140):
     year_counts = defaultdict(int)
     for r in repos:
         y = r.get("first_commit_year") or r.get("get_first_commit_date") or r.get("created_at", "")[:4]

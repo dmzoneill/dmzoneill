@@ -1,36 +1,21 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-08/02/2026 22:17:23-brightgreen" height='28'/> &nbsp;&nbsp; <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=dmzoneill&color=brightgreen&style=for-the-badge" height='28'/>
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-08/02/2026 22:32:41-brightgreen" height='28'/> &nbsp;&nbsp; <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=dmzoneill&color=brightgreen&style=for-the-badge" height='28'/>
 
-<blockquote>
-<p><em>First, engineers said machine code was enough and resisted assembly.<br/>
-Then they said assembly was enough and resisted C.<br/>
-Then they said C was enough and resisted Python.<br/>
-Then they said Python was enough and resisted AI.<br/>
-At every turn, the tools got smarter and the engineers got louder.<br/>
-The pattern is old. The objection is always new. The outcome is always the same.<br/>
-The tools win. The engineers who adopt them, win faster.</em></p>
-</blockquote>
+<img src="generated/timeline.svg" width="760" alt="timeline"/>
 
 <h4>Currently working on</h4><p><a href='https://github.com/dmzoneill/redhat-ai-workflow'><strong>redhat-ai-workflow</strong></a> <img src='https://img.shields.io/badge/-Python-informational?style=flat' alt='Python'/> &mdash; last pushed 2026-02-08</p>
 
 <table width='100%' style='width:100%'>
   <tr>
     <td>
-      <details>
-      <summary><strong>Issues (27)</strong></summary>
-      <ul><li><a href='https://github.com/dmzoneill/curriculum-vitae/issues/2'>Print and screen css</a> 2025-06-07</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/29'>[FR] Only search for missing songs from artists with a given tag</a> 2025-09-24</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/28'>Stuck?</a> 2025-08-05</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/27'>There should be a way to pass cookies to the downloader</a> 2025-05-25</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/25'>Most releases found are missing tracks</a> 2025-09-15</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/23'>Track Format & FFMPEG not adding metadata</a> 2024-03-25</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/21'>Issue with Lidarr recognizing downloaded audio and incorrect metadata in Jellyfin</a> 2024-02-23</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/12'>REQ: Ability to set percentage match cutoff and/or keyword blacklist such as "live" or whitelist "official" in title.</a> 2024-03-25</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/11'>Deployment Loop and "workaround".</a> 2023-05-10</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/7'>Truenas, Kubernetes, Lidarr and LYD</a> 2024-03-25</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/5'>FR: ability to filter results</a> 2023-01-24</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/3'>docker-compose</a> 2025-09-16</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/1'>Docker Build</a> 2024-01-28</li><li><a href='https://github.com/dmzoneill/tado-gnome-shell-extension/issues/2'>Got this message after trying to enable it (Gnome45):</a> 2024-04-24</li><li><a href='https://github.com/dmzoneill/gnome-extension-publisher/issues/2'>does not publish</a> 2025-05-10</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/7'>seeder log</a> 2024-05-13</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/5'>status column view selection and filtering</a> 2024-05-13</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/4'>log select box single torrent</a> 2024-05-13</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/3'>rightclick context update tracker, stop, pause, resume</a> 2024-05-13</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/2'>multi select toolbar updates</a> 2024-05-18</li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/2'>replace htacces swith central sso</a> 2025-06-07</li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/1'>invenstigate indempotant issues</a> 2025-06-07</li><li><a href='https://github.com/dmzoneill/php-binance-bot/issues/1'>Causes my IP to be blocked </a> 2023-01-24</li><li><a href='https://github.com/dmzoneill/seedmagepp/issues/1'>Questions : difference between Uploaded and session_uploaded and Enhancement for already downloaded file.</a> 2024-09-11</li><li><a href='https://github.com/dmzoneill/EC-SI-Scripts/issues/1'>Who's this guy?</a> 2025-07-17</li><li><a href='https://github.com/dmzoneill/ashtangayogacork.ie/issues/26'>merch on website</a> 2023-10-24</li><li><a href='https://github.com/dmzoneill/ashtangayogacork.ie/issues/25'>localisation show classes at different times zones</a> 2023-10-24</li></ul>
-      </details>
-      <details>
-      <summary><strong>Pull Requests (0)</strong></summary>
-      <ul></ul>
-      </details>
-      <details>
-      <summary><strong>Recent Activity</strong></summary>
-      <ul><li><a href='https://api.github.com/repos/dmzoneill/fail2counter'>dmzoneill/fail2counter</a></li><li><a href='https://api.github.com/repos/dmzoneill/redhat-csb'>dmzoneill/redhat-csb</a></li></ul>
-      </details>
-      <details>
-      <summary><strong>Gists</strong></summary>
-      <ul><li><a href='https://gist.github.com/dmzoneill/af4a56c98fe185a9b14abba35bb5c29b'>Complete Guide: Multi-Instance Ollama Setup with NPU, Intel GPU, and NVIDIA GPU</a></li><li><a href='https://gist.github.com/dmzoneill/441f88a5c73136b8128c252ad84100b3'>AI support fos slack and jira</a></li><li><a href='https://gist.github.com/dmzoneill/80bfef9603448c33df02ce0aa98fcd59'>AI git Commit</a></li><li><a href='https://gist.github.com/dmzoneill/7c9159b30950621c065791e7861be174'>Python GTK4 ColumnView Sorting and Binding</a></li><li><a href='https://gist.github.com/dmzoneill/19a4fbd799f1e5bcc050ddb4b0a65403'>sorted listed model gtk4</a></li><li><a href='https://gist.github.com/dmzoneill/74033698f65a5a1539d686452a73dce8'>Pygtk4 ColumnView</a></li><li><a href='https://gist.github.com/dmzoneill/497746f38c5786c96e8859f1131667af'>awx-operator 2.15..16</a></li><li><a href='https://gist.github.com/dmzoneill/67a908fb949dc95bbbf02f0446a07f0a'>durex fun</a></li><li><a href='https://gist.github.com/dmzoneill/d13d88b16d4d0aa90cb108a00ab3cf01'>10GB tuning</a></li><li><a href='https://gist.github.com/dmzoneill/575ba9c32375c41cb1041e9064de0678'>Synology 108tb limit bypass</a></li><li><a href='https://gist.github.com/dmzoneill/cbc75e502dbe2b78651f68d6320b714a'>AA active queries</a></li><li><a href='https://gist.github.com/dmzoneill/faaa84782eaed4d2dc28ad55c19119ee'>PHP Paypal Instant Payment Notification</a></li></ul>
-      </details>
+      <blockquote>
+      <p><em>First, engineers said machine code was enough and resisted assembly.<br/>
+      Then they said assembly was enough and resisted C.<br/>
+      Then they said C was enough and resisted Python.<br/>
+      Then they said Python was enough and resisted AI.<br/>
+      At every turn, the tools got smarter and the engineers got louder.<br/>
+      The pattern is old. The objection is always new. The outcome is always the same.<br/>
+      The tools win. The engineers who adopt them, win faster.</em></p>
+      </blockquote>
     </td>
     <td>
       <h3>Work related stuff over on</h3>
@@ -47,16 +32,26 @@ The tools win. The engineers who adopt them, win faster.</em></p>
 </table>
 
 <table><tr>
-<td><img src="generated/stats.svg" width="335" alt="stats"/></td>
-<td><img src="generated/top_repos.svg" width="335" alt="top repos"/></td>
+<td><img src="generated/stats.svg" width="355" alt="stats"/></td>
+<td><img src="generated/top_repos.svg" width="355" alt="top repos"/></td>
 </tr></table>
 
-<table><tr>
-<td><img src="https://streak-stats.demolab.com/?user=dmzoneill&theme=dark&hide_border=true" width="335" alt="streak"/></td>
-<td><img src="https://github-readme-stats.vercel.app/api?username=dmzoneill&show_icons=true&theme=dark&hide_border=true&count_private=true" width="335" alt="github stats"/></td>
-</tr></table>
-
-<img src="generated/timeline.svg" width="720" alt="timeline"/>
+<details>
+<summary><strong>Issues (27)</strong></summary>
+<ul><li><a href='https://github.com/dmzoneill/curriculum-vitae/issues/2'>Print and screen css</a> 2025-06-07</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/29'>[FR] Only search for missing songs from artists with a given tag</a> 2025-09-24</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/28'>Stuck?</a> 2025-08-05</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/27'>There should be a way to pass cookies to the downloader</a> 2025-05-25</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/25'>Most releases found are missing tracks</a> 2025-09-15</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/23'>Track Format & FFMPEG not adding metadata</a> 2024-03-25</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/21'>Issue with Lidarr recognizing downloaded audio and incorrect metadata in Jellyfin</a> 2024-02-23</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/12'>REQ: Ability to set percentage match cutoff and/or keyword blacklist such as "live" or whitelist "official" in title.</a> 2024-03-25</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/11'>Deployment Loop and "workaround".</a> 2023-05-10</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/7'>Truenas, Kubernetes, Lidarr and LYD</a> 2024-03-25</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/5'>FR: ability to filter results</a> 2023-01-24</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/3'>docker-compose</a> 2025-09-16</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/1'>Docker Build</a> 2024-01-28</li><li><a href='https://github.com/dmzoneill/tado-gnome-shell-extension/issues/2'>Got this message after trying to enable it (Gnome45):</a> 2024-04-24</li><li><a href='https://github.com/dmzoneill/gnome-extension-publisher/issues/2'>does not publish</a> 2025-05-10</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/7'>seeder log</a> 2024-05-13</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/5'>status column view selection and filtering</a> 2024-05-13</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/4'>log select box single torrent</a> 2024-05-13</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/3'>rightclick context update tracker, stop, pause, resume</a> 2024-05-13</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/2'>multi select toolbar updates</a> 2024-05-18</li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/2'>replace htacces swith central sso</a> 2025-06-07</li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/1'>invenstigate indempotant issues</a> 2025-06-07</li><li><a href='https://github.com/dmzoneill/php-binance-bot/issues/1'>Causes my IP to be blocked </a> 2023-01-24</li><li><a href='https://github.com/dmzoneill/seedmagepp/issues/1'>Questions : difference between Uploaded and session_uploaded and Enhancement for already downloaded file.</a> 2024-09-11</li><li><a href='https://github.com/dmzoneill/EC-SI-Scripts/issues/1'>Who's this guy?</a> 2025-07-17</li><li><a href='https://github.com/dmzoneill/ashtangayogacork.ie/issues/26'>merch on website</a> 2023-10-24</li><li><a href='https://github.com/dmzoneill/ashtangayogacork.ie/issues/25'>localisation show classes at different times zones</a> 2023-10-24</li></ul>
+</details>
+<details>
+<summary><strong>Pull Requests (0)</strong></summary>
+<ul></ul>
+</details>
+<details>
+<summary><strong>Recent Activity</strong></summary>
+<ul><li><a href='https://api.github.com/repos/dmzoneill/fail2counter'>dmzoneill/fail2counter</a></li><li><a href='https://api.github.com/repos/dmzoneill/redhat-csb'>dmzoneill/redhat-csb</a></li></ul>
+</details>
+<details>
+<summary><strong>Gists</strong></summary>
+<ul><li><a href='https://gist.github.com/dmzoneill/af4a56c98fe185a9b14abba35bb5c29b'>Complete Guide: Multi-Instance Ollama Setup with NPU, Intel GPU, and NVIDIA GPU</a></li><li><a href='https://gist.github.com/dmzoneill/441f88a5c73136b8128c252ad84100b3'>AI support fos slack and jira</a></li><li><a href='https://gist.github.com/dmzoneill/80bfef9603448c33df02ce0aa98fcd59'>AI git Commit</a></li><li><a href='https://gist.github.com/dmzoneill/7c9159b30950621c065791e7861be174'>Python GTK4 ColumnView Sorting and Binding</a></li><li><a href='https://gist.github.com/dmzoneill/19a4fbd799f1e5bcc050ddb4b0a65403'>sorted listed model gtk4</a></li><li><a href='https://gist.github.com/dmzoneill/74033698f65a5a1539d686452a73dce8'>Pygtk4 ColumnView</a></li><li><a href='https://gist.github.com/dmzoneill/497746f38c5786c96e8859f1131667af'>awx-operator 2.15..16</a></li><li><a href='https://gist.github.com/dmzoneill/67a908fb949dc95bbbf02f0446a07f0a'>durex fun</a></li><li><a href='https://gist.github.com/dmzoneill/d13d88b16d4d0aa90cb108a00ab3cf01'>10GB tuning</a></li><li><a href='https://gist.github.com/dmzoneill/575ba9c32375c41cb1041e9064de0678'>Synology 108tb limit bypass</a></li><li><a href='https://gist.github.com/dmzoneill/cbc75e502dbe2b78651f68d6320b714a'>AA active queries</a></li><li><a href='https://gist.github.com/dmzoneill/faaa84782eaed4d2dc28ad55c19119ee'>PHP Paypal Instant Payment Notification</a></li></ul>
+</details>
 
 <h3>Lines of code</h3>
 <table width='100%' style='width:100%'>
@@ -73,7 +68,7 @@ The tools win. The engineers who adopt them, win faster.</em></p>
     </tr>
   </thead>
   <tbody>
-    <tr><td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>12890422</td>
+    <tr><td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>12908825</td>
 <td><img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript'  height='20px'/></td><td>1478804</td>
 <td><img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS'  height='20px'/></td><td>6130495</td>
 <td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>430254</td>
@@ -168,6 +163,22 @@ The tools win. The engineers who adopt them, win faster.</em></p>
         </tr>
 <tr>
             <td>
+              <p><h2><a href='https://github.com/dmzoneill/dmzoneill' title='dmzoneill'>dmzoneill</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/</p>
+              <p>Apache License 2.0</p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+            </td>
+            <td>
+              <p><a href='https://github.com/dmzoneill' title='Github profile'>Github profile</a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2026-02-08</p>
+            </td>
+        </tr>
+<tr>
+            <td>
               <p><h2><a href='https://github.com/dmzoneill/Chuckbot' title='Chuckbot'>Chuckbot</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
@@ -180,22 +191,6 @@ The tools win. The engineers who adopt them, win faster.</em></p>
             <td align="center">
               <a href='https://github.com/dmzoneill/Chuckbot/actions'><img src='https://github.com/dmzoneill//Chuckbot/actions/workflows/main.yml/badge.svg'/></a>
               <p>2026-02-06</p>
-            </td>
-        </tr>
-<tr>
-            <td>
-              <p><h2><a href='https://github.com/dmzoneill/dmzoneill' title='dmzoneill'>dmzoneill</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
-              <p>Apache License 2.0</p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-            </td>
-            <td>
-              <p><a href='https://github.com/dmzoneill' title='Github profile'>Github profile</a></p>
-            </td>
-            <td align="center">
-              <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2026-02-08</p>
             </td>
         </tr>
 <tr>
@@ -410,7 +405,7 @@ The tools win. The engineers who adopt them, win faster.</em></p>
 </tbody></table><details><summary><strong>2026 (3 projects)</strong></summary><table width='100%' style='width:100%'><thead><tr><th>Project</th><th>View</th><th>Status</th></tr></thead><tbody><tr>
             <td>
               <p><h2><a href='https://github.com/dmzoneill/fail2counter' title='fail2counter'>fail2counter</a> (2026)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile' height='20px'/</p>
-              <p></p>
+              <p>Apache License 2.0</p>
               <p><h4>Recent Activity</h4><ul><li><a href='https://api.github.com/repos/dmzoneill/fail2counter'>dmzoneill/fail2counter</a></li></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>

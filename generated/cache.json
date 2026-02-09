@@ -332,6 +332,21 @@
     "t": 1770592010.1488967,
     "v": []
   },
+  "https://api.github.com/repos/dmzoneill/sodarr-chrome-plugin/issues?state=open": {
+    "t": 1770629636.7283542,
+    "v": [
+      {
+        "html_url": "https://github.com/dmzoneill/sodarr-chrome-plugin/issues/3",
+        "title": "Chrome Web Store publish failing since August 2025",
+        "updated_at": "2026-02-09T09:33:32Z",
+        "url": "https://api.github.com/repos/dmzoneill/sodarr-chrome-plugin/issues/3"
+      }
+    ]
+  },
+  "https://api.github.com/repos/dmzoneill/sodarr-chrome-plugin/pulls?state=open": {
+    "t": 1770629637.516826,
+    "v": []
+  },
   "https://api.github.com/repos/dmzoneill/tado-gnome-shell-extension/issues?state=open": {
     "t": 1770591992.970956,
     "v": [

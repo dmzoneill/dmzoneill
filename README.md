@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-09/02/2026 12:18:01-brightgreen" height='28'/> &nbsp;&nbsp; <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=dmzoneill&color=brightgreen&style=for-the-badge" height='28'/> &nbsp;&nbsp; <img alt="Redhat" width='30' height='25' src="https://github.com/dmzoneill/dmzoneill/blob/main/images/redhat.svg?raw=true" />
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-09/02/2026 18:20:29-brightgreen" height='28'/> &nbsp;&nbsp; <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=dmzoneill&color=brightgreen&style=for-the-badge" height='28'/> &nbsp;&nbsp; <img alt="Redhat" width='30' height='25' src="https://github.com/dmzoneill/dmzoneill/blob/main/images/redhat.svg?raw=true" />
 
 <img src="generated/timeline.svg" width="760" alt="timeline"/>
 
@@ -40,7 +40,7 @@
 </details>
 <details>
 <summary><strong>Recent Activity (100)</strong></summary>
-<ul><li><a href='https://github.com/dmzoneill/ollama-proxy/issues/1'>CI Pipeline: Multiple Job Failures (Docker Auth, Lint Errors, Test Timeout)</a></li><li><a href='https://github.com/dmzoneill/sodarr-chrome-plugin/issues/3'>Chrome Web Store publish failing since August 2025</a></li><li><a href='https://github.com/dmzoneill/aa-dns-checker/issues/10'>CI Pipeline Failure: Dependabot Security Update for starlette (Historical)</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/2'>multi select toolbar updates</a></li><li><a href='https://github.com/dmzoneill/ollama-proxy/issues/1'>CI Pipeline: Multiple Job Failures (Docker Auth, Lint Errors, Test Timeout)</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/3'>rightclick context update tracker, stop, pause, resume</a></li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/issues/56'>CI Pipeline Failure: Dependabot Security Update Blocked by Dependency Conflicts</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/4'>log select box single torrent</a></li><li><a href='https://github.com/dmzoneill/jira-creator/issues/1'>CI Pipeline Failure: Dependabot Cannot Resolve Pipfile</a></li><li><a href='https://github.com/dmzoneill/aa-dns-checker/issues/10'>CI Pipeline Failure: Dependabot Security Update for starlette (Historical)</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/5'>status column view selection and filtering</a></li><li><a href='https://github.com/dmzoneill/docker-media-center/issues/1'>CI Pipeline Failure: Dependabot Security Update for requests (Historical)</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/7'>seeder log</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/2'>replace htacces swith central sso</a></li><li><a href='https://github.com/dmzoneill/curriculum-vitae/issues/2'>Print and screen css</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/1'>invenstigate indempotant issues</a></li><li><a href='https://github.com/dmzoneill/redhat-ai-workflow/pull/121'>Add opencode support</a></li><li><a href='https://github.com/dmzoneill/ollama-proxy/issues/2'>Missing AI_API_KEY secret causing ai-responder workflow to fail</a></li><li><a href='https://github.com/dmzoneill/ollama-proxy/issues/2'>Missing AI_API_KEY secret causing ai-responder workflow to fail</a></li><li><a href='https://github.com/dmzoneill/ollama-proxy/issues/2'>Missing AI_API_KEY secret causing ai-responder workflow to fail</a></li><li><a href='https://github.com/dmzoneill/aa-dns-checker/pull/9'>Bump starlette from 0.40.0 to 0.49.1</a></li><li><a href='https://github.com/dmzoneill/gnome-extension-publisher/issues/2'>does not publish</a></li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/43'>Bump on-headers and compression in /frontend</a></li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/44'>Bump gopkg.in/yaml.v3 from 3.0.0 to 3.0.1 in /backend</a></li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/48'>Bump axios from 0.30.0 to 0.30.2 in /frontend</a></li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/50'>Bump form-data from 4.0.0 to 4.0.5 in /frontend</a></li><li><a href='https://github.com/dmzoneill/tado-gnome-shell-extension/issues/2'>Got this message after trying to enable it (Gnome45):</a></li><li><a href='https://github.com/dmzoneill/seedmagepp/issues/1'>Questions : difference between Uploaded and session_uploaded and Enhancement for already downloaded file.</a></li><li><a href='https://github.com/dmzoneill/EC-SI-Scripts/issues/1'>Who's this guy?</a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/28'>Stuck?</a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/29'>[FR] Only search for missing songs from artists with a given tag</a></li></ul>
+<ul><li><a href='https://api.github.com/repos/Redhat-forks/ansible-sign'>Redhat-forks/ansible-sign</a></li><li><a href='https://api.github.com/repos/Redhat-forks/bonfire'>Redhat-forks/bonfire</a></li><li><a href='https://api.github.com/repos/dmzoneill-forks/nemo-extensions'>dmzoneill-forks/nemo-extensions</a></li><li><a href='https://api.github.com/repos/dmzoneill-forks/dash-to-dock'>dmzoneill-forks/dash-to-dock</a></li><li><a href='https://api.github.com/repos/dmzoneill-forks/terminator'>dmzoneill-forks/terminator</a></li><li><a href='https://api.github.com/repos/dmzoneill/github-ai-contributor'>dmzoneill/github-ai-contributor</a></li><li><a href='https://github.com/dmzoneill/ollama-proxy/issues/1'>CI Pipeline: Multiple Job Failures (Docker Auth, Lint Errors, Test Timeout)</a></li><li><a href='https://github.com/dmzoneill/sodarr-chrome-plugin/issues/3'>Chrome Web Store publish failing since August 2025</a></li><li><a href='https://github.com/dmzoneill/aa-dns-checker/issues/10'>CI Pipeline Failure: Dependabot Security Update for starlette (Historical)</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/2'>multi select toolbar updates</a></li><li><a href='https://github.com/dmzoneill/ollama-proxy/issues/1'>CI Pipeline: Multiple Job Failures (Docker Auth, Lint Errors, Test Timeout)</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/3'>rightclick context update tracker, stop, pause, resume</a></li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/issues/56'>CI Pipeline Failure: Dependabot Security Update Blocked by Dependency Conflicts</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/4'>log select box single torrent</a></li><li><a href='https://github.com/dmzoneill/jira-creator/issues/1'>CI Pipeline Failure: Dependabot Cannot Resolve Pipfile</a></li><li><a href='https://github.com/dmzoneill/aa-dns-checker/issues/10'>CI Pipeline Failure: Dependabot Security Update for starlette (Historical)</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/5'>status column view selection and filtering</a></li><li><a href='https://github.com/dmzoneill/docker-media-center/issues/1'>CI Pipeline Failure: Dependabot Security Update for requests (Historical)</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/7'>seeder log</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/2'>replace htacces swith central sso</a></li><li><a href='https://github.com/dmzoneill/curriculum-vitae/issues/2'>Print and screen css</a></li></ul>
 </details>
 <details>
 <summary><strong>Gists (12)</strong></summary>
@@ -62,15 +62,15 @@
     </tr>
   </thead>
   <tbody>
-    <tr><td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>12959312</td>
-<td><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript'  height='20px'/></td><td>10655690</td>
-<td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>430888</td>
-<td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>2299712</td>
-</tr><tr>
-<td><img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML'  height='20px'/></td><td>13149591</td>
-<td><img src='https://img.shields.io/badge/_-Jinja -11DDDD.svg?style=for-the-badge' title='Jinja'  height='20px'/></td><td>405586</td>
+    <tr><td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>13193942</td>
 <td><img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript'  height='20px'/></td><td>1478804</td>
 <td><img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS'  height='20px'/></td><td>6130495</td>
+<td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>430888</td>
+</tr><tr>
+<td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>2299712</td>
+<td><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript'  height='20px'/></td><td>10655690</td>
+<td><img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML'  height='20px'/></td><td>13149591</td>
+<td><img src='https://img.shields.io/badge/_-Jinja -11DDDD.svg?style=for-the-badge' title='Jinja'  height='20px'/></td><td>405586</td>
 </tr><tr>
 <td><img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile'  height='20px'/></td><td>11180</td>
 <td><img src='https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white' title='C#'  height='20px'/></td><td>3378405</td>
@@ -141,6 +141,22 @@
   <tbody>
     <tr>
             <td>
+              <p><h2><a href='https://github.com/dmzoneill/redhat-ai-workflow' title='redhat-ai-workflow'>redhat-ai-workflow</a> (2025)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/</p>
+              <p>Apache License 2.0</p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+            </td>
+            <td>
+              <p><a href='https://github.com/dmzoneill/redhat-ai-workflow' title='RedHat AI Workflow'>RedHat AI Workflow</a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/redhat-ai-workflow/actions'><img src='https://github.com/dmzoneill//redhat-ai-workflow/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2026-02-09</p>
+            </td>
+        </tr>
+<tr>
+            <td>
               <p><h2><a href='https://github.com/dmzoneill/dmzoneill' title='dmzoneill'>dmzoneill</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
@@ -168,22 +184,6 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/jackett-indexarr/actions'><img src='https://github.com/dmzoneill//jackett-indexarr/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2026-02-09</p>
-            </td>
-        </tr>
-<tr>
-            <td>
-              <p><h2><a href='https://github.com/dmzoneill/redhat-ai-workflow' title='redhat-ai-workflow'>redhat-ai-workflow</a> (2025)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/</p>
-              <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/redhat-ai-workflow/pull/121'>Add opencode support</a></li></ul></p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-            </td>
-            <td>
-              <p><a href='https://github.com/dmzoneill/redhat-ai-workflow' title='RedHat AI Workflow'>RedHat AI Workflow</a></p>
-            </td>
-            <td align="center">
-              <a href='https://github.com/dmzoneill/redhat-ai-workflow/actions'><img src='https://github.com/dmzoneill//redhat-ai-workflow/actions/workflows/main.yml/badge.svg'/></a>
               <p>2026-02-09</p>
             </td>
         </tr>
@@ -223,7 +223,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/lidarr-youtube-downloader' title='lidarr-youtube-downloader'>lidarr-youtube-downloader</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/> <img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/28'>Stuck?</a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/29'>[FR] Only search for missing songs from artists with a given tag</a></li></ul></p>
+              <p><ul></ul></p>
               <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/29'>[FR] Only search for missing songs from artists with a given tag</a> 2026-02-09</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/28'>Stuck?</a> 2026-02-09</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/25'>Most releases found are missing tracks</a> 2026-02-09</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/23'>Track Format & FFMPEG not adding metadata</a> 2026-02-09</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/21'>Issue with Lidarr recognizing downloaded audio and incorrect metadata in Jellyfin</a> 2026-02-09</li></ul></p>
               <p><ul></ul></p>
             </td>
@@ -271,7 +271,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/gnome-extension-publisher' title='gnome-extension-publisher'>gnome-extension-publisher</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/gnome-extension-publisher/issues/2'>does not publish</a></li></ul></p>
+              <p><ul></ul></p>
               <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/gnome-extension-publisher/issues/2'>does not publish</a> 2025-08-19</li></ul></p>
               <p><ul></ul></p>
             </td>
@@ -303,7 +303,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/tado-gnome-shell-extension' title='tado-gnome-shell-extension'>tado-gnome-shell-extension</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/tado-gnome-shell-extension/issues/2'>Got this message after trying to enable it (Gnome45):</a></li></ul></p>
+              <p><ul></ul></p>
               <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/tado-gnome-shell-extension/issues/2'>Got this message after trying to enable it (Gnome45):</a> 2025-08-19</li></ul></p>
               <p><ul></ul></p>
             </td>
@@ -396,7 +396,23 @@
             </td>
         </tr>
 
-</tbody></table><details><summary><strong>2026 (4 projects)</strong></summary><table width='100%' style='width:100%'><thead><tr><th>Project</th><th>View</th><th>Status</th></tr></thead><tbody><tr>
+</tbody></table><details><summary><strong>2026 (5 projects)</strong></summary><table width='100%' style='width:100%'><thead><tr><th>Project</th><th>View</th><th>Status</th></tr></thead><tbody><tr>
+            <td>
+              <p><h2><a href='https://github.com/dmzoneill/github-ai-contributor' title='github-ai-contributor'>github-ai-contributor</a> (2026)</h2></p><p></p>
+              <p>Apache License 2.0</p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+            </td>
+            <td>
+              <p><a href='' title=''></a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/github-ai-contributor/actions'><img src='https://github.com/dmzoneill//github-ai-contributor/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2026-02-09</p>
+            </td>
+        </tr>
+<tr>
             <td>
               <p><h2><a href='https://github.com/dmzoneill/github-ai-maintainer' title='github-ai-maintainer'>github-ai-maintainer</a> (2026)</h2></p><p></p>
               <p>Apache License 2.0</p>
@@ -448,7 +464,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/ollama-proxy' title='ollama-proxy'>ollama-proxy</a> (2026)</h2></p><p><img src='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' title='Go' height='20px'/> <img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/ollama-proxy/issues/1'>CI Pipeline: Multiple Job Failures (Docker Auth, Lint Errors, Test Timeout)</a></li><li><a href='https://github.com/dmzoneill/ollama-proxy/issues/1'>CI Pipeline: Multiple Job Failures (Docker Auth, Lint Errors, Test Timeout)</a></li><li><a href='https://github.com/dmzoneill/ollama-proxy/issues/2'>Missing AI_API_KEY secret causing ai-responder workflow to fail</a></li><li><a href='https://github.com/dmzoneill/ollama-proxy/issues/2'>Missing AI_API_KEY secret causing ai-responder workflow to fail</a></li><li><a href='https://github.com/dmzoneill/ollama-proxy/issues/2'>Missing AI_API_KEY secret causing ai-responder workflow to fail</a></li></ul></p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/ollama-proxy/issues/1'>CI Pipeline: Multiple Job Failures (Docker Auth, Lint Errors, Test Timeout)</a></li><li><a href='https://github.com/dmzoneill/ollama-proxy/issues/1'>CI Pipeline: Multiple Job Failures (Docker Auth, Lint Errors, Test Timeout)</a></li></ul></p>
               <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/ollama-proxy/issues/1'>CI Pipeline: Multiple Job Failures (Docker Auth, Lint Errors, Test Timeout)</a> 2026-01-15</li></ul></p>
               <p><ul></ul></p>
             </td>
@@ -464,7 +480,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/ansible-feeditout-com' title='ansible-feeditout-com'>ansible-feeditout-com</a> (2025)</h2></p><p><img src='https://img.shields.io/badge/_-Jinja -11DDDD.svg?style=for-the-badge' title='Jinja' height='20px'/> <img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/2'>replace htacces swith central sso</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/1'>invenstigate indempotant issues</a></li></ul></p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/2'>replace htacces swith central sso</a></li></ul></p>
               <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/2'>replace htacces swith central sso</a> 2026-02-08</li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/1'>invenstigate indempotant issues</a> 2026-02-08</li></ul></p>
               <p><ul></ul></p>
             </td>
@@ -540,7 +556,23 @@
               <p>2025-05-10</p>
             </td>
         </tr>
-</tbody></table></details><details><summary><strong>2023 (11 projects)</strong></summary><table width='100%' style='width:100%'><thead><tr><th>Project</th><th>View</th><th>Status</th></tr></thead><tbody><tr>
+</tbody></table></details><details><summary><strong>2023 (12 projects)</strong></summary><table width='100%' style='width:100%'><thead><tr><th>Project</th><th>View</th><th>Status</th></tr></thead><tbody><tr>
+            <td>
+              <p><h2><a href='https://github.com/dmzoneill/ansible-wisdom-ops' title='ansible-wisdom-ops'>ansible-wisdom-ops</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/_-Jinja -11DDDD.svg?style=for-the-badge' title='Jinja' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/_-Go Template -11DDDD.svg?style=for-the-badge' title='Go Template' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
+              <p></p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+            </td>
+            <td>
+              <p><a href='' title=''></a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/ansible-wisdom-ops/actions'><img src='https://github.com/dmzoneill//ansible-wisdom-ops/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2026-02-09</p>
+            </td>
+        </tr>
+<tr>
             <td>
               <p><h2><a href='https://github.com/dmzoneill/hevyapp-api' title='hevyapp-api'>hevyapp-api</a> (2023)</h2></p><p></p>
               <p>Apache License 2.0</p>
@@ -720,7 +752,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/aa-dns-checker' title='aa-dns-checker'>aa-dns-checker</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/> <img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/aa-dns-checker/issues/10'>CI Pipeline Failure: Dependabot Security Update for starlette (Historical)</a></li><li><a href='https://github.com/dmzoneill/aa-dns-checker/issues/10'>CI Pipeline Failure: Dependabot Security Update for starlette (Historical)</a></li><li><a href='https://github.com/dmzoneill/aa-dns-checker/pull/9'>Bump starlette from 0.40.0 to 0.49.1</a></li></ul></p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/aa-dns-checker/issues/10'>CI Pipeline Failure: Dependabot Security Update for starlette (Historical)</a></li><li><a href='https://github.com/dmzoneill/aa-dns-checker/issues/10'>CI Pipeline Failure: Dependabot Security Update for starlette (Historical)</a></li></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -736,7 +768,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/aa-dev-prod-watcher' title='aa-dev-prod-watcher'>aa-dev-prod-watcher</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript' height='20px'/> <img src='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' title='Go' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/issues/56'>CI Pipeline Failure: Dependabot Security Update Blocked by Dependency Conflicts</a></li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/43'>Bump on-headers and compression in /frontend</a></li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/44'>Bump gopkg.in/yaml.v3 from 3.0.0 to 3.0.1 in /backend</a></li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/48'>Bump axios from 0.30.0 to 0.30.2 in /frontend</a></li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/50'>Bump form-data from 4.0.0 to 4.0.5 in /frontend</a></li></ul></p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/issues/56'>CI Pipeline Failure: Dependabot Security Update Blocked by Dependency Conflicts</a></li></ul></p>
               <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/issues/56'>CI Pipeline Failure: Dependabot Security Update Blocked by Dependency Conflicts</a> 2026-02-09</li></ul></p>
               <p><ul></ul></p>
             </td>
@@ -960,7 +992,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/seedmagepp' title='seedmagepp'>seedmagepp</a> (2019)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/seedmagepp/issues/1'>Questions : difference between Uploaded and session_uploaded and Enhancement for already downloaded file.</a></li></ul></p>
+              <p><ul></ul></p>
               <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/seedmagepp/issues/1'>Questions : difference between Uploaded and session_uploaded and Enhancement for already downloaded file.</a> 2025-05-10</li></ul></p>
               <p><ul></ul></p>
             </td>
@@ -1712,7 +1744,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/EC-SI-Scripts' title='EC-SI-Scripts'>EC-SI-Scripts</a> (2013)</h2></p><p><img src='https://img.shields.io/badge/perl-%2339457E.svg?style=for-the-badge&logo=perl&logoColor=white' title='Perl' height='20px'/> <img src='https://img.shields.io/badge/_-Prolog -11DDDD.svg?style=for-the-badge' title='Prolog' height='20px'/> <img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML' height='20px'/> <img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP' height='20px'/> <img src='https://img.shields.io/badge/_-SystemVerilog -11DDDD.svg?style=for-the-badge' title='SystemVerilog' height='20px'/> <img src='https://img.shields.io/badge/_-Sway -11DDDD.svg?style=for-the-badge' title='Sway' height='20px'/> <img src='https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white' title='C++' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/EC-SI-Scripts/issues/1'>Who's this guy?</a></li></ul></p>
+              <p><ul></ul></p>
               <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/EC-SI-Scripts/issues/1'>Who's this guy?</a> 2025-05-10</li></ul></p>
               <p><ul></ul></p>
             </td>
@@ -3053,6 +3085,22 @@
             </td>
         </tr>
 </tbody></table></details><details><summary><strong> (0 projects)</strong></summary><table width='100%' style='width:100%'><thead><tr><th>Project</th><th>View</th><th>Status</th></tr></thead><tbody><tr>
+            <td>
+              <p><h2><a href='https://github.com/dmzoneill/ansible-documentation' title='ansible-documentation'>ansible-documentation</a> ()</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/_-Jinja -11DDDD.svg?style=for-the-badge' title='Jinja' height='20px'/</p>
+              <p>GNU General Public License v3.0</p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+            </td>
+            <td>
+              <p><a href='' title=''></a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/ansible-documentation/actions'><img src='https://github.com/dmzoneill//ansible-documentation/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2026-02-09</p>
+            </td>
+        </tr>
+<tr>
             <td>
               <p><h2><a href='https://github.com/dmzoneill/Canonical-EOD-Report' title='Canonical-EOD-Report'>Canonical-EOD-Report</a> ()</h2></p><p><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/</p>
               <p>Apache License 2.0</p>

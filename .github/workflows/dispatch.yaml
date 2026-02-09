@@ -1328,7 +1328,7 @@ jobs:
           fetch-depth: 0
       
       - name: Set up Flatpak environment
-        uses: flatpak/flatpak-builder-action@v1
+        uses: flathub-infra/flatpak-github-actions/flatpak-builder@master
       
       - name: Install dependencies
         run: |
@@ -1339,7 +1339,7 @@ jobs:
           flatpak-builder --force-clean --install-deps-from=flathub --repo=repo-dir ${{ github.workspace }}/build-dir ie.fio.dfakeseeder manifest.json
       
       - name: Publish to Flathub
-        uses: flathub-infra/flatpak-github-actions/flat-manager@v1
+        uses: flathub-infra/flatpak-github-actions/flat-manager@master
         with:
           flat-manager-url: https://hub.flathub.org/
           repository: stable

@@ -1086,9 +1086,7 @@ class ReadmeUpdater:
             self.template = self.template.replace(
                 "{activity_count}", str(len(self.recent_activity))
             )
-            self.template = self.template.replace(
-                "{gist_count}", str(self.gist_count)
-            )
+            self.template = self.template.replace("{gist_count}", str(self.gist_count))
 
             self.log(self.template)
 

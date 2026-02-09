@@ -33,11 +33,11 @@
 <ul><prs><li><a href='{pr_url}'>{pr_title}</a> {updated_at}</li></prs></ul>
 </details>
 <details>
-<summary><strong>Recent Activity</strong></summary>
+<summary><strong>Recent Activity ({activity_count})</strong></summary>
 <ul><recent><li><a href='{recent_activity_url}'>{recent_activity_title}</a></li></recent></ul>
 </details>
 <details>
-<summary><strong>Gists</strong></summary>
+<summary><strong>Gists ({gist_count})</strong></summary>
 <ul><gists><li><a href='{gist_url}'>{gist_title}</a></li></gists></ul>
 </details>
 

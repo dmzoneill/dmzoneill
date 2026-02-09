@@ -619,10 +619,16 @@ class ReadmeUpdater:
                     repo_prs = None
 
                 if repo_issues is not None:
-                    self.issues += repo_issues
+                    for item in repo_issues:
+                        if "pull_request" in item:
+                            self.prs.append(item)
+                        else:
+                            self.issues.append(item)
 
                 if repo_prs is not None:
-                    self.prs += repo_prs
+                    for item in repo_prs:
+                        if item not in self.prs:
+                            self.prs.append(item)
 
                 prepend = False
 
@@ -916,6 +922,7 @@ class ReadmeUpdater:
                     elif (
                         recent["type"] == "PullRequestEvent"
                         and "pull_request" in recent["payload"]
+                        and "html_url" in recent["payload"]["pull_request"]
                     ):
                         pull_request = recent["payload"]["pull_request"]
                         if "html_url" in pull_request and "title" in pull_request:
@@ -961,6 +968,7 @@ class ReadmeUpdater:
     def generate_gists(self):
         try:
             gists = self.web_request_retry_cached(self.config["gists_url"])
+            self.gist_count = len(gists) if gists else 0
             if gists is not None:
                 gists_match = re.search(
                     "<gists>(.*)</gists>", self.template, flags=re.I | re.M | re.S
@@ -1075,6 +1083,12 @@ class ReadmeUpdater:
                 "{langcount}", str(len(self.total_lines_lang) + 1)
             )
             self.template = self.template.replace("{last_updated}", dt_string)
+            self.template = self.template.replace(
+                "{activity_count}", str(len(self.recent_activity))
+            )
+            self.template = self.template.replace(
+                "{gist_count}", str(self.gist_count)
+            )
 
             self.log(self.template)
 

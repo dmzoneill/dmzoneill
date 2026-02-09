@@ -22,7 +22,11 @@ FONT = (
 def svg_timeline(repos, width=760, height=140):
     year_counts = defaultdict(int)
     for r in repos:
-        y = r.get("first_commit_year") or r.get("get_first_commit_date") or r.get("created_at", "")[:4]
+        y = (
+            r.get("first_commit_year")
+            or r.get("get_first_commit_date")
+            or r.get("created_at", "")[:4]
+        )
         if y and str(y).isdigit():
             year_counts[int(y)] += 1
 
@@ -72,6 +76,7 @@ def svg_timeline(repos, width=760, height=140):
   <text class="head" x="30" y="25">Project Timeline</text>
 {elements}
 </svg>"""
+
 
 REPOS_GRAPHQL = """
 query($login: String!, $cursor: String) {
@@ -125,7 +130,8 @@ class DiskCache:
         os.makedirs(os.path.dirname(self.path) or ".", exist_ok=True)
         now = time.time()
         self.data = {
-            k: v for k, v in self.data.items()
+            k: v
+            for k, v in self.data.items()
             if now - v.get("t", 0) <= self.ttl_seconds
         }
         with open(self.path, "w") as f:
@@ -255,7 +261,17 @@ class ReadmeUpdater:
             # issues/PRs: only need html_url, title, updated_at, url, pull_request (presence check)
             if isinstance(data, list):
                 return [
-                    {k: item[k] for k in ("html_url", "title", "updated_at", "url", "pull_request") if k in item}
+                    {
+                        k: item[k]
+                        for k in (
+                            "html_url",
+                            "title",
+                            "updated_at",
+                            "url",
+                            "pull_request",
+                        )
+                        if k in item
+                    }
                     for item in data
                 ]
         elif "/gists" in url:
@@ -304,10 +320,16 @@ class ReadmeUpdater:
                         return None
                     return body.get("data")
                 self.log(
-                    "GraphQL HTTP " + str(r.status_code) + " (attempt " + str(attempt + 1) + ")"
+                    "GraphQL HTTP "
+                    + str(r.status_code)
+                    + " (attempt "
+                    + str(attempt + 1)
+                    + ")"
                 )
             except Exception as e:
-                self.log("GraphQL error: " + str(e) + " (attempt " + str(attempt + 1) + ")")
+                self.log(
+                    "GraphQL error: " + str(e) + " (attempt " + str(attempt + 1) + ")"
+                )
             time.sleep(1)
         return None
 
@@ -355,7 +377,9 @@ class ReadmeUpdater:
 
             while True:
                 self.log("GraphQL repos page (cursor=" + str(cursor is not None) + ")")
-                data = self.fetch_graphql(REPOS_GRAPHQL, {"login": login, "cursor": cursor})
+                data = self.fetch_graphql(
+                    REPOS_GRAPHQL, {"login": login, "cursor": cursor}
+                )
                 if not data:
                     self.log("GraphQL failed, falling back to REST")
                     return self._get_repos_rest()
@@ -386,8 +410,14 @@ class ReadmeUpdater:
                     "updated_at": node.get("updatedAt", ""),
                     "pushed_at": node.get("pushedAt", ""),
                     "language": (node.get("primaryLanguage") or {}).get("name"),
-                    "open_issues_count": (node.get("openIssueCount") or {}).get("totalCount", 0),
-                    "license": {"name": (node.get("licenseInfo") or {}).get("name")} if node.get("licenseInfo") else None,
+                    "open_issues_count": (node.get("openIssueCount") or {}).get(
+                        "totalCount", 0
+                    ),
+                    "license": (
+                        {"name": (node.get("licenseInfo") or {}).get("name")}
+                        if node.get("licenseInfo")
+                        else None
+                    ),
                 }
                 self.repos.append(repo)
 
@@ -409,9 +439,12 @@ class ReadmeUpdater:
 
             self.repos.sort(key=lambda x: x["updated_at"], reverse=True)
             self.log(
-                "Got repos via GraphQL: " + str(len(self.repos))
-                + ", Languages: " + str(len(self.total_lines_lang))
-                + ", LoC: " + str(self.total_lines)
+                "Got repos via GraphQL: "
+                + str(len(self.repos))
+                + ", Languages: "
+                + str(len(self.total_lines_lang))
+                + ", LoC: "
+                + str(self.total_lines)
             )
             return True
         except Exception as e:
@@ -476,7 +509,9 @@ class ReadmeUpdater:
 
             if not languages:
                 # Fallback to REST if no GraphQL data
-                languages_url = self.config["user_repos_url"] + "/" + name + "/languages"
+                languages_url = (
+                    self.config["user_repos_url"] + "/" + name + "/languages"
+                )
                 self.log(languages_url)
                 data = self.web_request_retry_cached(languages_url)
                 if data is not None:
@@ -578,9 +613,7 @@ class ReadmeUpdater:
                     repo_prs = self.get_repo_pull_requests(repo["name"])
                 else:
                     self.log(
-                        "Skipping issues/PRs for "
-                        + repo["name"]
-                        + " (0 open issues)"
+                        "Skipping issues/PRs for " + repo["name"] + " (0 open issues)"
                     )
                     repo_issues = None
                     repo_prs = None
@@ -594,7 +627,9 @@ class ReadmeUpdater:
                 prepend = False
 
                 language = self.get_repo_languages(repo["name"])
-                language = language if language is not False else (repo["language"] or "")
+                language = (
+                    language if language is not False else (repo["language"] or "")
+                )
                 html_url = repo["html_url"]
                 name = repo["name"]
                 live_url = live[repo["name"]][0] if repo["name"] in live else ""
@@ -639,7 +674,11 @@ class ReadmeUpdater:
                 ):
                     last_year_header = repo["get_first_commit_date"]
                     count = year_counts.get(last_year_header, 0)
-                    close_prev = "</tbody></table></details>" if details_open else "</tbody></table>"
+                    close_prev = (
+                        "</tbody></table></details>"
+                        if details_open
+                        else "</tbody></table>"
+                    )
                     row = (
                         close_prev
                         + "<details><summary><strong>"

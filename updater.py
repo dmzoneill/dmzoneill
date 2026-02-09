@@ -839,16 +839,18 @@ class ReadmeUpdater:
                         recent["type"] == "IssueCommentEvent"
                         and "issue" in recent["payload"]
                     ):
-                        recent_h = recent_h.replace(
-                            "{recent_activity_url}",
-                            recent["payload"]["issue"]["html_url"],
-                        )
-                        recent_h = recent_h.replace(
-                            "{recent_activity_title}",
-                            recent["payload"]["issue"]["title"],
-                        )
-                        recent_html += recent_h
-                        added += 1
+                        issue = recent["payload"]["issue"]
+                        if "html_url" in issue and "title" in issue:
+                            recent_h = recent_h.replace(
+                                "{recent_activity_url}",
+                                issue["html_url"],
+                            )
+                            recent_h = recent_h.replace(
+                                "{recent_activity_title}",
+                                issue["title"],
+                            )
+                            recent_html += recent_h
+                            added += 1
                     elif recent["type"] == "PushEvent":
                         self.log(pprint.pformat(recent))
                         commits = recent["payload"].get("commits", [])
@@ -876,16 +878,18 @@ class ReadmeUpdater:
                         recent["type"] == "PullRequestEvent"
                         and "pull_request" in recent["payload"]
                     ):
-                        recent_h = recent_h.replace(
-                            "{recent_activity_url}",
-                            recent["payload"]["pull_request"]["html_url"],
-                        )
-                        recent_h = recent_h.replace(
-                            "{recent_activity_title}",
-                            recent["payload"]["pull_request"]["title"],
-                        )
-                        recent_html += recent_h
-                        added += 1
+                        pull_request = recent["payload"]["pull_request"]
+                        if "html_url" in pull_request and "title" in pull_request:
+                            recent_h = recent_h.replace(
+                                "{recent_activity_url}",
+                                pull_request["html_url"],
+                            )
+                            recent_h = recent_h.replace(
+                                "{recent_activity_title}",
+                                pull_request["title"],
+                            )
+                            recent_html += recent_h
+                            added += 1
                     else:
                         continue
                     num += 1

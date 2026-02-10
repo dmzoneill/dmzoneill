@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-10/02/2026 00:27:14-brightgreen" height='28'/> &nbsp;&nbsp; <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=dmzoneill&color=brightgreen&style=for-the-badge" height='28'/> &nbsp;&nbsp; <img alt="Redhat" width='30' height='25' src="https://github.com/dmzoneill/dmzoneill/blob/main/images/redhat.svg?raw=true" />
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-10/02/2026 06:27:39-brightgreen" height='28'/> &nbsp;&nbsp; <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=dmzoneill&color=brightgreen&style=for-the-badge" height='28'/> &nbsp;&nbsp; <img alt="Redhat" width='30' height='25' src="https://github.com/dmzoneill/dmzoneill/blob/main/images/redhat.svg?raw=true" />
 
 <img src="generated/timeline.svg" width="760" alt="timeline"/>
 
@@ -40,7 +40,7 @@
 </details>
 <details>
 <summary><strong>Recent Activity (100)</strong></summary>
-<ul><li><a href='https://github.com/gnome-terminator/terminator/pull/1055'>fix: handle both string and bytes in feed method for drag-and-drop</a></li><li><a href='https://api.github.com/repos/dmzoneill-forks/deluge'>dmzoneill-forks/deluge</a></li><li><a href='https://api.github.com/repos/dmzoneill-forks/deluge'>dmzoneill-forks/deluge</a></li><li><a href='https://api.github.com/repos/Redhat-forks/ansible-lint'>Redhat-forks/ansible-lint</a></li><li><a href='https://api.github.com/repos/dmzoneill-forks/terminator'>dmzoneill-forks/terminator</a></li><li><a href='https://github.com/gnome-terminator/terminator/pull/1054'>fix: handle invalid regex gracefully in search</a></li><li><a href='https://api.github.com/repos/dmzoneill-forks/dash-to-dock'>dmzoneill-forks/dash-to-dock</a></li><li><a href='https://api.github.com/repos/dmzoneill-forks/nemo-extensions'>dmzoneill-forks/nemo-extensions</a></li><li><a href='https://api.github.com/repos/dmzoneill-forks/cover-thumbnailer'>dmzoneill-forks/cover-thumbnailer</a></li><li><a href='https://api.github.com/repos/Redhat-forks/bonfire'>Redhat-forks/bonfire</a></li></ul>
+<ul><li><a href='https://api.github.com/repos/dmzoneill-forks/intercom'>dmzoneill-forks/intercom</a></li><li><a href='https://api.github.com/repos/Redhat-forks/ansible-dev-tools'>Redhat-forks/ansible-dev-tools</a></li><li><a href='https://api.github.com/repos/Redhat-forks/podman-compose'>Redhat-forks/podman-compose</a></li><li><a href='https://api.github.com/repos/Redhat-forks/ansible-navigator'>Redhat-forks/ansible-navigator</a></li><li><a href='https://api.github.com/repos/Redhat-forks/ansible-creator'>Redhat-forks/ansible-creator</a></li><li><a href='https://api.github.com/repos/Redhat-forks/ansible-builder'>Redhat-forks/ansible-builder</a></li><li><a href='https://api.github.com/repos/Redhat-forks/insights-chrome'>Redhat-forks/insights-chrome</a></li><li><a href='https://github.com/FreePBX/core/pull/172'>fix: change extension input from number to text to preserve leading zeros</a></li><li><a href='https://github.com/asterisk/asterisk/pull/1764'>docs: fix TALK_DETECT dsp_talking_threshold description</a></li><li><a href='https://api.github.com/repos/dmzoneill-forks/core'>dmzoneill-forks/core</a></li><li><a href='https://api.github.com/repos/dmzoneill-forks/webdis'>dmzoneill-forks/webdis</a></li><li><a href='https://api.github.com/repos/dmzoneill-forks/WiringPi'>dmzoneill-forks/WiringPi</a></li><li><a href='https://api.github.com/repos/dmzoneill-forks/go-binance'>dmzoneill-forks/go-binance</a></li><li><a href='https://api.github.com/repos/dmzoneill-forks/asterisk'>dmzoneill-forks/asterisk</a></li><li><a href='https://github.com/RedHatInsights/bonfire/pull/526'>fix: optimize namespace refresh function to avoid unnecessary deepcopy</a></li><li><a href='https://github.com/gnome-terminator/terminator/pull/1054'>fix: handle invalid regex gracefully in search</a></li><li><a href='https://github.com/gnome-terminator/terminator/pull/1055'>fix: handle both string and bytes in feed method for drag-and-drop</a></li><li><a href='https://api.github.com/repos/dmzoneill-forks/deluge'>dmzoneill-forks/deluge</a></li><li><a href='https://api.github.com/repos/dmzoneill-forks/deluge'>dmzoneill-forks/deluge</a></li><li><a href='https://api.github.com/repos/Redhat-forks/ansible-lint'>Redhat-forks/ansible-lint</a></li></ul>
 </details>
 <details>
 <summary><strong>Gists (12)</strong></summary>
@@ -62,12 +62,12 @@
     </tr>
   </thead>
   <tbody>
-    <tr><td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>13193942</td>
-<td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>2299712</td>
+    <tr><td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>13244527</td>
+<td><img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript'  height='20px'/></td><td>1494939</td>
+<td><img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS'  height='20px'/></td><td>6130535</td>
 <td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>430888</td>
-<td><img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript'  height='20px'/></td><td>1478804</td>
 </tr><tr>
-<td><img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS'  height='20px'/></td><td>6130495</td>
+<td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>2299712</td>
 <td><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript'  height='20px'/></td><td>10655690</td>
 <td><img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML'  height='20px'/></td><td>13149591</td>
 <td><img src='https://img.shields.io/badge/_-Jinja -11DDDD.svg?style=for-the-badge' title='Jinja'  height='20px'/></td><td>405586</td>
@@ -141,6 +141,22 @@
   <tbody>
     <tr>
             <td>
+              <p><h2><a href='https://github.com/dmzoneill/redhat-ai-workflow' title='redhat-ai-workflow'>redhat-ai-workflow</a> (2025)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/</p>
+              <p>Apache License 2.0</p>
+              <p><ul></ul></p>
+              <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/redhat-ai-workflow/issues/123'>[Auto] Tool Error: persona_load</a> 2026-02-10</li></ul></p>
+              <p><ul></ul></p>
+            </td>
+            <td>
+              <p><a href='https://github.com/dmzoneill/redhat-ai-workflow' title='RedHat AI Workflow'>RedHat AI Workflow</a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/redhat-ai-workflow/actions'><img src='https://github.com/dmzoneill//redhat-ai-workflow/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2026-02-10</p>
+            </td>
+        </tr>
+<tr>
+            <td>
               <p><h2><a href='https://github.com/dmzoneill/dmzoneill' title='dmzoneill'>dmzoneill</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
@@ -152,23 +168,7 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2026-02-09</p>
-            </td>
-        </tr>
-<tr>
-            <td>
-              <p><h2><a href='https://github.com/dmzoneill/redhat-ai-workflow' title='redhat-ai-workflow'>redhat-ai-workflow</a> (2025)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/</p>
-              <p>Apache License 2.0</p>
-              <p><ul></ul></p>
-              <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/redhat-ai-workflow/issues/123'>[Auto] Tool Error: persona_load</a> 2026-02-09</li></ul></p>
-              <p><ul></ul></p>
-            </td>
-            <td>
-              <p><a href='https://github.com/dmzoneill/redhat-ai-workflow' title='RedHat AI Workflow'>RedHat AI Workflow</a></p>
-            </td>
-            <td align="center">
-              <a href='https://github.com/dmzoneill/redhat-ai-workflow/actions'><img src='https://github.com/dmzoneill//redhat-ai-workflow/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2026-02-09</p>
+              <p>2026-02-10</p>
             </td>
         </tr>
 <tr>
@@ -409,7 +409,7 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/github-ai-contributor/actions'><img src='https://github.com/dmzoneill//github-ai-contributor/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2026-02-09</p>
+              <p>2026-02-10</p>
             </td>
         </tr>
 <tr>
@@ -3087,7 +3087,7 @@
 </tbody></table></details><details><summary><strong> (0 projects)</strong></summary><table width='100%' style='width:100%'><thead><tr><th>Project</th><th>View</th><th>Status</th></tr></thead><tbody><tr>
             <td>
               <p><h2><a href='https://github.com/dmzoneill/ansible-documentation' title='ansible-documentation'>ansible-documentation</a> ()</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/_-Jinja -11DDDD.svg?style=for-the-badge' title='Jinja' height='20px'/</p>
-              <p>GNU General Public License v3.0</p>
+              <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
@@ -3097,7 +3097,7 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/ansible-documentation/actions'><img src='https://github.com/dmzoneill//ansible-documentation/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2026-02-09</p>
+              <p>2026-02-10</p>
             </td>
         </tr>
 <tr>

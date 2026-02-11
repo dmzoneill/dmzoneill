@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-11/02/2026 06:27:26-brightgreen" height='28'/> &nbsp;&nbsp; <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=dmzoneill&color=brightgreen&style=for-the-badge" height='28'/> &nbsp;&nbsp; <img alt="Redhat" width='30' height='25' src="https://github.com/dmzoneill/dmzoneill/blob/main/images/redhat.svg?raw=true" />
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-11/02/2026 12:18:02-brightgreen" height='28'/> &nbsp;&nbsp; <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=dmzoneill&color=brightgreen&style=for-the-badge" height='28'/> &nbsp;&nbsp; <img alt="Redhat" width='30' height='25' src="https://github.com/dmzoneill/dmzoneill/blob/main/images/redhat.svg?raw=true" />
 
 <img src="generated/timeline.svg" width="760" alt="timeline"/>
 
@@ -31,16 +31,16 @@
 </table>
 
 <details>
-<summary><strong>Issues (31)</strong></summary>
-<ul><li><a href='https://github.com/dmzoneill/tado-gnome-shell-extension/issues/2'>Got this message after trying to enable it (Gnome45):</a> 2026-02-09</li><li><a href='https://github.com/dmzoneill/sodarr-chrome-plugin/issues/3'>Chrome Web Store publish failing since August 2025</a> 2026-02-09</li><li><a href='https://github.com/dmzoneill/gnome-extension-publisher/issues/2'>does not publish</a> 2026-02-09</li><li><a href='https://github.com/dmzoneill/Chuckbot/issues/39'>CI Pipeline Failure: Dependabot Security Update Blocked by js-yaml Dependency Conflicts</a> 2026-02-09</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/29'>[FR] Only search for missing songs from artists with a given tag</a> 2026-02-09</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/28'>Stuck?</a> 2026-02-09</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/25'>Most releases found are missing tracks</a> 2025-09-15</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/23'>Track Format & FFMPEG not adding metadata</a> 2024-03-25</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/21'>Issue with Lidarr recognizing downloaded audio and incorrect metadata in Jellyfin</a> 2024-02-23</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/7'>Truenas, Kubernetes, Lidarr and LYD</a> 2024-03-25</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/5'>FR: ability to filter results</a> 2023-01-24</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/3'>docker-compose</a> 2025-09-16</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/1'>Docker Build</a> 2024-01-28</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/7'>seeder log</a> 2026-02-09</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/5'>status column view selection and filtering</a> 2026-02-09</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/4'>log select box single torrent</a> 2026-02-09</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/3'>rightclick context update tracker, stop, pause, resume</a> 2026-02-09</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/2'>multi select toolbar updates</a> 2026-02-09</li><li><a href='https://github.com/dmzoneill/curriculum-vitae/issues/2'>Print and screen css</a> 2026-02-09</li><li><a href='https://github.com/dmzoneill/redhat-ai-workflow/issues/123'>[Auto] Tool Error: persona_load</a> 2026-02-10</li><li><a href='https://github.com/dmzoneill/ollama-proxy/issues/1'>CI Pipeline: Multiple Job Failures (Docker Auth, Lint Errors, Test Timeout)</a> 2026-02-09</li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/2'>replace htacces swith central sso</a> 2026-02-09</li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/1'>invenstigate indempotant issues</a> 2026-02-09</li><li><a href='https://github.com/dmzoneill/jira-creator/issues/1'>CI Pipeline Failure: Dependabot Cannot Resolve Pipfile</a> 2026-02-09</li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/issues/56'>CI Pipeline Failure: Dependabot Security Update Blocked by Dependency Conflicts</a> 2026-02-09</li><li><a href='https://github.com/dmzoneill/docker-media-center/issues/1'>CI Pipeline Failure: Dependabot Security Update for requests (Historical)</a> 2026-02-09</li><li><a href='https://github.com/dmzoneill/php-binance-bot/issues/1'>Causes my IP to be blocked </a> 2023-01-24</li><li><a href='https://github.com/dmzoneill/seedmagepp/issues/1'>Questions : difference between Uploaded and session_uploaded and Enhancement for already downloaded file.</a> 2026-02-09</li><li><a href='https://github.com/dmzoneill/EC-SI-Scripts/issues/1'>Who's this guy?</a> 2026-02-09</li><li><a href='https://github.com/dmzoneill/ashtangayogacork.ie/issues/26'>merch on website</a> 2026-02-09</li><li><a href='https://github.com/dmzoneill/ashtangayogacork.ie/issues/25'>localisation show classes at different times zones</a> 2026-02-09</li></ul>
+<summary><strong>Issues (25)</strong></summary>
+<ul><li><a href='https://github.com/dmzoneill/tado-gnome-shell-extension/issues/2'>Got this message after trying to enable it (Gnome45):</a> 2026-02-09</li><li><a href='https://github.com/dmzoneill/gnome-extension-publisher/issues/2'>does not publish</a> 2026-02-09</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/29'>[FR] Only search for missing songs from artists with a given tag</a> 2026-02-09</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/28'>Stuck?</a> 2026-02-09</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/25'>Most releases found are missing tracks</a> 2025-09-15</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/23'>Track Format & FFMPEG not adding metadata</a> 2024-03-25</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/21'>Issue with Lidarr recognizing downloaded audio and incorrect metadata in Jellyfin</a> 2024-02-23</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/7'>Truenas, Kubernetes, Lidarr and LYD</a> 2024-03-25</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/5'>FR: ability to filter results</a> 2023-01-24</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/3'>docker-compose</a> 2025-09-16</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/1'>Docker Build</a> 2024-01-28</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/7'>seeder log</a> 2026-02-09</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/5'>status column view selection and filtering</a> 2026-02-09</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/4'>log select box single torrent</a> 2026-02-09</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/3'>rightclick context update tracker, stop, pause, resume</a> 2026-02-09</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/2'>multi select toolbar updates</a> 2026-02-09</li><li><a href='https://github.com/dmzoneill/curriculum-vitae/issues/2'>Print and screen css</a> 2026-02-09</li><li><a href='https://github.com/dmzoneill/redhat-ai-workflow/issues/123'>[Auto] Tool Error: persona_load</a> 2026-02-10</li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/2'>replace htacces swith central sso</a> 2026-02-09</li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/1'>invenstigate indempotant issues</a> 2026-02-09</li><li><a href='https://github.com/dmzoneill/php-binance-bot/issues/1'>Causes my IP to be blocked </a> 2023-01-24</li><li><a href='https://github.com/dmzoneill/seedmagepp/issues/1'>Questions : difference between Uploaded and session_uploaded and Enhancement for already downloaded file.</a> 2026-02-09</li><li><a href='https://github.com/dmzoneill/EC-SI-Scripts/issues/1'>Who's this guy?</a> 2026-02-09</li><li><a href='https://github.com/dmzoneill/ashtangayogacork.ie/issues/26'>merch on website</a> 2026-02-09</li><li><a href='https://github.com/dmzoneill/ashtangayogacork.ie/issues/25'>localisation show classes at different times zones</a> 2026-02-09</li></ul>
 </details>
 <details>
 <summary><strong>Pull Requests (0)</strong></summary>
 <ul></ul>
 </details>
 <details>
-<summary><strong>Recent Activity (100)</strong></summary>
-<ul><li><a href='https://github.com/squizlabs/PHP_CodeSniffer/pull/3970'>fix: handle missing semicolon in abstract function declaration</a></li><li><a href='https://github.com/squizlabs/PHP_CodeSniffer/issues/3968'>feat: Add incremental scanning for faster CI/CD pipeline integration</a></li><li><a href='https://github.com/gnome-terminator/terminator/issues/1061'>feat: add session autosave and crash recovery</a></li><li><a href='https://github.com/asterisk/asterisk/issues/1763'>feat: Add native WebRTC SFU mode for scalable conferencing</a></li><li><a href='https://github.com/etcd-io/etcd/issues/21283'>feat: Add built-in backup verification and integrity testing</a></li><li><a href='https://github.com/ansible/ansible-builder/issues/772'>feat: Add dependency conflict detection and resolution suggestions</a></li><li><a href='https://github.com/RedHatInsights/bonfire/issues/288'>metadata.labels 63-character limit</a></li><li><a href='https://github.com/containers/podman/issues/28055'>feat: Add container health check testing and validation CLI</a></li><li><a href='https://github.com/containers/podman/issues/28055'>feat: Add container health check testing and validation CLI</a></li><li><a href='https://api.github.com/repos/dmzoneill-forks/headphones'>dmzoneill-forks/headphones</a></li><li><a href='https://api.github.com/repos/dmzoneill-forks/headphones'>dmzoneill-forks/headphones</a></li><li><a href='https://api.github.com/repos/dmzoneill-forks/PHP_CodeSniffer'>dmzoneill-forks/PHP_CodeSniffer</a></li><li><a href='https://api.github.com/repos/dmzoneill-forks/PHP-Daemon'>dmzoneill-forks/PHP-Daemon</a></li><li><a href='https://api.github.com/repos/dmzoneill-forks/cryptopia-api-php'>dmzoneill-forks/cryptopia-api-php</a></li><li><a href='https://api.github.com/repos/Redhat-forks/ansible-runner'>Redhat-forks/ansible-runner</a></li><li><a href='https://github.com/webpack/webpack/issues/20435'>feat: Add build performance profiling and optimization suggestions</a></li><li><a href='https://github.com/zed-industries/zed/issues/48841'>feat: Add integrated code review and diff comment annotations</a></li><li><a href='https://github.com/theotherp/nzbhydra2/issues/1041'>feat: Add duplicate release detection and smart filtering</a></li><li><a href='https://api.github.com/repos/Redhat-forks/bonfire-tekton'>Redhat-forks/bonfire-tekton</a></li><li><a href='https://github.com/Sonarr/Sonarr/issues/8402'>feat: Add download client bandwidth scheduling and throttling</a></li><li><a href='https://github.com/Jackett/Jackett/issues/16571'>feat: Add health monitoring dashboard with tracker uptime metrics</a></li><li><a href='https://api.github.com/repos/dmzoneill-forks/headphones'>dmzoneill-forks/headphones</a></li><li><a href='https://github.com/containers/podman/issues/28055'>feat: Add container health check testing and validation CLI</a></li><li><a href='https://github.com/rembo10/headphones/pull/3408'>fix: add tzdata dependency for Python 3.9+ compatibility</a></li></ul>
+<summary><strong>Recent Activity (92)</strong></summary>
+<ul><li><a href='https://api.github.com/repos/dmzoneill-forks/cover-thumbnailer'>dmzoneill-forks/cover-thumbnailer</a></li><li><a href='https://github.com/nicolasff/webdis/issues/266'>feat: add request rate limiting per client IP</a></li><li><a href='https://api.github.com/repos/dmzoneill-forks/go-binance'>dmzoneill-forks/go-binance</a></li><li><a href='https://github.com/RedHatInsights/insights-client/issues/644'>feat: add dry-run mode with validation report</a></li><li><a href='https://github.com/squizlabs/PHP_CodeSniffer/pull/3970'>fix: handle missing semicolon in abstract function declaration</a></li><li><a href='https://github.com/squizlabs/PHP_CodeSniffer/issues/3968'>feat: Add incremental scanning for faster CI/CD pipeline integration</a></li><li><a href='https://github.com/gnome-terminator/terminator/issues/1061'>feat: add session autosave and crash recovery</a></li><li><a href='https://github.com/etcd-io/etcd/issues/21283'>feat: Add built-in backup verification and integrity testing</a></li><li><a href='https://github.com/ansible/ansible-builder/issues/772'>feat: Add dependency conflict detection and resolution suggestions</a></li><li><a href='https://github.com/containers/podman/issues/28055'>feat: Add container health check testing and validation CLI</a></li><li><a href='https://github.com/containers/podman/issues/28055'>feat: Add container health check testing and validation CLI</a></li><li><a href='https://api.github.com/repos/dmzoneill-forks/headphones'>dmzoneill-forks/headphones</a></li><li><a href='https://api.github.com/repos/dmzoneill-forks/headphones'>dmzoneill-forks/headphones</a></li><li><a href='https://api.github.com/repos/dmzoneill-forks/PHP_CodeSniffer'>dmzoneill-forks/PHP_CodeSniffer</a></li><li><a href='https://api.github.com/repos/dmzoneill-forks/PHP-Daemon'>dmzoneill-forks/PHP-Daemon</a></li></ul>
 </details>
 <details>
 <summary><strong>Gists (12)</strong></summary>
@@ -63,11 +63,11 @@
   </thead>
   <tbody>
     <tr><td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>13244527</td>
-<td><img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript'  height='20px'/></td><td>1494939</td>
-<td><img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS'  height='20px'/></td><td>6129974</td>
-<td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>430888</td>
-</tr><tr>
 <td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>2299712</td>
+<td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>430888</td>
+<td><img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript'  height='20px'/></td><td>1494939</td>
+</tr><tr>
+<td><img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS'  height='20px'/></td><td>6129974</td>
 <td><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript'  height='20px'/></td><td>10655690</td>
 <td><img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML'  height='20px'/></td><td>13149591</td>
 <td><img src='https://img.shields.io/badge/_-Jinja -11DDDD.svg?style=for-the-badge' title='Jinja'  height='20px'/></td><td>405586</td>
@@ -141,22 +141,6 @@
   <tbody>
     <tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/redhat-ai-workflow' title='redhat-ai-workflow'>redhat-ai-workflow</a> (2025)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/</p>
-              <p>Apache License 2.0</p>
-              <p><ul></ul></p>
-              <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/redhat-ai-workflow/issues/123'>[Auto] Tool Error: persona_load</a> 2026-02-11</li></ul></p>
-              <p><ul></ul></p>
-            </td>
-            <td>
-              <p><a href='https://github.com/dmzoneill/redhat-ai-workflow' title='RedHat AI Workflow'>RedHat AI Workflow</a></p>
-            </td>
-            <td align="center">
-              <a href='https://github.com/dmzoneill/redhat-ai-workflow/actions'><img src='https://github.com/dmzoneill//redhat-ai-workflow/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2026-02-11</p>
-            </td>
-        </tr>
-<tr>
-            <td>
               <p><h2><a href='https://github.com/dmzoneill/dmzoneill' title='dmzoneill'>dmzoneill</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
@@ -168,6 +152,22 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2026-02-11</p>
+            </td>
+        </tr>
+<tr>
+            <td>
+              <p><h2><a href='https://github.com/dmzoneill/redhat-ai-workflow' title='redhat-ai-workflow'>redhat-ai-workflow</a> (2025)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/</p>
+              <p>Apache License 2.0</p>
+              <p><ul></ul></p>
+              <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/redhat-ai-workflow/issues/123'>[Auto] Tool Error: persona_load</a> 2026-02-11</li></ul></p>
+              <p><ul></ul></p>
+            </td>
+            <td>
+              <p><a href='https://github.com/dmzoneill/redhat-ai-workflow' title='RedHat AI Workflow'>RedHat AI Workflow</a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/redhat-ai-workflow/actions'><img src='https://github.com/dmzoneill//redhat-ai-workflow/actions/workflows/main.yml/badge.svg'/></a>
               <p>2026-02-11</p>
             </td>
         </tr>
@@ -240,7 +240,7 @@
               <p><h2><a href='https://github.com/dmzoneill/Chuckbot' title='Chuckbot'>Chuckbot</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
-              <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/Chuckbot/issues/39'>CI Pipeline Failure: Dependabot Security Update Blocked by js-yaml Dependency Conflicts</a> 2026-02-06</li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
             <td>
@@ -288,7 +288,7 @@
               <p><h2><a href='https://github.com/dmzoneill/sodarr-chrome-plugin' title='sodarr-chrome-plugin'>sodarr-chrome-plugin</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
-              <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/sodarr-chrome-plugin/issues/3'>Chrome Web Store publish failing since August 2025</a> 2025-08-19</li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
             <td>
@@ -465,7 +465,7 @@
               <p><h2><a href='https://github.com/dmzoneill/ollama-proxy' title='ollama-proxy'>ollama-proxy</a> (2026)</h2></p><p><img src='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' title='Go' height='20px'/> <img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
-              <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/ollama-proxy/issues/1'>CI Pipeline: Multiple Job Failures (Docker Auth, Lint Errors, Test Timeout)</a> 2026-01-15</li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
             <td>
@@ -513,7 +513,7 @@
               <p><h2><a href='https://github.com/dmzoneill/jira-creator' title='jira-creator'>jira-creator</a> (2025)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
-              <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/jira-creator/issues/1'>CI Pipeline Failure: Dependabot Cannot Resolve Pipfile</a> 2026-01-12</li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
             <td>
@@ -769,7 +769,7 @@
               <p><h2><a href='https://github.com/dmzoneill/aa-dev-prod-watcher' title='aa-dev-prod-watcher'>aa-dev-prod-watcher</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript' height='20px'/> <img src='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' title='Go' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
-              <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/issues/56'>CI Pipeline Failure: Dependabot Security Update Blocked by Dependency Conflicts</a> 2026-02-09</li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
             <td>
@@ -801,7 +801,7 @@
               <p><h2><a href='https://github.com/dmzoneill/docker-media-center' title='docker-media-center'>docker-media-center</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/_-Roff -11DDDD.svg?style=for-the-badge' title='Roff' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/> <img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile' height='20px'/> <img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP' height='20px'/</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
-              <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/docker-media-center/issues/1'>CI Pipeline Failure: Dependabot Security Update for requests (Historical)</a> 2025-05-10</li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
             <td>

@@ -898,6 +898,9 @@ jobs:
           if test -f metadata.json; then sed "s/$version/$next/" -i metadata.json; fi
           if test -f package.json; then sed "s/$version/$next/" -i package.json; fi
           if test -f manifest.json; then sed "s/$version/$next/" -i manifest.json; fi
+          for f in *.flatpak.yml *.flatpak.yaml *.flatpak.json; do
+            if test -f "$f"; then sed "s/$version/$next/" -i "$f"; fi
+          done
 
       - name: Push changes
         uses: mikeal/publish-to-github-action@master
@@ -1320,25 +1323,133 @@ jobs:
     if: inputs.flatpak-build != 'false'
     needs: create-release
     name: Flatpak publish
-    runs-on: ubuntu-22.04    
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      
-      - name: Set up Flatpak environment
-        uses: flathub-infra/flatpak-github-actions/flatpak-builder@master
-      
-      - name: Install dependencies
+
+      - name: Discover flatpak manifest
+        id: discover
         run: |
-          flatpak install flathub org.freedesktop.Platform/x86_64/22.08 org.freedesktop.Sdk/x86_64/22.08
-      
+          MANIFEST=$(ls *.flatpak.yml *.flatpak.yaml *.flatpak.json 2>/dev/null | head -n1)
+          if [ -z "$MANIFEST" ]; then
+            echo "No flatpak manifest found (expected *.flatpak.yml, *.flatpak.yaml, or *.flatpak.json)" >&2
+            exit 1
+          fi
+          echo "FLATPAK_MANIFEST=$MANIFEST" >> $GITHUB_ENV
+          echo "Found manifest: $MANIFEST"
+
+      - name: Extract manifest metadata
+        run: |
+          python3 - <<'PYEOF'
+          import json, os, sys
+
+          manifest = os.environ["FLATPAK_MANIFEST"]
+
+          if manifest.endswith(".json"):
+              with open(manifest) as f:
+                  data = json.load(f)
+          else:
+              try:
+                  import yaml
+              except ImportError:
+                  import subprocess
+                  subprocess.check_call([sys.executable, "-m", "pip", "install", "pyyaml", "-q"])
+                  import yaml
+              with open(manifest) as f:
+                  data = yaml.safe_load(f)
+
+          app_id = data.get("app-id") or data.get("id") or ""
+          runtime = data.get("runtime", "")
+          runtime_version = data.get("runtime-version", "")
+          sdk = data.get("sdk", "")
+
+          if not app_id:
+              print("ERROR: manifest missing app-id/id field", file=sys.stderr)
+              sys.exit(1)
+          if not runtime or not runtime_version or not sdk:
+              print("ERROR: manifest missing runtime, runtime-version, or sdk", file=sys.stderr)
+              sys.exit(1)
+
+          with open(os.environ["GITHUB_ENV"], "a") as env:
+              env.write(f"FLATPAK_APP_ID={app_id}\n")
+              env.write(f"FLATPAK_RUNTIME={runtime}\n")
+              env.write(f"FLATPAK_RUNTIME_VERSION={runtime_version}\n")
+              env.write(f"FLATPAK_SDK={sdk}\n")
+
+          print(f"app-id: {app_id}")
+          print(f"runtime: {runtime}/{runtime_version}")
+          print(f"sdk: {sdk}/{runtime_version}")
+          PYEOF
+
+      - name: Get package version
+        run: |
+          if [[ -f version ]]; then
+            v=$(grep -E '^[Vv]ersion([[:space:]]*[:=])' version | head -n1 \
+                | sed -E 's/^[Vv]ersion[[:space:]]*[:=][[:space:]]*//')
+          elif [[ -f control ]]; then
+            v=$(grep -E '^Version:' control | head -n1 \
+                | sed -E 's/^Version:[[:space:]]*//')
+          else
+            echo "No version or control file found" >&2
+            exit 1
+          fi
+          v=${v//\"/}
+          v=${v//\'/}
+          v=$(echo -n "$v" | tr -d '[:space:]')
+          echo "PACKAGE_VERSION=$v" >> $GITHUB_ENV
+
+      - name: Install flatpak and flatpak-builder
+        run: |
+          sudo apt-get update -q
+          sudo apt-get install -y -q flatpak flatpak-builder
+          flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+
+      - name: Install runtime and SDK
+        run: |
+          flatpak install -y --noninteractive flathub \
+            ${{ env.FLATPAK_RUNTIME }}/x86_64/${{ env.FLATPAK_RUNTIME_VERSION }} \
+            ${{ env.FLATPAK_SDK }}/x86_64/${{ env.FLATPAK_RUNTIME_VERSION }}
+
       - name: Build Flatpak
         run: |
-          flatpak-builder --force-clean --install-deps-from=flathub --repo=repo-dir ${{ github.workspace }}/build-dir ie.fio.dfakeseeder manifest.json
-      
+          flatpak-builder --force-clean --install-deps-from=flathub \
+            --repo=flatpak-repo build-dir ${{ env.FLATPAK_MANIFEST }}
+
+      - name: Create Flatpak bundle
+        run: |
+          flatpak build-bundle flatpak-repo \
+            ${{ env.FLATPAK_APP_ID }}-${{ env.PACKAGE_VERSION }}.flatpak \
+            ${{ env.FLATPAK_APP_ID }}
+
+      - name: Store Flatpak bundle as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ env.FLATPAK_APP_ID }}-${{ env.PACKAGE_VERSION }}.flatpak
+          path: ${{ env.FLATPAK_APP_ID }}-${{ env.PACKAGE_VERSION }}.flatpak
+
+      - name: Get Release Information
+        id: get_release_info
+        run: |
+          UPLOAD_URL=$(curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+            https://api.github.com/repos/${{ github.repository }}/releases/tags/v${{ env.PACKAGE_VERSION }} \
+            | jq -r '.upload_url')
+          echo "UPLOAD_URL=$UPLOAD_URL" >> $GITHUB_ENV
+
+      - name: Upload Flatpak bundle as release asset
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ env.UPLOAD_URL }}
+          asset_path: ${{ env.FLATPAK_APP_ID }}-${{ env.PACKAGE_VERSION }}.flatpak
+          asset_name: ${{ env.FLATPAK_APP_ID }}-${{ env.PACKAGE_VERSION }}.flatpak
+          asset_content_type: application/octet-stream
+
       - name: Publish to Flathub
+        if: ${{ secrets.FLATHUB_TOKEN != '' }}
         uses: flathub-infra/flatpak-github-actions/flat-manager@master
         with:
           flat-manager-url: https://hub.flathub.org/

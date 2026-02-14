@@ -1449,8 +1449,10 @@ jobs:
           asset_content_type: application/octet-stream
 
       - name: Publish to Flathub
-        if: ${{ secrets.FLATHUB_TOKEN != '' }}
+        if: env.FLATHUB_TOKEN != ''
         uses: flathub-infra/flatpak-github-actions/flat-manager@master
+        env:
+          FLATHUB_TOKEN: ${{ secrets.FLATHUB_TOKEN }}
         with:
           flat-manager-url: https://hub.flathub.org/
           repository: stable

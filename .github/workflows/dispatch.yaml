@@ -1405,17 +1405,17 @@ jobs:
         run: |
           sudo apt-get update -q
           sudo apt-get install -y -q flatpak flatpak-builder
-          flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+          flatpak --user remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 
       - name: Install runtime and SDK
         run: |
-          flatpak install -y --noninteractive flathub \
+          flatpak --user install -y --noninteractive flathub \
             ${{ env.FLATPAK_RUNTIME }}/x86_64/${{ env.FLATPAK_RUNTIME_VERSION }} \
             ${{ env.FLATPAK_SDK }}/x86_64/${{ env.FLATPAK_RUNTIME_VERSION }}
 
       - name: Build Flatpak
         run: |
-          flatpak-builder --force-clean --install-deps-from=flathub \
+          flatpak-builder --user --force-clean --install-deps-from=flathub \
             --repo=flatpak-repo build-dir ${{ env.FLATPAK_MANIFEST }}
 
       - name: Create Flatpak bundle

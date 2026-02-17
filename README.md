@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-17/02/2026 12:14:17-brightgreen" height='28'/> &nbsp;&nbsp; <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=dmzoneill&color=brightgreen&style=for-the-badge" height='28'/> &nbsp;&nbsp; <img alt="Redhat" width='30' height='25' src="https://github.com/dmzoneill/dmzoneill/blob/main/images/redhat.svg?raw=true" />
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-17/02/2026 18:20:31-brightgreen" height='28'/> &nbsp;&nbsp; <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=dmzoneill&color=brightgreen&style=for-the-badge" height='28'/> &nbsp;&nbsp; <img alt="Redhat" width='30' height='25' src="https://github.com/dmzoneill/dmzoneill/blob/main/images/redhat.svg?raw=true" />
 
 <img src="generated/timeline.svg" width="760" alt="timeline"/>
 
@@ -40,7 +40,7 @@
 </details>
 <details>
 <summary><strong>Recent Activity (97)</strong></summary>
-<ul><li><a href='https://api.github.com/repos/dmzoneill/skills'>dmzoneill/skills</a></li><li><a href='https://github.com/flathub/flathub/pull/7835'>Add ie.fio.dfakeseeder</a></li><li><a href='https://github.com/flathub/flathub/pull/7835'>Add ie.fio.dfakeseeder</a></li><li><a href='https://github.com/flathub/flathub/pull/7835'>Add ie.fio.dfakeseeder</a></li><li><a href='https://github.com/flathub/flathub/pull/7835'>Add ie.fio.dfakeseeder</a></li><li><a href='https://api.github.com/repos/dmzoneill/flathub'>dmzoneill/flathub</a></li></ul>
+<ul><li><a href='https://github.com/flathub/flathub/issues/7847'>[Audit] AI-generated content detected in Flathub upstream repositories</a></li><li><a href='https://github.com/flathub/flathub/issues/7847'>[Audit] AI-generated content detected in Flathub upstream repositories</a></li><li><a href='https://github.com/flathub/flathub/issues/7847'>[Audit] AI-generated content detected in Flathub upstream repositories</a></li><li><a href='https://github.com/flathub/flathub/issues/7847'>[Audit] AI-generated content detected in Flathub upstream repositories</a></li><li><a href='https://github.com/flathub/flathub/issues/7847'>[Audit] AI-generated content detected in Flathub upstream repositories</a></li><li><a href='https://github.com/flathub/flathub/issues/7847'>[Audit] AI-generated content detected in Flathub upstream repositories</a></li><li><a href='https://github.com/flathub/flathub/issues/7847'>[Audit] AI-generated content detected in Flathub upstream repositories</a></li><li><a href='https://github.com/flathub/flathub/issues/7847'>[Audit] AI-generated content detected in Flathub upstream repositories</a></li><li><a href='https://github.com/flathub/flathub/issues/7847'>[Audit] AI-generated content detected in Flathub upstream repositories</a></li><li><a href='https://github.com/flathub/flathub/issues/7847'>[Audit] AI-generated content detected in Flathub upstream repositories</a></li><li><a href='https://github.com/flathub/flathub/issues/7847'>[Audit] AI-generated content detected in Flathub upstream repositories</a></li><li><a href='https://github.com/flathub/flathub/issues/7847'>[Audit] AI-generated content detected in Flathub upstream repositories</a></li><li><a href='https://github.com/flathub/flathub/issues/7847'>[Audit] AI-generated content detected in Flathub upstream repositories</a></li><li><a href='https://api.github.com/repos/dmzoneill/skills'>dmzoneill/skills</a></li><li><a href='https://github.com/flathub/flathub/pull/7835'>Add ie.fio.dfakeseeder</a></li><li><a href='https://github.com/flathub/flathub/pull/7835'>Add ie.fio.dfakeseeder</a></li><li><a href='https://github.com/flathub/flathub/pull/7835'>Add ie.fio.dfakeseeder</a></li><li><a href='https://github.com/flathub/flathub/pull/7835'>Add ie.fio.dfakeseeder</a></li></ul>
 </details>
 <details>
 <summary><strong>Gists (12)</strong></summary>
@@ -591,6 +591,22 @@
         </tr>
 </tbody></table></details><details><summary><strong>2023 (11 projects)</strong></summary><table width='100%' style='width:100%'><thead><tr><th>Project</th><th>View</th><th>Status</th></tr></thead><tbody><tr>
             <td>
+              <p><h2><a href='https://github.com/dmzoneill/strongapp-api' title='strongapp-api'>strongapp-api</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' title='Java' height='20px'/> <img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/perl-%2339457E.svg?style=for-the-badge&logo=perl&logoColor=white' title='Perl' height='20px'/> <img src='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' title='Go' height='20px'/</p>
+              <p>Apache License 2.0</p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+            </td>
+            <td>
+              <p><a href='' title=''></a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/strongapp-api/actions'><img src='https://github.com/dmzoneill//strongapp-api/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2026-02-17</p>
+            </td>
+        </tr>
+<tr>
+            <td>
               <p><h2><a href='https://github.com/dmzoneill/pass' title='pass'>pass</a> (2023)</h2></p><p></p>
               <p></p>
               <p><ul></ul></p>
@@ -619,22 +635,6 @@
             <td align="center">
               <a href='https://github.com/dmzoneill/hevyapp-api/actions'><img src='https://github.com/dmzoneill//hevyapp-api/actions/workflows/main.yml/badge.svg'/></a>
               <p>2026-02-03</p>
-            </td>
-        </tr>
-<tr>
-            <td>
-              <p><h2><a href='https://github.com/dmzoneill/strongapp-api' title='strongapp-api'>strongapp-api</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' title='Java' height='20px'/> <img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/perl-%2339457E.svg?style=for-the-badge&logo=perl&logoColor=white' title='Perl' height='20px'/> <img src='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' title='Go' height='20px'/</p>
-              <p>Apache License 2.0</p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-            </td>
-            <td>
-              <p><a href='' title=''></a></p>
-            </td>
-            <td align="center">
-              <a href='https://github.com/dmzoneill/strongapp-api/actions'><img src='https://github.com/dmzoneill//strongapp-api/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2026-02-02</p>
             </td>
         </tr>
 <tr>
@@ -3105,7 +3105,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/flathub' title='flathub'>flathub</a> ()</h2></p><p></p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://api.github.com/repos/dmzoneill/flathub'>dmzoneill/flathub</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>

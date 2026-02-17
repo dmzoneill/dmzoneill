@@ -48,7 +48,39 @@ on:
       flatpak-build:
         required: false
         type: string
-        default: "false"      
+        default: "false"
+      appimage-build:
+        required: false
+        type: string
+        default: "false"
+      snap-build:
+        required: false
+        type: string
+        default: "false"
+      nix-build:
+        required: false
+        type: string
+        default: "false"
+      aur-publish:
+        required: false
+        type: string
+        default: "false"
+      homebrew-publish:
+        required: false
+        type: string
+        default: "false"
+      chocolatey-publish:
+        required: false
+        type: string
+        default: "false"
+      scoop-publish:
+        required: false
+        type: string
+        default: "false"
+      winget-publish:
+        required: false
+        type: string
+        default: "false"
       VALIDATE_ALL_CODEBASE:
         required: false
         type: string
@@ -901,6 +933,14 @@ jobs:
           for f in *.flatpak.yml *.flatpak.yaml *.flatpak.json; do
             if test -f "$f"; then sed "s/$version/$next/" -i "$f"; fi
           done
+          if test -f snapcraft.yaml; then sed "s/$version/$next/" -i snapcraft.yaml; fi
+          if test -f snap/snapcraft.yaml; then sed "s/$version/$next/" -i snap/snapcraft.yaml; fi
+          if test -f PKGBUILD; then sed "s/$version/$next/" -i PKGBUILD; fi
+          for f in *.nuspec; do
+            if test -f "$f"; then sed "s/$version/$next/" -i "$f"; fi
+          done
+          if test -f flake.nix; then sed "s/$version/$next/" -i flake.nix; fi
+          if test -f default.nix; then sed "s/$version/$next/" -i default.nix; fi
 
       - name: Push changes
         uses: mikeal/publish-to-github-action@master
@@ -1464,10 +1504,593 @@ jobs:
           message: "${{ github.sha }} ${{ github.repository }} published flatpak"
           redis_password: ${{ secrets.REDIS_PASSWORD }}
 
+  appimage:
+    if: inputs.appimage-build != 'false'
+    needs: create-release
+    name: AppImage publish
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Discover AppImage manifest
+        id: discover
+        run: |
+          MANIFEST=$(ls AppImageBuilder.yml *.appimage.yml 2>/dev/null | head -n1)
+          if [ -z "$MANIFEST" ]; then
+            echo "No AppImage manifest found (expected AppImageBuilder.yml or *.appimage.yml)" >&2
+            exit 1
+          fi
+          echo "APPIMAGE_MANIFEST=$MANIFEST" >> $GITHUB_ENV
+          echo "Found manifest: $MANIFEST"
+
+      - name: Get package version
+        run: |
+          if [[ -f version ]]; then
+            v=$(grep -E '^[Vv]ersion([[:space:]]*[:=])' version | head -n1 \
+                | sed -E 's/^[Vv]ersion[[:space:]]*[:=][[:space:]]*//')
+          elif [[ -f control ]]; then
+            v=$(grep -E '^Version:' control | head -n1 \
+                | sed -E 's/^Version:[[:space:]]*//')
+          else
+            echo "No version or control file found" >&2
+            exit 1
+          fi
+          v=${v//\"/}
+          v=${v//\'/}
+          v=$(echo -n "$v" | tr -d '[:space:]')
+          echo "PACKAGE_VERSION=$v" >> $GITHUB_ENV
+
+      - name: Setup variables
+        run: |
+          echo "APP_NAME=$(echo "${{ github.repository }}" | awk -F'/' '{print tolower($2)}')" >> $GITHUB_ENV
+
+      - name: Install AppImage tooling
+        run: |
+          sudo apt-get update -q
+          sudo apt-get install -y -q libfuse2 desktop-file-utils
+          wget -q https://github.com/linuxdeploy/linuxdeploy/releases/download/continuous/linuxdeploy-x86_64.AppImage -O /usr/local/bin/linuxdeploy
+          chmod +x /usr/local/bin/linuxdeploy
+          wget -q https://github.com/AppImage/appimagetool/releases/download/continuous/appimagetool-x86_64.AppImage -O /usr/local/bin/appimagetool
+          chmod +x /usr/local/bin/appimagetool
+
+      - name: Build AppImage
+        run: |
+          if grep -q 'appimage:' Makefile 2>/dev/null; then
+            make appimage
+          else
+            linuxdeploy --appdir AppDir --output appimage
+          fi
+
+      - name: Rename AppImage
+        run: |
+          APPIMAGE_FILE=$(ls *.AppImage 2>/dev/null | head -n1)
+          if [ -n "$APPIMAGE_FILE" ]; then
+            mv "$APPIMAGE_FILE" "${{ env.APP_NAME }}-${{ env.PACKAGE_VERSION }}-x86_64.AppImage"
+          fi
+
+      - name: Store AppImage as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ env.APP_NAME }}-${{ env.PACKAGE_VERSION }}-x86_64.AppImage
+          path: ${{ env.APP_NAME }}-${{ env.PACKAGE_VERSION }}-x86_64.AppImage
+
+      - name: Get Release Information
+        run: |
+          UPLOAD_URL=$(curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+            https://api.github.com/repos/${{ github.repository }}/releases/tags/v${{ env.PACKAGE_VERSION }} \
+            | jq -r '.upload_url')
+          echo "UPLOAD_URL=$UPLOAD_URL" >> $GITHUB_ENV
+
+      - name: Upload AppImage as release asset
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ env.UPLOAD_URL }}
+          asset_path: ${{ env.APP_NAME }}-${{ env.PACKAGE_VERSION }}-x86_64.AppImage
+          asset_name: ${{ env.APP_NAME }}-${{ env.PACKAGE_VERSION }}-x86_64.AppImage
+          asset_content_type: application/octet-stream
+
+      - name: Send message to Redis
+        uses: dmzoneill/dmzoneill/.github/actions/redis@main
+        with:
+          message: "${{ github.sha }} ${{ github.repository }} published appimage"
+          redis_password: ${{ secrets.REDIS_PASSWORD }}
+
+  snap:
+    if: inputs.snap-build != 'false'
+    needs: create-release
+    name: Snap publish
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Discover snapcraft manifest
+        run: |
+          MANIFEST=""
+          if [ -f snap/snapcraft.yaml ]; then
+            MANIFEST="snap/snapcraft.yaml"
+          elif [ -f snapcraft.yaml ]; then
+            MANIFEST="snapcraft.yaml"
+          else
+            echo "No snapcraft.yaml found" >&2
+            exit 1
+          fi
+          echo "SNAPCRAFT_MANIFEST=$MANIFEST" >> $GITHUB_ENV
+          echo "Found manifest: $MANIFEST"
+
+      - name: Get package version
+        run: |
+          if [[ -f version ]]; then
+            v=$(grep -E '^[Vv]ersion([[:space:]]*[:=])' version | head -n1 \
+                | sed -E 's/^[Vv]ersion[[:space:]]*[:=][[:space:]]*//')
+          elif [[ -f control ]]; then
+            v=$(grep -E '^Version:' control | head -n1 \
+                | sed -E 's/^Version:[[:space:]]*//')
+          else
+            echo "No version or control file found" >&2
+            exit 1
+          fi
+          v=${v//\"/}
+          v=${v//\'/}
+          v=$(echo -n "$v" | tr -d '[:space:]')
+          echo "PACKAGE_VERSION=$v" >> $GITHUB_ENV
+
+      - name: Setup variables
+        run: |
+          echo "APP_NAME=$(echo "${{ github.repository }}" | awk -F'/' '{print tolower($2)}')" >> $GITHUB_ENV
+
+      - name: Build Snap
+        uses: snapcore/action-build@v1
+        id: snap_build
+
+      - name: Store Snap as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ env.APP_NAME }}-${{ env.PACKAGE_VERSION }}.snap
+          path: ${{ steps.snap_build.outputs.snap }}
+
+      - name: Get Release Information
+        run: |
+          UPLOAD_URL=$(curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+            https://api.github.com/repos/${{ github.repository }}/releases/tags/v${{ env.PACKAGE_VERSION }} \
+            | jq -r '.upload_url')
+          echo "UPLOAD_URL=$UPLOAD_URL" >> $GITHUB_ENV
+
+      - name: Upload Snap as release asset
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ env.UPLOAD_URL }}
+          asset_path: ${{ steps.snap_build.outputs.snap }}
+          asset_name: ${{ env.APP_NAME }}-${{ env.PACKAGE_VERSION }}.snap
+          asset_content_type: application/octet-stream
+
+      - name: Publish to Snap Store
+        if: env.SNAPCRAFT_STORE_CREDENTIALS != ''
+        uses: snapcore/action-publish@v1
+        env:
+          SNAPCRAFT_STORE_CREDENTIALS: ${{ secrets.SNAPCRAFT_STORE_CREDENTIALS }}
+        with:
+          snap: ${{ steps.snap_build.outputs.snap }}
+          release: stable
+
+      - name: Send message to Redis
+        uses: dmzoneill/dmzoneill/.github/actions/redis@main
+        with:
+          message: "${{ github.sha }} ${{ github.repository }} published snap"
+          redis_password: ${{ secrets.REDIS_PASSWORD }}
+
+  nix:
+    if: inputs.nix-build != 'false'
+    needs: create-release
+    name: Nix publish
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Discover Nix file
+        run: |
+          if [ -f flake.nix ]; then
+            echo "NIX_BUILD_TYPE=flake" >> $GITHUB_ENV
+          elif [ -f default.nix ]; then
+            echo "NIX_BUILD_TYPE=legacy" >> $GITHUB_ENV
+          else
+            echo "No flake.nix or default.nix found" >&2
+            exit 1
+          fi
+
+      - name: Get package version
+        run: |
+          if [[ -f version ]]; then
+            v=$(grep -E '^[Vv]ersion([[:space:]]*[:=])' version | head -n1 \
+                | sed -E 's/^[Vv]ersion[[:space:]]*[:=][[:space:]]*//')
+          elif [[ -f control ]]; then
+            v=$(grep -E '^Version:' control | head -n1 \
+                | sed -E 's/^Version:[[:space:]]*//')
+          else
+            echo "No version or control file found" >&2
+            exit 1
+          fi
+          v=${v//\"/}
+          v=${v//\'/}
+          v=$(echo -n "$v" | tr -d '[:space:]')
+          echo "PACKAGE_VERSION=$v" >> $GITHUB_ENV
+
+      - name: Setup variables
+        run: |
+          echo "APP_NAME=$(echo "${{ github.repository }}" | awk -F'/' '{print tolower($2)}')" >> $GITHUB_ENV
+
+      - name: Install Nix
+        uses: cachix/install-nix-action@v30
+        with:
+          nix_path: nixpkgs=channel:nixos-unstable
+
+      - name: Build with Nix
+        run: |
+          if [ "${{ env.NIX_BUILD_TYPE }}" = "flake" ]; then
+            nix build .
+          else
+            nix-build
+          fi
+
+      - name: Package result
+        run: |
+          tar czf ${{ env.APP_NAME }}-${{ env.PACKAGE_VERSION }}-nix.tar.gz -C result .
+
+      - name: Store Nix package as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ env.APP_NAME }}-${{ env.PACKAGE_VERSION }}-nix.tar.gz
+          path: ${{ env.APP_NAME }}-${{ env.PACKAGE_VERSION }}-nix.tar.gz
+
+      - name: Get Release Information
+        run: |
+          UPLOAD_URL=$(curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+            https://api.github.com/repos/${{ github.repository }}/releases/tags/v${{ env.PACKAGE_VERSION }} \
+            | jq -r '.upload_url')
+          echo "UPLOAD_URL=$UPLOAD_URL" >> $GITHUB_ENV
+
+      - name: Upload Nix package as release asset
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ env.UPLOAD_URL }}
+          asset_path: ${{ env.APP_NAME }}-${{ env.PACKAGE_VERSION }}-nix.tar.gz
+          asset_name: ${{ env.APP_NAME }}-${{ env.PACKAGE_VERSION }}-nix.tar.gz
+          asset_content_type: application/gzip
+
+      - name: Push to Cachix
+        if: env.CACHIX_AUTH_TOKEN != ''
+        uses: cachix/cachix-action@v15
+        with:
+          name: ${{ env.APP_NAME }}
+          authToken: ${{ secrets.CACHIX_AUTH_TOKEN }}
+
+      - name: Send message to Redis
+        uses: dmzoneill/dmzoneill/.github/actions/redis@main
+        with:
+          message: "${{ github.sha }} ${{ github.repository }} published nix package"
+          redis_password: ${{ secrets.REDIS_PASSWORD }}
+
+  aur:
+    if: inputs.aur-publish != 'false'
+    needs: create-release
+    name: AUR publish
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Discover PKGBUILD
+        run: |
+          if [ ! -f PKGBUILD ]; then
+            echo "No PKGBUILD found in repo root" >&2
+            exit 1
+          fi
+
+      - name: Get package version
+        run: |
+          if [[ -f version ]]; then
+            v=$(grep -E '^[Vv]ersion([[:space:]]*[:=])' version | head -n1 \
+                | sed -E 's/^[Vv]ersion[[:space:]]*[:=][[:space:]]*//')
+          elif [[ -f control ]]; then
+            v=$(grep -E '^Version:' control | head -n1 \
+                | sed -E 's/^Version:[[:space:]]*//')
+          else
+            echo "No version or control file found" >&2
+            exit 1
+          fi
+          v=${v//\"/}
+          v=${v//\'/}
+          v=$(echo -n "$v" | tr -d '[:space:]')
+          echo "PACKAGE_VERSION=$v" >> $GITHUB_ENV
+
+      - name: Setup variables
+        run: |
+          echo "APP_NAME=$(echo "${{ github.repository }}" | awk -F'/' '{print tolower($2)}')" >> $GITHUB_ENV
+
+      - name: Publish to AUR
+        if: env.AUR_SSH_PRIVATE_KEY != ''
+        uses: KSXGitHub/github-actions-deploy-aur@v3
+        env:
+          AUR_SSH_PRIVATE_KEY: ${{ secrets.AUR_SSH_PRIVATE_KEY }}
+        with:
+          pkgname: ${{ env.APP_NAME }}
+          pkgbuild: ./PKGBUILD
+          commit_username: ${{ github.actor }}
+          commit_email: ${{ github.actor }}@users.noreply.github.com
+          ssh_private_key: ${{ secrets.AUR_SSH_PRIVATE_KEY }}
+          commit_message: Update to ${{ env.PACKAGE_VERSION }}
+
+      - name: Send message to Redis
+        uses: dmzoneill/dmzoneill/.github/actions/redis@main
+        with:
+          message: "${{ github.sha }} ${{ github.repository }} published to AUR"
+          redis_password: ${{ secrets.REDIS_PASSWORD }}
+
+  homebrew:
+    if: inputs.homebrew-publish != 'false'
+    needs: create-release
+    name: Homebrew publish
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Get package version
+        run: |
+          if [[ -f version ]]; then
+            v=$(grep -E '^[Vv]ersion([[:space:]]*[:=])' version | head -n1 \
+                | sed -E 's/^[Vv]ersion[[:space:]]*[:=][[:space:]]*//')
+          elif [[ -f control ]]; then
+            v=$(grep -E '^Version:' control | head -n1 \
+                | sed -E 's/^Version:[[:space:]]*//')
+          else
+            echo "No version or control file found" >&2
+            exit 1
+          fi
+          v=${v//\"/}
+          v=${v//\'/}
+          v=$(echo -n "$v" | tr -d '[:space:]')
+          echo "PACKAGE_VERSION=$v" >> $GITHUB_ENV
+
+      - name: Setup variables
+        run: |
+          echo "APP_NAME=$(echo "${{ github.repository }}" | awk -F'/' '{print tolower($2)}')" >> $GITHUB_ENV
+
+      - name: Update Homebrew formula
+        if: env.HOMEBREW_TAP_TOKEN != ''
+        uses: mislav/bump-homebrew-formula-action@v3
+        env:
+          HOMEBREW_TAP_TOKEN: ${{ secrets.HOMEBREW_TAP_TOKEN }}
+        with:
+          formula-name: ${{ env.APP_NAME }}
+          tag-name: v${{ env.PACKAGE_VERSION }}
+          homebrew-tap: dmzoneill/homebrew-tap
+
+      - name: Send message to Redis
+        uses: dmzoneill/dmzoneill/.github/actions/redis@main
+        with:
+          message: "${{ github.sha }} ${{ github.repository }} published to homebrew"
+          redis_password: ${{ secrets.REDIS_PASSWORD }}
+
+  chocolatey:
+    if: inputs.chocolatey-publish != 'false'
+    needs: create-release
+    name: Chocolatey publish
+    runs-on: windows-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Discover nuspec
+        shell: pwsh
+        run: |
+          $nuspec = Get-ChildItem -Filter *.nuspec | Select-Object -First 1
+          if (-not $nuspec) {
+            Write-Error "No .nuspec file found in repo root"
+            exit 1
+          }
+          echo "NUSPEC_FILE=$($nuspec.Name)" >> $env:GITHUB_ENV
+          echo "Found nuspec: $($nuspec.Name)"
+
+      - name: Get package version
+        shell: pwsh
+        run: |
+          if (Test-Path version) {
+            $v = (Select-String -Path version -Pattern '^[Vv]ersion\s*[:=]\s*(.+)$').Matches[0].Groups[1].Value.Trim()
+          } elseif (Test-Path control) {
+            $v = (Select-String -Path control -Pattern '^Version:\s*(.+)$').Matches[0].Groups[1].Value.Trim()
+          } else {
+            Write-Error "No version or control file found"
+            exit 1
+          }
+          $v = $v.Trim('"', "'", ' ')
+          echo "PACKAGE_VERSION=$v" >> $env:GITHUB_ENV
+
+      - name: Setup variables
+        shell: pwsh
+        run: |
+          $appName = "${{ github.repository }}".Split('/')[-1].ToLower()
+          echo "APP_NAME=$appName" >> $env:GITHUB_ENV
+
+      - name: Pack Chocolatey package
+        shell: pwsh
+        run: |
+          choco pack ${{ env.NUSPEC_FILE }}
+
+      - name: Store nupkg as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ env.APP_NAME }}.${{ env.PACKAGE_VERSION }}.nupkg
+          path: "*.nupkg"
+
+      - name: Push to Chocolatey
+        if: env.CHOCOLATEY_API_KEY != ''
+        shell: pwsh
+        env:
+          CHOCOLATEY_API_KEY: ${{ secrets.CHOCOLATEY_API_KEY }}
+        run: |
+          $nupkg = Get-ChildItem -Filter *.nupkg | Select-Object -First 1
+          choco push $nupkg.Name --source https://push.chocolatey.org/ --api-key $env:CHOCOLATEY_API_KEY
+
+      - name: Send message to Redis
+        uses: dmzoneill/dmzoneill/.github/actions/redis@main
+        with:
+          message: "${{ github.sha }} ${{ github.repository }} published to chocolatey"
+          redis_password: ${{ secrets.REDIS_PASSWORD }}
+
+  scoop:
+    if: inputs.scoop-publish != 'false'
+    needs: create-release
+    name: Scoop publish
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Get package version
+        run: |
+          if [[ -f version ]]; then
+            v=$(grep -E '^[Vv]ersion([[:space:]]*[:=])' version | head -n1 \
+                | sed -E 's/^[Vv]ersion[[:space:]]*[:=][[:space:]]*//')
+          elif [[ -f control ]]; then
+            v=$(grep -E '^Version:' control | head -n1 \
+                | sed -E 's/^Version:[[:space:]]*//')
+          else
+            echo "No version or control file found" >&2
+            exit 1
+          fi
+          v=${v//\"/}
+          v=${v//\'/}
+          v=$(echo -n "$v" | tr -d '[:space:]')
+          echo "PACKAGE_VERSION=$v" >> $GITHUB_ENV
+
+      - name: Setup variables
+        run: |
+          echo "APP_NAME=$(echo "${{ github.repository }}" | awk -F'/' '{print tolower($2)}')" >> $GITHUB_ENV
+
+      - name: Generate and push Scoop manifest
+        if: env.SCOOP_BUCKET_TOKEN != ''
+        env:
+          SCOOP_BUCKET_TOKEN: ${{ secrets.SCOOP_BUCKET_TOKEN }}
+        run: |
+          REPO_URL="https://github.com/${{ github.repository }}"
+          DOWNLOAD_URL="${REPO_URL}/releases/download/v${{ env.PACKAGE_VERSION }}"
+
+          cat > ${{ env.APP_NAME }}.json <<MANIFEST
+          {
+            "version": "${{ env.PACKAGE_VERSION }}",
+            "architecture": {
+              "64bit": {
+                "url": "${DOWNLOAD_URL}/${{ env.APP_NAME }}-${{ env.PACKAGE_VERSION }}-win64.zip",
+                "hash": ""
+              }
+            },
+            "bin": "${{ env.APP_NAME }}.exe",
+            "checkver": {
+              "github": "${REPO_URL}"
+            },
+            "autoupdate": {
+              "architecture": {
+                "64bit": {
+                  "url": "${REPO_URL}/releases/download/v\$version/${{ env.APP_NAME }}-\$version-win64.zip"
+                }
+              }
+            }
+          }
+          MANIFEST
+
+          # Push manifest to bucket repo
+          BUCKET_REPO="dmzoneill/scoop-bucket"
+          MANIFEST_CONTENT=$(base64 -w 0 ${{ env.APP_NAME }}.json)
+
+          # Check if file exists
+          EXISTING=$(curl -s -H "Authorization: token ${SCOOP_BUCKET_TOKEN}" \
+            "https://api.github.com/repos/${BUCKET_REPO}/contents/bucket/${{ env.APP_NAME }}.json" \
+            | jq -r '.sha // empty')
+
+          if [ -n "$EXISTING" ]; then
+            curl -s -X PUT -H "Authorization: token ${SCOOP_BUCKET_TOKEN}" \
+              -H "Content-Type: application/json" \
+              "https://api.github.com/repos/${BUCKET_REPO}/contents/bucket/${{ env.APP_NAME }}.json" \
+              -d "{\"message\":\"Update ${{ env.APP_NAME }} to ${{ env.PACKAGE_VERSION }}\",\"content\":\"${MANIFEST_CONTENT}\",\"sha\":\"${EXISTING}\"}"
+          else
+            curl -s -X PUT -H "Authorization: token ${SCOOP_BUCKET_TOKEN}" \
+              -H "Content-Type: application/json" \
+              "https://api.github.com/repos/${BUCKET_REPO}/contents/bucket/${{ env.APP_NAME }}.json" \
+              -d "{\"message\":\"Add ${{ env.APP_NAME }} ${{ env.PACKAGE_VERSION }}\",\"content\":\"${MANIFEST_CONTENT}\"}"
+          fi
+
+      - name: Send message to Redis
+        uses: dmzoneill/dmzoneill/.github/actions/redis@main
+        with:
+          message: "${{ github.sha }} ${{ github.repository }} published to scoop"
+          redis_password: ${{ secrets.REDIS_PASSWORD }}
+
+  winget:
+    if: inputs.winget-publish != 'false'
+    needs: create-release
+    name: Winget publish
+    runs-on: windows-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Get package version
+        shell: pwsh
+        run: |
+          if (Test-Path version) {
+            $v = (Select-String -Path version -Pattern '^[Vv]ersion\s*[:=]\s*(.+)$').Matches[0].Groups[1].Value.Trim()
+          } elseif (Test-Path control) {
+            $v = (Select-String -Path control -Pattern '^Version:\s*(.+)$').Matches[0].Groups[1].Value.Trim()
+          } else {
+            Write-Error "No version or control file found"
+            exit 1
+          }
+          $v = $v.Trim('"', "'", ' ')
+          echo "PACKAGE_VERSION=$v" >> $env:GITHUB_ENV
+
+      - name: Publish to winget
+        if: env.WINGET_TOKEN != ''
+        uses: vedantmgoyal9/winget-releaser@v2
+        with:
+          identifier: dmzoneill.${{ github.event.repository.name }}
+          version: ${{ env.PACKAGE_VERSION }}
+          token: ${{ secrets.WINGET_TOKEN }}
+
+      - name: Send message to Redis
+        uses: dmzoneill/dmzoneill/.github/actions/redis@main
+        with:
+          message: "${{ github.sha }} ${{ github.repository }} published to winget"
+          redis_password: ${{ secrets.REDIS_PASSWORD }}
+
   rebuild-profile:   
     name: Rebuild Profile
     runs-on: ubuntu-latest    
-    needs: [docker, deb, rpm, gnome, pypi, chrome, pling, npmjs, flatpak]
+    needs: [docker, deb, rpm, gnome, pypi, chrome, pling, npmjs, flatpak, appimage, snap, nix, aur, homebrew, chocolatey, scoop, winget]
     steps:
       - name: Rebuild profile
         run: |-
@@ -1475,18 +2098,26 @@ jobs:
 
   blog:
     runs-on: ubuntu-latest
-    needs: [docker, deb, rpm, gnome, pypi, chrome, pling, npmjs, flatpak]
+    needs: [docker, deb, rpm, gnome, pypi, chrome, pling, npmjs, flatpak, appimage, snap, nix, aur, homebrew, chocolatey, scoop, winget]
     if: |
       always() &&
       (
         needs.rpm.result == 'success' ||
-        needs.docker.result == 'success' || 
-        needs.gnome.result == 'success' || 
+        needs.docker.result == 'success' ||
+        needs.gnome.result == 'success' ||
         needs.pypi.result == 'success' ||
         needs.chrome.result == 'success' ||
         needs.pling.result == 'success' ||
         needs.deb.result == 'success' ||
         needs.flatpak.result == 'success' ||
+        needs.appimage.result == 'success' ||
+        needs.snap.result == 'success' ||
+        needs.nix.result == 'success' ||
+        needs.aur.result == 'success' ||
+        needs.homebrew.result == 'success' ||
+        needs.chocolatey.result == 'success' ||
+        needs.scoop.result == 'success' ||
+        needs.winget.result == 'success' ||
         true
       )
     steps:

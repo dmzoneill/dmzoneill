@@ -1,6 +1,7 @@
 import os
-import requests
 import subprocess
+
+import requests
 
 # Constants
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")

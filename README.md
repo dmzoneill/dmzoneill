@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-22/02/2026 18:12:09-brightgreen" height='28'/> &nbsp;&nbsp; <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=dmzoneill&color=brightgreen&style=for-the-badge" height='28'/> &nbsp;&nbsp; <img alt="Redhat" width='30' height='25' src="https://github.com/dmzoneill/dmzoneill/blob/main/images/redhat.svg?raw=true" />
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-23/02/2026 00:22:31-brightgreen" height='28'/> &nbsp;&nbsp; <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=dmzoneill&color=brightgreen&style=for-the-badge" height='28'/> &nbsp;&nbsp; <img alt="Redhat" width='30' height='25' src="https://github.com/dmzoneill/dmzoneill/blob/main/images/redhat.svg?raw=true" />
 
 <img src="generated/timeline.svg" width="760" alt="timeline"/>
 
@@ -62,7 +62,70 @@
     </tr>
   </thead>
   <tbody>
-    <tr></tr>
+    <tr><td><img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript'  height='20px'/></td><td>1566621</td>
+<td><img src='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' title='Go'  height='20px'/></td><td>1621445</td>
+<td><img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS'  height='20px'/></td><td>6101663</td>
+<td><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript'  height='20px'/></td><td>10655690</td>
+</tr><tr>
+<td><img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile'  height='20px'/></td><td>11180</td>
+<td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>431295</td>
+<td><img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML'  height='20px'/></td><td>13170950</td>
+<td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>13776613</td>
+</tr><tr>
+<td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>2293215</td>
+<td><img src='https://img.shields.io/badge/_-Go Template -11DDDD.svg?style=for-the-badge' title='Go Template'  height='20px'/></td><td>8760</td>
+<td><img src='https://img.shields.io/badge/_-Jinja -11DDDD.svg?style=for-the-badge' title='Jinja'  height='20px'/></td><td>405586</td>
+<td><img src='https://img.shields.io/badge/_-YARA -11DDDD.svg?style=for-the-badge' title='YARA'  height='20px'/></td><td>1898925</td>
+</tr><tr>
+<td><img src='https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white' title='C'  height='20px'/></td><td>10624654</td>
+<td><img src='https://img.shields.io/badge/_-M4 -11DDDD.svg?style=for-the-badge' title='M4'  height='20px'/></td><td>124107</td>
+<td><img src='https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white' title='C#'  height='20px'/></td><td>3378405</td>
+<td><img src='https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white' title='C++'  height='20px'/></td><td>359606</td>
+</tr><tr>
+<td><img src='https://img.shields.io/badge/_-Visual Basic .NET -11DDDD.svg?style=for-the-badge' title='Visual Basic .NET'  height='20px'/></td><td>758279</td>
+<td><img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP'  height='20px'/></td><td>91088548</td>
+<td><img src='https://img.shields.io/badge/perl-%2339457E.svg?style=for-the-badge&logo=perl&logoColor=white' title='Perl'  height='20px'/></td><td>9279049</td>
+<td><img src='https://camo.githubusercontent.com/6e5b1cbf25a32a79ed458dc14f5a66b8d89e525de7a9558ec10a50e7129ea2cc/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d50757070657426636f6c6f723d323232323232266c6f676f3d507570706574266c6f676f436f6c6f723d464641453141266c6162656c3d' title='Puppet'  height='20px'/></td><td>129953</td>
+</tr><tr>
+<td><img src='https://img.shields.io/badge/_-Hack -11DDDD.svg?style=for-the-badge' title='Hack'  height='20px'/></td><td>242093</td>
+<td><img src='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' title='Java'  height='20px'/></td><td>2071977</td>
+<td><img src='https://img.shields.io/badge/_-Raku -11DDDD.svg?style=for-the-badge' title='Raku'  height='20px'/></td><td>1689399</td>
+<td><img src='https://img.shields.io/badge/_-Roff -11DDDD.svg?style=for-the-badge' title='Roff'  height='20px'/></td><td>910039</td>
+</tr><tr>
+<td><img src='https://img.shields.io/badge/_-ActionScript -11DDDD.svg?style=for-the-badge' title='ActionScript'  height='20px'/></td><td>32949</td>
+<td><img src='https://img.shields.io/badge/_-Smarty -11DDDD.svg?style=for-the-badge' title='Smarty'  height='20px'/></td><td>2034035</td>
+<td><img src='https://img.shields.io/badge/_-PLSQL -11DDDD.svg?style=for-the-badge' title='PLSQL'  height='20px'/></td><td>60389</td>
+<td><img src='https://img.shields.io/badge/_-XSLT -11DDDD.svg?style=for-the-badge' title='XSLT'  height='20px'/></td><td>190587</td>
+</tr><tr>
+<td><img src='https://img.shields.io/badge/_-SCSS -11DDDD.svg?style=for-the-badge' title='SCSS'  height='20px'/></td><td>50670</td>
+<td><img src='https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white' title='Ruby'  height='20px'/></td><td>502344</td>
+<td><img src='https://img.shields.io/badge/_-TSQL -11DDDD.svg?style=for-the-badge' title='TSQL'  height='20px'/></td><td>163674</td>
+<td><img src='https://img.shields.io/badge/_-Classic ASP -11DDDD.svg?style=for-the-badge' title='Classic ASP'  height='20px'/></td><td>842274</td>
+</tr><tr>
+<td><img src='https://img.shields.io/badge/_-ColdFusion -11DDDD.svg?style=for-the-badge' title='ColdFusion'  height='20px'/></td><td>19136</td>
+<td><img src='https://img.shields.io/badge/_-Batchfile -11DDDD.svg?style=for-the-badge' title='Batchfile'  height='20px'/></td><td>5320</td>
+<td><img src='https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white' title='TeX'  height='20px'/></td><td>587802</td>
+<td><img src='https://img.shields.io/badge/_-Rich Text Format -11DDDD.svg?style=for-the-badge' title='Rich Text Format'  height='20px'/></td><td>78076</td>
+</tr><tr>
+<td><img src='https://img.shields.io/badge/_-SystemVerilog -11DDDD.svg?style=for-the-badge' title='SystemVerilog'  height='20px'/></td><td>19753</td>
+<td><img src='https://img.shields.io/badge/_-Sway -11DDDD.svg?style=for-the-badge' title='Sway'  height='20px'/></td><td>14501</td>
+<td><img src='https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white' title='PowerShell'  height='20px'/></td><td>3697</td>
+<td><img src='https://img.shields.io/badge/_-VBScript -11DDDD.svg?style=for-the-badge' title='VBScript'  height='20px'/></td><td>5008</td>
+</tr><tr>
+<td><img src='https://img.shields.io/badge/_-PostScript -11DDDD.svg?style=for-the-badge' title='PostScript'  height='20px'/></td><td>425843</td>
+<td><img src='https://img.shields.io/badge/_-QMake -11DDDD.svg?style=for-the-badge' title='QMake'  height='20px'/></td><td>468</td>
+<td><img src='https://img.shields.io/badge/_-Pascal -11DDDD.svg?style=for-the-badge' title='Pascal'  height='20px'/></td><td>27839</td>
+<td><img src='https://img.shields.io/badge/_-Prolog -11DDDD.svg?style=for-the-badge' title='Prolog'  height='20px'/></td><td>80451</td>
+</tr><tr>
+<td><img src='https://img.shields.io/badge/_-Tcl -11DDDD.svg?style=for-the-badge' title='Tcl'  height='20px'/></td><td>1220822</td>
+<td><img src='https://img.shields.io/badge/_-Inno Setup -11DDDD.svg?style=for-the-badge' title='Inno Setup'  height='20px'/></td><td>6073</td>
+<td><img src='https://img.shields.io/badge/_-Smalltalk -11DDDD.svg?style=for-the-badge' title='Smalltalk'  height='20px'/></td><td>744</td>
+<td><img src='https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white' title='Kotlin'  height='20px'/></td><td>24599</td>
+</tr><tr>
+<td><img src='https://img.shields.io/badge/_-Vim Script -11DDDD.svg?style=for-the-badge' title='Vim Script'  height='20px'/></td><td>3162</td>
+<td><img src='https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white' title='Swift'  height='20px'/></td><td>163276</td>
+<td><img src='https://img.shields.io/badge/_-Emacs Lisp -11DDDD.svg?style=for-the-badge' title='Emacs Lisp'  height='20px'/></td><td>1848</td>
+</tr>
   </tbody>
 </table>
 
@@ -90,6 +153,22 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2026-02-22</p>
+            </td>
+        </tr>
+<tr>
+            <td>
+              <p><h2><a href='https://github.com/dmzoneill/Chuckbot' title='Chuckbot'>Chuckbot</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/</p>
+              <p>Apache License 2.0</p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+            </td>
+            <td>
+              <p><a href='https://wa.me/96592226837' title='Chat with chuck'>Chat with chuck</a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/Chuckbot/actions'><img src='https://github.com/dmzoneill//Chuckbot/actions/workflows/main.yml/badge.svg'/></a>
               <p>2026-02-22</p>
             </td>
         </tr>
@@ -159,7 +238,7 @@
         </tr>
 <tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/curriculum-vitae' title='curriculum-vitae'>curriculum-vitae</a> (2020)</h2></p><p><img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML' height='20px'/> <img src='https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white' title='C#' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/> <img src='https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white' title='C++' height='20px'/> <img src='https://img.shields.io/badge/_-Visual Basic .NET -11DDDD.svg?style=for-the-badge' title='Visual Basic .NET' height='20px'/> <img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' title='Go' height='20px'/> <img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/perl-%2339457E.svg?style=for-the-badge&logo=perl&logoColor=white' title='Perl' height='20px'/> <img src='https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white' title='Ruby' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/> <img src='https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white' title='C' height='20px'/> <img src='https://img.shields.io/badge/_-COBOL -11DDDD.svg?style=for-the-badge' title='COBOL' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/curriculum-vitae' title='curriculum-vitae'>curriculum-vitae</a> (2020)</h2></p><p><img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML' height='20px'/> <img src='https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white' title='C#' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/> <img src='https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white' title='C++' height='20px'/> <img src='https://img.shields.io/badge/_-Visual Basic .NET -11DDDD.svg?style=for-the-badge' title='Visual Basic .NET' height='20px'/> <img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' title='Go' height='20px'/> <img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/perl-%2339457E.svg?style=for-the-badge&logo=perl&logoColor=white' title='Perl' height='20px'/</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
@@ -318,7 +397,7 @@
             </td>
         </tr>
 
-</tbody></table><details><summary><strong>2026 (5 projects)</strong></summary><table width='100%' style='width:100%'><thead><tr><th>Project</th><th>View</th><th>Status</th></tr></thead><tbody><tr>
+</tbody></table><details><summary><strong>2026 (7 projects)</strong></summary><table width='100%' style='width:100%'><thead><tr><th>Project</th><th>View</th><th>Status</th></tr></thead><tbody><tr>
             <td>
               <p><h2><a href='https://github.com/dmzoneill/github-ai-maintainer' title='github-ai-maintainer'>github-ai-maintainer</a> (2026)</h2></p><p></p>
               <p>Apache License 2.0</p>
@@ -331,6 +410,22 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/github-ai-maintainer/actions'><img src='https://github.com/dmzoneill//github-ai-maintainer/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2026-02-22</p>
+            </td>
+        </tr>
+<tr>
+            <td>
+              <p><h2><a href='https://github.com/dmzoneill/redhat-oracle' title='redhat-oracle'>redhat-oracle</a> (2026)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/</p>
+              <p></p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+            </td>
+            <td>
+              <p><a href='' title=''></a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/redhat-oracle/actions'><img src='https://github.com/dmzoneill//redhat-oracle/actions/workflows/main.yml/badge.svg'/></a>
               <p>2026-02-22</p>
             </td>
         </tr>
@@ -363,6 +458,22 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/github-ai-contributor/actions'><img src='https://github.com/dmzoneill//github-ai-contributor/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2026-02-15</p>
+            </td>
+        </tr>
+<tr>
+            <td>
+              <p><h2><a href='https://github.com/dmzoneill/redhat-csb' title='redhat-csb'>redhat-csb</a> (2026)</h2></p><p><img src='https://img.shields.io/badge/_-YARA -11DDDD.svg?style=for-the-badge' title='YARA' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white' title='C' height='20px'/> <img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/_-Jinja -11DDDD.svg?style=for-the-badge' title='Jinja' height='20px'/</p>
+              <p></p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+            </td>
+            <td>
+              <p><a href='' title=''></a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/redhat-csb/actions'><img src='https://github.com/dmzoneill//redhat-csb/actions/workflows/main.yml/badge.svg'/></a>
               <p>2026-02-15</p>
             </td>
         </tr>
@@ -478,7 +589,7 @@
               <p>2025-05-10</p>
             </td>
         </tr>
-</tbody></table></details><details><summary><strong>2023 (10 projects)</strong></summary><table width='100%' style='width:100%'><thead><tr><th>Project</th><th>View</th><th>Status</th></tr></thead><tbody><tr>
+</tbody></table></details><details><summary><strong>2023 (11 projects)</strong></summary><table width='100%' style='width:100%'><thead><tr><th>Project</th><th>View</th><th>Status</th></tr></thead><tbody><tr>
             <td>
               <p><h2><a href='https://github.com/dmzoneill/strongapp-api' title='strongapp-api'>strongapp-api</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' title='Java' height='20px'/> <img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/perl-%2339457E.svg?style=for-the-badge&logo=perl&logoColor=white' title='Perl' height='20px'/> <img src='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' title='Go' height='20px'/</p>
               <p>Apache License 2.0</p>
@@ -492,6 +603,22 @@
             <td align="center">
               <a href='https://github.com/dmzoneill/strongapp-api/actions'><img src='https://github.com/dmzoneill//strongapp-api/actions/workflows/main.yml/badge.svg'/></a>
               <p>2026-02-17</p>
+            </td>
+        </tr>
+<tr>
+            <td>
+              <p><h2><a href='https://github.com/dmzoneill/pass' title='pass'>pass</a> (2023)</h2></p><p></p>
+              <p></p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+            </td>
+            <td>
+              <p><a href='' title=''></a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/pass/actions'><img src='https://github.com/dmzoneill//pass/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2026-02-14</p>
             </td>
         </tr>
 <tr>
@@ -651,7 +778,7 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/aa-dev-prod-watcher/actions'><img src='https://github.com/dmzoneill//aa-dev-prod-watcher/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2026-02-17</p>
+              <p>2026-02-22</p>
             </td>
         </tr>
 <tr>
@@ -1644,6 +1771,22 @@
             <td align="center">
               <a href='https://github.com/dmzoneill/EC-SI-Scripts/actions'><img src='https://github.com/dmzoneill//EC-SI-Scripts/actions/workflows/main.yml/badge.svg'/></a>
               <p>2025-05-10</p>
+            </td>
+        </tr>
+</tbody></table></details><details><summary><strong>2012 (1 projects)</strong></summary><table width='100%' style='width:100%'><thead><tr><th>Project</th><th>View</th><th>Status</th></tr></thead><tbody><tr>
+            <td>
+              <p><h2><a href='https://github.com/dmzoneill/my-history' title='my-history'>my-history</a> (2012)</h2></p><p></p>
+              <p></p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+            </td>
+            <td>
+              <p><a href='' title=''></a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/my-history/actions'><img src='https://github.com/dmzoneill//my-history/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2023-01-20</p>
             </td>
         </tr>
 </tbody></table></details><details><summary><strong>2011 (10 projects)</strong></summary><table width='100%' style='width:100%'><thead><tr><th>Project</th><th>View</th><th>Status</th></tr></thead><tbody><tr>
@@ -2960,6 +3103,38 @@
         </tr>
 </tbody></table></details><details><summary><strong> (0 projects)</strong></summary><table width='100%' style='width:100%'><thead><tr><th>Project</th><th>View</th><th>Status</th></tr></thead><tbody><tr>
             <td>
+              <p><h2><a href='https://github.com/dmzoneill/Canonical-EOD-Report' title='Canonical-EOD-Report'>Canonical-EOD-Report</a> ()</h2></p><p><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/</p>
+              <p>Apache License 2.0</p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+            </td>
+            <td>
+              <p><a href='' title=''></a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/Canonical-EOD-Report/actions'><img src='https://github.com/dmzoneill//Canonical-EOD-Report/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2026-01-08</p>
+            </td>
+        </tr>
+<tr>
+            <td>
+              <p><h2><a href='https://github.com/dmzoneill/ashtangayogacork.ie' title='ashtangayogacork.ie'>ashtangayogacork.ie</a> ()</h2></p><p><img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/</p>
+              <p>Apache License 2.0</p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+            </td>
+            <td>
+              <p><a href='' title=''></a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/ashtangayogacork.ie/actions'><img src='https://github.com/dmzoneill//ashtangayogacork.ie/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2026-01-08</p>
+            </td>
+        </tr>
+<tr>
+            <td>
               <p><h2><a href='https://github.com/dmzoneill/Xenith' title='Xenith'>Xenith</a> ()</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
@@ -2972,6 +3147,22 @@
             <td align="center">
               <a href='https://github.com/dmzoneill/Xenith/actions'><img src='https://github.com/dmzoneill//Xenith/actions/workflows/main.yml/badge.svg'/></a>
               <p>2026-01-08</p>
+            </td>
+        </tr>
+<tr>
+            <td>
+              <p><h2><a href='https://github.com/dmzoneill/feeditout-vps-etc' title='feeditout-vps-etc'>feeditout-vps-etc</a> ()</h2></p><p><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/_-Pascal -11DDDD.svg?style=for-the-badge' title='Pascal' height='20px'/> <img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/> <img src='https://img.shields.io/badge/perl-%2339457E.svg?style=for-the-badge&logo=perl&logoColor=white' title='Perl' height='20px'/> <img src='https://img.shields.io/badge/_-Roff -11DDDD.svg?style=for-the-badge' title='Roff' height='20px'/</p>
+              <p></p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+            </td>
+            <td>
+              <p><a href='' title=''></a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/feeditout-vps-etc/actions'><img src='https://github.com/dmzoneill//feeditout-vps-etc/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2020-05-02</p>
             </td>
         </tr></details>
   </tbody>

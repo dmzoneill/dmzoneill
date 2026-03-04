@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-04/03/2026 00:21:42-brightgreen" height='28'/> &nbsp;&nbsp; <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=dmzoneill&color=brightgreen&style=for-the-badge" height='28'/> &nbsp;&nbsp; <img alt="Redhat" width='30' height='25' src="https://github.com/dmzoneill/dmzoneill/blob/main/images/redhat.svg?raw=true" />
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-04/03/2026 06:16:41-brightgreen" height='28'/> &nbsp;&nbsp; <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=dmzoneill&color=brightgreen&style=for-the-badge" height='28'/> &nbsp;&nbsp; <img alt="Redhat" width='30' height='25' src="https://github.com/dmzoneill/dmzoneill/blob/main/images/redhat.svg?raw=true" />
 
 <img src="generated/timeline.svg" width="760" alt="timeline"/>
 
@@ -40,7 +40,7 @@
 </details>
 <details>
 <summary><strong>Recent Activity (100)</strong></summary>
-<ul><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/15'>Question about sessions and events.</a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/3'>docker-compose</a></li><li><a href='https://github.com/dmzoneill/php-binance-bot/issues/1'>Causes my IP to be blocked </a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/1'>Docker Build</a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/21'>Issue with Lidarr recognizing downloaded audio and incorrect metadata in Jellyfin</a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/25'>Most releases found are missing tracks</a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/5'>FR: ability to filter results</a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/7'>Truenas, Kubernetes, Lidarr and LYD</a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/23'>Track Format & FFMPEG not adding metadata</a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/28'>Stuck?</a></li><li><a href='https://github.com/dmzoneill/seedmagepp/issues/1'>Questions : difference between Uploaded and session_uploaded and Enhancement for already downloaded file.</a></li><li><a href='https://github.com/dmzoneill/tado-gnome-shell-extension/issues/2'>Got this message after trying to enable it (Gnome45):</a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/29'>[FR] Only search for missing songs from artists with a given tag</a></li><li><a href='https://github.com/dmzoneill/EC-SI-Scripts/issues/1'>Who's this guy?</a></li><li><a href='https://github.com/flathub/flathub/issues/7847'>[Audit] AI-generated content detected in Flathub upstream repositories</a></li><li><a href='https://github.com/flathub/flathub/issues/7847'>[Audit] AI-generated content detected in Flathub upstream repositories</a></li><li><a href='https://github.com/flathub/flathub/issues/7847'>[Audit] AI-generated content detected in Flathub upstream repositories</a></li><li><a href='https://github.com/flathub/flathub/issues/7847'>[Audit] AI-generated content detected in Flathub upstream repositories</a></li><li><a href='https://github.com/flathub/flathub/issues/7847'>[Audit] AI-generated content detected in Flathub upstream repositories</a></li><li><a href='https://github.com/flathub/flathub/issues/7847'>[Audit] AI-generated content detected in Flathub upstream repositories</a></li><li><a href='https://github.com/flathub/flathub/issues/7847'>[Audit] AI-generated content detected in Flathub upstream repositories</a></li><li><a href='https://github.com/flathub/flathub/issues/7847'>[Audit] AI-generated content detected in Flathub upstream repositories</a></li><li><a href='https://github.com/flathub/flathub/issues/7847'>[Audit] AI-generated content detected in Flathub upstream repositories</a></li><li><a href='https://github.com/flathub/flathub/issues/7847'>[Audit] AI-generated content detected in Flathub upstream repositories</a></li><li><a href='https://github.com/flathub/flathub/issues/7847'>[Audit] AI-generated content detected in Flathub upstream repositories</a></li><li><a href='https://github.com/flathub/flathub/issues/7847'>[Audit] AI-generated content detected in Flathub upstream repositories</a></li><li><a href='https://github.com/flathub/flathub/issues/7847'>[Audit] AI-generated content detected in Flathub upstream repositories</a></li><li><a href='https://api.github.com/repos/dmzoneill/skills'>dmzoneill/skills</a></li><li><a href='https://github.com/flathub/flathub/pull/7835'>Add ie.fio.dfakeseeder</a></li><li><a href='https://github.com/flathub/flathub/pull/7835'>Add ie.fio.dfakeseeder</a></li><li><a href='https://github.com/flathub/flathub/pull/7835'>Add ie.fio.dfakeseeder</a></li></ul>
+<ul><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/15'>Question about sessions and events.</a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/3'>docker-compose</a></li><li><a href='https://github.com/dmzoneill/php-binance-bot/issues/1'>Causes my IP to be blocked </a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/1'>Docker Build</a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/21'>Issue with Lidarr recognizing downloaded audio and incorrect metadata in Jellyfin</a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/25'>Most releases found are missing tracks</a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/5'>FR: ability to filter results</a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/7'>Truenas, Kubernetes, Lidarr and LYD</a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/23'>Track Format & FFMPEG not adding metadata</a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/28'>Stuck?</a></li><li><a href='https://github.com/dmzoneill/seedmagepp/issues/1'>Questions : difference between Uploaded and session_uploaded and Enhancement for already downloaded file.</a></li><li><a href='https://github.com/dmzoneill/tado-gnome-shell-extension/issues/2'>Got this message after trying to enable it (Gnome45):</a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/29'>[FR] Only search for missing songs from artists with a given tag</a></li><li><a href='https://github.com/dmzoneill/EC-SI-Scripts/issues/1'>Who's this guy?</a></li><li><a href='https://github.com/flathub/flathub/issues/7847'>[Audit] AI-generated content detected in Flathub upstream repositories</a></li><li><a href='https://github.com/flathub/flathub/issues/7847'>[Audit] AI-generated content detected in Flathub upstream repositories</a></li><li><a href='https://github.com/flathub/flathub/issues/7847'>[Audit] AI-generated content detected in Flathub upstream repositories</a></li><li><a href='https://github.com/flathub/flathub/issues/7847'>[Audit] AI-generated content detected in Flathub upstream repositories</a></li><li><a href='https://github.com/flathub/flathub/issues/7847'>[Audit] AI-generated content detected in Flathub upstream repositories</a></li><li><a href='https://github.com/flathub/flathub/issues/7847'>[Audit] AI-generated content detected in Flathub upstream repositories</a></li><li><a href='https://github.com/flathub/flathub/issues/7847'>[Audit] AI-generated content detected in Flathub upstream repositories</a></li><li><a href='https://github.com/flathub/flathub/issues/7847'>[Audit] AI-generated content detected in Flathub upstream repositories</a></li><li><a href='https://github.com/flathub/flathub/issues/7847'>[Audit] AI-generated content detected in Flathub upstream repositories</a></li><li><a href='https://github.com/flathub/flathub/issues/7847'>[Audit] AI-generated content detected in Flathub upstream repositories</a></li><li><a href='https://github.com/flathub/flathub/issues/7847'>[Audit] AI-generated content detected in Flathub upstream repositories</a></li><li><a href='https://github.com/flathub/flathub/issues/7847'>[Audit] AI-generated content detected in Flathub upstream repositories</a></li><li><a href='https://github.com/flathub/flathub/issues/7847'>[Audit] AI-generated content detected in Flathub upstream repositories</a></li><li><a href='https://api.github.com/repos/dmzoneill/skills'>dmzoneill/skills</a></li><li><a href='https://github.com/flathub/flathub/pull/7835'>Add ie.fio.dfakeseeder</a></li><li><a href='https://github.com/flathub/flathub/pull/7835'>Add ie.fio.dfakeseeder</a></li></ul>
 </details>
 <details>
 <summary><strong>Gists (13)</strong></summary>
@@ -62,17 +62,17 @@
     </tr>
   </thead>
   <tbody>
-    <tr><td><img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript'  height='20px'/></td><td>1566621</td>
-<td><img src='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' title='Go'  height='20px'/></td><td>1621445</td>
+    <tr><td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>13776751</td>
+<td><img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript'  height='20px'/></td><td>1566621</td>
 <td><img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS'  height='20px'/></td><td>6101663</td>
+<td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>431295</td>
+</tr><tr>
+<td><img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML'  height='20px'/></td><td>13170950</td>
+<td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>2293215</td>
 <td><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript'  height='20px'/></td><td>10655690</td>
+<td><img src='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' title='Go'  height='20px'/></td><td>1621445</td>
 </tr><tr>
 <td><img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile'  height='20px'/></td><td>11180</td>
-<td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>431295</td>
-<td><img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML'  height='20px'/></td><td>13170950</td>
-<td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>13776751</td>
-</tr><tr>
-<td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>2293215</td>
 <td><img src='https://img.shields.io/badge/_-Jinja -11DDDD.svg?style=for-the-badge' title='Jinja'  height='20px'/></td><td>405575</td>
 <td><img src='https://img.shields.io/badge/_-M4 -11DDDD.svg?style=for-the-badge' title='M4'  height='20px'/></td><td>124107</td>
 <td><img src='https://img.shields.io/badge/_-Go Template -11DDDD.svg?style=for-the-badge' title='Go Template'  height='20px'/></td><td>8760</td>
@@ -153,7 +153,7 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/redhat-ai-workflow/actions'><img src='https://github.com/dmzoneill//redhat-ai-workflow/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2026-03-03</p>
+              <p>2026-03-04</p>
             </td>
         </tr>
 <tr>
@@ -169,7 +169,7 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2026-03-03</p>
+              <p>2026-03-04</p>
             </td>
         </tr>
 <tr>
@@ -185,7 +185,7 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/Chuckbot/actions'><img src='https://github.com/dmzoneill//Chuckbot/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2026-03-03</p>
+              <p>2026-03-04</p>
             </td>
         </tr>
 <tr>
@@ -778,7 +778,7 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/aa-dev-prod-watcher/actions'><img src='https://github.com/dmzoneill//aa-dev-prod-watcher/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2026-03-03</p>
+              <p>2026-03-04</p>
             </td>
         </tr>
 <tr>

@@ -897,6 +897,7 @@ jobs:
   bump-versions:
     if: |
       always() &&
+      github.actor != 'dependabot[bot]' &&
       (
         needs.unit-test.result == 'success' &&
         needs.integration-test.result == 'success'

@@ -1,12 +1,13 @@
 import os
 import subprocess
+import time
 
 import requests
 
 # Constants
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
 GITHUB_USER = "dmzoneill"
-REPO_LIST_URL = f"https://api.github.com/user/repos?affiliation=owner&per_page=100"
+REPO_LIST_URL = "https://api.github.com/user/repos?affiliation=owner&per_page=100"
 SECRETS = [
     "PROFILE_HOOK",
     "AI_API_KEY",
@@ -42,19 +43,30 @@ headers = {
     "Accept": "application/vnd.github.v3+json",
 }
 
+# Rate limit delay between API calls (seconds)
+API_DELAY = 1
+GH_CLI_DELAY = 2
 
-# Function to fetch existing secrets for a repository
-# Function to fetch existing secrets for a repository
+
+def rate_limited_get(url, max_retries=3):
+    for attempt in range(max_retries):
+        time.sleep(API_DELAY)
+        response = requests.get(url, headers=headers)
+        if response.status_code in (403, 429):
+            retry_after = int(response.headers.get("Retry-After", 60))
+            print(f"  Rate limited, waiting {retry_after}s (attempt {attempt + 1}/{max_retries})")
+            time.sleep(retry_after)
+            continue
+        return response
+    return response
+
+
 def fetch_existing_secrets(repo_name):
     url = f"https://api.github.com/repos/{GITHUB_USER}/{repo_name}/actions/secrets"
-    response = requests.get(url, headers=headers)
+    response = rate_limited_get(url)
     if response.status_code == 200:
-        # Ensure the response is parsed as JSON
         secrets = response.json()
-        # Return a set of secret names
-        return {
-            secret["name"] for secret in secrets["secrets"]
-        }  # This assumes the response is a list of secrets with 'name' as a key
+        return {secret["name"] for secret in secrets["secrets"]}
     else:
         print(
             f"Failed to fetch existing secrets for {repo_name}, status code: {response.status_code}"
@@ -62,33 +74,12 @@ def fetch_existing_secrets(repo_name):
         return set()
 
 
-# Function to fetch secrets from the environment
-def fetch_secrets_from_env():
-    secrets = {}
-    missing_secrets = []
-
-    for secret in SECRETS:
-        secret_value = os.getenv(secret)
-
-        if secret_value:
-            secrets[secret] = secret_value
-        else:
-            missing_secrets.append(secret)
-            secrets[secret] = None
-
-    return secrets, missing_secrets
-
-
-# Function to authenticate using GitHub CLI
 def authenticate_gh():
-    # Unset the GITHUB_TOKEN environment variable to prevent conflict
     os.environ.pop("GITHUB_TOKEN", None)
 
-    # Create a temporary file for the token
     with open(".githubtoken", "w") as f:
         f.write(f"{GITHUB_TOKEN}")
 
-    # Authenticate using the GitHub CLI
     subprocess.run(
         ["gh", "auth", "login", "--with-token"],
         input=open(".githubtoken").read(),
@@ -96,30 +87,23 @@ def authenticate_gh():
         check=True,
     )
 
-    # Clean up the token file
     os.remove(".githubtoken")
 
 
 def set_secrets_with_gh(repo_name, secrets):
-    # Fetch existing secrets for the repository
     existing_secrets = fetch_existing_secrets(repo_name)
-
-    # Authenticate with GitHub CLI
-    authenticate_gh()
 
     for secret, value in secrets.items():
         if value is None:
             print(f"  Skipping unset secret {secret} for {repo_name}")
             continue
 
-        # Skip if the secret already exists
         if secret in existing_secrets:
             print(
                 f"  Secret {secret} already exists in repository {repo_name}. Skipping..."
             )
             continue
 
-        # Use GitHub CLI to set the secret
         print(
             f"\n  Setting secret {secret} for repository {repo_name} using GitHub CLI"
         )
@@ -138,22 +122,22 @@ def set_secrets_with_gh(repo_name, secrets):
         print(f"    Running: {' '.join(cmd)}")
 
         try:
+            time.sleep(GH_CLI_DELAY)
             subprocess.run(cmd, check=True, capture_output=True, text=True)
             print(
-                f"      ✅ Successfully set secret {secret} for repository {repo_name}\n"
+                f"      Successfully set secret {secret} for repository {repo_name}\n"
             )
         except subprocess.CalledProcessError as e:
-            print(f"  ❌ Failed to set secret {secret} for {repo_name}")
+            print(f"  Failed to set secret {secret} for {repo_name}")
             print(f"  STDERR: {e.stderr}")
             print(f"  STDOUT: {e.stdout}")
 
 
-# Function to get all repositories
 def get_repositories():
     page = 1
     repos = []
     while True:
-        response = requests.get(f"{REPO_LIST_URL}&page={page}", headers=headers)
+        response = rate_limited_get(f"{REPO_LIST_URL}&page={page}")
         if response.status_code == 200:
             repos_data = response.json()
             if not repos_data:
@@ -169,18 +153,16 @@ def get_repositories():
 
 
 def main():
-    # Fetch secrets from environment
     secrets = {secret: os.getenv(secret) for secret in SECRETS}
 
-    # Warn about missing secrets but continue with available ones
     missing_secrets = [secret for secret, value in secrets.items() if value is None]
     if missing_secrets:
         print(f"Skipping unset secrets: {', '.join(missing_secrets)}")
 
-    # Fetch repositories to update
+    authenticate_gh()
+
     repos = get_repositories()
 
-    # Set secrets for each repository
     for repo in repos:
         if repo == "dmzoneill":
             continue

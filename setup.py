@@ -50,10 +50,8 @@ headers = {
 API_DELAY = 1
 GH_CLI_DELAY = 1.5
 
-# Reserve this many API calls to avoid hitting the limit.
-# Worst case per repo: 1 (read hash) + 24*2 (set secrets) + 2 (set var) = 51
+# Reserve buffer to avoid hitting the limit
 RATE_LIMIT_RESERVE = 100
-CALLS_PER_REPO_ESTIMATE = 55
 
 
 def hash_value(value):
@@ -61,11 +59,17 @@ def hash_value(value):
 
 
 def compute_per_secret_hashes(secrets):
-    return {key: hash_value(value) for key, value in secrets.items() if value is not None}
+    return {
+        key: hash_value(value)
+        for key, value in secrets.items()
+        if value is not None
+    }
 
 
 def check_rate_limit():
-    response = requests.get("https://api.github.com/rate_limit", headers=headers)
+    response = requests.get(
+        "https://api.github.com/rate_limit", headers=headers
+    )
     if response.status_code == 200:
         core = response.json()["resources"]["core"]
         remaining = core["remaining"]
@@ -143,27 +147,41 @@ def get_remote_hashes(repo_name):
 
 def set_repo_variable(repo_name, name, value):
     repo_full = f"{GITHUB_USER}/{repo_name}"
-    url = f"https://api.github.com/repos/{repo_full}" f"/actions/variables/{name}"
+    url = (
+        f"https://api.github.com/repos/{repo_full}"
+        f"/actions/variables/{name}"
+    )
     time.sleep(API_DELAY)
-    response = requests.patch(url, headers=headers, json={"value": value})
+    response = requests.patch(
+        url, headers=headers, json={"value": value}
+    )
     if response.status_code == 204:
         print(f"    Updated hash variable")
         return
 
     url = f"https://api.github.com/repos/{repo_full}/actions/variables"
     time.sleep(API_DELAY)
-    response = requests.post(url, headers=headers, json={"name": name, "value": value})
+    response = requests.post(
+        url, headers=headers, json={"name": name, "value": value}
+    )
     if response.status_code == 201:
         print(f"    Created hash variable")
     else:
         print(
-            f"    Failed to set variable {name}: {response.status_code} "
-            f"{response.text}"
+            f"    Failed to set variable {name}: "
+            f"{response.status_code} {response.text}"
         )
 
 
 def delete_secret(repo_name, secret):
-    cmd = ["gh", "secret", "delete", secret, "-R", f"{GITHUB_USER}/{repo_name}"]
+    cmd = [
+        "gh",
+        "secret",
+        "delete",
+        secret,
+        "-R",
+        f"{GITHUB_USER}/{repo_name}",
+    ]
 
     try:
         time.sleep(GH_CLI_DELAY)
@@ -173,31 +191,48 @@ def delete_secret(repo_name, secret):
         print(f"    Failed to delete {secret}: {e.stderr}")
 
 
-def set_secrets_with_gh(repo_name, secrets, current_hashes):
-    remote_hashes = get_remote_hashes(repo_name)
+def estimate_repo_cost(current_hashes, remote_hashes):
+    changed = sum(
+        1
+        for k, v in current_hashes.items()
+        if remote_hashes.get(k) != v
+    )
+    removed = sum(1 for k in remote_hashes if k not in current_hashes)
+    if not changed and not removed:
+        return 0
+    # changed*2 (gh secret set) + removed (gh secret delete) + 2 (set var)
+    return changed * 2 + removed + 2
 
-    changed = []
-    for key, current_hash in current_hashes.items():
-        if remote_hashes.get(key) != current_hash:
-            changed.append(key)
 
-    removed = [key for key in remote_hashes if key not in current_hashes]
+def sync_repo_secrets(repo_name, secrets, current_hashes, remote_hashes):
+    changed = [
+        key
+        for key, h in current_hashes.items()
+        if remote_hashes.get(key) != h
+    ]
+    removed = [k for k in remote_hashes if k not in current_hashes]
 
     if not changed and not removed:
         print(f"  All secrets up to date, skipping")
         return
 
     if changed:
-        print(f"  {len(changed)} secret(s) changed: {', '.join(changed)}")
+        print(
+            f"  {len(changed)} secret(s) changed: {', '.join(changed)}"
+        )
         for key in changed:
             set_secret(repo_name, key, secrets[key])
 
     if removed:
-        print(f"  {len(removed)} secret(s) removed: {', '.join(removed)}")
+        print(
+            f"  {len(removed)} secret(s) removed: {', '.join(removed)}"
+        )
         for key in removed:
             delete_secret(repo_name, key)
 
-    set_repo_variable(repo_name, HASH_VAR_NAME, json.dumps(current_hashes))
+    set_repo_variable(
+        repo_name, HASH_VAR_NAME, json.dumps(current_hashes)
+    )
 
 
 def get_repositories():
@@ -210,11 +245,18 @@ def get_repositories():
             if not repos_data:
                 break
             repos.extend(
-                [repo["name"] for repo in repos_data if repo["name"] != "dmzoneill"]
+                [
+                    repo["name"]
+                    for repo in repos_data
+                    if repo["name"] != "dmzoneill"
+                ]
             )
             page += 1
         else:
-            print(f"Failed to fetch repositories, status code: {response.status_code}")
+            print(
+                f"Failed to fetch repositories, "
+                f"status code: {response.status_code}"
+            )
             break
     return repos
 
@@ -222,7 +264,9 @@ def get_repositories():
 def main():
     secrets = {secret: os.getenv(secret) for secret in SECRETS}
 
-    missing_secrets = [secret for secret, value in secrets.items() if value is None]
+    missing_secrets = [
+        secret for secret, value in secrets.items() if value is None
+    ]
     if missing_secrets:
         print(f"Skipping unset secrets: {', '.join(missing_secrets)}")
 
@@ -234,24 +278,38 @@ def main():
     repos = get_repositories()
 
     synced = 0
-    skipped_rate_limit = 0
+    skipped = 0
     for repo in repos:
         if repo == "dmzoneill":
             continue
 
         remaining = check_rate_limit()
-        if remaining is not None and remaining < RATE_LIMIT_RESERVE + CALLS_PER_REPO_ESTIMATE:
-            print(f"\nStopping: only {remaining} API calls remaining (need {CALLS_PER_REPO_ESTIMATE}+{RATE_LIMIT_RESERVE} reserve)")
-            skipped_rate_limit = len(repos) - synced
-            break
+        if remaining is None:
+            remaining = RATE_LIMIT_RESERVE + 1
 
-        print(f"\nSetting secrets for repository: {repo}")
-        set_secrets_with_gh(repo, secrets, current_hashes)
+        remote_hashes = get_remote_hashes(repo)
+        cost = estimate_repo_cost(current_hashes, remote_hashes)
+
+        if cost > 0 and remaining < cost + RATE_LIMIT_RESERVE:
+            print(
+                f"\nSkipping {repo}: {remaining} calls left, "
+                f"need {cost}+{RATE_LIMIT_RESERVE}"
+            )
+            skipped += 1
+            continue
+
+        print(f"\nSyncing secrets for: {repo} (est. cost: {cost})")
+        sync_repo_secrets(
+            repo, secrets, current_hashes, remote_hashes
+        )
         synced += 1
 
     print(f"\nDone: synced {synced} repos")
-    if skipped_rate_limit:
-        print(f"Paused due to rate limit: {skipped_rate_limit} repos remaining for next run")
+    if skipped:
+        print(
+            f"Deferred {skipped} repos due to rate limit "
+            f"(will resume next run)"
+        )
 
 
 if __name__ == "__main__":

@@ -1,4 +1,5 @@
 import hashlib
+import json
 import os
 import subprocess
 import time
@@ -38,7 +39,7 @@ SECRETS = [
     "WINGET_TOKEN",
 ]
 
-HASH_SECRET_NAME = "SECRETS_HASH"
+HASH_VAR_NAME = "SECRETS_HASH"
 
 # Headers for GitHub API requests
 headers = {
@@ -51,13 +52,16 @@ API_DELAY = 1
 GH_CLI_DELAY = 2
 
 
-def compute_secrets_hash(secrets):
-    combined = ""
-    for key in sorted(secrets.keys()):
-        value = secrets[key]
-        if value is not None:
-            combined += f"{key}={value}\n"
-    return hashlib.sha256(combined.encode()).hexdigest()[:16]
+def hash_value(value):
+    return hashlib.sha256(value.encode()).hexdigest()[:12]
+
+
+def compute_per_secret_hashes(secrets):
+    return {
+        key: hash_value(value)
+        for key, value in secrets.items()
+        if value is not None
+    }
 
 
 def rate_limited_get(url, max_retries=3):
@@ -74,20 +78,6 @@ def rate_limited_get(url, max_retries=3):
             continue
         return response
     return response
-
-
-def fetch_existing_secrets(repo_name):
-    url = f"https://api.github.com/repos/{GITHUB_USER}/{repo_name}/actions/secrets"
-    response = rate_limited_get(url)
-    if response.status_code == 200:
-        secrets = response.json()
-        return {secret["name"] for secret in secrets["secrets"]}
-    else:
-        print(
-            f"Failed to fetch existing secrets for {repo_name}, "
-            f"status code: {response.status_code}"
-        )
-        return set()
 
 
 def authenticate_gh():
@@ -126,73 +116,64 @@ def set_secret(repo_name, secret, value):
         print(f"    Failed to set {secret}: {e.stderr}")
 
 
-def set_secrets_with_gh(repo_name, secrets, secrets_hash):
-    existing_secrets = fetch_existing_secrets(repo_name)
-
-    if HASH_SECRET_NAME in existing_secrets:
-        # Hash exists — check if secrets need updating by comparing
-        # We can't read the hash value via API, so we use a workaround:
-        # if all expected secret names exist AND the hash secret exists,
-        # we assume they're up to date. To force an update when values change,
-        # we store the hash in a repo variable instead.
-        pass
-
-    # Check if repo has the hash variable matching current hash
-    if repo_has_current_hash(repo_name, secrets_hash):
-        print(f"  Secrets are up to date (hash matches), skipping")
-        return
-
-    print(f"  Secrets hash changed or missing, updating all secrets")
-
-    for secret, value in secrets.items():
-        if value is None:
-            continue
-        set_secret(repo_name, secret, value)
-
-    # Store the hash as a repo variable (not secret, so we can read it back)
-    set_repo_variable(repo_name, HASH_SECRET_NAME, secrets_hash)
-
-
-def repo_has_current_hash(repo_name, expected_hash):
+def get_remote_hashes(repo_name):
     url = (
         f"https://api.github.com/repos/{GITHUB_USER}/{repo_name}"
-        f"/actions/variables/{HASH_SECRET_NAME}"
+        f"/actions/variables/{HASH_VAR_NAME}"
     )
     response = rate_limited_get(url)
     if response.status_code == 200:
-        current_hash = response.json().get("value", "")
-        return current_hash == expected_hash
-    return False
+        try:
+            return json.loads(response.json().get("value", "{}"))
+        except (json.JSONDecodeError, TypeError):
+            return {}
+    return {}
 
 
 def set_repo_variable(repo_name, name, value):
     repo_full = f"{GITHUB_USER}/{repo_name}"
-    # Try to update first, create if it doesn't exist
     url = (
         f"https://api.github.com/repos/{repo_full}"
         f"/actions/variables/{name}"
     )
     time.sleep(API_DELAY)
-    response = requests.patch(
-        url, headers=headers, json={"value": value}
-    )
+    response = requests.patch(url, headers=headers, json={"value": value})
     if response.status_code == 204:
-        print(f"    Updated variable {name}")
+        print(f"    Updated hash variable")
         return
 
-    # Variable doesn't exist, create it
     url = f"https://api.github.com/repos/{repo_full}/actions/variables"
     time.sleep(API_DELAY)
     response = requests.post(
         url, headers=headers, json={"name": name, "value": value}
     )
     if response.status_code == 201:
-        print(f"    Created variable {name}")
+        print(f"    Created hash variable")
     else:
         print(
             f"    Failed to set variable {name}: {response.status_code} "
             f"{response.text}"
         )
+
+
+def set_secrets_with_gh(repo_name, secrets, current_hashes):
+    remote_hashes = get_remote_hashes(repo_name)
+
+    changed = []
+    for key, current_hash in current_hashes.items():
+        if remote_hashes.get(key) != current_hash:
+            changed.append(key)
+
+    if not changed:
+        print(f"  All secrets up to date, skipping")
+        return
+
+    print(f"  {len(changed)} secret(s) changed: {', '.join(changed)}")
+
+    for key in changed:
+        set_secret(repo_name, key, secrets[key])
+
+    set_repo_variable(repo_name, HASH_VAR_NAME, json.dumps(current_hashes))
 
 
 def get_repositories():
@@ -221,8 +202,8 @@ def main():
     if missing_secrets:
         print(f"Skipping unset secrets: {', '.join(missing_secrets)}")
 
-    secrets_hash = compute_secrets_hash(secrets)
-    print(f"Current secrets hash: {secrets_hash}")
+    current_hashes = compute_per_secret_hashes(secrets)
+    print(f"Computed hashes for {len(current_hashes)} secrets")
 
     authenticate_gh()
 
@@ -232,7 +213,7 @@ def main():
         if repo == "dmzoneill":
             continue
         print(f"\nSetting secrets for repository: {repo}")
-        set_secrets_with_gh(repo, secrets, secrets_hash)
+        set_secrets_with_gh(repo, secrets, current_hashes)
 
 
 if __name__ == "__main__":

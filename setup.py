@@ -1,3 +1,4 @@
+import hashlib
 import os
 import subprocess
 import time
@@ -37,6 +38,8 @@ SECRETS = [
     "WINGET_TOKEN",
 ]
 
+HASH_SECRET_NAME = "SECRETS_HASH"
+
 # Headers for GitHub API requests
 headers = {
     "Authorization": f"token {GITHUB_TOKEN}",
@@ -48,13 +51,25 @@ API_DELAY = 1
 GH_CLI_DELAY = 2
 
 
+def compute_secrets_hash(secrets):
+    combined = ""
+    for key in sorted(secrets.keys()):
+        value = secrets[key]
+        if value is not None:
+            combined += f"{key}={value}\n"
+    return hashlib.sha256(combined.encode()).hexdigest()[:16]
+
+
 def rate_limited_get(url, max_retries=3):
     for attempt in range(max_retries):
         time.sleep(API_DELAY)
         response = requests.get(url, headers=headers)
         if response.status_code in (403, 429):
             retry_after = int(response.headers.get("Retry-After", 60))
-            print(f"  Rate limited, waiting {retry_after}s (attempt {attempt + 1}/{max_retries})")
+            print(
+                f"  Rate limited, waiting {retry_after}s "
+                f"(attempt {attempt + 1}/{max_retries})"
+            )
             time.sleep(retry_after)
             continue
         return response
@@ -69,7 +84,8 @@ def fetch_existing_secrets(repo_name):
         return {secret["name"] for secret in secrets["secrets"]}
     else:
         print(
-            f"Failed to fetch existing secrets for {repo_name}, status code: {response.status_code}"
+            f"Failed to fetch existing secrets for {repo_name}, "
+            f"status code: {response.status_code}"
         )
         return set()
 
@@ -90,47 +106,93 @@ def authenticate_gh():
     os.remove(".githubtoken")
 
 
-def set_secrets_with_gh(repo_name, secrets):
+def set_secret(repo_name, secret, value):
+    cmd = [
+        "gh",
+        "secret",
+        "set",
+        secret,
+        "-R",
+        f"{GITHUB_USER}/{repo_name}",
+        "-b",
+        value,
+    ]
+
+    try:
+        time.sleep(GH_CLI_DELAY)
+        subprocess.run(cmd, check=True, capture_output=True, text=True)
+        print(f"    Set {secret}")
+    except subprocess.CalledProcessError as e:
+        print(f"    Failed to set {secret}: {e.stderr}")
+
+
+def set_secrets_with_gh(repo_name, secrets, secrets_hash):
     existing_secrets = fetch_existing_secrets(repo_name)
+
+    if HASH_SECRET_NAME in existing_secrets:
+        # Hash exists — check if secrets need updating by comparing
+        # We can't read the hash value via API, so we use a workaround:
+        # if all expected secret names exist AND the hash secret exists,
+        # we assume they're up to date. To force an update when values change,
+        # we store the hash in a repo variable instead.
+        pass
+
+    # Check if repo has the hash variable matching current hash
+    if repo_has_current_hash(repo_name, secrets_hash):
+        print(f"  Secrets are up to date (hash matches), skipping")
+        return
+
+    print(f"  Secrets hash changed or missing, updating all secrets")
 
     for secret, value in secrets.items():
         if value is None:
-            print(f"  Skipping unset secret {secret} for {repo_name}")
             continue
+        set_secret(repo_name, secret, value)
 
-        if secret in existing_secrets:
-            print(
-                f"  Secret {secret} already exists in repository {repo_name}. Skipping..."
-            )
-            continue
+    # Store the hash as a repo variable (not secret, so we can read it back)
+    set_repo_variable(repo_name, HASH_SECRET_NAME, secrets_hash)
 
+
+def repo_has_current_hash(repo_name, expected_hash):
+    url = (
+        f"https://api.github.com/repos/{GITHUB_USER}/{repo_name}"
+        f"/actions/variables/{HASH_SECRET_NAME}"
+    )
+    response = rate_limited_get(url)
+    if response.status_code == 200:
+        current_hash = response.json().get("value", "")
+        return current_hash == expected_hash
+    return False
+
+
+def set_repo_variable(repo_name, name, value):
+    repo_full = f"{GITHUB_USER}/{repo_name}"
+    # Try to update first, create if it doesn't exist
+    url = (
+        f"https://api.github.com/repos/{repo_full}"
+        f"/actions/variables/{name}"
+    )
+    time.sleep(API_DELAY)
+    response = requests.patch(
+        url, headers=headers, json={"value": value}
+    )
+    if response.status_code == 204:
+        print(f"    Updated variable {name}")
+        return
+
+    # Variable doesn't exist, create it
+    url = f"https://api.github.com/repos/{repo_full}/actions/variables"
+    time.sleep(API_DELAY)
+    response = requests.post(
+        url, headers=headers, json={"name": name, "value": value}
+    )
+    if response.status_code == 201:
+        print(f"    Created variable {name}")
+    else:
         print(
-            f"\n  Setting secret {secret} for repository {repo_name} using GitHub CLI"
+            f"    Failed to set variable {name}: {response.status_code} "
+            f"{response.text}"
         )
-
-        cmd = [
-            "gh",
-            "secret",
-            "set",
-            secret,
-            "-R",
-            f"{GITHUB_USER}/{repo_name}",
-            "-b",
-            value,
-        ]
-
-        print(f"    Running: {' '.join(cmd)}")
-
-        try:
-            time.sleep(GH_CLI_DELAY)
-            subprocess.run(cmd, check=True, capture_output=True, text=True)
-            print(
-                f"      Successfully set secret {secret} for repository {repo_name}\n"
-            )
-        except subprocess.CalledProcessError as e:
-            print(f"  Failed to set secret {secret} for {repo_name}")
-            print(f"  STDERR: {e.stderr}")
-            print(f"  STDOUT: {e.stdout}")
 
 
 def get_repositories():
@@ -159,6 +221,9 @@ def main():
     if missing_secrets:
         print(f"Skipping unset secrets: {', '.join(missing_secrets)}")
 
+    secrets_hash = compute_secrets_hash(secrets)
+    print(f"Current secrets hash: {secrets_hash}")
+
     authenticate_gh()
 
     repos = get_repositories()
@@ -167,7 +232,7 @@ def main():
         if repo == "dmzoneill":
             continue
         print(f"\nSetting secrets for repository: {repo}")
-        set_secrets_with_gh(repo, secrets)
+        set_secrets_with_gh(repo, secrets, secrets_hash)
 
 
 if __name__ == "__main__":

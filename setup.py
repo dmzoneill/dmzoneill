@@ -47,11 +47,13 @@ headers = {
 }
 
 # Rate limit delay between API calls (seconds)
-# gh secret set makes ~2 API calls internally, so effective rate is
-# ~55 calls per repo on full sync. At these delays we stay under
-# ~2500 API calls/hour, allowing ~45 repos/hour.
 API_DELAY = 1
 GH_CLI_DELAY = 1.5
+
+# Reserve this many API calls to avoid hitting the limit.
+# Worst case per repo: 1 (read hash) + 24*2 (set secrets) + 2 (set var) = 51
+RATE_LIMIT_RESERVE = 100
+CALLS_PER_REPO_ESTIMATE = 55
 
 
 def hash_value(value):
@@ -60,6 +62,17 @@ def hash_value(value):
 
 def compute_per_secret_hashes(secrets):
     return {key: hash_value(value) for key, value in secrets.items() if value is not None}
+
+
+def check_rate_limit():
+    response = requests.get("https://api.github.com/rate_limit", headers=headers)
+    if response.status_code == 200:
+        core = response.json()["resources"]["core"]
+        remaining = core["remaining"]
+        reset_time = core["reset"]
+        print(f"  Rate limit: {remaining} remaining, resets at {reset_time}")
+        return remaining
+    return None
 
 
 def rate_limited_get(url, max_retries=3):
@@ -220,11 +233,25 @@ def main():
 
     repos = get_repositories()
 
+    synced = 0
+    skipped_rate_limit = 0
     for repo in repos:
         if repo == "dmzoneill":
             continue
+
+        remaining = check_rate_limit()
+        if remaining is not None and remaining < RATE_LIMIT_RESERVE + CALLS_PER_REPO_ESTIMATE:
+            print(f"\nStopping: only {remaining} API calls remaining (need {CALLS_PER_REPO_ESTIMATE}+{RATE_LIMIT_RESERVE} reserve)")
+            skipped_rate_limit = len(repos) - synced
+            break
+
         print(f"\nSetting secrets for repository: {repo}")
         set_secrets_with_gh(repo, secrets, current_hashes)
+        synced += 1
+
+    print(f"\nDone: synced {synced} repos")
+    if skipped_rate_limit:
+        print(f"Paused due to rate limit: {skipped_rate_limit} repos remaining for next run")
 
 
 if __name__ == "__main__":

@@ -149,6 +149,17 @@ def set_repo_variable(repo_name, name, value):
         )
 
 
+def delete_secret(repo_name, secret):
+    cmd = ["gh", "secret", "delete", secret, "-R", f"{GITHUB_USER}/{repo_name}"]
+
+    try:
+        time.sleep(GH_CLI_DELAY)
+        subprocess.run(cmd, check=True, capture_output=True, text=True)
+        print(f"    Deleted {secret}")
+    except subprocess.CalledProcessError as e:
+        print(f"    Failed to delete {secret}: {e.stderr}")
+
+
 def set_secrets_with_gh(repo_name, secrets, current_hashes):
     remote_hashes = get_remote_hashes(repo_name)
 
@@ -157,14 +168,21 @@ def set_secrets_with_gh(repo_name, secrets, current_hashes):
         if remote_hashes.get(key) != current_hash:
             changed.append(key)
 
-    if not changed:
+    removed = [key for key in remote_hashes if key not in current_hashes]
+
+    if not changed and not removed:
         print(f"  All secrets up to date, skipping")
         return
 
-    print(f"  {len(changed)} secret(s) changed: {', '.join(changed)}")
+    if changed:
+        print(f"  {len(changed)} secret(s) changed: {', '.join(changed)}")
+        for key in changed:
+            set_secret(repo_name, key, secrets[key])
 
-    for key in changed:
-        set_secret(repo_name, key, secrets[key])
+    if removed:
+        print(f"  {len(removed)} secret(s) removed: {', '.join(removed)}")
+        for key in removed:
+            delete_secret(repo_name, key)
 
     set_repo_variable(repo_name, HASH_VAR_NAME, json.dumps(current_hashes))
 

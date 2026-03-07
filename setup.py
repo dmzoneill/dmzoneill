@@ -60,11 +60,7 @@ def hash_value(value):
 
 
 def compute_per_secret_hashes(secrets):
-    return {
-        key: hash_value(value)
-        for key, value in secrets.items()
-        if value is not None
-    }
+    return {key: hash_value(value) for key, value in secrets.items() if value is not None}
 
 
 def rate_limited_get(url, max_retries=3):
@@ -135,10 +131,7 @@ def get_remote_hashes(repo_name):
 
 def set_repo_variable(repo_name, name, value):
     repo_full = f"{GITHUB_USER}/{repo_name}"
-    url = (
-        f"https://api.github.com/repos/{repo_full}"
-        f"/actions/variables/{name}"
-    )
+    url = f"https://api.github.com/repos/{repo_full}" f"/actions/variables/{name}"
     time.sleep(API_DELAY)
     response = requests.patch(url, headers=headers, json={"value": value})
     if response.status_code == 204:
@@ -147,9 +140,7 @@ def set_repo_variable(repo_name, name, value):
 
     url = f"https://api.github.com/repos/{repo_full}/actions/variables"
     time.sleep(API_DELAY)
-    response = requests.post(
-        url, headers=headers, json={"name": name, "value": value}
-    )
+    response = requests.post(url, headers=headers, json={"name": name, "value": value})
     if response.status_code == 201:
         print(f"    Created hash variable")
     else:

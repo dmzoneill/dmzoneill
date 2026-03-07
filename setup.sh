@@ -156,8 +156,8 @@ while true; do
 
       skip_main="false"
       skip_ai="false"
-      [[ "$main_status" == "present" ]] && skip_main="true"
-      [[ "$ai_status" == "present" ]] && skip_ai="true"
+      [[ "$main_status" == "present" && "$main_md5" == "$local_main_md5" ]] && skip_main="true"
+      [[ "$ai_status" == "present" && "$ai_md5" == "$local_ai_md5" ]] && skip_ai="true"
       if [[ "$skip_main" == "true" && "$skip_ai" == "true" ]]; then
         echo "Skip: both files already exist in $repo_full"
         continue
@@ -256,8 +256,8 @@ while true; do
 
       skip_main="false"
       skip_ai="false"
-      [[ "$main_status" == "present" ]] && skip_main="true"
-      [[ "$ai_status" == "present" ]] && skip_ai="true"
+      [[ "$main_status" == "present" && "$main_md5" == "$local_main_md5" ]] && skip_main="true"
+      [[ "$ai_status" == "present" && "$ai_md5" == "$local_ai_md5" ]] && skip_ai="true"
       if [[ "$skip_main" == "true" && "$skip_ai" == "true" ]]; then
         echo "Skip: both files already exist in $repo_full"
         continue

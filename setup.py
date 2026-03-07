@@ -172,11 +172,10 @@ def main():
     # Fetch secrets from environment
     secrets = {secret: os.getenv(secret) for secret in SECRETS}
 
-    # Check for missing secrets
+    # Warn about missing secrets but continue with available ones
     missing_secrets = [secret for secret, value in secrets.items() if value is None]
     if missing_secrets:
-        print(f"Missing secrets: {', '.join(missing_secrets)}")
-        return
+        print(f"Skipping unset secrets: {', '.join(missing_secrets)}")
 
     # Fetch repositories to update
     repos = get_repositories()

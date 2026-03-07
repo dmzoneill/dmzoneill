@@ -67,10 +67,6 @@ process_repo() {
     return
   fi
 
-  if [ "$can_set_secrets" = "true" ] && [ -n "$pass" ]; then
-    gh secret set profile_hook -r "$repo_full" -b "$pass" || echo "Failed to set secret for $repo_full"
-  fi
-
   local main_url="https://raw.githubusercontent.com/$repo_owner/$repo_name/main/.github/workflows/main.yml"
   local main_status="missing"
   local main_md5=""

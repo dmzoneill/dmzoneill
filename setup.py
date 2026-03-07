@@ -48,8 +48,11 @@ headers = {
 }
 
 # Rate limit delay between API calls (seconds)
+# gh secret set makes ~2 API calls internally, so effective rate is
+# ~55 calls per repo on full sync. At these delays we stay under
+# ~2500 API calls/hour, allowing ~45 repos/hour.
 API_DELAY = 1
-GH_CLI_DELAY = 2
+GH_CLI_DELAY = 1.5
 
 
 def hash_value(value):

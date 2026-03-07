@@ -74,11 +74,11 @@
   <circle cx="355.9" cy="75" r="3.0" fill="#58a6ff"/>
   <text x="355.9" y="97.8" class="tyear" text-anchor="middle">2010</text>
   <text x="355.9" y="60.2" class="tcount" text-anchor="middle">4</text>
-  <circle cx="378.6" cy="75" r="13.5" fill="#58a6ff" opacity="0.3"/>
-  <circle cx="378.6" cy="75" r="8.1" fill="#58a6ff" opacity="0.6"/>
-  <circle cx="378.6" cy="75" r="4.1" fill="#58a6ff"/>
-  <text x="378.6" y="102.5" class="tyear" text-anchor="middle">2011</text>
-  <text x="378.6" y="55.5" class="tcount" text-anchor="middle">9</text>
+  <circle cx="378.6" cy="75" r="14.5" fill="#58a6ff" opacity="0.3"/>
+  <circle cx="378.6" cy="75" r="8.7" fill="#58a6ff" opacity="0.6"/>
+  <circle cx="378.6" cy="75" r="4.3" fill="#58a6ff"/>
+  <text x="378.6" y="103.5" class="tyear" text-anchor="middle">2011</text>
+  <text x="378.6" y="54.5" class="tcount" text-anchor="middle">10</text>
   <circle cx="401.4" cy="75" r="5.9" fill="#58a6ff" opacity="0.3"/>
   <circle cx="401.4" cy="75" r="3.6" fill="#58a6ff" opacity="0.6"/>
   <circle cx="401.4" cy="75" r="3.0" fill="#58a6ff"/>

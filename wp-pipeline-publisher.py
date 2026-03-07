@@ -1,6 +1,8 @@
 import base64
 import os
 import re
+import subprocess
+import sys
 from datetime import datetime
 from pathlib import Path
 
@@ -93,46 +95,22 @@ Let people know what changed, why it matters, and how it will affect them—but 
 """
 
 
-class OpenAIProvider:
-
-    def __init__(self) -> None:
-        self.api_key: str = os.getenv("AI_API_KEY")
-        self.endpoint: str = "https://api.openai.com/v1/chat/completions"
-        self.model: str = os.getenv("AI_MODEL")
+class ClaudeProvider:
 
     def improve_text(self, prompt: str, text: str) -> str:
-        headers: dict[str, str] = {
-            "Authorization": f"Bearer {self.api_key}",
-            "Content-Type": "application/json",
-        }
+        full_prompt = f"{prompt}\n\n{text}"
+        result = subprocess.run(
+            ["claude", "--print", "--prompt", full_prompt],
+            capture_output=True,
+            text=True,
+            timeout=180,
+        )
 
-        body: dict = {
-            "model": self.model,
-            "messages": [
-                {"role": "system", "content": prompt},
-                {"role": "user", "content": text},
-            ],
-            "temperature": 0.4,
-        }
+        if result.returncode != 0:
+            print(f"Claude CLI stderr: {result.stderr}", file=sys.stderr)
+            raise Exception(f"Claude CLI failed with exit code {result.returncode}")
 
-        try:
-            # Make the API request
-            response: requests.Response = requests.post(
-                self.endpoint, json=body, headers=headers, timeout=120
-            )
-
-            # Check for successful response
-            if response.status_code == 200:
-                return response.json()["choices"][0]["message"]["content"].strip()
-
-            # If the request fails, raise an error with the response details
-            raise Exception(
-                f"OpenAI API call failed: {response.status_code} - {response.text}"
-            )
-        except requests.exceptions.RequestException as e:
-            # Catch any request-related exceptions (e.g., network issues,
-            # timeouts)
-            raise Exception(f"Request failed: {str(e)}")
+        return result.stdout.strip()
 
 
 def search_image_url_unsplash(query: str, api_key: str) -> str:
@@ -522,7 +500,7 @@ def create_wordpress_post(
         return None
 
 
-# Function to generate the blog post prompt for OpenAI
+# Function to generate the blog post prompt for Claude
 def generate_blog_post_prompt(release_links, diff, publish_date):
     prompt = f"Generate a blog post with the following release {publish_date}"
     prompt += " links and provide ana analysis of the changes from this diff:\n"
@@ -599,7 +577,7 @@ def get_commit_diff(sha):
 
 
 def generate_description_with_media(prompt: str):
-    ai_provider = OpenAIProvider()
+    ai_provider = ClaudeProvider()
 
     response = ai_provider.improve_text(system_prompt, prompt)
 
@@ -749,7 +727,7 @@ def main():
 
         prompt = generate_blog_post_prompt(release_links, diff, publish_date)
 
-        # Generate description using OpenAI
+        # Generate description using Claude
         title, description, image_idea, youtube_topics = (
             generate_description_with_media(prompt)
         )

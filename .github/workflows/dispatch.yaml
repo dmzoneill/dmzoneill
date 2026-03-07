@@ -2145,34 +2145,41 @@ jobs:
         true
       )
     steps:
-      # Set up Python environment
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Claude CLI
+        run: npm install -g @anthropic-ai/claude-code
+
+      - name: Setup Google Cloud credentials
+        run: echo '${{ secrets.GOOGLE_APPLICATION_CREDENTIALS_JSON }}' > /tmp/gcloud-credentials.json
+
       - name: Set up Python environment
         uses: actions/setup-python@v4
         with:
           python-version: '3.x'
 
-      # Install dependencies
       - name: Install dependencies
-        run: |
-          pip install requests
+        run: pip install requests
 
-      # Run the Python script to generate and publish the blog post
       - name: Generate and Publish Blog Post
         run: |
-          echo "UNSPLASH_ACCESS_KEY: $UNSPLASH_ACCESS_KEY" 
-          echo "YOUTUBE_API: $YOUTUBE_API" 
-          curl https://raw.githubusercontent.com/dmzoneill/dmzoneill/refs/heads/main/wp-pipeline-publisher.py -o wp-pipeline-publisher.py 
-          python wp-pipeline-publisher.py 
+          curl https://raw.githubusercontent.com/dmzoneill/dmzoneill/refs/heads/main/wp-pipeline-publisher.py -o wp-pipeline-publisher.py
+          python wp-pipeline-publisher.py
         env:
+          GOOGLE_APPLICATION_CREDENTIALS: /tmp/gcloud-credentials.json
+          ANTHROPIC_VERTEX_PROJECT_ID: ${{ secrets.ANTHROPIC_VERTEX_PROJECT_ID }}
+          CLAUDE_CODE_USE_VERTEX: ${{ secrets.CLAUDE_CODE_USE_VERTEX }}
           PROFILE_HOOK: ${{ secrets.PROFILE_HOOK }}
           GITHUB_REPOSITORY: ${{ github.repository }}
           GITHUB_USER: dmzoneill
           GITHUB_API_TOKEN: ${{ secrets.PROFILE_HOOK }}
+          GITHUB_RUN_ID: ${{ github.run_id }}
           WORDPRESS_URL: ${{ secrets.WORDPRESS_URL }}
           WORDPRESS_USERNAME: ${{ secrets.WORDPRESS_USERNAME }}
           WORDPRESS_APPLICATION: ${{ secrets.WORDPRESS_APPLICATION }}
-          AI_API_KEY: ${{ secrets.AI_API_KEY }}
-          AI_MODEL: ${{ secrets.AI_MODEL }}
           UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
           YOUTUBE_API: ${{ secrets.YOUTUBE_API }}
 

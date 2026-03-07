@@ -12,8 +12,6 @@ GITHUB_USER = "dmzoneill"
 REPO_LIST_URL = "https://api.github.com/user/repos?affiliation=owner&per_page=100"
 SECRETS = [
     "PROFILE_HOOK",
-    "AI_API_KEY",
-    "AI_MODEL",
     "GOOGLE_APPLICATION_CREDENTIALS_JSON",
     "ANTHROPIC_VERTEX_PROJECT_ID",
     "CLAUDE_CODE_USE_VERTEX",

@@ -14,6 +14,20 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Claude CLI
+        run: npm install -g @anthropic-ai/claude-code
+
+      - name: Setup Google Cloud credentials
+        run: echo '${{ secrets.GOOGLE_APPLICATION_CREDENTIALS_JSON }}' > /tmp/gcloud-credentials.json
+
+      - name: Install Python dependencies
+        run: pip install requests
+
       - name: Download AI responder script
         run: |
           curl -sSL "https://raw.githubusercontent.com/dmzoneill/dmzoneill/main/ai-responder.py" -o ai-responder.py
@@ -21,9 +35,13 @@ jobs:
 
       - name: Run AI responder
         env:
-          OPENAI_API_KEY: ${{ secrets.AI_API_KEY }}
+          GOOGLE_APPLICATION_CREDENTIALS: /tmp/gcloud-credentials.json
+          ANTHROPIC_VERTEX_PROJECT_ID: ${{ secrets.ANTHROPIC_VERTEX_PROJECT_ID }}
+          CLAUDE_CODE_USE_VERTEX: ${{ secrets.CLAUDE_CODE_USE_VERTEX }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}
           ISSUE_NUMBER: ${{ github.event.issue.number }}
           ISSUE_REPO_URL: "https://github.com/${{ github.repository }}"
-        run: ./ai-responder.py
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_ISSUES_CHAT_ID: ${{ secrets.TELEGRAM_ISSUES_CHAT_ID }}
+        run: python ai-responder.py

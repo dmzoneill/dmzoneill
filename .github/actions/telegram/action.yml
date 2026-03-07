@@ -1,0 +1,30 @@
+name: Send Telegram Message
+description: Send a pipeline notification to Telegram
+inputs:
+  message:
+    description: 'The message to send to Telegram'
+    required: true
+  telegram_bot_token:
+    description: 'Telegram Bot API token'
+    required: true
+  telegram_chat_id:
+    description: 'Telegram chat/channel ID'
+    required: true
+runs:
+  using: "composite"
+  steps:
+    - name: Install dependencies
+      run: pip install requests
+      shell: bash
+
+    - name: Download script
+      run: curl -O https://raw.githubusercontent.com/dmzoneill/dmzoneill/main/telegram-notify.py
+      shell: bash
+
+    - name: Run telegram-notify.py
+      run: |
+        python telegram-notify.py "${{ inputs.message }}"
+      shell: bash
+      env:
+        TELEGRAM_BOT_TOKEN: ${{ inputs.telegram_bot_token }}
+        TELEGRAM_CHAT_ID: ${{ inputs.telegram_chat_id }}

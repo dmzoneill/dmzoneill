@@ -395,11 +395,12 @@ jobs:
     name: Pipeline start
     runs-on: ubuntu-latest
     steps:
-      - name: Notify Webdis pipeline started
-        uses: dmzoneill/dmzoneill/.github/actions/redis@main
+      - name: Notify Telegram pipeline started
+        uses: dmzoneill/dmzoneill/.github/actions/telegram@main
         with:
           message: ${{ github.sha }}
-          redis_password: ${{ secrets.REDIS_PASSWORD }}
+          telegram_bot_token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          telegram_chat_id: ${{ secrets.TELEGRAM_CHAT_ID }}
 
   lint:
     runs-on: ubuntu-latest
@@ -770,11 +771,12 @@ jobs:
       - name: Lint Code Base
         uses: github/super-linter@v4
 
-      - name: Send message to Redis
-        uses: dmzoneill/dmzoneill/.github/actions/redis@main
+      - name: Send Telegram notification
+        uses: dmzoneill/dmzoneill/.github/actions/telegram@main
         with:
           message: "${{ github.sha }} ${{ github.repository }} lint complete"
-          redis_password: ${{ secrets.REDIS_PASSWORD }}
+          telegram_bot_token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          telegram_chat_id: ${{ secrets.TELEGRAM_CHAT_ID }}
 
   unit-test:
     name: Run unit tests
@@ -829,11 +831,12 @@ jobs:
             make test || true
           fi
 
-      - name: Send message to Redis
-        uses: dmzoneill/dmzoneill/.github/actions/redis@main
+      - name: Send Telegram notification
+        uses: dmzoneill/dmzoneill/.github/actions/telegram@main
         with:
           message: "${{ github.sha }} ${{ github.repository }} unit test complete"
-          redis_password: ${{ secrets.REDIS_PASSWORD }}
+          telegram_bot_token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          telegram_chat_id: ${{ secrets.TELEGRAM_CHAT_ID }}
 
   integration-test:
     name: Run integration tests
@@ -888,11 +891,12 @@ jobs:
             make test || true
           fi
           
-      - name: Send message to Redis
-        uses: dmzoneill/dmzoneill/.github/actions/redis@main
+      - name: Send Telegram notification
+        uses: dmzoneill/dmzoneill/.github/actions/telegram@main
         with:
           message: "${{ github.sha }} ${{ github.repository }} integration test complete"
-          redis_password: ${{ secrets.REDIS_PASSWORD }}
+          telegram_bot_token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          telegram_chat_id: ${{ secrets.TELEGRAM_CHAT_ID }}
 
   bump-versions:
     if: |
@@ -949,11 +953,12 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH_NAME: 'main'
 
-      - name: Send message to Redis
-        uses: dmzoneill/dmzoneill/.github/actions/redis@main
+      - name: Send Telegram notification
+        uses: dmzoneill/dmzoneill/.github/actions/telegram@main
         with:
           message: "${{ github.sha }} ${{ github.repository }} bumped version"
-          redis_password: ${{ secrets.REDIS_PASSWORD }}
+          telegram_bot_token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          telegram_chat_id: ${{ secrets.TELEGRAM_CHAT_ID }}
 
   create-release:
     name: Create github release
@@ -1005,11 +1010,12 @@ jobs:
           draft: false
           prerelease: false
 
-      - name: Send message to Redis
-        uses: dmzoneill/dmzoneill/.github/actions/redis@main
+      - name: Send Telegram notification
+        uses: dmzoneill/dmzoneill/.github/actions/telegram@main
         with:
           message: "${{ github.sha }} ${{ github.repository }} created release"
-          redis_password: ${{ secrets.REDIS_PASSWORD }}
+          telegram_bot_token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          telegram_chat_id: ${{ secrets.TELEGRAM_CHAT_ID }}
 
   chrome:
     if: inputs.chrome-extension != 'false'   
@@ -1056,11 +1062,12 @@ jobs:
         run: |-
           chrome-webstore-upload upload --source chrome-extension-${{ github.sha }}.zip --extension-id ${{ env.EXTENSION_ID }} --client-id ${{ secrets.CI_GOOGLE_CLIENT_ID }} --client-secret ${{ secrets.CI_GOOGLE_CLIENT_SECRET }} --refresh-token ${{ secrets.CI_GOOGLE_REFRESH_TOKEN }} --auto-publish
 
-      - name: Send message to Redis
-        uses: dmzoneill/dmzoneill/.github/actions/redis@main
+      - name: Send Telegram notification
+        uses: dmzoneill/dmzoneill/.github/actions/telegram@main
         with:
           message: "${{ github.sha }} ${{ github.repository }} pushed chrome plugin"
-          redis_password: ${{ secrets.REDIS_PASSWORD }}
+          telegram_bot_token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          telegram_chat_id: ${{ secrets.TELEGRAM_CHAT_ID }}
 
   pypi:
     if: inputs.pypi-extension != 'false'
@@ -1087,11 +1094,12 @@ jobs:
           # shellcheck disable=SC2035
           python3 -m twine upload --verbose --non-interactive --config-file ~/.pypirc --repository pypi dist/*
 
-      - name: Send message to Redis
-        uses: dmzoneill/dmzoneill/.github/actions/redis@main
+      - name: Send Telegram notification
+        uses: dmzoneill/dmzoneill/.github/actions/telegram@main
         with:
           message: "${{ github.sha }} ${{ github.repository }} pushed pypi module"
-          redis_password: ${{ secrets.REDIS_PASSWORD }}
+          telegram_bot_token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          telegram_chat_id: ${{ secrets.TELEGRAM_CHAT_ID }}
 
   gnome:
     if: inputs.gnome-extension != 'false'
@@ -1131,11 +1139,12 @@ jobs:
         run: |-
           bash -c "gep publisharchive --username \"${{ secrets.CI_USERNAME }}\" --password \"${{ secrets.CI_PASSWORD }}\" --file gnome-extension-${{ github.sha }}.zip";
       
-      - name: Send message to Redis
-        uses: dmzoneill/dmzoneill/.github/actions/redis@main
+      - name: Send Telegram notification
+        uses: dmzoneill/dmzoneill/.github/actions/telegram@main
         with:
           message: "${{ github.sha }} ${{ github.repository }} published gnome plugin"
-          redis_password: ${{ secrets.REDIS_PASSWORD }}
+          telegram_bot_token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          telegram_chat_id: ${{ secrets.TELEGRAM_CHAT_ID }}
 
   pling:
     if: inputs.pling != 'false'
@@ -1156,11 +1165,12 @@ jobs:
         run: |-
           bash -c "pling publish --username \"${{ secrets.CI_USERNAME }}\" --password \"${{ secrets.CI_PASSWORD }}\" --project-id ${{ inputs.pling }}";
 
-      - name: Send message to Redis
-        uses: dmzoneill/dmzoneill/.github/actions/redis@main
+      - name: Send Telegram notification
+        uses: dmzoneill/dmzoneill/.github/actions/telegram@main
         with:
           message: "${{ github.sha }} ${{ github.repository }} published pling release"
-          redis_password: ${{ secrets.REDIS_PASSWORD }}
+          telegram_bot_token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          telegram_chat_id: ${{ secrets.TELEGRAM_CHAT_ID }}
 
   deb:
     if: inputs.deb-build != 'false'
@@ -1210,11 +1220,12 @@ jobs:
           asset_name: ${{ env.PACKAGE_NAME }}_${{ env.PACKAGE_VERSION }}.deb
           asset_content_type: application/octet-stream
 
-      - name: Send message to Redis
-        uses: dmzoneill/dmzoneill/.github/actions/redis@main
+      - name: Send Telegram notification
+        uses: dmzoneill/dmzoneill/.github/actions/telegram@main
         with:
           message: "${{ github.sha }} ${{ github.repository }} created deb"
-          redis_password: ${{ secrets.REDIS_PASSWORD }}
+          telegram_bot_token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          telegram_chat_id: ${{ secrets.TELEGRAM_CHAT_ID }}
 
   rpm:
     if: inputs.rpm-build != 'false'
@@ -1268,11 +1279,12 @@ jobs:
           asset_name: ${{ env.PACKAGE_NAME }}-${{ env.PACKAGE_VERSION }}-1.x86_64.rpm
           asset_content_type: application/octet-stream
 
-      - name: Send message to Redis
-        uses: dmzoneill/dmzoneill/.github/actions/redis@main
+      - name: Send Telegram notification
+        uses: dmzoneill/dmzoneill/.github/actions/telegram@main
         with:
           message: "${{ github.sha }} ${{ github.repository }} created rpm"
-          redis_password: ${{ secrets.REDIS_PASSWORD }}
+          telegram_bot_token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          telegram_chat_id: ${{ secrets.TELEGRAM_CHAT_ID }}
 
   npmjs:
     if: inputs.npmjs != 'false'
@@ -1295,11 +1307,12 @@ jobs:
         with:
           token: ${{ secrets.NPM }}   
 
-      - name: Send message to Redis
-        uses: dmzoneill/dmzoneill/.github/actions/redis@main
+      - name: Send Telegram notification
+        uses: dmzoneill/dmzoneill/.github/actions/telegram@main
         with:
           message: "${{ github.sha }} ${{ github.repository }} published to npmjs"
-          redis_password: ${{ secrets.REDIS_PASSWORD }}
+          telegram_bot_token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          telegram_chat_id: ${{ secrets.TELEGRAM_CHAT_ID }}
 
   docker:
     if: inputs.docker-build != 'false'
@@ -1354,11 +1367,12 @@ jobs:
             ghcr.io/dmzoneill/${{ env.APP_NAME }}:${{ env.NEXT_VERSION }}
             ghcr.io/dmzoneill/${{ env.APP_NAME }}:latest
 
-      - name: Send message to Redis
-        uses: dmzoneill/dmzoneill/.github/actions/redis@main
+      - name: Send Telegram notification
+        uses: dmzoneill/dmzoneill/.github/actions/telegram@main
         with:
           message: "${{ github.sha }} ${{ github.repository }} published container image"
-          redis_password: ${{ secrets.REDIS_PASSWORD }}
+          telegram_bot_token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          telegram_chat_id: ${{ secrets.TELEGRAM_CHAT_ID }}
 
   flatpak:
     if: inputs.flatpak-build != 'false'
@@ -1499,11 +1513,12 @@ jobs:
           repository: stable
           token: ${{ secrets.FLATHUB_TOKEN }}
 
-      - name: Send message to Redis
-        uses: dmzoneill/dmzoneill/.github/actions/redis@main
+      - name: Send Telegram notification
+        uses: dmzoneill/dmzoneill/.github/actions/telegram@main
         with:
           message: "${{ github.sha }} ${{ github.repository }} published flatpak"
-          redis_password: ${{ secrets.REDIS_PASSWORD }}
+          telegram_bot_token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          telegram_chat_id: ${{ secrets.TELEGRAM_CHAT_ID }}
 
   appimage:
     if: inputs.appimage-build != 'false'
@@ -1595,11 +1610,12 @@ jobs:
           asset_name: ${{ env.APP_NAME }}-${{ env.PACKAGE_VERSION }}-x86_64.AppImage
           asset_content_type: application/octet-stream
 
-      - name: Send message to Redis
-        uses: dmzoneill/dmzoneill/.github/actions/redis@main
+      - name: Send Telegram notification
+        uses: dmzoneill/dmzoneill/.github/actions/telegram@main
         with:
           message: "${{ github.sha }} ${{ github.repository }} published appimage"
-          redis_password: ${{ secrets.REDIS_PASSWORD }}
+          telegram_bot_token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          telegram_chat_id: ${{ secrets.TELEGRAM_CHAT_ID }}
 
   snap:
     if: inputs.snap-build != 'false'
@@ -1683,11 +1699,12 @@ jobs:
           snap: ${{ steps.snap_build.outputs.snap }}
           release: stable
 
-      - name: Send message to Redis
-        uses: dmzoneill/dmzoneill/.github/actions/redis@main
+      - name: Send Telegram notification
+        uses: dmzoneill/dmzoneill/.github/actions/telegram@main
         with:
           message: "${{ github.sha }} ${{ github.repository }} published snap"
-          redis_password: ${{ secrets.REDIS_PASSWORD }}
+          telegram_bot_token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          telegram_chat_id: ${{ secrets.TELEGRAM_CHAT_ID }}
 
   nix:
     if: inputs.nix-build != 'false'
@@ -1779,11 +1796,12 @@ jobs:
           name: ${{ env.APP_NAME }}
           authToken: ${{ secrets.CACHIX_AUTH_TOKEN }}
 
-      - name: Send message to Redis
-        uses: dmzoneill/dmzoneill/.github/actions/redis@main
+      - name: Send Telegram notification
+        uses: dmzoneill/dmzoneill/.github/actions/telegram@main
         with:
           message: "${{ github.sha }} ${{ github.repository }} published nix package"
-          redis_password: ${{ secrets.REDIS_PASSWORD }}
+          telegram_bot_token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          telegram_chat_id: ${{ secrets.TELEGRAM_CHAT_ID }}
 
   aur:
     if: inputs.aur-publish != 'false'
@@ -1837,11 +1855,12 @@ jobs:
           ssh_private_key: ${{ secrets.AUR_SSH_PRIVATE_KEY }}
           commit_message: Update to ${{ env.PACKAGE_VERSION }}
 
-      - name: Send message to Redis
-        uses: dmzoneill/dmzoneill/.github/actions/redis@main
+      - name: Send Telegram notification
+        uses: dmzoneill/dmzoneill/.github/actions/telegram@main
         with:
           message: "${{ github.sha }} ${{ github.repository }} published to AUR"
-          redis_password: ${{ secrets.REDIS_PASSWORD }}
+          telegram_bot_token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          telegram_chat_id: ${{ secrets.TELEGRAM_CHAT_ID }}
 
   homebrew:
     if: inputs.homebrew-publish != 'false'
@@ -1885,11 +1904,12 @@ jobs:
           tag-name: v${{ env.PACKAGE_VERSION }}
           homebrew-tap: dmzoneill/homebrew-tap
 
-      - name: Send message to Redis
-        uses: dmzoneill/dmzoneill/.github/actions/redis@main
+      - name: Send Telegram notification
+        uses: dmzoneill/dmzoneill/.github/actions/telegram@main
         with:
           message: "${{ github.sha }} ${{ github.repository }} published to homebrew"
-          redis_password: ${{ secrets.REDIS_PASSWORD }}
+          telegram_bot_token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          telegram_chat_id: ${{ secrets.TELEGRAM_CHAT_ID }}
 
   chocolatey:
     if: inputs.chocolatey-publish != 'false'
@@ -1953,11 +1973,12 @@ jobs:
           $nupkg = Get-ChildItem -Filter *.nupkg | Select-Object -First 1
           choco push $nupkg.Name --source https://push.chocolatey.org/ --api-key $env:CHOCOLATEY_API_KEY
 
-      - name: Send message to Redis
-        uses: dmzoneill/dmzoneill/.github/actions/redis@main
+      - name: Send Telegram notification
+        uses: dmzoneill/dmzoneill/.github/actions/telegram@main
         with:
           message: "${{ github.sha }} ${{ github.repository }} published to chocolatey"
-          redis_password: ${{ secrets.REDIS_PASSWORD }}
+          telegram_bot_token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          telegram_chat_id: ${{ secrets.TELEGRAM_CHAT_ID }}
 
   scoop:
     if: inputs.scoop-publish != 'false'
@@ -2043,11 +2064,12 @@ jobs:
               -d "{\"message\":\"Add ${{ env.APP_NAME }} ${{ env.PACKAGE_VERSION }}\",\"content\":\"${MANIFEST_CONTENT}\"}"
           fi
 
-      - name: Send message to Redis
-        uses: dmzoneill/dmzoneill/.github/actions/redis@main
+      - name: Send Telegram notification
+        uses: dmzoneill/dmzoneill/.github/actions/telegram@main
         with:
           message: "${{ github.sha }} ${{ github.repository }} published to scoop"
-          redis_password: ${{ secrets.REDIS_PASSWORD }}
+          telegram_bot_token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          telegram_chat_id: ${{ secrets.TELEGRAM_CHAT_ID }}
 
   winget:
     if: inputs.winget-publish != 'false'
@@ -2082,11 +2104,12 @@ jobs:
           version: ${{ env.PACKAGE_VERSION }}
           token: ${{ secrets.WINGET_TOKEN }}
 
-      - name: Send message to Redis
-        uses: dmzoneill/dmzoneill/.github/actions/redis@main
+      - name: Send Telegram notification
+        uses: dmzoneill/dmzoneill/.github/actions/telegram@main
         with:
           message: "${{ github.sha }} ${{ github.repository }} published to winget"
-          redis_password: ${{ secrets.REDIS_PASSWORD }}
+          telegram_bot_token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          telegram_chat_id: ${{ secrets.TELEGRAM_CHAT_ID }}
 
   rebuild-profile:   
     name: Rebuild Profile
@@ -2153,11 +2176,12 @@ jobs:
           UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
           YOUTUBE_API: ${{ secrets.YOUTUBE_API }}
 
-      - name: Send message to Redis
-        uses: dmzoneill/dmzoneill/.github/actions/redis@main
+      - name: Send Telegram notification
+        uses: dmzoneill/dmzoneill/.github/actions/telegram@main
         with:
           message: "${{ github.sha }} ${{ github.repository }} published blog post"
-          redis_password: ${{ secrets.REDIS_PASSWORD }}
+          telegram_bot_token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          telegram_chat_id: ${{ secrets.TELEGRAM_CHAT_ID }}
 
   pipeline-end:
     name: Pipeline end
@@ -2173,8 +2197,9 @@ jobs:
             echo "PIPELINE_STATUS=failed" >> $GITHUB_ENV
           fi
 
-      - name: Notify Webdis pipeline finished
-        uses: dmzoneill/dmzoneill/.github/actions/redis@main
+      - name: Notify Telegram pipeline finished
+        uses: dmzoneill/dmzoneill/.github/actions/telegram@main
         with:
           message: ${{ github.sha }}
-          redis_password: ${{ secrets.REDIS_PASSWORD }}
+          telegram_bot_token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          telegram_chat_id: ${{ secrets.TELEGRAM_CHAT_ID }}

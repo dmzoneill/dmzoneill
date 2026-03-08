@@ -266,6 +266,17 @@ def get_repositories():
 def main():
     secrets = {secret: os.getenv(secret) for secret in SECRETS}
 
+    # ONE-TIME: copy old CI creds to new per-publisher secrets
+    # TODO: remove this block after first successful distribute run
+    ci_user = os.getenv("CI_USERNAME")
+    ci_pass = os.getenv("CI_PASSWORD")
+    if ci_user:
+        secrets.setdefault("GNOME_USERNAME", ci_user)
+        secrets.setdefault("PLING_USERNAME", ci_user)
+    if ci_pass:
+        secrets.setdefault("GNOME_PASSWORD", ci_pass)
+        secrets.setdefault("PLING_PASSWORD", ci_pass)
+
     missing_secrets = [
         secret for secret, value in secrets.items() if value is None
     ]

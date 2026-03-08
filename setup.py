@@ -266,23 +266,6 @@ def get_repositories():
 def main():
     secrets = {secret: os.getenv(secret) for secret in SECRETS}
 
-    # ONE-TIME: copy old CI creds to new per-publisher secrets on this repo
-    # TODO: remove this block after it runs once
-    ci_user = os.getenv("CI_USERNAME")
-    ci_pass = os.getenv("CI_PASSWORD")
-    if ci_user and ci_pass:
-        print("ONE-TIME: Setting new publisher secrets from CI creds")
-        authenticate_gh()
-        for name, value in [
-            ("GNOME_USERNAME", ci_user),
-            ("GNOME_PASSWORD", ci_pass),
-            ("PLING_USERNAME", ci_user),
-            ("PLING_PASSWORD", ci_pass),
-        ]:
-            set_secret("dmzoneill", name, value)
-        print("Done. Remove this one-time block and re-run.")
-        return
-
     missing_secrets = [
         secret for secret, value in secrets.items() if value is None
     ]

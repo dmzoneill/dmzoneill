@@ -32,16 +32,12 @@ def hash_value(value):
 
 def compute_per_secret_hashes(secrets):
     return {
-        key: hash_value(value)
-        for key, value in secrets.items()
-        if value is not None
+        key: hash_value(value) for key, value in secrets.items() if value is not None
     }
 
 
 def check_rate_limit():
-    response = requests.get(
-        "https://api.github.com/rate_limit", headers=headers
-    )
+    response = requests.get("https://api.github.com/rate_limit", headers=headers)
     if response.status_code == 200:
         core = response.json()["resources"]["core"]
         remaining = core["remaining"]
@@ -119,23 +115,16 @@ def get_remote_hashes(repo_name):
 
 def set_repo_variable(repo_name, name, value):
     repo_full = f"{GITHUB_USER}/{repo_name}"
-    url = (
-        f"https://api.github.com/repos/{repo_full}"
-        f"/actions/variables/{name}"
-    )
+    url = f"https://api.github.com/repos/{repo_full}" f"/actions/variables/{name}"
     time.sleep(API_DELAY)
-    response = requests.patch(
-        url, headers=headers, json={"value": value}
-    )
+    response = requests.patch(url, headers=headers, json={"value": value})
     if response.status_code == 204:
         print(f"    Updated hash variable")
         return
 
     url = f"https://api.github.com/repos/{repo_full}/actions/variables"
     time.sleep(API_DELAY)
-    response = requests.post(
-        url, headers=headers, json={"name": name, "value": value}
-    )
+    response = requests.post(url, headers=headers, json={"name": name, "value": value})
     if response.status_code == 201:
         print(f"    Created hash variable")
     else:
@@ -164,11 +153,7 @@ def delete_secret(repo_name, secret):
 
 
 def estimate_repo_cost(current_hashes, remote_hashes):
-    changed = sum(
-        1
-        for k, v in current_hashes.items()
-        if remote_hashes.get(k) != v
-    )
+    changed = sum(1 for k, v in current_hashes.items() if remote_hashes.get(k) != v)
     removed = sum(1 for k in remote_hashes if k not in current_hashes)
     if not changed and not removed:
         # 1 (fetch existing secrets) + some potential deprecated deletes
@@ -179,8 +164,7 @@ def estimate_repo_cost(current_hashes, remote_hashes):
 
 def cleanup_deprecated_secrets(repo_name, existing_secrets, current_names):
     to_delete = [
-        s for s in existing_secrets
-        if s not in current_names and s != HASH_VAR_NAME
+        s for s in existing_secrets if s not in current_names and s != HASH_VAR_NAME
     ]
     if to_delete:
         print(
@@ -193,72 +177,48 @@ def cleanup_deprecated_secrets(repo_name, existing_secrets, current_names):
 
 
 def fetch_existing_secret_names(repo_name):
-    url = (
-        f"https://api.github.com/repos/{GITHUB_USER}/{repo_name}"
-        f"/actions/secrets"
-    )
+    url = f"https://api.github.com/repos/{GITHUB_USER}/{repo_name}" f"/actions/secrets"
     response = rate_limited_get(url)
     if response.status_code == 200:
-        return {
-            s["name"] for s in response.json().get("secrets", [])
-        }
+        return {s["name"] for s in response.json().get("secrets", [])}
     return set()
 
 
 def sync_repo_secrets(repo_name, secrets, current_hashes, remote_hashes):
-    changed = [
-        key
-        for key, h in current_hashes.items()
-        if remote_hashes.get(key) != h
-    ]
+    changed = [key for key, h in current_hashes.items() if remote_hashes.get(key) != h]
     removed = [k for k in remote_hashes if k not in current_hashes]
 
     existing = fetch_existing_secret_names(repo_name)
-    deprecated = cleanup_deprecated_secrets(
-        repo_name, existing, set(secrets.keys())
-    )
+    deprecated = cleanup_deprecated_secrets(repo_name, existing, set(secrets.keys()))
 
     if not changed and not removed and not deprecated:
         print(f"  All secrets up to date, skipping")
         return
 
     if changed:
-        print(
-            f"  {len(changed)} secret(s) changed: {', '.join(changed)}"
-        )
+        print(f"  {len(changed)} secret(s) changed: {', '.join(changed)}")
         for key in changed:
             set_secret(repo_name, key, secrets[key])
 
     if removed:
-        print(
-            f"  {len(removed)} secret(s) removed: {', '.join(removed)}"
-        )
+        print(f"  {len(removed)} secret(s) removed: {', '.join(removed)}")
         for key in removed:
             delete_secret(repo_name, key)
 
-    set_repo_variable(
-        repo_name, HASH_VAR_NAME, json.dumps(current_hashes)
-    )
+    set_repo_variable(repo_name, HASH_VAR_NAME, json.dumps(current_hashes))
 
 
 def get_secret_names():
-    url = (
-        f"https://api.github.com/repos/{GITHUB_USER}/dmzoneill"
-        f"/actions/secrets"
-    )
+    url = f"https://api.github.com/repos/{GITHUB_USER}/dmzoneill" f"/actions/secrets"
     names = []
     while url:
         response = rate_limited_get(url)
         if response.status_code != 200:
-            print(
-                f"Failed to fetch secret names: {response.status_code}"
-            )
+            print(f"Failed to fetch secret names: {response.status_code}")
             break
         data = response.json()
         names.extend(
-            s["name"]
-            for s in data.get("secrets", [])
-            if s["name"] != HASH_VAR_NAME
+            s["name"] for s in data.get("secrets", []) if s["name"] != HASH_VAR_NAME
         )
         url = response.links.get("next", {}).get("url")
     return names
@@ -274,17 +234,12 @@ def get_repositories():
             if not repos_data:
                 break
             repos.extend(
-                [
-                    repo["name"]
-                    for repo in repos_data
-                    if repo["name"] != "dmzoneill"
-                ]
+                [repo["name"] for repo in repos_data if repo["name"] != "dmzoneill"]
             )
             page += 1
         else:
             print(
-                f"Failed to fetch repositories, "
-                f"status code: {response.status_code}"
+                f"Failed to fetch repositories, " f"status code: {response.status_code}"
             )
             break
     return repos
@@ -299,9 +254,7 @@ def main():
     print(f"Found {len(secret_names)} secrets on dmzoneill repo")
     secrets = {name: os.getenv(name) for name in secret_names}
 
-    missing_secrets = [
-        secret for secret, value in secrets.items() if value is None
-    ]
+    missing_secrets = [secret for secret, value in secrets.items() if value is None]
     if missing_secrets:
         print(f"Skipping unset secrets: {', '.join(missing_secrets)}")
 
@@ -334,17 +287,12 @@ def main():
             continue
 
         print(f"\nSyncing secrets for: {repo} (est. cost: {cost})")
-        sync_repo_secrets(
-            repo, secrets, current_hashes, remote_hashes
-        )
+        sync_repo_secrets(repo, secrets, current_hashes, remote_hashes)
         synced += 1
 
     print(f"\nDone: synced {synced} repos")
     if skipped:
-        print(
-            f"Deferred {skipped} repos due to rate limit "
-            f"(will resume next run)"
-        )
+        print(f"Deferred {skipped} repos due to rate limit " f"(will resume next run)")
 
 
 if __name__ == "__main__":

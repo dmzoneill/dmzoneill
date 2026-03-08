@@ -10,46 +10,7 @@ import requests
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
 GITHUB_USER = "dmzoneill"
 REPO_LIST_URL = "https://api.github.com/user/repos?affiliation=owner&per_page=100"
-SECRETS = [
-    "PROFILE_HOOK",
-    "GOOGLE_APPLICATION_CREDENTIALS_JSON",
-    "ANTHROPIC_VERTEX_PROJECT_ID",
-    "CLAUDE_CODE_USE_VERTEX",
-    "TELEGRAM_ISSUES_CHAT_ID",
-    "TELEGRAM_PR_CHAT_ID",
-    "DOCKER_TOKEN",
-    "PYPI_TOKEN",
-    "WORDPRESS_APPLICATION",
-    "WORDPRESS_PASSWORD",
-    "WORDPRESS_URL",
-    "WORDPRESS_USERNAME",
-    "YOUTUBE_API",
-    "UNSPLASH_ACCESS_KEY",
-    "GNOME_USERNAME",
-    "GNOME_PASSWORD",
-    "PLING_USERNAME",
-    "PLING_PASSWORD",
-    "TELEGRAM_BOT_TOKEN",
-    "TELEGRAM_CHAT_ID",
-    "SNAPCRAFT_STORE_CREDENTIALS",
-    "CACHIX_AUTH_TOKEN",
-    "AUR_SSH_PRIVATE_KEY",
-    "HOMEBREW_TAP_TOKEN",
-    "CHOCOLATEY_API_KEY",
-    "SCOOP_BUCKET_TOKEN",
-    "WINGET_TOKEN",
-]
-
 HASH_VAR_NAME = "SECRETS_HASH"
-
-# Deprecated secrets to always delete from repos if found
-DEPRECATED_SECRETS = [
-    "CI_USERNAME",
-    "CI_PASSWORD",
-    "AI_API_KEY",
-    "AI_MODEL",
-    "REDIS_PASSWORD",
-]
 
 # Headers for GitHub API requests
 headers = {
@@ -209,17 +170,18 @@ def estimate_repo_cost(current_hashes, remote_hashes):
         if remote_hashes.get(k) != v
     )
     removed = sum(1 for k in remote_hashes if k not in current_hashes)
-    # 1 (fetch existing secrets) + up to len(DEPRECATED) deletes
-    deprecated = len(DEPRECATED_SECRETS)
     if not changed and not removed:
-        # Still need to check for deprecated secrets
-        return 1 + deprecated
-    # changed*2 (gh secret set) + removed (delete) + deprecated + 2 (set var) + 1 (fetch)
-    return changed * 2 + removed + deprecated + 3
+        # 1 (fetch existing secrets) + some potential deprecated deletes
+        return 5
+    # changed*2 (gh secret set) + removed (delete) + 2 (set var) + 1 (fetch) + buffer
+    return changed * 2 + removed + 5
 
 
-def cleanup_deprecated_secrets(repo_name, existing_secrets):
-    to_delete = [s for s in DEPRECATED_SECRETS if s in existing_secrets]
+def cleanup_deprecated_secrets(repo_name, existing_secrets, current_names):
+    to_delete = [
+        s for s in existing_secrets
+        if s not in current_names and s != HASH_VAR_NAME
+    ]
     if to_delete:
         print(
             f"  Cleaning up {len(to_delete)} deprecated secret(s): "
@@ -252,7 +214,9 @@ def sync_repo_secrets(repo_name, secrets, current_hashes, remote_hashes):
     removed = [k for k in remote_hashes if k not in current_hashes]
 
     existing = fetch_existing_secret_names(repo_name)
-    deprecated = cleanup_deprecated_secrets(repo_name, existing)
+    deprecated = cleanup_deprecated_secrets(
+        repo_name, existing, set(secrets.keys())
+    )
 
     if not changed and not removed and not deprecated:
         print(f"  All secrets up to date, skipping")
@@ -275,6 +239,29 @@ def sync_repo_secrets(repo_name, secrets, current_hashes, remote_hashes):
     set_repo_variable(
         repo_name, HASH_VAR_NAME, json.dumps(current_hashes)
     )
+
+
+def get_secret_names():
+    url = (
+        f"https://api.github.com/repos/{GITHUB_USER}/dmzoneill"
+        f"/actions/secrets"
+    )
+    names = []
+    while url:
+        response = rate_limited_get(url)
+        if response.status_code != 200:
+            print(
+                f"Failed to fetch secret names: {response.status_code}"
+            )
+            break
+        data = response.json()
+        names.extend(
+            s["name"]
+            for s in data.get("secrets", [])
+            if s["name"] != HASH_VAR_NAME
+        )
+        url = response.links.get("next", {}).get("url")
+    return names
 
 
 def get_repositories():
@@ -304,7 +291,13 @@ def get_repositories():
 
 
 def main():
-    secrets = {secret: os.getenv(secret) for secret in SECRETS}
+    secret_names = get_secret_names()
+    if not secret_names:
+        print("No secrets found on dmzoneill repo, aborting")
+        return
+
+    print(f"Found {len(secret_names)} secrets on dmzoneill repo")
+    secrets = {name: os.getenv(name) for name in secret_names}
 
     missing_secrets = [
         secret for secret, value in secrets.items() if value is None

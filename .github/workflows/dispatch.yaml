@@ -1137,7 +1137,7 @@ jobs:
           
       - name: Publish
         run: |-
-          bash -c "gep publisharchive --username \"${{ secrets.CI_USERNAME }}\" --password \"${{ secrets.CI_PASSWORD }}\" --file gnome-extension-${{ github.sha }}.zip";
+          bash -c "gep publisharchive --username \"${{ secrets.GNOME_USERNAME }}\" --password \"${{ secrets.GNOME_PASSWORD }}\" --file gnome-extension-${{ github.sha }}.zip";
       
       - name: Send Telegram notification
         uses: dmzoneill/dmzoneill/.github/actions/telegram@main
@@ -1163,7 +1163,7 @@ jobs:
           
       - name: Publish
         run: |-
-          bash -c "pling publish --username \"${{ secrets.CI_USERNAME }}\" --password \"${{ secrets.CI_PASSWORD }}\" --project-id ${{ inputs.pling }}";
+          bash -c "pling publish --username \"${{ secrets.PLING_USERNAME }}\" --password \"${{ secrets.PLING_PASSWORD }}\" --project-id ${{ inputs.pling }}";
 
       - name: Send Telegram notification
         uses: dmzoneill/dmzoneill/.github/actions/telegram@main

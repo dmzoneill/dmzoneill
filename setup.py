@@ -42,6 +42,15 @@ SECRETS = [
 
 HASH_VAR_NAME = "SECRETS_HASH"
 
+# Deprecated secrets to always delete from repos if found
+DEPRECATED_SECRETS = [
+    "CI_USERNAME",
+    "CI_PASSWORD",
+    "AI_API_KEY",
+    "AI_MODEL",
+    "REDIS_PASSWORD",
+]
+
 # Headers for GitHub API requests
 headers = {
     "Authorization": f"token {GITHUB_TOKEN}",
@@ -200,10 +209,38 @@ def estimate_repo_cost(current_hashes, remote_hashes):
         if remote_hashes.get(k) != v
     )
     removed = sum(1 for k in remote_hashes if k not in current_hashes)
+    # 1 (fetch existing secrets) + up to len(DEPRECATED) deletes
+    deprecated = len(DEPRECATED_SECRETS)
     if not changed and not removed:
-        return 0
-    # changed*2 (gh secret set) + removed (gh secret delete) + 2 (set var)
-    return changed * 2 + removed + 2
+        # Still need to check for deprecated secrets
+        return 1 + deprecated
+    # changed*2 (gh secret set) + removed (delete) + deprecated + 2 (set var) + 1 (fetch)
+    return changed * 2 + removed + deprecated + 3
+
+
+def cleanup_deprecated_secrets(repo_name, existing_secrets):
+    to_delete = [s for s in DEPRECATED_SECRETS if s in existing_secrets]
+    if to_delete:
+        print(
+            f"  Cleaning up {len(to_delete)} deprecated secret(s): "
+            f"{', '.join(to_delete)}"
+        )
+        for key in to_delete:
+            delete_secret(repo_name, key)
+    return to_delete
+
+
+def fetch_existing_secret_names(repo_name):
+    url = (
+        f"https://api.github.com/repos/{GITHUB_USER}/{repo_name}"
+        f"/actions/secrets"
+    )
+    response = rate_limited_get(url)
+    if response.status_code == 200:
+        return {
+            s["name"] for s in response.json().get("secrets", [])
+        }
+    return set()
 
 
 def sync_repo_secrets(repo_name, secrets, current_hashes, remote_hashes):
@@ -214,7 +251,10 @@ def sync_repo_secrets(repo_name, secrets, current_hashes, remote_hashes):
     ]
     removed = [k for k in remote_hashes if k not in current_hashes]
 
-    if not changed and not removed:
+    existing = fetch_existing_secret_names(repo_name)
+    deprecated = cleanup_deprecated_secrets(repo_name, existing)
+
+    if not changed and not removed and not deprecated:
         print(f"  All secrets up to date, skipping")
         return
 

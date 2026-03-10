@@ -398,7 +398,7 @@ jobs:
       - name: Notify Telegram pipeline started
         uses: dmzoneill/dmzoneill/.github/actions/telegram@main
         with:
-          message: ${{ github.sha }}
+          message: "${{ github.repository }} - Pipeline started (${{ github.ref_name }})"
           telegram_bot_token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           telegram_chat_id: ${{ secrets.TELEGRAM_CHAT_ID }}
 
@@ -774,7 +774,7 @@ jobs:
       - name: Send Telegram notification
         uses: dmzoneill/dmzoneill/.github/actions/telegram@main
         with:
-          message: "${{ github.sha }} ${{ github.repository }} lint complete"
+          message: "${{ github.repository }} - Lint complete"
           telegram_bot_token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           telegram_chat_id: ${{ secrets.TELEGRAM_CHAT_ID }}
 
@@ -834,7 +834,7 @@ jobs:
       - name: Send Telegram notification
         uses: dmzoneill/dmzoneill/.github/actions/telegram@main
         with:
-          message: "${{ github.sha }} ${{ github.repository }} unit test complete"
+          message: "${{ github.repository }} - Unit tests complete"
           telegram_bot_token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           telegram_chat_id: ${{ secrets.TELEGRAM_CHAT_ID }}
 
@@ -894,7 +894,7 @@ jobs:
       - name: Send Telegram notification
         uses: dmzoneill/dmzoneill/.github/actions/telegram@main
         with:
-          message: "${{ github.sha }} ${{ github.repository }} integration test complete"
+          message: "${{ github.repository }} - Integration tests complete"
           telegram_bot_token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           telegram_chat_id: ${{ secrets.TELEGRAM_CHAT_ID }}
 
@@ -956,7 +956,7 @@ jobs:
       - name: Send Telegram notification
         uses: dmzoneill/dmzoneill/.github/actions/telegram@main
         with:
-          message: "${{ github.sha }} ${{ github.repository }} bumped version"
+          message: "${{ github.repository }} - Version bumped"
           telegram_bot_token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           telegram_chat_id: ${{ secrets.TELEGRAM_CHAT_ID }}
 
@@ -1013,7 +1013,7 @@ jobs:
       - name: Send Telegram notification
         uses: dmzoneill/dmzoneill/.github/actions/telegram@main
         with:
-          message: "${{ github.sha }} ${{ github.repository }} created release"
+          message: "${{ github.repository }} - Release created"
           telegram_bot_token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           telegram_chat_id: ${{ secrets.TELEGRAM_CHAT_ID }}
 
@@ -1065,7 +1065,7 @@ jobs:
       - name: Send Telegram notification
         uses: dmzoneill/dmzoneill/.github/actions/telegram@main
         with:
-          message: "${{ github.sha }} ${{ github.repository }} pushed chrome plugin"
+          message: "${{ github.repository }} - Published Chrome extension"
           telegram_bot_token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           telegram_chat_id: ${{ secrets.TELEGRAM_CHAT_ID }}
 
@@ -1097,7 +1097,7 @@ jobs:
       - name: Send Telegram notification
         uses: dmzoneill/dmzoneill/.github/actions/telegram@main
         with:
-          message: "${{ github.sha }} ${{ github.repository }} pushed pypi module"
+          message: "${{ github.repository }} - Published to PyPI"
           telegram_bot_token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           telegram_chat_id: ${{ secrets.TELEGRAM_CHAT_ID }}
 
@@ -1142,7 +1142,7 @@ jobs:
       - name: Send Telegram notification
         uses: dmzoneill/dmzoneill/.github/actions/telegram@main
         with:
-          message: "${{ github.sha }} ${{ github.repository }} published gnome plugin"
+          message: "${{ github.repository }} - Published GNOME extension"
           telegram_bot_token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           telegram_chat_id: ${{ secrets.TELEGRAM_CHAT_ID }}
 
@@ -1168,7 +1168,7 @@ jobs:
       - name: Send Telegram notification
         uses: dmzoneill/dmzoneill/.github/actions/telegram@main
         with:
-          message: "${{ github.sha }} ${{ github.repository }} published pling release"
+          message: "${{ github.repository }} - Published to Pling"
           telegram_bot_token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           telegram_chat_id: ${{ secrets.TELEGRAM_CHAT_ID }}
 
@@ -1223,7 +1223,7 @@ jobs:
       - name: Send Telegram notification
         uses: dmzoneill/dmzoneill/.github/actions/telegram@main
         with:
-          message: "${{ github.sha }} ${{ github.repository }} created deb"
+          message: "${{ github.repository }} - Created .deb package"
           telegram_bot_token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           telegram_chat_id: ${{ secrets.TELEGRAM_CHAT_ID }}
 
@@ -1282,7 +1282,7 @@ jobs:
       - name: Send Telegram notification
         uses: dmzoneill/dmzoneill/.github/actions/telegram@main
         with:
-          message: "${{ github.sha }} ${{ github.repository }} created rpm"
+          message: "${{ github.repository }} - Created .rpm package"
           telegram_bot_token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           telegram_chat_id: ${{ secrets.TELEGRAM_CHAT_ID }}
 
@@ -1310,7 +1310,7 @@ jobs:
       - name: Send Telegram notification
         uses: dmzoneill/dmzoneill/.github/actions/telegram@main
         with:
-          message: "${{ github.sha }} ${{ github.repository }} published to npmjs"
+          message: "${{ github.repository }} - Published to npm"
           telegram_bot_token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           telegram_chat_id: ${{ secrets.TELEGRAM_CHAT_ID }}
 
@@ -1370,7 +1370,7 @@ jobs:
       - name: Send Telegram notification
         uses: dmzoneill/dmzoneill/.github/actions/telegram@main
         with:
-          message: "${{ github.sha }} ${{ github.repository }} published container image"
+          message: "${{ github.repository }} - Published container image"
           telegram_bot_token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           telegram_chat_id: ${{ secrets.TELEGRAM_CHAT_ID }}
 
@@ -1516,7 +1516,7 @@ jobs:
       - name: Send Telegram notification
         uses: dmzoneill/dmzoneill/.github/actions/telegram@main
         with:
-          message: "${{ github.sha }} ${{ github.repository }} published flatpak"
+          message: "${{ github.repository }} - Published Flatpak"
           telegram_bot_token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           telegram_chat_id: ${{ secrets.TELEGRAM_CHAT_ID }}
 
@@ -1613,7 +1613,7 @@ jobs:
       - name: Send Telegram notification
         uses: dmzoneill/dmzoneill/.github/actions/telegram@main
         with:
-          message: "${{ github.sha }} ${{ github.repository }} published appimage"
+          message: "${{ github.repository }} - Published AppImage"
           telegram_bot_token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           telegram_chat_id: ${{ secrets.TELEGRAM_CHAT_ID }}
 
@@ -1702,7 +1702,7 @@ jobs:
       - name: Send Telegram notification
         uses: dmzoneill/dmzoneill/.github/actions/telegram@main
         with:
-          message: "${{ github.sha }} ${{ github.repository }} published snap"
+          message: "${{ github.repository }} - Published Snap"
           telegram_bot_token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           telegram_chat_id: ${{ secrets.TELEGRAM_CHAT_ID }}
 
@@ -1799,7 +1799,7 @@ jobs:
       - name: Send Telegram notification
         uses: dmzoneill/dmzoneill/.github/actions/telegram@main
         with:
-          message: "${{ github.sha }} ${{ github.repository }} published nix package"
+          message: "${{ github.repository }} - Published Nix package"
           telegram_bot_token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           telegram_chat_id: ${{ secrets.TELEGRAM_CHAT_ID }}
 
@@ -1858,7 +1858,7 @@ jobs:
       - name: Send Telegram notification
         uses: dmzoneill/dmzoneill/.github/actions/telegram@main
         with:
-          message: "${{ github.sha }} ${{ github.repository }} published to AUR"
+          message: "${{ github.repository }} - Published to AUR"
           telegram_bot_token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           telegram_chat_id: ${{ secrets.TELEGRAM_CHAT_ID }}
 
@@ -1907,7 +1907,7 @@ jobs:
       - name: Send Telegram notification
         uses: dmzoneill/dmzoneill/.github/actions/telegram@main
         with:
-          message: "${{ github.sha }} ${{ github.repository }} published to homebrew"
+          message: "${{ github.repository }} - Published to Homebrew"
           telegram_bot_token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           telegram_chat_id: ${{ secrets.TELEGRAM_CHAT_ID }}
 
@@ -1976,7 +1976,7 @@ jobs:
       - name: Send Telegram notification
         uses: dmzoneill/dmzoneill/.github/actions/telegram@main
         with:
-          message: "${{ github.sha }} ${{ github.repository }} published to chocolatey"
+          message: "${{ github.repository }} - Published to Chocolatey"
           telegram_bot_token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           telegram_chat_id: ${{ secrets.TELEGRAM_CHAT_ID }}
 
@@ -2067,7 +2067,7 @@ jobs:
       - name: Send Telegram notification
         uses: dmzoneill/dmzoneill/.github/actions/telegram@main
         with:
-          message: "${{ github.sha }} ${{ github.repository }} published to scoop"
+          message: "${{ github.repository }} - Published to Scoop"
           telegram_bot_token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           telegram_chat_id: ${{ secrets.TELEGRAM_CHAT_ID }}
 
@@ -2107,7 +2107,7 @@ jobs:
       - name: Send Telegram notification
         uses: dmzoneill/dmzoneill/.github/actions/telegram@main
         with:
-          message: "${{ github.sha }} ${{ github.repository }} published to winget"
+          message: "${{ github.repository }} - Published to WinGet"
           telegram_bot_token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           telegram_chat_id: ${{ secrets.TELEGRAM_CHAT_ID }}
 
@@ -2186,7 +2186,7 @@ jobs:
       - name: Send Telegram notification
         uses: dmzoneill/dmzoneill/.github/actions/telegram@main
         with:
-          message: "${{ github.sha }} ${{ github.repository }} published blog post"
+          message: "${{ github.repository }} - Published blog post"
           telegram_bot_token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           telegram_chat_id: ${{ secrets.TELEGRAM_CHAT_ID }}
 
@@ -2207,6 +2207,6 @@ jobs:
       - name: Notify Telegram pipeline finished
         uses: dmzoneill/dmzoneill/.github/actions/telegram@main
         with:
-          message: ${{ github.sha }}
+          message: "${{ github.repository }} - Pipeline finished (${{ github.ref_name }})"
           telegram_bot_token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           telegram_chat_id: ${{ secrets.TELEGRAM_CHAT_ID }}

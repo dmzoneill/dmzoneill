@@ -31,6 +31,9 @@ def main():
 
     try:
         resp = requests.post(url, json=payload)
+        if resp.status_code == 429:
+            print(f"Telegram rate limited (429): {resp.text}")
+            sys.exit(0)
         resp.raise_for_status()
         print(f"Telegram response: {resp.json()}")
     except Exception as e:

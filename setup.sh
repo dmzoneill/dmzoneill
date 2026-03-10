@@ -228,4 +228,31 @@ while true; do
   page=$((page+1))
 done
 
+# Trigger CI on all owned repos via repository_dispatch
+if [ -n "$GITHUB_TOKEN" ]; then
+  echo "Dispatching refresh event to all owned repos..."
+  page=1
+  while true; do
+    body_file="$tmpdir/dispatch_body.$page"
+    curl -sS -H "Authorization: token $GITHUB_TOKEN" \
+      -o "$body_file" \
+      "https://api.github.com/user/repos?per_page=$per_page&page=$page"
+
+    repos=$(jq -r --arg OWNER "$user" '.[] | select(.owner.login == $OWNER) | .full_name' "$body_file" 2>/dev/null)
+    [ -z "$repos" ] && break
+
+    for repo_full in $repos; do
+      if [ -n "$current_full" ] && [ "$repo_full" = "$current_full" ]; then
+        continue
+      fi
+      echo "Dispatching refresh to $repo_full"
+      gh api "repos/$repo_full/dispatches" -f event_type=refresh 2>/dev/null || echo "Failed to dispatch to $repo_full"
+    done
+
+    count=$(jq 'length' "$body_file" 2>/dev/null || echo 0)
+    [ "$count" -lt "$per_page" ] && break
+    page=$((page+1))
+  done
+fi
+
 exit 0

@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-12/03/2026 18:19:09-brightgreen" height='28'/> &nbsp;&nbsp; <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=dmzoneill&color=brightgreen&style=for-the-badge" height='28'/> &nbsp;&nbsp; <img alt="Redhat" width='30' height='25' src="https://github.com/dmzoneill/dmzoneill/blob/main/images/redhat.svg?raw=true" />
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-13/03/2026 00:22:07-brightgreen" height='28'/> &nbsp;&nbsp; <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=dmzoneill&color=brightgreen&style=for-the-badge" height='28'/> &nbsp;&nbsp; <img alt="Redhat" width='30' height='25' src="https://github.com/dmzoneill/dmzoneill/blob/main/images/redhat.svg?raw=true" />
 
 <img src="generated/timeline.svg" width="760" alt="timeline"/>
 
@@ -32,11 +32,11 @@
 
 <details>
 <summary><strong>Issues (13)</strong></summary>
-<ul><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/15'>Question about sessions and events.</a> 2026-03-06</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/29'>[FR] Only search for missing songs from artists with a given tag</a> 2026-02-18</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/28'>Stuck?</a> 2026-02-18</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/25'>Most releases found are missing tracks</a> 2026-02-19</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/23'>Track Format & FFMPEG not adding metadata</a> 2026-02-19</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/21'>Issue with Lidarr recognizing downloaded audio and incorrect metadata in Jellyfin</a> 2026-02-19</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/7'>Truenas, Kubernetes, Lidarr and LYD</a> 2026-02-19</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/5'>FR: ability to filter results</a> 2026-02-19</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/3'>docker-compose</a> 2026-02-19</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/1'>Docker Build</a> 2026-02-19</li><li><a href='https://github.com/dmzoneill/tado-gnome-shell-extension/issues/2'>Got this message after trying to enable it (Gnome45):</a> 2026-02-18</li><li><a href='https://github.com/dmzoneill/php-binance-bot/issues/1'>Causes my IP to be blocked </a> 2026-02-19</li><li><a href='https://github.com/dmzoneill/seedmagepp/issues/1'>Questions : difference between Uploaded and session_uploaded and Enhancement for already downloaded file.</a> 2026-02-18</li></ul>
+<ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/29'>[FR] Only search for missing songs from artists with a given tag</a> 2026-02-18</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/28'>Stuck?</a> 2026-02-18</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/25'>Most releases found are missing tracks</a> 2026-02-19</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/23'>Track Format & FFMPEG not adding metadata</a> 2026-02-19</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/21'>Issue with Lidarr recognizing downloaded audio and incorrect metadata in Jellyfin</a> 2026-02-19</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/7'>Truenas, Kubernetes, Lidarr and LYD</a> 2026-02-19</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/5'>FR: ability to filter results</a> 2026-02-19</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/3'>docker-compose</a> 2026-02-19</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/1'>Docker Build</a> 2026-02-19</li><li><a href='https://github.com/dmzoneill/tado-gnome-shell-extension/issues/2'>Got this message after trying to enable it (Gnome45):</a> 2026-02-18</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/15'>Question about sessions and events.</a> 2026-03-06</li><li><a href='https://github.com/dmzoneill/php-binance-bot/issues/1'>Causes my IP to be blocked </a> 2026-02-19</li><li><a href='https://github.com/dmzoneill/seedmagepp/issues/1'>Questions : difference between Uploaded and session_uploaded and Enhancement for already downloaded file.</a> 2026-02-18</li></ul>
 </details>
 <details>
-<summary><strong>Pull Requests (0)</strong></summary>
-<ul></ul>
+<summary><strong>Pull Requests (2)</strong></summary>
+<ul><li><a href='https://github.com/dmzoneill/DFakeSeeder/pull/16'>chore(deps-dev): bump black from 22.12.0 to 26.3.1</a> 2026-03-12</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/pull/16'>chore(deps-dev): bump black from 22.12.0 to 26.3.1</a> 2026-03-12</li></ul>
 </details>
 <details>
 <summary><strong>Recent Activity (100)</strong></summary>
@@ -63,33 +63,33 @@
   </thead>
   <tbody>
     <tr><td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>13782492</td>
-<td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>2290130</td>
-<td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>431295</td>
-<td><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript'  height='20px'/></td><td>10655690</td>
-</tr><tr>
-<td><img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS'  height='20px'/></td><td>6101663</td>
-<td><img src='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' title='Go'  height='20px'/></td><td>1623143</td>
-<td><img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML'  height='20px'/></td><td>13170950</td>
-<td><img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile'  height='20px'/></td><td>11180</td>
-</tr><tr>
 <td><img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript'  height='20px'/></td><td>1566621</td>
+<td><img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS'  height='20px'/></td><td>6101663</td>
+<td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>431295</td>
+</tr><tr>
+<td><img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML'  height='20px'/></td><td>13170950</td>
+<td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>2290130</td>
+<td><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript'  height='20px'/></td><td>10655690</td>
+<td><img src='https://img.shields.io/badge/_-Jinja -11DDDD.svg?style=for-the-badge' title='Jinja'  height='20px'/></td><td>405575</td>
+</tr><tr>
+<td><img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile'  height='20px'/></td><td>11180</td>
+<td><img src='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' title='Go'  height='20px'/></td><td>1623143</td>
 <td><img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP'  height='20px'/></td><td>91088717</td>
 <td><img src='https://img.shields.io/badge/_-Go Template -11DDDD.svg?style=for-the-badge' title='Go Template'  height='20px'/></td><td>134526</td>
-<td><img src='https://img.shields.io/badge/_-XSLT -11DDDD.svg?style=for-the-badge' title='XSLT'  height='20px'/></td><td>190587</td>
 </tr><tr>
+<td><img src='https://img.shields.io/badge/_-XSLT -11DDDD.svg?style=for-the-badge' title='XSLT'  height='20px'/></td><td>190587</td>
 <td><img src='https://img.shields.io/badge/_-Hack -11DDDD.svg?style=for-the-badge' title='Hack'  height='20px'/></td><td>241924</td>
 <td><img src='https://img.shields.io/badge/perl-%2339457E.svg?style=for-the-badge&logo=perl&logoColor=white' title='Perl'  height='20px'/></td><td>9291917</td>
 <td><img src='https://img.shields.io/badge/_-Raku -11DDDD.svg?style=for-the-badge' title='Raku'  height='20px'/></td><td>1676531</td>
-<td><img src='https://img.shields.io/badge/_-Smarty -11DDDD.svg?style=for-the-badge' title='Smarty'  height='20px'/></td><td>1999142</td>
 </tr><tr>
+<td><img src='https://img.shields.io/badge/_-Smarty -11DDDD.svg?style=for-the-badge' title='Smarty'  height='20px'/></td><td>1999142</td>
 <td><img src='https://img.shields.io/badge/_-TSQL -11DDDD.svg?style=for-the-badge' title='TSQL'  height='20px'/></td><td>163674</td>
 <td><img src='https://img.shields.io/badge/_-ActionScript -11DDDD.svg?style=for-the-badge' title='ActionScript'  height='20px'/></td><td>32949</td>
 <td><img src='https://img.shields.io/badge/_-Visual Basic .NET -11DDDD.svg?style=for-the-badge' title='Visual Basic .NET'  height='20px'/></td><td>758279</td>
-<td><img src='https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white' title='C++'  height='20px'/></td><td>359606</td>
 </tr><tr>
+<td><img src='https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white' title='C++'  height='20px'/></td><td>359606</td>
 <td><img src='https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white' title='C'  height='20px'/></td><td>10624654</td>
 <td><img src='https://img.shields.io/badge/_-PLSQL -11DDDD.svg?style=for-the-badge' title='PLSQL'  height='20px'/></td><td>60389</td>
-<td><img src='https://img.shields.io/badge/_-Jinja -11DDDD.svg?style=for-the-badge' title='Jinja'  height='20px'/></td><td>405575</td>
 <td><img src='https://img.shields.io/badge/_-SCSS -11DDDD.svg?style=for-the-badge' title='SCSS'  height='20px'/></td><td>50670</td>
 </tr><tr>
 <td><img src='https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white' title='Ruby'  height='20px'/></td><td>502344</td>
@@ -142,22 +142,6 @@
   <tbody>
     <tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/dmzoneill' title='dmzoneill'>dmzoneill</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
-              <p>Apache License 2.0</p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-            </td>
-            <td>
-              <p><a href='https://github.com/dmzoneill' title='Github profile'>Github profile</a></p>
-            </td>
-            <td align="center">
-              <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2026-03-12</p>
-            </td>
-        </tr>
-<tr>
-            <td>
               <p><h2><a href='https://github.com/dmzoneill/redhat-ai-workflow' title='redhat-ai-workflow'>redhat-ai-workflow</a> (2025)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
@@ -170,6 +154,38 @@
             <td align="center">
               <a href='https://github.com/dmzoneill/redhat-ai-workflow/actions'><img src='https://github.com/dmzoneill//redhat-ai-workflow/actions/workflows/main.yml/badge.svg'/></a>
               <p>2026-03-10</p>
+            </td>
+        </tr>
+<tr>
+            <td>
+              <p><h2><a href='https://github.com/dmzoneill/DFakeSeeder' title='DFakeSeeder'>DFakeSeeder</a> (2024)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/</p>
+              <p>Apache License 2.0</p>
+              <p><ul></ul></p>
+              <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/15'>Question about sessions and events.</a> 2026-03-10</li></ul></p>
+              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/DFakeSeeder/pull/16'>chore(deps-dev): bump black from 22.12.0 to 26.3.1</a> 2026-03-10</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/pull/16'>chore(deps-dev): bump black from 22.12.0 to 26.3.1</a> 2026-03-10</li></ul></p>
+            </td>
+            <td>
+              <p><a href='https://github.com/dmzoneill/DFakeSeeder' title='DFakeSeeder'>DFakeSeeder</a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/DFakeSeeder/actions'><img src='https://github.com/dmzoneill//DFakeSeeder/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2026-03-10</p>
+            </td>
+        </tr>
+<tr>
+            <td>
+              <p><h2><a href='https://github.com/dmzoneill/dmzoneill' title='dmzoneill'>dmzoneill</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
+              <p>Apache License 2.0</p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+            </td>
+            <td>
+              <p><a href='https://github.com/dmzoneill' title='Github profile'>Github profile</a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2026-03-12</p>
             </td>
         </tr>
 <tr>
@@ -265,22 +281,6 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/gnome-extension-publisher/actions'><img src='https://github.com/dmzoneill//gnome-extension-publisher/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2026-03-10</p>
-            </td>
-        </tr>
-<tr>
-            <td>
-              <p><h2><a href='https://github.com/dmzoneill/DFakeSeeder' title='DFakeSeeder'>DFakeSeeder</a> (2024)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/</p>
-              <p>Apache License 2.0</p>
-              <p><ul></ul></p>
-              <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/15'>Question about sessions and events.</a> 2026-03-10</li></ul></p>
-              <p><ul></ul></p>
-            </td>
-            <td>
-              <p><a href='https://github.com/dmzoneill/DFakeSeeder' title='DFakeSeeder'>DFakeSeeder</a></p>
-            </td>
-            <td align="center">
-              <a href='https://github.com/dmzoneill/DFakeSeeder/actions'><img src='https://github.com/dmzoneill//DFakeSeeder/actions/workflows/main.yml/badge.svg'/></a>
               <p>2026-03-10</p>
             </td>
         </tr>

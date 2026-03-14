@@ -117,6 +117,21 @@
     "t": 1773469023.3578384,
     "v": {}
   },
+  "https://api.github.com/repos/dmzoneill/pass-gnome-extension/issues?state=open": {
+    "t": 1773490157.677564,
+    "v": [
+      {
+        "html_url": "https://github.com/dmzoneill/pass-gnome-extension/issues/3",
+        "title": "More uniform UI?",
+        "updated_at": "2026-03-14T10:21:32Z",
+        "url": "https://api.github.com/repos/dmzoneill/pass-gnome-extension/issues/3"
+      }
+    ]
+  },
+  "https://api.github.com/repos/dmzoneill/pass-gnome-extension/pulls?state=open": {
+    "t": 1773490158.3138745,
+    "v": []
+  },
   "https://api.github.com/repos/dmzoneill/pass/languages": {
     "t": 1773469020.0180106,
     "v": {}

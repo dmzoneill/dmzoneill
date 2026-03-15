@@ -47,7 +47,8 @@ def get_pr_diff(repo, pr_number, github_token):
 
 def generate_ai_reply(prompt_text):
     result = subprocess.run(
-        ["claude", "--print", "--prompt", prompt_text],
+        ["claude", "--print"],
+        input=prompt_text,
         capture_output=True,
         text=True,
         timeout=120,

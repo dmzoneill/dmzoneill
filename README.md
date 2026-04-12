@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-12/04/2026 00:27:59-brightgreen" height='28'/> &nbsp;&nbsp; <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=dmzoneill&color=brightgreen&style=for-the-badge" height='28'/> &nbsp;&nbsp; <img alt="Redhat" width='30' height='25' src="https://github.com/dmzoneill/dmzoneill/blob/main/images/redhat.svg?raw=true" />
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-12/04/2026 06:34:26-brightgreen" height='28'/> &nbsp;&nbsp; <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=dmzoneill&color=brightgreen&style=for-the-badge" height='28'/> &nbsp;&nbsp; <img alt="Redhat" width='30' height='25' src="https://github.com/dmzoneill/dmzoneill/blob/main/images/redhat.svg?raw=true" />
 
 <img src="generated/timeline.svg" width="760" alt="timeline"/>
 
@@ -39,7 +39,7 @@
 <ul><li><a href='https://github.com/dmzoneill/DFakeSeeder/pull/19'>chore(deps): bump aiohttp from 3.13.3 to 3.13.4</a> 2026-04-01</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/pull/19'>chore(deps): bump aiohttp from 3.13.3 to 3.13.4</a> 2026-04-01</li><li><a href='https://github.com/dmzoneill/pass-gnome-extension/pull/5'>Bump picomatch from 2.3.1 to 2.3.2</a> 2026-04-07</li><li><a href='https://github.com/dmzoneill/pass-gnome-extension/pull/5'>Bump picomatch from 2.3.1 to 2.3.2</a> 2026-04-07</li></ul>
 </details>
 <details>
-<summary><strong>Recent Activity (56)</strong></summary>
+<summary><strong>Recent Activity (58)</strong></summary>
 <ul><li><a href='https://github.com/paperclipai/paperclip/issues/1968'>How to remove skills?</a></li><li><a href='https://github.com/micheleg/dash-to-dock/pull/2470'>Add window preview on hover with Aero Peek and configurable animations</a></li><li><a href='https://api.github.com/repos/dmzoneill-forks/dash-to-dock'>dmzoneill-forks/dash-to-dock</a></li><li><a href='https://github.com/gnome-terminator/terminator/pull/1057'>fix: remove unused GObject and Gtk imports with legacy aliases</a></li><li><a href='https://github.com/dmzoneill/pass-gnome-extension/issues/3'>More uniform UI?</a></li><li><a href='https://github.com/anthropics/claude-code/issues/33178'>[BUG]  Many Times in claude i recived this api error message: API Error: request to https://oauth2.googleapis.com/token failed</a></li></ul>
 </details>
 <details>
@@ -63,18 +63,18 @@
   </thead>
   <tbody>
     <tr><td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>13782494</td>
-<td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>2290130</td>
-<td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>431295</td>
-<td><img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript'  height='20px'/></td><td>1566621</td>
-</tr><tr>
-<td><img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS'  height='20px'/></td><td>6101663</td>
-<td><img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML'  height='20px'/></td><td>13170950</td>
 <td><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript'  height='20px'/></td><td>10655690</td>
+<td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>431295</td>
+<td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>2290130</td>
+</tr><tr>
+<td><img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML'  height='20px'/></td><td>13170950</td>
+<td><img src='https://img.shields.io/badge/_-Jinja -11DDDD.svg?style=for-the-badge' title='Jinja'  height='20px'/></td><td>405575</td>
+<td><img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS'  height='20px'/></td><td>6101663</td>
 <td><img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile'  height='20px'/></td><td>11180</td>
 </tr><tr>
+<td><img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript'  height='20px'/></td><td>1566621</td>
 <td><img src='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' title='Go'  height='20px'/></td><td>1625019</td>
 <td><img src='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' title='Java'  height='20px'/></td><td>2071977</td>
-<td><img src='https://img.shields.io/badge/_-Jinja -11DDDD.svg?style=for-the-badge' title='Jinja'  height='20px'/></td><td>405575</td>
 <td><img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP'  height='20px'/></td><td>91088717</td>
 </tr><tr>
 <td><img src='https://img.shields.io/badge/_-Go Template -11DDDD.svg?style=for-the-badge' title='Go Template'  height='20px'/></td><td>134526</td>
@@ -142,6 +142,38 @@
   <tbody>
     <tr>
             <td>
+              <p><h2><a href='https://github.com/dmzoneill/DFakeSeeder' title='DFakeSeeder'>DFakeSeeder</a> (2024)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/</p>
+              <p>Apache License 2.0</p>
+              <p><ul></ul></p>
+              <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/15'>Question about sessions and events.</a> 2026-04-12</li></ul></p>
+              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/DFakeSeeder/pull/19'>chore(deps): bump aiohttp from 3.13.3 to 3.13.4</a> 2026-04-12</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/pull/19'>chore(deps): bump aiohttp from 3.13.3 to 3.13.4</a> 2026-04-12</li></ul></p>
+            </td>
+            <td>
+              <p><a href='https://github.com/dmzoneill/DFakeSeeder' title='DFakeSeeder'>DFakeSeeder</a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/DFakeSeeder/actions'><img src='https://github.com/dmzoneill//DFakeSeeder/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2026-04-12</p>
+            </td>
+        </tr>
+<tr>
+            <td>
+              <p><h2><a href='https://github.com/dmzoneill/Chuckbot' title='Chuckbot'>Chuckbot</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/</p>
+              <p>Apache License 2.0</p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+            </td>
+            <td>
+              <p><a href='https://wa.me/96592226837' title='Chat with chuck'>Chat with chuck</a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/Chuckbot/actions'><img src='https://github.com/dmzoneill//Chuckbot/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2026-04-12</p>
+            </td>
+        </tr>
+<tr>
+            <td>
               <p><h2><a href='https://github.com/dmzoneill/dmzoneill' title='dmzoneill'>dmzoneill</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
@@ -153,7 +185,7 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2026-04-11</p>
+              <p>2026-04-12</p>
             </td>
         </tr>
 <tr>
@@ -170,38 +202,6 @@
             <td align="center">
               <a href='https://github.com/dmzoneill/redhat-ai-workflow/actions'><img src='https://github.com/dmzoneill//redhat-ai-workflow/actions/workflows/main.yml/badge.svg'/></a>
               <p>2026-04-01</p>
-            </td>
-        </tr>
-<tr>
-            <td>
-              <p><h2><a href='https://github.com/dmzoneill/Chuckbot' title='Chuckbot'>Chuckbot</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/</p>
-              <p>Apache License 2.0</p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-            </td>
-            <td>
-              <p><a href='https://wa.me/96592226837' title='Chat with chuck'>Chat with chuck</a></p>
-            </td>
-            <td align="center">
-              <a href='https://github.com/dmzoneill/Chuckbot/actions'><img src='https://github.com/dmzoneill//Chuckbot/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2026-03-31</p>
-            </td>
-        </tr>
-<tr>
-            <td>
-              <p><h2><a href='https://github.com/dmzoneill/DFakeSeeder' title='DFakeSeeder'>DFakeSeeder</a> (2024)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/</p>
-              <p>Apache License 2.0</p>
-              <p><ul></ul></p>
-              <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/15'>Question about sessions and events.</a> 2026-03-31</li></ul></p>
-              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/DFakeSeeder/pull/19'>chore(deps): bump aiohttp from 3.13.3 to 3.13.4</a> 2026-03-31</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/pull/19'>chore(deps): bump aiohttp from 3.13.3 to 3.13.4</a> 2026-03-31</li></ul></p>
-            </td>
-            <td>
-              <p><a href='https://github.com/dmzoneill/DFakeSeeder' title='DFakeSeeder'>DFakeSeeder</a></p>
-            </td>
-            <td align="center">
-              <a href='https://github.com/dmzoneill/DFakeSeeder/actions'><img src='https://github.com/dmzoneill//DFakeSeeder/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2026-03-31</p>
             </td>
         </tr>
 <tr>
@@ -313,7 +313,7 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/filebot-nautilus/actions'><img src='https://github.com/dmzoneill//filebot-nautilus/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2026-03-10</p>
+              <p>2026-04-12</p>
             </td>
         </tr>
 <tr>
@@ -906,7 +906,7 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/redhatter/actions'><img src='https://github.com/dmzoneill//redhatter/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2026-04-01</p>
+              <p>2026-04-12</p>
             </td>
         </tr>
 <tr>

@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-16/04/2026 12:24:56-brightgreen" height='28'/> &nbsp;&nbsp; <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=dmzoneill&color=brightgreen&style=for-the-badge" height='28'/> &nbsp;&nbsp; <img alt="Redhat" width='30' height='25' src="https://github.com/dmzoneill/dmzoneill/blob/main/images/redhat.svg?raw=true" />
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-16/04/2026 18:28:25-brightgreen" height='28'/> &nbsp;&nbsp; <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=dmzoneill&color=brightgreen&style=for-the-badge" height='28'/> &nbsp;&nbsp; <img alt="Redhat" width='30' height='25' src="https://github.com/dmzoneill/dmzoneill/blob/main/images/redhat.svg?raw=true" />
 
 <img src="generated/timeline.svg" width="760" alt="timeline"/>
 
@@ -39,7 +39,7 @@
 <ul><li><a href='https://github.com/dmzoneill/pass-gnome-extension/pull/5'>Bump picomatch from 2.3.1 to 2.3.2</a> 2026-04-07</li><li><a href='https://github.com/dmzoneill/pass-gnome-extension/pull/5'>Bump picomatch from 2.3.1 to 2.3.2</a> 2026-04-07</li></ul>
 </details>
 <details>
-<summary><strong>Recent Activity (59)</strong></summary>
+<summary><strong>Recent Activity (58)</strong></summary>
 <ul><li><a href='https://github.com/dmzoneill/DFakeSeeder/pull/19'>chore(deps): bump aiohttp from 3.13.3 to 3.13.4</a></li><li><a href='https://github.com/paperclipai/paperclip/issues/1968'>How to remove skills?</a></li><li><a href='https://github.com/micheleg/dash-to-dock/pull/2470'>Add window preview on hover with Aero Peek and configurable animations</a></li><li><a href='https://api.github.com/repos/dmzoneill-forks/dash-to-dock'>dmzoneill-forks/dash-to-dock</a></li><li><a href='https://github.com/gnome-terminator/terminator/pull/1057'>fix: remove unused GObject and Gtk imports with legacy aliases</a></li></ul>
 </details>
 <details>

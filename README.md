@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-18/04/2026 12:13:30-brightgreen" height='28'/> &nbsp;&nbsp; <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=dmzoneill&color=brightgreen&style=for-the-badge" height='28'/> &nbsp;&nbsp; <img alt="Redhat" width='30' height='25' src="https://github.com/dmzoneill/dmzoneill/blob/main/images/redhat.svg?raw=true" />
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-18/04/2026 18:14:47-brightgreen" height='28'/> &nbsp;&nbsp; <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=dmzoneill&color=brightgreen&style=for-the-badge" height='28'/> &nbsp;&nbsp; <img alt="Redhat" width='30' height='25' src="https://github.com/dmzoneill/dmzoneill/blob/main/images/redhat.svg?raw=true" />
 
 <img src="generated/timeline.svg" width="760" alt="timeline"/>
 
@@ -35,8 +35,8 @@
 <ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/29'>[FR] Only search for missing songs from artists with a given tag</a> 2026-02-18</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/28'>Stuck?</a> 2026-02-18</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/25'>Most releases found are missing tracks</a> 2026-03-30</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/23'>Track Format & FFMPEG not adding metadata</a> 2026-02-19</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/21'>Issue with Lidarr recognizing downloaded audio and incorrect metadata in Jellyfin</a> 2026-02-19</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/7'>Truenas, Kubernetes, Lidarr and LYD</a> 2026-02-19</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/5'>FR: ability to filter results</a> 2026-02-19</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/3'>docker-compose</a> 2026-02-19</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/1'>Docker Build</a> 2026-02-19</li><li><a href='https://github.com/dmzoneill/tado-gnome-shell-extension/issues/2'>Got this message after trying to enable it (Gnome45):</a> 2026-02-18</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/15'>Question about sessions and events.</a> 2026-03-06</li><li><a href='https://github.com/dmzoneill/pass-gnome-extension/issues/3'>More uniform UI?</a> 2026-04-07</li><li><a href='https://github.com/dmzoneill/php-binance-bot/issues/1'>Causes my IP to be blocked </a> 2026-02-19</li><li><a href='https://github.com/dmzoneill/seedmagepp/issues/1'>Questions : difference between Uploaded and session_uploaded and Enhancement for already downloaded file.</a> 2026-02-18</li></ul>
 </details>
 <details>
-<summary><strong>Pull Requests (2)</strong></summary>
-<ul><li><a href='https://github.com/dmzoneill/pass-gnome-extension/pull/5'>Bump picomatch from 2.3.1 to 2.3.2</a> 2026-04-07</li><li><a href='https://github.com/dmzoneill/pass-gnome-extension/pull/5'>Bump picomatch from 2.3.1 to 2.3.2</a> 2026-04-07</li></ul>
+<summary><strong>Pull Requests (0)</strong></summary>
+<ul></ul>
 </details>
 <details>
 <summary><strong>Recent Activity (64)</strong></summary>
@@ -531,7 +531,7 @@
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/pass-gnome-extension/issues/3'>More uniform UI?</a> 2026-04-18</li></ul></p>
-              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/pass-gnome-extension/pull/5'>Bump picomatch from 2.3.1 to 2.3.2</a> 2026-04-18</li><li><a href='https://github.com/dmzoneill/pass-gnome-extension/pull/5'>Bump picomatch from 2.3.1 to 2.3.2</a> 2026-04-18</li></ul></p>
+              <p><ul></ul></p>
             </td>
             <td>
               <p><a href='' title=''></a></p>
@@ -611,7 +611,7 @@
               <p></p>
               <p><ul></ul></p>
               <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/pass-gnome-extension/issues/3'>More uniform UI?</a> 2026-04-18</li></ul></p>
-              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/pass-gnome-extension/pull/5'>Bump picomatch from 2.3.1 to 2.3.2</a> 2026-04-18</li><li><a href='https://github.com/dmzoneill/pass-gnome-extension/pull/5'>Bump picomatch from 2.3.1 to 2.3.2</a> 2026-04-18</li></ul></p>
+              <p><ul></ul></p>
             </td>
             <td>
               <p><a href='' title=''></a></p>

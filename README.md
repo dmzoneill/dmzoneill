@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-19/04/2026 04:53:14-brightgreen" height='28'/> &nbsp;&nbsp; <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=dmzoneill&color=brightgreen&style=for-the-badge" height='28'/> &nbsp;&nbsp; <img alt="Redhat" width='30' height='25' src="https://github.com/dmzoneill/dmzoneill/blob/main/images/redhat.svg?raw=true" />
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-19/04/2026 06:36:48-brightgreen" height='28'/> &nbsp;&nbsp; <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=dmzoneill&color=brightgreen&style=for-the-badge" height='28'/> &nbsp;&nbsp; <img alt="Redhat" width='30' height='25' src="https://github.com/dmzoneill/dmzoneill/blob/main/images/redhat.svg?raw=true" />
 
 <img src="generated/timeline.svg" width="760" alt="timeline"/>
 
@@ -39,7 +39,7 @@
 <ul></ul>
 </details>
 <details>
-<summary><strong>Recent Activity (77)</strong></summary>
+<summary><strong>Recent Activity (84)</strong></summary>
 <ul><li><a href='https://api.github.com/repos/dmzoneill/bin'>dmzoneill/bin</a></li><li><a href='https://api.github.com/repos/dmzoneill/bashrc'>dmzoneill/bashrc</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/pull/19'>chore(deps): bump aiohttp from 3.13.3 to 3.13.4</a></li><li><a href='https://github.com/paperclipai/paperclip/issues/1968'>How to remove skills?</a></li><li><a href='https://github.com/micheleg/dash-to-dock/pull/2470'>Add window preview on hover with Aero Peek and configurable animations</a></li><li><a href='https://api.github.com/repos/dmzoneill-forks/dash-to-dock'>dmzoneill-forks/dash-to-dock</a></li><li><a href='https://github.com/gnome-terminator/terminator/pull/1057'>fix: remove unused GObject and Gtk imports with legacy aliases</a></li></ul>
 </details>
 <details>
@@ -62,17 +62,17 @@
     </tr>
   </thead>
   <tbody>
-    <tr><td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>13906608</td>
+    <tr><td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>13906648</td>
 <td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>2309492</td>
 <td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>431331</td>
 <td><img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS'  height='20px'/></td><td>6101663</td>
 </tr><tr>
 <td><img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile'  height='20px'/></td><td>11180</td>
-<td><img src='https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white' title='Ruby'  height='20px'/></td><td>505556</td>
 <td><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript'  height='20px'/></td><td>10655690</td>
-<td><img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript'  height='20px'/></td><td>1566621</td>
-</tr><tr>
 <td><img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML'  height='20px'/></td><td>13170950</td>
+<td><img src='https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white' title='Ruby'  height='20px'/></td><td>505556</td>
+</tr><tr>
+<td><img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript'  height='20px'/></td><td>1566621</td>
 <td><img src='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' title='Go'  height='20px'/></td><td>1625019</td>
 <td><img src='https://img.shields.io/badge/_-Jinja -11DDDD.svg?style=for-the-badge' title='Jinja'  height='20px'/></td><td>405575</td>
 <td><img src='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' title='Java'  height='20px'/></td><td>2071977</td>
@@ -158,6 +158,70 @@
         </tr>
 <tr>
             <td>
+              <p><h2><a href='https://github.com/dmzoneill/sodarr-chrome-plugin' title='sodarr-chrome-plugin'>sodarr-chrome-plugin</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/</p>
+              <p>Apache License 2.0</p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+            </td>
+            <td>
+              <p><a href='https://chrome.google.com/webstore/detail/sodarr/nndmepnfkempbbjjfhbogcidgfckakmb' title='Sodarr Google chrome extension'>Sodarr Google chrome extension</a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/sodarr-chrome-plugin/actions'><img src='https://github.com/dmzoneill//sodarr-chrome-plugin/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2026-04-19</p>
+            </td>
+        </tr>
+<tr>
+            <td>
+              <p><h2><a href='https://github.com/dmzoneill/gnome-extension-publisher' title='gnome-extension-publisher'>gnome-extension-publisher</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
+              <p>Apache License 2.0</p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+            </td>
+            <td>
+              <p><a href='https://pypi.org/project/gnome-extension-publisher/' title='Gnome Extension Publisher PYPI package'>Gnome Extension Publisher PYPI package</a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/gnome-extension-publisher/actions'><img src='https://github.com/dmzoneill//gnome-extension-publisher/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2026-04-19</p>
+            </td>
+        </tr>
+<tr>
+            <td>
+              <p><h2><a href='https://github.com/dmzoneill/tado-gnome-shell-extension' title='tado-gnome-shell-extension'>tado-gnome-shell-extension</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
+              <p>Apache License 2.0</p>
+              <p><ul></ul></p>
+              <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/tado-gnome-shell-extension/issues/2'>Got this message after trying to enable it (Gnome45):</a> 2026-04-19</li></ul></p>
+              <p><ul></ul></p>
+            </td>
+            <td>
+              <p><a href='https://extensions.gnome.org/extension/5606/tado/' title='Tado Gnome desktop extension'>Tado Gnome desktop extension</a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/tado-gnome-shell-extension/actions'><img src='https://github.com/dmzoneill//tado-gnome-shell-extension/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2026-04-19</p>
+            </td>
+        </tr>
+<tr>
+            <td>
+              <p><h2><a href='https://github.com/dmzoneill/pling-publisher' title='pling-publisher'>pling-publisher</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
+              <p>Apache License 2.0</p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+            </td>
+            <td>
+              <p><a href='https://pypi.org/project/pling-publisher/' title='Pling publisher'>Pling publisher</a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/pling-publisher/actions'><img src='https://github.com/dmzoneill//pling-publisher/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2026-04-19</p>
+            </td>
+        </tr>
+<tr>
+            <td>
               <p><h2><a href='https://github.com/dmzoneill/dmzoneill' title='dmzoneill'>dmzoneill</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
@@ -206,54 +270,6 @@
         </tr>
 <tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/tado-gnome-shell-extension' title='tado-gnome-shell-extension'>tado-gnome-shell-extension</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
-              <p>Apache License 2.0</p>
-              <p><ul></ul></p>
-              <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/tado-gnome-shell-extension/issues/2'>Got this message after trying to enable it (Gnome45):</a> 2026-03-10</li></ul></p>
-              <p><ul></ul></p>
-            </td>
-            <td>
-              <p><a href='https://extensions.gnome.org/extension/5606/tado/' title='Tado Gnome desktop extension'>Tado Gnome desktop extension</a></p>
-            </td>
-            <td align="center">
-              <a href='https://github.com/dmzoneill/tado-gnome-shell-extension/actions'><img src='https://github.com/dmzoneill//tado-gnome-shell-extension/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2026-03-10</p>
-            </td>
-        </tr>
-<tr>
-            <td>
-              <p><h2><a href='https://github.com/dmzoneill/sodarr-chrome-plugin' title='sodarr-chrome-plugin'>sodarr-chrome-plugin</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/</p>
-              <p>Apache License 2.0</p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-            </td>
-            <td>
-              <p><a href='https://chrome.google.com/webstore/detail/sodarr/nndmepnfkempbbjjfhbogcidgfckakmb' title='Sodarr Google chrome extension'>Sodarr Google chrome extension</a></p>
-            </td>
-            <td align="center">
-              <a href='https://github.com/dmzoneill/sodarr-chrome-plugin/actions'><img src='https://github.com/dmzoneill//sodarr-chrome-plugin/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2026-03-10</p>
-            </td>
-        </tr>
-<tr>
-            <td>
-              <p><h2><a href='https://github.com/dmzoneill/pling-publisher' title='pling-publisher'>pling-publisher</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
-              <p>Apache License 2.0</p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-            </td>
-            <td>
-              <p><a href='https://pypi.org/project/pling-publisher/' title='Pling publisher'>Pling publisher</a></p>
-            </td>
-            <td align="center">
-              <a href='https://github.com/dmzoneill/pling-publisher/actions'><img src='https://github.com/dmzoneill//pling-publisher/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2026-03-10</p>
-            </td>
-        </tr>
-<tr>
-            <td>
               <p><h2><a href='https://github.com/dmzoneill/lidarr-youtube-downloader' title='lidarr-youtube-downloader'>lidarr-youtube-downloader</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/> <img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile' height='20px'/</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
@@ -281,22 +297,6 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/jackett-indexarr/actions'><img src='https://github.com/dmzoneill//jackett-indexarr/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2026-03-10</p>
-            </td>
-        </tr>
-<tr>
-            <td>
-              <p><h2><a href='https://github.com/dmzoneill/gnome-extension-publisher' title='gnome-extension-publisher'>gnome-extension-publisher</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
-              <p>Apache License 2.0</p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-            </td>
-            <td>
-              <p><a href='https://pypi.org/project/gnome-extension-publisher/' title='Gnome Extension Publisher PYPI package'>Gnome Extension Publisher PYPI package</a></p>
-            </td>
-            <td align="center">
-              <a href='https://github.com/dmzoneill/gnome-extension-publisher/actions'><img src='https://github.com/dmzoneill//gnome-extension-publisher/actions/workflows/main.yml/badge.svg'/></a>
               <p>2026-03-10</p>
             </td>
         </tr>
@@ -530,7 +530,7 @@
               <p><h2><a href='https://github.com/dmzoneill/pass-gnome-extension' title='pass-gnome-extension'>pass-gnome-extension</a> (2025)</h2></p><p><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
-              <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/pass-gnome-extension/issues/3'>More uniform UI?</a> 2026-04-18</li></ul></p>
+              <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/pass-gnome-extension/issues/3'>More uniform UI?</a> 2026-04-19</li></ul></p>
               <p><ul></ul></p>
             </td>
             <td>
@@ -538,7 +538,7 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/pass-gnome-extension/actions'><img src='https://github.com/dmzoneill//pass-gnome-extension/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2026-04-18</p>
+              <p>2026-04-19</p>
             </td>
         </tr>
 <tr>

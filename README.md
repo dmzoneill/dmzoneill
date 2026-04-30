@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-30/04/2026 12:33:54-brightgreen" height='28'/> &nbsp;&nbsp; <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=dmzoneill&color=brightgreen&style=for-the-badge" height='28'/> &nbsp;&nbsp; <img alt="Redhat" width='30' height='25' src="https://github.com/dmzoneill/dmzoneill/blob/main/images/redhat.svg?raw=true" />
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-30/04/2026 18:32:57-brightgreen" height='28'/> &nbsp;&nbsp; <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=dmzoneill&color=brightgreen&style=for-the-badge" height='28'/> &nbsp;&nbsp; <img alt="Redhat" width='30' height='25' src="https://github.com/dmzoneill/dmzoneill/blob/main/images/redhat.svg?raw=true" />
 
 <img src="generated/timeline.svg" width="760" alt="timeline"/>
 
@@ -39,7 +39,7 @@
 <ul></ul>
 </details>
 <details>
-<summary><strong>Recent Activity (100)</strong></summary>
+<summary><strong>Recent Activity (95)</strong></summary>
 <ul><li><a href='https://github.com/dmzoneill/redhat-ai-workflow/pull/143'>chore(deps): bump onnx from 1.20.1 to 1.21.0</a></li><li><a href='https://github.com/dmzoneill/redhat-ai-workflow/pull/146'>chore(deps): bump pillow from 12.1.0 to 12.2.0</a></li><li><a href='https://github.com/dmzoneill/redhat-ai-workflow/pull/147'>chore(deps): bump pytest from 9.0.2 to 9.0.3</a></li><li><a href='https://github.com/dmzoneill/redhat-ai-workflow/pull/149'>chore(deps): bump python-multipart from 0.0.22 to 0.0.26</a></li><li><a href='https://github.com/dmzoneill/redhat-ai-workflow/pull/150'>chore(deps): bump pypdf from 6.9.2 to 6.10.2</a></li><li><a href='https://api.github.com/repos/dmzoneill/redhat-ai-workflow'>dmzoneill/redhat-ai-workflow</a></li><li><a href='https://api.github.com/repos/dmzoneill/bin'>dmzoneill/bin</a></li><li><a href='https://api.github.com/repos/dmzoneill/bashrc'>dmzoneill/bashrc</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/pull/19'>chore(deps): bump aiohttp from 3.13.3 to 3.13.4</a></li><li><a href='https://github.com/paperclipai/paperclip/issues/1968'>How to remove skills?</a></li></ul>
 </details>
 <details>
@@ -62,8 +62,8 @@
     </tr>
   </thead>
   <tbody>
-    <tr><td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>2311142</td>
-<td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>13909205</td>
+    <tr><td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>13909205</td>
+<td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>2311142</td>
 <td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>431331</td>
 <td><img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP'  height='20px'/></td><td>91088717</td>
 </tr><tr>

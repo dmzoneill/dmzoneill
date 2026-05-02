@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-01/05/2026 18:25:12-brightgreen" height='28'/> &nbsp;&nbsp; <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=dmzoneill&color=brightgreen&style=for-the-badge" height='28'/> &nbsp;&nbsp; <img alt="Redhat" width='30' height='25' src="https://github.com/dmzoneill/dmzoneill/blob/main/images/redhat.svg?raw=true" />
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-02/05/2026 00:34:36-brightgreen" height='28'/> &nbsp;&nbsp; <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=dmzoneill&color=brightgreen&style=for-the-badge" height='28'/> &nbsp;&nbsp; <img alt="Redhat" width='30' height='25' src="https://github.com/dmzoneill/dmzoneill/blob/main/images/redhat.svg?raw=true" />
 
 <img src="generated/timeline.svg" width="760" alt="timeline"/>
 
@@ -39,8 +39,8 @@
 <ul></ul>
 </details>
 <details>
-<summary><strong>Recent Activity (94)</strong></summary>
-<ul><li><a href='https://github.com/dmzoneill/redhat-ai-workflow/pull/143'>chore(deps): bump onnx from 1.20.1 to 1.21.0</a></li><li><a href='https://github.com/dmzoneill/redhat-ai-workflow/pull/146'>chore(deps): bump pillow from 12.1.0 to 12.2.0</a></li><li><a href='https://github.com/dmzoneill/redhat-ai-workflow/pull/147'>chore(deps): bump pytest from 9.0.2 to 9.0.3</a></li><li><a href='https://github.com/dmzoneill/redhat-ai-workflow/pull/149'>chore(deps): bump python-multipart from 0.0.22 to 0.0.26</a></li><li><a href='https://github.com/dmzoneill/redhat-ai-workflow/pull/150'>chore(deps): bump pypdf from 6.9.2 to 6.10.2</a></li><li><a href='https://api.github.com/repos/dmzoneill/redhat-ai-workflow'>dmzoneill/redhat-ai-workflow</a></li><li><a href='https://api.github.com/repos/dmzoneill/bin'>dmzoneill/bin</a></li><li><a href='https://api.github.com/repos/dmzoneill/bashrc'>dmzoneill/bashrc</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/pull/19'>chore(deps): bump aiohttp from 3.13.3 to 3.13.4</a></li><li><a href='https://github.com/paperclipai/paperclip/issues/1968'>How to remove skills?</a></li></ul>
+<summary><strong>Recent Activity (97)</strong></summary>
+<ul><li><a href='https://github.com/agrahn/Android-Password-Store/pull/865'>fix: normalize Conscrypt EdDSA keys for SSHJ host key verification</a></li><li><a href='https://github.com/agrahn/Android-Password-Store/pull/865'>fix: normalize Conscrypt EdDSA keys for SSHJ host key verification</a></li><li><a href='https://api.github.com/repos/dmzoneill-forks/Android-Password-Store'>dmzoneill-forks/Android-Password-Store</a></li><li><a href='https://github.com/dmzoneill/redhat-ai-workflow/pull/143'>chore(deps): bump onnx from 1.20.1 to 1.21.0</a></li><li><a href='https://github.com/dmzoneill/redhat-ai-workflow/pull/146'>chore(deps): bump pillow from 12.1.0 to 12.2.0</a></li><li><a href='https://github.com/dmzoneill/redhat-ai-workflow/pull/147'>chore(deps): bump pytest from 9.0.2 to 9.0.3</a></li><li><a href='https://github.com/dmzoneill/redhat-ai-workflow/pull/149'>chore(deps): bump python-multipart from 0.0.22 to 0.0.26</a></li><li><a href='https://github.com/dmzoneill/redhat-ai-workflow/pull/150'>chore(deps): bump pypdf from 6.9.2 to 6.10.2</a></li><li><a href='https://api.github.com/repos/dmzoneill/redhat-ai-workflow'>dmzoneill/redhat-ai-workflow</a></li><li><a href='https://api.github.com/repos/dmzoneill/bin'>dmzoneill/bin</a></li><li><a href='https://api.github.com/repos/dmzoneill/bashrc'>dmzoneill/bashrc</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/pull/19'>chore(deps): bump aiohttp from 3.13.3 to 3.13.4</a></li></ul>
 </details>
 <details>
 <summary><strong>Gists (13)</strong></summary>
@@ -610,7 +610,7 @@
               <p><h2><a href='https://github.com/dmzoneill/pass' title='pass'>pass</a> (2023)</h2></p><p></p>
               <p></p>
               <p><ul></ul></p>
-              <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/pass-gnome-extension/issues/3'>More uniform UI?</a> 2026-04-18</li></ul></p>
+              <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/pass-gnome-extension/issues/3'>More uniform UI?</a> 2026-05-01</li></ul></p>
               <p><ul></ul></p>
             </td>
             <td>
@@ -618,7 +618,7 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/pass/actions'><img src='https://github.com/dmzoneill//pass/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2026-04-18</p>
+              <p>2026-05-01</p>
             </td>
         </tr>
 <tr>

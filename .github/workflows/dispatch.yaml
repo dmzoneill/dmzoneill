@@ -396,6 +396,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Notify Telegram pipeline started
+        continue-on-error: true
         uses: dmzoneill/dmzoneill/.github/actions/telegram@main
         with:
           message: "${{ github.repository }} - Pipeline started (${{ github.ref_name }})"
@@ -2205,6 +2206,7 @@ jobs:
           fi
 
       - name: Notify Telegram pipeline finished
+        continue-on-error: true
         uses: dmzoneill/dmzoneill/.github/actions/telegram@main
         with:
           message: "${{ github.repository }} - Pipeline finished (${{ github.ref_name }})"

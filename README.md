@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-19/05/2026 07:14:51-brightgreen" height='28'/> &nbsp;&nbsp; <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=dmzoneill&color=brightgreen&style=for-the-badge" height='28'/> &nbsp;&nbsp; <img alt="Redhat" width='30' height='25' src="https://github.com/dmzoneill/dmzoneill/blob/main/images/redhat.svg?raw=true" />
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-19/05/2026 13:06:46-brightgreen" height='28'/> &nbsp;&nbsp; <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=dmzoneill&color=brightgreen&style=for-the-badge" height='28'/> &nbsp;&nbsp; <img alt="Redhat" width='30' height='25' src="https://github.com/dmzoneill/dmzoneill/blob/main/images/redhat.svg?raw=true" />
 
 <img src="generated/timeline.svg" width="760" alt="timeline"/>
 
@@ -39,7 +39,7 @@
 <ul><li><a href='https://github.com/dmzoneill/DFakeSeeder/pull/21'>chore(deps): bump urllib3 from 2.6.3 to 2.7.0</a> 2026-05-16</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/pull/21'>chore(deps): bump urllib3 from 2.6.3 to 2.7.0</a> 2026-05-16</li><li><a href='https://github.com/dmzoneill/pass-gnome-extension/pull/6'>Bump fast-uri from 3.0.6 to 3.1.2</a> 2026-05-15</li><li><a href='https://github.com/dmzoneill/pass-gnome-extension/pull/6'>Bump fast-uri from 3.0.6 to 3.1.2</a> 2026-05-15</li></ul>
 </details>
 <details>
-<summary><strong>Recent Activity (100)</strong></summary>
+<summary><strong>Recent Activity (89)</strong></summary>
 <ul><li><a href='https://github.com/dmzoneill/redhat-ai-workflow/pull/155'>chore(deps): bump python-multipart from 0.0.26 to 0.0.27</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/pull/21'>chore(deps): bump urllib3 from 2.6.3 to 2.7.0</a></li><li><a href='https://github.com/dmzoneill/redhatter/pull/10'>chore(deps): bump urllib3 from 2.6.3 to 2.7.0</a></li><li><a href='https://github.com/dmzoneill/pass-gnome-extension/pull/6'>Bump fast-uri from 3.0.6 to 3.1.2</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/pull/21'>chore(deps): bump urllib3 from 2.6.3 to 2.7.0</a></li><li><a href='https://github.com/dmzoneill/redhatter/pull/10'>chore(deps): bump urllib3 from 2.6.3 to 2.7.0</a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/30'>cancelled_wrong project</a></li><li><a href='https://github.com/dmzoneill/redhat-ai-workflow/pull/157'>chore(deps): bump authlib from 1.6.11 to 1.6.12</a></li><li><a href='https://github.com/dmzoneill/redhat-ai-workflow/pull/155'>chore(deps): bump python-multipart from 0.0.26 to 0.0.27</a></li><li><a href='https://github.com/dmzoneill/pass-gnome-extension/pull/6'>Bump fast-uri from 3.0.6 to 3.1.2</a></li><li><a href='https://github.com/dmzoneill/redhat-ai-workflow/pull/156'>chore(deps): bump urllib3 from 2.6.3 to 2.7.0</a></li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/71'>Bump axios from 1.15.0 to 1.15.2 in /frontend</a></li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/72'>Bump fast-uri from 3.0.6 to 3.1.2 in /frontend</a></li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/73'>Bump @babel/plugin-transform-modules-systemjs from 7.18.0 to 7.29.4 in /frontend</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/pull/21'>chore(deps): bump urllib3 from 2.6.3 to 2.7.0</a></li><li><a href='https://github.com/dmzoneill/redhatter/pull/10'>chore(deps): bump urllib3 from 2.6.3 to 2.7.0</a></li><li><a href='https://github.com/agrahn/Android-Password-Store/pull/865'>fix: normalize Conscrypt EdDSA keys for SSHJ host key verification</a></li><li><a href='https://github.com/agrahn/Android-Password-Store/pull/865'>fix: normalize Conscrypt EdDSA keys for SSHJ host key verification</a></li><li><a href='https://api.github.com/repos/dmzoneill-forks/Android-Password-Store'>dmzoneill-forks/Android-Password-Store</a></li><li><a href='https://github.com/dmzoneill/redhat-ai-workflow/pull/143'>chore(deps): bump onnx from 1.20.1 to 1.21.0</a></li><li><a href='https://github.com/dmzoneill/redhat-ai-workflow/pull/146'>chore(deps): bump pillow from 12.1.0 to 12.2.0</a></li><li><a href='https://github.com/dmzoneill/redhat-ai-workflow/pull/147'>chore(deps): bump pytest from 9.0.2 to 9.0.3</a></li><li><a href='https://github.com/dmzoneill/redhat-ai-workflow/pull/149'>chore(deps): bump python-multipart from 0.0.22 to 0.0.26</a></li><li><a href='https://github.com/dmzoneill/redhat-ai-workflow/pull/150'>chore(deps): bump pypdf from 6.9.2 to 6.10.2</a></li><li><a href='https://api.github.com/repos/dmzoneill/redhat-ai-workflow'>dmzoneill/redhat-ai-workflow</a></li></ul>
 </details>
 <details>
@@ -62,9 +62,9 @@
     </tr>
   </thead>
   <tbody>
-    <tr><td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>13973757</td>
+    <tr><td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>2311142</td>
+<td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>13973757</td>
 <td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>431331</td>
-<td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>2311142</td>
 <td><img src='https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white' title='Ruby'  height='20px'/></td><td>505556</td>
 </tr><tr>
 <td><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript'  height='20px'/></td><td>10655690</td>
@@ -142,17 +142,17 @@
   <tbody>
     <tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/pling-publisher' title='pling-publisher'>pling-publisher</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/dmzoneill' title='dmzoneill'>dmzoneill</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
             <td>
-              <p><a href='https://pypi.org/project/pling-publisher/' title='Pling publisher'>Pling publisher</a></p>
+              <p><a href='https://github.com/dmzoneill' title='Github profile'>Github profile</a></p>
             </td>
             <td align="center">
-              <a href='https://github.com/dmzoneill/pling-publisher/actions'><img src='https://github.com/dmzoneill//pling-publisher/actions/workflows/main.yml/badge.svg'/></a>
+              <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
               <p>2026-05-19</p>
             </td>
         </tr>
@@ -174,17 +174,17 @@
         </tr>
 <tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/dmzoneill' title='dmzoneill'>dmzoneill</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/pling-publisher' title='pling-publisher'>pling-publisher</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
             <td>
-              <p><a href='https://github.com/dmzoneill' title='Github profile'>Github profile</a></p>
+              <p><a href='https://pypi.org/project/pling-publisher/' title='Pling publisher'>Pling publisher</a></p>
             </td>
             <td align="center">
-              <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
+              <a href='https://github.com/dmzoneill/pling-publisher/actions'><img src='https://github.com/dmzoneill//pling-publisher/actions/workflows/main.yml/badge.svg'/></a>
               <p>2026-05-19</p>
             </td>
         </tr>
@@ -410,7 +410,7 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/github-ai-maintainer/actions'><img src='https://github.com/dmzoneill//github-ai-maintainer/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2026-05-18</p>
+              <p>2026-05-19</p>
             </td>
         </tr>
 <tr>

@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-24/05/2026 00:40:21-brightgreen" height='28'/> &nbsp;&nbsp; <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=dmzoneill&color=brightgreen&style=for-the-badge" height='28'/> &nbsp;&nbsp; <img alt="Redhat" width='30' height='25' src="https://github.com/dmzoneill/dmzoneill/blob/main/images/redhat.svg?raw=true" />
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-24/05/2026 07:08:10-brightgreen" height='28'/> &nbsp;&nbsp; <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=dmzoneill&color=brightgreen&style=for-the-badge" height='28'/> &nbsp;&nbsp; <img alt="Redhat" width='30' height='25' src="https://github.com/dmzoneill/dmzoneill/blob/main/images/redhat.svg?raw=true" />
 
 <img src="generated/timeline.svg" width="760" alt="timeline"/>
 
@@ -39,8 +39,8 @@
 <ul><li><a href='https://github.com/dmzoneill/DFakeSeeder/pull/22'>chore(deps): bump idna from 3.11 to 3.15</a> 2026-05-19</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/pull/21'>chore(deps): bump urllib3 from 2.6.3 to 2.7.0</a> 2026-05-16</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/pull/22'>chore(deps): bump idna from 3.11 to 3.15</a> 2026-05-19</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/pull/21'>chore(deps): bump urllib3 from 2.6.3 to 2.7.0</a> 2026-05-16</li><li><a href='https://github.com/dmzoneill/pass-gnome-extension/pull/6'>Bump fast-uri from 3.0.6 to 3.1.2</a> 2026-05-15</li><li><a href='https://github.com/dmzoneill/pass-gnome-extension/pull/6'>Bump fast-uri from 3.0.6 to 3.1.2</a> 2026-05-15</li></ul>
 </details>
 <details>
-<summary><strong>Recent Activity (65)</strong></summary>
-<ul><li><a href='https://api.github.com/repos/Redhat-forks/metrics-utility'>Redhat-forks/metrics-utility</a></li><li><a href='https://github.com/dmzoneill/redhat-ai-workflow/pull/155'>chore(deps): bump python-multipart from 0.0.26 to 0.0.27</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/pull/21'>chore(deps): bump urllib3 from 2.6.3 to 2.7.0</a></li><li><a href='https://github.com/dmzoneill/redhatter/pull/10'>chore(deps): bump urllib3 from 2.6.3 to 2.7.0</a></li><li><a href='https://github.com/dmzoneill/pass-gnome-extension/pull/6'>Bump fast-uri from 3.0.6 to 3.1.2</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/pull/21'>chore(deps): bump urllib3 from 2.6.3 to 2.7.0</a></li><li><a href='https://github.com/dmzoneill/redhatter/pull/10'>chore(deps): bump urllib3 from 2.6.3 to 2.7.0</a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/30'>cancelled_wrong project</a></li><li><a href='https://github.com/dmzoneill/redhat-ai-workflow/pull/157'>chore(deps): bump authlib from 1.6.11 to 1.6.12</a></li><li><a href='https://github.com/dmzoneill/redhat-ai-workflow/pull/155'>chore(deps): bump python-multipart from 0.0.26 to 0.0.27</a></li><li><a href='https://github.com/dmzoneill/pass-gnome-extension/pull/6'>Bump fast-uri from 3.0.6 to 3.1.2</a></li><li><a href='https://github.com/dmzoneill/redhat-ai-workflow/pull/156'>chore(deps): bump urllib3 from 2.6.3 to 2.7.0</a></li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/71'>Bump axios from 1.15.0 to 1.15.2 in /frontend</a></li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/72'>Bump fast-uri from 3.0.6 to 3.1.2 in /frontend</a></li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/73'>Bump @babel/plugin-transform-modules-systemjs from 7.18.0 to 7.29.4 in /frontend</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/pull/21'>chore(deps): bump urllib3 from 2.6.3 to 2.7.0</a></li><li><a href='https://github.com/dmzoneill/redhatter/pull/10'>chore(deps): bump urllib3 from 2.6.3 to 2.7.0</a></li><li><a href='https://github.com/agrahn/Android-Password-Store/pull/865'>fix: normalize Conscrypt EdDSA keys for SSHJ host key verification</a></li><li><a href='https://github.com/agrahn/Android-Password-Store/pull/865'>fix: normalize Conscrypt EdDSA keys for SSHJ host key verification</a></li><li><a href='https://api.github.com/repos/dmzoneill-forks/Android-Password-Store'>dmzoneill-forks/Android-Password-Store</a></li></ul>
+<summary><strong>Recent Activity (77)</strong></summary>
+<ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/74'>Bump qs and body-parser in /frontend</a></li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/75'>Bump webpack-dev-server from 5.2.1 to 5.2.4 in /frontend</a></li><li><a href='https://api.github.com/repos/Redhat-forks/metrics-utility'>Redhat-forks/metrics-utility</a></li><li><a href='https://github.com/dmzoneill/redhat-ai-workflow/pull/155'>chore(deps): bump python-multipart from 0.0.26 to 0.0.27</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/pull/21'>chore(deps): bump urllib3 from 2.6.3 to 2.7.0</a></li><li><a href='https://github.com/dmzoneill/redhatter/pull/10'>chore(deps): bump urllib3 from 2.6.3 to 2.7.0</a></li><li><a href='https://github.com/dmzoneill/pass-gnome-extension/pull/6'>Bump fast-uri from 3.0.6 to 3.1.2</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/pull/21'>chore(deps): bump urllib3 from 2.6.3 to 2.7.0</a></li><li><a href='https://github.com/dmzoneill/redhatter/pull/10'>chore(deps): bump urllib3 from 2.6.3 to 2.7.0</a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/30'>cancelled_wrong project</a></li><li><a href='https://github.com/dmzoneill/redhat-ai-workflow/pull/157'>chore(deps): bump authlib from 1.6.11 to 1.6.12</a></li><li><a href='https://github.com/dmzoneill/redhat-ai-workflow/pull/155'>chore(deps): bump python-multipart from 0.0.26 to 0.0.27</a></li><li><a href='https://github.com/dmzoneill/pass-gnome-extension/pull/6'>Bump fast-uri from 3.0.6 to 3.1.2</a></li><li><a href='https://github.com/dmzoneill/redhat-ai-workflow/pull/156'>chore(deps): bump urllib3 from 2.6.3 to 2.7.0</a></li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/71'>Bump axios from 1.15.0 to 1.15.2 in /frontend</a></li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/72'>Bump fast-uri from 3.0.6 to 3.1.2 in /frontend</a></li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/73'>Bump @babel/plugin-transform-modules-systemjs from 7.18.0 to 7.29.4 in /frontend</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/pull/21'>chore(deps): bump urllib3 from 2.6.3 to 2.7.0</a></li><li><a href='https://github.com/dmzoneill/redhatter/pull/10'>chore(deps): bump urllib3 from 2.6.3 to 2.7.0</a></li><li><a href='https://github.com/agrahn/Android-Password-Store/pull/865'>fix: normalize Conscrypt EdDSA keys for SSHJ host key verification</a></li><li><a href='https://github.com/agrahn/Android-Password-Store/pull/865'>fix: normalize Conscrypt EdDSA keys for SSHJ host key verification</a></li><li><a href='https://api.github.com/repos/dmzoneill-forks/Android-Password-Store'>dmzoneill-forks/Android-Password-Store</a></li></ul>
 </details>
 <details>
 <summary><strong>Gists (14)</strong></summary>
@@ -62,17 +62,17 @@
     </tr>
   </thead>
   <tbody>
-    <tr><td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>13973971</td>
-<td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>2311142</td>
-<td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>431331</td>
-<td><img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript'  height='20px'/></td><td>1566621</td>
-</tr><tr>
+    <tr><td><img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript'  height='20px'/></td><td>1566621</td>
 <td><img src='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' title='Go'  height='20px'/></td><td>1625019</td>
 <td><img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS'  height='20px'/></td><td>6101663</td>
 <td><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript'  height='20px'/></td><td>10655690</td>
-<td><img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile'  height='20px'/></td><td>11180</td>
 </tr><tr>
+<td><img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile'  height='20px'/></td><td>11180</td>
+<td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>431331</td>
 <td><img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML'  height='20px'/></td><td>13170950</td>
+<td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>13973971</td>
+</tr><tr>
+<td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>2311142</td>
 <td><img src='https://img.shields.io/badge/_-Jinja -11DDDD.svg?style=for-the-badge' title='Jinja'  height='20px'/></td><td>405575</td>
 <td><img src='https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white' title='Ruby'  height='20px'/></td><td>505556</td>
 <td><img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP'  height='20px'/></td><td>91088717</td>
@@ -142,6 +142,54 @@
   <tbody>
     <tr>
             <td>
+              <p><h2><a href='https://github.com/dmzoneill/redhat-ai-workflow' title='redhat-ai-workflow'>redhat-ai-workflow</a> (2025)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/</p>
+              <p>Apache License 2.0</p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/redhat-ai-workflow/pull/155'>chore(deps): bump python-multipart from 0.0.26 to 0.0.27</a></li></ul></p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+            </td>
+            <td>
+              <p><a href='https://github.com/dmzoneill/redhat-ai-workflow' title='RedHat AI Workflow'>RedHat AI Workflow</a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/redhat-ai-workflow/actions'><img src='https://github.com/dmzoneill//redhat-ai-workflow/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2026-05-24</p>
+            </td>
+        </tr>
+<tr>
+            <td>
+              <p><h2><a href='https://github.com/dmzoneill/Chuckbot' title='Chuckbot'>Chuckbot</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/</p>
+              <p>Apache License 2.0</p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+            </td>
+            <td>
+              <p><a href='https://wa.me/96592226837' title='Chat with chuck'>Chat with chuck</a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/Chuckbot/actions'><img src='https://github.com/dmzoneill//Chuckbot/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2026-05-24</p>
+            </td>
+        </tr>
+<tr>
+            <td>
+              <p><h2><a href='https://github.com/dmzoneill/DFakeSeeder' title='DFakeSeeder'>DFakeSeeder</a> (2024)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/</p>
+              <p>Apache License 2.0</p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/DFakeSeeder/pull/21'>chore(deps): bump urllib3 from 2.6.3 to 2.7.0</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/pull/21'>chore(deps): bump urllib3 from 2.6.3 to 2.7.0</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/pull/21'>chore(deps): bump urllib3 from 2.6.3 to 2.7.0</a></li></ul></p>
+              <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/15'>Question about sessions and events.</a> 2026-05-24</li></ul></p>
+              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/DFakeSeeder/pull/22'>chore(deps): bump idna from 3.11 to 3.15</a> 2026-05-24</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/pull/21'>chore(deps): bump urllib3 from 2.6.3 to 2.7.0</a> 2026-05-24</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/pull/22'>chore(deps): bump idna from 3.11 to 3.15</a> 2026-05-24</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/pull/21'>chore(deps): bump urllib3 from 2.6.3 to 2.7.0</a> 2026-05-24</li></ul></p>
+            </td>
+            <td>
+              <p><a href='https://github.com/dmzoneill/DFakeSeeder' title='DFakeSeeder'>DFakeSeeder</a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/DFakeSeeder/actions'><img src='https://github.com/dmzoneill//DFakeSeeder/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2026-05-24</p>
+            </td>
+        </tr>
+<tr>
+            <td>
               <p><h2><a href='https://github.com/dmzoneill/dmzoneill' title='dmzoneill'>dmzoneill</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
@@ -153,7 +201,7 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2026-05-23</p>
+              <p>2026-05-24</p>
             </td>
         </tr>
 <tr>
@@ -186,54 +234,6 @@
             <td align="center">
               <a href='https://github.com/dmzoneill/pling-publisher/actions'><img src='https://github.com/dmzoneill//pling-publisher/actions/workflows/main.yml/badge.svg'/></a>
               <p>2026-05-20</p>
-            </td>
-        </tr>
-<tr>
-            <td>
-              <p><h2><a href='https://github.com/dmzoneill/redhat-ai-workflow' title='redhat-ai-workflow'>redhat-ai-workflow</a> (2025)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/</p>
-              <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/redhat-ai-workflow/pull/155'>chore(deps): bump python-multipart from 0.0.26 to 0.0.27</a></li><li><a href='https://github.com/dmzoneill/redhat-ai-workflow/pull/157'>chore(deps): bump authlib from 1.6.11 to 1.6.12</a></li><li><a href='https://github.com/dmzoneill/redhat-ai-workflow/pull/155'>chore(deps): bump python-multipart from 0.0.26 to 0.0.27</a></li><li><a href='https://github.com/dmzoneill/redhat-ai-workflow/pull/156'>chore(deps): bump urllib3 from 2.6.3 to 2.7.0</a></li></ul></p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-            </td>
-            <td>
-              <p><a href='https://github.com/dmzoneill/redhat-ai-workflow' title='RedHat AI Workflow'>RedHat AI Workflow</a></p>
-            </td>
-            <td align="center">
-              <a href='https://github.com/dmzoneill/redhat-ai-workflow/actions'><img src='https://github.com/dmzoneill//redhat-ai-workflow/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2026-05-20</p>
-            </td>
-        </tr>
-<tr>
-            <td>
-              <p><h2><a href='https://github.com/dmzoneill/DFakeSeeder' title='DFakeSeeder'>DFakeSeeder</a> (2024)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/</p>
-              <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/DFakeSeeder/pull/21'>chore(deps): bump urllib3 from 2.6.3 to 2.7.0</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/pull/21'>chore(deps): bump urllib3 from 2.6.3 to 2.7.0</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/pull/21'>chore(deps): bump urllib3 from 2.6.3 to 2.7.0</a></li></ul></p>
-              <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/15'>Question about sessions and events.</a> 2026-05-10</li></ul></p>
-              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/DFakeSeeder/pull/22'>chore(deps): bump idna from 3.11 to 3.15</a> 2026-05-10</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/pull/21'>chore(deps): bump urllib3 from 2.6.3 to 2.7.0</a> 2026-05-10</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/pull/22'>chore(deps): bump idna from 3.11 to 3.15</a> 2026-05-10</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/pull/21'>chore(deps): bump urllib3 from 2.6.3 to 2.7.0</a> 2026-05-10</li></ul></p>
-            </td>
-            <td>
-              <p><a href='https://github.com/dmzoneill/DFakeSeeder' title='DFakeSeeder'>DFakeSeeder</a></p>
-            </td>
-            <td align="center">
-              <a href='https://github.com/dmzoneill/DFakeSeeder/actions'><img src='https://github.com/dmzoneill//DFakeSeeder/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2026-05-10</p>
-            </td>
-        </tr>
-<tr>
-            <td>
-              <p><h2><a href='https://github.com/dmzoneill/Chuckbot' title='Chuckbot'>Chuckbot</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/</p>
-              <p>Apache License 2.0</p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-            </td>
-            <td>
-              <p><a href='https://wa.me/96592226837' title='Chat with chuck'>Chat with chuck</a></p>
-            </td>
-            <td align="center">
-              <a href='https://github.com/dmzoneill/Chuckbot/actions'><img src='https://github.com/dmzoneill//Chuckbot/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2026-05-15</p>
             </td>
         </tr>
 <tr>
@@ -783,9 +783,25 @@
         </tr>
 </tbody></table></details><details><summary><strong>2022 (8 projects)</strong></summary><table width='100%' style='width:100%'><thead><tr><th>Project</th><th>View</th><th>Status</th></tr></thead><tbody><tr>
             <td>
+              <p><h2><a href='https://github.com/dmzoneill/aa-dns-checker' title='aa-dns-checker'>aa-dns-checker</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/> <img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/</p>
+              <p>Apache License 2.0</p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+            </td>
+            <td>
+              <p><a href='' title=''></a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/aa-dns-checker/actions'><img src='https://github.com/dmzoneill//aa-dns-checker/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2026-05-24</p>
+            </td>
+        </tr>
+<tr>
+            <td>
               <p><h2><a href='https://github.com/dmzoneill/aa-dev-prod-watcher' title='aa-dev-prod-watcher'>aa-dev-prod-watcher</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript' height='20px'/> <img src='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' title='Go' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/71'>Bump axios from 1.15.0 to 1.15.2 in /frontend</a></li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/72'>Bump fast-uri from 3.0.6 to 3.1.2 in /frontend</a></li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/73'>Bump @babel/plugin-transform-modules-systemjs from 7.18.0 to 7.29.4 in /frontend</a></li></ul></p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/74'>Bump qs and body-parser in /frontend</a></li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/75'>Bump webpack-dev-server from 5.2.1 to 5.2.4 in /frontend</a></li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/71'>Bump axios from 1.15.0 to 1.15.2 in /frontend</a></li></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -794,7 +810,7 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/aa-dev-prod-watcher/actions'><img src='https://github.com/dmzoneill//aa-dev-prod-watcher/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2026-05-15</p>
+              <p>2026-05-24</p>
             </td>
         </tr>
 <tr>
@@ -826,22 +842,6 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/docker-media-center/actions'><img src='https://github.com/dmzoneill//docker-media-center/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2026-03-10</p>
-            </td>
-        </tr>
-<tr>
-            <td>
-              <p><h2><a href='https://github.com/dmzoneill/aa-dns-checker' title='aa-dns-checker'>aa-dns-checker</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/> <img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/</p>
-              <p>Apache License 2.0</p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-            </td>
-            <td>
-              <p><a href='' title=''></a></p>
-            </td>
-            <td align="center">
-              <a href='https://github.com/dmzoneill/aa-dns-checker/actions'><img src='https://github.com/dmzoneill//aa-dns-checker/actions/workflows/main.yml/badge.svg'/></a>
               <p>2026-03-10</p>
             </td>
         </tr>
@@ -922,7 +922,7 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/redhatter/actions'><img src='https://github.com/dmzoneill//redhatter/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2026-04-24</p>
+              <p>2026-05-24</p>
             </td>
         </tr>
 <tr>

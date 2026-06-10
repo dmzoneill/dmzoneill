@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-10/06/2026 00:46:14-brightgreen" height='28'/> &nbsp;&nbsp; <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=dmzoneill&color=brightgreen&style=for-the-badge" height='28'/> &nbsp;&nbsp; <img alt="Redhat" width='30' height='25' src="https://github.com/dmzoneill/dmzoneill/blob/main/images/redhat.svg?raw=true" />
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-10/06/2026 07:30:44-brightgreen" height='28'/> &nbsp;&nbsp; <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=dmzoneill&color=brightgreen&style=for-the-badge" height='28'/> &nbsp;&nbsp; <img alt="Redhat" width='30' height='25' src="https://github.com/dmzoneill/dmzoneill/blob/main/images/redhat.svg?raw=true" />
 
 <img src="generated/timeline.svg" width="760" alt="timeline"/>
 
@@ -43,8 +43,8 @@
 <ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/31'>Question:  Can I send my own artist and album?</a></li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/74'>Bump qs and body-parser in /frontend</a></li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/75'>Bump webpack-dev-server from 5.2.1 to 5.2.4 in /frontend</a></li><li><a href='https://api.github.com/repos/Redhat-forks/metrics-utility'>Redhat-forks/metrics-utility</a></li><li><a href='https://github.com/dmzoneill/redhat-ai-workflow/pull/155'>chore(deps): bump python-multipart from 0.0.26 to 0.0.27</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/pull/21'>chore(deps): bump urllib3 from 2.6.3 to 2.7.0</a></li><li><a href='https://github.com/dmzoneill/redhatter/pull/10'>chore(deps): bump urllib3 from 2.6.3 to 2.7.0</a></li><li><a href='https://github.com/dmzoneill/pass-gnome-extension/pull/6'>Bump fast-uri from 3.0.6 to 3.1.2</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/pull/21'>chore(deps): bump urllib3 from 2.6.3 to 2.7.0</a></li><li><a href='https://github.com/dmzoneill/redhatter/pull/10'>chore(deps): bump urllib3 from 2.6.3 to 2.7.0</a></li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/30'>cancelled_wrong project</a></li><li><a href='https://github.com/dmzoneill/redhat-ai-workflow/pull/157'>chore(deps): bump authlib from 1.6.11 to 1.6.12</a></li><li><a href='https://github.com/dmzoneill/redhat-ai-workflow/pull/155'>chore(deps): bump python-multipart from 0.0.26 to 0.0.27</a></li><li><a href='https://github.com/dmzoneill/pass-gnome-extension/pull/6'>Bump fast-uri from 3.0.6 to 3.1.2</a></li><li><a href='https://github.com/dmzoneill/redhat-ai-workflow/pull/156'>chore(deps): bump urllib3 from 2.6.3 to 2.7.0</a></li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/71'>Bump axios from 1.15.0 to 1.15.2 in /frontend</a></li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/72'>Bump fast-uri from 3.0.6 to 3.1.2 in /frontend</a></li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/73'>Bump @babel/plugin-transform-modules-systemjs from 7.18.0 to 7.29.4 in /frontend</a></li><li><a href='https://github.com/dmzoneill/DFakeSeeder/pull/21'>chore(deps): bump urllib3 from 2.6.3 to 2.7.0</a></li><li><a href='https://github.com/dmzoneill/redhatter/pull/10'>chore(deps): bump urllib3 from 2.6.3 to 2.7.0</a></li></ul>
 </details>
 <details>
-<summary><strong>Gists (14)</strong></summary>
-<ul><li><a href='https://gist.github.com/dmzoneill/64a18fe75765d2a7b672361b0c871150'>crudeoii.py</a></li><li><a href='https://gist.github.com/dmzoneill/6f88cc5cb2720168b0f4bd32a1068d22'>Opinionated Slop Manager</a></li><li><a href='https://gist.github.com/dmzoneill/af4a56c98fe185a9b14abba35bb5c29b'>Complete Guide: Multi-Instance Ollama Setup with NPU, Intel GPU, and NVIDIA GPU</a></li><li><a href='https://gist.github.com/dmzoneill/441f88a5c73136b8128c252ad84100b3'>AI support fos slack and jira</a></li><li><a href='https://gist.github.com/dmzoneill/80bfef9603448c33df02ce0aa98fcd59'>AI git Commit</a></li><li><a href='https://gist.github.com/dmzoneill/7c9159b30950621c065791e7861be174'>Python GTK4 ColumnView Sorting and Binding</a></li><li><a href='https://gist.github.com/dmzoneill/19a4fbd799f1e5bcc050ddb4b0a65403'>sorted listed model gtk4</a></li><li><a href='https://gist.github.com/dmzoneill/74033698f65a5a1539d686452a73dce8'>Pygtk4 ColumnView</a></li><li><a href='https://gist.github.com/dmzoneill/497746f38c5786c96e8859f1131667af'>awx-operator 2.15..16</a></li><li><a href='https://gist.github.com/dmzoneill/67a908fb949dc95bbbf02f0446a07f0a'>durex fun</a></li><li><a href='https://gist.github.com/dmzoneill/d13d88b16d4d0aa90cb108a00ab3cf01'>10GB tuning</a></li><li><a href='https://gist.github.com/dmzoneill/575ba9c32375c41cb1041e9064de0678'>Synology 108tb limit bypass</a></li><li><a href='https://gist.github.com/dmzoneill/cbc75e502dbe2b78651f68d6320b714a'>AA active queries</a></li><li><a href='https://gist.github.com/dmzoneill/faaa84782eaed4d2dc28ad55c19119ee'>PHP Paypal Instant Payment Notification</a></li></ul>
+<summary><strong>Gists (17)</strong></summary>
+<ul><li><a href='https://gist.github.com/dmzoneill/fbb3b83719785f3fc86b0607d7aba23c'>Mailias — Self-hosted email alias forwarding service: architecture, requirements, and competitive analysis</a></li><li><a href='https://gist.github.com/dmzoneill/64a18fe75765d2a7b672361b0c871150'>crudeoii.py</a></li><li><a href='https://gist.github.com/dmzoneill/6f88cc5cb2720168b0f4bd32a1068d22'>Opinionated Slop Manager</a></li><li><a href='https://gist.github.com/dmzoneill/af4a56c98fe185a9b14abba35bb5c29b'>Complete Guide: Multi-Instance Ollama Setup with NPU, Intel GPU, and NVIDIA GPU</a></li><li><a href='https://gist.github.com/dmzoneill/da7e49a55b7bd4ded318b82309c1bfd7'>cloud flare emial creator</a></li><li><a href='https://gist.github.com/dmzoneill/441f88a5c73136b8128c252ad84100b3'>AI support fos slack and jira</a></li><li><a href='https://gist.github.com/dmzoneill/80bfef9603448c33df02ce0aa98fcd59'>AI git Commit</a></li><li><a href='https://gist.github.com/dmzoneill/7c9159b30950621c065791e7861be174'>Python GTK4 ColumnView Sorting and Binding</a></li><li><a href='https://gist.github.com/dmzoneill/19a4fbd799f1e5bcc050ddb4b0a65403'>sorted listed model gtk4</a></li><li><a href='https://gist.github.com/dmzoneill/74033698f65a5a1539d686452a73dce8'>Pygtk4 ColumnView</a></li><li><a href='https://gist.github.com/dmzoneill/497746f38c5786c96e8859f1131667af'>awx-operator 2.15..16</a></li><li><a href='https://gist.github.com/dmzoneill/67a908fb949dc95bbbf02f0446a07f0a'>durex fun</a></li><li><a href='https://gist.github.com/dmzoneill/d13d88b16d4d0aa90cb108a00ab3cf01'>10GB tuning</a></li><li><a href='https://gist.github.com/dmzoneill/55f6eb89dcdedd6c8bb2e5cffbab6caa'>DNS Policy Routing via Raspberry Pi VPN Gateway</a></li><li><a href='https://gist.github.com/dmzoneill/575ba9c32375c41cb1041e9064de0678'>Synology 108tb limit bypass</a></li><li><a href='https://gist.github.com/dmzoneill/cbc75e502dbe2b78651f68d6320b714a'>AA active queries</a></li><li><a href='https://gist.github.com/dmzoneill/faaa84782eaed4d2dc28ad55c19119ee'>PHP Paypal Instant Payment Notification</a></li></ul>
 </details>
 
 <h3>Lines of code</h3>
@@ -62,17 +62,17 @@
     </tr>
   </thead>
   <tbody>
-    <tr><td><img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript'  height='20px'/></td><td>1566621</td>
+    <tr><td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>2311142</td>
+<td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>13912230</td>
+<td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>431331</td>
+<td><img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript'  height='20px'/></td><td>1566621</td>
+</tr><tr>
 <td><img src='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' title='Go'  height='20px'/></td><td>1625019</td>
 <td><img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS'  height='20px'/></td><td>6101663</td>
 <td><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript'  height='20px'/></td><td>10655690</td>
-</tr><tr>
 <td><img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile'  height='20px'/></td><td>11180</td>
-<td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>431331</td>
-<td><img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML'  height='20px'/></td><td>13170950</td>
-<td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>13912230</td>
 </tr><tr>
-<td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>2311142</td>
+<td><img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML'  height='20px'/></td><td>13170950</td>
 <td><img src='https://img.shields.io/badge/_-Jinja -11DDDD.svg?style=for-the-badge' title='Jinja'  height='20px'/></td><td>405575</td>
 <td><img src='https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white' title='Ruby'  height='20px'/></td><td>505556</td>
 <td><img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP'  height='20px'/></td><td>91088717</td>
@@ -153,7 +153,7 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2026-06-09</p>
+              <p>2026-06-10</p>
             </td>
         </tr>
 <tr>
@@ -410,7 +410,7 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/github-ai-maintainer/actions'><img src='https://github.com/dmzoneill//github-ai-maintainer/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2026-06-09</p>
+              <p>2026-06-10</p>
             </td>
         </tr>
 <tr>

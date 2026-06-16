@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-15/06/2026 19:26:26-brightgreen" height='28'/> &nbsp;&nbsp; <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=dmzoneill&color=brightgreen&style=for-the-badge" height='28'/> &nbsp;&nbsp; <img alt="Redhat" width='30' height='25' src="https://github.com/dmzoneill/dmzoneill/blob/main/images/redhat.svg?raw=true" />
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-16/06/2026 00:53:32-brightgreen" height='28'/> &nbsp;&nbsp; <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=dmzoneill&color=brightgreen&style=for-the-badge" height='28'/> &nbsp;&nbsp; <img alt="Redhat" width='30' height='25' src="https://github.com/dmzoneill/dmzoneill/blob/main/images/redhat.svg?raw=true" />
 
 <img src="generated/timeline.svg" width="760" alt="timeline"/>
 
@@ -39,7 +39,7 @@
 <ul></ul>
 </details>
 <details>
-<summary><strong>Recent Activity (36)</strong></summary>
+<summary><strong>Recent Activity (26)</strong></summary>
 <ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/31'>Question:  Can I send my own artist and album?</a></li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/74'>Bump qs and body-parser in /frontend</a></li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/75'>Bump webpack-dev-server from 5.2.1 to 5.2.4 in /frontend</a></li></ul>
 </details>
 <details>
@@ -785,7 +785,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/aa-dev-prod-watcher' title='aa-dev-prod-watcher'>aa-dev-prod-watcher</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript' height='20px'/> <img src='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' title='Go' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/74'>Bump qs and body-parser in /frontend</a></li></ul></p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/74'>Bump qs and body-parser in /frontend</a></li><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/75'>Bump webpack-dev-server from 5.2.1 to 5.2.4 in /frontend</a></li></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>

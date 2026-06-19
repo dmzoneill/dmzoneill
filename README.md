@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-19/06/2026 07:53:16-brightgreen" height='28'/> &nbsp;&nbsp; <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=dmzoneill&color=brightgreen&style=for-the-badge" height='28'/> &nbsp;&nbsp; <img alt="Redhat" width='30' height='25' src="https://github.com/dmzoneill/dmzoneill/blob/main/images/redhat.svg?raw=true" />
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-19/06/2026 13:12:56-brightgreen" height='28'/> &nbsp;&nbsp; <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=dmzoneill&color=brightgreen&style=for-the-badge" height='28'/> &nbsp;&nbsp; <img alt="Redhat" width='30' height='25' src="https://github.com/dmzoneill/dmzoneill/blob/main/images/redhat.svg?raw=true" />
 
 <img src="generated/timeline.svg" width="760" alt="timeline"/>
 
@@ -70,9 +70,9 @@
 <td><img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile'  height='20px'/></td><td>11180</td>
 <td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>431331</td>
 <td><img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML'  height='20px'/></td><td>13170950</td>
-<td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>13912231</td>
-</tr><tr>
 <td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>2311143</td>
+</tr><tr>
+<td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>13912231</td>
 <td><img src='https://img.shields.io/badge/_-Jinja -11DDDD.svg?style=for-the-badge' title='Jinja'  height='20px'/></td><td>405575</td>
 <td><img src='https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white' title='Ruby'  height='20px'/></td><td>505556</td>
 <td><img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP'  height='20px'/></td><td>91088717</td>
@@ -410,7 +410,7 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/github-ai-maintainer/actions'><img src='https://github.com/dmzoneill//github-ai-maintainer/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2026-06-18</p>
+              <p>2026-06-19</p>
             </td>
         </tr>
 <tr>

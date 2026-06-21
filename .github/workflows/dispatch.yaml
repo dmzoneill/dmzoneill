@@ -773,6 +773,7 @@ jobs:
         uses: github/super-linter@v4
 
       - name: Send Telegram notification
+        continue-on-error: true
         uses: dmzoneill/dmzoneill/.github/actions/telegram@main
         with:
           message: "${{ github.repository }} - Lint complete"
@@ -833,6 +834,7 @@ jobs:
           fi
 
       - name: Send Telegram notification
+        continue-on-error: true
         uses: dmzoneill/dmzoneill/.github/actions/telegram@main
         with:
           message: "${{ github.repository }} - Unit tests complete"
@@ -893,6 +895,7 @@ jobs:
           fi
           
       - name: Send Telegram notification
+        continue-on-error: true
         uses: dmzoneill/dmzoneill/.github/actions/telegram@main
         with:
           message: "${{ github.repository }} - Integration tests complete"
@@ -955,6 +958,7 @@ jobs:
           BRANCH_NAME: ${{ github.ref_name }}
 
       - name: Send Telegram notification
+        continue-on-error: true
         uses: dmzoneill/dmzoneill/.github/actions/telegram@main
         with:
           message: "${{ github.repository }} - Version bumped"
@@ -1012,6 +1016,7 @@ jobs:
           prerelease: false
 
       - name: Send Telegram notification
+        continue-on-error: true
         uses: dmzoneill/dmzoneill/.github/actions/telegram@main
         with:
           message: "${{ github.repository }} - Release created"
@@ -1064,6 +1069,7 @@ jobs:
           chrome-webstore-upload upload --source chrome-extension-${{ github.sha }}.zip --extension-id ${{ env.EXTENSION_ID }} --client-id ${{ secrets.CI_GOOGLE_CLIENT_ID }} --client-secret ${{ secrets.CI_GOOGLE_CLIENT_SECRET }} --refresh-token ${{ secrets.CI_GOOGLE_REFRESH_TOKEN }} --auto-publish
 
       - name: Send Telegram notification
+        continue-on-error: true
         uses: dmzoneill/dmzoneill/.github/actions/telegram@main
         with:
           message: "${{ github.repository }} - Published Chrome extension"
@@ -1096,6 +1102,7 @@ jobs:
           python3 -m twine upload --verbose --non-interactive --config-file ~/.pypirc --repository pypi dist/*
 
       - name: Send Telegram notification
+        continue-on-error: true
         uses: dmzoneill/dmzoneill/.github/actions/telegram@main
         with:
           message: "${{ github.repository }} - Published to PyPI"
@@ -1141,6 +1148,7 @@ jobs:
           bash -c "gep publisharchive --username \"${{ secrets.GNOME_USERNAME }}\" --password \"${{ secrets.GNOME_PASSWORD }}\" --file gnome-extension-${{ github.sha }}.zip";
       
       - name: Send Telegram notification
+        continue-on-error: true
         uses: dmzoneill/dmzoneill/.github/actions/telegram@main
         with:
           message: "${{ github.repository }} - Published GNOME extension"
@@ -1167,6 +1175,7 @@ jobs:
           bash -c "pling publish --username \"${{ secrets.PLING_USERNAME }}\" --password \"${{ secrets.PLING_PASSWORD }}\" --project-id ${{ inputs.pling }}";
 
       - name: Send Telegram notification
+        continue-on-error: true
         uses: dmzoneill/dmzoneill/.github/actions/telegram@main
         with:
           message: "${{ github.repository }} - Published to Pling"
@@ -1222,6 +1231,7 @@ jobs:
           asset_content_type: application/octet-stream
 
       - name: Send Telegram notification
+        continue-on-error: true
         uses: dmzoneill/dmzoneill/.github/actions/telegram@main
         with:
           message: "${{ github.repository }} - Created .deb package"
@@ -1281,6 +1291,7 @@ jobs:
           asset_content_type: application/octet-stream
 
       - name: Send Telegram notification
+        continue-on-error: true
         uses: dmzoneill/dmzoneill/.github/actions/telegram@main
         with:
           message: "${{ github.repository }} - Created .rpm package"
@@ -1309,6 +1320,7 @@ jobs:
           token: ${{ secrets.NPM }}   
 
       - name: Send Telegram notification
+        continue-on-error: true
         uses: dmzoneill/dmzoneill/.github/actions/telegram@main
         with:
           message: "${{ github.repository }} - Published to npm"
@@ -1369,6 +1381,7 @@ jobs:
             ghcr.io/dmzoneill/${{ env.APP_NAME }}:latest
 
       - name: Send Telegram notification
+        continue-on-error: true
         uses: dmzoneill/dmzoneill/.github/actions/telegram@main
         with:
           message: "${{ github.repository }} - Published container image"
@@ -1515,6 +1528,7 @@ jobs:
           token: ${{ secrets.FLATHUB_TOKEN }}
 
       - name: Send Telegram notification
+        continue-on-error: true
         uses: dmzoneill/dmzoneill/.github/actions/telegram@main
         with:
           message: "${{ github.repository }} - Published Flatpak"
@@ -1612,6 +1626,7 @@ jobs:
           asset_content_type: application/octet-stream
 
       - name: Send Telegram notification
+        continue-on-error: true
         uses: dmzoneill/dmzoneill/.github/actions/telegram@main
         with:
           message: "${{ github.repository }} - Published AppImage"
@@ -1701,6 +1716,7 @@ jobs:
           release: stable
 
       - name: Send Telegram notification
+        continue-on-error: true
         uses: dmzoneill/dmzoneill/.github/actions/telegram@main
         with:
           message: "${{ github.repository }} - Published Snap"
@@ -1798,6 +1814,7 @@ jobs:
           authToken: ${{ secrets.CACHIX_AUTH_TOKEN }}
 
       - name: Send Telegram notification
+        continue-on-error: true
         uses: dmzoneill/dmzoneill/.github/actions/telegram@main
         with:
           message: "${{ github.repository }} - Published Nix package"
@@ -1857,6 +1874,7 @@ jobs:
           commit_message: Update to ${{ env.PACKAGE_VERSION }}
 
       - name: Send Telegram notification
+        continue-on-error: true
         uses: dmzoneill/dmzoneill/.github/actions/telegram@main
         with:
           message: "${{ github.repository }} - Published to AUR"
@@ -1906,6 +1924,7 @@ jobs:
           homebrew-tap: dmzoneill/homebrew-tap
 
       - name: Send Telegram notification
+        continue-on-error: true
         uses: dmzoneill/dmzoneill/.github/actions/telegram@main
         with:
           message: "${{ github.repository }} - Published to Homebrew"
@@ -1975,6 +1994,7 @@ jobs:
           choco push $nupkg.Name --source https://push.chocolatey.org/ --api-key $env:CHOCOLATEY_API_KEY
 
       - name: Send Telegram notification
+        continue-on-error: true
         uses: dmzoneill/dmzoneill/.github/actions/telegram@main
         with:
           message: "${{ github.repository }} - Published to Chocolatey"
@@ -2066,6 +2086,7 @@ jobs:
           fi
 
       - name: Send Telegram notification
+        continue-on-error: true
         uses: dmzoneill/dmzoneill/.github/actions/telegram@main
         with:
           message: "${{ github.repository }} - Published to Scoop"
@@ -2106,6 +2127,7 @@ jobs:
           token: ${{ secrets.WINGET_TOKEN }}
 
       - name: Send Telegram notification
+        continue-on-error: true
         uses: dmzoneill/dmzoneill/.github/actions/telegram@main
         with:
           message: "${{ github.repository }} - Published to WinGet"
@@ -2185,6 +2207,7 @@ jobs:
           YOUTUBE_API: ${{ secrets.YOUTUBE_API }}
 
       - name: Send Telegram notification
+        continue-on-error: true
         uses: dmzoneill/dmzoneill/.github/actions/telegram@main
         with:
           message: "${{ github.repository }} - Published blog post"

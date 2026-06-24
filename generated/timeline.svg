@@ -119,11 +119,11 @@
   <circle cx="583.4" cy="75" r="3.8" fill="#58a6ff"/>
   <text x="583.4" y="101.6" class="tyear" text-anchor="middle">2020</text>
   <text x="583.4" y="56.4" class="tcount" text-anchor="middle">8</text>
-  <circle cx="606.2" cy="75" r="7.8" fill="#58a6ff" opacity="0.3"/>
-  <circle cx="606.2" cy="75" r="4.7" fill="#58a6ff" opacity="0.6"/>
+  <circle cx="606.2" cy="75" r="8.8" fill="#58a6ff" opacity="0.3"/>
+  <circle cx="606.2" cy="75" r="5.3" fill="#58a6ff" opacity="0.6"/>
   <circle cx="606.2" cy="75" r="3.0" fill="#58a6ff"/>
-  <text x="606.2" y="96.8" class="tyear" text-anchor="middle">2021</text>
-  <text x="606.2" y="61.2" class="tcount" text-anchor="middle">3</text>
+  <text x="606.2" y="97.8" class="tyear" text-anchor="middle">2021</text>
+  <text x="606.2" y="60.2" class="tcount" text-anchor="middle">4</text>
   <circle cx="629.0" cy="75" r="18.3" fill="#58a6ff" opacity="0.3"/>
   <circle cx="629.0" cy="75" r="11.0" fill="#58a6ff" opacity="0.6"/>
   <circle cx="629.0" cy="75" r="5.5" fill="#58a6ff"/>

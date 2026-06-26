@@ -20,7 +20,9 @@ def main():
     chat_id = os.getenv("TELEGRAM_CHAT_ID")
 
     if not bot_token or not chat_id:
-        print("Warning: TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID not set - skipping notification")
+        print(
+            "Warning: TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID not set - skipping notification"
+        )
         sys.exit(0)
 
     url = f"https://api.telegram.org/bot{bot_token}/sendMessage"

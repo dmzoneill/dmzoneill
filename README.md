@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-05/07/2026 07:07:43-brightgreen" height='28'/> &nbsp;&nbsp; <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=dmzoneill&color=brightgreen&style=for-the-badge" height='28'/> &nbsp;&nbsp; <img alt="Redhat" width='30' height='25' src="https://github.com/dmzoneill/dmzoneill/blob/main/images/redhat.svg?raw=true" />
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-05/07/2026 12:30:34-brightgreen" height='28'/> &nbsp;&nbsp; <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=dmzoneill&color=brightgreen&style=for-the-badge" height='28'/> &nbsp;&nbsp; <img alt="Redhat" width='30' height='25' src="https://github.com/dmzoneill/dmzoneill/blob/main/images/redhat.svg?raw=true" />
 
 <img src="generated/timeline.svg" width="760" alt="timeline"/>
 
@@ -39,8 +39,8 @@
 <ul></ul>
 </details>
 <details>
-<summary><strong>Recent Activity (99)</strong></summary>
-<ul><li><a href='https://github.com/ansible/metrics-utility/issues/349'>Don't send data for unregistered/impropoerly confiugured AAP instance</a></li><li><a href='https://github.com/ansible/metrics-utility/issues/349'>Don't send data for unregistered/impropoerly confiugured AAP instance</a></li><li><a href='https://github.com/ansible/metrics-utility/issues/349'>Don't send data for unregistered/impropoerly confiugured AAP instance</a></li><li><a href='https://api.github.com/repos/dmzoneill/whisper-npu-wayland'>dmzoneill/whisper-npu-wayland</a></li><li><a href='https://github.com/micheleg/dash-to-dock/issues/2617'>GNOME 50: Top panel and dock invisible after overview closes (panelBox.visible set to false)</a></li><li><a href='https://github.com/micheleg/dash-to-dock/issues/2617'>GNOME 50: Top panel and dock invisible after overview closes (panelBox.visible set to false)</a></li><li><a href='https://github.com/micheleg/dash-to-dock/issues/2617'>GNOME 50: Top panel and dock invisible after overview closes (panelBox.visible set to false)</a></li><li><a href='https://github.com/micheleg/dash-to-dock/pull/2615'>Community Edition v106: merge 5 bug fixes + dock margin feature</a></li><li><a href='https://github.com/micheleg/dash-to-dock/pull/2421'>Fix: Intelligent Hide Not Working for All Positions</a></li><li><a href='https://github.com/micheleg/dash-to-dock/pull/2552'>intellihide: fix overlap check getting permanently stuck</a></li><li><a href='https://github.com/micheleg/dash-to-dock/pull/2511'>Fix autohide not working when panel mode is disabled</a></li><li><a href='https://github.com/micheleg/dash-to-dock/issues/2617'>GNOME 50: Top panel and dock invisible after overview closes (panelBox.visible set to false)</a></li><li><a href='https://github.com/micheleg/dash-to-dock/pull/2470'>Add window preview on hover with Aero Peek</a></li><li><a href='https://api.github.com/repos/dmzoneill/qontract-schemas'>dmzoneill/qontract-schemas</a></li><li><a href='https://api.github.com/repos/Redhat-forks/metrics-utility'>Redhat-forks/metrics-utility</a></li></ul>
+<summary><strong>Recent Activity (100)</strong></summary>
+<ul></ul>
 </details>
 <details>
 <summary><strong>Gists (21)</strong></summary>
@@ -62,8 +62,8 @@
     </tr>
   </thead>
   <tbody>
-    <tr><td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>2311143</td>
-<td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>13949428</td>
+    <tr><td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>13949428</td>
+<td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>2311143</td>
 <td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>445686</td>
 <td><img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript'  height='20px'/></td><td>1566621</td>
 </tr><tr>
@@ -913,7 +913,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/qontract-schemas' title='qontract-schemas'>qontract-schemas</a> (2021)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/> <img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://api.github.com/repos/dmzoneill/qontract-schemas'>dmzoneill/qontract-schemas</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>

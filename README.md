@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-11/07/2026 00:30:16-brightgreen" height='28'/> &nbsp;&nbsp; <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=dmzoneill&color=brightgreen&style=for-the-badge" height='28'/> &nbsp;&nbsp; <img alt="Redhat" width='30' height='25' src="https://github.com/dmzoneill/dmzoneill/blob/main/images/redhat.svg?raw=true" />
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-11/07/2026 06:47:24-brightgreen" height='28'/> &nbsp;&nbsp; <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=dmzoneill&color=brightgreen&style=for-the-badge" height='28'/> &nbsp;&nbsp; <img alt="Redhat" width='30' height='25' src="https://github.com/dmzoneill/dmzoneill/blob/main/images/redhat.svg?raw=true" />
 
 <img src="generated/timeline.svg" width="760" alt="timeline"/>
 
@@ -40,7 +40,7 @@
 </details>
 <details>
 <summary><strong>Recent Activity (100)</strong></summary>
-<ul><li><a href='https://github.com/dmzoneill-forks/xdock/issues/63'>[#2507] [BUG] strange behavior with touchpad gestures and the show apps button</a></li><li><a href='https://github.com/dmzoneill-forks/xdock/issues/37'>[#2620] Silent system hang on GNOME 50.2 (Wayland) when dragging icons on App Grid or Dock</a></li><li><a href='https://github.com/dmzoneill-forks/xdock/issues/40'>[#2616] No new desktop in activities view when Ubuntu dock enabled</a></li><li><a href='https://github.com/micheleg/dash-to-dock/issues/2487'>[Enhancement] Option to show only open applications on secondary monitor.</a></li><li><a href='https://github.com/micheleg/dash-to-dock/issues/2612'>[Feature Request] Settings to show only Application-provided counter in badge/emblem</a></li><li><a href='https://github.com/micheleg/dash-to-dock/issues/2613'>Compositor drift over a session (desktop 144->~55 fps) from un-disconnected signal handlers - not a memory leak (RSS flat)</a></li><li><a href='https://github.com/micheleg/dash-to-dock/issues/2468'>Left click to minimize/focus doesn't work with a single window open</a></li><li><a href='https://github.com/micheleg/dash-to-dock/issues/2574'>Dock freeze  when moving mouse from other screen to main screen</a></li><li><a href='https://github.com/micheleg/dash-to-dock/issues/2510'>VRR not working with Dash to Dock</a></li><li><a href='https://github.com/micheleg/dash-to-dock/issues/2450'>Corner radius cannot be adjusted</a></li><li><a href='https://github.com/micheleg/dash-to-dock/issues/2557'>Clear notifications counter when app window gets focus</a></li><li><a href='https://github.com/micheleg/dash-to-dock/issues/2443'>Prevent Location Apps from changing index positon when opening | closing</a></li><li><a href='https://github.com/micheleg/dash-to-dock/issues/2576'>Icons shift when "Intelligent Autohide" is disabled</a></li><li><a href='https://github.com/micheleg/dash-to-dock/issues/2514'>French translation : All Windows instead of Toutes les fenêtres</a></li><li><a href='https://github.com/micheleg/dash-to-dock/issues/2469'>Wrong window is highlighted among window previews</a></li><li><a href='https://github.com/micheleg/dash-to-dock/issues/2475'>Reordering running apps incorrectly adds them to favorites instead of changing their position</a></li><li><a href='https://github.com/micheleg/dash-to-dock/issues/2461'>Metro Indicators Not Drawn with Multiple Windows</a></li><li><a href='https://github.com/micheleg/dash-to-dock/issues/2589'>JS ERROR: TypeError: can't access property "removables", dockManager is null</a></li><li><a href='https://github.com/dmzoneill-forks/xdock/issues/819'>[upstream#2626] [Feature] Per-app badge count settings UI</a></li><li><a href='https://github.com/dmzoneill-forks/xdock/issues/817'>[upstream#2628] [Feature] Multi-dock support — additional docks on different screen edges</a></li><li><a href='https://github.com/dmzoneill-forks/xdock/issues/818'>[upstream#2627] [Feature] Dock profiles — save and switch between dock configurations</a></li></ul>
+<ul><li><a href='https://github.com/dmzoneill-forks/xdock/issues/63'>[#2507] [BUG] strange behavior with touchpad gestures and the show apps button</a></li><li><a href='https://github.com/dmzoneill-forks/xdock/issues/37'>[#2620] Silent system hang on GNOME 50.2 (Wayland) when dragging icons on App Grid or Dock</a></li><li><a href='https://github.com/dmzoneill-forks/xdock/issues/40'>[#2616] No new desktop in activities view when Ubuntu dock enabled</a></li><li><a href='https://github.com/micheleg/dash-to-dock/issues/2487'>[Enhancement] Option to show only open applications on secondary monitor.</a></li><li><a href='https://github.com/micheleg/dash-to-dock/issues/2612'>[Feature Request] Settings to show only Application-provided counter in badge/emblem</a></li><li><a href='https://github.com/micheleg/dash-to-dock/issues/2613'>Compositor drift over a session (desktop 144->~55 fps) from un-disconnected signal handlers - not a memory leak (RSS flat)</a></li><li><a href='https://github.com/micheleg/dash-to-dock/issues/2468'>Left click to minimize/focus doesn't work with a single window open</a></li><li><a href='https://github.com/micheleg/dash-to-dock/issues/2574'>Dock freeze  when moving mouse from other screen to main screen</a></li><li><a href='https://github.com/micheleg/dash-to-dock/issues/2510'>VRR not working with Dash to Dock</a></li><li><a href='https://github.com/micheleg/dash-to-dock/issues/2450'>Corner radius cannot be adjusted</a></li><li><a href='https://github.com/micheleg/dash-to-dock/issues/2557'>Clear notifications counter when app window gets focus</a></li><li><a href='https://github.com/micheleg/dash-to-dock/issues/2443'>Prevent Location Apps from changing index positon when opening | closing</a></li><li><a href='https://github.com/micheleg/dash-to-dock/issues/2576'>Icons shift when "Intelligent Autohide" is disabled</a></li><li><a href='https://github.com/micheleg/dash-to-dock/issues/2514'>French translation : All Windows instead of Toutes les fenêtres</a></li><li><a href='https://github.com/micheleg/dash-to-dock/issues/2469'>Wrong window is highlighted among window previews</a></li><li><a href='https://github.com/micheleg/dash-to-dock/issues/2475'>Reordering running apps incorrectly adds them to favorites instead of changing their position</a></li><li><a href='https://github.com/micheleg/dash-to-dock/issues/2461'>Metro Indicators Not Drawn with Multiple Windows</a></li><li><a href='https://github.com/micheleg/dash-to-dock/issues/2589'>JS ERROR: TypeError: can't access property "removables", dockManager is null</a></li><li><a href='https://github.com/dmzoneill-forks/xdock/issues/819'>[upstream#2626] [Feature] Per-app badge count settings UI</a></li></ul>
 </details>
 <details>
 <summary><strong>Gists (21)</strong></summary>
@@ -62,17 +62,17 @@
     </tr>
   </thead>
   <tbody>
-    <tr><td><img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript'  height='20px'/></td><td>1566621</td>
-<td><img src='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' title='Go'  height='20px'/></td><td>1625019</td>
+    <tr><td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>14152734</td>
+<td><img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript'  height='20px'/></td><td>1566621</td>
 <td><img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS'  height='20px'/></td><td>6103005</td>
+<td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>450223</td>
+</tr><tr>
+<td><img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML'  height='20px'/></td><td>13170950</td>
+<td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>2311143</td>
 <td><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript'  height='20px'/></td><td>10716039</td>
+<td><img src='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' title='Go'  height='20px'/></td><td>1625097</td>
 </tr><tr>
 <td><img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile'  height='20px'/></td><td>11180</td>
-<td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>450223</td>
-<td><img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML'  height='20px'/></td><td>13170950</td>
-<td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>14152734</td>
-</tr><tr>
-<td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>2311143</td>
 <td><img src='https://img.shields.io/badge/_-Jinja -11DDDD.svg?style=for-the-badge' title='Jinja'  height='20px'/></td><td>408030</td>
 <td><img src='https://img.shields.io/badge/_-M4 -11DDDD.svg?style=for-the-badge' title='M4'  height='20px'/></td><td>124107</td>
 <td><img src='https://img.shields.io/badge/_-QML -11DDDD.svg?style=for-the-badge' title='QML'  height='20px'/></td><td>43456</td>
@@ -144,22 +144,6 @@
   <tbody>
     <tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/dmzoneill' title='dmzoneill'>dmzoneill</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
-              <p>Apache License 2.0</p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-            </td>
-            <td>
-              <p><a href='https://github.com/dmzoneill' title='Github profile'>Github profile</a></p>
-            </td>
-            <td align="center">
-              <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2026-07-10</p>
-            </td>
-        </tr>
-<tr>
-            <td>
               <p><h2><a href='https://github.com/dmzoneill/redhat-ai-workflow' title='redhat-ai-workflow'>redhat-ai-workflow</a> (2025)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
@@ -171,7 +155,23 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/redhat-ai-workflow/actions'><img src='https://github.com/dmzoneill//redhat-ai-workflow/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2026-07-03</p>
+              <p>2026-07-11</p>
+            </td>
+        </tr>
+<tr>
+            <td>
+              <p><h2><a href='https://github.com/dmzoneill/dmzoneill' title='dmzoneill'>dmzoneill</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
+              <p>Apache License 2.0</p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+            </td>
+            <td>
+              <p><a href='https://github.com/dmzoneill' title='Github profile'>Github profile</a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2026-07-11</p>
             </td>
         </tr>
 <tr>
@@ -401,6 +401,22 @@
 
 </tbody></table><details><summary><strong>2026 (8 projects)</strong></summary><table width='100%' style='width:100%'><thead><tr><th>Project</th><th>View</th><th>Status</th></tr></thead><tbody><tr>
             <td>
+              <p><h2><a href='https://github.com/dmzoneill/ollama-proxy' title='ollama-proxy'>ollama-proxy</a> (2026)</h2></p><p><img src='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' title='Go' height='20px'/> <img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/</p>
+              <p>Apache License 2.0</p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+            </td>
+            <td>
+              <p><a href='' title=''></a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/ollama-proxy/actions'><img src='https://github.com/dmzoneill//ollama-proxy/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2026-07-11</p>
+            </td>
+        </tr>
+<tr>
+            <td>
               <p><h2><a href='https://github.com/dmzoneill/github-ai-maintainer' title='github-ai-maintainer'>github-ai-maintainer</a> (2026)</h2></p><p><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
@@ -445,22 +461,6 @@
             <td align="center">
               <a href='https://github.com/dmzoneill/bin/actions'><img src='https://github.com/dmzoneill//bin/actions/workflows/main.yml/badge.svg'/></a>
               <p>2026-05-17</p>
-            </td>
-        </tr>
-<tr>
-            <td>
-              <p><h2><a href='https://github.com/dmzoneill/ollama-proxy' title='ollama-proxy'>ollama-proxy</a> (2026)</h2></p><p><img src='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' title='Go' height='20px'/> <img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/</p>
-              <p>Apache License 2.0</p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-            </td>
-            <td>
-              <p><a href='' title=''></a></p>
-            </td>
-            <td align="center">
-              <a href='https://github.com/dmzoneill/ollama-proxy/actions'><img src='https://github.com/dmzoneill//ollama-proxy/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2026-03-27</p>
             </td>
         </tr>
 <tr>
@@ -796,7 +796,7 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/aa-dev-prod-watcher/actions'><img src='https://github.com/dmzoneill//aa-dev-prod-watcher/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2026-07-04</p>
+              <p>2026-07-11</p>
             </td>
         </tr>
 <tr>

@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-13/07/2026 07:07:55-brightgreen" height='28'/> &nbsp;&nbsp; <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=dmzoneill&color=brightgreen&style=for-the-badge" height='28'/> &nbsp;&nbsp; <img alt="Redhat" width='30' height='25' src="https://github.com/dmzoneill/dmzoneill/blob/main/images/redhat.svg?raw=true" />
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-13/07/2026 12:51:19-brightgreen" height='28'/> &nbsp;&nbsp; <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=dmzoneill&color=brightgreen&style=for-the-badge" height='28'/> &nbsp;&nbsp; <img alt="Redhat" width='30' height='25' src="https://github.com/dmzoneill/dmzoneill/blob/main/images/redhat.svg?raw=true" />
 
 <img src="generated/timeline.svg" width="760" alt="timeline"/>
 
@@ -40,7 +40,7 @@
 </details>
 <details>
 <summary><strong>Recent Activity (100)</strong></summary>
-<ul><li><a href='https://github.com/dmzoneill-forks/xdock/issues/833'>CI: Eliminate duplicate container builds across workflows</a></li><li><a href='https://github.com/dmzoneill-forks/xdock/issues/832'>Split locations.js into focused modules</a></li><li><a href='https://github.com/dmzoneill-forks/xdock/issues/831'>Split docking.js into 3 focused modules</a></li><li><a href='https://github.com/dmzoneill-forks/xdock/issues/830'>Split appIconIndicators.js into indicators/ subdirectory</a></li><li><a href='https://github.com/dmzoneill-forks/xdock/issues/833'>CI: Eliminate duplicate container builds across workflows</a></li><li><a href='https://github.com/dmzoneill-forks/xdock/issues/836'>CSS: Extract repeated color values to custom properties</a></li><li><a href='https://github.com/dmzoneill-forks/xdock/issues/841'>Verify unused CSS selectors for optional features</a></li><li><a href='https://github.com/dmzoneill-forks/xdock/issues/845'>CI: Fix outdated actions versions</a></li><li><a href='https://github.com/dmzoneill-forks/xdock/issues/844'>Integration test runner: Add per-file pass/fail summary</a></li><li><a href='https://github.com/dmzoneill-forks/xdock/issues/843'>Simplify SASS compilation fallback in Makefile</a></li><li><a href='https://github.com/dmzoneill-forks/xdock/issues/842'>Clean up legacy .gitignore entries</a></li><li><a href='https://github.com/dmzoneill-forks/xdock/issues/840'>CI: Add npm and container layer caching</a></li><li><a href='https://github.com/dmzoneill-forks/xdock/issues/839'>Jest: Add coverage thresholds to jest.config.mjs</a></li><li><a href='https://github.com/dmzoneill-forks/xdock/issues/837'>Containerfile: Merge dnf install layers for smaller image</a></li><li><a href='https://github.com/dmzoneill-forks/xdock/issues/835'>Makefile: Merge redundant targets and add missing .PHONY</a></li><li><a href='https://github.com/dmzoneill-forks/xdock/issues/834'>CI: Consolidate duplicate zip build logic</a></li></ul>
+<ul><li><a href='https://github.com/dmzoneill/ollama-proxy/pull/4'>build(deps): bump golang.org/x/net from 0.48.0 to 0.55.0</a></li><li><a href='https://github.com/dmzoneill-forks/xdock/issues/833'>CI: Eliminate duplicate container builds across workflows</a></li><li><a href='https://github.com/dmzoneill-forks/xdock/issues/832'>Split locations.js into focused modules</a></li><li><a href='https://github.com/dmzoneill-forks/xdock/issues/831'>Split docking.js into 3 focused modules</a></li><li><a href='https://github.com/dmzoneill-forks/xdock/issues/830'>Split appIconIndicators.js into indicators/ subdirectory</a></li><li><a href='https://github.com/dmzoneill-forks/xdock/issues/833'>CI: Eliminate duplicate container builds across workflows</a></li><li><a href='https://github.com/dmzoneill-forks/xdock/issues/836'>CSS: Extract repeated color values to custom properties</a></li><li><a href='https://github.com/dmzoneill-forks/xdock/issues/841'>Verify unused CSS selectors for optional features</a></li><li><a href='https://github.com/dmzoneill-forks/xdock/issues/845'>CI: Fix outdated actions versions</a></li><li><a href='https://github.com/dmzoneill-forks/xdock/issues/844'>Integration test runner: Add per-file pass/fail summary</a></li><li><a href='https://github.com/dmzoneill-forks/xdock/issues/843'>Simplify SASS compilation fallback in Makefile</a></li><li><a href='https://github.com/dmzoneill-forks/xdock/issues/842'>Clean up legacy .gitignore entries</a></li><li><a href='https://github.com/dmzoneill-forks/xdock/issues/840'>CI: Add npm and container layer caching</a></li><li><a href='https://github.com/dmzoneill-forks/xdock/issues/839'>Jest: Add coverage thresholds to jest.config.mjs</a></li><li><a href='https://github.com/dmzoneill-forks/xdock/issues/837'>Containerfile: Merge dnf install layers for smaller image</a></li><li><a href='https://github.com/dmzoneill-forks/xdock/issues/835'>Makefile: Merge redundant targets and add missing .PHONY</a></li><li><a href='https://github.com/dmzoneill-forks/xdock/issues/834'>CI: Consolidate duplicate zip build logic</a></li></ul>
 </details>
 <details>
 <summary><strong>Gists (23)</strong></summary>
@@ -62,15 +62,15 @@
     </tr>
   </thead>
   <tbody>
-    <tr><td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>14171585</td>
-<td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>2311143</td>
-<td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>450223</td>
+    <tr><td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>2311143</td>
 <td><img src='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' title='Go'  height='20px'/></td><td>1627085</td>
-</tr><tr>
 <td><img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML'  height='20px'/></td><td>13170950</td>
 <td><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript'  height='20px'/></td><td>10717187</td>
+</tr><tr>
+<td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>450223</td>
 <td><img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile'  height='20px'/></td><td>11180</td>
 <td><img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS'  height='20px'/></td><td>6103005</td>
+<td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>14171585</td>
 </tr><tr>
 <td><img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript'  height='20px'/></td><td>1566621</td>
 <td><img src='https://img.shields.io/badge/_-QML -11DDDD.svg?style=for-the-badge' title='QML'  height='20px'/></td><td>41756</td>
@@ -412,14 +412,14 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/github-ai-maintainer/actions'><img src='https://github.com/dmzoneill//github-ai-maintainer/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2026-07-12</p>
+              <p>2026-07-13</p>
             </td>
         </tr>
 <tr>
             <td>
               <p><h2><a href='https://github.com/dmzoneill/ollama-proxy' title='ollama-proxy'>ollama-proxy</a> (2026)</h2></p><p><img src='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' title='Go' height='20px'/> <img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><ul></ul></p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/ollama-proxy/pull/4'>build(deps): bump golang.org/x/net from 0.48.0 to 0.55.0</a></li></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -428,7 +428,7 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/ollama-proxy/actions'><img src='https://github.com/dmzoneill//ollama-proxy/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2026-07-12</p>
+              <p>2026-07-13</p>
             </td>
         </tr>
 <tr>

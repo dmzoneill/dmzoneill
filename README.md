@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-14/07/2026 00:28:39-brightgreen" height='28'/> &nbsp;&nbsp; <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=dmzoneill&color=brightgreen&style=for-the-badge" height='28'/> &nbsp;&nbsp; <img alt="Redhat" width='30' height='25' src="https://github.com/dmzoneill/dmzoneill/blob/main/images/redhat.svg?raw=true" />
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-14/07/2026 06:46:09-brightgreen" height='28'/> &nbsp;&nbsp; <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=dmzoneill&color=brightgreen&style=for-the-badge" height='28'/> &nbsp;&nbsp; <img alt="Redhat" width='30' height='25' src="https://github.com/dmzoneill/dmzoneill/blob/main/images/redhat.svg?raw=true" />
 
 <img src="generated/timeline.svg" width="760" alt="timeline"/>
 
@@ -40,7 +40,7 @@
 </details>
 <details>
 <summary><strong>Recent Activity (100)</strong></summary>
-<ul><li><a href='https://github.com/dmzoneill-forks/xdock/issues/860'>Coverage milestone: 90% effective coverage (unit + integration)</a></li><li><a href='https://github.com/dmzoneill-forks/xdock/issues/859'>Coverage milestone: 60% unit test coverage</a></li><li><a href='https://github.com/dmzoneill-forks/xdock/issues/858'>Coverage milestone: 30% unit test coverage</a></li><li><a href='https://github.com/dmzoneill-forks/xdock/issues/857'>Refactor: settings in intellihide.js → platform/settings</a></li><li><a href='https://github.com/dmzoneill-forks/xdock/issues/856'>Refactor: settings in windowPreview.js → platform/settings</a></li><li><a href='https://github.com/dmzoneill-forks/xdock/issues/855'>Refactor: settings in appIcons.js → platform/settings</a></li><li><a href='https://github.com/dmzoneill-forks/xdock/issues/854'>Refactor: settings + layout in theming.js → platform/</a></li><li><a href='https://github.com/dmzoneill-forks/xdock/issues/853'>Refactor: settings access in dash.js → platform/settings</a></li><li><a href='https://github.com/dmzoneill-forks/xdock/issues/852'>Refactor: settings access in docking.js → platform/settings</a></li><li><a href='https://github.com/dmzoneill-forks/xdock/issues/851'>Platform layer: theme module</a></li><li><a href='https://github.com/dmzoneill-forks/xdock/issues/850'>Platform layer: animations module</a></li><li><a href='https://github.com/dmzoneill-forks/xdock/issues/849'>Platform layer: signals module</a></li><li><a href='https://github.com/dmzoneill-forks/xdock/issues/848'>Platform layer: actors module</a></li><li><a href='https://github.com/dmzoneill-forks/xdock/issues/847'>Platform layer: layout module</a></li><li><a href='https://github.com/dmzoneill-forks/xdock/issues/846'>Platform layer: settings module (DONE — prototype)</a></li><li><a href='https://github.com/dmzoneill/ollama-proxy/pull/4'>build(deps): bump golang.org/x/net from 0.48.0 to 0.55.0</a></li><li><a href='https://github.com/dmzoneill-forks/xdock/issues/833'>CI: Eliminate duplicate container builds across workflows</a></li><li><a href='https://github.com/dmzoneill-forks/xdock/issues/832'>Split locations.js into focused modules</a></li><li><a href='https://github.com/dmzoneill-forks/xdock/issues/831'>Split docking.js into 3 focused modules</a></li><li><a href='https://github.com/dmzoneill-forks/xdock/issues/830'>Split appIconIndicators.js into indicators/ subdirectory</a></li><li><a href='https://github.com/dmzoneill-forks/xdock/issues/833'>CI: Eliminate duplicate container builds across workflows</a></li><li><a href='https://github.com/dmzoneill-forks/xdock/issues/836'>CSS: Extract repeated color values to custom properties</a></li></ul>
+<ul><li><a href='https://github.com/dmzoneill/ollama-proxy/pull/4'>build(deps): bump golang.org/x/net from 0.48.0 to 0.55.0</a></li><li><a href='https://github.com/dmzoneill-forks/xdock/issues/860'>Coverage milestone: 90% effective coverage (unit + integration)</a></li><li><a href='https://github.com/dmzoneill-forks/xdock/issues/859'>Coverage milestone: 60% unit test coverage</a></li><li><a href='https://github.com/dmzoneill-forks/xdock/issues/858'>Coverage milestone: 30% unit test coverage</a></li><li><a href='https://github.com/dmzoneill-forks/xdock/issues/857'>Refactor: settings in intellihide.js → platform/settings</a></li><li><a href='https://github.com/dmzoneill-forks/xdock/issues/856'>Refactor: settings in windowPreview.js → platform/settings</a></li><li><a href='https://github.com/dmzoneill-forks/xdock/issues/855'>Refactor: settings in appIcons.js → platform/settings</a></li><li><a href='https://github.com/dmzoneill-forks/xdock/issues/854'>Refactor: settings + layout in theming.js → platform/</a></li><li><a href='https://github.com/dmzoneill-forks/xdock/issues/853'>Refactor: settings access in dash.js → platform/settings</a></li><li><a href='https://github.com/dmzoneill-forks/xdock/issues/852'>Refactor: settings access in docking.js → platform/settings</a></li><li><a href='https://github.com/dmzoneill-forks/xdock/issues/851'>Platform layer: theme module</a></li><li><a href='https://github.com/dmzoneill-forks/xdock/issues/850'>Platform layer: animations module</a></li><li><a href='https://github.com/dmzoneill-forks/xdock/issues/849'>Platform layer: signals module</a></li><li><a href='https://github.com/dmzoneill-forks/xdock/issues/848'>Platform layer: actors module</a></li><li><a href='https://github.com/dmzoneill-forks/xdock/issues/847'>Platform layer: layout module</a></li><li><a href='https://github.com/dmzoneill-forks/xdock/issues/846'>Platform layer: settings module (DONE — prototype)</a></li><li><a href='https://github.com/dmzoneill/ollama-proxy/pull/4'>build(deps): bump golang.org/x/net from 0.48.0 to 0.55.0</a></li><li><a href='https://github.com/dmzoneill-forks/xdock/issues/833'>CI: Eliminate duplicate container builds across workflows</a></li><li><a href='https://github.com/dmzoneill-forks/xdock/issues/832'>Split locations.js into focused modules</a></li><li><a href='https://github.com/dmzoneill-forks/xdock/issues/831'>Split docking.js into 3 focused modules</a></li><li><a href='https://github.com/dmzoneill-forks/xdock/issues/830'>Split appIconIndicators.js into indicators/ subdirectory</a></li><li><a href='https://github.com/dmzoneill-forks/xdock/issues/833'>CI: Eliminate duplicate container builds across workflows</a></li></ul>
 </details>
 <details>
 <summary><strong>Gists (23)</strong></summary>
@@ -62,17 +62,17 @@
     </tr>
   </thead>
   <tbody>
-    <tr><td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>14171585</td>
-<td><img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript'  height='20px'/></td><td>1566621</td>
-<td><img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS'  height='20px'/></td><td>6103005</td>
-<td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>450223</td>
-</tr><tr>
+    <tr><td><img src='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' title='Go'  height='20px'/></td><td>1627084</td>
 <td><img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML'  height='20px'/></td><td>13170950</td>
-<td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>2311143</td>
 <td><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript'  height='20px'/></td><td>10717187</td>
-<td><img src='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' title='Go'  height='20px'/></td><td>1627085</td>
+<td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>2311143</td>
 </tr><tr>
+<td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>450223</td>
 <td><img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile'  height='20px'/></td><td>11180</td>
+<td><img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS'  height='20px'/></td><td>6103005</td>
+<td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>14171585</td>
+</tr><tr>
+<td><img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript'  height='20px'/></td><td>1566621</td>
 <td><img src='https://img.shields.io/badge/_-QML -11DDDD.svg?style=for-the-badge' title='QML'  height='20px'/></td><td>41756</td>
 <td><img src='https://img.shields.io/badge/_-Jinja -11DDDD.svg?style=for-the-badge' title='Jinja'  height='20px'/></td><td>408030</td>
 <td><img src='https://img.shields.io/badge/_-M4 -11DDDD.svg?style=for-the-badge' title='M4'  height='20px'/></td><td>124107</td>
@@ -155,7 +155,7 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/redhat-ai-workflow/actions'><img src='https://github.com/dmzoneill//redhat-ai-workflow/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2026-07-11</p>
+              <p>2026-07-14</p>
             </td>
         </tr>
 <tr>
@@ -171,7 +171,7 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2026-07-13</p>
+              <p>2026-07-14</p>
             </td>
         </tr>
 <tr>
@@ -401,6 +401,22 @@
 
 </tbody></table><details><summary><strong>2026 (8 projects)</strong></summary><table width='100%' style='width:100%'><thead><tr><th>Project</th><th>View</th><th>Status</th></tr></thead><tbody><tr>
             <td>
+              <p><h2><a href='https://github.com/dmzoneill/ollama-proxy' title='ollama-proxy'>ollama-proxy</a> (2026)</h2></p><p><img src='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' title='Go' height='20px'/> <img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/</p>
+              <p>Apache License 2.0</p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/ollama-proxy/pull/4'>build(deps): bump golang.org/x/net from 0.48.0 to 0.55.0</a></li><li><a href='https://github.com/dmzoneill/ollama-proxy/pull/4'>build(deps): bump golang.org/x/net from 0.48.0 to 0.55.0</a></li></ul></p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+            </td>
+            <td>
+              <p><a href='' title=''></a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/ollama-proxy/actions'><img src='https://github.com/dmzoneill//ollama-proxy/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2026-07-14</p>
+            </td>
+        </tr>
+<tr>
+            <td>
               <p><h2><a href='https://github.com/dmzoneill/github-ai-maintainer' title='github-ai-maintainer'>github-ai-maintainer</a> (2026)</h2></p><p><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
@@ -412,22 +428,6 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/github-ai-maintainer/actions'><img src='https://github.com/dmzoneill//github-ai-maintainer/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2026-07-13</p>
-            </td>
-        </tr>
-<tr>
-            <td>
-              <p><h2><a href='https://github.com/dmzoneill/ollama-proxy' title='ollama-proxy'>ollama-proxy</a> (2026)</h2></p><p><img src='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' title='Go' height='20px'/> <img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/</p>
-              <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/ollama-proxy/pull/4'>build(deps): bump golang.org/x/net from 0.48.0 to 0.55.0</a></li></ul></p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-            </td>
-            <td>
-              <p><a href='' title=''></a></p>
-            </td>
-            <td align="center">
-              <a href='https://github.com/dmzoneill/ollama-proxy/actions'><img src='https://github.com/dmzoneill//ollama-proxy/actions/workflows/main.yml/badge.svg'/></a>
               <p>2026-07-13</p>
             </td>
         </tr>

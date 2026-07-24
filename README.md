@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-24/07/2026 00:28:28-brightgreen" height='28'/> &nbsp;&nbsp; <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=dmzoneill&color=brightgreen&style=for-the-badge" height='28'/> &nbsp;&nbsp; <img alt="Redhat" width='30' height='25' src="https://github.com/dmzoneill/dmzoneill/blob/main/images/redhat.svg?raw=true" />
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-24/07/2026 06:52:57-brightgreen" height='28'/> &nbsp;&nbsp; <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=dmzoneill&color=brightgreen&style=for-the-badge" height='28'/> &nbsp;&nbsp; <img alt="Redhat" width='30' height='25' src="https://github.com/dmzoneill/dmzoneill/blob/main/images/redhat.svg?raw=true" />
 
 <img src="generated/timeline.svg" width="760" alt="timeline"/>
 
@@ -40,7 +40,7 @@
 </details>
 <details>
 <summary><strong>Recent Activity (100)</strong></summary>
-<ul><li><a href='https://api.github.com/repos/Redhat-forks/metrics-utility'>Redhat-forks/metrics-utility</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/153'>MEDIUM: Apache mod_ssl and mod_rewrite not in required_apache_modules — not explicitly managed</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/152'>MEDIUM: Chuckbot still uses daemon-reexec and nvm install always reports changed</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/154'>MEDIUM: Prometheus services.yml.j2 has duplicate PostfixDown alert name</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/149'>CRITICAL: PostgreSQL dumps created but never uploaded — data loss on restore</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/151'>LOW: Dead handlers in postfix, apparmor, auditd, and ntp — never notified</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/150'>MEDIUM: Postfix master.cf orphaned continuation line attaches to smtps service</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/148'>CRITICAL: fail2ban sshd jail blocks port 22 but sshd listens on port 33 — attackers never blocked</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/147'>HIGH: All 15 Prometheus port alert rules use nonexistent metric — never fire</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/146'>MEDIUM: mode: preserve used for sensitive files across opendmarc and spamassassin roles</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/144'>LOW: OpenDKIM private key owned by root instead of opendkim user</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/143'>MEDIUM: Grafana role does not add APT repository — apt install grafana will fail on clean server</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/145'>MEDIUM: saslauthd runs after postfix in reconcile order — SASL auth fails during reconcile</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/142'>MEDIUM: Network Manager role references /etc/network/interfaces after deleting it</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/140'>MEDIUM: AIDE daily check service has no timer unit — only runs at boot</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/141'>MEDIUM: LiteLLM failed_when traverses error path that may not exist</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/139'>MEDIUM: Alert manager REDIS_CHANNEL env var is silently ignored — script reads REDIS_LIST</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/138'>MEDIUM: Jumphost docker compose changed_when checks stdout but compose v2 outputs to stderr</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/137'>MEDIUM: fail2counter worker hardcodes email and Redis port</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/136'>MEDIUM: PostSRSd secret deployed with mode: preserve instead of 0600</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/135'>MEDIUM: Alertmanager email_configs rendered when email is disabled — will crash alertmanager</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/134'>HIGH: AIDE config template is empty — aide --init produces useless database</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/132'>MEDIUM: Apache2 orphaned config files never deployed</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/133'>MEDIUM: DNS role realpath filter resolves on controller, not target</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/131'>MEDIUM: Chuckbot copy task missing remote_src: true — will fail on remote SSH runs</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/130'>MEDIUM: VNC systemd template hardcodes user 'dave' and UID 1000 instead of using vnc_user variable</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/128'>HIGH: Postfix sasl_passwd deployed world-readable (0644) — contains SMTP credentials</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/129'>HIGH: fail2counter redis-queue.conf calls Python script directly instead of wrapper</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/125'>HIGH: Auditd rules deployed to wrong path and extension — never loaded</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/127'>HIGH: MySQL with_fileglob misses mariadb.conf.d/ subdirectory — configs never deployed</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/126'>HIGH: Prometheus services.yml.j2 alert descriptions use single braces — all 70+ alerts show literal text</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/95'>CRITICAL: PostgreSQL and Docker volume data not included in backups</a></li></ul>
+<ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/93'>Bump http-proxy-middleware from 2.0.9 to 2.0.10 in /frontend</a></li><li><a href='https://api.github.com/repos/Redhat-forks/metrics-utility'>Redhat-forks/metrics-utility</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/153'>MEDIUM: Apache mod_ssl and mod_rewrite not in required_apache_modules — not explicitly managed</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/152'>MEDIUM: Chuckbot still uses daemon-reexec and nvm install always reports changed</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/154'>MEDIUM: Prometheus services.yml.j2 has duplicate PostfixDown alert name</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/149'>CRITICAL: PostgreSQL dumps created but never uploaded — data loss on restore</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/151'>LOW: Dead handlers in postfix, apparmor, auditd, and ntp — never notified</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/150'>MEDIUM: Postfix master.cf orphaned continuation line attaches to smtps service</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/148'>CRITICAL: fail2ban sshd jail blocks port 22 but sshd listens on port 33 — attackers never blocked</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/147'>HIGH: All 15 Prometheus port alert rules use nonexistent metric — never fire</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/146'>MEDIUM: mode: preserve used for sensitive files across opendmarc and spamassassin roles</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/144'>LOW: OpenDKIM private key owned by root instead of opendkim user</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/143'>MEDIUM: Grafana role does not add APT repository — apt install grafana will fail on clean server</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/145'>MEDIUM: saslauthd runs after postfix in reconcile order — SASL auth fails during reconcile</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/142'>MEDIUM: Network Manager role references /etc/network/interfaces after deleting it</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/140'>MEDIUM: AIDE daily check service has no timer unit — only runs at boot</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/141'>MEDIUM: LiteLLM failed_when traverses error path that may not exist</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/139'>MEDIUM: Alert manager REDIS_CHANNEL env var is silently ignored — script reads REDIS_LIST</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/138'>MEDIUM: Jumphost docker compose changed_when checks stdout but compose v2 outputs to stderr</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/137'>MEDIUM: fail2counter worker hardcodes email and Redis port</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/136'>MEDIUM: PostSRSd secret deployed with mode: preserve instead of 0600</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/135'>MEDIUM: Alertmanager email_configs rendered when email is disabled — will crash alertmanager</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/134'>HIGH: AIDE config template is empty — aide --init produces useless database</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/132'>MEDIUM: Apache2 orphaned config files never deployed</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/133'>MEDIUM: DNS role realpath filter resolves on controller, not target</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/131'>MEDIUM: Chuckbot copy task missing remote_src: true — will fail on remote SSH runs</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/130'>MEDIUM: VNC systemd template hardcodes user 'dave' and UID 1000 instead of using vnc_user variable</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/128'>HIGH: Postfix sasl_passwd deployed world-readable (0644) — contains SMTP credentials</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/129'>HIGH: fail2counter redis-queue.conf calls Python script directly instead of wrapper</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/125'>HIGH: Auditd rules deployed to wrong path and extension — never loaded</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/127'>HIGH: MySQL with_fileglob misses mariadb.conf.d/ subdirectory — configs never deployed</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/126'>HIGH: Prometheus services.yml.j2 alert descriptions use single braces — all 70+ alerts show literal text</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/95'>CRITICAL: PostgreSQL and Docker volume data not included in backups</a></li></ul>
 </details>
 <details>
 <summary><strong>Gists (23)</strong></summary>
@@ -62,17 +62,17 @@
     </tr>
   </thead>
   <tbody>
-    <tr><td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>14171594</td>
-<td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>2312470</td>
-<td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>452206</td>
+    <tr><td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>2312470</td>
+<td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>14171594</td>
 <td><img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript'  height='20px'/></td><td>1566621</td>
-</tr><tr>
-<td><img src='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' title='Go'  height='20px'/></td><td>1627084</td>
 <td><img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS'  height='20px'/></td><td>6103005</td>
-<td><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript'  height='20px'/></td><td>10717187</td>
-<td><img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile'  height='20px'/></td><td>11180</td>
 </tr><tr>
+<td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>452206</td>
 <td><img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML'  height='20px'/></td><td>13170950</td>
+<td><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript'  height='20px'/></td><td>10717187</td>
+<td><img src='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' title='Go'  height='20px'/></td><td>1627084</td>
+</tr><tr>
+<td><img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile'  height='20px'/></td><td>11180</td>
 <td><img src='https://img.shields.io/badge/_-Jinja -11DDDD.svg?style=for-the-badge' title='Jinja'  height='20px'/></td><td>408634</td>
 <td><img src='https://img.shields.io/badge/_-M4 -11DDDD.svg?style=for-the-badge' title='M4'  height='20px'/></td><td>124107</td>
 <td><img src='https://img.shields.io/badge/_-QML -11DDDD.svg?style=for-the-badge' title='QML'  height='20px'/></td><td>41756</td>
@@ -144,22 +144,6 @@
   <tbody>
     <tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/dmzoneill' title='dmzoneill'>dmzoneill</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
-              <p>Apache License 2.0</p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-            </td>
-            <td>
-              <p><a href='https://github.com/dmzoneill' title='Github profile'>Github profile</a></p>
-            </td>
-            <td align="center">
-              <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2026-07-23</p>
-            </td>
-        </tr>
-<tr>
-            <td>
               <p><h2><a href='https://github.com/dmzoneill/redhat-ai-workflow' title='redhat-ai-workflow'>redhat-ai-workflow</a> (2025)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
@@ -171,7 +155,23 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/redhat-ai-workflow/actions'><img src='https://github.com/dmzoneill//redhat-ai-workflow/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2026-07-23</p>
+              <p>2026-07-24</p>
+            </td>
+        </tr>
+<tr>
+            <td>
+              <p><h2><a href='https://github.com/dmzoneill/dmzoneill' title='dmzoneill'>dmzoneill</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
+              <p>Apache License 2.0</p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+            </td>
+            <td>
+              <p><a href='https://github.com/dmzoneill' title='Github profile'>Github profile</a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2026-07-24</p>
             </td>
         </tr>
 <tr>
@@ -412,7 +412,7 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/github-ai-maintainer/actions'><img src='https://github.com/dmzoneill//github-ai-maintainer/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2026-07-23</p>
+              <p>2026-07-24</p>
             </td>
         </tr>
 <tr>
@@ -787,7 +787,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/aa-dev-prod-watcher' title='aa-dev-prod-watcher'>aa-dev-prod-watcher</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript' height='20px'/> <img src='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' title='Go' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><ul></ul></p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/93'>Bump http-proxy-middleware from 2.0.9 to 2.0.10 in /frontend</a></li></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -796,7 +796,7 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/aa-dev-prod-watcher/actions'><img src='https://github.com/dmzoneill//aa-dev-prod-watcher/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2026-07-23</p>
+              <p>2026-07-24</p>
             </td>
         </tr>
 <tr>

@@ -144,10 +144,10 @@
   <circle cx="697.2" cy="75" r="3.0" fill="#58a6ff"/>
   <text x="697.2" y="98.7" class="tyear" text-anchor="middle">2025</text>
   <text x="697.2" y="59.3" class="tcount" text-anchor="middle">5</text>
-  <circle cx="720.0" cy="75" r="14.5" fill="#58a6ff" opacity="0.3"/>
-  <circle cx="720.0" cy="75" r="8.7" fill="#58a6ff" opacity="0.6"/>
-  <circle cx="720.0" cy="75" r="4.3" fill="#58a6ff"/>
-  <text x="720.0" y="103.5" class="tyear" text-anchor="middle">2026</text>
-  <text x="720.0" y="54.5" class="tcount" text-anchor="middle">10</text>
+  <circle cx="720.0" cy="75" r="15.4" fill="#58a6ff" opacity="0.3"/>
+  <circle cx="720.0" cy="75" r="9.3" fill="#58a6ff" opacity="0.6"/>
+  <circle cx="720.0" cy="75" r="4.6" fill="#58a6ff"/>
+  <text x="720.0" y="104.4" class="tyear" text-anchor="middle">2026</text>
+  <text x="720.0" y="53.6" class="tcount" text-anchor="middle">11</text>
 
 </svg>

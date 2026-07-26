@@ -41,6 +41,199 @@
     "t": 1785049014.328099,
     "v": {}
   },
+  "https://api.github.com/repos/dmzoneill/harpnet.ie/issues?state=open": {
+    "t": 1785090162.2432635,
+    "v": [
+      {
+        "html_url": "https://github.com/dmzoneill/harpnet.ie/issues/44",
+        "title": "ICANN/IEDR accreditation",
+        "updated_at": "2026-07-26T18:11:49Z",
+        "url": "https://api.github.com/repos/dmzoneill/harpnet.ie/issues/44"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/harpnet.ie/issues/43",
+        "title": "[DEV-06] Sub-accounts per client",
+        "updated_at": "2026-07-26T18:11:47Z",
+        "url": "https://api.github.com/repos/dmzoneill/harpnet.ie/issues/43"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/harpnet.ie/issues/42",
+        "title": "[DEV-05] Reseller accounts with volume pricing",
+        "updated_at": "2026-07-26T18:11:45Z",
+        "url": "https://api.github.com/repos/dmzoneill/harpnet.ie/issues/42"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/harpnet.ie/issues/41",
+        "title": "[DEV-04] Webhook notifications for domain events",
+        "updated_at": "2026-07-26T18:11:43Z",
+        "url": "https://api.github.com/repos/dmzoneill/harpnet.ie/issues/41"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/harpnet.ie/issues/40",
+        "title": "Affiliate/referral program",
+        "updated_at": "2026-07-26T18:11:42Z",
+        "url": "https://api.github.com/repos/dmzoneill/harpnet.ie/issues/40"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/harpnet.ie/issues/39",
+        "title": "[SME-09] DNS templates (Google Workspace etc)",
+        "updated_at": "2026-07-26T18:11:40Z",
+        "url": "https://api.github.com/repos/dmzoneill/harpnet.ie/issues/39"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/harpnet.ie/issues/38",
+        "title": "[DEV-03] Bulk domain registration",
+        "updated_at": "2026-07-26T18:11:38Z",
+        "url": "https://api.github.com/repos/dmzoneill/harpnet.ie/issues/38"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/harpnet.ie/issues/37",
+        "title": "[DEV-02] Bulk domain search",
+        "updated_at": "2026-07-26T18:11:37Z",
+        "url": "https://api.github.com/repos/dmzoneill/harpnet.ie/issues/37"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/harpnet.ie/issues/36",
+        "title": "[DEV-01] REST API with token auth",
+        "updated_at": "2026-07-26T18:11:35Z",
+        "url": "https://api.github.com/repos/dmzoneill/harpnet.ie/issues/36"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/harpnet.ie/issues/35",
+        "title": "Monitoring and observability",
+        "updated_at": "2026-07-26T18:11:11Z",
+        "url": "https://api.github.com/repos/dmzoneill/harpnet.ie/issues/35"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/harpnet.ie/issues/34",
+        "title": "GDPR compliance",
+        "updated_at": "2026-07-26T18:11:09Z",
+        "url": "https://api.github.com/repos/dmzoneill/harpnet.ie/issues/34"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/harpnet.ie/issues/33",
+        "title": "Cloudflare DNS integration",
+        "updated_at": "2026-07-26T18:11:07Z",
+        "url": "https://api.github.com/repos/dmzoneill/harpnet.ie/issues/33"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/harpnet.ie/issues/32",
+        "title": "Legal documents published on site",
+        "updated_at": "2026-07-26T18:11:05Z",
+        "url": "https://api.github.com/repos/dmzoneill/harpnet.ie/issues/32"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/harpnet.ie/issues/31",
+        "title": "CI/CD pipeline (GitHub Actions)",
+        "updated_at": "2026-07-26T18:11:03Z",
+        "url": "https://api.github.com/repos/dmzoneill/harpnet.ie/issues/31"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/harpnet.ie/issues/30",
+        "title": "Security hardening",
+        "updated_at": "2026-07-26T18:10:44Z",
+        "url": "https://api.github.com/repos/dmzoneill/harpnet.ie/issues/30"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/harpnet.ie/issues/29",
+        "title": "Infrastructure setup (Ansible)",
+        "updated_at": "2026-07-26T18:10:42Z",
+        "url": "https://api.github.com/repos/dmzoneill/harpnet.ie/issues/29"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/harpnet.ie/issues/28",
+        "title": "Marketing pages + public site",
+        "updated_at": "2026-07-26T18:10:40Z",
+        "url": "https://api.github.com/repos/dmzoneill/harpnet.ie/issues/28"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/harpnet.ie/issues/27",
+        "title": "Email templates (28 transactional emails)",
+        "updated_at": "2026-07-26T18:10:38Z",
+        "url": "https://api.github.com/repos/dmzoneill/harpnet.ie/issues/27"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/harpnet.ie/issues/26",
+        "title": "Celery + celery-beat scheduled tasks",
+        "updated_at": "2026-07-26T18:10:36Z",
+        "url": "https://api.github.com/repos/dmzoneill/harpnet.ie/issues/26"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/harpnet.ie/issues/25",
+        "title": "Core Django models",
+        "updated_at": "2026-07-26T18:10:12Z",
+        "url": "https://api.github.com/repos/dmzoneill/harpnet.ie/issues/25"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/harpnet.ie/issues/24",
+        "title": "Django project scaffolding",
+        "updated_at": "2026-07-26T18:10:10Z",
+        "url": "https://api.github.com/repos/dmzoneill/harpnet.ie/issues/24"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/harpnet.ie/issues/23",
+        "title": "Stripe integration (dj-stripe + checkout)",
+        "updated_at": "2026-07-26T18:10:09Z",
+        "url": "https://api.github.com/repos/dmzoneill/harpnet.ie/issues/23"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/harpnet.ie/issues/22",
+        "title": "Provider routing and failover engine",
+        "updated_at": "2026-07-26T18:10:07Z",
+        "url": "https://api.github.com/repos/dmzoneill/harpnet.ie/issues/22"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/harpnet.ie/issues/21",
+        "title": "OpenProvider API client (SDK wrapper)",
+        "updated_at": "2026-07-26T18:10:05Z",
+        "url": "https://api.github.com/repos/dmzoneill/harpnet.ie/issues/21"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/harpnet.ie/issues/20",
+        "title": "Blacknight API client",
+        "updated_at": "2026-07-26T18:09:45Z",
+        "url": "https://api.github.com/repos/dmzoneill/harpnet.ie/issues/20"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/harpnet.ie/issues/19",
+        "title": "OpenSRS API client",
+        "updated_at": "2026-07-26T18:09:43Z",
+        "url": "https://api.github.com/repos/dmzoneill/harpnet.ie/issues/19"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/harpnet.ie/issues/18",
+        "title": "Provider abstraction layer (ABC interface)",
+        "updated_at": "2026-07-26T18:09:41Z",
+        "url": "https://api.github.com/repos/dmzoneill/harpnet.ie/issues/18"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/harpnet.ie/issues/17",
+        "title": "[SUP-01-05] Support agent features",
+        "updated_at": "2026-07-26T18:09:39Z",
+        "url": "https://api.github.com/repos/dmzoneill/harpnet.ie/issues/17"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/harpnet.ie/issues/16",
+        "title": "[ADM-01-15] Admin panel features",
+        "updated_at": "2026-07-26T18:09:38Z",
+        "url": "https://api.github.com/repos/dmzoneill/harpnet.ie/issues/16"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/harpnet.ie/issues/15",
+        "title": "[INT-02] Guided .ie compliance wizard for non-Irish",
+        "updated_at": "2026-07-26T18:09:15Z",
+        "url": "https://api.github.com/repos/dmzoneill/harpnet.ie/issues/15"
+      }
+    ]
+  },
+  "https://api.github.com/repos/dmzoneill/harpnet.ie/languages": {
+    "t": 1785090163.8286908,
+    "v": {}
+  },
+  "https://api.github.com/repos/dmzoneill/harpnet.ie/pulls?state=open": {
+    "t": 1785090163.0347354,
+    "v": []
+  },
   "https://api.github.com/repos/dmzoneill/hevyapp-api/languages": {
     "t": 1785049018.894269,
     "v": {}

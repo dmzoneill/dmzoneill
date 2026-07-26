@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-26/07/2026 00:34:16-brightgreen" height='28'/> &nbsp;&nbsp; <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=dmzoneill&color=brightgreen&style=for-the-badge" height='28'/> &nbsp;&nbsp; <img alt="Redhat" width='30' height='25' src="https://github.com/dmzoneill/dmzoneill/blob/main/images/redhat.svg?raw=true" />
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-26/07/2026 06:57:05-brightgreen" height='28'/> &nbsp;&nbsp; <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=dmzoneill&color=brightgreen&style=for-the-badge" height='28'/> &nbsp;&nbsp; <img alt="Redhat" width='30' height='25' src="https://github.com/dmzoneill/dmzoneill/blob/main/images/redhat.svg?raw=true" />
 
 <img src="generated/timeline.svg" width="760" alt="timeline"/>
 
@@ -32,15 +32,15 @@
 
 <details>
 <summary><strong>Issues (16)</strong></summary>
-<ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/31'>Question:  Can I send my own artist and album?</a> 2026-06-18</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/29'>[FR] Only search for missing songs from artists with a given tag</a> 2026-02-18</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/28'>Stuck?</a> 2026-02-18</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/25'>Most releases found are missing tracks</a> 2026-03-30</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/23'>Track Format & FFMPEG not adding metadata</a> 2026-02-19</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/21'>Issue with Lidarr recognizing downloaded audio and incorrect metadata in Jellyfin</a> 2026-05-15</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/7'>Truenas, Kubernetes, Lidarr and LYD</a> 2026-02-19</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/5'>FR: ability to filter results</a> 2026-02-19</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/3'>docker-compose</a> 2026-02-19</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/1'>Docker Build</a> 2026-02-19</li><li><a href='https://github.com/dmzoneill/tado-gnome-shell-extension/issues/2'>Got this message after trying to enable it (Gnome45):</a> 2026-02-18</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/15'>Question about sessions and events.</a> 2026-03-06</li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/94'>FEATURE: Migrate all domains to Cloudflare DNS and implement wildcard certificates</a> 2026-07-20</li><li><a href='https://github.com/dmzoneill/pass-gnome-extension/issues/3'>More uniform UI?</a> 2026-04-07</li><li><a href='https://github.com/dmzoneill/php-binance-bot/issues/1'>Causes my IP to be blocked </a> 2026-02-19</li><li><a href='https://github.com/dmzoneill/seedmagepp/issues/1'>Questions : difference between Uploaded and session_uploaded and Enhancement for already downloaded file.</a> 2026-02-18</li></ul>
+<ul><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/31'>Question:  Can I send my own artist and album?</a> 2026-06-18</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/29'>[FR] Only search for missing songs from artists with a given tag</a> 2026-02-18</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/28'>Stuck?</a> 2026-02-18</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/25'>Most releases found are missing tracks</a> 2026-03-30</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/23'>Track Format & FFMPEG not adding metadata</a> 2026-02-19</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/21'>Issue with Lidarr recognizing downloaded audio and incorrect metadata in Jellyfin</a> 2026-05-15</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/7'>Truenas, Kubernetes, Lidarr and LYD</a> 2026-02-19</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/5'>FR: ability to filter results</a> 2026-02-19</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/3'>docker-compose</a> 2026-02-19</li><li><a href='https://github.com/dmzoneill/lidarr-youtube-downloader/issues/1'>Docker Build</a> 2026-02-19</li><li><a href='https://github.com/dmzoneill/tado-gnome-shell-extension/issues/2'>Got this message after trying to enable it (Gnome45):</a> 2026-02-18</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/15'>Question about sessions and events.</a> 2026-03-06</li><li><a href='https://github.com/dmzoneill/pass-gnome-extension/issues/3'>More uniform UI?</a> 2026-04-07</li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/94'>FEATURE: Migrate all domains to Cloudflare DNS and implement wildcard certificates</a> 2026-07-20</li><li><a href='https://github.com/dmzoneill/php-binance-bot/issues/1'>Causes my IP to be blocked </a> 2026-02-19</li><li><a href='https://github.com/dmzoneill/seedmagepp/issues/1'>Questions : difference between Uploaded and session_uploaded and Enhancement for already downloaded file.</a> 2026-02-18</li></ul>
 </details>
 <details>
 <summary><strong>Pull Requests (2)</strong></summary>
-<ul><li><a href='https://github.com/dmzoneill/pass-gnome-extension/pull/8'>Bump fast-uri from 3.1.2 to 3.1.4</a> 2026-07-25</li><li><a href='https://github.com/dmzoneill/pass-gnome-extension/pull/8'>Bump fast-uri from 3.1.2 to 3.1.4</a> 2026-07-25</li></ul>
+<ul><li><a href='https://github.com/dmzoneill/pass-gnome-extension/pull/9'>Bump postcss from 8.5.15 to 8.5.23</a> 2026-07-26</li><li><a href='https://github.com/dmzoneill/pass-gnome-extension/pull/9'>Bump postcss from 8.5.15 to 8.5.23</a> 2026-07-26</li></ul>
 </details>
 <details>
 <summary><strong>Recent Activity (100)</strong></summary>
-<ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/93'>Bump http-proxy-middleware from 2.0.9 to 2.0.10 in /frontend</a></li><li><a href='https://api.github.com/repos/Redhat-forks/metrics-utility'>Redhat-forks/metrics-utility</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/153'>MEDIUM: Apache mod_ssl and mod_rewrite not in required_apache_modules — not explicitly managed</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/152'>MEDIUM: Chuckbot still uses daemon-reexec and nvm install always reports changed</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/154'>MEDIUM: Prometheus services.yml.j2 has duplicate PostfixDown alert name</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/149'>CRITICAL: PostgreSQL dumps created but never uploaded — data loss on restore</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/151'>LOW: Dead handlers in postfix, apparmor, auditd, and ntp — never notified</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/150'>MEDIUM: Postfix master.cf orphaned continuation line attaches to smtps service</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/148'>CRITICAL: fail2ban sshd jail blocks port 22 but sshd listens on port 33 — attackers never blocked</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/147'>HIGH: All 15 Prometheus port alert rules use nonexistent metric — never fire</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/146'>MEDIUM: mode: preserve used for sensitive files across opendmarc and spamassassin roles</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/144'>LOW: OpenDKIM private key owned by root instead of opendkim user</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/143'>MEDIUM: Grafana role does not add APT repository — apt install grafana will fail on clean server</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/145'>MEDIUM: saslauthd runs after postfix in reconcile order — SASL auth fails during reconcile</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/142'>MEDIUM: Network Manager role references /etc/network/interfaces after deleting it</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/140'>MEDIUM: AIDE daily check service has no timer unit — only runs at boot</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/141'>MEDIUM: LiteLLM failed_when traverses error path that may not exist</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/139'>MEDIUM: Alert manager REDIS_CHANNEL env var is silently ignored — script reads REDIS_LIST</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/138'>MEDIUM: Jumphost docker compose changed_when checks stdout but compose v2 outputs to stderr</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/137'>MEDIUM: fail2counter worker hardcodes email and Redis port</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/136'>MEDIUM: PostSRSd secret deployed with mode: preserve instead of 0600</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/135'>MEDIUM: Alertmanager email_configs rendered when email is disabled — will crash alertmanager</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/134'>HIGH: AIDE config template is empty — aide --init produces useless database</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/132'>MEDIUM: Apache2 orphaned config files never deployed</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/133'>MEDIUM: DNS role realpath filter resolves on controller, not target</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/131'>MEDIUM: Chuckbot copy task missing remote_src: true — will fail on remote SSH runs</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/130'>MEDIUM: VNC systemd template hardcodes user 'dave' and UID 1000 instead of using vnc_user variable</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/128'>HIGH: Postfix sasl_passwd deployed world-readable (0644) — contains SMTP credentials</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/129'>HIGH: fail2counter redis-queue.conf calls Python script directly instead of wrapper</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/125'>HIGH: Auditd rules deployed to wrong path and extension — never loaded</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/127'>HIGH: MySQL with_fileglob misses mariadb.conf.d/ subdirectory — configs never deployed</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/126'>HIGH: Prometheus services.yml.j2 alert descriptions use single braces — all 70+ alerts show literal text</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/95'>CRITICAL: PostgreSQL and Docker volume data not included in backups</a></li></ul>
+<ul><li><a href='https://github.com/dmzoneill/aa-dev-prod-watcher/pull/93'>Bump http-proxy-middleware from 2.0.9 to 2.0.10 in /frontend</a></li><li><a href='https://api.github.com/repos/Redhat-forks/metrics-utility'>Redhat-forks/metrics-utility</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/153'>MEDIUM: Apache mod_ssl and mod_rewrite not in required_apache_modules — not explicitly managed</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/152'>MEDIUM: Chuckbot still uses daemon-reexec and nvm install always reports changed</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/154'>MEDIUM: Prometheus services.yml.j2 has duplicate PostfixDown alert name</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/149'>CRITICAL: PostgreSQL dumps created but never uploaded — data loss on restore</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/151'>LOW: Dead handlers in postfix, apparmor, auditd, and ntp — never notified</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/150'>MEDIUM: Postfix master.cf orphaned continuation line attaches to smtps service</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/148'>CRITICAL: fail2ban sshd jail blocks port 22 but sshd listens on port 33 — attackers never blocked</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/147'>HIGH: All 15 Prometheus port alert rules use nonexistent metric — never fire</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/146'>MEDIUM: mode: preserve used for sensitive files across opendmarc and spamassassin roles</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/144'>LOW: OpenDKIM private key owned by root instead of opendkim user</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/143'>MEDIUM: Grafana role does not add APT repository — apt install grafana will fail on clean server</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/145'>MEDIUM: saslauthd runs after postfix in reconcile order — SASL auth fails during reconcile</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/142'>MEDIUM: Network Manager role references /etc/network/interfaces after deleting it</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/140'>MEDIUM: AIDE daily check service has no timer unit — only runs at boot</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/141'>MEDIUM: LiteLLM failed_when traverses error path that may not exist</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/139'>MEDIUM: Alert manager REDIS_CHANNEL env var is silently ignored — script reads REDIS_LIST</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/138'>MEDIUM: Jumphost docker compose changed_when checks stdout but compose v2 outputs to stderr</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/137'>MEDIUM: fail2counter worker hardcodes email and Redis port</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/136'>MEDIUM: PostSRSd secret deployed with mode: preserve instead of 0600</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/135'>MEDIUM: Alertmanager email_configs rendered when email is disabled — will crash alertmanager</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/134'>HIGH: AIDE config template is empty — aide --init produces useless database</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/132'>MEDIUM: Apache2 orphaned config files never deployed</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/133'>MEDIUM: DNS role realpath filter resolves on controller, not target</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/131'>MEDIUM: Chuckbot copy task missing remote_src: true — will fail on remote SSH runs</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/130'>MEDIUM: VNC systemd template hardcodes user 'dave' and UID 1000 instead of using vnc_user variable</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/128'>HIGH: Postfix sasl_passwd deployed world-readable (0644) — contains SMTP credentials</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/129'>HIGH: fail2counter redis-queue.conf calls Python script directly instead of wrapper</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/125'>HIGH: Auditd rules deployed to wrong path and extension — never loaded</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/127'>HIGH: MySQL with_fileglob misses mariadb.conf.d/ subdirectory — configs never deployed</a></li></ul>
 </details>
 <details>
 <summary><strong>Gists (23)</strong></summary>
@@ -63,18 +63,18 @@
   </thead>
   <tbody>
     <tr><td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>14171594</td>
-<td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>2310125</td>
+<td><img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript'  height='20px'/></td><td>1566621</td>
+<td><img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS'  height='20px'/></td><td>6103005</td>
 <td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>452206</td>
+</tr><tr>
+<td><img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML'  height='20px'/></td><td>13170950</td>
+<td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>2310125</td>
+<td><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript'  height='20px'/></td><td>10717187</td>
 <td><img src='https://img.shields.io/badge/_-Jinja -11DDDD.svg?style=for-the-badge' title='Jinja'  height='20px'/></td><td>408256</td>
 </tr><tr>
 <td><img src='https://img.shields.io/badge/_-M4 -11DDDD.svg?style=for-the-badge' title='M4'  height='20px'/></td><td>124107</td>
-<td><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript'  height='20px'/></td><td>10717187</td>
-<td><img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS'  height='20px'/></td><td>6103005</td>
 <td><img src='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' title='Go'  height='20px'/></td><td>1627084</td>
-</tr><tr>
-<td><img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML'  height='20px'/></td><td>13170950</td>
 <td><img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile'  height='20px'/></td><td>11180</td>
-<td><img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript'  height='20px'/></td><td>1566621</td>
 <td><img src='https://img.shields.io/badge/_-QML -11DDDD.svg?style=for-the-badge' title='QML'  height='20px'/></td><td>41756</td>
 </tr><tr>
 <td><img src='https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white' title='Ruby'  height='20px'/></td><td>505556</td>
@@ -144,22 +144,6 @@
   <tbody>
     <tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/dmzoneill' title='dmzoneill'>dmzoneill</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
-              <p>Apache License 2.0</p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-            </td>
-            <td>
-              <p><a href='https://github.com/dmzoneill' title='Github profile'>Github profile</a></p>
-            </td>
-            <td align="center">
-              <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2026-07-25</p>
-            </td>
-        </tr>
-<tr>
-            <td>
               <p><h2><a href='https://github.com/dmzoneill/redhat-ai-workflow' title='redhat-ai-workflow'>redhat-ai-workflow</a> (2025)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
@@ -171,7 +155,23 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/redhat-ai-workflow/actions'><img src='https://github.com/dmzoneill//redhat-ai-workflow/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2026-07-25</p>
+              <p>2026-07-26</p>
+            </td>
+        </tr>
+<tr>
+            <td>
+              <p><h2><a href='https://github.com/dmzoneill/dmzoneill' title='dmzoneill'>dmzoneill</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
+              <p>Apache License 2.0</p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+            </td>
+            <td>
+              <p><a href='https://github.com/dmzoneill' title='Github profile'>Github profile</a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2026-07-26</p>
             </td>
         </tr>
 <tr>
@@ -529,6 +529,22 @@
         </tr>
 </tbody></table></details><details><summary><strong>2025 (3 projects)</strong></summary><table width='100%' style='width:100%'><thead><tr><th>Project</th><th>View</th><th>Status</th></tr></thead><tbody><tr>
             <td>
+              <p><h2><a href='https://github.com/dmzoneill/pass-gnome-extension' title='pass-gnome-extension'>pass-gnome-extension</a> (2025)</h2></p><p><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
+              <p>Apache License 2.0</p>
+              <p><ul></ul></p>
+              <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/pass-gnome-extension/issues/3'>More uniform UI?</a> 2026-07-26</li></ul></p>
+              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/pass-gnome-extension/pull/9'>Bump postcss from 8.5.15 to 8.5.23</a> 2026-07-26</li><li><a href='https://github.com/dmzoneill/pass-gnome-extension/pull/9'>Bump postcss from 8.5.15 to 8.5.23</a> 2026-07-26</li></ul></p>
+            </td>
+            <td>
+              <p><a href='' title=''></a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/pass-gnome-extension/actions'><img src='https://github.com/dmzoneill//pass-gnome-extension/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2026-07-26</p>
+            </td>
+        </tr>
+<tr>
+            <td>
               <p><h2><a href='https://github.com/dmzoneill/ansible-feeditout-com' title='ansible-feeditout-com'>ansible-feeditout-com</a> (2025)</h2></p><p><img src='https://img.shields.io/badge/_-Jinja -11DDDD.svg?style=for-the-badge' title='Jinja' height='20px'/> <img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
@@ -541,22 +557,6 @@
             <td align="center">
               <a href='https://github.com/dmzoneill/ansible-feeditout-com/actions'><img src='https://github.com/dmzoneill//ansible-feeditout-com/actions/workflows/main.yml/badge.svg'/></a>
               <p>2026-07-25</p>
-            </td>
-        </tr>
-<tr>
-            <td>
-              <p><h2><a href='https://github.com/dmzoneill/pass-gnome-extension' title='pass-gnome-extension'>pass-gnome-extension</a> (2025)</h2></p><p><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
-              <p>Apache License 2.0</p>
-              <p><ul></ul></p>
-              <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/pass-gnome-extension/issues/3'>More uniform UI?</a> 2026-06-30</li></ul></p>
-              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/pass-gnome-extension/pull/8'>Bump fast-uri from 3.1.2 to 3.1.4</a> 2026-06-30</li><li><a href='https://github.com/dmzoneill/pass-gnome-extension/pull/8'>Bump fast-uri from 3.1.2 to 3.1.4</a> 2026-06-30</li></ul></p>
-            </td>
-            <td>
-              <p><a href='' title=''></a></p>
-            </td>
-            <td align="center">
-              <a href='https://github.com/dmzoneill/pass-gnome-extension/actions'><img src='https://github.com/dmzoneill//pass-gnome-extension/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2026-06-30</p>
             </td>
         </tr>
 <tr>
@@ -645,7 +645,7 @@
               <p></p>
               <p><ul></ul></p>
               <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/pass-gnome-extension/issues/3'>More uniform UI?</a> 2026-05-01</li></ul></p>
-              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/pass-gnome-extension/pull/8'>Bump fast-uri from 3.1.2 to 3.1.4</a> 2026-05-01</li><li><a href='https://github.com/dmzoneill/pass-gnome-extension/pull/8'>Bump fast-uri from 3.1.2 to 3.1.4</a> 2026-05-01</li></ul></p>
+              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/pass-gnome-extension/pull/9'>Bump postcss from 8.5.15 to 8.5.23</a> 2026-05-01</li><li><a href='https://github.com/dmzoneill/pass-gnome-extension/pull/9'>Bump postcss from 8.5.15 to 8.5.23</a> 2026-05-01</li></ul></p>
             </td>
             <td>
               <p><a href='' title=''></a></p>

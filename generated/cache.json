@@ -72,7 +72,7 @@
     "v": {}
   },
   "https://api.github.com/repos/dmzoneill/harpnet.ie/issues?state=open": {
-    "t": 1785717185.3581843,
+    "t": 1785762300.4324524,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/harpnet.ie/issues/44",
@@ -257,11 +257,11 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/harpnet.ie/languages": {
-    "t": 1785717186.9198356,
+    "t": 1785762301.7784712,
     "v": {}
   },
   "https://api.github.com/repos/dmzoneill/harpnet.ie/pulls?state=open": {
-    "t": 1785717186.136444,
+    "t": 1785762301.1216257,
     "v": []
   },
   "https://api.github.com/repos/dmzoneill/hevyapp-api/languages": {
@@ -373,6 +373,141 @@
   },
   "https://api.github.com/repos/dmzoneill/php-binance-bot/pulls?state=open": {
     "t": 1785740976.937123,
+    "v": []
+  },
+  "https://api.github.com/repos/dmzoneill/securetty/issues?state=open": {
+    "t": 1785762298.891317,
+    "v": [
+      {
+        "html_url": "https://github.com/dmzoneill/securetty/issues/21",
+        "title": "fix: unnecessary packages in dev image",
+        "updated_at": "2026-08-03T12:51:20Z",
+        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/21"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/securetty/issues/20",
+        "title": "fix: label=disable SELinux opt unjustified",
+        "updated_at": "2026-08-03T12:51:19Z",
+        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/20"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/securetty/issues/19",
+        "title": "fix: omniroute login task missing no_log",
+        "updated_at": "2026-08-03T12:51:15Z",
+        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/19"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/securetty/issues/18",
+        "title": "fix: *.redhat.com wildcard too broad",
+        "updated_at": "2026-08-03T12:51:36Z",
+        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/18"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/securetty/issues/17",
+        "title": "fix: ollama 16GB allocation may be excessive",
+        "updated_at": "2026-08-03T12:51:17Z",
+        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/17"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/securetty/issues/16",
+        "title": "fix: set -a source .env exports all secrets",
+        "updated_at": "2026-08-03T12:51:36Z",
+        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/16"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/securetty/issues/15",
+        "title": "fix: cloudflare AI domain missing from allowlist",
+        "updated_at": "2026-08-03T12:51:33Z",
+        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/15"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/securetty/issues/14",
+        "title": "fix: pass paths visible in git history",
+        "updated_at": "2026-08-03T12:51:18Z",
+        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/14"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/securetty/issues/13",
+        "title": "fix: ollama has no HTTP_PROXY",
+        "updated_at": "2026-08-03T12:51:27Z",
+        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/13"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/securetty/issues/12",
+        "title": "fix: omniroute API key grep visible in ansible output",
+        "updated_at": "2026-08-03T12:51:09Z",
+        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/12"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/securetty/issues/11",
+        "title": "fix: SSH ProxyCommand only for github.com and gitlab.com",
+        "updated_at": "2026-08-03T12:51:37Z",
+        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/11"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/securetty/issues/10",
+        "title": "fix: .kube and .claude.json mounted RW",
+        "updated_at": "2026-08-03T12:52:14Z",
+        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/10"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/securetty/issues/9",
+        "title": "fix: SYS_NICE + nc/socat allows potential raw socket bypass",
+        "updated_at": "2026-08-03T12:51:29Z",
+        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/9"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/securetty/issues/8",
+        "title": "fix: build tools (gcc, g++) in runtime image",
+        "updated_at": "2026-08-03T12:51:24Z",
+        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/8"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/securetty/issues/7",
+        "title": "fix: agent config dirs mounted RW",
+        "updated_at": "2026-08-03T12:51:59Z",
+        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/7"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/securetty/issues/5",
+        "title": "fix: *.google.com wildcard too broad",
+        "updated_at": "2026-08-03T12:51:43Z",
+        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/5"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/securetty/issues/6",
+        "title": "fix: NO_PROXY missing dns-relay and subnet in aliases",
+        "updated_at": "2026-08-03T12:51:26Z",
+        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/6"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/securetty/issues/4",
+        "title": "fix: full /run/user mounted RW into containers",
+        "updated_at": "2026-08-03T12:51:22Z",
+        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/4"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/securetty/issues/3",
+        "title": "fix: *.amazonaws.com wildcard too broad",
+        "updated_at": "2026-08-03T12:51:23Z",
+        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/3"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/securetty/issues/2",
+        "title": "fix: /tmp discovery file leaks secrets",
+        "updated_at": "2026-08-03T12:51:15Z",
+        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/2"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/securetty/issues/1",
+        "title": "fix: .env files world-readable (0644)",
+        "updated_at": "2026-08-03T12:51:22Z",
+        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/1"
+      }
+    ]
+  },
+  "https://api.github.com/repos/dmzoneill/securetty/pulls?state=open": {
+    "t": 1785762299.5587416,
     "v": []
   },
   "https://api.github.com/repos/dmzoneill/seedmagepp/issues?state=open": {

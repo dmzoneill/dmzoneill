@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-06/08/2026 00:28:01-brightgreen" height='28'/> &nbsp;&nbsp; <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=dmzoneill&color=brightgreen&style=for-the-badge" height='28'/> &nbsp;&nbsp; <img alt="Redhat" width='30' height='25' src="https://github.com/dmzoneill/dmzoneill/blob/main/images/redhat.svg?raw=true" />
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-06/08/2026 06:56:32-brightgreen" height='28'/> &nbsp;&nbsp; <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=dmzoneill&color=brightgreen&style=for-the-badge" height='28'/> &nbsp;&nbsp; <img alt="Redhat" width='30' height='25' src="https://github.com/dmzoneill/dmzoneill/blob/main/images/redhat.svg?raw=true" />
 
 <img src="generated/timeline.svg" width="760" alt="timeline"/>
 
@@ -40,7 +40,7 @@
 </details>
 <details>
 <summary><strong>Recent Activity (100)</strong></summary>
-<ul><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/securetty/issues/19'>fix: omniroute login task missing no_log</a></li><li><a href='https://github.com/dmzoneill/securetty/issues/18'>fix: *.redhat.com wildcard too broad</a></li><li><a href='https://github.com/dmzoneill/securetty/issues/12'>fix: omniroute API key grep visible in ansible output</a></li><li><a href='https://github.com/dmzoneill/securetty/issues/5'>fix: *.google.com wildcard too broad</a></li><li><a href='https://github.com/dmzoneill/securetty/issues/4'>fix: full /run/user mounted RW into containers</a></li><li><a href='https://github.com/dmzoneill/securetty/issues/3'>fix: *.amazonaws.com wildcard too broad</a></li><li><a href='https://github.com/dmzoneill/securetty/issues/2'>fix: /tmp discovery file leaks secrets</a></li><li><a href='https://github.com/dmzoneill/securetty/issues/1'>fix: .env files world-readable (0644)</a></li><li><a href='https://github.com/dmzoneill/securetty/issues/21'>fix: unnecessary packages in dev image</a></li><li><a href='https://github.com/dmzoneill/securetty/issues/20'>fix: label=disable SELinux opt unjustified</a></li></ul>
+<ul><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/securetty/issues/19'>fix: omniroute login task missing no_log</a></li><li><a href='https://github.com/dmzoneill/securetty/issues/18'>fix: *.redhat.com wildcard too broad</a></li><li><a href='https://github.com/dmzoneill/securetty/issues/12'>fix: omniroute API key grep visible in ansible output</a></li><li><a href='https://github.com/dmzoneill/securetty/issues/5'>fix: *.google.com wildcard too broad</a></li><li><a href='https://github.com/dmzoneill/securetty/issues/4'>fix: full /run/user mounted RW into containers</a></li></ul>
 </details>
 <details>
 <summary><strong>Gists (24)</strong></summary>
@@ -62,24 +62,24 @@
     </tr>
   </thead>
   <tbody>
-    <tr><td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>14293380</td>
-<td><img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript'  height='20px'/></td><td>1566621</td>
+    <tr><td><img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP'  height='20px'/></td><td>142280106</td>
+<td><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript'  height='20px'/></td><td>19213649</td>
 <td><img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS'  height='20px'/></td><td>11480363</td>
-<td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>454726</td>
+<td><img src='https://img.shields.io/badge/_-SCSS -11DDDD.svg?style=for-the-badge' title='SCSS'  height='20px'/></td><td>385663</td>
 </tr><tr>
 <td><img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML'  height='20px'/></td><td>13395118</td>
+<td><img src='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' title='Java'  height='20px'/></td><td>2101717</td>
 <td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>2403591</td>
-<td><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript'  height='20px'/></td><td>19213649</td>
+<td><img src='https://img.shields.io/badge/_-XSLT -11DDDD.svg?style=for-the-badge' title='XSLT'  height='20px'/></td><td>194758</td>
+</tr><tr>
+<td><img src='https://img.shields.io/badge/_-VCL -11DDDD.svg?style=for-the-badge' title='VCL'  height='20px'/></td><td>3906</td>
+<td><img src='https://img.shields.io/badge/_-Hack -11DDDD.svg?style=for-the-badge' title='Hack'  height='20px'/></td><td>242245</td>
+<td><img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript'  height='20px'/></td><td>1566621</td>
 <td><img src='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' title='Go'  height='20px'/></td><td>1627084</td>
 </tr><tr>
 <td><img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile'  height='20px'/></td><td>19276</td>
-<td><img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP'  height='20px'/></td><td>142280106</td>
-<td><img src='https://img.shields.io/badge/_-SCSS -11DDDD.svg?style=for-the-badge' title='SCSS'  height='20px'/></td><td>385663</td>
-<td><img src='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' title='Java'  height='20px'/></td><td>2101717</td>
-</tr><tr>
-<td><img src='https://img.shields.io/badge/_-XSLT -11DDDD.svg?style=for-the-badge' title='XSLT'  height='20px'/></td><td>194758</td>
-<td><img src='https://img.shields.io/badge/_-VCL -11DDDD.svg?style=for-the-badge' title='VCL'  height='20px'/></td><td>3906</td>
-<td><img src='https://img.shields.io/badge/_-Hack -11DDDD.svg?style=for-the-badge' title='Hack'  height='20px'/></td><td>242245</td>
+<td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>454726</td>
+<td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>14293380</td>
 <td><img src='https://img.shields.io/badge/_-Jinja -11DDDD.svg?style=for-the-badge' title='Jinja'  height='20px'/></td><td>429854</td>
 </tr><tr>
 <td><img src='https://img.shields.io/badge/_-M4 -11DDDD.svg?style=for-the-badge' title='M4'  height='20px'/></td><td>124107</td>
@@ -145,6 +145,38 @@
   <tbody>
     <tr>
             <td>
+              <p><h2><a href='https://github.com/dmzoneill/Chuckbot' title='Chuckbot'>Chuckbot</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/</p>
+              <p>Apache License 2.0</p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+            </td>
+            <td>
+              <p><a href='https://wa.me/96592226837' title='Chat with chuck'>Chat with chuck</a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/Chuckbot/actions'><img src='https://github.com/dmzoneill//Chuckbot/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2026-08-06</p>
+            </td>
+        </tr>
+<tr>
+            <td>
+              <p><h2><a href='https://github.com/dmzoneill/DFakeSeeder' title='DFakeSeeder'>DFakeSeeder</a> (2024)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/</p>
+              <p>Apache License 2.0</p>
+              <p><ul></ul></p>
+              <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/15'>Question about sessions and events.</a> 2026-08-06</li></ul></p>
+              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/DFakeSeeder/pull/49'>chore(deps): bump aiohttp from 3.14.1 to 3.14.3</a> 2026-08-06</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/pull/49'>chore(deps): bump aiohttp from 3.14.1 to 3.14.3</a> 2026-08-06</li></ul></p>
+            </td>
+            <td>
+              <p><a href='https://github.com/dmzoneill/DFakeSeeder' title='DFakeSeeder'>DFakeSeeder</a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/DFakeSeeder/actions'><img src='https://github.com/dmzoneill//DFakeSeeder/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2026-08-06</p>
+            </td>
+        </tr>
+<tr>
+            <td>
               <p><h2><a href='https://github.com/dmzoneill/redhat-ai-workflow' title='redhat-ai-workflow'>redhat-ai-workflow</a> (2025)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
@@ -156,7 +188,7 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/redhat-ai-workflow/actions'><img src='https://github.com/dmzoneill//redhat-ai-workflow/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2026-07-26</p>
+              <p>2026-08-06</p>
             </td>
         </tr>
 <tr>
@@ -172,39 +204,7 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2026-08-05</p>
-            </td>
-        </tr>
-<tr>
-            <td>
-              <p><h2><a href='https://github.com/dmzoneill/Chuckbot' title='Chuckbot'>Chuckbot</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/</p>
-              <p>Apache License 2.0</p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-            </td>
-            <td>
-              <p><a href='https://wa.me/96592226837' title='Chat with chuck'>Chat with chuck</a></p>
-            </td>
-            <td align="center">
-              <a href='https://github.com/dmzoneill/Chuckbot/actions'><img src='https://github.com/dmzoneill//Chuckbot/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2026-08-05</p>
-            </td>
-        </tr>
-<tr>
-            <td>
-              <p><h2><a href='https://github.com/dmzoneill/DFakeSeeder' title='DFakeSeeder'>DFakeSeeder</a> (2024)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/</p>
-              <p>Apache License 2.0</p>
-              <p><ul></ul></p>
-              <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/DFakeSeeder/issues/15'>Question about sessions and events.</a> 2026-08-01</li></ul></p>
-              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/DFakeSeeder/pull/49'>chore(deps): bump aiohttp from 3.14.1 to 3.14.3</a> 2026-08-01</li><li><a href='https://github.com/dmzoneill/DFakeSeeder/pull/49'>chore(deps): bump aiohttp from 3.14.1 to 3.14.3</a> 2026-08-01</li></ul></p>
-            </td>
-            <td>
-              <p><a href='https://github.com/dmzoneill/DFakeSeeder' title='DFakeSeeder'>DFakeSeeder</a></p>
-            </td>
-            <td align="center">
-              <a href='https://github.com/dmzoneill/DFakeSeeder/actions'><img src='https://github.com/dmzoneill//DFakeSeeder/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2026-08-01</p>
+              <p>2026-08-06</p>
             </td>
         </tr>
 <tr>
@@ -402,6 +402,22 @@
 
 </tbody></table><details><summary><strong>2026 (12 projects)</strong></summary><table width='100%' style='width:100%'><thead><tr><th>Project</th><th>View</th><th>Status</th></tr></thead><tbody><tr>
             <td>
+              <p><h2><a href='https://github.com/dmzoneill/feeditout.com-2026' title='feeditout.com-2026'>feeditout.com-2026</a> (2026)</h2></p><p><img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/> <img src='https://img.shields.io/badge/_-SCSS -11DDDD.svg?style=for-the-badge' title='SCSS' height='20px'/</p>
+              <p></p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+            </td>
+            <td>
+              <p><a href='' title=''></a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/feeditout.com-2026/actions'><img src='https://github.com/dmzoneill//feeditout.com-2026/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2026-08-06</p>
+            </td>
+        </tr>
+<tr>
+            <td>
               <p><h2><a href='https://github.com/dmzoneill/github-ai-maintainer' title='github-ai-maintainer'>github-ai-maintainer</a> (2026)</h2></p><p><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
@@ -446,22 +462,6 @@
             <td align="center">
               <a href='https://github.com/dmzoneill/passmate/actions'><img src='https://github.com/dmzoneill//passmate/actions/workflows/main.yml/badge.svg'/></a>
               <p>2026-07-31</p>
-            </td>
-        </tr>
-<tr>
-            <td>
-              <p><h2><a href='https://github.com/dmzoneill/feeditout.com-2026' title='feeditout.com-2026'>feeditout.com-2026</a> (2026)</h2></p><p><img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/> <img src='https://img.shields.io/badge/_-SCSS -11DDDD.svg?style=for-the-badge' title='SCSS' height='20px'/</p>
-              <p></p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-            </td>
-            <td>
-              <p><a href='' title=''></a></p>
-            </td>
-            <td align="center">
-              <a href='https://github.com/dmzoneill/feeditout.com-2026/actions'><img src='https://github.com/dmzoneill//feeditout.com-2026/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2026-07-29</p>
             </td>
         </tr>
 <tr>
@@ -861,7 +861,7 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/aa-dev-prod-watcher/actions'><img src='https://github.com/dmzoneill//aa-dev-prod-watcher/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2026-07-25</p>
+              <p>2026-08-06</p>
             </td>
         </tr>
 <tr>

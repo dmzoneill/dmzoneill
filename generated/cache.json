@@ -1,10 +1,10 @@
 {
   "https://api.github.com/repos/dmzoneill/Bootstack-Highlight-Monitor/languages": {
-    "t": 1786019983.540848,
+    "t": 1786065265.9853578,
     "v": {}
   },
   "https://api.github.com/repos/dmzoneill/DFakeSeeder/issues?state=open": {
-    "t": 1786019976.0759988,
+    "t": 1786065253.0786357,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/DFakeSeeder/issues/15",
@@ -15,16 +15,16 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/DFakeSeeder/pulls?state=open": {
-    "t": 1786019976.7609096,
+    "t": 1786065253.8760498,
     "v": []
   },
   "https://api.github.com/repos/dmzoneill/ansible-feeditout-com/issues?state=open": {
-    "t": 1786019978.7709503,
+    "t": 1786065260.535492,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/ansible-feeditout-com/issues/452",
         "title": "[ALERT] SystemdUnitFailed \u2014 ",
-        "updated_at": "2026-08-06T11:55:58Z",
+        "updated_at": "2026-08-07T01:02:28Z",
         "url": "https://api.github.com/repos/dmzoneill/ansible-feeditout-com/issues/452"
       },
       {
@@ -60,19 +60,19 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/ansible-feeditout-com/pulls?state=open": {
-    "t": 1786019979.439903,
+    "t": 1786065261.3004894,
     "v": []
   },
   "https://api.github.com/repos/dmzoneill/ashtangayogacork.ie-assets/languages": {
-    "t": 1786019982.883467,
+    "t": 1786065265.2098765,
     "v": {}
   },
   "https://api.github.com/repos/dmzoneill/github-ai-contributor/languages": {
-    "t": 1786019978.0539818,
+    "t": 1786065259.684983,
     "v": {}
   },
   "https://api.github.com/repos/dmzoneill/harpnet.ie/issues?state=open": {
-    "t": 1785999390.9729595,
+    "t": 1786065256.5633216,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/harpnet.ie/issues/44",
@@ -257,19 +257,19 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/harpnet.ie/languages": {
-    "t": 1785999392.5232325,
+    "t": 1786065258.1304972,
     "v": {}
   },
   "https://api.github.com/repos/dmzoneill/harpnet.ie/pulls?state=open": {
-    "t": 1785999391.7573166,
+    "t": 1786065257.3594403,
     "v": []
   },
   "https://api.github.com/repos/dmzoneill/hevyapp-api/languages": {
-    "t": 1786019982.2349665,
+    "t": 1786065264.4409933,
     "v": {}
   },
   "https://api.github.com/repos/dmzoneill/lidarr-youtube-downloader/issues?state=open": {
-    "t": 1786019973.2224748,
+    "t": 1786065249.806846,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/lidarr-youtube-downloader/issues/31",
@@ -334,15 +334,15 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/lidarr-youtube-downloader/pulls?state=open": {
-    "t": 1786019973.8805156,
+    "t": 1786065250.577721,
     "v": []
   },
   "https://api.github.com/repos/dmzoneill/my-history/languages": {
-    "t": 1786019987.0596445,
+    "t": 1786065270.1652582,
     "v": {}
   },
   "https://api.github.com/repos/dmzoneill/pass-gnome-extension/issues?state=open": {
-    "t": 1786019980.211554,
+    "t": 1786065262.1459467,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/pass-gnome-extension/issues/3",
@@ -353,15 +353,15 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/pass-gnome-extension/pulls?state=open": {
-    "t": 1786019980.86032,
+    "t": 1786065262.9206777,
     "v": []
   },
   "https://api.github.com/repos/dmzoneill/pass/languages": {
-    "t": 1786019981.5157433,
+    "t": 1786065263.6815312,
     "v": {}
   },
   "https://api.github.com/repos/dmzoneill/php-binance-bot/issues?state=open": {
-    "t": 1786019984.2609537,
+    "t": 1786065266.8245535,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/php-binance-bot/issues/1",
@@ -372,12 +372,102 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/php-binance-bot/pulls?state=open": {
-    "t": 1786019984.9887254,
+    "t": 1786065267.7411194,
     "v": []
   },
   "https://api.github.com/repos/dmzoneill/securetty/issues?state=open": {
-    "t": 1785999389.2387345,
+    "t": 1786065254.7930574,
     "v": [
+      {
+        "html_url": "https://github.com/dmzoneill/securetty/issues/62",
+        "title": "feat: add CI pipeline (lint, test, build verification)",
+        "updated_at": "2026-08-06T17:55:08Z",
+        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/62"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/securetty/issues/61",
+        "title": "feat: config-based credential resolver (per-org token scoping)",
+        "updated_at": "2026-08-06T17:55:06Z",
+        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/61"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/securetty/issues/60",
+        "title": "feat: HMAC-authenticated credential proxy for SSH/GPG",
+        "updated_at": "2026-08-06T17:55:05Z",
+        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/60"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/securetty/issues/59",
+        "title": "feat: route-through governance hook (single SDLC entry point)",
+        "updated_at": "2026-08-06T17:55:03Z",
+        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/59"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/securetty/issues/57",
+        "title": "feat: optional read-only mode (write guard hook)",
+        "updated_at": "2026-08-06T17:54:36Z",
+        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/57"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/securetty/issues/55",
+        "title": "feat: statusline with cost tracking, rate limits, context bar",
+        "updated_at": "2026-08-06T17:54:32Z",
+        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/55"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/securetty/issues/54",
+        "title": "feat: integrate ai-guardian (secret scanning, prompt injection, SSRF)",
+        "updated_at": "2026-08-06T17:54:30Z",
+        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/54"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/securetty/issues/53",
+        "title": "feat: add evaluation harness (promptfoo in CI)",
+        "updated_at": "2026-08-06T17:02:44Z",
+        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/53"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/securetty/issues/52",
+        "title": "feat: add cost/token tracking (OTEL or Langfuse)",
+        "updated_at": "2026-08-06T17:02:42Z",
+        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/52"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/securetty/issues/51",
+        "title": "feat: add skillsaw linting for AGENTS.md/CLAUDE.md/skills",
+        "updated_at": "2026-08-06T17:02:40Z",
+        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/51"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/securetty/issues/50",
+        "title": "feat: adopt AgentSkills.io spec for MCP skills",
+        "updated_at": "2026-08-06T17:02:38Z",
+        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/50"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/securetty/issues/47",
+        "title": "feat: preflight checks before agent launch (skip if no work)",
+        "updated_at": "2026-08-06T17:05:06Z",
+        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/47"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/securetty/issues/43",
+        "title": "feat: deterministic package management with hash verification",
+        "updated_at": "2026-08-06T17:06:47Z",
+        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/43"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/securetty/issues/42",
+        "title": "feat: route agent credentials through infrastructure proxy (zero-secret env)",
+        "updated_at": "2026-08-06T17:01:53Z",
+        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/42"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/securetty/issues/26",
+        "title": "fix: ~/.kube mounted RW \u2014 should be :ro",
+        "updated_at": "2026-08-06T13:41:14Z",
+        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/26"
+      },
       {
         "html_url": "https://github.com/dmzoneill/securetty/issues/25",
         "title": "fix: NO_PROXY duplicated and inconsistent across configs",
@@ -397,28 +487,10 @@
         "url": "https://api.github.com/repos/dmzoneill/securetty/issues/23"
       },
       {
-        "html_url": "https://github.com/dmzoneill/securetty/issues/22",
-        "title": "fix: no pids/swap limits on containers",
-        "updated_at": "2026-08-03T14:20:16Z",
-        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/22"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/securetty/issues/19",
-        "title": "fix: omniroute login task missing no_log",
-        "updated_at": "2026-08-03T14:19:05Z",
-        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/19"
-      },
-      {
         "html_url": "https://github.com/dmzoneill/securetty/issues/18",
         "title": "fix: *.redhat.com wildcard too broad",
         "updated_at": "2026-08-03T14:19:03Z",
         "url": "https://api.github.com/repos/dmzoneill/securetty/issues/18"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/securetty/issues/12",
-        "title": "fix: omniroute API key grep visible in ansible output",
-        "updated_at": "2026-08-03T14:19:02Z",
-        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/12"
       },
       {
         "html_url": "https://github.com/dmzoneill/securetty/issues/5",
@@ -427,37 +499,19 @@
         "url": "https://api.github.com/repos/dmzoneill/securetty/issues/5"
       },
       {
-        "html_url": "https://github.com/dmzoneill/securetty/issues/4",
-        "title": "fix: full /run/user mounted RW into containers",
-        "updated_at": "2026-08-03T14:18:59Z",
-        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/4"
-      },
-      {
         "html_url": "https://github.com/dmzoneill/securetty/issues/3",
         "title": "fix: *.amazonaws.com wildcard too broad",
         "updated_at": "2026-08-03T14:18:58Z",
         "url": "https://api.github.com/repos/dmzoneill/securetty/issues/3"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/securetty/issues/2",
-        "title": "fix: /tmp discovery file leaks secrets",
-        "updated_at": "2026-08-03T14:18:57Z",
-        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/2"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/securetty/issues/1",
-        "title": "fix: .env files world-readable (0644)",
-        "updated_at": "2026-08-03T14:18:55Z",
-        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/1"
       }
     ]
   },
   "https://api.github.com/repos/dmzoneill/securetty/pulls?state=open": {
-    "t": 1785999389.9923465,
+    "t": 1786065255.5734446,
     "v": []
   },
   "https://api.github.com/repos/dmzoneill/seedmagepp/issues?state=open": {
-    "t": 1786019985.705282,
+    "t": 1786065268.5501993,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/seedmagepp/issues/1",
@@ -468,15 +522,15 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/seedmagepp/pulls?state=open": {
-    "t": 1786019986.385889,
+    "t": 1786065269.3448563,
     "v": []
   },
   "https://api.github.com/repos/dmzoneill/skills/languages": {
-    "t": 1786019977.4089189,
+    "t": 1786065258.922239,
     "v": {}
   },
   "https://api.github.com/repos/dmzoneill/tado-gnome-shell-extension/issues?state=open": {
-    "t": 1786019974.6100042,
+    "t": 1786065251.4311748,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/tado-gnome-shell-extension/issues/2",
@@ -487,11 +541,11 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/tado-gnome-shell-extension/pulls?state=open": {
-    "t": 1786019975.2968497,
+    "t": 1786065252.219682,
     "v": []
   },
   "https://api.github.com/users/dmzoneill/gists": {
-    "t": 1786019988.5529666,
+    "t": 1786065271.9713817,
     "v": [
       {
         "description": "modern-hints.sh \u2014 Non-obtrusive bash hints suggesting modern alternatives to legacy Linux commands. Writes to /dev/tty so it never interferes with pipes or redirects.",

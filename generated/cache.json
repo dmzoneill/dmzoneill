@@ -1,10 +1,10 @@
 {
   "https://api.github.com/repos/dmzoneill/Bootstack-Highlight-Monitor/languages": {
-    "t": 1786126685.8876326,
+    "t": 1786191028.7322178,
     "v": {}
   },
   "https://api.github.com/repos/dmzoneill/DFakeSeeder/issues?state=open": {
-    "t": 1786126673.8124382,
+    "t": 1786191015.874566,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/DFakeSeeder/issues/15",
@@ -15,16 +15,16 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/DFakeSeeder/pulls?state=open": {
-    "t": 1786126674.5304947,
+    "t": 1786191016.6894104,
     "v": []
   },
   "https://api.github.com/repos/dmzoneill/ansible-feeditout-com/issues?state=open": {
-    "t": 1786126680.648455,
+    "t": 1786191023.2953439,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/ansible-feeditout-com/issues/452",
         "title": "[ALERT] SystemdUnitFailed \u2014 ",
-        "updated_at": "2026-08-07T18:11:01Z",
+        "updated_at": "2026-08-08T12:08:14Z",
         "url": "https://api.github.com/repos/dmzoneill/ansible-feeditout-com/issues/452"
       },
       {
@@ -60,19 +60,19 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/ansible-feeditout-com/pulls?state=open": {
-    "t": 1786126681.381169,
+    "t": 1786191024.054333,
     "v": []
   },
   "https://api.github.com/repos/dmzoneill/ashtangayogacork.ie-assets/languages": {
-    "t": 1786126685.184618,
+    "t": 1786191027.9635823,
     "v": {}
   },
   "https://api.github.com/repos/dmzoneill/github-ai-contributor/languages": {
-    "t": 1786126679.8642554,
+    "t": 1786191022.4412823,
     "v": {}
   },
   "https://api.github.com/repos/dmzoneill/harpnet.ie/issues?state=open": {
-    "t": 1786126677.032129,
+    "t": 1786191019.3891056,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/harpnet.ie/issues/44",
@@ -257,19 +257,19 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/harpnet.ie/languages": {
-    "t": 1786126678.4414153,
+    "t": 1786191020.9332387,
     "v": {}
   },
   "https://api.github.com/repos/dmzoneill/harpnet.ie/pulls?state=open": {
-    "t": 1786126677.7487283,
+    "t": 1786191020.1730537,
     "v": []
   },
   "https://api.github.com/repos/dmzoneill/hevyapp-api/languages": {
-    "t": 1786126684.331183,
+    "t": 1786191027.1996264,
     "v": {}
   },
   "https://api.github.com/repos/dmzoneill/lidarr-youtube-downloader/issues?state=open": {
-    "t": 1786126670.7544446,
+    "t": 1786191012.6374707,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/lidarr-youtube-downloader/issues/31",
@@ -334,15 +334,15 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/lidarr-youtube-downloader/pulls?state=open": {
-    "t": 1786126671.471417,
+    "t": 1786191013.4283648,
     "v": []
   },
   "https://api.github.com/repos/dmzoneill/my-history/languages": {
-    "t": 1786126689.7010825,
+    "t": 1786191032.6992197,
     "v": {}
   },
   "https://api.github.com/repos/dmzoneill/pass-gnome-extension/issues?state=open": {
-    "t": 1786126682.1905549,
+    "t": 1786191024.9180844,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/pass-gnome-extension/issues/3",
@@ -353,15 +353,15 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/pass-gnome-extension/pulls?state=open": {
-    "t": 1786126682.913766,
+    "t": 1786191025.6844416,
     "v": []
   },
   "https://api.github.com/repos/dmzoneill/pass/languages": {
-    "t": 1786126683.6224177,
+    "t": 1786191026.447556,
     "v": {}
   },
   "https://api.github.com/repos/dmzoneill/php-binance-bot/issues?state=open": {
-    "t": 1786126686.6839154,
+    "t": 1786191029.5854974,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/php-binance-bot/issues/1",
@@ -372,146 +372,182 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/php-binance-bot/pulls?state=open": {
-    "t": 1786126687.4296253,
+    "t": 1786191030.329889,
     "v": []
   },
   "https://api.github.com/repos/dmzoneill/securetty/issues?state=open": {
-    "t": 1786126675.3975203,
+    "t": 1786191017.638101,
     "v": [
       {
-        "html_url": "https://github.com/dmzoneill/securetty/issues/62",
-        "title": "feat: add CI pipeline (lint, test, build verification)",
-        "updated_at": "2026-08-07T06:25:47Z",
-        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/62"
+        "html_url": "https://github.com/dmzoneill/securetty/issues/115",
+        "title": "feat: real-time observability dashboard with SLIs and alerting (M dimension 5/5)",
+        "updated_at": "2026-08-08T09:58:24Z",
+        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/115"
       },
       {
-        "html_url": "https://github.com/dmzoneill/securetty/issues/61",
-        "title": "feat: config-based credential resolver (per-org token scoping)",
-        "updated_at": "2026-08-07T06:26:02Z",
-        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/61"
+        "html_url": "https://github.com/dmzoneill/securetty/issues/114",
+        "title": "feat: OTEL tracing with Prometheus metrics endpoint (M dimension 4/5)",
+        "updated_at": "2026-08-08T09:59:32Z",
+        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/114"
       },
       {
-        "html_url": "https://github.com/dmzoneill/securetty/issues/60",
-        "title": "feat: HMAC-authenticated credential proxy for SSH/GPG",
-        "updated_at": "2026-08-07T06:26:14Z",
-        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/60"
+        "html_url": "https://github.com/dmzoneill/securetty/issues/113",
+        "title": "feat: automated eval in CI with cross-skill quality gates (V dimension 5/5)",
+        "updated_at": "2026-08-08T10:00:18Z",
+        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/113"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/securetty/issues/112",
+        "title": "feat: LLM-as-judge evaluation framework with quality benchmarks (V dimension 4/5)",
+        "updated_at": "2026-08-08T09:59:41Z",
+        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/112"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/securetty/issues/111",
+        "title": "feat: external adoption with marketplace metrics and community contributions (C dimension 5/5)",
+        "updated_at": "2026-08-08T09:58:56Z",
+        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/111"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/securetty/issues/110",
+        "title": "feat: plugin marketplace and cross-team skill sharing (C dimension 4/5)",
+        "updated_at": "2026-08-08T09:58:41Z",
+        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/110"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/securetty/issues/109",
+        "title": "feat: closed-loop remediation with fleet-wide propagation (R dimension 5/5)",
+        "updated_at": "2026-08-08T09:58:46Z",
+        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/109"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/securetty/issues/108",
+        "title": "feat: failure pattern database with auto-prompt-update (R dimension 4/5)",
+        "updated_at": "2026-08-08T09:58:29Z",
+        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/108"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/securetty/issues/107",
+        "title": "feat: learned escalation with confidence scoring model (E dimension 5/5)",
+        "updated_at": "2026-08-08T09:59:36Z",
+        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/107"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/securetty/issues/106",
+        "title": "feat: graduated security levels with risk-adaptive routing (E dimension 4/5)",
+        "updated_at": "2026-08-08T09:58:26Z",
+        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/106"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/securetty/issues/105",
+        "title": "feat: background agent daemon with bot account support (A dimension 5/5)",
+        "updated_at": "2026-08-08T09:58:44Z",
+        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/105"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/securetty/issues/104",
+        "title": "feat: bounded autonomous execution with max-turns and completion tracking (A dimension 4/5)",
+        "updated_at": "2026-08-08T09:57:45Z",
+        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/104"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/securetty/issues/103",
+        "title": "feat: workflow composition engine with DAG execution (H dimension 5/5)",
+        "updated_at": "2026-08-08T09:58:21Z",
+        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/103"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/securetty/issues/102",
+        "title": "feat: active workflow scheduler with job queue (H dimension 4/5)",
+        "updated_at": "2026-08-08T09:57:46Z",
+        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/102"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/securetty/issues/99",
+        "title": "feat: operational provenance for agent-produced CI artifacts",
+        "updated_at": "2026-08-07T20:35:08Z",
+        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/99"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/securetty/issues/98",
+        "title": "docs: document Workload Identity Federation setup for CI/CD",
+        "updated_at": "2026-08-07T20:35:02Z",
+        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/98"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/securetty/issues/97",
+        "title": "feat: Sigstore/Cosign verification for container images and packages",
+        "updated_at": "2026-08-07T20:38:43Z",
+        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/97"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/securetty/issues/96",
+        "title": "feat: publish securetty as reusable Ansible collection (C dimension)",
+        "updated_at": "2026-08-07T20:34:50Z",
+        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/96"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/securetty/issues/95",
+        "title": "feat: failure capture and harness feedback loops (R dimension)",
+        "updated_at": "2026-08-07T20:34:43Z",
+        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/95"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/securetty/issues/89",
+        "title": "feat: escalation logic and confidence gates (E dimension)",
+        "updated_at": "2026-08-07T20:33:41Z",
+        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/89"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/securetty/issues/87",
+        "title": "feat: event-driven agent triggers for autonomous execution (A dimension)",
+        "updated_at": "2026-08-07T20:33:05Z",
+        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/87"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/securetty/issues/86",
+        "title": "feat: workflow dispatcher for agent orchestration (H dimension)",
+        "updated_at": "2026-08-07T20:32:44Z",
+        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/86"
       },
       {
         "html_url": "https://github.com/dmzoneill/securetty/issues/59",
         "title": "feat: route-through governance hook (single SDLC entry point)",
-        "updated_at": "2026-08-07T06:26:21Z",
+        "updated_at": "2026-08-07T20:36:27Z",
         "url": "https://api.github.com/repos/dmzoneill/securetty/issues/59"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/securetty/issues/57",
-        "title": "feat: optional read-only mode (write guard hook)",
-        "updated_at": "2026-08-07T06:26:26Z",
-        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/57"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/securetty/issues/55",
-        "title": "feat: statusline with cost tracking, rate limits, context bar",
-        "updated_at": "2026-08-07T06:26:35Z",
-        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/55"
       },
       {
         "html_url": "https://github.com/dmzoneill/securetty/issues/54",
         "title": "feat: integrate ai-guardian (secret scanning, prompt injection, SSRF)",
-        "updated_at": "2026-08-07T06:26:41Z",
+        "updated_at": "2026-08-07T21:13:20Z",
         "url": "https://api.github.com/repos/dmzoneill/securetty/issues/54"
       },
       {
         "html_url": "https://github.com/dmzoneill/securetty/issues/53",
         "title": "feat: add evaluation harness (promptfoo in CI)",
-        "updated_at": "2026-08-07T06:26:47Z",
+        "updated_at": "2026-08-07T20:33:38Z",
         "url": "https://api.github.com/repos/dmzoneill/securetty/issues/53"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/securetty/issues/52",
-        "title": "feat: add cost/token tracking (OTEL or Langfuse)",
-        "updated_at": "2026-08-07T06:26:56Z",
-        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/52"
       },
       {
         "html_url": "https://github.com/dmzoneill/securetty/issues/51",
         "title": "feat: add skillsaw linting for AGENTS.md/CLAUDE.md/skills",
-        "updated_at": "2026-08-07T06:27:01Z",
+        "updated_at": "2026-08-07T20:35:46Z",
         "url": "https://api.github.com/repos/dmzoneill/securetty/issues/51"
       },
       {
         "html_url": "https://github.com/dmzoneill/securetty/issues/50",
         "title": "feat: adopt AgentSkills.io spec for MCP skills",
-        "updated_at": "2026-08-07T06:27:06Z",
+        "updated_at": "2026-08-07T20:34:56Z",
         "url": "https://api.github.com/repos/dmzoneill/securetty/issues/50"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/securetty/issues/47",
-        "title": "feat: preflight checks before agent launch (skip if no work)",
-        "updated_at": "2026-08-06T17:05:06Z",
-        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/47"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/securetty/issues/43",
-        "title": "feat: deterministic package management with hash verification",
-        "updated_at": "2026-08-06T17:06:47Z",
-        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/43"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/securetty/issues/42",
-        "title": "feat: route agent credentials through infrastructure proxy (zero-secret env)",
-        "updated_at": "2026-08-07T06:27:12Z",
-        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/42"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/securetty/issues/26",
-        "title": "fix: ~/.kube mounted RW \u2014 should be :ro",
-        "updated_at": "2026-08-06T13:41:14Z",
-        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/26"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/securetty/issues/25",
-        "title": "fix: NO_PROXY duplicated and inconsistent across configs",
-        "updated_at": "2026-08-03T14:20:31Z",
-        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/25"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/securetty/issues/24",
-        "title": "fix: unsafe curl|sh during container build",
-        "updated_at": "2026-08-03T14:20:24Z",
-        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/24"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/securetty/issues/23",
-        "title": "fix: firewall hook lacks rootful validation",
-        "updated_at": "2026-08-03T14:20:28Z",
-        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/23"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/securetty/issues/18",
-        "title": "fix: *.redhat.com wildcard too broad",
-        "updated_at": "2026-08-03T14:19:03Z",
-        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/18"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/securetty/issues/5",
-        "title": "fix: *.google.com wildcard too broad",
-        "updated_at": "2026-08-03T14:19:01Z",
-        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/5"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/securetty/issues/3",
-        "title": "fix: *.amazonaws.com wildcard too broad",
-        "updated_at": "2026-08-03T14:18:58Z",
-        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/3"
       }
     ]
   },
   "https://api.github.com/repos/dmzoneill/securetty/pulls?state=open": {
-    "t": 1786126676.1046386,
+    "t": 1786191018.4131641,
     "v": []
   },
   "https://api.github.com/repos/dmzoneill/seedmagepp/issues?state=open": {
-    "t": 1786126688.2597108,
+    "t": 1786191031.1377149,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/seedmagepp/issues/1",
@@ -522,15 +558,15 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/seedmagepp/pulls?state=open": {
-    "t": 1786126688.9683735,
+    "t": 1786191031.9150028,
     "v": []
   },
   "https://api.github.com/repos/dmzoneill/skills/languages": {
-    "t": 1786126679.1548903,
+    "t": 1786191021.683507,
     "v": {}
   },
   "https://api.github.com/repos/dmzoneill/tado-gnome-shell-extension/issues?state=open": {
-    "t": 1786126672.2517486,
+    "t": 1786191014.2439032,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/tado-gnome-shell-extension/issues/2",
@@ -541,11 +577,11 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/tado-gnome-shell-extension/pulls?state=open": {
-    "t": 1786126673.0376008,
+    "t": 1786191015.0114577,
     "v": []
   },
   "https://api.github.com/users/dmzoneill/gists": {
-    "t": 1786126691.3580368,
+    "t": 1786191034.3792207,
     "v": [
       {
         "description": "modern-hints.sh \u2014 Non-obtrusive bash hints suggesting modern alternatives to legacy Linux commands. Writes to /dev/tty so it never interferes with pipes or redirects.",

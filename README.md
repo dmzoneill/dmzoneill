@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-09/08/2026 06:17:16-brightgreen" height='28'/> &nbsp;&nbsp; <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=dmzoneill&color=brightgreen&style=for-the-badge" height='28'/> &nbsp;&nbsp; <img alt="Redhat" width='30' height='25' src="https://github.com/dmzoneill/dmzoneill/blob/main/images/redhat.svg?raw=true" />
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-09/08/2026 12:10:19-brightgreen" height='28'/> &nbsp;&nbsp; <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=dmzoneill&color=brightgreen&style=for-the-badge" height='28'/> &nbsp;&nbsp; <img alt="Redhat" width='30' height='25' src="https://github.com/dmzoneill/dmzoneill/blob/main/images/redhat.svg?raw=true" />
 
 <img src="generated/timeline.svg" width="760" alt="timeline"/>
 
@@ -40,7 +40,7 @@
 </details>
 <details>
 <summary><strong>Recent Activity (100)</strong></summary>
-<ul><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/securetty/issues/123'>feat: pre-built Grafana dashboard JSON + OTEL span instrumentation</a></li><li><a href='https://github.com/dmzoneill/securetty/issues/122'>fix: add hash verification for curl|sh binary installers</a></li><li><a href='https://github.com/dmzoneill/securetty/issues/121'>feat: add zero-token-cost preflight skip logic</a></li><li><a href='https://github.com/dmzoneill/securetty/issues/120'>feat: add agent output quality evals (not just docs quality)</a></li><li><a href='https://github.com/dmzoneill/securetty/issues/119'>fix: align SKILL.md frontmatter to WG metadata.* schema</a></li><li><a href='https://github.com/dmzoneill/securetty/issues/118'>fix: expand workflows.toon with all MCP skill routes</a></li><li><a href='https://github.com/dmzoneill/securetty/issues/117'>fix: align THREAT_MODEL.md columns to WG template schema</a></li><li><a href='https://github.com/dmzoneill/securetty/issues/116'>fix: wire --max-turns and --timeout enforcement into _run() (H 4→5)</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/securetty/issues/115'>feat: real-time observability dashboard with SLIs and alerting (M dimension 5/5)</a></li><li><a href='https://github.com/dmzoneill/securetty/issues/113'>feat: automated eval in CI with cross-skill quality gates (V dimension 5/5)</a></li><li><a href='https://github.com/dmzoneill/securetty/issues/111'>feat: external adoption with marketplace metrics and community contributions (C dimension 5/5)</a></li><li><a href='https://github.com/dmzoneill/securetty/issues/109'>feat: closed-loop remediation with fleet-wide propagation (R dimension 5/5)</a></li><li><a href='https://github.com/dmzoneill/securetty/issues/107'>feat: learned escalation with confidence scoring model (E dimension 5/5)</a></li><li><a href='https://github.com/dmzoneill/securetty/issues/112'>feat: LLM-as-judge evaluation framework with quality benchmarks (V dimension 4/5)</a></li><li><a href='https://github.com/dmzoneill/securetty/issues/114'>feat: OTEL tracing with Prometheus metrics endpoint (M dimension 4/5)</a></li><li><a href='https://github.com/dmzoneill/securetty/issues/110'>feat: plugin marketplace and cross-team skill sharing (C dimension 4/5)</a></li><li><a href='https://github.com/dmzoneill/securetty/issues/105'>feat: background agent daemon with bot account support (A dimension 5/5)</a></li><li><a href='https://github.com/dmzoneill/securetty/issues/103'>feat: workflow composition engine with DAG execution (H dimension 5/5)</a></li><li><a href='https://github.com/dmzoneill/securetty/issues/106'>feat: graduated security levels with risk-adaptive routing (E dimension 4/5)</a></li><li><a href='https://github.com/dmzoneill/securetty/issues/97'>feat: Sigstore/Cosign verification for container images and packages</a></li><li><a href='https://github.com/dmzoneill/securetty/issues/99'>feat: operational provenance for agent-produced CI artifacts</a></li><li><a href='https://github.com/dmzoneill/securetty/issues/108'>feat: failure pattern database with auto-prompt-update (R dimension 4/5)</a></li><li><a href='https://github.com/dmzoneill/securetty/issues/102'>feat: active workflow scheduler with job queue (H dimension 4/5)</a></li><li><a href='https://github.com/dmzoneill/securetty/issues/104'>feat: bounded autonomous execution with max-turns and completion tracking (A dimension 4/5)</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/securetty/issues/87'>feat: event-driven agent triggers for autonomous execution (A dimension)</a></li><li><a href='https://github.com/dmzoneill/securetty/issues/86'>feat: workflow dispatcher for agent orchestration (H dimension)</a></li><li><a href='https://github.com/dmzoneill/securetty/issues/89'>feat: escalation logic and confidence gates (E dimension)</a></li><li><a href='https://github.com/dmzoneill/securetty/issues/95'>feat: failure capture and harness feedback loops (R dimension)</a></li><li><a href='https://github.com/dmzoneill/securetty/issues/98'>docs: document Workload Identity Federation setup for CI/CD</a></li><li><a href='https://github.com/dmzoneill/securetty/issues/96'>feat: publish securetty as reusable Ansible collection (C dimension)</a></li><li><a href='https://github.com/dmzoneill/securetty/issues/59'>feat: route-through governance hook (single SDLC entry point)</a></li><li><a href='https://github.com/dmzoneill/securetty/issues/50'>feat: adopt AgentSkills.io spec for MCP skills</a></li><li><a href='https://github.com/dmzoneill/securetty/issues/53'>feat: add evaluation harness (promptfoo in CI)</a></li><li><a href='https://github.com/dmzoneill/securetty/issues/54'>feat: integrate ai-guardian (secret scanning, prompt injection, SSRF)</a></li></ul>
+<ul><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/securetty/issues/124'>feat: Jira auto-triage agent with label-based state tracking</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/securetty/issues/123'>feat: pre-built Grafana dashboard JSON + OTEL span instrumentation</a></li><li><a href='https://github.com/dmzoneill/securetty/issues/122'>fix: add hash verification for curl|sh binary installers</a></li><li><a href='https://github.com/dmzoneill/securetty/issues/121'>feat: add zero-token-cost preflight skip logic</a></li><li><a href='https://github.com/dmzoneill/securetty/issues/120'>feat: add agent output quality evals (not just docs quality)</a></li><li><a href='https://github.com/dmzoneill/securetty/issues/119'>fix: align SKILL.md frontmatter to WG metadata.* schema</a></li><li><a href='https://github.com/dmzoneill/securetty/issues/118'>fix: expand workflows.toon with all MCP skill routes</a></li><li><a href='https://github.com/dmzoneill/securetty/issues/117'>fix: align THREAT_MODEL.md columns to WG template schema</a></li><li><a href='https://github.com/dmzoneill/securetty/issues/116'>fix: wire --max-turns and --timeout enforcement into _run() (H 4→5)</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/securetty/issues/115'>feat: real-time observability dashboard with SLIs and alerting (M dimension 5/5)</a></li><li><a href='https://github.com/dmzoneill/securetty/issues/113'>feat: automated eval in CI with cross-skill quality gates (V dimension 5/5)</a></li><li><a href='https://github.com/dmzoneill/securetty/issues/111'>feat: external adoption with marketplace metrics and community contributions (C dimension 5/5)</a></li><li><a href='https://github.com/dmzoneill/securetty/issues/109'>feat: closed-loop remediation with fleet-wide propagation (R dimension 5/5)</a></li><li><a href='https://github.com/dmzoneill/securetty/issues/107'>feat: learned escalation with confidence scoring model (E dimension 5/5)</a></li><li><a href='https://github.com/dmzoneill/securetty/issues/112'>feat: LLM-as-judge evaluation framework with quality benchmarks (V dimension 4/5)</a></li><li><a href='https://github.com/dmzoneill/securetty/issues/114'>feat: OTEL tracing with Prometheus metrics endpoint (M dimension 4/5)</a></li><li><a href='https://github.com/dmzoneill/securetty/issues/110'>feat: plugin marketplace and cross-team skill sharing (C dimension 4/5)</a></li><li><a href='https://github.com/dmzoneill/securetty/issues/105'>feat: background agent daemon with bot account support (A dimension 5/5)</a></li><li><a href='https://github.com/dmzoneill/securetty/issues/103'>feat: workflow composition engine with DAG execution (H dimension 5/5)</a></li><li><a href='https://github.com/dmzoneill/securetty/issues/106'>feat: graduated security levels with risk-adaptive routing (E dimension 4/5)</a></li><li><a href='https://github.com/dmzoneill/securetty/issues/97'>feat: Sigstore/Cosign verification for container images and packages</a></li><li><a href='https://github.com/dmzoneill/securetty/issues/99'>feat: operational provenance for agent-produced CI artifacts</a></li><li><a href='https://github.com/dmzoneill/securetty/issues/108'>feat: failure pattern database with auto-prompt-update (R dimension 4/5)</a></li><li><a href='https://github.com/dmzoneill/securetty/issues/102'>feat: active workflow scheduler with job queue (H dimension 4/5)</a></li><li><a href='https://github.com/dmzoneill/securetty/issues/104'>feat: bounded autonomous execution with max-turns and completion tracking (A dimension 4/5)</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/securetty/issues/87'>feat: event-driven agent triggers for autonomous execution (A dimension)</a></li><li><a href='https://github.com/dmzoneill/securetty/issues/86'>feat: workflow dispatcher for agent orchestration (H dimension)</a></li><li><a href='https://github.com/dmzoneill/securetty/issues/89'>feat: escalation logic and confidence gates (E dimension)</a></li><li><a href='https://github.com/dmzoneill/securetty/issues/95'>feat: failure capture and harness feedback loops (R dimension)</a></li><li><a href='https://github.com/dmzoneill/securetty/issues/98'>docs: document Workload Identity Federation setup for CI/CD</a></li></ul>
 </details>
 <details>
 <summary><strong>Gists (24)</strong></summary>
@@ -62,18 +62,18 @@
     </tr>
   </thead>
   <tbody>
-    <tr><td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>14418907</td>
-<td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>2613971</td>
+    <tr><td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>14423673</td>
+<td><img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript'  height='20px'/></td><td>1566621</td>
+<td><img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS'  height='20px'/></td><td>11480363</td>
 <td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>456880</td>
+</tr><tr>
+<td><img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML'  height='20px'/></td><td>13395118</td>
+<td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>2662831</td>
+<td><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript'  height='20px'/></td><td>19213649</td>
 <td><img src='https://img.shields.io/badge/_-Jinja -11DDDD.svg?style=for-the-badge' title='Jinja'  height='20px'/></td><td>447672</td>
 </tr><tr>
 <td><img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile'  height='20px'/></td><td>11754</td>
-<td><img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript'  height='20px'/></td><td>1566621</td>
 <td><img src='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' title='Go'  height='20px'/></td><td>1627084</td>
-<td><img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS'  height='20px'/></td><td>11480363</td>
-</tr><tr>
-<td><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript'  height='20px'/></td><td>19213649</td>
-<td><img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML'  height='20px'/></td><td>13395118</td>
 <td><img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP'  height='20px'/></td><td>142280106</td>
 <td><img src='https://img.shields.io/badge/_-SCSS -11DDDD.svg?style=for-the-badge' title='SCSS'  height='20px'/></td><td>385663</td>
 </tr><tr>
@@ -145,6 +145,22 @@
   <tbody>
     <tr>
             <td>
+              <p><h2><a href='https://github.com/dmzoneill/redhat-ai-workflow' title='redhat-ai-workflow'>redhat-ai-workflow</a> (2025)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/</p>
+              <p>Apache License 2.0</p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+            </td>
+            <td>
+              <p><a href='https://github.com/dmzoneill/redhat-ai-workflow' title='RedHat AI Workflow'>RedHat AI Workflow</a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/redhat-ai-workflow/actions'><img src='https://github.com/dmzoneill//redhat-ai-workflow/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2026-08-09</p>
+            </td>
+        </tr>
+<tr>
+            <td>
               <p><h2><a href='https://github.com/dmzoneill/dmzoneill' title='dmzoneill'>dmzoneill</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
@@ -188,22 +204,6 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/DFakeSeeder/actions'><img src='https://github.com/dmzoneill//DFakeSeeder/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2026-08-06</p>
-            </td>
-        </tr>
-<tr>
-            <td>
-              <p><h2><a href='https://github.com/dmzoneill/redhat-ai-workflow' title='redhat-ai-workflow'>redhat-ai-workflow</a> (2025)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/</p>
-              <p>Apache License 2.0</p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-            </td>
-            <td>
-              <p><a href='https://github.com/dmzoneill/redhat-ai-workflow' title='RedHat AI Workflow'>RedHat AI Workflow</a></p>
-            </td>
-            <td align="center">
-              <a href='https://github.com/dmzoneill/redhat-ai-workflow/actions'><img src='https://github.com/dmzoneill//redhat-ai-workflow/actions/workflows/main.yml/badge.svg'/></a>
               <p>2026-08-06</p>
             </td>
         </tr>
@@ -402,9 +402,9 @@
 
 </tbody></table><details><summary><strong>2026 (12 projects)</strong></summary><table width='100%' style='width:100%'><thead><tr><th>Project</th><th>View</th><th>Status</th></tr></thead><tbody><tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/securetty' title='securetty'>securetty</a> (2026)</h2></p><p><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/_-Jinja -11DDDD.svg?style=for-the-badge' title='Jinja' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/skills' title='skills'>skills</a> (2026)</h2></p><p></p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/securetty/issues/123'>feat: pre-built Grafana dashboard JSON + OTEL span instrumentation</a></li><li><a href='https://github.com/dmzoneill/securetty/issues/122'>fix: add hash verification for curl|sh binary installers</a></li><li><a href='https://github.com/dmzoneill/securetty/issues/121'>feat: add zero-token-cost preflight skip logic</a></li><li><a href='https://github.com/dmzoneill/securetty/issues/120'>feat: add agent output quality evals (not just docs quality)</a></li></ul></p>
+              <p><ul></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -412,8 +412,24 @@
               <p><a href='' title=''></a></p>
             </td>
             <td align="center">
-              <a href='https://github.com/dmzoneill/securetty/actions'><img src='https://github.com/dmzoneill//securetty/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2026-08-08</p>
+              <a href='https://github.com/dmzoneill/skills/actions'><img src='https://github.com/dmzoneill//skills/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2026-08-09</p>
+            </td>
+        </tr>
+<tr>
+            <td>
+              <p><h2><a href='https://github.com/dmzoneill/ollama-proxy' title='ollama-proxy'>ollama-proxy</a> (2026)</h2></p><p><img src='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' title='Go' height='20px'/> <img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/</p>
+              <p>Apache License 2.0</p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+            </td>
+            <td>
+              <p><a href='' title=''></a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/ollama-proxy/actions'><img src='https://github.com/dmzoneill//ollama-proxy/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2026-08-09</p>
             </td>
         </tr>
 <tr>
@@ -429,7 +445,23 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/github-ai-maintainer/actions'><img src='https://github.com/dmzoneill//github-ai-maintainer/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2026-08-08</p>
+              <p>2026-08-09</p>
+            </td>
+        </tr>
+<tr>
+            <td>
+              <p><h2><a href='https://github.com/dmzoneill/securetty' title='securetty'>securetty</a> (2026)</h2></p><p><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/_-Jinja -11DDDD.svg?style=for-the-badge' title='Jinja' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
+              <p>Apache License 2.0</p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/securetty/issues/124'>feat: Jira auto-triage agent with label-based state tracking</a></li><li><a href='https://github.com/dmzoneill/securetty/issues/123'>feat: pre-built Grafana dashboard JSON + OTEL span instrumentation</a></li></ul></p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+            </td>
+            <td>
+              <p><a href='' title=''></a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/securetty/actions'><img src='https://github.com/dmzoneill//securetty/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2026-08-09</p>
             </td>
         </tr>
 <tr>
@@ -478,38 +510,6 @@
             <td align="center">
               <a href='https://github.com/dmzoneill/harpnet.ie/actions'><img src='https://github.com/dmzoneill//harpnet.ie/actions/workflows/main.yml/badge.svg'/></a>
               <p>2026-07-26</p>
-            </td>
-        </tr>
-<tr>
-            <td>
-              <p><h2><a href='https://github.com/dmzoneill/ollama-proxy' title='ollama-proxy'>ollama-proxy</a> (2026)</h2></p><p><img src='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' title='Go' height='20px'/> <img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/</p>
-              <p>Apache License 2.0</p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-            </td>
-            <td>
-              <p><a href='' title=''></a></p>
-            </td>
-            <td align="center">
-              <a href='https://github.com/dmzoneill/ollama-proxy/actions'><img src='https://github.com/dmzoneill//ollama-proxy/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2026-07-25</p>
-            </td>
-        </tr>
-<tr>
-            <td>
-              <p><h2><a href='https://github.com/dmzoneill/skills' title='skills'>skills</a> (2026)</h2></p><p></p>
-              <p>Apache License 2.0</p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-            </td>
-            <td>
-              <p><a href='' title=''></a></p>
-            </td>
-            <td align="center">
-              <a href='https://github.com/dmzoneill/skills/actions'><img src='https://github.com/dmzoneill//skills/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2026-05-26</p>
             </td>
         </tr>
 <tr>
@@ -594,6 +594,22 @@
         </tr>
 </tbody></table></details><details><summary><strong>2025 (3 projects)</strong></summary><table width='100%' style='width:100%'><thead><tr><th>Project</th><th>View</th><th>Status</th></tr></thead><tbody><tr>
             <td>
+              <p><h2><a href='https://github.com/dmzoneill/jira-creator' title='jira-creator'>jira-creator</a> (2025)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/_-Go Template -11DDDD.svg?style=for-the-badge' title='Go Template' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
+              <p>Apache License 2.0</p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+            </td>
+            <td>
+              <p><a href='' title=''></a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/jira-creator/actions'><img src='https://github.com/dmzoneill//jira-creator/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2026-08-09</p>
+            </td>
+        </tr>
+<tr>
+            <td>
               <p><h2><a href='https://github.com/dmzoneill/ansible-feeditout-com' title='ansible-feeditout-com'>ansible-feeditout-com</a> (2025)</h2></p><p><img src='https://img.shields.io/badge/_-Jinja -11DDDD.svg?style=for-the-badge' title='Jinja' height='20px'/> <img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
               <p>Apache License 2.0</p>
               <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li></ul></p>
@@ -622,22 +638,6 @@
             <td align="center">
               <a href='https://github.com/dmzoneill/pass-gnome-extension/actions'><img src='https://github.com/dmzoneill//pass-gnome-extension/actions/workflows/main.yml/badge.svg'/></a>
               <p>2026-07-30</p>
-            </td>
-        </tr>
-<tr>
-            <td>
-              <p><h2><a href='https://github.com/dmzoneill/jira-creator' title='jira-creator'>jira-creator</a> (2025)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/_-Go Template -11DDDD.svg?style=for-the-badge' title='Go Template' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
-              <p>Apache License 2.0</p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-            </td>
-            <td>
-              <p><a href='' title=''></a></p>
-            </td>
-            <td align="center">
-              <a href='https://github.com/dmzoneill/jira-creator/actions'><img src='https://github.com/dmzoneill//jira-creator/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2026-03-10</p>
             </td>
         </tr>
 </tbody></table></details><details><summary><strong>2024 (2 projects)</strong></summary><table width='100%' style='width:100%'><thead><tr><th>Project</th><th>View</th><th>Status</th></tr></thead><tbody><tr>
@@ -673,6 +673,22 @@
             </td>
         </tr>
 </tbody></table></details><details><summary><strong>2023 (11 projects)</strong></summary><table width='100%' style='width:100%'><thead><tr><th>Project</th><th>View</th><th>Status</th></tr></thead><tbody><tr>
+            <td>
+              <p><h2><a href='https://github.com/dmzoneill/hevyapp-api' title='hevyapp-api'>hevyapp-api</a> (2023)</h2></p><p></p>
+              <p>Apache License 2.0</p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+            </td>
+            <td>
+              <p><a href='' title=''></a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/hevyapp-api/actions'><img src='https://github.com/dmzoneill//hevyapp-api/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2026-08-09</p>
+            </td>
+        </tr>
+<tr>
             <td>
               <p><h2><a href='https://github.com/dmzoneill/strongapp-api' title='strongapp-api'>strongapp-api</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' title='Java' height='20px'/> <img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/perl-%2339457E.svg?style=for-the-badge&logo=perl&logoColor=white' title='Perl' height='20px'/> <img src='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' title='Go' height='20px'/</p>
               <p>Apache License 2.0</p>
@@ -718,22 +734,6 @@
             <td align="center">
               <a href='https://github.com/dmzoneill/pass/actions'><img src='https://github.com/dmzoneill//pass/actions/workflows/main.yml/badge.svg'/></a>
               <p>2026-05-01</p>
-            </td>
-        </tr>
-<tr>
-            <td>
-              <p><h2><a href='https://github.com/dmzoneill/hevyapp-api' title='hevyapp-api'>hevyapp-api</a> (2023)</h2></p><p></p>
-              <p>Apache License 2.0</p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-            </td>
-            <td>
-              <p><a href='' title=''></a></p>
-            </td>
-            <td align="center">
-              <a href='https://github.com/dmzoneill/hevyapp-api/actions'><img src='https://github.com/dmzoneill//hevyapp-api/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2026-04-10</p>
             </td>
         </tr>
 <tr>
@@ -3213,7 +3213,7 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/whisper-npu-wayland/actions'><img src='https://github.com/dmzoneill//whisper-npu-wayland/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2026-07-11</p>
+              <p>2026-08-09</p>
             </td>
         </tr>
 <tr>

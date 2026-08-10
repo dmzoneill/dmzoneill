@@ -375,6 +375,99 @@
     "t": 1786343434.8526764,
     "v": []
   },
+  "https://api.github.com/repos/dmzoneill/securetty/issues?state=open": {
+    "t": 1786364269.2721288,
+    "v": [
+      {
+        "html_url": "https://github.com/dmzoneill/securetty/issues/138",
+        "title": "CLI compat: add plugin/marketplace system for extensible agent tooling",
+        "updated_at": "2026-08-10T09:57:16Z",
+        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/138"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/securetty/issues/137",
+        "title": "CLI compat: add 'securetty skill <name> <URL>' for URL-based skill execution",
+        "updated_at": "2026-08-10T09:56:58Z",
+        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/137"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/securetty/issues/136",
+        "title": "CLI compat: add global flags for carbonite parity (--channel, --image, --profile)",
+        "updated_at": "2026-08-10T09:56:43Z",
+        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/136"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/securetty/issues/135",
+        "title": "CLI compat: add remote execution mode (OpenShift/k8s pods)",
+        "updated_at": "2026-08-10T09:56:55Z",
+        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/135"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/securetty/issues/134",
+        "title": "CLI compat: add IDE integration (cursor, vscode devcontainer support)",
+        "updated_at": "2026-08-10T09:56:49Z",
+        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/134"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/securetty/issues/133",
+        "title": "CLI compat: add 'securetty code-review <URL>' shorthand for skill-based review",
+        "updated_at": "2026-08-10T09:55:17Z",
+        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/133"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/securetty/issues/132",
+        "title": "CLI compat: add 'securetty update' and 'securetty rollback' for version management",
+        "updated_at": "2026-08-10T09:56:47Z",
+        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/132"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/securetty/issues/131",
+        "title": "CLI compat: add 'securetty group' for worktree-based branch isolation",
+        "updated_at": "2026-08-10T09:57:20Z",
+        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/131"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/securetty/issues/130",
+        "title": "CLI compat: add 'securetty check --fix --ai' diagnostic command",
+        "updated_at": "2026-08-10T09:56:20Z",
+        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/130"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/securetty/issues/129",
+        "title": "CLI compat: add '--cleanup keep|remove' flag for container persistence",
+        "updated_at": "2026-08-10T09:55:54Z",
+        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/129"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/securetty/issues/128",
+        "title": "CLI compat: add '-p <prompt>' flag for non-interactive agent runs",
+        "updated_at": "2026-08-10T09:55:35Z",
+        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/128"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/securetty/issues/127",
+        "title": "CLI compat: add 'securetty list' for clean container listing",
+        "updated_at": "2026-08-10T09:55:39Z",
+        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/127"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/securetty/issues/126",
+        "title": "CLI compat: add 'securetty config get/set/list/unset' for runtime configuration",
+        "updated_at": "2026-08-10T09:55:51Z",
+        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/126"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/securetty/issues/125",
+        "title": "CLI compat: add 'securetty connect' to reattach to running agent containers",
+        "updated_at": "2026-08-10T09:55:17Z",
+        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/125"
+      }
+    ]
+  },
+  "https://api.github.com/repos/dmzoneill/securetty/pulls?state=open": {
+    "t": 1786364270.008208,
+    "v": []
+  },
   "https://api.github.com/repos/dmzoneill/seedmagepp/issues?state=open": {
     "t": 1786343435.6512194,
     "v": [

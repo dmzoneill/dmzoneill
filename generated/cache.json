@@ -1,10 +1,10 @@
 {
   "https://api.github.com/repos/dmzoneill/Bootstack-Highlight-Monitor/languages": {
-    "t": 1786343433.2318256,
+    "t": 1786407497.684102,
     "v": {}
   },
   "https://api.github.com/repos/dmzoneill/DFakeSeeder/issues?state=open": {
-    "t": 1786343421.9875195,
+    "t": 1786407484.5421052,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/DFakeSeeder/issues/15",
@@ -15,16 +15,16 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/DFakeSeeder/pulls?state=open": {
-    "t": 1786343422.7908552,
+    "t": 1786407485.3510027,
     "v": []
   },
   "https://api.github.com/repos/dmzoneill/ansible-feeditout-com/issues?state=open": {
-    "t": 1786343427.8112931,
+    "t": 1786407492.0903938,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/ansible-feeditout-com/issues/452",
         "title": "[ALERT] SystemdUnitFailed \u2014 ",
-        "updated_at": "2026-08-10T06:12:19Z",
+        "updated_at": "2026-08-10T23:20:50Z",
         "url": "https://api.github.com/repos/dmzoneill/ansible-feeditout-com/issues/452"
       },
       {
@@ -60,19 +60,19 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/ansible-feeditout-com/pulls?state=open": {
-    "t": 1786343428.594671,
+    "t": 1786407492.8837535,
     "v": []
   },
   "https://api.github.com/repos/dmzoneill/ashtangayogacork.ie-assets/languages": {
-    "t": 1786343432.4846551,
+    "t": 1786407496.8999321,
     "v": {}
   },
   "https://api.github.com/repos/dmzoneill/github-ai-contributor/languages": {
-    "t": 1786343426.9591599,
+    "t": 1786407491.2265263,
     "v": {}
   },
   "https://api.github.com/repos/dmzoneill/harpnet.ie/issues?state=open": {
-    "t": 1786343424.5528967,
+    "t": 1786407488.8180454,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/harpnet.ie/issues/44",
@@ -257,19 +257,19 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/harpnet.ie/languages": {
-    "t": 1786343426.1379988,
+    "t": 1786407490.4236505,
     "v": {}
   },
   "https://api.github.com/repos/dmzoneill/harpnet.ie/pulls?state=open": {
-    "t": 1786343425.3516848,
+    "t": 1786407489.6166463,
     "v": []
   },
   "https://api.github.com/repos/dmzoneill/hevyapp-api/languages": {
-    "t": 1786343430.968707,
+    "t": 1786407495.3580306,
     "v": {}
   },
   "https://api.github.com/repos/dmzoneill/lidarr-youtube-downloader/issues?state=open": {
-    "t": 1786343418.7674646,
+    "t": 1786407481.268229,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/lidarr-youtube-downloader/issues/31",
@@ -334,15 +334,15 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/lidarr-youtube-downloader/pulls?state=open": {
-    "t": 1786343419.5341182,
+    "t": 1786407482.0508409,
     "v": []
   },
   "https://api.github.com/repos/dmzoneill/my-history/languages": {
-    "t": 1786343437.2352662,
+    "t": 1786407501.8617098,
     "v": {}
   },
   "https://api.github.com/repos/dmzoneill/pass-gnome-extension/issues?state=open": {
-    "t": 1786343429.392834,
+    "t": 1786407493.7673938,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/pass-gnome-extension/issues/3",
@@ -353,15 +353,15 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/pass-gnome-extension/pulls?state=open": {
-    "t": 1786343430.1891248,
+    "t": 1786407494.5872128,
     "v": []
   },
   "https://api.github.com/repos/dmzoneill/pass/languages": {
-    "t": 1786343431.7090397,
+    "t": 1786407496.1327214,
     "v": {}
   },
   "https://api.github.com/repos/dmzoneill/php-binance-bot/issues?state=open": {
-    "t": 1786343434.1001935,
+    "t": 1786407498.5550046,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/php-binance-bot/issues/1",
@@ -372,104 +372,74 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/php-binance-bot/pulls?state=open": {
-    "t": 1786343434.8526764,
+    "t": 1786407499.3533816,
     "v": []
   },
   "https://api.github.com/repos/dmzoneill/securetty/issues?state=open": {
-    "t": 1786364269.2721288,
+    "t": 1786407486.2291403,
     "v": [
       {
-        "html_url": "https://github.com/dmzoneill/securetty/issues/138",
-        "title": "CLI compat: add plugin/marketplace system for extensible agent tooling",
-        "updated_at": "2026-08-10T09:57:16Z",
-        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/138"
+        "html_url": "https://github.com/dmzoneill/securetty/issues/175",
+        "title": "OTEL instrumentation for agent containers and MCP servers",
+        "updated_at": "2026-08-10T18:34:22Z",
+        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/175"
       },
       {
-        "html_url": "https://github.com/dmzoneill/securetty/issues/137",
-        "title": "CLI compat: add 'securetty skill <name> <URL>' for URL-based skill execution",
-        "updated_at": "2026-08-10T09:56:58Z",
-        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/137"
+        "html_url": "https://github.com/dmzoneill/securetty/issues/166",
+        "title": "egress: No feedback on what domains/IPs were added or changed",
+        "updated_at": "2026-08-10T17:21:47Z",
+        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/166"
       },
       {
-        "html_url": "https://github.com/dmzoneill/securetty/issues/136",
-        "title": "CLI compat: add global flags for carbonite parity (--channel, --image, --profile)",
-        "updated_at": "2026-08-10T09:56:43Z",
-        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/136"
+        "html_url": "https://github.com/dmzoneill/securetty/issues/162",
+        "title": "skill: SECURETTY_MCP_SKILLS_DIR not configured in env generation",
+        "updated_at": "2026-08-10T17:20:55Z",
+        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/162"
       },
       {
-        "html_url": "https://github.com/dmzoneill/securetty/issues/135",
-        "title": "CLI compat: add remote execution mode (OpenShift/k8s pods)",
-        "updated_at": "2026-08-10T09:56:55Z",
-        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/135"
+        "html_url": "https://github.com/dmzoneill/securetty/issues/161",
+        "title": "init: Creates .skillsaw.yaml but skillsaw tool not in agent manifests",
+        "updated_at": "2026-08-10T17:20:46Z",
+        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/161"
       },
       {
-        "html_url": "https://github.com/dmzoneill/securetty/issues/134",
-        "title": "CLI compat: add IDE integration (cursor, vscode devcontainer support)",
-        "updated_at": "2026-08-10T09:56:49Z",
-        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/134"
+        "html_url": "https://github.com/dmzoneill/securetty/issues/157",
+        "title": "eval: promptfoo fetched via npx, bypasses delayed ingestion security",
+        "updated_at": "2026-08-10T17:19:01Z",
+        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/157"
       },
       {
-        "html_url": "https://github.com/dmzoneill/securetty/issues/133",
-        "title": "CLI compat: add 'securetty code-review <URL>' shorthand for skill-based review",
-        "updated_at": "2026-08-10T09:55:17Z",
-        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/133"
+        "html_url": "https://github.com/dmzoneill/securetty/issues/143",
+        "title": "config: Validation bug in set command and incomplete profile system",
+        "updated_at": "2026-08-10T17:10:27Z",
+        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/143"
       },
       {
-        "html_url": "https://github.com/dmzoneill/securetty/issues/132",
-        "title": "CLI compat: add 'securetty update' and 'securetty rollback' for version management",
-        "updated_at": "2026-08-10T09:56:47Z",
-        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/132"
+        "html_url": "https://github.com/dmzoneill/securetty/issues/142",
+        "title": "jira-triage: Codeable action creates branch but never creates MR/PR",
+        "updated_at": "2026-08-10T17:09:57Z",
+        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/142"
       },
       {
-        "html_url": "https://github.com/dmzoneill/securetty/issues/131",
-        "title": "CLI compat: add 'securetty group' for worktree-based branch isolation",
-        "updated_at": "2026-08-10T09:57:20Z",
-        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/131"
+        "html_url": "https://github.com/dmzoneill/securetty/issues/141",
+        "title": "plugin: No execution mechanism \u2014 installed plugins are inert",
+        "updated_at": "2026-08-10T17:09:58Z",
+        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/141"
       },
       {
-        "html_url": "https://github.com/dmzoneill/securetty/issues/130",
-        "title": "CLI compat: add 'securetty check --fix --ai' diagnostic command",
-        "updated_at": "2026-08-10T09:56:20Z",
-        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/130"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/securetty/issues/129",
-        "title": "CLI compat: add '--cleanup keep|remove' flag for container persistence",
-        "updated_at": "2026-08-10T09:55:54Z",
-        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/129"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/securetty/issues/128",
-        "title": "CLI compat: add '-p <prompt>' flag for non-interactive agent runs",
-        "updated_at": "2026-08-10T09:55:35Z",
-        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/128"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/securetty/issues/127",
-        "title": "CLI compat: add 'securetty list' for clean container listing",
-        "updated_at": "2026-08-10T09:55:39Z",
-        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/127"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/securetty/issues/126",
-        "title": "CLI compat: add 'securetty config get/set/list/unset' for runtime configuration",
-        "updated_at": "2026-08-10T09:55:51Z",
-        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/126"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/securetty/issues/125",
-        "title": "CLI compat: add 'securetty connect' to reattach to running agent containers",
-        "updated_at": "2026-08-10T09:55:17Z",
-        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/125"
+        "html_url": "https://github.com/dmzoneill/securetty/issues/139",
+        "title": "run-remote: Incomplete implementation \u2014 no volumes, secrets, or image validation",
+        "updated_at": "2026-08-10T17:08:17Z",
+        "url": "https://api.github.com/repos/dmzoneill/securetty/issues/139"
       }
     ]
   },
   "https://api.github.com/repos/dmzoneill/securetty/pulls?state=open": {
-    "t": 1786364270.008208,
+    "t": 1786407487.0571978,
     "v": []
   },
   "https://api.github.com/repos/dmzoneill/seedmagepp/issues?state=open": {
-    "t": 1786343435.6512194,
+    "t": 1786407500.240983,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/seedmagepp/issues/1",
@@ -480,15 +450,15 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/seedmagepp/pulls?state=open": {
-    "t": 1786343436.4397385,
+    "t": 1786407501.0649354,
     "v": []
   },
   "https://api.github.com/repos/dmzoneill/skills/languages": {
-    "t": 1786343423.5542097,
+    "t": 1786407487.8500469,
     "v": {}
   },
   "https://api.github.com/repos/dmzoneill/tado-gnome-shell-extension/issues?state=open": {
-    "t": 1786343420.396124,
+    "t": 1786407482.8874342,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/tado-gnome-shell-extension/issues/2",
@@ -499,11 +469,11 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/tado-gnome-shell-extension/pulls?state=open": {
-    "t": 1786343421.1667228,
+    "t": 1786407483.683455,
     "v": []
   },
   "https://api.github.com/users/dmzoneill/gists": {
-    "t": 1786343438.8242788,
+    "t": 1786407503.4770768,
     "v": [
       {
         "description": "modern-hints.sh \u2014 Non-obtrusive bash hints suggesting modern alternatives to legacy Linux commands. Writes to /dev/tty so it never interferes with pipes or redirects.",

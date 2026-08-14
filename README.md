@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-14/08/2026 00:23:19-brightgreen" height='28'/> &nbsp;&nbsp; <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=dmzoneill&color=brightgreen&style=for-the-badge" height='28'/> &nbsp;&nbsp; <img alt="Redhat" width='30' height='25' src="https://github.com/dmzoneill/dmzoneill/blob/main/images/redhat.svg?raw=true" />
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-14/08/2026 06:30:37-brightgreen" height='28'/> &nbsp;&nbsp; <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=dmzoneill&color=brightgreen&style=for-the-badge" height='28'/> &nbsp;&nbsp; <img alt="Redhat" width='30' height='25' src="https://github.com/dmzoneill/dmzoneill/blob/main/images/redhat.svg?raw=true" />
 
 <img src="generated/timeline.svg" width="760" alt="timeline"/>
 
@@ -40,7 +40,7 @@
 </details>
 <details>
 <summary><strong>Recent Activity (100)</strong></summary>
-<ul><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://api.github.com/repos/dmzoneill/Seedarr'>dmzoneill/Seedarr</a></li></ul>
+<ul><li><a href='https://github.com/dmzoneill/Seedarr/pull/65'>Bump react-router and react-router-dom in /src/Seedarr.Frontend</a></li><li><a href='https://github.com/dmzoneill/Seedarr/pull/64'>Bump uuid and webpack-dev-server in /src/Seedarr.Frontend</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://api.github.com/repos/dmzoneill/Seedarr'>dmzoneill/Seedarr</a></li></ul>
 </details>
 <details>
 <summary><strong>Gists (24)</strong></summary>
@@ -69,10 +69,10 @@
 </tr><tr>
 <td><img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML'  height='20px'/></td><td>13395340</td>
 <td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>14456602</td>
-<td><img src='https://img.shields.io/badge/_-QML -11DDDD.svg?style=for-the-badge' title='QML'  height='20px'/></td><td>41756</td>
+<td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>2687299</td>
 <td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>464159</td>
 </tr><tr>
-<td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>2687299</td>
+<td><img src='https://img.shields.io/badge/_-QML -11DDDD.svg?style=for-the-badge' title='QML'  height='20px'/></td><td>41756</td>
 <td><img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile'  height='20px'/></td><td>11754</td>
 <td><img src='https://img.shields.io/badge/_-Jinja -11DDDD.svg?style=for-the-badge' title='Jinja'  height='20px'/></td><td>449264</td>
 <td><img src='https://img.shields.io/badge/_-YARA -11DDDD.svg?style=for-the-badge' title='YARA'  height='20px'/></td><td>1898925</td>
@@ -156,7 +156,7 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2026-08-13</p>
+              <p>2026-08-14</p>
             </td>
         </tr>
 <tr>
@@ -403,17 +403,17 @@
 </tbody></table><details><summary><strong>2026 (13 projects)</strong></summary><table width='100%' style='width:100%'><thead><tr><th>Project</th><th>View</th><th>Status</th></tr></thead><tbody><tr>
             <td>
               <p><h2><a href='https://github.com/dmzoneill/Seedarr' title='Seedarr'>Seedarr</a> (2026)</h2></p><p><img src='https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white' title='C#' height='20px'/> <img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/</p>
-              <p></p>
-              <p><ul></ul></p>
-              <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/Seedarr/issues/63'>Implement backup and restore functionality</a> 2026-08-13</li><li><a href='https://github.com/dmzoneill/Seedarr/issues/62'>Port tag system from Sonarr</a> 2026-08-13</li><li><a href='https://github.com/dmzoneill/Seedarr/issues/61'>Implement notification system (webhook, email, Discord, Pushover)</a> 2026-08-13</li><li><a href='https://github.com/dmzoneill/Seedarr/issues/60'>Implement health check framework with Seedarr-specific checks</a> 2026-08-13</li><li><a href='https://github.com/dmzoneill/Seedarr/issues/59'>Implement tracker peer database with TTL</a> 2026-08-13</li></ul></p>
-              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/Seedarr/pull/65'>Bump react-router and react-router-dom in /src/Seedarr.Frontend</a> 2026-08-13</li><li><a href='https://github.com/dmzoneill/Seedarr/pull/64'>Bump uuid and webpack-dev-server in /src/Seedarr.Frontend</a> 2026-08-13</li><li><a href='https://github.com/dmzoneill/Seedarr/pull/65'>Bump react-router and react-router-dom in /src/Seedarr.Frontend</a> 2026-08-13</li><li><a href='https://github.com/dmzoneill/Seedarr/pull/64'>Bump uuid and webpack-dev-server in /src/Seedarr.Frontend</a> 2026-08-13</li></ul></p>
+              <p>Apache License 2.0</p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/Seedarr/pull/65'>Bump react-router and react-router-dom in /src/Seedarr.Frontend</a></li><li><a href='https://github.com/dmzoneill/Seedarr/pull/64'>Bump uuid and webpack-dev-server in /src/Seedarr.Frontend</a></li></ul></p>
+              <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/Seedarr/issues/63'>Implement backup and restore functionality</a> 2026-08-14</li><li><a href='https://github.com/dmzoneill/Seedarr/issues/62'>Port tag system from Sonarr</a> 2026-08-14</li><li><a href='https://github.com/dmzoneill/Seedarr/issues/61'>Implement notification system (webhook, email, Discord, Pushover)</a> 2026-08-14</li><li><a href='https://github.com/dmzoneill/Seedarr/issues/60'>Implement health check framework with Seedarr-specific checks</a> 2026-08-14</li><li><a href='https://github.com/dmzoneill/Seedarr/issues/59'>Implement tracker peer database with TTL</a> 2026-08-14</li></ul></p>
+              <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/Seedarr/pull/65'>Bump react-router and react-router-dom in /src/Seedarr.Frontend</a> 2026-08-14</li><li><a href='https://github.com/dmzoneill/Seedarr/pull/64'>Bump uuid and webpack-dev-server in /src/Seedarr.Frontend</a> 2026-08-14</li><li><a href='https://github.com/dmzoneill/Seedarr/pull/65'>Bump react-router and react-router-dom in /src/Seedarr.Frontend</a> 2026-08-14</li><li><a href='https://github.com/dmzoneill/Seedarr/pull/64'>Bump uuid and webpack-dev-server in /src/Seedarr.Frontend</a> 2026-08-14</li></ul></p>
             </td>
             <td>
               <p><a href='' title=''></a></p>
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/Seedarr/actions'><img src='https://github.com/dmzoneill//Seedarr/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2026-08-13</p>
+              <p>2026-08-14</p>
             </td>
         </tr>
 <tr>
@@ -628,7 +628,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/ansible-feeditout-com' title='ansible-feeditout-com'>ansible-feeditout-com</a> (2025)</h2></p><p><img src='https://img.shields.io/badge/_-Jinja -11DDDD.svg?style=for-the-badge' title='Jinja' height='20px'/> <img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li></ul></p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a></li></ul></p>
               <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a> 2026-08-01</li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/186'>Add incremental backup strategy to reduce backup time and storage</a> 2026-08-01</li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/185'>Add backup encryption verification and secondary backup target</a> 2026-08-01</li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/184'>Evaluate nftables migration from legacy iptables</a> 2026-08-01</li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/183'>Create comprehensive disaster recovery runbook</a> 2026-08-01</li></ul></p>
               <p><ul></ul></p>
             </td>

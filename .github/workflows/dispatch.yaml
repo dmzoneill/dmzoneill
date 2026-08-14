@@ -29,6 +29,14 @@ on:
         required: false
         type: string
         default: "false"
+      dotnet:
+        required: false
+        type: string
+        default: "false"
+      dotnet-version:
+        required: false
+        type: string
+        default: "10.0.x"
       pling:
         required: false
         type: string
@@ -790,17 +798,26 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Set up .NET
+        if: inputs.dotnet != 'false'
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: ${{ inputs.dotnet-version }}
+
       - name: Set up Python
+        if: inputs.dotnet == 'false'
         uses: actions/setup-python@v4
         with:
           python-version: '3.11'
 
       - name: Install system dependencies
+        if: inputs.dotnet == 'false'
         run: |
           sudo apt-get update
           sudo apt-get install -y portaudio19-dev
 
       - name: Install dependencies
+        if: inputs.dotnet == 'false'
         run: |
           pip install pipenv
           pipenv install --dev
@@ -855,17 +872,26 @@ jobs:
         run: |
           echo "APP_NAME=$(echo "${{ github.repository }}" | awk -F'/' '{print tolower($2)}')" >> $GITHUB_ENV
 
+      - name: Set up .NET
+        if: inputs.dotnet != 'false'
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: ${{ inputs.dotnet-version }}
+
       - name: Set up Python
+        if: inputs.dotnet == 'false'
         uses: actions/setup-python@v4
         with:
           python-version: '3.11'
 
       - name: Install system dependencies
+        if: inputs.dotnet == 'false'
         run: |
           sudo apt-get update
           sudo apt-get install -y portaudio19-dev
 
       - name: Install dependencies
+        if: inputs.dotnet == 'false'
         run: |
           pip install pipenv
           pipenv install --dev
@@ -893,7 +919,7 @@ jobs:
           else
             make test || true
           fi
-          
+
       - name: Send Telegram notification
         continue-on-error: true
         uses: dmzoneill/dmzoneill/.github/actions/telegram@main

@@ -37,6 +37,10 @@ on:
         required: false
         type: string
         default: "10.0.x"
+      container-file:
+        required: false
+        type: string
+        default: "Dockerfile"
       pling:
         required: false
         type: string
@@ -1386,6 +1390,8 @@ jobs:
       - name: Build and push to docker hub
         uses: docker/build-push-action@v5
         with:
+          context: .
+          file: ./${{ inputs.container-file }}
           push: true
           tags: |
             feeditout/${{ env.APP_NAME }}:${{ env.NEXT_VERSION }}
@@ -1397,10 +1403,12 @@ jobs:
           registry: ghcr.io
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
-  
+
       - name: Build and push to ghcr
         uses: docker/build-push-action@v5
         with:
+          context: .
+          file: ./${{ inputs.container-file }}
           push: true
           tags: |
             ghcr.io/dmzoneill/${{ env.APP_NAME }}:${{ env.NEXT_VERSION }}

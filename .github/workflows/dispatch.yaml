@@ -1414,6 +1414,15 @@ jobs:
             ghcr.io/dmzoneill/${{ env.APP_NAME }}:${{ env.NEXT_VERSION }}
             ghcr.io/dmzoneill/${{ env.APP_NAME }}:latest
 
+      - name: Update Docker Hub description
+        continue-on-error: true
+        uses: peter-evans/dockerhub-description@v4
+        with:
+          username: feeditout
+          password: ${{ secrets.DOCKER_TOKEN }}
+          repository: feeditout/${{ env.APP_NAME }}
+          readme-filepath: ./DOCKER_HUB.md
+
       - name: Send Telegram notification
         continue-on-error: true
         uses: dmzoneill/dmzoneill/.github/actions/telegram@main

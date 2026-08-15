@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-15/08/2026 06:08:44-brightgreen" height='28'/> &nbsp;&nbsp; <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=dmzoneill&color=brightgreen&style=for-the-badge" height='28'/> &nbsp;&nbsp; <img alt="Redhat" width='30' height='25' src="https://github.com/dmzoneill/dmzoneill/blob/main/images/redhat.svg?raw=true" />
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-15/08/2026 12:06:50-brightgreen" height='28'/> &nbsp;&nbsp; <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=dmzoneill&color=brightgreen&style=for-the-badge" height='28'/> &nbsp;&nbsp; <img alt="Redhat" width='30' height='25' src="https://github.com/dmzoneill/dmzoneill/blob/main/images/redhat.svg?raw=true" />
 
 <img src="generated/timeline.svg" width="760" alt="timeline"/>
 
@@ -40,7 +40,7 @@
 </details>
 <details>
 <summary><strong>Recent Activity (100)</strong></summary>
-<ul><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/453'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/453'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/453'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/453'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/453'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/453'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/453'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/453'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/453'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/453'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/453'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/453'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/453'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/453'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/453'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/453'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/453'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://api.github.com/repos/RedHatInsights/tower-analytics-frontend'>RedHatInsights/tower-analytics-frontend</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/453'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/Seedarr/issues/87'>Toast notifications on user actions</a></li><li><a href='https://github.com/dmzoneill/Seedarr/issues/86'>Error boundaries for React components</a></li><li><a href='https://github.com/dmzoneill/Seedarr/issues/85'>Loading skeletons for data-fetching pages</a></li><li><a href='https://github.com/dmzoneill/Seedarr/issues/84'>Active nav link highlighting</a></li><li><a href='https://github.com/dmzoneill/Seedarr/issues/83'>Implement update mechanism</a></li><li><a href='https://github.com/dmzoneill/Seedarr/issues/82'>Add Swagger/OpenAPI documentation</a></li><li><a href='https://github.com/dmzoneill/Seedarr/issues/81'>Dockerfile and docker-compose</a></li><li><a href='https://github.com/dmzoneill/Seedarr/issues/80'>Responsive CSS and mobile layout</a></li><li><a href='https://github.com/dmzoneill/Seedarr/issues/79'>Poster/grid view toggle for torrent list</a></li><li><a href='https://github.com/dmzoneill/Seedarr/issues/78'>Real-time speed graph component</a></li><li><a href='https://github.com/dmzoneill/Seedarr/issues/77'>Settings page with actual config persistence</a></li><li><a href='https://github.com/dmzoneill/Seedarr/issues/76'>Wire SignalR real-time updates on mount</a></li><li><a href='https://github.com/dmzoneill/Seedarr/issues/75'>Add torrent modal (file upload + magnet link)</a></li><li><a href='https://github.com/dmzoneill/Seedarr/issues/74'>Add unit and integration tests</a></li><li><a href='https://github.com/dmzoneill/Seedarr/issues/73'>Add Polly retry/circuit-breaker for external calls</a></li><li><a href='https://github.com/dmzoneill/Seedarr/issues/72'>Add FluentValidation for API request validation</a></li><li><a href='https://github.com/dmzoneill/Seedarr/issues/71'>Add email notification provider</a></li><li><a href='https://github.com/dmzoneill/Seedarr/issues/70'>Implement speed scheduling (time-of-day/day-of-week)</a></li><li><a href='https://github.com/dmzoneill/Seedarr/issues/69'>Implement swarm analysis and recommendations</a></li><li><a href='https://github.com/dmzoneill/Seedarr/issues/68'>Implement Fast Extension (BEP 6)</a></li><li><a href='https://github.com/dmzoneill/Seedarr/issues/67'>Implement MSE/PE encryption (Message Stream Encryption)</a></li><li><a href='https://github.com/dmzoneill/Seedarr/issues/58'>Implement built-in UDP tracker server</a></li><li><a href='https://github.com/dmzoneill/Seedarr/issues/56'>Implement dark/light theme with CSS variables</a></li><li><a href='https://github.com/dmzoneill/Seedarr/issues/44'>Build tracker server settings and stats UI</a></li><li><a href='https://github.com/dmzoneill/Seedarr/issues/36'>Build peer list view in torrent details UI</a></li></ul>
+<ul><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/453'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/453'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/453'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/453'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/453'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/Seedarr/pull/88'>Bump serialize-javascript and copy-webpack-plugin in /src/Seedarr.Frontend</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/453'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/453'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/453'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/453'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/453'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/453'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/453'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/453'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/453'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/453'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/453'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/453'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/453'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/453'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/453'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/453'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/453'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/453'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://api.github.com/repos/RedHatInsights/tower-analytics-frontend'>RedHatInsights/tower-analytics-frontend</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/453'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/Seedarr/issues/87'>Toast notifications on user actions</a></li><li><a href='https://github.com/dmzoneill/Seedarr/issues/86'>Error boundaries for React components</a></li><li><a href='https://github.com/dmzoneill/Seedarr/issues/85'>Loading skeletons for data-fetching pages</a></li><li><a href='https://github.com/dmzoneill/Seedarr/issues/84'>Active nav link highlighting</a></li><li><a href='https://github.com/dmzoneill/Seedarr/issues/83'>Implement update mechanism</a></li><li><a href='https://github.com/dmzoneill/Seedarr/issues/82'>Add Swagger/OpenAPI documentation</a></li><li><a href='https://github.com/dmzoneill/Seedarr/issues/81'>Dockerfile and docker-compose</a></li><li><a href='https://github.com/dmzoneill/Seedarr/issues/80'>Responsive CSS and mobile layout</a></li><li><a href='https://github.com/dmzoneill/Seedarr/issues/79'>Poster/grid view toggle for torrent list</a></li><li><a href='https://github.com/dmzoneill/Seedarr/issues/78'>Real-time speed graph component</a></li><li><a href='https://github.com/dmzoneill/Seedarr/issues/77'>Settings page with actual config persistence</a></li><li><a href='https://github.com/dmzoneill/Seedarr/issues/76'>Wire SignalR real-time updates on mount</a></li><li><a href='https://github.com/dmzoneill/Seedarr/issues/75'>Add torrent modal (file upload + magnet link)</a></li><li><a href='https://github.com/dmzoneill/Seedarr/issues/74'>Add unit and integration tests</a></li><li><a href='https://github.com/dmzoneill/Seedarr/issues/73'>Add Polly retry/circuit-breaker for external calls</a></li><li><a href='https://github.com/dmzoneill/Seedarr/issues/72'>Add FluentValidation for API request validation</a></li><li><a href='https://github.com/dmzoneill/Seedarr/issues/71'>Add email notification provider</a></li><li><a href='https://github.com/dmzoneill/Seedarr/issues/70'>Implement speed scheduling (time-of-day/day-of-week)</a></li></ul>
 </details>
 <details>
 <summary><strong>Gists (24)</strong></summary>
@@ -62,17 +62,17 @@
     </tr>
   </thead>
   <tbody>
-    <tr><td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>14456602</td>
-<td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>2687299</td>
-<td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>465276</td>
+    <tr><td><img src='https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white' title='C#'  height='20px'/></td><td>3946096</td>
+<td><img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript'  height='20px'/></td><td>1877999</td>
+<td><img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS'  height='20px'/></td><td>11531630</td>
+<td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>2712201</td>
+</tr><tr>
+<td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>467117</td>
+<td><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript'  height='20px'/></td><td>19219771</td>
+<td><img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile'  height='20px'/></td><td>13612</td>
 <td><img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML'  height='20px'/></td><td>13444653</td>
 </tr><tr>
-<td><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript'  height='20px'/></td><td>19219760</td>
-<td><img src='https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white' title='C#'  height='20px'/></td><td>3918029</td>
-<td><img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript'  height='20px'/></td><td>1869708</td>
-<td><img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS'  height='20px'/></td><td>11531549</td>
-</tr><tr>
-<td><img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile'  height='20px'/></td><td>13612</td>
+<td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>14456602</td>
 <td><img src='https://img.shields.io/badge/_-Jinja -11DDDD.svg?style=for-the-badge' title='Jinja'  height='20px'/></td><td>449264</td>
 <td><img src='https://img.shields.io/badge/_-M4 -11DDDD.svg?style=for-the-badge' title='M4'  height='20px'/></td><td>124107</td>
 <td><img src='https://img.shields.io/badge/_-QML -11DDDD.svg?style=for-the-badge' title='QML'  height='20px'/></td><td>41756</td>
@@ -402,25 +402,9 @@
 
 </tbody></table><details><summary><strong>2026 (14 projects)</strong></summary><table width='100%' style='width:100%'><thead><tr><th>Project</th><th>View</th><th>Status</th></tr></thead><tbody><tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/seedarr.net' title='seedarr.net'>seedarr.net</a> (2026)</h2></p><p><img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/</p>
+              <p><h2><a href='https://github.com/dmzoneill/Seedarr' title='Seedarr'>Seedarr</a> (2026)</h2></p><p><img src='https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white' title='C#' height='20px'/> <img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-            </td>
-            <td>
-              <p><a href='' title=''></a></p>
-            </td>
-            <td align="center">
-              <a href='https://github.com/dmzoneill/seedarr.net/actions'><img src='https://github.com/dmzoneill//seedarr.net/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2026-08-14</p>
-            </td>
-        </tr>
-<tr>
-            <td>
-              <p><h2><a href='https://github.com/dmzoneill/Seedarr' title='Seedarr'>Seedarr</a> (2026)</h2></p><p><img src='https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white' title='C#' height='20px'/> <img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/</p>
-              <p>Apache License 2.0</p>
-              <p><ul></ul></p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/Seedarr/pull/88'>Bump serialize-javascript and copy-webpack-plugin in /src/Seedarr.Frontend</a></li></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>
@@ -429,7 +413,7 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/Seedarr/actions'><img src='https://github.com/dmzoneill//Seedarr/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2026-08-14</p>
+              <p>2026-08-15</p>
             </td>
         </tr>
 <tr>
@@ -445,7 +429,23 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/github-ai-maintainer/actions'><img src='https://github.com/dmzoneill//github-ai-maintainer/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2026-08-14</p>
+              <p>2026-08-15</p>
+            </td>
+        </tr>
+<tr>
+            <td>
+              <p><h2><a href='https://github.com/dmzoneill/seedarr.net' title='seedarr.net'>seedarr.net</a> (2026)</h2></p><p><img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML' height='20px'/> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/</p>
+              <p>Apache License 2.0</p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+            </td>
+            <td>
+              <p><a href='' title=''></a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/seedarr.net/actions'><img src='https://github.com/dmzoneill//seedarr.net/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2026-08-15</p>
             </td>
         </tr>
 <tr>

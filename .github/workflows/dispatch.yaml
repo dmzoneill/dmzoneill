@@ -918,10 +918,18 @@ jobs:
 
       - name: Run tests
         run: |
-          if [[ "${{ inputs.test-ready }}" == "true" ]]; then
-            make test
+          if make -n integration > /dev/null 2>&1; then
+            if [[ "${{ inputs.test-ready }}" == "true" ]]; then
+              make integration
+            else
+              make integration || true
+            fi
           else
-            make test || true
+            if [[ "${{ inputs.test-ready }}" == "true" ]]; then
+              make test
+            else
+              make test || true
+            fi
           fi
 
       - name: Send Telegram notification

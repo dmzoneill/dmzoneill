@@ -1039,8 +1039,48 @@ jobs:
           fi
       
           echo "PACKAGE_VERSION=$v" >> "$GITHUB_ENV"
-      
-            
+
+      - name: Generate changelog
+        run: |
+          # Find the previous tag to diff against
+          prev_tag=$(git tag --sort=-v:refname | grep -E '^v[0-9]' | head -n1)
+          if [ -n "$prev_tag" ]; then
+            echo "Generating changelog from $prev_tag to HEAD"
+            changelog=$(git log "$prev_tag"..HEAD --pretty=format:"- %s" --no-merges \
+              | grep -v "Automated publish:" \
+              | grep -v "Bump all versions" \
+              | head -50)
+          else
+            echo "No previous tag found, using last 20 commits"
+            changelog=$(git log --pretty=format:"- %s" --no-merges -20 \
+              | grep -v "Automated publish:" \
+              | grep -v "Bump all versions" \
+              | head -50)
+          fi
+
+          if [ -z "$changelog" ]; then
+            changelog="- Maintenance release"
+          fi
+
+          # Split into categories
+          new_items=$(echo "$changelog" | grep -iE "^- (feat|add|new|update|enable)" || true)
+          fix_items=$(echo "$changelog" | grep -iE "^- (fix|bug|patch|correct|resolve)" || true)
+          other_items=$(echo "$changelog" | grep -viE "^- (feat|add|new|update|enable|fix|bug|patch|correct|resolve)" || true)
+
+          body="## What's Changed"$'\n'
+          if [ -n "$new_items" ]; then
+            body+=$'\n'"### New"$'\n'"$new_items"$'\n'
+          fi
+          if [ -n "$fix_items" ]; then
+            body+=$'\n'"### Fixed"$'\n'"$fix_items"$'\n'
+          fi
+          if [ -n "$other_items" ]; then
+            body+=$'\n'"### Other"$'\n'"$other_items"$'\n'
+          fi
+
+          # Write to file to preserve newlines
+          echo "$body" > /tmp/release_body.md
+
       - name: Create GitHub release
         id: create_release
         uses: actions/create-release@v1
@@ -1049,7 +1089,7 @@ jobs:
         with:
           tag_name: v${{ env.PACKAGE_VERSION }}
           release_name: Release v${{ env.PACKAGE_VERSION }}
-          body: ""
+          body_path: /tmp/release_body.md
           draft: false
           prerelease: false
 

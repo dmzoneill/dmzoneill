@@ -991,6 +991,8 @@ jobs:
     name: Bump all versions
     runs-on: ubuntu-latest
     needs: [unit-test, integration-test]
+    outputs:
+      version: ${{ steps.bump.outputs.version }}
     steps:
       - name: Checkout code
         uses: actions/checkout@v7
@@ -1001,11 +1003,13 @@ jobs:
         run: |
           echo "APP_NAME=$(echo "${{ github.repository }}" | awk -F'/' '{print tolower($2)}')" >> $GITHUB_ENV
 
-      - name: Bump version  
+      - name: Bump version
+        id: bump
         run: |-
           if ! test -f version; then echo "version=0.0.1" > version; fi
           version=$(grep 'version=.*' version | awk -F'=' '{print $2}')
           next=$(echo $version | awk -F. '/[0-9]+\./{$NF++;print}' OFS=.)
+          echo "version=$next" >> $GITHUB_OUTPUT
           if test -f control; then sed "s/$version/$next/" -i control; fi
           if test -f ${{ env.APP_NAME }}.spec; then sed "s/$version/$next/" -i ${{ env.APP_NAME }}.spec; fi
           if test -f PKG-INFO; then sed "s/$version/$next/" -i PKG-INFO; fi
@@ -1047,38 +1051,17 @@ jobs:
     name: Create github release
     needs: bump-versions
     runs-on: ubuntu-latest
+    outputs:
+      version: ${{ needs.bump-versions.outputs.version }}
     steps:
       - name: Checkout
         uses: actions/checkout@v7
         with:
           fetch-depth: 0
-  
-      - name: Get version
-        run: |
-          # Prefer a "version" file if present; otherwise use Debian "control"
-          if [[ -f version ]]; then
-            v=$(grep -E '^[Vv]ersion([[:space:]]*[:=])' version | head -n1 \
-                | sed -E 's/^[Vv]ersion[[:space:]]*[:=][[:space:]]*//')
-          elif [[ -f control ]]; then
-            v=$(grep -E '^Version:' control | head -n1 \
-                | sed -E 's/^Version:[[:space:]]*//')
-          else
-            echo "No version or control file found" >&2
-            exit 1
-          fi
-      
-          # Strip quotes/whitespace
-          v=${v//\"/}
-          v=${v//\'/}
-          v=$(echo -n "$v" | tr -d '[:space:]')
-      
-          # Basic sanity check (semver-ish)
-          if ! [[ $v =~ ^[0-9]+(\.[0-9]+)*(-[0-9A-Za-z._]+)?$ ]]; then
-            echo "Version string '$v' doesn't look like a version" >&2
-            exit 1
-          fi
-      
-          echo "PACKAGE_VERSION=$v" >> "$GITHUB_ENV"
+          ref: ${{ github.ref_name }}
+
+      - name: Set version from bump output
+        run: echo "PACKAGE_VERSION=${{ needs.bump-versions.outputs.version }}" >> "$GITHUB_ENV"
 
       - name: Generate changelog
         run: |
@@ -1314,13 +1297,11 @@ jobs:
       - name: Build Debian package
         run: make deb
 
-      - name: Get package name and version
-        id: get_package_info
+      - name: Get package name and set version
         run: |
           package_name=$(grep '^Package:' control | cut -d' ' -f2-)
-          package_version=$(grep '^Version:' control | cut -d' ' -f2-)
           echo "PACKAGE_NAME=${package_name}" >> $GITHUB_ENV
-          echo "PACKAGE_VERSION=${package_version}" >> $GITHUB_ENV  
+          echo "PACKAGE_VERSION=${{ needs.create-release.outputs.version }}" >> $GITHUB_ENV
 
       - name: Store Debian package as artifact
         uses: actions/upload-artifact@v7
@@ -1365,13 +1346,11 @@ jobs:
       - name: Build RPM package
         run: make rpm
 
-      - name: Get package name and version
-        id: get_package_info
+      - name: Get package name and set version
         run: |
           package_name=$(cat $APP_NAME.spec | grep Name | cut -d: -f 2 | tr -d ' ')
-          package_version=$(grep '^Version:' control | cut -d' ' -f2-)
           echo "PACKAGE_NAME=${package_name}" >> $GITHUB_ENV
-          echo "PACKAGE_VERSION=${package_version}" >> $GITHUB_ENV  
+          echo "PACKAGE_VERSION=${{ needs.create-release.outputs.version }}" >> $GITHUB_ENV
 
       - name: Store rpm package as artifact
         uses: actions/upload-artifact@v7
@@ -1447,9 +1426,7 @@ jobs:
       - name: Setup target name:tag
         run: |
           echo "APP_NAME=$(echo "${{ github.repository }}" | awk -F'/' '{print tolower($2)}')" >> $GITHUB_ENV
-          version=$(grep 'version=.*' version | awk -F'=' '{print $2}')
-          next=$(echo $version | awk -F. '/[0-9]+\./{$NF++;print}' OFS=.)
-          echo "NEXT_VERSION=$next" >> $GITHUB_ENV
+          echo "NEXT_VERSION=${{ needs.create-release.outputs.version }}" >> $GITHUB_ENV
 
       - name: Login to Docker Hub
         uses: docker/login-action@v4
@@ -1566,22 +1543,8 @@ jobs:
           print(f"sdk: {sdk}/{runtime_version}")
           PYEOF
 
-      - name: Get package version
-        run: |
-          if [[ -f version ]]; then
-            v=$(grep -E '^[Vv]ersion([[:space:]]*[:=])' version | head -n1 \
-                | sed -E 's/^[Vv]ersion[[:space:]]*[:=][[:space:]]*//')
-          elif [[ -f control ]]; then
-            v=$(grep -E '^Version:' control | head -n1 \
-                | sed -E 's/^Version:[[:space:]]*//')
-          else
-            echo "No version or control file found" >&2
-            exit 1
-          fi
-          v=${v//\"/}
-          v=${v//\'/}
-          v=$(echo -n "$v" | tr -d '[:space:]')
-          echo "PACKAGE_VERSION=$v" >> $GITHUB_ENV
+      - name: Set version
+        run: echo "PACKAGE_VERSION=${{ needs.create-release.outputs.version }}" >> $GITHUB_ENV
 
       - name: Install flatpak and flatpak-builder
         run: |
@@ -1660,22 +1623,8 @@ jobs:
           echo "APPIMAGE_MANIFEST=$MANIFEST" >> $GITHUB_ENV
           echo "Found manifest: $MANIFEST"
 
-      - name: Get package version
-        run: |
-          if [[ -f version ]]; then
-            v=$(grep -E '^[Vv]ersion([[:space:]]*[:=])' version | head -n1 \
-                | sed -E 's/^[Vv]ersion[[:space:]]*[:=][[:space:]]*//')
-          elif [[ -f control ]]; then
-            v=$(grep -E '^Version:' control | head -n1 \
-                | sed -E 's/^Version:[[:space:]]*//')
-          else
-            echo "No version or control file found" >&2
-            exit 1
-          fi
-          v=${v//\"/}
-          v=${v//\'/}
-          v=$(echo -n "$v" | tr -d '[:space:]')
-          echo "PACKAGE_VERSION=$v" >> $GITHUB_ENV
+      - name: Set version
+        run: echo "PACKAGE_VERSION=${{ needs.create-release.outputs.version }}" >> $GITHUB_ENV
 
       - name: Setup variables
         run: |
@@ -1752,22 +1701,8 @@ jobs:
           echo "SNAPCRAFT_MANIFEST=$MANIFEST" >> $GITHUB_ENV
           echo "Found manifest: $MANIFEST"
 
-      - name: Get package version
-        run: |
-          if [[ -f version ]]; then
-            v=$(grep -E '^[Vv]ersion([[:space:]]*[:=])' version | head -n1 \
-                | sed -E 's/^[Vv]ersion[[:space:]]*[:=][[:space:]]*//')
-          elif [[ -f control ]]; then
-            v=$(grep -E '^Version:' control | head -n1 \
-                | sed -E 's/^Version:[[:space:]]*//')
-          else
-            echo "No version or control file found" >&2
-            exit 1
-          fi
-          v=${v//\"/}
-          v=${v//\'/}
-          v=$(echo -n "$v" | tr -d '[:space:]')
-          echo "PACKAGE_VERSION=$v" >> $GITHUB_ENV
+      - name: Set version
+        run: echo "PACKAGE_VERSION=${{ needs.create-release.outputs.version }}" >> $GITHUB_ENV
 
       - name: Setup variables
         run: |
@@ -1830,22 +1765,8 @@ jobs:
             exit 1
           fi
 
-      - name: Get package version
-        run: |
-          if [[ -f version ]]; then
-            v=$(grep -E '^[Vv]ersion([[:space:]]*[:=])' version | head -n1 \
-                | sed -E 's/^[Vv]ersion[[:space:]]*[:=][[:space:]]*//')
-          elif [[ -f control ]]; then
-            v=$(grep -E '^Version:' control | head -n1 \
-                | sed -E 's/^Version:[[:space:]]*//')
-          else
-            echo "No version or control file found" >&2
-            exit 1
-          fi
-          v=${v//\"/}
-          v=${v//\'/}
-          v=$(echo -n "$v" | tr -d '[:space:]')
-          echo "PACKAGE_VERSION=$v" >> $GITHUB_ENV
+      - name: Set version
+        run: echo "PACKAGE_VERSION=${{ needs.create-release.outputs.version }}" >> $GITHUB_ENV
 
       - name: Setup variables
         run: |
@@ -1915,22 +1836,8 @@ jobs:
             exit 1
           fi
 
-      - name: Get package version
-        run: |
-          if [[ -f version ]]; then
-            v=$(grep -E '^[Vv]ersion([[:space:]]*[:=])' version | head -n1 \
-                | sed -E 's/^[Vv]ersion[[:space:]]*[:=][[:space:]]*//')
-          elif [[ -f control ]]; then
-            v=$(grep -E '^Version:' control | head -n1 \
-                | sed -E 's/^Version:[[:space:]]*//')
-          else
-            echo "No version or control file found" >&2
-            exit 1
-          fi
-          v=${v//\"/}
-          v=${v//\'/}
-          v=$(echo -n "$v" | tr -d '[:space:]')
-          echo "PACKAGE_VERSION=$v" >> $GITHUB_ENV
+      - name: Set version
+        run: echo "PACKAGE_VERSION=${{ needs.create-release.outputs.version }}" >> $GITHUB_ENV
 
       - name: Setup variables
         run: |
@@ -1968,22 +1875,8 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Get package version
-        run: |
-          if [[ -f version ]]; then
-            v=$(grep -E '^[Vv]ersion([[:space:]]*[:=])' version | head -n1 \
-                | sed -E 's/^[Vv]ersion[[:space:]]*[:=][[:space:]]*//')
-          elif [[ -f control ]]; then
-            v=$(grep -E '^Version:' control | head -n1 \
-                | sed -E 's/^Version:[[:space:]]*//')
-          else
-            echo "No version or control file found" >&2
-            exit 1
-          fi
-          v=${v//\"/}
-          v=${v//\'/}
-          v=$(echo -n "$v" | tr -d '[:space:]')
-          echo "PACKAGE_VERSION=$v" >> $GITHUB_ENV
+      - name: Set version
+        run: echo "PACKAGE_VERSION=${{ needs.create-release.outputs.version }}" >> $GITHUB_ENV
 
       - name: Setup variables
         run: |
@@ -2029,19 +1922,9 @@ jobs:
           echo "NUSPEC_FILE=$($nuspec.Name)" >> $env:GITHUB_ENV
           echo "Found nuspec: $($nuspec.Name)"
 
-      - name: Get package version
+      - name: Set version
         shell: pwsh
-        run: |
-          if (Test-Path version) {
-            $v = (Select-String -Path version -Pattern '^[Vv]ersion\s*[:=]\s*(.+)$').Matches[0].Groups[1].Value.Trim()
-          } elseif (Test-Path control) {
-            $v = (Select-String -Path control -Pattern '^Version:\s*(.+)$').Matches[0].Groups[1].Value.Trim()
-          } else {
-            Write-Error "No version or control file found"
-            exit 1
-          }
-          $v = $v.Trim('"', "'", ' ')
-          echo "PACKAGE_VERSION=$v" >> $env:GITHUB_ENV
+        run: echo "PACKAGE_VERSION=${{ needs.create-release.outputs.version }}" >> $env:GITHUB_ENV
 
       - name: Setup variables
         shell: pwsh
@@ -2088,22 +1971,8 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Get package version
-        run: |
-          if [[ -f version ]]; then
-            v=$(grep -E '^[Vv]ersion([[:space:]]*[:=])' version | head -n1 \
-                | sed -E 's/^[Vv]ersion[[:space:]]*[:=][[:space:]]*//')
-          elif [[ -f control ]]; then
-            v=$(grep -E '^Version:' control | head -n1 \
-                | sed -E 's/^Version:[[:space:]]*//')
-          else
-            echo "No version or control file found" >&2
-            exit 1
-          fi
-          v=${v//\"/}
-          v=${v//\'/}
-          v=$(echo -n "$v" | tr -d '[:space:]')
-          echo "PACKAGE_VERSION=$v" >> $GITHUB_ENV
+      - name: Set version
+        run: echo "PACKAGE_VERSION=${{ needs.create-release.outputs.version }}" >> $GITHUB_ENV
 
       - name: Setup variables
         run: |
@@ -2180,19 +2049,9 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Get package version
+      - name: Set version
         shell: pwsh
-        run: |
-          if (Test-Path version) {
-            $v = (Select-String -Path version -Pattern '^[Vv]ersion\s*[:=]\s*(.+)$').Matches[0].Groups[1].Value.Trim()
-          } elseif (Test-Path control) {
-            $v = (Select-String -Path control -Pattern '^Version:\s*(.+)$').Matches[0].Groups[1].Value.Trim()
-          } else {
-            Write-Error "No version or control file found"
-            exit 1
-          }
-          $v = $v.Trim('"', "'", ' ')
-          echo "PACKAGE_VERSION=$v" >> $env:GITHUB_ENV
+        run: echo "PACKAGE_VERSION=${{ needs.create-release.outputs.version }}" >> $env:GITHUB_ENV
 
       - name: Publish to winget
         if: env.WINGET_TOKEN != ''

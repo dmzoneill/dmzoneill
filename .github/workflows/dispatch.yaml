@@ -113,6 +113,14 @@ on:
         required: false
         type: string
         default: "true"
+      VALIDATE_BIOME_FORMAT:
+        required: false
+        type: string
+        default: "false"
+      VALIDATE_BIOME_LINT:
+        required: false
+        type: string
+        default: "false"
       VALIDATE_CPP:
         required: false
         type: string
@@ -169,6 +177,10 @@ on:
         required: false
         type: string
         default: "true"
+      VALIDATE_GITHUB_ACTIONS_ZIZMOR:
+        required: false
+        type: string
+        default: "false"
       VALIDATE_GITLEAKS:
         required: false
         type: string
@@ -476,7 +488,15 @@ jobs:
           if [ "${{ inputs.VALIDATE_BASH_EXEC }}" != "true" ]; then
             echo "VALIDATE_BASH_EXEC=${{ inputs.VALIDATE_BASH_EXEC }}" >> $GITHUB_ENV
           fi
-          
+
+          if [ "${{ inputs.VALIDATE_BIOME_FORMAT }}" != "true" ]; then
+            echo "VALIDATE_BIOME_FORMAT=${{ inputs.VALIDATE_BIOME_FORMAT }}" >> $GITHUB_ENV
+          fi
+
+          if [ "${{ inputs.VALIDATE_BIOME_LINT }}" != "true" ]; then
+            echo "VALIDATE_BIOME_LINT=${{ inputs.VALIDATE_BIOME_LINT }}" >> $GITHUB_ENV
+          fi
+
           if [ "${{ inputs.VALIDATE_CPP }}" != "true" ]; then
             echo "VALIDATE_CPP=${{ inputs.VALIDATE_CPP }}" >> $GITHUB_ENV
           fi
@@ -512,7 +532,11 @@ jobs:
           if [ "${{ inputs.VALIDATE_GITHUB_ACTIONS }}" != "true" ]; then
             echo "VALIDATE_GITHUB_ACTIONS=${{ inputs.VALIDATE_GITHUB_ACTIONS }}" >> $GITHUB_ENV
           fi
-          
+
+          if [ "${{ inputs.VALIDATE_GITHUB_ACTIONS_ZIZMOR }}" != "true" ]; then
+            echo "VALIDATE_GITHUB_ACTIONS_ZIZMOR=${{ inputs.VALIDATE_GITHUB_ACTIONS_ZIZMOR }}" >> $GITHUB_ENV
+          fi
+
           if [ "${{ inputs.VALIDATE_GITLEAKS }}" != "true" ]; then
             echo "VALIDATE_GITLEAKS=${{ inputs.VALIDATE_GITLEAKS }}" >> $GITHUB_ENV
           fi

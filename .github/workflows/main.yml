@@ -30,6 +30,9 @@ jobs:
           VALIDATE_CHECKOV: false
           VALIDATE_JSON_PRETTIER: false
           VALIDATE_YAML_PRETTIER: false
+          VALIDATE_GITHUB_ACTIONS_ZIZMOR: false
+          VALIDATE_BIOME_FORMAT: false
+          VALIDATE_BIOME_LINT: false
           DEFAULT_BRANCH: "main"
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 

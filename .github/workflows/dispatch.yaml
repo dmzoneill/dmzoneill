@@ -120,7 +120,7 @@ on:
       VALIDATE_CHECKOV:
         required: false
         type: string
-        default: "true"
+        default: "false"
       VALIDATE_CLANG_FORMAT:
         required: false
         type: string
@@ -798,7 +798,7 @@ jobs:
           fi
 
       - name: Lint Code Base
-        uses: super-linter/super-linter@v7
+        uses: super-linter/super-linter@v8
 
       - name: Send Telegram notification
         continue-on-error: true

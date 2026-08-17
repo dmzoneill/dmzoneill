@@ -11,18 +11,6 @@
   "github_url": "https://github.com/dmzoneill",
   "linkedin_url": "https://www.linkedin.com/in/dmzoneill/",
   "live": {
-    "ashtangayogacork.ie-android": [
-      "https://play.google.com/store/apps/details?id=ie.ayc",
-      "Ashtanga Yoga Cork android app"
-    ],
-    "ashtangayogacork.ie-ios": [
-      "https://apps.apple.com/us/app/ashtanga-yoga-cork/id1508794150",
-      "Ashtanga Yoga Cork IOS app"
-    ],
-    "ashtangayogacork.ie-wearos": [
-      "https://play.google.com/store/apps/details?id=ie.ayc.wearos",
-      "Ashtanga Yoga Cork Wearos App"
-    ],
     "curriculum-vitae": ["https://cv.fio.ie", "Curriculum vitae"],
     "dmzoneill": ["https://github.com/dmzoneill", "Github profile"],
     "gnome-extension-publisher": [
@@ -61,17 +49,25 @@
       "https://github.com/dmzoneill/DFakeSeeder",
       "DFakeSeeder"
     ],
-    "authy-gnupass-totp": [
-      "https://github.com/dmzoneill/authy-gnupass-totp",
-      "Authy GNU Pass Totp"
-    ],
     "jira_creator": [
       "https://github.com/dmzoneill/jira_creator",
       "Jira Creator"
     ],
-    "redhat-ai-workflow": [
-      "https://github.com/dmzoneill/redhat-ai-workflow",
-      "RedHat AI Workflow"
+    "seedarr.net": [
+      "https://seedarr.net",
+      "Seedarr.net"
+    ],
+    "Seedar": [
+      "https://github.com/dmzoneill/Seedar",
+      "Seedar"
+    ],
+    "securetty": [
+      "https://github.com/dmzoneill/securetty",
+      "Securetty"
+    ],
+    "passmate": [
+      "https://github.com/dmzoneill/passmate",
+      "Passmate"
     ]
   },
   "organizations": [

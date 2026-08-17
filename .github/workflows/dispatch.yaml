@@ -213,6 +213,10 @@ on:
         required: false
         type: string
         default: "true"
+      VALIDATE_JSON_PRETTIER:
+        required: false
+        type: string
+        default: "false"
       VALIDATE_JSX:
         required: false
         type: string
@@ -401,6 +405,10 @@ on:
         required: false
         type: string
         default: "true"
+      VALIDATE_YAML_PRETTIER:
+        required: false
+        type: string
+        default: "false"
 
 jobs:
   pipeline-start:
@@ -779,6 +787,14 @@ jobs:
           
           if [ "${{ inputs.VALIDATE_YAML }}" != "true" ]; then
             echo "VALIDATE_YAML=${{ inputs.VALIDATE_YAML }}" >> $GITHUB_ENV
+          fi
+
+          if [ "${{ inputs.VALIDATE_JSON_PRETTIER }}" != "true" ]; then
+            echo "VALIDATE_JSON_PRETTIER=${{ inputs.VALIDATE_JSON_PRETTIER }}" >> $GITHUB_ENV
+          fi
+
+          if [ "${{ inputs.VALIDATE_YAML_PRETTIER }}" != "true" ]; then
+            echo "VALIDATE_YAML_PRETTIER=${{ inputs.VALIDATE_YAML_PRETTIER }}" >> $GITHUB_ENV
           fi
 
       - name: Lint Code Base

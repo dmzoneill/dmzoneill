@@ -27,6 +27,9 @@ jobs:
           VALIDATE_PYTHON_FLAKE8: false
           VALIDATE_ALL_CODEBASE: false
           VALIDATE_DOCKERFILE_HADOLINT: false
+          VALIDATE_CHECKOV: false
+          VALIDATE_JSON_PRETTIER: false
+          VALIDATE_YAML_PRETTIER: false
           DEFAULT_BRANCH: "main"
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 

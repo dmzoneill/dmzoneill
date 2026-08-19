@@ -2099,8 +2099,7 @@ jobs:
         needs.homebrew.result == 'success' ||
         needs.chocolatey.result == 'success' ||
         needs.scoop.result == 'success' ||
-        needs.winget.result == 'success' ||
-        true
+        needs.winget.result == 'success'
       )
     steps:
       - name: Setup Node.js

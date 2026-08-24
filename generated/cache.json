@@ -18,6 +18,91 @@
     "t": 1787552087.5674064,
     "v": []
   },
+  "https://api.github.com/repos/dmzoneill/Seedarr/issues?state=open": {
+    "t": 1787573412.1071317,
+    "v": [
+      {
+        "html_url": "https://github.com/dmzoneill/Seedarr/pull/95",
+        "pull_request": {
+          "diff_url": "https://github.com/dmzoneill/Seedarr/pull/95.diff",
+          "html_url": "https://github.com/dmzoneill/Seedarr/pull/95",
+          "merged_at": null,
+          "patch_url": "https://github.com/dmzoneill/Seedarr/pull/95.patch",
+          "url": "https://api.github.com/repos/dmzoneill/Seedarr/pulls/95"
+        },
+        "title": "Delete dead Simulation subsystem and its config surface (Closes #90)",
+        "updated_at": "2026-08-24T12:01:22Z",
+        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/95"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Seedarr/pull/94",
+        "pull_request": {
+          "diff_url": "https://github.com/dmzoneill/Seedarr/pull/94.diff",
+          "html_url": "https://github.com/dmzoneill/Seedarr/pull/94",
+          "merged_at": null,
+          "patch_url": "https://github.com/dmzoneill/Seedarr/pull/94.patch",
+          "url": "https://api.github.com/repos/dmzoneill/Seedarr/pulls/94"
+        },
+        "title": "Guard distribution-manager caches; fix redistribution-mode mismatch (Closes #92)",
+        "updated_at": "2026-08-24T11:54:42Z",
+        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/94"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Seedarr/pull/93",
+        "pull_request": {
+          "diff_url": "https://github.com/dmzoneill/Seedarr/pull/93.diff",
+          "html_url": "https://github.com/dmzoneill/Seedarr/pull/93",
+          "merged_at": null,
+          "patch_url": "https://github.com/dmzoneill/Seedarr/pull/93.patch",
+          "url": "https://api.github.com/repos/dmzoneill/Seedarr/pulls/93"
+        },
+        "title": "Remove fake uTP transport stack (Closes #91)",
+        "updated_at": "2026-08-24T11:54:50Z",
+        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/93"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Seedarr/issues/92",
+        "title": "SpeedDistributionManager: unlocked mutable singleton caches + UI/backend redistribution-mode mismatch",
+        "updated_at": "2026-08-24T11:44:51Z",
+        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/92"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Seedarr/issues/91",
+        "title": "Remove fake uTP transport stack (hardcoded no-op)",
+        "updated_at": "2026-08-24T11:44:32Z",
+        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/91"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Seedarr/issues/90",
+        "title": "Remove dead Simulation subsystem (13 files, 762 lines + full config/UI vertical slice)",
+        "updated_at": "2026-08-24T11:44:26Z",
+        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/90"
+      }
+    ]
+  },
+  "https://api.github.com/repos/dmzoneill/Seedarr/pulls?state=open": {
+    "t": 1787573412.9590409,
+    "v": [
+      {
+        "html_url": "https://github.com/dmzoneill/Seedarr/pull/95",
+        "title": "Delete dead Simulation subsystem and its config surface (Closes #90)",
+        "updated_at": "2026-08-24T12:01:22Z",
+        "url": "https://api.github.com/repos/dmzoneill/Seedarr/pulls/95"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Seedarr/pull/94",
+        "title": "Guard distribution-manager caches; fix redistribution-mode mismatch (Closes #92)",
+        "updated_at": "2026-08-24T11:54:42Z",
+        "url": "https://api.github.com/repos/dmzoneill/Seedarr/pulls/94"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Seedarr/pull/93",
+        "title": "Remove fake uTP transport stack (Closes #91)",
+        "updated_at": "2026-08-24T11:54:50Z",
+        "url": "https://api.github.com/repos/dmzoneill/Seedarr/pulls/93"
+      }
+    ]
+  },
   "https://api.github.com/repos/dmzoneill/ansible-feeditout-com/issues?state=open": {
     "t": 1787552095.3812969,
     "v": [

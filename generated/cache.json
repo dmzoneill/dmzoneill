@@ -1,10 +1,10 @@
 {
   "https://api.github.com/repos/dmzoneill/Bootstack-Highlight-Monitor/languages": {
-    "t": 1787552097.5787635,
+    "t": 1787616765.586283,
     "v": {}
   },
   "https://api.github.com/repos/dmzoneill/DFakeSeeder/issues?state=open": {
-    "t": 1787552086.855061,
+    "t": 1787616753.2067847,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/DFakeSeeder/issues/15",
@@ -15,101 +15,73 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/DFakeSeeder/pulls?state=open": {
-    "t": 1787552087.5674064,
+    "t": 1787616753.9349203,
     "v": []
   },
   "https://api.github.com/repos/dmzoneill/Seedarr/issues?state=open": {
-    "t": 1787573412.1071317,
+    "t": 1787616756.3635867,
     "v": [
       {
-        "html_url": "https://github.com/dmzoneill/Seedarr/pull/95",
-        "pull_request": {
-          "diff_url": "https://github.com/dmzoneill/Seedarr/pull/95.diff",
-          "html_url": "https://github.com/dmzoneill/Seedarr/pull/95",
-          "merged_at": null,
-          "patch_url": "https://github.com/dmzoneill/Seedarr/pull/95.patch",
-          "url": "https://api.github.com/repos/dmzoneill/Seedarr/pulls/95"
-        },
-        "title": "Delete dead Simulation subsystem and its config surface (Closes #90)",
-        "updated_at": "2026-08-24T12:01:22Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/95"
+        "html_url": "https://github.com/dmzoneill/Seedarr/issues/101",
+        "title": "Async/clock/random hygiene: sync-over-async sites, injectable randomness, static loggers",
+        "updated_at": "2026-08-24T17:14:57Z",
+        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/101"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Seedarr/pull/94",
-        "pull_request": {
-          "diff_url": "https://github.com/dmzoneill/Seedarr/pull/94.diff",
-          "html_url": "https://github.com/dmzoneill/Seedarr/pull/94",
-          "merged_at": null,
-          "patch_url": "https://github.com/dmzoneill/Seedarr/pull/94.patch",
-          "url": "https://api.github.com/repos/dmzoneill/Seedarr/pulls/94"
-        },
-        "title": "Guard distribution-manager caches; fix redistribution-mode mismatch (Closes #92)",
-        "updated_at": "2026-08-24T11:54:42Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/94"
+        "html_url": "https://github.com/dmzoneill/Seedarr/issues/100",
+        "title": "Torrent entity invariants: stop hand-copying internal stat fields in PUT",
+        "updated_at": "2026-08-24T17:14:58Z",
+        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/100"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Seedarr/pull/93",
-        "pull_request": {
-          "diff_url": "https://github.com/dmzoneill/Seedarr/pull/93.diff",
-          "html_url": "https://github.com/dmzoneill/Seedarr/pull/93",
-          "merged_at": null,
-          "patch_url": "https://github.com/dmzoneill/Seedarr/pull/93.patch",
-          "url": "https://api.github.com/repos/dmzoneill/Seedarr/pulls/93"
-        },
-        "title": "Remove fake uTP transport stack (Closes #91)",
-        "updated_at": "2026-08-24T11:54:50Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/93"
+        "html_url": "https://github.com/dmzoneill/Seedarr/issues/99",
+        "title": "Extract torrent import service from TorrentController",
+        "updated_at": "2026-08-24T17:14:40Z",
+        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/99"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/92",
-        "title": "SpeedDistributionManager: unlocked mutable singleton caches + UI/backend redistribution-mode mismatch",
-        "updated_at": "2026-08-24T11:44:51Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/92"
+        "html_url": "https://github.com/dmzoneill/Seedarr/issues/98",
+        "title": "Split SeedingEngine responsibilities; batch persistence and SignalR broadcasts",
+        "updated_at": "2026-08-24T17:14:54Z",
+        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/98"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Seedarr/issues/97",
+        "title": "Connect DHT peer learning into discovery pipeline",
+        "updated_at": "2026-08-24T17:14:46Z",
+        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/97"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Seedarr/issues/96",
+        "title": "Make /announce honest: wire real tracker providers instead of fabricating success",
+        "updated_at": "2026-08-24T17:14:28Z",
+        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/96"
       },
       {
         "html_url": "https://github.com/dmzoneill/Seedarr/issues/91",
-        "title": "Remove fake uTP transport stack (hardcoded no-op)",
-        "updated_at": "2026-08-24T11:44:32Z",
+        "title": "Implement functional uTP (BEP-29) transport with TCP fallback",
+        "updated_at": "2026-08-24T12:28:47Z",
         "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/91"
       },
       {
         "html_url": "https://github.com/dmzoneill/Seedarr/issues/90",
-        "title": "Remove dead Simulation subsystem (13 files, 762 lines + full config/UI vertical slice)",
-        "updated_at": "2026-08-24T11:44:26Z",
+        "title": "Wire Simulation cluster into SeedingEngine so Simulation settings affect behavior",
+        "updated_at": "2026-08-24T12:23:29Z",
         "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/90"
       }
     ]
   },
   "https://api.github.com/repos/dmzoneill/Seedarr/pulls?state=open": {
-    "t": 1787573412.9590409,
-    "v": [
-      {
-        "html_url": "https://github.com/dmzoneill/Seedarr/pull/95",
-        "title": "Delete dead Simulation subsystem and its config surface (Closes #90)",
-        "updated_at": "2026-08-24T12:01:22Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/pulls/95"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/Seedarr/pull/94",
-        "title": "Guard distribution-manager caches; fix redistribution-mode mismatch (Closes #92)",
-        "updated_at": "2026-08-24T11:54:42Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/pulls/94"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/Seedarr/pull/93",
-        "title": "Remove fake uTP transport stack (Closes #91)",
-        "updated_at": "2026-08-24T11:54:50Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/pulls/93"
-      }
-    ]
+    "t": 1787616757.0536716,
+    "v": []
   },
   "https://api.github.com/repos/dmzoneill/ansible-feeditout-com/issues?state=open": {
-    "t": 1787552095.3812969,
+    "t": 1787616763.3666503,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/ansible-feeditout-com/issues/454",
         "title": "[ALERT] SystemdUnitFailed \u2014 ",
-        "updated_at": "2026-08-24T05:22:21Z",
+        "updated_at": "2026-08-24T23:31:23Z",
         "url": "https://api.github.com/repos/dmzoneill/ansible-feeditout-com/issues/454"
       },
       {
@@ -157,19 +129,19 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/ansible-feeditout-com/pulls?state=open": {
-    "t": 1787552096.125026,
+    "t": 1787616764.1027446,
     "v": []
   },
   "https://api.github.com/repos/dmzoneill/ashtangayogacork.ie-assets/languages": {
-    "t": 1787552098.2913625,
+    "t": 1787616766.3189714,
     "v": {}
   },
   "https://api.github.com/repos/dmzoneill/github-ai-contributor/languages": {
-    "t": 1787552090.5000741,
+    "t": 1787616758.5166454,
     "v": {}
   },
   "https://api.github.com/repos/dmzoneill/harpnet.ie/issues?state=open": {
-    "t": 1787552091.3924918,
+    "t": 1787616759.455452,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/harpnet.ie/issues/44",
@@ -354,19 +326,19 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/harpnet.ie/languages": {
-    "t": 1787552092.8547864,
+    "t": 1787616760.9380882,
     "v": {}
   },
   "https://api.github.com/repos/dmzoneill/harpnet.ie/pulls?state=open": {
-    "t": 1787552092.1146255,
+    "t": 1787616760.202342,
     "v": []
   },
   "https://api.github.com/repos/dmzoneill/hevyapp-api/languages": {
-    "t": 1787552096.8692853,
+    "t": 1787616764.844526,
     "v": {}
   },
   "https://api.github.com/repos/dmzoneill/lidarr-youtube-downloader/issues?state=open": {
-    "t": 1787552083.7997236,
+    "t": 1787616750.1674933,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/lidarr-youtube-downloader/issues/31",
@@ -413,15 +385,15 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/lidarr-youtube-downloader/pulls?state=open": {
-    "t": 1787552084.5608232,
+    "t": 1787616750.8601813,
     "v": []
   },
   "https://api.github.com/repos/dmzoneill/my-history/languages": {
-    "t": 1787552102.8029244,
+    "t": 1787616770.9667447,
     "v": {}
   },
   "https://api.github.com/repos/dmzoneill/pass-gnome-extension/issues?state=open": {
-    "t": 1787552093.6915991,
+    "t": 1787616761.7853568,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/pass-gnome-extension/issues/3",
@@ -432,15 +404,15 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/pass-gnome-extension/pulls?state=open": {
-    "t": 1787552094.4497762,
+    "t": 1787616762.538591,
     "v": []
   },
   "https://api.github.com/repos/dmzoneill/pass/languages": {
-    "t": 1787552099.0243993,
+    "t": 1787616767.0569777,
     "v": {}
   },
   "https://api.github.com/repos/dmzoneill/php-binance-bot/issues?state=open": {
-    "t": 1787552099.7948437,
+    "t": 1787616767.9205065,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/php-binance-bot/issues/1",
@@ -451,11 +423,11 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/php-binance-bot/pulls?state=open": {
-    "t": 1787552100.5155501,
+    "t": 1787616768.6542647,
     "v": []
   },
   "https://api.github.com/repos/dmzoneill/securetty/issues?state=open": {
-    "t": 1787552088.3787622,
+    "t": 1787616754.7488866,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/securetty/issues/175",
@@ -514,11 +486,11 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/securetty/pulls?state=open": {
-    "t": 1787552089.0794785,
+    "t": 1787616755.5711632,
     "v": []
   },
   "https://api.github.com/repos/dmzoneill/seedmagepp/issues?state=open": {
-    "t": 1787552101.3486717,
+    "t": 1787616769.4565935,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/seedmagepp/issues/1",
@@ -529,15 +501,15 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/seedmagepp/pulls?state=open": {
-    "t": 1787552102.0632935,
+    "t": 1787616770.204639,
     "v": []
   },
   "https://api.github.com/repos/dmzoneill/skills/languages": {
-    "t": 1787552089.78757,
+    "t": 1787616757.7847605,
     "v": {}
   },
   "https://api.github.com/repos/dmzoneill/tado-gnome-shell-extension/issues?state=open": {
-    "t": 1787552085.3537602,
+    "t": 1787616751.6788695,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/tado-gnome-shell-extension/issues/2",
@@ -548,11 +520,11 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/tado-gnome-shell-extension/pulls?state=open": {
-    "t": 1787552086.0704203,
+    "t": 1787616752.4151022,
     "v": []
   },
   "https://api.github.com/users/dmzoneill/gists": {
-    "t": 1787552104.412037,
+    "t": 1787616772.8690908,
     "v": [
       {
         "description": "modern-hints.sh \u2014 Non-obtrusive bash hints suggesting modern alternatives to legacy Linux commands. Writes to /dev/tty so it never interferes with pipes or redirects.",

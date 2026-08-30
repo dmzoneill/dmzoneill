@@ -856,6 +856,7 @@ jobs:
 
       - name: Install system dependencies
         if: inputs.dotnet == 'false'
+        continue-on-error: true
         run: |
           sudo apt-get update
           sudo apt-get install -y portaudio19-dev
@@ -863,8 +864,20 @@ jobs:
       - name: Install dependencies
         if: inputs.dotnet == 'false'
         run: |
-          pip install pipenv
-          pipenv install --dev
+          if [ -f Pipfile ]; then
+            pip install pipenv
+            if [[ "${{ inputs.test-ready }}" == "true" ]]; then
+              pipenv install --dev
+            else
+              pipenv install --dev || true
+            fi
+          elif [ -f requirements.txt ]; then
+            if [[ "${{ inputs.test-ready }}" == "true" ]]; then
+              pip install -r requirements.txt
+            else
+              pip install -r requirements.txt || true
+            fi
+          fi
 
       - name: Setup variables
         run: |
@@ -930,6 +943,7 @@ jobs:
 
       - name: Install system dependencies
         if: inputs.dotnet == 'false'
+        continue-on-error: true
         run: |
           sudo apt-get update
           sudo apt-get install -y portaudio19-dev
@@ -937,8 +951,20 @@ jobs:
       - name: Install dependencies
         if: inputs.dotnet == 'false'
         run: |
-          pip install pipenv
-          pipenv install --dev
+          if [ -f Pipfile ]; then
+            pip install pipenv
+            if [[ "${{ inputs.test-ready }}" == "true" ]]; then
+              pipenv install --dev
+            else
+              pipenv install --dev || true
+            fi
+          elif [ -f requirements.txt ]; then
+            if [[ "${{ inputs.test-ready }}" == "true" ]]; then
+              pip install -r requirements.txt
+            else
+              pip install -r requirements.txt || true
+            fi
+          fi
 
       - name: Run setup
         run: |
@@ -983,6 +1009,7 @@ jobs:
   bump-versions:
     if: |
       always() &&
+      github.event_name != 'pull_request' &&
       github.actor != 'dependabot[bot]' &&
       (
         needs.unit-test.result == 'success' &&
@@ -1136,6 +1163,7 @@ jobs:
         uses: actions/checkout@v7
         with:
           fetch-depth: 0
+          ref: ${{ github.ref_name }}
           
       - uses: dorny/paths-filter@v4
         id: changes
@@ -1187,6 +1215,7 @@ jobs:
         uses: actions/checkout@v7
         with:
           fetch-depth: 0
+          ref: ${{ github.ref_name }}
         
       - name: Build
         run: |-
@@ -1220,6 +1249,7 @@ jobs:
         uses: actions/checkout@v7
         with:
           fetch-depth: 0
+          ref: ${{ github.ref_name }}
 
       - name: Filter
         uses: dorny/paths-filter@v4
@@ -1266,6 +1296,7 @@ jobs:
         uses: actions/checkout@v7
         with:
           fetch-depth: 0
+          ref: ${{ github.ref_name }}
                       
       - name: Install publisher
         run: |-
@@ -1293,6 +1324,7 @@ jobs:
         uses: actions/checkout@v7
         with:
           fetch-depth: 0
+          ref: ${{ github.ref_name }}
   
       - name: Build Debian package
         run: make deb
@@ -1338,6 +1370,7 @@ jobs:
         uses: actions/checkout@v7
         with:
           fetch-depth: 0
+          ref: ${{ github.ref_name }}
 
       - name: Setup Env
         run: |
@@ -1387,6 +1420,7 @@ jobs:
         uses: actions/checkout@v7
         with:
           fetch-depth: 0
+          ref: ${{ github.ref_name }}
 
       - name: Use Node.js
         uses: actions/setup-node@v7
@@ -1422,6 +1456,7 @@ jobs:
         uses: actions/checkout@v7
         with:
           fetch-depth: 0
+          ref: ${{ github.ref_name }}
   
       - name: Setup target name:tag
         run: |
@@ -1488,6 +1523,7 @@ jobs:
         uses: actions/checkout@v7
         with:
           fetch-depth: 0
+          ref: ${{ github.ref_name }}
 
       - name: Discover flatpak manifest
         id: discover
@@ -1611,6 +1647,7 @@ jobs:
         uses: actions/checkout@v7
         with:
           fetch-depth: 0
+          ref: ${{ github.ref_name }}
 
       - name: Discover AppImage manifest
         id: discover
@@ -1686,6 +1723,7 @@ jobs:
         uses: actions/checkout@v7
         with:
           fetch-depth: 0
+          ref: ${{ github.ref_name }}
 
       - name: Discover snapcraft manifest
         run: |
@@ -1753,6 +1791,7 @@ jobs:
         uses: actions/checkout@v7
         with:
           fetch-depth: 0
+          ref: ${{ github.ref_name }}
 
       - name: Discover Nix file
         run: |
@@ -1828,6 +1867,7 @@ jobs:
         uses: actions/checkout@v7
         with:
           fetch-depth: 0
+          ref: ${{ github.ref_name }}
 
       - name: Discover PKGBUILD
         run: |
@@ -1874,6 +1914,7 @@ jobs:
         uses: actions/checkout@v7
         with:
           fetch-depth: 0
+          ref: ${{ github.ref_name }}
 
       - name: Set version
         run: echo "PACKAGE_VERSION=${{ needs.create-release.outputs.version }}" >> $GITHUB_ENV
@@ -1910,6 +1951,7 @@ jobs:
         uses: actions/checkout@v7
         with:
           fetch-depth: 0
+          ref: ${{ github.ref_name }}
 
       - name: Discover nuspec
         shell: pwsh
@@ -1970,6 +2012,7 @@ jobs:
         uses: actions/checkout@v7
         with:
           fetch-depth: 0
+          ref: ${{ github.ref_name }}
 
       - name: Set version
         run: echo "PACKAGE_VERSION=${{ needs.create-release.outputs.version }}" >> $GITHUB_ENV
@@ -2048,6 +2091,7 @@ jobs:
         uses: actions/checkout@v7
         with:
           fetch-depth: 0
+          ref: ${{ github.ref_name }}
 
       - name: Set version
         shell: pwsh

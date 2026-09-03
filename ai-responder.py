@@ -70,11 +70,69 @@ def get_oauth_bearer_token(credentials_path):
     token_json = resp.json()
 
     access_token = token_json.get("access_token")
-    quota_project = cred_data.get("quota_project_id") or os.getenv("GOOGLE_CLOUD_PROJECT")
+    quota_project = cred_data.get("quota_project_id") or os.getenv(
+        "GOOGLE_CLOUD_PROJECT"
+    )
     return access_token, quota_project
 
 
-def generate_ai_reply(prompt_text):
+def generate_opencode_reply(prompt_text, api_key):
+    requested_model = os.getenv("OPENCODE_MODEL", "big-pickle")
+    if requested_model.startswith("opencode/"):
+        requested_model = requested_model[len("opencode/") :]
+    elif requested_model.startswith("oc/"):
+        requested_model = requested_model[len("oc/") :]
+
+    candidate_models = [
+        requested_model,
+        "big-pickle",
+        "mimo-v2.5-free",
+    ]
+    models_to_try = list(dict.fromkeys(candidate_models))
+
+    url = "https://opencode.ai/zen/v1/chat/completions"
+    headers = {
+        "Authorization": f"Bearer {api_key}",
+        "Content-Type": "application/json",
+    }
+
+    last_error = None
+    for model in models_to_try:
+        payload = {
+            "model": model,
+            "messages": [{"role": "user", "content": prompt_text}],
+            "temperature": 0.4,
+            "max_tokens": 2048,
+        }
+
+        try:
+            response = requests.post(url, headers=headers, json=payload, timeout=60)
+            if response.status_code == 200:
+                data = response.json()
+                choices = data.get("choices", [])
+                if choices:
+                    msg = choices[0].get("message", {})
+                    content = msg.get("content")
+                    if not content and "reasoning_content" in msg:
+                        content = msg.get("reasoning_content")
+                    if content:
+                        return content.strip()
+            elif response.status_code in (404, 429):
+                last_error = (
+                    f"Model {model} returned {response.status_code}: {response.text}"
+                )
+                continue
+            else:
+                last_error = (
+                    f"OpenCode Zen API error ({response.status_code}): {response.text}"
+                )
+        except Exception as e:
+            last_error = str(e)
+
+    raise RuntimeError(f"OpenCode Zen generation failed: {last_error}")
+
+
+def generate_gemini_reply(prompt_text):
     cred_path = os.getenv("GOOGLE_APPLICATION_CREDENTIALS")
     api_key = os.getenv("GEMINI_API_KEY")
 
@@ -90,7 +148,7 @@ def generate_ai_reply(prompt_text):
         query_params = f"?key={api_key}"
     else:
         raise RuntimeError(
-            "Missing authentication: set GOOGLE_APPLICATION_CREDENTIALS (OAuth JSON) or GEMINI_API_KEY."
+            "Missing Gemini authentication: set GOOGLE_APPLICATION_CREDENTIALS or GEMINI_API_KEY."
         )
 
     candidate_models = [
@@ -124,11 +182,34 @@ def generate_ai_reply(prompt_text):
                 last_error = f"Model {model} returned 404: {response.text}"
                 continue
             else:
-                last_error = f"Gemini API error ({response.status_code}): {response.text}"
+                last_error = (
+                    f"Gemini API error ({response.status_code}): {response.text}"
+                )
         except Exception as e:
             last_error = str(e)
 
     raise RuntimeError(f"Gemini generation failed: {last_error}")
+
+
+def generate_ai_reply(prompt_text):
+    opencode_key = os.getenv("OPENCODE_API_KEY")
+    gemini_key = os.getenv("GEMINI_API_KEY")
+    cred_path = os.getenv("GOOGLE_APPLICATION_CREDENTIALS")
+
+    if opencode_key:
+        try:
+            return generate_opencode_reply(prompt_text, opencode_key)
+        except Exception as e:
+            print(f"OpenCode Zen generation failed: {e}", file=sys.stderr)
+            if not (gemini_key or (cred_path and os.path.exists(cred_path))):
+                raise
+
+    if (cred_path and os.path.exists(cred_path)) or gemini_key:
+        return generate_gemini_reply(prompt_text)
+
+    raise RuntimeError(
+        "Missing authentication: set OPENCODE_API_KEY, GEMINI_API_KEY, or GOOGLE_APPLICATION_CREDENTIALS."
+    )
 
 
 def post_comment(repo, number, comment, github_token, is_pr=False):
@@ -172,7 +253,9 @@ def handle_issue():
 
     bot_token = os.getenv("TELEGRAM_BOT_TOKEN")
     chat_id = os.getenv("TELEGRAM_ISSUES_CHAT_ID")
-    message = f"New issue on {repo}\n\nTitle: {title}\nBy: {author}\n\n{body}\n\n{issue_url}"
+    message = (
+        f"New issue on {repo}\n\nTitle: {title}\nBy: {author}\n\n{body}\n\n{issue_url}"
+    )
     send_telegram(bot_token, chat_id, message)
 
     repo_url = os.getenv("ISSUE_REPO_URL", "")

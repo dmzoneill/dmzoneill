@@ -22,3 +22,4 @@ opencode.json
 copilot-instructions.md
 .github/copilot-instructions.md
 .github/hooks/
+exported-credentials.txt

@@ -11,6 +11,11 @@ GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
 GITHUB_USER = "dmzoneill"
 REPO_LIST_URL = "https://api.github.com/user/repos?affiliation=owner&per_page=100"
 HASH_VAR_NAME = "SECRETS_HASH"
+SECRETS_TO_PURGE = {
+    "ANTHROPIC_VERTEX_PROJECT_ID",
+    "CLAUDE_CODE_USE_VERTEX",
+    "GOOGLE_APPLICATION_CREDENTIALS_JSON",
+}
 
 # Headers for GitHub API requests
 headers = {
@@ -164,7 +169,9 @@ def estimate_repo_cost(current_hashes, remote_hashes):
 
 def cleanup_deprecated_secrets(repo_name, existing_secrets, current_names):
     to_delete = [
-        s for s in existing_secrets if s not in current_names and s != HASH_VAR_NAME
+        s
+        for s in existing_secrets
+        if (s in SECRETS_TO_PURGE or (s not in current_names and s != HASH_VAR_NAME))
     ]
     if to_delete:
         print(
@@ -218,7 +225,9 @@ def get_secret_names():
             break
         data = response.json()
         names.extend(
-            s["name"] for s in data.get("secrets", []) if s["name"] != HASH_VAR_NAME
+            s["name"]
+            for s in data.get("secrets", [])
+            if s["name"] != HASH_VAR_NAME and s["name"] not in SECRETS_TO_PURGE
         )
         url = response.links.get("next", {}).get("url")
     return names

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
+import json
 import os
-import subprocess
 import sys
 
 import requests
@@ -45,20 +45,90 @@ def get_pr_diff(repo, pr_number, github_token):
     return diff
 
 
+def get_oauth_bearer_token(credentials_path):
+    with open(credentials_path, "r", encoding="utf-8") as f:
+        cred_data = json.load(f)
+
+    refresh_token = cred_data.get("refresh_token")
+    client_id = cred_data.get("client_id")
+    client_secret = cred_data.get("client_secret")
+
+    if not all([refresh_token, client_id, client_secret]):
+        raise ValueError(
+            "Invalid Google credentials file: missing client_id, client_secret, or refresh_token"
+        )
+
+    token_url = "https://oauth2.googleapis.com/token"
+    payload = {
+        "client_id": client_id,
+        "client_secret": client_secret,
+        "refresh_token": refresh_token,
+        "grant_type": "refresh_token",
+    }
+    resp = requests.post(token_url, data=payload, timeout=15)
+    resp.raise_for_status()
+    token_json = resp.json()
+
+    access_token = token_json.get("access_token")
+    quota_project = cred_data.get("quota_project_id") or os.getenv("GOOGLE_CLOUD_PROJECT")
+    return access_token, quota_project
+
+
 def generate_ai_reply(prompt_text):
-    result = subprocess.run(
-        ["claude", "--print"],
-        input=prompt_text,
-        capture_output=True,
-        text=True,
-        timeout=120,
-    )
+    cred_path = os.getenv("GOOGLE_APPLICATION_CREDENTIALS")
+    api_key = os.getenv("GEMINI_API_KEY")
 
-    if result.returncode != 0:
-        print(f"Claude CLI stderr: {result.stderr}", file=sys.stderr)
-        raise RuntimeError(f"Claude CLI failed with exit code {result.returncode}")
+    headers = {"Content-Type": "application/json"}
+    query_params = ""
 
-    return result.stdout.strip()
+    if cred_path and os.path.exists(cred_path):
+        access_token, quota_project = get_oauth_bearer_token(cred_path)
+        headers["Authorization"] = f"Bearer {access_token}"
+        if quota_project:
+            headers["x-goog-user-project"] = quota_project
+    elif api_key:
+        query_params = f"?key={api_key}"
+    else:
+        raise RuntimeError(
+            "Missing authentication: set GOOGLE_APPLICATION_CREDENTIALS (OAuth JSON) or GEMINI_API_KEY."
+        )
+
+    candidate_models = [
+        os.getenv("GEMINI_MODEL", "gemini-2.5-flash"),
+        "gemini-flash-latest",
+        "gemini-3.6-flash",
+    ]
+    models_to_try = list(dict.fromkeys(candidate_models))
+
+    payload = {
+        "contents": [{"parts": [{"text": prompt_text}]}],
+        "generationConfig": {
+            "temperature": 0.4,
+            "maxOutputTokens": 2048,
+        },
+    }
+
+    last_error = None
+    for model in models_to_try:
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent{query_params}"
+        try:
+            response = requests.post(url, headers=headers, json=payload, timeout=60)
+            if response.status_code == 200:
+                data = response.json()
+                candidates = data.get("candidates", [])
+                if candidates:
+                    parts = candidates[0].get("content", {}).get("parts", [])
+                    if parts and "text" in parts[0]:
+                        return parts[0]["text"].strip()
+            elif response.status_code == 404:
+                last_error = f"Model {model} returned 404: {response.text}"
+                continue
+            else:
+                last_error = f"Gemini API error ({response.status_code}): {response.text}"
+        except Exception as e:
+            last_error = str(e)
+
+    raise RuntimeError(f"Gemini generation failed: {last_error}")
 
 
 def post_comment(repo, number, comment, github_token, is_pr=False):

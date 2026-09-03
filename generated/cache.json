@@ -18,6 +18,21 @@
     "t": 1788395006.8002694,
     "v": []
   },
+  "https://api.github.com/repos/dmzoneill/Leecharr/issues?state=open": {
+    "t": 1788437667.1478484,
+    "v": [
+      {
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1",
+        "title": "Test Gemini AI Responder Integration",
+        "updated_at": "2026-09-03T10:57:14Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1"
+      }
+    ]
+  },
+  "https://api.github.com/repos/dmzoneill/Leecharr/pulls?state=open": {
+    "t": 1788437667.917478,
+    "v": []
+  },
   "https://api.github.com/repos/dmzoneill/Seedarr/issues?state=open": {
     "t": 1788395008.9958212,
     "v": [

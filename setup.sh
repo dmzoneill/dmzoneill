@@ -96,11 +96,7 @@ process_repo() {
 
   local skip_main="false"
   local skip_ai="false"
-  if [[ "$main_status" == "present" && -n "$local_main_md5" && "$main_md5" == "$local_main_md5" ]]; then
-    skip_main="true"
-  elif [[ "$main_status" == "present" && -z "$local_main_md5" ]]; then
-    skip_main="true"
-  fi
+  [[ "$main_status" == "present" ]] && skip_main="true"
 
   if [[ "$ai_status" == "present" && -n "$local_ai_md5" && "$ai_md5" == "$local_ai_md5" ]]; then
     skip_ai="true"

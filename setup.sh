@@ -96,8 +96,18 @@ process_repo() {
 
   local skip_main="false"
   local skip_ai="false"
-  [[ "$main_status" == "present" ]] && skip_main="true"
-  [[ "$ai_status" == "present" ]] && skip_ai="true"
+  if [[ "$main_status" == "present" && -n "$local_main_md5" && "$main_md5" == "$local_main_md5" ]]; then
+    skip_main="true"
+  elif [[ "$main_status" == "present" && -z "$local_main_md5" ]]; then
+    skip_main="true"
+  fi
+
+  if [[ "$ai_status" == "present" && -n "$local_ai_md5" && "$ai_md5" == "$local_ai_md5" ]]; then
+    skip_ai="true"
+  elif [[ "$ai_status" == "present" && -z "$local_ai_md5" ]]; then
+    skip_ai="true"
+  fi
+
   if [[ "$skip_main" == "true" && "$skip_ai" == "true" ]]; then
     echo "Skip: both files already match in $repo_full"
     return

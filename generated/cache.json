@@ -19,18 +19,54 @@
     "v": []
   },
   "https://api.github.com/repos/dmzoneill/Leecharr/issues?state=open": {
-    "t": 1788437667.1478484,
+    "t": 1788481264.67083,
     "v": [
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1",
-        "title": "Test Gemini AI Responder Integration",
-        "updated_at": "2026-09-03T10:57:14Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/62",
+        "title": "Frontend: ConnectionsTab Arr sync displays undefined counts due to SyncResultResource DTO mismatch",
+        "updated_at": "2026-09-03T20:46:55Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/62"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/61",
+        "title": "Frontend: Unhandled promise rejection in LogTab clipboard copy and missing dismiss handlers in table column customizer",
+        "updated_at": "2026-09-03T20:46:48Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/61"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/60",
+        "title": "Indexers: ProwlarrSyncService and TorznabClient lack capabilities (t=caps) XML parsing and category synchronization",
+        "updated_at": "2026-09-03T20:46:40Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/60"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/56",
+        "title": "Bug: QBittorrentSearchService activeJobs dictionary leaks memory and CancellationTokenSource handles indefinitely without TTL or eviction",
+        "updated_at": "2026-09-03T20:37:55Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/56"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/51",
+        "title": "Security: Incomplete SSRF and unbounded memory remediation across remaining RPC controllers and REST endpoints",
+        "updated_at": "2026-09-03T20:23:08Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/51"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/25",
+        "title": "Frontend: Deconstruct monolithic components and synchronize DTO schemas",
+        "updated_at": "2026-09-03T16:20:36Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/25"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/24",
+        "title": "Frontend: Unify state management with Zustand, add table virtualization, and eliminate $O(N x H)$ cell scans",
+        "updated_at": "2026-09-03T16:19:46Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/24"
       }
     ]
   },
   "https://api.github.com/repos/dmzoneill/Leecharr/pulls?state=open": {
-    "t": 1788437667.917478,
+    "t": 1788481265.3380232,
     "v": []
   },
   "https://api.github.com/repos/dmzoneill/Seedarr/issues?state=open": {

@@ -19,54 +19,66 @@
     "v": []
   },
   "https://api.github.com/repos/dmzoneill/Leecharr/issues?state=open": {
-    "t": 1788481264.67083,
+    "t": 1788545474.9914289,
     "v": [
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/62",
-        "title": "Frontend: ConnectionsTab Arr sync displays undefined counts due to SyncResultResource DTO mismatch",
-        "updated_at": "2026-09-03T20:46:55Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/62"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/111",
+        "title": "Frontend: DownloadHistory and DetailsTab crash with TypeError: genres.slice(...).map is not a function",
+        "updated_at": "2026-09-04T18:02:59Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/111"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/61",
-        "title": "Frontend: Unhandled promise rejection in LogTab clipboard copy and missing dismiss handlers in table column customizer",
-        "updated_at": "2026-09-03T20:46:48Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/61"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/110",
+        "title": "Frontend / API: AddTorrentForm lacks savePath override, drops savePath on upload, hides category in search, and crashes magnet preview on URI encoded characters",
+        "updated_at": "2026-09-04T17:59:02Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/110"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/60",
-        "title": "Indexers: ProwlarrSyncService and TorznabClient lack capabilities (t=caps) XML parsing and category synchronization",
-        "updated_at": "2026-09-03T20:46:40Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/60"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/109",
+        "title": "Frontend: TorrentDetailPanel action buttons lack loading states, error handling, and mislabel stopped torrents as unstartable",
+        "updated_at": "2026-09-04T17:58:56Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/109"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/56",
-        "title": "Bug: QBittorrentSearchService activeJobs dictionary leaks memory and CancellationTokenSource handles indefinitely without TTL or eviction",
-        "updated_at": "2026-09-03T20:37:55Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/56"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/108",
+        "title": "Frontend: Web UI themeStyle and colorScheme reset to default on page refresh due to ThemeContext desynchronization",
+        "updated_at": "2026-09-04T17:58:46Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/108"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/51",
-        "title": "Security: Incomplete SSRF and unbounded memory remediation across remaining RPC controllers and REST endpoints",
-        "updated_at": "2026-09-03T20:23:08Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/51"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/107",
+        "title": "Frontend: \"Start All\" and \"Stop All\" trigger N+1 request storm, toast notification flood, and parallel cache invalidation",
+        "updated_at": "2026-09-04T17:58:38Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/107"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/25",
-        "title": "Frontend: Deconstruct monolithic components and synchronize DTO schemas",
-        "updated_at": "2026-09-03T16:20:36Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/25"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/106",
+        "title": "BitTorrent / Core: Toggling Sequential Download on active torrents updates database but never notifies BitTorrent engine",
+        "updated_at": "2026-09-04T17:50:31Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/106"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/24",
-        "title": "Frontend: Unify state management with Zustand, add table virtualization, and eliminate $O(N x H)$ cell scans",
-        "updated_at": "2026-09-03T16:19:46Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/24"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/105",
+        "title": "Frontend / Swarm: PeersTab omits countryCode and countryName causing all peer geolocation flags to fail to generic globe with unstable DOM keys",
+        "updated_at": "2026-09-04T17:50:24Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/105"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/104",
+        "title": "Notifications: Custom webhook headers discarded and transient timeouts bypassed in Polly retry policy",
+        "updated_at": "2026-09-04T17:50:00Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/104"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/103",
+        "title": "Backup / Storage: SQLite WAL mode backup snapshot omission and restore corruption causes malformed database image",
+        "updated_at": "2026-09-04T16:57:22Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/103"
       }
     ]
   },
   "https://api.github.com/repos/dmzoneill/Leecharr/pulls?state=open": {
-    "t": 1788481265.3380232,
+    "t": 1788545475.6442895,
     "v": []
   },
   "https://api.github.com/repos/dmzoneill/Seedarr/issues?state=open": {

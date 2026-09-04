@@ -456,6 +456,7 @@ jobs:
       - name: Configure linters
         run : |-
           echo "disable=SC2086" > ~/.shellcheckrc
+          echo "[codespell]\ncheck-hidden = \nskip = */package-lock.json,*/go.mod,*/go.sum,*.log,.git"  > ~/.codespellrc
           mkdir -vp .github/linters/config/
           curl -o .github/linters/config/rubocop.yml https://raw.githubusercontent.com/dmzoneill/dmzoneill/main/.github/linters/config/rubocop.yml
           curl -o .github/linters/.jscpd.json https://raw.githubusercontent.com/dmzoneill/dmzoneill/main/.github/linters/.jscpd.json

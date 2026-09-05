@@ -19,66 +19,192 @@
     "v": []
   },
   "https://api.github.com/repos/dmzoneill/Leecharr/issues?state=open": {
-    "t": 1788545474.9914289,
+    "t": 1788588805.0304477,
     "v": [
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/111",
-        "title": "Frontend: DownloadHistory and DetailsTab crash with TypeError: genres.slice(...).map is not a function",
-        "updated_at": "2026-09-04T18:02:59Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/111"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/250",
+        "title": "Embedded Tracker: Unrestricted full /scrape leaks private swarms, unvalidated 40-char hex in /announce, and proxy IP poisoning",
+        "updated_at": "2026-09-05T03:57:59Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/250"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/110",
-        "title": "Frontend / API: AddTorrentForm lacks savePath override, drops savePath on upload, hides category in search, and crashes magnet preview on URI encoded characters",
-        "updated_at": "2026-09-04T17:59:02Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/110"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/249",
+        "title": "RPC Compatibility / Deluge: Missing core.get_config_values, rejection of JSON-RPC batch arrays, and default returning result: true breaks Sonarr/Radarr and Web clients",
+        "updated_at": "2026-09-05T03:57:51Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/249"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/109",
-        "title": "Frontend: TorrentDetailPanel action buttons lack loading states, error handling, and mislabel stopped torrents as unstartable",
-        "updated_at": "2026-09-04T17:58:56Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/109"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/248",
+        "title": "Network / Blocklist: Subsystem has no rule ingestion pipeline or storage; rules are perpetually empty (0 rules) and telemetry reports false 'rulesActive: true'",
+        "updated_at": "2026-09-05T03:57:24Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/248"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/108",
-        "title": "Frontend: Web UI themeStyle and colorScheme reset to default on page refresh due to ThemeContext desynchronization",
-        "updated_at": "2026-09-04T17:58:46Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/108"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/247",
+        "title": "Seeding Goals / Super Seeding: AppLifetime infinite 10s notification storm on SuperSeeding share action and missing SetSuperSeedingAsync in TorrentController",
+        "updated_at": "2026-09-05T03:54:04Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/247"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/107",
-        "title": "Frontend: \"Start All\" and \"Stop All\" trigger N+1 request storm, toast notification flood, and parallel cache invalidation",
-        "updated_at": "2026-09-04T17:58:38Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/107"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/246",
+        "title": "Settings / Notifications: Transmission script hooks (script-torrent-done, added, seeding) are dead code, CustomScript lacks Transmission TR_* env vars, and unobserved Task.Run drops script exceptions",
+        "updated_at": "2026-09-05T03:50:13Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/246"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/106",
-        "title": "BitTorrent / Core: Toggling Sequential Download on active torrents updates database but never notifies BitTorrent engine",
-        "updated_at": "2026-09-04T17:50:31Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/106"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/245",
+        "title": "BitTorrent Core / Magnet: MagnetLinkParser case-sensitivity violates BEP 9, hybrid v2 overwrites v1 breaking MonoTorrent event dispatch, and unvalidated Base32/hex corrupts InfoHash",
+        "updated_at": "2026-09-05T03:46:31Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/245"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/105",
-        "title": "Frontend / Swarm: PeersTab omits countryCode and countryName causing all peer geolocation flags to fail to generic globe with unstable DOM keys",
-        "updated_at": "2026-09-04T17:50:24Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/105"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/244",
+        "title": "Indexers: IndexerController.TestDirectInternal returns false-positive success on dead indexers and invalid credentials because TorznabClient.SearchAsync swallows exceptions",
+        "updated_at": "2026-09-05T03:47:15Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/244"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/104",
-        "title": "Notifications: Custom webhook headers discarded and transient timeouts bypassed in Polly retry policy",
-        "updated_at": "2026-09-04T17:50:00Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/104"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/243",
+        "title": "Frontend / TrackerBoost: Bulk import ignores backend bulk API, issuing hundreds of sequential single-item POSTs and cascading query invalidations",
+        "updated_at": "2026-09-05T03:44:44Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/243"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/103",
-        "title": "Backup / Storage: SQLite WAL mode backup snapshot omission and restore corruption causes malformed database image",
-        "updated_at": "2026-09-04T16:57:22Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/103"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/242",
+        "title": "Media Enrichment: CleanTitle and ExtractYear truncate titles with year numbers (2001, 1917, 2049) and extract title digits as release year",
+        "updated_at": "2026-09-05T03:44:01Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/242"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/241",
+        "title": "Subsystems / HTTP Transport: DynamicHttpTransportProxy is disconnected from all HTTP clients, rendering FlareSolverr and curl-impersonate switches inert",
+        "updated_at": "2026-09-05T03:37:48Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/241"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/240",
+        "title": "Frontend / API: useUpdateTag mutation uses parameterless PUT route, causing HTTP 405 Method Not Allowed",
+        "updated_at": "2026-09-05T03:30:55Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/240"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/239",
+        "title": "RPC Compatibility / Transmission: torrent-get breaks on 'recently-active' polling, omits removed torrents, and session-set misbinds alt-speed-enabled",
+        "updated_at": "2026-09-05T03:29:57Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/239"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/238",
+        "title": "AI Engines: CloudGemini, Ollama, and Onnx providers advertise unsupported capabilities and silently delegate core NLP/malware analysis to regex heuristics",
+        "updated_at": "2026-09-05T03:25:23Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/238"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/237",
+        "title": "Backup / Datastore: BackupController hardcodes SQLite file paths, silently omitting entire PostgreSQL database and causing unrecoverable data loss",
+        "updated_at": "2026-09-05T03:25:25Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/237"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/236",
+        "title": "Authentication: DynamicAuthSchemeManager omits session claims and UserSession for OIDC logins, causing immediate sign-out by CookieSessionManager",
+        "updated_at": "2026-09-05T03:23:39Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/236"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/235",
+        "title": "Storage / Telemetry: DiskSpaceService passes arbitrary subdirectories to DriveInfo on Linux throwing ArgumentException and dropping Downloads/AppData storage entries",
+        "updated_at": "2026-09-05T03:21:21Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/235"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/234",
+        "title": "RPC Compatibility / Aria2: Aria2RpcController omits Base64 query parameter decoding for HTTP-GET requests, breaking GET RPC methods, authentication, and IDs",
+        "updated_at": "2026-09-05T03:18:30Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/234"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/233",
+        "title": "Datastore: EmbeddedDocumentConverter stores \"null\" string and returns null on empty/null DB values, clobbering model default collections",
+        "updated_at": "2026-09-05T03:15:00Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/233"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/232",
+        "title": "Telemetry / Peers: PeerConnectionLogController ignores start/end time range filters, fabricates timestamps on the fly, and stubs Purge with no-op",
+        "updated_at": "2026-09-05T03:14:39Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/232"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/231",
+        "title": "Network / Binding: DynamicNetworkBindingProxy is disconnected from MonoTorrentDownloadEngine, leaving Subsystem provider switching inert and leaking unproxied swarm traffic",
+        "updated_at": "2026-09-05T03:15:01Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/231"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/230",
+        "title": "Frontend & Host: Setting UrlBase breaks asset loading, client API requests, SignalR, WebSockets, and routing",
+        "updated_at": "2026-09-05T03:14:08Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/230"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/229",
+        "title": "Network / GeoIP: OnlineApiGeoIpProvider leaks peer IPs via plaintext HTTP, serializes swarms through global lock, and thrashes rate limits on IPv4-mapped IPv6",
+        "updated_at": "2026-09-05T03:12:56Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/229"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/228",
+        "title": "Torrent Creation: TorrentCreationService snapshots allowedDirectories at singleton startup, breaking dynamic category paths and updated download roots",
+        "updated_at": "2026-09-05T03:11:19Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/228"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/227",
+        "title": "Network / GeoIP: IP2LocationGeoIpProvider ignores IPv4-mapped IPv6 peers and lacks IPv6 binary search, failing geolocation for all IPv6 swarms",
+        "updated_at": "2026-09-05T03:11:46Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/227"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/226",
+        "title": "Indexers / RSS: Missing RssRule API and UI renders RSS sync inoperative, and rule.IndexerIds throws NullReferenceException",
+        "updated_at": "2026-09-05T03:10:04Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/226"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/225",
+        "title": "Indexers: IndexerController.DownloadRelease throws unhandled 500 on download failure and ignores InfoHash fallback",
+        "updated_at": "2026-09-05T03:09:10Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/225"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/224",
+        "title": "BitTorrent / Core: EmbeddedTransmissionEngine and LibTorrentDownloadEngine are non-functional stubs that report IsHealthy=true and freeze all downloads on hot-swap",
+        "updated_at": "2026-09-05T03:08:32Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/224"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/223",
+        "title": "Frontend: Unchecked .toLowerCase() and .slice() on null/undefined properties crash TrackerBoost Harvester, Matrix, and Radar views",
+        "updated_at": "2026-09-05T03:06:36Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/223"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/222",
+        "title": "RPC Compatibility / Aria2: aria2.getfiles hardcodes selected to true, omits uris array, uses relative paths, and is missing from XML-RPC",
+        "updated_at": "2026-09-05T03:04:20Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/222"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/221",
+        "title": "RPC Compatibility: Deluge, NZBGet, and SABnzbd adapters evaluate DriveInfo on Path.GetPathRoot, misreporting rootfs instead of mounted download storage on Linux",
+        "updated_at": "2026-09-05T03:03:53Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/221"
       }
     ]
   },
   "https://api.github.com/repos/dmzoneill/Leecharr/pulls?state=open": {
-    "t": 1788545475.6442895,
+    "t": 1788588805.8268743,
     "v": []
   },
   "https://api.github.com/repos/dmzoneill/Seedarr/issues?state=open": {

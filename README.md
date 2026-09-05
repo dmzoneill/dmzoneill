@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-05/09/2026 12:11:55-brightgreen" height='28'/> &nbsp;&nbsp; <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=dmzoneill&color=brightgreen&style=for-the-badge" height='28'/> &nbsp;&nbsp; <img alt="Redhat" width='30' height='25' src="https://github.com/dmzoneill/dmzoneill/blob/main/images/redhat.svg?raw=true" />
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-05/09/2026 18:10:32-brightgreen" height='28'/> &nbsp;&nbsp; <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=dmzoneill&color=brightgreen&style=for-the-badge" height='28'/> &nbsp;&nbsp; <img alt="Redhat" width='30' height='25' src="https://github.com/dmzoneill/dmzoneill/blob/main/images/redhat.svg?raw=true" />
 
 <img src="generated/timeline.svg" width="760" alt="timeline"/>
 
@@ -40,7 +40,7 @@
 </details>
 <details>
 <summary><strong>Recent Activity (100)</strong></summary>
-<ul><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/454'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/454'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/Leecharr/issues/16'>Core Engine: Torrents remain stuck in 'Downloading' state on completion due to unhandled TorrentDownloadCompletedEvent</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/454'>[ALERT] SystemdUnitFailed — </a></li></ul>
+<ul><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/454'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/454'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/454'>[ALERT] SystemdUnitFailed — </a></li></ul>
 </details>
 <details>
 <summary><strong>Gists (24)</strong></summary>
@@ -62,17 +62,17 @@
     </tr>
   </thead>
   <tbody>
-    <tr><td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>14482928</td>
-<td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>2692193</td>
-<td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>473109</td>
-<td><img src='https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white' title='C#'  height='20px'/></td><td>8817387</td>
-</tr><tr>
-<td><img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript'  height='20px'/></td><td>4497610</td>
+    <tr><td><img src='https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white' title='C#'  height='20px'/></td><td>8966344</td>
+<td><img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript'  height='20px'/></td><td>4501468</td>
 <td><img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS'  height='20px'/></td><td>11640521</td>
-<td><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript'  height='20px'/></td><td>19227288</td>
-<td><img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile'  height='20px'/></td><td>17387</td>
+<td><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript'  height='20px'/></td><td>19227291</td>
 </tr><tr>
+<td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>2692193</td>
+<td><img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile'  height='20px'/></td><td>17387</td>
+<td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>473109</td>
 <td><img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML'  height='20px'/></td><td>13530462</td>
+</tr><tr>
+<td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>14482928</td>
 <td><img src='https://img.shields.io/badge/_-Jinja -11DDDD.svg?style=for-the-badge' title='Jinja'  height='20px'/></td><td>449264</td>
 <td><img src='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' title='Go'  height='20px'/></td><td>1627084</td>
 <td><img src='https://img.shields.io/badge/_-Hack -11DDDD.svg?style=for-the-badge' title='Hack'  height='20px'/></td><td>242245</td>
@@ -373,7 +373,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/Leecharr' title='Leecharr'>Leecharr</a> (2026)</h2></p><p><img src='https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white' title='C#' height='20px'/> <img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/Leecharr/issues/16'>Core Engine: Torrents remain stuck in 'Downloading' state on completion due to unhandled TorrentDownloadCompletedEvent</a></li></ul></p>
+              <p><ul></ul></p>
               <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/Leecharr/issues/250'>Embedded Tracker: Unrestricted full /scrape leaks private swarms, unvalidated 40-char hex in /announce, and proxy IP poisoning</a> 2026-09-05</li><li><a href='https://github.com/dmzoneill/Leecharr/issues/249'>RPC Compatibility / Deluge: Missing core.get_config_values, rejection of JSON-RPC batch arrays, and default returning result: true breaks Sonarr/Radarr and Web clients</a> 2026-09-05</li><li><a href='https://github.com/dmzoneill/Leecharr/issues/248'>Network / Blocklist: Subsystem has no rule ingestion pipeline or storage; rules are perpetually empty (0 rules) and telemetry reports false 'rulesActive: true'</a> 2026-09-05</li><li><a href='https://github.com/dmzoneill/Leecharr/issues/247'>Seeding Goals / Super Seeding: AppLifetime infinite 10s notification storm on SuperSeeding share action and missing SetSuperSeedingAsync in TorrentController</a> 2026-09-05</li><li><a href='https://github.com/dmzoneill/Leecharr/issues/246'>Settings / Notifications: Transmission script hooks (script-torrent-done, added, seeding) are dead code, CustomScript lacks Transmission TR_* env vars, and unobserved Task.Run drops script exceptions</a> 2026-09-05</li></ul></p>
               <p><ul></ul></p>
             </td>

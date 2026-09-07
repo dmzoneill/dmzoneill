@@ -1,10 +1,10 @@
 {
   "https://api.github.com/repos/dmzoneill/Bootstack-Highlight-Monitor/languages": {
-    "t": 1788718213.2659976,
+    "t": 1788761939.595666,
     "v": {}
   },
   "https://api.github.com/repos/dmzoneill/DFakeSeeder/issues?state=open": {
-    "t": 1788718199.2496994,
+    "t": 1788761924.9640877,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/DFakeSeeder/issues/15",
@@ -15,122 +15,182 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/DFakeSeeder/pulls?state=open": {
-    "t": 1788718199.9386883,
+    "t": 1788761925.6683795,
     "v": []
   },
   "https://api.github.com/repos/dmzoneill/Leecharr/issues?state=open": {
-    "t": 1788718202.1722062,
+    "t": 1788761928.0566847,
     "v": [
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/328",
-        "title": "[Bug] Torrent.SeedTimeMinutes computes wall-clock time from DateCompleted instead of cumulative active seeding time",
-        "updated_at": "2026-09-06T18:09:19Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/328"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/411",
+        "title": "Datastore / Migrations: UserSessions and UserExternalLogins omit foreign key constraints to Users table causing orphaned sessions and revoked user auth bypass",
+        "updated_at": "2026-09-06T21:39:34Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/411"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/327",
-        "title": "Indexers / Torznab: TorznabClient fails to parse RFC 822/2822 pubDate offsets and creates duplicate query parameters on existing URLs",
-        "updated_at": "2026-09-06T18:09:37Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/327"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/410",
+        "title": "System Tasks / Command Pipeline: SystemTaskController triggers non-existent command classes causing all manual UI/API task dispatches to fail with Unknown command",
+        "updated_at": "2026-09-06T21:39:50Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/410"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/326",
-        "title": "RPC Compatibility / Transmission: Missing speed-limit-down-enabled and seedRatioLimit in session-set, and missing rate limit fields in torrent-get/torrent-set",
-        "updated_at": "2026-09-06T18:07:56Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/326"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/409",
+        "title": "Command Queue / Worker: Stalled in-flight commands remain permanently stuck in Running status across application restarts",
+        "updated_at": "2026-09-06T21:39:20Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/409"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/325",
-        "title": "RPC Compatibility / Deluge: Missing web.get_filter_tree method and incomplete filter categories (missing tracker_host, Error, Checking, Queued)",
-        "updated_at": "2026-09-06T18:07:53Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/325"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/408",
+        "title": "[Security / PTY] PtyTerminalService.CreateSession skips terminal permission check when configFileProvider is null",
+        "updated_at": "2026-09-06T21:38:06Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/408"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/324",
-        "title": "Indexers / RSS: RssSyncService ignores configured RssRule.CategoryId and grabs all torrents with null category",
-        "updated_at": "2026-09-06T18:06:09Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/324"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/407",
+        "title": "[Security / PTY] PtyProcessSession creates world-writable control FIFO with 0666 permissions in /tmp",
+        "updated_at": "2026-09-06T21:38:02Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/407"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/323",
-        "title": "[Bug] P2PDatBlocklistProvider.MergeRanges integer overflow on 255.255.255.255 creates overlapping ranges and breaks binary search",
-        "updated_at": "2026-09-06T18:05:55Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/323"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/406",
+        "title": "[Security / Auth] AppleClientSecretGenerator leaks unmanaged cryptographic handles by omitting ECDsa disposal",
+        "updated_at": "2026-09-06T21:38:09Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/406"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/322",
-        "title": "Media Inspection: Pure C# EBML Matroska parser treats Colour (0x55B0) as leaf element, skipping HDR10/HLG/MasteringMetadata detection",
-        "updated_at": "2026-09-06T18:06:18Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/322"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/405",
+        "title": "[Security / SSL] CertificateManager omits DNS hostnames in SAN generation and ValidateCertificateAsync ignores bindAddress",
+        "updated_at": "2026-09-06T21:38:24Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/405"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/321",
-        "title": "[Security] MonoTorrent BoundSocketConnector bypasses interface binding and leaks traffic to physical adapter on IPv6 or VPN drop",
-        "updated_at": "2026-09-06T18:05:06Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/321"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/404",
+        "title": "[Telemetry] SystemResourceService.GetHostMetrics freezes CPU usage calculation upon backward wall-clock adjustments",
+        "updated_at": "2026-09-06T21:37:30Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/404"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/303",
-        "title": "[Bug] CategoryService.Delete() doesn't migrate torrents to default category \u2014 dangling references break seed limits and save paths",
-        "updated_at": "2026-09-06T18:08:40Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/303"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/403",
+        "title": "[GeoIP] DynamicGeoIpProxy lacks fallback cascading to OnlineApiGeoIpProvider when local MMDB database is missing or unpopulated",
+        "updated_at": "2026-09-06T21:37:25Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/403"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/296",
-        "title": "[Bug] PeerConnectionHistoryService.Purge() silently drops events enqueued during concurrent RecordEvent calls",
-        "updated_at": "2026-09-06T18:07:16Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/296"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/402",
+        "title": "[PowerManagement] PowerManagementService.ExecutePowerActionAsync invokes Environment.Exit(0) directly bypassing graceful hosted lifecycle shutdown",
+        "updated_at": "2026-09-06T21:37:50Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/402"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/169",
-        "title": "Security / RPC: SynologyDownloadStationController and NzbVortexApiController use hardcoded static session tokens allowing universal authentication bypass",
-        "updated_at": "2026-09-06T18:06:50Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/169"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/401",
+        "title": "[NAT-PMP / PortMapping] NAT-PMP error responses (RFC 6886) ignored and misreported due to hardcoded minimum response buffer lengths",
+        "updated_at": "2026-09-06T21:37:34Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/401"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/141",
-        "title": "Bandwidth: SpeedSchedulerService compares raw time strings with seconds causing premature deactivation, lexicographical ordering bugs, and failure on equal start/end times",
-        "updated_at": "2026-09-06T18:07:54Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/141"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/400",
+        "title": "[Frontend / UI] CountryFlag.isPrivateIp fails to detect bracketed IPv6 ports, localhost with port, and IPv4-mapped private IPs",
+        "updated_at": "2026-09-06T21:12:13Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/400"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/125",
-        "title": "Core Engine: TorrentService.SyncWithEngine clobbers lifetime Downloaded, Uploaded, and Ratio stats with session-only socket counters",
-        "updated_at": "2026-09-06T18:08:45Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/125"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/399",
+        "title": "Storage / BitTorrent: PreallocateFiles ignores AppendIncompleteExtension (UsePartialFiles), causing double disk space allocation and preallocation bypass",
+        "updated_at": "2026-09-06T21:10:55Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/399"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/117",
-        "title": "Security: MediaEnrichmentService exfiltrates Servarr API key to untrusted external hosts via GetServarrApiKey fallback",
-        "updated_at": "2026-09-06T18:04:03Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/117"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/398",
+        "title": "RPC Compatibility / SABnzbd: Hardcoded status/paused fields and missing kbpersec/bytespersec in mode=queue",
+        "updated_at": "2026-09-06T21:10:54Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/398"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/115",
-        "title": "RPC Compatibility: Torrent rate limits set via Transmission, Deluge, or qBittorrent are never applied to download engine and Deluge multiplies KiB/s by 1024",
-        "updated_at": "2026-09-06T18:04:43Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/115"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/397",
+        "title": "RPC Compatibility / NZBGet: Missing listfiles method handler in JSON-RPC dispatch",
+        "updated_at": "2026-09-06T21:10:40Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/397"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/114",
-        "title": "Media Inspection: TagLibInspectorProvider.ApplyFilenameHints clobbers verified stream dimensions, codecs, and HDR metadata",
-        "updated_at": "2026-09-06T18:05:31Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/114"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/396",
+        "title": "Security / Network Binding: MonoTorrent BoundSocketConnector passes empty BindInterface instead of NetworkInterfaceBinding, bypassing SO_BINDTODEVICE",
+        "updated_at": "2026-09-06T21:10:23Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/396"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/50",
-        "title": "Security: Server-Side Request Forgery (SSRF) and data exfiltration via MediaEnrichmentService artwork caching",
-        "updated_at": "2026-09-06T18:04:17Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/50"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/395",
+        "title": "[Frontend / API Client] renameTorrentFile and renameTorrentFolder bypass getUrlBase() causing 404 behind reverse proxy",
+        "updated_at": "2026-09-06T21:10:22Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/395"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/394",
+        "title": "RPC Compatibility / rTorrent: Missing d.tracker_announce and bandwidth throttle setter methods in RTorrentController",
+        "updated_at": "2026-09-06T21:10:21Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/394"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/393",
+        "title": "[Indexers / Torznab] TorznabClient omits tmdbId from movie search mode evaluation (defaults to 'search')",
+        "updated_at": "2026-09-06T21:09:40Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/393"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/392",
+        "title": "RPC Compatibility / Flood: File priority impedance mismatch in GetContents/SetContentsPriority and missing set-location/reannounce endpoints",
+        "updated_at": "2026-09-06T21:09:18Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/392"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/391",
+        "title": "RPC Compatibility / qBittorrent: Missing torrents/reannounce, toggleSequentialDownload, toggleFirstLastPiecePrio, and rename endpoints in QBittorrentApiController",
+        "updated_at": "2026-09-06T21:08:46Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/391"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/390",
+        "title": "RPC Compatibility / qBittorrent: sync/maindata omits tags, tags_removed, categories_removed, and trackers in full and delta responses",
+        "updated_at": "2026-09-06T21:02:10Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/390"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/389",
+        "title": "RPC Compatibility / Flood: Missing /api/activity-stream SSE endpoint, missing /api/torrents/{hash}/peers, and hardcoded isPrivate/isInitialSeeding in FloodApiController",
+        "updated_at": "2026-09-06T21:02:38Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/389"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/388",
+        "title": "Security / VPN Kill Switch: ManagedSocketBindingProvider binds to down interfaces and picks link-local IPv6 addresses",
+        "updated_at": "2026-09-06T21:02:33Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/388"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/387",
+        "title": "Network / Proxy: HTTP CONNECT tunnel fails with IPv6 target addresses due to unbracketed IPv6 authority format",
+        "updated_at": "2026-09-06T21:01:58Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/387"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/386",
+        "title": "Frontend / NotificationsTab: Undefined translation variable 't' in getNotificationSummary causes ReferenceError crash and @ts-ignore breaks ESLint",
+        "updated_at": "2026-09-06T21:01:26Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/386"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/385",
+        "title": "Notifications: Gotify outbound notifications fail due to omitted authentication token and missing /message endpoint resolution",
+        "updated_at": "2026-09-06T21:01:40Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/385"
       }
     ]
   },
   "https://api.github.com/repos/dmzoneill/Leecharr/pulls?state=open": {
-    "t": 1788718202.8731456,
+    "t": 1788761928.8047764,
     "v": []
   },
   "https://api.github.com/repos/dmzoneill/Seedarr/issues?state=open": {
-    "t": 1788718203.731076,
+    "t": 1788761929.7662988,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/Seedarr/pull/102",
@@ -196,7 +256,7 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/Seedarr/pulls?state=open": {
-    "t": 1788718204.5146017,
+    "t": 1788761930.5942676,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/Seedarr/pull/102",
@@ -207,7 +267,7 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/ansible-feeditout-com/issues?state=open": {
-    "t": 1788718208.9483979,
+    "t": 1788761935.1471384,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/ansible-feeditout-com/issues/455",
@@ -218,7 +278,7 @@
       {
         "html_url": "https://github.com/dmzoneill/ansible-feeditout-com/issues/454",
         "title": "[ALERT] SystemdUnitFailed \u2014 ",
-        "updated_at": "2026-09-06T17:19:48Z",
+        "updated_at": "2026-09-07T06:17:19Z",
         "url": "https://api.github.com/repos/dmzoneill/ansible-feeditout-com/issues/454"
       },
       {
@@ -266,19 +326,19 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/ansible-feeditout-com/pulls?state=open": {
-    "t": 1788718209.6392176,
+    "t": 1788761935.9079876,
     "v": []
   },
   "https://api.github.com/repos/dmzoneill/ashtangayogacork.ie-assets/languages": {
-    "t": 1788718212.5723834,
+    "t": 1788761938.863028,
     "v": {}
   },
   "https://api.github.com/repos/dmzoneill/github-ai-contributor/languages": {
-    "t": 1788718205.8812435,
+    "t": 1788761932.007754,
     "v": {}
   },
   "https://api.github.com/repos/dmzoneill/harpnet.ie/issues?state=open": {
-    "t": 1788718206.7944467,
+    "t": 1788761932.8795838,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/harpnet.ie/issues/44",
@@ -463,19 +523,19 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/harpnet.ie/languages": {
-    "t": 1788718208.191844,
+    "t": 1788761934.3124313,
     "v": {}
   },
   "https://api.github.com/repos/dmzoneill/harpnet.ie/pulls?state=open": {
-    "t": 1788718207.5156105,
+    "t": 1788761933.6203554,
     "v": []
   },
   "https://api.github.com/repos/dmzoneill/hevyapp-api/languages": {
-    "t": 1788718211.8804936,
+    "t": 1788761938.1840274,
     "v": {}
   },
   "https://api.github.com/repos/dmzoneill/lidarr-youtube-downloader/issues?state=open": {
-    "t": 1788718196.2954237,
+    "t": 1788761921.9151065,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/lidarr-youtube-downloader/issues/31",
@@ -522,15 +582,15 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/lidarr-youtube-downloader/pulls?state=open": {
-    "t": 1788718197.0136392,
+    "t": 1788761922.6236947,
     "v": []
   },
   "https://api.github.com/repos/dmzoneill/my-history/languages": {
-    "t": 1788718217.6295376,
+    "t": 1788761944.2063704,
     "v": {}
   },
   "https://api.github.com/repos/dmzoneill/pass-gnome-extension/issues?state=open": {
-    "t": 1788718210.376069,
+    "t": 1788761936.71594,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/pass-gnome-extension/issues/3",
@@ -541,15 +601,15 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/pass-gnome-extension/pulls?state=open": {
-    "t": 1788718211.0963368,
+    "t": 1788761937.476663,
     "v": []
   },
   "https://api.github.com/repos/dmzoneill/pass/languages": {
-    "t": 1788718213.9691746,
+    "t": 1788761940.3178675,
     "v": {}
   },
   "https://api.github.com/repos/dmzoneill/php-binance-bot/issues?state=open": {
-    "t": 1788718214.7297792,
+    "t": 1788761941.1972394,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/php-binance-bot/issues/1",
@@ -560,11 +620,11 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/php-binance-bot/pulls?state=open": {
-    "t": 1788718215.4414701,
+    "t": 1788761941.9246147,
     "v": []
   },
   "https://api.github.com/repos/dmzoneill/securetty/issues?state=open": {
-    "t": 1788718200.7107198,
+    "t": 1788761926.4464931,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/securetty/issues/175",
@@ -623,11 +683,11 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/securetty/pulls?state=open": {
-    "t": 1788718201.3870687,
+    "t": 1788761927.1439943,
     "v": []
   },
   "https://api.github.com/repos/dmzoneill/seedmagepp/issues?state=open": {
-    "t": 1788718216.176708,
+    "t": 1788761942.713789,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/seedmagepp/issues/1",
@@ -638,15 +698,15 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/seedmagepp/pulls?state=open": {
-    "t": 1788718216.913703,
+    "t": 1788761943.4681423,
     "v": []
   },
   "https://api.github.com/repos/dmzoneill/skills/languages": {
-    "t": 1788718205.1899354,
+    "t": 1788761931.2887242,
     "v": {}
   },
   "https://api.github.com/repos/dmzoneill/tado-gnome-shell-extension/issues?state=open": {
-    "t": 1788718197.7868233,
+    "t": 1788761923.4475818,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/tado-gnome-shell-extension/issues/2",
@@ -657,11 +717,11 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/tado-gnome-shell-extension/pulls?state=open": {
-    "t": 1788718198.4715514,
+    "t": 1788761924.1544602,
     "v": []
   },
   "https://api.github.com/users/dmzoneill/gists": {
-    "t": 1788718219.259482,
+    "t": 1788761945.837637,
     "v": [
       {
         "description": "modern-hints.sh \u2014 Non-obtrusive bash hints suggesting modern alternatives to legacy Linux commands. Writes to /dev/tty so it never interferes with pipes or redirects.",

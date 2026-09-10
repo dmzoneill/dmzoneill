@@ -9,6 +9,16 @@ on:
         required: false
         default: 'false'
         type: string
+      bump-type:
+        description: 'Override bump type: auto, major, minor, patch, skip'
+        required: false
+        default: 'auto'
+        type: string
+      custom-version:
+        description: 'Explicit version override (e.g. 1.2.3)'
+        required: false
+        default: ''
+        type: string
       npmjs:
         required: false
         type: string
@@ -1021,6 +1031,7 @@ jobs:
     needs: [unit-test, integration-test]
     outputs:
       version: ${{ steps.bump.outputs.version }}
+      skipped: ${{ steps.bump.outputs.skipped }}
     steps:
       - name: Checkout code
         uses: actions/checkout@v7
@@ -1035,9 +1046,81 @@ jobs:
         id: bump
         run: |-
           if ! test -f version; then echo "version=0.0.1" > version; fi
-          version=$(grep 'version=.*' version | awk -F'=' '{print $2}')
-          next=$(echo $version | awk -F. '/[0-9]+\./{$NF++;print}' OFS=.)
+          current=$(grep 'version=.*' version | awk -F'=' '{print $2}')
+          
+          COMMIT_MSG=$(git log -1 --pretty=%B)
+          echo "Commit message: $COMMIT_MSG"
+          
+          in_bump="${{ inputs.bump-type }}"
+          in_version="${{ inputs.custom-version }}"
+          
+          IFS='.' read -r major minor patch <<< "$current"
+          major=${major:-0}
+          minor=${minor:-0}
+          patch=${patch:-0}
+          
+          next=""
+          skipped="false"
+          
+          # 1. Direct inputs from workflow call
+          if [ -n "$in_version" ]; then
+            next="$in_version"
+          elif [ -n "$in_bump" ] && [ "$in_bump" != "auto" ]; then
+            case "$in_bump" in
+              skip)  skipped="true"; next="$current" ;;
+              major) next="$((major + 1)).0.0" ;;
+              minor) next="${major}.$((minor + 1)).0" ;;
+              patch) next="${major}.${minor}.$((patch + 1))" ;;
+            esac
+          fi
+          
+          # 2. Explicit version override in commit: [version:X.Y.Z] or [set-version:X.Y.Z] or trailer Version: X.Y.Z
+          if [ -z "$next" ]; then
+            if echo -e "$COMMIT_MSG" | grep -qiE "\[(version|set-version):[0-9]+\.[0-9]+(\.[0-9]+)?\]"; then
+              next=$(echo -e "$COMMIT_MSG" | grep -oiE "\[(version|set-version):[0-9]+\.[0-9]+(\.[0-9]+)?\]" | head -1 | sed -E "s/\[(version|set-version)://; s/\]//")
+            elif echo -e "$COMMIT_MSG" | grep -qiE "^(version|set-version):\s*[0-9]+\.[0-9]+(\.[0-9]+)?"; then
+              next=$(echo -e "$COMMIT_MSG" | grep -oiE "^(version|set-version):\s*[0-9]+\.[0-9]+(\.[0-9]+)?" | head -1 | awk '{print $2}')
+            fi
+          fi
+          
+          # 3. Explicit Skip directives: [skip-bump], [no-bump], [skip-release], [skip-ci], Release: skip, Bump: skip
+          if [ -z "$next" ] && [ "$skipped" != "true" ]; then
+            if echo -e "$COMMIT_MSG" | grep -qiE "(\[(skip[ -]?(bump|release|ci)|no[ -]?bump)\]|^(release|bump):\s*skip)"; then
+              skipped="true"
+              next="$current"
+            fi
+          fi
+          
+          # 4. Major bump: [bump:major], [major], Bump: major, BREAKING CHANGE:, or feat!: / fix!:
+          if [ -z "$next" ] && [ "$skipped" != "true" ]; then
+            if echo -e "$COMMIT_MSG" | grep -qiE "(\[bump:major\]|\[major\]|^bump:\s*major|BREAKING[ -]CHANGE:|^[a-zA-Z0-9_-]+(\([^\)]+\))?!:)"; then
+              next="$((major + 1)).0.0"
+            fi
+          fi
+          
+          # 5. Minor bump: [bump:minor], [minor], Bump: minor, or feat: / feat(...):
+          if [ -z "$next" ] && [ "$skipped" != "true" ]; then
+            if echo -e "$COMMIT_MSG" | grep -qiE "(\[bump:minor\]|\[minor\]|^bump:\s*minor|^feat(\([^\)]+\))?:)"; then
+              next="${major}.$((minor + 1)).0"
+            fi
+          fi
+          
+          # 6. Default fallback -> Patch bump
+          if [ -z "$next" ] && [ "$skipped" != "true" ]; then
+            next="${major}.${minor}.$((patch + 1))"
+          fi
+          
+          echo "skipped=$skipped" >> $GITHUB_OUTPUT
           echo "version=$next" >> $GITHUB_OUTPUT
+          
+          if [ "$skipped" = "true" ]; then
+            echo "Skipping version bump ($current)"
+            exit 0
+          fi
+          
+          echo "Bumping version: $current -> $next"
+          
+          version="$current"
           if test -f control; then sed "s/$version/$next/" -i control; fi
           if test -f ${{ env.APP_NAME }}.spec; then sed "s/$version/$next/" -i ${{ env.APP_NAME }}.spec; fi
           if test -f PKG-INFO; then sed "s/$version/$next/" -i PKG-INFO; fi
@@ -1062,22 +1145,25 @@ jobs:
           if test -f default.nix; then sed "s/$version/$next/" -i default.nix; fi
 
       - name: Push changes
+        if: steps.bump.outputs.skipped != 'true'
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "chore: bump version"
+          commit_message: "chore: bump version to v${{ steps.bump.outputs.version }}"
           branch: ${{ github.ref_name }}
 
       - name: Send Telegram notification
+        if: steps.bump.outputs.skipped != 'true'
         continue-on-error: true
         uses: dmzoneill/dmzoneill/.github/actions/telegram@main
         with:
-          message: "${{ github.repository }} - Version bumped"
+          message: "${{ github.repository }} - Version bumped to v${{ steps.bump.outputs.version }}"
           telegram_bot_token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           telegram_chat_id: ${{ secrets.TELEGRAM_CHAT_ID }}
 
   create-release:
     name: Create github release
     needs: bump-versions
+    if: needs.bump-versions.outputs.skipped != 'true'
     runs-on: ubuntu-latest
     outputs:
       version: ${{ needs.bump-versions.outputs.version }}

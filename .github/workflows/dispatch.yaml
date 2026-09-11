@@ -1144,6 +1144,42 @@ jobs:
           if test -f flake.nix; then sed "s/$version/$next/" -i flake.nix; fi
           if test -f default.nix; then sed "s/$version/$next/" -i default.nix; fi
 
+          if test -f CHANGELOG.md; then
+            DATE_STR=$(date -u +'%Y-%m-%d')
+            PREV_TAG=$(git tag --sort=-v:refname | grep -E '^v[0-9]' | head -n1)
+            if [ -n "$PREV_TAG" ]; then
+              COMMITS=$(git log "$PREV_TAG"..HEAD --pretty=format:"- %s" --no-merges | grep -vE "(chore: bump version|Bump all versions|Automated publish|Merge branch)" || true)
+            else
+              COMMITS=$(git log -15 --pretty=format:"- %s" --no-merges | grep -vE "(chore: bump version|Bump all versions|Automated publish|Merge branch)" || true)
+            fi
+            
+            FEATS=$(echo "$COMMITS" | grep -iE "^- (feat|add|new|implement|enable)" || true)
+            FIXES=$(echo "$COMMITS" | grep -iE "^- (fix|bug|patch|resolve|correct)" || true)
+            OTHERS=$(echo "$COMMITS" | grep -viE "^- (feat|add|new|implement|enable|fix|bug|patch|resolve|correct)" || true)
+            
+            ENTRY="## [v${next}](https://github.com/${{ github.repository }}/releases/tag/v${next}) - ${DATE_STR}"$'\n\n'
+            [ -n "$FEATS" ] && ENTRY+="### ✨ Features"$'\n'"$FEATS"$'\n\n'
+            [ -n "$FIXES" ] && ENTRY+="### 🐛 Bug Fixes"$'\n'"$FIXES"$'\n\n'
+            [ -n "$OTHERS" ] && ENTRY+="### 🔧 Maintenance & Improvements"$'\n'"$OTHERS"$'\n\n'
+            ENTRY+="---"$'\n\n'
+            
+            python3 -c "
+            import os
+            entry = '''${ENTRY}'''
+            with open('CHANGELOG.md', 'r', encoding='utf-8') as f:
+                orig = f.read()
+
+            if f'## [v${next}]' not in orig:
+                if '---' in orig:
+                    parts = orig.split('---', 1)
+                    new_cl = parts[0] + '---\n\n' + entry + parts[1].lstrip('\n')
+                else:
+                    new_cl = entry + orig
+                with open('CHANGELOG.md', 'w', encoding='utf-8') as f:
+                    f.write(new_cl)
+            "
+          fi
+
       - name: Push changes
         if: steps.bump.outputs.skipped != 'true'
         uses: stefanzweifel/git-auto-commit-action@v5
@@ -1583,6 +1619,62 @@ jobs:
             ghcr.io/dmzoneill/${{ env.APP_NAME }}:${{ env.NEXT_VERSION }}
             ghcr.io/dmzoneill/${{ env.APP_NAME }}:latest
 
+      - name: Render Dynamic Docker Hub README
+        run: |
+          git fetch --tags --force
+          CURR_VER="${{ env.NEXT_VERSION }}"
+          CURR_TAG="v${CURR_VER}"
+          PREV_TAG=$(git tag --sort=-v:refname | grep -E '^v[0-9]+\.[0-9]+\.[0-9]+' | grep -v "^${CURR_TAG}$" | head -n1)
+          if [ -z "$PREV_TAG" ]; then
+            PREV_TAG=$(git describe --tags --abbrev=0 "${CURR_TAG}^" 2>/dev/null || true)
+          fi
+
+          if [ -n "$PREV_TAG" ]; then
+            COMMITS=$(git log "${PREV_TAG}..${CURR_TAG}" --pretty=format:"- %s" --no-merges | grep -vE "(chore: bump version|Bump all versions|Automated publish|Merge branch)" || true)
+          else
+            COMMITS=$(git log -15 --pretty=format:"- %s" --no-merges | grep -vE "(chore: bump version|Bump all versions|Automated publish|Merge branch)" || true)
+          fi
+
+          CHANGELOG_MD=""
+          if [ -n "$COMMITS" ]; then
+            FEAT=$(echo "$COMMITS" | grep -iE "^- (feat|add|new|implement|enable)" || true)
+            FIX=$(echo "$COMMITS" | grep -iE "^- (fix|bug|patch|resolve|correct)" || true)
+            MISC=$(echo "$COMMITS" | grep -viE "^- (feat|add|new|implement|enable|fix|bug|patch|resolve|correct)" || true)
+
+            [ -n "$FEAT" ] && CHANGELOG_MD+=$'\n'"### ✨ New Features"$'\n'"$FEAT"$'\n'
+            [ -n "$FIX" ] && CHANGELOG_MD+=$'\n'"### 🐛 Bug Fixes"$'\n'"$FIX"$'\n'
+            [ -n "$MISC" ] && CHANGELOG_MD+=$'\n'"### 🔧 Maintenance & Improvements"$'\n'"$MISC"$'\n'
+          else
+            CHANGELOG_MD="- Maintenance and stability release"
+          fi
+
+          SRC_FILE="./DOCKER_HUB.md"
+          if [ ! -f "$SRC_FILE" ]; then
+            SRC_FILE="./README.md"
+          fi
+
+          python3 -c "
+          import os
+
+          changelog = '''${CHANGELOG_MD}'''.strip()
+          src_file = '${SRC_FILE}'
+          with open(src_file, 'r', encoding='utf-8') as f:
+              text = f.read()
+
+          if '{{CHANGELOG}}' in text:
+              rendered = text.replace('{{CHANGELOG}}', changelog)
+          else:
+              rendered = text
+
+          repo = os.environ.get('GITHUB_REPOSITORY', 'dmzoneill/${{ env.APP_NAME }}')
+          raw_base = f'https://raw.githubusercontent.com/{repo}/main'
+          rendered = rendered.replace('src=\"logo/', f'src=\"{raw_base}/logo/')
+          rendered = rendered.replace('](logo/', f']({raw_base}/logo/')
+
+          with open('/tmp/DOCKER_HUB_RENDERED.md', 'w', encoding='utf-8') as f:
+              f.write(rendered)
+          "
+
       - name: Update Docker Hub description
         continue-on-error: true
         uses: peter-evans/dockerhub-description@v5
@@ -1590,7 +1682,7 @@ jobs:
           username: feeditout
           password: ${{ secrets.DOCKER_TOKEN }}
           repository: feeditout/${{ env.APP_NAME }}
-          readme-filepath: ./DOCKER_HUB.md
+          readme-filepath: /tmp/DOCKER_HUB_RENDERED.md
 
       - name: Send Telegram notification
         continue-on-error: true

@@ -1161,24 +1161,7 @@ jobs:
             [ -n "$FEATS" ] && ENTRY+="### ✨ Features"$'\n'"$FEATS"$'\n\n'
             [ -n "$FIXES" ] && ENTRY+="### 🐛 Bug Fixes"$'\n'"$FIXES"$'\n\n'
             [ -n "$OTHERS" ] && ENTRY+="### 🔧 Maintenance & Improvements"$'\n'"$OTHERS"$'\n\n'
-            ENTRY+="---"$'\n\n'
-            
-            ENTRY="$ENTRY" NEXT_VER="$next" python3 -c '
-              import os
-              entry = os.environ.get("ENTRY", "")
-              next_ver = os.environ.get("NEXT_VER", "")
-              if os.path.exists("CHANGELOG.md"):
-                  with open("CHANGELOG.md", "r", encoding="utf-8") as f:
-                      orig = f.read()
-                  if f"## [v{next_ver}]" not in orig:
-                      if "---" in orig:
-                          parts = orig.split("---", 1)
-                          new_cl = parts[0] + "---\n\n" + entry + parts[1].lstrip("\n")
-                      else:
-                          new_cl = entry + orig
-                      with open("CHANGELOG.md", "w", encoding="utf-8") as f:
-                          f.write(new_cl)
-              '
+            ENTRY="$ENTRY" NEXT_VER="$next" python3 -c 'import os; entry = os.environ.get("ENTRY", ""); next_ver = os.environ.get("NEXT_VER", ""); orig = open("CHANGELOG.md", "r", encoding="utf-8").read() if os.path.exists("CHANGELOG.md") else ""; new_cl = (orig.split("---", 1)[0] + "---\n\n" + entry + orig.split("---", 1)[1].lstrip("\n")) if "---" in orig else (entry + orig); open("CHANGELOG.md", "w", encoding="utf-8").write(new_cl) if (f"## [v{next_ver}]" not in orig and os.path.exists("CHANGELOG.md")) else None'
           fi
 
       - name: Push changes

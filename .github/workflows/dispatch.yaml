@@ -1166,10 +1166,12 @@ jobs:
 
       - name: Push changes
         if: steps.bump.outputs.skipped != 'true'
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "chore: bump version to v${{ steps.bump.outputs.version }}"
-          branch: ${{ github.ref_name }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --quiet && git diff --staged --quiet || git commit -m "chore: bump version to v${{ steps.bump.outputs.version }}"
+          git push origin "${{ github.ref_name }}"
 
       - name: Send Telegram notification
         if: steps.bump.outputs.skipped != 'true'
@@ -1240,15 +1242,12 @@ jobs:
 
       - name: Create GitHub release
         id: create_release
-        uses: softprops/action-gh-release@v2
-        with:
-          tag_name: v${{ env.PACKAGE_VERSION }}
-          name: Release v${{ env.PACKAGE_VERSION }}
-          body_path: /tmp/release_body.md
-          draft: false
-          prerelease: false
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release create "v${{ env.PACKAGE_VERSION }}" \
+            --title "Release v${{ env.PACKAGE_VERSION }}" \
+            --notes-file /tmp/release_body.md
 
       - name: Send Telegram notification
         continue-on-error: true
@@ -1452,12 +1451,10 @@ jobs:
         run: echo "ASSET_PATH=${{ env.PACKAGE_NAME }}_${{ env.PACKAGE_VERSION }}.deb" >> $GITHUB_ENV
 
       - name: Upload Debian package as release asset
-        uses: softprops/action-gh-release@v2
-        with:
-          tag_name: v${{ env.PACKAGE_VERSION }}
-          files: ${{ env.ASSET_PATH }}
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release upload "v${{ env.PACKAGE_VERSION }}" "${{ env.ASSET_PATH }}" --clobber
 
       - name: Send Telegram notification
         continue-on-error: true
@@ -1502,12 +1499,10 @@ jobs:
         run: echo "ASSET_PATH=./rpmbuild/RPMS/x86_64/${{ env.PACKAGE_NAME }}-${{ env.PACKAGE_VERSION }}-1.x86_64.rpm" >> $GITHUB_ENV
 
       - name: Upload RPM package as release asset
-        uses: softprops/action-gh-release@v2
-        with:
-          tag_name: v${{ env.PACKAGE_VERSION }}
-          files: ${{ env.ASSET_PATH }}
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release upload "v${{ env.PACKAGE_VERSION }}" "${{ env.ASSET_PATH }}" --clobber
 
       - name: Send Telegram notification
         continue-on-error: true
@@ -1755,12 +1750,10 @@ jobs:
           path: ${{ env.FLATPAK_APP_ID }}-${{ env.PACKAGE_VERSION }}.flatpak
 
       - name: Upload Flatpak bundle as release asset
-        uses: softprops/action-gh-release@v2
-        with:
-          tag_name: v${{ env.PACKAGE_VERSION }}
-          files: ${{ env.FLATPAK_APP_ID }}-${{ env.PACKAGE_VERSION }}.flatpak
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release upload "v${{ env.PACKAGE_VERSION }}" "${{ env.FLATPAK_APP_ID }}-${{ env.PACKAGE_VERSION }}.flatpak" --clobber
 
       - name: Publish to Flathub
         if: env.FLATHUB_TOKEN != ''
@@ -1841,12 +1834,10 @@ jobs:
           path: ${{ env.APP_NAME }}-${{ env.PACKAGE_VERSION }}-x86_64.AppImage
 
       - name: Upload AppImage as release asset
-        uses: softprops/action-gh-release@v2
-        with:
-          tag_name: v${{ env.PACKAGE_VERSION }}
-          files: ${{ env.APP_NAME }}-${{ env.PACKAGE_VERSION }}-x86_64.AppImage
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release upload "v${{ env.PACKAGE_VERSION }}" "${{ env.APP_NAME }}-${{ env.PACKAGE_VERSION }}-x86_64.AppImage" --clobber
 
       - name: Send Telegram notification
         continue-on-error: true
@@ -1900,12 +1891,10 @@ jobs:
           path: ${{ steps.snap_build.outputs.snap }}
 
       - name: Upload Snap as release asset
-        uses: softprops/action-gh-release@v2
-        with:
-          tag_name: v${{ env.PACKAGE_VERSION }}
-          files: ${{ steps.snap_build.outputs.snap }}
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release upload "v${{ env.PACKAGE_VERSION }}" "${{ steps.snap_build.outputs.snap }}" --clobber
 
       - name: Publish to Snap Store
         if: env.SNAPCRAFT_STORE_CREDENTIALS != ''
@@ -1978,12 +1967,10 @@ jobs:
           path: ${{ env.APP_NAME }}-${{ env.PACKAGE_VERSION }}-nix.tar.gz
 
       - name: Upload Nix package as release asset
-        uses: softprops/action-gh-release@v2
-        with:
-          tag_name: v${{ env.PACKAGE_VERSION }}
-          files: ${{ env.APP_NAME }}-${{ env.PACKAGE_VERSION }}-nix.tar.gz
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release upload "v${{ env.PACKAGE_VERSION }}" "${{ env.APP_NAME }}-${{ env.PACKAGE_VERSION }}-nix.tar.gz" --clobber
 
       - name: Push to Cachix
         if: env.CACHIX_AUTH_TOKEN != ''

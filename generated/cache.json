@@ -1,10 +1,10 @@
 {
   "https://api.github.com/repos/dmzoneill/Bootstack-Highlight-Monitor/languages": {
-    "t": 1789755051.2277136,
+    "t": 1789798462.87451,
     "v": {}
   },
   "https://api.github.com/repos/dmzoneill/DFakeSeeder/issues?state=open": {
-    "t": 1789755037.998069,
+    "t": 1789798446.939447,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/DFakeSeeder/issues/15",
@@ -15,36 +15,12 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/DFakeSeeder/pulls?state=open": {
-    "t": 1789755038.6474903,
+    "t": 1789798447.7359722,
     "v": []
   },
   "https://api.github.com/repos/dmzoneill/Leecharr/issues?state=open": {
-    "t": 1789755042.437535,
+    "t": 1789798450.4356763,
     "v": [
-      {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/940",
-        "title": "[RPC / Transmission] torrent-get hardcodes activityDate and dateCreated to addedDate, and torrent-set ignores trackerList batch updates",
-        "updated_at": "2026-09-16T01:37:29Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/940"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/939",
-        "title": "fix(lifecycle): AppLifetime skips restoring all torrents when AutoStart is disabled, leaving download engine empty on startup",
-        "updated_at": "2026-09-16T01:31:38Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/939"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/938",
-        "title": "[RPC / Transmission] queue-move-up and queue-move-down cause boundary leapfrogging and execute N redundant full-table re-indexes",
-        "updated_at": "2026-09-16T01:30:51Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/938"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/937",
-        "title": "[Notifications] ResolveTargetUrl appends /message and /notify to URL query strings corrupting Gotify and Apprise endpoints",
-        "updated_at": "2026-09-16T01:30:02Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/937"
-      },
       {
         "html_url": "https://github.com/dmzoneill/Leecharr/issues/936",
         "title": "[BitTorrent / BEP 16] SuperSeeding mode is completely inoperative due to MonoTorrent 3.0.2 hardcoding SupportsInitialSeed to false and UpdateSettingsAsync lacking mode transition",
@@ -52,163 +28,175 @@
         "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/936"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/935",
-        "title": "[BitTorrent / BEP 15] TrackerBoost UDP scrape and probe lack retransmission and exponential backoff, failing on lossy UDP networks and ignoring BEP 15 error responses",
-        "updated_at": "2026-09-16T01:22:37Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/935"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/908",
+        "title": "fix(bittorrent): Hardcoded urn:btih magnet formatting breaks BitTorrent v2 SHA256 infohashes causing FormatException on fallback addition",
+        "updated_at": "2026-09-16T00:53:13Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/908"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/934",
-        "title": "[RPC / rTorrent] d.custom2 through d.custom5 unhandled and d.multicall2 ignores view filtering",
-        "updated_at": "2026-09-16T01:22:24Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/934"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/855",
+        "title": "[BitTorrent / PiecePicker] PiecePicker is completely decoupled from MonoTorrent download pipeline, rendering endgame CANCEL notifications, head/tail sequential picking, and anti-snubbing dead code",
+        "updated_at": "2026-09-15T23:41:24Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/855"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/933",
-        "title": "fix(indexers): TorznabClient silences HTTP errors and XML error payloads as empty results, triggering false RecordSuccess in IndexerStatusService",
-        "updated_at": "2026-09-16T01:19:37Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/933"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/852",
+        "title": "[BitTorrent / Magnets] Magnet link metadata resolution lacks expiration timeout, causing dead magnets to hang indefinitely in Downloading state and exhaust queue slots",
+        "updated_at": "2026-09-15T23:37:49Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/852"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/932",
-        "title": "[RPC / Deluge] core.get_config_values returns empty object on flat parameter arrays and core.set_config overwrites DownloadDir with move_completed_path",
-        "updated_at": "2026-09-16T01:18:58Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/932"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/834",
+        "title": "fix(torrents): In-flight AddTorrentAsync races with RemoveTorrentAsync producing unkillable zombie torrents, and DeleteAsync deletes database records before disk cleanup",
+        "updated_at": "2026-09-15T23:29:33Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/834"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/931",
-        "title": "fix(indexers): TorznabClient drops <size> when enclosure length is zero, ignores non-binary freeleech attributes, and RssSyncService lacks magnet fallback",
-        "updated_at": "2026-09-16T01:15:21Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/931"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/826",
+        "title": "fix(categories): MonoTorrentDownloadEngine task.Category is never synchronized on category update, reassignment, or deletion, breaking save path routing on completion",
+        "updated_at": "2026-09-15T23:27:59Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/826"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/930",
-        "title": "[RPC / qBittorrent] /api/v2/torrents/pieceStates omits in-flight downloading state (1) and pieceHashes hardcodes SpecialFolder.ApplicationData path",
-        "updated_at": "2026-09-16T01:14:20Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/930"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/817",
+        "title": "fix(security): API key rotation and authentication toggling fail to invalidate active SignalR WebSocket connections and RPC session stores",
+        "updated_at": "2026-09-15T23:20:31Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/817"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/929",
-        "title": "fix(datastore): Absence of periodic SQLite WAL checkpointing and pool management during runtime leads to unbounded -wal file growth",
-        "updated_at": "2026-09-16T01:12:45Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/929"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/801",
+        "title": "[BitTorrent / Engine] DynamicDownloadEngineProxy releases migrationTcs before rehydration and MonoTorrent fails to clear task cache on StopAsync",
+        "updated_at": "2026-09-16T00:37:09Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/801"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/928",
-        "title": "fix(security): TorrentPathValidator.ResolveCanonicalPath fails to resolve intermediate directory symlinks for existing files, bypassing confinement checks",
-        "updated_at": "2026-09-16T01:12:28Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/928"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/793",
+        "title": "[BitTorrent / PiecePicker] FirstLastPiecePriority is a no-op dummy in MonoTorrent engine, and both SequentialDownload and FirstLastPiecePriority are ignored on add/update",
+        "updated_at": "2026-09-15T23:03:58Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/793"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/927",
-        "title": "fix(queue): TorrentService.GetNextQueuePosition race condition assigns duplicate QueuePosition values during concurrent additions",
-        "updated_at": "2026-09-16T01:12:15Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/927"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/790",
+        "title": "feat(update): Leecharr lacks self-update execution pipeline, archive verification, and console restart loop handoff",
+        "updated_at": "2026-09-15T23:02:10Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/790"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/926",
-        "title": "[RPC / Deluge] BuildFilterTree omits 'All' entry in tracker_host and drops multi-labeled torrents from filter tree",
-        "updated_at": "2026-09-16T01:12:11Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/926"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/776",
+        "title": "[BitTorrent / Lifecycle] Super seeding (BEP 16) completion exit is never synchronized to Torrent.InitialSeeding, causing stuck UI state and infinite reactivation on restart",
+        "updated_at": "2026-09-15T22:52:57Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/776"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/925",
-        "title": "[BitTorrent / BEP 52] CalculatePieceHashDirectAsync crashes with ArgumentException on pure BitTorrent v2 torrents due to unconditional sha1.GetHashAndReset on empty V1Hash span",
-        "updated_at": "2026-09-16T01:08:53Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/925"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/751",
+        "title": "[Bandwidth / Engine] SpeedScheduler resume unconditionally starts all torrents, overriding user-paused torrents, seed goal completions, and queue limits",
+        "updated_at": "2026-09-15T22:36:45Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/751"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/924",
-        "title": "[RPC / qBittorrent] Missing /api/v2/log/main and /api/v2/log/peers endpoints causing 404 in qBittorrent client log viewers",
-        "updated_at": "2026-09-16T01:08:44Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/924"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/712",
+        "title": "feat(engine): implement dynamic piece picker switching for SetSequentialDownloadAsync and SetFirstLastPiecePriorityAsync",
+        "updated_at": "2026-09-15T22:54:45Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/712"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/923",
-        "title": "fix(storage): TorrentPathValidator.ResolveCanonicalPath corrupts Windows and UNC paths for non-existent targets, breaking IsStrictSubPath",
-        "updated_at": "2026-09-16T01:08:26Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/923"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/648",
+        "title": "[Deluge / Web API] Implement web.get_events polling queue, core.get_free_space_bytes, and plugin lifecycle RPCs",
+        "updated_at": "2026-09-15T22:53:09Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/648"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/922",
-        "title": "[RPC / Transmission] HandlePortTest hardcodes port-is-open to true without verifying peer listening port accessibility",
-        "updated_at": "2026-09-16T01:08:25Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/922"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/643",
+        "title": "[BitTorrent / Protocols] Support BEP 6 Reject Request in PiecePicker and enable UDP datagram binding for uTP sockets",
+        "updated_at": "2026-09-16T00:17:09Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/643"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/921",
-        "title": "fix(indexers): ProwlarrSyncService imports Usenet indexers causing BEncodingException crashes when grabbing NZB releases",
-        "updated_at": "2026-09-16T01:08:10Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/921"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/633",
+        "title": "[qBittorrent / Torrents API] Add sorting/pagination to torrents/info, complete filter enum values, and decouple firstLastPiecePrio",
+        "updated_at": "2026-09-16T01:10:27Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/633"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/920",
-        "title": "[RPC / qBittorrent] Search endpoints fail parameter binding on HTTP POST due to unmapped FromForm parameter names and clamp negative offsets",
-        "updated_at": "2026-09-16T01:05:42Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/920"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/632",
+        "title": "[qBittorrent / Sync & Tags] Fix destructive tag overwrite in addTags, rid desynchronization in sync/maindata, and missing delta arrays",
+        "updated_at": "2026-09-15T23:14:35Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/632"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/919",
-        "title": "[RPC / Transmission] torrent-add ignores cookies for remote URL downloads and misreports existing magnet links as torrent-added",
-        "updated_at": "2026-09-16T01:05:29Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/919"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/457",
+        "title": "[RPC / Transmission] torrent-rename-path passes base filename as destination path flattening nested files and failing folder renames",
+        "updated_at": "2026-09-16T01:29:54Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/457"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/918",
-        "title": "[Security / Proxy Bypass] ProxyTunnelBindingProvider hardcodes unproxied direct connection for private/loopback/link-local IPs, introducing SSRF and leaking cleartext traffic",
-        "updated_at": "2026-09-16T01:04:32Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/918"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/384",
+        "title": "RPC Compatibility / qBittorrent: Missing /api/v2/torrents/editTracker and renameFile rejects numeric file id/fileId parameters",
+        "updated_at": "2026-09-15T22:32:19Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/384"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/917",
-        "title": "[RPC / Transmission] session-stats duplicates lifetime cumulative totals in current-stats and uses stale database row speeds",
-        "updated_at": "2026-09-16T01:01:43Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/917"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/302",
+        "title": "[Bug] QBittorrentApiController setShareLimits stores seedingTimeLimit (seconds) directly as TargetSeedTimeMinutes, 60x scale error",
+        "updated_at": "2026-09-15T22:36:53Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/302"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/916",
-        "title": "[BitTorrent / BEP 52] MagnetLinkParser rejects standard 34-byte Base32 multihashes (55 unpadded / 56 padded chars) and fails NormalizeInfoHash",
-        "updated_at": "2026-09-16T01:00:29Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/916"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/283",
+        "title": "[Security] Credential exposure: Notification settings, Indexer API keys, and Arr API keys returned in plaintext without masking",
+        "updated_at": "2026-09-15T22:47:03Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/283"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/915",
-        "title": "fix(queuemanager): Lack of speed hysteresis causes rapid state oscillations between Queued and Downloading and QueueManager ignores Torrent.Priority",
-        "updated_at": "2026-09-16T00:58:50Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/915"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/282",
+        "title": "[Security] Broken access control: RequireAdmin/Operator role policies never enforced on any endpoint",
+        "updated_at": "2026-09-16T00:50:05Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/282"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/914",
-        "title": "[RPC / Deluge] DelugeJsonRpcController advertises unimplemented plugins in get_enabled_plugins and returns string error messages violating JSON-RPC schema",
-        "updated_at": "2026-09-16T00:58:35Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/914"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/273",
+        "title": "RPC Compatibility / Aria2: system.multicall fails on authenticated requests, JSON-RPC 2.0 batch arrays are rejected, and XML-RPC multicall is missing",
+        "updated_at": "2026-09-15T22:47:33Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/273"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/913",
-        "title": "[RPC / qBittorrent] /api/v2/torrents/add lacks file size limit, unhandled parse exceptions cause HTTP 500, and returns Ok. on failure",
-        "updated_at": "2026-09-16T00:58:29Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/913"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/171",
+        "title": "Core Engine: OnTorrentCompletedAsync invokes MoveFilesAsync after files are already moved by StoragePathService, permanently breaking seeding",
+        "updated_at": "2026-09-16T00:14:16Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/171"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/912",
-        "title": "perf(datastore): UserExternalLogins table lacks foreign key index on UserId and unique index on (LoginProvider, ProviderKey)",
-        "updated_at": "2026-09-16T00:56:54Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/912"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/125",
+        "title": "Core Engine: TorrentService.SyncWithEngine clobbers lifetime Downloaded, Uploaded, and Ratio stats with session-only socket counters",
+        "updated_at": "2026-09-15T22:29:49Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/125"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/911",
-        "title": "fix(indexers): Multi-indexer search omits release deduplication, swarm merging, and stable ranking",
-        "updated_at": "2026-09-16T00:56:00Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/911"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/121",
+        "title": "Media Enrichment: Downloaded media files are never inspected on completion, leaving MediaInfoJson permanently null",
+        "updated_at": "2026-09-15T22:41:58Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/121"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/113",
+        "title": "BitTorrent / Core: Magnet torrents never persist metadata, piece count, total size, or TorrentFile records to database upon resolution",
+        "updated_at": "2026-09-15T22:34:28Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/113"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/106",
+        "title": "BitTorrent / Core: Toggling Sequential Download on active torrents updates database but never notifies BitTorrent engine",
+        "updated_at": "2026-09-15T23:21:37Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/106"
       }
     ]
   },
   "https://api.github.com/repos/dmzoneill/Leecharr/pulls?state=open": {
-    "t": 1789755043.1046739,
+    "t": 1789798451.2061343,
     "v": []
   },
   "https://api.github.com/repos/dmzoneill/Seedarr/issues?state=open": {
-    "t": 1789755040.920732,
+    "t": 1789798452.2367928,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/Seedarr/issues/521",
@@ -217,22 +205,10 @@
         "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/521"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/519",
-        "title": "feat(pieces): implement incremental swarm piece frequency histogram with O(1) rarity bucket tracking",
-        "updated_at": "2026-09-16T00:27:44Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/519"
-      },
-      {
         "html_url": "https://github.com/dmzoneill/Seedarr/issues/515",
         "title": "security(marketplace): implement cryptographic template signature verification and input schema validation in AutomationMarketplaceService",
         "updated_at": "2026-09-16T00:25:41Z",
         "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/515"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/513",
-        "title": "security(automation): enforce strict JavaScript sandboxing, SSRF guards, and disable unconstrained process execution in JintScriptRunner",
-        "updated_at": "2026-09-16T00:25:30Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/513"
       },
       {
         "html_url": "https://github.com/dmzoneill/Seedarr/issues/479",
@@ -251,12 +227,6 @@
         "title": "feat(signalr): implement channel-based selective subscription and per-torrent group routing in MessageHub",
         "updated_at": "2026-09-15T23:38:00Z",
         "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/427"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/426",
-        "title": "feat(superseeding): implement automated exit criteria on swarm availability >= 1.0 and secondary seed detection",
-        "updated_at": "2026-09-15T23:37:50Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/426"
       },
       {
         "html_url": "https://github.com/dmzoneill/Seedarr/issues/425",
@@ -307,64 +277,10 @@
         "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/418"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/417",
-        "title": "feat(portmapping): implement cross-platform default gateway discovery and protocol probing hierarchy (PCP/NAT-PMP/UPnP)",
-        "updated_at": "2026-09-15T23:36:32Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/417"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/416",
-        "title": "feat(update): implement PostUpdateVerificationService with rollback watchdog and post-restart health probes",
-        "updated_at": "2026-09-15T23:36:13Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/416"
-      },
-      {
         "html_url": "https://github.com/dmzoneill/Seedarr/issues/415",
         "title": "feat(rss): implement comprehensive auto-grab rule evaluator with quality/codec parsing, category path mapping, and grab history logging",
         "updated_at": "2026-09-15T23:36:12Z",
         "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/415"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/414",
-        "title": "feat(rss): implement persistent release deduplication store (GUID, enclosure, publication timestamp) to eliminate redundant processing",
-        "updated_at": "2026-09-15T23:36:06Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/414"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/413",
-        "title": "feat(update): implement UpdatePackageProvider for release channel selection, architecture asset resolution, and Docker environment guards",
-        "updated_at": "2026-09-15T23:36:05Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/413"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/412",
-        "title": "feat(rss): respect feed TTL tag and enforce minimum indexer polling intervals with backoff to prevent indexer bans",
-        "updated_at": "2026-09-15T23:36:00Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/412"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/410",
-        "title": "feat(trackers): implement BEP 15 multi-infohash UDP scrape batching for up to 74 torrents per datagram",
-        "updated_at": "2026-09-15T23:35:17Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/410"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/408",
-        "title": "perf(trackers): implement BEP 15 UDP connection ID caching with 60-second sliding expiry",
-        "updated_at": "2026-09-15T23:35:01Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/408"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/406",
-        "title": "feat(notifications): implement custom webhook dynamic payload template engine with JSON-safe escaping and HTTP method/auth support",
-        "updated_at": "2026-09-15T23:34:41Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/406"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/405",
-        "title": "fix(fastresume): reconcile file size and mtime on boot with non-blocking background recheck fallback",
-        "updated_at": "2026-09-15T23:34:21Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/405"
       },
       {
         "html_url": "https://github.com/dmzoneill/Seedarr/issues/403",
@@ -389,11 +305,83 @@
         "title": "feat(peers): implement BEP 21 lt_donthave partial seed extension and unchoke slot protection",
         "updated_at": "2026-09-15T23:33:35Z",
         "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/399"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Seedarr/issues/398",
+        "title": "feat(ui): implement xterm.js terminal page with auto-fit resizing, clipboard integration, and reconnect backoff",
+        "updated_at": "2026-09-15T23:33:16Z",
+        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/398"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Seedarr/issues/397",
+        "title": "security(terminal): sanitize process environment variables, implement shell fallback hierarchy, and enforce Admin RBAC",
+        "updated_at": "2026-09-15T23:33:10Z",
+        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/397"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Seedarr/issues/396",
+        "title": "feat(terminal): implement cross-platform PTY process supervision with ConPTY/forkpty, window resizing (SIGWINCH), and orphan process teardown",
+        "updated_at": "2026-09-15T23:33:05Z",
+        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/396"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Seedarr/issues/395",
+        "title": "feat(indexers): parse Torznab /api?t=caps XML for dynamic category hierarchy and handle HTTP 429 Retry-After rate limits",
+        "updated_at": "2026-09-15T23:32:29Z",
+        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/395"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Seedarr/issues/394",
+        "title": "feat(indexers): implement ProwlarrIndexerSyncService for automated discovery and synchronization of managed indexers",
+        "updated_at": "2026-09-15T23:32:21Z",
+        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/394"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Seedarr/issues/392",
+        "title": "feat(bep52): implement hash_request, hashes, and hash_reject peer wire messages for Merkle tree exchange",
+        "updated_at": "2026-09-15T23:32:09Z",
+        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/392"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Seedarr/issues/390",
+        "title": "feat(bep52): support BEP 52 multihash magnet links (urn:btmh) and 80-byte v2 peer handshake negotiation",
+        "updated_at": "2026-09-15T23:32:02Z",
+        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/390"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Seedarr/issues/389",
+        "title": "perf(bandwidth): implement dynamic BDP socket buffer sizing and micro-burst packet pacing in PeerConnection and UtpConnection",
+        "updated_at": "2026-09-15T23:31:59Z",
+        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/389"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Seedarr/issues/388",
+        "title": "feat(bep52): implement SHA-256 Merkle tree verification engine with 16 KiB block-level corruption isolation",
+        "updated_at": "2026-09-15T23:31:53Z",
+        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/388"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Seedarr/issues/387",
+        "title": "feat(bep52): implement BitTorrent v2 file tree parsing and hybrid v1/v2 metainfo deserialization",
+        "updated_at": "2026-09-15T23:31:46Z",
+        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/387"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Seedarr/issues/386",
+        "title": "fix(emulation): protect active seeding torrents during Arr post-import deletion and implement category persistence in QBittorrentApiController",
+        "updated_at": "2026-09-16T00:48:07Z",
+        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/386"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Seedarr/issues/385",
+        "title": "fix(arr): support Download/Rename/Delete webhook events and assign Category/SavePath on Grab and Sync",
+        "updated_at": "2026-09-15T23:31:00Z",
+        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/385"
       }
     ]
   },
   "https://api.github.com/repos/dmzoneill/Seedarr/pulls?state=open": {
-    "t": 1789755041.6386828,
+    "t": 1789798453.0910633,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/Seedarr/pull/102",
@@ -404,7 +392,7 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/ansible-feeditout-com/issues?state=open": {
-    "t": 1789755047.2561564,
+    "t": 1789798458.1039164,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/ansible-feeditout-com/issues/455",
@@ -415,7 +403,7 @@
       {
         "html_url": "https://github.com/dmzoneill/ansible-feeditout-com/issues/454",
         "title": "[ALERT] SystemdUnitFailed \u2014 ",
-        "updated_at": "2026-09-18T18:04:16Z",
+        "updated_at": "2026-09-19T06:10:17Z",
         "url": "https://api.github.com/repos/dmzoneill/ansible-feeditout-com/issues/454"
       },
       {
@@ -463,19 +451,19 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/ansible-feeditout-com/pulls?state=open": {
-    "t": 1789755047.9253902,
+    "t": 1789798458.8949182,
     "v": []
   },
   "https://api.github.com/repos/dmzoneill/ashtangayogacork.ie-assets/languages": {
-    "t": 1789755050.58029,
+    "t": 1789798462.0998752,
     "v": {}
   },
   "https://api.github.com/repos/dmzoneill/github-ai-contributor/languages": {
-    "t": 1789755044.3907535,
+    "t": 1789798454.6314647,
     "v": {}
   },
   "https://api.github.com/repos/dmzoneill/harpnet.ie/issues?state=open": {
-    "t": 1789755045.2330036,
+    "t": 1789798455.6447928,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/harpnet.ie/issues/44",
@@ -660,19 +648,19 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/harpnet.ie/languages": {
-    "t": 1789755046.539294,
+    "t": 1789798457.2346861,
     "v": {}
   },
   "https://api.github.com/repos/dmzoneill/harpnet.ie/pulls?state=open": {
-    "t": 1789755045.8897417,
+    "t": 1789798456.460887,
     "v": []
   },
   "https://api.github.com/repos/dmzoneill/hevyapp-api/languages": {
-    "t": 1789755049.9492323,
+    "t": 1789798461.3218422,
     "v": {}
   },
   "https://api.github.com/repos/dmzoneill/lidarr-youtube-downloader/issues?state=open": {
-    "t": 1789755035.1972296,
+    "t": 1789798443.672079,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/lidarr-youtube-downloader/issues/31",
@@ -719,15 +707,15 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/lidarr-youtube-downloader/pulls?state=open": {
-    "t": 1789755035.850344,
+    "t": 1789798444.4414735,
     "v": []
   },
   "https://api.github.com/repos/dmzoneill/my-history/languages": {
-    "t": 1789755055.33539,
+    "t": 1789798467.8938491,
     "v": {}
   },
   "https://api.github.com/repos/dmzoneill/pass-gnome-extension/issues?state=open": {
-    "t": 1789755048.6651552,
+    "t": 1789798459.7570872,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/pass-gnome-extension/issues/3",
@@ -738,15 +726,15 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/pass-gnome-extension/pulls?state=open": {
-    "t": 1789755049.3216455,
+    "t": 1789798460.553233,
     "v": []
   },
   "https://api.github.com/repos/dmzoneill/pass/languages": {
-    "t": 1789755051.8780184,
+    "t": 1789798463.749958,
     "v": {}
   },
   "https://api.github.com/repos/dmzoneill/php-binance-bot/issues?state=open": {
-    "t": 1789755052.6074593,
+    "t": 1789798464.5999584,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/php-binance-bot/issues/1",
@@ -757,11 +745,11 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/php-binance-bot/pulls?state=open": {
-    "t": 1789755053.2869577,
+    "t": 1789798465.4211822,
     "v": []
   },
   "https://api.github.com/repos/dmzoneill/securetty/issues?state=open": {
-    "t": 1789755039.4041345,
+    "t": 1789798448.6146917,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/securetty/issues/175",
@@ -820,11 +808,11 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/securetty/pulls?state=open": {
-    "t": 1789755040.0765631,
+    "t": 1789798449.4187021,
     "v": []
   },
   "https://api.github.com/repos/dmzoneill/seedmagepp/issues?state=open": {
-    "t": 1789755053.995606,
+    "t": 1789798466.2814472,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/seedmagepp/issues/1",
@@ -835,15 +823,15 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/seedmagepp/pulls?state=open": {
-    "t": 1789755054.6500971,
+    "t": 1789798467.1016724,
     "v": []
   },
   "https://api.github.com/repos/dmzoneill/skills/languages": {
-    "t": 1789755043.7530146,
+    "t": 1789798453.8634858,
     "v": {}
   },
   "https://api.github.com/repos/dmzoneill/tado-gnome-shell-extension/issues?state=open": {
-    "t": 1789755036.5746467,
+    "t": 1789798445.2998047,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/tado-gnome-shell-extension/issues/2",
@@ -854,11 +842,11 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/tado-gnome-shell-extension/pulls?state=open": {
-    "t": 1789755037.2536542,
+    "t": 1789798446.099845,
     "v": []
   },
   "https://api.github.com/users/dmzoneill/gists": {
-    "t": 1789755057.0194418,
+    "t": 1789798469.4868927,
     "v": [
       {
         "description": "modern-hints.sh \u2014 Non-obtrusive bash hints suggesting modern alternatives to legacy Linux commands. Writes to /dev/tty so it never interferes with pipes or redirects.",

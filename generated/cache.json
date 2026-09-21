@@ -1,10 +1,10 @@
 {
   "https://api.github.com/repos/dmzoneill/Bootstack-Highlight-Monitor/languages": {
-    "t": 1789927852.194128,
+    "t": 1789971619.1403966,
     "v": {}
   },
   "https://api.github.com/repos/dmzoneill/DFakeSeeder/issues?state=open": {
-    "t": 1789927839.834901,
+    "t": 1789971607.5004516,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/DFakeSeeder/issues/15",
@@ -15,200 +15,11 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/DFakeSeeder/pulls?state=open": {
-    "t": 1789927840.4907176,
-    "v": []
-  },
-  "https://api.github.com/repos/dmzoneill/Seedarr/issues?state=open": {
-    "t": 1789927842.678799,
-    "v": [
-      {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/479",
-        "title": "perf(peers): replace blocking synchronous socket I/O with asynchronous ValueTask streaming and eliminate ArrayPool buffer allocations",
-        "updated_at": "2026-09-16T00:18:08Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/479"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/423",
-        "title": "feat(packages): implement cross-platform path translation, fastresume verification, and package import UI modal",
-        "updated_at": "2026-09-15T23:37:05Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/423"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/398",
-        "title": "feat(ui): implement xterm.js terminal page with auto-fit resizing, clipboard integration, and reconnect backoff",
-        "updated_at": "2026-09-15T23:33:16Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/398"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/397",
-        "title": "security(terminal): sanitize process environment variables, implement shell fallback hierarchy, and enforce Admin RBAC",
-        "updated_at": "2026-09-15T23:33:10Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/397"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/381",
-        "title": "feat(security): implement multi-user Role-Based Access Control (RBAC) with ReadOnly and Admin permission policies",
-        "updated_at": "2026-09-16T01:24:01Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/381"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/377",
-        "title": "feat(plugins): implement isolated sidecar plugin architecture and Model Context Protocol (MCP) server integration",
-        "updated_at": "2026-09-17T14:18:14Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/377"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/329",
-        "title": "feat(terminal): implement interactive web console terminal hub and controller gated by TerminalAccessEnabled",
-        "updated_at": "2026-09-15T23:33:20Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/329"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/323",
-        "title": "feat(dht): implement BEP 32 IPv6 DHT extension with dual-stack sockets and compact nodes6 parsing/encoding",
-        "updated_at": "2026-09-15T23:17:41Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/323"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/306",
-        "title": "feat(ui): implement interactive column sorting, category selector, and pagination in Indexer Search",
-        "updated_at": "2026-09-15T23:14:21Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/306"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/295",
-        "title": "feat(webseed): coordinate WebSeeds with swarm piece picker, fallback on zero swarm availability, and enforce SHA-1 piece validation",
-        "updated_at": "2026-09-15T23:10:42Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/295"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/294",
-        "title": "fix(webseed): implement HTTP error handling, Retry-After backoff, and dead web seed circuit breaker",
-        "updated_at": "2026-09-15T23:10:38Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/294"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/291",
-        "title": "security(torrents): implement QBittorrent renameFile endpoint, sanitize directory traversal in file/torrent renames, and add UI inline renaming",
-        "updated_at": "2026-09-15T23:09:16Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/291"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/289",
-        "title": "fix(torrent): resolve SourcePath vs SavePath inversion in setLocation, synchronize DB fields, and implement disk file relocation",
-        "updated_at": "2026-09-16T00:12:54Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/289"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/286",
-        "title": "feat(queue): wire QueueConcurrencyCard settings to backend ConfigService and enforce MaxActiveDownloads and MaxActiveSeeds",
-        "updated_at": "2026-09-15T23:08:59Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/286"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/282",
-        "title": "feat(diagnostics): add container-aware memory metrics with cgroup limits and system resource telemetry",
-        "updated_at": "2026-09-15T23:06:47Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/282"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/281",
-        "title": "fix(health): resolve camelCase enum mismatch masking health alerts in UI and broadcast HealthCheckCompleted via SignalR",
-        "updated_at": "2026-09-15T23:06:40Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/281"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/280",
-        "title": "fix(speedschedule): broadcast SignalR updates on schedule mutations and invalidate active speed limits on Turtle Mode toggle",
-        "updated_at": "2026-09-15T23:05:45Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/280"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/278",
-        "title": "feat(speedschedule): implement interactive drag-to-select time-block painting with window mouseup and touch support in WeeklyCalendar",
-        "updated_at": "2026-09-15T23:05:34Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/278"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/277",
-        "title": "feat(storage): implement in-memory PieceCache with pre-flush SHA-1 verification and synchronous OS fsync",
-        "updated_at": "2026-09-16T00:25:12Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/277"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/276",
-        "title": "fix(storage): enforce FileShare.ReadWrite and thread-safe file handle pooling to prevent concurrent I/O access collisions",
-        "updated_at": "2026-09-16T00:25:04Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/276"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/275",
-        "title": "feat(storage): implement disk space preallocation (posix_fallocate / sparse files) to prevent fragmentation and mid-download disk exhaustion",
-        "updated_at": "2026-09-16T00:24:58Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/275"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/274",
-        "title": "feat(storage): implement MultiFilePieceStorage to handle piece and block I/O spanning across file boundaries",
-        "updated_at": "2026-09-16T00:24:50Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/274"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/273",
-        "title": "fix(tags): enforce case-insensitive uniqueness on tag labels and return 404 on missing tag update",
-        "updated_at": "2026-09-16T00:52:47Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/273"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/269",
-        "title": "perf(ui): virtualize log rendering and debounce search input in SystemLogs to prevent DOM flooding and UI freeze",
-        "updated_at": "2026-09-15T23:03:59Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/269"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/267",
-        "title": "fix(logging): initialize FileTarget during host startup to prevent silent loss of startup and crash logs",
-        "updated_at": "2026-09-15T23:03:54Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/267"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/266",
-        "title": "feat(utp): implement LEDBAT congestion control (RFC 6817) with base delay and dynamic congestion window",
-        "updated_at": "2026-09-16T01:01:53Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/266"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/265",
-        "title": "perf(logging): prevent thread pool lock contention in RingBufferTarget with asynchronous write buffering and snapshot reads",
-        "updated_at": "2026-09-15T23:03:49Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/265"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/262",
-        "title": "fix(peers): enforce IP blocklist on inbound TCP accept, outbound connection attempts, and peer discovery pools",
-        "updated_at": "2026-09-15T23:02:01Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/262"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/261",
-        "title": "perf(security): implement O(log N) binary search interval tree with atomic swap for high-performance blocklist IP matching",
-        "updated_at": "2026-09-15T23:01:56Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/261"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/260",
-        "title": "feat(security): implement PeerBlocklistService with P2P, DAT, and CIDR format parsing, Gzip/Zip decompression, and auto-refresh",
-        "updated_at": "2026-09-15T23:01:45Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/260"
-      }
-    ]
-  },
-  "https://api.github.com/repos/dmzoneill/Seedarr/pulls?state=open": {
-    "t": 1789927843.3415897,
+    "t": 1789971608.2173996,
     "v": []
   },
   "https://api.github.com/repos/dmzoneill/ansible-feeditout-com/issues?state=open": {
-    "t": 1789927847.6348286,
+    "t": 1789971614.1530461,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/ansible-feeditout-com/issues/455",
@@ -219,7 +30,7 @@
       {
         "html_url": "https://github.com/dmzoneill/ansible-feeditout-com/issues/454",
         "title": "[ALERT] SystemdUnitFailed \u2014 ",
-        "updated_at": "2026-09-20T17:59:51Z",
+        "updated_at": "2026-09-21T06:19:22Z",
         "url": "https://api.github.com/repos/dmzoneill/ansible-feeditout-com/issues/454"
       },
       {
@@ -267,19 +78,19 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/ansible-feeditout-com/pulls?state=open": {
-    "t": 1789927848.286111,
+    "t": 1789971614.8605735,
     "v": []
   },
   "https://api.github.com/repos/dmzoneill/ashtangayogacork.ie-assets/languages": {
-    "t": 1789927851.56149,
+    "t": 1789971618.417377,
     "v": {}
   },
   "https://api.github.com/repos/dmzoneill/github-ai-contributor/languages": {
-    "t": 1789927844.6130483,
+    "t": 1789971611.0917406,
     "v": {}
   },
   "https://api.github.com/repos/dmzoneill/harpnet.ie/issues?state=open": {
-    "t": 1789927845.6264045,
+    "t": 1789971611.960703,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/harpnet.ie/issues/44",
@@ -464,19 +275,19 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/harpnet.ie/languages": {
-    "t": 1789927846.8962247,
+    "t": 1789971613.3623023,
     "v": {}
   },
   "https://api.github.com/repos/dmzoneill/harpnet.ie/pulls?state=open": {
-    "t": 1789927846.265324,
+    "t": 1789971612.669503,
     "v": []
   },
   "https://api.github.com/repos/dmzoneill/hevyapp-api/languages": {
-    "t": 1789927850.9233434,
+    "t": 1789971617.7314286,
     "v": {}
   },
   "https://api.github.com/repos/dmzoneill/lidarr-youtube-downloader/issues?state=open": {
-    "t": 1789927837.135375,
+    "t": 1789971604.4610808,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/lidarr-youtube-downloader/issues/31",
@@ -523,15 +334,15 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/lidarr-youtube-downloader/pulls?state=open": {
-    "t": 1789927837.7871318,
+    "t": 1789971605.2183652,
     "v": []
   },
   "https://api.github.com/repos/dmzoneill/my-history/languages": {
-    "t": 1789927856.5160599,
+    "t": 1789971622.9248765,
     "v": {}
   },
   "https://api.github.com/repos/dmzoneill/pass-gnome-extension/issues?state=open": {
-    "t": 1789927849.0254216,
+    "t": 1789971615.6361241,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/pass-gnome-extension/issues/3",
@@ -542,15 +353,15 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/pass-gnome-extension/pulls?state=open": {
-    "t": 1789927849.6719291,
+    "t": 1789971616.3575635,
     "v": []
   },
   "https://api.github.com/repos/dmzoneill/pass/languages": {
-    "t": 1789927850.2960463,
+    "t": 1789971617.050557,
     "v": {}
   },
   "https://api.github.com/repos/dmzoneill/php-binance-bot/issues?state=open": {
-    "t": 1789927852.90464,
+    "t": 1789971619.9209795,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/php-binance-bot/issues/1",
@@ -561,11 +372,11 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/php-binance-bot/pulls?state=open": {
-    "t": 1789927854.5368383,
+    "t": 1789971620.6335955,
     "v": []
   },
   "https://api.github.com/repos/dmzoneill/securetty/issues?state=open": {
-    "t": 1789927841.2489488,
+    "t": 1789971608.988696,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/securetty/issues/175",
@@ -624,11 +435,11 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/securetty/pulls?state=open": {
-    "t": 1789927841.908345,
+    "t": 1789971609.7134032,
     "v": []
   },
   "https://api.github.com/repos/dmzoneill/seedmagepp/issues?state=open": {
-    "t": 1789927855.226213,
+    "t": 1789971621.435075,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/seedmagepp/issues/1",
@@ -639,15 +450,15 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/seedmagepp/pulls?state=open": {
-    "t": 1789927855.8630605,
+    "t": 1789971622.1791239,
     "v": []
   },
   "https://api.github.com/repos/dmzoneill/skills/languages": {
-    "t": 1789927843.9778106,
+    "t": 1789971610.4000213,
     "v": {}
   },
   "https://api.github.com/repos/dmzoneill/tado-gnome-shell-extension/issues?state=open": {
-    "t": 1789927838.4822254,
+    "t": 1789971606.0089595,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/tado-gnome-shell-extension/issues/2",
@@ -658,11 +469,11 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/tado-gnome-shell-extension/pulls?state=open": {
-    "t": 1789927839.121105,
+    "t": 1789971606.7112026,
     "v": []
   },
   "https://api.github.com/users/dmzoneill/gists": {
-    "t": 1789927858.1137676,
+    "t": 1789971624.6146336,
     "v": [
       {
         "description": "modern-hints.sh \u2014 Non-obtrusive bash hints suggesting modern alternatives to legacy Linux commands. Writes to /dev/tty so it never interferes with pipes or redirects.",

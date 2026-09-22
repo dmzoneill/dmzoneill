@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-22/09/2026 06:15:21-brightgreen" height='28'/> &nbsp;&nbsp; <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=dmzoneill&color=brightgreen&style=for-the-badge" height='28'/> &nbsp;&nbsp; <img alt="Redhat" width='30' height='25' src="https://github.com/dmzoneill/dmzoneill/blob/main/images/redhat.svg?raw=true" />
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-22/09/2026 12:13:47-brightgreen" height='28'/> &nbsp;&nbsp; <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=dmzoneill&color=brightgreen&style=for-the-badge" height='28'/> &nbsp;&nbsp; <img alt="Redhat" width='30' height='25' src="https://github.com/dmzoneill/dmzoneill/blob/main/images/redhat.svg?raw=true" />
 
 <img src="generated/timeline.svg" width="760" alt="timeline"/>
 
@@ -40,7 +40,7 @@
 </details>
 <details>
 <summary><strong>Recent Activity (100)</strong></summary>
-<ul><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/456'>[ALERT] PrometheusTargetDown — </a></li><li><a href='https://api.github.com/repos/dmzoneill/Leecharr'>dmzoneill/Leecharr</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/456'>[ALERT] PrometheusTargetDown — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/456'>[ALERT] PrometheusTargetDown — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/456'>[ALERT] PrometheusTargetDown — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/456'>[ALERT] PrometheusTargetDown — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/456'>[ALERT] PrometheusTargetDown — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/456'>[ALERT] PrometheusTargetDown — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/456'>[ALERT] PrometheusTargetDown — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/456'>[ALERT] PrometheusTargetDown — </a></li><li><a href='https://api.github.com/repos/dmzoneill/Seedarr'>dmzoneill/Seedarr</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/456'>[ALERT] PrometheusTargetDown — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/456'>[ALERT] PrometheusTargetDown — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/456'>[ALERT] PrometheusTargetDown — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/456'>[ALERT] PrometheusTargetDown — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/456'>[ALERT] PrometheusTargetDown — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/454'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/454'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://api.github.com/repos/dmzoneill/torrent-speedtest'>dmzoneill/torrent-speedtest</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/454'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/454'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/454'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/454'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/454'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/454'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/454'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/454'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/454'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/454'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/454'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/454'>[ALERT] SystemdUnitFailed — </a></li></ul>
+<ul><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/456'>[ALERT] PrometheusTargetDown — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/456'>[ALERT] PrometheusTargetDown — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/456'>[ALERT] PrometheusTargetDown — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/456'>[ALERT] PrometheusTargetDown — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/456'>[ALERT] PrometheusTargetDown — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/456'>[ALERT] PrometheusTargetDown — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/456'>[ALERT] PrometheusTargetDown — </a></li><li><a href='https://api.github.com/repos/dmzoneill/Leecharr'>dmzoneill/Leecharr</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/456'>[ALERT] PrometheusTargetDown — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/456'>[ALERT] PrometheusTargetDown — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/456'>[ALERT] PrometheusTargetDown — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/456'>[ALERT] PrometheusTargetDown — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/456'>[ALERT] PrometheusTargetDown — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/456'>[ALERT] PrometheusTargetDown — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/456'>[ALERT] PrometheusTargetDown — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/456'>[ALERT] PrometheusTargetDown — </a></li><li><a href='https://api.github.com/repos/dmzoneill/Seedarr'>dmzoneill/Seedarr</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/456'>[ALERT] PrometheusTargetDown — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/456'>[ALERT] PrometheusTargetDown — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/456'>[ALERT] PrometheusTargetDown — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/456'>[ALERT] PrometheusTargetDown — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/456'>[ALERT] PrometheusTargetDown — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/454'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/454'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://api.github.com/repos/dmzoneill/torrent-speedtest'>dmzoneill/torrent-speedtest</a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/454'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/454'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/454'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/454'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/454'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/454'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/454'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/454'>[ALERT] SystemdUnitFailed — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/454'>[ALERT] SystemdUnitFailed — </a></li></ul>
 </details>
 <details>
 <summary><strong>Gists (24)</strong></summary>
@@ -62,17 +62,17 @@
     </tr>
   </thead>
   <tbody>
-    <tr><td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>14551971</td>
-<td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>2691855</td>
-<td><img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile'  height='20px'/></td><td>19215</td>
+    <tr><td><img src='https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white' title='C#'  height='20px'/></td><td>23364412</td>
+<td><img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript'  height='20px'/></td><td>13351786</td>
+<td><img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS'  height='20px'/></td><td>17007998</td>
 <td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>478644</td>
 </tr><tr>
-<td><img src='https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white' title='C#'  height='20px'/></td><td>23364194</td>
-<td><img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript'  height='20px'/></td><td>13351384</td>
-<td><img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS'  height='20px'/></td><td>17007998</td>
 <td><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript'  height='20px'/></td><td>32582264</td>
-</tr><tr>
+<td><img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile'  height='20px'/></td><td>19215</td>
 <td><img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML'  height='20px'/></td><td>13459995</td>
+<td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>2691855</td>
+</tr><tr>
+<td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>14551971</td>
 <td><img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP'  height='20px'/></td><td>184862778</td>
 <td><img src='https://img.shields.io/badge/_-SCSS -11DDDD.svg?style=for-the-badge' title='SCSS'  height='20px'/></td><td>467693</td>
 <td><img src='https://img.shields.io/badge/_-Jinja -11DDDD.svg?style=for-the-badge' title='Jinja'  height='20px'/></td><td>102052</td>
@@ -371,6 +371,22 @@
 
 </tbody></table><details><summary><strong>2026 (14 projects)</strong></summary><table width='100%' style='width:100%'><thead><tr><th>Project</th><th>View</th><th>Status</th></tr></thead><tbody><tr>
             <td>
+              <p><h2><a href='https://github.com/dmzoneill/Seedarr' title='Seedarr'>Seedarr</a> (2026)</h2></p><p><img src='https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white' title='C#' height='20px'/> <img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/</p>
+              <p>Apache License 2.0</p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+            </td>
+            <td>
+              <p><a href='' title=''></a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/Seedarr/actions'><img src='https://github.com/dmzoneill//Seedarr/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2026-09-22</p>
+            </td>
+        </tr>
+<tr>
+            <td>
               <p><h2><a href='https://github.com/dmzoneill/torrent-speedtest' title='torrent-speedtest'>torrent-speedtest</a> (2026)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile' height='20px'/</p>
               <p>Apache License 2.0</p>
               <p><h4>Recent Activity</h4><ul><li><a href='https://api.github.com/repos/dmzoneill/torrent-speedtest'>dmzoneill/torrent-speedtest</a></li></ul></p>
@@ -398,22 +414,6 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/Leecharr/actions'><img src='https://github.com/dmzoneill//Leecharr/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2026-09-21</p>
-            </td>
-        </tr>
-<tr>
-            <td>
-              <p><h2><a href='https://github.com/dmzoneill/Seedarr' title='Seedarr'>Seedarr</a> (2026)</h2></p><p><img src='https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white' title='C#' height='20px'/> <img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/</p>
-              <p>Apache License 2.0</p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-            </td>
-            <td>
-              <p><a href='' title=''></a></p>
-            </td>
-            <td align="center">
-              <a href='https://github.com/dmzoneill/Seedarr/actions'><img src='https://github.com/dmzoneill//Seedarr/actions/workflows/main.yml/badge.svg'/></a>
               <p>2026-09-21</p>
             </td>
         </tr>
@@ -597,7 +597,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/ansible-feeditout-com' title='ansible-feeditout-com'>ansible-feeditout-com</a> (2025)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/_-Jinja -11DDDD.svg?style=for-the-badge' title='Jinja' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/> <img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/456'>[ALERT] PrometheusTargetDown — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/456'>[ALERT] PrometheusTargetDown — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/456'>[ALERT] PrometheusTargetDown — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/456'>[ALERT] PrometheusTargetDown — </a></li></ul></p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/456'>[ALERT] PrometheusTargetDown — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/456'>[ALERT] PrometheusTargetDown — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/456'>[ALERT] PrometheusTargetDown — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/456'>[ALERT] PrometheusTargetDown — </a></li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/456'>[ALERT] PrometheusTargetDown — </a></li></ul></p>
               <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/456'>[ALERT] PrometheusTargetDown — </a> 2026-09-21</li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/455'>[ALERT] HighTcpConnections — </a> 2026-09-21</li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/454'>[ALERT] SystemdUnitFailed — </a> 2026-09-21</li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/453'>[ALERT] SystemdUnitFailed — </a> 2026-09-21</li><li><a href='https://github.com/dmzoneill/ansible-feeditout-com/issues/452'>[ALERT] SystemdUnitFailed — </a> 2026-09-21</li></ul></p>
               <p><ul></ul></p>
             </td>

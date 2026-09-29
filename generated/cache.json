@@ -18,6 +18,208 @@
     "t": 1790662551.3783174,
     "v": []
   },
+  "https://api.github.com/repos/dmzoneill/Leecharr/issues?state=open": {
+    "t": 1790705582.640019,
+    "v": [
+      {
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/982",
+        "title": "[Developer / Webhooks] Real inbound webhooks in ArrWebhookController bypass IDeveloperWebhookStore, and simulation sandbox performs shallow JSON check without pipeline dispatch",
+        "updated_at": "2026-09-29T18:06:36Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/982"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/981",
+        "title": "[Developer / Commands] Command parameter execution in DeveloperCommands drops PascalCase parameters due to STJson case-sensitive camelCase naming policy, and forces non-nullable defaults",
+        "updated_at": "2026-09-29T18:06:28Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/981"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/980",
+        "title": "[Frontend / Statistics] Statistics passes undefined stats.overallRatio to SeedingSimulator zeroing global ratio, and tracker links drop tracker filter query parameter on redirect to Torrents",
+        "updated_at": "2026-09-29T18:06:20Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/980"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/979",
+        "title": "[Developer / Events] PublishSyntheticEvent records DeveloperSyntheticEvent wrapper type and mangled payload instead of target event, and omits dispatch to IEventAggregator",
+        "updated_at": "2026-09-29T18:06:10Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/979"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/978",
+        "title": "[Developer / Testing] DeveloperTestRunner truncated from 56 to 8 smoke tests, omitting System and Configuration categories and causing integration test failures",
+        "updated_at": "2026-09-29T18:06:01Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/978"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/977",
+        "title": "[REST API / Trackers] AddTracker drops tier parameter from frontend and hardcodes Tier = 0",
+        "updated_at": "2026-09-29T18:02:54Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/977"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/976",
+        "title": "[Frontend / Trackers] Removing primary/fallback tracker (Id 0) in TrackersTab silently fails and tracker persists indefinitely",
+        "updated_at": "2026-09-29T18:02:45Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/976"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/975",
+        "title": "[Frontend / OptionsTab] Availability Threshold and Small Torrent Limit settings are dropped on save and hardcoded to default values",
+        "updated_at": "2026-09-29T18:02:36Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/975"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/974",
+        "title": "[Frontend / Proxy] Disabling proxy in ProxySettingsTab leaves forceProxy active in form state and permanently blocks DHT and LPD in MonoTorrentDownloadEngine",
+        "updated_at": "2026-09-29T17:56:31Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/974"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/973",
+        "title": "[Frontend / Protocols] ProtocolsSettingsTab tracks unrendered state and omits UI controls for failoverMaxConsecutiveFailures, failoverBackoffBaseSeconds, and failoverMaxBackoffSeconds",
+        "updated_at": "2026-09-29T17:56:21Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/973"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/972",
+        "title": "[BitTorrent / DHT] DhtBootstrapNodes configured in DhtSettingsTab is completely unwired across all BitTorrent engines",
+        "updated_at": "2026-09-29T17:56:12Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/972"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/971",
+        "title": "[BitTorrent / libtorrent Engine] LibTorrentDownloadEngine does not implement IHandle<ConfigSavedEvent>, ignoring all Proxy, Listening Port, Bandwidth, and DHT settings saved from UI",
+        "updated_at": "2026-09-29T17:56:06Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/971"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/970",
+        "title": "[Arr Integration / Connections] Arr connection card Test button passes masked '********' API key to TestDirectInternal, failing with HTTP 401 Unauthorized",
+        "updated_at": "2026-09-29T17:55:58Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/970"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/969",
+        "title": "[Frontend / SystemStatus] Missing 'Restart Server' and 'Shut Down Leecharr' controls in SystemStatus.tsx",
+        "updated_at": "2026-09-29T17:51:43Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/969"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/968",
+        "title": "[System / Tasks] Task execution fails with 404 on typeName fallback, invalid task ID returns 200 OK with phantom command, and Command Queue lacks Cancel action",
+        "updated_at": "2026-09-29T17:51:25Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/968"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/967",
+        "title": "[Frontend / SystemUpdates] Missing 'Check for Updates' and 'Install Update' interactive controls in SystemUpdates.tsx",
+        "updated_at": "2026-09-29T17:51:11Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/967"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/966",
+        "title": "[Frontend / IdleLock] IdleLockModal prompts user to enter password or API key, but login backend only validates hashed passwords, causing permanent 401 on API key unlock",
+        "updated_at": "2026-09-29T17:41:37Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/966"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/965",
+        "title": "[Frontend / Trackers] TrackerMultiSelectModal omits custom tracker URLs from candidate list and prematurely unmounts on batch addition",
+        "updated_at": "2026-09-29T17:41:29Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/965"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/964",
+        "title": "[Frontend / Torrent Creation] TorrentCreationTab flattens multi-tracker input and discards empty lines, failing to pass trackerTiers and breaking BEP 12 multi-tracker tiers",
+        "updated_at": "2026-09-29T17:41:05Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/964"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/963",
+        "title": "[Frontend / Package Import] ImportPackageModal hardcodes root path bypassing getUrlBase() and omits X-Api-Key header, breaking reverse proxy subpaths (404) and authenticated uploads (401)",
+        "updated_at": "2026-09-29T17:40:50Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/963"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/962",
+        "title": "[Frontend / Clipboard & Export] TerminalView and RadarView call navigator.clipboard.writeText without secure context fallback crashing on HTTP, and RadarView omits DOM attachment on .txt export",
+        "updated_at": "2026-09-29T17:37:30Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/962"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/961",
+        "title": "fix(media): mediaPlayer.ts stream, download, and M3U playlist URL builders bypass getUrlBase() causing 404 behind reverse proxy subpaths",
+        "updated_at": "2026-09-29T17:37:25Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/961"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/960",
+        "title": "[Frontend / SystemLogs] toLogLevel normalizer maps 'Fatal' and 'Warning' log levels to 'Info', displaying critical application crashes as informational",
+        "updated_at": "2026-09-29T17:37:22Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/960"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/959",
+        "title": "fix(frontend): FileBrowser 'Open in CLI' button drops target directory query parameter during redirect",
+        "updated_at": "2026-09-29T17:37:15Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/959"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/958",
+        "title": "[Frontend / SystemLogs] System log file downloads omit API key authentication query parameter, causing 401 Unauthorized / login redirection for API key authenticated sessions",
+        "updated_at": "2026-09-29T17:37:14Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/958"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/957",
+        "title": "fix(frontend): Indexers.tsx buttons (Manage Indexers, Configure Indexers, and indexer filter pills) fail silently due to missing router navigation",
+        "updated_at": "2026-09-29T17:37:06Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/957"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/956",
+        "title": "[Frontend / SignalR] isHandledByNamedEvent early return in SignalRProvider silences tracker, seeding, and schedule query invalidations in onReceiveMessage",
+        "updated_at": "2026-09-29T17:37:06Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/956"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/955",
+        "title": "fix(frontend): useIndexerSearch returns IndexerSearchEnvelope object instead of array, breaking Indexers, IndexerSearchTab, and IndexerSearchModal",
+        "updated_at": "2026-09-29T17:36:59Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/955"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/954",
+        "title": "[Frontend / TrackerBoost] HarvesterPanel assigns stale torrentId to history downloads causing Inspect, Boost, and Inject actions to fail with 'Torrent not found'",
+        "updated_at": "2026-09-29T17:36:58Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/954"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/953",
+        "title": "[Queue / Settings] QueueSettingsTab enforces min={1} on Max Active Downloads and Seeds, preventing users from configuring unlimited concurrency (0)",
+        "updated_at": "2026-09-29T17:26:34Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/953"
+      }
+    ]
+  },
+  "https://api.github.com/repos/dmzoneill/Leecharr/pulls?state=open": {
+    "t": 1790705583.3845053,
+    "v": [
+      {
+        "html_url": "https://github.com/dmzoneill/Leecharr/pull/943",
+        "title": "build(deps): bump webpack-dev-middleware from 8.1.1 to 8.3.0 in /src/Leecharr.Frontend",
+        "updated_at": "2026-09-29T17:20:38Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/pulls/943"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Leecharr/pull/942",
+        "title": "build(deps-dev): bump fast-uri from 3.1.6 to 3.1.8 in /src/Leecharr.Frontend",
+        "updated_at": "2026-09-29T01:32:01Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/pulls/942"
+      }
+    ]
+  },
   "https://api.github.com/repos/dmzoneill/ansible-feeditout-com/issues?state=open": {
     "t": 1790662557.4723756,
     "v": [

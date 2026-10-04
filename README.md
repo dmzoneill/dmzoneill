@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-04/10/2026 03:55:05-brightgreen" height='28'/> &nbsp;&nbsp; <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=dmzoneill&color=brightgreen&style=for-the-badge" height='28'/> &nbsp;&nbsp; <img alt="Redhat" width='30' height='25' src="https://github.com/dmzoneill/dmzoneill/blob/main/images/redhat.svg?raw=true" />
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-04/10/2026 11:42:24-brightgreen" height='28'/> &nbsp;&nbsp; <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=dmzoneill&color=brightgreen&style=for-the-badge" height='28'/> &nbsp;&nbsp; <img alt="Redhat" width='30' height='25' src="https://github.com/dmzoneill/dmzoneill/blob/main/images/redhat.svg?raw=true" />
 
 <img src="generated/timeline.svg" width="760" alt="timeline"/>
 
@@ -62,71 +62,72 @@
     </tr>
   </thead>
   <tbody>
-    <tr><td><img src='https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white' title='C#'  height='20px'/></td><td>26947369</td>
-<td><img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript'  height='20px'/></td><td>16939720</td>
+    <tr><td><img src='https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white' title='C#'  height='20px'/></td><td>27155697</td>
+<td><img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript'  height='20px'/></td><td>17082528</td>
 <td><img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS'  height='20px'/></td><td>17037279</td>
-<td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>14558381</td>
+<td><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript'  height='20px'/></td><td>32615155</td>
 </tr><tr>
-<td><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript'  height='20px'/></td><td>32607391</td>
+<td><img src='https://img.shields.io/badge/_-Mermaid -11DDDD.svg?style=for-the-badge' title='Mermaid'  height='20px'/></td><td>40993</td>
 <td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>482948</td>
 <td><img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile'  height='20px'/></td><td>19275</td>
 <td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>2693504</td>
 </tr><tr>
 <td><img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML'  height='20px'/></td><td>13459995</td>
+<td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>14558381</td>
 <td><img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP'  height='20px'/></td><td>184864770</td>
 <td><img src='https://img.shields.io/badge/_-SCSS -11DDDD.svg?style=for-the-badge' title='SCSS'  height='20px'/></td><td>467693</td>
-<td><img src='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' title='Java'  height='20px'/></td><td>2101717</td>
 </tr><tr>
+<td><img src='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' title='Java'  height='20px'/></td><td>2101717</td>
 <td><img src='https://img.shields.io/badge/_-XSLT -11DDDD.svg?style=for-the-badge' title='XSLT'  height='20px'/></td><td>194758</td>
 <td><img src='https://img.shields.io/badge/_-VCL -11DDDD.svg?style=for-the-badge' title='VCL'  height='20px'/></td><td>3906</td>
 <td><img src='https://img.shields.io/badge/_-Hack -11DDDD.svg?style=for-the-badge' title='Hack'  height='20px'/></td><td>242245</td>
-<td><img src='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' title='Go'  height='20px'/></td><td>1627084</td>
 </tr><tr>
+<td><img src='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' title='Go'  height='20px'/></td><td>1627084</td>
 <td><img src='https://img.shields.io/badge/_-Jinja -11DDDD.svg?style=for-the-badge' title='Jinja'  height='20px'/></td><td>102052</td>
 <td><img src='https://img.shields.io/badge/_-M4 -11DDDD.svg?style=for-the-badge' title='M4'  height='20px'/></td><td>124107</td>
 <td><img src='https://img.shields.io/badge/_-PLpgSQL -11DDDD.svg?style=for-the-badge' title='PLpgSQL'  height='20px'/></td><td>869</td>
-<td><img src='https://img.shields.io/badge/_-QML -11DDDD.svg?style=for-the-badge' title='QML'  height='20px'/></td><td>41756</td>
 </tr><tr>
+<td><img src='https://img.shields.io/badge/_-QML -11DDDD.svg?style=for-the-badge' title='QML'  height='20px'/></td><td>41756</td>
 <td><img src='https://img.shields.io/badge/_-Visual Basic .NET -11DDDD.svg?style=for-the-badge' title='Visual Basic .NET'  height='20px'/></td><td>758279</td>
 <td><img src='https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white' title='C++'  height='20px'/></td><td>359606</td>
 <td><img src='https://img.shields.io/badge/_-QMake -11DDDD.svg?style=for-the-badge' title='QMake'  height='20px'/></td><td>468</td>
-<td><img src='https://img.shields.io/badge/_-Go Template -11DDDD.svg?style=for-the-badge' title='Go Template'  height='20px'/></td><td>134526</td>
 </tr><tr>
+<td><img src='https://img.shields.io/badge/_-Go Template -11DDDD.svg?style=for-the-badge' title='Go Template'  height='20px'/></td><td>134526</td>
 <td><img src='https://img.shields.io/badge/_-Smarty -11DDDD.svg?style=for-the-badge' title='Smarty'  height='20px'/></td><td>1999142</td>
 <td><img src='https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white' title='PowerShell'  height='20px'/></td><td>3697</td>
 <td><img src='https://img.shields.io/badge/_-Batchfile -11DDDD.svg?style=for-the-badge' title='Batchfile'  height='20px'/></td><td>5320</td>
-<td><img src='https://img.shields.io/badge/perl-%2339457E.svg?style=for-the-badge&logo=perl&logoColor=white' title='Perl'  height='20px'/></td><td>9291917</td>
 </tr><tr>
+<td><img src='https://img.shields.io/badge/perl-%2339457E.svg?style=for-the-badge&logo=perl&logoColor=white' title='Perl'  height='20px'/></td><td>9291917</td>
 <td><img src='https://camo.githubusercontent.com/6e5b1cbf25a32a79ed458dc14f5a66b8d89e525de7a9558ec10a50e7129ea2cc/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d50757070657426636f6c6f723d323232323232266c6f676f3d507570706574266c6f676f436f6c6f723d464641453141266c6162656c3d' title='Puppet'  height='20px'/></td><td>129953</td>
 <td><img src='https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white' title='Ruby'  height='20px'/></td><td>505556</td>
 <td><img src='https://img.shields.io/badge/_-Prolog -11DDDD.svg?style=for-the-badge' title='Prolog'  height='20px'/></td><td>80451</td>
-<td><img src='https://img.shields.io/badge/_-SystemVerilog -11DDDD.svg?style=for-the-badge' title='SystemVerilog'  height='20px'/></td><td>19753</td>
 </tr><tr>
+<td><img src='https://img.shields.io/badge/_-SystemVerilog -11DDDD.svg?style=for-the-badge' title='SystemVerilog'  height='20px'/></td><td>19753</td>
 <td><img src='https://img.shields.io/badge/_-Sway -11DDDD.svg?style=for-the-badge' title='Sway'  height='20px'/></td><td>14501</td>
 <td><img src='https://img.shields.io/badge/_-ActionScript -11DDDD.svg?style=for-the-badge' title='ActionScript'  height='20px'/></td><td>32949</td>
 <td><img src='https://img.shields.io/badge/_-Classic ASP -11DDDD.svg?style=for-the-badge' title='Classic ASP'  height='20px'/></td><td>842274</td>
-<td><img src='https://img.shields.io/badge/_-TSQL -11DDDD.svg?style=for-the-badge' title='TSQL'  height='20px'/></td><td>163674</td>
 </tr><tr>
+<td><img src='https://img.shields.io/badge/_-TSQL -11DDDD.svg?style=for-the-badge' title='TSQL'  height='20px'/></td><td>163674</td>
 <td><img src='https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white' title='Swift'  height='20px'/></td><td>163276</td>
 <td><img src='https://img.shields.io/badge/_-Roff -11DDDD.svg?style=for-the-badge' title='Roff'  height='20px'/></td><td>59642</td>
 <td><img src='https://img.shields.io/badge/_-Pascal -11DDDD.svg?style=for-the-badge' title='Pascal'  height='20px'/></td><td>27839</td>
-<td><img src='https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white' title='Kotlin'  height='20px'/></td><td>24599</td>
 </tr><tr>
+<td><img src='https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white' title='Kotlin'  height='20px'/></td><td>24599</td>
 <td><img src='https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white' title='C'  height='20px'/></td><td>10624654</td>
 <td><img src='https://img.shields.io/badge/_-Raku -11DDDD.svg?style=for-the-badge' title='Raku'  height='20px'/></td><td>1676531</td>
 <td><img src='https://img.shields.io/badge/_-PLSQL -11DDDD.svg?style=for-the-badge' title='PLSQL'  height='20px'/></td><td>60389</td>
-<td><img src='https://img.shields.io/badge/_-PostScript -11DDDD.svg?style=for-the-badge' title='PostScript'  height='20px'/></td><td>425843</td>
 </tr><tr>
+<td><img src='https://img.shields.io/badge/_-PostScript -11DDDD.svg?style=for-the-badge' title='PostScript'  height='20px'/></td><td>425843</td>
 <td><img src='https://img.shields.io/badge/_-ColdFusion -11DDDD.svg?style=for-the-badge' title='ColdFusion'  height='20px'/></td><td>19136</td>
 <td><img src='https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white' title='TeX'  height='20px'/></td><td>587802</td>
 <td><img src='https://img.shields.io/badge/_-Rich Text Format -11DDDD.svg?style=for-the-badge' title='Rich Text Format'  height='20px'/></td><td>78076</td>
-<td><img src='https://img.shields.io/badge/_-Smalltalk -11DDDD.svg?style=for-the-badge' title='Smalltalk'  height='20px'/></td><td>744</td>
 </tr><tr>
+<td><img src='https://img.shields.io/badge/_-Smalltalk -11DDDD.svg?style=for-the-badge' title='Smalltalk'  height='20px'/></td><td>744</td>
 <td><img src='https://img.shields.io/badge/_-VBScript -11DDDD.svg?style=for-the-badge' title='VBScript'  height='20px'/></td><td>5008</td>
 <td><img src='https://img.shields.io/badge/_-Vim Script -11DDDD.svg?style=for-the-badge' title='Vim Script'  height='20px'/></td><td>3162</td>
 <td><img src='https://img.shields.io/badge/_-Tcl -11DDDD.svg?style=for-the-badge' title='Tcl'  height='20px'/></td><td>1220822</td>
-<td><img src='https://img.shields.io/badge/_-Inno Setup -11DDDD.svg?style=for-the-badge' title='Inno Setup'  height='20px'/></td><td>6073</td>
 </tr><tr>
+<td><img src='https://img.shields.io/badge/_-Inno Setup -11DDDD.svg?style=for-the-badge' title='Inno Setup'  height='20px'/></td><td>6073</td>
 <td><img src='https://img.shields.io/badge/_-YARA -11DDDD.svg?style=for-the-badge' title='YARA'  height='20px'/></td><td>1898925</td>
 <td><img src='https://img.shields.io/badge/_-Emacs Lisp -11DDDD.svg?style=for-the-badge' title='Emacs Lisp'  height='20px'/></td><td>1848</td>
 </tr>
@@ -157,7 +158,7 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2026-10-03</p>
+              <p>2026-10-04</p>
             </td>
         </tr>
 <tr>
@@ -371,22 +372,6 @@
 
 </tbody></table><details><summary><strong>2026 (14 projects)</strong></summary><table width='100%' style='width:100%'><thead><tr><th>Project</th><th>View</th><th>Status</th></tr></thead><tbody><tr>
             <td>
-              <p><h2><a href='https://github.com/dmzoneill/Leecharr' title='Leecharr'>Leecharr</a> (2026)</h2></p><p><img src='https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white' title='C#' height='20px'/> <img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/</p>
-              <p>Apache License 2.0</p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-            </td>
-            <td>
-              <p><a href='' title=''></a></p>
-            </td>
-            <td align="center">
-              <a href='https://github.com/dmzoneill/Leecharr/actions'><img src='https://github.com/dmzoneill//Leecharr/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2026-10-03</p>
-            </td>
-        </tr>
-<tr>
-            <td>
               <p><h2><a href='https://github.com/dmzoneill/Seedarr' title='Seedarr'>Seedarr</a> (2026)</h2></p><p><img src='https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white' title='C#' height='20px'/> <img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
@@ -398,7 +383,23 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/Seedarr/actions'><img src='https://github.com/dmzoneill//Seedarr/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2026-10-03</p>
+              <p>2026-10-04</p>
+            </td>
+        </tr>
+<tr>
+            <td>
+              <p><h2><a href='https://github.com/dmzoneill/Leecharr' title='Leecharr'>Leecharr</a> (2026)</h2></p><p><img src='https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white' title='C#' height='20px'/> <img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/</p>
+              <p>Apache License 2.0</p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+            </td>
+            <td>
+              <p><a href='' title=''></a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/Leecharr/actions'><img src='https://github.com/dmzoneill//Leecharr/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2026-10-04</p>
             </td>
         </tr>
 <tr>

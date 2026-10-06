@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-06/10/2026 12:38:56-brightgreen" height='28'/> &nbsp;&nbsp; <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=dmzoneill&color=brightgreen&style=for-the-badge" height='28'/> &nbsp;&nbsp; <img alt="Redhat" width='30' height='25' src="https://github.com/dmzoneill/dmzoneill/blob/main/images/redhat.svg?raw=true" />
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-06/10/2026 22:13:02-brightgreen" height='28'/> &nbsp;&nbsp; <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=dmzoneill&color=brightgreen&style=for-the-badge" height='28'/> &nbsp;&nbsp; <img alt="Redhat" width='30' height='25' src="https://github.com/dmzoneill/dmzoneill/blob/main/images/redhat.svg?raw=true" />
 
 <img src="generated/timeline.svg" width="760" alt="timeline"/>
 
@@ -40,7 +40,7 @@
 </details>
 <details>
 <summary><strong>Recent Activity (100)</strong></summary>
-<ul><li><a href='https://github.com/dmzoneill/Seedarr/issues/710'>fix(categories): eliminate unbatched N*1 SQLite write transactions during category rename and deletion</a></li><li><a href='https://github.com/dmzoneill/Seedarr/issues/411'>fix(trackers): support BEP 15 compact 18-byte IPv6 peer list parsing in UDP announce responses</a></li></ul>
+<ul><li><a href='https://github.com/dmzoneill/Seedarr/issues/912'>bug(torrents): CancelRecheck leaves torrent stuck in QueuedForChecking when dequeue is skipped</a></li><li><a href='https://github.com/dmzoneill/Seedarr/issues/911'>bug(signalr): scheduled task timeout/cancel leaves incorrect SignalR task lifecycle</a></li><li><a href='https://github.com/dmzoneill/Seedarr/issues/892'>bug(terminal): TerminalHub OnConnectedAsync skips auth abort when HttpContext is missing and Admin RBAC ignores HttpContext principal</a></li><li><a href='https://github.com/dmzoneill/Seedarr/issues/892'>bug(terminal): TerminalHub OnConnectedAsync skips auth abort when HttpContext is missing and Admin RBAC ignores HttpContext principal</a></li><li><a href='https://github.com/dmzoneill/Seedarr/issues/883'>bug(host): duplicate DryIoc singletons from Startup.ConfigureServices break SSL cert hot-reload</a></li></ul>
 </details>
 <details>
 <summary><strong>Gists (24)</strong></summary>
@@ -62,7 +62,7 @@
     </tr>
   </thead>
   <tbody>
-    <tr><td><img src='https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white' title='C#'  height='20px'/></td><td>27414795</td>
+    <tr><td><img src='https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white' title='C#'  height='20px'/></td><td>27525909</td>
 <td><img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript'  height='20px'/></td><td>17082528</td>
 <td><img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS'  height='20px'/></td><td>17037279</td>
 <td><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript'  height='20px'/></td><td>32615155</td>
@@ -73,14 +73,14 @@
 <td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>2693504</td>
 </tr><tr>
 <td><img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML'  height='20px'/></td><td>13459995</td>
+<td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>14558381</td>
 <td><img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP'  height='20px'/></td><td>184864770</td>
 <td><img src='https://img.shields.io/badge/_-SCSS -11DDDD.svg?style=for-the-badge' title='SCSS'  height='20px'/></td><td>467693</td>
-<td><img src='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' title='Java'  height='20px'/></td><td>2101717</td>
 </tr><tr>
+<td><img src='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' title='Java'  height='20px'/></td><td>2101717</td>
 <td><img src='https://img.shields.io/badge/_-XSLT -11DDDD.svg?style=for-the-badge' title='XSLT'  height='20px'/></td><td>194758</td>
 <td><img src='https://img.shields.io/badge/_-VCL -11DDDD.svg?style=for-the-badge' title='VCL'  height='20px'/></td><td>3906</td>
 <td><img src='https://img.shields.io/badge/_-Hack -11DDDD.svg?style=for-the-badge' title='Hack'  height='20px'/></td><td>242245</td>
-<td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>14558381</td>
 </tr><tr>
 <td><img src='https://img.shields.io/badge/_-Jinja -11DDDD.svg?style=for-the-badge' title='Jinja'  height='20px'/></td><td>102052</td>
 <td><img src='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' title='Go'  height='20px'/></td><td>1627084</td>
@@ -374,7 +374,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/Seedarr' title='Seedarr'>Seedarr</a> (2026)</h2></p><p><img src='https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white' title='C#' height='20px'/> <img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><ul></ul></p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/Seedarr/issues/912'>bug(torrents): CancelRecheck leaves torrent stuck in QueuedForChecking when dequeue is skipped</a></li><li><a href='https://github.com/dmzoneill/Seedarr/issues/911'>bug(signalr): scheduled task timeout/cancel leaves incorrect SignalR task lifecycle</a></li><li><a href='https://github.com/dmzoneill/Seedarr/issues/892'>bug(terminal): TerminalHub OnConnectedAsync skips auth abort when HttpContext is missing and Admin RBAC ignores HttpContext principal</a></li><li><a href='https://github.com/dmzoneill/Seedarr/issues/892'>bug(terminal): TerminalHub OnConnectedAsync skips auth abort when HttpContext is missing and Admin RBAC ignores HttpContext principal</a></li><li><a href='https://github.com/dmzoneill/Seedarr/issues/883'>bug(host): duplicate DryIoc singletons from Startup.ConfigureServices break SSL cert hot-reload</a></li></ul></p>
               <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/Seedarr/issues/869'>fix(downloadclients): prevent cross-client sync thrashing and semaphore lock starvation, and prune orphaned DownloadClientStatus on deletion</a> 2026-10-06</li><li><a href='https://github.com/dmzoneill/Seedarr/issues/863'>security(auth): persist revoked sessions across server restarts and enforce bounded cache management in SessionRevocationService</a> 2026-10-06</li><li><a href='https://github.com/dmzoneill/Seedarr/issues/857'>fix(signalr): prevent ghost connection leak in MessageHub.OnConnectedAsync and guard synchronous broadcast exceptions in SignalRMessageBroadcaster</a> 2026-10-06</li><li><a href='https://github.com/dmzoneill/Seedarr/issues/841'>fix(torrents): resolve payload deletion race conditions and missing transaction rollback in TorrentService.DeleteMany</a> 2026-10-06</li><li><a href='https://github.com/dmzoneill/Seedarr/issues/830'>fix(utp): prevent UtpConnection.Receive from stealing shared socket datagrams belonging to other connections</a> 2026-10-06</li></ul></p>
               <p><ul></ul></p>
             </td>

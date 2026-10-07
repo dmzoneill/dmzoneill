@@ -38,208 +38,194 @@
       }
     ]
   },
-  "https://api.github.com/repos/dmzoneill/Seedarr/issues?state=open": {
-    "t": 1791345229.6667187,
+  "https://api.github.com/repos/dmzoneill/Leecharr/issues?state=open": {
+    "t": 1791412494.5674515,
     "v": [
       {
-        "html_url": "https://github.com/dmzoneill/Seedarr/pull/1295",
-        "pull_request": {
-          "diff_url": "https://github.com/dmzoneill/Seedarr/pull/1295.diff",
-          "html_url": "https://github.com/dmzoneill/Seedarr/pull/1295",
-          "merged_at": null,
-          "patch_url": "https://github.com/dmzoneill/Seedarr/pull/1295.patch",
-          "url": "https://api.github.com/repos/dmzoneill/Seedarr/pulls/1295"
-        },
-        "title": "fix(signalr): flatten piece event Body to avoid circular JSON",
-        "updated_at": "2026-10-07T03:37:34Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/1295"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1109",
+        "title": "[Telemetry] killSwitchArmed is true whenever an interface name is set",
+        "updated_at": "2026-10-07T22:34:45Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1109"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/1156",
-        "title": "bug(automation): marketplace install returns 400 for unknown template id",
-        "updated_at": "2026-10-07T00:20:57Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/1156"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1108",
+        "title": "[Developer] HTTP traffic log keeps API keys and cookies",
+        "updated_at": "2026-10-07T22:34:30Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1108"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/1155",
-        "title": "bug(automation): AutomationExecuted SignalR message ships full execution log twice",
-        "updated_at": "2026-10-06T22:58:32Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/1155"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1107",
+        "title": "[Media Enrichment] TVDB artwork types 1 and 3 are stored in the opposite slots",
+        "updated_at": "2026-10-07T22:34:20Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1107"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/1154",
-        "title": "bug(automation): POST run/execute runs scripts when IsEnabled is false",
-        "updated_at": "2026-10-06T22:58:30Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/1154"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1106",
+        "title": "[Media Enrichment] Completed media path is never passed to the local NFO provider",
+        "updated_at": "2026-10-07T22:34:18Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1106"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/1074",
-        "title": "bug(notifications): RestoreSecrets rejects new passwords containing asterisk characters",
-        "updated_at": "2026-10-06T22:28:10Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/1074"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1105",
+        "title": "[Media Enrichment] Local NFO lookup follows torrent titles outside the download directory",
+        "updated_at": "2026-10-07T22:34:17Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1105"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/1072",
-        "title": "bug(notifications): NotificationController script allowlist omits CustomScriptsDirectory and /scripts roots",
-        "updated_at": "2026-10-06T22:28:08Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/1072"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1104",
+        "title": "[Developer] GitHub panel shows invented pull requests and issues when the API fails",
+        "updated_at": "2026-10-07T22:34:16Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1104"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/1071",
-        "title": "security(notifications): CustomScript allowlist enforced only on POST /notification/test, not save or POST /notification/{id}/test",
-        "updated_at": "2026-10-06T22:28:06Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/1071"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1103",
+        "title": "[RPC / Synology] task create returns success when no task is created",
+        "updated_at": "2026-10-07T22:34:15Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1103"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/1025",
-        "title": "bug(automation): POST test and run ignore missing torrentId and use simulated or null context",
-        "updated_at": "2026-10-06T22:18:48Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/1025"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1102",
+        "title": "[Media Enrichment] Local NFO stores a TVDB id as the IMDb id",
+        "updated_at": "2026-10-07T22:34:15Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1102"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/1015",
-        "title": "bug(automation): DELETE returns 200 when automation script id does not exist",
-        "updated_at": "2026-10-06T22:17:00Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/1015"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1101",
+        "title": "[Media Enrichment] Servarr queue correlation omits page size and unknown items",
+        "updated_at": "2026-10-07T22:34:13Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1101"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/1014",
-        "title": "bug(automation): PUT update persists truncated LastExecutionLog from GET list preview",
-        "updated_at": "2026-10-06T22:16:59Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/1014"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1100",
+        "title": "[Media Enrichment] Servarr correlation returns the first cleaned title and skips a later hash match",
+        "updated_at": "2026-10-07T22:34:11Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1100"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/1007",
-        "title": "bug(backup): POST restore uses case-sensitive fileName on Linux; DELETE is case-insensitive",
-        "updated_at": "2026-10-06T22:15:32Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/1007"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1099",
+        "title": "[RPC / Aria2] changeUri reports URI edits that are never applied",
+        "updated_at": "2026-10-07T22:34:11Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1099"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/1001",
-        "title": "bug(backup): restore accepts zips not listed by GET /backup; DELETE cannot remove them",
-        "updated_at": "2026-10-06T22:13:58Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/1001"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1098",
+        "title": "[Media Inspection] FFprobe and MediaInfo report 6.1 audio as 7.0",
+        "updated_at": "2026-10-07T22:34:09Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1098"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/973",
-        "title": "bug(downloadclients): missing client id is 404 on GET items but 400 on import endpoints",
-        "updated_at": "2026-10-06T22:08:04Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/973"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1097",
+        "title": "[Media Inspection] FFprobe and MediaInfo keep the last video track dimensions",
+        "updated_at": "2026-10-07T22:34:07Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1097"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/970",
-        "title": "bug(downloadclients): DELETE returns 200 when download client id does not exist",
-        "updated_at": "2026-10-06T22:07:58Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/970"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1096",
+        "title": "[API / Download History] Re-add and enrich skip the operator role check",
+        "updated_at": "2026-10-07T22:34:06Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1096"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/968",
-        "title": "bug(disk): IsValidPath accepts system paths that IsBlockedPath rejects",
-        "updated_at": "2026-10-06T22:07:32Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/968"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1095",
+        "title": "[Developer] Quality report shows a passing gate and green pipelines when Sonar and GitHub fail",
+        "updated_at": "2026-10-07T22:34:03Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1095"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/954",
-        "title": "bug(signalr): PieceStorage.Clear drops in-memory piece state without pieceMapUpdated",
-        "updated_at": "2026-10-06T22:05:26Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/954"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1094",
+        "title": "[API / Subsystems] User role can switch engines, transports, and blocklists",
+        "updated_at": "2026-10-07T22:34:02Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1094"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/951",
-        "title": "bug(signalr): TorrentRecheckService double-fires recheck events on Clients.All and torrent group",
-        "updated_at": "2026-10-06T22:05:14Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/951"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1093",
+        "title": "[Developer] Smoke tests are marked Passed when the check reports failure",
+        "updated_at": "2026-10-07T22:33:51Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1093"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/940",
-        "title": "bug(signalr): RequestStateSnapshot applies state twice per invoke (RPC + push)",
-        "updated_at": "2026-10-06T22:03:12Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/940"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1092",
+        "title": "[RPC / NZBGet] GroupMoveOffset ignores the requested offset",
+        "updated_at": "2026-10-07T22:34:47Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1092"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/936",
-        "title": "bug(signalr): SetVerifiedPieces updates piece bitfield without pieceMapUpdated broadcast",
-        "updated_at": "2026-10-06T22:02:47Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/936"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1091",
+        "title": "[RPC / NZBGet] append returns NZBID 1 when no download was added",
+        "updated_at": "2026-10-07T22:33:38Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1091"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/935",
-        "title": "bug(signalr): CommandExecutor always emits CommandCompleted and skips terminal events on cancel",
-        "updated_at": "2026-10-06T22:02:43Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/935"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1090",
+        "title": "[AI] Malware scan misses executables with a trailing dot or space",
+        "updated_at": "2026-10-07T22:33:38Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1090"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/931",
-        "title": "bug(downloadclients): Sync() returns empty SyncResult when sweep lock times out after 200ms",
-        "updated_at": "2026-10-06T22:01:55Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/931"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1089",
+        "title": "[RPC / SABnzbd] addurl and addfile report success when no download is added",
+        "updated_at": "2026-10-07T22:33:35Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1089"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/930",
-        "title": "bug(automation): run/execute returns 200 when automation script id is missing",
-        "updated_at": "2026-10-06T22:01:43Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/930"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1088",
+        "title": "[RPC / Transmission] port-test reports open when the checker body contains the digit 1",
+        "updated_at": "2026-10-07T22:33:32Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1088"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/929",
-        "title": "bug(rssrules): manual RSS sync rate limit starts before sync runs",
-        "updated_at": "2026-10-06T22:01:41Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/929"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1087",
+        "title": "[AI] Malware scoring treats any JSON object as Safe and skips the heuristic",
+        "updated_at": "2026-10-07T22:33:25Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1087"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/926",
-        "title": "bug(backup): CreateBackup always returns Id=1 in response body",
-        "updated_at": "2026-10-06T22:01:14Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/926"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1086",
+        "title": "[Security] Self-signed TLS key and its password are written world-readable",
+        "updated_at": "2026-10-07T22:23:31Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1086"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/925",
-        "title": "bug(downloadclients): Sync double-counts existing torrent reconciliation in Updated and Skipped",
-        "updated_at": "2026-10-06T22:00:13Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/925"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1085",
+        "title": "[Config] config.xml is truncated in place and a failed save bricks startup",
+        "updated_at": "2026-10-07T22:23:29Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1085"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/924",
-        "title": "bug(downloadclients): Sync auto-add omits PieceHashes while ImportTorrentInternal persists them",
-        "updated_at": "2026-10-06T22:00:12Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/924"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1084",
+        "title": "[Backup] Failed SQLite snapshot is reported as a successful database backup",
+        "updated_at": "2026-10-07T22:23:26Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1084"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/923",
-        "title": "bug(downloadclients): UrlBase on DownloadClientDefinition is never applied to client HTTP base URLs",
-        "updated_at": "2026-10-06T22:00:02Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/923"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1083",
+        "title": "[API / FileBrowser] Download and preview follow symlinks outside the checked path",
+        "updated_at": "2026-10-07T22:21:58Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1083"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/918",
-        "title": "bug(signalr): MarkPieceCorrupted never broadcasts piece map updates",
-        "updated_at": "2026-10-06T21:59:39Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/918"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1082",
+        "title": "[API / Indexers] Prowlarr test and sync fetch through a raw HttpClient",
+        "updated_at": "2026-10-07T22:20:55Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1082"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/900",
-        "title": "security(trackerserver): enforce Reader RBAC on tracker server diagnostics endpoints",
-        "updated_at": "2026-10-06T21:48:34Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/900"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1081",
+        "title": "[Indexers / Torznab] Anti-bot challenge pages are empty successes and reset indexer backoff",
+        "updated_at": "2026-10-07T22:20:22Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1081"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/899",
-        "title": "security(trackermetrics): enforce RBAC on TrackerMetricsController reset and delete",
-        "updated_at": "2026-10-06T21:48:27Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/899"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1080",
+        "title": "[Subtitles] Matching episode codes attach subtitles from other series",
+        "updated_at": "2026-10-07T22:20:20Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1080"
       }
     ]
   },
-  "https://api.github.com/repos/dmzoneill/Seedarr/pulls?state=open": {
-    "t": 1791345230.449639,
-    "v": [
-      {
-        "html_url": "https://github.com/dmzoneill/Seedarr/pull/1295",
-        "title": "fix(signalr): flatten piece event Body to avoid circular JSON",
-        "updated_at": "2026-10-07T03:37:34Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/pulls/1295"
-      }
-    ]
+  "https://api.github.com/repos/dmzoneill/Leecharr/pulls?state=open": {
+    "t": 1791412495.2724345,
+    "v": []
   },
   "https://api.github.com/repos/dmzoneill/ansible-feeditout-com/issues?state=open": {
     "t": 1791376345.0935614,

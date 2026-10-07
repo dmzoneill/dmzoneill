@@ -39,193 +39,207 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/Seedarr/issues?state=open": {
-    "t": 1791290335.5152378,
+    "t": 1791345229.6667187,
     "v": [
       {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/869",
-        "title": "fix(downloadclients): prevent cross-client sync thrashing and semaphore lock starvation, and prune orphaned DownloadClientStatus on deletion",
-        "updated_at": "2026-10-06T10:00:35Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/869"
+        "html_url": "https://github.com/dmzoneill/Seedarr/pull/1295",
+        "pull_request": {
+          "diff_url": "https://github.com/dmzoneill/Seedarr/pull/1295.diff",
+          "html_url": "https://github.com/dmzoneill/Seedarr/pull/1295",
+          "merged_at": null,
+          "patch_url": "https://github.com/dmzoneill/Seedarr/pull/1295.patch",
+          "url": "https://api.github.com/repos/dmzoneill/Seedarr/pulls/1295"
+        },
+        "title": "fix(signalr): flatten piece event Body to avoid circular JSON",
+        "updated_at": "2026-10-07T03:37:34Z",
+        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/1295"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/863",
-        "title": "security(auth): persist revoked sessions across server restarts and enforce bounded cache management in SessionRevocationService",
-        "updated_at": "2026-10-06T09:58:39Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/863"
+        "html_url": "https://github.com/dmzoneill/Seedarr/issues/1156",
+        "title": "bug(automation): marketplace install returns 400 for unknown template id",
+        "updated_at": "2026-10-07T00:20:57Z",
+        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/1156"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/857",
-        "title": "fix(signalr): prevent ghost connection leak in MessageHub.OnConnectedAsync and guard synchronous broadcast exceptions in SignalRMessageBroadcaster",
-        "updated_at": "2026-10-06T09:54:26Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/857"
+        "html_url": "https://github.com/dmzoneill/Seedarr/issues/1155",
+        "title": "bug(automation): AutomationExecuted SignalR message ships full execution log twice",
+        "updated_at": "2026-10-06T22:58:32Z",
+        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/1155"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/841",
-        "title": "fix(torrents): resolve payload deletion race conditions and missing transaction rollback in TorrentService.DeleteMany",
-        "updated_at": "2026-10-06T09:10:32Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/841"
+        "html_url": "https://github.com/dmzoneill/Seedarr/issues/1154",
+        "title": "bug(automation): POST run/execute runs scripts when IsEnabled is false",
+        "updated_at": "2026-10-06T22:58:30Z",
+        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/1154"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/830",
-        "title": "fix(utp): prevent UtpConnection.Receive from stealing shared socket datagrams belonging to other connections",
-        "updated_at": "2026-10-06T08:53:40Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/830"
+        "html_url": "https://github.com/dmzoneill/Seedarr/issues/1074",
+        "title": "bug(notifications): RestoreSecrets rejects new passwords containing asterisk characters",
+        "updated_at": "2026-10-06T22:28:10Z",
+        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/1074"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/829",
-        "title": "fix(storage): call PieceCache.ClearTorrent on torrent deletion and stop evicting unflushed piece buffers",
-        "updated_at": "2026-10-06T08:53:10Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/829"
+        "html_url": "https://github.com/dmzoneill/Seedarr/issues/1072",
+        "title": "bug(notifications): NotificationController script allowlist omits CustomScriptsDirectory and /scripts roots",
+        "updated_at": "2026-10-06T22:28:08Z",
+        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/1072"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/827",
-        "title": "fix(transport): dispose unhandled inbound peer connections in PeerServer to prevent TCP and uTP socket leaks",
-        "updated_at": "2026-10-06T08:52:18Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/827"
+        "html_url": "https://github.com/dmzoneill/Seedarr/issues/1071",
+        "title": "security(notifications): CustomScript allowlist enforced only on POST /notification/test, not save or POST /notification/{id}/test",
+        "updated_at": "2026-10-06T22:28:06Z",
+        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/1071"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/826",
-        "title": "fix(endgame): prevent request pipeline deadlock by decrementing PendingRequestCount on SendCancel and calling MarkBlockCompleted on block receipt",
-        "updated_at": "2026-10-06T08:51:58Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/826"
+        "html_url": "https://github.com/dmzoneill/Seedarr/issues/1025",
+        "title": "bug(automation): POST test and run ignore missing torrentId and use simulated or null context",
+        "updated_at": "2026-10-06T22:18:48Z",
+        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/1025"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/821",
-        "title": "fix(jobs): record Canceled status in TaskManager and observe cancellation tokens across scheduled tasks",
-        "updated_at": "2026-10-06T08:49:59Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/821"
+        "html_url": "https://github.com/dmzoneill/Seedarr/issues/1015",
+        "title": "bug(automation): DELETE returns 200 when automation script id does not exist",
+        "updated_at": "2026-10-06T22:17:00Z",
+        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/1015"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/820",
-        "title": "fix(jobs): normalize task type names in TaskManager and synchronize BackupService staging",
-        "updated_at": "2026-10-06T08:49:41Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/820"
+        "html_url": "https://github.com/dmzoneill/Seedarr/issues/1014",
+        "title": "bug(automation): PUT update persists truncated LastExecutionLog from GET list preview",
+        "updated_at": "2026-10-06T22:16:59Z",
+        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/1014"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/815",
-        "title": "fix(diskspace): resolve Linux mount points in DiskProvider.GetAvailableFreeSpace to prevent false root partition masking",
-        "updated_at": "2026-10-06T08:45:34Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/815"
+        "html_url": "https://github.com/dmzoneill/Seedarr/issues/1007",
+        "title": "bug(backup): POST restore uses case-sensitive fileName on Linux; DELETE is case-insensitive",
+        "updated_at": "2026-10-06T22:15:32Z",
+        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/1007"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/814",
-        "title": "security(api): restrict sensitive system paths and directory creation in DirectoryController and FileSystemValidationService",
-        "updated_at": "2026-10-06T08:45:17Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/814"
+        "html_url": "https://github.com/dmzoneill/Seedarr/issues/1001",
+        "title": "bug(backup): restore accepts zips not listed by GET /backup; DELETE cannot remove them",
+        "updated_at": "2026-10-06T22:13:58Z",
+        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/1001"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/813",
-        "title": "fix(storage): resolve handle eviction race, use-after-close, and excessive write locking in FileHandlePool",
-        "updated_at": "2026-10-06T08:44:53Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/813"
+        "html_url": "https://github.com/dmzoneill/Seedarr/issues/973",
+        "title": "bug(downloadclients): missing client id is 404 on GET items but 400 on import endpoints",
+        "updated_at": "2026-10-06T22:08:04Z",
+        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/973"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/812",
-        "title": "security(storage): path traversal and arbitrary file overwrite in MultiFilePieceStorage and DiskAllocationService ResolveFilePath",
-        "updated_at": "2026-10-06T08:44:33Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/812"
+        "html_url": "https://github.com/dmzoneill/Seedarr/issues/970",
+        "title": "bug(downloadclients): DELETE returns 200 when download client id does not exist",
+        "updated_at": "2026-10-06T22:07:58Z",
+        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/970"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/811",
-        "title": "security(update): enforce SHA-256 checksum verification and fix multi-file manifest parsing in InstallUpdateService",
-        "updated_at": "2026-10-05T20:15:48Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/811"
+        "html_url": "https://github.com/dmzoneill/Seedarr/issues/968",
+        "title": "bug(disk): IsValidPath accepts system paths that IsBlockedPath rejects",
+        "updated_at": "2026-10-06T22:07:32Z",
+        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/968"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/810",
-        "title": "security(api): enforce AdminOnly RBAC authorization on Blocklist and RemotePathMapping controllers and prevent SSRF",
-        "updated_at": "2026-10-05T20:15:38Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/810"
+        "html_url": "https://github.com/dmzoneill/Seedarr/issues/954",
+        "title": "bug(signalr): PieceStorage.Clear drops in-memory piece state without pieceMapUpdated",
+        "updated_at": "2026-10-06T22:05:26Z",
+        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/954"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/809",
-        "title": "fix(health): consolidate duplicate health checks between PortForwardCheck/PortMappingHealthCheck and PeerPortBindingCheck/PeerListeningPortHealthCheck",
-        "updated_at": "2026-10-05T20:15:37Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/809"
+        "html_url": "https://github.com/dmzoneill/Seedarr/issues/951",
+        "title": "bug(signalr): TorrentRecheckService double-fires recheck events on Clients.All and torrent group",
+        "updated_at": "2026-10-06T22:05:14Z",
+        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/951"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/803",
-        "title": "fix(prowlarr): clean orphaned indexer references in RssRule when pruning removed indexers",
-        "updated_at": "2026-10-05T20:12:56Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/803"
+        "html_url": "https://github.com/dmzoneill/Seedarr/issues/940",
+        "title": "bug(signalr): RequestStateSnapshot applies state twice per invoke (RPC + push)",
+        "updated_at": "2026-10-06T22:03:12Z",
+        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/940"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/801",
-        "title": "fix(indexers): compute TorrentFile PieceOffset and PieceCount during DownloadRelease in IndexerController",
-        "updated_at": "2026-10-05T20:12:10Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/801"
+        "html_url": "https://github.com/dmzoneill/Seedarr/issues/936",
+        "title": "bug(signalr): SetVerifiedPieces updates piece bitfield without pieceMapUpdated broadcast",
+        "updated_at": "2026-10-06T22:02:47Z",
+        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/936"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/800",
-        "title": "fix(qbittorrent): guard sync/maindata against null or whitespace InfoHash to prevent unhandled ArgumentNullException crashes",
-        "updated_at": "2026-10-05T20:11:59Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/800"
+        "html_url": "https://github.com/dmzoneill/Seedarr/issues/935",
+        "title": "bug(signalr): CommandExecutor always emits CommandCompleted and skips terminal events on cancel",
+        "updated_at": "2026-10-06T22:02:43Z",
+        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/935"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/799",
-        "title": "fix(qbittorrent): correct form parameter mapping in setPiecePriority to prevent 400 Bad Request on standard client requests",
-        "updated_at": "2026-10-05T20:11:42Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/799"
+        "html_url": "https://github.com/dmzoneill/Seedarr/issues/931",
+        "title": "bug(downloadclients): Sync() returns empty SyncResult when sweep lock times out after 200ms",
+        "updated_at": "2026-10-06T22:01:55Z",
+        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/931"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/798",
-        "title": "fix(deluge): protect active seeding torrents during Arr deletion and honor PreserveSeedingOnArrDelete in DelugeJsonRpcController",
-        "updated_at": "2026-10-05T20:11:31Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/798"
+        "html_url": "https://github.com/dmzoneill/Seedarr/issues/930",
+        "title": "bug(automation): run/execute returns 200 when automation script id is missing",
+        "updated_at": "2026-10-06T22:01:43Z",
+        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/930"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/797",
-        "title": "fix(upnp): handle ConfigSavedEvent at runtime to clean up stale leases and eliminate thread-unsafe mapping mutations in UpnpService",
-        "updated_at": "2026-10-05T20:09:36Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/797"
+        "html_url": "https://github.com/dmzoneill/Seedarr/issues/929",
+        "title": "bug(rssrules): manual RSS sync rate limit starts before sync runs",
+        "updated_at": "2026-10-06T22:01:41Z",
+        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/929"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/796",
-        "title": "security(developer): enforce AdminOnly RBAC authorization on Developer REPL and sandbox CLR reflection",
-        "updated_at": "2026-10-05T20:09:26Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/796"
+        "html_url": "https://github.com/dmzoneill/Seedarr/issues/926",
+        "title": "bug(backup): CreateBackup always returns Id=1 in response body",
+        "updated_at": "2026-10-06T22:01:14Z",
+        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/926"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/795",
-        "title": "security(database): enforce AdminOnly RBAC authorization and fix safe mode write filter bypass in SystemDatabaseController",
-        "updated_at": "2026-10-05T20:09:17Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/795"
+        "html_url": "https://github.com/dmzoneill/Seedarr/issues/925",
+        "title": "bug(downloadclients): Sync double-counts existing torrent reconciliation in Updated and Skipped",
+        "updated_at": "2026-10-06T22:00:13Z",
+        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/925"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/794",
-        "title": "security(auth): validate reverse proxy trust in AuthController.GetClientIpAddress to prevent rate limit bypass and lockout DoS",
-        "updated_at": "2026-10-05T20:05:21Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/794"
+        "html_url": "https://github.com/dmzoneill/Seedarr/issues/924",
+        "title": "bug(downloadclients): Sync auto-add omits PieceHashes while ImportTorrentInternal persists them",
+        "updated_at": "2026-10-06T22:00:12Z",
+        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/924"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/793",
-        "title": "fix(mcp): resolve Request.PathBase prefix in SSE endpoint URI announcement to support reverse proxy subpaths",
-        "updated_at": "2026-10-05T20:04:57Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/793"
+        "html_url": "https://github.com/dmzoneill/Seedarr/issues/923",
+        "title": "bug(downloadclients): UrlBase on DownloadClientDefinition is never applied to client HTTP base URLs",
+        "updated_at": "2026-10-06T22:00:02Z",
+        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/923"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/792",
-        "title": "security(signalr): eliminate client-callable TrackerUpdated and TrackerAnnounced RPC methods on MessageHub to prevent event spoofing",
-        "updated_at": "2026-10-05T20:04:42Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/792"
+        "html_url": "https://github.com/dmzoneill/Seedarr/issues/918",
+        "title": "bug(signalr): MarkPieceCorrupted never broadcasts piece map updates",
+        "updated_at": "2026-10-06T21:59:39Z",
+        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/918"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/791",
-        "title": "security(automation): enforce RBAC authorization on automation script creation, modification, and execution endpoints",
-        "updated_at": "2026-10-05T20:04:12Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/791"
+        "html_url": "https://github.com/dmzoneill/Seedarr/issues/900",
+        "title": "security(trackerserver): enforce Reader RBAC on tracker server diagnostics endpoints",
+        "updated_at": "2026-10-06T21:48:34Z",
+        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/900"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Seedarr/issues/790",
-        "title": "security(customscript): enforce AdminOnly authorization and directory restriction on custom script test endpoint",
-        "updated_at": "2026-10-05T20:03:54Z",
-        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/790"
+        "html_url": "https://github.com/dmzoneill/Seedarr/issues/899",
+        "title": "security(trackermetrics): enforce RBAC on TrackerMetricsController reset and delete",
+        "updated_at": "2026-10-06T21:48:27Z",
+        "url": "https://api.github.com/repos/dmzoneill/Seedarr/issues/899"
       }
     ]
   },
   "https://api.github.com/repos/dmzoneill/Seedarr/pulls?state=open": {
-    "t": 1791290336.2951977,
-    "v": []
+    "t": 1791345230.449639,
+    "v": [
+      {
+        "html_url": "https://github.com/dmzoneill/Seedarr/pull/1295",
+        "title": "fix(signalr): flatten piece event Body to avoid circular JSON",
+        "updated_at": "2026-10-07T03:37:34Z",
+        "url": "https://api.github.com/repos/dmzoneill/Seedarr/pulls/1295"
+      }
+    ]
   },
   "https://api.github.com/repos/dmzoneill/ansible-feeditout-com/issues?state=open": {
     "t": 1791324771.6389353,

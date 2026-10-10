@@ -39,138 +39,8 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/Leecharr/issues?state=open": {
-    "t": 1791583811.1094422,
+    "t": 1791632867.0596776,
     "v": [
-      {
-        "html_url": "https://github.com/dmzoneill/Leecharr/pull/1862",
-        "pull_request": {
-          "diff_url": "https://github.com/dmzoneill/Leecharr/pull/1862.diff",
-          "html_url": "https://github.com/dmzoneill/Leecharr/pull/1862",
-          "merged_at": null,
-          "patch_url": "https://github.com/dmzoneill/Leecharr/pull/1862.patch",
-          "url": "https://api.github.com/repos/dmzoneill/Leecharr/pulls/1862"
-        },
-        "title": "fix(api): GeoIP/blocklist/AI switch failures set Error and stable ActiveProvider",
-        "updated_at": "2026-10-09T20:12:54Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1862"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/Leecharr/pull/1861",
-        "pull_request": {
-          "diff_url": "https://github.com/dmzoneill/Leecharr/pull/1861.diff",
-          "html_url": "https://github.com/dmzoneill/Leecharr/pull/1861",
-          "merged_at": null,
-          "patch_url": "https://github.com/dmzoneill/Leecharr/pull/1861.patch",
-          "url": "https://api.github.com/repos/dmzoneill/Leecharr/pulls/1861"
-        },
-        "title": "fix(media-inspection): apply ffprobe rotation to display dimensions (#1786)",
-        "updated_at": "2026-10-09T19:57:33Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1861"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/Leecharr/pull/1860",
-        "pull_request": {
-          "diff_url": "https://github.com/dmzoneill/Leecharr/pull/1860.diff",
-          "html_url": "https://github.com/dmzoneill/Leecharr/pull/1860",
-          "merged_at": null,
-          "patch_url": "https://github.com/dmzoneill/Leecharr/pull/1860.patch",
-          "url": "https://api.github.com/repos/dmzoneill/Leecharr/pulls/1860"
-        },
-        "title": "fix(system): queue manual backup type from Run Now (#1789)",
-        "updated_at": "2026-10-09T19:58:01Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1860"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/Leecharr/pull/1859",
-        "pull_request": {
-          "diff_url": "https://github.com/dmzoneill/Leecharr/pull/1859.diff",
-          "html_url": "https://github.com/dmzoneill/Leecharr/pull/1859",
-          "merged_at": null,
-          "patch_url": "https://github.com/dmzoneill/Leecharr/pull/1859.patch",
-          "url": "https://api.github.com/repos/dmzoneill/Leecharr/pulls/1859"
-        },
-        "title": "fix(network): dual-stack hostname connect in proxy pass-through tunnel",
-        "updated_at": "2026-10-09T19:57:36Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1859"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/Leecharr/pull/1858",
-        "pull_request": {
-          "diff_url": "https://github.com/dmzoneill/Leecharr/pull/1858.diff",
-          "html_url": "https://github.com/dmzoneill/Leecharr/pull/1858",
-          "merged_at": null,
-          "patch_url": "https://github.com/dmzoneill/Leecharr/pull/1858.patch",
-          "url": "https://api.github.com/repos/dmzoneill/Leecharr/pulls/1858"
-        },
-        "title": "fix(network): honor ProxyAuthEnabled in proxy tunnel handshakes",
-        "updated_at": "2026-10-09T19:54:27Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1858"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/Leecharr/pull/1857",
-        "pull_request": {
-          "diff_url": "https://github.com/dmzoneill/Leecharr/pull/1857.diff",
-          "html_url": "https://github.com/dmzoneill/Leecharr/pull/1857",
-          "merged_at": null,
-          "patch_url": "https://github.com/dmzoneill/Leecharr/pull/1857.patch",
-          "url": "https://api.github.com/repos/dmzoneill/Leecharr/pulls/1857"
-        },
-        "title": "fix(network): probe provider health at DynamicNetworkBindingProxy startup",
-        "updated_at": "2026-10-09T19:54:24Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1857"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/Leecharr/pull/1856",
-        "pull_request": {
-          "diff_url": "https://github.com/dmzoneill/Leecharr/pull/1856.diff",
-          "html_url": "https://github.com/dmzoneill/Leecharr/pull/1856",
-          "merged_at": null,
-          "patch_url": "https://github.com/dmzoneill/Leecharr/pull/1856.patch",
-          "url": "https://api.github.com/repos/dmzoneill/Leecharr/pulls/1856"
-        },
-        "title": "fix(network): block metadata IPs after DNS on direct proxy connect (fixes #1797)",
-        "updated_at": "2026-10-09T19:53:09Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1856"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/Leecharr/pull/1855",
-        "pull_request": {
-          "diff_url": "https://github.com/dmzoneill/Leecharr/pull/1855.diff",
-          "html_url": "https://github.com/dmzoneill/Leecharr/pull/1855",
-          "merged_at": null,
-          "patch_url": "https://github.com/dmzoneill/Leecharr/pull/1855.patch",
-          "url": "https://api.github.com/repos/dmzoneill/Leecharr/pulls/1855"
-        },
-        "title": "fix(network): honor EnableVpnKillSwitch in DynamicNetworkBindingProxy",
-        "updated_at": "2026-10-09T19:51:38Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1855"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/Leecharr/pull/1854",
-        "pull_request": {
-          "diff_url": "https://github.com/dmzoneill/Leecharr/pull/1854.diff",
-          "html_url": "https://github.com/dmzoneill/Leecharr/pull/1854",
-          "merged_at": null,
-          "patch_url": "https://github.com/dmzoneill/Leecharr/pull/1854.patch",
-          "url": "https://api.github.com/repos/dmzoneill/Leecharr/pulls/1854"
-        },
-        "title": "fix(network): resolve kernel interface name for SO_BINDTODEVICE",
-        "updated_at": "2026-10-09T19:48:15Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1854"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/Leecharr/pull/1853",
-        "pull_request": {
-          "diff_url": "https://github.com/dmzoneill/Leecharr/pull/1853.diff",
-          "html_url": "https://github.com/dmzoneill/Leecharr/pull/1853",
-          "merged_at": null,
-          "patch_url": "https://github.com/dmzoneill/Leecharr/pull/1853.patch",
-          "url": "https://api.github.com/repos/dmzoneill/Leecharr/pulls/1853"
-        },
-        "title": "fix(backup): publish BackupCompletedEvent when archive creation succeeds (#1808)",
-        "updated_at": "2026-10-09T19:37:57Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1853"
-      },
       {
         "html_url": "https://github.com/dmzoneill/Leecharr/issues/1736",
         "title": "[Developer / Testing] Single test run returns PascalCase JSON and the UI treats it as failed",
@@ -290,73 +160,72 @@
         "title": "[Bandwidth] A null schedule time returns 500 and can stall every schedule",
         "updated_at": "2026-10-08T07:37:44Z",
         "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1714"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1713",
+        "title": "[Bandwidth] A refused scheduler resume is dropped and never retried",
+        "updated_at": "2026-10-08T07:17:31Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1713"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1712",
+        "title": "[Indexers] Every indexer request creates an HttpClient that is never disposed",
+        "updated_at": "2026-10-08T07:14:56Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1712"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1711",
+        "title": "[Indexers / Search] Indexer failures are only a response header and can fail the search",
+        "updated_at": "2026-10-08T07:14:17Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1711"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1710",
+        "title": "[Indexers / Prowlarr] Test treats a non-JSON page and system status as healthy",
+        "updated_at": "2026-10-08T07:13:52Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1710"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1709",
+        "title": "[Indexers / Search] Indexers in backoff are reported as none configured",
+        "updated_at": "2026-10-08T07:13:26Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1709"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1708",
+        "title": "[Indexers / Search] The reported total is the largest single indexer count",
+        "updated_at": "2026-10-08T07:13:02Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1708"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1707",
+        "title": "[Indexers / Search] Cancelling a search disables the indexers",
+        "updated_at": "2026-10-08T07:18:20Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1707"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1706",
+        "title": "[Indexers / Prowlarr] A sync body defaults the URL to localhost and skips the saved instance",
+        "updated_at": "2026-10-08T07:12:16Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1706"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1705",
+        "title": "[RPC / Synology] FileStation share path ignores the download directory",
+        "updated_at": "2026-10-08T07:12:06Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1705"
+      },
+      {
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1704",
+        "title": "[RPC / Synology] Stalled and queued rechecks are reported as waiting",
+        "updated_at": "2026-10-08T07:12:00Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1704"
       }
     ]
   },
   "https://api.github.com/repos/dmzoneill/Leecharr/pulls?state=open": {
-    "t": 1791583811.9727476,
-    "v": [
-      {
-        "html_url": "https://github.com/dmzoneill/Leecharr/pull/1862",
-        "title": "fix(api): GeoIP/blocklist/AI switch failures set Error and stable ActiveProvider",
-        "updated_at": "2026-10-09T20:12:54Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/pulls/1862"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/Leecharr/pull/1861",
-        "title": "fix(media-inspection): apply ffprobe rotation to display dimensions (#1786)",
-        "updated_at": "2026-10-09T19:57:33Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/pulls/1861"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/Leecharr/pull/1860",
-        "title": "fix(system): queue manual backup type from Run Now (#1789)",
-        "updated_at": "2026-10-09T19:58:01Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/pulls/1860"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/Leecharr/pull/1859",
-        "title": "fix(network): dual-stack hostname connect in proxy pass-through tunnel",
-        "updated_at": "2026-10-09T19:57:36Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/pulls/1859"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/Leecharr/pull/1858",
-        "title": "fix(network): honor ProxyAuthEnabled in proxy tunnel handshakes",
-        "updated_at": "2026-10-09T19:54:27Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/pulls/1858"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/Leecharr/pull/1857",
-        "title": "fix(network): probe provider health at DynamicNetworkBindingProxy startup",
-        "updated_at": "2026-10-09T19:54:24Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/pulls/1857"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/Leecharr/pull/1856",
-        "title": "fix(network): block metadata IPs after DNS on direct proxy connect (fixes #1797)",
-        "updated_at": "2026-10-09T19:53:09Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/pulls/1856"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/Leecharr/pull/1855",
-        "title": "fix(network): honor EnableVpnKillSwitch in DynamicNetworkBindingProxy",
-        "updated_at": "2026-10-09T19:51:38Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/pulls/1855"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/Leecharr/pull/1854",
-        "title": "fix(network): resolve kernel interface name for SO_BINDTODEVICE",
-        "updated_at": "2026-10-09T19:48:15Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/pulls/1854"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/Leecharr/pull/1853",
-        "title": "fix(backup): publish BackupCompletedEvent when archive creation succeeds (#1808)",
-        "updated_at": "2026-10-09T19:37:57Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/pulls/1853"
-      }
-    ]
+    "t": 1791632867.7620091,
+    "v": []
   },
   "https://api.github.com/repos/dmzoneill/ansible-feeditout-com/issues?state=open": {
     "t": 1791604664.787681,

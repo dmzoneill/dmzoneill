@@ -106,10 +106,10 @@ class OpenAICompatibleProvider:
     """Generate text via Cursor API or an OpenAI-compatible chat completions API."""
 
     def __init__(self) -> None:
-        self.api_key = os.getenv("LLM_API_KEY") or os.getenv("CURSOR_API_KEY")
+        self.api_key = os.getenv("LLM_API_KEY")
         if not self.api_key:
             raise RuntimeError(
-                "Missing LLM_API_KEY or CURSOR_API_KEY (API key for the LLM endpoint)."
+                "Missing LLM_API_KEY (API key for the LLM endpoint)."
             )
         base = (os.getenv("LLM_API_BASE") or DEFAULT_LLM_API_BASE).rstrip("/")
         self.api_base = base

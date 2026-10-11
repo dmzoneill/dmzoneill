@@ -17,7 +17,7 @@ HASH_VAR_NAME = "SECRETS_HASH"
 VARIABLES_HASH_VAR_NAME = "VARIABLES_HASH"
 # Copied from hub Actions variables (not secrets) to every owned repo.
 DISTRIBUTE_VARIABLES = (
-    "CURSOR_API_KEY",
+    "LLM_API_KEY",
     "LLM_API_BASE",
     "LLM_MODEL",
 )
@@ -30,6 +30,7 @@ SECRETS_TO_PURGE = {
     "GEMINI_API_KEY",
     "GOOGLE_APPLICATION_CREDENTIALS_JSON",
     "CURSOR_API_KEY",
+    "LLM_API_KEY",
     "LLM_API_BASE",
     "LLM_MODEL",
     "OPENCODE_MODEL",

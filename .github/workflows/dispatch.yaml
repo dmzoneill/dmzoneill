@@ -2289,8 +2289,7 @@ jobs:
           curl https://raw.githubusercontent.com/dmzoneill/dmzoneill/refs/heads/main/wp-pipeline-publisher.py -o wp-pipeline-publisher.py
           python wp-pipeline-publisher.py
         env:
-          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
-          CURSOR_API_KEY: ${{ vars.CURSOR_API_KEY }}
+          LLM_API_KEY: ${{ vars.LLM_API_KEY }}
           LLM_API_BASE: ${{ vars.LLM_API_BASE != '' && vars.LLM_API_BASE || 'https://api.cursor.com/v1' }}
           LLM_MODEL: ${{ vars.LLM_MODEL != '' && vars.LLM_MODEL || 'composer-2.5' }}
           PROFILE_HOOK: ${{ secrets.PROFILE_HOOK }}

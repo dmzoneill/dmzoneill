@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-11/10/2026 15:56:14-brightgreen" height='28'/> &nbsp;&nbsp; <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=dmzoneill&color=brightgreen&style=for-the-badge" height='28'/> &nbsp;&nbsp; <img alt="Redhat" width='30' height='25' src="https://github.com/dmzoneill/dmzoneill/blob/main/images/redhat.svg?raw=true" />
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-11/10/2026 17:31:12-brightgreen" height='28'/> &nbsp;&nbsp; <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=dmzoneill&color=brightgreen&style=for-the-badge" height='28'/> &nbsp;&nbsp; <img alt="Redhat" width='30' height='25' src="https://github.com/dmzoneill/dmzoneill/blob/main/images/redhat.svg?raw=true" />
 
 <img src="generated/timeline.svg" width="760" alt="timeline"/>
 
@@ -40,7 +40,7 @@
 </details>
 <details>
 <summary><strong>Recent Activity (100)</strong></summary>
-<ul><li><a href='https://github.com/dmzoneill/Leecharr/issues/1586'>[API / qBittorrent] auth/login never records failed attempts or honors lockout</a></li><li><a href='https://github.com/dmzoneill/Leecharr/issues/1576'>[Media Enrichment] Servarr lookup responses are not disposed</a></li><li><a href='https://github.com/dmzoneill/Leecharr/issues/1578'>[Arr] Saving a connection clears priority and settings and stores the fallback URL</a></li><li><a href='https://github.com/dmzoneill/Leecharr/issues/1580'>[Indexers] Category lists copy nested numbers and stop at an inner array</a></li><li><a href='https://github.com/dmzoneill/Leecharr/issues/1585'>[Datastore] BasicRepository.Update reports success when no row changes</a></li><li><a href='https://github.com/dmzoneill/Leecharr/issues/1581'>[Indexers] Bulk delete ignores a single id and a comma-separated id string</a></li><li><a href='https://github.com/dmzoneill/Leecharr/issues/1579'>[Commands] Garbage collection always compacts the large object heap</a></li><li><a href='https://github.com/dmzoneill/Leecharr/issues/1582'>[Terminal] PtyProcessSession returns a pipe shell and skips the Linux PTY</a></li><li><a href='https://github.com/dmzoneill/Leecharr/issues/1593'>[Config] HTTP tracker enable and port do not control /announce</a></li><li><a href='https://github.com/dmzoneill/Leecharr/issues/1584'>[Auth] FindByEmail returns an arbitrary user when the address is shared</a></li><li><a href='https://github.com/dmzoneill/Leecharr/issues/1583'>[Security] App data directory is created world-accessible and create failures are ignored</a></li><li><a href='https://github.com/dmzoneill/Leecharr/issues/1607'>[Indexers] Download client id is stored and never selects a client</a></li><li><a href='https://github.com/dmzoneill/Leecharr/issues/1594'>[Config] Log peer announces is saved and never logs</a></li><li><a href='https://github.com/dmzoneill/Leecharr/issues/1597'>[Config] HTTP tracker ignores the per-IP rate limit</a></li><li><a href='https://github.com/dmzoneill/Leecharr/issues/1595'>[Automation] stopPipeline does not stop later scripts on the same trigger</a></li><li><a href='https://github.com/dmzoneill/Leecharr/issues/1598'>[Config] Tracker bind address does not restrict HTTP announce</a></li><li><a href='https://github.com/dmzoneill/Leecharr/issues/1596'>[RPC / Flood] SetTags keeps the category when the tag list omits it</a></li><li><a href='https://github.com/dmzoneill/Leecharr/issues/1602'>[Terminal] UTF-8 decode buffer drops the session on a full read</a></li><li><a href='https://github.com/dmzoneill/Leecharr/issues/1599'>[Config] Omitted settings are saved as defaults</a></li><li><a href='https://github.com/dmzoneill/Leecharr/issues/1603'>[Terminal] Disconnect waits for PTY read before killing the shell</a></li><li><a href='https://github.com/dmzoneill/Leecharr/issues/1604'>[Terminal] WebSocket input is buffered with no size limit</a></li><li><a href='https://github.com/dmzoneill/Leecharr/issues/1606'>[Trackers] Tracker announce interval is stored as 0 after Transmission or uTorrent tracker edits</a></li><li><a href='https://github.com/dmzoneill/Leecharr/issues/1609'>[Indexers] Search mode flags do not change the Torznab query</a></li><li><a href='https://github.com/dmzoneill/Leecharr/issues/1605'>[Terminal] Fallback shell ignores the requested terminal size</a></li><li><a href='https://github.com/dmzoneill/Leecharr/issues/1608'>[Indexers] Cookie and user agent are not sent on Torznab requests</a></li><li><a href='https://github.com/dmzoneill/Leecharr/issues/1600'>[Automation] Shared HTML parser races across scripts</a></li><li><a href='https://github.com/dmzoneill/Leecharr/issues/1612'>[Indexers] Search type is copied into the Torznab query without encoding</a></li><li><a href='https://github.com/dmzoneill/Leecharr/issues/1612'>[Indexers] Search type is copied into the Torznab query without encoding</a></li><li><a href='https://github.com/dmzoneill/Leecharr/issues/1615'>[AI] Season packs named S01 do not get a season number</a></li></ul>
+<ul><li><a href='https://github.com/dmzoneill/Leecharr/issues/1532'>[Extraction] Failed extract deletes other .leecharr.tmp staging files</a></li><li><a href='https://github.com/dmzoneill/Leecharr/issues/1543'>[Developer] Rate limit smoke test clears live upload and download caps</a></li><li><a href='https://github.com/dmzoneill/Leecharr/issues/1540'>[Config] Client behavior and swarm simulation settings are saved and never applied</a></li><li><a href='https://github.com/dmzoneill/Leecharr/issues/1545'>[Developer] Event bus smoke test republishes ApplicationStartedEvent</a></li><li><a href='https://github.com/dmzoneill/Leecharr/issues/1551'>[BitTorrent] Private flag does not change LibTorrent or Transmission</a></li><li><a href='https://github.com/dmzoneill/Leecharr/issues/1539'>[Config] Malware risk threshold and auto-quarantine are saved and never applied</a></li><li><a href='https://github.com/dmzoneill/Leecharr/issues/1550'>[Database] Schema index listing stops at an expression index</a></li><li><a href='https://github.com/dmzoneill/Leecharr/issues/1550'>[Database] Schema index listing stops at an expression index</a></li><li><a href='https://github.com/dmzoneill/Leecharr/issues/1546'>[Developer] Test history returns the oldest runs</a></li><li><a href='https://github.com/dmzoneill/Leecharr/issues/1553'>[Auth] NZBGet path keys and xmlrpc are sent to the login page</a></li><li><a href='https://github.com/dmzoneill/Leecharr/issues/1547'>[Developer] Process uptime starts when diagnostics are first loaded</a></li><li><a href='https://github.com/dmzoneill/Leecharr/issues/1548'>[Developer] Debugger reports a generated outline as an existing source file</a></li><li><a href='https://github.com/dmzoneill/Leecharr/issues/1126'>[Categories] Inherited save paths follow dot-dot category segments</a></li><li><a href='https://api.github.com/repos/dmzoneill/Leecharr'>dmzoneill/Leecharr</a></li><li><a href='https://github.com/dmzoneill/Leecharr/issues/1554'>[Developer] Thread diagnostics append a fake thread when inspection throws</a></li><li><a href='https://github.com/dmzoneill/Leecharr/issues/1645'>[TrackerBoost] Transmission injection counts an RPC error as success</a></li><li><a href='https://github.com/dmzoneill/Leecharr/issues/1646'>[TrackerBoost] UDP scrapes are cancelled before retries finish and then cached</a></li><li><a href='https://github.com/dmzoneill/Leecharr/issues/1629'>[Torrents] Case-only Linux paths are dropped from the creation allow-list</a></li><li><a href='https://github.com/dmzoneill/Leecharr/issues/1648'>[TrackerBoost] Disabling auto-boost still injects trackers on every cycle</a></li><li><a href='https://api.github.com/repos/dmzoneill/Leecharr'>dmzoneill/Leecharr</a></li><li><a href='https://github.com/dmzoneill/Leecharr/issues/1611'>[Indexers] Caps parsing drops nested Newznab categories</a></li><li><a href='https://github.com/dmzoneill/Leecharr/issues/1650'>[TrackerBoost] Download-client injection never disposes HTTP responses</a></li></ul>
 </details>
 <details>
 <summary><strong>Gists (24)</strong></summary>
@@ -62,17 +62,17 @@
     </tr>
   </thead>
   <tbody>
-    <tr><td><img src='https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white' title='C#'  height='20px'/></td><td>29021693</td>
+    <tr><td><img src='https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white' title='C#'  height='20px'/></td><td>29281064</td>
 <td><img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript'  height='20px'/></td><td>17100049</td>
 <td><img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS'  height='20px'/></td><td>17037279</td>
-<td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>14563091</td>
+<td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>14568764</td>
 </tr><tr>
 <td><img src='https://img.shields.io/badge/_-Mermaid -11DDDD.svg?style=for-the-badge' title='Mermaid'  height='20px'/></td><td>40993</td>
 <td><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript'  height='20px'/></td><td>32615155</td>
 <td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>483054</td>
 <td><img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile'  height='20px'/></td><td>19275</td>
 </tr><tr>
-<td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>2697510</td>
+<td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>2697732</td>
 <td><img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML'  height='20px'/></td><td>13459995</td>
 <td><img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP'  height='20px'/></td><td>184864770</td>
 <td><img src='https://img.shields.io/badge/_-SCSS -11DDDD.svg?style=for-the-badge' title='SCSS'  height='20px'/></td><td>467693</td>
@@ -147,6 +147,22 @@
   <tbody>
     <tr>
             <td>
+              <p><h2><a href='https://github.com/dmzoneill/Chuckbot' title='Chuckbot'>Chuckbot</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/</p>
+              <p>Apache License 2.0</p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+              <p><ul></ul></p>
+            </td>
+            <td>
+              <p><a href='https://wa.me/96592226837' title='Chat with chuck'>Chat with chuck</a></p>
+            </td>
+            <td align="center">
+              <a href='https://github.com/dmzoneill/Chuckbot/actions'><img src='https://github.com/dmzoneill//Chuckbot/actions/workflows/main.yml/badge.svg'/></a>
+              <p>2026-08-12</p>
+            </td>
+        </tr>
+<tr>
+            <td>
               <p><h2><a href='https://github.com/dmzoneill/dmzoneill' title='dmzoneill'>dmzoneill</a> (2023)</h2></p><p><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python' height='20px'/> <img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell' height='20px'/</p>
               <p>Apache License 2.0</p>
               <p><ul></ul></p>
@@ -175,22 +191,6 @@
             <td align="center">
               <a href='https://github.com/dmzoneill/DFakeSeeder/actions'><img src='https://github.com/dmzoneill//DFakeSeeder/actions/workflows/main.yml/badge.svg'/></a>
               <p>2026-09-14</p>
-            </td>
-        </tr>
-<tr>
-            <td>
-              <p><h2><a href='https://github.com/dmzoneill/Chuckbot' title='Chuckbot'>Chuckbot</a> (2022)</h2></p><p><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript' height='20px'/</p>
-              <p>Apache License 2.0</p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-              <p><ul></ul></p>
-            </td>
-            <td>
-              <p><a href='https://wa.me/96592226837' title='Chat with chuck'>Chat with chuck</a></p>
-            </td>
-            <td align="center">
-              <a href='https://github.com/dmzoneill/Chuckbot/actions'><img src='https://github.com/dmzoneill//Chuckbot/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2026-08-12</p>
             </td>
         </tr>
 <tr>
@@ -374,7 +374,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/Leecharr' title='Leecharr'>Leecharr</a> (2026)</h2></p><p><img src='https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white' title='C#' height='20px'/> <img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/Leecharr/issues/1586'>[API / qBittorrent] auth/login never records failed attempts or honors lockout</a></li><li><a href='https://github.com/dmzoneill/Leecharr/issues/1576'>[Media Enrichment] Servarr lookup responses are not disposed</a></li><li><a href='https://github.com/dmzoneill/Leecharr/issues/1578'>[Arr] Saving a connection clears priority and settings and stores the fallback URL</a></li><li><a href='https://github.com/dmzoneill/Leecharr/issues/1580'>[Indexers] Category lists copy nested numbers and stop at an inner array</a></li></ul></p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://github.com/dmzoneill/Leecharr/issues/1532'>[Extraction] Failed extract deletes other .leecharr.tmp staging files</a></li><li><a href='https://github.com/dmzoneill/Leecharr/issues/1543'>[Developer] Rate limit smoke test clears live upload and download caps</a></li><li><a href='https://github.com/dmzoneill/Leecharr/issues/1540'>[Config] Client behavior and swarm simulation settings are saved and never applied</a></li></ul></p>
               <p><h4>Issues</h4><ul><li><a href='https://github.com/dmzoneill/Leecharr/issues/1662'>[TrackerBoost] HTTP probe treats HEAD 404 and 405 as offline</a> 2026-10-11</li><li><a href='https://github.com/dmzoneill/Leecharr/issues/1661'>[TrackerBoost] Inject builds IPv6 client URLs without brackets</a> 2026-10-11</li><li><a href='https://github.com/dmzoneill/Leecharr/issues/1660'>[TrackerBoost] Deluge inject hardcodes every tracker at tier 0</a> 2026-10-11</li><li><a href='https://github.com/dmzoneill/Leecharr/issues/1658'>[TrackerBoost] Harvest counts existing tracker rows as new</a> 2026-10-11</li><li><a href='https://github.com/dmzoneill/Leecharr/issues/1657'>[TrackerBoost] FindByUrl treats announce, announce/, and default ports as different trackers</a> 2026-10-11</li></ul></p>
               <p><h4>Pull Requests</h4><ul><li><a href='https://github.com/dmzoneill/Leecharr/pull/1871'>fix(ai): skip Gemini label on diagnostic chat fallback (fixes #1620)</a> 2026-10-11</li><li><a href='https://github.com/dmzoneill/Leecharr/pull/1868'>chore(deps-dev): bump postcss-selector-parser from 7.1.5 to 7.1.6 in /src/Leecharr.Frontend</a> 2026-10-11</li><li><a href='https://github.com/dmzoneill/Leecharr/pull/1867'>chore(deps): bump proxy-addr from 2.0.7 to 2.0.8 in /src/Leecharr.Frontend</a> 2026-10-11</li><li><a href='https://github.com/dmzoneill/Leecharr/pull/1866'>chore(deps): bump compression from 1.8.1 to 1.8.2 in /src/Leecharr.Frontend</a> 2026-10-11</li><li><a href='https://github.com/dmzoneill/Leecharr/pull/1865'>chore(deps-dev): bump source-map-js from 1.2.1 to 1.2.2 in /src/Leecharr.Frontend</a> 2026-10-11</li></ul></p>
             </td>

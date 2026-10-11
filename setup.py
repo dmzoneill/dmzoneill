@@ -14,12 +14,24 @@ GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
 GITHUB_USER = "dmzoneill"
 REPO_LIST_URL = "https://api.github.com/user/repos?affiliation=owner&per_page=100"
 HASH_VAR_NAME = "SECRETS_HASH"
+VARIABLES_HASH_VAR_NAME = "VARIABLES_HASH"
+# Copied from hub Actions variables (not secrets) to every owned repo.
+DISTRIBUTE_VARIABLES = (
+    "CURSOR_API_KEY",
+    "LLM_API_BASE",
+    "LLM_MODEL",
+)
+WORKFLOW_VARS_BEGIN = "# BEGIN DISTRIBUTE_VARIABLES_ENV"
+WORKFLOW_VARS_END = "# END DISTRIBUTE_VARIABLES_ENV"
 SECRETS_TO_PURGE = {
     "ANTHROPIC_VERTEX_PROJECT_ID",
     "CLAUDE_CODE_USE_VERTEX",
     "CODACY_PROJECT_TOKEN",
     "GEMINI_API_KEY",
     "GOOGLE_APPLICATION_CREDENTIALS_JSON",
+    "CURSOR_API_KEY",
+    "LLM_API_BASE",
+    "LLM_MODEL",
     "OPENCODE_MODEL",
 }
 # Codacy account API token for all repos (hub may store as CODACY_PROJECT_TOKEN).
@@ -148,6 +160,57 @@ def set_repo_variable(repo_name, name, value):
         print(f"    Failed to set variable {name}: {response.status_code} {response.text}")
 
 
+def delete_repo_variable(repo_name, name):
+    repo_full = f"{GITHUB_USER}/{repo_name}"
+    url = f"https://api.github.com/repos/{repo_full}/actions/variables/{name}"
+    time.sleep(API_DELAY)
+    response = requests.delete(url, headers=headers, timeout=HTTP_TIMEOUT)
+    if response.status_code == 204:
+        print(f"    Deleted variable {name}")
+    elif response.status_code != 404:
+        print(f"    Failed to delete variable {name}: {response.status_code} {response.text}")
+
+
+def get_hub_variable_value(name):
+    url = f"https://api.github.com/repos/{GITHUB_USER}/dmzoneill/actions/variables/{name}"
+    response = rate_limited_get(url)
+    if response.status_code == 200:
+        return response.json().get("value")
+    return None
+
+
+def get_remote_variable_hashes(repo_name):
+    url = f"https://api.github.com/repos/{GITHUB_USER}/{repo_name}/actions/variables/{VARIABLES_HASH_VAR_NAME}"
+    response = rate_limited_get(url)
+    if response.status_code == 200:
+        try:
+            return json.loads(response.json().get("value", "{}"))
+        except (json.JSONDecodeError, TypeError):
+            return {}
+    return {}
+
+
+def sync_repo_variables(repo_name, variables, current_hashes, remote_hashes):
+    changed = [key for key, h in current_hashes.items() if remote_hashes.get(key) != h]
+    removed = [k for k in remote_hashes if k not in current_hashes]
+
+    if not changed and not removed:
+        print("  All variables up to date, skipping")
+        return
+
+    if changed:
+        print(f"  {len(changed)} variable(s) changed: {', '.join(changed)}")
+        for key in changed:
+            set_repo_variable(repo_name, key, variables[key])
+
+    if removed:
+        print(f"  {len(removed)} variable(s) removed: {', '.join(removed)}")
+        for key in removed:
+            delete_repo_variable(repo_name, key)
+
+    set_repo_variable(repo_name, VARIABLES_HASH_VAR_NAME, json.dumps(current_hashes))
+
+
 def delete_secret(repo_name, secret):
     cmd = [
         "gh",
@@ -247,6 +310,7 @@ def get_secret_names():
         name
         for name in hub_names
         if (name != HASH_VAR_NAME and name not in SECRETS_TO_PURGE and name not in HUB_ONLY_SECRETS)
+        and name not in DISTRIBUTE_VARIABLES
     ]
     if get_hub_codacy_token_source(hub_names) and CODACY_DISTRIBUTE_SECRET not in names:
         names.append(CODACY_DISTRIBUTE_SECRET)
@@ -271,7 +335,7 @@ def get_repositories():
 
 
 def build_workflow_env_lines(secret_names, hub_names=None):
-    """YAML env entries for distribute-secrets workflow (values via secrets context)."""
+    """YAML env entries for distribute-secrets workflow (secrets + whitelisted variables)."""
     hub_names = hub_names or get_hub_secret_names()
     codacy_source = get_hub_codacy_token_source(hub_names)
     lines = [
@@ -284,6 +348,10 @@ def build_workflow_env_lines(secret_names, hub_names=None):
         else:
             lines.append(f"          {name}: ${{{{ secrets.{name} }}}}")
     lines.append(f"          {WORKFLOW_ENV_END}")
+    lines.append(f"          {WORKFLOW_VARS_BEGIN}")
+    for name in DISTRIBUTE_VARIABLES:
+        lines.append(f"          {name}: ${{{{ vars.{name} }}}}")
+    lines.append(f"          {WORKFLOW_VARS_END}")
     return lines
 
 
@@ -304,6 +372,22 @@ def parse_workflow_env_secret_names(workflow_text):
     return names
 
 
+def parse_workflow_env_variable_names(workflow_text):
+    if WORKFLOW_VARS_BEGIN not in workflow_text or WORKFLOW_VARS_END not in workflow_text:
+        return None
+    start = workflow_text.index(WORKFLOW_VARS_BEGIN)
+    end = workflow_text.index(WORKFLOW_VARS_END, start)
+    block = workflow_text[start:end]
+    names = set()
+    for line in block.splitlines():
+        stripped = line.strip()
+        if not stripped or stripped.startswith("#"):
+            continue
+        key = stripped.split(":", 1)[0].strip()
+        names.add(key)
+    return names
+
+
 def sync_distribute_workflow(check_only=False):  # pylint: disable=too-many-return-statements
     secret_names = get_secret_names()
     if not secret_names:
@@ -318,25 +402,39 @@ def sync_distribute_workflow(check_only=False):  # pylint: disable=too-many-retu
     workflow_text = workflow_path.read_text(encoding="utf-8")
     expected_names = set(secret_names)
     current_names = parse_workflow_env_secret_names(workflow_text)
+    current_var_names = parse_workflow_env_variable_names(workflow_text)
+    expected_var_names = set(DISTRIBUTE_VARIABLES)
 
-    if current_names is None and check_only:
+    if check_only and (current_names is None or current_var_names is None):
         print(f"Workflow env markers not found in {workflow_path}; run: python3 setup.py --sync-workflow")
         return 1
 
     missing = []
     extra = []
+    missing_vars = []
+    extra_vars = []
     if current_names is not None:
         missing = sorted(expected_names - current_names)
         extra = sorted(current_names - expected_names)
-        if not missing and not extra:
-            print(f"Workflow env matches {len(expected_names)} repo secrets")
-            return 0
+    if current_var_names is not None:
+        missing_vars = sorted(expected_var_names - current_var_names)
+        extra_vars = sorted(current_var_names - expected_var_names)
+    if not missing and not extra and not missing_vars and not extra_vars:
+        print(
+            f"Workflow env matches {len(expected_names)} repo secrets"
+            f" and {len(expected_var_names)} repo variables"
+        )
+        return 0
 
     if check_only:
         if missing:
             print(f"Workflow missing env for: {', '.join(missing)}")
         if extra:
             print(f"Workflow has stale env entries: {', '.join(extra)}")
+        if missing_vars:
+            print(f"Workflow missing variables env for: {', '.join(missing_vars)}")
+        if extra_vars:
+            print(f"Workflow has stale variables env entries: {', '.join(extra_vars)}")
         print("Run: python3 setup.py --sync-workflow")
         return 1
 
@@ -378,6 +476,20 @@ def main():
     current_hashes = compute_per_secret_hashes(secrets)
     print(f"Computed hashes for {len(current_hashes)} secrets")
 
+    variables = {}
+    for name in DISTRIBUTE_VARIABLES:
+        value = os.getenv(name)
+        if value is None:
+            value = get_hub_variable_value(name)
+        variables[name] = value
+
+    missing_variables = [name for name, value in variables.items() if value is None]
+    if missing_variables:
+        print(f"Skipping unset variables: {', '.join(missing_variables)}")
+
+    variable_hashes = compute_per_secret_hashes(variables)
+    print(f"Computed hashes for {len(variable_hashes)} variables")
+
     authenticate_gh()
 
     repos = get_repositories()
@@ -402,6 +514,8 @@ def main():
 
         print(f"\nSyncing secrets for: {repo} (est. cost: {cost})")
         sync_repo_secrets(repo, secrets, current_hashes, remote_hashes)
+        remote_variable_hashes = get_remote_variable_hashes(repo)
+        sync_repo_variables(repo, variables, variable_hashes, remote_variable_hashes)
         synced += 1
 
     print(f"\nDone: synced {synced} repos")

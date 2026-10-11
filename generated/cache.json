@@ -39,8 +39,21 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/Leecharr/issues?state=open": {
-    "t": 1791689538.836998,
+    "t": 1791734173.380953,
     "v": [
+      {
+        "html_url": "https://github.com/dmzoneill/Leecharr/pull/1871",
+        "pull_request": {
+          "diff_url": "https://github.com/dmzoneill/Leecharr/pull/1871.diff",
+          "html_url": "https://github.com/dmzoneill/Leecharr/pull/1871",
+          "merged_at": null,
+          "patch_url": "https://github.com/dmzoneill/Leecharr/pull/1871.patch",
+          "url": "https://api.github.com/repos/dmzoneill/Leecharr/pulls/1871"
+        },
+        "title": "fix(ai): skip Gemini label on diagnostic chat fallback (fixes #1620)",
+        "updated_at": "2026-10-11T15:32:06Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1871"
+      },
       {
         "html_url": "https://github.com/dmzoneill/Leecharr/pull/1868",
         "pull_request": {
@@ -51,7 +64,7 @@
           "url": "https://api.github.com/repos/dmzoneill/Leecharr/pulls/1868"
         },
         "title": "chore(deps-dev): bump postcss-selector-parser from 7.1.5 to 7.1.6 in /src/Leecharr.Frontend",
-        "updated_at": "2026-10-10T23:36:51Z",
+        "updated_at": "2026-10-11T03:46:12Z",
         "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1868"
       },
       {
@@ -64,7 +77,7 @@
           "url": "https://api.github.com/repos/dmzoneill/Leecharr/pulls/1867"
         },
         "title": "chore(deps): bump proxy-addr from 2.0.7 to 2.0.8 in /src/Leecharr.Frontend",
-        "updated_at": "2026-10-10T23:36:51Z",
+        "updated_at": "2026-10-11T03:46:12Z",
         "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1867"
       },
       {
@@ -77,7 +90,7 @@
           "url": "https://api.github.com/repos/dmzoneill/Leecharr/pulls/1866"
         },
         "title": "chore(deps): bump compression from 1.8.1 to 1.8.2 in /src/Leecharr.Frontend",
-        "updated_at": "2026-10-10T23:36:51Z",
+        "updated_at": "2026-10-11T03:46:12Z",
         "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1866"
       },
       {
@@ -90,7 +103,7 @@
           "url": "https://api.github.com/repos/dmzoneill/Leecharr/pulls/1865"
         },
         "title": "chore(deps-dev): bump source-map-js from 1.2.1 to 1.2.2 in /src/Leecharr.Frontend",
-        "updated_at": "2026-10-10T23:36:51Z",
+        "updated_at": "2026-10-11T03:46:12Z",
         "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1865"
       },
       {
@@ -103,192 +116,192 @@
           "url": "https://api.github.com/repos/dmzoneill/Leecharr/pulls/1864"
         },
         "title": "chore(deps): bump shell-quote from 1.10.0 to 1.12.0 in /src/Leecharr.Frontend",
-        "updated_at": "2026-10-10T23:36:51Z",
+        "updated_at": "2026-10-11T03:46:12Z",
         "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1864"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1692",
-        "title": "[HealthCheck] Network binding health stays OK while the VPN kill switch is active",
-        "updated_at": "2026-10-08T07:02:56Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1692"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1662",
+        "title": "[TrackerBoost] HTTP probe treats HEAD 404 and 405 as offline",
+        "updated_at": "2026-10-08T05:34:40Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1662"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1691",
-        "title": "[HealthCheck] Media metadata health reports OK without checking the provider",
-        "updated_at": "2026-10-08T07:02:44Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1691"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1661",
+        "title": "[TrackerBoost] Inject builds IPv6 client URLs without brackets",
+        "updated_at": "2026-10-08T05:34:26Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1661"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1690",
-        "title": "[Bandwidth] Overlapping speed schedules with the same priority pick an arbitrary winner",
-        "updated_at": "2026-10-08T07:02:17Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1690"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1660",
+        "title": "[TrackerBoost] Deluge inject hardcodes every tracker at tier 0",
+        "updated_at": "2026-10-08T05:34:13Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1660"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1689",
-        "title": "[HealthCheck] Network binding health stays OK when the SO_BINDTODEVICE probe fails",
-        "updated_at": "2026-10-08T07:02:10Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1689"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1658",
+        "title": "[TrackerBoost] Harvest counts existing tracker rows as new",
+        "updated_at": "2026-10-08T05:33:28Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1658"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1688",
-        "title": "[Developer] Quality pipelines keep only the newest workflow and hide CI",
-        "updated_at": "2026-10-08T07:02:09Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1688"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1657",
+        "title": "[TrackerBoost] FindByUrl treats announce, announce/, and default ports as different trackers",
+        "updated_at": "2026-10-08T05:20:31Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1657"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1687",
-        "title": "[HealthCheck] HTTP transport health stays OK while the VPN kill switch is fail-closed",
-        "updated_at": "2026-10-08T07:01:49Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1687"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1656",
+        "title": "[Datastore / Migration] Existing torrents ignore the global share limit action",
+        "updated_at": "2026-10-08T05:12:04Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1656"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1686",
-        "title": "[Bandwidth] Scheduled pause resume skips torrents the status sync stored as paused",
-        "updated_at": "2026-10-08T07:01:24Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1686"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1655",
+        "title": "[Datastore / Migration] Existing torrents are marked waiting for import",
+        "updated_at": "2026-10-08T05:11:28Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1655"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1685",
-        "title": "[Developer] A slower quality fetch overwrites a live report",
-        "updated_at": "2026-10-08T06:47:21Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1685"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1654",
+        "title": "[Datastore / Migration] Existing Arr connections enable webhooks and automatic add",
+        "updated_at": "2026-10-08T05:11:02Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1654"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1684",
-        "title": "[Developer] A slower GitHub failure overwrites a successful cache entry",
-        "updated_at": "2026-10-08T06:47:15Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1684"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1653",
+        "title": "[Datastore / Migration] Existing download history is stored as public",
+        "updated_at": "2026-10-08T05:09:48Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1653"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1683",
-        "title": "[Developer] Sonar alert_status is fetched and never applied",
-        "updated_at": "2026-10-08T06:47:08Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1683"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1652",
+        "title": "[Datastore / Migrations] PostgreSQL string columns are varchar(255) and reject real values",
+        "updated_at": "2026-10-08T05:14:37Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1652"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1682",
-        "title": "[Developer] Quality report drops Sonar project duplication",
-        "updated_at": "2026-10-08T06:47:03Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1682"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1651",
+        "title": "[Datastore / Migrations] PostgreSQL timestamp columns reject UTC DateTime values",
+        "updated_at": "2026-10-08T05:06:19Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1651"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1681",
-        "title": "[Developer] In-progress workflow runs are reported as successful",
-        "updated_at": "2026-10-08T06:46:58Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1681"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1650",
+        "title": "[TrackerBoost] Download-client injection never disposes HTTP responses",
+        "updated_at": "2026-10-08T04:55:01Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1650"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1680",
-        "title": "[Developer] Issue list drops issues that share a page with pull requests",
-        "updated_at": "2026-10-08T06:46:52Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1680"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1649",
+        "title": "[TrackerBoost] The optimization loop stops forever after a settings read fails",
+        "updated_at": "2026-10-08T04:54:57Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1649"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1679",
-        "title": "[Developer] Pull request parser drops comment counts and branch names",
-        "updated_at": "2026-10-08T06:46:47Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1679"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1648",
+        "title": "[TrackerBoost] Disabling auto-boost still injects trackers on every cycle",
+        "updated_at": "2026-10-08T04:54:55Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1648"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1678",
-        "title": "[System / Developer] Webhook simulation reports success when the pipeline never runs",
-        "updated_at": "2026-10-08T06:33:01Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1678"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1647",
+        "title": "[TrackerBoost] Hash boost skips the private-torrent guard for a non-local torrent",
+        "updated_at": "2026-10-08T04:54:51Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1647"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1677",
-        "title": "[System / Maintenance] PostgreSQL VACUUM is cancelled after 30 seconds",
-        "updated_at": "2026-10-08T06:32:41Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1677"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1646",
+        "title": "[TrackerBoost] UDP scrapes are cancelled before retries finish and then cached",
+        "updated_at": "2026-10-08T04:56:00Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1646"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1676",
-        "title": "[System / Developer] Indexer webhook simulations run a full Prowlarr sync",
-        "updated_at": "2026-10-08T06:32:28Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1676"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1645",
+        "title": "[TrackerBoost] Transmission injection counts an RPC error as success",
+        "updated_at": "2026-10-08T04:54:01Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1645"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1674",
-        "title": "[System / Developer] A blank database config row hides the config file value",
-        "updated_at": "2026-10-08T06:32:02Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1674"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1644",
+        "title": "[TrackerBoost] Boost spends the tracker cap on fast trackers with no peers",
+        "updated_at": "2026-10-08T04:53:59Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1644"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1673",
-        "title": "[System / Developer] TvdbPin is returned unmasked",
-        "updated_at": "2026-10-08T06:31:48Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1673"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1643",
+        "title": "[TrackerBoost] A failed tracker inject is stored as attached and never retried",
+        "updated_at": "2026-10-08T04:53:57Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1643"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1672",
-        "title": "[System / Developer] Config dump SQL fails on PostgreSQL and the error is ignored",
-        "updated_at": "2026-10-08T06:31:34Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1672"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1642",
+        "title": "[AI] Ollama JSON extraction includes text through the last brace",
+        "updated_at": "2026-10-08T04:52:32Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1642"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1671",
-        "title": "[System / Developer] Event and HTTP traffic totals report the page size",
-        "updated_at": "2026-10-08T06:31:21Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1671"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1641",
+        "title": "[AI] Ollama diagnostics put the torrent name in the model prompt",
+        "updated_at": "2026-10-08T04:52:26Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1641"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1670",
-        "title": "[Host] Login redirect targets a route that requires authentication",
-        "updated_at": "2026-10-08T06:12:13Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1670"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1640",
+        "title": "[AI] Ollama chat fallback flag is shared across requests",
+        "updated_at": "2026-10-08T04:52:21Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1640"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1667",
-        "title": "[System] macOS hibernate uses the same sleep command as suspend",
-        "updated_at": "2026-10-08T06:11:42Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1667"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1639",
+        "title": "[AI] Ollama health treats any version response as the configured model",
+        "updated_at": "2026-10-08T04:52:15Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1639"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1666",
-        "title": "[System] Linux sleep inhibitor keeps running after Leecharr exits",
-        "updated_at": "2026-10-08T06:11:39Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1666"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1665",
-        "title": "[System] Windows sleep inhibition is cleared on the wrong thread",
-        "updated_at": "2026-10-08T06:11:37Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1665"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1638",
+        "title": "[AI] Gemini health check never disposes the HTTP response",
+        "updated_at": "2026-10-08T04:39:41Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1638"
       }
     ]
   },
   "https://api.github.com/repos/dmzoneill/Leecharr/pulls?state=open": {
-    "t": 1791689539.7486424,
+    "t": 1791734174.1348343,
     "v": [
+      {
+        "html_url": "https://github.com/dmzoneill/Leecharr/pull/1871",
+        "title": "fix(ai): skip Gemini label on diagnostic chat fallback (fixes #1620)",
+        "updated_at": "2026-10-11T15:32:06Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/pulls/1871"
+      },
       {
         "html_url": "https://github.com/dmzoneill/Leecharr/pull/1868",
         "title": "chore(deps-dev): bump postcss-selector-parser from 7.1.5 to 7.1.6 in /src/Leecharr.Frontend",
-        "updated_at": "2026-10-10T23:36:51Z",
+        "updated_at": "2026-10-11T03:46:12Z",
         "url": "https://api.github.com/repos/dmzoneill/Leecharr/pulls/1868"
       },
       {
         "html_url": "https://github.com/dmzoneill/Leecharr/pull/1867",
         "title": "chore(deps): bump proxy-addr from 2.0.7 to 2.0.8 in /src/Leecharr.Frontend",
-        "updated_at": "2026-10-10T23:36:51Z",
+        "updated_at": "2026-10-11T03:46:12Z",
         "url": "https://api.github.com/repos/dmzoneill/Leecharr/pulls/1867"
       },
       {
         "html_url": "https://github.com/dmzoneill/Leecharr/pull/1866",
         "title": "chore(deps): bump compression from 1.8.1 to 1.8.2 in /src/Leecharr.Frontend",
-        "updated_at": "2026-10-10T23:36:51Z",
+        "updated_at": "2026-10-11T03:46:12Z",
         "url": "https://api.github.com/repos/dmzoneill/Leecharr/pulls/1866"
       },
       {
         "html_url": "https://github.com/dmzoneill/Leecharr/pull/1865",
         "title": "chore(deps-dev): bump source-map-js from 1.2.1 to 1.2.2 in /src/Leecharr.Frontend",
-        "updated_at": "2026-10-10T23:36:51Z",
+        "updated_at": "2026-10-11T03:46:12Z",
         "url": "https://api.github.com/repos/dmzoneill/Leecharr/pulls/1865"
       },
       {
         "html_url": "https://github.com/dmzoneill/Leecharr/pull/1864",
         "title": "chore(deps): bump shell-quote from 1.10.0 to 1.12.0 in /src/Leecharr.Frontend",
-        "updated_at": "2026-10-10T23:36:51Z",
+        "updated_at": "2026-10-11T03:46:12Z",
         "url": "https://api.github.com/repos/dmzoneill/Leecharr/pulls/1864"
       }
     ]

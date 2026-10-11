@@ -2276,17 +2276,6 @@ jobs:
         needs.winget.result == 'success'
       )
     steps:
-      - name: Setup Node.js
-        uses: actions/setup-node@v7
-        with:
-          node-version: '20'
-
-      - name: Install Claude CLI
-        run: npm install -g @anthropic-ai/claude-code
-
-      - name: Setup Google Cloud credentials
-        run: echo '${{ secrets.GOOGLE_APPLICATION_CREDENTIALS_JSON }}' > /tmp/gcloud-credentials.json
-
       - name: Set up Python environment
         uses: actions/setup-python@v7
         with:
@@ -2300,9 +2289,9 @@ jobs:
           curl https://raw.githubusercontent.com/dmzoneill/dmzoneill/refs/heads/main/wp-pipeline-publisher.py -o wp-pipeline-publisher.py
           python wp-pipeline-publisher.py
         env:
-          GOOGLE_APPLICATION_CREDENTIALS: /tmp/gcloud-credentials.json
-          ANTHROPIC_VERTEX_PROJECT_ID: ${{ secrets.ANTHROPIC_VERTEX_PROJECT_ID }}
-          CLAUDE_CODE_USE_VERTEX: ${{ secrets.CLAUDE_CODE_USE_VERTEX }}
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          LLM_API_BASE: ${{ secrets.LLM_API_BASE }}
+          LLM_MODEL: ${{ secrets.LLM_MODEL }}
           PROFILE_HOOK: ${{ secrets.PROFILE_HOOK }}
           GITHUB_REPOSITORY: ${{ github.repository }}
           GITHUB_USER: dmzoneill

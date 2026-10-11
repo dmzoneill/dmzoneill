@@ -1,7 +1,6 @@
 import base64
 import os
 import re
-import subprocess
 import sys
 from datetime import datetime
 from pathlib import Path
@@ -95,22 +94,59 @@ Let people know what changed, why it matters, and how it will affect them—but 
 """
 
 
-class ClaudeProvider:
+DEFAULT_LLM_API_BASE = "https://api.openai.com/v1"
+DEFAULT_LLM_MODEL = "gpt-4o-mini"
 
-    def improve_text(self, prompt: str, text: str) -> str:
-        full_prompt = f"{prompt}\n\n{text}"
-        result = subprocess.run(
-            ["claude", "--print", "--prompt", full_prompt],
-            capture_output=True,
-            text=True,
-            timeout=180,
+
+class OpenAICompatibleProvider:
+    """Generate text via an OpenAI-compatible chat completions API."""
+
+    def __init__(self) -> None:
+        self.api_key = os.getenv("LLM_API_KEY")
+        if not self.api_key:
+            raise RuntimeError(
+                "Missing LLM_API_KEY (API key for an OpenAI-compatible endpoint)."
+            )
+        base = (os.getenv("LLM_API_BASE") or DEFAULT_LLM_API_BASE).rstrip("/")
+        self.chat_url = f"{base}/chat/completions"
+        self.model = os.getenv("LLM_MODEL") or DEFAULT_LLM_MODEL
+
+    def improve_text(self, system_prompt: str, user_text: str) -> str:
+        headers = {
+            "Authorization": f"Bearer {self.api_key}",
+            "Content-Type": "application/json",
+        }
+        payload = {
+            "model": self.model,
+            "messages": [
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": user_text},
+            ],
+            "temperature": 0.7,
+            "max_tokens": 4096,
+        }
+        response = requests.post(
+            self.chat_url, headers=headers, json=payload, timeout=180
         )
-
-        if result.returncode != 0:
-            print(f"Claude CLI stderr: {result.stderr}", file=sys.stderr)
-            raise Exception(f"Claude CLI failed with exit code {result.returncode}")
-
-        return result.stdout.strip()
+        if response.status_code != 200:
+            print(
+                f"LLM API error: {response.status_code} {response.text}",
+                file=sys.stderr,
+            )
+            raise RuntimeError(
+                f"LLM API request failed with status {response.status_code}"
+            )
+        data = response.json()
+        choices = data.get("choices", [])
+        if not choices:
+            raise RuntimeError("LLM API returned no choices")
+        message = choices[0].get("message", {})
+        content = message.get("content")
+        if not content and "reasoning_content" in message:
+            content = message.get("reasoning_content")
+        if not content:
+            raise RuntimeError("LLM API returned empty content")
+        return content.strip()
 
 
 def search_image_url_unsplash(query: str, api_key: str) -> str:
@@ -500,7 +536,7 @@ def create_wordpress_post(
         return None
 
 
-# Function to generate the blog post prompt for Claude
+# Function to generate the blog post prompt for the LLM
 def generate_blog_post_prompt(release_links, diff, publish_date):
     prompt = f"Generate a blog post with the following release {publish_date}"
     prompt += " links and provide ana analysis of the changes from this diff:\n"
@@ -577,7 +613,7 @@ def get_commit_diff(sha):
 
 
 def generate_description_with_media(prompt: str):
-    ai_provider = ClaudeProvider()
+    ai_provider = OpenAICompatibleProvider()
 
     response = ai_provider.improve_text(system_prompt, prompt)
 
@@ -727,7 +763,7 @@ def main():
 
         prompt = generate_blog_post_prompt(release_links, diff, publish_date)
 
-        # Generate description using Claude
+        # Generate description using the LLM API
         title, description, image_idea, youtube_topics = (
             generate_description_with_media(prompt)
         )

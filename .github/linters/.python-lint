@@ -3,7 +3,7 @@ jobs=0
 
 [MESSAGES CONTROL]
 # Super-linter does not install Python dependencies in the lint job.
-disable=import-error
+disable=import-error,missing-module-docstring,missing-function-docstring
 
 [FORMAT]
 max-line-length=120

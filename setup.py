@@ -45,6 +45,7 @@ headers = {
 # Rate limit delay between API calls (seconds)
 API_DELAY = 1
 GH_CLI_DELAY = 1.5
+HTTP_TIMEOUT = 60
 
 # Reserve buffer to avoid hitting the limit
 RATE_LIMIT_RESERVE = 100
@@ -59,7 +60,7 @@ def compute_per_secret_hashes(secrets):
 
 
 def check_rate_limit():
-    response = requests.get("https://api.github.com/rate_limit", headers=headers)
+    response = requests.get("https://api.github.com/rate_limit", headers=headers, timeout=HTTP_TIMEOUT)
     if response.status_code == 200:
         core = response.json()["resources"]["core"]
         remaining = core["remaining"]
@@ -72,7 +73,7 @@ def check_rate_limit():
 def rate_limited_get(url, max_retries=3):
     for attempt in range(max_retries):
         time.sleep(API_DELAY)
-        response = requests.get(url, headers=headers)
+        response = requests.get(url, headers=headers, timeout=HTTP_TIMEOUT)
         if response.status_code in (403, 429):
             retry_after = int(response.headers.get("Retry-After", 60))
             print(f"  Rate limited, waiting {retry_after}s (attempt {attempt + 1}/{max_retries})")
@@ -134,14 +135,14 @@ def set_repo_variable(repo_name, name, value):
     repo_full = f"{GITHUB_USER}/{repo_name}"
     url = f"https://api.github.com/repos/{repo_full}/actions/variables/{name}"
     time.sleep(API_DELAY)
-    response = requests.patch(url, headers=headers, json={"value": value})
+    response = requests.patch(url, headers=headers, json={"value": value}, timeout=HTTP_TIMEOUT)
     if response.status_code == 204:
         print("    Updated hash variable")
         return
 
     url = f"https://api.github.com/repos/{repo_full}/actions/variables"
     time.sleep(API_DELAY)
-    response = requests.post(url, headers=headers, json={"name": name, "value": value})
+    response = requests.post(url, headers=headers, json={"name": name, "value": value}, timeout=HTTP_TIMEOUT)
     if response.status_code == 201:
         print("    Created hash variable")
     else:

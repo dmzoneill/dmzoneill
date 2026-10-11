@@ -25,6 +25,7 @@ jobs:
           VALIDATE_MARKDOWN: false
           VALIDATE_PYTHON_MYPY: false
           VALIDATE_PYTHON_FLAKE8: false
+          VALIDATE_PYTHON_BLACK: false
           VALIDATE_ALL_CODEBASE: false
           VALIDATE_DOCKERFILE_HADOLINT: false
           VALIDATE_CHECKOV: false

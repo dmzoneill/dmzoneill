@@ -20,7 +20,6 @@ SECRETS_TO_PURGE = {
     "CODACY_PROJECT_TOKEN",
     "GEMINI_API_KEY",
     "GOOGLE_APPLICATION_CREDENTIALS_JSON",
-    "OPENCODE_API_KEY",
     "OPENCODE_MODEL",
 }
 # Codacy account API token for all repos (hub may store as CODACY_PROJECT_TOKEN).

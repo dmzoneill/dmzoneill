@@ -2,6 +2,7 @@ import base64
 import os
 import re
 import sys
+import time
 from datetime import datetime
 from pathlib import Path
 
@@ -94,24 +95,46 @@ Let people know what changed, why it matters, and how it will affect them—but 
 """
 
 
-DEFAULT_LLM_API_BASE = "https://api.openai.com/v1"
-DEFAULT_LLM_MODEL = "gpt-4o-mini"
+DEFAULT_LLM_API_BASE = "https://api.cursor.com/v1"
+DEFAULT_LLM_MODEL = "composer-2.5"
+CURSOR_API_ORIGIN = "https://api.cursor.com"
+CURSOR_AGENT_POLL_SECS = 5
+CURSOR_AGENT_TIMEOUT_SECS = 600
 
 
 class OpenAICompatibleProvider:
-    """Generate text via an OpenAI-compatible chat completions API."""
+    """Generate text via Cursor API or an OpenAI-compatible chat completions API."""
 
     def __init__(self) -> None:
-        self.api_key = os.getenv("LLM_API_KEY")
+        self.api_key = os.getenv("LLM_API_KEY") or os.getenv("CURSOR_API_KEY")
         if not self.api_key:
             raise RuntimeError(
-                "Missing LLM_API_KEY (API key for an OpenAI-compatible endpoint)."
+                "Missing LLM_API_KEY or CURSOR_API_KEY (API key for the LLM endpoint)."
             )
         base = (os.getenv("LLM_API_BASE") or DEFAULT_LLM_API_BASE).rstrip("/")
+        self.api_base = base
         self.chat_url = f"{base}/chat/completions"
         self.model = os.getenv("LLM_MODEL") or DEFAULT_LLM_MODEL
+        self.use_cursor_agents = self._uses_cursor_cloud_api(base)
+
+    @staticmethod
+    def _uses_cursor_cloud_api(base: str) -> bool:
+        return base.startswith(CURSOR_API_ORIGIN)
+
+    def _request_auth(self) -> tuple[str, str]:
+        return (self.api_key, "")
+
+    def _request_headers(self) -> dict[str, str]:
+        return {"Content-Type": "application/json"}
 
     def improve_text(self, system_prompt: str, user_text: str) -> str:
+        if self.use_cursor_agents:
+            return self._improve_text_cursor_agent(system_prompt, user_text)
+        return self._improve_text_chat_completions(system_prompt, user_text)
+
+    def _improve_text_chat_completions(
+        self, system_prompt: str, user_text: str
+    ) -> str:
         headers = {
             "Authorization": f"Bearer {self.api_key}",
             "Content-Type": "application/json",
@@ -147,6 +170,68 @@ class OpenAICompatibleProvider:
         if not content:
             raise RuntimeError("LLM API returned empty content")
         return content.strip()
+
+    def _improve_text_cursor_agent(
+        self, system_prompt: str, user_text: str
+    ) -> str:
+        prompt_text = f"{system_prompt.strip()}\n\n---\n\n{user_text.strip()}"
+        create_url = f"{CURSOR_API_ORIGIN}/v1/agents"
+        payload = {
+            "prompt": {"text": prompt_text},
+            "model": {"id": self.model},
+        }
+        response = requests.post(
+            create_url,
+            auth=self._request_auth(),
+            headers=self._request_headers(),
+            json=payload,
+            timeout=120,
+        )
+        if response.status_code not in (200, 201):
+            print(
+                f"Cursor API error: {response.status_code} {response.text}",
+                file=sys.stderr,
+            )
+            raise RuntimeError(
+                f"Cursor API request failed with status {response.status_code}"
+            )
+        data = response.json()
+        agent = data.get("agent") or {}
+        run = data.get("run") or {}
+        agent_id = agent.get("id")
+        run_id = run.get("id")
+        if not agent_id or not run_id:
+            raise RuntimeError("Cursor API did not return agent/run identifiers")
+
+        run_url = f"{CURSOR_API_ORIGIN}/v1/agents/{agent_id}/runs/{run_id}"
+        deadline = time.time() + CURSOR_AGENT_TIMEOUT_SECS
+        terminal = {"FINISHED", "ERROR", "CANCELLED", "EXPIRED"}
+        while time.time() < deadline:
+            poll = requests.get(
+                run_url,
+                auth=self._request_auth(),
+                headers=self._request_headers(),
+                timeout=60,
+            )
+            if poll.status_code != 200:
+                print(
+                    f"Cursor API poll error: {poll.status_code} {poll.text}",
+                    file=sys.stderr,
+                )
+                raise RuntimeError(
+                    f"Cursor API poll failed with status {poll.status_code}"
+                )
+            run_data = poll.json()
+            status = run_data.get("status")
+            if status in terminal:
+                if status != "FINISHED":
+                    raise RuntimeError(f"Cursor agent run ended with status {status}")
+                result = run_data.get("result")
+                if not result:
+                    raise RuntimeError("Cursor agent run returned empty result")
+                return result.strip()
+            time.sleep(CURSOR_AGENT_POLL_SECS)
+        raise RuntimeError("Cursor agent run timed out")
 
 
 def search_image_url_unsplash(query: str, api_key: str) -> str:

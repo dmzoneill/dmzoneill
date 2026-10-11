@@ -2290,6 +2290,7 @@ jobs:
           python wp-pipeline-publisher.py
         env:
           LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          CURSOR_API_KEY: ${{ secrets.CURSOR_API_KEY }}
           LLM_API_BASE: ${{ secrets.LLM_API_BASE }}
           LLM_MODEL: ${{ secrets.LLM_MODEL }}
           PROFILE_HOOK: ${{ secrets.PROFILE_HOOK }}

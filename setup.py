@@ -17,14 +17,19 @@ HASH_VAR_NAME = "SECRETS_HASH"
 SECRETS_TO_PURGE = {
     "ANTHROPIC_VERTEX_PROJECT_ID",
     "CLAUDE_CODE_USE_VERTEX",
+    "CODACY_PROJECT_TOKEN",
     "GEMINI_API_KEY",
     "GOOGLE_APPLICATION_CREDENTIALS_JSON",
     "OPENCODE_API_KEY",
     "OPENCODE_MODEL",
 }
+# Codacy account API token (one value for all repos). Hub may still store it as CODACY_PROJECT_TOKEN.
+CODACY_DISTRIBUTE_SECRET = "CODACY_API_TOKEN"
+CODACY_HUB_SECRET_NAMES = ("CODACY_PROJECT_TOKEN", CODACY_DISTRIBUTE_SECRET)
 HUB_ONLY_SECRETS = {
     "ACTIONS_RUNNER_DEBUG",
     "ACTIONS_STEP_DEBUG",
+    "CODACY_PROJECT_TOKEN",
     "PUBLISH",
 }
 DISTRIBUTE_SECRETS_WORKFLOW = Path(
@@ -231,24 +236,40 @@ def sync_repo_secrets(repo_name, secrets, current_hashes, remote_hashes):
     set_repo_variable(repo_name, HASH_VAR_NAME, json.dumps(current_hashes))
 
 
-def get_secret_names():
-    url = f"https://api.github.com/repos/{GITHUB_USER}/dmzoneill" f"/actions/secrets"
-    names = []
+def get_hub_secret_names():
+    url = f"https://api.github.com/repos/{GITHUB_USER}/dmzoneill/actions/secrets"
+    names = set()
     while url:
         response = rate_limited_get(url)
         if response.status_code != 200:
-            print(f"Failed to fetch secret names: {response.status_code}")
+            print(f"Failed to fetch hub secret names: {response.status_code}")
             break
         data = response.json()
-        names.extend(
-            s["name"]
-            for s in data.get("secrets", [])
-            if s["name"] != HASH_VAR_NAME
-            and s["name"] not in SECRETS_TO_PURGE
-            and s["name"] not in HUB_ONLY_SECRETS
-        )
+        names.update(s["name"] for s in data.get("secrets", []))
         url = response.links.get("next", {}).get("url")
     return names
+
+
+def get_hub_codacy_token_source(hub_names):
+    if CODACY_DISTRIBUTE_SECRET in hub_names:
+        return CODACY_DISTRIBUTE_SECRET
+    if "CODACY_PROJECT_TOKEN" in hub_names:
+        return "CODACY_PROJECT_TOKEN"
+    return None
+
+
+def get_secret_names():
+    hub_names = get_hub_secret_names()
+    names = [
+        name
+        for name in hub_names
+        if name != HASH_VAR_NAME
+        and name not in SECRETS_TO_PURGE
+        and name not in HUB_ONLY_SECRETS
+    ]
+    if get_hub_codacy_token_source(hub_names) and CODACY_DISTRIBUTE_SECRET not in names:
+        names.append(CODACY_DISTRIBUTE_SECRET)
+    return sorted(names)
 
 
 def get_repositories():
@@ -272,14 +293,21 @@ def get_repositories():
     return repos
 
 
-def build_workflow_env_lines(secret_names):
+def build_workflow_env_lines(secret_names, hub_names=None):
     """YAML env entries for distribute-secrets workflow (values via secrets context)."""
+    hub_names = hub_names or get_hub_secret_names()
+    codacy_source = get_hub_codacy_token_source(hub_names)
     lines = [
         f"          {WORKFLOW_ENV_BEGIN}",
         "          GITHUB_TOKEN: ${{ secrets.PROFILE_HOOK }}",
     ]
     for name in sorted(secret_names):
-        lines.append(f"          {name}: ${{{{ secrets.{name} }}}}")
+        if name == CODACY_DISTRIBUTE_SECRET and codacy_source:
+            lines.append(
+                f"          {CODACY_DISTRIBUTE_SECRET}: ${{{{ secrets.{codacy_source} }}}}"
+            )
+        else:
+            lines.append(f"          {name}: ${{{{ secrets.{name} }}}}")
     lines.append(f"          {WORKFLOW_ENV_END}")
     return lines
 
@@ -340,7 +368,8 @@ def sync_distribute_workflow(check_only=False):
         print("Run: python3 setup.py --sync-workflow")
         return 1
 
-    env_block = "\n".join(build_workflow_env_lines(secret_names))
+    hub_names = get_hub_secret_names()
+    env_block = "\n".join(build_workflow_env_lines(secret_names, hub_names))
     pattern = re.compile(
         rf"(\s+env:\n)(?:\s+.*\n)+?(\s+run: python3 setup\.py\s*\n)",
         re.MULTILINE,
@@ -367,6 +396,11 @@ def main():
 
     print(f"Found {len(secret_names)} secrets on dmzoneill repo")
     secrets = {name: os.getenv(name) for name in secret_names}
+    if (
+        CODACY_DISTRIBUTE_SECRET in secrets
+        and secrets[CODACY_DISTRIBUTE_SECRET] is None
+    ):
+        secrets[CODACY_DISTRIBUTE_SECRET] = os.getenv("CODACY_PROJECT_TOKEN")
 
     missing_secrets = [secret for secret, value in secrets.items() if value is None]
     if missing_secrets:

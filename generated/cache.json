@@ -1,10 +1,10 @@
 {
   "https://api.github.com/repos/dmzoneill/Bootstack-Highlight-Monitor/languages": {
-    "t": 1791777400.289851,
+    "t": 1791849920.192575,
     "v": {}
   },
   "https://api.github.com/repos/dmzoneill/DFakeSeeder/issues?state=open": {
-    "t": 1791777389.3386238,
+    "t": 1791849907.7618058,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/DFakeSeeder/pull/50",
@@ -28,7 +28,7 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/DFakeSeeder/pulls?state=open": {
-    "t": 1791777390.0557024,
+    "t": 1791849908.5783918,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/DFakeSeeder/pull/50",
@@ -39,301 +39,196 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/Leecharr/issues?state=open": {
-    "t": 1791777390.8793893,
+    "t": 1791849909.5294201,
     "v": [
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/pull/1897",
-        "pull_request": {
-          "diff_url": "https://github.com/dmzoneill/Leecharr/pull/1897.diff",
-          "html_url": "https://github.com/dmzoneill/Leecharr/pull/1897",
-          "merged_at": null,
-          "patch_url": "https://github.com/dmzoneill/Leecharr/pull/1897.patch",
-          "url": "https://api.github.com/repos/dmzoneill/Leecharr/pulls/1897"
-        },
-        "title": "fix(http,ai): roll back provider switch when config save fails (#1388)",
-        "updated_at": "2026-10-12T03:16:51Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1897"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1112",
+        "title": "[Notifications] Settings containing an asterisk are saved as the previous value",
+        "updated_at": "2026-10-12T23:39:41Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1112"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/pull/1892",
-        "pull_request": {
-          "diff_url": "https://github.com/dmzoneill/Leecharr/pull/1892.diff",
-          "html_url": "https://github.com/dmzoneill/Leecharr/pull/1892",
-          "merged_at": null,
-          "patch_url": "https://github.com/dmzoneill/Leecharr/pull/1892.patch",
-          "url": "https://api.github.com/repos/dmzoneill/Leecharr/pulls/1892"
-        },
-        "title": "fix(datastore): abort startup when restore rollback leaves no leecharr.db (fixes #1392)",
-        "updated_at": "2026-10-12T03:55:28Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1892"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1111",
+        "title": "[Backup] psql restore reports success when SQL statements fail",
+        "updated_at": "2026-10-12T23:45:18Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1111"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/pull/1880",
-        "pull_request": {
-          "diff_url": "https://github.com/dmzoneill/Leecharr/pull/1880.diff",
-          "html_url": "https://github.com/dmzoneill/Leecharr/pull/1880",
-          "merged_at": null,
-          "patch_url": "https://github.com/dmzoneill/Leecharr/pull/1880.patch",
-          "url": "https://api.github.com/repos/dmzoneill/Leecharr/pulls/1880"
-        },
-        "title": "fix(notifications): harden webhook redirect follow-ups (fixes #1407)",
-        "updated_at": "2026-10-11T23:49:15Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1880"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1110",
+        "title": "[Update] Install update restarts without applying a package",
+        "updated_at": "2026-10-12T23:45:22Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1110"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/pull/1868",
-        "pull_request": {
-          "diff_url": "https://github.com/dmzoneill/Leecharr/pull/1868.diff",
-          "html_url": "https://github.com/dmzoneill/Leecharr/pull/1868",
-          "merged_at": null,
-          "patch_url": "https://github.com/dmzoneill/Leecharr/pull/1868.patch",
-          "url": "https://api.github.com/repos/dmzoneill/Leecharr/pulls/1868"
-        },
-        "title": "chore(deps-dev): bump postcss-selector-parser from 7.1.5 to 7.1.6 in /src/Leecharr.Frontend",
-        "updated_at": "2026-10-11T03:46:12Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1868"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1109",
+        "title": "[Telemetry] killSwitchArmed is true whenever an interface name is set",
+        "updated_at": "2026-10-07T22:34:45Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1109"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/pull/1867",
-        "pull_request": {
-          "diff_url": "https://github.com/dmzoneill/Leecharr/pull/1867.diff",
-          "html_url": "https://github.com/dmzoneill/Leecharr/pull/1867",
-          "merged_at": null,
-          "patch_url": "https://github.com/dmzoneill/Leecharr/pull/1867.patch",
-          "url": "https://api.github.com/repos/dmzoneill/Leecharr/pulls/1867"
-        },
-        "title": "chore(deps): bump proxy-addr from 2.0.7 to 2.0.8 in /src/Leecharr.Frontend",
-        "updated_at": "2026-10-11T03:46:12Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1867"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1108",
+        "title": "[Developer] HTTP traffic log keeps API keys and cookies",
+        "updated_at": "2026-10-07T22:34:30Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1108"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/pull/1866",
-        "pull_request": {
-          "diff_url": "https://github.com/dmzoneill/Leecharr/pull/1866.diff",
-          "html_url": "https://github.com/dmzoneill/Leecharr/pull/1866",
-          "merged_at": null,
-          "patch_url": "https://github.com/dmzoneill/Leecharr/pull/1866.patch",
-          "url": "https://api.github.com/repos/dmzoneill/Leecharr/pulls/1866"
-        },
-        "title": "chore(deps): bump compression from 1.8.1 to 1.8.2 in /src/Leecharr.Frontend",
-        "updated_at": "2026-10-11T03:46:12Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1866"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1107",
+        "title": "[Media Enrichment] TVDB artwork types 1 and 3 are stored in the opposite slots",
+        "updated_at": "2026-10-08T03:20:01Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1107"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/pull/1865",
-        "pull_request": {
-          "diff_url": "https://github.com/dmzoneill/Leecharr/pull/1865.diff",
-          "html_url": "https://github.com/dmzoneill/Leecharr/pull/1865",
-          "merged_at": null,
-          "patch_url": "https://github.com/dmzoneill/Leecharr/pull/1865.patch",
-          "url": "https://api.github.com/repos/dmzoneill/Leecharr/pulls/1865"
-        },
-        "title": "chore(deps-dev): bump source-map-js from 1.2.1 to 1.2.2 in /src/Leecharr.Frontend",
-        "updated_at": "2026-10-11T03:46:12Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1865"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1106",
+        "title": "[Media Enrichment] Completed media path is never passed to the local NFO provider",
+        "updated_at": "2026-10-07T22:34:18Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1106"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/pull/1864",
-        "pull_request": {
-          "diff_url": "https://github.com/dmzoneill/Leecharr/pull/1864.diff",
-          "html_url": "https://github.com/dmzoneill/Leecharr/pull/1864",
-          "merged_at": null,
-          "patch_url": "https://github.com/dmzoneill/Leecharr/pull/1864.patch",
-          "url": "https://api.github.com/repos/dmzoneill/Leecharr/pulls/1864"
-        },
-        "title": "chore(deps): bump shell-quote from 1.10.0 to 1.12.0 in /src/Leecharr.Frontend",
-        "updated_at": "2026-10-11T03:46:12Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1864"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1105",
+        "title": "[Media Enrichment] Local NFO lookup follows torrent titles outside the download directory",
+        "updated_at": "2026-10-07T22:34:17Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1105"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1644",
-        "title": "[TrackerBoost] Boost spends the tracker cap on fast trackers with no peers",
-        "updated_at": "2026-10-08T04:53:59Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1644"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1104",
+        "title": "[Developer] GitHub panel shows invented pull requests and issues when the API fails",
+        "updated_at": "2026-10-07T22:34:16Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1104"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1643",
-        "title": "[TrackerBoost] A failed tracker inject is stored as attached and never retried",
-        "updated_at": "2026-10-08T04:53:57Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1643"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1103",
+        "title": "[RPC / Synology] task create returns success when no task is created",
+        "updated_at": "2026-10-07T22:34:15Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1103"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1562",
-        "title": "[BitTorrent / MonoTorrent] First and last piece priority raises the entire edge files",
-        "updated_at": "2026-10-08T03:04:18Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1562"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1102",
+        "title": "[Media Enrichment] Local NFO stores a TVDB id as the IMDb id",
+        "updated_at": "2026-10-07T22:34:15Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1102"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1559",
-        "title": "[BitTorrent / libtorrent] Move uses fail-if-exists, and a path-only update overwrites files",
-        "updated_at": "2026-10-08T03:04:12Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1559"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1101",
+        "title": "[Media Enrichment] Servarr queue correlation omits page size and unknown items",
+        "updated_at": "2026-10-07T22:34:13Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1101"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1558",
-        "title": "[BitTorrent / libtorrent] Connected leechers include seeds",
-        "updated_at": "2026-10-08T03:04:10Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1558"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1100",
+        "title": "[Media Enrichment] Servarr correlation returns the first cleaned title and skips a later hash match",
+        "updated_at": "2026-10-07T22:34:11Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1100"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1549",
-        "title": "[BitTorrent] Super seeding is cleared on LibTorrent and Transmission",
-        "updated_at": "2026-10-08T02:42:33Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1549"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1099",
+        "title": "[RPC / Aria2] changeUri reports URI edits that are never applied",
+        "updated_at": "2026-10-07T22:34:11Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1099"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1535",
-        "title": "[Config] Peer handshake timeout stays at 15 seconds",
-        "updated_at": "2026-10-08T02:33:51Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1535"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1098",
+        "title": "[Media Inspection] FFprobe and MediaInfo report 6.1 audio as 7.0",
+        "updated_at": "2026-10-07T22:34:09Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1098"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1524",
-        "title": "[Download History] Pause and seeding are stored as a removal",
-        "updated_at": "2026-10-08T02:21:59Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1524"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1096",
+        "title": "[API / Download History] Re-add and enrich skip the operator role check",
+        "updated_at": "2026-10-07T22:34:06Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1096"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1517",
-        "title": "[Torrents] Dotted output directories are saved as torrent files",
-        "updated_at": "2026-10-08T02:18:59Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1517"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1095",
+        "title": "[Developer] Quality report shows a passing gate and green pipelines when Sonar and GitHub fail",
+        "updated_at": "2026-10-07T22:34:03Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1095"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1516",
-        "title": "[Torrents] Torrent creation allowlist does not resolve symlinks",
-        "updated_at": "2026-10-08T02:18:37Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1516"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1094",
+        "title": "[API / Subsystems] User role can switch engines, transports, and blocklists",
+        "updated_at": "2026-10-07T23:59:59Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1094"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1506",
-        "title": "[TrackerBoost] Boost history updates a shared HashSet without a lock",
-        "updated_at": "2026-10-08T02:09:15Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1506"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1093",
+        "title": "[Developer] Smoke tests are marked Passed when the check reports failure",
+        "updated_at": "2026-10-08T02:44:58Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1093"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1502",
-        "title": "[Torrents] An out-of-range creation date rejects the whole torrent",
-        "updated_at": "2026-10-08T02:08:18Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1502"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1092",
+        "title": "[RPC / NZBGet] GroupMoveOffset ignores the requested offset",
+        "updated_at": "2026-10-07T22:34:47Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1092"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1501",
-        "title": "[Torrents] Info-hash is computed from a re-encoded info dictionary",
-        "updated_at": "2026-10-08T02:20:12Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1501"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1091",
+        "title": "[RPC / NZBGet] append returns NZBID 1 when no download was added",
+        "updated_at": "2026-10-07T22:33:38Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1091"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1492",
-        "title": "[Packages] A User session can import and export packages",
-        "updated_at": "2026-10-08T01:57:33Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1492"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1090",
+        "title": "[AI] Malware scan misses executables with a trailing dot or space",
+        "updated_at": "2026-10-07T22:33:38Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1090"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1491",
-        "title": "[Packages] Export succeeds when some torrents are missing",
-        "updated_at": "2026-10-08T01:57:22Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1491"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1089",
+        "title": "[RPC / SABnzbd] addurl and addfile report success when no download is added",
+        "updated_at": "2026-10-07T22:33:35Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1089"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1489",
-        "title": "[Packages] POST export ignores includePayload when the body omits it",
-        "updated_at": "2026-10-08T01:57:10Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1489"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1088",
+        "title": "[RPC / Transmission] port-test reports open when the checker body contains the digit 1",
+        "updated_at": "2026-10-07T22:33:32Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1088"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1392",
-        "title": "[Datastore] Failed restore rollback continues startup on an empty leecharr.db",
-        "updated_at": "2026-10-12T02:42:17Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1392"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1087",
+        "title": "[AI] Malware scoring treats any JSON object as Safe and skips the heuristic",
+        "updated_at": "2026-10-07T22:33:25Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1087"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1391",
-        "title": "[Datastore] Restore validation uses quick_check and skips UNIQUE and index checks",
-        "updated_at": "2026-10-08T00:48:45Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1391"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1086",
+        "title": "[Security] Self-signed TLS key and its password are written world-readable",
+        "updated_at": "2026-10-07T22:23:31Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1086"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1388",
-        "title": "[HTTP / AI] A failed provider switch leaves the new provider active",
-        "updated_at": "2026-10-12T03:09:54Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1388"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1085",
+        "title": "[Config] config.xml is truncated in place and a failed save bricks startup",
+        "updated_at": "2026-10-07T22:23:29Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1085"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1386",
-        "title": "[Media Inspection] A queued inspector switch overwrites a newer choice",
-        "updated_at": "2026-10-12T03:54:42Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1386"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1084",
+        "title": "[Backup] Failed SQLite snapshot is reported as a successful database backup",
+        "updated_at": "2026-10-07T22:23:26Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1084"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1385",
-        "title": "[Subtitles] Non-ASCII UTF-16 without a BOM is decoded as Windows-1252",
-        "updated_at": "2026-10-08T00:42:39Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1385"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1083",
+        "title": "[API / FileBrowser] Download and preview follow symlinks outside the checked path",
+        "updated_at": "2026-10-07T23:31:54Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1083"
       },
       {
-        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1384",
-        "title": "[Media Enrichment] A bare Snn token is classified as a TV episode",
-        "updated_at": "2026-10-08T00:42:36Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1384"
+        "html_url": "https://github.com/dmzoneill/Leecharr/issues/1082",
+        "title": "[API / Indexers] Prowlarr test and sync fetch through a raw HttpClient",
+        "updated_at": "2026-10-07T22:20:55Z",
+        "url": "https://api.github.com/repos/dmzoneill/Leecharr/issues/1082"
       }
     ]
   },
   "https://api.github.com/repos/dmzoneill/Leecharr/pulls?state=open": {
-    "t": 1791777391.5912435,
-    "v": [
-      {
-        "html_url": "https://github.com/dmzoneill/Leecharr/pull/1897",
-        "title": "fix(http,ai): roll back provider switch when config save fails (#1388)",
-        "updated_at": "2026-10-12T03:16:51Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/pulls/1897"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/Leecharr/pull/1892",
-        "title": "fix(datastore): abort startup when restore rollback leaves no leecharr.db (fixes #1392)",
-        "updated_at": "2026-10-12T03:55:28Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/pulls/1892"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/Leecharr/pull/1880",
-        "title": "fix(notifications): harden webhook redirect follow-ups (fixes #1407)",
-        "updated_at": "2026-10-11T23:49:15Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/pulls/1880"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/Leecharr/pull/1868",
-        "title": "chore(deps-dev): bump postcss-selector-parser from 7.1.5 to 7.1.6 in /src/Leecharr.Frontend",
-        "updated_at": "2026-10-11T03:46:12Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/pulls/1868"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/Leecharr/pull/1867",
-        "title": "chore(deps): bump proxy-addr from 2.0.7 to 2.0.8 in /src/Leecharr.Frontend",
-        "updated_at": "2026-10-11T03:46:12Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/pulls/1867"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/Leecharr/pull/1866",
-        "title": "chore(deps): bump compression from 1.8.1 to 1.8.2 in /src/Leecharr.Frontend",
-        "updated_at": "2026-10-11T03:46:12Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/pulls/1866"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/Leecharr/pull/1865",
-        "title": "chore(deps-dev): bump source-map-js from 1.2.1 to 1.2.2 in /src/Leecharr.Frontend",
-        "updated_at": "2026-10-11T03:46:12Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/pulls/1865"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/Leecharr/pull/1864",
-        "title": "chore(deps): bump shell-quote from 1.10.0 to 1.12.0 in /src/Leecharr.Frontend",
-        "updated_at": "2026-10-11T03:46:12Z",
-        "url": "https://api.github.com/repos/dmzoneill/Leecharr/pulls/1864"
-      }
-    ]
+    "t": 1791849910.2600873,
+    "v": []
   },
   "https://api.github.com/repos/dmzoneill/ansible-feeditout-com/issues?state=open": {
-    "t": 1791777395.7263234,
+    "t": 1791849914.9942148,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/ansible-feeditout-com/issues/456",
@@ -398,19 +293,19 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/ansible-feeditout-com/pulls?state=open": {
-    "t": 1791777396.3719368,
+    "t": 1791849915.7752218,
     "v": []
   },
   "https://api.github.com/repos/dmzoneill/ashtangayogacork.ie-assets/languages": {
-    "t": 1791777399.656485,
+    "t": 1791849919.4790316,
     "v": {}
   },
   "https://api.github.com/repos/dmzoneill/github-ai-contributor/languages": {
-    "t": 1791777392.872423,
+    "t": 1791849911.734525,
     "v": {}
   },
   "https://api.github.com/repos/dmzoneill/harpnet.ie/issues?state=open": {
-    "t": 1791777393.7014873,
+    "t": 1791849912.6721804,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/harpnet.ie/issues/44",
@@ -595,19 +490,19 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/harpnet.ie/languages": {
-    "t": 1791777395.0015082,
+    "t": 1791849914.1470578,
     "v": {}
   },
   "https://api.github.com/repos/dmzoneill/harpnet.ie/pulls?state=open": {
-    "t": 1791777394.368133,
+    "t": 1791849913.430714,
     "v": []
   },
   "https://api.github.com/repos/dmzoneill/hevyapp-api/languages": {
-    "t": 1791777399.0198581,
+    "t": 1791849918.7402973,
     "v": {}
   },
   "https://api.github.com/repos/dmzoneill/lidarr-youtube-downloader/issues?state=open": {
-    "t": 1791777385.0325139,
+    "t": 1791849903.0303493,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/lidarr-youtube-downloader/issues/31",
@@ -654,15 +549,15 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/lidarr-youtube-downloader/pulls?state=open": {
-    "t": 1791777385.694267,
+    "t": 1791849903.8065777,
     "v": []
   },
   "https://api.github.com/repos/dmzoneill/my-history/languages": {
-    "t": 1791777403.7121603,
+    "t": 1791849924.111841,
     "v": {}
   },
   "https://api.github.com/repos/dmzoneill/pass-gnome-extension/issues?state=open": {
-    "t": 1791777397.0768826,
+    "t": 1791849916.5625536,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/pass-gnome-extension/issues/3",
@@ -673,15 +568,15 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/pass-gnome-extension/pulls?state=open": {
-    "t": 1791777397.7366998,
+    "t": 1791849917.3028738,
     "v": []
   },
   "https://api.github.com/repos/dmzoneill/pass/languages": {
-    "t": 1791777398.3766422,
+    "t": 1791849918.011769,
     "v": {}
   },
   "https://api.github.com/repos/dmzoneill/php-binance-bot/issues?state=open": {
-    "t": 1791777401.0475287,
+    "t": 1791849921.0360904,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/php-binance-bot/issues/1",
@@ -692,11 +587,11 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/php-binance-bot/pulls?state=open": {
-    "t": 1791777401.7018478,
+    "t": 1791849921.785127,
     "v": []
   },
   "https://api.github.com/repos/dmzoneill/securetty/issues?state=open": {
-    "t": 1791777387.89645,
+    "t": 1791849906.1822195,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/securetty/issues/175",
@@ -755,11 +650,11 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/securetty/pulls?state=open": {
-    "t": 1791777388.5424652,
+    "t": 1791849906.8955953,
     "v": []
   },
   "https://api.github.com/repos/dmzoneill/seedmagepp/issues?state=open": {
-    "t": 1791777402.3957896,
+    "t": 1791849922.6288037,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/seedmagepp/issues/1",
@@ -770,15 +665,15 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/seedmagepp/pulls?state=open": {
-    "t": 1791777403.0609286,
+    "t": 1791849923.3651824,
     "v": []
   },
   "https://api.github.com/repos/dmzoneill/skills/languages": {
-    "t": 1791777392.2340164,
+    "t": 1791849911.0079806,
     "v": {}
   },
   "https://api.github.com/repos/dmzoneill/tado-gnome-shell-extension/issues?state=open": {
-    "t": 1791777386.455041,
+    "t": 1791849904.5997465,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/tado-gnome-shell-extension/issues/2",
@@ -789,11 +684,11 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/tado-gnome-shell-extension/pulls?state=open": {
-    "t": 1791777387.163902,
+    "t": 1791849905.3534448,
     "v": []
   },
   "https://api.github.com/users/dmzoneill/gists": {
-    "t": 1791777405.6423802,
+    "t": 1791849926.2834146,
     "v": [
       {
         "description": "modern-hints.sh \u2014 Non-obtrusive bash hints suggesting modern alternatives to legacy Linux commands. Writes to /dev/tty so it never interferes with pipes or redirects.",

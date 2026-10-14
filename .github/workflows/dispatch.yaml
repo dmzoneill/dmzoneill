@@ -1161,7 +1161,8 @@ jobs:
             [ -n "$FEATS" ] && ENTRY+="### ✨ Features"$'\n'"$FEATS"$'\n\n'
             [ -n "$FIXES" ] && ENTRY+="### 🐛 Bug Fixes"$'\n'"$FIXES"$'\n\n'
             [ -n "$OTHERS" ] && ENTRY+="### 🔧 Maintenance & Improvements"$'\n'"$OTHERS"$'\n\n'
-            ENTRY="$ENTRY" NEXT_VER="$next" python3 -c 'import os; entry = os.environ.get("ENTRY", ""); next_ver = os.environ.get("NEXT_VER", ""); orig = open("CHANGELOG.md", "r", encoding="utf-8").read() if os.path.exists("CHANGELOG.md") else ""; new_cl = (orig.split("---", 1)[0] + "---\n\n" + entry + orig.split("---", 1)[1].lstrip("\n")) if "---" in orig else (entry + orig); open("CHANGELOG.md", "w", encoding="utf-8").write(new_cl) if (f"## [v{next_ver}]" not in orig and os.path.exists("CHANGELOG.md")) else None'
+            printf '%s' "$ENTRY" > /tmp/changelog-entry.md
+            NEXT_VER="$next" python3 -c 'import os; entry = open("/tmp/changelog-entry.md", encoding="utf-8").read(); next_ver = os.environ.get("NEXT_VER", ""); orig = open("CHANGELOG.md", "r", encoding="utf-8").read() if os.path.exists("CHANGELOG.md") else ""; new_cl = (orig.split("---", 1)[0] + "---\n\n" + entry + orig.split("---", 1)[1].lstrip("\n")) if "---" in orig else (entry + orig); open("CHANGELOG.md", "w", encoding="utf-8").write(new_cl) if (f"## [v{next_ver}]" not in orig and os.path.exists("CHANGELOG.md")) else None'
           fi
 
       - name: Push changes
@@ -1632,7 +1633,8 @@ jobs:
             SRC_FILE="./README.md"
           fi
 
-          CHANGELOG_MD="$CHANGELOG_MD" SRC_FILE="$SRC_FILE" APP_NAME="${{ env.APP_NAME }}" REPO="${{ github.repository }}" python3 -c 'import os; changelog = os.environ.get("CHANGELOG_MD", "").strip(); src_file = os.environ.get("SRC_FILE", "./README.md"); text = open(src_file, "r", encoding="utf-8").read() if os.path.exists(src_file) else ""; rendered = text.replace("{{CHANGELOG}}", changelog) if "{{CHANGELOG}}" in text else text; repo = os.environ.get("REPO") or ("dmzoneill/" + os.environ.get("APP_NAME", "")); raw_base = "https://raw.githubusercontent.com/" + repo + "/main"; rendered = rendered.replace("src=\"logo/", "src=\"" + raw_base + "/logo/").replace("](logo/", "](" + raw_base + "/logo/"); open("/tmp/DOCKER_HUB_RENDERED.md", "w", encoding="utf-8").write(rendered)'
+          printf '%s' "$CHANGELOG_MD" > /tmp/changelog-md.md
+          SRC_FILE="$SRC_FILE" APP_NAME="${{ env.APP_NAME }}" REPO="${{ github.repository }}" python3 -c 'import os; changelog = open("/tmp/changelog-md.md", encoding="utf-8").read().strip(); src_file = os.environ.get("SRC_FILE", "./README.md"); text = open(src_file, "r", encoding="utf-8").read() if os.path.exists(src_file) else ""; rendered = text.replace("{{CHANGELOG}}", changelog) if "{{CHANGELOG}}" in text else text; repo = os.environ.get("REPO") or ("dmzoneill/" + os.environ.get("APP_NAME", "")); raw_base = "https://raw.githubusercontent.com/" + repo + "/main"; rendered = rendered.replace("src=\"logo/", "src=\"" + raw_base + "/logo/").replace("](logo/", "](" + raw_base + "/logo/"); open("/tmp/DOCKER_HUB_RENDERED.md", "w", encoding="utf-8").write(rendered)'
 
       - name: Update Docker Hub description
         continue-on-error: true

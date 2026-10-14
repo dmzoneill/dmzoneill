@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-14/10/2026 03:13:19-brightgreen" height='28'/> &nbsp;&nbsp; <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=dmzoneill&color=brightgreen&style=for-the-badge" height='28'/> &nbsp;&nbsp; <img alt="Redhat" width='30' height='25' src="https://github.com/dmzoneill/dmzoneill/blob/main/images/redhat.svg?raw=true" />
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-14/10/2026 11:03:23-brightgreen" height='28'/> &nbsp;&nbsp; <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=dmzoneill&color=brightgreen&style=for-the-badge" height='28'/> &nbsp;&nbsp; <img alt="Redhat" width='30' height='25' src="https://github.com/dmzoneill/dmzoneill/blob/main/images/redhat.svg?raw=true" />
 
 <img src="generated/timeline.svg" width="760" alt="timeline"/>
 
@@ -40,7 +40,7 @@
 </details>
 <details>
 <summary><strong>Recent Activity (100)</strong></summary>
-<ul><li><a href='https://api.github.com/repos/dmzoneill/Leecharr'>dmzoneill/Leecharr</a></li><li><a href='https://github.com/dmzoneill/Leecharr/issues/798'>[Security / VPN] NatPmpPortMapperService bypasses interface binding and VPN kill switch, falling back to physical LAN gateway and leaking UDP packets</a></li><li><a href='https://github.com/dmzoneill/Leecharr/issues/665'>[Indexers / Search] Multi-indexer search applies global offset per backend resulting in dropped top-seeded results</a></li><li><a href='https://github.com/dmzoneill/Leecharr/issues/867'>fix(media-inspection): FormatAudioChannels misclassifies 6.1 as 7.0, blanket Dolby TrueHD/Atmos labeling, unparsed DV profiles in dvcC/dvvC, and ParseHvcCForHdr10Plus loop stall</a></li><li><a href='https://github.com/dmzoneill/Leecharr/issues/314'>[Bug] Telegram notifications use legacy Markdown parse_mode with incomplete escaping — parentheses in torrent names cause silent notification failures</a></li><li><a href='https://github.com/dmzoneill/Leecharr/issues/1075'>[BitTorrent / libtorrent] add_torrent failures are swallowed and the torrent stays active with no session</a></li><li><a href='https://github.com/dmzoneill/Leecharr/issues/1087'>[AI] Malware scoring treats any JSON object as Safe and skips the heuristic</a></li><li><a href='https://github.com/dmzoneill/Leecharr/issues/820'>fix(storage): StoragePathService.MoveToCompleted silently overwrites destination files on collision, leaks partial corrupted files on cross-device copy failure, and hardcodes 0777/0666 permissions</a></li><li><a href='https://github.com/dmzoneill/Leecharr/issues/891'>[BitTorrent / UDP Tracker] UdpTrackerService unbounded connection ID allocation & per-packet O(N) scan cause CPU/memory DoS, while unauthenticated errors enable UDP reflection</a></li><li><a href='https://github.com/dmzoneill/Leecharr/issues/709'>feat(automation): implement periodic background watchdog for orphaned automation triggers</a></li><li><a href='https://github.com/dmzoneill/Leecharr/issues/283'>[Security] Credential exposure: Notification settings, Indexer API keys, and Arr API keys returned in plaintext without masking</a></li><li><a href='https://github.com/dmzoneill/Leecharr/issues/813'>[Network / Blocklist] P2PDatBlocklistProvider truncates decimal-hextet IPv6 addresses as eMule levels, dropping valid IPv6 ranges and corrupting single rules</a></li><li><a href='https://github.com/dmzoneill/Leecharr/issues/889'>fix(diskspace): DiskProvider fails to resolve Linux symlinks in GetBestMatchingDrive, DiskSpaceService duplicates shared volume entries, and threshold <= 0 cannot disable alerts</a></li><li><a href='https://github.com/dmzoneill/Leecharr/issues/826'>fix(categories): MonoTorrentDownloadEngine task.Category is never synchronized on category update, reassignment, or deletion, breaking save path routing on completion</a></li><li><a href='https://github.com/dmzoneill/Leecharr/issues/638'>[Terminal / Security] Restrict environment variable leakage to interactive shells and prevent control packet STDIN execution</a></li><li><a href='https://github.com/dmzoneill/Leecharr/issues/1082'>[API / Indexers] Prowlarr test and sync fetch through a raw HttpClient</a></li><li><a href='https://github.com/dmzoneill/Leecharr/issues/1093'>[Developer] Smoke tests are marked Passed when the check reports failure</a></li><li><a href='https://github.com/dmzoneill/Leecharr/issues/1064'>[BitTorrent / libtorrent] v2-only info hashes never match the daemon, so remove, pause, and progress miss the torrent</a></li><li><a href='https://github.com/dmzoneill/Leecharr/issues/858'>[Network / Proxy] SOCKS4 scheme in WebProxy triggers PlatformNotSupportedException in HTTP transport providers, and SOCKS5 scheme causes DNS leaks in curl-impersonate (requires socks5h)</a></li></ul>
+<ul><li><a href='https://api.github.com/repos/dmzoneill/Leecharr'>dmzoneill/Leecharr</a></li><li><a href='https://api.github.com/repos/dmzoneill/Leecharr'>dmzoneill/Leecharr</a></li><li><a href='https://api.github.com/repos/dmzoneill/Leecharr'>dmzoneill/Leecharr</a></li><li><a href='https://github.com/dmzoneill/Leecharr/issues/798'>[Security / VPN] NatPmpPortMapperService bypasses interface binding and VPN kill switch, falling back to physical LAN gateway and leaking UDP packets</a></li><li><a href='https://github.com/dmzoneill/Leecharr/issues/665'>[Indexers / Search] Multi-indexer search applies global offset per backend resulting in dropped top-seeded results</a></li></ul>
 </details>
 <details>
 <summary><strong>Gists (24)</strong></summary>
@@ -62,27 +62,27 @@
     </tr>
   </thead>
   <tbody>
-    <tr><td><img src='https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white' title='C#'  height='20px'/></td><td>31326480</td>
-<td><img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript'  height='20px'/></td><td>17127980</td>
+    <tr><td><img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP'  height='20px'/></td><td>184864770</td>
+<td><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript'  height='20px'/></td><td>32615155</td>
 <td><img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS'  height='20px'/></td><td>17037279</td>
+<td><img src='https://img.shields.io/badge/_-SCSS -11DDDD.svg?style=for-the-badge' title='SCSS'  height='20px'/></td><td>467693</td>
+</tr><tr>
+<td><img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML'  height='20px'/></td><td>13459995</td>
+<td><img src='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' title='Java'  height='20px'/></td><td>2101717</td>
+<td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>2698019</td>
+<td><img src='https://img.shields.io/badge/_-XSLT -11DDDD.svg?style=for-the-badge' title='XSLT'  height='20px'/></td><td>194758</td>
+</tr><tr>
+<td><img src='https://img.shields.io/badge/_-VCL -11DDDD.svg?style=for-the-badge' title='VCL'  height='20px'/></td><td>3906</td>
+<td><img src='https://img.shields.io/badge/_-Hack -11DDDD.svg?style=for-the-badge' title='Hack'  height='20px'/></td><td>242245</td>
+<td><img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript'  height='20px'/></td><td>17127980</td>
+<td><img src='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' title='Go'  height='20px'/></td><td>1627084</td>
+</tr><tr>
+<td><img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile'  height='20px'/></td><td>19275</td>
+<td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>483054</td>
 <td><img src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54' title='Python'  height='20px'/></td><td>14595542</td>
+<td><img src='https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white' title='C#'  height='20px'/></td><td>31326480</td>
 </tr><tr>
 <td><img src='https://img.shields.io/badge/_-Mermaid -11DDDD.svg?style=for-the-badge' title='Mermaid'  height='20px'/></td><td>40993</td>
-<td><img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' title='JavaScript'  height='20px'/></td><td>32615155</td>
-<td><img src='https://img.shields.io/badge/_-Makefile -11DDDD.svg?style=for-the-badge' title='Makefile'  height='20px'/></td><td>483054</td>
-<td><img src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white' title='Dockerfile'  height='20px'/></td><td>19275</td>
-</tr><tr>
-<td><img src='https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white' title='Shell'  height='20px'/></td><td>2698019</td>
-<td><img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML'  height='20px'/></td><td>13459995</td>
-<td><img src='https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white' title='Go'  height='20px'/></td><td>1627084</td>
-<td><img src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP'  height='20px'/></td><td>184864770</td>
-</tr><tr>
-<td><img src='https://img.shields.io/badge/_-SCSS -11DDDD.svg?style=for-the-badge' title='SCSS'  height='20px'/></td><td>467693</td>
-<td><img src='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white' title='Java'  height='20px'/></td><td>2101717</td>
-<td><img src='https://img.shields.io/badge/_-XSLT -11DDDD.svg?style=for-the-badge' title='XSLT'  height='20px'/></td><td>194758</td>
-<td><img src='https://img.shields.io/badge/_-VCL -11DDDD.svg?style=for-the-badge' title='VCL'  height='20px'/></td><td>3906</td>
-</tr><tr>
-<td><img src='https://img.shields.io/badge/_-Hack -11DDDD.svg?style=for-the-badge' title='Hack'  height='20px'/></td><td>242245</td>
 <td><img src='https://img.shields.io/badge/_-Jinja -11DDDD.svg?style=for-the-badge' title='Jinja'  height='20px'/></td><td>102052</td>
 <td><img src='https://img.shields.io/badge/_-M4 -11DDDD.svg?style=for-the-badge' title='M4'  height='20px'/></td><td>124107</td>
 <td><img src='https://img.shields.io/badge/_-PLpgSQL -11DDDD.svg?style=for-the-badge' title='PLpgSQL'  height='20px'/></td><td>869</td>
@@ -158,7 +158,7 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2026-10-13</p>
+              <p>2026-10-14</p>
             </td>
         </tr>
 <tr>
@@ -374,7 +374,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/Leecharr' title='Leecharr'>Leecharr</a> (2026)</h2></p><p><img src='https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white' title='C#' height='20px'/> <img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><ul></ul></p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://api.github.com/repos/dmzoneill/Leecharr'>dmzoneill/Leecharr</a></li></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>

@@ -1,4 +1,4 @@
-<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-18/10/2026 02:42:33-brightgreen" height='28'/> &nbsp;&nbsp; <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=dmzoneill&color=brightgreen&style=for-the-badge" height='28'/> &nbsp;&nbsp; <img alt="Redhat" width='30' height='25' src="https://github.com/dmzoneill/dmzoneill/blob/main/images/redhat.svg?raw=true" />
+<a href="https://github.com/dmzoneill" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/dmzoneill/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-18/10/2026 10:16:09-brightgreen" height='28'/> &nbsp;&nbsp; <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=dmzoneill&color=brightgreen&style=for-the-badge" height='28'/> &nbsp;&nbsp; <img alt="Redhat" width='30' height='25' src="https://github.com/dmzoneill/dmzoneill/blob/main/images/redhat.svg?raw=true" />
 
 <img src="generated/timeline.svg" width="760" alt="timeline"/>
 
@@ -40,7 +40,7 @@
 </details>
 <details>
 <summary><strong>Recent Activity (100)</strong></summary>
-<ul><li><a href='https://api.github.com/repos/dmzoneill/Seedarr'>dmzoneill/Seedarr</a></li></ul>
+<ul><li><a href='https://api.github.com/repos/dmzoneill/Seedarr'>dmzoneill/Seedarr</a></li><li><a href='https://api.github.com/repos/dmzoneill/Seedarr'>dmzoneill/Seedarr</a></li></ul>
 </details>
 <details>
 <summary><strong>Gists (24)</strong></summary>
@@ -158,7 +158,7 @@
             </td>
             <td align="center">
               <a href='https://github.com/dmzoneill/dmzoneill/actions'><img src='https://github.com/dmzoneill//dmzoneill/actions/workflows/main.yml/badge.svg'/></a>
-              <p>2026-10-17</p>
+              <p>2026-10-18</p>
             </td>
         </tr>
 <tr>
@@ -374,7 +374,7 @@
             <td>
               <p><h2><a href='https://github.com/dmzoneill/Seedarr' title='Seedarr'>Seedarr</a> (2026)</h2></p><p><img src='https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white' title='C#' height='20px'/> <img src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' title='TypeScript' height='20px'/> <img src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' height='20px'/</p>
               <p>Apache License 2.0</p>
-              <p><h4>Recent Activity</h4><ul><li><a href='https://api.github.com/repos/dmzoneill/Seedarr'>dmzoneill/Seedarr</a></li></ul></p>
+              <p><h4>Recent Activity</h4><ul><li><a href='https://api.github.com/repos/dmzoneill/Seedarr'>dmzoneill/Seedarr</a></li><li><a href='https://api.github.com/repos/dmzoneill/Seedarr'>dmzoneill/Seedarr</a></li></ul></p>
               <p><ul></ul></p>
               <p><ul></ul></p>
             </td>

@@ -99,11 +99,11 @@
   <circle cx="469.7" cy="75" r="5.5" fill="#58a6ff"/>
   <text x="469.7" y="107.3" class="tyear" text-anchor="middle">2015</text>
   <text x="469.7" y="50.7" class="tcount" text-anchor="middle">14</text>
-  <circle cx="492.4" cy="75" r="6.9" fill="#58a6ff" opacity="0.3"/>
-  <circle cx="492.4" cy="75" r="4.1" fill="#58a6ff" opacity="0.6"/>
+  <circle cx="492.4" cy="75" r="5.9" fill="#58a6ff" opacity="0.3"/>
+  <circle cx="492.4" cy="75" r="3.6" fill="#58a6ff" opacity="0.6"/>
   <circle cx="492.4" cy="75" r="3.0" fill="#58a6ff"/>
-  <text x="492.4" y="95.9" class="tyear" text-anchor="middle">2016</text>
-  <text x="492.4" y="62.1" class="tcount" text-anchor="middle">2</text>
+  <text x="492.4" y="94.9" class="tyear" text-anchor="middle">2016</text>
+  <text x="492.4" y="63.1" class="tcount" text-anchor="middle">1</text>
   <circle cx="537.9" cy="75" r="9.7" fill="#58a6ff" opacity="0.3"/>
   <circle cx="537.9" cy="75" r="5.8" fill="#58a6ff" opacity="0.6"/>
   <circle cx="537.9" cy="75" r="3.0" fill="#58a6ff"/>

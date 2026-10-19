@@ -57,9 +57,7 @@ def get_oauth_bearer_token(credentials_path):
     client_secret = cred_data.get("client_secret")
 
     if not all([refresh_token, client_id, client_secret]):
-        raise ValueError(
-            "Invalid Google credentials file: missing client_id, client_secret, or refresh_token"
-        )
+        raise ValueError("Invalid Google credentials file: missing client_id, client_secret, or refresh_token")
 
     token_url = "https://oauth2.googleapis.com/token"
     payload = {
@@ -73,9 +71,7 @@ def get_oauth_bearer_token(credentials_path):
     token_json = resp.json()
 
     access_token = token_json.get("access_token")
-    quota_project = cred_data.get("quota_project_id") or os.getenv(
-        "GOOGLE_CLOUD_PROJECT"
-    )
+    quota_project = cred_data.get("quota_project_id") or os.getenv("GOOGLE_CLOUD_PROJECT")
     return access_token, quota_project
 
 
@@ -122,14 +118,10 @@ def generate_opencode_reply(prompt_text, api_key):
                 if content:
                     return content
             elif response.status_code in (404, 410, 429):
-                last_error = (
-                    f"Model {model} returned {response.status_code}: {response.text}"
-                )
+                last_error = f"Model {model} returned {response.status_code}: {response.text}"
                 continue
             else:
-                last_error = (
-                    f"OpenCode Zen API error ({response.status_code}): {response.text}"
-                )
+                last_error = f"OpenCode Zen API error ({response.status_code}): {response.text}"
         except (requests.RequestException, ValueError) as e:
             last_error = str(e)
 
@@ -150,9 +142,7 @@ def _gemini_auth():
         return headers, ""
     if api_key:
         return headers, f"?key={api_key}"
-    raise RuntimeError(
-        "Missing Gemini authentication: set GOOGLE_APPLICATION_CREDENTIALS or GEMINI_API_KEY."
-    )
+    raise RuntimeError("Missing Gemini authentication: set GOOGLE_APPLICATION_CREDENTIALS or GEMINI_API_KEY.")
 
 
 def _gemini_content(data):
@@ -196,9 +186,7 @@ def generate_gemini_reply(prompt_text):
                 last_error = f"Model {model} returned 404: {response.text}"
                 continue
             else:
-                last_error = (
-                    f"Gemini API error ({response.status_code}): {response.text}"
-                )
+                last_error = f"Gemini API error ({response.status_code}): {response.text}"
         except (requests.RequestException, ValueError) as e:
             last_error = str(e)
 
@@ -267,9 +255,7 @@ def handle_issue():
 
     bot_token = os.getenv("TELEGRAM_BOT_TOKEN")
     chat_id = os.getenv("TELEGRAM_ISSUES_CHAT_ID")
-    message = (
-        f"New issue on {repo}\n\nTitle: {title}\nBy: {author}\n\n{body}\n\n{issue_url}"
-    )
+    message = f"New issue on {repo}\n\nTitle: {title}\nBy: {author}\n\n{body}\n\n{issue_url}"
     send_telegram(bot_token, chat_id, message)
 
     repo_url = os.getenv("ISSUE_REPO_URL", "")

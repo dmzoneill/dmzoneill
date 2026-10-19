@@ -94,16 +94,16 @@
   <circle cx="446.9" cy="75" r="6.9" fill="#58a6ff"/>
   <text x="446.9" y="112.0" class="tyear" text-anchor="middle">2014</text>
   <text x="446.9" y="46.0" class="tcount" text-anchor="middle">19</text>
-  <circle cx="469.7" cy="75" r="18.3" fill="#58a6ff" opacity="0.3"/>
-  <circle cx="469.7" cy="75" r="11.0" fill="#58a6ff" opacity="0.6"/>
-  <circle cx="469.7" cy="75" r="5.5" fill="#58a6ff"/>
-  <text x="469.7" y="107.3" class="tyear" text-anchor="middle">2015</text>
-  <text x="469.7" y="50.7" class="tcount" text-anchor="middle">14</text>
-  <circle cx="492.4" cy="75" r="5.9" fill="#58a6ff" opacity="0.3"/>
-  <circle cx="492.4" cy="75" r="3.6" fill="#58a6ff" opacity="0.6"/>
+  <circle cx="469.7" cy="75" r="17.3" fill="#58a6ff" opacity="0.3"/>
+  <circle cx="469.7" cy="75" r="10.4" fill="#58a6ff" opacity="0.6"/>
+  <circle cx="469.7" cy="75" r="5.2" fill="#58a6ff"/>
+  <text x="469.7" y="106.3" class="tyear" text-anchor="middle">2015</text>
+  <text x="469.7" y="51.7" class="tcount" text-anchor="middle">13</text>
+  <circle cx="492.4" cy="75" r="6.9" fill="#58a6ff" opacity="0.3"/>
+  <circle cx="492.4" cy="75" r="4.1" fill="#58a6ff" opacity="0.6"/>
   <circle cx="492.4" cy="75" r="3.0" fill="#58a6ff"/>
-  <text x="492.4" y="94.9" class="tyear" text-anchor="middle">2016</text>
-  <text x="492.4" y="63.1" class="tcount" text-anchor="middle">1</text>
+  <text x="492.4" y="95.9" class="tyear" text-anchor="middle">2016</text>
+  <text x="492.4" y="62.1" class="tcount" text-anchor="middle">2</text>
   <circle cx="537.9" cy="75" r="9.7" fill="#58a6ff" opacity="0.3"/>
   <circle cx="537.9" cy="75" r="5.8" fill="#58a6ff" opacity="0.6"/>
   <circle cx="537.9" cy="75" r="3.0" fill="#58a6ff"/>

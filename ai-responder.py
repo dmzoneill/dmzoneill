@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+# pylint: disable=invalid-name
+# The hyphenated module name is part of the download URL used by every repo.
+"""Reply to new GitHub issues and pull requests with an AI-generated comment."""
 
 import json
 import os
@@ -54,9 +57,7 @@ def get_oauth_bearer_token(credentials_path):
     client_secret = cred_data.get("client_secret")
 
     if not all([refresh_token, client_id, client_secret]):
-        raise ValueError(
-            "Invalid Google credentials file: missing client_id, client_secret, or refresh_token"
-        )
+        raise ValueError("Invalid Google credentials file: missing client_id, client_secret, or refresh_token")
 
     token_url = "https://oauth2.googleapis.com/token"
     payload = {
@@ -70,25 +71,30 @@ def get_oauth_bearer_token(credentials_path):
     token_json = resp.json()
 
     access_token = token_json.get("access_token")
-    quota_project = cred_data.get("quota_project_id") or os.getenv(
-        "GOOGLE_CLOUD_PROJECT"
-    )
+    quota_project = cred_data.get("quota_project_id") or os.getenv("GOOGLE_CLOUD_PROJECT")
     return access_token, quota_project
 
 
-def generate_opencode_reply(prompt_text, api_key):
+def _opencode_models():
     requested_model = os.getenv("OPENCODE_MODEL", "big-pickle")
-    if requested_model.startswith("opencode/"):
-        requested_model = requested_model[len("opencode/") :]
-    elif requested_model.startswith("oc/"):
-        requested_model = requested_model[len("oc/") :]
+    for prefix in ("opencode/", "oc/"):
+        if requested_model.startswith(prefix):
+            requested_model = requested_model[len(prefix) :]
+            break
+    return list(dict.fromkeys([requested_model, "big-pickle", "mimo-v2.6-flash-free"]))
 
-    candidate_models = [
-        requested_model,
-        "big-pickle",
-        "mimo-v2.5-free",
-    ]
-    models_to_try = list(dict.fromkeys(candidate_models))
+
+def _opencode_content(data):
+    choices = data.get("choices", [])
+    if not choices:
+        return None
+    msg = choices[0].get("message", {})
+    content = msg.get("content") or msg.get("reasoning_content")
+    return content.strip() if content else None
+
+
+def generate_opencode_reply(prompt_text, api_key):
+    models_to_try = _opencode_models()
 
     url = "https://opencode.ai/zen/v1/chat/completions"
     headers = {
@@ -108,48 +114,49 @@ def generate_opencode_reply(prompt_text, api_key):
         try:
             response = requests.post(url, headers=headers, json=payload, timeout=60)
             if response.status_code == 200:
-                data = response.json()
-                choices = data.get("choices", [])
-                if choices:
-                    msg = choices[0].get("message", {})
-                    content = msg.get("content")
-                    if not content and "reasoning_content" in msg:
-                        content = msg.get("reasoning_content")
-                    if content:
-                        return content.strip()
-            elif response.status_code in (404, 429):
-                last_error = (
-                    f"Model {model} returned {response.status_code}: {response.text}"
-                )
+                content = _opencode_content(response.json())
+                if content:
+                    return content
+            elif response.status_code in (404, 410, 429):
+                last_error = f"Model {model} returned {response.status_code}: {response.text}"
                 continue
             else:
-                last_error = (
-                    f"OpenCode Zen API error ({response.status_code}): {response.text}"
-                )
-        except Exception as e:
+                last_error = f"OpenCode Zen API error ({response.status_code}): {response.text}"
+        except (requests.RequestException, ValueError) as e:
             last_error = str(e)
 
     raise RuntimeError(f"OpenCode Zen generation failed: {last_error}")
 
 
-def generate_gemini_reply(prompt_text):
+def _gemini_auth():
+    """Return the request headers and query string for Gemini authentication."""
     cred_path = os.getenv("GOOGLE_APPLICATION_CREDENTIALS")
     api_key = os.getenv("GEMINI_API_KEY")
-
     headers = {"Content-Type": "application/json"}
-    query_params = ""
 
     if cred_path and os.path.exists(cred_path):
         access_token, quota_project = get_oauth_bearer_token(cred_path)
         headers["Authorization"] = f"Bearer {access_token}"
         if quota_project:
             headers["x-goog-user-project"] = quota_project
-    elif api_key:
-        query_params = f"?key={api_key}"
-    else:
-        raise RuntimeError(
-            "Missing Gemini authentication: set GOOGLE_APPLICATION_CREDENTIALS or GEMINI_API_KEY."
-        )
+        return headers, ""
+    if api_key:
+        return headers, f"?key={api_key}"
+    raise RuntimeError("Missing Gemini authentication: set GOOGLE_APPLICATION_CREDENTIALS or GEMINI_API_KEY.")
+
+
+def _gemini_content(data):
+    candidates = data.get("candidates", [])
+    if not candidates:
+        return None
+    parts = candidates[0].get("content", {}).get("parts", [])
+    if parts and "text" in parts[0]:
+        return parts[0]["text"].strip()
+    return None
+
+
+def generate_gemini_reply(prompt_text):
+    headers, query_params = _gemini_auth()
 
     candidate_models = [
         os.getenv("GEMINI_MODEL", "gemini-2.5-flash"),
@@ -172,20 +179,15 @@ def generate_gemini_reply(prompt_text):
         try:
             response = requests.post(url, headers=headers, json=payload, timeout=60)
             if response.status_code == 200:
-                data = response.json()
-                candidates = data.get("candidates", [])
-                if candidates:
-                    parts = candidates[0].get("content", {}).get("parts", [])
-                    if parts and "text" in parts[0]:
-                        return parts[0]["text"].strip()
+                content = _gemini_content(response.json())
+                if content:
+                    return content
             elif response.status_code == 404:
                 last_error = f"Model {model} returned 404: {response.text}"
                 continue
             else:
-                last_error = (
-                    f"Gemini API error ({response.status_code}): {response.text}"
-                )
-        except Exception as e:
+                last_error = f"Gemini API error ({response.status_code}): {response.text}"
+        except (requests.RequestException, ValueError) as e:
             last_error = str(e)
 
     raise RuntimeError(f"Gemini generation failed: {last_error}")
@@ -199,7 +201,7 @@ def generate_ai_reply(prompt_text):
     if opencode_key:
         try:
             return generate_opencode_reply(prompt_text, opencode_key)
-        except Exception as e:
+        except RuntimeError as e:
             print(f"OpenCode Zen generation failed: {e}", file=sys.stderr)
             if not (gemini_key or (cred_path and os.path.exists(cred_path))):
                 raise
@@ -236,8 +238,8 @@ def send_telegram(bot_token, chat_id, message):
     try:
         resp = requests.post(url, json=payload, timeout=10)
         resp.raise_for_status()
-        print(f"Telegram notification sent")
-    except Exception as e:
+        print("Telegram notification sent")
+    except requests.RequestException as e:
         print(f"Failed to send Telegram notification: {e}")
 
 
@@ -253,9 +255,7 @@ def handle_issue():
 
     bot_token = os.getenv("TELEGRAM_BOT_TOKEN")
     chat_id = os.getenv("TELEGRAM_ISSUES_CHAT_ID")
-    message = (
-        f"New issue on {repo}\n\nTitle: {title}\nBy: {author}\n\n{body}\n\n{issue_url}"
-    )
+    message = f"New issue on {repo}\n\nTitle: {title}\nBy: {author}\n\n{body}\n\n{issue_url}"
     send_telegram(bot_token, chat_id, message)
 
     repo_url = os.getenv("ISSUE_REPO_URL", "")

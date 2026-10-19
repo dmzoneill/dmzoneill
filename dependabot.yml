@@ -1,0 +1,17 @@
+---
+# Template distributed by setup.sh.
+# An entry is written only when that ecosystem's manifest is present.
+# directory/directories are rewritten to the folders that contain it.
+version: 2
+updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 5
+    labels:
+      - "dependencies"
+    groups:
+      github-actions:
+        patterns:
+          - "*"

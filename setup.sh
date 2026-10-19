@@ -1,11 +1,13 @@
 #!/bin/bash -x
 
-# Robust updater for adding workflows to repositories owned by $user.
+# Robust updater for adding workflows and Dependabot config to repositories owned by $user.
 # - Uses GitHub API pagination and Link header detection
 # - Authenticates once if PROFILE_HOOK provided
 # - Filters to only repos owned by $user (even when using /user/repos)
 # - Clones into temporary per-repo directories to avoid name collisions
 # - Sets secret only when possible; skips repos without admin rights
+# - Writes .github/dependabot.yml from dependabot.yml for ecosystems detected in the repo
+# - Points main.yml push/pull_request filters at the repository default branch
 
 user=dmzoneill
 email=dmz.oneill@gmail.com
@@ -27,9 +29,9 @@ fi
 
 # Authenticate once (so gh and API requests can use the token)
 if [ -n "$pass" ]; then
-  echo "$pass" > .githubtoken
+  echo "$pass" >.githubtoken
   unset GITHUB_TOKEN
-  if ! gh auth login --with-token < .githubtoken; then
+  if ! gh auth login --with-token <.githubtoken; then
     echo "gh auth login failed"
     rm -f .githubtoken
     exit 1
@@ -49,9 +51,15 @@ current_full=""
 if git rev-parse --is-inside-work-tree >/dev/null 2>&1; then
   origin_url=$(git config --get remote.origin.url || echo "")
   case "$origin_url" in
-    git@github.com:*/*) current_full=${origin_url#git@github.com:}; current_full=${current_full%.git} ;;
-    https://github.com/*/*) current_full=${origin_url#https://github.com/}; current_full=${current_full%.git} ;;
-    *) current_full="" ;;
+  git@github.com:*/*)
+    current_full=${origin_url#git@github.com:}
+    current_full=${current_full%.git}
+    ;;
+  https://github.com/*/*)
+    current_full=${origin_url#https://github.com/}
+    current_full=${current_full%.git}
+    ;;
+  *) current_full="" ;;
   esac
 fi
 
@@ -60,17 +68,23 @@ process_repo() {
   local repo_name="$2"
   local repo_clone_url="$3"
   local can_set_secrets="$4"
+  local default_branch="$5"
   local repo_full="$repo_owner/$repo_name"
+
+  if [ -z "$default_branch" ] || [ "$default_branch" = "null" ]; then
+    default_branch="main"
+  fi
 
   if [ -n "$current_full" ] && [ "$repo_full" = "$current_full" ]; then
     echo "Skipping current repository $repo_full"
     return
   fi
 
-  local main_url="https://raw.githubusercontent.com/$repo_owner/$repo_name/main/.github/workflows/main.yml"
+  local raw_root="https://raw.githubusercontent.com/$repo_owner/$repo_name/$default_branch"
+  local main_url="$raw_root/.github/workflows/main.yml"
   local main_status="missing"
   local main_md5=""
-  if curl -s -f -L "$main_url" > /tmp/main_check 2>/dev/null; then
+  if curl -s -f -L "$main_url" >/tmp/main_check 2>/dev/null; then
     if grep -q "^name:" /tmp/main_check; then
       main_status="present"
       main_md5=$(md5sum /tmp/main_check 2>/dev/null | awk '{print $1}')
@@ -79,10 +93,10 @@ process_repo() {
     fi
   fi
 
-  local ai_url="https://raw.githubusercontent.com/$repo_owner/$repo_name/main/.github/workflows/ai-responder.yml"
+  local ai_url="$raw_root/.github/workflows/ai-responder.yml"
   local ai_status="missing"
   local ai_md5=""
-  if curl -s -f -L "$ai_url" > /tmp/ai_check 2>/dev/null; then
+  if curl -s -f -L "$ai_url" >/tmp/ai_check 2>/dev/null; then
     if grep -q "^name:" /tmp/ai_check; then
       ai_status="present"
       ai_md5=$(md5sum /tmp/ai_check 2>/dev/null | awk '{print $1}')
@@ -95,8 +109,22 @@ process_repo() {
   echo "$repo_full: ai_status=$ai_status, ai_md5=$ai_md5, local_ai_md5=$local_ai_md5"
 
   local skip_main="false"
+  local patch_main="false"
   local skip_ai="false"
-  [[ "$main_status" == "present" ]] && skip_main="true"
+  local skip_dep="false"
+  if [[ "$main_status" == "present" ]]; then
+    local branch_rc
+    python3 distribute.py needs-default-branch /tmp/main_check "$default_branch"
+    branch_rc=$?
+    if [[ "$branch_rc" -eq 0 ]]; then
+      skip_main="true"
+    elif [[ "$branch_rc" -eq 1 ]]; then
+      patch_main="true"
+    else
+      echo "Could not check default-branch trigger in $repo_full; leaving main.yml"
+      skip_main="true"
+    fi
+  fi
 
   if [[ "$ai_status" == "present" && -n "$local_ai_md5" && "$ai_md5" == "$local_ai_md5" ]]; then
     skip_ai="true"
@@ -104,8 +132,30 @@ process_repo() {
     skip_ai="true"
   fi
 
-  if [[ "$skip_main" == "true" && "$skip_ai" == "true" ]]; then
-    echo "Skip: both files already match in $repo_full"
+  rm -f /tmp/dep_check /tmp/dep_expected
+  local dep_url="$raw_root/.github/dependabot.yml"
+  if curl -s -f -L "$dep_url" >/tmp/dep_check 2>/dev/null; then
+    echo "$repo_full: dependabot present"
+  else
+    echo "$repo_full: dependabot missing"
+    rm -f /tmp/dep_check
+  fi
+  if python3 distribute.py dependabot-remote "$repo_owner" "$repo_name" "$default_branch" \
+    --ensure .github/workflows/main.yml \
+    --ensure .github/workflows/ai-responder.yml \
+    >/tmp/dep_expected; then
+    if [[ ! -s /tmp/dep_expected ]]; then
+      skip_dep="true"
+    elif [[ -f /tmp/dep_check ]] && cmp -s /tmp/dep_expected /tmp/dep_check; then
+      skip_dep="true"
+    fi
+  else
+    echo "Dependabot detection failed for $repo_full; leaving dependabot.yml"
+    skip_dep="true"
+  fi
+
+  if [[ "$skip_main" == "true" && "$skip_ai" == "true" && "$skip_dep" == "true" && "$patch_main" != "true" ]]; then
+    echo "Skip: workflows and dependabot already match in $repo_full"
     return
   fi
 
@@ -120,11 +170,24 @@ process_repo() {
     cp -f LICENSE "$target_dir/"
   fi
   mkdir -p "$target_dir/.github/workflows/"
-  if [[ "$skip_main" != "true" ]]; then
+  if [[ "$patch_main" == "true" && -f "$target_dir/.github/workflows/main.yml" ]]; then
+    python3 distribute.py ensure-default-branch \
+      "$target_dir/.github/workflows/main.yml" \
+      "$default_branch"
+  elif [[ "$skip_main" != "true" ]]; then
     cp -f main.yml "$target_dir/.github/workflows/"
   fi
   if [[ "$skip_ai" != "true" ]]; then
     cp -f ai-responder.yml "$target_dir/.github/workflows/"
+  fi
+  if [[ "$skip_dep" != "true" ]]; then
+    if python3 distribute.py dependabot "$target_dir" >/tmp/dep_rendered; then
+      if [[ -s /tmp/dep_rendered ]]; then
+        cp -f /tmp/dep_rendered "$target_dir/.github/dependabot.yml"
+      fi
+    else
+      echo "Failed to render dependabot.yml for $repo_full"
+    fi
   fi
 
   (
@@ -144,7 +207,7 @@ process_repo() {
 
     git add -A
     if ! git diff --cached --quiet; then
-      git commit -m "Add or update GitHub Actions workflows" || echo "git commit had no changes or failed"
+      git commit -m "Add or update GitHub Actions workflows and Dependabot config" || echo "git commit had no changes or failed"
       git pull --rebase || echo "git pull --rebase failed in $repo_full"
       git push || echo "git push failed in $repo_full"
     else
@@ -195,25 +258,25 @@ while true; do
     break
   fi
 
-  jq -r --arg OWNER "$user" '.[] | select(.owner.login == $OWNER) | [.owner.login, .name, .ssh_url, .clone_url, .permissions.admin] | @tsv' "$body" | \
-  while IFS=$'\t' read -r repo_owner repo_name repo_ssh repo_clone_url repo_admin; do
-    echo "Checking repo: $repo_owner/$repo_name (ssh_url: $repo_ssh, clone_url: $repo_clone_url, admin:$repo_admin)"
+  jq -r --arg OWNER "$user" '.[] | select(.owner.login == $OWNER) | [.owner.login, .name, .ssh_url, .clone_url, .permissions.admin, .default_branch] | @tsv' "$body" |
+    while IFS=$'\t' read -r repo_owner repo_name repo_ssh repo_clone_url repo_admin default_branch; do
+      echo "Checking repo: $repo_owner/$repo_name (ssh_url: $repo_ssh, clone_url: $repo_clone_url, admin:$repo_admin)"
 
-    can_set_secrets="false"
-    if [ "$repo_admin" = "true" ]; then
-      can_set_secrets="true"
-    else
-      echo "Note: token does not report admin for $repo_owner/$repo_name; skipping secret set"
-    fi
+      can_set_secrets="false"
+      if [ "$repo_admin" = "true" ]; then
+        can_set_secrets="true"
+      else
+        echo "Note: token does not report admin for $repo_owner/$repo_name; skipping secret set"
+      fi
 
-    process_repo "$repo_owner" "$repo_name" "$repo_clone_url" "$can_set_secrets"
-  done
+      process_repo "$repo_owner" "$repo_name" "$repo_clone_url" "$can_set_secrets" "$default_branch"
+    done
 
   # Normalize Link header and pick last Link: line (handles redirects)
   echo "Response headers (raw):"
   sed -n '1,200p' "$headers" || true
   normalized_headers="$tmpdir/headers.$page.norm"
-  tr -d '\r' < "$headers" > "$normalized_headers" || cp -f "$headers" "$normalized_headers"
+  tr -d '\r' <"$headers" >"$normalized_headers" || cp -f "$headers" "$normalized_headers"
   last_link=$(grep -i '^link:' "$normalized_headers" 2>/dev/null | tail -n1 || true)
   if [ -n "$last_link" ]; then
     echo "Found Link header: $last_link"
@@ -222,7 +285,7 @@ while true; do
   fi
 
   if echo "$last_link" | grep -q 'rel="next"'; then
-    page=$((page+1))
+    page=$((page + 1))
     continue
   fi
 
@@ -231,7 +294,7 @@ while true; do
     break
   fi
 
-  page=$((page+1))
+  page=$((page + 1))
 done
 
 # Trigger CI on all owned repos via repository_dispatch
@@ -257,7 +320,7 @@ if [ -n "$GITHUB_TOKEN" ]; then
 
     count=$(jq 'length' "$body_file" 2>/dev/null || echo 0)
     [ "$count" -lt "$per_page" ] && break
-    page=$((page+1))
+    page=$((page + 1))
   done
 fi
 

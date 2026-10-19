@@ -233,7 +233,7 @@ def detect(paths, read_setup_py):
 
 
 def _prototype_block(template_text):
-    marker = '  - package-ecosystem:'
+    marker = "  - package-ecosystem:"
     start = template_text.find(marker)
     if start < 0:
         raise ValueError("dependabot template has no updates entry")

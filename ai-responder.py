@@ -86,7 +86,7 @@ def generate_opencode_reply(prompt_text, api_key):
     candidate_models = [
         requested_model,
         "big-pickle",
-        "mimo-v2.5-free",
+        "mimo-v2.6-flash-free",
     ]
     models_to_try = list(dict.fromkeys(candidate_models))
 
@@ -117,7 +117,7 @@ def generate_opencode_reply(prompt_text, api_key):
                         content = msg.get("reasoning_content")
                     if content:
                         return content.strip()
-            elif response.status_code in (404, 429):
+            elif response.status_code in (404, 410, 429):
                 last_error = (
                     f"Model {model} returned {response.status_code}: {response.text}"
                 )

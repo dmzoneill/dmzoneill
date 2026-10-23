@@ -44,6 +44,9 @@ HUB_ONLY_SECRETS = {
     "CODACY_PROJECT_TOKEN",
     "PUBLISH",
 }
+# Also written to each repo's Dependabot secrets so scans on Dependabot PRs work.
+DEPENDABOT_SECRETS = ("CODACY_API_TOKEN", "SONAR_TOKEN")
+DEPENDABOT_HASH_VAR_NAME = "DEPENDABOT_SECRETS_HASH"
 DISTRIBUTE_SECRETS_WORKFLOW = Path(".github/workflows/distribute-secrets.yaml")
 WORKFLOW_ENV_BEGIN = "# BEGIN DISTRIBUTE_SECRETS_ENV"
 WORKFLOW_ENV_END = "# END DISTRIBUTE_SECRETS_ENV"
@@ -112,12 +115,14 @@ def authenticate_gh():
     os.remove(".githubtoken")
 
 
-def set_secret(repo_name, secret, value):
+def set_secret(repo_name, secret, value, app="actions"):
     cmd = [
         "gh",
         "secret",
         "set",
         secret,
+        "--app",
+        app,
         "-R",
         f"{GITHUB_USER}/{repo_name}",
         "-b",
@@ -127,13 +132,13 @@ def set_secret(repo_name, secret, value):
     try:
         time.sleep(GH_CLI_DELAY)
         subprocess.run(cmd, check=True, capture_output=True, text=True)
-        print(f"    Set {secret}")
+        print(f"    Set {app} secret {secret}")
     except subprocess.CalledProcessError as e:
-        print(f"    Failed to set {secret}: {e.stderr}")
+        print(f"    Failed to set {app} secret {secret}: {e.stderr}")
 
 
-def get_remote_hashes(repo_name):
-    url = f"https://api.github.com/repos/{GITHUB_USER}/{repo_name}/actions/variables/{HASH_VAR_NAME}"
+def get_remote_hashes(repo_name, var_name=HASH_VAR_NAME):
+    url = f"https://api.github.com/repos/{GITHUB_USER}/{repo_name}/actions/variables/{var_name}"
     response = rate_limited_get(url)
     if response.status_code == 200:
         try:
@@ -235,9 +240,10 @@ def estimate_repo_cost(current_hashes, remote_hashes):
     removed = sum(1 for k in remote_hashes if k not in current_hashes)
     if not changed and not removed:
         # 1 (fetch existing secrets) + some potential deprecated deletes
-        return 5
+        return 7
     # changed*2 (gh secret set) + removed (delete) + 2 (set var) + 1 (fetch) + buffer
-    return changed * 2 + removed + 5
+    # +6 covers Dependabot secrets (hash fetch, up to 2 sets, hash write)
+    return changed * 2 + removed + 11
 
 
 def cleanup_deprecated_secrets(repo_name, existing_secrets, current_names):
@@ -281,6 +287,21 @@ def sync_repo_secrets(repo_name, secrets, current_hashes, remote_hashes):
             delete_secret(repo_name, key)
 
     set_repo_variable(repo_name, HASH_VAR_NAME, json.dumps(current_hashes))
+
+
+def sync_dependabot_secrets(repo_name, secrets):
+    """Mirror DEPENDABOT_SECRETS into the repo's Dependabot secrets (hash-tracked)."""
+    wanted = {name: secrets[name] for name in DEPENDABOT_SECRETS if secrets.get(name) is not None}
+    current_hashes = compute_per_secret_hashes(wanted)
+    remote_hashes = get_remote_hashes(repo_name, DEPENDABOT_HASH_VAR_NAME)
+    changed = [key for key, h in current_hashes.items() if remote_hashes.get(key) != h]
+    if not changed:
+        print("  Dependabot secrets up to date, skipping")
+        return
+    print(f"  {len(changed)} Dependabot secret(s) changed: {', '.join(changed)}")
+    for key in changed:
+        set_secret(repo_name, key, wanted[key], app="dependabot")
+    set_repo_variable(repo_name, DEPENDABOT_HASH_VAR_NAME, json.dumps(current_hashes))
 
 
 def get_hub_secret_names():
@@ -389,6 +410,18 @@ def parse_workflow_env_variable_names(workflow_text):
     return names
 
 
+def _report_env_drift(missing, extra, missing_vars, extra_vars):
+    if missing:
+        print(f"Workflow missing env for: {', '.join(missing)}")
+    if extra:
+        print(f"Workflow has stale env entries: {', '.join(extra)}")
+    if missing_vars:
+        print(f"Workflow missing variables env for: {', '.join(missing_vars)}")
+    if extra_vars:
+        print(f"Workflow has stale variables env entries: {', '.join(extra_vars)}")
+    print("Run: python3 setup.py --sync-workflow")
+
+
 def sync_distribute_workflow(check_only=False):  # pylint: disable=too-many-return-statements
     secret_names = get_secret_names()
     if not secret_names:
@@ -410,37 +443,17 @@ def sync_distribute_workflow(check_only=False):  # pylint: disable=too-many-retu
         print(f"Workflow env markers not found in {workflow_path}; run: python3 setup.py --sync-workflow")
         return 1
 
-    missing = []
-    extra = []
-    missing_vars = []
-    extra_vars = []
-    if current_names is not None:
-        missing = sorted(expected_names - current_names)
-        extra = sorted(current_names - expected_names)
-    if current_var_names is not None:
-        missing_vars = sorted(expected_var_names - current_var_names)
-        extra_vars = sorted(current_var_names - expected_var_names)
+    missing, extra = _env_diff(expected_names, current_names)
+    missing_vars, extra_vars = _env_diff(expected_var_names, current_var_names)
     if not missing and not extra and not missing_vars and not extra_vars:
-        print(
-            f"Workflow env matches {len(expected_names)} repo secrets"
-            f" and {len(expected_var_names)} repo variables"
-        )
+        print(f"Workflow env matches {len(expected_names)} repo secrets and {len(expected_var_names)} repo variables")
         return 0
 
     if check_only:
-        if missing:
-            print(f"Workflow missing env for: {', '.join(missing)}")
-        if extra:
-            print(f"Workflow has stale env entries: {', '.join(extra)}")
-        if missing_vars:
-            print(f"Workflow missing variables env for: {', '.join(missing_vars)}")
-        if extra_vars:
-            print(f"Workflow has stale variables env entries: {', '.join(extra_vars)}")
-        print("Run: python3 setup.py --sync-workflow")
+        _report_env_drift(missing, extra, missing_vars, extra_vars)
         return 1
 
-    hub_names = get_hub_secret_names()
-    env_block = "\n".join(build_workflow_env_lines(secret_names, hub_names))
+    env_block = "\n".join(build_workflow_env_lines(secret_names, get_hub_secret_names()))
     pattern = re.compile(
         r"(\s+env:\n)(?:\s+.*\n)+?(\s+run: python3 setup\.py\s*\n)",
         re.MULTILINE,
@@ -457,6 +470,29 @@ def sync_distribute_workflow(check_only=False):  # pylint: disable=too-many-retu
         + (f" (removed {', '.join(extra)})" if extra else "")
     )
     return 0
+
+
+def load_variables():
+    variables = {}
+    for name in DISTRIBUTE_VARIABLES:
+        value = os.getenv(name)
+        if value is None:
+            value = get_hub_variable_value(name)
+        variables[name] = value
+
+    missing_variables = [name for name, value in variables.items() if value is None]
+    if missing_variables:
+        print(f"Skipping unset variables: {', '.join(missing_variables)}")
+
+    variable_hashes = compute_per_secret_hashes(variables)
+    print(f"Computed hashes for {len(variable_hashes)} variables")
+    return variables, variable_hashes
+
+
+def _env_diff(expected, current):
+    if current is None:
+        return [], []
+    return sorted(expected - current), sorted(current - expected)
 
 
 def main():
@@ -477,19 +513,7 @@ def main():
     current_hashes = compute_per_secret_hashes(secrets)
     print(f"Computed hashes for {len(current_hashes)} secrets")
 
-    variables = {}
-    for name in DISTRIBUTE_VARIABLES:
-        value = os.getenv(name)
-        if value is None:
-            value = get_hub_variable_value(name)
-        variables[name] = value
-
-    missing_variables = [name for name, value in variables.items() if value is None]
-    if missing_variables:
-        print(f"Skipping unset variables: {', '.join(missing_variables)}")
-
-    variable_hashes = compute_per_secret_hashes(variables)
-    print(f"Computed hashes for {len(variable_hashes)} variables")
+    variables, variable_hashes = load_variables()
 
     authenticate_gh()
 
@@ -515,6 +539,7 @@ def main():
 
         print(f"\nSyncing secrets for: {repo} (est. cost: {cost})")
         sync_repo_secrets(repo, secrets, current_hashes, remote_hashes)
+        sync_dependabot_secrets(repo, secrets)
         remote_variable_hashes = get_remote_variable_hashes(repo)
         sync_repo_variables(repo, variables, variable_hashes, remote_variable_hashes)
         synced += 1

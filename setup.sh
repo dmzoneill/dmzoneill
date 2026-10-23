@@ -27,6 +27,59 @@ else
   local_ai_md5=""
 fi
 
+# Codacy / CodeQL / SonarCloud caller stubs (logic lives in reusable
+# workflows under .github/workflows/ here). Off unless the hub repo variable
+# DISTRIBUTE_SECURITY_WORKFLOWS is "true". DRY_RUN=true only reports.
+security_workflows="codacy.yml codeql.yml sonarcloud.yml"
+security_marker="Managed by https://github.com/dmzoneill/dmzoneill setup.sh"
+distribute_security=${DISTRIBUTE_SECURITY_WORKFLOWS:-false}
+dry_run=${DRY_RUN:-false}
+
+# Print the security stubs repo_full should receive, one per line.
+# Missing -> add; our stub but outdated -> update; anything else -> leave.
+plan_security_workflows() {
+  local repo_full="$1"
+  local raw_root="$2"
+  local archived="$3"
+  local fork="$4"
+  local private="$5"
+  local wf remote_md5 local_md5
+
+  if [[ "$archived" == "true" || "$fork" == "true" ]]; then
+    echo "$repo_full: security workflows skipped (archived=$archived fork=$fork)" >&2
+    return
+  fi
+  for wf in $security_workflows; do
+    [ -f "$wf" ] || continue
+    if [[ "$wf" == "codeql.yml" ]]; then
+      if [[ "$private" == "true" ]]; then
+        echo "$repo_full: codeql.yml skipped (private repo)" >&2
+        continue
+      fi
+      if [[ "$(gh api "repos/$repo_full/code-scanning/default-setup" --jq .state 2>/dev/null)" == "configured" ]]; then
+        echo "$repo_full: codeql.yml skipped (CodeQL default setup enabled)" >&2
+        continue
+      fi
+    fi
+    local_md5=$(md5sum "$wf" | awk '{print $1}')
+    if ! curl -s -f -L "$raw_root/.github/workflows/$wf" >/tmp/sec_check 2>/dev/null; then
+      echo "$repo_full: $wf missing, will add" >&2
+      echo "$wf"
+      continue
+    fi
+    remote_md5=$(md5sum /tmp/sec_check | awk '{print $1}')
+    if [[ "$remote_md5" == "$local_md5" ]]; then
+      continue
+    fi
+    if grep -qF "$security_marker" /tmp/sec_check; then
+      echo "$repo_full: $wf outdated stub, will update" >&2
+      echo "$wf"
+    else
+      echo "$repo_full: $wf customized, leaving untouched" >&2
+    fi
+  done
+}
+
 # Authenticate once (so gh and API requests can use the token)
 if [ -n "$pass" ]; then
   echo "$pass" >.githubtoken
@@ -69,6 +122,9 @@ process_repo() {
   local repo_clone_url="$3"
   local can_set_secrets="$4"
   local default_branch="$5"
+  local repo_archived="${6:-false}"
+  local repo_fork="${7:-false}"
+  local repo_private="${8:-false}"
   local repo_full="$repo_owner/$repo_name"
 
   if [ -z "$default_branch" ] || [ "$default_branch" = "null" ]; then
@@ -154,7 +210,16 @@ process_repo() {
     skip_dep="true"
   fi
 
-  if [[ "$skip_main" == "true" && "$skip_ai" == "true" && "$skip_dep" == "true" && "$patch_main" != "true" ]]; then
+  local security_todo=""
+  if [[ "$distribute_security" == "true" || "$dry_run" == "true" ]]; then
+    security_todo=$(plan_security_workflows "$repo_full" "$raw_root" "$repo_archived" "$repo_fork" "$repo_private")
+  fi
+  if [[ "$dry_run" == "true" ]]; then
+    echo "DRY_RUN $repo_full: security=[$(echo "$security_todo" | xargs)]"
+    return
+  fi
+
+  if [[ "$skip_main" == "true" && "$skip_ai" == "true" && "$skip_dep" == "true" && "$patch_main" != "true" && -z "$security_todo" ]]; then
     echo "Skip: workflows and dependabot already match in $repo_full"
     return
   fi
@@ -180,6 +245,10 @@ process_repo() {
   if [[ "$skip_ai" != "true" ]]; then
     cp -f ai-responder.yml "$target_dir/.github/workflows/"
   fi
+  local wf
+  for wf in $security_todo; do
+    cp -f "$wf" "$target_dir/.github/workflows/"
+  done
   if [[ "$skip_dep" != "true" ]]; then
     if python3 distribute.py dependabot "$target_dir" >/tmp/dep_rendered; then
       if [[ -s /tmp/dep_rendered ]]; then
@@ -258,8 +327,8 @@ while true; do
     break
   fi
 
-  jq -r --arg OWNER "$user" '.[] | select(.owner.login == $OWNER) | [.owner.login, .name, .ssh_url, .clone_url, .permissions.admin, .default_branch] | @tsv' "$body" |
-    while IFS=$'\t' read -r repo_owner repo_name repo_ssh repo_clone_url repo_admin default_branch; do
+  jq -r --arg OWNER "$user" '.[] | select(.owner.login == $OWNER) | [.owner.login, .name, .ssh_url, .clone_url, .permissions.admin, .default_branch, .archived, .fork, .private] | @tsv' "$body" |
+    while IFS=$'\t' read -r repo_owner repo_name repo_ssh repo_clone_url repo_admin default_branch repo_archived repo_fork repo_private; do
       echo "Checking repo: $repo_owner/$repo_name (ssh_url: $repo_ssh, clone_url: $repo_clone_url, admin:$repo_admin)"
 
       can_set_secrets="false"
@@ -269,7 +338,8 @@ while true; do
         echo "Note: token does not report admin for $repo_owner/$repo_name; skipping secret set"
       fi
 
-      process_repo "$repo_owner" "$repo_name" "$repo_clone_url" "$can_set_secrets" "$default_branch"
+      process_repo "$repo_owner" "$repo_name" "$repo_clone_url" "$can_set_secrets" "$default_branch" \
+        "$repo_archived" "$repo_fork" "$repo_private"
     done
 
   # Normalize Link header and pick last Link: line (handles redirects)
@@ -298,7 +368,7 @@ while true; do
 done
 
 # Trigger CI on all owned repos via repository_dispatch
-if [ -n "$GITHUB_TOKEN" ]; then
+if [ -n "$GITHUB_TOKEN" ] && [ "$dry_run" != "true" ]; then
   echo "Dispatching refresh event to all owned repos..."
   page=1
   while true; do

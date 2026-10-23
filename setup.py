@@ -493,8 +493,9 @@ def sync_distribute_workflow(check_only=False):  # pylint: disable=too-many-retu
         _report_env_drift(missing, extra, missing_vars, extra_vars)
         return 1
 
-    hub_names = get_hub_secret_names()
-    env_block = "\n".join(build_workflow_env_lines(secret_names, hub_names))
+    env_block = "\n".join(
+        build_workflow_env_lines(secret_names, get_hub_secret_names())
+    )
     pattern = re.compile(
         r"(\s+env:\n)(?:\s+.*\n)+?(\s+run: python3 setup\.py\s*\n)",
         re.MULTILINE,

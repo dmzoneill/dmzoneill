@@ -1,10 +1,10 @@
 {
   "https://api.github.com/repos/dmzoneill/Bootstack-Highlight-Monitor/languages": {
-    "t": 1792465521.1211114,
+    "t": 1792743297.5694573,
     "v": {}
   },
   "https://api.github.com/repos/dmzoneill/DFakeSeeder/issues?state=open": {
-    "t": 1792465513.37005,
+    "t": 1792743287.3694417,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/DFakeSeeder/pull/56",
@@ -16,21 +16,8 @@
           "url": "https://api.github.com/repos/dmzoneill/DFakeSeeder/pulls/56"
         },
         "title": "chore(deps): bump the pip group across 1 directory with 19 updates",
-        "updated_at": "2026-10-19T20:10:51Z",
+        "updated_at": "2026-10-20T07:52:56Z",
         "url": "https://api.github.com/repos/dmzoneill/DFakeSeeder/issues/56"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/DFakeSeeder/pull/55",
-        "pull_request": {
-          "diff_url": "https://github.com/dmzoneill/DFakeSeeder/pull/55.diff",
-          "html_url": "https://github.com/dmzoneill/DFakeSeeder/pull/55",
-          "merged_at": null,
-          "patch_url": "https://github.com/dmzoneill/DFakeSeeder/pull/55.patch",
-          "url": "https://api.github.com/repos/dmzoneill/DFakeSeeder/pulls/55"
-        },
-        "title": "chore(deps): bump aiohttp from 3.14.3 to 3.14.4",
-        "updated_at": "2026-10-19T20:02:16Z",
-        "url": "https://api.github.com/repos/dmzoneill/DFakeSeeder/issues/55"
       },
       {
         "html_url": "https://github.com/dmzoneill/DFakeSeeder/pull/53",
@@ -54,19 +41,13 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/DFakeSeeder/pulls?state=open": {
-    "t": 1792465514.1366146,
+    "t": 1792743288.2790759,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/DFakeSeeder/pull/56",
         "title": "chore(deps): bump the pip group across 1 directory with 19 updates",
-        "updated_at": "2026-10-19T20:10:51Z",
+        "updated_at": "2026-10-20T07:52:56Z",
         "url": "https://api.github.com/repos/dmzoneill/DFakeSeeder/pulls/56"
-      },
-      {
-        "html_url": "https://github.com/dmzoneill/DFakeSeeder/pull/55",
-        "title": "chore(deps): bump aiohttp from 3.14.3 to 3.14.4",
-        "updated_at": "2026-10-19T20:02:16Z",
-        "url": "https://api.github.com/repos/dmzoneill/DFakeSeeder/pulls/55"
       },
       {
         "html_url": "https://github.com/dmzoneill/DFakeSeeder/pull/53",
@@ -77,7 +58,7 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/ansible-feeditout-com/issues?state=open": {
-    "t": 1792465518.4385893,
+    "t": 1792743293.4638166,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/ansible-feeditout-com/issues/456",
@@ -130,19 +111,19 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/ansible-feeditout-com/pulls?state=open": {
-    "t": 1792465519.0949392,
+    "t": 1792743294.240161,
     "v": []
   },
   "https://api.github.com/repos/dmzoneill/ashtangayogacork.ie-assets/languages": {
-    "t": 1792465521.768122,
+    "t": 1792743298.3370082,
     "v": {}
   },
   "https://api.github.com/repos/dmzoneill/github-ai-contributor/languages": {
-    "t": 1792465515.4371884,
+    "t": 1792743292.5543883,
     "v": {}
   },
   "https://api.github.com/repos/dmzoneill/harpnet.ie/issues?state=open": {
-    "t": 1792465516.2671504,
+    "t": 1792743289.3295243,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/harpnet.ie/issues/44",
@@ -327,19 +308,19 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/harpnet.ie/languages": {
-    "t": 1792465517.5574358,
+    "t": 1792743291.0072024,
     "v": {}
   },
   "https://api.github.com/repos/dmzoneill/harpnet.ie/pulls?state=open": {
-    "t": 1792465516.918278,
+    "t": 1792743290.230367,
     "v": []
   },
   "https://api.github.com/repos/dmzoneill/hevyapp-api/languages": {
-    "t": 1792465522.4073296,
+    "t": 1792743299.1004806,
     "v": {}
   },
   "https://api.github.com/repos/dmzoneill/lidarr-youtube-downloader/issues?state=open": {
-    "t": 1792465509.1019542,
+    "t": 1792743282.2014318,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/lidarr-youtube-downloader/issues/29",
@@ -374,15 +355,15 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/lidarr-youtube-downloader/pulls?state=open": {
-    "t": 1792465509.7642798,
+    "t": 1792743283.0049992,
     "v": []
   },
   "https://api.github.com/repos/dmzoneill/my-history/languages": {
-    "t": 1792465523.7088158,
+    "t": 1792743299.903454,
     "v": {}
   },
   "https://api.github.com/repos/dmzoneill/pass-gnome-extension/issues?state=open": {
-    "t": 1792465519.8260543,
+    "t": 1792743295.224379,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/pass-gnome-extension/issues/3",
@@ -393,15 +374,15 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/pass-gnome-extension/pulls?state=open": {
-    "t": 1792465520.486459,
+    "t": 1792743296.02947,
     "v": []
   },
   "https://api.github.com/repos/dmzoneill/pass/languages": {
-    "t": 1792465523.047658,
+    "t": 1792743296.787881,
     "v": {}
   },
   "https://api.github.com/repos/dmzoneill/securetty/issues?state=open": {
-    "t": 1792465511.9376109,
+    "t": 1792743285.6286724,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/securetty/issues/175",
@@ -460,15 +441,15 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/securetty/pulls?state=open": {
-    "t": 1792465512.5896478,
+    "t": 1792743286.4291136,
     "v": []
   },
   "https://api.github.com/repos/dmzoneill/skills/languages": {
-    "t": 1792465514.8022468,
+    "t": 1792743291.787588,
     "v": {}
   },
   "https://api.github.com/repos/dmzoneill/tado-gnome-shell-extension/issues?state=open": {
-    "t": 1792465510.511453,
+    "t": 1792743283.8960118,
     "v": [
       {
         "html_url": "https://github.com/dmzoneill/tado-gnome-shell-extension/issues/2",
@@ -479,14 +460,14 @@
     ]
   },
   "https://api.github.com/repos/dmzoneill/tado-gnome-shell-extension/pulls?state=open": {
-    "t": 1792465511.1638646,
+    "t": 1792743284.6875808,
     "v": []
   },
   "https://api.github.com/users/dmzoneill/gists": {
-    "t": 1792465525.6006489,
+    "t": 1792743301.4920118,
     "v": [
       {
-        "description": "modern-hints.sh \u2014 Non-obtrusive bash hints suggesting modern alternatives to legacy Linux commands. Writes to /dev/tty so it never interferes with pipes or redirects.",
+        "description": "Bash hints that suggest modern alternatives to legacy Linux commands",
         "html_url": "https://gist.github.com/dmzoneill/cf2d484d13bdfe689586d984af2105bd"
       },
       {
@@ -502,11 +483,11 @@
         "html_url": "https://gist.github.com/dmzoneill/3f59c2b525578a7543e2f4d6914c2d77"
       },
       {
-        "description": "",
+        "description": "AI-generated full spine MRI analysis report (not a medical diagnosis)",
         "html_url": "https://gist.github.com/dmzoneill/c992016e6ae2a29985302ac664f5a15b"
       },
       {
-        "description": "",
+        "description": "Claude Code session reviewing a Siemens full spine MRI DICOM export",
         "html_url": "https://gist.github.com/dmzoneill/8bc6af47fd734f1389a6a9981d7268a1"
       },
       {
@@ -514,15 +495,15 @@
         "html_url": "https://gist.github.com/dmzoneill/87698993c18d9bab7a7fe6def4166481"
       },
       {
-        "description": "Mailias \u2014 Self-hosted email alias forwarding service: architecture, requirements, and competitive analysis",
+        "description": "Mailias: self-hosted email alias forwarding service architecture and design",
         "html_url": "https://gist.github.com/dmzoneill/fbb3b83719785f3fc86b0607d7aba23c"
       },
       {
-        "description": "crudeoii.py",
+        "description": "Crude oil price monitor with technical analysis indicators in Python",
         "html_url": "https://gist.github.com/dmzoneill/64a18fe75765d2a7b672361b0c871150"
       },
       {
-        "description": "Opinionated Slop Manager",
+        "description": "Opinionated Slop Manager: multi-agent code review skill for smells and AI slop",
         "html_url": "https://gist.github.com/dmzoneill/6f88cc5cb2720168b0f4bd32a1068d22"
       },
       {
@@ -530,15 +511,15 @@
         "html_url": "https://gist.github.com/dmzoneill/af4a56c98fe185a9b14abba35bb5c29b"
       },
       {
-        "description": "cloud flare emial creator",
+        "description": "Cloudflare email routing script that creates random anagram alias addresses",
         "html_url": "https://gist.github.com/dmzoneill/da7e49a55b7bd4ded318b82309c1bfd7"
       },
       {
-        "description": "AI support fos slack and jira",
+        "description": "Tampermonkey script to clean up Slack and Jira messages with ChatGPT",
         "html_url": "https://gist.github.com/dmzoneill/441f88a5c73136b8128c252ad84100b3"
       },
       {
-        "description": "AI git Commit",
+        "description": "Python script that writes a git commit message from the diff using OpenAI",
         "html_url": "https://gist.github.com/dmzoneill/80bfef9603448c33df02ce0aa98fcd59"
       },
       {
@@ -546,23 +527,23 @@
         "html_url": "https://gist.github.com/dmzoneill/7c9159b30950621c065791e7861be174"
       },
       {
-        "description": "sorted listed model gtk4",
+        "description": "Python GTK4 ColumnView with clickable column header sorting",
         "html_url": "https://gist.github.com/dmzoneill/19a4fbd799f1e5bcc050ddb4b0a65403"
       },
       {
-        "description": "Pygtk4 ColumnView",
+        "description": "Python GTK4 ColumnView with per-column string and numeric sorters",
         "html_url": "https://gist.github.com/dmzoneill/74033698f65a5a1539d686452a73dce8"
       },
       {
-        "description": "awx-operator 2.15..16",
+        "description": "git diff of awx-operator between releases 2.15.0 and 2.16.0",
         "html_url": "https://gist.github.com/dmzoneill/497746f38c5786c96e8859f1131667af"
       },
       {
-        "description": "durex fun",
+        "description": "PHP script that writes a name from the URL onto a JPEG image with GD",
         "html_url": "https://gist.github.com/dmzoneill/67a908fb949dc95bbbf02f0446a07f0a"
       },
       {
-        "description": "10GB tuning",
+        "description": "Linux sysctl and ethtool tuning for 10GbE networking",
         "html_url": "https://gist.github.com/dmzoneill/d13d88b16d4d0aa90cb108a00ab3cf01"
       },
       {
@@ -574,7 +555,7 @@
         "html_url": "https://gist.github.com/dmzoneill/575ba9c32375c41cb1041e9064de0678"
       },
       {
-        "description": "AA active queries",
+        "description": "Automation Analytics Postgres pg_stat_activity active queries dump",
         "html_url": "https://gist.github.com/dmzoneill/cbc75e502dbe2b78651f68d6320b714a"
       },
       {

@@ -59,4 +59,8 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add -A
           git diff --quiet && git diff --staged --quiet || git commit -m "Automated publish: $(date -u) ${{ github.sha }}"
-          git push origin main
+          if [ "${GITHUB_REF}" = "refs/heads/main" ]; then
+            git push origin main
+          else
+            echo "Skipping profile push from ${GITHUB_REF}"
+          fi

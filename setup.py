@@ -71,11 +71,15 @@ def hash_value(value):
 
 
 def compute_per_secret_hashes(secrets):
-    return {key: hash_value(value) for key, value in secrets.items() if value is not None}
+    return {
+        key: hash_value(value) for key, value in secrets.items() if value is not None
+    }
 
 
 def check_rate_limit():
-    response = requests.get("https://api.github.com/rate_limit", headers=headers, timeout=HTTP_TIMEOUT)
+    response = requests.get(
+        "https://api.github.com/rate_limit", headers=headers, timeout=HTTP_TIMEOUT
+    )
     if response.status_code == 200:
         core = response.json()["resources"]["core"]
         remaining = core["remaining"]
@@ -91,7 +95,9 @@ def rate_limited_get(url, max_retries=3):
         response = requests.get(url, headers=headers, timeout=HTTP_TIMEOUT)
         if response.status_code in (403, 429):
             retry_after = int(response.headers.get("Retry-After", 60))
-            print(f"  Rate limited, waiting {retry_after}s (attempt {attempt + 1}/{max_retries})")
+            print(
+                f"  Rate limited, waiting {retry_after}s (attempt {attempt + 1}/{max_retries})"
+            )
             time.sleep(retry_after)
             continue
         return response
@@ -152,18 +158,24 @@ def set_repo_variable(repo_name, name, value):
     repo_full = f"{GITHUB_USER}/{repo_name}"
     url = f"https://api.github.com/repos/{repo_full}/actions/variables/{name}"
     time.sleep(API_DELAY)
-    response = requests.patch(url, headers=headers, json={"value": value}, timeout=HTTP_TIMEOUT)
+    response = requests.patch(
+        url, headers=headers, json={"value": value}, timeout=HTTP_TIMEOUT
+    )
     if response.status_code == 204:
         print("    Updated hash variable")
         return
 
     url = f"https://api.github.com/repos/{repo_full}/actions/variables"
     time.sleep(API_DELAY)
-    response = requests.post(url, headers=headers, json={"name": name, "value": value}, timeout=HTTP_TIMEOUT)
+    response = requests.post(
+        url, headers=headers, json={"name": name, "value": value}, timeout=HTTP_TIMEOUT
+    )
     if response.status_code == 201:
         print("    Created hash variable")
     else:
-        print(f"    Failed to set variable {name}: {response.status_code} {response.text}")
+        print(
+            f"    Failed to set variable {name}: {response.status_code} {response.text}"
+        )
 
 
 def delete_repo_variable(repo_name, name):
@@ -174,11 +186,15 @@ def delete_repo_variable(repo_name, name):
     if response.status_code == 204:
         print(f"    Deleted variable {name}")
     elif response.status_code != 404:
-        print(f"    Failed to delete variable {name}: {response.status_code} {response.text}")
+        print(
+            f"    Failed to delete variable {name}: {response.status_code} {response.text}"
+        )
 
 
 def get_hub_variable_value(name):
-    url = f"https://api.github.com/repos/{GITHUB_USER}/dmzoneill/actions/variables/{name}"
+    url = (
+        f"https://api.github.com/repos/{GITHUB_USER}/dmzoneill/actions/variables/{name}"
+    )
     response = rate_limited_get(url)
     if response.status_code == 200:
         return response.json().get("value")
@@ -248,10 +264,14 @@ def estimate_repo_cost(current_hashes, remote_hashes):
 
 def cleanup_deprecated_secrets(repo_name, existing_secrets, current_names):
     to_delete = [
-        s for s in existing_secrets if s in SECRETS_TO_PURGE or (s not in current_names and s != HASH_VAR_NAME)
+        s
+        for s in existing_secrets
+        if s in SECRETS_TO_PURGE or (s not in current_names and s != HASH_VAR_NAME)
     ]
     if to_delete:
-        print(f"  Cleaning up {len(to_delete)} deprecated secret(s): {', '.join(to_delete)}")
+        print(
+            f"  Cleaning up {len(to_delete)} deprecated secret(s): {', '.join(to_delete)}"
+        )
         for key in to_delete:
             delete_secret(repo_name, key)
     return to_delete
@@ -291,7 +311,11 @@ def sync_repo_secrets(repo_name, secrets, current_hashes, remote_hashes):
 
 def sync_dependabot_secrets(repo_name, secrets):
     """Mirror DEPENDABOT_SECRETS into the repo's Dependabot secrets (hash-tracked)."""
-    wanted = {name: secrets[name] for name in DEPENDABOT_SECRETS if secrets.get(name) is not None}
+    wanted = {
+        name: secrets[name]
+        for name in DEPENDABOT_SECRETS
+        if secrets.get(name) is not None
+    }
     current_hashes = compute_per_secret_hashes(wanted)
     remote_hashes = get_remote_hashes(repo_name, DEPENDABOT_HASH_VAR_NAME)
     changed = [key for key, h in current_hashes.items() if remote_hashes.get(key) != h]
@@ -331,7 +355,11 @@ def get_secret_names():
     names = [
         name
         for name in hub_names
-        if (name != HASH_VAR_NAME and name not in SECRETS_TO_PURGE and name not in HUB_ONLY_SECRETS)
+        if (
+            name != HASH_VAR_NAME
+            and name not in SECRETS_TO_PURGE
+            and name not in HUB_ONLY_SECRETS
+        )
         and name not in DISTRIBUTE_VARIABLES
     ]
     if get_hub_codacy_token_source(hub_names) and CODACY_DISTRIBUTE_SECRET not in names:
@@ -348,7 +376,9 @@ def get_repositories():
             repos_data = response.json()
             if not repos_data:
                 break
-            repos.extend([repo["name"] for repo in repos_data if repo["name"] != "dmzoneill"])
+            repos.extend(
+                [repo["name"] for repo in repos_data if repo["name"] != "dmzoneill"]
+            )
             page += 1
         else:
             print(f"Failed to fetch repositories, status code: {response.status_code}")
@@ -366,7 +396,9 @@ def build_workflow_env_lines(secret_names, hub_names=None):
     ]
     for name in sorted(secret_names):
         if name == CODACY_DISTRIBUTE_SECRET and codacy_source:
-            lines.append(f"          {CODACY_DISTRIBUTE_SECRET}: ${{{{ secrets.{codacy_source} }}}}")
+            lines.append(
+                f"          {CODACY_DISTRIBUTE_SECRET}: ${{{{ secrets.{codacy_source} }}}}"
+            )
         else:
             lines.append(f"          {name}: ${{{{ secrets.{name} }}}}")
     lines.append(f"          {WORKFLOW_ENV_END}")
@@ -395,7 +427,10 @@ def parse_workflow_env_secret_names(workflow_text):
 
 
 def parse_workflow_env_variable_names(workflow_text):
-    if WORKFLOW_VARS_BEGIN not in workflow_text or WORKFLOW_VARS_END not in workflow_text:
+    if (
+        WORKFLOW_VARS_BEGIN not in workflow_text
+        or WORKFLOW_VARS_END not in workflow_text
+    ):
         return None
     start = workflow_text.index(WORKFLOW_VARS_BEGIN)
     end = workflow_text.index(WORKFLOW_VARS_END, start)
@@ -408,6 +443,18 @@ def parse_workflow_env_variable_names(workflow_text):
         key = stripped.split(":", 1)[0].strip()
         names.add(key)
     return names
+
+
+def _report_env_drift(missing, extra, missing_vars, extra_vars):
+    if missing:
+        print(f"Workflow missing env for: {', '.join(missing)}")
+    if extra:
+        print(f"Workflow has stale env entries: {', '.join(extra)}")
+    if missing_vars:
+        print(f"Workflow missing variables env for: {', '.join(missing_vars)}")
+    if extra_vars:
+        print(f"Workflow has stale variables env entries: {', '.join(extra_vars)}")
+    print("Run: python3 setup.py --sync-workflow")
 
 
 def sync_distribute_workflow(check_only=False):  # pylint: disable=too-many-return-statements
@@ -428,19 +475,13 @@ def sync_distribute_workflow(check_only=False):  # pylint: disable=too-many-retu
     expected_var_names = set(DISTRIBUTE_VARIABLES)
 
     if check_only and (current_names is None or current_var_names is None):
-        print(f"Workflow env markers not found in {workflow_path}; run: python3 setup.py --sync-workflow")
+        print(
+            f"Workflow env markers not found in {workflow_path}; run: python3 setup.py --sync-workflow"
+        )
         return 1
 
-    missing = []
-    extra = []
-    missing_vars = []
-    extra_vars = []
-    if current_names is not None:
-        missing = sorted(expected_names - current_names)
-        extra = sorted(current_names - expected_names)
-    if current_var_names is not None:
-        missing_vars = sorted(expected_var_names - current_var_names)
-        extra_vars = sorted(current_var_names - expected_var_names)
+    missing, extra = _env_diff(expected_names, current_names)
+    missing_vars, extra_vars = _env_diff(expected_var_names, current_var_names)
     if not missing and not extra and not missing_vars and not extra_vars:
         print(
             f"Workflow env matches {len(expected_names)} repo secrets"
@@ -449,15 +490,7 @@ def sync_distribute_workflow(check_only=False):  # pylint: disable=too-many-retu
         return 0
 
     if check_only:
-        if missing:
-            print(f"Workflow missing env for: {', '.join(missing)}")
-        if extra:
-            print(f"Workflow has stale env entries: {', '.join(extra)}")
-        if missing_vars:
-            print(f"Workflow missing variables env for: {', '.join(missing_vars)}")
-        if extra_vars:
-            print(f"Workflow has stale variables env entries: {', '.join(extra_vars)}")
-        print("Run: python3 setup.py --sync-workflow")
+        _report_env_drift(missing, extra, missing_vars, extra_vars)
         return 1
 
     hub_names = get_hub_secret_names()
@@ -480,24 +513,7 @@ def sync_distribute_workflow(check_only=False):  # pylint: disable=too-many-retu
     return 0
 
 
-def main():
-    secret_names = get_secret_names()
-    if not secret_names:
-        print("No secrets found on dmzoneill repo, aborting")
-        return
-
-    print(f"Found {len(secret_names)} secrets on dmzoneill repo")
-    secrets = {name: os.getenv(name) for name in secret_names}
-    if CODACY_DISTRIBUTE_SECRET in secrets and secrets[CODACY_DISTRIBUTE_SECRET] is None:
-        secrets[CODACY_DISTRIBUTE_SECRET] = os.getenv("CODACY_PROJECT_TOKEN")
-
-    missing_secrets = [secret for secret, value in secrets.items() if value is None]
-    if missing_secrets:
-        print(f"Skipping unset secrets: {', '.join(missing_secrets)}")
-
-    current_hashes = compute_per_secret_hashes(secrets)
-    print(f"Computed hashes for {len(current_hashes)} secrets")
-
+def load_variables():
     variables = {}
     for name in DISTRIBUTE_VARIABLES:
         value = os.getenv(name)
@@ -511,6 +527,37 @@ def main():
 
     variable_hashes = compute_per_secret_hashes(variables)
     print(f"Computed hashes for {len(variable_hashes)} variables")
+    return variables, variable_hashes
+
+
+def _env_diff(expected, current):
+    if current is None:
+        return [], []
+    return sorted(expected - current), sorted(current - expected)
+
+
+def main():
+    secret_names = get_secret_names()
+    if not secret_names:
+        print("No secrets found on dmzoneill repo, aborting")
+        return
+
+    print(f"Found {len(secret_names)} secrets on dmzoneill repo")
+    secrets = {name: os.getenv(name) for name in secret_names}
+    if (
+        CODACY_DISTRIBUTE_SECRET in secrets
+        and secrets[CODACY_DISTRIBUTE_SECRET] is None
+    ):
+        secrets[CODACY_DISTRIBUTE_SECRET] = os.getenv("CODACY_PROJECT_TOKEN")
+
+    missing_secrets = [secret for secret, value in secrets.items() if value is None]
+    if missing_secrets:
+        print(f"Skipping unset secrets: {', '.join(missing_secrets)}")
+
+    current_hashes = compute_per_secret_hashes(secrets)
+    print(f"Computed hashes for {len(current_hashes)} secrets")
+
+    variables, variable_hashes = load_variables()
 
     authenticate_gh()
 
@@ -530,7 +577,9 @@ def main():
         cost = estimate_repo_cost(current_hashes, remote_hashes)
 
         if cost > 0 and remaining < cost + RATE_LIMIT_RESERVE:
-            print(f"\nSkipping {repo}: {remaining} calls left, need {cost}+{RATE_LIMIT_RESERVE}")
+            print(
+                f"\nSkipping {repo}: {remaining} calls left, need {cost}+{RATE_LIMIT_RESERVE}"
+            )
             skipped += 1
             continue
 

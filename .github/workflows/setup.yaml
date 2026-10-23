@@ -2,9 +2,10 @@ name: CICD_REPOS_SETUP
 
 on:
   push:
+    branches: ["main"]
   schedule:
     - cron: '0 0 * * *'
-    
+
 permissions: write-all
 
 jobs:
@@ -21,3 +22,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PROFILE_HOOK: ${{ secrets.PROFILE_HOOK }}
+          DISTRIBUTE_SECURITY_WORKFLOWS: ${{ vars.DISTRIBUTE_SECURITY_WORKFLOWS }}

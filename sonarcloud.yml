@@ -1,0 +1,20 @@
+# Managed by https://github.com/dmzoneill/dmzoneill setup.sh.
+# Logic lives in dmzoneill/dmzoneill/.github/workflows/sonarcloud.yaml.
+name: SonarCloud Analysis
+
+on:
+  push:
+    branches: ["main", "master"]
+  pull_request:
+    branches: ["main", "master"]
+  workflow_dispatch:
+
+permissions:
+  checks: write
+  contents: read
+  pull-requests: write
+
+jobs:
+  sonarcloud:
+    uses: dmzoneill/dmzoneill/.github/workflows/sonarcloud.yaml@main
+    secrets: inherit

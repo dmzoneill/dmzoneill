@@ -5,3 +5,5 @@
 [codespell]
 check-hidden =
 skip = */Pipfile.lock,*/uv.lock,*/poetry.lock,*/package-lock.json,*/yarn.lock,*/pnpm-lock.yaml,*/Cargo.lock,*/composer.lock,*/Gemfile.lock,*/go.sum,*/go.mod,*.log,.git
+; Words that are correct in context. sie: Shannon site code (iLab hostnames).
+ignore-words-list = sie

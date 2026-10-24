@@ -45,11 +45,13 @@ plan_security_workflows() {
   fi
   for wf in $security_workflows; do
     [ -f "$wf" ] || continue
+    # Private repos never get SonarCloud, Codacy or CodeQL, so no private
+    # source is sent to an outside service
+    if [[ "$private" == "true" ]]; then
+      echo "$repo_full: $wf skipped (private repo)" >&2
+      continue
+    fi
     if [[ "$wf" == "codeql.yml" ]]; then
-      if [[ "$private" == "true" ]]; then
-        echo "$repo_full: codeql.yml skipped (private repo)" >&2
-        continue
-      fi
       if [[ "$(gh api "repos/$repo_full/code-scanning/default-setup" --jq .state 2>/dev/null)" == "configured" ]]; then
         echo "$repo_full: codeql.yml skipped (CodeQL default setup enabled)" >&2
         continue

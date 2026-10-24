@@ -1259,7 +1259,7 @@ jobs:
           telegram_chat_id: ${{ secrets.TELEGRAM_CHAT_ID }}
 
   chrome:
-    if: inputs.chrome-extension != 'false'   
+    if: github.event.repository.private != true && inputs.chrome-extension != 'false'
     name: Chrome publish
     runs-on: ubuntu-latest
     needs: create-release
@@ -1316,7 +1316,7 @@ jobs:
           telegram_chat_id: ${{ secrets.TELEGRAM_CHAT_ID }}
 
   pypi:
-    if: inputs.pypi-extension != 'false'
+    if: github.event.repository.private != true && inputs.pypi-extension != 'false'
     name: Pypi publish
     needs: create-release
     runs-on: ubuntu-latest
@@ -1350,7 +1350,7 @@ jobs:
           telegram_chat_id: ${{ secrets.TELEGRAM_CHAT_ID }}
 
   gnome:
-    if: inputs.gnome-extension != 'false'
+    if: github.event.repository.private != true && inputs.gnome-extension != 'false'
     name: Gnome publish
     needs: create-release
     runs-on: ubuntu-latest
@@ -1397,7 +1397,7 @@ jobs:
           telegram_chat_id: ${{ secrets.TELEGRAM_CHAT_ID }}
 
   pling:
-    if: inputs.pling != 'false'
+    if: github.event.repository.private != true && inputs.pling != 'false'
     name: Pling publish
     needs: create-release
     runs-on: ubuntu-latest
@@ -1425,7 +1425,7 @@ jobs:
           telegram_chat_id: ${{ secrets.TELEGRAM_CHAT_ID }}
 
   deb:
-    if: inputs.deb-build != 'false'
+    if: github.event.repository.private != true && inputs.deb-build != 'false'
     name: Deb publish
     needs: create-release
     runs-on: ubuntu-latest
@@ -1469,7 +1469,7 @@ jobs:
           telegram_chat_id: ${{ secrets.TELEGRAM_CHAT_ID }}
 
   rpm:
-    if: inputs.rpm-build != 'false'
+    if: github.event.repository.private != true && inputs.rpm-build != 'false'
     name: Rpm publish
     needs: create-release
     runs-on: ubuntu-latest
@@ -1517,7 +1517,7 @@ jobs:
           telegram_chat_id: ${{ secrets.TELEGRAM_CHAT_ID }}
 
   npmjs:
-    if: inputs.npmjs != 'false'
+    if: github.event.repository.private != true && inputs.npmjs != 'false'
     name: Npmjs publish
     needs: create-release
     runs-on: ubuntu-latest
@@ -1547,7 +1547,7 @@ jobs:
           telegram_chat_id: ${{ secrets.TELEGRAM_CHAT_ID }}
 
   docker:
-    if: inputs.docker-build != 'false'
+    if: github.event.repository.private != true && inputs.docker-build != 'false'
     name: Docker publish
     runs-on: ubuntu-latest
     needs: create-release
@@ -1657,7 +1657,7 @@ jobs:
           telegram_chat_id: ${{ secrets.TELEGRAM_CHAT_ID }}
 
   flatpak:
-    if: inputs.flatpak-build != 'false'
+    if: github.event.repository.private != true && inputs.flatpak-build != 'false'
     needs: create-release
     name: Flatpak publish
     runs-on: ubuntu-latest
@@ -1779,7 +1779,7 @@ jobs:
           telegram_chat_id: ${{ secrets.TELEGRAM_CHAT_ID }}
 
   appimage:
-    if: inputs.appimage-build != 'false'
+    if: github.event.repository.private != true && inputs.appimage-build != 'false'
     needs: create-release
     name: AppImage publish
     runs-on: ubuntu-latest
@@ -1853,7 +1853,7 @@ jobs:
           telegram_chat_id: ${{ secrets.TELEGRAM_CHAT_ID }}
 
   snap:
-    if: inputs.snap-build != 'false'
+    if: github.event.repository.private != true && inputs.snap-build != 'false'
     needs: create-release
     name: Snap publish
     runs-on: ubuntu-latest
@@ -1919,7 +1919,7 @@ jobs:
           telegram_chat_id: ${{ secrets.TELEGRAM_CHAT_ID }}
 
   nix:
-    if: inputs.nix-build != 'false'
+    if: github.event.repository.private != true && inputs.nix-build != 'false'
     needs: create-release
     name: Nix publish
     runs-on: ubuntu-latest
@@ -1993,7 +1993,7 @@ jobs:
           telegram_chat_id: ${{ secrets.TELEGRAM_CHAT_ID }}
 
   aur:
-    if: inputs.aur-publish != 'false'
+    if: github.event.repository.private != true && inputs.aur-publish != 'false'
     needs: create-release
     name: AUR publish
     runs-on: ubuntu-latest
@@ -2040,7 +2040,7 @@ jobs:
           telegram_chat_id: ${{ secrets.TELEGRAM_CHAT_ID }}
 
   homebrew:
-    if: inputs.homebrew-publish != 'false'
+    if: github.event.repository.private != true && inputs.homebrew-publish != 'false'
     needs: create-release
     name: Homebrew publish
     runs-on: ubuntu-latest
@@ -2077,7 +2077,7 @@ jobs:
           telegram_chat_id: ${{ secrets.TELEGRAM_CHAT_ID }}
 
   chocolatey:
-    if: inputs.chocolatey-publish != 'false'
+    if: github.event.repository.private != true && inputs.chocolatey-publish != 'false'
     needs: create-release
     name: Chocolatey publish
     runs-on: windows-latest
@@ -2138,7 +2138,7 @@ jobs:
           telegram_chat_id: ${{ secrets.TELEGRAM_CHAT_ID }}
 
   scoop:
-    if: inputs.scoop-publish != 'false'
+    if: github.event.repository.private != true && inputs.scoop-publish != 'false'
     needs: create-release
     name: Scoop publish
     runs-on: ubuntu-latest
@@ -2217,7 +2217,7 @@ jobs:
           telegram_chat_id: ${{ secrets.TELEGRAM_CHAT_ID }}
 
   winget:
-    if: inputs.winget-publish != 'false'
+    if: github.event.repository.private != true && inputs.winget-publish != 'false'
     needs: create-release
     name: Winget publish
     runs-on: windows-latest
@@ -2248,9 +2248,10 @@ jobs:
           telegram_bot_token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           telegram_chat_id: ${{ secrets.TELEGRAM_CHAT_ID }}
 
-  rebuild-profile:   
+  rebuild-profile:
     name: Rebuild Profile
-    runs-on: ubuntu-latest    
+    if: github.event.repository.private != true
+    runs-on: ubuntu-latest
     needs: [docker, deb, rpm, gnome, pypi, chrome, pling, npmjs, flatpak, appimage, snap, nix, aur, homebrew, chocolatey, scoop, winget]
     steps:
       - name: Rebuild profile
@@ -2262,6 +2263,7 @@ jobs:
     needs: [docker, deb, rpm, gnome, pypi, chrome, pling, npmjs, flatpak, appimage, snap, nix, aur, homebrew, chocolatey, scoop, winget]
     if: |
       always() &&
+      github.event.repository.private != true &&
       (
         needs.rpm.result == 'success' ||
         needs.docker.result == 'success' ||

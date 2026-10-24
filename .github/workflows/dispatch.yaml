@@ -1292,15 +1292,18 @@ jobs:
           path: chrome-extension-${{ github.sha }}.zip
 
       - name: Download bundle artifact
+        if: steps.changes.outputs.src == 'true'
         uses: actions/download-artifact@v8
         with:
           name: chrome-extension-${{ github.sha }}
 
       - name: Install webstore cli
+        if: steps.changes.outputs.src == 'true'
         run: |-
           npm install -g chrome-webstore-upload-cli
 
       - name: Upload step
+        if: steps.changes.outputs.src == 'true'
         run: |-
           chrome-webstore-upload upload --source chrome-extension-${{ github.sha }}.zip --extension-id ${{ env.EXTENSION_ID }} --client-id ${{ secrets.CI_GOOGLE_CLIENT_ID }} --client-secret ${{ secrets.CI_GOOGLE_CLIENT_SECRET }} --refresh-token ${{ secrets.CI_GOOGLE_REFRESH_TOKEN }} --auto-publish
 

@@ -1316,7 +1316,8 @@ jobs:
           telegram_chat_id: ${{ secrets.TELEGRAM_CHAT_ID }}
 
   pypi:
-    if: github.event.repository.private != true && inputs.pypi-extension != 'false'
+    # Private repos never publish, except redhat-oracle which David chose to keep on PyPI.
+    if: (github.event.repository.private != true || github.repository == 'dmzoneill/redhat-oracle') && inputs.pypi-extension != 'false'
     name: Pypi publish
     needs: create-release
     runs-on: ubuntu-latest

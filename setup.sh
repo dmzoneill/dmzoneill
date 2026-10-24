@@ -56,7 +56,7 @@ plan_security_workflows() {
       fi
     fi
     local_md5=$(md5sum "$wf" | awk '{print $1}')
-    if ! curl -s -f -L "$raw_root/.github/workflows/$wf" >/tmp/sec_check 2>/dev/null; then
+    if ! raw_get "$raw_root/.github/workflows/$wf" >/tmp/sec_check 2>/dev/null; then
       echo "$repo_full: $wf missing, will add" >&2
       echo "$wf"
       continue
@@ -85,7 +85,18 @@ if [ -n "$pass" ]; then
   fi
   export GITHUB_TOKEN="$pass"
   rm -f .githubtoken
+  # Let plain git clone/pull use the gh login, so private repos clone too
+  gh auth setup-git
 fi
+
+# curl a raw file, authenticated when a token is set (needed for private repos)
+raw_get() {
+  if [ -n "$GITHUB_TOKEN" ]; then
+    curl -s -f -L -H "Authorization: token $GITHUB_TOKEN" "$@"
+  else
+    curl -s -f -L "$@"
+  fi
+}
 
 tmpdir=$(mktemp -d)
 trap 'rm -rf "$tmpdir"' EXIT
@@ -134,7 +145,7 @@ process_repo() {
   local main_url="$raw_root/.github/workflows/main.yml"
   local main_status="missing"
   local main_md5=""
-  if curl -s -f -L "$main_url" >/tmp/main_check 2>/dev/null; then
+  if raw_get "$main_url" >/tmp/main_check 2>/dev/null; then
     if grep -q "^name:" /tmp/main_check; then
       main_status="present"
       main_md5=$(md5sum /tmp/main_check 2>/dev/null | awk '{print $1}')
@@ -147,7 +158,7 @@ process_repo() {
   local ai_url="$raw_root/.github/workflows/ai-responder.yml"
   local remove_ai="false"
   if [[ "$repo_archived" != "true" && "$repo_fork" != "true" ]] &&
-    curl -s -f -L -o /dev/null "$ai_url" 2>/dev/null; then
+    raw_get -o /dev/null "$ai_url" 2>/dev/null; then
     remove_ai="true"
   fi
 
@@ -173,7 +184,7 @@ process_repo() {
 
   rm -f /tmp/dep_check /tmp/dep_expected
   local dep_url="$raw_root/.github/dependabot.yml"
-  if curl -s -f -L "$dep_url" >/tmp/dep_check 2>/dev/null; then
+  if raw_get "$dep_url" >/tmp/dep_check 2>/dev/null; then
     echo "$repo_full: dependabot present"
   else
     echo "$repo_full: dependabot missing"

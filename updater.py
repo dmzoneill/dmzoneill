@@ -18,8 +18,7 @@ CACHE_TTL_HOURS = 12
 PERMANENT_CACHE_FILE = "generated/permanent_cache.json"
 
 FONT = (
-    "-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, "
-    "sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'"
+    "-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'"
 )
 
 
@@ -36,11 +35,7 @@ def _timeline_marker(x, line_y, r, year, count):
 def _count_years(repos):
     year_counts = defaultdict(int)
     for r in repos:
-        y = (
-            r.get("first_commit_year")
-            or r.get("get_first_commit_date")
-            or r.get("created_at", "")[:4]
-        )
+        y = r.get("first_commit_year") or r.get("get_first_commit_date") or r.get("created_at", "")[:4]
         if y and str(y).isdigit():
             year_counts[int(y)] += 1
     return year_counts
@@ -147,11 +142,7 @@ class DiskCache:
     def save(self):
         os.makedirs(os.path.dirname(self.path) or ".", exist_ok=True)
         now = time.time()
-        self.data = {
-            k: v
-            for k, v in self.data.items()
-            if now - v.get("t", 0) <= self.ttl_seconds
-        }
+        self.data = {k: v for k, v in self.data.items() if now - v.get("t", 0) <= self.ttl_seconds}
         with open(self.path, "w", encoding="utf-8") as f:
             json.dump(self.data, f, sort_keys=True, indent=2)
 
@@ -215,11 +206,7 @@ class ProfileData:
 def language_badge(config, lang):
     badge = config["badges"].get(lang, "")
     if badge == "":
-        badge = (
-            "https://img.shields.io/badge/_-"
-            + lang
-            + " -11DDDD.svg?style=for-the-badge"
-        )
+        badge = "https://img.shields.io/badge/_-" + lang + " -11DDDD.svg?style=for-the-badge"
     return badge
 
 
@@ -237,11 +224,7 @@ def graphql_node_to_repo(node):
         "pushed_at": node.get("pushedAt", ""),
         "language": (node.get("primaryLanguage") or {}).get("name"),
         "open_issues_count": (node.get("openIssueCount") or {}).get("totalCount", 0),
-        "license": (
-            {"name": (node.get("licenseInfo") or {}).get("name")}
-            if node.get("licenseInfo")
-            else None
-        ),
+        "license": ({"name": (node.get("licenseInfo") or {}).get("name")} if node.get("licenseInfo") else None),
     }
 
 
@@ -255,27 +238,15 @@ def recent_event_link(recent, commit_url_lookup):
     link = None
     if kind == "IssueCommentEvent" and "issue" in payload:
         issue = payload["issue"]
-        link = (
-            (issue["html_url"], issue["title"])
-            if "html_url" in issue and "title" in issue
-            else False
-        )
+        link = (issue["html_url"], issue["title"]) if "html_url" in issue and "title" in issue else False
     elif kind == "PushEvent":
         commits = payload.get("commits", [])
-        link = (
-            (commit_url_lookup(commits[0]["url"]), commits[0]["message"])
-            if commits
-            else False
-        )
+        link = (commit_url_lookup(commits[0]["url"]), commits[0]["message"]) if commits else False
     elif kind == "CreateEvent":
         link = (recent["repo"]["url"], recent["repo"]["name"])
     elif kind == "PullRequestEvent" and "html_url" in payload.get("pull_request", {}):
         pull_request = payload["pull_request"]
-        link = (
-            (pull_request["html_url"], pull_request["title"])
-            if "title" in pull_request
-            else False
-        )
+        link = (pull_request["html_url"], pull_request["title"]) if "title" in pull_request else False
     return link
 
 
@@ -372,10 +343,7 @@ class ReadmeUpdater:
         elif "/gists" in url:
             # gists: only need html_url, description
             if isinstance(data, list):
-                return [
-                    {k: item[k] for k in ("html_url", "description") if k in item}
-                    for item in data
-                ]
+                return [{k: item[k] for k in ("html_url", "description") if k in item} for item in data]
         elif ("/commits/" in url or "/git/commits/" in url) and isinstance(data, dict):
             # commit lookups: only need html_url
             return {k: data[k] for k in ("html_url",) if k in data}
@@ -413,17 +381,9 @@ class ReadmeUpdater:
                         self.log("GraphQL errors: " + str(body["errors"]))
                         return None
                     return body.get("data")
-                self.log(
-                    "GraphQL HTTP "
-                    + str(r.status_code)
-                    + " (attempt "
-                    + str(attempt + 1)
-                    + ")"
-                )
+                self.log("GraphQL HTTP " + str(r.status_code) + " (attempt " + str(attempt + 1) + ")")
             except (requests.RequestException, ValueError) as e:
-                self.log(
-                    "GraphQL error: " + str(e) + " (attempt " + str(attempt + 1) + ")"
-                )
+                self.log("GraphQL error: " + str(e) + " (attempt " + str(attempt + 1) + ")")
             time.sleep(1)
         return None
 
@@ -436,12 +396,7 @@ class ReadmeUpdater:
 
         next_url = None
 
-        url = (
-            self.config["user_repos_url"]
-            + "/"
-            + repo
-            + "/commits?sha=main&per_page=1&page=1"
-        )
+        url = self.config["user_repos_url"] + "/" + repo + "/commits?sha=main&per_page=1&page=1"
         self.log(url)
         r = self.web_request_retry(url)
         if r is not False and "link" in r.headers:
@@ -466,9 +421,7 @@ class ReadmeUpdater:
         all_nodes = []
         while True:
             self.log("GraphQL repos page (cursor=" + str(cursor is not None) + ")")
-            data = self.fetch_graphql(
-                REPOS_GRAPHQL, {"login": self.config["user"], "cursor": cursor}
-            )
+            data = self.fetch_graphql(REPOS_GRAPHQL, {"login": self.config["user"], "cursor": cursor})
             if not data:
                 return None
             repos_data = data["user"]["repositories"]
@@ -542,9 +495,7 @@ class ReadmeUpdater:
                     break
 
                 # Never list private repos on the public profile
-                self.repos = self.repos + [
-                    x for x in res if not x.get("private", False)
-                ]
+                self.repos = self.repos + [x for x in res if not x.get("private", False)]
                 page += 1
 
             self.repos.sort(key=lambda x: x["updated_at"], reverse=True)
@@ -555,9 +506,7 @@ class ReadmeUpdater:
 
     def _get_repo_items(self, repo, kind, label):
         try:
-            url = (
-                self.config["user_repos_url"] + "/" + repo + "/" + kind + "?state=open"
-            )
+            url = self.config["user_repos_url"] + "/" + repo + "/" + kind + "?state=open"
             self.log(url)
             data = self.web_request_retry_cached(url)
             if data is None:
@@ -572,9 +521,7 @@ class ReadmeUpdater:
 
             if not languages:
                 # Fallback to REST if no GraphQL data
-                languages_url = (
-                    self.config["user_repos_url"] + "/" + name + "/languages"
-                )
+                languages_url = self.config["user_repos_url"] + "/" + name + "/languages"
                 self.log(languages_url)
                 languages = self.web_request_retry_cached(languages_url)
                 if languages is None:
@@ -588,9 +535,7 @@ class ReadmeUpdater:
             for lang, count in languages.items():
                 if round(round(count / lines, 2) * 100) != 0:
                     badge = language_badge(self.config, lang)
-                    language += (
-                        "<img src='" + badge + "' title='" + lang + "' height='20px'/> "
-                    )
+                    language += "<img src='" + badge + "' title='" + lang + "' height='20px'/> "
 
             return language[0 : len(language) - 2]
         except Exception as e:
@@ -623,12 +568,7 @@ class ReadmeUpdater:
         live_name = live[name][1] if name in live else ""
         license_name = repo["license"]["name"] if repo["license"] is not None else ""
         updated_at = repo["updated_at"] if repo["updated_at"] is not None else ""
-        badge = (
-            self.config["user_url"]
-            + "/"
-            + name
-            + "/actions/workflows/main.yml/badge.svg"
-        )
+        badge = self.config["user_url"] + "/" + name + "/actions/workflows/main.yml/badge.svg"
 
         replacements = {
             "{language}": language,
@@ -654,9 +594,7 @@ class ReadmeUpdater:
         live_repos = []
         old_repos = []
         for fetched, repo in enumerate(self.repos, start=1):
-            repo["get_first_commit_date"] = self.get_first_commit_date_http(
-                repo["name"]
-            )
+            repo["get_first_commit_date"] = self.get_first_commit_date_http(repo["name"])
             self.log(repo["name"] + " -> " + repo["get_first_commit_date"])
             if fetched % 20 == 0:
                 self.perm_cache.save()
@@ -666,18 +604,12 @@ class ReadmeUpdater:
                 old_repos.append(repo)
         self.perm_cache.save()
         live_repos = sorted(live_repos, key=itemgetter("pushed_at"))
-        old_repos = sorted(
-            old_repos, key=itemgetter("get_first_commit_date"), reverse=True
-        )
+        old_repos = sorted(old_repos, key=itemgetter("get_first_commit_date"), reverse=True)
         return live_repos, old_repos
 
     def generate_repos(self):
         try:
-            rows_template = (
-                re.search("<repos>(.*)</repos>", self.template, flags=RE_FLAGS)
-                .group(1)
-                .strip()
-            )
+            rows_template = re.search("<repos>(.*)</repos>", self.template, flags=RE_FLAGS).group(1).strip()
             rows = ""
             live = self.config["live"]
 
@@ -697,10 +629,7 @@ class ReadmeUpdater:
                 self._collect_issues_and_prs(repo)
                 row, prepend = self._render_repo_row(rows_template, repo)
 
-                if (
-                    repo["name"] not in live
-                    and last_year_header != repo["get_first_commit_date"]
-                ):
+                if repo["name"] not in live and last_year_header != repo["get_first_commit_date"]:
                     last_year_header = repo["get_first_commit_date"]
                     count = year_counts.get(last_year_header, 0)
                     row = year_header(last_year_header, count, details_open) + row
@@ -711,9 +640,7 @@ class ReadmeUpdater:
             if details_open:
                 rows += "</details>"
 
-            self.template = re.sub(
-                "<repos>(.*)</repos>", rows, self.template, flags=RE_FLAGS
-            )
+            self.template = re.sub("<repos>(.*)</repos>", rows, self.template, flags=RE_FLAGS)
         except Exception as e:
             self.log(str(e))
             raise UpdaterError("Failed generating repo list") from e
@@ -722,22 +649,14 @@ class ReadmeUpdater:
         """Put rendered list html into the per-repo row, or into the README when repo is False."""
         pattern = "<ul><" + tag + ">(.*)</" + tag + "></ul>"
         if repo is False:
-            self.template = re.sub(
-                pattern, "<ul>" + html + "</ul>", self.template, flags=RE_FLAGS
-            )
+            self.template = re.sub(pattern, "<ul>" + html + "</ul>", self.template, flags=RE_FLAGS)
             return True
         prefix = "<h4>" + heading + "</h4><ul>" if heading else "<ul>"
         return re.sub(pattern, prefix + html + "</ul>", template, flags=RE_FLAGS)
 
     def _list_template(self, template, repo, tag):
         source = self.template if repo is False else template
-        return (
-            re.search(
-                "<ul><" + tag + ">(.*)</" + tag + "></ul>", source, flags=RE_FLAGS
-            )
-            .group(1)
-            .strip()
-        )
+        return re.search("<ul><" + tag + ">(.*)</" + tag + "></ul>", source, flags=RE_FLAGS).group(1).strip()
 
     def _generate_item_list(self, template, repo, spec):
         """Shared body of generate_issues and generate_prs."""
@@ -751,18 +670,12 @@ class ReadmeUpdater:
             if tag == "issues" and "pull" in item["html_url"]:
                 continue
             if repo is False or self.config["user"] + "/" + str(repo) in item[url_key]:
-                item_html = item_template.replace(
-                    "{" + prefix + "_url}", item["html_url"]
-                )
+                item_html = item_template.replace("{" + prefix + "_url}", item["html_url"])
                 item_html = item_html.replace("{" + prefix + "_title}", item["title"])
-                html += item_html.replace(
-                    "{updated_at}", item["updated_at"].split("T")[0]
-                )
+                html += item_html.replace("{updated_at}", item["updated_at"].split("T")[0])
                 added += 1
         if repo is False:
-            self.template = self.template.replace(
-                "{" + prefix + "_count}", str(len(items))
-            )
+            self.template = self.template.replace("{" + prefix + "_count}", str(len(items)))
         return self._fill_list(template, repo, tag, html, heading if added > 0 else "")
 
     def generate_issues(self, template="", repo=False):
@@ -818,10 +731,7 @@ class ReadmeUpdater:
                     + recent["repo"]["name"]
                 )
 
-                if (
-                    repo is not False
-                    and self.config["user"] + "/" + str(repo) != recent["repo"]["name"]
-                ):
+                if repo is not False and self.config["user"] + "/" + str(repo) != recent["repo"]["name"]:
                     continue
                 if recent["type"] == "PushEvent":
                     self.log(pprint.pformat(recent))
@@ -829,9 +739,9 @@ class ReadmeUpdater:
                 if link is None:
                     continue
                 if link:
-                    recent_html += recent_template.replace(
-                        "{recent_activity_url}", link[0]
-                    ).replace("{recent_activity_title}", link[1])
+                    recent_html += recent_template.replace("{recent_activity_url}", link[0]).replace(
+                        "{recent_activity_title}", link[1]
+                    )
                 num += 1
 
             heading = "Recent Activity" if recent_html else ""
@@ -847,20 +757,14 @@ class ReadmeUpdater:
             gists = self.web_request_retry_cached(self.config["gists_url"])
             self.data.gist_count = len(gists) if gists else 0
             if gists is not None:
-                gists_template = (
-                    re.search("<gists>(.*)</gists>", self.template, flags=RE_FLAGS)
-                    .group(1)
-                    .strip()
-                )
+                gists_template = re.search("<gists>(.*)</gists>", self.template, flags=RE_FLAGS).group(1).strip()
 
                 gists_html = ""
                 for gist in gists:
                     gist_html = gists_template.replace("{gist_url}", gist["html_url"])
                     gists_html += gist_html.replace("{gist_title}", gist["description"])
 
-                self.template = re.sub(
-                    "<gists>(.*)</gists>", gists_html, self.template, flags=RE_FLAGS
-                )
+                self.template = re.sub("<gists>(.*)</gists>", gists_html, self.template, flags=RE_FLAGS)
             return True
         except Exception as e:
             self.log(self.template)
@@ -868,34 +772,19 @@ class ReadmeUpdater:
 
     def generate_orgs(self):
         try:
-            orgs_template = (
-                re.search("<orgs>(.*)</orgs>", self.template, flags=RE_FLAGS)
-                .group(1)
-                .strip()
-            )
+            orgs_template = re.search("<orgs>(.*)</orgs>", self.template, flags=RE_FLAGS).group(1).strip()
 
             orgs = ""
             for org in self.config["organizations"]:
-                orgs += (
-                    orgs_template.replace("{org_url}", org[0]).replace(
-                        "{org_name}", org[1]
-                    )
-                    + "\n"
-                )
+                orgs += orgs_template.replace("{org_url}", org[0]).replace("{org_name}", org[1]) + "\n"
 
-            self.template = re.sub(
-                "<orgs>(.*)</orgs>", orgs, self.template, flags=RE_FLAGS
-            )
+            self.template = re.sub("<orgs>(.*)</orgs>", orgs, self.template, flags=RE_FLAGS)
             return True
         except Exception as e:
             raise UpdaterError("Failed generating org list") from e
 
     def favorite_langs(self):
-        langs_template = (
-            re.search("<langs>(.*)</langs>", self.template, flags=RE_FLAGS)
-            .group(1)
-            .strip()
-        )
+        langs_template = re.search("<langs>(.*)</langs>", self.template, flags=RE_FLAGS).group(1).strip()
 
         output = ""
         for i, (lang, lines) in enumerate(self.data.total_lines_lang.items(), start=1):
@@ -908,9 +797,7 @@ class ReadmeUpdater:
             if i % 4 == 0:
                 output += "</tr><tr>\n"
 
-        self.template = re.sub(
-            "<langs>(.*)</langs>", output, self.template, flags=RE_FLAGS
-        )
+        self.template = re.sub("<langs>(.*)</langs>", output, self.template, flags=RE_FLAGS)
 
     def generate_svgs(self):
         os.makedirs("generated", exist_ok=True)
@@ -934,7 +821,7 @@ class ReadmeUpdater:
                 "{github_url}": self.config["github_url"],
                 "{linkedin_url}": self.config["linkedin_url"],
                 "{langcount}": str(len(self.data.total_lines_lang) + 1),
-                "{last_updated}": datetime.now().strftime("%d/%m/%Y %H:%M:%S"),
+                "{last_updated}": datetime.now().astimezone().strftime("%d/%m/%Y %H:%M:%S"),
                 "{activity_count}": str(len(self.data.recent_activity)),
                 "{gist_count}": str(self.data.gist_count),
             }

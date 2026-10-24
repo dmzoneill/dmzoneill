@@ -94,6 +94,7 @@ query($login: String!, $cursor: String) {
         url
         isArchived
         isFork
+        isPrivate
         createdAt
         updatedAt
         pushedAt
@@ -398,6 +399,9 @@ class ReadmeUpdater:
             langs_agg = defaultdict(int)
 
             for node in all_nodes:
+                # Never list private repos on the public profile
+                if node.get("isPrivate", False):
+                    continue
                 repo = {
                     "name": node["name"],
                     "description": node.get("description") or "",
@@ -468,7 +472,10 @@ class ReadmeUpdater:
                         self.log("no repos, break")
                         break
 
-                    self.repos = self.repos + res
+                    # Never list private repos on the public profile
+                    self.repos = self.repos + [
+                        x for x in res if not x.get("private", False)
+                    ]
                     page += 1
                 else:
                     return False

@@ -21,12 +21,6 @@ else
   local_main_md5=""
 fi
 
-if [ -f ai-responder.yml ]; then
-  local_ai_md5=$(md5sum ai-responder.yml | awk '{print $1}')
-else
-  local_ai_md5=""
-fi
-
 # Codacy / CodeQL / SonarCloud caller stubs (logic lives in reusable
 # workflows under .github/workflows/ here). Off unless the hub repo variable
 # DISTRIBUTE_SECURITY_WORKFLOWS is "true". DRY_RUN=true only reports.
@@ -149,24 +143,19 @@ process_repo() {
     fi
   fi
 
+  # The AI responder workflow is retired: remove it where it still exists.
   local ai_url="$raw_root/.github/workflows/ai-responder.yml"
-  local ai_status="missing"
-  local ai_md5=""
-  if curl -s -f -L "$ai_url" >/tmp/ai_check 2>/dev/null; then
-    if grep -q "^name:" /tmp/ai_check; then
-      ai_status="present"
-      ai_md5=$(md5sum /tmp/ai_check 2>/dev/null | awk '{print $1}')
-    else
-      ai_status="corrupt"
-    fi
+  local remove_ai="false"
+  if [[ "$repo_archived" != "true" && "$repo_fork" != "true" ]] &&
+    curl -s -f -L -o /dev/null "$ai_url" 2>/dev/null; then
+    remove_ai="true"
   fi
 
   echo "$repo_full: main_status=$main_status, main_md5=$main_md5, local_main_md5=$local_main_md5"
-  echo "$repo_full: ai_status=$ai_status, ai_md5=$ai_md5, local_ai_md5=$local_ai_md5"
+  echo "$repo_full: remove_ai=$remove_ai"
 
   local skip_main="false"
   local patch_main="false"
-  local skip_ai="false"
   local skip_dep="false"
   if [[ "$main_status" == "present" ]]; then
     local branch_rc
@@ -182,12 +171,6 @@ process_repo() {
     fi
   fi
 
-  if [[ "$ai_status" == "present" && -n "$local_ai_md5" && "$ai_md5" == "$local_ai_md5" ]]; then
-    skip_ai="true"
-  elif [[ "$ai_status" == "present" && -z "$local_ai_md5" ]]; then
-    skip_ai="true"
-  fi
-
   rm -f /tmp/dep_check /tmp/dep_expected
   local dep_url="$raw_root/.github/dependabot.yml"
   if curl -s -f -L "$dep_url" >/tmp/dep_check 2>/dev/null; then
@@ -198,7 +181,6 @@ process_repo() {
   fi
   if python3 distribute.py dependabot-remote "$repo_owner" "$repo_name" "$default_branch" \
     --ensure .github/workflows/main.yml \
-    --ensure .github/workflows/ai-responder.yml \
     >/tmp/dep_expected; then
     if [[ ! -s /tmp/dep_expected ]]; then
       skip_dep="true"
@@ -215,11 +197,11 @@ process_repo() {
     security_todo=$(plan_security_workflows "$repo_full" "$raw_root" "$repo_archived" "$repo_fork" "$repo_private")
   fi
   if [[ "$dry_run" == "true" ]]; then
-    echo "DRY_RUN $repo_full: security=[$(echo "$security_todo" | xargs)]"
+    echo "DRY_RUN $repo_full: security=[$(echo "$security_todo" | xargs)] remove_ai=$remove_ai"
     return
   fi
 
-  if [[ "$skip_main" == "true" && "$skip_ai" == "true" && "$skip_dep" == "true" && "$patch_main" != "true" && -z "$security_todo" ]]; then
+  if [[ "$skip_main" == "true" && "$remove_ai" != "true" && "$skip_dep" == "true" && "$patch_main" != "true" && -z "$security_todo" ]]; then
     echo "Skip: workflows and dependabot already match in $repo_full"
     return
   fi
@@ -242,8 +224,8 @@ process_repo() {
   elif [[ "$skip_main" != "true" ]]; then
     cp -f main.yml "$target_dir/.github/workflows/"
   fi
-  if [[ "$skip_ai" != "true" ]]; then
-    cp -f ai-responder.yml "$target_dir/.github/workflows/"
+  if [[ "$remove_ai" == "true" ]]; then
+    rm -f "$target_dir/.github/workflows/ai-responder.yml"
   fi
   local wf
   for wf in $security_todo; do

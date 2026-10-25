@@ -29,6 +29,16 @@ security_marker="Managed by https://github.com/dmzoneill/dmzoneill setup.sh"
 distribute_security=${DISTRIBUTE_SECURITY_WORKFLOWS:-false}
 dry_run=${DRY_RUN:-false}
 
+# The old GitHub starter Codacy workflow (no job timeout, unpinned CLI tools)
+# hangs for 6h in some repos; it is replaced by the managed stub.
+is_legacy_security_workflow() {
+  local wf="$1"
+  local file="$2"
+  [[ "$wf" == "codacy.yml" ]] &&
+    grep -qF "codacy/codacy-analysis-cli-action" "$file" &&
+    grep -qF "This workflow uses actions that are not certified by GitHub" "$file"
+}
+
 # Print the security stubs repo_full should receive, one per line.
 # Missing -> add; our stub but outdated -> update; anything else -> leave.
 plan_security_workflows() {
@@ -37,6 +47,8 @@ plan_security_workflows() {
   local archived="$3"
   local fork="$4"
   local private="$5"
+  # full: add missing stubs too; upgrade: only replace existing workflows
+  local mode="${6:-full}"
   local wf remote_md5 local_md5
 
   if [[ "$archived" == "true" || "$fork" == "true" ]]; then
@@ -59,6 +71,9 @@ plan_security_workflows() {
     fi
     local_md5=$(md5sum "$wf" | awk '{print $1}')
     if ! raw_get "$raw_root/.github/workflows/$wf" >/tmp/sec_check 2>/dev/null; then
+      if [[ "$mode" == "upgrade" ]]; then
+        continue
+      fi
       echo "$repo_full: $wf missing, will add" >&2
       echo "$wf"
       continue
@@ -69,6 +84,9 @@ plan_security_workflows() {
     fi
     if grep -qF "$security_marker" /tmp/sec_check; then
       echo "$repo_full: $wf outdated stub, will update" >&2
+      echo "$wf"
+    elif is_legacy_security_workflow "$wf" /tmp/sec_check; then
+      echo "$repo_full: $wf is the old GitHub starter template, will replace" >&2
       echo "$wf"
     else
       echo "$repo_full: $wf customized, leaving untouched" >&2
@@ -214,6 +232,10 @@ process_repo() {
   local security_todo=""
   if [[ "$distribute_security" == "true" || "$dry_run" == "true" ]]; then
     security_todo=$(plan_security_workflows "$repo_full" "$raw_root" "$repo_archived" "$repo_fork" "$repo_private")
+  else
+    # Distribution is off: still replace existing outdated or legacy
+    # workflows, but never add new ones
+    security_todo=$(plan_security_workflows "$repo_full" "$raw_root" "$repo_archived" "$repo_fork" "$repo_private" upgrade)
   fi
   if [[ "$dry_run" == "true" ]]; then
     echo "DRY_RUN $repo_full: security=[$(echo "$security_todo" | xargs)] remove_ai=$remove_ai"

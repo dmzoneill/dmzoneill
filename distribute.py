@@ -173,9 +173,13 @@ def _signals_for(path):
     if name.endswith(".tofu"):
         signals.append(("opentofu", "manifest"))
     parts = path.split("/")
-    if len(parts) >= 3 and parts[0] == ".github" and parts[1] == "workflows":
-        if name.endswith((".yml", ".yaml")):
-            signals.append(("github-actions", "root"))
+    if (
+        len(parts) >= 3
+        and parts[0] == ".github"
+        and parts[1] == "workflows"
+        and name.endswith((".yml", ".yaml"))
+    ):
+        signals.append(("github-actions", "root"))
     if name in {"action.yml", "action.yaml"} and path.count("/") == 0:
         signals.append(("github-actions", "root"))
     if ".devcontainer" in parts and name == "devcontainer.json":

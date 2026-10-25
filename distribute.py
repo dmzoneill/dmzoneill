@@ -116,6 +116,20 @@ EXACT_SIGNALS = {
     "vcpkg.json": ("vcpkg", "manifest"),
     "yarn.lock": ("npm", "lock"),
 }
+# Per-repo ecosystems Dependabot must not manage. These legacy .NET repos have
+# project files Dependabot cannot parse or locate (dependency_file_not_parseable /
+# dependency_file_not_found), so every nuget run failed. Approved by David on
+# 2026-10-25; nuget stays enabled for every other repo.
+EXCLUDED_ECOSYSTEMS = {
+    "BMRADashboard": {"nuget"},
+    "advanced-net-sender": {"nuget"},
+    "asocket-example": {"nuget"},
+    "clickhere-machine-configurator": {"nuget"},
+    "network-utility": {"nuget"},
+    "service-controller": {"nuget"},
+    "simple-send-source": {"nuget"},
+    "wpc-administrator": {"nuget"},
+}
 NUGET_SUFFIXES = (".csproj", ".fsproj", ".nuspec", ".sln", ".vbproj")
 MANAGED_HEADER = (
     "---\n"
@@ -264,9 +278,11 @@ def _directory_lines(directories):
     return lines
 
 
-def render(paths, read_setup_py, template_text):
+def render(paths, read_setup_py, template_text, repo=None):
     """Render dependabot.yml text, or '' when nothing should be written."""
     found = detect(paths, read_setup_py)
+    for ecosystem in EXCLUDED_ECOSYSTEMS.get(repo, ()):
+        found.pop(ecosystem, None)
     if not found:
         return ""
     prototype = _prototype_block(template_text)
@@ -287,7 +303,7 @@ def iter_files(root):
             yield full.relative_to(root).as_posix()
 
 
-def render_tree(root, template_text=None):
+def render_tree(root, template_text=None, repo=None):
     root = Path(root)
     template_text = template_text if template_text is not None else TEMPLATE_PATH.read_text(encoding="utf-8")
     paths = list(iter_files(root))
@@ -298,7 +314,7 @@ def render_tree(root, template_text=None):
             return ""
         return file_path.read_text(encoding="utf-8", errors="replace")
 
-    return render(paths, read_setup_py, template_text)
+    return render(paths, read_setup_py, template_text, repo)
 
 
 def _github_token():
@@ -359,7 +375,7 @@ def render_remote(owner, repo, branch, extra_paths):
             cache[rel] = _fetch_setup_py(owner, repo, branch, rel, token)
         return cache[rel]
 
-    return render(merged, read_setup_py, template_text)
+    return render(merged, read_setup_py, template_text, repo)
 
 
 _FLOW_BRANCHES = re.compile(r"^([ \t]*)branches:[ \t]*\[(.*)\][ \t]*$")
@@ -424,10 +440,10 @@ def _print(text):
 
 
 def _cmd_dependabot(argv):
-    if len(argv) != 1:
-        print("usage: dependabot DIR", file=sys.stderr)
+    if len(argv) not in (1, 2):
+        print("usage: dependabot DIR [REPO]", file=sys.stderr)
         return 2
-    _print(render_tree(argv[0]))
+    _print(render_tree(argv[0], repo=argv[1] if len(argv) == 2 else None))
     return 0
 
 
@@ -543,6 +559,12 @@ def _self_test():
     assert 'directory: "/chrome-plugin"' not in rendered
     assert '"/chrome-plugin"' in rendered
     assert rendered.startswith("---\n")
+
+    dotnet = [".github/workflows/main.yml", "App/App.csproj"]
+    assert 'package-ecosystem: "nuget"' in render(dotnet, read_setup_py, template)
+    excluded = render(dotnet, read_setup_py, template, "wpc-administrator")
+    assert 'package-ecosystem: "nuget"' not in excluded
+    assert 'package-ecosystem: "github-actions"' in excluded
 
     stock = 'on:\n  push:\n    branches: [ "main" ]\n  pull_request:\n    branches:\n      - main\n'
     patched = ensure_default_branch(stock, "master")

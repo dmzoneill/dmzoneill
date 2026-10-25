@@ -245,7 +245,7 @@ process_repo() {
     cp -f "$wf" "$target_dir/.github/workflows/"
   done
   if [[ "$skip_dep" != "true" ]]; then
-    if python3 distribute.py dependabot "$target_dir" >/tmp/dep_rendered; then
+    if python3 distribute.py dependabot "$target_dir" "$repo_name" >/tmp/dep_rendered; then
       if [[ -s /tmp/dep_rendered ]]; then
         cp -f /tmp/dep_rendered "$target_dir/.github/dependabot.yml"
       fi

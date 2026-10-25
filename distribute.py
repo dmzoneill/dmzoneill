@@ -309,7 +309,11 @@ def iter_files(root):
 
 def render_tree(root, template_text=None, repo=None):
     root = Path(root)
-    template_text = template_text if template_text is not None else TEMPLATE_PATH.read_text(encoding="utf-8")
+    template_text = (
+        template_text
+        if template_text is not None
+        else TEMPLATE_PATH.read_text(encoding="utf-8")
+    )
     paths = list(iter_files(root))
 
     def read_setup_py(rel):
@@ -342,12 +346,17 @@ def fetch_remote_paths(owner, repo, branch, token):
         payload = _github_get(url, token)
     except urllib.error.URLError as exc:
         detail = getattr(exc, "code", None) or getattr(exc, "reason", exc)
-        print(f"Tree lookup failed for {owner}/{repo}@{branch}: {detail}", file=sys.stderr)
+        print(
+            f"Tree lookup failed for {owner}/{repo}@{branch}: {detail}", file=sys.stderr
+        )
         return None
     try:
         data = json.loads(payload.decode("utf-8"))
     except json.JSONDecodeError as exc:
-        print(f"Tree lookup returned invalid JSON for {owner}/{repo}@{branch}: {exc}", file=sys.stderr)
+        print(
+            f"Tree lookup returned invalid JSON for {owner}/{repo}@{branch}: {exc}",
+            file=sys.stderr,
+        )
         return None
     if data.get("truncated"):
         print(f"Tree truncated for {owner}/{repo}@{branch}", file=sys.stderr)
@@ -453,14 +462,20 @@ def _cmd_dependabot(argv):
 
 def _cmd_dependabot_remote(argv):
     if len(argv) < 3:
-        print("usage: dependabot-remote OWNER REPO BRANCH [--ensure PATH]", file=sys.stderr)
+        print(
+            "usage: dependabot-remote OWNER REPO BRANCH [--ensure PATH]",
+            file=sys.stderr,
+        )
         return 2
     owner, repo, branch = argv[0], argv[1], argv[2]
     extra = []
     index = 3
     while index < len(argv):
         if argv[index] != "--ensure" or index + 1 >= len(argv):
-            print("usage: dependabot-remote OWNER REPO BRANCH [--ensure PATH]", file=sys.stderr)
+            print(
+                "usage: dependabot-remote OWNER REPO BRANCH [--ensure PATH]",
+                file=sys.stderr,
+            )
             return 2
         extra.append(argv[index + 1])
         index += 2
@@ -551,7 +566,9 @@ def _self_test():
     assert uv_found["bun"] == ["/"]
     assert "npm" not in uv_found
 
-    package = detect(["setup.py"], lambda _path: "from setuptools import setup\nsetup(name='x')\n")
+    package = detect(
+        ["setup.py"], lambda _path: "from setuptools import setup\nsetup(name='x')\n"
+    )
     assert package["pip"] == ["/"]
 
     rendered = render(paths, read_setup_py, template)

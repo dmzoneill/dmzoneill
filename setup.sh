@@ -111,15 +111,15 @@ current_full=""
 if git rev-parse --is-inside-work-tree >/dev/null 2>&1; then
   origin_url=$(git config --get remote.origin.url || echo "")
   case "$origin_url" in
-  git@github.com:*/*)
-    current_full=${origin_url#git@github.com:}
-    current_full=${current_full%.git}
-    ;;
-  https://github.com/*/*)
-    current_full=${origin_url#https://github.com/}
-    current_full=${current_full%.git}
-    ;;
-  *) current_full="" ;;
+    git@github.com:*/*)
+      current_full=${origin_url#git@github.com:}
+      current_full=${current_full%.git}
+      ;;
+    https://github.com/*/*)
+      current_full=${origin_url#https://github.com/}
+      current_full=${current_full%.git}
+      ;;
+    *) current_full="" ;;
   esac
 fi
 
@@ -140,6 +140,12 @@ process_repo() {
 
   if [ -n "$current_full" ] && [ "$repo_full" = "$current_full" ]; then
     echo "Skipping current repository $repo_full"
+    return
+  fi
+
+  # Archived repos are read-only on GitHub, so any push to them fails with 403.
+  if [ "$repo_archived" = "true" ]; then
+    echo "Skipping archived repository $repo_full (read-only)"
     return
   fi
 

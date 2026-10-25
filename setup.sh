@@ -143,6 +143,12 @@ process_repo() {
     return
   fi
 
+  # Archived repos are read-only on GitHub, so any push to them fails with 403.
+  if [ "$repo_archived" = "true" ]; then
+    echo "Skipping archived repository $repo_full (read-only)"
+    return
+  fi
+
   local raw_root="https://raw.githubusercontent.com/$repo_owner/$repo_name/$default_branch"
   local main_url="$raw_root/.github/workflows/main.yml"
   local main_status="missing"

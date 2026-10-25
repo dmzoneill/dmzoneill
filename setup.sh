@@ -111,15 +111,15 @@ current_full=""
 if git rev-parse --is-inside-work-tree >/dev/null 2>&1; then
   origin_url=$(git config --get remote.origin.url || echo "")
   case "$origin_url" in
-    git@github.com:*/*)
-      current_full=${origin_url#git@github.com:}
-      current_full=${current_full%.git}
-      ;;
-    https://github.com/*/*)
-      current_full=${origin_url#https://github.com/}
-      current_full=${current_full%.git}
-      ;;
-    *) current_full="" ;;
+  git@github.com:*/*)
+    current_full=${origin_url#git@github.com:}
+    current_full=${current_full%.git}
+    ;;
+  https://github.com/*/*)
+    current_full=${origin_url#https://github.com/}
+    current_full=${current_full%.git}
+    ;;
+  *) current_full="" ;;
   esac
 fi
 

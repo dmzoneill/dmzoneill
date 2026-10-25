@@ -129,6 +129,10 @@ EXCLUDED_ECOSYSTEMS = {
     "service-controller": {"nuget"},
     "simple-send-source": {"nuget"},
     "wpc-administrator": {"nuget"},
+    # redhat-csb vm-baseline pre-commit hooks point at Red Hat internal GitLab
+    # (gitlab.cee.redhat.com), unreachable from Dependabot (git_dependencies_not_reachable).
+    # Approved by David on 2026-10-25.
+    "redhat-csb": {"pre-commit"},
 }
 NUGET_SUFFIXES = (".csproj", ".fsproj", ".nuspec", ".sln", ".vbproj")
 MANAGED_HEADER = (

@@ -133,6 +133,10 @@ EXCLUDED_ECOSYSTEMS = {
     # (gitlab.cee.redhat.com), unreachable from Dependabot (git_dependencies_not_reachable).
     # Approved by David on 2026-10-25.
     "redhat-csb": {"pre-commit"},
+    # Every Gemfile in these Puppet repos belongs to a vendored third-party Forge
+    # module whose Gemfile points at local paths, so Dependabot bundler runs fail.
+    "OC-Development": {"bundler"},
+    "iLab-Puppet-Config-Global": {"bundler"},
 }
 NUGET_SUFFIXES = (".csproj", ".fsproj", ".nuspec", ".sln", ".vbproj")
 MANAGED_HEADER = (

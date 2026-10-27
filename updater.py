@@ -829,7 +829,7 @@ class ReadmeUpdater:
             col = col.replace("{lang_dot}", "<img src='" + self._dot_url(lang) + "' width='10' height='10'/>")
             col = col.replace("{bytes_human}", human_bytes(size))
             output += col.replace("{percent}", f"{size / total * 100:.1f}") + "\n"
-            if i % 4 == 0 and i != len(top):
+            if i % 5 == 0 and i != len(top):
                 output += "</tr><tr>\n"
         self._fill("langs", output)
 

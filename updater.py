@@ -640,6 +640,7 @@ class ReadmeUpdater:
             "{lang_dot}": ("<img src='" + self._dot_url(language) + "' width='10' height='10'/> " if language else ""),
             "{language}": language,
             "{stars}": ("★ " + str(stars)) if stars else "",
+            "{year}": str(repo.get("get_first_commit_date") or (repo.get("created_at") or "")[:4]),
             "{badge_html}": self._badge_html(repo),
         }
         card = card_template

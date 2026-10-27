@@ -16,30 +16,29 @@
 <p><img src="generated/languages_bar.svg" width="100%" alt="Language share"/></p>
 <table>
 <tr>
-<td width="25%"><img src='https://img.shields.io/badge/-%20-4F5D95?style=flat-square' width='10' height='10'/> <b>PHP</b><br/><sub>112.7 MB · 43.7%</sub></td>
-<td width="25%"><img src='https://img.shields.io/badge/-%20-178600?style=flat-square' width='10' height='10'/> <b>C#</b><br/><sub>31.3 MB · 12.1%</sub></td>
-<td width="25%"><img src='https://img.shields.io/badge/-%20-f1e05a?style=flat-square' width='10' height='10'/> <b>JavaScript</b><br/><sub>22.0 MB · 8.5%</sub></td>
-<td width="25%"><img src='https://img.shields.io/badge/-%20-3178c6?style=flat-square' width='10' height='10'/> <b>TypeScript</b><br/><sub>17.1 MB · 6.6%</sub></td>
+<td width="20%"><img src='https://img.shields.io/badge/-%20-4F5D95?style=flat-square' width='10' height='10'/> <b>PHP</b><br/><sub>112.7 MB · 43.7%</sub><br/><img src="images/spacer.svg" width="140" height="1" alt=""/></td>
+<td width="20%"><img src='https://img.shields.io/badge/-%20-178600?style=flat-square' width='10' height='10'/> <b>C#</b><br/><sub>31.3 MB · 12.1%</sub><br/><img src="images/spacer.svg" width="140" height="1" alt=""/></td>
+<td width="20%"><img src='https://img.shields.io/badge/-%20-f1e05a?style=flat-square' width='10' height='10'/> <b>JavaScript</b><br/><sub>22.0 MB · 8.5%</sub><br/><img src="images/spacer.svg" width="140" height="1" alt=""/></td>
+<td width="20%"><img src='https://img.shields.io/badge/-%20-3178c6?style=flat-square' width='10' height='10'/> <b>TypeScript</b><br/><sub>17.1 MB · 6.6%</sub><br/><img src="images/spacer.svg" width="140" height="1" alt=""/></td>
+<td width="20%"><img src='https://img.shields.io/badge/-%20-3572A5?style=flat-square' width='10' height='10'/> <b>Python</b><br/><sub>14.4 MB · 5.6%</sub><br/><img src="images/spacer.svg" width="140" height="1" alt=""/></td>
 </tr><tr>
-<td width="25%"><img src='https://img.shields.io/badge/-%20-3572A5?style=flat-square' width='10' height='10'/> <b>Python</b><br/><sub>14.4 MB · 5.6%</sub></td>
-<td width="25%"><img src='https://img.shields.io/badge/-%20-e34c26?style=flat-square' width='10' height='10'/> <b>HTML</b><br/><sub>12.7 MB · 4.9%</sub></td>
-<td width="25%"><img src='https://img.shields.io/badge/-%20-663399?style=flat-square' width='10' height='10'/> <b>CSS</b><br/><sub>11.5 MB · 4.5%</sub></td>
-<td width="25%"><img src='https://img.shields.io/badge/-%20-555555?style=flat-square' width='10' height='10'/> <b>C</b><br/><sub>10.5 MB · 4.1%</sub></td>
+<td width="20%"><img src='https://img.shields.io/badge/-%20-e34c26?style=flat-square' width='10' height='10'/> <b>HTML</b><br/><sub>12.7 MB · 4.9%</sub><br/><img src="images/spacer.svg" width="140" height="1" alt=""/></td>
+<td width="20%"><img src='https://img.shields.io/badge/-%20-663399?style=flat-square' width='10' height='10'/> <b>CSS</b><br/><sub>11.5 MB · 4.5%</sub><br/><img src="images/spacer.svg" width="140" height="1" alt=""/></td>
+<td width="20%"><img src='https://img.shields.io/badge/-%20-555555?style=flat-square' width='10' height='10'/> <b>C</b><br/><sub>10.5 MB · 4.1%</sub><br/><img src="images/spacer.svg" width="140" height="1" alt=""/></td>
+<td width="20%"><img src='https://img.shields.io/badge/-%20-0298c3?style=flat-square' width='10' height='10'/> <b>Perl</b><br/><sub>9.2 MB · 3.6%</sub><br/><img src="images/spacer.svg" width="140" height="1" alt=""/></td>
+<td width="20%"><img src='https://img.shields.io/badge/-%20-b07219?style=flat-square' width='10' height='10'/> <b>Java</b><br/><sub>2.1 MB · 0.8%</sub><br/><img src="images/spacer.svg" width="140" height="1" alt=""/></td>
 </tr><tr>
-<td width="25%"><img src='https://img.shields.io/badge/-%20-0298c3?style=flat-square' width='10' height='10'/> <b>Perl</b><br/><sub>9.2 MB · 3.6%</sub></td>
-<td width="25%"><img src='https://img.shields.io/badge/-%20-b07219?style=flat-square' width='10' height='10'/> <b>Java</b><br/><sub>2.1 MB · 0.8%</sub></td>
-<td width="25%"><img src='https://img.shields.io/badge/-%20-f0c040?style=flat-square' width='10' height='10'/> <b>Smarty</b><br/><sub>2.0 MB · 0.8%</sub></td>
-<td width="25%"><img src='https://img.shields.io/badge/-%20-89e051?style=flat-square' width='10' height='10'/> <b>Shell</b><br/><sub>1.9 MB · 0.7%</sub></td>
+<td width="20%"><img src='https://img.shields.io/badge/-%20-f0c040?style=flat-square' width='10' height='10'/> <b>Smarty</b><br/><sub>2.0 MB · 0.8%</sub><br/><img src="images/spacer.svg" width="140" height="1" alt=""/></td>
+<td width="20%"><img src='https://img.shields.io/badge/-%20-89e051?style=flat-square' width='10' height='10'/> <b>Shell</b><br/><sub>1.9 MB · 0.7%</sub><br/><img src="images/spacer.svg" width="140" height="1" alt=""/></td>
+<td width="20%"><img src='https://img.shields.io/badge/-%20-00ADD8?style=flat-square' width='10' height='10'/> <b>Go</b><br/><sub>1.7 MB · 0.7%</sub><br/><img src="images/spacer.svg" width="140" height="1" alt=""/></td>
+<td width="20%"><img src='https://img.shields.io/badge/-%20-8b949e?style=flat-square' width='10' height='10'/> <b>Raku</b><br/><sub>1.7 MB · 0.7%</sub><br/><img src="images/spacer.svg" width="140" height="1" alt=""/></td>
+<td width="20%"><img src='https://img.shields.io/badge/-%20-8b949e?style=flat-square' width='10' height='10'/> <b>Tcl</b><br/><sub>1.2 MB · 0.5%</sub><br/><img src="images/spacer.svg" width="140" height="1" alt=""/></td>
 </tr><tr>
-<td width="25%"><img src='https://img.shields.io/badge/-%20-00ADD8?style=flat-square' width='10' height='10'/> <b>Go</b><br/><sub>1.7 MB · 0.7%</sub></td>
-<td width="25%"><img src='https://img.shields.io/badge/-%20-8b949e?style=flat-square' width='10' height='10'/> <b>Raku</b><br/><sub>1.7 MB · 0.7%</sub></td>
-<td width="25%"><img src='https://img.shields.io/badge/-%20-8b949e?style=flat-square' width='10' height='10'/> <b>Tcl</b><br/><sub>1.2 MB · 0.5%</sub></td>
-<td width="25%"><img src='https://img.shields.io/badge/-%20-8b949e?style=flat-square' width='10' height='10'/> <b>Classic ASP</b><br/><sub>836 KB · 0.3%</sub></td>
-</tr><tr>
-<td width="25%"><img src='https://img.shields.io/badge/-%20-8b949e?style=flat-square' width='10' height='10'/> <b>Visual Basic .NET</b><br/><sub>723 KB · 0.3%</sub></td>
-<td width="25%"><img src='https://img.shields.io/badge/-%20-8b949e?style=flat-square' width='10' height='10'/> <b>TeX</b><br/><sub>590 KB · 0.2%</sub></td>
-<td width="25%"><img src='https://img.shields.io/badge/-%20-701516?style=flat-square' width='10' height='10'/> <b>Ruby</b><br/><sub>488 KB · 0.2%</sub></td>
-<td width="25%"><img src='https://img.shields.io/badge/-%20-427819?style=flat-square' width='10' height='10'/> <b>Makefile</b><br/><sub>482 KB · 0.2%</sub></td>
+<td width="20%"><img src='https://img.shields.io/badge/-%20-8b949e?style=flat-square' width='10' height='10'/> <b>Classic ASP</b><br/><sub>836 KB · 0.3%</sub><br/><img src="images/spacer.svg" width="140" height="1" alt=""/></td>
+<td width="20%"><img src='https://img.shields.io/badge/-%20-8b949e?style=flat-square' width='10' height='10'/> <b>Visual Basic .NET</b><br/><sub>723 KB · 0.3%</sub><br/><img src="images/spacer.svg" width="140" height="1" alt=""/></td>
+<td width="20%"><img src='https://img.shields.io/badge/-%20-8b949e?style=flat-square' width='10' height='10'/> <b>TeX</b><br/><sub>590 KB · 0.2%</sub><br/><img src="images/spacer.svg" width="140" height="1" alt=""/></td>
+<td width="20%"><img src='https://img.shields.io/badge/-%20-701516?style=flat-square' width='10' height='10'/> <b>Ruby</b><br/><sub>488 KB · 0.2%</sub><br/><img src="images/spacer.svg" width="140" height="1" alt=""/></td>
+<td width="20%"><img src='https://img.shields.io/badge/-%20-427819?style=flat-square' width='10' height='10'/> <b>Makefile</b><br/><sub>482 KB · 0.2%</sub><br/><img src="images/spacer.svg" width="140" height="1" alt=""/></td>
 
 </tr>
 </table>
@@ -384,8 +383,17 @@
 </details>
 
 <details>
-<summary><h3>⚡ Recent Activity (34)</h3></summary>
+<summary><h3>⚡ Recent Activity (38)</h3></summary>
 <table>
+<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/meteor-android-widget/commits/main">Pushed to main</a><br/><sub>dmzoneill/meteor-android-widget</sub></td><td align="right"><sub>2026-10-27 11:26 UTC</sub></td></tr>
+<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/OC-Jenkins/commits/main">Pushed to main</a><br/><sub>dmzoneill/OC-Jenkins</sub></td><td align="right"><sub>2026-10-27 11:25 UTC</sub></td></tr>
+<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/www.nemohackers.org3/commits/main">Pushed to main</a><br/><sub>dmzoneill/www.nemohackers.org3</sub></td><td align="right"><sub>2026-10-27 13:02 UTC</sub></td></tr>
+<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/www.nemohackers.org1/commits/main">Pushed to main</a><br/><sub>dmzoneill/www.nemohackers.org1</sub></td><td align="right"><sub>2026-10-27 13:02 UTC</sub></td></tr>
+<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/EC-SI-LMT-DHCP-SECONDARY/commits/main">Pushed to main</a><br/><sub>dmzoneill/EC-SI-LMT-DHCP-SECONDARY</sub></td><td align="right"><sub>2026-10-27 11:25 UTC</sub></td></tr>
+<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/bin/commits/main">Pushed to main</a><br/><sub>dmzoneill/bin</sub></td><td align="right"><sub>2026-10-27 13:03 UTC</sub></td></tr>
+<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/www.corrosioncomputers.org/commits/main">Pushed to main</a><br/><sub>dmzoneill/www.corrosioncomputers.org</sub></td><td align="right"><sub>2026-10-27 13:01 UTC</sub></td></tr>
+<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/www.clickherecork.com/commits/main">Pushed to main</a><br/><sub>dmzoneill/www.clickherecork.com</sub></td><td align="right"><sub>2026-10-27 13:00 UTC</sub></td></tr>
+<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/wpc-client/commits/main">Pushed to main</a><br/><sub>dmzoneill/wpc-client</sub></td><td align="right"><sub>2026-10-27 13:00 UTC</sub></td></tr>
 <tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/synologydownloadassistant.com/commits/main">Pushed to main</a><br/><sub>dmzoneill/synologydownloadassistant.com</sub></td><td align="right"><sub>2026-10-27 12:59 UTC</sub></td></tr>
 <tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/screensaver/commits/main">Pushed to main</a><br/><sub>dmzoneill/screensaver</sub></td><td align="right"><sub>2026-10-27 11:42 UTC</sub></td></tr>
 <tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/mono-gtk-alltomp3/commits/main">Pushed to main</a><br/><sub>dmzoneill/mono-gtk-alltomp3</sub></td><td align="right"><sub>2026-10-27 11:40 UTC</sub></td></tr>
@@ -415,11 +423,6 @@
 <tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/CSharp-DoNothingAndExit/commits/main">Pushed to main</a><br/><sub>dmzoneill/CSharp-DoNothingAndExit</sub></td><td align="right"><sub>2026-10-27 11:24 UTC</sub></td></tr>
 <tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/lm051-cs4313-software-engineering-project/commits/docs/add-readme">Pushed to docs/add-readme</a><br/><sub>dmzoneill/lm051-cs4313-software-engineering-project</sub></td><td align="right"><sub>2026-10-27 11:19 UTC</sub></td></tr>
 <tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/service-controller/commits/main">Pushed to main</a><br/><sub>dmzoneill/service-controller</sub></td><td align="right"><sub>2026-10-27 11:14 UTC</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/mono-gtk-gsambamonitor/commits/main">Pushed to main</a><br/><sub>dmzoneill/mono-gtk-gsambamonitor</sub></td><td align="right"><sub>2026-10-27 11:40 UTC</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/internet-detect/commits/main">Pushed to main</a><br/><sub>dmzoneill/internet-detect</sub></td><td align="right"><sub>2026-10-27 11:38 UTC</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/clonezilla-altiris-imaging/commits/main">Pushed to main</a><br/><sub>dmzoneill/clonezilla-altiris-imaging</sub></td><td align="right"><sub>2026-10-27 11:33 UTC</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/OC-Workspace/commits/main">Pushed to main</a><br/><sub>dmzoneill/OC-Workspace</sub></td><td align="right"><sub>2026-10-27 11:26 UTC</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/OC-PuppetMaster/commits/main">Pushed to main</a><br/><sub>dmzoneill/OC-PuppetMaster</sub></td><td align="right"><sub>2026-10-27 11:26 UTC</sub></td></tr>
 
 </table>
 </details>

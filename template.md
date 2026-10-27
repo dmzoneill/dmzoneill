@@ -16,7 +16,7 @@
 <p><img src="generated/languages_bar.svg" width="100%" alt="Language share"/></p>
 <table>
 <tr>
-<langs><td width="25%">{lang_dot} <b>{language}</b><br/><sub>{bytes_human} · {percent}%</sub></td></langs>
+<langs><td width="20%">{lang_dot} <b>{language}</b><br/><sub>{bytes_human} · {percent}%</sub><br/><img src="images/spacer.svg" width="140" height="1" alt=""/></td></langs>
 </tr>
 </table>
 

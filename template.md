@@ -5,16 +5,8 @@
 <table width='100%' style='width:100%'>
   <tr>
     <td>
-      <h3>The Inevitable Upgrade</h3>
-      <blockquote>
-      <p><em>First, engineers said machine code was enough and resisted assembly.<br/>
-      Then they said assembly was enough and resisted C.<br/>
-      Then they said C was enough and resisted Python.<br/>
-      Then they said Python was enough and resisted AI.<br/>
-      At every turn, the tools got smarter and the engineers got louder.<br/>
-      The pattern is old. The objection is always new. The outcome is always the same.<br/>
-      The tools win. The engineers who adopt them, win faster.</em></p>
-      </blockquote>
+      <h3>Currently</h3>
+      <p>Engineering at Red Hat, working on AI-driven workflows for developers, and maintaining 200+ open source repos in my spare time.</p>
       <p>&nbsp;</p>
     </td>
     <td>

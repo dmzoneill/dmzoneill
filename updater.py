@@ -102,6 +102,7 @@ LANG_COLOURS = {
     "Makefile": "#427819",
 }
 TOP_LANGUAGES = 20
+LIST_LIMIT = 10
 FEATURED_COUNT = 6
 PROFILE_LOGO = "https://raw.githubusercontent.com/dmzoneill/dmzoneill/main/.github/logo.png"
 RECENT_ICONS = {
@@ -146,6 +147,18 @@ def shorten(text, limit):
     if len(text) <= limit:
         return text
     return text[: limit - 1].rsplit(" ", 1)[0] + "…"
+
+
+def relative_time(timestamp):
+    """Render an ISO timestamp as a short relative age such as 3d ago."""
+    if not timestamp:
+        return ""
+    then = datetime.fromisoformat(timestamp.replace("Z", "+00:00"))
+    seconds = (datetime.now(timezone.utc) - then).total_seconds()
+    for size, unit in ((31_536_000, "y"), (2_592_000, "mo"), (604_800, "w"), (86_400, "d"), (3_600, "h"), (60, "m")):
+        if seconds >= size:
+            return str(int(seconds // size)) + unit + " ago"
+    return "just now"
 
 
 def breakable(name):
@@ -582,35 +595,6 @@ class ReadmeUpdater:
         except Exception as e:
             raise UpdaterError("Failed reading repos") from e
 
-    def _get_repo_items(self, repo, kind, label):
-        try:
-            url = self.config["user_repos_url"] + "/" + repo + "/" + kind + "?state=open"
-            self.log(url)
-            data = self.web_request_retry_cached(url)
-            if data is None:
-                self.log("No data for " + kind + ": " + repo)
-            return data
-        except Exception as e:
-            raise UpdaterError("Failed reading " + label) from e
-
-    def _collect_issues_and_prs(self, repo):
-        # Skip issues/PRs fetch for repos with 0 open issues
-        if repo.get("open_issues_count", 0) <= 0:
-            return
-        repo_issues = self._get_repo_items(repo["name"], "issues", "issues")
-        repo_prs = self._get_repo_items(repo["name"], "pulls", "pull requests")
-
-        for item in repo_issues or []:
-            if "pull_request" in item:
-                if item not in self.data.prs:
-                    self.data.prs.append(item)
-            else:
-                self.data.issues.append(item)
-
-        for item in repo_prs or []:
-            if not any(p["html_url"] == item["html_url"] for p in self.data.prs):
-                self.data.prs.append(item)
-
     def _year_ordered(self, repos):
         """Order used by the original profile: live repos first (most recently pushed first),
         then the rest by first-commit year, newest first, ties kept in most-recently-updated order."""
@@ -715,7 +699,6 @@ class ReadmeUpdater:
                 repo["get_first_commit_date"] = self.get_first_commit_date_http(repo["name"])
                 if fetched % 20 == 0:
                     self.perm_cache.save()
-                self._collect_issues_and_prs(repo)
             self.perm_cache.save()
 
             featured = sorted(repos, key=lambda r: r.get("stargazers_count", 0), reverse=True)[:FEATURED_COUNT]
@@ -737,70 +720,129 @@ class ReadmeUpdater:
         parts = url.split("/")
         return parts[3] + "/" + parts[4], parts[-1]
 
-    def _generate_item_list(self, tag, items, prefix):
-        item_template = self._item_template(tag)
-        items = sorted(items, key=lambda x: x.get("updated_at", ""), reverse=True)
+    def _search(self, query):
+        """Return every item matching a GitHub issue search query."""
+        items = []
+        for page in range(1, 11):
+            url = "https://api.github.com/search/issues?per_page=100&page=" + str(page) + "&q=" + query
+            res = self.web_request_retry(url)
+            if res is False:
+                break
+            batch = res.json().get("items", [])
+            items.extend(batch)
+            if len(batch) < 100:
+                break
+        return sorted(items, key=lambda x: x.get("updated_at", ""), reverse=True)
+
+    def _fill_section(self, tag, prefix, rows, more_url):
+        """Fill a top-area list: the first LIST_LIMIT rows, a "more" link, the count and the latest item."""
+        template = self._item_template(tag)
         html = ""
+        for row in rows[:LIST_LIMIT]:
+            item = template
+            for key, value in row.items():
+                item = item.replace("{" + key + "}", value)
+            html += item + "\n"
+        if len(rows) > LIST_LIMIT:
+            html += (
+                "<tr><td></td><td><a href='"
+                + more_url
+                + "'>+"
+                + str(len(rows) - LIST_LIMIT)
+                + " more</a></td><td></td></tr>\n"
+            )
+        self._fill(tag, html)
+        latest = shorten(rows[0]["title_raw"], 26) if rows else "none yet"
+        self.template = self.template.replace("{" + prefix + "_count}", str(len(rows)))
+        self.template = self.template.replace("{" + prefix + "_latest}", html_escape(latest))
+        self.template = self.template.replace("{" + prefix + "_latest_rel}", rows[0]["rel"] if rows else "")
+
+    def _item_rows(self, items, icon):
+        rows = []
         for item in items:
             repo_name, number = self._repo_and_number(item["html_url"])
-            row = item_template.replace("{" + prefix + "_url}", item["html_url"])
-            row = row.replace("{" + prefix + "_title}", html_escape(item["title"]))
-            row = row.replace("{" + prefix + "_repo}", repo_name)
-            row = row.replace("{" + prefix + "_number}", number)
-            html += row.replace("{updated_at}", item.get("updated_at", "").split("T")[0]) + "\n"
-        self._fill(tag, html)
-        self.template = self.template.replace("{" + prefix + "_count}", str(len(items)))
+            rows.append(
+                {
+                    "icon": icon,
+                    "url": item["html_url"],
+                    "title": html_escape(shorten(item["title"], 70)),
+                    "title_raw": item["title"],
+                    "tag": html_escape(repo_name.split("/")[1] + "#" + number),
+                    "rel": relative_time(item.get("updated_at", "")),
+                }
+            )
+        return rows
 
     def generate_issues(self):
         try:
-            self._generate_item_list("issues", self.data.issues, "issue")
-        except (AttributeError, KeyError, TypeError) as e:
+            user = self.config["user"]
+            self.data.issues = self._search("user:" + user + "+is:issue+is:open+archived:false")
+            self._fill_section(
+                "issues",
+                "issue",
+                self._item_rows(self.data.issues, "🟢"),
+                "https://github.com/issues?q=is%3Aissue+is%3Aopen+archived%3Afalse+user%3A" + user,
+            )
+        except (AttributeError, KeyError, TypeError, IndexError) as e:
             raise UpdaterError("Failed generating issues") from e
 
     def generate_prs(self):
         try:
-            self._generate_item_list("prs", self.data.prs, "pr")
-        except (AttributeError, KeyError, TypeError) as e:
+            user = self.config["user"]
+            self.data.prs = self._search("author:" + user + "+is:pr+is:open")
+            self._fill_section(
+                "prs",
+                "pr",
+                self._item_rows(self.data.prs, "🔀"),
+                "https://github.com/pulls?q=is%3Apr+is%3Aopen+author%3A" + user,
+            )
+        except (AttributeError, KeyError, TypeError, IndexError) as e:
             raise UpdaterError("Failed generating prs") from e
 
     def generate_recent_activity(self):
         try:
             res = self.web_request_retry(self.config["events_url"])
             events = res.json() if res is not False else []
-            recent_template = self._item_template("recent")
-            html = ""
-            shown = 0
+            rows = []
             for recent in events:
                 link = recent_event_link(recent)
                 if link is None:
                     continue
-                row = recent_template.replace("{recent_activity_url}", link[0])
-                row = row.replace("{recent_activity_title}", html_escape(shorten(link[1], 100)))
-                row = row.replace("{recent_repo}", recent["repo"]["name"])
-                row = row.replace("{recent_icon}", RECENT_ICONS.get(recent["type"], "•"))
-                row = row.replace("{recent_at}", recent["created_at"][:16].replace("T", " "))
-                html += row + "\n"
-                shown += 1
+                rows.append(
+                    {
+                        "icon": RECENT_ICONS.get(recent["type"], "•"),
+                        "url": link[0],
+                        "title": html_escape(shorten(link[1], 70)),
+                        "title_raw": link[1],
+                        "tag": html_escape(recent["repo"]["name"].split("/")[-1]),
+                        "rel": relative_time(recent["created_at"]),
+                    }
+                )
             self.data.recent_activity = events
-            self._fill("recent", html)
-            self.template = self.template.replace("{activity_count}", str(shown))
+            self._fill_section("recent", "activity", rows, self.config["github_url"])
         except (AttributeError, KeyError, TypeError, ValueError) as e:
             raise UpdaterError("Failed generating activity") from e
 
     def generate_gists(self):
         try:
             gists = self.web_request_retry_cached(self.config["gists_url"]) or []
+            gists = sorted(gists, key=lambda g: g.get("updated_at") or "", reverse=True)
             self.data.gist_count = len(gists)
-            gists_template = self._item_template("gists")
-            html = ""
+            rows = []
             for gist in gists:
-                files = ", ".join(list(gist.get("files") or {})[:3])
-                title = gist.get("description") or files or "Untitled gist"
-                row = gists_template.replace("{gist_url}", gist["html_url"])
-                row = row.replace("{gist_title}", html_escape(title))
-                row = row.replace("{gist_files}", html_escape(files))
-                html += row.replace("{updated_at}", (gist.get("updated_at") or "").split("T")[0]) + "\n"
-            self._fill("gists", html)
+                files = list(gist.get("files") or {})
+                title = gist.get("description") or (files[0] if files else "Untitled gist")
+                rows.append(
+                    {
+                        "icon": "📄",
+                        "url": gist["html_url"],
+                        "title": html_escape(shorten(title, 70)),
+                        "title_raw": title,
+                        "tag": html_escape(shorten(files[0], 30) if files else "gist"),
+                        "rel": relative_time(gist.get("updated_at") or ""),
+                    }
+                )
+            self._fill_section("gists", "gist", rows, "https://gist.github.com/" + self.config["user"])
             return True
         except Exception as e:
             raise UpdaterError("Failed generating gists") from e
@@ -809,8 +851,20 @@ class ReadmeUpdater:
         try:
             orgs_template = self._item_template("orgs")
             orgs = ""
-            for org in self.config["organizations"]:
-                orgs += orgs_template.replace("{org_url}", org[0]).replace("{org_name}", org[1]) + "\n"
+            for i, (url, name) in enumerate(self.config["organizations"]):
+                login = url.rstrip("/").split("/")[-1]
+                res = self.web_request_retry("https://api.github.com/users/" + login)
+                info = res.json() if res is not False else {}
+                kind = "forks" if "fork" in login.lower() else "repos"
+                count = str(info.get("public_repos", "")) + " " + kind if info else kind
+                avatar = (info.get("avatar_url") or "https://github.com/" + login + ".png") + "&s=64"
+                if i and i % 3 == 0:
+                    orgs += "</tr><tr>\n"
+                item = orgs_template.replace("{org_url}", url).replace("{org_name}", name)
+                orgs += (
+                    item.replace("{org_avatar}", avatar).replace("{org_login}", login).replace("{org_count}", count)
+                    + "\n"
+                )
             self._fill("orgs", orgs)
             return True
         except Exception as e:
@@ -857,7 +911,6 @@ class ReadmeUpdater:
                 "{github_url}": self.config["github_url"],
                 "{linkedin_url}": self.config["linkedin_url"],
                 "{last_updated_safe}": datetime.now().astimezone().strftime("%Y--%m--%d"),
-                "{gist_count}": str(self.data.gist_count),
             }
             for key, value in replacements.items():
                 self.template = self.template.replace(key, value)

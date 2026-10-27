@@ -8,6 +8,91 @@
 <img alt="Profile views" src="https://komarev.com/ghpvc/?username=dmzoneill&color=brightgreen&style=for-the-badge"/>
 </p>
 
+<table>
+<tr>
+<td align="center" valign="top" width="25%">📝<br/><b><big>24</big></b><br/><sub>Gists</sub><br/><sub>XDock test badges</sub></td>
+<td align="center" valign="top" width="25%">🟢<br/><b><big>68</big></b><br/><sub>Issues</sub><br/><sub>Issue with Lidarr…</sub></td>
+<td align="center" valign="top" width="25%">🔀<br/><b><big>4</big></b><br/><sub>Pull requests</sub><br/><sub>fix(notifications):…</sub></td>
+<td align="center" valign="top" width="25%">⚡<br/><b><big>42</big></b><br/><sub>Activity</sub><br/><sub>Pushed to main</sub></td>
+</tr>
+</table>
+
+<details>
+<summary>📝 <b>Gists</b> · 24 · <sub>latest 1d ago</sub></summary>
+<table>
+<tr><td>📄</td><td><a href="https://gist.github.com/dmzoneill/93eef357f1e61f8d337a348fa5c180f0">XDock test badges</a><br/><sub><code>xdock-coverage.json</code></sub></td><td align="right"><sub>1d ago</sub></td></tr>
+<tr><td>📄</td><td><a href="https://gist.github.com/dmzoneill/af4a56c98fe185a9b14abba35bb5c29b">Complete Guide: Multi-Instance Ollama Setup with NPU, Intel GPU, and…</a><br/><sub><code>Complete Guide:…</code></sub></td><td align="right"><sub>4d ago</sub></td></tr>
+<tr><td>📄</td><td><a href="https://gist.github.com/dmzoneill/441f88a5c73136b8128c252ad84100b3">Tampermonkey script to clean up Slack and Jira messages with ChatGPT</a><br/><sub><code>slack-tapermoneky.js</code></sub></td><td align="right"><sub>5d ago</sub></td></tr>
+<tr><td>📄</td><td><a href="https://gist.github.com/dmzoneill/67a908fb949dc95bbbf02f0446a07f0a">PHP script that writes a name from the URL onto a JPEG image with GD</a><br/><sub><code>gistfile1.txt</code></sub></td><td align="right"><sub>1w ago</sub></td></tr>
+<tr><td>📄</td><td><a href="https://gist.github.com/dmzoneill/d13d88b16d4d0aa90cb108a00ab3cf01">Linux sysctl and ethtool tuning for 10GbE networking</a><br/><sub><code>10gb.txt</code></sub></td><td align="right"><sub>1w ago</sub></td></tr>
+<tr><td>📄</td><td><a href="https://gist.github.com/dmzoneill/cbc75e502dbe2b78651f68d6320b714a">Automation Analytics Postgres pg_stat_activity active queries dump</a><br/><sub><code>AA active queries.txt</code></sub></td><td align="right"><sub>1w ago</sub></td></tr>
+<tr><td>📄</td><td><a href="https://gist.github.com/dmzoneill/74033698f65a5a1539d686452a73dce8">Python GTK4 ColumnView with per-column string and numeric sorters</a><br/><sub><code>gistfile1.txt</code></sub></td><td align="right"><sub>1w ago</sub></td></tr>
+<tr><td>📄</td><td><a href="https://gist.github.com/dmzoneill/497746f38c5786c96e8859f1131667af">git diff of awx-operator between releases 2.15.0 and 2.16.0</a><br/><sub><code>gistfile1.txt</code></sub></td><td align="right"><sub>1w ago</sub></td></tr>
+<tr><td>📄</td><td><a href="https://gist.github.com/dmzoneill/19a4fbd799f1e5bcc050ddb4b0a65403">Python GTK4 ColumnView with clickable column header sorting</a><br/><sub><code>gistfile1.txt</code></sub></td><td align="right"><sub>1w ago</sub></td></tr>
+<tr><td>📄</td><td><a href="https://gist.github.com/dmzoneill/da7e49a55b7bd4ded318b82309c1bfd7">Cloudflare email routing script that creates random anagram alias…</a><br/><sub><code>gistfile1.txt</code></sub></td><td align="right"><sub>1w ago</sub></td></tr>
+<tr><td></td><td><a href='https://gist.github.com/dmzoneill'>+14 more</a></td><td></td></tr>
+
+</table>
+</details>
+<details>
+<summary>🟢 <b>Issues</b> · 68 · <sub>latest 1w ago</sub></summary>
+<table>
+<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/lidarr-youtube-downloader/issues/21">Issue with Lidarr recognizing downloaded audio and incorrect…</a><br/><sub><code>lidarr-youtube-downloader#21</code></sub></td><td align="right"><sub>1w ago</sub></td></tr>
+<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/ansible-feeditout-com/issues/456">[ALERT] PrometheusTargetDown —</a><br/><sub><code>ansible-feeditout-com#456</code></sub></td><td align="right"><sub>4w ago</sub></td></tr>
+<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/ansible-feeditout-com/issues/454">[ALERT] SystemdUnitFailed —</a><br/><sub><code>ansible-feeditout-com#454</code></sub></td><td align="right"><sub>1mo ago</sub></td></tr>
+<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/ansible-feeditout-com/issues/455">[ALERT] HighTcpConnections —</a><br/><sub><code>ansible-feeditout-com#455</code></sub></td><td align="right"><sub>1mo ago</sub></td></tr>
+<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/securetty/issues/175">OTEL instrumentation for agent containers and MCP servers</a><br/><sub><code>securetty#175</code></sub></td><td align="right"><sub>2mo ago</sub></td></tr>
+<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/securetty/issues/166">egress: No feedback on what domains/IPs were added or changed</a><br/><sub><code>securetty#166</code></sub></td><td align="right"><sub>2mo ago</sub></td></tr>
+<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/securetty/issues/162">skill: SECURETTY_MCP_SKILLS_DIR not configured in env generation</a><br/><sub><code>securetty#162</code></sub></td><td align="right"><sub>2mo ago</sub></td></tr>
+<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/securetty/issues/161">init: Creates .skillsaw.yaml but skillsaw tool not in agent manifests</a><br/><sub><code>securetty#161</code></sub></td><td align="right"><sub>2mo ago</sub></td></tr>
+<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/securetty/issues/157">eval: promptfoo fetched via npx, bypasses delayed ingestion security</a><br/><sub><code>securetty#157</code></sub></td><td align="right"><sub>2mo ago</sub></td></tr>
+<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/securetty/issues/143">config: Validation bug in set command and incomplete profile system</a><br/><sub><code>securetty#143</code></sub></td><td align="right"><sub>2mo ago</sub></td></tr>
+<tr><td></td><td><a href='https://github.com/issues?q=is%3Aissue+is%3Aopen+archived%3Afalse+user%3Admzoneill'>+58 more</a></td><td></td></tr>
+
+</table>
+</details>
+<details>
+<summary>🔀 <b>Pull requests</b> · 4 · <sub>latest 3d ago</sub></summary>
+<table>
+<tr><td>🔀</td><td><a href="https://github.com/ansible/awx/pull/16601">fix(notifications): handle empty string and string UIDs for Grafana…</a><br/><sub><code>awx#16601</code></sub></td><td align="right"><sub>3d ago</sub></td></tr>
+<tr><td>🔀</td><td><a href="https://github.com/netbirdio/netbird/pull/7719">[client] Detect underlying network and VPN disconnect events on Linux</a><br/><sub><code>netbird#7719</code></sub></td><td align="right"><sub>3d ago</sub></td></tr>
+<tr><td>🔀</td><td><a href="https://github.com/gnome-terminator/terminator/pull/1056">fix: convert enabled string to boolean in custom commands</a><br/><sub><code>terminator#1056</code></sub></td><td align="right"><sub>1w ago</sub></td></tr>
+<tr><td>🔀</td><td><a href="https://github.com/ansible/aap-qa/pull/1307">Update access for dmzoneill</a><br/><sub><code>aap-qa#1307</code></sub></td><td align="right"><sub>2y ago</sub></td></tr>
+
+</table>
+</details>
+<details>
+<summary>⚡ <b>Activity</b> · 42 · <sub>latest 11h ago</sub></summary>
+<table>
+<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/lm051-cs4146-document-architectures/commits/main">Pushed to main</a><br/><sub><code>lm051-cs4146-document-architectures</code></sub></td><td align="right"><sub>11h ago</sub></td></tr>
+<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/Leecharr/commits/main">Pushed to main</a><br/><sub><code>Leecharr</code></sub></td><td align="right"><sub>14h ago</sub></td></tr>
+<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/www.feeditout.com-2008/commits/main">Pushed to main</a><br/><sub><code>www.feeditout.com-2008</code></sub></td><td align="right"><sub>10h ago</sub></td></tr>
+<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/www.antoyau.com/commits/main">Pushed to main</a><br/><sub><code>www.antoyau.com</code></sub></td><td align="right"><sub>10h ago</sub></td></tr>
+<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/synology-download-assistance-chrome-extension/commits/main">Pushed to main</a><br/><sub><code>synology-download-assistance-chrome-extension</code></sub></td><td align="right"><sub>10h ago</sub></td></tr>
+<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/clickhere-interopservices-workgroup-machines/commits/main">Pushed to main</a><br/><sub><code>clickhere-interopservices-workgroup-machines</code></sub></td><td align="right"><sub>11h ago</sub></td></tr>
+<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/meteor-android-widget/commits/main">Pushed to main</a><br/><sub><code>meteor-android-widget</code></sub></td><td align="right"><sub>11h ago</sub></td></tr>
+<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/OC-Jenkins/commits/main">Pushed to main</a><br/><sub><code>OC-Jenkins</code></sub></td><td align="right"><sub>11h ago</sub></td></tr>
+<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/www.nemohackers.org3/commits/main">Pushed to main</a><br/><sub><code>www.nemohackers.org3</code></sub></td><td align="right"><sub>10h ago</sub></td></tr>
+<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/www.nemohackers.org1/commits/main">Pushed to main</a><br/><sub><code>www.nemohackers.org1</code></sub></td><td align="right"><sub>10h ago</sub></td></tr>
+<tr><td></td><td><a href='https://github.com/dmzoneill'>+32 more</a></td><td></td></tr>
+
+</table>
+</details>
+
+<h3>🏢 Forks &amp; work orgs</h3>
+<table>
+<tr>
+<td align="center" valign="top" width="33%"><a href="https://github.com/dmzoneill-forks"><img src="https://avatars.githubusercontent.com/u/122704019?v=4&s=64" width="32" height="32" alt="dmzoneill-forks"/><br/><b>My forks</b></a><br/><sub>64 forks</sub></td>
+<td align="center" valign="top" width="33%"><a href="https://github.com/RedHatInsights"><img src="https://avatars.githubusercontent.com/u/24939818?v=4&s=64" width="32" height="32" alt="RedHatInsights"/><br/><b>RedHat Insights</b></a><br/><sub>680 repos</sub></td>
+<td align="center" valign="top" width="33%"><a href="https://github.com/app-sre"><img src="https://avatars.githubusercontent.com/u/43133889?v=4&s=64" width="32" height="32" alt="app-sre"/><br/><b>AppSRE</b></a><br/><sub>142 repos</sub></td>
+</tr><tr>
+<td align="center" valign="top" width="33%"><a href="https://github.com/Redhat-forks"><img src="https://avatars.githubusercontent.com/u/122724439?v=4&s=64" width="32" height="32" alt="Redhat-forks"/><br/><b>Redhat forks</b></a><br/><sub>91 forks</sub></td>
+<td align="center" valign="top" width="33%"><a href="https://github.com/Canonical-forks"><img src="https://avatars.githubusercontent.com/u/122724472?v=4&s=64" width="32" height="32" alt="Canonical-forks"/><br/><b>Canonical forks</b></a><br/><sub>9 forks</sub></td>
+<td align="center" valign="top" width="33%"><a href="https://github.com/Intel-forks"><img src="https://avatars.githubusercontent.com/u/122724740?v=4&s=64" width="32" height="32" alt="Intel-forks"/><br/><b>Intel forks</b></a><br/><sub>8 forks</sub></td>
+
+</tr>
+</table>
+
 <h2>📈 Over the years</h2>
 <img src="generated/timeline.svg" width="100%" alt="Repos per year"/>
 
@@ -312,129 +397,3 @@
 
 </tr>
 </table>
-
-<details open>
-<summary><h3>📝 Gists (24)</h3></summary>
-<table>
-<tr><td>📄</td><td><a href="https://gist.github.com/dmzoneill/cf2d484d13bdfe689586d984af2105bd">Bash hints that suggest modern alternatives to legacy Linux commands</a><br/><sub>modern-hints.sh</sub></td><td align="right"><sub>2026-10-20</sub></td></tr>
-<tr><td>📄</td><td><a href="https://gist.github.com/dmzoneill/93eef357f1e61f8d337a348fa5c180f0">XDock test badges</a><br/><sub>xdock-coverage.json, xdock-integration-tests.json, xdock-unit-tests.json</sub></td><td align="right"><sub>2026-10-26</sub></td></tr>
-<tr><td>📄</td><td><a href="https://gist.github.com/dmzoneill/6b234c35e25d3f586f68db8e79591d65">XDock test badges</a><br/><sub>gistfile0.txt, xdock-integration-tests.json</sub></td><td align="right"><sub>2026-07-12</sub></td></tr>
-<tr><td>📄</td><td><a href="https://gist.github.com/dmzoneill/3f59c2b525578a7543e2f4d6914c2d77">AAP Contract Validation - Cross-Cluster Bridge Architecture</a><br/><sub>aap-contract-validation-architecture.md</sub></td><td align="right"><sub>2026-06-26</sub></td></tr>
-<tr><td>📄</td><td><a href="https://gist.github.com/dmzoneill/c992016e6ae2a29985302ac664f5a15b">AI-generated full spine MRI analysis report (not a medical diagnosis)</a><br/><sub>AI.md</sub></td><td align="right"><sub>2026-10-20</sub></td></tr>
-<tr><td>📄</td><td><a href="https://gist.github.com/dmzoneill/8bc6af47fd734f1389a6a9981d7268a1">Claude Code session reviewing a Siemens full spine MRI DICOM export</a><br/><sub>gistfile1.txt</sub></td><td align="right"><sub>2026-10-20</sub></td></tr>
-<tr><td>📄</td><td><a href="https://gist.github.com/dmzoneill/87698993c18d9bab7a7fe6def4166481">AAP Billing Validation — Three-Way Cross-Reference Pipeline Diagram</a><br/><sub>billing-validation-pipeline.md</sub></td><td align="right"><sub>2026-06-10</sub></td></tr>
-<tr><td>📄</td><td><a href="https://gist.github.com/dmzoneill/fbb3b83719785f3fc86b0607d7aba23c">Mailias: self-hosted email alias forwarding service architecture and design</a><br/><sub>CLAUDE.md</sub></td><td align="right"><sub>2026-10-20</sub></td></tr>
-<tr><td>📄</td><td><a href="https://gist.github.com/dmzoneill/64a18fe75765d2a7b672361b0c871150">Crude oil price monitor with technical analysis indicators in Python</a><br/><sub>gistfile1.txt</sub></td><td align="right"><sub>2026-10-20</sub></td></tr>
-<tr><td>📄</td><td><a href="https://gist.github.com/dmzoneill/6f88cc5cb2720168b0f4bd32a1068d22">Opinionated Slop Manager: multi-agent code review skill for smells and AI slop</a><br/><sub>OpinionatedSlopManager.txt</sub></td><td align="right"><sub>2026-10-20</sub></td></tr>
-<tr><td>📄</td><td><a href="https://gist.github.com/dmzoneill/af4a56c98fe185a9b14abba35bb5c29b">Complete Guide: Multi-Instance Ollama Setup with NPU, Intel GPU, and NVIDIA GPU</a><br/><sub>Complete Guide: Multi-Instance Ollama Setup with NPU, Intel GPU, and NVIDIA GPU.md</sub></td><td align="right"><sub>2026-10-23</sub></td></tr>
-<tr><td>📄</td><td><a href="https://gist.github.com/dmzoneill/da7e49a55b7bd4ded318b82309c1bfd7">Cloudflare email routing script that creates random anagram alias addresses</a><br/><sub>gistfile1.txt</sub></td><td align="right"><sub>2026-10-20</sub></td></tr>
-<tr><td>📄</td><td><a href="https://gist.github.com/dmzoneill/441f88a5c73136b8128c252ad84100b3">Tampermonkey script to clean up Slack and Jira messages with ChatGPT</a><br/><sub>slack-tapermoneky.js</sub></td><td align="right"><sub>2026-10-22</sub></td></tr>
-<tr><td>📄</td><td><a href="https://gist.github.com/dmzoneill/80bfef9603448c33df02ce0aa98fcd59">Python script that writes a git commit message from the diff using OpenAI</a><br/><sub>fancy-git-commit.sh</sub></td><td align="right"><sub>2026-10-20</sub></td></tr>
-<tr><td>📄</td><td><a href="https://gist.github.com/dmzoneill/7c9159b30950621c065791e7861be174">Python GTK4 ColumnView Sorting and Binding</a><br/><sub>gistfile1.txt</sub></td><td align="right"><sub>2025-06-09</sub></td></tr>
-<tr><td>📄</td><td><a href="https://gist.github.com/dmzoneill/19a4fbd799f1e5bcc050ddb4b0a65403">Python GTK4 ColumnView with clickable column header sorting</a><br/><sub>gistfile1.txt</sub></td><td align="right"><sub>2026-10-20</sub></td></tr>
-<tr><td>📄</td><td><a href="https://gist.github.com/dmzoneill/74033698f65a5a1539d686452a73dce8">Python GTK4 ColumnView with per-column string and numeric sorters</a><br/><sub>gistfile1.txt</sub></td><td align="right"><sub>2026-10-20</sub></td></tr>
-<tr><td>📄</td><td><a href="https://gist.github.com/dmzoneill/497746f38c5786c96e8859f1131667af">git diff of awx-operator between releases 2.15.0 and 2.16.0</a><br/><sub>gistfile1.txt</sub></td><td align="right"><sub>2026-10-20</sub></td></tr>
-<tr><td>📄</td><td><a href="https://gist.github.com/dmzoneill/67a908fb949dc95bbbf02f0446a07f0a">PHP script that writes a name from the URL onto a JPEG image with GD</a><br/><sub>gistfile1.txt</sub></td><td align="right"><sub>2026-10-20</sub></td></tr>
-<tr><td>📄</td><td><a href="https://gist.github.com/dmzoneill/d13d88b16d4d0aa90cb108a00ab3cf01">Linux sysctl and ethtool tuning for 10GbE networking</a><br/><sub>10gb.txt</sub></td><td align="right"><sub>2026-10-20</sub></td></tr>
-<tr><td>📄</td><td><a href="https://gist.github.com/dmzoneill/55f6eb89dcdedd6c8bb2e5cffbab6caa">DNS Policy Routing via Raspberry Pi VPN Gateway</a><br/><sub>RPI rc.local, resolv.conf</sub></td><td align="right"><sub>2023-01-25</sub></td></tr>
-<tr><td>📄</td><td><a href="https://gist.github.com/dmzoneill/575ba9c32375c41cb1041e9064de0678">Synology 108tb limit bypass</a><br/><sub>Synology 108tb limit bypass.txt</sub></td><td align="right"><sub>2026-06-15</sub></td></tr>
-<tr><td>📄</td><td><a href="https://gist.github.com/dmzoneill/cbc75e502dbe2b78651f68d6320b714a">Automation Analytics Postgres pg_stat_activity active queries dump</a><br/><sub>AA active queries.txt</sub></td><td align="right"><sub>2026-10-20</sub></td></tr>
-<tr><td>📄</td><td><a href="https://gist.github.com/dmzoneill/faaa84782eaed4d2dc28ad55c19119ee">PHP Paypal Instant Payment Notification</a><br/><sub>PHP Paypal Instant Payment Notification.txt</sub></td><td align="right"><sub>2023-01-25</sub></td></tr>
-
-</table>
-</details>
-
-<details>
-<summary><h3>🟢 Issues (24)</h3></summary>
-<table>
-<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/lidarr-youtube-downloader/issues/21">Issue with Lidarr recognizing downloaded audio and incorrect metadata in Jellyfin</a><br/><sub>dmzoneill/lidarr-youtube-downloader#21</sub></td><td align="right"><sub>2026-10-19</sub></td></tr>
-<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/ansible-feeditout-com/issues/456">[ALERT] PrometheusTargetDown — </a><br/><sub>dmzoneill/ansible-feeditout-com#456</sub></td><td align="right"><sub>2026-09-28</sub></td></tr>
-<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/ansible-feeditout-com/issues/454">[ALERT] SystemdUnitFailed — </a><br/><sub>dmzoneill/ansible-feeditout-com#454</sub></td><td align="right"><sub>2026-09-21</sub></td></tr>
-<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/ansible-feeditout-com/issues/455">[ALERT] HighTcpConnections — </a><br/><sub>dmzoneill/ansible-feeditout-com#455</sub></td><td align="right"><sub>2026-09-15</sub></td></tr>
-<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/securetty/issues/175">OTEL instrumentation for agent containers and MCP servers</a><br/><sub>dmzoneill/securetty#175</sub></td><td align="right"><sub>2026-08-10</sub></td></tr>
-<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/securetty/issues/166">egress: No feedback on what domains/IPs were added or changed</a><br/><sub>dmzoneill/securetty#166</sub></td><td align="right"><sub>2026-08-10</sub></td></tr>
-<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/securetty/issues/162">skill: SECURETTY_MCP_SKILLS_DIR not configured in env generation</a><br/><sub>dmzoneill/securetty#162</sub></td><td align="right"><sub>2026-08-10</sub></td></tr>
-<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/securetty/issues/161">init: Creates .skillsaw.yaml but skillsaw tool not in agent manifests</a><br/><sub>dmzoneill/securetty#161</sub></td><td align="right"><sub>2026-08-10</sub></td></tr>
-<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/securetty/issues/157">eval: promptfoo fetched via npx, bypasses delayed ingestion security</a><br/><sub>dmzoneill/securetty#157</sub></td><td align="right"><sub>2026-08-10</sub></td></tr>
-<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/securetty/issues/143">config: Validation bug in set command and incomplete profile system</a><br/><sub>dmzoneill/securetty#143</sub></td><td align="right"><sub>2026-08-10</sub></td></tr>
-<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/securetty/issues/141">plugin: No execution mechanism — installed plugins are inert</a><br/><sub>dmzoneill/securetty#141</sub></td><td align="right"><sub>2026-08-10</sub></td></tr>
-<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/securetty/issues/142">jira-triage: Codeable action creates branch but never creates MR/PR</a><br/><sub>dmzoneill/securetty#142</sub></td><td align="right"><sub>2026-08-10</sub></td></tr>
-<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/securetty/issues/139">run-remote: Incomplete implementation — no volumes, secrets, or image validation</a><br/><sub>dmzoneill/securetty#139</sub></td><td align="right"><sub>2026-08-10</sub></td></tr>
-<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/ansible-feeditout-com/issues/183">Create comprehensive disaster recovery runbook</a><br/><sub>dmzoneill/ansible-feeditout-com#183</sub></td><td align="right"><sub>2026-07-27</sub></td></tr>
-<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/ansible-feeditout-com/issues/185">Add backup encryption verification and secondary backup target</a><br/><sub>dmzoneill/ansible-feeditout-com#185</sub></td><td align="right"><sub>2026-07-26</sub></td></tr>
-<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/ansible-feeditout-com/issues/184">Evaluate nftables migration from legacy iptables</a><br/><sub>dmzoneill/ansible-feeditout-com#184</sub></td><td align="right"><sub>2026-07-26</sub></td></tr>
-<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/ansible-feeditout-com/issues/186">Add incremental backup strategy to reduce backup time and storage</a><br/><sub>dmzoneill/ansible-feeditout-com#186</sub></td><td align="right"><sub>2026-07-26</sub></td></tr>
-<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/ansible-feeditout-com/issues/165">Add backup integrity verification and restore testing</a><br/><sub>dmzoneill/ansible-feeditout-com#165</sub></td><td align="right"><sub>2026-07-26</sub></td></tr>
-<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/lidarr-youtube-downloader/issues/25">Most releases found are missing tracks</a><br/><sub>dmzoneill/lidarr-youtube-downloader#25</sub></td><td align="right"><sub>2026-03-30</sub></td></tr>
-<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/DFakeSeeder/issues/15">Question about sessions and events.</a><br/><sub>dmzoneill/DFakeSeeder#15</sub></td><td align="right"><sub>2026-03-06</sub></td></tr>
-<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/lidarr-youtube-downloader/issues/23">Track Format &amp; FFMPEG not adding metadata</a><br/><sub>dmzoneill/lidarr-youtube-downloader#23</sub></td><td align="right"><sub>2026-02-19</sub></td></tr>
-<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/lidarr-youtube-downloader/issues/28">Stuck?</a><br/><sub>dmzoneill/lidarr-youtube-downloader#28</sub></td><td align="right"><sub>2026-02-18</sub></td></tr>
-<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/tado-gnome-shell-extension/issues/2">Got this message after trying to enable it (Gnome45):</a><br/><sub>dmzoneill/tado-gnome-shell-extension#2</sub></td><td align="right"><sub>2026-02-18</sub></td></tr>
-<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/lidarr-youtube-downloader/issues/29">[FR] Only search for missing songs from artists with a given tag</a><br/><sub>dmzoneill/lidarr-youtube-downloader#29</sub></td><td align="right"><sub>2026-02-18</sub></td></tr>
-
-</table>
-</details>
-
-<details>
-<summary><h3>🔀 Pull Requests (0)</h3></summary>
-<table>
-
-</table>
-</details>
-
-<details>
-<summary><h3>⚡ Recent Activity (39)</h3></summary>
-<table>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/clickhere-interopservices-workgroup-machines/commits/main">Pushed to main</a><br/><sub>dmzoneill/clickhere-interopservices-workgroup-machines</sub></td><td align="right"><sub>2026-10-27 11:33 UTC</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/meteor-android-widget/commits/main">Pushed to main</a><br/><sub>dmzoneill/meteor-android-widget</sub></td><td align="right"><sub>2026-10-27 11:26 UTC</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/OC-Jenkins/commits/main">Pushed to main</a><br/><sub>dmzoneill/OC-Jenkins</sub></td><td align="right"><sub>2026-10-27 11:25 UTC</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/www.nemohackers.org3/commits/main">Pushed to main</a><br/><sub>dmzoneill/www.nemohackers.org3</sub></td><td align="right"><sub>2026-10-27 13:02 UTC</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/www.nemohackers.org1/commits/main">Pushed to main</a><br/><sub>dmzoneill/www.nemohackers.org1</sub></td><td align="right"><sub>2026-10-27 13:02 UTC</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/EC-SI-LMT-DHCP-SECONDARY/commits/main">Pushed to main</a><br/><sub>dmzoneill/EC-SI-LMT-DHCP-SECONDARY</sub></td><td align="right"><sub>2026-10-27 11:25 UTC</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/bin/commits/main">Pushed to main</a><br/><sub>dmzoneill/bin</sub></td><td align="right"><sub>2026-10-27 13:03 UTC</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/www.corrosioncomputers.org/commits/main">Pushed to main</a><br/><sub>dmzoneill/www.corrosioncomputers.org</sub></td><td align="right"><sub>2026-10-27 13:01 UTC</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/www.clickherecork.com/commits/main">Pushed to main</a><br/><sub>dmzoneill/www.clickherecork.com</sub></td><td align="right"><sub>2026-10-27 13:00 UTC</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/wpc-client/commits/main">Pushed to main</a><br/><sub>dmzoneill/wpc-client</sub></td><td align="right"><sub>2026-10-27 13:00 UTC</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/synologydownloadassistant.com/commits/main">Pushed to main</a><br/><sub>dmzoneill/synologydownloadassistant.com</sub></td><td align="right"><sub>2026-10-27 12:59 UTC</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/screensaver/commits/main">Pushed to main</a><br/><sub>dmzoneill/screensaver</sub></td><td align="right"><sub>2026-10-27 11:42 UTC</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/mono-gtk-alltomp3/commits/main">Pushed to main</a><br/><sub>dmzoneill/mono-gtk-alltomp3</sub></td><td align="right"><sub>2026-10-27 11:40 UTC</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/apache-config-gui/commits/main">Pushed to main</a><br/><sub>dmzoneill/apache-config-gui</sub></td><td align="right"><sub>2026-10-27 11:38 UTC</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/ping/commits/main">Pushed to main</a><br/><sub>dmzoneill/ping</sub></td><td align="right"><sub>2026-10-27 11:42 UTC</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/lansecure/commits/main">Pushed to main</a><br/><sub>dmzoneill/lansecure</sub></td><td align="right"><sub>2026-10-27 11:39 UTC</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/wordpress-plugin-intel-lab-tickets/commits/main">Pushed to main</a><br/><sub>dmzoneill/wordpress-plugin-intel-lab-tickets</sub></td><td align="right"><sub>2026-10-27 11:27 UTC</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/firstQt/commits/main">Pushed to main</a><br/><sub>dmzoneill/firstQt</sub></td><td align="right"><sub>2026-10-27 11:38 UTC</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/ashtangayogacork.ie-ios/commits/main">Pushed to main</a><br/><sub>dmzoneill/ashtangayogacork.ie-ios</sub></td><td align="right"><sub>2026-10-27 11:24 UTC</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/ashtangayogacork.ie-doorpi/commits/main">Pushed to main</a><br/><sub>dmzoneill/ashtangayogacork.ie-doorpi</sub></td><td align="right"><sub>2026-10-27 11:24 UTC</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/lm051/commits/main">Pushed to main</a><br/><sub>dmzoneill/lm051</sub></td><td align="right"><sub>2026-10-27 11:24 UTC</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/remote-process-control/commits/main">Pushed to main</a><br/><sub>dmzoneill/remote-process-control</sub></td><td align="right"><sub>2026-10-27 11:42 UTC</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/Linux-Group-Policy/commits/docs/add-readme">Pushed to docs/add-readme</a><br/><sub>dmzoneill/Linux-Group-Policy</sub></td><td align="right"><sub>2026-10-27 11:19 UTC</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/gdownload/commits/main">Pushed to main</a><br/><sub>dmzoneill/gdownload</sub></td><td align="right"><sub>2026-10-27 11:38 UTC</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/network-utility/commits/main">Pushed to main</a><br/><sub>dmzoneill/network-utility</sub></td><td align="right"><sub>2026-10-27 11:14 UTC</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/EC-SI-LMT-DHCP-PRIMARY/commits/main">Pushed to main</a><br/><sub>dmzoneill/EC-SI-LMT-DHCP-PRIMARY</sub></td><td align="right"><sub>2026-10-27 11:27 UTC</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/feeditout-productions-android-app/commits/main">Pushed to main</a><br/><sub>dmzoneill/feeditout-productions-android-app</sub></td><td align="right"><sub>2026-10-27 11:33 UTC</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/clickhere-screensheild-delay/commits/main">Pushed to main</a><br/><sub>dmzoneill/clickhere-screensheild-delay</sub></td><td align="right"><sub>2026-10-27 11:33 UTC</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/aib-android-app/commits/main">Pushed to main</a><br/><sub>dmzoneill/aib-android-app</sub></td><td align="right"><sub>2026-10-27 11:32 UTC</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/dmzoneill/commits/dependabot-exclude-puppet-bundler">Pushed to dependabot-exclude-puppet-bundler</a><br/><sub>dmzoneill/dmzoneill</sub></td><td align="right"><sub>2026-10-27 11:20 UTC</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/OC-Development/commits/main">Pushed to main</a><br/><sub>dmzoneill/OC-Development</sub></td><td align="right"><sub>2026-10-27 11:20 UTC</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/meteor-android-widget/commits/docs/add-readme">Pushed to docs/add-readme</a><br/><sub>dmzoneill/meteor-android-widget</sub></td><td align="right"><sub>2026-10-27 11:19 UTC</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/dmzoneill/commits/main">Pushed to main</a><br/><sub>dmzoneill/dmzoneill</sub></td><td align="right"><sub>2026-10-27 11:27 UTC</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/EC-SI-SieStorage/commits/main">Pushed to main</a><br/><sub>dmzoneill/EC-SI-SieStorage</sub></td><td align="right"><sub>2026-10-27 11:27 UTC</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/home-helper-scripts/commits/main">Pushed to main</a><br/><sub>dmzoneill/home-helper-scripts</sub></td><td align="right"><sub>2026-10-27 11:26 UTC</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/NPG-SW-Lab-SBar/commits/main">Pushed to main</a><br/><sub>dmzoneill/NPG-SW-Lab-SBar</sub></td><td align="right"><sub>2026-10-27 11:25 UTC</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/CSharp-DoNothingAndExit/commits/main">Pushed to main</a><br/><sub>dmzoneill/CSharp-DoNothingAndExit</sub></td><td align="right"><sub>2026-10-27 11:24 UTC</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/lm051-cs4313-software-engineering-project/commits/docs/add-readme">Pushed to docs/add-readme</a><br/><sub>dmzoneill/lm051-cs4313-software-engineering-project</sub></td><td align="right"><sub>2026-10-27 11:19 UTC</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/service-controller/commits/main">Pushed to main</a><br/><sub>dmzoneill/service-controller</sub></td><td align="right"><sub>2026-10-27 11:14 UTC</sub></td></tr>
-
-</table>
-</details>
-
-<details>
-<summary><h3>🏢 Work over on</h3></summary>
-<ul><li><a href="https://github.com/dmzoneill-forks">My forks</a></li>
-<li><a href="https://github.com/RedHatInsights">RedHat Insights</a></li>
-<li><a href="https://github.com/app-sre">AppSRE</a></li>
-<li><a href="https://github.com/Redhat-forks">Redhat forks</a></li>
-<li><a href="https://github.com/Canonical-forks">Canonical forks</a></li>
-<li><a href="https://github.com/Intel-forks">Intel forks</a></li>
-</ul>
-</details>

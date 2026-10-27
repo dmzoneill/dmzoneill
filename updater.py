@@ -408,6 +408,9 @@ class ReadmeUpdater:
             if isinstance(data, list):
                 keys = ("html_url", "title", "updated_at", "url", "pull_request")
                 return [{k: item[k] for k in keys if k in item} for item in data]
+        elif url.endswith("/actions/workflows") and isinstance(data, dict):
+            keys = ("name", "path", "state")
+            return {"workflows": [{k: w[k] for k in keys if k in w} for w in data.get("workflows", [])]}
         elif "/gists" in url:
             # gists: only need html_url, description, updated_at and file names
             if isinstance(data, list):
@@ -636,13 +639,40 @@ class ReadmeUpdater:
             "{lang_dot}": ("<img src='" + self._dot_url(language) + "' width='10' height='10'/> " if language else ""),
             "{language}": language,
             "{stars}": ("★ " + str(stars)) if stars else "",
-            "{badge}": self.config["user_url"] + name + "/actions/workflows/main.yml/badge.svg",
-            "{actions_url}": repo["html_url"] + "/actions",
+            "{badge_html}": self._badge_html(repo),
         }
         card = card_template
         for key, value in replacements.items():
             card = card.replace(key, value)
         return card
+
+    def _ci_workflow(self, name):
+        """Return the repo's main CI workflow from the workflows API, or None when it has none."""
+        data = self.web_request_retry_cached(self.config["user_repos_url"] + "/" + name + "/actions/workflows")
+        workflows = [
+            w
+            for w in (data or {}).get("workflows", [])
+            if w.get("state") == "active" and w.get("path", "").startswith(".github/workflows/")
+        ]
+        if not workflows:
+            return None
+        for preferred in (".github/workflows/main.yml", ".github/workflows/main.yaml"):
+            for workflow in workflows:
+                if workflow["path"] == preferred:
+                    return workflow
+        for workflow in workflows:
+            if workflow.get("name", "").upper() in ("CICD", "CI"):
+                return workflow
+        return workflows[0]
+
+    def _badge_html(self, repo):
+        workflow = self._ci_workflow(repo["name"])
+        if workflow is None:
+            return ""
+        file_name = workflow["path"].rsplit("/", 1)[-1]
+        actions_url = repo["html_url"] + "/actions/workflows/" + file_name
+        badge = actions_url + "/badge.svg"
+        return "<br/><a href='" + actions_url + "'><img src='" + badge + "' alt='CI'/></a>"
 
     @staticmethod
     def _dot_url(language):

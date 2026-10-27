@@ -611,6 +611,21 @@ class ReadmeUpdater:
             if not any(p["html_url"] == item["html_url"] for p in self.data.prs):
                 self.data.prs.append(item)
 
+    def _year_ordered(self, repos):
+        """Order used by the original profile: live repos first (most recently pushed first),
+        then the rest by first-commit year, newest first, ties kept in most-recently-updated order."""
+        live = self.config["live"]
+        by_updated = sorted(repos, key=lambda r: r.get("updated_at") or "", reverse=True)
+        live_repos = sorted(
+            [r for r in by_updated if r["name"] in live], key=lambda r: r.get("pushed_at") or "", reverse=True
+        )
+        old_repos = sorted(
+            [r for r in by_updated if r["name"] not in live],
+            key=lambda r: str(r.get("get_first_commit_date") or ""),
+            reverse=True,
+        )
+        return live_repos + old_repos
+
     def _showcase_repos(self):
         """Public, non-fork, non-archived repos, most recently pushed first."""
         repos = [r for r in self.repos if not r.get("fork") and not r.get("archived")]
@@ -705,7 +720,7 @@ class ReadmeUpdater:
 
             featured = sorted(repos, key=lambda r: r.get("stargazers_count", 0), reverse=True)[:FEATURED_COUNT]
             self._render_grid("featured", featured, 3, 90)
-            self._render_grid("repos", repos, 3, 60)
+            self._render_grid("repos", self._year_ordered(repos), 3, 60)
             self.template = self.template.replace("{repo_count}", str(len(repos)))
         except Exception as e:
             self.log(str(e))

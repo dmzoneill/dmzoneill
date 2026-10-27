@@ -390,8 +390,8 @@
 <tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/mono-gtk-alltomp3/commits/main">Pushed to main</a><br/><sub>dmzoneill/mono-gtk-alltomp3</sub></td><td align="right"><sub>2026-10-27 11:40 UTC</sub></td></tr>
 <tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/apache-config-gui/commits/main">Pushed to main</a><br/><sub>dmzoneill/apache-config-gui</sub></td><td align="right"><sub>2026-10-27 11:38 UTC</sub></td></tr>
 <tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/ping/commits/main">Pushed to main</a><br/><sub>dmzoneill/ping</sub></td><td align="right"><sub>2026-10-27 11:42 UTC</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/lansecure/commits/main">Pushed to main</a><br/><sub>dmzoneill/lansecure</sub></td><td align="right"><sub>2026-10-27 11:39 UTC</sub></td></tr>
 <tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/wordpress-plugin-intel-lab-tickets/commits/main">Pushed to main</a><br/><sub>dmzoneill/wordpress-plugin-intel-lab-tickets</sub></td><td align="right"><sub>2026-10-27 11:27 UTC</sub></td></tr>
+<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/lansecure/commits/main">Pushed to main</a><br/><sub>dmzoneill/lansecure</sub></td><td align="right"><sub>2026-10-27 11:39 UTC</sub></td></tr>
 <tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/firstQt/commits/main">Pushed to main</a><br/><sub>dmzoneill/firstQt</sub></td><td align="right"><sub>2026-10-27 11:38 UTC</sub></td></tr>
 <tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/ashtangayogacork.ie-ios/commits/main">Pushed to main</a><br/><sub>dmzoneill/ashtangayogacork.ie-ios</sub></td><td align="right"><sub>2026-10-27 11:24 UTC</sub></td></tr>
 <tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/ashtangayogacork.ie-doorpi/commits/main">Pushed to main</a><br/><sub>dmzoneill/ashtangayogacork.ie-doorpi</sub></td><td align="right"><sub>2026-10-27 11:24 UTC</sub></td></tr>

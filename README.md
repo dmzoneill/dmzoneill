@@ -384,8 +384,13 @@
 </details>
 
 <details>
-<summary><h3>⚡ Recent Activity (36)</h3></summary>
+<summary><h3>⚡ Recent Activity (38)</h3></summary>
 <table>
+<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/lansecure/commits/main">Pushed to main</a><br/><sub>dmzoneill/lansecure</sub></td><td align="right"><sub>2026-10-27 11:39 UTC</sub></td></tr>
+<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/wordpress-plugin-intel-lab-tickets/commits/main">Pushed to main</a><br/><sub>dmzoneill/wordpress-plugin-intel-lab-tickets</sub></td><td align="right"><sub>2026-10-27 11:27 UTC</sub></td></tr>
+<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/firstQt/commits/main">Pushed to main</a><br/><sub>dmzoneill/firstQt</sub></td><td align="right"><sub>2026-10-27 11:38 UTC</sub></td></tr>
+<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/ashtangayogacork.ie-ios/commits/main">Pushed to main</a><br/><sub>dmzoneill/ashtangayogacork.ie-ios</sub></td><td align="right"><sub>2026-10-27 11:24 UTC</sub></td></tr>
+<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/ashtangayogacork.ie-doorpi/commits/main">Pushed to main</a><br/><sub>dmzoneill/ashtangayogacork.ie-doorpi</sub></td><td align="right"><sub>2026-10-27 11:24 UTC</sub></td></tr>
 <tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/lm051/commits/main">Pushed to main</a><br/><sub>dmzoneill/lm051</sub></td><td align="right"><sub>2026-10-27 11:24 UTC</sub></td></tr>
 <tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/remote-process-control/commits/main">Pushed to main</a><br/><sub>dmzoneill/remote-process-control</sub></td><td align="right"><sub>2026-10-27 11:42 UTC</sub></td></tr>
 <tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/Linux-Group-Policy/commits/docs/add-readme">Pushed to docs/add-readme</a><br/><sub>dmzoneill/Linux-Group-Policy</sub></td><td align="right"><sub>2026-10-27 11:19 UTC</sub></td></tr>
@@ -419,9 +424,6 @@
 <tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/lm051-cs4313-c--mysql-example/commits/main">Pushed to main</a><br/><sub>dmzoneill/lm051-cs4313-c--mysql-example</sub></td><td align="right"><sub>2026-10-27 11:39 UTC</sub></td></tr>
 <tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/lm051-cs4023-operating-systems-threading/commits/main">Pushed to main</a><br/><sub>dmzoneill/lm051-cs4023-operating-systems-threading</sub></td><td align="right"><sub>2026-10-27 11:39 UTC</sub></td></tr>
 <tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/asocket-example/commits/main">Pushed to main</a><br/><sub>dmzoneill/asocket-example</sub></td><td align="right"><sub>2026-10-27 11:14 UTC</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/simple-send-source/commits/main">Pushed to main</a><br/><sub>dmzoneill/simple-send-source</sub></td><td align="right"><sub>2026-10-27 11:27 UTC</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/KTWD/commits/main">Pushed to main</a><br/><sub>dmzoneill/KTWD</sub></td><td align="right"><sub>2026-10-27 11:25 UTC</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/lm051-cs4512-imperative-programming-projects/commits/main">Pushed to main</a><br/><sub>dmzoneill/lm051-cs4512-imperative-programming-projects</sub></td><td align="right"><sub>2026-10-27 11:24 UTC</sub></td></tr>
 
 </table>
 </details>

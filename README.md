@@ -384,14 +384,15 @@
 </details>
 
 <details>
-<summary><h3>⚡ Recent Activity (35)</h3></summary>
+<summary><h3>⚡ Recent Activity (34)</h3></summary>
 <table>
+<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/synologydownloadassistant.com/commits/main">Pushed to main</a><br/><sub>dmzoneill/synologydownloadassistant.com</sub></td><td align="right"><sub>2026-10-27 12:59 UTC</sub></td></tr>
 <tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/screensaver/commits/main">Pushed to main</a><br/><sub>dmzoneill/screensaver</sub></td><td align="right"><sub>2026-10-27 11:42 UTC</sub></td></tr>
 <tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/mono-gtk-alltomp3/commits/main">Pushed to main</a><br/><sub>dmzoneill/mono-gtk-alltomp3</sub></td><td align="right"><sub>2026-10-27 11:40 UTC</sub></td></tr>
 <tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/apache-config-gui/commits/main">Pushed to main</a><br/><sub>dmzoneill/apache-config-gui</sub></td><td align="right"><sub>2026-10-27 11:38 UTC</sub></td></tr>
 <tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/ping/commits/main">Pushed to main</a><br/><sub>dmzoneill/ping</sub></td><td align="right"><sub>2026-10-27 11:42 UTC</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/wordpress-plugin-intel-lab-tickets/commits/main">Pushed to main</a><br/><sub>dmzoneill/wordpress-plugin-intel-lab-tickets</sub></td><td align="right"><sub>2026-10-27 11:27 UTC</sub></td></tr>
 <tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/lansecure/commits/main">Pushed to main</a><br/><sub>dmzoneill/lansecure</sub></td><td align="right"><sub>2026-10-27 11:39 UTC</sub></td></tr>
+<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/wordpress-plugin-intel-lab-tickets/commits/main">Pushed to main</a><br/><sub>dmzoneill/wordpress-plugin-intel-lab-tickets</sub></td><td align="right"><sub>2026-10-27 11:27 UTC</sub></td></tr>
 <tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/firstQt/commits/main">Pushed to main</a><br/><sub>dmzoneill/firstQt</sub></td><td align="right"><sub>2026-10-27 11:38 UTC</sub></td></tr>
 <tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/ashtangayogacork.ie-ios/commits/main">Pushed to main</a><br/><sub>dmzoneill/ashtangayogacork.ie-ios</sub></td><td align="right"><sub>2026-10-27 11:24 UTC</sub></td></tr>
 <tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/ashtangayogacork.ie-doorpi/commits/main">Pushed to main</a><br/><sub>dmzoneill/ashtangayogacork.ie-doorpi</sub></td><td align="right"><sub>2026-10-27 11:24 UTC</sub></td></tr>
@@ -419,8 +420,6 @@
 <tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/clonezilla-altiris-imaging/commits/main">Pushed to main</a><br/><sub>dmzoneill/clonezilla-altiris-imaging</sub></td><td align="right"><sub>2026-10-27 11:33 UTC</sub></td></tr>
 <tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/OC-Workspace/commits/main">Pushed to main</a><br/><sub>dmzoneill/OC-Workspace</sub></td><td align="right"><sub>2026-10-27 11:26 UTC</sub></td></tr>
 <tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/OC-PuppetMaster/commits/main">Pushed to main</a><br/><sub>dmzoneill/OC-PuppetMaster</sub></td><td align="right"><sub>2026-10-27 11:26 UTC</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/csig_onp-cfgdump/commits/main">Pushed to main</a><br/><sub>dmzoneill/csig_onp-cfgdump</sub></td><td align="right"><sub>2026-10-27 11:25 UTC</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/Bootstack-Highlight-Monitor/commits/main">Pushed to main</a><br/><sub>dmzoneill/Bootstack-Highlight-Monitor</sub></td><td align="right"><sub>2026-10-27 11:24 UTC</sub></td></tr>
 
 </table>
 </details>

@@ -181,12 +181,7 @@ def _signals_for(path):
     if name.endswith(".tofu"):
         signals.append(("opentofu", "manifest"))
     parts = path.split("/")
-    if (
-        len(parts) >= 3
-        and parts[0] == ".github"
-        and parts[1] == "workflows"
-        and name.endswith((".yml", ".yaml"))
-    ):
+    if len(parts) >= 3 and parts[0] == ".github" and parts[1] == "workflows" and name.endswith((".yml", ".yaml")):
         signals.append(("github-actions", "root"))
     if name in {"action.yml", "action.yaml"} and path.count("/") == 0:
         signals.append(("github-actions", "root"))
@@ -317,11 +312,7 @@ def iter_files(root):
 
 def render_tree(root, template_text=None, repo=None):
     root = Path(root)
-    template_text = (
-        template_text
-        if template_text is not None
-        else TEMPLATE_PATH.read_text(encoding="utf-8")
-    )
+    template_text = template_text if template_text is not None else TEMPLATE_PATH.read_text(encoding="utf-8")
     paths = list(iter_files(root))
 
     def read_setup_py(rel):
@@ -354,9 +345,7 @@ def fetch_remote_paths(owner, repo, branch, token):
         payload = _github_get(url, token)
     except urllib.error.URLError as exc:
         detail = getattr(exc, "code", None) or getattr(exc, "reason", exc)
-        print(
-            f"Tree lookup failed for {owner}/{repo}@{branch}: {detail}", file=sys.stderr
-        )
+        print(f"Tree lookup failed for {owner}/{repo}@{branch}: {detail}", file=sys.stderr)
         return None
     try:
         data = json.loads(payload.decode("utf-8"))
@@ -574,9 +563,7 @@ def _self_test():
     assert uv_found["bun"] == ["/"]
     assert "npm" not in uv_found
 
-    package = detect(
-        ["setup.py"], lambda _path: "from setuptools import setup\nsetup(name='x')\n"
-    )
+    package = detect(["setup.py"], lambda _path: "from setuptools import setup\nsetup(name='x')\n")
     assert package["pip"] == ["/"]
 
     rendered = render(paths, read_setup_py, template)

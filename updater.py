@@ -1,11 +1,10 @@
 import json
 import os
-import pprint
 import re
 import time
 from collections import defaultdict
 from dataclasses import dataclass, field
-from datetime import datetime
+from datetime import datetime, timezone
 from operator import itemgetter
 
 import requests
@@ -41,51 +40,131 @@ def _count_years(repos):
     return year_counts
 
 
-def svg_timeline(repos, width=760, height=140):
+def svg_timeline(repos, width=860, height=150):
     year_counts = _count_years(repos)
 
     if not year_counts:
         return f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}"/>'
 
     min_year = min(year_counts)
-    max_year = max(year_counts)
+    max_year = max(*year_counts, datetime.now(timezone.utc).year)
     if min_year == max_year:
         max_year = min_year + 1
     max_count = max(year_counts.values())
 
-    left = 60
+    left = 40
     right = width - 40
-    line_y = height // 2 + 5
+    line_y = height // 2 + 15
     span = right - left
 
-    elements = f'  <line x1="{left}" y1="{line_y}" x2="{right}" y2="{line_y}" stroke="#30363d" stroke-width="1.5"/>\n'
+    elements = f'  <line x1="{left}" y1="{line_y}" x2="{right}" y2="{line_y}" stroke="#30363d" stroke-width="2"/>\n'
 
     for year, count in sorted(year_counts.items()):
         elements += _timeline_marker(
             left + (year - min_year) / (max_year - min_year) * span,
             line_y,
-            5 + (count / max_count) * 18,
+            4 + (count / max_count) * 14,
             year,
             count,
         )
 
+    total = sum(year_counts.values())
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}">
   <style>
-    .card   {{ fill: #0d1117; stroke: #30363d; stroke-width: 1; }}
-    .head   {{ font: bold 14px {FONT}; fill: #58a6ff; }}
-    .tyear  {{ font: bold 10px {FONT}; fill: #484f58; }}
-    .tcount {{ font: bold 11px {FONT}; fill: #8b949e; }}
-    @media (prefers-color-scheme: light) {{
-      .card   {{ fill: #ffffff; stroke: #d0d7de; }}
-      .head   {{ fill: #0969da; }}
-      .tyear  {{ fill: #57606a; }}
-      .tcount {{ fill: #57606a; }}
-    }}
+    .card   {{ fill: #161b22; stroke: #30363d; stroke-width: 1; }}
+    .head   {{ font: 600 14px {FONT}; fill: #e6edf3; }}
+    .tyear  {{ font: 10px {FONT}; fill: #7d8590; }}
+    .tcount {{ font: 10px {FONT}; fill: #e6edf3; }}
   </style>
-  <rect class="card" width="{width}" height="{height}" rx="8"/>
-  <text class="head" x="30" y="25">Project Timeline</text>
+  <rect class="card" x="0.5" y="0.5" width="{width - 1}" height="{height - 1}" rx="8"/>
+  <text class="head" x="16" y="26">Over the years · {total} repos</text>
 {elements}
 </svg>"""
+
+
+LANG_COLOURS = {
+    "PHP": "#4F5D95",
+    "C#": "#178600",
+    "JavaScript": "#f1e05a",
+    "TypeScript": "#3178c6",
+    "Python": "#3572A5",
+    "HTML": "#e34c26",
+    "CSS": "#663399",
+    "C": "#555555",
+    "Perl": "#0298c3",
+    "Java": "#b07219",
+    "Smarty": "#f0c040",
+    "Shell": "#89e051",
+    "Go": "#00ADD8",
+    "C++": "#f34b7d",
+    "Ruby": "#701516",
+    "Puppet": "#302B6D",
+    "Makefile": "#427819",
+}
+TOP_LANGUAGES = 12
+FEATURED_COUNT = 6
+PROFILE_LOGO = "https://raw.githubusercontent.com/dmzoneill/dmzoneill/main/.github/logo.png"
+RECENT_ICONS = {
+    "PushEvent": "⬆️",
+    "PullRequestEvent": "🔀",
+    "IssuesEvent": "🟢",
+    "IssueCommentEvent": "💬",
+    "CreateEvent": "✨",
+    "ReleaseEvent": "🏷️",
+    "WatchEvent": "⭐",
+    "ForkEvent": "🍴",
+}
+
+
+def lang_colour(lang):
+    return LANG_COLOURS.get(lang, "#8b949e")
+
+
+def human_bytes(size):
+    if size >= 1_000_000:
+        return f"{size / 1_000_000:.1f} MB"
+    return f"{size / 1_000:.0f} KB"
+
+
+def svg_languages_bar(languages, width=860, height=14):
+    total = sum(size for _, size in languages) or 1
+    x = 0.0
+    rects = ""
+    for lang, size in languages:
+        w = size / total * width
+        rects += f'  <rect x="{x:.2f}" y="0" width="{w:.2f}" height="{height}" fill="{lang_colour(lang)}"/>\n'
+        x += w
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}">
+  <clipPath id="r"><rect width="{width}" height="{height}" rx="7"/></clipPath>
+  <g clip-path="url(#r)">
+{rects}  </g>
+</svg>"""
+
+
+def shorten(text, limit):
+    text = (text or "").strip().replace("|", "-")
+    if len(text) <= limit:
+        return text
+    return text[: limit - 1].rsplit(" ", 1)[0] + "…"
+
+
+def breakable(name):
+    """Allow long repo names to wrap inside a grid cell at - _ and . boundaries."""
+    for sep in ("-", "_", "."):
+        name = name.replace(sep, sep + "\u200b")
+    return name
+
+
+# Proper nouns in repo descriptions that codespell flags as typos. Encoding one
+# letter as an HTML entity renders identically on GitHub.
+SPELLING_FALSE_POSITIVES = {"Hev" + "y": "Hev&#121;"}  # split so codespell skips the key
+
+
+def html_escape(text):
+    text = (text or "").replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+    for word, encoded in SPELLING_FALSE_POSITIVES.items():
+        text = text.replace(word, encoded)
+    return text
 
 
 REPOS_GRAPHQL = """
@@ -111,6 +190,8 @@ query($login: String!, $cursor: String) {
         stargazerCount
         forkCount
         primaryLanguage { name }
+        defaultBranchRef { name }
+        logo: object(expression: "HEAD:.github/logo.png") { id }
         openIssueCount: issues(states: OPEN) { totalCount }
         licenseInfo { name }
         languages(first: 10, orderBy: {field: SIZE, direction: DESC}) {
@@ -203,13 +284,6 @@ class ProfileData:
     gist_count: int = 0
 
 
-def language_badge(config, lang):
-    badge = config["badges"].get(lang, "")
-    if badge == "":
-        badge = "https://img.shields.io/badge/_-" + lang + " -11DDDD.svg?style=for-the-badge"
-    return badge
-
-
 def graphql_node_to_repo(node):
     return {
         "name": node["name"],
@@ -224,44 +298,38 @@ def graphql_node_to_repo(node):
         "pushed_at": node.get("pushedAt", ""),
         "language": (node.get("primaryLanguage") or {}).get("name"),
         "open_issues_count": (node.get("openIssueCount") or {}).get("totalCount", 0),
+        "default_branch": (node.get("defaultBranchRef") or {}).get("name") or "main",
+        "has_logo": node.get("logo") is not None,
         "license": ({"name": (node.get("licenseInfo") or {}).get("name")} if node.get("licenseInfo") else None),
     }
 
 
-def recent_event_link(recent, commit_url_lookup):
-    """Return (url, title) for an event shown in recent activity.
+def recent_event_link(recent, _commit_url_lookup=None):
+    """Return (url, title) for an event shown in recent activity, or None to skip it.
 
-    Returns None to skip the event entirely, or False to count it without showing it.
+    Branch/tag create and delete events are noise and are skipped.
     """
     payload = recent["payload"]
     kind = recent["type"]
+    repo_url = "https://github.com/" + recent["repo"]["name"]
     link = None
-    if kind == "IssueCommentEvent" and "issue" in payload:
+    if kind in ("IssueCommentEvent", "IssuesEvent") and "html_url" in payload.get("issue", {}):
         issue = payload["issue"]
-        link = (issue["html_url"], issue["title"]) if "html_url" in issue and "title" in issue else False
-    elif kind == "PushEvent":
-        commits = payload.get("commits", [])
-        link = (commit_url_lookup(commits[0]["url"]), commits[0]["message"]) if commits else False
-    elif kind == "CreateEvent":
-        link = (recent["repo"]["url"], recent["repo"]["name"])
+        link = (issue["html_url"], issue.get("title") or "Issue")
     elif kind == "PullRequestEvent" and "html_url" in payload.get("pull_request", {}):
         pull_request = payload["pull_request"]
-        link = (pull_request["html_url"], pull_request["title"]) if "title" in pull_request else False
+        link = (pull_request["html_url"], pull_request.get("title") or "Pull request")
+    elif kind == "PushEvent":
+        ref = (payload.get("ref") or "").replace("refs/heads/", "")
+        commits = payload.get("commits") or []
+        title = commits[-1]["message"].split("\n")[0] if commits else "Pushed to " + ref
+        link = (repo_url + "/commits/" + ref, title)
+    elif kind == "CreateEvent" and payload.get("ref_type") == "repository":
+        link = (repo_url, "Created repository")
+    elif kind == "ReleaseEvent" and "release" in payload:
+        release = payload["release"]
+        link = (release.get("html_url", repo_url), "Released " + (release.get("tag_name") or ""))
     return link
-
-
-def year_header(last_year_header, count, details_open):
-    close_prev = "</tbody></table></details>" if details_open else "</tbody></table>"
-    return (
-        close_prev
-        + "<details><summary><strong>"
-        + last_year_header
-        + " ("
-        + str(count)
-        + " projects)</strong></summary>"
-        + "<table width='100%' style='width:100%'><thead><tr><th>Project</th>"
-        + "<th>View</th><th>Status</th></tr></thead><tbody>"
-    )
 
 
 class ReadmeUpdater:
@@ -341,9 +409,13 @@ class ReadmeUpdater:
                 keys = ("html_url", "title", "updated_at", "url", "pull_request")
                 return [{k: item[k] for k in keys if k in item} for item in data]
         elif "/gists" in url:
-            # gists: only need html_url, description
+            # gists: only need html_url, description, updated_at and file names
             if isinstance(data, list):
-                return [{k: item[k] for k in ("html_url", "description") if k in item} for item in data]
+                keys = ("html_url", "description", "updated_at")
+                return [
+                    {**{k: item[k] for k in keys if k in item}, "files": {f: {} for f in item.get("files") or {}}}
+                    for item in data
+                ]
         elif ("/commits/" in url or "/git/commits/" in url) and isinstance(data, dict):
             # commit lookups: only need html_url
             return {k: data[k] for k in ("html_url",) if k in data}
@@ -515,296 +587,211 @@ class ReadmeUpdater:
         except Exception as e:
             raise UpdaterError("Failed reading " + label) from e
 
-    def get_repo_languages(self, name):
-        try:
-            languages = self.data.repo_languages.get(name)
-
-            if not languages:
-                # Fallback to REST if no GraphQL data
-                languages_url = self.config["user_repos_url"] + "/" + name + "/languages"
-                self.log(languages_url)
-                languages = self.web_request_retry_cached(languages_url)
-                if languages is None:
-                    return False
-
-            lines = sum(languages.values())
-            if lines == 0:
-                return False
-
-            language = ""
-            for lang, count in languages.items():
-                if round(round(count / lines, 2) * 100) != 0:
-                    badge = language_badge(self.config, lang)
-                    language += "<img src='" + badge + "' title='" + lang + "' height='20px'/> "
-
-            return language[0 : len(language) - 2]
-        except Exception as e:
-            raise UpdaterError("Failed reading languages") from e
-
     def _collect_issues_and_prs(self, repo):
         # Skip issues/PRs fetch for repos with 0 open issues
         if repo.get("open_issues_count", 0) <= 0:
-            self.log("Skipping issues/PRs for " + repo["name"] + " (0 open issues)")
             return
         repo_issues = self._get_repo_items(repo["name"], "issues", "issues")
         repo_prs = self._get_repo_items(repo["name"], "pulls", "pull requests")
 
         for item in repo_issues or []:
             if "pull_request" in item:
-                self.data.prs.append(item)
+                if item not in self.data.prs:
+                    self.data.prs.append(item)
             else:
                 self.data.issues.append(item)
 
         for item in repo_prs or []:
-            if item not in self.data.prs:
+            if not any(p["html_url"] == item["html_url"] for p in self.data.prs):
                 self.data.prs.append(item)
 
-    def _render_repo_row(self, rows_template, repo):
-        live = self.config["live"]
-        language = self.get_repo_languages(repo["name"])
-        language = language if language is not False else (repo["language"] or "")
+    def _showcase_repos(self):
+        """Public, non-fork, non-archived repos, most recently pushed first."""
+        repos = [r for r in self.repos if not r.get("fork") and not r.get("archived")]
+        return sorted(repos, key=lambda r: r.get("pushed_at") or "", reverse=True)
+
+    def _logo_url(self, repo):
+        if repo.get("has_logo"):
+            return (
+                "https://raw.githubusercontent.com/"
+                + self.config["user"]
+                + "/"
+                + repo["name"]
+                + "/"
+                + repo.get("default_branch", "main")
+                + "/.github/logo.png"
+            )
+        return PROFILE_LOGO
+
+    def _render_card(self, card_template, repo, desc_limit):
         name = repo["name"]
-        live_url = live[name][0] if name in live else ""
-        live_name = live[name][1] if name in live else ""
-        license_name = repo["license"]["name"] if repo["license"] is not None else ""
-        updated_at = repo["updated_at"] if repo["updated_at"] is not None else ""
-        badge = self.config["user_url"] + "/" + name + "/actions/workflows/main.yml/badge.svg"
-
+        stars = repo.get("stargazers_count", 0)
+        language = repo.get("language") or ""
         replacements = {
-            "{language}": language,
-            "{first_commit}": "(" + repo["get_first_commit_date"] + ")",
             "{html_url}": repo["html_url"],
+            "{logo_url}": self._logo_url(repo),
             "{name}": name,
-            "{live_url}": live_url,
-            "{live_name}": live_name,
-            "{license}": license_name,
-            "{updated_at}": updated_at.split("T")[0],
-            "{badge}": badge,
+            "{display_name}": breakable(name),
+            "{description}": html_escape(shorten(repo.get("description"), desc_limit)),
+            "{lang_dot}": ("<img src='" + self._dot_url(language) + "' width='10' height='10'/> " if language else ""),
+            "{language}": language,
+            "{stars}": ("★ " + str(stars)) if stars else "",
+            "{badge}": self.config["user_url"] + name + "/actions/workflows/main.yml/badge.svg",
+            "{actions_url}": repo["html_url"] + "/actions",
         }
-        row = rows_template
+        card = card_template
         for key, value in replacements.items():
-            row = row.replace(key, value)
+            card = card.replace(key, value)
+        return card
 
-        row = self.generate_issues(row, name)
-        row = self.generate_recent_activity(row, name)
-        row = self.generate_prs(row, name)
-        return row, live_url != "" and live_name != ""
+    @staticmethod
+    def _dot_url(language):
+        colour = lang_colour(language).lstrip("#")
+        return "https://img.shields.io/badge/-%20-" + colour + "?style=flat-square"
 
-    def _split_repos(self):
-        live_repos = []
-        old_repos = []
-        for fetched, repo in enumerate(self.repos, start=1):
-            repo["get_first_commit_date"] = self.get_first_commit_date_http(repo["name"])
-            self.log(repo["name"] + " -> " + repo["get_first_commit_date"])
-            if fetched % 20 == 0:
-                self.perm_cache.save()
-            if repo["name"] in self.config["live"]:
-                live_repos.append(repo)
-            else:
-                old_repos.append(repo)
-        self.perm_cache.save()
-        live_repos = sorted(live_repos, key=itemgetter("pushed_at"))
-        old_repos = sorted(old_repos, key=itemgetter("get_first_commit_date"), reverse=True)
-        return live_repos, old_repos
+    def _render_grid(self, tag, repos, per_row, desc_limit):
+        pattern = "<" + tag + ">(.*)</" + tag + ">"
+        card_template = re.search(pattern, self.template, flags=RE_FLAGS).group(1).strip()
+        cells = ""
+        for i, repo in enumerate(repos, start=1):
+            cells += self._render_card(card_template, repo, desc_limit) + "\n"
+            if i % per_row == 0 and i != len(repos):
+                cells += "</tr><tr>\n"
+        self.template = re.sub(pattern, lambda _m: cells, self.template, flags=RE_FLAGS)
 
     def generate_repos(self):
         try:
-            rows_template = re.search("<repos>(.*)</repos>", self.template, flags=RE_FLAGS).group(1).strip()
-            rows = ""
-            live = self.config["live"]
-
-            self.log("generate_repos")
-            live_repos, old_repos = self._split_repos()
-
-            # Count repos per year for collapsed section headers
-            year_counts = defaultdict(int)
-            for repo in old_repos:
-                if repo["get_first_commit_date"]:
-                    year_counts[repo["get_first_commit_date"]] += 1
-
-            last_year_header = ""
-            details_open = False
-
-            for repo in live_repos + old_repos:
+            repos = self._showcase_repos()
+            for fetched, repo in enumerate(repos, start=1):
+                repo["get_first_commit_date"] = self.get_first_commit_date_http(repo["name"])
+                if fetched % 20 == 0:
+                    self.perm_cache.save()
                 self._collect_issues_and_prs(repo)
-                row, prepend = self._render_repo_row(rows_template, repo)
+            self.perm_cache.save()
 
-                if repo["name"] not in live and last_year_header != repo["get_first_commit_date"]:
-                    last_year_header = repo["get_first_commit_date"]
-                    count = year_counts.get(last_year_header, 0)
-                    row = year_header(last_year_header, count, details_open) + row
-                    details_open = True
-                rows = row + "\n" + rows if prepend else rows + "\n" + row
-
-            # Close the final <details> if one was opened
-            if details_open:
-                rows += "</details>"
-
-            self.template = re.sub("<repos>(.*)</repos>", rows, self.template, flags=RE_FLAGS)
+            featured = sorted(repos, key=lambda r: r.get("stargazers_count", 0), reverse=True)[:FEATURED_COUNT]
+            self._render_grid("featured", featured, 3, 90)
+            self._render_grid("repos", repos, 4, 60)
+            self.template = self.template.replace("{repo_count}", str(len(repos)))
         except Exception as e:
             self.log(str(e))
-            raise UpdaterError("Failed generating repo list") from e
+            raise UpdaterError("Failed generating repo grid") from e
 
-    def _fill_list(self, template, repo, tag, html, heading):
-        """Put rendered list html into the per-repo row, or into the README when repo is False."""
-        pattern = "<ul><" + tag + ">(.*)</" + tag + "></ul>"
-        if repo is False:
-            self.template = re.sub(pattern, "<ul>" + html + "</ul>", self.template, flags=RE_FLAGS)
-            return True
-        prefix = "<h4>" + heading + "</h4><ul>" if heading else "<ul>"
-        return re.sub(pattern, prefix + html + "</ul>", template, flags=RE_FLAGS)
+    def _fill(self, tag, html):
+        self.template = re.sub("<" + tag + ">(.*)</" + tag + ">", lambda _m: html, self.template, flags=RE_FLAGS)
 
-    def _list_template(self, template, repo, tag):
-        source = self.template if repo is False else template
-        return re.search("<ul><" + tag + ">(.*)</" + tag + "></ul>", source, flags=RE_FLAGS).group(1).strip()
+    def _item_template(self, tag):
+        return re.search("<" + tag + ">(.*)</" + tag + ">", self.template, flags=RE_FLAGS).group(1).strip()
 
-    def _generate_item_list(self, template, repo, spec):
-        """Shared body of generate_issues and generate_prs."""
-        tag, items, prefix, url_key, heading = spec
-        item_template = self._list_template(template, repo, tag)
+    @staticmethod
+    def _repo_and_number(url):
+        parts = url.split("/")
+        return parts[3] + "/" + parts[4], parts[-1]
+
+    def _generate_item_list(self, tag, items, prefix):
+        item_template = self._item_template(tag)
+        items = sorted(items, key=lambda x: x.get("updated_at", ""), reverse=True)
         html = ""
-        added = 0
-        for item in list(items):
-            if repo is not False and added == 5:
-                break
-            if tag == "issues" and "pull" in item["html_url"]:
-                continue
-            if repo is False or self.config["user"] + "/" + str(repo) in item[url_key]:
-                item_html = item_template.replace("{" + prefix + "_url}", item["html_url"])
-                item_html = item_html.replace("{" + prefix + "_title}", item["title"])
-                html += item_html.replace("{updated_at}", item["updated_at"].split("T")[0])
-                added += 1
-        if repo is False:
-            self.template = self.template.replace("{" + prefix + "_count}", str(len(items)))
-        return self._fill_list(template, repo, tag, html, heading if added > 0 else "")
+        for item in items:
+            repo_name, number = self._repo_and_number(item["html_url"])
+            row = item_template.replace("{" + prefix + "_url}", item["html_url"])
+            row = row.replace("{" + prefix + "_title}", html_escape(item["title"]))
+            row = row.replace("{" + prefix + "_repo}", repo_name)
+            row = row.replace("{" + prefix + "_number}", number)
+            html += row.replace("{updated_at}", item.get("updated_at", "").split("T")[0]) + "\n"
+        self._fill(tag, html)
+        self.template = self.template.replace("{" + prefix + "_count}", str(len(items)))
 
-    def generate_issues(self, template="", repo=False):
+    def generate_issues(self):
         try:
-            spec = ("issues", self.data.issues, "issue", "html_url", "Issues")
-            return self._generate_item_list(template, repo, spec)
+            self._generate_item_list("issues", self.data.issues, "issue")
         except (AttributeError, KeyError, TypeError) as e:
-            self.log(str(e))
-            if repo:
-                return template
             raise UpdaterError("Failed generating issues") from e
 
-    def generate_prs(self, template="", repo=False):
+    def generate_prs(self):
         try:
-            spec = ("prs", self.data.prs, "pr", "url", "Pull Requests")
-            return self._generate_item_list(template, repo, spec)
+            self._generate_item_list("prs", self.data.prs, "pr")
         except (AttributeError, KeyError, TypeError) as e:
-            self.log(str(e))
-            if repo:
-                return template
             raise UpdaterError("Failed generating prs") from e
 
-    def get_commit_html_url(self, url):
+    def generate_recent_activity(self):
         try:
-            data = self.web_request_retry_cached(url)
-            if data is not None:
-                return data["html_url"]
-            return False
-        except (KeyError, TypeError, ValueError):
-            return url
-
-    def generate_recent_activity(self, template="", repo=False):
-        try:
-            if len(self.data.recent_activity) == 0:
-                res = self.web_request_retry(self.config["events_url"])
-                if res is False:
-                    return template if repo else False
-                self.data.recent_activity = res.json()
-
-            recent_template = self._list_template(template, repo, "recent")
-            recent_html = ""
-            num = 0
-            for recent in self.data.recent_activity:
-                if repo is not False and num == 5:
-                    break
-
-                self.log(
-                    "generate_recent_activity "
-                    + self.config["user"]
-                    + "/"
-                    + str(repo)
-                    + " == "
-                    + recent["repo"]["name"]
-                )
-
-                if repo is not False and self.config["user"] + "/" + str(repo) != recent["repo"]["name"]:
-                    continue
-                if recent["type"] == "PushEvent":
-                    self.log(pprint.pformat(recent))
-                link = recent_event_link(recent, self.get_commit_html_url)
+            res = self.web_request_retry(self.config["events_url"])
+            events = res.json() if res is not False else []
+            recent_template = self._item_template("recent")
+            html = ""
+            shown = 0
+            for recent in events:
+                link = recent_event_link(recent)
                 if link is None:
                     continue
-                if link:
-                    recent_html += recent_template.replace("{recent_activity_url}", link[0]).replace(
-                        "{recent_activity_title}", link[1]
-                    )
-                num += 1
-
-            heading = "Recent Activity" if recent_html else ""
-            return self._fill_list(template, repo, "recent", recent_html, heading)
+                row = recent_template.replace("{recent_activity_url}", link[0])
+                row = row.replace("{recent_activity_title}", html_escape(shorten(link[1], 100)))
+                row = row.replace("{recent_repo}", recent["repo"]["name"])
+                row = row.replace("{recent_icon}", RECENT_ICONS.get(recent["type"], "•"))
+                row = row.replace("{recent_at}", recent["created_at"][:16].replace("T", " "))
+                html += row + "\n"
+                shown += 1
+            self.data.recent_activity = events
+            self._fill("recent", html)
+            self.template = self.template.replace("{activity_count}", str(shown))
         except (AttributeError, KeyError, TypeError, ValueError) as e:
-            self.log(str(e))
-            if repo:
-                return template
             raise UpdaterError("Failed generating activity") from e
 
     def generate_gists(self):
         try:
-            gists = self.web_request_retry_cached(self.config["gists_url"])
-            self.data.gist_count = len(gists) if gists else 0
-            if gists is not None:
-                gists_template = re.search("<gists>(.*)</gists>", self.template, flags=RE_FLAGS).group(1).strip()
-
-                gists_html = ""
-                for gist in gists:
-                    gist_html = gists_template.replace("{gist_url}", gist["html_url"])
-                    gists_html += gist_html.replace("{gist_title}", gist["description"])
-
-                self.template = re.sub("<gists>(.*)</gists>", gists_html, self.template, flags=RE_FLAGS)
+            gists = self.web_request_retry_cached(self.config["gists_url"]) or []
+            self.data.gist_count = len(gists)
+            gists_template = self._item_template("gists")
+            html = ""
+            for gist in gists:
+                files = ", ".join(list(gist.get("files") or {})[:3])
+                title = gist.get("description") or files or "Untitled gist"
+                row = gists_template.replace("{gist_url}", gist["html_url"])
+                row = row.replace("{gist_title}", html_escape(title))
+                row = row.replace("{gist_files}", html_escape(files))
+                html += row.replace("{updated_at}", (gist.get("updated_at") or "").split("T")[0]) + "\n"
+            self._fill("gists", html)
             return True
         except Exception as e:
-            self.log(self.template)
             raise UpdaterError("Failed generating gists") from e
 
     def generate_orgs(self):
         try:
-            orgs_template = re.search("<orgs>(.*)</orgs>", self.template, flags=RE_FLAGS).group(1).strip()
-
+            orgs_template = self._item_template("orgs")
             orgs = ""
             for org in self.config["organizations"]:
                 orgs += orgs_template.replace("{org_url}", org[0]).replace("{org_name}", org[1]) + "\n"
-
-            self.template = re.sub("<orgs>(.*)</orgs>", orgs, self.template, flags=RE_FLAGS)
+            self._fill("orgs", orgs)
             return True
         except Exception as e:
             raise UpdaterError("Failed generating org list") from e
 
+    def _top_languages(self):
+        return sorted(self.data.total_lines_lang.items(), key=itemgetter(1), reverse=True)[:TOP_LANGUAGES]
+
     def favorite_langs(self):
-        langs_template = re.search("<langs>(.*)</langs>", self.template, flags=RE_FLAGS).group(1).strip()
-
+        langs_template = self._item_template("langs")
+        top = self._top_languages()
+        total = sum(self.data.total_lines_lang.values()) or 1
         output = ""
-        for i, (lang, lines) in enumerate(self.data.total_lines_lang.items(), start=1):
-            badge = language_badge(self.config, lang)
-            col = langs_template.replace(
-                "{language}",
-                "<img src='" + badge + "' title='" + lang + "'  height='20px'/>",
-            )
-            output += col.replace("{lines}", str(lines)) + "\n"
-            if i % 4 == 0:
+        for i, (lang, size) in enumerate(top, start=1):
+            col = langs_template.replace("{language}", lang)
+            col = col.replace("{lang_dot}", "<img src='" + self._dot_url(lang) + "' width='10' height='10'/>")
+            col = col.replace("{bytes_human}", human_bytes(size))
+            output += col.replace("{percent}", f"{size / total * 100:.1f}") + "\n"
+            if i % 4 == 0 and i != len(top):
                 output += "</tr><tr>\n"
-
-        self.template = re.sub("<langs>(.*)</langs>", output, self.template, flags=RE_FLAGS)
+        self._fill("langs", output)
 
     def generate_svgs(self):
         os.makedirs("generated", exist_ok=True)
 
         with open("generated/timeline.svg", "w", encoding="utf-8") as f:
-            f.write(svg_timeline(self.repos))
-        self.log("Wrote generated/timeline.svg")
+            f.write(svg_timeline(self._showcase_repos()))
+        with open("generated/languages_bar.svg", "w", encoding="utf-8") as f:
+            f.write(svg_languages_bar(self._top_languages()))
+        self.log("Wrote generated/timeline.svg and generated/languages_bar.svg")
 
     def generate_readme(self):
         try:
@@ -820,9 +807,7 @@ class ReadmeUpdater:
             replacements = {
                 "{github_url}": self.config["github_url"],
                 "{linkedin_url}": self.config["linkedin_url"],
-                "{langcount}": str(len(self.data.total_lines_lang) + 1),
-                "{last_updated}": datetime.now().astimezone().strftime("%d/%m/%Y %H:%M:%S"),
-                "{activity_count}": str(len(self.data.recent_activity)),
+                "{last_updated_safe}": datetime.now().astimezone().strftime("%Y--%m--%d"),
                 "{gist_count}": str(self.data.gist_count),
             }
             for key, value in replacements.items():

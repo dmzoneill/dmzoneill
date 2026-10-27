@@ -1,72 +1,68 @@
+<p align="center"><img src=".github/logo.png" width="130" alt="dmzoneill logo"/></p>
+<h1 align="center">David O'Neill</h1>
+<p align="center"><i>Engineering at Red Hat · AI-driven developer workflows · {repo_count} public repos</i></p>
 <p align="center">
-  <img src=".github/logo.png" alt="dmzoneill logo" width="128" />
+<a href="{github_url}"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white"/></a>
+<a href="{linkedin_url}"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+<img alt="Last updated" src="https://img.shields.io/badge/updated-{last_updated_safe}-brightgreen?style=for-the-badge"/>
+<img alt="Profile views" src="https://komarev.com/ghpvc/?username=dmzoneill&color=brightgreen&style=for-the-badge"/>
 </p>
 
-<a href="{github_url}" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> &nbsp;&nbsp; <a href="{linkedin_url}" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> &nbsp;&nbsp; <img alt="Github" src="https://img.shields.io/badge/Last%20Updated-{last_updated}-brightgreen" height='28'/> &nbsp;&nbsp; <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=dmzoneill&color=brightgreen&style=for-the-badge" height='28'/> &nbsp;&nbsp; <img alt="Redhat" width='30' height='25' src="https://github.com/dmzoneill/dmzoneill/blob/main/images/redhat.svg?raw=true" />
+<h2>📈 Over the years</h2>
+<img src="generated/timeline.svg" width="100%" alt="Repos per year"/>
 
-<img src="generated/timeline.svg" width="760" alt="timeline"/>
-
-<table width='100%' style='width:100%'>
-  <tr>
-    <td>
-      <h3>Currently</h3>
-      <p>Engineering at Red Hat, working on AI-driven workflows for developers, and maintaining 200+ open source repos in my spare time.</p>
-      <p>&nbsp;</p>
-    </td>
-    <td>
-      <h3>Work related stuff over on</h3>
-      <ul><orgs><li><a href='{org_url}'>{org_name}</a></li></orgs></ul>
-    </td>
-  </tr>
+<h2>💻 Code by language</h2>
+<sub>Size of source per language as measured by GitHub Linguist (bytes, not lines), across all public repos.</sub>
+<p><img src="generated/languages_bar.svg" width="100%" alt="Language share"/></p>
+<table>
+<tr>
+<langs><td width="25%">{lang_dot} <b>{language}</b><br/><sub>{bytes_human} · {percent}%</sub></td></langs>
+</tr>
 </table>
 
-<details>
-<summary><strong>Issues ({issue_count})</strong></summary>
-<ul><issues><li><a href='{issue_url}'>{issue_title}</a> {updated_at}</li></issues></ul>
-</details>
-<details>
-<summary><strong>Pull Requests ({pr_count})</strong></summary>
-<ul><prs><li><a href='{pr_url}'>{pr_title}</a> {updated_at}</li></prs></ul>
-</details>
-<details>
-<summary><strong>Recent Activity ({activity_count})</strong></summary>
-<ul><recent><li><a href='{recent_activity_url}'>{recent_activity_title}</a></li></recent></ul>
-</details>
-<details>
-<summary><strong>Gists ({gist_count})</strong></summary>
-<ul><gists><li><a href='{gist_url}'>{gist_title}</a></li></gists></ul>
-</details>
-
-<h3>Lines of code</h3>
-<table width='100%' style='width:100%'>
-  <thead>
-    <tr>
-      <th>Language</th>
-      <th>Lines</th>
-      <th>Language</th>
-      <th>Lines</th>
-      <th>Language</th>
-      <th>Lines</th>
-      <th>Language</th>
-      <th>Lines</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr><langs><td>{language}</td><td>{lines}</td></langs></tr>
-  </tbody>
+<h2>✨ Featured projects</h2>
+<table>
+<tr>
+<featured><td align="center" valign="top" width="33%"><a href="{html_url}"><img src="{logo_url}" width="72" alt="{name}"/><br/><b>{display_name}</b></a><br/><sub>{description}</sub><br/><sub>{lang_dot}{language} {stars}</sub><br/><a href="{actions_url}"><img src="{badge}" alt="CI"/></a></td></featured>
+</tr>
 </table>
 
-### Some things i've been poking at
-
-<table width='100%' style='width:100%'>
-  <thead>
-    <tr>
-      <th>Project</th>
-      <th>View</th>
-      <th>Status</th>
-    </tr>
-  </thead>
-  <tbody>
-    <repos><tr><td><p><h2><a href='{html_url}' title='{name}'>{name}</a> {first_commit}</h2></p><p>{language}</p><p>{license}</p><p><ul><recent><li><a href='{recent_activity_url}'>{recent_activity_title}</a></li></recent></ul></p><p><ul><issues><li><a href='{issue_url}'>{issue_title}</a> {updated_at}</li></issues></ul></p><p><ul><prs><li><a href='{pr_url}'>{pr_title}</a> {updated_at}</li></prs></ul></p></td><td><p><a href='{live_url}' title='{live_name}'>{live_name}</a></p></td><td align="center"><a href='https://github.com/dmzoneill/{name}/actions'><img src='{badge}'/></a><p>{updated_at}</p></td></tr></repos>
-  </tbody>
+<h2>🗂 All projects ({repo_count})</h2>
+<table>
+<tr>
+<repos><td align="center" valign="top" width="25%"><a href="{html_url}"><img src="{logo_url}" width="48" alt="{name}"/><br/><b>{display_name}</b></a><br/><sub>{description}</sub><br/><sub>{lang_dot}{language} {stars}</sub><br/><a href="{actions_url}"><img src="{badge}" alt="CI"/></a></td></repos>
+</tr>
 </table>
+
+<details open>
+<summary><h3>📝 Gists ({gist_count})</h3></summary>
+<table>
+<gists><tr><td>📄</td><td><a href="{gist_url}">{gist_title}</a><br/><sub>{gist_files}</sub></td><td align="right"><sub>{updated_at}</sub></td></tr></gists>
+</table>
+</details>
+
+<details>
+<summary><h3>🟢 Issues ({issue_count})</h3></summary>
+<table>
+<issues><tr><td>🟢</td><td><a href="{issue_url}">{issue_title}</a><br/><sub>{issue_repo}#{issue_number}</sub></td><td align="right"><sub>{updated_at}</sub></td></tr></issues>
+</table>
+</details>
+
+<details>
+<summary><h3>🔀 Pull Requests ({pr_count})</h3></summary>
+<table>
+<prs><tr><td>🔀</td><td><a href="{pr_url}">{pr_title}</a><br/><sub>{pr_repo}#{pr_number}</sub></td><td align="right"><sub>{updated_at}</sub></td></tr></prs>
+</table>
+</details>
+
+<details>
+<summary><h3>⚡ Recent Activity ({activity_count})</h3></summary>
+<table>
+<recent><tr><td>{recent_icon}</td><td><a href="{recent_activity_url}">{recent_activity_title}</a><br/><sub>{recent_repo}</sub></td><td align="right"><sub>{recent_at} UTC</sub></td></tr></recent>
+</table>
+</details>
+
+<details>
+<summary><h3>🏢 Work over on</h3></summary>
+<ul><orgs><li><a href="{org_url}">{org_name}</a></li></orgs></ul>
+</details>

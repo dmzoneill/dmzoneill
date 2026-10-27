@@ -153,7 +153,9 @@ def breakable(name):
     for sep in ("-", "_", ".", ",", "/"):
         name = name.replace(sep, sep + "\u200b")
     # Also allow breaks inside CamelCase words such as CanonicalChromeExtension
-    return re.sub(r"(?<=[a-z])(?=[A-Z])", "\u200b", name)
+    name = re.sub(r"(?<=[a-z])(?=[A-Z])", "\u200b", name)
+    # Finally break any remaining run longer than 12 characters (e.g. synologydownloadassistant)
+    return re.sub(r"[^\s\u200b]{12}(?=[^\s\u200b]{3})", lambda m: m.group(0) + "\u200b", name)
 
 
 # Proper nouns in repo descriptions that codespell flags as typos. Encoding one

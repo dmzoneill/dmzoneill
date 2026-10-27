@@ -323,5 +323,206 @@
         "html_url": "https://gist.github.com/dmzoneill/faaa84782eaed4d2dc28ad55c19119ee"
       }
     ]
+  },
+  "https://api.github.com/users/dmzoneill/gists?per_page=100": {
+    "t": 1793136275.9276931,
+    "v": [
+      {
+        "description": "Bash hints that suggest modern alternatives to legacy Linux commands",
+        "files": {
+          "modern-hints.sh": {}
+        },
+        "html_url": "https://gist.github.com/dmzoneill/cf2d484d13bdfe689586d984af2105bd",
+        "updated_at": "2026-10-20T09:38:24Z"
+      },
+      {
+        "description": "XDock test badges",
+        "files": {
+          "xdock-coverage.json": {},
+          "xdock-integration-tests.json": {},
+          "xdock-unit-tests.json": {}
+        },
+        "html_url": "https://gist.github.com/dmzoneill/93eef357f1e61f8d337a348fa5c180f0",
+        "updated_at": "2026-10-26T11:46:07Z"
+      },
+      {
+        "description": "XDock test badges",
+        "files": {
+          "gistfile0.txt": {},
+          "xdock-integration-tests.json": {}
+        },
+        "html_url": "https://gist.github.com/dmzoneill/6b234c35e25d3f586f68db8e79591d65",
+        "updated_at": "2026-07-12T17:42:10Z"
+      },
+      {
+        "description": "AAP Contract Validation - Cross-Cluster Bridge Architecture",
+        "files": {
+          "aap-contract-validation-architecture.md": {}
+        },
+        "html_url": "https://gist.github.com/dmzoneill/3f59c2b525578a7543e2f4d6914c2d77",
+        "updated_at": "2026-06-26T11:48:06Z"
+      },
+      {
+        "description": "AI-generated full spine MRI analysis report (not a medical diagnosis)",
+        "files": {
+          "AI.md": {}
+        },
+        "html_url": "https://gist.github.com/dmzoneill/c992016e6ae2a29985302ac664f5a15b",
+        "updated_at": "2026-10-20T09:38:24Z"
+      },
+      {
+        "description": "Claude Code session reviewing a Siemens full spine MRI DICOM export",
+        "files": {
+          "gistfile1.txt": {}
+        },
+        "html_url": "https://gist.github.com/dmzoneill/8bc6af47fd734f1389a6a9981d7268a1",
+        "updated_at": "2026-10-20T09:38:24Z"
+      },
+      {
+        "description": "AAP Billing Validation \u2014 Three-Way Cross-Reference Pipeline Diagram",
+        "files": {
+          "billing-validation-pipeline.md": {}
+        },
+        "html_url": "https://gist.github.com/dmzoneill/87698993c18d9bab7a7fe6def4166481",
+        "updated_at": "2026-06-10T09:52:09Z"
+      },
+      {
+        "description": "Mailias: self-hosted email alias forwarding service architecture and design",
+        "files": {
+          "CLAUDE.md": {}
+        },
+        "html_url": "https://gist.github.com/dmzoneill/fbb3b83719785f3fc86b0607d7aba23c",
+        "updated_at": "2026-10-20T09:38:25Z"
+      },
+      {
+        "description": "Crude oil price monitor with technical analysis indicators in Python",
+        "files": {
+          "gistfile1.txt": {}
+        },
+        "html_url": "https://gist.github.com/dmzoneill/64a18fe75765d2a7b672361b0c871150",
+        "updated_at": "2026-10-20T09:38:26Z"
+      },
+      {
+        "description": "Opinionated Slop Manager: multi-agent code review skill for smells and AI slop",
+        "files": {
+          "OpinionatedSlopManager.txt": {}
+        },
+        "html_url": "https://gist.github.com/dmzoneill/6f88cc5cb2720168b0f4bd32a1068d22",
+        "updated_at": "2026-10-20T09:38:28Z"
+      },
+      {
+        "description": "Complete Guide: Multi-Instance Ollama Setup with NPU, Intel GPU, and NVIDIA GPU",
+        "files": {
+          "Complete Guide: Multi-Instance Ollama Setup with NPU, Intel GPU, and NVIDIA GPU.md": {}
+        },
+        "html_url": "https://gist.github.com/dmzoneill/af4a56c98fe185a9b14abba35bb5c29b",
+        "updated_at": "2026-10-23T14:29:57Z"
+      },
+      {
+        "description": "Cloudflare email routing script that creates random anagram alias addresses",
+        "files": {
+          "gistfile1.txt": {}
+        },
+        "html_url": "https://gist.github.com/dmzoneill/da7e49a55b7bd4ded318b82309c1bfd7",
+        "updated_at": "2026-10-20T09:38:29Z"
+      },
+      {
+        "description": "Tampermonkey script to clean up Slack and Jira messages with ChatGPT",
+        "files": {
+          "slack-tapermoneky.js": {}
+        },
+        "html_url": "https://gist.github.com/dmzoneill/441f88a5c73136b8128c252ad84100b3",
+        "updated_at": "2026-10-22T03:36:47Z"
+      },
+      {
+        "description": "Python script that writes a git commit message from the diff using OpenAI",
+        "files": {
+          "fancy-git-commit.sh": {}
+        },
+        "html_url": "https://gist.github.com/dmzoneill/80bfef9603448c33df02ce0aa98fcd59",
+        "updated_at": "2026-10-20T09:38:29Z"
+      },
+      {
+        "description": "Python GTK4 ColumnView Sorting and Binding",
+        "files": {
+          "gistfile1.txt": {}
+        },
+        "html_url": "https://gist.github.com/dmzoneill/7c9159b30950621c065791e7861be174",
+        "updated_at": "2025-06-09T01:28:48Z"
+      },
+      {
+        "description": "Python GTK4 ColumnView with clickable column header sorting",
+        "files": {
+          "gistfile1.txt": {}
+        },
+        "html_url": "https://gist.github.com/dmzoneill/19a4fbd799f1e5bcc050ddb4b0a65403",
+        "updated_at": "2026-10-20T09:38:30Z"
+      },
+      {
+        "description": "Python GTK4 ColumnView with per-column string and numeric sorters",
+        "files": {
+          "gistfile1.txt": {}
+        },
+        "html_url": "https://gist.github.com/dmzoneill/74033698f65a5a1539d686452a73dce8",
+        "updated_at": "2026-10-20T09:38:31Z"
+      },
+      {
+        "description": "git diff of awx-operator between releases 2.15.0 and 2.16.0",
+        "files": {
+          "gistfile1.txt": {}
+        },
+        "html_url": "https://gist.github.com/dmzoneill/497746f38c5786c96e8859f1131667af",
+        "updated_at": "2026-10-20T09:38:31Z"
+      },
+      {
+        "description": "PHP script that writes a name from the URL onto a JPEG image with GD",
+        "files": {
+          "gistfile1.txt": {}
+        },
+        "html_url": "https://gist.github.com/dmzoneill/67a908fb949dc95bbbf02f0446a07f0a",
+        "updated_at": "2026-10-20T09:38:32Z"
+      },
+      {
+        "description": "Linux sysctl and ethtool tuning for 10GbE networking",
+        "files": {
+          "10gb.txt": {}
+        },
+        "html_url": "https://gist.github.com/dmzoneill/d13d88b16d4d0aa90cb108a00ab3cf01",
+        "updated_at": "2026-10-20T09:38:32Z"
+      },
+      {
+        "description": "DNS Policy Routing via Raspberry Pi VPN Gateway",
+        "files": {
+          "RPI rc.local": {},
+          "resolv.conf": {}
+        },
+        "html_url": "https://gist.github.com/dmzoneill/55f6eb89dcdedd6c8bb2e5cffbab6caa",
+        "updated_at": "2023-01-25T21:34:33Z"
+      },
+      {
+        "description": "Synology 108tb limit bypass",
+        "files": {
+          "Synology 108tb limit bypass.txt": {}
+        },
+        "html_url": "https://gist.github.com/dmzoneill/575ba9c32375c41cb1041e9064de0678",
+        "updated_at": "2026-06-15T03:24:39Z"
+      },
+      {
+        "description": "Automation Analytics Postgres pg_stat_activity active queries dump",
+        "files": {
+          "AA active queries.txt": {}
+        },
+        "html_url": "https://gist.github.com/dmzoneill/cbc75e502dbe2b78651f68d6320b714a",
+        "updated_at": "2026-10-20T09:38:32Z"
+      },
+      {
+        "description": "PHP Paypal Instant Payment Notification",
+        "files": {
+          "PHP Paypal Instant Payment Notification.txt": {}
+        },
+        "html_url": "https://gist.github.com/dmzoneill/faaa84782eaed4d2dc28ad55c19119ee",
+        "updated_at": "2023-01-25T19:44:48Z"
+      }
+    ]
   }
 }

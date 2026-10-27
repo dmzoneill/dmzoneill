@@ -3,7 +3,7 @@
   "user": "dmzoneill",
   "graphql_url": "https://api.github.com/graphql",
   "repos_url": "https://api.github.com/users/dmzoneill/repos?per_page=100&type=owner&sort=pushed",
-  "gists_url": "https://api.github.com/users/dmzoneill/gists",
+  "gists_url": "https://api.github.com/users/dmzoneill/gists?per_page=100",
   "api_url": "https://api.github.com/users/dmzoneill",
   "user_repos_url": "https://api.github.com/repos/dmzoneill",
   "events_url": "https://api.github.com/users/dmzoneill/events/public?per_page=100",

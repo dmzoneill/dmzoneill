@@ -23,14 +23,14 @@
 <h2>✨ Featured projects</h2>
 <table>
 <tr>
-<featured><td align="center" valign="top" width="33%"><a href="{html_url}"><img src="{logo_url}" width="72" alt="{name}"/><br/><b>{display_name}</b></a><br/><sub>{description}</sub><br/><sub>{lang_dot}{language} {stars}</sub><br/><a href="{actions_url}"><img src="{badge}" alt="CI"/></a></td></featured>
+<featured><td align="center" valign="top" width="33%"><a href="{html_url}"><img src="{logo_url}" width="72" alt="{name}"/><br/><b>{display_name}</b></a><br/><sub>{description}</sub><br/><sub>{lang_dot}{language} {stars}</sub>{badge_html}</td></featured>
 </tr>
 </table>
 
 <h2>🗂 All projects ({repo_count})</h2>
 <table>
 <tr>
-<repos><td align="center" valign="top" width="25%"><a href="{html_url}"><img src="{logo_url}" width="48" alt="{name}"/><br/><b>{display_name}</b></a><br/><sub>{description}</sub><br/><sub>{lang_dot}{language} {stars}</sub><br/><a href="{actions_url}"><img src="{badge}" alt="CI"/></a></td></repos>
+<repos><td align="center" valign="top" width="25%"><a href="{html_url}"><img src="{logo_url}" width="48" alt="{name}"/><br/><b>{display_name}</b></a><br/><sub>{description}</sub><br/><sub>{lang_dot}{language} {stars}</sub>{badge_html}</td></repos>
 </tr>
 </table>
 

@@ -358,8 +358,14 @@
 </details>
 
 <details>
-<summary><h3>⚡ Recent Activity (25)</h3></summary>
+<summary><h3>⚡ Recent Activity (31)</h3></summary>
 <table>
+<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/dmzoneill/commits/dependabot-exclude-puppet-bundler">Pushed to dependabot-exclude-puppet-bundler</a><br/><sub>dmzoneill/dmzoneill</sub></td><td align="right"><sub>2026-10-27 11:20 UTC</sub></td></tr>
+<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/OC-Development/commits/main">Pushed to main</a><br/><sub>dmzoneill/OC-Development</sub></td><td align="right"><sub>2026-10-27 11:20 UTC</sub></td></tr>
+<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/meteor-android-widget/commits/docs/add-readme">Pushed to docs/add-readme</a><br/><sub>dmzoneill/meteor-android-widget</sub></td><td align="right"><sub>2026-10-27 11:19 UTC</sub></td></tr>
+<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/dmzoneill/commits/main">Pushed to main</a><br/><sub>dmzoneill/dmzoneill</sub></td><td align="right"><sub>2026-10-27 11:27 UTC</sub></td></tr>
+<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/EC-SI-SieStorage/commits/main">Pushed to main</a><br/><sub>dmzoneill/EC-SI-SieStorage</sub></td><td align="right"><sub>2026-10-27 11:27 UTC</sub></td></tr>
+<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/home-helper-scripts/commits/main">Pushed to main</a><br/><sub>dmzoneill/home-helper-scripts</sub></td><td align="right"><sub>2026-10-27 11:26 UTC</sub></td></tr>
 <tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/NPG-SW-Lab-SBar/commits/main">Pushed to main</a><br/><sub>dmzoneill/NPG-SW-Lab-SBar</sub></td><td align="right"><sub>2026-10-27 11:25 UTC</sub></td></tr>
 <tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/CSharp-DoNothingAndExit/commits/main">Pushed to main</a><br/><sub>dmzoneill/CSharp-DoNothingAndExit</sub></td><td align="right"><sub>2026-10-27 11:24 UTC</sub></td></tr>
 <tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/lm051-cs4313-software-engineering-project/commits/docs/add-readme">Pushed to docs/add-readme</a><br/><sub>dmzoneill/lm051-cs4313-software-engineering-project</sub></td><td align="right"><sub>2026-10-27 11:19 UTC</sub></td></tr>

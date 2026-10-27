@@ -101,7 +101,7 @@ LANG_COLOURS = {
     "Puppet": "#302B6D",
     "Makefile": "#427819",
 }
-TOP_LANGUAGES = 12
+TOP_LANGUAGES = 20
 FEATURED_COUNT = 6
 PROFILE_LOGO = "https://raw.githubusercontent.com/dmzoneill/dmzoneill/main/.github/logo.png"
 RECENT_ICONS = {
@@ -149,10 +149,11 @@ def shorten(text, limit):
 
 
 def breakable(name):
-    """Allow long repo names to wrap inside a grid cell at - _ and . boundaries."""
-    for sep in ("-", "_", "."):
+    """Allow long names and words to wrap inside a grid cell at - _ . , and / boundaries."""
+    for sep in ("-", "_", ".", ",", "/"):
         name = name.replace(sep, sep + "\u200b")
-    return name
+    # Also allow breaks inside CamelCase words such as CanonicalChromeExtension
+    return re.sub(r"(?<=[a-z])(?=[A-Z])", "\u200b", name)
 
 
 # Proper nouns in repo descriptions that codespell flags as typos. Encoding one
@@ -635,7 +636,7 @@ class ReadmeUpdater:
             "{logo_url}": self._logo_url(repo),
             "{name}": name,
             "{display_name}": breakable(name),
-            "{description}": html_escape(shorten(repo.get("description"), desc_limit)),
+            "{description}": html_escape(breakable(shorten(repo.get("description"), desc_limit))),
             "{lang_dot}": ("<img src='" + self._dot_url(language) + "' width='10' height='10'/> " if language else ""),
             "{language}": language,
             "{stars}": ("★ " + str(stars)) if stars else "",
@@ -701,7 +702,7 @@ class ReadmeUpdater:
 
             featured = sorted(repos, key=lambda r: r.get("stargazers_count", 0), reverse=True)[:FEATURED_COUNT]
             self._render_grid("featured", featured, 3, 90)
-            self._render_grid("repos", repos, 4, 60)
+            self._render_grid("repos", repos, 3, 60)
             self.template = self.template.replace("{repo_count}", str(len(repos)))
         except Exception as e:
             self.log(str(e))

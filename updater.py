@@ -1,3 +1,4 @@
+import base64
 import json
 import os
 import re
@@ -139,6 +140,29 @@ def svg_languages_bar(languages, width=860, height=14):
   <clipPath id="r"><rect width="{width}" height="{height}" rx="7"/></clipPath>
   <g clip-path="url(#r)">
 {rects}  </g>
+</svg>"""
+
+
+ORG_BUTTON_WIDTH = 134
+ORG_BUTTON_HEIGHT = 46
+
+
+def svg_org_button(label, count, avatar_uri, width=ORG_BUTTON_WIDTH, height=ORG_BUTTON_HEIGHT):
+    """A fixed-size dark button with the org avatar, label and count."""
+    label = html_escape(label)
+    text_width = width - 50
+    avatar = (
+        f'<image href="{avatar_uri}" x="9" y="{(height - 28) / 2:.0f}" width="28" height="28" clip-path="url(#a)"/>'
+        if avatar_uri
+        else f'<circle cx="23" cy="{height / 2:.0f}" r="14" fill="#30363d"/>'
+    )
+    fit = f' textLength="{text_width}" lengthAdjust="spacingAndGlyphs"' if len(label) > 13 else ""
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}">
+  <clipPath id="a"><rect x="9" y="{(height - 28) / 2:.0f}" width="28" height="28" rx="6"/></clipPath>
+  <rect x="0.5" y="0.5" width="{width - 1}" height="{height - 1}" rx="8" fill="#161b22" stroke="#30363d"/>
+  {avatar}
+  <text x="44" y="20" font-family="{FONT}" font-size="12" font-weight="600" fill="#4493f8"{fit}>{label}</text>
+  <text x="44" y="35" font-family="{FONT}" font-size="11" fill="#9198a1">{count}</text>
 </svg>"""
 
 
@@ -847,24 +871,36 @@ class ReadmeUpdater:
         except Exception as e:
             raise UpdaterError("Failed generating gists") from e
 
+    def _avatar_data_uri(self, avatar_url):
+        """Fetch a small avatar and return it as a data URI so the button SVG is self-contained."""
+        try:
+            r = requests.get(avatar_url, timeout=REQUEST_TIMEOUT)
+            if r.status_code == requests.codes.ok:
+                kind = r.headers.get("content-type", "image/png").split(";")[0]
+                return "data:" + kind + ";base64," + base64.b64encode(r.content).decode("ascii")
+        except requests.RequestException as e:
+            self.log("Avatar fetch failed: " + str(e))
+        return ""
+
     def generate_orgs(self):
         try:
             orgs_template = self._item_template("orgs")
+            os.makedirs("generated/orgs", exist_ok=True)
             orgs = ""
-            for i, (url, name) in enumerate(self.config["organizations"]):
+            for url, name in self.config["organizations"]:
                 login = url.rstrip("/").split("/")[-1]
                 res = self.web_request_retry("https://api.github.com/users/" + login)
                 info = res.json() if res is not False else {}
                 kind = "forks" if "fork" in login.lower() else "repos"
-                count = str(info.get("public_repos", "")) + " " + kind if info else kind
-                avatar = (info.get("avatar_url") or "https://github.com/" + login + ".png") + "&s=64"
-                if i and i % 3 == 0:
-                    orgs += "</tr><tr>\n"
-                item = orgs_template.replace("{org_url}", url).replace("{org_name}", name)
-                orgs += (
-                    item.replace("{org_avatar}", avatar).replace("{org_login}", login).replace("{org_count}", count)
-                    + "\n"
+                count = (str(info["public_repos"]) + " " + kind) if "public_repos" in info else kind
+                avatar = self._avatar_data_uri(
+                    (info.get("avatar_url") or "https://github.com/" + login + ".png") + "&s=64"
                 )
+                path = "generated/orgs/" + login + ".svg"
+                with open(path, "w", encoding="utf-8") as f:
+                    f.write(svg_org_button(name, count, avatar))
+                item = orgs_template.replace("{org_url}", url).replace("{org_name}", html_escape(name))
+                orgs += item.replace("{org_button}", path).replace("{org_count}", count) + "\n"
             self._fill("orgs", orgs)
             return True
         except Exception as e:

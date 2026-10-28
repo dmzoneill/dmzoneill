@@ -10,10 +10,10 @@
 
 <table>
 <tr>
-<td align="center" valign="top" width="25%">📝<br/><b><big>24</big></b><br/><sub>Gists</sub><br/><sub>XDock test badges</sub></td>
-<td align="center" valign="top" width="25%">🟢<br/><b><big>68</big></b><br/><sub>Issues</sub><br/><sub>Issue with Lidarr…</sub></td>
-<td align="center" valign="top" width="25%">🔀<br/><b><big>8</big></b><br/><sub>Pull requests</sub><br/><sub>Replace committed…</sub></td>
-<td align="center" valign="top" width="25%">⚡<br/><b><big>35</big></b><br/><sub>Activity</sub><br/><sub>Pushed to main</sub></td>
+<td align="center" valign="top" width="25%">📝<br/><b><big>24</big></b><br/><sub>Gists</sub><br/><sub>XDock test badges</sub><br/><img src="images/spacer.svg" width="188" height="1" alt=""/></td>
+<td align="center" valign="top" width="25%">🟢<br/><b><big>68</big></b><br/><sub>Issues</sub><br/><sub>Issue with Lidarr…</sub><br/><img src="images/spacer.svg" width="188" height="1" alt=""/></td>
+<td align="center" valign="top" width="25%">🔀<br/><b><big>8</big></b><br/><sub>Pull requests</sub><br/><sub>Replace committed…</sub><br/><img src="images/spacer.svg" width="188" height="1" alt=""/></td>
+<td align="center" valign="top" width="25%">⚡<br/><b><big>35</big></b><br/><sub>Activity</sub><br/><sub>Pushed to main</sub><br/><img src="images/spacer.svg" width="188" height="1" alt=""/></td>
 </tr>
 </table>
 
@@ -84,18 +84,15 @@
 </details>
 
 <h3>🏢 Forks &amp; work orgs</h3>
-<table>
-<tr>
-<td align="center" valign="top" width="33%"><a href="https://github.com/dmzoneill-forks"><img src="https://avatars.githubusercontent.com/u/122704019?v=4&s=64" width="32" height="32" alt="dmzoneill-forks"/><br/><b>My forks</b></a><br/><sub>64 forks</sub></td>
-<td align="center" valign="top" width="33%"><a href="https://github.com/RedHatInsights"><img src="https://avatars.githubusercontent.com/u/24939818?v=4&s=64" width="32" height="32" alt="RedHatInsights"/><br/><b>RedHat Insights</b></a><br/><sub>680 repos</sub></td>
-<td align="center" valign="top" width="33%"><a href="https://github.com/app-sre"><img src="https://avatars.githubusercontent.com/u/43133889?v=4&s=64" width="32" height="32" alt="app-sre"/><br/><b>AppSRE</b></a><br/><sub>142 repos</sub></td>
-</tr><tr>
-<td align="center" valign="top" width="33%"><a href="https://github.com/Redhat-forks"><img src="https://avatars.githubusercontent.com/u/122724439?v=4&s=64" width="32" height="32" alt="Redhat-forks"/><br/><b>Redhat forks</b></a><br/><sub>91 forks</sub></td>
-<td align="center" valign="top" width="33%"><a href="https://github.com/Canonical-forks"><img src="https://avatars.githubusercontent.com/u/122724472?v=4&s=64" width="32" height="32" alt="Canonical-forks"/><br/><b>Canonical forks</b></a><br/><sub>9 forks</sub></td>
-<td align="center" valign="top" width="33%"><a href="https://github.com/Intel-forks"><img src="https://avatars.githubusercontent.com/u/122724740?v=4&s=64" width="32" height="32" alt="Intel-forks"/><br/><b>Intel forks</b></a><br/><sub>8 forks</sub></td>
+<p align="center">
+<a href="https://github.com/dmzoneill-forks"><img src="generated/orgs/dmzoneill-forks.svg" width="134" height="46" alt="My forks: 64 forks"/></a>
+<a href="https://github.com/RedHatInsights"><img src="generated/orgs/RedHatInsights.svg" width="134" height="46" alt="RedHat Insights: 680 repos"/></a>
+<a href="https://github.com/app-sre"><img src="generated/orgs/app-sre.svg" width="134" height="46" alt="AppSRE: 142 repos"/></a>
+<a href="https://github.com/Redhat-forks"><img src="generated/orgs/Redhat-forks.svg" width="134" height="46" alt="Redhat forks: 91 forks"/></a>
+<a href="https://github.com/Canonical-forks"><img src="generated/orgs/Canonical-forks.svg" width="134" height="46" alt="Canonical forks: 9 forks"/></a>
+<a href="https://github.com/Intel-forks"><img src="generated/orgs/Intel-forks.svg" width="134" height="46" alt="Intel forks: 8 forks"/></a>
 
-</tr>
-</table>
+</p>
 
 <h2>📈 Over the years</h2>
 <img src="generated/timeline.svg" width="100%" alt="Repos per year"/>

@@ -10,10 +10,10 @@
 
 <table>
 <tr>
-<td align="center" valign="top" width="25%">📝<br/><b><big>{gist_count}</big></b><br/><sub>Gists</sub><br/><sub>{gist_latest}</sub></td>
-<td align="center" valign="top" width="25%">🟢<br/><b><big>{issue_count}</big></b><br/><sub>Issues</sub><br/><sub>{issue_latest}</sub></td>
-<td align="center" valign="top" width="25%">🔀<br/><b><big>{pr_count}</big></b><br/><sub>Pull requests</sub><br/><sub>{pr_latest}</sub></td>
-<td align="center" valign="top" width="25%">⚡<br/><b><big>{activity_count}</big></b><br/><sub>Activity</sub><br/><sub>{activity_latest}</sub></td>
+<td align="center" valign="top" width="25%">📝<br/><b><big>{gist_count}</big></b><br/><sub>Gists</sub><br/><sub>{gist_latest}</sub><br/><img src="images/spacer.svg" width="188" height="1" alt=""/></td>
+<td align="center" valign="top" width="25%">🟢<br/><b><big>{issue_count}</big></b><br/><sub>Issues</sub><br/><sub>{issue_latest}</sub><br/><img src="images/spacer.svg" width="188" height="1" alt=""/></td>
+<td align="center" valign="top" width="25%">🔀<br/><b><big>{pr_count}</big></b><br/><sub>Pull requests</sub><br/><sub>{pr_latest}</sub><br/><img src="images/spacer.svg" width="188" height="1" alt=""/></td>
+<td align="center" valign="top" width="25%">⚡<br/><b><big>{activity_count}</big></b><br/><sub>Activity</sub><br/><sub>{activity_latest}</sub><br/><img src="images/spacer.svg" width="188" height="1" alt=""/></td>
 </tr>
 </table>
 
@@ -43,11 +43,9 @@
 </details>
 
 <h3>🏢 Forks &amp; work orgs</h3>
-<table>
-<tr>
-<orgs><td align="center" valign="top" width="33%"><a href="{org_url}"><img src="{org_avatar}" width="32" height="32" alt="{org_login}"/><br/><b>{org_name}</b></a><br/><sub>{org_count}</sub></td></orgs>
-</tr>
-</table>
+<p align="center">
+<orgs><a href="{org_url}"><img src="{org_button}" width="134" height="46" alt="{org_name}: {org_count}"/></a> </orgs>
+</p>
 
 <h2>📈 Over the years</h2>
 <img src="generated/timeline.svg" width="100%" alt="Repos per year"/>

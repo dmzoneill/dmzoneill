@@ -851,15 +851,13 @@ class ReadmeUpdater:
         try:
             orgs_template = self._item_template("orgs")
             orgs = ""
-            for i, (url, name) in enumerate(self.config["organizations"]):
+            for url, name in self.config["organizations"]:
                 login = url.rstrip("/").split("/")[-1]
                 res = self.web_request_retry("https://api.github.com/users/" + login)
                 info = res.json() if res is not False else {}
                 kind = "forks" if "fork" in login.lower() else "repos"
                 count = str(info.get("public_repos", "")) + " " + kind if info else kind
                 avatar = (info.get("avatar_url") or "https://github.com/" + login + ".png") + "&s=64"
-                if i and i % 3 == 0:
-                    orgs += "</tr><tr>\n"
                 item = orgs_template.replace("{org_url}", url).replace("{org_name}", name)
                 orgs += (
                     item.replace("{org_avatar}", avatar).replace("{org_login}", login).replace("{org_count}", count)

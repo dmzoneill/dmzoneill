@@ -166,6 +166,29 @@ def svg_org_button(label, count, avatar_uri, width=ORG_BUTTON_WIDTH, height=ORG_
 </svg>"""
 
 
+TILE_WIDTH = 176
+TILE_HEIGHT = 46
+TILES = {
+    "gist": ("📝", "Gists"),
+    "issue": ("🟢", "Issues"),
+    "pr": ("🔀", "Pull requests"),
+    "activity": ("⚡", "Activity"),
+}
+
+
+def svg_tile(icon, title, subtitle, width=TILE_WIDTH, height=TILE_HEIGHT):
+    """A fixed-size dark card matching the org buttons, with an emoji icon, title and subtitle."""
+    subtitle = html_escape(subtitle)
+    top = (height - 28) / 2
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}">
+  <rect x="0.5" y="0.5" width="{width - 1}" height="{height - 1}" rx="8" fill="#161b22" stroke="#30363d"/>
+  <rect x="9" y="{top:.0f}" width="28" height="28" rx="6" fill="#21262d"/>
+  <text x="23" y="{top + 19:.0f}" font-size="15" text-anchor="middle">{icon}</text>
+  <text x="44" y="20" font-family="{FONT}" font-size="12" font-weight="600" fill="#4493f8">{html_escape(title)}</text>
+  <text x="44" y="35" font-family="{FONT}" font-size="11" fill="#9198a1">{subtitle}</text>
+</svg>"""
+
+
 def shorten(text, limit):
     text = (text or "").strip().replace("|", "-")
     if len(text) <= limit:
@@ -549,8 +572,10 @@ class ReadmeUpdater:
         try:
             all_nodes = self._fetch_repo_nodes()
             if all_nodes is None:
-                self.log("GraphQL failed, falling back to REST")
-                return self._get_repos_rest()
+                # The REST API has no language sizes, logo or default-branch data, so a REST
+                # fallback would publish an empty language section. Keep the last README instead.
+                self.log("GraphQL failed, keeping the existing README")
+                return False
 
             self.repos = []
             self.data.repo_languages = {}
@@ -589,34 +614,6 @@ class ReadmeUpdater:
             return True
         except Exception as e:
             self.log("GraphQL get_repos error: " + str(e))
-            raise UpdaterError("Failed reading repos") from e
-
-    def _get_repos_rest(self):
-        """Fallback REST-based repo fetching."""
-        try:
-            page = 1
-            self.repos = []
-            while True:
-                url = self.config["repos_url"] + "&page=" + str(page)
-                self.log(url)
-                r = self.web_request_retry(url)
-                if r is False:
-                    return False
-                self.log("got page " + str(page))
-                res = r.json()
-
-                if len(res) == 0:
-                    self.log("no repos, break")
-                    break
-
-                # Never list private repos on the public profile
-                self.repos = self.repos + [x for x in res if not x.get("private", False)]
-                page += 1
-
-            self.repos.sort(key=lambda x: x["updated_at"], reverse=True)
-            self.log("Got repos via REST")
-            return True
-        except Exception as e:
             raise UpdaterError("Failed reading repos") from e
 
     def _year_ordered(self, repos):
@@ -777,6 +774,11 @@ class ReadmeUpdater:
             )
         self._fill(tag, html)
         latest = shorten(rows[0]["title_raw"], 26) if rows else "none yet"
+        icon, title = TILES[prefix]
+        os.makedirs("generated/tiles", exist_ok=True)
+        with open("generated/tiles/" + prefix + ".svg", "w", encoding="utf-8") as f:
+            f.write(svg_tile(icon, title, str(len(rows)) + " · " + shorten(rows[0]["title_raw"], 17) if rows else "0"))
+        self.template = self.template.replace("{" + prefix + "_link}", more_url)
         self.template = self.template.replace("{" + prefix + "_count}", str(len(rows)))
         self.template = self.template.replace("{" + prefix + "_latest}", html_escape(latest))
         self.template = self.template.replace("{" + prefix + "_latest_rel}", rows[0]["rel"] if rows else "")
@@ -933,6 +935,9 @@ class ReadmeUpdater:
         self.log("Wrote generated/timeline.svg and generated/languages_bar.svg")
 
     def generate_readme(self):
+        if not self.data.total_lines_lang:
+            self.log("No language data, keeping the existing README")
+            return False
         try:
             self.generate_orgs()
             self.generate_repos()

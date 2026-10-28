@@ -8,14 +8,12 @@
 <img alt="Profile views" src="https://komarev.com/ghpvc/?username=dmzoneill&color=brightgreen&style=for-the-badge"/>
 </p>
 
-<table>
-<tr>
-<td align="center" valign="top" width="25%">📝<br/><b><big>24</big></b><br/><sub>Gists</sub><br/><sub>XDock test badges</sub><br/><img src="images/spacer.svg" width="188" height="1" alt=""/></td>
-<td align="center" valign="top" width="25%">🟢<br/><b><big>68</big></b><br/><sub>Issues</sub><br/><sub>Issue with Lidarr…</sub><br/><img src="images/spacer.svg" width="188" height="1" alt=""/></td>
-<td align="center" valign="top" width="25%">🔀<br/><b><big>7</big></b><br/><sub>Pull requests</sub><br/><sub>Replace committed…</sub><br/><img src="images/spacer.svg" width="188" height="1" alt=""/></td>
-<td align="center" valign="top" width="25%">⚡<br/><b><big>35</big></b><br/><sub>Activity</sub><br/><sub>Pushed to main</sub><br/><img src="images/spacer.svg" width="188" height="1" alt=""/></td>
-</tr>
-</table>
+<p align="center">
+<a href="https://gist.github.com/dmzoneill"><img src="generated/tiles/gist.svg" width="176" height="46" alt="Gists: 24"/></a>
+<a href="https://github.com/issues?q=is%3Aissue+is%3Aopen+archived%3Afalse+user%3Admzoneill"><img src="generated/tiles/issue.svg" width="176" height="46" alt="Issues: 68"/></a>
+<a href="https://github.com/pulls?q=is%3Apr+is%3Aopen+author%3Admzoneill"><img src="generated/tiles/pr.svg" width="176" height="46" alt="Pull requests: 5"/></a>
+<a href="https://github.com/dmzoneill"><img src="generated/tiles/activity.svg" width="176" height="46" alt="Activity: 35"/></a>
+</p>
 
 <details>
 <summary>📝 <b>Gists</b> · 24 · <sub>latest 2d ago</sub></summary>
@@ -52,11 +50,9 @@
 </table>
 </details>
 <details>
-<summary>🔀 <b>Pull requests</b> · 7 · <sub>latest 4m ago</sub></summary>
+<summary>🔀 <b>Pull requests</b> · 5 · <sub>latest 1m ago</sub></summary>
 <table>
-<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/shannon.ir.intel.com/pull/4">Replace committed WordPress secrets with placeholders</a><br/><sub><code>shannon.ir.intel.com#4</code></sub></td><td align="right"><sub>4m ago</sub></td></tr>
-<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/www.linux-group-policy.com/pull/3">Replace committed WordPress secrets with placeholders</a><br/><sub><code>www.linux-group-policy.com#3</code></sub></td><td align="right"><sub>4m ago</sub></td></tr>
-<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/www.feeditout.com1/pull/3">Replace committed WordPress secrets with placeholders</a><br/><sub><code>www.feeditout.com1#3</code></sub></td><td align="right"><sub>5m ago</sub></td></tr>
+<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/www.feeditout.com1/pull/3">Replace committed WordPress secrets with placeholders</a><br/><sub><code>www.feeditout.com1#3</code></sub></td><td align="right"><sub>1m ago</sub></td></tr>
 <tr><td>🔀</td><td><a href="https://github.com/ansible/awx/pull/16601">fix(notifications): handle empty string and string UIDs for Grafana…</a><br/><sub><code>awx#16601</code></sub></td><td align="right"><sub>3d ago</sub></td></tr>
 <tr><td>🔀</td><td><a href="https://github.com/netbirdio/netbird/pull/7719">[client] Detect underlying network and VPN disconnect events on Linux</a><br/><sub><code>netbird#7719</code></sub></td><td align="right"><sub>4d ago</sub></td></tr>
 <tr><td>🔀</td><td><a href="https://github.com/gnome-terminator/terminator/pull/1056">fix: convert enabled string to boolean in custom commands</a><br/><sub><code>terminator#1056</code></sub></td><td align="right"><sub>1w ago</sub></td></tr>
@@ -73,7 +69,7 @@
 <tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/ashtangayogacork.ie-assets/commits/main">Pushed to main</a><br/><sub><code>ashtangayogacork.ie-assets</code></sub></td><td align="right"><sub>20h ago</sub></td></tr>
 <tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/android-digiweb-usage/commits/main">Pushed to main</a><br/><sub><code>android-digiweb-usage</code></sub></td><td align="right"><sub>20h ago</sub></td></tr>
 <tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/EC-SI-DotNetAsyncServiceNow/commits/main">Pushed to main</a><br/><sub><code>EC-SI-DotNetAsyncServiceNow</code></sub></td><td align="right"><sub>20h ago</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/EC-SI-DotNetAsyncServiceNow/commits/add-repo-logo">Pushed to add-repo-logo</a><br/><sub><code>EC-SI-DotNetAsyncServiceNow</code></sub></td><td align="right"><sub>20h ago</sub></td></tr>
+<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/EC-SI-DotNetAsyncServiceNow/commits/add-repo-logo">Pushed to add-repo-logo</a><br/><sub><code>EC-SI-DotNetAsyncServiceNow</code></sub></td><td align="right"><sub>21h ago</sub></td></tr>
 <tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/ashtangayogacork.ie-wearos/commits/add-repo-logo">Pushed to add-repo-logo</a><br/><sub><code>ashtangayogacork.ie-wearos</code></sub></td><td align="right"><sub>21h ago</sub></td></tr>
 <tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/OC-Jenkins/commits/main">Pushed to main</a><br/><sub><code>OC-Jenkins</code></sub></td><td align="right"><sub>21h ago</sub></td></tr>
 <tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/MergedLogTimeline/commits/add-repo-logo">Pushed to add-repo-logo</a><br/><sub><code>MergedLogTimeline</code></sub></td><td align="right"><sub>21h ago</sub></td></tr>

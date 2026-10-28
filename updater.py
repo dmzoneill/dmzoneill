@@ -104,6 +104,7 @@ LANG_COLOURS = {
 }
 TOP_LANGUAGES = 20
 LIST_LIMIT = 10
+SEARCH_ATTEMPTS = 4
 FEATURED_COUNT = 6
 PROFILE_LOGO = "https://raw.githubusercontent.com/dmzoneill/dmzoneill/main/.github/logo.png"
 RECENT_ICONS = {
@@ -332,6 +333,10 @@ class PermanentCache:
 
 class UpdaterError(Exception):
     """Raised when part of the profile README cannot be generated."""
+
+
+class SearchIncompleteError(UpdaterError):
+    """Raised when GitHub search keeps returning incomplete results."""
 
 
 @dataclass
@@ -741,19 +746,38 @@ class ReadmeUpdater:
         parts = url.split("/")
         return parts[3] + "/" + parts[4], parts[-1]
 
-    def _search(self, query):
-        """Return every item matching a GitHub issue search query."""
+    def _search_once(self, query):
         items = []
+        total = 0
         for page in range(1, 11):
             url = "https://api.github.com/search/issues?per_page=100&page=" + str(page) + "&q=" + query
             res = self.web_request_retry(url)
             if res is False:
-                break
-            batch = res.json().get("items", [])
+                return None
+            body = res.json()
+            total = body.get("total_count", 0)
+            batch = body.get("items", [])
             items.extend(batch)
             if len(batch) < 100:
                 break
-        return sorted(items, key=lambda x: x.get("updated_at", ""), reverse=True)
+        return items, total
+
+    def _search(self, query):
+        """Return every item matching a GitHub issue search query.
+
+        The search API intermittently returns too few (or zero) items, so retry until the
+        item count matches total_count; raise rather than publish a wrong count.
+        """
+        for attempt in range(SEARCH_ATTEMPTS):
+            result = self._search_once(query)
+            if result is not None:
+                items, total = result
+                final = attempt == SEARCH_ATTEMPTS - 1
+                if len(items) >= min(total, 1000) and (items or final):
+                    return sorted(items, key=lambda x: x.get("updated_at", ""), reverse=True)
+            self.log("Search incomplete for " + query + " (attempt " + str(attempt + 1) + ")")
+            time.sleep(5 * (attempt + 1))
+        raise SearchIncompleteError("Search results incomplete for " + query)
 
     def _fill_section(self, tag, prefix, rows, more_url):
         """Fill a top-area list: the first LIST_LIMIT rows, a "more" link, the count and the latest item."""
@@ -961,6 +985,10 @@ class ReadmeUpdater:
             with open("README.md", "w", encoding="utf-8") as f:
                 f.write(self.template)
             return True
+
+        except SearchIncompleteError as e:
+            self.log(str(e) + ", keeping the existing README")
+            return False
 
         except Exception as e:
             raise UpdaterError("Failed generating readme") from e

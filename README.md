@@ -4,7 +4,7 @@
 <p align="center">
 <a href="https://github.com/dmzoneill"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white"/></a>
 <a href="https://www.linkedin.com/in/dmzoneill/"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-<img alt="Last updated" src="https://img.shields.io/badge/updated-2026--10--27-brightgreen?style=for-the-badge"/>
+<img alt="Last updated" src="https://img.shields.io/badge/updated-2026--10--28-brightgreen?style=for-the-badge"/>
 <img alt="Profile views" src="https://komarev.com/ghpvc/?username=dmzoneill&color=brightgreen&style=for-the-badge"/>
 </p>
 
@@ -13,7 +13,7 @@
 <td align="center" valign="top" width="25%">📝<br/><b><big>24</big></b><br/><sub>Gists</sub><br/><sub>XDock test badges</sub></td>
 <td align="center" valign="top" width="25%">🟢<br/><b><big>68</big></b><br/><sub>Issues</sub><br/><sub>Issue with Lidarr…</sub></td>
 <td align="center" valign="top" width="25%">🔀<br/><b><big>4</big></b><br/><sub>Pull requests</sub><br/><sub>fix(notifications):…</sub></td>
-<td align="center" valign="top" width="25%">⚡<br/><b><big>42</big></b><br/><sub>Activity</sub><br/><sub>Pushed to main</sub></td>
+<td align="center" valign="top" width="25%">⚡<br/><b><big>40</big></b><br/><sub>Activity</sub><br/><sub>Pushed to add-repo-logo</sub></td>
 </tr>
 </table>
 
@@ -22,7 +22,7 @@
 <table>
 <tr><td>📄</td><td><a href="https://gist.github.com/dmzoneill/93eef357f1e61f8d337a348fa5c180f0">XDock test badges</a><br/><sub><code>xdock-coverage.json</code></sub></td><td align="right"><sub>1d ago</sub></td></tr>
 <tr><td>📄</td><td><a href="https://gist.github.com/dmzoneill/af4a56c98fe185a9b14abba35bb5c29b">Complete Guide: Multi-Instance Ollama Setup with NPU, Intel GPU, and…</a><br/><sub><code>Complete Guide:…</code></sub></td><td align="right"><sub>4d ago</sub></td></tr>
-<tr><td>📄</td><td><a href="https://gist.github.com/dmzoneill/441f88a5c73136b8128c252ad84100b3">Tampermonkey script to clean up Slack and Jira messages with ChatGPT</a><br/><sub><code>slack-tapermoneky.js</code></sub></td><td align="right"><sub>5d ago</sub></td></tr>
+<tr><td>📄</td><td><a href="https://gist.github.com/dmzoneill/441f88a5c73136b8128c252ad84100b3">Tampermonkey script to clean up Slack and Jira messages with ChatGPT</a><br/><sub><code>slack-tapermoneky.js</code></sub></td><td align="right"><sub>6d ago</sub></td></tr>
 <tr><td>📄</td><td><a href="https://gist.github.com/dmzoneill/67a908fb949dc95bbbf02f0446a07f0a">PHP script that writes a name from the URL onto a JPEG image with GD</a><br/><sub><code>gistfile1.txt</code></sub></td><td align="right"><sub>1w ago</sub></td></tr>
 <tr><td>📄</td><td><a href="https://gist.github.com/dmzoneill/d13d88b16d4d0aa90cb108a00ab3cf01">Linux sysctl and ethtool tuning for 10GbE networking</a><br/><sub><code>10gb.txt</code></sub></td><td align="right"><sub>1w ago</sub></td></tr>
 <tr><td>📄</td><td><a href="https://gist.github.com/dmzoneill/cbc75e502dbe2b78651f68d6320b714a">Automation Analytics Postgres pg_stat_activity active queries dump</a><br/><sub><code>AA active queries.txt</code></sub></td><td align="right"><sub>1w ago</sub></td></tr>
@@ -62,19 +62,19 @@
 </table>
 </details>
 <details>
-<summary>⚡ <b>Activity</b> · 42 · <sub>latest 11h ago</sub></summary>
+<summary>⚡ <b>Activity</b> · 40 · <sub>latest 12h ago</sub></summary>
 <table>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/sender/commits/main">Pushed to main</a><br/><sub><code>sender</code></sub></td><td align="right"><sub>11h ago</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/lm051-cs4146-document-architectures/commits/main">Pushed to main</a><br/><sub><code>lm051-cs4146-document-architectures</code></sub></td><td align="right"><sub>11h ago</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/Leecharr/commits/main">Pushed to main</a><br/><sub><code>Leecharr</code></sub></td><td align="right"><sub>14h ago</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/www.feeditout.com-2008/commits/main">Pushed to main</a><br/><sub><code>www.feeditout.com-2008</code></sub></td><td align="right"><sub>10h ago</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/www.antoyau.com/commits/main">Pushed to main</a><br/><sub><code>www.antoyau.com</code></sub></td><td align="right"><sub>10h ago</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/synology-download-assistance-chrome-extension/commits/main">Pushed to main</a><br/><sub><code>synology-download-assistance-chrome-extension</code></sub></td><td align="right"><sub>10h ago</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/clickhere-interopservices-workgroup-machines/commits/main">Pushed to main</a><br/><sub><code>clickhere-interopservices-workgroup-machines</code></sub></td><td align="right"><sub>11h ago</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/meteor-android-widget/commits/main">Pushed to main</a><br/><sub><code>meteor-android-widget</code></sub></td><td align="right"><sub>12h ago</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/OC-Jenkins/commits/main">Pushed to main</a><br/><sub><code>OC-Jenkins</code></sub></td><td align="right"><sub>12h ago</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/www.nemohackers.org3/commits/main">Pushed to main</a><br/><sub><code>www.nemohackers.org3</code></sub></td><td align="right"><sub>10h ago</sub></td></tr>
-<tr><td></td><td><a href='https://github.com/dmzoneill'>+32 more</a></td><td></td></tr>
+<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/jackett-indexarr/commits/add-repo-logo">Pushed to add-repo-logo</a><br/><sub><code>jackett-indexarr</code></sub></td><td align="right"><sub>12h ago</sub></td></tr>
+<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/passmate/commits/main">Pushed to main</a><br/><sub><code>passmate</code></sub></td><td align="right"><sub>11h ago</sub></td></tr>
+<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/eVacation/commits/main">Pushed to main</a><br/><sub><code>eVacation</code></sub></td><td align="right"><sub>12h ago</sub></td></tr>
+<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/urban-dictionary/commits/main">Pushed to main</a><br/><sub><code>urban-dictionary</code></sub></td><td align="right"><sub>11h ago</sub></td></tr>
+<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/MattersHighLight/commits/main">Pushed to main</a><br/><sub><code>MattersHighLight</code></sub></td><td align="right"><sub>11h ago</sub></td></tr>
+<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/aib-android-app/commits/main">Pushed to main</a><br/><sub><code>aib-android-app</code></sub></td><td align="right"><sub>12h ago</sub></td></tr>
+<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/mono-gtk-smart/commits/main">Pushed to main</a><br/><sub><code>mono-gtk-smart</code></sub></td><td align="right"><sub>15h ago</sub></td></tr>
+<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/mono-gtk-monomerge/commits/main">Pushed to main</a><br/><sub><code>mono-gtk-monomerge</code></sub></td><td align="right"><sub>15h ago</sub></td></tr>
+<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/Xenith/commits/add-repo-logo">Pushed to add-repo-logo</a><br/><sub><code>Xenith</code></sub></td><td align="right"><sub>12h ago</sub></td></tr>
+<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/jackett-indexarr/commits/main">Pushed to main</a><br/><sub><code>jackett-indexarr</code></sub></td><td align="right"><sub>11h ago</sub></td></tr>
+<tr><td></td><td><a href='https://github.com/dmzoneill'>+30 more</a></td><td></td></tr>
 
 </table>
 </details>

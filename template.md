@@ -8,14 +8,12 @@
 <img alt="Profile views" src="https://komarev.com/ghpvc/?username=dmzoneill&color=brightgreen&style=for-the-badge"/>
 </p>
 
-<table>
-<tr>
-<td align="center" valign="top" width="25%">📝<br/><b><big>{gist_count}</big></b><br/><sub>Gists</sub><br/><sub>{gist_latest}</sub><br/><img src="images/spacer.svg" width="188" height="1" alt=""/></td>
-<td align="center" valign="top" width="25%">🟢<br/><b><big>{issue_count}</big></b><br/><sub>Issues</sub><br/><sub>{issue_latest}</sub><br/><img src="images/spacer.svg" width="188" height="1" alt=""/></td>
-<td align="center" valign="top" width="25%">🔀<br/><b><big>{pr_count}</big></b><br/><sub>Pull requests</sub><br/><sub>{pr_latest}</sub><br/><img src="images/spacer.svg" width="188" height="1" alt=""/></td>
-<td align="center" valign="top" width="25%">⚡<br/><b><big>{activity_count}</big></b><br/><sub>Activity</sub><br/><sub>{activity_latest}</sub><br/><img src="images/spacer.svg" width="188" height="1" alt=""/></td>
-</tr>
-</table>
+<p align="center">
+<a href="{gist_link}"><img src="generated/tiles/gist.svg" width="176" height="46" alt="Gists: {gist_count}"/></a>
+<a href="{issue_link}"><img src="generated/tiles/issue.svg" width="176" height="46" alt="Issues: {issue_count}"/></a>
+<a href="{pr_link}"><img src="generated/tiles/pr.svg" width="176" height="46" alt="Pull requests: {pr_count}"/></a>
+<a href="{activity_link}"><img src="generated/tiles/activity.svg" width="176" height="46" alt="Activity: {activity_count}"/></a>
+</p>
 
 <details>
 <summary>📝 <b>Gists</b> · {gist_count} · <sub>latest {gist_latest_rel}</sub></summary>

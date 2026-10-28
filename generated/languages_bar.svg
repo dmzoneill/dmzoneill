@@ -2,7 +2,7 @@
   <clipPath id="r"><rect width="860" height="14" rx="7"/></clipPath>
   <g clip-path="url(#r)">
   <rect x="0.00" y="0" width="379.75" height="14" fill="#4F5D95"/>
-  <rect x="379.75" y="0" width="105.52" height="14" fill="#178600"/>
+  <rect x="379.75" y="0" width="105.53" height="14" fill="#178600"/>
   <rect x="485.27" y="0" width="74.20" height="14" fill="#f1e05a"/>
   <rect x="559.48" y="0" width="57.72" height="14" fill="#3178c6"/>
   <rect x="617.20" y="0" width="48.59" height="14" fill="#3572A5"/>

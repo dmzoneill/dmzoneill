@@ -104,6 +104,7 @@ LANG_COLOURS = {
 }
 TOP_LANGUAGES = 20
 LIST_LIMIT = 10
+SEARCH_ATTEMPTS = 4
 FEATURED_COUNT = 6
 PROFILE_LOGO = "https://raw.githubusercontent.com/dmzoneill/dmzoneill/main/.github/logo.png"
 RECENT_ICONS = {
@@ -163,6 +164,29 @@ def svg_org_button(label, count, avatar_uri, width=ORG_BUTTON_WIDTH, height=ORG_
   {avatar}
   <text x="44" y="20" font-family="{FONT}" font-size="12" font-weight="600" fill="#4493f8"{fit}>{label}</text>
   <text x="44" y="35" font-family="{FONT}" font-size="11" fill="#9198a1">{count}</text>
+</svg>"""
+
+
+TILE_WIDTH = 176
+TILE_HEIGHT = 46
+TILES = {
+    "gist": ("📝", "Gists"),
+    "issue": ("🟢", "Issues"),
+    "pr": ("🔀", "Pull requests"),
+    "activity": ("⚡", "Activity"),
+}
+
+
+def svg_tile(icon, title, subtitle, width=TILE_WIDTH, height=TILE_HEIGHT):
+    """A fixed-size dark card matching the org buttons, with an emoji icon, title and subtitle."""
+    subtitle = html_escape(subtitle)
+    top = (height - 28) / 2
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}">
+  <rect x="0.5" y="0.5" width="{width - 1}" height="{height - 1}" rx="8" fill="#161b22" stroke="#30363d"/>
+  <rect x="9" y="{top:.0f}" width="28" height="28" rx="6" fill="#21262d"/>
+  <text x="23" y="{top + 19:.0f}" font-size="15" text-anchor="middle">{icon}</text>
+  <text x="44" y="20" font-family="{FONT}" font-size="12" font-weight="600" fill="#4493f8">{html_escape(title)}</text>
+  <text x="44" y="35" font-family="{FONT}" font-size="11" fill="#9198a1">{subtitle}</text>
 </svg>"""
 
 
@@ -309,6 +333,10 @@ class PermanentCache:
 
 class UpdaterError(Exception):
     """Raised when part of the profile README cannot be generated."""
+
+
+class SearchIncompleteError(UpdaterError):
+    """Raised when GitHub search keeps returning incomplete results."""
 
 
 @dataclass
@@ -549,8 +577,10 @@ class ReadmeUpdater:
         try:
             all_nodes = self._fetch_repo_nodes()
             if all_nodes is None:
-                self.log("GraphQL failed, falling back to REST")
-                return self._get_repos_rest()
+                # The REST API has no language sizes, logo or default-branch data, so a REST
+                # fallback would publish an empty language section. Keep the last README instead.
+                self.log("GraphQL failed, keeping the existing README")
+                return False
 
             self.repos = []
             self.data.repo_languages = {}
@@ -589,34 +619,6 @@ class ReadmeUpdater:
             return True
         except Exception as e:
             self.log("GraphQL get_repos error: " + str(e))
-            raise UpdaterError("Failed reading repos") from e
-
-    def _get_repos_rest(self):
-        """Fallback REST-based repo fetching."""
-        try:
-            page = 1
-            self.repos = []
-            while True:
-                url = self.config["repos_url"] + "&page=" + str(page)
-                self.log(url)
-                r = self.web_request_retry(url)
-                if r is False:
-                    return False
-                self.log("got page " + str(page))
-                res = r.json()
-
-                if len(res) == 0:
-                    self.log("no repos, break")
-                    break
-
-                # Never list private repos on the public profile
-                self.repos = self.repos + [x for x in res if not x.get("private", False)]
-                page += 1
-
-            self.repos.sort(key=lambda x: x["updated_at"], reverse=True)
-            self.log("Got repos via REST")
-            return True
-        except Exception as e:
             raise UpdaterError("Failed reading repos") from e
 
     def _year_ordered(self, repos):
@@ -744,19 +746,38 @@ class ReadmeUpdater:
         parts = url.split("/")
         return parts[3] + "/" + parts[4], parts[-1]
 
-    def _search(self, query):
-        """Return every item matching a GitHub issue search query."""
+    def _search_once(self, query):
         items = []
+        total = 0
         for page in range(1, 11):
             url = "https://api.github.com/search/issues?per_page=100&page=" + str(page) + "&q=" + query
             res = self.web_request_retry(url)
             if res is False:
-                break
-            batch = res.json().get("items", [])
+                return None
+            body = res.json()
+            total = body.get("total_count", 0)
+            batch = body.get("items", [])
             items.extend(batch)
             if len(batch) < 100:
                 break
-        return sorted(items, key=lambda x: x.get("updated_at", ""), reverse=True)
+        return items, total
+
+    def _search(self, query):
+        """Return every item matching a GitHub issue search query.
+
+        The search API intermittently returns too few (or zero) items, so retry until the
+        item count matches total_count; raise rather than publish a wrong count.
+        """
+        for attempt in range(SEARCH_ATTEMPTS):
+            result = self._search_once(query)
+            if result is not None:
+                items, total = result
+                final = attempt == SEARCH_ATTEMPTS - 1
+                if len(items) >= min(total, 1000) and (items or final):
+                    return sorted(items, key=lambda x: x.get("updated_at", ""), reverse=True)
+            self.log("Search incomplete for " + query + " (attempt " + str(attempt + 1) + ")")
+            time.sleep(5 * (attempt + 1))
+        raise SearchIncompleteError("Search results incomplete for " + query)
 
     def _fill_section(self, tag, prefix, rows, more_url):
         """Fill a top-area list: the first LIST_LIMIT rows, a "more" link, the count and the latest item."""
@@ -777,6 +798,11 @@ class ReadmeUpdater:
             )
         self._fill(tag, html)
         latest = shorten(rows[0]["title_raw"], 26) if rows else "none yet"
+        icon, title = TILES[prefix]
+        os.makedirs("generated/tiles", exist_ok=True)
+        with open("generated/tiles/" + prefix + ".svg", "w", encoding="utf-8") as f:
+            f.write(svg_tile(icon, title, str(len(rows)) + " · " + shorten(rows[0]["title_raw"], 17) if rows else "0"))
+        self.template = self.template.replace("{" + prefix + "_link}", more_url)
         self.template = self.template.replace("{" + prefix + "_count}", str(len(rows)))
         self.template = self.template.replace("{" + prefix + "_latest}", html_escape(latest))
         self.template = self.template.replace("{" + prefix + "_latest_rel}", rows[0]["rel"] if rows else "")
@@ -933,6 +959,9 @@ class ReadmeUpdater:
         self.log("Wrote generated/timeline.svg and generated/languages_bar.svg")
 
     def generate_readme(self):
+        if not self.data.total_lines_lang:
+            self.log("No language data, keeping the existing README")
+            return False
         try:
             self.generate_orgs()
             self.generate_repos()
@@ -956,6 +985,10 @@ class ReadmeUpdater:
             with open("README.md", "w", encoding="utf-8") as f:
                 f.write(self.template)
             return True
+
+        except SearchIncompleteError as e:
+            self.log(str(e) + ", keeping the existing README")
+            return False
 
         except Exception as e:
             raise UpdaterError("Failed generating readme") from e

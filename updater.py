@@ -10,6 +10,13 @@ from operator import itemgetter
 
 import requests
 
+from first_commit import (
+    CACHE_PREFIX,
+    by_first_commit,
+    fetch_first_commit_date,
+    first_commit_year,
+)
+
 RE_FLAGS = re.IGNORECASE | re.MULTILINE | re.DOTALL
 REQUEST_TIMEOUT = 30
 
@@ -35,7 +42,7 @@ def _timeline_marker(x, line_y, r, year, count):
 def _count_years(repos):
     year_counts = defaultdict(int)
     for r in repos:
-        y = r.get("first_commit_year") or r.get("get_first_commit_date") or r.get("created_at", "")[:4]
+        y = first_commit_year(r)
         if y and str(y).isdigit():
             year_counts[int(y)] += 1
     return year_counts
@@ -530,33 +537,17 @@ class ReadmeUpdater:
             time.sleep(1)
         return None
 
-    def get_first_commit_date_http(self, repo):
-        cache_key = "first_commit:" + repo
+    def first_commit_date(self, repo):
+        cache_key = CACHE_PREFIX + repo["name"]
         cached = self.perm_cache.get(cache_key)
-        if cached is not None:
-            self.log("Permanent cache hit for first commit: " + repo)
+        if cached:
             return cached
-
-        next_url = None
-
-        url = self.config["user_repos_url"] + "/" + repo + "/commits?sha=main&per_page=1&page=1"
-        self.log(url)
-        r = self.web_request_retry(url)
-        if r is not False and "link" in r.headers:
-            parts = r.headers["link"].split("<")
-            if len(parts) > 2:
-                next_url = parts[2].split(">")[0]
-
-        if next_url is not None:
-            r = self.web_request_retry(next_url)
-            if r is not False:
-                year = r.json()[0]["commit"]["author"]["date"].split("-")[0]
-                self.log(year)
-                self.perm_cache.set(cache_key, year)
-                return year
-
-        self.log("failed")
-        return ""
+        date = fetch_first_commit_date(self.web_request_retry, self.config["user_repos_url"], repo)
+        if date:
+            self.perm_cache.set(cache_key, date)
+        else:
+            self.log("First commit not found, falling back to created_at: " + repo["name"])
+        return date or repo.get("created_at", "")
 
     def _fetch_repo_nodes(self):
         """Return every repo node from GraphQL, or None if GraphQL failed."""
@@ -622,9 +613,8 @@ class ReadmeUpdater:
             raise UpdaterError("Failed reading repos") from e
 
     def _showcase_repos(self):
-        """Public, non-fork, non-archived repos, most recently pushed first."""
-        repos = [r for r in self.repos if not r.get("fork") and not r.get("archived")]
-        return sorted(repos, key=lambda r: r.get("pushed_at") or "", reverse=True)
+        """Public, non-fork, non-archived repos, newest first commit first."""
+        return by_first_commit([r for r in self.repos if not r.get("fork") and not r.get("archived")])
 
     def _logo_url(self, repo):
         if repo.get("has_logo"):
@@ -652,7 +642,7 @@ class ReadmeUpdater:
             "{lang_dot}": ("<img src='" + self._dot_url(language) + "' width='10' height='10'/> " if language else ""),
             "{language}": language,
             "{stars}": ("★ " + str(stars)) if stars else "",
-            "{year}": (repo.get("created_at") or "")[:4],
+            "{year}": first_commit_year(repo),
             "{badge_html}": self._badge_html(repo),
         }
         card = card_template
@@ -707,10 +697,11 @@ class ReadmeUpdater:
         try:
             repos = self._showcase_repos()
             for fetched, repo in enumerate(repos, start=1):
-                repo["get_first_commit_date"] = self.get_first_commit_date_http(repo["name"])
+                repo["first_commit_date"] = self.first_commit_date(repo)
                 if fetched % 20 == 0:
                     self.perm_cache.save()
             self.perm_cache.save()
+            repos = by_first_commit(repos)
             self._render_grid("featured", self._featured_repos(repos), 3, 90)
             self._render_year_sections(repos)
             self.template = self.template.replace("{repo_count}", str(len(repos)))
@@ -722,13 +713,13 @@ class ReadmeUpdater:
         by_name = {r["name"]: r for r in repos}
         featured = [by_name[n] for n in self.config.get("featured", []) if n in by_name]
         top = sorted(repos, key=lambda r: r.get("stargazers_count", 0), reverse=True)[:FEATURED_COUNT]
-        return featured + [r for r in top if r not in featured]
+        return by_first_commit(featured + [r for r in top if r not in featured])
 
     def _render_year_sections(self, repos):
         section_template, saved, sections = self._item_template("years"), self.template, ""
         by_year = defaultdict(list)
-        for repo in sorted(repos, key=lambda r: r.get("pushed_at") or "", reverse=True):
-            by_year[repo["created_at"][:4]].append(repo)
+        for repo in by_first_commit(repos):
+            by_year[first_commit_year(repo)].append(repo)
         for year in sorted(by_year, reverse=True):
             self.template = section_template.replace("{section_year}", year)
             self.template = self.template.replace("{section_count}", str(len(by_year[year])))

@@ -621,21 +621,6 @@ class ReadmeUpdater:
             self.log("GraphQL get_repos error: " + str(e))
             raise UpdaterError("Failed reading repos") from e
 
-    def _year_ordered(self, repos):
-        """Order used by the original profile: live repos first (most recently pushed first),
-        then the rest by first-commit year, newest first, ties kept in most-recently-updated order."""
-        live = self.config["live"]
-        by_updated = sorted(repos, key=lambda r: r.get("updated_at") or "", reverse=True)
-        live_repos = sorted(
-            [r for r in by_updated if r["name"] in live], key=lambda r: r.get("pushed_at") or "", reverse=True
-        )
-        old_repos = sorted(
-            [r for r in by_updated if r["name"] not in live],
-            key=lambda r: str(r.get("get_first_commit_date") or ""),
-            reverse=True,
-        )
-        return live_repos + old_repos
-
     def _showcase_repos(self):
         """Public, non-fork, non-archived repos, most recently pushed first."""
         repos = [r for r in self.repos if not r.get("fork") and not r.get("archived")]
@@ -667,7 +652,7 @@ class ReadmeUpdater:
             "{lang_dot}": ("<img src='" + self._dot_url(language) + "' width='10' height='10'/> " if language else ""),
             "{language}": language,
             "{stars}": ("★ " + str(stars)) if stars else "",
-            "{year}": str(repo.get("get_first_commit_date") or (repo.get("created_at") or "")[:4]),
+            "{year}": (repo.get("created_at") or "")[:4],
             "{badge_html}": self._badge_html(repo),
         }
         card = card_template
@@ -726,14 +711,31 @@ class ReadmeUpdater:
                 if fetched % 20 == 0:
                     self.perm_cache.save()
             self.perm_cache.save()
-
-            featured = sorted(repos, key=lambda r: r.get("stargazers_count", 0), reverse=True)[:FEATURED_COUNT]
-            self._render_grid("featured", featured, 3, 90)
-            self._render_grid("repos", self._year_ordered(repos), 3, 60)
+            self._render_grid("featured", self._featured_repos(repos), 3, 90)
+            self._render_year_sections(repos)
             self.template = self.template.replace("{repo_count}", str(len(repos)))
         except Exception as e:
             self.log(str(e))
             raise UpdaterError("Failed generating repo grid") from e
+
+    def _featured_repos(self, repos):
+        by_name = {r["name"]: r for r in repos}
+        featured = [by_name[n] for n in self.config.get("featured", []) if n in by_name]
+        top = sorted(repos, key=lambda r: r.get("stargazers_count", 0), reverse=True)[:FEATURED_COUNT]
+        return featured + [r for r in top if r not in featured]
+
+    def _render_year_sections(self, repos):
+        section_template, saved, sections = self._item_template("years"), self.template, ""
+        by_year = defaultdict(list)
+        for repo in sorted(repos, key=lambda r: r.get("pushed_at") or "", reverse=True):
+            by_year[repo["created_at"][:4]].append(repo)
+        for year in sorted(by_year, reverse=True):
+            self.template = section_template.replace("{section_year}", year)
+            self.template = self.template.replace("{section_count}", str(len(by_year[year])))
+            self._render_grid("repos", by_year[year], 3, 60)
+            sections += self.template + "\n"
+        self.template = saved
+        self._fill("years", sections.rstrip("\n"))
 
     def _fill(self, tag, html):
         self.template = re.sub("<" + tag + ">(.*)</" + tag + ">", lambda _m: html, self.template, flags=RE_FLAGS)

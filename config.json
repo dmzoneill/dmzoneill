@@ -11,8 +11,14 @@
   "github_url": "https://github.com/dmzoneill",
   "linkedin_url": "https://www.linkedin.com/in/dmzoneill/",
   "live": {
-    "curriculum-vitae": ["https://cv.fio.ie", "Curriculum vitae"],
-    "dmzoneill": ["https://github.com/dmzoneill", "Github profile"],
+    "curriculum-vitae": [
+      "https://cv.fio.ie",
+      "Curriculum vitae"
+    ],
+    "dmzoneill": [
+      "https://github.com/dmzoneill",
+      "Github profile"
+    ],
     "gnome-extension-publisher": [
       "https://pypi.org/project/gnome-extension-publisher/",
       "Gnome Extension Publisher PYPI package"
@@ -70,13 +76,44 @@
       "Passmate"
     ]
   },
+  "featured": [
+    "pling-publisher",
+    "securetty",
+    "gnome-extension-publisher",
+    "DFakeSeeder",
+    "lidarr-youtube-downloader",
+    "passmate",
+    "Seedarr",
+    "Leecharr",
+    "wayvox",
+    "jira-creator",
+    "redhatter"
+  ],
   "organizations": [
-    ["https://github.com/dmzoneill-forks", "My forks"],
-    ["https://github.com/RedHatInsights", "RedHat Insights"],
-    ["https://github.com/app-sre", "AppSRE"],
-    ["https://github.com/Redhat-forks", "Redhat forks"],
-    ["https://github.com/Canonical-forks", "Canonical forks"],
-    ["https://github.com/Intel-forks", "Intel forks"]
+    [
+      "https://github.com/dmzoneill-forks",
+      "My forks"
+    ],
+    [
+      "https://github.com/RedHatInsights",
+      "RedHat Insights"
+    ],
+    [
+      "https://github.com/app-sre",
+      "AppSRE"
+    ],
+    [
+      "https://github.com/Redhat-forks",
+      "Redhat forks"
+    ],
+    [
+      "https://github.com/Canonical-forks",
+      "Canonical forks"
+    ],
+    [
+      "https://github.com/Intel-forks",
+      "Intel forks"
+    ]
   ],
   "badges": {
     "Assembly": "https://img.shields.io/static/v1?style=for-the-badge&message=AssemblyScript&color=007AAC&logo=AssemblyScript&logoColor=FFFFFF&label=",
@@ -94,7 +131,7 @@
     "Shell": "https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white",
     "Make": "https://img.shields.io/badge/CMake-%23008FBA.svg?style=for-the-badge&logo=cmake&logoColor=white",
     "CMake": "https://img.shields.io/badge/CMake-%23008FBA.svg?style=for-the-badge&logo=cmake&logoColor=white",
-    "Docker": "https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white",    
+    "Docker": "https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white",
     "Dockerfile": "https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white",
     "Kotlin": "https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white",
     "TypeScript": "https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white",

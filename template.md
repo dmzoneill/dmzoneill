@@ -65,8 +65,9 @@
 </table>
 
 <h2>🗂 All projects ({repo_count})</h2>
+<years><h3>📅 {section_year} · {section_count}</h3>
 <table>
 <tr>
 <repos><td align="center" valign="top" width="33%"><a href="{html_url}"><img src="{logo_url}" width="48" alt="{name}"/><br/><b>{display_name}</b></a><br/><sub>{description}</sub><br/><sub>{lang_dot}{language} {stars} · {year}</sub>{badge_html}</td></repos>
 </tr>
-</table>
+</table></years>

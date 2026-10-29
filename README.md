@@ -11,7 +11,7 @@
 <p align="center">
 <a href="https://gist.github.com/dmzoneill"><img src="generated/tiles/gist.svg" width="176" height="46" alt="Gists: 24"/></a>
 <a href="https://github.com/issues?q=is%3Aissue+is%3Aopen+archived%3Afalse+user%3Admzoneill"><img src="generated/tiles/issue.svg" width="176" height="46" alt="Issues: 68"/></a>
-<a href="https://github.com/pulls?q=is%3Apr+is%3Aopen+author%3Admzoneill"><img src="generated/tiles/pr.svg" width="176" height="46" alt="Pull requests: 5"/></a>
+<a href="https://github.com/pulls?q=is%3Apr+is%3Aopen+author%3Admzoneill"><img src="generated/tiles/pr.svg" width="176" height="46" alt="Pull requests: 6"/></a>
 <a href="https://github.com/dmzoneill"><img src="generated/tiles/activity.svg" width="176" height="46" alt="Activity: 21"/></a>
 </p>
 
@@ -50,8 +50,9 @@
 </table>
 </details>
 <details>
-<summary>🔀 <b>Pull requests</b> · 5 · <sub>latest 5h ago</sub></summary>
+<summary>🔀 <b>Pull requests</b> · 6 · <sub>latest 7m ago</sub></summary>
 <table>
+<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/dmzoneill/pull/38">Profile: place and sort every repo by its first commit date</a><br/><sub><code>dmzoneill#38</code></sub></td><td align="right"><sub>7m ago</sub></td></tr>
 <tr><td>🔀</td><td><a href="https://github.com/dmzoneill/pling-publisher/pull/7">Remove unused pprint import</a><br/><sub><code>pling-publisher#7</code></sub></td><td align="right"><sub>5h ago</sub></td></tr>
 <tr><td>🔀</td><td><a href="https://github.com/ansible/awx/pull/16601">fix(notifications): handle empty string and string UIDs for Grafana…</a><br/><sub><code>awx#16601</code></sub></td><td align="right"><sub>4d ago</sub></td></tr>
 <tr><td>🔀</td><td><a href="https://github.com/netbirdio/netbird/pull/7719">[client] Detect underlying network and VPN disconnect events on Linux</a><br/><sub><code>netbird#7719</code></sub></td><td align="right"><sub>5d ago</sub></td></tr>

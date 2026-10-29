@@ -9,15 +9,19 @@ from datetime import datetime, timezone
 from operator import itemgetter
 
 import requests
-from first_commit import (
-    CACHE_PREFIX,
-    by_first_commit,
-    fetch_first_commit_date,
-    first_commit_year,
-)
 
 RE_FLAGS = re.IGNORECASE | re.MULTILINE | re.DOTALL
 REQUEST_TIMEOUT = 30
+
+
+def first_commit_year(repo):
+    """The year every repo on the profile is shown and grouped under."""
+    return (repo.get("first_commit_date") or "")[:4]
+
+
+def by_first_commit(repos):
+    return sorted(repos, key=lambda r: r.get("first_commit_date") or "", reverse=True)
+
 
 CACHE_FILE = "generated/cache.json"
 CACHE_TTL_HOURS = 12
@@ -537,16 +541,22 @@ class ReadmeUpdater:
         return None
 
     def first_commit_date(self, repo):
-        cache_key = CACHE_PREFIX + repo["name"]
-        cached = self.perm_cache.get(cache_key)
-        if cached:
-            return cached
-        date = fetch_first_commit_date(self.web_request_retry, self.config["user_repos_url"], repo)
-        if date:
-            self.perm_cache.set(cache_key, date)
-        else:
+        """Author date of the oldest commit on the default branch (the last page of the commit list)."""
+        key, request = "first_commit_date:" + repo["name"], self.web_request_retry
+        if self.perm_cache.get(key):
+            return self.perm_cache.get(key)
+        url = self.config["user_repos_url"] + "/" + repo["name"] + "/commits?per_page=1&sha=" + repo["default_branch"]
+        response = request(url)
+        last = (
+            re.search(r'<([^>]+)>;\s*rel="last"', response.headers.get("link", "")) if response is not False else None
+        )
+        response = request(last.group(1)) if last else response
+        commits = response.json() if response is not False else []
+        if not commits:
             self.log("First commit not found, falling back to created_at: " + repo["name"])
-        return date or repo.get("created_at", "")
+            return repo.get("created_at", "")
+        self.perm_cache.set(key, commits[-1]["commit"]["author"]["date"])
+        return commits[-1]["commit"]["author"]["date"]
 
     def _fetch_repo_nodes(self):
         """Return every repo node from GraphQL, or None if GraphQL failed."""

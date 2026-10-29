@@ -9,7 +9,6 @@ from datetime import datetime, timezone
 from operator import itemgetter
 
 import requests
-
 from first_commit import (
     CACHE_PREFIX,
     by_first_commit,

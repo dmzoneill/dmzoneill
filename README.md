@@ -4,22 +4,22 @@
 <p align="center">
 <a href="https://github.com/dmzoneill"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white"/></a>
 <a href="https://www.linkedin.com/in/dmzoneill/"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-<img alt="Last updated" src="https://img.shields.io/badge/updated-2026--10--29-brightgreen?style=for-the-badge"/>
+<img alt="Last updated" src="https://img.shields.io/badge/updated-2026--10--30-brightgreen?style=for-the-badge"/>
 <img alt="Profile views" src="https://komarev.com/ghpvc/?username=dmzoneill&color=brightgreen&style=for-the-badge"/>
 </p>
 
 <p align="center">
 <a href="https://gist.github.com/dmzoneill"><img src="generated/tiles/gist.svg" width="176" height="46" alt="Gists: 24"/></a>
 <a href="https://github.com/issues?q=is%3Aissue+is%3Aopen+archived%3Afalse+user%3Admzoneill"><img src="generated/tiles/issue.svg" width="176" height="46" alt="Issues: 68"/></a>
-<a href="https://github.com/pulls?q=is%3Apr+is%3Aopen+author%3Admzoneill"><img src="generated/tiles/pr.svg" width="176" height="46" alt="Pull requests: 6"/></a>
-<a href="https://github.com/dmzoneill"><img src="generated/tiles/activity.svg" width="176" height="46" alt="Activity: 21"/></a>
+<a href="https://github.com/pulls?q=is%3Apr+is%3Aopen+author%3Admzoneill"><img src="generated/tiles/pr.svg" width="176" height="46" alt="Pull requests: 15"/></a>
+<a href="https://github.com/dmzoneill"><img src="generated/tiles/activity.svg" width="176" height="46" alt="Activity: 20"/></a>
 </p>
 
 <details>
 <summary>📝 <b>Gists</b> · 24 · <sub>latest 3d ago</sub></summary>
 <table>
 <tr><td>📄</td><td><a href="https://gist.github.com/dmzoneill/93eef357f1e61f8d337a348fa5c180f0">XDock test badges</a><br/><sub><code>xdock-coverage.json</code></sub></td><td align="right"><sub>3d ago</sub></td></tr>
-<tr><td>📄</td><td><a href="https://gist.github.com/dmzoneill/af4a56c98fe185a9b14abba35bb5c29b">Complete Guide: Multi-Instance Ollama Setup with NPU, Intel GPU, and…</a><br/><sub><code>Complete Guide:…</code></sub></td><td align="right"><sub>5d ago</sub></td></tr>
+<tr><td>📄</td><td><a href="https://gist.github.com/dmzoneill/af4a56c98fe185a9b14abba35bb5c29b">Complete Guide: Multi-Instance Ollama Setup with NPU, Intel GPU, and…</a><br/><sub><code>Complete Guide:…</code></sub></td><td align="right"><sub>6d ago</sub></td></tr>
 <tr><td>📄</td><td><a href="https://gist.github.com/dmzoneill/441f88a5c73136b8128c252ad84100b3">Tampermonkey script to clean up Slack and Jira messages with ChatGPT</a><br/><sub><code>slack-tapermoneky.js</code></sub></td><td align="right"><sub>1w ago</sub></td></tr>
 <tr><td>📄</td><td><a href="https://gist.github.com/dmzoneill/67a908fb949dc95bbbf02f0446a07f0a">PHP script that writes a name from the URL onto a JPEG image with GD</a><br/><sub><code>gistfile1.txt</code></sub></td><td align="right"><sub>1w ago</sub></td></tr>
 <tr><td>📄</td><td><a href="https://gist.github.com/dmzoneill/d13d88b16d4d0aa90cb108a00ab3cf01">Linux sysctl and ethtool tuning for 10GbE networking</a><br/><sub><code>10gb.txt</code></sub></td><td align="right"><sub>1w ago</sub></td></tr>
@@ -33,48 +33,53 @@
 </table>
 </details>
 <details>
-<summary>🟢 <b>Issues</b> · 68 · <sub>latest 1w ago</sub></summary>
+<summary>🟢 <b>Issues</b> · 68 · <sub>latest 6m ago</sub></summary>
 <table>
-<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/lidarr-youtube-downloader/issues/21">Issue with Lidarr recognizing downloaded audio and incorrect…</a><br/><sub><code>lidarr-youtube-downloader#21</code></sub></td><td align="right"><sub>1w ago</sub></td></tr>
+<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/lidarr-youtube-downloader/issues/21">Issue with Lidarr recognizing downloaded audio and incorrect…</a><br/><sub><code>lidarr-youtube-downloader#21</code></sub></td><td align="right"><sub>6m ago</sub></td></tr>
+<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/tado-gnome-shell-extension/issues/2">Got this message after trying to enable it (Gnome45):</a><br/><sub><code>tado-gnome-shell-extension#2</code></sub></td><td align="right"><sub>6m ago</sub></td></tr>
+<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/lidarr-youtube-downloader/issues/25">Most releases found are missing tracks</a><br/><sub><code>lidarr-youtube-downloader#25</code></sub></td><td align="right"><sub>6m ago</sub></td></tr>
+<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/lidarr-youtube-downloader/issues/23">Track Format &amp; FFMPEG not adding metadata</a><br/><sub><code>lidarr-youtube-downloader#23</code></sub></td><td align="right"><sub>6m ago</sub></td></tr>
+<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/DFakeSeeder/issues/15">Question about sessions and events.</a><br/><sub><code>DFakeSeeder#15</code></sub></td><td align="right"><sub>6m ago</sub></td></tr>
+<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/lidarr-youtube-downloader/issues/29">[FR] Only search for missing songs from artists with a given tag</a><br/><sub><code>lidarr-youtube-downloader#29</code></sub></td><td align="right"><sub>7m ago</sub></td></tr>
+<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/lidarr-youtube-downloader/issues/28">Stuck?</a><br/><sub><code>lidarr-youtube-downloader#28</code></sub></td><td align="right"><sub>7m ago</sub></td></tr>
 <tr><td>🟢</td><td><a href="https://github.com/dmzoneill/ansible-feeditout-com/issues/456">[ALERT] PrometheusTargetDown —</a><br/><sub><code>ansible-feeditout-com#456</code></sub></td><td align="right"><sub>1mo ago</sub></td></tr>
 <tr><td>🟢</td><td><a href="https://github.com/dmzoneill/ansible-feeditout-com/issues/454">[ALERT] SystemdUnitFailed —</a><br/><sub><code>ansible-feeditout-com#454</code></sub></td><td align="right"><sub>1mo ago</sub></td></tr>
 <tr><td>🟢</td><td><a href="https://github.com/dmzoneill/ansible-feeditout-com/issues/455">[ALERT] HighTcpConnections —</a><br/><sub><code>ansible-feeditout-com#455</code></sub></td><td align="right"><sub>1mo ago</sub></td></tr>
-<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/securetty/issues/175">OTEL instrumentation for agent containers and MCP servers</a><br/><sub><code>securetty#175</code></sub></td><td align="right"><sub>2mo ago</sub></td></tr>
-<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/securetty/issues/166">egress: No feedback on what domains/IPs were added or changed</a><br/><sub><code>securetty#166</code></sub></td><td align="right"><sub>2mo ago</sub></td></tr>
-<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/securetty/issues/162">skill: SECURETTY_MCP_SKILLS_DIR not configured in env generation</a><br/><sub><code>securetty#162</code></sub></td><td align="right"><sub>2mo ago</sub></td></tr>
-<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/securetty/issues/161">init: Creates .skillsaw.yaml but skillsaw tool not in agent manifests</a><br/><sub><code>securetty#161</code></sub></td><td align="right"><sub>2mo ago</sub></td></tr>
-<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/securetty/issues/157">eval: promptfoo fetched via npx, bypasses delayed ingestion security</a><br/><sub><code>securetty#157</code></sub></td><td align="right"><sub>2mo ago</sub></td></tr>
-<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/securetty/issues/143">config: Validation bug in set command and incomplete profile system</a><br/><sub><code>securetty#143</code></sub></td><td align="right"><sub>2mo ago</sub></td></tr>
 <tr><td></td><td><a href='https://github.com/issues?q=is%3Aissue+is%3Aopen+archived%3Afalse+user%3Admzoneill'>+58 more</a></td><td></td></tr>
 
 </table>
 </details>
 <details>
-<summary>🔀 <b>Pull requests</b> · 6 · <sub>latest 7m ago</sub></summary>
+<summary>🔀 <b>Pull requests</b> · 15 · <sub>latest just now</sub></summary>
 <table>
-<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/dmzoneill/pull/38">Profile: place and sort every repo by its first commit date</a><br/><sub><code>dmzoneill#38</code></sub></td><td align="right"><sub>7m ago</sub></td></tr>
-<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/pling-publisher/pull/7">Remove unused pprint import</a><br/><sub><code>pling-publisher#7</code></sub></td><td align="right"><sub>5h ago</sub></td></tr>
-<tr><td>🔀</td><td><a href="https://github.com/ansible/awx/pull/16601">fix(notifications): handle empty string and string UIDs for Grafana…</a><br/><sub><code>awx#16601</code></sub></td><td align="right"><sub>4d ago</sub></td></tr>
-<tr><td>🔀</td><td><a href="https://github.com/netbirdio/netbird/pull/7719">[client] Detect underlying network and VPN disconnect events on Linux</a><br/><sub><code>netbird#7719</code></sub></td><td align="right"><sub>5d ago</sub></td></tr>
-<tr><td>🔀</td><td><a href="https://github.com/gnome-terminator/terminator/pull/1056">fix: convert enabled string to boolean in custom commands</a><br/><sub><code>terminator#1056</code></sub></td><td align="right"><sub>1w ago</sub></td></tr>
-<tr><td>🔀</td><td><a href="https://github.com/ansible/aap-qa/pull/1307">Update access for dmzoneill</a><br/><sub><code>aap-qa#1307</code></sub></td><td align="right"><sub>2y ago</sub></td></tr>
+<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/TamperMonkey/pull/5">Fix CI lint failures</a><br/><sub><code>TamperMonkey#5</code></sub></td><td align="right"><sub>just now</sub></td></tr>
+<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/pling-publisher/pull/8">Fix CI lint failures</a><br/><sub><code>pling-publisher#8</code></sub></td><td align="right"><sub>just now</sub></td></tr>
+<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/passmate/pull/3">Fix CI lint failures</a><br/><sub><code>passmate#3</code></sub></td><td align="right"><sub>just now</sub></td></tr>
+<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/bin/pull/5">Fix CI lint failures</a><br/><sub><code>bin#5</code></sub></td><td align="right"><sub>1m ago</sub></td></tr>
+<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/DFakeSeeder/pull/61">fix: SonarCloud Python reliability fixes</a><br/><sub><code>DFakeSeeder#61</code></sub></td><td align="right"><sub>6m ago</sub></td></tr>
+<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/wayvox/pull/14">fix: SonarCloud security fixes (loopback bind, cross-origin guard)</a><br/><sub><code>wayvox#14</code></sub></td><td align="right"><sub>8m ago</sub></td></tr>
+<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/redhat-ai-workflow/pull/226">fix: address SonarCloud blocker/critical bugs and path traversal</a><br/><sub><code>redhat-ai-workflow#226</code></sub></td><td align="right"><sub>10m ago</sub></td></tr>
+<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/torrent-speedtest/pull/4">fix: SonarCloud path traversal in torrent seeding</a><br/><sub><code>torrent-speedtest#4</code></sub></td><td align="right"><sub>11m ago</sub></td></tr>
+<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/securetty/pull/180">fix: SonarCloud security fixes (MCP gateway bind address)</a><br/><sub><code>securetty#180</code></sub></td><td align="right"><sub>11m ago</sub></td></tr>
+<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/Leecharr/pull/1930">Exclude test projects from Codacy analysis</a><br/><sub><code>Leecharr#1930</code></sub></td><td align="right"><sub>11m ago</sub></td></tr>
+<tr><td></td><td><a href='https://github.com/pulls?q=is%3Apr+is%3Aopen+author%3Admzoneill'>+5 more</a></td><td></td></tr>
 
 </table>
 </details>
 <details>
-<summary>⚡ <b>Activity</b> · 21 · <sub>latest 1d ago</sub></summary>
+<summary>⚡ <b>Activity</b> · 20 · <sub>latest 6m ago</sub></summary>
 <table>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/shannon.ir.intel.com/commits/scrub-wp-config">Pushed to scrub-wp-config</a><br/><sub><code>shannon.ir.intel.com</code></sub></td><td align="right"><sub>1d ago</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/www.linux-group-policy.com/commits/scrub-wp-config">Pushed to scrub-wp-config</a><br/><sub><code>www.linux-group-policy.com</code></sub></td><td align="right"><sub>1d ago</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/CSIG-SW-SDN-NOS-CHEF/commits/main">Pushed to main</a><br/><sub><code>CSIG-SW-SDN-NOS-CHEF</code></sub></td><td align="right"><sub>1d ago</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/www.nemohackers.org3/commits/main">Pushed to main</a><br/><sub><code>www.nemohackers.org3</code></sub></td><td align="right"><sub>1d ago</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/OC-PuppetClient/commits/main">Pushed to main</a><br/><sub><code>OC-PuppetClient</code></sub></td><td align="right"><sub>1d ago</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/www.linux-group-policy.com/commits/main">Pushed to main</a><br/><sub><code>www.linux-group-policy.com</code></sub></td><td align="right"><sub>1d ago</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/www.feeditout.com1/commits/scrub-wp-config">Pushed to scrub-wp-config</a><br/><sub><code>www.feeditout.com1</code></sub></td><td align="right"><sub>1d ago</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/www.linux-group-policy.com/commits/scrub-wp-config">Pushed to scrub-wp-config</a><br/><sub><code>www.linux-group-policy.com</code></sub></td><td align="right"><sub>1d ago</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/www.feeditout.com1/commits/scrub-wp-config">Pushed to scrub-wp-config</a><br/><sub><code>www.feeditout.com1</code></sub></td><td align="right"><sub>1d ago</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/dmzoneill/commits/main">Pushed to main</a><br/><sub><code>dmzoneill</code></sub></td><td align="right"><sub>1d ago</sub></td></tr>
-<tr><td></td><td><a href='https://github.com/dmzoneill'>+11 more</a></td><td></td></tr>
+<tr><td>💬</td><td><a href="https://github.com/dmzoneill/lidarr-youtube-downloader/issues/21">Issue with Lidarr recognizing downloaded audio and incorrect…</a><br/><sub><code>lidarr-youtube-downloader</code></sub></td><td align="right"><sub>6m ago</sub></td></tr>
+<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/tado-gnome-shell-extension/issues/2">Got this message after trying to enable it (Gnome45):</a><br/><sub><code>tado-gnome-shell-extension</code></sub></td><td align="right"><sub>6m ago</sub></td></tr>
+<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/lidarr-youtube-downloader/issues/25">Most releases found are missing tracks</a><br/><sub><code>lidarr-youtube-downloader</code></sub></td><td align="right"><sub>6m ago</sub></td></tr>
+<tr><td>💬</td><td><a href="https://github.com/dmzoneill/tado-gnome-shell-extension/issues/2">Got this message after trying to enable it (Gnome45):</a><br/><sub><code>tado-gnome-shell-extension</code></sub></td><td align="right"><sub>6m ago</sub></td></tr>
+<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/lidarr-youtube-downloader/issues/23">Track Format &amp; FFMPEG not adding metadata</a><br/><sub><code>lidarr-youtube-downloader</code></sub></td><td align="right"><sub>6m ago</sub></td></tr>
+<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/lidarr-youtube-downloader/issues/21">Issue with Lidarr recognizing downloaded audio and incorrect…</a><br/><sub><code>lidarr-youtube-downloader</code></sub></td><td align="right"><sub>6m ago</sub></td></tr>
+<tr><td>💬</td><td><a href="https://github.com/dmzoneill/DFakeSeeder/issues/15">Question about sessions and events.</a><br/><sub><code>DFakeSeeder</code></sub></td><td align="right"><sub>7m ago</sub></td></tr>
+<tr><td>💬</td><td><a href="https://github.com/dmzoneill/lidarr-youtube-downloader/issues/29">[FR] Only search for missing songs from artists with a given tag</a><br/><sub><code>lidarr-youtube-downloader</code></sub></td><td align="right"><sub>7m ago</sub></td></tr>
+<tr><td>💬</td><td><a href="https://github.com/dmzoneill/lidarr-youtube-downloader/issues/28">Stuck?</a><br/><sub><code>lidarr-youtube-downloader</code></sub></td><td align="right"><sub>7m ago</sub></td></tr>
+<tr><td>💬</td><td><a href="https://github.com/dmzoneill/lidarr-youtube-downloader/issues/25">Most releases found are missing tracks</a><br/><sub><code>lidarr-youtube-downloader</code></sub></td><td align="right"><sub>7m ago</sub></td></tr>
+<tr><td></td><td><a href='https://github.com/dmzoneill'>+10 more</a></td><td></td></tr>
 
 </table>
 </details>

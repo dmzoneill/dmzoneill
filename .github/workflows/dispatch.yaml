@@ -1330,6 +1330,11 @@ jobs:
     if: (github.event.repository.private != true || github.repository == 'dmzoneill/redhat-oracle') && inputs.pypi-extension != 'false'
     name: Pypi publish
     needs: create-release
+    # Back-to-back pushes run CICD in parallel; serialise publishes per branch so
+    # two runs never upload the same version at once.
+    concurrency:
+      group: pypi-publish-${{ github.repository }}-${{ github.ref_name }}
+      cancel-in-progress: false
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -1350,7 +1355,7 @@ jobs:
           # shellcheck disable=SC2035
           printf "[pypi]\n  username = __token__\n  password = ${{ secrets.PYPI_TOKEN }}" > ~/.pypirc
           # shellcheck disable=SC2035
-          python3 -m twine upload --verbose --non-interactive --config-file ~/.pypirc --repository pypi dist/*
+          python3 -m twine upload --verbose --non-interactive --skip-existing --config-file ~/.pypirc --repository pypi dist/*
 
       - name: Send Telegram notification
         continue-on-error: true

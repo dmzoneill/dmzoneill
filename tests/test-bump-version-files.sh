@@ -8,7 +8,10 @@ cp -r "$root/tests/fixtures/bump/." "$work/"
 cd "$work"
 "$root/bump-version-files.sh" 1.2.4 1.2.5 app
 fail=0
-expect() { grep -qxF -- "$2" "$1" || { echo "FAIL $1: missing: $2"; fail=1; }; }
+expect() { grep -qxF -- "$2" "$1" || {
+  echo "FAIL $1: missing: $2"
+  fail=1
+}; }
 expect app.spec 'Version: 1.2.5'
 expect app.spec 'Source1: icons/192x192/app.png'
 expect app.spec '%{_datadir}/icons/hicolor/192x192/apps/app.png'

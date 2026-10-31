@@ -1,3 +1,5 @@
+"""Distribute secrets and variables from the dmzoneill hub repo to every owned repository."""
+
 import hashlib
 import json
 import os
@@ -67,14 +69,17 @@ RATE_LIMIT_RESERVE = 100
 
 
 def hash_value(value):
+    """Return a short SHA-256 fingerprint of a value, so changes can be detected without storing it."""
     return hashlib.sha256(value.encode()).hexdigest()[:12]
 
 
 def compute_per_secret_hashes(secrets):
+    """Map each set secret name to the fingerprint of its value."""
     return {key: hash_value(value) for key, value in secrets.items() if value is not None}
 
 
 def check_rate_limit():
+    """Print the remaining GitHub API core rate limit."""
     response = requests.get("https://api.github.com/rate_limit", headers=headers, timeout=HTTP_TIMEOUT)
     if response.status_code == 200:
         core = response.json()["resources"]["core"]
@@ -86,6 +91,7 @@ def check_rate_limit():
 
 
 def rate_limited_get(url, max_retries=3):
+    """GET a GitHub API URL with throttling, retrying when rate limited."""
     for attempt in range(max_retries):
         time.sleep(API_DELAY)
         response = requests.get(url, headers=headers, timeout=HTTP_TIMEOUT)
@@ -99,6 +105,7 @@ def rate_limited_get(url, max_retries=3):
 
 
 def authenticate_gh():
+    """Log the gh CLI in with the configured token."""
     os.environ.pop("GITHUB_TOKEN", None)
 
     token = f"{GITHUB_TOKEN}"
@@ -116,6 +123,7 @@ def authenticate_gh():
 
 
 def set_secret(repo_name, secret, value, app="actions"):
+    """Set a secret on a repository with the gh CLI for the given app."""
     cmd = [
         "gh",
         "secret",
@@ -138,6 +146,7 @@ def set_secret(repo_name, secret, value, app="actions"):
 
 
 def get_remote_hashes(repo_name, var_name=HASH_VAR_NAME):
+    """Read the stored per-secret fingerprints from a repository variable."""
     url = f"https://api.github.com/repos/{GITHUB_USER}/{repo_name}/actions/variables/{var_name}"
     response = rate_limited_get(url)
     if response.status_code == 200:
@@ -149,6 +158,7 @@ def get_remote_hashes(repo_name, var_name=HASH_VAR_NAME):
 
 
 def set_repo_variable(repo_name, name, value):
+    """Update a repository Actions variable, creating it if it does not exist."""
     repo_full = f"{GITHUB_USER}/{repo_name}"
     url = f"https://api.github.com/repos/{repo_full}/actions/variables/{name}"
     time.sleep(API_DELAY)
@@ -167,6 +177,7 @@ def set_repo_variable(repo_name, name, value):
 
 
 def delete_repo_variable(repo_name, name):
+    """Delete a repository Actions variable."""
     repo_full = f"{GITHUB_USER}/{repo_name}"
     url = f"https://api.github.com/repos/{repo_full}/actions/variables/{name}"
     time.sleep(API_DELAY)
@@ -178,6 +189,7 @@ def delete_repo_variable(repo_name, name):
 
 
 def get_hub_variable_value(name):
+    """Read an Actions variable's value from the hub repository."""
     url = f"https://api.github.com/repos/{GITHUB_USER}/dmzoneill/actions/variables/{name}"
     response = rate_limited_get(url)
     if response.status_code == 200:
@@ -186,6 +198,7 @@ def get_hub_variable_value(name):
 
 
 def get_remote_variable_hashes(repo_name):
+    """Read the stored per-variable fingerprints from a repository."""
     url = f"https://api.github.com/repos/{GITHUB_USER}/{repo_name}/actions/variables/{VARIABLES_HASH_VAR_NAME}"
     response = rate_limited_get(url)
     if response.status_code == 200:
@@ -197,6 +210,7 @@ def get_remote_variable_hashes(repo_name):
 
 
 def sync_repo_variables(repo_name, variables, current_hashes, remote_hashes):
+    """Push changed variables to a repository and remove ones no longer distributed."""
     changed = [key for key, h in current_hashes.items() if remote_hashes.get(key) != h]
     removed = [k for k in remote_hashes if k not in current_hashes]
 
@@ -218,6 +232,7 @@ def sync_repo_variables(repo_name, variables, current_hashes, remote_hashes):
 
 
 def delete_secret(repo_name, secret):
+    """Delete a secret from a repository with the gh CLI."""
     cmd = [
         "gh",
         "secret",
@@ -236,6 +251,7 @@ def delete_secret(repo_name, secret):
 
 
 def estimate_repo_cost(current_hashes, remote_hashes):
+    """Estimate how many API calls syncing a repository will take."""
     changed = sum(1 for k, v in current_hashes.items() if remote_hashes.get(k) != v)
     removed = sum(1 for k in remote_hashes if k not in current_hashes)
     if not changed and not removed:
@@ -247,6 +263,7 @@ def estimate_repo_cost(current_hashes, remote_hashes):
 
 
 def cleanup_deprecated_secrets(repo_name, existing_secrets, current_names):
+    """Delete purged or no-longer-distributed secrets from a repository and return their names."""
     to_delete = [
         s for s in existing_secrets if s in SECRETS_TO_PURGE or (s not in current_names and s != HASH_VAR_NAME)
     ]
@@ -258,6 +275,7 @@ def cleanup_deprecated_secrets(repo_name, existing_secrets, current_names):
 
 
 def fetch_existing_secret_names(repo_name):
+    """Return the set of secret names currently on a repository."""
     url = f"https://api.github.com/repos/{GITHUB_USER}/{repo_name}/actions/secrets"
     response = rate_limited_get(url)
     if response.status_code == 200:
@@ -266,6 +284,7 @@ def fetch_existing_secret_names(repo_name):
 
 
 def sync_repo_secrets(repo_name, secrets, current_hashes, remote_hashes):
+    """Push changed secrets to a repository, remove stale ones and store the new fingerprints."""
     changed = [key for key, h in current_hashes.items() if remote_hashes.get(key) != h]
     removed = [k for k in remote_hashes if k not in current_hashes]
 
@@ -305,6 +324,7 @@ def sync_dependabot_secrets(repo_name, secrets):
 
 
 def get_hub_secret_names():
+    """Return every secret name defined on the hub repository."""
     url = f"https://api.github.com/repos/{GITHUB_USER}/dmzoneill/actions/secrets"
     names = set()
     while url:
@@ -319,6 +339,7 @@ def get_hub_secret_names():
 
 
 def get_hub_codacy_token_source(hub_names):
+    """Return which hub secret supplies the Codacy token, or None."""
     if CODACY_DISTRIBUTE_SECRET in hub_names:
         return CODACY_DISTRIBUTE_SECRET
     if "CODACY_PROJECT_TOKEN" in hub_names:
@@ -327,6 +348,7 @@ def get_hub_codacy_token_source(hub_names):
 
 
 def get_secret_names():
+    """Return the hub secret names that should be distributed to other repositories."""
     hub_names = get_hub_secret_names()
     names = [
         name
@@ -340,6 +362,7 @@ def get_secret_names():
 
 
 def get_repositories():
+    """Return all repositories owned by the user, following pagination."""
     page = 1
     repos = []
     while True:
@@ -378,6 +401,7 @@ def build_workflow_env_lines(secret_names, hub_names=None):
 
 
 def parse_workflow_env_secret_names(workflow_text):
+    """Return the secret names in the managed env block of a workflow, or None if absent."""
     if WORKFLOW_ENV_BEGIN not in workflow_text or WORKFLOW_ENV_END not in workflow_text:
         return None
     start = workflow_text.index(WORKFLOW_ENV_BEGIN)
@@ -395,6 +419,7 @@ def parse_workflow_env_secret_names(workflow_text):
 
 
 def parse_workflow_env_variable_names(workflow_text):
+    """Return the variable names in the managed vars block of a workflow, or None if absent."""
     if WORKFLOW_VARS_BEGIN not in workflow_text or WORKFLOW_VARS_END not in workflow_text:
         return None
     start = workflow_text.index(WORKFLOW_VARS_BEGIN)
@@ -423,6 +448,7 @@ def _report_env_drift(missing, extra, missing_vars, extra_vars):
 
 
 def sync_distribute_workflow(check_only=False):  # pylint: disable=too-many-return-statements
+    """Make the distribute-secrets workflow list the current secrets; with check_only, only report drift."""
     secret_names = get_secret_names()
     if not secret_names:
         print("No distributable secrets found on dmzoneill repo")
@@ -473,6 +499,7 @@ def sync_distribute_workflow(check_only=False):  # pylint: disable=too-many-retu
 
 
 def load_variables():
+    """Load distributable variables from the environment, falling back to the hub repository."""
     variables = {}
     for name in DISTRIBUTE_VARIABLES:
         value = os.getenv(name)
@@ -496,6 +523,7 @@ def _env_diff(expected, current):
 
 
 def main():
+    """Sync secrets and variables to every repository within the API rate limit."""
     secret_names = get_secret_names()
     if not secret_names:
         print("No secrets found on dmzoneill repo, aborting")

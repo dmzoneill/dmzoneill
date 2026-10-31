@@ -14,6 +14,7 @@ import requests
 
 
 def get_issue_content(repo, issue_number, github_token):
+    """Fetch an issue's JSON from the GitHub API."""
     url = f"https://api.github.com/repos/{repo}/issues/{issue_number}"
     headers = {
         "Authorization": f"token {github_token}",
@@ -26,6 +27,7 @@ def get_issue_content(repo, issue_number, github_token):
 
 
 def get_pr_content(repo, pr_number, github_token):
+    """Fetch a pull request's JSON from the GitHub API."""
     url = f"https://api.github.com/repos/{repo}/pulls/{pr_number}"
     headers = {
         "Authorization": f"token {github_token}",
@@ -38,6 +40,7 @@ def get_pr_content(repo, pr_number, github_token):
 
 
 def get_pr_diff(repo, pr_number, github_token):
+    """Fetch a pull request's unified diff from the GitHub API."""
     url = f"https://api.github.com/repos/{repo}/pulls/{pr_number}"
     headers = {
         "Authorization": f"token {github_token}",
@@ -52,6 +55,7 @@ def get_pr_diff(repo, pr_number, github_token):
 
 
 def get_oauth_bearer_token(credentials_path):
+    """Exchange the refresh token in a Google credentials file for an OAuth access token."""
     with open(credentials_path, "r", encoding="utf-8") as f:
         cred_data = json.load(f)
 
@@ -91,7 +95,8 @@ def _opencode_model_id(model):
     lowered = text.lower()
     for prefix in ("opencode/", "oc/"):
         if lowered.startswith(prefix):
-            text = text[len(prefix) :]
+            prefix_len = len(prefix)
+            text = text[prefix_len:]
             break
     if "/" in text:
         text = text.rsplit("/", 1)[-1]
@@ -377,6 +382,7 @@ def _opencode_attempt(binary, prompt_text, auth_mode, api_key, models):
 
 
 def generate_opencode_reply(prompt_text, api_key):
+    """Generate a reply to the prompt with the OpenCode CLI."""
     binary = _opencode_binary()
     if not binary:
         message = "OpenCode CLI is not installed. Install it with: curl -fsSL https://opencode.ai/install | bash"
@@ -420,6 +426,7 @@ def _gemini_content(data):
 
 
 def generate_gemini_reply(prompt_text):
+    """Generate a reply to the prompt with Gemini, trying fallback models in order."""
     headers, query_params = _gemini_auth()
 
     candidate_models = [
@@ -458,6 +465,7 @@ def generate_gemini_reply(prompt_text):
 
 
 def generate_ai_reply(prompt_text):
+    """Generate a reply with OpenCode if available, otherwise fall back to Gemini."""
     opencode_key = os.getenv("OPENCODE_API_KEY")
     gemini_key = os.getenv("GEMINI_API_KEY")
     cred_path = os.getenv("GOOGLE_APPLICATION_CREDENTIALS")
@@ -482,6 +490,7 @@ def generate_ai_reply(prompt_text):
 
 
 def post_comment(repo, number, comment, github_token, is_pr=False):
+    """Post a comment on an issue or pull request."""
     if is_pr:
         url = f"https://api.github.com/repos/{repo}/issues/{number}/comments"
     else:
@@ -495,6 +504,7 @@ def post_comment(repo, number, comment, github_token, is_pr=False):
 
 
 def send_telegram(bot_token, chat_id, message):
+    """Send a Telegram message, skipping silently when the bot token or chat id is unset."""
     if not bot_token or not chat_id:
         print("Telegram secrets not set, skipping notification")
         return
@@ -511,6 +521,7 @@ def send_telegram(bot_token, chat_id, message):
 
 
 def handle_issue():
+    """Reply to the issue named by the environment and send a Telegram notification."""
     github_token = os.getenv("GITHUB_TOKEN")
     repo = os.getenv("GITHUB_REPOSITORY")
     issue_number = os.getenv("ISSUE_NUMBER")
@@ -536,6 +547,7 @@ def handle_issue():
 
 
 def handle_pr():
+    """Review the pull request named by the environment with its diff and post the reply."""
     github_token = os.getenv("GITHUB_TOKEN")
     repo = os.getenv("GITHUB_REPOSITORY")
     pr_number = os.getenv("PR_NUMBER")
@@ -563,6 +575,7 @@ def handle_pr():
 
 
 def handle_dry_run():
+    """Generate a reply to a test prompt and print it without posting anything."""
     prompt = os.getenv("AI_RESPONDER_PROMPT", "Reply with exactly the single word: pong")
     print("AI responder dry run: generating a reply without posting a comment", file=sys.stderr)
     comment = generate_ai_reply(prompt)
@@ -572,6 +585,7 @@ def handle_dry_run():
 
 
 def main():
+    """Dispatch to the issue, pull request or dry-run handler based on EVENT_TYPE."""
     event_type = os.getenv("EVENT_TYPE", "issue")
 
     if event_type == "pull_request":

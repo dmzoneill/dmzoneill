@@ -1,3 +1,5 @@
+"""Regenerate the GitHub profile README, its SVG charts and cached data."""
+
 import base64
 import json
 import os
@@ -10,6 +12,8 @@ from operator import itemgetter
 
 import requests
 
+from profile_svg import human_bytes, lang_colour, svg_languages_bar
+
 RE_FLAGS = re.IGNORECASE | re.MULTILINE | re.DOTALL
 REQUEST_TIMEOUT = 30
 
@@ -20,6 +24,7 @@ def first_commit_year(repo):
 
 
 def by_first_commit(repos):
+    """Sort repositories by first commit date, newest first."""
     return sorted(repos, key=lambda r: r.get("first_commit_date") or "", reverse=True)
 
 
@@ -52,6 +57,7 @@ def _count_years(repos):
 
 
 def svg_timeline(repos, width=860, height=150):
+    """Render an SVG bar chart of repositories created per year."""
     year_counts = _count_years(repos)
 
     if not year_counts:
@@ -93,25 +99,6 @@ def svg_timeline(repos, width=860, height=150):
 </svg>"""
 
 
-LANG_COLOURS = {
-    "PHP": "#4F5D95",
-    "C#": "#178600",
-    "JavaScript": "#f1e05a",
-    "TypeScript": "#3178c6",
-    "Python": "#3572A5",
-    "HTML": "#e34c26",
-    "CSS": "#663399",
-    "C": "#555555",
-    "Perl": "#0298c3",
-    "Java": "#b07219",
-    "Smarty": "#f0c040",
-    "Shell": "#89e051",
-    "Go": "#00ADD8",
-    "C++": "#f34b7d",
-    "Ruby": "#701516",
-    "Puppet": "#302B6D",
-    "Makefile": "#427819",
-}
 TOP_LANGUAGES = 20
 LIST_LIMIT = 10
 SEARCH_ATTEMPTS = 4
@@ -127,31 +114,6 @@ RECENT_ICONS = {
     "WatchEvent": "⭐",
     "ForkEvent": "🍴",
 }
-
-
-def lang_colour(lang):
-    return LANG_COLOURS.get(lang, "#8b949e")
-
-
-def human_bytes(size):
-    if size >= 1_000_000:
-        return f"{size / 1_000_000:.1f} MB"
-    return f"{size / 1_000:.0f} KB"
-
-
-def svg_languages_bar(languages, width=860, height=14):
-    total = sum(size for _, size in languages) or 1
-    x = 0.0
-    rects = ""
-    for lang, size in languages:
-        w = size / total * width
-        rects += f'  <rect x="{x:.2f}" y="0" width="{w:.2f}" height="{height}" fill="{lang_colour(lang)}"/>\n'
-        x += w
-    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}">
-  <clipPath id="r"><rect width="{width}" height="{height}" rx="7"/></clipPath>
-  <g clip-path="url(#r)">
-{rects}  </g>
-</svg>"""
 
 
 ORG_BUTTON_WIDTH = 134
@@ -201,6 +163,7 @@ def svg_tile(icon, title, subtitle, width=TILE_WIDTH, height=TILE_HEIGHT):
 
 
 def shorten(text, limit):
+    """Trim text to the limit at a word boundary, removing table pipes."""
     text = (text or "").strip().replace("|", "-")
     if len(text) <= limit:
         return text
@@ -235,6 +198,7 @@ SPELLING_FALSE_POSITIVES = {"Hev" + "y": "Hev&#121;"}  # split so codespell skip
 
 
 def html_escape(text):
+    """Escape HTML special characters and encode spell-check false positives."""
     text = (text or "").replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
     for word, encoded in SPELLING_FALSE_POSITIVES.items():
         text = text.replace(word, encoded)
@@ -295,6 +259,7 @@ class DiskCache:
             self.data = {}
 
     def save(self):
+        """Write unexpired entries to the cache file."""
         os.makedirs(os.path.dirname(self.path) or ".", exist_ok=True)
         now = time.time()
         self.data = {k: v for k, v in self.data.items() if now - v.get("t", 0) <= self.ttl_seconds}
@@ -302,6 +267,7 @@ class DiskCache:
             json.dump(self.data, f, sort_keys=True, indent=2)
 
     def get(self, key):
+        """Return the cached value for a key, or None if missing or expired."""
         entry = self.data.get(key)
         if entry is None:
             return None
@@ -311,6 +277,7 @@ class DiskCache:
         return entry.get("v")
 
     def set(self, key, value):
+        """Store a value with the current timestamp."""
         self.data[key] = {"t": time.time(), "v": value}
 
 
@@ -330,14 +297,17 @@ class PermanentCache:
             self.data = {}
 
     def save(self):
+        """Write all entries to the cache file."""
         os.makedirs(os.path.dirname(self.path) or ".", exist_ok=True)
         with open(self.path, "w", encoding="utf-8") as f:
             json.dump(self.data, f, sort_keys=True, indent=2)
 
     def get(self, key):
+        """Return the cached value for a key, or None."""
         return self.data.get(key)
 
     def set(self, key, value):
+        """Store a value permanently."""
         self.data[key] = value
 
 
@@ -363,6 +333,7 @@ class ProfileData:
 
 
 def graphql_node_to_repo(node):
+    """Convert a GraphQL repository node into the REST-style dict the templates use."""
     return {
         "name": node["name"],
         "description": node.get("description") or "",
@@ -434,9 +405,11 @@ class ReadmeUpdater:
 
     @staticmethod
     def log(message):
+        """Print a log message."""
         print("Updater: " + message)
 
     def read_config(self):
+        """Load the JSON config file; return False if it cannot be read."""
         try:
             with open(self.config_file, encoding="utf-8") as config:
                 self.config = json.loads(config.read())
@@ -446,6 +419,7 @@ class ReadmeUpdater:
             return False
 
     def read_template(self):
+        """Load the README template named in the config; return False on failure."""
         try:
             with open(self.config["template_file"], encoding="utf-8") as template:
                 self.template = template.read()
@@ -456,6 +430,7 @@ class ReadmeUpdater:
             raise UpdaterError("Failed reading config") from e
 
     def web_request_retry(self, url, headers=None):
+        """GET a URL with authentication, retrying on errors; return the response or False."""
         retries = 3
 
         if headers is None:
@@ -503,6 +478,7 @@ class ReadmeUpdater:
         return data
 
     def web_request_retry_cached(self, url, headers=None):
+        """GET a URL's JSON, using the cache when fresh."""
         cached = self.cache.get(url)
         if cached is not None:
             self.log("Cache hit: " + url)
@@ -515,6 +491,7 @@ class ReadmeUpdater:
         return None
 
     def fetch_graphql(self, query, variables):
+        """Run a GraphQL query with retries and return its data."""
         headers = {"Content-Type": "application/json"}
         if self.token:
             headers["Authorization"] = "bearer " + self.token
@@ -574,6 +551,7 @@ class ReadmeUpdater:
             cursor = repos_data["pageInfo"]["endCursor"]
 
     def get_repos(self):
+        """Fetch the user's repositories and language sizes via GraphQL."""
         try:
             all_nodes = self._fetch_repo_nodes()
             if all_nodes is None:
@@ -703,6 +681,7 @@ class ReadmeUpdater:
         self.template = re.sub(pattern, lambda _m: cells, self.template, flags=RE_FLAGS)
 
     def generate_repos(self):
+        """Fill the repositories section, adding each repo's first commit date."""
         try:
             repos = self._showcase_repos()
             for fetched, repo in enumerate(repos, start=1):
@@ -826,6 +805,7 @@ class ReadmeUpdater:
         return rows
 
     def generate_issues(self):
+        """Fill the open issues section."""
         try:
             user = self.config["user"]
             self.data.issues = self._search("user:" + user + "+is:issue+is:open+archived:false")
@@ -839,6 +819,7 @@ class ReadmeUpdater:
             raise UpdaterError("Failed generating issues") from e
 
     def generate_prs(self):
+        """Fill the open pull requests section."""
         try:
             user = self.config["user"]
             self.data.prs = self._search("author:" + user + "+is:pr+is:open")
@@ -852,6 +833,7 @@ class ReadmeUpdater:
             raise UpdaterError("Failed generating prs") from e
 
     def generate_recent_activity(self):
+        """Fill the recent activity section from the user's public events."""
         try:
             res = self.web_request_retry(self.config["events_url"])
             events = res.json() if res is not False else []
@@ -876,6 +858,7 @@ class ReadmeUpdater:
             raise UpdaterError("Failed generating activity") from e
 
     def generate_gists(self):
+        """Fill the gists section, newest first."""
         try:
             gists = self.web_request_retry_cached(self.config["gists_url"]) or []
             gists = sorted(gists, key=lambda g: g.get("updated_at") or "", reverse=True)
@@ -911,6 +894,7 @@ class ReadmeUpdater:
         return ""
 
     def generate_orgs(self):
+        """Fill the organizations section and download their avatars."""
         try:
             orgs_template = self._item_template("orgs")
             os.makedirs("generated/orgs", exist_ok=True)
@@ -938,6 +922,7 @@ class ReadmeUpdater:
         return sorted(self.data.total_lines_lang.items(), key=itemgetter(1), reverse=True)[:TOP_LANGUAGES]
 
     def favorite_langs(self):
+        """Return the rendered rows for the top languages by size."""
         langs_template = self._item_template("langs")
         top = self._top_languages()
         total = sum(self.data.total_lines_lang.values()) or 1
@@ -952,6 +937,7 @@ class ReadmeUpdater:
         self._fill("langs", output)
 
     def generate_svgs(self):
+        """Write the timeline and languages SVGs into generated/."""
         os.makedirs("generated", exist_ok=True)
 
         with open("generated/timeline.svg", "w", encoding="utf-8") as f:
@@ -961,6 +947,7 @@ class ReadmeUpdater:
         self.log("Wrote generated/timeline.svg and generated/languages_bar.svg")
 
     def generate_readme(self):
+        """Render every section and write README.md; return False if data is missing."""
         if not self.data.total_lines_lang:
             self.log("No language data, keeping the existing README")
             return False

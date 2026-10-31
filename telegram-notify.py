@@ -1,3 +1,5 @@
+"""Send a short Telegram notification given on the command line."""
+
 import os
 import sys
 
@@ -5,6 +7,7 @@ import requests
 
 
 def main():
+    """Send the message from argv to the configured Telegram chat."""
     if len(sys.argv) != 2:
         print("Usage: python telegram-notify.py <message>")
         sys.exit(1)
@@ -20,9 +23,7 @@ def main():
     chat_id = os.getenv("TELEGRAM_CHAT_ID")
 
     if not bot_token or not chat_id:
-        print(
-            "Warning: TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID not set - skipping notification"
-        )
+        print("Warning: TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID not set - skipping notification")
         sys.exit(0)
 
     url = f"https://api.telegram.org/bot{bot_token}/sendMessage"
@@ -32,13 +33,13 @@ def main():
     }
 
     try:
-        resp = requests.post(url, json=payload)
+        resp = requests.post(url, json=payload, timeout=30)
         if resp.status_code == 429:
             print(f"Telegram rate limited (429): {resp.text}")
             sys.exit(0)
         resp.raise_for_status()
         print(f"Telegram response: {resp.json()}")
-    except Exception as e:
+    except requests.exceptions.RequestException as e:
         print(f"Error sending message: {e}")
         sys.exit(1)
 

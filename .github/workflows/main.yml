@@ -6,11 +6,15 @@ on:
   schedule:
     - cron: '0 */6 * * *'
     
-permissions: write-all
+permissions:
+  contents: read
 
 jobs:
   run-lint:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      statuses: write
     name: Run linter
     steps:
       - name: Checkout code
@@ -18,17 +22,18 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Install Python packages for pylint
+        # Super-linter does not install project dependencies; put them in the
+        # runner home that is mounted into its container as /github/home.
+        run: pip install --target "$RUNNER_TEMP/_github_home/lint-deps" requests types-requests
+
       - name: Lint Code Base
         uses: super-linter/super-linter@v9
         env:
+          PYTHONPATH: /github/home/lint-deps
           VALIDATE_GITHUB_ACTIONS: false
           VALIDATE_MARKDOWN: false
-          VALIDATE_PYTHON_MYPY: false
-          VALIDATE_PYTHON_FLAKE8: false
-          VALIDATE_PYTHON_BLACK: false
           VALIDATE_ALL_CODEBASE: false
-          VALIDATE_DOCKERFILE_HADOLINT: false
-          VALIDATE_CHECKOV: false
           VALIDATE_JSON_PRETTIER: false
           VALIDATE_YAML_PRETTIER: false
           VALIDATE_GITHUB_ACTIONS_ZIZMOR: false
@@ -39,6 +44,8 @@ jobs:
 
   update-profile:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     name: Update Profile
     needs: run-lint
     steps:

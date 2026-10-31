@@ -11,14 +11,14 @@
 <p align="center">
 <a href="https://gist.github.com/dmzoneill"><img src="generated/tiles/gist.svg" width="176" height="46" alt="Gists: 24"/></a>
 <a href="https://github.com/issues?q=is%3Aissue+is%3Aopen+archived%3Afalse+user%3Admzoneill"><img src="generated/tiles/issue.svg" width="176" height="46" alt="Issues: 65"/></a>
-<a href="https://github.com/pulls?q=is%3Apr+is%3Aopen+author%3Admzoneill"><img src="generated/tiles/pr.svg" width="176" height="46" alt="Pull requests: 24"/></a>
-<a href="https://github.com/dmzoneill"><img src="generated/tiles/activity.svg" width="176" height="46" alt="Activity: 5"/></a>
+<a href="https://github.com/pulls?q=is%3Apr+is%3Aopen+author%3Admzoneill"><img src="generated/tiles/pr.svg" width="176" height="46" alt="Pull requests: 21"/></a>
+<a href="https://github.com/dmzoneill"><img src="generated/tiles/activity.svg" width="176" height="46" alt="Activity: 10"/></a>
 </p>
 
 <details>
-<summary>📝 <b>Gists</b> · 24 · <sub>latest 4d ago</sub></summary>
+<summary>📝 <b>Gists</b> · 24 · <sub>latest 5d ago</sub></summary>
 <table>
-<tr><td>📄</td><td><a href="https://gist.github.com/dmzoneill/93eef357f1e61f8d337a348fa5c180f0">XDock test badges</a><br/><sub><code>xdock-coverage.json</code></sub></td><td align="right"><sub>4d ago</sub></td></tr>
+<tr><td>📄</td><td><a href="https://gist.github.com/dmzoneill/93eef357f1e61f8d337a348fa5c180f0">XDock test badges</a><br/><sub><code>xdock-coverage.json</code></sub></td><td align="right"><sub>5d ago</sub></td></tr>
 <tr><td>📄</td><td><a href="https://gist.github.com/dmzoneill/af4a56c98fe185a9b14abba35bb5c29b">Complete Guide: Multi-Instance Ollama Setup with NPU, Intel GPU, and…</a><br/><sub><code>Complete Guide:…</code></sub></td><td align="right"><sub>1w ago</sub></td></tr>
 <tr><td>📄</td><td><a href="https://gist.github.com/dmzoneill/441f88a5c73136b8128c252ad84100b3">Tampermonkey script to clean up Slack and Jira messages with ChatGPT</a><br/><sub><code>slack-tapermoneky.js</code></sub></td><td align="right"><sub>1w ago</sub></td></tr>
 <tr><td>📄</td><td><a href="https://gist.github.com/dmzoneill/67a908fb949dc95bbbf02f0446a07f0a">PHP script that writes a name from the URL onto a JPEG image with GD</a><br/><sub><code>gistfile1.txt</code></sub></td><td align="right"><sub>1w ago</sub></td></tr>
@@ -50,30 +50,35 @@
 </table>
 </details>
 <details>
-<summary>🔀 <b>Pull requests</b> · 24 · <sub>latest just now</sub></summary>
+<summary>🔀 <b>Pull requests</b> · 21 · <sub>latest just now</sub></summary>
 <table>
-<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/redhat-ai-workflow/pull/271">fix(slack_export): write export JSONL without blocking (S7493)</a><br/><sub><code>redhat-ai-workflow#271</code></sub></td><td align="right"><sub>just now</sub></td></tr>
-<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/redhat-ai-workflow/pull/270">fix(auto_heal_decorator): non-blocking failure-log YAML I/O (S7493)</a><br/><sub><code>redhat-ai-workflow#270</code></sub></td><td align="right"><sub>3m ago</sub></td></tr>
-<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/redhat-ai-workflow/pull/269">fix(konflux): write release manifest without blocking (S7493)</a><br/><sub><code>redhat-ai-workflow#269</code></sub></td><td align="right"><sub>3m ago</sub></td></tr>
-<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/redhat-ai-workflow/pull/268">fix(google_slides): write exported PDF without blocking (S7493)</a><br/><sub><code>redhat-ai-workflow#268</code></sub></td><td align="right"><sub>4m ago</sub></td></tr>
-<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/redhat-ai-workflow/pull/267">fix(classifier): append training data without blocking (S7493)</a><br/><sub><code>redhat-ai-workflow#267</code></sub></td><td align="right"><sub>5m ago</sub></td></tr>
-<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/redhatter/pull/30">lint: real fixes + 120 format for main.py, install_native_host.py,…</a><br/><sub><code>redhatter#30</code></sub></td><td align="right"><sub>9m ago</sub></td></tr>
-<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/redhat-ai-workflow/pull/262">fix(aa_style): non-blocking file I/O in async style tools (S7493)</a><br/><sub><code>redhat-ai-workflow#262</code></sub></td><td align="right"><sub>9m ago</sub></td></tr>
-<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/redhat-ai-workflow/pull/260">sprint daemon: split daemon.py into modules (part 1 of suppression…</a><br/><sub><code>redhat-ai-workflow#260</code></sub></td><td align="right"><sub>11m ago</sub></td></tr>
-<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/redhat-ai-workflow/pull/261">sprint daemon: remove broad-except/import/no-else-return/unused-arg…</a><br/><sub><code>redhat-ai-workflow#261</code></sub></td><td align="right"><sub>12m ago</sub></td></tr>
-<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/Xenith/pull/14">fix(fast_tts): resolve mypy errors with real typing fixes</a><br/><sub><code>Xenith#14</code></sub></td><td align="right"><sub>25m ago</sub></td></tr>
-<tr><td></td><td><a href='https://github.com/pulls?q=is%3Apr+is%3Aopen+author%3Admzoneill'>+14 more</a></td><td></td></tr>
+<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/DFakeSeeder/pull/77">refactor(gi): convert single_instance to gi_base; narrow broad excepts</a><br/><sub><code>DFakeSeeder#77</code></sub></td><td align="right"><sub>just now</sub></td></tr>
+<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/redhat-ai-workflow/pull/292">fix(slack api client): use SystemRandom for backoff jitter and x_id…</a><br/><sub><code>redhat-ai-workflow#292</code></sub></td><td align="right"><sub>just now</sub></td></tr>
+<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/redhat-ai-workflow/pull/291">fix(jira tools): linear-time issue-key and field regexes (S8786)</a><br/><sub><code>redhat-ai-workflow#291</code></sub></td><td align="right"><sub>just now</sub></td></tr>
+<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/redhat-ai-workflow/pull/272">sprint daemon: real fixes for local pylint/ruff suppressions (on…</a><br/><sub><code>redhat-ai-workflow#272</code></sub></td><td align="right"><sub>2m ago</sub></td></tr>
+<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/redhat-ai-workflow/pull/283">fix(meet tts): run piper download and ffmpeg off the event loop…</a><br/><sub><code>redhat-ai-workflow#283</code></sub></td><td align="right"><sub>2m ago</sub></td></tr>
+<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/redhat-ai-workflow/pull/290">fix(ollama skill discovery): linear-time skill patterns (S8786)</a><br/><sub><code>redhat-ai-workflow#290</code></sub></td><td align="right"><sub>2m ago</sub></td></tr>
+<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/DFakeSeeder/pull/74">refactor(gi): convert cleanup_mixin to gi_base; narrow broad excepts</a><br/><sub><code>DFakeSeeder#74</code></sub></td><td align="right"><sub>2m ago</sub></td></tr>
+<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/DFakeSeeder/pull/76">fix/column translation bootstrap</a><br/><sub><code>DFakeSeeder#76</code></sub></td><td align="right"><sub>3m ago</sub></td></tr>
+<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/redhat-ai-workflow/pull/261">sprint daemon: remove broad-except/import/no-else-return/unused-arg…</a><br/><sub><code>redhat-ai-workflow#261</code></sub></td><td align="right"><sub>1h ago</sub></td></tr>
+<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/redhatter/pull/30">lint: real fixes + 120 format for main.py, install_native_host.py,…</a><br/><sub><code>redhatter#30</code></sub></td><td align="right"><sub>1h ago</sub></td></tr>
+<tr><td></td><td><a href='https://github.com/pulls?q=is%3Apr+is%3Aopen+author%3Admzoneill'>+11 more</a></td><td></td></tr>
 
 </table>
 </details>
 <details>
-<summary>⚡ <b>Activity</b> · 5 · <sub>latest 29m ago</sub></summary>
+<summary>⚡ <b>Activity</b> · 10 · <sub>latest 2m ago</sub></summary>
 <table>
-<tr><td>💬</td><td><a href="https://github.com/dmzoneill/redhat-ai-workflow/pull/255">fix(skill_error_recovery): non-blocking CLI prompt (S7501) + cleanup</a><br/><sub><code>redhat-ai-workflow</code></sub></td><td align="right"><sub>29m ago</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/dmzoneill/commits/main">Pushed to main</a><br/><sub><code>dmzoneill</code></sub></td><td align="right"><sub>1d ago</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/ashtangayogacork.ie-wearos/commits/main">Pushed to main</a><br/><sub><code>ashtangayogacork.ie-wearos</code></sub></td><td align="right"><sub>1d ago</sub></td></tr>
-<tr><td>💬</td><td><a href="https://github.com/dmzoneill/bin/pull/8">fix: resolve git/xdg-open/journalctl to absolute paths, drop nosec</a><br/><sub><code>bin</code></sub></td><td align="right"><sub>1h ago</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/seedarr.net/commits/main">Pushed to main</a><br/><sub><code>seedarr.net</code></sub></td><td align="right"><sub>1d ago</sub></td></tr>
+<tr><td>💬</td><td><a href="https://github.com/dmzoneill/redhat-ai-workflow/pull/272">sprint daemon: real fixes for local pylint/ruff suppressions (on…</a><br/><sub><code>redhat-ai-workflow</code></sub></td><td align="right"><sub>2m ago</sub></td></tr>
+<tr><td>💬</td><td><a href="https://github.com/dmzoneill/redhat-ai-workflow/pull/283">fix(meet tts): run piper download and ffmpeg off the event loop…</a><br/><sub><code>redhat-ai-workflow</code></sub></td><td align="right"><sub>2m ago</sub></td></tr>
+<tr><td>💬</td><td><a href="https://github.com/dmzoneill/DFakeSeeder/pull/74">refactor(gi): convert cleanup_mixin to gi_base; narrow broad excepts</a><br/><sub><code>DFakeSeeder</code></sub></td><td align="right"><sub>6m ago</sub></td></tr>
+<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/Seedarr/commits/main">Pushed to main</a><br/><sub><code>Seedarr</code></sub></td><td align="right"><sub>2d ago</sub></td></tr>
+<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/redhatter/commits/main">Pushed to main</a><br/><sub><code>redhatter</code></sub></td><td align="right"><sub>2d ago</sub></td></tr>
+<tr><td>💬</td><td><a href="https://github.com/dmzoneill/DFakeSeeder/pull/73">refactor(gi): add central gi bootstrap modules; convert neutral files</a><br/><sub><code>DFakeSeeder</code></sub></td><td align="right"><sub>30m ago</sub></td></tr>
+<tr><td>💬</td><td><a href="https://github.com/dmzoneill/redhat-ai-workflow/pull/272">sprint daemon: real fixes for local pylint/ruff suppressions (on…</a><br/><sub><code>redhat-ai-workflow</code></sub></td><td align="right"><sub>30m ago</sub></td></tr>
+<tr><td>💬</td><td><a href="https://github.com/dmzoneill/redhat-ai-workflow/pull/268">fix(google_slides): write exported PDF without blocking (S7493)</a><br/><sub><code>redhat-ai-workflow</code></sub></td><td align="right"><sub>1h ago</sub></td></tr>
+<tr><td>💬</td><td><a href="https://github.com/dmzoneill/redhat-ai-workflow/pull/261">sprint daemon: remove broad-except/import/no-else-return/unused-arg…</a><br/><sub><code>redhat-ai-workflow</code></sub></td><td align="right"><sub>1h ago</sub></td></tr>
+<tr><td>💬</td><td><a href="https://github.com/dmzoneill/redhat-ai-workflow/pull/255">fix(skill_error_recovery): non-blocking CLI prompt (S7501) + cleanup</a><br/><sub><code>redhat-ai-workflow</code></sub></td><td align="right"><sub>1h ago</sub></td></tr>
 
 </table>
 </details>

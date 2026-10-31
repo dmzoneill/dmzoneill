@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="860" height="14" viewBox="0 0 860 14">
   <clipPath id="r"><rect width="860" height="14" rx="7"/></clipPath>
   <g clip-path="url(#r)">
-  <rect x="0.00" y="0" width="379.70" height="14" fill="#4F5D95"/>
-  <rect x="379.70" y="0" width="105.57" height="14" fill="#178600"/>
+  <rect x="0.00" y="0" width="379.71" height="14" fill="#4F5D95"/>
+  <rect x="379.71" y="0" width="105.57" height="14" fill="#178600"/>
   <rect x="485.27" y="0" width="74.21" height="14" fill="#f1e05a"/>
   <rect x="559.48" y="0" width="57.85" height="14" fill="#3178c6"/>
-  <rect x="617.33" y="0" width="48.56" height="14" fill="#3572A5"/>
+  <rect x="617.33" y="0" width="48.55" height="14" fill="#3572A5"/>
   <rect x="665.89" y="0" width="42.65" height="14" fill="#e34c26"/>
   <rect x="708.54" y="0" width="38.86" height="14" fill="#663399"/>
   <rect x="747.40" y="0" width="35.25" height="14" fill="#555555"/>

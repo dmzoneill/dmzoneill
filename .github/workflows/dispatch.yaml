@@ -432,6 +432,11 @@ on:
         type: string
         default: "false"
 
+permissions:
+  contents: write  # create/upload GitHub releases, push version bumps
+  packages: write  # push container image to ghcr.io
+  statuses: write  # super-linter commit status
+
 jobs:
   pipeline-start:
     name: Pipeline start
@@ -2261,8 +2266,10 @@ jobs:
     needs: [docker, deb, rpm, gnome, pypi, chrome, pling, npmjs, flatpak, appimage, snap, nix, aur, homebrew, chocolatey, scoop, winget]
     steps:
       - name: Rebuild profile
+        env:
+          PROFILE_HOOK: ${{ secrets.PROFILE_HOOK }}
         run: |-
-          curl -H 'Accept: application/vnd.github+json' -H 'Authorization: token ${{ secrets.PROFILE_HOOK }}' --request POST --data '{"event_type": "cicd-hook"}' https://api.github.com/repos/dmzoneill/dmzoneill/dispatches
+          curl -H 'Accept: application/vnd.github+json' -H "Authorization: token ${PROFILE_HOOK}" --request POST --data '{"event_type": "cicd-hook"}' https://api.github.com/repos/dmzoneill/dmzoneill/dispatches
 
   blog:
     runs-on: ubuntu-latest

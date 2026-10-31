@@ -11,8 +11,8 @@
 <p align="center">
 <a href="https://gist.github.com/dmzoneill"><img src="generated/tiles/gist.svg" width="176" height="46" alt="Gists: 24"/></a>
 <a href="https://github.com/issues?q=is%3Aissue+is%3Aopen+archived%3Afalse+user%3Admzoneill"><img src="generated/tiles/issue.svg" width="176" height="46" alt="Issues: 65"/></a>
-<a href="https://github.com/pulls?q=is%3Apr+is%3Aopen+author%3Admzoneill"><img src="generated/tiles/pr.svg" width="176" height="46" alt="Pull requests: 21"/></a>
-<a href="https://github.com/dmzoneill"><img src="generated/tiles/activity.svg" width="176" height="46" alt="Activity: 10"/></a>
+<a href="https://github.com/pulls?q=is%3Apr+is%3Aopen+author%3Admzoneill"><img src="generated/tiles/pr.svg" width="176" height="46" alt="Pull requests: 11"/></a>
+<a href="https://github.com/dmzoneill"><img src="generated/tiles/activity.svg" width="176" height="46" alt="Activity: 4"/></a>
 </p>
 
 <details>
@@ -50,35 +50,29 @@
 </table>
 </details>
 <details>
-<summary>🔀 <b>Pull requests</b> · 21 · <sub>latest just now</sub></summary>
+<summary>🔀 <b>Pull requests</b> · 11 · <sub>latest 1m ago</sub></summary>
 <table>
-<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/DFakeSeeder/pull/77">refactor(gi): convert single_instance to gi_base; narrow broad excepts</a><br/><sub><code>DFakeSeeder#77</code></sub></td><td align="right"><sub>just now</sub></td></tr>
-<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/redhat-ai-workflow/pull/292">fix(slack api client): use SystemRandom for backoff jitter and x_id…</a><br/><sub><code>redhat-ai-workflow#292</code></sub></td><td align="right"><sub>just now</sub></td></tr>
-<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/redhat-ai-workflow/pull/291">fix(jira tools): linear-time issue-key and field regexes (S8786)</a><br/><sub><code>redhat-ai-workflow#291</code></sub></td><td align="right"><sub>just now</sub></td></tr>
-<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/redhat-ai-workflow/pull/272">sprint daemon: real fixes for local pylint/ruff suppressions (on…</a><br/><sub><code>redhat-ai-workflow#272</code></sub></td><td align="right"><sub>2m ago</sub></td></tr>
-<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/redhat-ai-workflow/pull/283">fix(meet tts): run piper download and ffmpeg off the event loop…</a><br/><sub><code>redhat-ai-workflow#283</code></sub></td><td align="right"><sub>2m ago</sub></td></tr>
-<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/redhat-ai-workflow/pull/290">fix(ollama skill discovery): linear-time skill patterns (S8786)</a><br/><sub><code>redhat-ai-workflow#290</code></sub></td><td align="right"><sub>2m ago</sub></td></tr>
-<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/DFakeSeeder/pull/74">refactor(gi): convert cleanup_mixin to gi_base; narrow broad excepts</a><br/><sub><code>DFakeSeeder#74</code></sub></td><td align="right"><sub>2m ago</sub></td></tr>
-<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/DFakeSeeder/pull/76">fix/column translation bootstrap</a><br/><sub><code>DFakeSeeder#76</code></sub></td><td align="right"><sub>3m ago</sub></td></tr>
-<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/redhat-ai-workflow/pull/261">sprint daemon: remove broad-except/import/no-else-return/unused-arg…</a><br/><sub><code>redhat-ai-workflow#261</code></sub></td><td align="right"><sub>1h ago</sub></td></tr>
-<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/redhatter/pull/30">lint: real fixes + 120 format for main.py, install_native_host.py,…</a><br/><sub><code>redhatter#30</code></sub></td><td align="right"><sub>1h ago</sub></td></tr>
-<tr><td></td><td><a href='https://github.com/pulls?q=is%3Apr+is%3Aopen+author%3Admzoneill'>+11 more</a></td><td></td></tr>
+<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/DFakeSeeder/pull/117">refactor(ui): simulation settings tab uses row templates (dedup,…</a><br/><sub><code>DFakeSeeder#117</code></sub></td><td align="right"><sub>1m ago</sub></td></tr>
+<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/DFakeSeeder/pull/116">refactor(ui): peer protocol settings tab uses row templates (dedup,…</a><br/><sub><code>DFakeSeeder#116</code></sub></td><td align="right"><sub>1m ago</sub></td></tr>
+<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/dmzoneill/pull/46">fix: escape and anchor version replacement in bump job</a><br/><sub><code>dmzoneill#46</code></sub></td><td align="right"><sub>4m ago</sub></td></tr>
+<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/redhat-ai-workflow/pull/328">refactor(meet_bot): split tools_basic.py into modules</a><br/><sub><code>redhat-ai-workflow#328</code></sub></td><td align="right"><sub>7m ago</sub></td></tr>
+<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/Xenith/pull/16">refactor(voice_input): split oversized voice input into modules,…</a><br/><sub><code>Xenith#16</code></sub></td><td align="right"><sub>4h ago</sub></td></tr>
+<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/redhat-ai-workflow/pull/255">fix(skill_error_recovery): non-blocking CLI prompt (S7501) + cleanup</a><br/><sub><code>redhat-ai-workflow#255</code></sub></td><td align="right"><sub>7h ago</sub></td></tr>
+<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/sodarr-chrome-plugin/pull/7">fix(lint): remove # nosec from xdg_open.py</a><br/><sub><code>sodarr-chrome-plugin#7</code></sub></td><td align="right"><sub>8h ago</sub></td></tr>
+<tr><td>🔀</td><td><a href="https://github.com/ansible/awx/pull/16601">fix(notifications): handle empty string and string UIDs for Grafana…</a><br/><sub><code>awx#16601</code></sub></td><td align="right"><sub>1w ago</sub></td></tr>
+<tr><td>🔀</td><td><a href="https://github.com/netbirdio/netbird/pull/7719">[client] Detect underlying network and VPN disconnect events on Linux</a><br/><sub><code>netbird#7719</code></sub></td><td align="right"><sub>1w ago</sub></td></tr>
+<tr><td>🔀</td><td><a href="https://github.com/gnome-terminator/terminator/pull/1056">fix: convert enabled string to boolean in custom commands</a><br/><sub><code>terminator#1056</code></sub></td><td align="right"><sub>1w ago</sub></td></tr>
+<tr><td></td><td><a href='https://github.com/pulls?q=is%3Apr+is%3Aopen+author%3Admzoneill'>+1 more</a></td><td></td></tr>
 
 </table>
 </details>
 <details>
-<summary>⚡ <b>Activity</b> · 10 · <sub>latest 2m ago</sub></summary>
+<summary>⚡ <b>Activity</b> · 4 · <sub>latest 2d ago</sub></summary>
 <table>
-<tr><td>💬</td><td><a href="https://github.com/dmzoneill/redhat-ai-workflow/pull/272">sprint daemon: real fixes for local pylint/ruff suppressions (on…</a><br/><sub><code>redhat-ai-workflow</code></sub></td><td align="right"><sub>2m ago</sub></td></tr>
-<tr><td>💬</td><td><a href="https://github.com/dmzoneill/redhat-ai-workflow/pull/283">fix(meet tts): run piper download and ffmpeg off the event loop…</a><br/><sub><code>redhat-ai-workflow</code></sub></td><td align="right"><sub>2m ago</sub></td></tr>
-<tr><td>💬</td><td><a href="https://github.com/dmzoneill/DFakeSeeder/pull/74">refactor(gi): convert cleanup_mixin to gi_base; narrow broad excepts</a><br/><sub><code>DFakeSeeder</code></sub></td><td align="right"><sub>6m ago</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/Seedarr/commits/main">Pushed to main</a><br/><sub><code>Seedarr</code></sub></td><td align="right"><sub>2d ago</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/redhatter/commits/main">Pushed to main</a><br/><sub><code>redhatter</code></sub></td><td align="right"><sub>2d ago</sub></td></tr>
-<tr><td>💬</td><td><a href="https://github.com/dmzoneill/DFakeSeeder/pull/73">refactor(gi): add central gi bootstrap modules; convert neutral files</a><br/><sub><code>DFakeSeeder</code></sub></td><td align="right"><sub>30m ago</sub></td></tr>
-<tr><td>💬</td><td><a href="https://github.com/dmzoneill/redhat-ai-workflow/pull/272">sprint daemon: real fixes for local pylint/ruff suppressions (on…</a><br/><sub><code>redhat-ai-workflow</code></sub></td><td align="right"><sub>30m ago</sub></td></tr>
-<tr><td>💬</td><td><a href="https://github.com/dmzoneill/redhat-ai-workflow/pull/268">fix(google_slides): write exported PDF without blocking (S7493)</a><br/><sub><code>redhat-ai-workflow</code></sub></td><td align="right"><sub>1h ago</sub></td></tr>
-<tr><td>💬</td><td><a href="https://github.com/dmzoneill/redhat-ai-workflow/pull/261">sprint daemon: remove broad-except/import/no-else-return/unused-arg…</a><br/><sub><code>redhat-ai-workflow</code></sub></td><td align="right"><sub>1h ago</sub></td></tr>
-<tr><td>💬</td><td><a href="https://github.com/dmzoneill/redhat-ai-workflow/pull/255">fix(skill_error_recovery): non-blocking CLI prompt (S7501) + cleanup</a><br/><sub><code>redhat-ai-workflow</code></sub></td><td align="right"><sub>1h ago</sub></td></tr>
+<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/dmzoneill/commits/profile-year-sections-featured">Pushed to profile-year-sections-featured</a><br/><sub><code>dmzoneill</code></sub></td><td align="right"><sub>2d ago</sub></td></tr>
+<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/seedarr.net/commits/codacy/phpcs-comparison-operators">Pushed to codacy/phpcs-comparison-operators</a><br/><sub><code>seedarr.net</code></sub></td><td align="right"><sub>1d ago</sub></td></tr>
+<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/torrent-speedtest/commits/main">Pushed to main</a><br/><sub><code>torrent-speedtest</code></sub></td><td align="right"><sub>2d ago</sub></td></tr>
+<tr><td>💬</td><td><a href="https://github.com/dmzoneill/DFakeSeeder/pull/96">refactor(settings/multi_tracker_tab): gi bootstrap, narrow excepts,…</a><br/><sub><code>DFakeSeeder</code></sub></td><td align="right"><sub>2h ago</sub></td></tr>
 
 </table>
 </details>
@@ -103,10 +97,10 @@
 <table>
 <tr>
 <td width="20%"><img src='https://img.shields.io/badge/-%20-4F5D95?style=flat-square' width='10' height='10'/> <b>PHP</b><br/><sub>112.7 MB · 43.7%</sub><br/><img src="images/spacer.svg" width="140" height="1" alt=""/></td>
-<td width="20%"><img src='https://img.shields.io/badge/-%20-178600?style=flat-square' width='10' height='10'/> <b>C#</b><br/><sub>31.3 MB · 12.2%</sub><br/><img src="images/spacer.svg" width="140" height="1" alt=""/></td>
+<td width="20%"><img src='https://img.shields.io/badge/-%20-178600?style=flat-square' width='10' height='10'/> <b>C#</b><br/><sub>31.3 MB · 12.1%</sub><br/><img src="images/spacer.svg" width="140" height="1" alt=""/></td>
 <td width="20%"><img src='https://img.shields.io/badge/-%20-f1e05a?style=flat-square' width='10' height='10'/> <b>JavaScript</b><br/><sub>22.0 MB · 8.5%</sub><br/><img src="images/spacer.svg" width="140" height="1" alt=""/></td>
 <td width="20%"><img src='https://img.shields.io/badge/-%20-3178c6?style=flat-square' width='10' height='10'/> <b>TypeScript</b><br/><sub>17.2 MB · 6.7%</sub><br/><img src="images/spacer.svg" width="140" height="1" alt=""/></td>
-<td width="20%"><img src='https://img.shields.io/badge/-%20-3572A5?style=flat-square' width='10' height='10'/> <b>Python</b><br/><sub>14.4 MB · 5.6%</sub><br/><img src="images/spacer.svg" width="140" height="1" alt=""/></td>
+<td width="20%"><img src='https://img.shields.io/badge/-%20-3572A5?style=flat-square' width='10' height='10'/> <b>Python</b><br/><sub>14.6 MB · 5.6%</sub><br/><img src="images/spacer.svg" width="140" height="1" alt=""/></td>
 </tr><tr>
 <td width="20%"><img src='https://img.shields.io/badge/-%20-e34c26?style=flat-square' width='10' height='10'/> <b>HTML</b><br/><sub>12.7 MB · 4.9%</sub><br/><img src="images/spacer.svg" width="140" height="1" alt=""/></td>
 <td width="20%"><img src='https://img.shields.io/badge/-%20-663399?style=flat-square' width='10' height='10'/> <b>CSS</b><br/><sub>11.5 MB · 4.5%</sub><br/><img src="images/spacer.svg" width="140" height="1" alt=""/></td>
@@ -117,7 +111,7 @@
 <td width="20%"><img src='https://img.shields.io/badge/-%20-f0c040?style=flat-square' width='10' height='10'/> <b>Smarty</b><br/><sub>2.0 MB · 0.8%</sub><br/><img src="images/spacer.svg" width="140" height="1" alt=""/></td>
 <td width="20%"><img src='https://img.shields.io/badge/-%20-89e051?style=flat-square' width='10' height='10'/> <b>Shell</b><br/><sub>1.9 MB · 0.7%</sub><br/><img src="images/spacer.svg" width="140" height="1" alt=""/></td>
 <td width="20%"><img src='https://img.shields.io/badge/-%20-00ADD8?style=flat-square' width='10' height='10'/> <b>Go</b><br/><sub>1.7 MB · 0.7%</sub><br/><img src="images/spacer.svg" width="140" height="1" alt=""/></td>
-<td width="20%"><img src='https://img.shields.io/badge/-%20-8b949e?style=flat-square' width='10' height='10'/> <b>Raku</b><br/><sub>1.7 MB · 0.7%</sub><br/><img src="images/spacer.svg" width="140" height="1" alt=""/></td>
+<td width="20%"><img src='https://img.shields.io/badge/-%20-8b949e?style=flat-square' width='10' height='10'/> <b>Raku</b><br/><sub>1.7 MB · 0.6%</sub><br/><img src="images/spacer.svg" width="140" height="1" alt=""/></td>
 <td width="20%"><img src='https://img.shields.io/badge/-%20-8b949e?style=flat-square' width='10' height='10'/> <b>Tcl</b><br/><sub>1.2 MB · 0.5%</sub><br/><img src="images/spacer.svg" width="140" height="1" alt=""/></td>
 </tr><tr>
 <td width="20%"><img src='https://img.shields.io/badge/-%20-8b949e?style=flat-square' width='10' height='10'/> <b>Classic ASP</b><br/><sub>836 KB · 0.3%</sub><br/><img src="images/spacer.svg" width="140" height="1" alt=""/></td>

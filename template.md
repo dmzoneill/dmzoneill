@@ -9,36 +9,11 @@
 </p>
 
 <p align="center">
-<a href="{gist_link}"><img src="generated/tiles/gist.svg" width="176" height="46" alt="Gists: {gist_count}"/></a>
-<a href="{issue_link}"><img src="generated/tiles/issue.svg" width="176" height="46" alt="Issues: {issue_count}"/></a>
-<a href="{pr_link}"><img src="generated/tiles/pr.svg" width="176" height="46" alt="Pull requests: {pr_count}"/></a>
-<a href="{activity_link}"><img src="generated/tiles/activity.svg" width="176" height="46" alt="Activity: {activity_count}"/></a>
+<a href="readme.gists.md"><img src="generated/tiles/gist.svg" width="176" height="46" alt="Gists: {gist_count}"/></a>
+<a href="readme.issues.md"><img src="generated/tiles/issue.svg" width="176" height="46" alt="Issues: {issue_count}"/></a>
+<a href="readme.pull-requests.md"><img src="generated/tiles/pr.svg" width="176" height="46" alt="Pull requests: {pr_count}"/></a>
+<a href="readme.activity.md"><img src="generated/tiles/activity.svg" width="176" height="46" alt="Activity: {activity_count}"/></a>
 </p>
-
-<details>
-<summary>📝 <b>Gists</b> · {gist_count} · <sub>latest {gist_latest_rel}</sub></summary>
-<table>
-<gists><tr><td>{icon}</td><td><a href="{url}">{title}</a><br/><sub><code>{tag}</code></sub></td><td align="right"><sub>{rel}</sub></td></tr></gists>
-</table>
-</details>
-<details>
-<summary>🟢 <b>Issues</b> · {issue_count} · <sub>latest {issue_latest_rel}</sub></summary>
-<table>
-<issues><tr><td>{icon}</td><td><a href="{url}">{title}</a><br/><sub><code>{tag}</code></sub></td><td align="right"><sub>{rel}</sub></td></tr></issues>
-</table>
-</details>
-<details>
-<summary>🔀 <b>Pull requests</b> · {pr_count} · <sub>latest {pr_latest_rel}</sub></summary>
-<table>
-<prs><tr><td>{icon}</td><td><a href="{url}">{title}</a><br/><sub><code>{tag}</code></sub></td><td align="right"><sub>{rel}</sub></td></tr></prs>
-</table>
-</details>
-<details>
-<summary>⚡ <b>Activity</b> · {activity_count} · <sub>latest {activity_latest_rel}</sub></summary>
-<table>
-<recent><tr><td>{icon}</td><td><a href="{url}">{title}</a><br/><sub><code>{tag}</code></sub></td><td align="right"><sub>{rel}</sub></td></tr></recent>
-</table>
-</details>
 
 <h3>🏢 Forks &amp; work orgs</h3>
 <p align="center">

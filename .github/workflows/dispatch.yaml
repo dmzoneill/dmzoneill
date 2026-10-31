@@ -1040,6 +1040,9 @@ jobs:
         uses: actions/checkout@v7
         with:
           fetch-depth: 0
+          # Check out the branch tip, not the triggering SHA, so a run queued behind
+          # another bump (concurrency group) reads the already-bumped version file.
+          ref: ${{ github.ref_name }}
 
       - name: Setup variables
         run: |
@@ -1200,6 +1203,9 @@ jobs:
   create-release:
     name: Create github release
     needs: bump-versions
+    concurrency:
+      group: create-release-${{ github.repository }}-${{ github.ref_name }}
+      cancel-in-progress: false
     if: needs.bump-versions.outputs.skipped != 'true'
     runs-on: ubuntu-latest
     outputs:
@@ -1260,6 +1266,10 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          if gh release view "v${{ env.PACKAGE_VERSION }}" >/dev/null 2>&1; then
+            echo "Release v${{ env.PACKAGE_VERSION }} already exists; skipping creation"
+            exit 0
+          fi
           gh release create "v${{ env.PACKAGE_VERSION }}" \
             --title "Release v${{ env.PACKAGE_VERSION }}" \
             --notes-file /tmp/release_body.md

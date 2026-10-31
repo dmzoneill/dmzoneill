@@ -95,7 +95,8 @@ def _opencode_model_id(model):
     lowered = text.lower()
     for prefix in ("opencode/", "oc/"):
         if lowered.startswith(prefix):
-            text = text[len(prefix) :]
+            prefix_len = len(prefix)
+            text = text[prefix_len:]
             break
     if "/" in text:
         text = text.rsplit("/", 1)[-1]

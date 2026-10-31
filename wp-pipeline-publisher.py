@@ -14,7 +14,7 @@ import requests
 GITHUB_API_TOKEN = os.getenv("PROFILE_HOOK")
 GITHUB_USER = os.getenv("GITHUB_USER")
 GITHUB_RUN_ID = os.getenv("GITHUB_RUN_ID")
-GITHUB_REPO_NAME = os.getenv("GITHUB_REPOSITORY").split("/")[1]
+GITHUB_REPO_NAME = os.getenv("GITHUB_REPOSITORY", "/").split("/")[1]
 
 # WordPress API details
 WORDPRESS_URL = os.getenv("WORDPRESS_URL")
@@ -26,7 +26,7 @@ print(GITHUB_USER)
 print(GITHUB_RUN_ID)
 print(GITHUB_REPO_NAME)
 
-system_prompt = """
+SYSTEM_PROMPT = """
 Please generate a blog post based on the provided release diff.
 The content should be formatted in **HTML for WordPress**, not markdown.
 
@@ -108,11 +108,10 @@ class OpenAICompatibleProvider:
     """Generate text via Cursor API or an OpenAI-compatible chat completions API."""
 
     def __init__(self) -> None:
-        self.api_key = os.getenv("LLM_API_KEY")
-        if not self.api_key:
-            raise RuntimeError(
-                "Missing LLM_API_KEY (API key for the LLM endpoint)."
-            )
+        api_key = os.getenv("LLM_API_KEY")
+        if not api_key:
+            raise RuntimeError("Missing LLM_API_KEY (API key for the LLM endpoint).")
+        self.api_key = api_key
         base = (os.getenv("LLM_API_BASE") or DEFAULT_LLM_API_BASE).rstrip("/")
         self.api_base = base
         self.chat_url = f"{base}/chat/completions"
@@ -129,15 +128,14 @@ class OpenAICompatibleProvider:
     def _request_headers(self) -> dict[str, str]:
         return {"Content-Type": "application/json"}
 
-    def improve_text(self, system_prompt: str, user_text: str) -> str:
+    def improve_text(self, instructions: str, user_text: str) -> str:
         """Rewrite text with the configured AI provider."""
         if self.use_cursor_agents:
-            return self._improve_text_cursor_agent(system_prompt, user_text)
-        return self._improve_text_chat_completions(system_prompt, user_text)
+            return self.cursor_agent_completion(instructions, user_text)
+        return self.chat_completion(instructions, user_text)
 
-    def _improve_text_chat_completions(
-        self, system_prompt: str, user_text: str
-    ) -> str:
+    def chat_completion(self, instructions: str, user_text: str) -> str:
+        """Answer via an OpenAI-compatible chat completions endpoint."""
         headers = {
             "Authorization": f"Bearer {self.api_key}",
             "Content-Type": "application/json",
@@ -145,23 +143,19 @@ class OpenAICompatibleProvider:
         payload = {
             "model": self.model,
             "messages": [
-                {"role": "system", "content": system_prompt},
+                {"role": "system", "content": instructions},
                 {"role": "user", "content": user_text},
             ],
             "temperature": 0.7,
             "max_tokens": 4096,
         }
-        response = requests.post(
-            self.chat_url, headers=headers, json=payload, timeout=180
-        )
+        response = requests.post(self.chat_url, headers=headers, json=payload, timeout=180)
         if response.status_code != 200:
             print(
                 f"LLM API error: {response.status_code} {response.text}",
                 file=sys.stderr,
             )
-            raise RuntimeError(
-                f"LLM API request failed with status {response.status_code}"
-            )
+            raise RuntimeError(f"LLM API request failed with status {response.status_code}")
         data = response.json()
         choices = data.get("choices", [])
         if not choices:
@@ -174,56 +168,38 @@ class OpenAICompatibleProvider:
             raise RuntimeError("LLM API returned empty content")
         return content.strip()
 
-    def _improve_text_cursor_agent(
-        self, system_prompt: str, user_text: str
-    ) -> str:
-        prompt_text = f"{system_prompt.strip()}\n\n---\n\n{user_text.strip()}"
-        create_url = f"{CURSOR_API_ORIGIN}/v1/agents"
-        payload = {
-            "prompt": {"text": prompt_text},
-            "model": {"id": self.model},
-        }
+    def cursor_agent_completion(self, instructions: str, user_text: str) -> str:
+        """Answer via a Cursor cloud agent run, polling until it finishes."""
+        prompt_text = f"{instructions.strip()}\n\n---\n\n{user_text.strip()}"
+        agent_id, run_id = self._start_cursor_agent(prompt_text)
+        return self._wait_for_cursor_run(f"{CURSOR_API_ORIGIN}/v1/agents/{agent_id}/runs/{run_id}")
+
+    def _start_cursor_agent(self, prompt_text: str) -> tuple[str, str]:
         response = requests.post(
-            create_url,
+            f"{CURSOR_API_ORIGIN}/v1/agents",
             auth=self._request_auth(),
             headers=self._request_headers(),
-            json=payload,
+            json={"prompt": {"text": prompt_text}, "model": {"id": self.model}},
             timeout=120,
         )
         if response.status_code not in (200, 201):
-            print(
-                f"Cursor API error: {response.status_code} {response.text}",
-                file=sys.stderr,
-            )
-            raise RuntimeError(
-                f"Cursor API request failed with status {response.status_code}"
-            )
+            print(f"Cursor API error: {response.status_code} {response.text}", file=sys.stderr)
+            raise RuntimeError(f"Cursor API request failed with status {response.status_code}")
         data = response.json()
-        agent = data.get("agent") or {}
-        run = data.get("run") or {}
-        agent_id = agent.get("id")
-        run_id = run.get("id")
+        agent_id = (data.get("agent") or {}).get("id")
+        run_id = (data.get("run") or {}).get("id")
         if not agent_id or not run_id:
             raise RuntimeError("Cursor API did not return agent/run identifiers")
+        return agent_id, run_id
 
-        run_url = f"{CURSOR_API_ORIGIN}/v1/agents/{agent_id}/runs/{run_id}"
+    def _wait_for_cursor_run(self, run_url: str) -> str:
         deadline = time.time() + CURSOR_AGENT_TIMEOUT_SECS
         terminal = {"FINISHED", "ERROR", "CANCELLED", "EXPIRED"}
         while time.time() < deadline:
-            poll = requests.get(
-                run_url,
-                auth=self._request_auth(),
-                headers=self._request_headers(),
-                timeout=60,
-            )
+            poll = requests.get(run_url, auth=self._request_auth(), headers=self._request_headers(), timeout=60)
             if poll.status_code != 200:
-                print(
-                    f"Cursor API poll error: {poll.status_code} {poll.text}",
-                    file=sys.stderr,
-                )
-                raise RuntimeError(
-                    f"Cursor API poll failed with status {poll.status_code}"
-                )
+                print(f"Cursor API poll error: {poll.status_code} {poll.text}", file=sys.stderr)
+                raise RuntimeError(f"Cursor API poll failed with status {poll.status_code}")
             run_data = poll.json()
             status = run_data.get("status")
             if status in terminal:
@@ -237,7 +213,7 @@ class OpenAICompatibleProvider:
         raise RuntimeError("Cursor agent run timed out")
 
 
-def search_image_url_unsplash(query: str, api_key: str) -> str:
+def search_image_url_unsplash(query: str, api_key: str) -> str | None:
     """
     Search for an image URL on Unsplash based on the query.
 
@@ -247,7 +223,7 @@ def search_image_url_unsplash(query: str, api_key: str) -> str:
     """
     url = "https://api.unsplash.com/search/photos"
     headers = {"Authorization": f"Client-ID {api_key}"}
-    params = {"query": query, "per_page": 1, "orientation": "landscape"}
+    params: dict[str, str | int] = {"query": query, "per_page": 1, "orientation": "landscape"}
     response = requests.get(url, headers=headers, params=params, timeout=30)
     if response.status_code == 200:
         data = response.json()
@@ -256,7 +232,7 @@ def search_image_url_unsplash(query: str, api_key: str) -> str:
     return None
 
 
-def upload_image_to_wordpress(image_url: str, image_name: str) -> str:
+def upload_image_to_wordpress(image_url: str, image_name: str) -> str | None:
     """
     Upload an image to WordPress and return its URL.
 
@@ -265,7 +241,7 @@ def upload_image_to_wordpress(image_url: str, image_name: str) -> str:
     :return: URL of the uploaded image or None if upload fails.
     """
     try:
-        auth = f'Basic {base64.b64encode(f"{WORDPRESS_USERNAME}:{WORDPRESS_APPLICATION}".encode()).decode()}'
+        auth = f"Basic {base64.b64encode(f'{WORDPRESS_USERNAME}:{WORDPRESS_APPLICATION}'.encode()).decode()}"
         img_data = requests.get(image_url, timeout=30).content
         media_url = f"{WORDPRESS_URL}media"
         headers = {
@@ -277,12 +253,12 @@ def upload_image_to_wordpress(image_url: str, image_name: str) -> str:
         if response.status_code == 201:
             return response.json().get("source_url")
         print(f"WordPress upload failed: {response.status_code} - {response.text}")
-    except Exception as e:
+    except requests.exceptions.RequestException as e:
         print(f"Image upload failed: {e}")
     return None
 
 
-def search_youtube_video(topic: str, api_key: str) -> str:
+def search_youtube_video(topic: str, api_key: str) -> str | None:
     """
     Search for a YouTube video based on the topic.
 
@@ -291,7 +267,7 @@ def search_youtube_video(topic: str, api_key: str) -> str:
     :return: Embed URL of the video or None if not found.
     """
     url = "https://www.googleapis.com/youtube/v3/search"
-    params = {
+    params: dict[str, str | int] = {
         "part": "snippet",
         "q": topic,
         "type": "video",
@@ -307,7 +283,7 @@ def search_youtube_video(topic: str, api_key: str) -> str:
     return None
 
 
-def append_enrichment_to_post(content: str, video_url: str) -> str:
+def append_enrichment_to_post(content: str, video_url: str | None) -> str:
     """
     Append YouTube video enrichment to the blog post content.
 
@@ -318,7 +294,8 @@ def append_enrichment_to_post(content: str, video_url: str) -> str:
     enrichment = ""
     if video_url:
         enrichment = "\n\n<hr><h2>📚 Further Learning</h2>\n"
-        enrichment += f'<p>🎥 Watch this video for more:</p>\n<iframe width="710" height="415" src="{video_url}" frameborder="0" allowfullscreen></iframe>\n'
+        enrichment += "<p>🎥 Watch this video for more:</p>\n"
+        enrichment += f'<iframe width="710" height="415" src="{video_url}" frameborder="0" allowfullscreen></iframe>\n'
     return content + enrichment
 
 
@@ -332,7 +309,9 @@ def get_release_url(job_name="cicd / Pypi publish", pattern=None):
     :return: First match of the pattern or None if not found
     """
     # GitHub API URL for the actions jobs
-    workflow_runs_url = f"https://api.github.com/repos/{GITHUB_USER}/{GITHUB_REPO_NAME}/actions/runs/{GITHUB_RUN_ID}/jobs"
+    workflow_runs_url = (
+        f"https://api.github.com/repos/{GITHUB_USER}/{GITHUB_REPO_NAME}/actions/runs/{GITHUB_RUN_ID}/jobs"
+    )
 
     headers = {"Authorization": f"token {GITHUB_API_TOKEN}"}
 
@@ -345,7 +324,6 @@ def get_release_url(job_name="cicd / Pypi publish", pattern=None):
         # Find the specific job that corresponds to the provided job_name
         for job in jobs:
             if job["name"].lower() == job_name.lower():
-
                 # Get the job ID and use it to fetch the logs
                 job_id = job["id"]
                 log_url = f"https://api.github.com/repos/{GITHUB_USER}/{GITHUB_REPO_NAME}/actions/jobs/{job_id}/logs"
@@ -368,9 +346,7 @@ def get_release_url(job_name="cicd / Pypi publish", pattern=None):
                     print(f"Pattern not found in the logs for job {job_name}.")
                     return None
 
-                print(
-                    f"Failed to fetch logs for job {job_name}. Status Code: {log_response.status_code}"
-                )
+                print(f"Failed to fetch logs for job {job_name}. Status Code: {log_response.status_code}")
                 return None
     print(f"Failed to fetch workflow jobs. Status Code: {response.status_code}")
     return None
@@ -379,9 +355,7 @@ def get_release_url(job_name="cicd / Pypi publish", pattern=None):
 # Fetch the programming languages used in the GitHub repo
 def get_github_languages():
     """Return the repository's languages from the GitHub API."""
-    languages_url = (
-        f"https://api.github.com/repos/{GITHUB_USER}/{GITHUB_REPO_NAME}/languages"
-    )
+    languages_url = f"https://api.github.com/repos/{GITHUB_USER}/{GITHUB_REPO_NAME}/languages"
     languages_response = requests.get(
         languages_url,
         headers={"Authorization": f"token {GITHUB_API_TOKEN}"},
@@ -406,15 +380,11 @@ def get_release_links():
     # Get GitHub Release Link and Assets
     release_data = get_github_release()
     if release_data:
-        release_links["github_release"] = release_data.get(
-            "github_release", "Not available"
-        )
+        release_links["github_release"] = release_data.get("github_release", "Not available")
         release_links["assets"] = release_data.get("assets", {})
 
     # Fetch PyPI URL from the logs
-    pypi_url = get_release_url(
-        job_name="cicd / Pypi publish", pattern=r"(https://pypi\.org/project/[^/]+/\S+)"
-    )
+    pypi_url = get_release_url(job_name="cicd / Pypi publish", pattern=r"(https://pypi\.org/project/[^/]+/\S+)")
     if pypi_url:
         release_links["pypi"] = pypi_url
     else:
@@ -422,9 +392,7 @@ def get_release_links():
 
     # Fetch Docker Hub or GCR URL from the logs (using a pattern for pushing
     # manifest)
-    docker_url = get_release_url(
-        job_name="cicd / Docker publish", pattern=r"pushing manifest for s*(docker.*)"
-    )
+    docker_url = get_release_url(job_name="cicd / Docker publish", pattern=r"pushing manifest for s*(docker.*)")
     if docker_url:
         release_links["docker_hub"] = docker_url
     else:
@@ -432,9 +400,7 @@ def get_release_links():
 
     # Fetch Docker Hub or GCR URL from the logs (using a pattern for pushing
     # manifest)
-    docker_url = get_release_url(
-        job_name="cicd / Docker publish", pattern=r"pushing manifest for s*(ghcr.*)"
-    )
+    docker_url = get_release_url(job_name="cicd / Docker publish", pattern=r"pushing manifest for s*(ghcr.*)")
     if docker_url:
         release_links["ghcr_hub"] = docker_url
     else:
@@ -446,9 +412,7 @@ def get_release_links():
 # Function to remove enclosing code block markers (like ```html, ```)
 def clean_html_code_block(content):
     """Strip Markdown code fences from generated HTML."""
-    content = re.sub(
-        r"^```.*?$", "", content, flags=re.MULTILINE
-    )  # Remove start of code block
+    content = re.sub(r"^```.*?$", "", content, flags=re.MULTILINE)  # Remove start of code block
     content = re.sub(r"```$", "", content)  # Remove end of code block
     return content
 
@@ -462,20 +426,14 @@ def strip_html_tags(text):
 # Fetch GitHub Release Link and associated assets (such as RPM, DEB)
 def get_github_release():
     """Return the repository's latest GitHub release, or None."""
-    release_url = (
-        f"https://api.github.com/repos/{GITHUB_USER}/{GITHUB_REPO_NAME}/releases/latest"
-    )
-    release_response = requests.get(
-        release_url, headers={"Authorization": f"token {GITHUB_API_TOKEN}"}, timeout=30
-    )
+    release_url = f"https://api.github.com/repos/{GITHUB_USER}/{GITHUB_REPO_NAME}/releases/latest"
+    release_response = requests.get(release_url, headers={"Authorization": f"token {GITHUB_API_TOKEN}"}, timeout=30)
 
     if release_response.status_code == 200:
         release_data = release_response.json()
 
         # Getting the GitHub release URL
-        github_release_url = release_data.get(
-            "html_url", "Not available"
-        )  # Release URL
+        github_release_url = release_data.get("html_url", "Not available")  # Release URL
 
         # Find assets (deb, rpm, etc.) from the release
         assets = release_data.get("assets", [])
@@ -500,12 +458,10 @@ def get_or_create_tags(tags):
     tags_url = f"{WORDPRESS_URL}tags"
     headers = {
         "Content-Type": "application/json",
-        "Authorization": f'Basic {base64.b64encode(f"{WORDPRESS_USERNAME}:{WORDPRESS_APPLICATION}".encode()).decode()}',
+        "Authorization": f"Basic {base64.b64encode(f'{WORDPRESS_USERNAME}:{WORDPRESS_APPLICATION}'.encode()).decode()}",
     }
 
-    response = requests.get(
-        tags_url, headers=headers, params={"page": 1, "per_page": 100}, timeout=30
-    )
+    response = requests.get(tags_url, headers=headers, params={"page": 1, "per_page": 100}, timeout=30)
     if response.status_code == 200:
         existing_tags = response.json()
         existing_tag_names = {tag["name"].lower(): tag["id"] for tag in existing_tags}
@@ -517,9 +473,7 @@ def get_or_create_tags(tags):
             else:
                 create_tag_url = f"{WORDPRESS_URL}tags"
                 create_tag_data = {"name": tag}
-                create_response = requests.post(
-                    create_tag_url, json=create_tag_data, headers=headers, timeout=30
-                )
+                create_response = requests.post(create_tag_url, json=create_tag_data, headers=headers, timeout=30)
                 if create_response.status_code == 201:
                     new_tag = create_response.json()
                     tag_ids.append(new_tag["id"])
@@ -546,12 +500,43 @@ def get_category_id(languages, categories):
     return category_id
 
 
+def fetch_category_ids(languages, headers):
+    """Return the WordPress category ids matching the languages, or "" when none match."""
+    response = requests.get(
+        f"{WORDPRESS_URL}categories", headers=headers, params={"page": 1, "per_page": 100}, timeout=30
+    )
+    if response.status_code != 200:
+        return ""
+    category_id = get_category_id(languages, response.json())
+    if not category_id:
+        print(f"No matching categories found for {GITHUB_REPO_NAME}. Using default category.")
+    return category_id
+
+
+def upload_featured_image(featured_image_url, title, creds):
+    """Upload the featured image to WordPress and return its media id, or None on failure."""
+    print(f"Featured image url: {featured_image_url}")
+    try:
+        img_data = requests.get(featured_image_url, timeout=30).content
+        media_headers = {
+            "Content-Disposition": f"attachment; filename={title}.jpg",
+            "Content-Type": "image/jpeg",
+            "Authorization": f"Basic {creds}",
+        }
+        media_response = requests.post(f"{WORDPRESS_URL}media", headers=media_headers, data=img_data, timeout=30)
+    except requests.exceptions.RequestException as e:
+        print(f"Error uploading featured image: {e}")
+        return None
+    if media_response.status_code != 201:
+        print(f"Failed to upload featured image: {media_response.status_code} - {media_response.text}")
+        return None
+    print(f"Uploaded featured image: {featured_image_url}")
+    return media_response.json().get("id")
+
+
 # Create WordPress post with the given title, content, and tags
-def create_wordpress_post(
-    title, content, publish_date, excerpt, featured_image_url=None
-):
+def create_wordpress_post(title, content, publish_date, excerpt, featured_image_url=None):
     """Create a WordPress post and return the API response."""
-    url = f"{WORDPRESS_URL}posts"
     creds = f"{WORDPRESS_USERNAME}:{WORDPRESS_APPLICATION}".encode()
     creds = base64.b64encode(creds).decode("utf-8")
     headers = {"Content-Type": "application/json", "Authorization": f"Basic {creds}"}
@@ -562,19 +547,7 @@ def create_wordpress_post(
         return None
 
     tag_ids = get_or_create_tags(languages)
-    categories_url = f"{WORDPRESS_URL}categories"
-    response = requests.get(
-        categories_url, headers=headers, params={"page": 1, "per_page": 100}, timeout=30
-    )
-    category_id = ""
-    if response.status_code == 200:
-        categories = response.json()
-        category_id = get_category_id(languages, categories)
-
-        if not category_id:
-            print(
-                f"No matching categories found for {GITHUB_REPO_NAME}. Using default category."
-            )
+    category_id = fetch_category_ids(languages, headers)
 
     clean_content = clean_html_code_block(content)
     title = strip_html_tags(clean_html_code_block(title))
@@ -594,33 +567,13 @@ def create_wordpress_post(
     # If a featured image URL is provided, upload it and set it as the
     # featured image
     if featured_image_url:
-        print(f"Featured image url: {featured_image_url}")
-        try:
-            img_data = requests.get(featured_image_url, timeout=30).content
-            media_url = f"{WORDPRESS_URL}media"
-            media_headers = {
-                "Content-Disposition": f"attachment; filename={title}.jpg",
-                "Content-Type": "image/jpeg",
-                "Authorization": f"Basic {creds}",
-            }
-            media_response = requests.post(
-                media_url, headers=media_headers, data=img_data, timeout=30
-            )
-            if media_response.status_code == 201:
-                print(f"Uploaded featured image: {featured_image_url}")
-                media_id = media_response.json().get("id")
-                if media_id:
-                    print("added featured image to post")
-                    post_data["featured_media"] = media_id
-            else:
-                print(
-                    f"Failed to upload featured image: {media_response.status_code} - {media_response.text}"
-                )
-        except Exception as e:
-            print(f"Error uploading featured image: {e}")
+        media_id = upload_featured_image(featured_image_url, title, creds)
+        if media_id:
+            print("added featured image to post")
+            post_data["featured_media"] = media_id
 
     try:
-        response = requests.post(url, json=post_data, headers=headers, timeout=30)
+        response = requests.post(f"{WORDPRESS_URL}posts", json=post_data, headers=headers, timeout=30)
         if response.status_code == 201:
             print(f"Post created successfully! URL: {response.json()['link']}")
             return response.json()
@@ -628,7 +581,7 @@ def create_wordpress_post(
         return None
 
     except requests.exceptions.RequestException as e:
-        print(f"Request failed: {str(e)}")
+        print(f"Request failed: {e!s}")
         return None
 
 
@@ -673,9 +626,7 @@ def get_commit_diff(sha):
     """
     # GitHub API URL for the commit details (this returns diff information in
     # the files section)
-    commit_url = (
-        f"https://api.github.com/repos/{GITHUB_USER}/{GITHUB_REPO_NAME}/commits/{sha}"
-    )
+    commit_url = f"https://api.github.com/repos/{GITHUB_USER}/{GITHUB_REPO_NAME}/commits/{sha}"
 
     headers = {"Authorization": f"token {GITHUB_API_TOKEN}"}
 
@@ -703,9 +654,7 @@ def get_commit_diff(sha):
 
         print("No diff data available in the commit.")
         return None
-    print(
-        f"Failed to fetch commit details for SHA {sha}. Status Code: {response.status_code}"
-    )
+    print(f"Failed to fetch commit details for SHA {sha}. Status Code: {response.status_code}")
     return None
 
 
@@ -713,7 +662,7 @@ def generate_description_with_media(prompt: str):
     """Generate the post body and extract the image idea and YouTube topics."""
     ai_provider = OpenAICompatibleProvider()
 
-    response = ai_provider.improve_text(system_prompt, prompt)
+    response = ai_provider.improve_text(SYSTEM_PROMPT, prompt)
 
     # Use regex to extract image_idea and youtube_topics
     image_match = re.search(r"image_idea:\s*(.*?)$", response, re.MULTILINE)
@@ -752,41 +701,29 @@ def generate_description_with_media(prompt: str):
     return None, response, image_idea, youtube_topics
 
 
-def is_substantial_change(
-    diff: str, commit_message: str, override_keyword="Blog = true"
-) -> bool:
-    # Force include if override keyword is in commit message
+def is_substantial_change(diff: str, commit_message: str, override_keyword="Blog = true") -> bool:
     """Decide whether a diff is worth a blog post; the override keyword forces yes."""
+    # Force include if override keyword is in commit message
     if override_keyword.lower() in commit_message.lower():
         return True
-
     if not diff or not commit_message:
         return False
+    return _diff_is_substantial(diff, commit_message)
+
+
+def _diff_is_substantial(diff: str, commit_message: str) -> bool:
 
     # Count added and removed lines
-    added_lines = sum(
-        1
-        for line in diff.splitlines()
-        if line.startswith("+") and not line.startswith("+++")
-    )
-    removed_lines = sum(
-        1
-        for line in diff.splitlines()
-        if line.startswith("-") and not line.startswith("---")
-    )
+    added_lines = sum(1 for line in diff.splitlines() if line.startswith("+") and not line.startswith("+++"))
+    removed_lines = sum(1 for line in diff.splitlines() if line.startswith("-") and not line.startswith("---"))
     total_changes = added_lines + removed_lines
 
     # Extract changed files
     changed_files = re.findall(r"^diff --git a/(.+?) b/\1", diff, re.MULTILINE)
 
-    if not changed_files:
-        return False
-
-    # Skip if all files are dotfiles or in .github/** or similar
-    all_hidden = all(
-        Path(file).parts[0].startswith(".") or "/." in file for file in changed_files
-    )
-    if all_hidden:
+    # Skip if nothing changed or all files are dotfiles or in .github/** or similar
+    all_hidden = all(Path(file).parts[0].startswith(".") or "/." in file for file in changed_files)
+    if not changed_files or all_hidden:
         return False
 
     # CommitLint type detection
@@ -803,118 +740,102 @@ def is_substantial_change(
     # For others, check if there's at least one non-trivial change
     if total_changes >= 25:
         # Also exclude if only markdown or doc files were touched
-        non_doc_files = [
-            f
-            for f in changed_files
-            if not re.search(r"\.(md|txt|gitignore|yml|yaml|json)$", f)
-        ]
+        non_doc_files = [f for f in changed_files if not re.search(r"\.(md|txt|gitignore|yml|yaml|json)$", f)]
         if non_doc_files:
             return True
 
     return False
 
 
-def main():
+def fetch_latest_commit():
+    """Return the latest commit not authored by the actions bot, or None if it cannot be fetched."""
+    commit_url = f"https://api.github.com/repos/{GITHUB_USER}/{GITHUB_REPO_NAME}/commits"
+    commit_response = requests.get(commit_url, headers={"Authorization": f"token {GITHUB_API_TOKEN}"}, timeout=30)
+    print(f"\nCommit url: {commit_url}")
+    print(commit_response.content)
+
+    if commit_response.status_code != 200:
+        print(f"Failed to fetch commits for {GITHUB_REPO_NAME}. Status code: {commit_response.status_code}")
+        return None, None
+
+    commit_data = commit_response.json()
+    if not commit_data:
+        print(f"No commits found for {GITHUB_REPO_NAME}. Exiting.")
+        return None, None
+
+    commit_no = 0
+    if commit_data[commit_no]["author"]["login"] == "actions":
+        commit_no += 1
+    return commit_data[commit_no], commit_data[0]
+
+
+def find_featured_image(image_idea, title):
+    """Find an Unsplash image for the idea and upload it to WordPress, returning its URL."""
+    unsplash_key = os.getenv("UNSPLASH_ACCESS_KEY")
+    if not image_idea or not unsplash_key:
+        return None
+    print("Unsplash searching for image")
+    raw_img_url = search_image_url_unsplash(image_idea, unsplash_key)
+    if not raw_img_url:
+        return None
+    print("Unsplash found image")
+    return upload_image_to_wordpress(raw_img_url, title + ".jpg")
+
+
+def find_youtube_video(youtube_topics):
+    """Return an embed URL for the first topic with a matching YouTube video, or None."""
+    youtube_key = os.getenv("YOUTUBE_API")
+    if not youtube_topics or not youtube_key:
+        return None
+    print("Fetching youtube video")
+    for topic in youtube_topics:
+        video_url = search_youtube_video(topic, youtube_key)
+        if video_url:
+            print("Got youtube video")
+            return video_url
+    return None
+
+
+def publish_latest_commit():
     """Generate and publish a blog post for the latest commit if it is substantial."""
+    # Get the repository name that triggered the pipeline
+    print(f"\nProcessing repository: {GITHUB_REPO_NAME}")
+
+    commit, newest = fetch_latest_commit()
+    if commit is None:
+        return
+
+    diff = get_commit_diff(commit["sha"])
+    if not is_substantial_change(diff, commit["commit"]["message"]):
+        return
+
+    publish_date = datetime.fromisoformat(newest["commit"]["author"]["date"]).strftime("%Y-%m-%dT%H:%M:%S")
+    print(f"Commit date for {GITHUB_REPO_NAME}: {publish_date}")
+
+    # Get release links (RPM, DEB, etc.) and generate the description using the LLM API
+    prompt = generate_blog_post_prompt(get_release_links(), diff, publish_date)
+    title, description, image_idea, youtube_topics = generate_description_with_media(prompt)
+    if not title or not description:
+        print(f"Error generating title/description for {GITHUB_REPO_NAME}. Exiting.")
+        return
+
+    # Use the first 150 characters as an SEO excerpt
+    excerpt = strip_html_tags(clean_html_code_block(description)).strip()[:150].strip()
+    image_url = find_featured_image(image_idea, title)
+    description = append_enrichment_to_post(description, find_youtube_video(youtube_topics))
+
+    post_response = create_wordpress_post(title, description, publish_date, excerpt, featured_image_url=image_url)
+    if post_response:
+        print(f"Created post for {GITHUB_REPO_NAME}: {post_response.get('link', 'No link available')}")
+    else:
+        print(f"Failed to create post for {GITHUB_REPO_NAME}.")
+
+
+def main():
+    """Publish the blog post, reporting API and data errors without failing the pipeline."""
     try:
-        # Get the repository name that triggered the pipeline
-        print(f"\nProcessing repository: {GITHUB_REPO_NAME}")
-
-        # Get the commit date from the latest commit
-        commit_url = (
-            f"https://api.github.com/repos/{GITHUB_USER}/{GITHUB_REPO_NAME}/commits"
-        )
-        commit_response = requests.get(
-            commit_url,
-            headers={"Authorization": f"token {GITHUB_API_TOKEN}"},
-            timeout=30,
-        )
-        print(f"\nCommit url: {commit_url}")
-        print(commit_response.content)
-
-        if commit_response.status_code != 200:
-            print(
-                f"Failed to fetch commits for {GITHUB_REPO_NAME}. Status code: {commit_response.status_code}"
-            )
-            return
-
-        commit_data = commit_response.json()
-        if not commit_data:
-            print(f"No commits found for {GITHUB_REPO_NAME}. Exiting.")
-            return
-
-        commit_no = 0
-        if commit_data[commit_no]["author"]["login"] == "actions":
-            commit_no += 1
-
-        diff = get_commit_diff(commit_data[commit_no]["sha"])
-        commit_msg = commit_data[commit_no]["commit"]["message"]
-
-        if not is_substantial_change(diff, commit_msg):
-            print(f"\nCommit url: {commit_url}")
-            return
-
-        commit_date = commit_data[0]["commit"]["author"]["date"]
-        publish_date = datetime.fromisoformat(commit_date).strftime("%Y-%m-%dT%H:%M:%S")
-        print(f"Commit date for {GITHUB_REPO_NAME}: {publish_date}")
-
-        # Get release links (RPM, DEB, etc.)e
-        release_links = get_release_links()
-
-        prompt = generate_blog_post_prompt(release_links, diff, publish_date)
-
-        # Generate description using the LLM API
-        title, description, image_idea, youtube_topics = (
-            generate_description_with_media(prompt)
-        )
-        if not title or not description:
-            print(
-                f"Error generating title/description for {GITHUB_REPO_NAME}. Exiting."
-            )
-            return
-
-        # Prepare the SEO excerpt
-        excerpt = strip_html_tags(clean_html_code_block(description)).strip()
-        excerpt = excerpt[
-            :150
-        ].strip()  # Use the first 150 characters as an SEO excerpt
-
-        # Search for an image and upload it to WordPress
-        unsplash_key = os.getenv("UNSPLASH_ACCESS_KEY")
-        image_url = None
-        if image_idea and unsplash_key:
-            print("Unsplash searching for image")
-            raw_img_url = search_image_url_unsplash(image_idea, unsplash_key)
-            if raw_img_url:
-                print("Unsplash found image")
-                image_url = upload_image_to_wordpress(raw_img_url, title + ".jpg")
-
-        # Search for a YouTube video
-        youtube_key = os.getenv("YOUTUBE_API")
-        video_url = None
-        if youtube_topics and youtube_key:
-            print("Fetching youtube video")
-            for topic in youtube_topics:
-                video_url = search_youtube_video(topic, youtube_key)
-                if video_url:
-                    print("Got youtube video")
-                    break
-
-        # Append YouTube enrichment to the description
-        description = append_enrichment_to_post(description, video_url)
-
-        # Create WordPress post
-        post_response = create_wordpress_post(
-            title, description, publish_date, excerpt, featured_image_url=image_url
-        )
-        if post_response:
-            print(
-                f"Created post for {GITHUB_REPO_NAME}: {post_response.get('link', 'No link available')}"
-            )
-        else:
-            print(f"Failed to create post for {GITHUB_REPO_NAME}.")
-
-    except Exception as e:
+        publish_latest_commit()
+    except (requests.exceptions.RequestException, RuntimeError, KeyError, ValueError, TypeError) as e:
         print(f"An error occurred in the main process: {e}")
 
 

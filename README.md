@@ -9,74 +9,11 @@
 </p>
 
 <p align="center">
-<a href="https://gist.github.com/dmzoneill"><img src="generated/tiles/gist.svg" width="176" height="46" alt="Gists: 24"/></a>
-<a href="https://github.com/issues?q=is%3Aissue+is%3Aopen+archived%3Afalse+user%3Admzoneill"><img src="generated/tiles/issue.svg" width="176" height="46" alt="Issues: 65"/></a>
-<a href="https://github.com/pulls?q=is%3Apr+is%3Aopen+author%3Admzoneill"><img src="generated/tiles/pr.svg" width="176" height="46" alt="Pull requests: 22"/></a>
-<a href="https://github.com/dmzoneill"><img src="generated/tiles/activity.svg" width="176" height="46" alt="Activity: 5"/></a>
+<a href="readme.gists.md"><img src="generated/tiles/gist.svg" width="176" height="46" alt="Gists: 24"/></a>
+<a href="readme.issues.md"><img src="generated/tiles/issue.svg" width="176" height="46" alt="Issues: 65"/></a>
+<a href="readme.pull-requests.md"><img src="generated/tiles/pr.svg" width="176" height="46" alt="Pull requests: 10"/></a>
+<a href="readme.activity.md"><img src="generated/tiles/activity.svg" width="176" height="46" alt="Activity: 10"/></a>
 </p>
-
-<details>
-<summary>📝 <b>Gists</b> · 24 · <sub>latest 5d ago</sub></summary>
-<table>
-<tr><td>📄</td><td><a href="https://gist.github.com/dmzoneill/93eef357f1e61f8d337a348fa5c180f0">XDock test badges</a><br/><sub><code>xdock-coverage.json</code></sub></td><td align="right"><sub>5d ago</sub></td></tr>
-<tr><td>📄</td><td><a href="https://gist.github.com/dmzoneill/af4a56c98fe185a9b14abba35bb5c29b">Complete Guide: Multi-Instance Ollama Setup with NPU, Intel GPU, and…</a><br/><sub><code>Complete Guide:…</code></sub></td><td align="right"><sub>1w ago</sub></td></tr>
-<tr><td>📄</td><td><a href="https://gist.github.com/dmzoneill/441f88a5c73136b8128c252ad84100b3">Tampermonkey script to clean up Slack and Jira messages with ChatGPT</a><br/><sub><code>slack-tapermoneky.js</code></sub></td><td align="right"><sub>1w ago</sub></td></tr>
-<tr><td>📄</td><td><a href="https://gist.github.com/dmzoneill/67a908fb949dc95bbbf02f0446a07f0a">PHP script that writes a name from the URL onto a JPEG image with GD</a><br/><sub><code>gistfile1.txt</code></sub></td><td align="right"><sub>1w ago</sub></td></tr>
-<tr><td>📄</td><td><a href="https://gist.github.com/dmzoneill/d13d88b16d4d0aa90cb108a00ab3cf01">Linux sysctl and ethtool tuning for 10GbE networking</a><br/><sub><code>10gb.txt</code></sub></td><td align="right"><sub>1w ago</sub></td></tr>
-<tr><td>📄</td><td><a href="https://gist.github.com/dmzoneill/cbc75e502dbe2b78651f68d6320b714a">Automation Analytics Postgres pg_stat_activity active queries dump</a><br/><sub><code>AA active queries.txt</code></sub></td><td align="right"><sub>1w ago</sub></td></tr>
-<tr><td>📄</td><td><a href="https://gist.github.com/dmzoneill/74033698f65a5a1539d686452a73dce8">Python GTK4 ColumnView with per-column string and numeric sorters</a><br/><sub><code>gistfile1.txt</code></sub></td><td align="right"><sub>1w ago</sub></td></tr>
-<tr><td>📄</td><td><a href="https://gist.github.com/dmzoneill/497746f38c5786c96e8859f1131667af">git diff of awx-operator between releases 2.15.0 and 2.16.0</a><br/><sub><code>gistfile1.txt</code></sub></td><td align="right"><sub>1w ago</sub></td></tr>
-<tr><td>📄</td><td><a href="https://gist.github.com/dmzoneill/19a4fbd799f1e5bcc050ddb4b0a65403">Python GTK4 ColumnView with clickable column header sorting</a><br/><sub><code>gistfile1.txt</code></sub></td><td align="right"><sub>1w ago</sub></td></tr>
-<tr><td>📄</td><td><a href="https://gist.github.com/dmzoneill/da7e49a55b7bd4ded318b82309c1bfd7">Cloudflare email routing script that creates random anagram alias…</a><br/><sub><code>gistfile1.txt</code></sub></td><td align="right"><sub>1w ago</sub></td></tr>
-<tr><td></td><td><a href='https://gist.github.com/dmzoneill'>+14 more</a></td><td></td></tr>
-
-</table>
-</details>
-<details>
-<summary>🟢 <b>Issues</b> · 65 · <sub>latest 1d ago</sub></summary>
-<table>
-<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/lidarr-youtube-downloader/issues/21">Issue with Lidarr recognizing downloaded audio and incorrect…</a><br/><sub><code>lidarr-youtube-downloader#21</code></sub></td><td align="right"><sub>1d ago</sub></td></tr>
-<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/tado-gnome-shell-extension/issues/2">Got this message after trying to enable it (Gnome45):</a><br/><sub><code>tado-gnome-shell-extension#2</code></sub></td><td align="right"><sub>1d ago</sub></td></tr>
-<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/lidarr-youtube-downloader/issues/25">Most releases found are missing tracks</a><br/><sub><code>lidarr-youtube-downloader#25</code></sub></td><td align="right"><sub>1d ago</sub></td></tr>
-<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/lidarr-youtube-downloader/issues/23">Track Format &amp; FFMPEG not adding metadata</a><br/><sub><code>lidarr-youtube-downloader#23</code></sub></td><td align="right"><sub>1d ago</sub></td></tr>
-<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/DFakeSeeder/issues/15">Question about sessions and events.</a><br/><sub><code>DFakeSeeder#15</code></sub></td><td align="right"><sub>1d ago</sub></td></tr>
-<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/lidarr-youtube-downloader/issues/29">[FR] Only search for missing songs from artists with a given tag</a><br/><sub><code>lidarr-youtube-downloader#29</code></sub></td><td align="right"><sub>1d ago</sub></td></tr>
-<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/lidarr-youtube-downloader/issues/28">Stuck?</a><br/><sub><code>lidarr-youtube-downloader#28</code></sub></td><td align="right"><sub>1d ago</sub></td></tr>
-<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/securetty/issues/175">OTEL instrumentation for agent containers and MCP servers</a><br/><sub><code>securetty#175</code></sub></td><td align="right"><sub>2mo ago</sub></td></tr>
-<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/securetty/issues/166">egress: No feedback on what domains/IPs were added or changed</a><br/><sub><code>securetty#166</code></sub></td><td align="right"><sub>2mo ago</sub></td></tr>
-<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/securetty/issues/162">skill: SECURETTY_MCP_SKILLS_DIR not configured in env generation</a><br/><sub><code>securetty#162</code></sub></td><td align="right"><sub>2mo ago</sub></td></tr>
-<tr><td></td><td><a href='https://github.com/issues?q=is%3Aissue+is%3Aopen+archived%3Afalse+user%3Admzoneill'>+55 more</a></td><td></td></tr>
-
-</table>
-</details>
-<details>
-<summary>🔀 <b>Pull requests</b> · 22 · <sub>latest just now</sub></summary>
-<table>
-<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/redhat-ai-workflow/pull/332">refactor(sso): split tools_basic.py into modules and remove its…</a><br/><sub><code>redhat-ai-workflow#332</code></sub></td><td align="right"><sub>just now</sub></td></tr>
-<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/DFakeSeeder/pull/125">refactor(ui): notifications settings tab uses row templates (dedup,…</a><br/><sub><code>DFakeSeeder#125</code></sub></td><td align="right"><sub>2m ago</sub></td></tr>
-<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/DFakeSeeder/pull/124">refactor(ui): advanced settings tab uses row templates (dedup,…</a><br/><sub><code>DFakeSeeder#124</code></sub></td><td align="right"><sub>2m ago</sub></td></tr>
-<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/DFakeSeeder/pull/122">refactor(ui): DHT settings tab uses row templates; check-row…</a><br/><sub><code>DFakeSeeder#122</code></sub></td><td align="right"><sub>2m ago</sub></td></tr>
-<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/DFakeSeeder/pull/123">refactor(ui): protocol extensions settings tab uses row templates…</a><br/><sub><code>DFakeSeeder#123</code></sub></td><td align="right"><sub>2m ago</sub></td></tr>
-<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/DFakeSeeder/pull/120">refactor(ui): connection settings tab uses row templates (dedup,…</a><br/><sub><code>DFakeSeeder#120</code></sub></td><td align="right"><sub>3m ago</sub></td></tr>
-<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/DFakeSeeder/pull/119">refactor(ui): general settings tab uses row templates;…</a><br/><sub><code>DFakeSeeder#119</code></sub></td><td align="right"><sub>3m ago</sub></td></tr>
-<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/DFakeSeeder/pull/121">refactor(ui): bittorrent settings tab uses row templates (dedup,…</a><br/><sub><code>DFakeSeeder#121</code></sub></td><td align="right"><sub>3m ago</sub></td></tr>
-<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/DFakeSeeder/pull/118">refactor(ui): tracker settings tab uses row templates (dedup,…</a><br/><sub><code>DFakeSeeder#118</code></sub></td><td align="right"><sub>4m ago</sub></td></tr>
-<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/redhat-ai-workflow/pull/328">refactor(meet_bot): split tools_basic.py into modules</a><br/><sub><code>redhat-ai-workflow#328</code></sub></td><td align="right"><sub>5m ago</sub></td></tr>
-<tr><td></td><td><a href='https://github.com/pulls?q=is%3Apr+is%3Aopen+author%3Admzoneill'>+12 more</a></td><td></td></tr>
-
-</table>
-</details>
-<details>
-<summary>⚡ <b>Activity</b> · 5 · <sub>latest 1d ago</sub></summary>
-<table>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/CSIG-SW-SDN-NOS-CHEF-REPO/commits/main">Pushed to main</a><br/><sub><code>CSIG-SW-SDN-NOS-CHEF-REPO</code></sub></td><td align="right"><sub>1d ago</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/passmate/commits/fix/ci-lint">Pushed to fix/ci-lint</a><br/><sub><code>passmate</code></sub></td><td align="right"><sub>1d ago</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/dmzoneill/commits/profile-year-sections-featured">Pushed to profile-year-sections-featured</a><br/><sub><code>dmzoneill</code></sub></td><td align="right"><sub>2d ago</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/seedarr.net/commits/codacy/phpcs-comparison-operators">Pushed to codacy/phpcs-comparison-operators</a><br/><sub><code>seedarr.net</code></sub></td><td align="right"><sub>1d ago</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/torrent-speedtest/commits/main">Pushed to main</a><br/><sub><code>torrent-speedtest</code></sub></td><td align="right"><sub>2d ago</sub></td></tr>
-
-</table>
-</details>
 
 <h3>🏢 Forks &amp; work orgs</h3>
 <p align="center">
@@ -101,7 +38,7 @@
 <td width="20%"><img src='https://img.shields.io/badge/-%20-178600?style=flat-square' width='10' height='10'/> <b>C#</b><br/><sub>31.3 MB · 12.1%</sub><br/><img src="images/spacer.svg" width="140" height="1" alt=""/></td>
 <td width="20%"><img src='https://img.shields.io/badge/-%20-f1e05a?style=flat-square' width='10' height='10'/> <b>JavaScript</b><br/><sub>22.0 MB · 8.5%</sub><br/><img src="images/spacer.svg" width="140" height="1" alt=""/></td>
 <td width="20%"><img src='https://img.shields.io/badge/-%20-3178c6?style=flat-square' width='10' height='10'/> <b>TypeScript</b><br/><sub>17.2 MB · 6.7%</sub><br/><img src="images/spacer.svg" width="140" height="1" alt=""/></td>
-<td width="20%"><img src='https://img.shields.io/badge/-%20-3572A5?style=flat-square' width='10' height='10'/> <b>Python</b><br/><sub>14.6 MB · 5.6%</sub><br/><img src="images/spacer.svg" width="140" height="1" alt=""/></td>
+<td width="20%"><img src='https://img.shields.io/badge/-%20-3572A5?style=flat-square' width='10' height='10'/> <b>Python</b><br/><sub>14.6 MB · 5.7%</sub><br/><img src="images/spacer.svg" width="140" height="1" alt=""/></td>
 </tr><tr>
 <td width="20%"><img src='https://img.shields.io/badge/-%20-e34c26?style=flat-square' width='10' height='10'/> <b>HTML</b><br/><sub>12.7 MB · 4.9%</sub><br/><img src="images/spacer.svg" width="140" height="1" alt=""/></td>
 <td width="20%"><img src='https://img.shields.io/badge/-%20-663399?style=flat-square' width='10' height='10'/> <b>CSS</b><br/><sub>11.5 MB · 4.5%</sub><br/><img src="images/spacer.svg" width="140" height="1" alt=""/></td>

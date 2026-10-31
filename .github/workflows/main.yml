@@ -18,9 +18,15 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Install Python packages for pylint
+        # Super-linter does not install project dependencies; put them in the
+        # runner home that is mounted into its container as /github/home.
+        run: pip install --target "$RUNNER_TEMP/_github_home/lint-deps" requests
+
       - name: Lint Code Base
         uses: super-linter/super-linter@v9
         env:
+          PYTHONPATH: /github/home/lint-deps
           VALIDATE_GITHUB_ACTIONS: false
           VALIDATE_MARKDOWN: false
           VALIDATE_PYTHON_MYPY: false

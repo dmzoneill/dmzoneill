@@ -1028,6 +1028,9 @@ jobs:
       )
     name: Bump all versions
     runs-on: ubuntu-latest
+    concurrency:
+      group: bump-versions-${{ github.repository }}-${{ github.ref_name }}
+      cancel-in-progress: false
     needs: [unit-test, integration-test]
     outputs:
       version: ${{ steps.bump.outputs.version }}
@@ -1172,7 +1175,18 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add -A
           git diff --quiet && git diff --staged --quiet || git commit -m "chore: bump version to v${{ steps.bump.outputs.version }}"
-          git push origin "${{ github.ref_name }}"
+          BRANCH="${{ github.ref_name }}"
+          for attempt in 1 2 3 4 5; do
+            if git push origin "HEAD:${BRANCH}"; then
+              exit 0
+            fi
+            echo "Push rejected (attempt ${attempt}/5); rebasing onto origin/${BRANCH} and retrying"
+            sleep $((attempt * 3))
+            git fetch origin "${BRANCH}"
+            git rebase "origin/${BRANCH}" || { git rebase --abort; exit 1; }
+          done
+          echo "Push failed after 5 attempts"
+          exit 1
 
       - name: Send Telegram notification
         if: steps.bump.outputs.skipped != 'true'

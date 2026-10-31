@@ -4,15 +4,15 @@
 <p align="center">
 <a href="https://github.com/dmzoneill"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white"/></a>
 <a href="https://www.linkedin.com/in/dmzoneill/"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-<img alt="Last updated" src="https://img.shields.io/badge/updated-2026--10--30-brightgreen?style=for-the-badge"/>
+<img alt="Last updated" src="https://img.shields.io/badge/updated-2026--10--31-brightgreen?style=for-the-badge"/>
 <img alt="Profile views" src="https://komarev.com/ghpvc/?username=dmzoneill&color=brightgreen&style=for-the-badge"/>
 </p>
 
 <p align="center">
 <a href="https://gist.github.com/dmzoneill"><img src="generated/tiles/gist.svg" width="176" height="46" alt="Gists: 24"/></a>
 <a href="https://github.com/issues?q=is%3Aissue+is%3Aopen+archived%3Afalse+user%3Admzoneill"><img src="generated/tiles/issue.svg" width="176" height="46" alt="Issues: 65"/></a>
-<a href="https://github.com/pulls?q=is%3Apr+is%3Aopen+author%3Admzoneill"><img src="generated/tiles/pr.svg" width="176" height="46" alt="Pull requests: 13"/></a>
-<a href="https://github.com/dmzoneill"><img src="generated/tiles/activity.svg" width="176" height="46" alt="Activity: 20"/></a>
+<a href="https://github.com/pulls?q=is%3Apr+is%3Aopen+author%3Admzoneill"><img src="generated/tiles/pr.svg" width="176" height="46" alt="Pull requests: 15"/></a>
+<a href="https://github.com/dmzoneill"><img src="generated/tiles/activity.svg" width="176" height="46" alt="Activity: 6"/></a>
 </p>
 
 <details>
@@ -33,15 +33,15 @@
 </table>
 </details>
 <details>
-<summary>🟢 <b>Issues</b> · 65 · <sub>latest 17h ago</sub></summary>
+<summary>🟢 <b>Issues</b> · 65 · <sub>latest 1d ago</sub></summary>
 <table>
-<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/lidarr-youtube-downloader/issues/21">Issue with Lidarr recognizing downloaded audio and incorrect…</a><br/><sub><code>lidarr-youtube-downloader#21</code></sub></td><td align="right"><sub>17h ago</sub></td></tr>
-<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/tado-gnome-shell-extension/issues/2">Got this message after trying to enable it (Gnome45):</a><br/><sub><code>tado-gnome-shell-extension#2</code></sub></td><td align="right"><sub>17h ago</sub></td></tr>
-<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/lidarr-youtube-downloader/issues/25">Most releases found are missing tracks</a><br/><sub><code>lidarr-youtube-downloader#25</code></sub></td><td align="right"><sub>17h ago</sub></td></tr>
-<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/lidarr-youtube-downloader/issues/23">Track Format &amp; FFMPEG not adding metadata</a><br/><sub><code>lidarr-youtube-downloader#23</code></sub></td><td align="right"><sub>17h ago</sub></td></tr>
-<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/DFakeSeeder/issues/15">Question about sessions and events.</a><br/><sub><code>DFakeSeeder#15</code></sub></td><td align="right"><sub>17h ago</sub></td></tr>
-<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/lidarr-youtube-downloader/issues/29">[FR] Only search for missing songs from artists with a given tag</a><br/><sub><code>lidarr-youtube-downloader#29</code></sub></td><td align="right"><sub>17h ago</sub></td></tr>
-<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/lidarr-youtube-downloader/issues/28">Stuck?</a><br/><sub><code>lidarr-youtube-downloader#28</code></sub></td><td align="right"><sub>17h ago</sub></td></tr>
+<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/lidarr-youtube-downloader/issues/21">Issue with Lidarr recognizing downloaded audio and incorrect…</a><br/><sub><code>lidarr-youtube-downloader#21</code></sub></td><td align="right"><sub>1d ago</sub></td></tr>
+<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/tado-gnome-shell-extension/issues/2">Got this message after trying to enable it (Gnome45):</a><br/><sub><code>tado-gnome-shell-extension#2</code></sub></td><td align="right"><sub>1d ago</sub></td></tr>
+<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/lidarr-youtube-downloader/issues/25">Most releases found are missing tracks</a><br/><sub><code>lidarr-youtube-downloader#25</code></sub></td><td align="right"><sub>1d ago</sub></td></tr>
+<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/lidarr-youtube-downloader/issues/23">Track Format &amp; FFMPEG not adding metadata</a><br/><sub><code>lidarr-youtube-downloader#23</code></sub></td><td align="right"><sub>1d ago</sub></td></tr>
+<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/DFakeSeeder/issues/15">Question about sessions and events.</a><br/><sub><code>DFakeSeeder#15</code></sub></td><td align="right"><sub>1d ago</sub></td></tr>
+<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/lidarr-youtube-downloader/issues/29">[FR] Only search for missing songs from artists with a given tag</a><br/><sub><code>lidarr-youtube-downloader#29</code></sub></td><td align="right"><sub>1d ago</sub></td></tr>
+<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/lidarr-youtube-downloader/issues/28">Stuck?</a><br/><sub><code>lidarr-youtube-downloader#28</code></sub></td><td align="right"><sub>1d ago</sub></td></tr>
 <tr><td>🟢</td><td><a href="https://github.com/dmzoneill/securetty/issues/175">OTEL instrumentation for agent containers and MCP servers</a><br/><sub><code>securetty#175</code></sub></td><td align="right"><sub>2mo ago</sub></td></tr>
 <tr><td>🟢</td><td><a href="https://github.com/dmzoneill/securetty/issues/166">egress: No feedback on what domains/IPs were added or changed</a><br/><sub><code>securetty#166</code></sub></td><td align="right"><sub>2mo ago</sub></td></tr>
 <tr><td>🟢</td><td><a href="https://github.com/dmzoneill/securetty/issues/162">skill: SECURETTY_MCP_SKILLS_DIR not configured in env generation</a><br/><sub><code>securetty#162</code></sub></td><td align="right"><sub>2mo ago</sub></td></tr>
@@ -50,36 +50,31 @@
 </table>
 </details>
 <details>
-<summary>🔀 <b>Pull requests</b> · 13 · <sub>latest 5m ago</sub></summary>
+<summary>🔀 <b>Pull requests</b> · 15 · <sub>latest 11m ago</sub></summary>
 <table>
-<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/torrent-speedtest/pull/4">fix: SonarCloud path traversal in torrent seeding</a><br/><sub><code>torrent-speedtest#4</code></sub></td><td align="right"><sub>5m ago</sub></td></tr>
-<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/securetty/pull/180">fix: SonarCloud security fixes (MCP gateway bind address)</a><br/><sub><code>securetty#180</code></sub></td><td align="right"><sub>6m ago</sub></td></tr>
-<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/wayvox/pull/14">fix: SonarCloud security fixes (loopback bind, cross-origin guard)</a><br/><sub><code>wayvox#14</code></sub></td><td align="right"><sub>6m ago</sub></td></tr>
-<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/jira-creator/pull/10">Fix SonarCloud bug/vulnerability findings</a><br/><sub><code>jira-creator#10</code></sub></td><td align="right"><sub>38m ago</sub></td></tr>
-<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/Xenith/pull/6">Fix SonarCloud bugs/vulns: private temp dirs, redundant conditions</a><br/><sub><code>Xenith#6</code></sub></td><td align="right"><sub>38m ago</sub></td></tr>
-<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/fail2counter/pull/3">Fix SonarCloud S5443: private temp dirs instead of fixed /tmp paths</a><br/><sub><code>fail2counter#3</code></sub></td><td align="right"><sub>38m ago</sub></td></tr>
-<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/bin/pull/5">Fix CI lint failures</a><br/><sub><code>bin#5</code></sub></td><td align="right"><sub>17h ago</sub></td></tr>
-<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/DFakeSeeder/pull/61">fix: SonarCloud Python reliability fixes</a><br/><sub><code>DFakeSeeder#61</code></sub></td><td align="right"><sub>17h ago</sub></td></tr>
-<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/redhat-ai-workflow/pull/226">fix: address SonarCloud blocker/critical bugs and path traversal</a><br/><sub><code>redhat-ai-workflow#226</code></sub></td><td align="right"><sub>17h ago</sub></td></tr>
-<tr><td>🔀</td><td><a href="https://github.com/ansible/awx/pull/16601">fix(notifications): handle empty string and string UIDs for Grafana…</a><br/><sub><code>awx#16601</code></sub></td><td align="right"><sub>6d ago</sub></td></tr>
-<tr><td></td><td><a href='https://github.com/pulls?q=is%3Apr+is%3Aopen+author%3Admzoneill'>+3 more</a></td><td></td></tr>
+<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/redhat-ai-workflow/pull/237">Fix SonarCloud bug: drop discarded str.lower() in wake word detector…</a><br/><sub><code>redhat-ai-workflow#237</code></sub></td><td align="right"><sub>11m ago</sub></td></tr>
+<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/jira-creator/pull/15">Fix SonarCloud code smells: shell:S7688 and python:S8786</a><br/><sub><code>jira-creator#15</code></sub></td><td align="right"><sub>30m ago</sub></td></tr>
+<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/github-ai-maintainer/pull/6">Fix SonarCloud code smells: shell:S7688 in telegram-notify.sh</a><br/><sub><code>github-ai-maintainer#6</code></sub></td><td align="right"><sub>1h ago</sub></td></tr>
+<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/Xenith/pull/8">Fix SonarCloud code smells: shell:S7688 in install-python313.sh</a><br/><sub><code>Xenith#8</code></sub></td><td align="right"><sub>1h ago</sub></td></tr>
+<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/securetty/pull/190">Fix SonarCloud code smells: shell:S7688 in containers install.sh</a><br/><sub><code>securetty#190</code></sub></td><td align="right"><sub>1h ago</sub></td></tr>
+<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/synology-download-assistance-chrome-extension/pull/7">fix(popup): resolve remaining ESLint errors in popup.js</a><br/><sub><code>synology-download-assistance-chrome-extension#7</code></sub></td><td align="right"><sub>1h ago</sub></td></tr>
+<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/bin/pull/6">fix(sonar): S4830/S8786/S1751/S8234 on main</a><br/><sub><code>bin#6</code></sub></td><td align="right"><sub>1h ago</sub></td></tr>
+<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/bashrc/pull/3">Fix SonarCloud code smells: shell:S7688 in loader and lazy-secrets</a><br/><sub><code>bashrc#3</code></sub></td><td align="right"><sub>1h ago</sub></td></tr>
+<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/fail2counter/pull/6">lint: shellcheck source directive for runtime env file (SC1090)</a><br/><sub><code>fail2counter#6</code></sub></td><td align="right"><sub>1h ago</sub></td></tr>
+<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/securetty/pull/189">Fix SonarCloud code smells: shell:S7688 in entrypoint, dashboard and…</a><br/><sub><code>securetty#189</code></sub></td><td align="right"><sub>1h ago</sub></td></tr>
+<tr><td></td><td><a href='https://github.com/pulls?q=is%3Apr+is%3Aopen+author%3Admzoneill'>+5 more</a></td><td></td></tr>
 
 </table>
 </details>
 <details>
-<summary>⚡ <b>Activity</b> · 20 · <sub>latest 6m ago</sub></summary>
+<summary>⚡ <b>Activity</b> · 6 · <sub>latest 1d ago</sub></summary>
 <table>
-<tr><td>💬</td><td><a href="https://github.com/dmzoneill/securetty/pull/180">fix: SonarCloud security fixes (MCP gateway bind address)</a><br/><sub><code>securetty</code></sub></td><td align="right"><sub>6m ago</sub></td></tr>
-<tr><td>💬</td><td><a href="https://github.com/dmzoneill/wayvox/pull/14">fix: SonarCloud security fixes (loopback bind, cross-origin guard)</a><br/><sub><code>wayvox</code></sub></td><td align="right"><sub>6m ago</sub></td></tr>
+<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/dmzoneill/commits/profile-first-commit-years">Pushed to profile-first-commit-years</a><br/><sub><code>dmzoneill</code></sub></td><td align="right"><sub>1d ago</sub></td></tr>
 <tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/dmzoneill/commits/main">Pushed to main</a><br/><sub><code>dmzoneill</code></sub></td><td align="right"><sub>1d ago</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/pling-publisher/commits/codacy/remove-unused-pprint">Pushed to codacy/remove-unused-pprint</a><br/><sub><code>pling-publisher</code></sub></td><td align="right"><sub>1d ago</sub></td></tr>
-<tr><td>💬</td><td><a href="https://github.com/dmzoneill/jira-creator/pull/10">Fix SonarCloud bug/vulnerability findings</a><br/><sub><code>jira-creator</code></sub></td><td align="right"><sub>38m ago</sub></td></tr>
-<tr><td>💬</td><td><a href="https://github.com/dmzoneill/fail2counter/pull/3">Fix SonarCloud S5443: private temp dirs instead of fixed /tmp paths</a><br/><sub><code>fail2counter</code></sub></td><td align="right"><sub>38m ago</sub></td></tr>
-<tr><td>💬</td><td><a href="https://github.com/dmzoneill/passmate/pull/3">Fix CI lint failures</a><br/><sub><code>passmate</code></sub></td><td align="right"><sub>38m ago</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/TamperMonkey/commits/fix-lint-after-codacy">Pushed to fix-lint-after-codacy</a><br/><sub><code>TamperMonkey</code></sub></td><td align="right"><sub>1d ago</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/Seedarr/commits/main">Pushed to main</a><br/><sub><code>Seedarr</code></sub></td><td align="right"><sub>1d ago</sub></td></tr>
-<tr><td>💬</td><td><a href="https://github.com/dmzoneill/jira-creator/pull/10">Fix SonarCloud bug/vulnerability findings</a><br/><sub><code>jira-creator</code></sub></td><td align="right"><sub>4h ago</sub></td></tr>
-<tr><td></td><td><a href='https://github.com/dmzoneill'>+10 more</a></td><td></td></tr>
+<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/aa-dev-prod-watcher/commits/main">Pushed to main</a><br/><sub><code>aa-dev-prod-watcher</code></sub></td><td align="right"><sub>1d ago</sub></td></tr>
+<tr><td>💬</td><td><a href="https://github.com/dmzoneill/wayvox/pull/18">fix(lint): isort order on main</a><br/><sub><code>wayvox</code></sub></td><td align="right"><sub>3h ago</sub></td></tr>
+<tr><td>💬</td><td><a href="https://github.com/dmzoneill/DFakeSeeder/pull/61">fix: SonarCloud Python reliability fixes</a><br/><sub><code>DFakeSeeder</code></sub></td><td align="right"><sub>6h ago</sub></td></tr>
+<tr><td>💬</td><td><a href="https://github.com/dmzoneill/jira-creator/pull/10">Fix SonarCloud bug/vulnerability findings</a><br/><sub><code>jira-creator</code></sub></td><td align="right"><sub>7h ago</sub></td></tr>
 
 </table>
 </details>

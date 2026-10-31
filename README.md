@@ -11,8 +11,8 @@
 <p align="center">
 <a href="https://gist.github.com/dmzoneill"><img src="generated/tiles/gist.svg" width="176" height="46" alt="Gists: 24"/></a>
 <a href="https://github.com/issues?q=is%3Aissue+is%3Aopen+archived%3Afalse+user%3Admzoneill"><img src="generated/tiles/issue.svg" width="176" height="46" alt="Issues: 65"/></a>
-<a href="https://github.com/pulls?q=is%3Apr+is%3Aopen+author%3Admzoneill"><img src="generated/tiles/pr.svg" width="176" height="46" alt="Pull requests: 11"/></a>
-<a href="https://github.com/dmzoneill"><img src="generated/tiles/activity.svg" width="176" height="46" alt="Activity: 4"/></a>
+<a href="https://github.com/pulls?q=is%3Apr+is%3Aopen+author%3Admzoneill"><img src="generated/tiles/pr.svg" width="176" height="46" alt="Pull requests: 22"/></a>
+<a href="https://github.com/dmzoneill"><img src="generated/tiles/activity.svg" width="176" height="46" alt="Activity: 5"/></a>
 </p>
 
 <details>
@@ -50,29 +50,30 @@
 </table>
 </details>
 <details>
-<summary>🔀 <b>Pull requests</b> · 11 · <sub>latest 1m ago</sub></summary>
+<summary>🔀 <b>Pull requests</b> · 22 · <sub>latest just now</sub></summary>
 <table>
-<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/DFakeSeeder/pull/117">refactor(ui): simulation settings tab uses row templates (dedup,…</a><br/><sub><code>DFakeSeeder#117</code></sub></td><td align="right"><sub>1m ago</sub></td></tr>
-<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/DFakeSeeder/pull/116">refactor(ui): peer protocol settings tab uses row templates (dedup,…</a><br/><sub><code>DFakeSeeder#116</code></sub></td><td align="right"><sub>1m ago</sub></td></tr>
-<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/dmzoneill/pull/46">fix: escape and anchor version replacement in bump job</a><br/><sub><code>dmzoneill#46</code></sub></td><td align="right"><sub>4m ago</sub></td></tr>
-<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/redhat-ai-workflow/pull/328">refactor(meet_bot): split tools_basic.py into modules</a><br/><sub><code>redhat-ai-workflow#328</code></sub></td><td align="right"><sub>7m ago</sub></td></tr>
-<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/Xenith/pull/16">refactor(voice_input): split oversized voice input into modules,…</a><br/><sub><code>Xenith#16</code></sub></td><td align="right"><sub>4h ago</sub></td></tr>
-<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/redhat-ai-workflow/pull/255">fix(skill_error_recovery): non-blocking CLI prompt (S7501) + cleanup</a><br/><sub><code>redhat-ai-workflow#255</code></sub></td><td align="right"><sub>7h ago</sub></td></tr>
-<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/sodarr-chrome-plugin/pull/7">fix(lint): remove # nosec from xdg_open.py</a><br/><sub><code>sodarr-chrome-plugin#7</code></sub></td><td align="right"><sub>8h ago</sub></td></tr>
-<tr><td>🔀</td><td><a href="https://github.com/ansible/awx/pull/16601">fix(notifications): handle empty string and string UIDs for Grafana…</a><br/><sub><code>awx#16601</code></sub></td><td align="right"><sub>1w ago</sub></td></tr>
-<tr><td>🔀</td><td><a href="https://github.com/netbirdio/netbird/pull/7719">[client] Detect underlying network and VPN disconnect events on Linux</a><br/><sub><code>netbird#7719</code></sub></td><td align="right"><sub>1w ago</sub></td></tr>
-<tr><td>🔀</td><td><a href="https://github.com/gnome-terminator/terminator/pull/1056">fix: convert enabled string to boolean in custom commands</a><br/><sub><code>terminator#1056</code></sub></td><td align="right"><sub>1w ago</sub></td></tr>
-<tr><td></td><td><a href='https://github.com/pulls?q=is%3Apr+is%3Aopen+author%3Admzoneill'>+1 more</a></td><td></td></tr>
+<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/redhat-ai-workflow/pull/332">refactor(sso): split tools_basic.py into modules and remove its…</a><br/><sub><code>redhat-ai-workflow#332</code></sub></td><td align="right"><sub>just now</sub></td></tr>
+<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/DFakeSeeder/pull/125">refactor(ui): notifications settings tab uses row templates (dedup,…</a><br/><sub><code>DFakeSeeder#125</code></sub></td><td align="right"><sub>2m ago</sub></td></tr>
+<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/DFakeSeeder/pull/124">refactor(ui): advanced settings tab uses row templates (dedup,…</a><br/><sub><code>DFakeSeeder#124</code></sub></td><td align="right"><sub>2m ago</sub></td></tr>
+<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/DFakeSeeder/pull/122">refactor(ui): DHT settings tab uses row templates; check-row…</a><br/><sub><code>DFakeSeeder#122</code></sub></td><td align="right"><sub>2m ago</sub></td></tr>
+<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/DFakeSeeder/pull/123">refactor(ui): protocol extensions settings tab uses row templates…</a><br/><sub><code>DFakeSeeder#123</code></sub></td><td align="right"><sub>2m ago</sub></td></tr>
+<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/DFakeSeeder/pull/120">refactor(ui): connection settings tab uses row templates (dedup,…</a><br/><sub><code>DFakeSeeder#120</code></sub></td><td align="right"><sub>3m ago</sub></td></tr>
+<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/DFakeSeeder/pull/119">refactor(ui): general settings tab uses row templates;…</a><br/><sub><code>DFakeSeeder#119</code></sub></td><td align="right"><sub>3m ago</sub></td></tr>
+<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/DFakeSeeder/pull/121">refactor(ui): bittorrent settings tab uses row templates (dedup,…</a><br/><sub><code>DFakeSeeder#121</code></sub></td><td align="right"><sub>3m ago</sub></td></tr>
+<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/DFakeSeeder/pull/118">refactor(ui): tracker settings tab uses row templates (dedup,…</a><br/><sub><code>DFakeSeeder#118</code></sub></td><td align="right"><sub>4m ago</sub></td></tr>
+<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/redhat-ai-workflow/pull/328">refactor(meet_bot): split tools_basic.py into modules</a><br/><sub><code>redhat-ai-workflow#328</code></sub></td><td align="right"><sub>5m ago</sub></td></tr>
+<tr><td></td><td><a href='https://github.com/pulls?q=is%3Apr+is%3Aopen+author%3Admzoneill'>+12 more</a></td><td></td></tr>
 
 </table>
 </details>
 <details>
-<summary>⚡ <b>Activity</b> · 4 · <sub>latest 2d ago</sub></summary>
+<summary>⚡ <b>Activity</b> · 5 · <sub>latest 1d ago</sub></summary>
 <table>
+<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/CSIG-SW-SDN-NOS-CHEF-REPO/commits/main">Pushed to main</a><br/><sub><code>CSIG-SW-SDN-NOS-CHEF-REPO</code></sub></td><td align="right"><sub>1d ago</sub></td></tr>
+<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/passmate/commits/fix/ci-lint">Pushed to fix/ci-lint</a><br/><sub><code>passmate</code></sub></td><td align="right"><sub>1d ago</sub></td></tr>
 <tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/dmzoneill/commits/profile-year-sections-featured">Pushed to profile-year-sections-featured</a><br/><sub><code>dmzoneill</code></sub></td><td align="right"><sub>2d ago</sub></td></tr>
 <tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/seedarr.net/commits/codacy/phpcs-comparison-operators">Pushed to codacy/phpcs-comparison-operators</a><br/><sub><code>seedarr.net</code></sub></td><td align="right"><sub>1d ago</sub></td></tr>
 <tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/torrent-speedtest/commits/main">Pushed to main</a><br/><sub><code>torrent-speedtest</code></sub></td><td align="right"><sub>2d ago</sub></td></tr>
-<tr><td>💬</td><td><a href="https://github.com/dmzoneill/DFakeSeeder/pull/96">refactor(settings/multi_tracker_tab): gi bootstrap, narrow excepts,…</a><br/><sub><code>DFakeSeeder</code></sub></td><td align="right"><sub>2h ago</sub></td></tr>
 
 </table>
 </details>

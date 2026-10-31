@@ -1,18 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="860" height="14" viewBox="0 0 860 14">
   <clipPath id="r"><rect width="860" height="14" rx="7"/></clipPath>
   <g clip-path="url(#r)">
-  <rect x="0.00" y="0" width="379.52" height="14" fill="#4F5D95"/>
-  <rect x="379.52" y="0" width="105.51" height="14" fill="#178600"/>
-  <rect x="485.03" y="0" width="74.17" height="14" fill="#f1e05a"/>
-  <rect x="559.20" y="0" width="57.83" height="14" fill="#3178c6"/>
-  <rect x="617.03" y="0" width="49.03" height="14" fill="#3572A5"/>
+  <rect x="0.00" y="0" width="379.51" height="14" fill="#4F5D95"/>
+  <rect x="379.51" y="0" width="105.51" height="14" fill="#178600"/>
+  <rect x="485.02" y="0" width="74.17" height="14" fill="#f1e05a"/>
+  <rect x="559.19" y="0" width="57.82" height="14" fill="#3178c6"/>
+  <rect x="617.01" y="0" width="49.04" height="14" fill="#3572A5"/>
   <rect x="666.05" y="0" width="42.63" height="14" fill="#e34c26"/>
-  <rect x="708.69" y="0" width="38.79" height="14" fill="#663399"/>
-  <rect x="747.48" y="0" width="35.23" height="14" fill="#555555"/>
-  <rect x="782.71" y="0" width="31.00" height="14" fill="#0298c3"/>
-  <rect x="813.71" y="0" width="7.10" height="14" fill="#b07219"/>
-  <rect x="820.80" y="0" width="6.73" height="14" fill="#f0c040"/>
-  <rect x="827.54" y="0" width="6.32" height="14" fill="#89e051"/>
+  <rect x="708.68" y="0" width="38.79" height="14" fill="#663399"/>
+  <rect x="747.47" y="0" width="35.23" height="14" fill="#555555"/>
+  <rect x="782.70" y="0" width="31.00" height="14" fill="#0298c3"/>
+  <rect x="813.70" y="0" width="7.10" height="14" fill="#b07219"/>
+  <rect x="820.79" y="0" width="6.73" height="14" fill="#f0c040"/>
+  <rect x="827.53" y="0" width="6.33" height="14" fill="#89e051"/>
   <rect x="833.86" y="0" width="5.89" height="14" fill="#00ADD8"/>
   <rect x="839.75" y="0" width="5.64" height="14" fill="#8b949e"/>
   <rect x="845.39" y="0" width="4.11" height="14" fill="#8b949e"/>

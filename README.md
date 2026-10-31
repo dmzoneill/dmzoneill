@@ -11,7 +11,7 @@
 <p align="center">
 <a href="https://gist.github.com/dmzoneill"><img src="generated/tiles/gist.svg" width="176" height="46" alt="Gists: 24"/></a>
 <a href="https://github.com/issues?q=is%3Aissue+is%3Aopen+archived%3Afalse+user%3Admzoneill"><img src="generated/tiles/issue.svg" width="176" height="46" alt="Issues: 65"/></a>
-<a href="https://github.com/pulls?q=is%3Apr+is%3Aopen+author%3Admzoneill"><img src="generated/tiles/pr.svg" width="176" height="46" alt="Pull requests: 20"/></a>
+<a href="https://github.com/pulls?q=is%3Apr+is%3Aopen+author%3Admzoneill"><img src="generated/tiles/pr.svg" width="176" height="46" alt="Pull requests: 24"/></a>
 <a href="https://github.com/dmzoneill"><img src="generated/tiles/activity.svg" width="176" height="46" alt="Activity: 5"/></a>
 </p>
 
@@ -50,30 +50,30 @@
 </table>
 </details>
 <details>
-<summary>🔀 <b>Pull requests</b> · 20 · <sub>latest 2m ago</sub></summary>
+<summary>🔀 <b>Pull requests</b> · 24 · <sub>latest just now</sub></summary>
 <table>
-<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/DFakeSeeder/pull/66">fix(tracker): SystemRandom peer sampling (B311) + full-file lint of…</a><br/><sub><code>DFakeSeeder#66</code></sub></td><td align="right"><sub>2m ago</sub></td></tr>
-<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/DFakeSeeder/pull/65">fix(helpers): secrets-based random_id (B311) + full-file lint</a><br/><sub><code>DFakeSeeder#65</code></sub></td><td align="right"><sub>8m ago</sub></td></tr>
-<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/Leecharr/pull/1935">fix(codeql): replace Promise.all over void callbacks with forEach</a><br/><sub><code>Leecharr#1935</code></sub></td><td align="right"><sub>9m ago</sub></td></tr>
-<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/jira-creator/pull/17">test(search): assert format_and_print_rows is called (W0613)</a><br/><sub><code>jira-creator#17</code></sub></td><td align="right"><sub>10m ago</sub></td></tr>
-<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/jira-creator/pull/18">test(view-helpers): drop unused EnvFetcher.get patch (W0613)</a><br/><sub><code>jira-creator#18</code></sub></td><td align="right"><sub>10m ago</sub></td></tr>
-<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/bus-eireann-android-app/pull/4">fix(codeql): restrict followed 'later' links to planner host</a><br/><sub><code>bus-eireann-android-app#4</code></sub></td><td align="right"><sub>1h ago</sub></td></tr>
-<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/redhat-ai-workflow/pull/237">Fix SonarCloud bug: drop discarded str.lower() in wake word detector…</a><br/><sub><code>redhat-ai-workflow#237</code></sub></td><td align="right"><sub>1h ago</sub></td></tr>
-<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/jira-creator/pull/15">Fix SonarCloud code smells: shell:S7688 and python:S8786</a><br/><sub><code>jira-creator#15</code></sub></td><td align="right"><sub>2h ago</sub></td></tr>
-<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/github-ai-maintainer/pull/6">Fix SonarCloud code smells: shell:S7688 in telegram-notify.sh</a><br/><sub><code>github-ai-maintainer#6</code></sub></td><td align="right"><sub>3h ago</sub></td></tr>
-<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/Xenith/pull/8">Fix SonarCloud code smells: shell:S7688 in install-python313.sh</a><br/><sub><code>Xenith#8</code></sub></td><td align="right"><sub>3h ago</sub></td></tr>
-<tr><td></td><td><a href='https://github.com/pulls?q=is%3Apr+is%3Aopen+author%3Admzoneill'>+10 more</a></td><td></td></tr>
+<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/redhat-ai-workflow/pull/271">fix(slack_export): write export JSONL without blocking (S7493)</a><br/><sub><code>redhat-ai-workflow#271</code></sub></td><td align="right"><sub>just now</sub></td></tr>
+<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/redhat-ai-workflow/pull/270">fix(auto_heal_decorator): non-blocking failure-log YAML I/O (S7493)</a><br/><sub><code>redhat-ai-workflow#270</code></sub></td><td align="right"><sub>3m ago</sub></td></tr>
+<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/redhat-ai-workflow/pull/269">fix(konflux): write release manifest without blocking (S7493)</a><br/><sub><code>redhat-ai-workflow#269</code></sub></td><td align="right"><sub>3m ago</sub></td></tr>
+<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/redhat-ai-workflow/pull/268">fix(google_slides): write exported PDF without blocking (S7493)</a><br/><sub><code>redhat-ai-workflow#268</code></sub></td><td align="right"><sub>4m ago</sub></td></tr>
+<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/redhat-ai-workflow/pull/267">fix(classifier): append training data without blocking (S7493)</a><br/><sub><code>redhat-ai-workflow#267</code></sub></td><td align="right"><sub>5m ago</sub></td></tr>
+<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/redhatter/pull/30">lint: real fixes + 120 format for main.py, install_native_host.py,…</a><br/><sub><code>redhatter#30</code></sub></td><td align="right"><sub>9m ago</sub></td></tr>
+<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/redhat-ai-workflow/pull/262">fix(aa_style): non-blocking file I/O in async style tools (S7493)</a><br/><sub><code>redhat-ai-workflow#262</code></sub></td><td align="right"><sub>9m ago</sub></td></tr>
+<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/redhat-ai-workflow/pull/260">sprint daemon: split daemon.py into modules (part 1 of suppression…</a><br/><sub><code>redhat-ai-workflow#260</code></sub></td><td align="right"><sub>11m ago</sub></td></tr>
+<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/redhat-ai-workflow/pull/261">sprint daemon: remove broad-except/import/no-else-return/unused-arg…</a><br/><sub><code>redhat-ai-workflow#261</code></sub></td><td align="right"><sub>12m ago</sub></td></tr>
+<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/Xenith/pull/14">fix(fast_tts): resolve mypy errors with real typing fixes</a><br/><sub><code>Xenith#14</code></sub></td><td align="right"><sub>25m ago</sub></td></tr>
+<tr><td></td><td><a href='https://github.com/pulls?q=is%3Apr+is%3Aopen+author%3Admzoneill'>+14 more</a></td><td></td></tr>
 
 </table>
 </details>
 <details>
-<summary>⚡ <b>Activity</b> · 5 · <sub>latest 1d ago</sub></summary>
+<summary>⚡ <b>Activity</b> · 5 · <sub>latest 29m ago</sub></summary>
 <table>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/dmzoneill/commits/profile-first-commit-years">Pushed to profile-first-commit-years</a><br/><sub><code>dmzoneill</code></sub></td><td align="right"><sub>1d ago</sub></td></tr>
+<tr><td>💬</td><td><a href="https://github.com/dmzoneill/redhat-ai-workflow/pull/255">fix(skill_error_recovery): non-blocking CLI prompt (S7501) + cleanup</a><br/><sub><code>redhat-ai-workflow</code></sub></td><td align="right"><sub>29m ago</sub></td></tr>
 <tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/dmzoneill/commits/main">Pushed to main</a><br/><sub><code>dmzoneill</code></sub></td><td align="right"><sub>1d ago</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/aa-dev-prod-watcher/commits/main">Pushed to main</a><br/><sub><code>aa-dev-prod-watcher</code></sub></td><td align="right"><sub>1d ago</sub></td></tr>
-<tr><td>💬</td><td><a href="https://github.com/dmzoneill/wayvox/pull/18">fix(lint): isort order on main</a><br/><sub><code>wayvox</code></sub></td><td align="right"><sub>4h ago</sub></td></tr>
-<tr><td>💬</td><td><a href="https://github.com/dmzoneill/DFakeSeeder/pull/61">fix: SonarCloud Python reliability fixes</a><br/><sub><code>DFakeSeeder</code></sub></td><td align="right"><sub>8h ago</sub></td></tr>
+<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/ashtangayogacork.ie-wearos/commits/main">Pushed to main</a><br/><sub><code>ashtangayogacork.ie-wearos</code></sub></td><td align="right"><sub>1d ago</sub></td></tr>
+<tr><td>💬</td><td><a href="https://github.com/dmzoneill/bin/pull/8">fix: resolve git/xdg-open/journalctl to absolute paths, drop nosec</a><br/><sub><code>bin</code></sub></td><td align="right"><sub>1h ago</sub></td></tr>
+<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/seedarr.net/commits/main">Pushed to main</a><br/><sub><code>seedarr.net</code></sub></td><td align="right"><sub>1d ago</sub></td></tr>
 
 </table>
 </details>

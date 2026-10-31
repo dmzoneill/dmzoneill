@@ -100,7 +100,16 @@ def svg_timeline(repos, width=860, height=150):
 
 
 TOP_LANGUAGES = 20
-LIST_LIMIT = 10
+LIST_PAGES = {
+    "gist": "readme.gists.md",
+    "issue": "readme.issues.md",
+    "pr": "readme.pull-requests.md",
+    "activity": "readme.activity.md",
+}
+LIST_ROW = (
+    '<tr><td>{icon}</td><td><a href="{url}">{title}</a><br/><sub><code>{tag}</code></sub></td>'
+    '<td align="right"><sub>{rel}</sub></td></tr>'
+)
 SEARCH_ATTEMPTS = 4
 FEATURED_COUNT = 6
 PROFILE_LOGO = "https://raw.githubusercontent.com/dmzoneill/dmzoneill/main/.github/logo.png"
@@ -760,33 +769,24 @@ class ReadmeUpdater:
             time.sleep(5 * (attempt + 1))
         raise SearchIncompleteError("Search results incomplete for " + query)
 
-    def _fill_section(self, tag, prefix, rows, more_url):
-        """Fill a top-area list: the first LIST_LIMIT rows, a "more" link, the count and the latest item."""
-        template = self._item_template(tag)
-        html = ""
-        for row in rows[:LIST_LIMIT]:
-            item = template
-            for key, value in row.items():
-                item = item.replace("{" + key + "}", value)
-            html += item + "\n"
-        if len(rows) > LIST_LIMIT:
-            html += (
-                "<tr><td></td><td><a href='"
-                + more_url
-                + "'>+"
-                + str(len(rows) - LIST_LIMIT)
-                + " more</a></td><td></td></tr>\n"
-            )
-        self._fill(tag, html)
-        latest = shorten(rows[0]["title_raw"], 26) if rows else "none yet"
+    def _fill_section(self, prefix, rows, more_url):
+        """Write a list page (readme.<name>.md) with every row and its card tile."""
         icon, title = TILES[prefix]
+        lines = [
+            "# " + icon + " " + title + " · " + str(len(rows)),
+            "",
+            "[← Back to profile](README.md) · [View on GitHub](" + more_url + ")",
+            "",
+            "<table>",
+        ]
+        lines += [LIST_ROW.format(**row) for row in rows]
+        lines += ["</table>", ""]
+        with open(LIST_PAGES[prefix], "w", encoding="utf-8") as f:
+            f.write("\n".join(lines))
         os.makedirs("generated/tiles", exist_ok=True)
         with open("generated/tiles/" + prefix + ".svg", "w", encoding="utf-8") as f:
             f.write(svg_tile(icon, title, str(len(rows)) + " · " + shorten(rows[0]["title_raw"], 17) if rows else "0"))
-        self.template = self.template.replace("{" + prefix + "_link}", more_url)
         self.template = self.template.replace("{" + prefix + "_count}", str(len(rows)))
-        self.template = self.template.replace("{" + prefix + "_latest}", html_escape(latest))
-        self.template = self.template.replace("{" + prefix + "_latest_rel}", rows[0]["rel"] if rows else "")
 
     def _item_rows(self, items, icon):
         rows = []
@@ -810,7 +810,6 @@ class ReadmeUpdater:
             user = self.config["user"]
             self.data.issues = self._search("user:" + user + "+is:issue+is:open+archived:false")
             self._fill_section(
-                "issues",
                 "issue",
                 self._item_rows(self.data.issues, "🟢"),
                 "https://github.com/issues?q=is%3Aissue+is%3Aopen+archived%3Afalse+user%3A" + user,
@@ -824,7 +823,6 @@ class ReadmeUpdater:
             user = self.config["user"]
             self.data.prs = self._search("author:" + user + "+is:pr+is:open")
             self._fill_section(
-                "prs",
                 "pr",
                 self._item_rows(self.data.prs, "🔀"),
                 "https://github.com/pulls?q=is%3Apr+is%3Aopen+author%3A" + user,
@@ -853,7 +851,7 @@ class ReadmeUpdater:
                     }
                 )
             self.data.recent_activity = events
-            self._fill_section("recent", "activity", rows, self.config["github_url"])
+            self._fill_section("activity", rows, self.config["github_url"])
         except (AttributeError, KeyError, TypeError, ValueError) as e:
             raise UpdaterError("Failed generating activity") from e
 
@@ -877,7 +875,7 @@ class ReadmeUpdater:
                         "rel": relative_time(gist.get("updated_at") or ""),
                     }
                 )
-            self._fill_section("gists", "gist", rows, "https://gist.github.com/" + self.config["user"])
+            self._fill_section("gist", rows, "https://gist.github.com/" + self.config["user"])
             return True
         except Exception as e:
             raise UpdaterError("Failed generating gists") from e

@@ -1,0 +1,3 @@
+# Distributed to repos without their own .python-lint. Line length only; no rules disabled.
+[FORMAT]
+max-line-length=120

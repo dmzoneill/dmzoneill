@@ -310,7 +310,7 @@ on:
       VALIDATE_PYTHON_BLACK:
         required: false
         type: string
-        default: "false"
+        default: "true"
       VALIDATE_PYTHON_FLAKE8:
         required: false
         type: string
@@ -475,6 +475,10 @@ jobs:
           curl -o .github/linters/.htmlhintrc https://raw.githubusercontent.com/dmzoneill/dmzoneill/main/.github/linters/.htmlhintrc
           curl -o .github/linters/.eslintrc.json https://raw.githubusercontent.com/dmzoneill/dmzoneill/main/.github/linters/.eslintrc.json
           if [ ! -f .github/linters/.ruff.toml ]; then curl -o .github/linters/.ruff.toml https://raw.githubusercontent.com/dmzoneill/dmzoneill/main/.github/linters/.ruff.toml; fi
+          if [ ! -f .github/linters/.python-black ]; then curl -o .github/linters/.python-black https://raw.githubusercontent.com/dmzoneill/dmzoneill/main/.github/linters/.python-black; fi
+          if [ ! -f .github/linters/.flake8 ]; then curl -o .github/linters/.flake8 https://raw.githubusercontent.com/dmzoneill/dmzoneill/main/.github/linters/.flake8; fi
+          if [ ! -f .github/linters/.isort.cfg ]; then curl -o .github/linters/.isort.cfg https://raw.githubusercontent.com/dmzoneill/dmzoneill/main/.github/linters/.isort.cfg; fi
+          if [ ! -f .github/linters/.python-lint ]; then curl -o .github/linters/.python-lint https://raw.githubusercontent.com/dmzoneill/dmzoneill/main/.github/linters/central/.python-lint; fi
       
       - name: Set environment variables
         run: |

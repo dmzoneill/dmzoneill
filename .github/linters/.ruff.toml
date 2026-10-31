@@ -1,0 +1,4 @@
+# Central super-linter ruff config (ruff check + ruff format).
+# Black validation is disabled centrally; ruff format is the formatter.
+cache-dir = "/tmp/.ruff_cache"
+line-length = 120

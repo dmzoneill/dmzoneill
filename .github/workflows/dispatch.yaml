@@ -310,7 +310,7 @@ on:
       VALIDATE_PYTHON_BLACK:
         required: false
         type: string
-        default: "true"
+        default: "false"
       VALIDATE_PYTHON_FLAKE8:
         required: false
         type: string
@@ -474,6 +474,7 @@ jobs:
           curl -o .github/linters/.stylelintrc.json https://raw.githubusercontent.com/dmzoneill/dmzoneill/main/.github/linters/.stylelintrc.json
           curl -o .github/linters/.htmlhintrc https://raw.githubusercontent.com/dmzoneill/dmzoneill/main/.github/linters/.htmlhintrc
           curl -o .github/linters/.eslintrc.json https://raw.githubusercontent.com/dmzoneill/dmzoneill/main/.github/linters/.eslintrc.json
+          if [ ! -f .github/linters/.ruff.toml ]; then curl -o .github/linters/.ruff.toml https://raw.githubusercontent.com/dmzoneill/dmzoneill/main/.github/linters/.ruff.toml; fi
       
       - name: Set environment variables
         run: |

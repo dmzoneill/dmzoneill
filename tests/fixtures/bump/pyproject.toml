@@ -1,0 +1,4 @@
+[project]
+name = "app"
+version = "1.2.4"
+deps = ["foo>=11.2.40"]

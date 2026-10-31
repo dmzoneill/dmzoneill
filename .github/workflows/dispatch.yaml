@@ -1132,28 +1132,9 @@ jobs:
           echo "Bumping version: $current -> $next"
           
           version="$current"
-          if test -f control; then sed "s/$version/$next/" -i control; fi
-          if test -f ${{ env.APP_NAME }}.spec; then sed "s/$version/$next/" -i ${{ env.APP_NAME }}.spec; fi
-          if test -f PKG-INFO; then sed "s/$version/$next/" -i PKG-INFO; fi
-          if test -f pyproject.toml; then sed "s/$version/$next/" -i pyproject.toml; fi
-          if test -f setup.py; then sed "s/$version/$next/" -i setup.py; fi
-          if test -f version; then sed "s/$version/$next/" -i version; fi
-          if test -f README.md; then sed "s/$version/$next/" -i README.md; fi
-          if test -f chrome-plugin/manifest.json; then sed "s/$version/$next/" -i chrome-plugin/manifest.json; fi
-          if test -f metadata.json; then sed "s/$version/$next/" -i metadata.json; fi
-          if test -f package.json; then sed "s/$version/$next/" -i package.json; fi
-          if test -f manifest.json; then sed "s/$version/$next/" -i manifest.json; fi
-          for f in *.flatpak.yml *.flatpak.yaml *.flatpak.json; do
-            if test -f "$f"; then sed "s/$version/$next/" -i "$f"; fi
-          done
-          if test -f snapcraft.yaml; then sed "s/$version/$next/" -i snapcraft.yaml; fi
-          if test -f snap/snapcraft.yaml; then sed "s/$version/$next/" -i snap/snapcraft.yaml; fi
-          if test -f PKGBUILD; then sed "s/$version/$next/" -i PKGBUILD; fi
-          for f in *.nuspec; do
-            if test -f "$f"; then sed "s/$version/$next/" -i "$f"; fi
-          done
-          if test -f flake.nix; then sed "s/$version/$next/" -i flake.nix; fi
-          if test -f default.nix; then sed "s/$version/$next/" -i default.nix; fi
+          # Escaped, field-anchored replacement (see bump-version-files.sh in dmzoneill/dmzoneill)
+          curl -fsSL -o /tmp/bump-version-files.sh https://raw.githubusercontent.com/dmzoneill/dmzoneill/main/bump-version-files.sh
+          bash /tmp/bump-version-files.sh "$version" "$next" "${{ env.APP_NAME }}"
 
           if test -f CHANGELOG.md; then
             DATE_STR=$(date -u +'%Y-%m-%d')

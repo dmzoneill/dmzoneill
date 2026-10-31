@@ -11,8 +11,8 @@
 <p align="center">
 <a href="https://gist.github.com/dmzoneill"><img src="generated/tiles/gist.svg" width="176" height="46" alt="Gists: 24"/></a>
 <a href="https://github.com/issues?q=is%3Aissue+is%3Aopen+archived%3Afalse+user%3Admzoneill"><img src="generated/tiles/issue.svg" width="176" height="46" alt="Issues: 65"/></a>
-<a href="https://github.com/pulls?q=is%3Apr+is%3Aopen+author%3Admzoneill"><img src="generated/tiles/pr.svg" width="176" height="46" alt="Pull requests: 15"/></a>
-<a href="https://github.com/dmzoneill"><img src="generated/tiles/activity.svg" width="176" height="46" alt="Activity: 6"/></a>
+<a href="https://github.com/pulls?q=is%3Apr+is%3Aopen+author%3Admzoneill"><img src="generated/tiles/pr.svg" width="176" height="46" alt="Pull requests: 20"/></a>
+<a href="https://github.com/dmzoneill"><img src="generated/tiles/activity.svg" width="176" height="46" alt="Activity: 5"/></a>
 </p>
 
 <details>
@@ -50,31 +50,30 @@
 </table>
 </details>
 <details>
-<summary>🔀 <b>Pull requests</b> · 15 · <sub>latest 11m ago</sub></summary>
+<summary>🔀 <b>Pull requests</b> · 20 · <sub>latest 2m ago</sub></summary>
 <table>
-<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/redhat-ai-workflow/pull/237">Fix SonarCloud bug: drop discarded str.lower() in wake word detector…</a><br/><sub><code>redhat-ai-workflow#237</code></sub></td><td align="right"><sub>11m ago</sub></td></tr>
-<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/jira-creator/pull/15">Fix SonarCloud code smells: shell:S7688 and python:S8786</a><br/><sub><code>jira-creator#15</code></sub></td><td align="right"><sub>30m ago</sub></td></tr>
-<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/github-ai-maintainer/pull/6">Fix SonarCloud code smells: shell:S7688 in telegram-notify.sh</a><br/><sub><code>github-ai-maintainer#6</code></sub></td><td align="right"><sub>1h ago</sub></td></tr>
-<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/Xenith/pull/8">Fix SonarCloud code smells: shell:S7688 in install-python313.sh</a><br/><sub><code>Xenith#8</code></sub></td><td align="right"><sub>1h ago</sub></td></tr>
-<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/securetty/pull/190">Fix SonarCloud code smells: shell:S7688 in containers install.sh</a><br/><sub><code>securetty#190</code></sub></td><td align="right"><sub>1h ago</sub></td></tr>
-<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/synology-download-assistance-chrome-extension/pull/7">fix(popup): resolve remaining ESLint errors in popup.js</a><br/><sub><code>synology-download-assistance-chrome-extension#7</code></sub></td><td align="right"><sub>1h ago</sub></td></tr>
-<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/bin/pull/6">fix(sonar): S4830/S8786/S1751/S8234 on main</a><br/><sub><code>bin#6</code></sub></td><td align="right"><sub>1h ago</sub></td></tr>
-<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/bashrc/pull/3">Fix SonarCloud code smells: shell:S7688 in loader and lazy-secrets</a><br/><sub><code>bashrc#3</code></sub></td><td align="right"><sub>1h ago</sub></td></tr>
-<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/fail2counter/pull/6">lint: shellcheck source directive for runtime env file (SC1090)</a><br/><sub><code>fail2counter#6</code></sub></td><td align="right"><sub>1h ago</sub></td></tr>
-<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/securetty/pull/189">Fix SonarCloud code smells: shell:S7688 in entrypoint, dashboard and…</a><br/><sub><code>securetty#189</code></sub></td><td align="right"><sub>1h ago</sub></td></tr>
-<tr><td></td><td><a href='https://github.com/pulls?q=is%3Apr+is%3Aopen+author%3Admzoneill'>+5 more</a></td><td></td></tr>
+<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/DFakeSeeder/pull/66">fix(tracker): SystemRandom peer sampling (B311) + full-file lint of…</a><br/><sub><code>DFakeSeeder#66</code></sub></td><td align="right"><sub>2m ago</sub></td></tr>
+<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/DFakeSeeder/pull/65">fix(helpers): secrets-based random_id (B311) + full-file lint</a><br/><sub><code>DFakeSeeder#65</code></sub></td><td align="right"><sub>8m ago</sub></td></tr>
+<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/Leecharr/pull/1935">fix(codeql): replace Promise.all over void callbacks with forEach</a><br/><sub><code>Leecharr#1935</code></sub></td><td align="right"><sub>9m ago</sub></td></tr>
+<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/jira-creator/pull/17">test(search): assert format_and_print_rows is called (W0613)</a><br/><sub><code>jira-creator#17</code></sub></td><td align="right"><sub>10m ago</sub></td></tr>
+<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/jira-creator/pull/18">test(view-helpers): drop unused EnvFetcher.get patch (W0613)</a><br/><sub><code>jira-creator#18</code></sub></td><td align="right"><sub>10m ago</sub></td></tr>
+<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/bus-eireann-android-app/pull/4">fix(codeql): restrict followed 'later' links to planner host</a><br/><sub><code>bus-eireann-android-app#4</code></sub></td><td align="right"><sub>1h ago</sub></td></tr>
+<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/redhat-ai-workflow/pull/237">Fix SonarCloud bug: drop discarded str.lower() in wake word detector…</a><br/><sub><code>redhat-ai-workflow#237</code></sub></td><td align="right"><sub>1h ago</sub></td></tr>
+<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/jira-creator/pull/15">Fix SonarCloud code smells: shell:S7688 and python:S8786</a><br/><sub><code>jira-creator#15</code></sub></td><td align="right"><sub>2h ago</sub></td></tr>
+<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/github-ai-maintainer/pull/6">Fix SonarCloud code smells: shell:S7688 in telegram-notify.sh</a><br/><sub><code>github-ai-maintainer#6</code></sub></td><td align="right"><sub>3h ago</sub></td></tr>
+<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/Xenith/pull/8">Fix SonarCloud code smells: shell:S7688 in install-python313.sh</a><br/><sub><code>Xenith#8</code></sub></td><td align="right"><sub>3h ago</sub></td></tr>
+<tr><td></td><td><a href='https://github.com/pulls?q=is%3Apr+is%3Aopen+author%3Admzoneill'>+10 more</a></td><td></td></tr>
 
 </table>
 </details>
 <details>
-<summary>⚡ <b>Activity</b> · 6 · <sub>latest 1d ago</sub></summary>
+<summary>⚡ <b>Activity</b> · 5 · <sub>latest 1d ago</sub></summary>
 <table>
 <tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/dmzoneill/commits/profile-first-commit-years">Pushed to profile-first-commit-years</a><br/><sub><code>dmzoneill</code></sub></td><td align="right"><sub>1d ago</sub></td></tr>
 <tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/dmzoneill/commits/main">Pushed to main</a><br/><sub><code>dmzoneill</code></sub></td><td align="right"><sub>1d ago</sub></td></tr>
 <tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/aa-dev-prod-watcher/commits/main">Pushed to main</a><br/><sub><code>aa-dev-prod-watcher</code></sub></td><td align="right"><sub>1d ago</sub></td></tr>
-<tr><td>💬</td><td><a href="https://github.com/dmzoneill/wayvox/pull/18">fix(lint): isort order on main</a><br/><sub><code>wayvox</code></sub></td><td align="right"><sub>3h ago</sub></td></tr>
-<tr><td>💬</td><td><a href="https://github.com/dmzoneill/DFakeSeeder/pull/61">fix: SonarCloud Python reliability fixes</a><br/><sub><code>DFakeSeeder</code></sub></td><td align="right"><sub>6h ago</sub></td></tr>
-<tr><td>💬</td><td><a href="https://github.com/dmzoneill/jira-creator/pull/10">Fix SonarCloud bug/vulnerability findings</a><br/><sub><code>jira-creator</code></sub></td><td align="right"><sub>7h ago</sub></td></tr>
+<tr><td>💬</td><td><a href="https://github.com/dmzoneill/wayvox/pull/18">fix(lint): isort order on main</a><br/><sub><code>wayvox</code></sub></td><td align="right"><sub>4h ago</sub></td></tr>
+<tr><td>💬</td><td><a href="https://github.com/dmzoneill/DFakeSeeder/pull/61">fix: SonarCloud Python reliability fixes</a><br/><sub><code>DFakeSeeder</code></sub></td><td align="right"><sub>8h ago</sub></td></tr>
 
 </table>
 </details>

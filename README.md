@@ -11,7 +11,7 @@
 <p align="center">
 <a href="readme.gists.md"><img src="generated/tiles/gist.svg" width="176" height="46" alt="Gists: 24"/></a>
 <a href="readme.issues.md"><img src="generated/tiles/issue.svg" width="176" height="46" alt="Issues: 65"/></a>
-<a href="readme.pull-requests.md"><img src="generated/tiles/pr.svg" width="176" height="46" alt="Pull requests: 10"/></a>
+<a href="readme.pull-requests.md"><img src="generated/tiles/pr.svg" width="176" height="46" alt="Pull requests: 9"/></a>
 <a href="readme.activity.md"><img src="generated/tiles/activity.svg" width="176" height="46" alt="Activity: 10"/></a>
 </p>
 

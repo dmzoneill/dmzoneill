@@ -1,3 +1,5 @@
+"""Publish a WordPress blog post describing a repository's latest release."""
+
 import base64
 import os
 import re
@@ -128,6 +130,7 @@ class OpenAICompatibleProvider:
         return {"Content-Type": "application/json"}
 
     def improve_text(self, system_prompt: str, user_text: str) -> str:
+        """Rewrite text with the configured AI provider."""
         if self.use_cursor_agents:
             return self._improve_text_cursor_agent(system_prompt, user_text)
         return self._improve_text_chat_completions(system_prompt, user_text)
@@ -375,6 +378,7 @@ def get_release_url(job_name="cicd / Pypi publish", pattern=None):
 
 # Fetch the programming languages used in the GitHub repo
 def get_github_languages():
+    """Return the repository's languages from the GitHub API."""
     languages_url = (
         f"https://api.github.com/repos/{GITHUB_USER}/{GITHUB_REPO_NAME}/languages"
     )
@@ -396,6 +400,7 @@ def get_github_languages():
 # Example function to get the release links
 # Example function to get the release links
 def get_release_links():
+    """Collect links to the GitHub release and its packages."""
     release_links = {}
 
     # Get GitHub Release Link and Assets
@@ -440,6 +445,7 @@ def get_release_links():
 
 # Function to remove enclosing code block markers (like ```html, ```)
 def clean_html_code_block(content):
+    """Strip Markdown code fences from generated HTML."""
     content = re.sub(
         r"^```.*?$", "", content, flags=re.MULTILINE
     )  # Remove start of code block
@@ -449,11 +455,13 @@ def clean_html_code_block(content):
 
 # Function to strip HTML tags from a string (for title and excerpt)
 def strip_html_tags(text):
+    """Remove HTML tags from text."""
     return re.sub(r"<[^>]*>", "", text)
 
 
 # Fetch GitHub Release Link and associated assets (such as RPM, DEB)
 def get_github_release():
+    """Return the repository's latest GitHub release, or None."""
     release_url = (
         f"https://api.github.com/repos/{GITHUB_USER}/{GITHUB_REPO_NAME}/releases/latest"
     )
@@ -487,6 +495,7 @@ def get_github_release():
 
 # Fetch existing tags from WordPress or create them if they don't exist
 def get_or_create_tags(tags):
+    """Return WordPress tag ids for the names, creating missing tags."""
     tag_ids = []
     tags_url = f"{WORDPRESS_URL}tags"
     headers = {
@@ -523,6 +532,7 @@ def get_or_create_tags(tags):
 
 
 def get_category_id(languages, categories):
+    """Return WordPress category ids whose names match the repository languages."""
     category_id = []
 
     # Loop through each category and check if any category name matches the
@@ -540,6 +550,7 @@ def get_category_id(languages, categories):
 def create_wordpress_post(
     title, content, publish_date, excerpt, featured_image_url=None
 ):
+    """Create a WordPress post and return the API response."""
     url = f"{WORDPRESS_URL}posts"
     creds = f"{WORDPRESS_USERNAME}:{WORDPRESS_APPLICATION}".encode()
     creds = base64.b64encode(creds).decode("utf-8")
@@ -623,6 +634,7 @@ def create_wordpress_post(
 
 # Function to generate the blog post prompt for the LLM
 def generate_blog_post_prompt(release_links, diff, publish_date):
+    """Build the AI prompt from release links and the diff."""
     prompt = f"Generate a blog post with the following release {publish_date}"
     prompt += " links and provide ana analysis of the changes from this diff:\n"
 
@@ -698,6 +710,7 @@ def get_commit_diff(sha):
 
 
 def generate_description_with_media(prompt: str):
+    """Generate the post body and extract the image idea and YouTube topics."""
     ai_provider = OpenAICompatibleProvider()
 
     response = ai_provider.improve_text(system_prompt, prompt)
@@ -743,6 +756,7 @@ def is_substantial_change(
     diff: str, commit_message: str, override_keyword="Blog = true"
 ) -> bool:
     # Force include if override keyword is in commit message
+    """Decide whether a diff is worth a blog post; the override keyword forces yes."""
     if override_keyword.lower() in commit_message.lower():
         return True
 
@@ -801,6 +815,7 @@ def is_substantial_change(
 
 
 def main():
+    """Generate and publish a blog post for the latest commit if it is substantial."""
     try:
         # Get the repository name that triggered the pipeline
         print(f"\nProcessing repository: {GITHUB_REPO_NAME}")

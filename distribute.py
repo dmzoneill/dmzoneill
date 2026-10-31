@@ -311,6 +311,7 @@ def iter_files(root):
 
 
 def render_tree(root, template_text=None, repo=None):
+    """Render the managed workflow template for a local repository tree."""
     root = Path(root)
     template_text = template_text if template_text is not None else TEMPLATE_PATH.read_text(encoding="utf-8")
     paths = list(iter_files(root))
@@ -339,6 +340,7 @@ def _github_get(url, token):
 
 
 def fetch_remote_paths(owner, repo, branch, token):
+    """List every file path on a remote branch via the Git trees API, or None on failure."""
     quoted = urllib.parse.quote(branch, safe="")
     url = f"https://api.github.com/repos/{owner}/{repo}/git/trees/{quoted}?recursive=1"
     try:
@@ -372,6 +374,7 @@ def _fetch_setup_py(owner, repo, branch, path, token):
 
 
 def render_remote(owner, repo, branch, extra_paths):
+    """Render the managed workflow template for a remote repository branch."""
     token = _github_token()
     template_text = TEMPLATE_PATH.read_text(encoding="utf-8")
     paths = fetch_remote_paths(owner, repo, branch, token)
@@ -512,6 +515,7 @@ def _usage():
 
 
 def main(argv):
+    """Run the subcommand named in argv and return its exit code."""
     if len(argv) < 2:
         _usage()
         return 2

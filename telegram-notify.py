@@ -1,3 +1,5 @@
+"""Send a short Telegram notification given on the command line."""
+
 import os
 import sys
 
@@ -5,6 +7,7 @@ import requests
 
 
 def main():
+    """Send the message from argv to the configured Telegram chat."""
     if len(sys.argv) != 2:
         print("Usage: python telegram-notify.py <message>")
         sys.exit(1)

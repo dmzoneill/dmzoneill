@@ -455,7 +455,7 @@ def sync_distribute_workflow(check_only=False):  # pylint: disable=too-many-retu
 
     env_block = "\n".join(build_workflow_env_lines(secret_names, get_hub_secret_names()))
     pattern = re.compile(
-        r"([ \t]+env:\n)(?:[ \t]+.*\n)+?([ \t]+run: python3 setup\.py[ \t]*\n)",
+        r"([ \t]+env:\n)(?:[ \t]+\S.*\n)+?([ \t]+run: python3 setup\.py[ \t]*\n)",
         re.MULTILINE,
     )
     if not pattern.search(workflow_text):

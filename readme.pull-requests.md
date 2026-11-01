@@ -3,10 +3,10 @@
 [← Back to profile](README.md) · [View on GitHub](https://github.com/pulls?q=is%3Apr+is%3Aopen+author%3Admzoneill)
 
 <table>
-<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/redhat-ai-workflow/pull/336">Fix and split tests/test_meta_tools.py into lint-clean modules</a><br/><sub><code>redhat-ai-workflow#336</code></sub></td><td align="right"><sub>7h ago</sub></td></tr>
-<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/Xenith/pull/16">refactor(voice_input): split oversized voice input into modules,…</a><br/><sub><code>Xenith#16</code></sub></td><td align="right"><sub>14h ago</sub></td></tr>
-<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/redhat-ai-workflow/pull/255">fix(skill_error_recovery): non-blocking CLI prompt (S7501) + cleanup</a><br/><sub><code>redhat-ai-workflow#255</code></sub></td><td align="right"><sub>16h ago</sub></td></tr>
-<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/sodarr-chrome-plugin/pull/7">fix(lint): remove # nosec from xdg_open.py</a><br/><sub><code>sodarr-chrome-plugin#7</code></sub></td><td align="right"><sub>17h ago</sub></td></tr>
+<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/redhat-ai-workflow/pull/336">Fix and split tests/test_meta_tools.py into lint-clean modules</a><br/><sub><code>redhat-ai-workflow#336</code></sub></td><td align="right"><sub>16h ago</sub></td></tr>
+<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/Xenith/pull/16">refactor(voice_input): split oversized voice input into modules,…</a><br/><sub><code>Xenith#16</code></sub></td><td align="right"><sub>22h ago</sub></td></tr>
+<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/redhat-ai-workflow/pull/255">fix(skill_error_recovery): non-blocking CLI prompt (S7501) + cleanup</a><br/><sub><code>redhat-ai-workflow#255</code></sub></td><td align="right"><sub>1d ago</sub></td></tr>
+<tr><td>🔀</td><td><a href="https://github.com/dmzoneill/sodarr-chrome-plugin/pull/7">fix(lint): remove # nosec from xdg_open.py</a><br/><sub><code>sodarr-chrome-plugin#7</code></sub></td><td align="right"><sub>1d ago</sub></td></tr>
 <tr><td>🔀</td><td><a href="https://github.com/ansible/awx/pull/16601">fix(notifications): handle empty string and string UIDs for Grafana…</a><br/><sub><code>awx#16601</code></sub></td><td align="right"><sub>1w ago</sub></td></tr>
 <tr><td>🔀</td><td><a href="https://github.com/netbirdio/netbird/pull/7719">[client] Detect underlying network and VPN disconnect events on Linux</a><br/><sub><code>netbird#7719</code></sub></td><td align="right"><sub>1w ago</sub></td></tr>
 <tr><td>🔀</td><td><a href="https://github.com/gnome-terminator/terminator/pull/1056">fix: convert enabled string to boolean in custom commands</a><br/><sub><code>terminator#1056</code></sub></td><td align="right"><sub>1w ago</sub></td></tr>

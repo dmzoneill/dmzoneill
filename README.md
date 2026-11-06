@@ -4,21 +4,21 @@
 <p align="center">
 <a href="https://github.com/dmzoneill"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white"/></a>
 <a href="https://www.linkedin.com/in/dmzoneill/"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-<img alt="Last updated" src="https://img.shields.io/badge/updated-2026--11--05-brightgreen?style=for-the-badge"/>
+<img alt="Last updated" src="https://img.shields.io/badge/updated-2026--11--06-brightgreen?style=for-the-badge"/>
 <img alt="Profile views" src="https://komarev.com/ghpvc/?username=dmzoneill&color=brightgreen&style=for-the-badge"/>
 </p>
 
 <p align="center">
 <a href="readme.gists.md"><img src="generated/tiles/gist.svg" width="176" height="46" alt="Gists: 24"/></a>
 <a href="readme.issues.md"><img src="generated/tiles/issue.svg" width="176" height="46" alt="Issues: 66"/></a>
-<a href="readme.pull-requests.md"><img src="generated/tiles/pr.svg" width="176" height="46" alt="Pull requests: 13"/></a>
-<a href="readme.activity.md"><img src="generated/tiles/activity.svg" width="176" height="46" alt="Activity: 53"/></a>
+<a href="readme.pull-requests.md"><img src="generated/tiles/pr.svg" width="176" height="46" alt="Pull requests: 9"/></a>
+<a href="readme.activity.md"><img src="generated/tiles/activity.svg" width="176" height="46" alt="Activity: 55"/></a>
 </p>
 
 <h3>🏢 Forks &amp; work orgs</h3>
 <p align="center">
 <a href="https://github.com/dmzoneill-forks"><img src="generated/orgs/dmzoneill-forks.svg" width="134" height="46" alt="My forks: 64 forks"/></a>
-<a href="https://github.com/RedHatInsights"><img src="generated/orgs/RedHatInsights.svg" width="134" height="46" alt="RedHat Insights: 681 repos"/></a>
+<a href="https://github.com/RedHatInsights"><img src="generated/orgs/RedHatInsights.svg" width="134" height="46" alt="RedHat Insights: 682 repos"/></a>
 <a href="https://github.com/app-sre"><img src="generated/orgs/app-sre.svg" width="134" height="46" alt="AppSRE: 142 repos"/></a>
 <a href="https://github.com/Redhat-forks"><img src="generated/orgs/Redhat-forks.svg" width="134" height="46" alt="Redhat forks: 92 forks"/></a>
 <a href="https://github.com/Canonical-forks"><img src="generated/orgs/Canonical-forks.svg" width="134" height="46" alt="Canonical forks: 9 forks"/></a>
@@ -38,7 +38,7 @@
 <td width="20%"><img src='https://img.shields.io/badge/-%20-178600?style=flat-square' width='10' height='10'/> <b>C#</b><br/><sub>31.3 MB · 12.1%</sub><br/><img src="images/spacer.svg" width="140" height="1" alt=""/></td>
 <td width="20%"><img src='https://img.shields.io/badge/-%20-f1e05a?style=flat-square' width='10' height='10'/> <b>JavaScript</b><br/><sub>22.0 MB · 8.5%</sub><br/><img src="images/spacer.svg" width="140" height="1" alt=""/></td>
 <td width="20%"><img src='https://img.shields.io/badge/-%20-3178c6?style=flat-square' width='10' height='10'/> <b>TypeScript</b><br/><sub>17.2 MB · 6.7%</sub><br/><img src="images/spacer.svg" width="140" height="1" alt=""/></td>
-<td width="20%"><img src='https://img.shields.io/badge/-%20-3572A5?style=flat-square' width='10' height='10'/> <b>Python</b><br/><sub>14.6 MB · 5.7%</sub><br/><img src="images/spacer.svg" width="140" height="1" alt=""/></td>
+<td width="20%"><img src='https://img.shields.io/badge/-%20-3572A5?style=flat-square' width='10' height='10'/> <b>Python</b><br/><sub>14.7 MB · 5.7%</sub><br/><img src="images/spacer.svg" width="140" height="1" alt=""/></td>
 </tr><tr>
 <td width="20%"><img src='https://img.shields.io/badge/-%20-e34c26?style=flat-square' width='10' height='10'/> <b>HTML</b><br/><sub>12.7 MB · 4.9%</sub><br/><img src="images/spacer.svg" width="140" height="1" alt=""/></td>
 <td width="20%"><img src='https://img.shields.io/badge/-%20-663399?style=flat-square' width='10' height='10'/> <b>CSS</b><br/><sub>11.5 MB · 4.5%</sub><br/><img src="images/spacer.svg" width="140" height="1" alt=""/></td>
@@ -56,7 +56,7 @@
 <td width="20%"><img src='https://img.shields.io/badge/-%20-8b949e?style=flat-square' width='10' height='10'/> <b>Visual Basic .NET</b><br/><sub>723 KB · 0.3%</sub><br/><img src="images/spacer.svg" width="140" height="1" alt=""/></td>
 <td width="20%"><img src='https://img.shields.io/badge/-%20-8b949e?style=flat-square' width='10' height='10'/> <b>TeX</b><br/><sub>590 KB · 0.2%</sub><br/><img src="images/spacer.svg" width="140" height="1" alt=""/></td>
 <td width="20%"><img src='https://img.shields.io/badge/-%20-701516?style=flat-square' width='10' height='10'/> <b>Ruby</b><br/><sub>488 KB · 0.2%</sub><br/><img src="images/spacer.svg" width="140" height="1" alt=""/></td>
-<td width="20%"><img src='https://img.shields.io/badge/-%20-427819?style=flat-square' width='10' height='10'/> <b>Makefile</b><br/><sub>482 KB · 0.2%</sub><br/><img src="images/spacer.svg" width="140" height="1" alt=""/></td>
+<td width="20%"><img src='https://img.shields.io/badge/-%20-427819?style=flat-square' width='10' height='10'/> <b>Makefile</b><br/><sub>483 KB · 0.2%</sub><br/><img src="images/spacer.svg" width="140" height="1" alt=""/></td>
 
 </tr>
 </table>

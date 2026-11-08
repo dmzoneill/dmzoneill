@@ -4,7 +4,7 @@
 <p align="center">
 <a href="https://github.com/dmzoneill"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white"/></a>
 <a href="https://www.linkedin.com/in/dmzoneill/"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-<img alt="Last updated" src="https://img.shields.io/badge/updated-2026--11--07-brightgreen?style=for-the-badge"/>
+<img alt="Last updated" src="https://img.shields.io/badge/updated-2026--11--08-brightgreen?style=for-the-badge"/>
 <img alt="Profile views" src="https://komarev.com/ghpvc/?username=dmzoneill&color=brightgreen&style=for-the-badge"/>
 </p>
 
@@ -12,7 +12,7 @@
 <a href="readme.gists.md"><img src="generated/tiles/gist.svg" width="176" height="46" alt="Gists: 24"/></a>
 <a href="readme.issues.md"><img src="generated/tiles/issue.svg" width="176" height="46" alt="Issues: 66"/></a>
 <a href="readme.pull-requests.md"><img src="generated/tiles/pr.svg" width="176" height="46" alt="Pull requests: 6"/></a>
-<a href="readme.activity.md"><img src="generated/tiles/activity.svg" width="176" height="46" alt="Activity: 47"/></a>
+<a href="readme.activity.md"><img src="generated/tiles/activity.svg" width="176" height="46" alt="Activity: 48"/></a>
 </p>
 
 <h3>🏢 Forks &amp; work orgs</h3>
@@ -35,7 +35,7 @@
 <table>
 <tr>
 <td width="20%"><img src='https://img.shields.io/badge/-%20-4F5D95?style=flat-square' width='10' height='10'/> <b>PHP</b><br/><sub>112.7 MB · 43.7%</sub><br/><img src="images/spacer.svg" width="140" height="1" alt=""/></td>
-<td width="20%"><img src='https://img.shields.io/badge/-%20-178600?style=flat-square' width='10' height='10'/> <b>C#</b><br/><sub>31.3 MB · 12.1%</sub><br/><img src="images/spacer.svg" width="140" height="1" alt=""/></td>
+<td width="20%"><img src='https://img.shields.io/badge/-%20-178600?style=flat-square' width='10' height='10'/> <b>C#</b><br/><sub>31.4 MB · 12.2%</sub><br/><img src="images/spacer.svg" width="140" height="1" alt=""/></td>
 <td width="20%"><img src='https://img.shields.io/badge/-%20-f1e05a?style=flat-square' width='10' height='10'/> <b>JavaScript</b><br/><sub>22.0 MB · 8.5%</sub><br/><img src="images/spacer.svg" width="140" height="1" alt=""/></td>
 <td width="20%"><img src='https://img.shields.io/badge/-%20-3178c6?style=flat-square' width='10' height='10'/> <b>TypeScript</b><br/><sub>17.2 MB · 6.7%</sub><br/><img src="images/spacer.svg" width="140" height="1" alt=""/></td>
 <td width="20%"><img src='https://img.shields.io/badge/-%20-3572A5?style=flat-square' width='10' height='10'/> <b>Python</b><br/><sub>14.7 MB · 5.7%</sub><br/><img src="images/spacer.svg" width="140" height="1" alt=""/></td>
@@ -94,8 +94,8 @@
 <table>
 <tr>
 <td align="center" valign="top" width="33%"><a href="https://github.com/dmzoneill/torrent-speedtest"><img src="https://raw.githubusercontent.com/dmzoneill/torrent-speedtest/main/.github/logo.png" width="48" alt="torrent-speedtest"/><br/><b>torrent-​speedtest</b></a><br/><sub>Self-​hosted Bit​Torrent speed test container with built-​in…</sub><br/><sub><img src='https://img.shields.io/badge/-%20-3572A5?style=flat-square' width='10' height='10'/> Python  · 2026</sub><br/><a href='https://github.com/dmzoneill/torrent-speedtest/actions/workflows/main.yml'><img src='https://github.com/dmzoneill/torrent-speedtest/actions/workflows/main.yml/badge.svg' alt='CI'/></a></td>
-<td align="center" valign="top" width="33%"><a href="https://github.com/dmzoneill/leecharr.net"><img src="https://raw.githubusercontent.com/dmzoneill/leecharr.net/main/.github/logo.png" width="48" alt="leecharr.net"/><br/><b>leecharr.​net</b></a><br/><sub>Website for Leechar torrent downloader</sub><br/><sub><img src='https://img.shields.io/badge/-%20-4F5D95?style=flat-square' width='10' height='10'/> PHP  · 2026</sub><br/><a href='https://github.com/dmzoneill/leecharr.net/actions/workflows/main.yml'><img src='https://github.com/dmzoneill/leecharr.net/actions/workflows/main.yml/badge.svg' alt='CI'/></a></td>
 <td align="center" valign="top" width="33%"><a href="https://github.com/dmzoneill/seedarr.net"><img src="https://raw.githubusercontent.com/dmzoneill/seedarr.net/main/.github/logo.png" width="48" alt="seedarr.net"/><br/><b>seedarr.​net</b></a><br/><sub>Website for Seedarr torrent seeding management platform</sub><br/><sub><img src='https://img.shields.io/badge/-%20-4F5D95?style=flat-square' width='10' height='10'/> PHP  · 2026</sub><br/><a href='https://github.com/dmzoneill/seedarr.net/actions/workflows/main.yml'><img src='https://github.com/dmzoneill/seedarr.net/actions/workflows/main.yml/badge.svg' alt='CI'/></a></td>
+<td align="center" valign="top" width="33%"><a href="https://github.com/dmzoneill/leecharr.net"><img src="https://raw.githubusercontent.com/dmzoneill/leecharr.net/main/.github/logo.png" width="48" alt="leecharr.net"/><br/><b>leecharr.​net</b></a><br/><sub>Website for Leechar torrent downloader</sub><br/><sub><img src='https://img.shields.io/badge/-%20-4F5D95?style=flat-square' width='10' height='10'/> PHP  · 2026</sub><br/><a href='https://github.com/dmzoneill/leecharr.net/actions/workflows/main.yml'><img src='https://github.com/dmzoneill/leecharr.net/actions/workflows/main.yml/badge.svg' alt='CI'/></a></td>
 </tr><tr>
 <td align="center" valign="top" width="33%"><a href="https://github.com/dmzoneill/securetty"><img src="https://raw.githubusercontent.com/dmzoneill/securetty/main/.github/logo.png" width="48" alt="securetty"/><br/><b>securetty</b></a><br/><sub>Secure container-​based development environment with MCP…</sub><br/><sub><img src='https://img.shields.io/badge/-%20-89e051?style=flat-square' width='10' height='10'/> Shell  · 2026</sub><br/><a href='https://github.com/dmzoneill/securetty/actions/workflows/main.yml'><img src='https://github.com/dmzoneill/securetty/actions/workflows/main.yml/badge.svg' alt='CI'/></a></td>
 <td align="center" valign="top" width="33%"><a href="https://github.com/dmzoneill/passmate"><img src="https://raw.githubusercontent.com/dmzoneill/passmate/main/.github/logo.png" width="48" alt="passmate"/><br/><b>passmate</b></a><br/><sub>Password management and credential helper tool</sub><br/><sub><img src='https://img.shields.io/badge/-%20-f1e05a?style=flat-square' width='10' height='10'/> JavaScript  · 2026</sub><br/><a href='https://github.com/dmzoneill/passmate/actions/workflows/main.yml'><img src='https://github.com/dmzoneill/passmate/actions/workflows/main.yml/badge.svg' alt='CI'/></a></td>

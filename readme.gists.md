@@ -3,7 +3,7 @@
 [← Back to profile](README.md) · [View on GitHub](https://gist.github.com/dmzoneill)
 
 <table>
-<tr><td>📄</td><td><a href="https://gist.github.com/dmzoneill/93eef357f1e61f8d337a348fa5c180f0">XDock test badges</a><br/><sub><code>xdock-coverage.json</code></sub></td><td align="right"><sub>1w ago</sub></td></tr>
+<tr><td>📄</td><td><a href="https://gist.github.com/dmzoneill/93eef357f1e61f8d337a348fa5c180f0">XDock test badges</a><br/><sub><code>xdock-coverage.json</code></sub></td><td align="right"><sub>8h ago</sub></td></tr>
 <tr><td>📄</td><td><a href="https://gist.github.com/dmzoneill/af4a56c98fe185a9b14abba35bb5c29b">Complete Guide: Multi-Instance Ollama Setup with NPU, Intel GPU, and…</a><br/><sub><code>Complete Guide:…</code></sub></td><td align="right"><sub>2w ago</sub></td></tr>
 <tr><td>📄</td><td><a href="https://gist.github.com/dmzoneill/441f88a5c73136b8128c252ad84100b3">Tampermonkey script to clean up Slack and Jira messages with ChatGPT</a><br/><sub><code>slack-tapermoneky.js</code></sub></td><td align="right"><sub>2w ago</sub></td></tr>
 <tr><td>📄</td><td><a href="https://gist.github.com/dmzoneill/67a908fb949dc95bbbf02f0446a07f0a">PHP script that writes a name from the URL onto a JPEG image with GD</a><br/><sub><code>gistfile1.txt</code></sub></td><td align="right"><sub>2w ago</sub></td></tr>
@@ -20,7 +20,7 @@
 <tr><td>📄</td><td><a href="https://gist.github.com/dmzoneill/cf2d484d13bdfe689586d984af2105bd">Bash hints that suggest modern alternatives to legacy Linux commands</a><br/><sub><code>modern-hints.sh</code></sub></td><td align="right"><sub>2w ago</sub></td></tr>
 <tr><td>📄</td><td><a href="https://gist.github.com/dmzoneill/c992016e6ae2a29985302ac664f5a15b">AI-generated full spine MRI analysis report (not a medical diagnosis)</a><br/><sub><code>AI.md</code></sub></td><td align="right"><sub>2w ago</sub></td></tr>
 <tr><td>📄</td><td><a href="https://gist.github.com/dmzoneill/8bc6af47fd734f1389a6a9981d7268a1">Claude Code session reviewing a Siemens full spine MRI DICOM export</a><br/><sub><code>gistfile1.txt</code></sub></td><td align="right"><sub>2w ago</sub></td></tr>
-<tr><td>📄</td><td><a href="https://gist.github.com/dmzoneill/6b234c35e25d3f586f68db8e79591d65">XDock test badges</a><br/><sub><code>gistfile0.txt</code></sub></td><td align="right"><sub>3mo ago</sub></td></tr>
+<tr><td>📄</td><td><a href="https://gist.github.com/dmzoneill/6b234c35e25d3f586f68db8e79591d65">XDock test badges</a><br/><sub><code>gistfile0.txt</code></sub></td><td align="right"><sub>4mo ago</sub></td></tr>
 <tr><td>📄</td><td><a href="https://gist.github.com/dmzoneill/3f59c2b525578a7543e2f4d6914c2d77">AAP Contract Validation - Cross-Cluster Bridge Architecture</a><br/><sub><code>aap-contract-validation-archi…</code></sub></td><td align="right"><sub>4mo ago</sub></td></tr>
 <tr><td>📄</td><td><a href="https://gist.github.com/dmzoneill/575ba9c32375c41cb1041e9064de0678">Synology 108tb limit bypass</a><br/><sub><code>Synology 108tb limit…</code></sub></td><td align="right"><sub>4mo ago</sub></td></tr>
 <tr><td>📄</td><td><a href="https://gist.github.com/dmzoneill/87698993c18d9bab7a7fe6def4166481">AAP Billing Validation — Three-Way Cross-Reference Pipeline Diagram</a><br/><sub><code>billing-validation-pipeline.md</code></sub></td><td align="right"><sub>5mo ago</sub></td></tr>

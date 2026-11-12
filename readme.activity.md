@@ -3,17 +3,17 @@
 [← Back to profile](README.md) · [View on GitHub](https://github.com/dmzoneill)
 
 <table>
-<tr><td>💬</td><td><a href="https://github.com/dmzoneill-forks/xdock/issues/975">[upstream-pr#2781] dash: Ignore items animating out on redisplay</a><br/><sub><code>xdock</code></sub></td><td align="right"><sub>2h ago</sub></td></tr>
-<tr><td>💬</td><td><a href="https://github.com/dmzoneill-forks/xdock/issues/976">[upstream-pr#2780] docking: Restore reliable hover reveal on X11</a><br/><sub><code>xdock</code></sub></td><td align="right"><sub>2h ago</sub></td></tr>
-<tr><td>💬</td><td><a href="https://github.com/dmzoneill-forks/xdock/issues/973">[upstream-pr#2779] notificationsMonitor: Notify DND changes reliably</a><br/><sub><code>xdock</code></sub></td><td align="right"><sub>2h ago</sub></td></tr>
-<tr><td>💬</td><td><a href="https://github.com/dmzoneill-forks/xdock/issues/972">[upstream#2778] Windows never shown after login:…</a><br/><sub><code>xdock</code></sub></td><td align="right"><sub>2h ago</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill-forks/xdock/commits/master">Pushed to master</a><br/><sub><code>xdock</code></sub></td><td align="right"><sub>2h ago</sub></td></tr>
-<tr><td>🟢</td><td><a href="https://github.com/dmzoneill-forks/xdock/issues/975">[upstream-pr#2781] dash: Ignore items animating out on redisplay</a><br/><sub><code>xdock</code></sub></td><td align="right"><sub>2h ago</sub></td></tr>
-<tr><td>🟢</td><td><a href="https://github.com/dmzoneill-forks/xdock/issues/976">[upstream-pr#2780] docking: Restore reliable hover reveal on X11</a><br/><sub><code>xdock</code></sub></td><td align="right"><sub>2h ago</sub></td></tr>
-<tr><td>💬</td><td><a href="https://github.com/dmzoneill-forks/xdock/issues/974">[BUG] Context menus appear at (0,0) or become unresponsive when…</a><br/><sub><code>xdock</code></sub></td><td align="right"><sub>2h ago</sub></td></tr>
-<tr><td>🟢</td><td><a href="https://github.com/dmzoneill-forks/xdock/issues/973">[upstream-pr#2779] notificationsMonitor: Notify DND changes reliably</a><br/><sub><code>xdock</code></sub></td><td align="right"><sub>2h ago</sub></td></tr>
-<tr><td>🟢</td><td><a href="https://github.com/dmzoneill-forks/xdock/issues/972">[upstream#2778] Windows never shown after login:…</a><br/><sub><code>xdock</code></sub></td><td align="right"><sub>2h ago</sub></td></tr>
-<tr><td>🟢</td><td><a href="https://github.com/dmzoneill-forks/xdock/issues/974">[BUG] Context menus appear at (0,0) or become unresponsive when…</a><br/><sub><code>xdock</code></sub></td><td align="right"><sub>2h ago</sub></td></tr>
+<tr><td>💬</td><td><a href="https://github.com/dmzoneill-forks/xdock/issues/975">[upstream-pr#2781] dash: Ignore items animating out on redisplay</a><br/><sub><code>xdock</code></sub></td><td align="right"><sub>8h ago</sub></td></tr>
+<tr><td>💬</td><td><a href="https://github.com/dmzoneill-forks/xdock/issues/976">[upstream-pr#2780] docking: Restore reliable hover reveal on X11</a><br/><sub><code>xdock</code></sub></td><td align="right"><sub>8h ago</sub></td></tr>
+<tr><td>💬</td><td><a href="https://github.com/dmzoneill-forks/xdock/issues/973">[upstream-pr#2779] notificationsMonitor: Notify DND changes reliably</a><br/><sub><code>xdock</code></sub></td><td align="right"><sub>8h ago</sub></td></tr>
+<tr><td>💬</td><td><a href="https://github.com/dmzoneill-forks/xdock/issues/972">[upstream#2778] Windows never shown after login:…</a><br/><sub><code>xdock</code></sub></td><td align="right"><sub>8h ago</sub></td></tr>
+<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill-forks/xdock/commits/master">Pushed to master</a><br/><sub><code>xdock</code></sub></td><td align="right"><sub>8h ago</sub></td></tr>
+<tr><td>🟢</td><td><a href="https://github.com/dmzoneill-forks/xdock/issues/975">[upstream-pr#2781] dash: Ignore items animating out on redisplay</a><br/><sub><code>xdock</code></sub></td><td align="right"><sub>8h ago</sub></td></tr>
+<tr><td>🟢</td><td><a href="https://github.com/dmzoneill-forks/xdock/issues/976">[upstream-pr#2780] docking: Restore reliable hover reveal on X11</a><br/><sub><code>xdock</code></sub></td><td align="right"><sub>8h ago</sub></td></tr>
+<tr><td>💬</td><td><a href="https://github.com/dmzoneill-forks/xdock/issues/974">[BUG] Context menus appear at (0,0) or become unresponsive when…</a><br/><sub><code>xdock</code></sub></td><td align="right"><sub>8h ago</sub></td></tr>
+<tr><td>🟢</td><td><a href="https://github.com/dmzoneill-forks/xdock/issues/973">[upstream-pr#2779] notificationsMonitor: Notify DND changes reliably</a><br/><sub><code>xdock</code></sub></td><td align="right"><sub>8h ago</sub></td></tr>
+<tr><td>🟢</td><td><a href="https://github.com/dmzoneill-forks/xdock/issues/972">[upstream#2778] Windows never shown after login:…</a><br/><sub><code>xdock</code></sub></td><td align="right"><sub>8h ago</sub></td></tr>
+<tr><td>🟢</td><td><a href="https://github.com/dmzoneill-forks/xdock/issues/974">[BUG] Context menus appear at (0,0) or become unresponsive when…</a><br/><sub><code>xdock</code></sub></td><td align="right"><sub>8h ago</sub></td></tr>
 <tr><td>⬆️</td><td><a href="https://github.com/dmzoneill-forks/xdock/commits/master">Pushed to master</a><br/><sub><code>xdock</code></sub></td><td align="right"><sub>2d ago</sub></td></tr>
 <tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/Seedarr/commits/main">Pushed to main</a><br/><sub><code>Seedarr</code></sub></td><td align="right"><sub>2d ago</sub></td></tr>
 <tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/Seedarr/commits/main">Pushed to main</a><br/><sub><code>Seedarr</code></sub></td><td align="right"><sub>1d ago</sub></td></tr>
@@ -67,7 +67,7 @@
 <tr><td>⬆️</td><td><a href="https://github.com/dmzoneill-forks/nemo-extensions/commits/master">Pushed to master</a><br/><sub><code>nemo-extensions</code></sub></td><td align="right"><sub>2d ago</sub></td></tr>
 <tr><td>⬆️</td><td><a href="https://github.com/dmzoneill-forks/vscode/commits/main">Pushed to main</a><br/><sub><code>vscode</code></sub></td><td align="right"><sub>2d ago</sub></td></tr>
 <tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/Leecharr/commits/main">Pushed to main</a><br/><sub><code>Leecharr</code></sub></td><td align="right"><sub>2d ago</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/redhat-ai-workflow/commits/main">Pushed to main</a><br/><sub><code>redhat-ai-workflow</code></sub></td><td align="right"><sub>2d ago</sub></td></tr>
+<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/redhat-ai-workflow/commits/main">Pushed to main</a><br/><sub><code>redhat-ai-workflow</code></sub></td><td align="right"><sub>3d ago</sub></td></tr>
 <tr><td>⬆️</td><td><a href="https://github.com/Redhat-forks/pytest-ansible/commits/main">Pushed to main</a><br/><sub><code>pytest-ansible</code></sub></td><td align="right"><sub>2d ago</sub></td></tr>
 <tr><td>⬆️</td><td><a href="https://github.com/Redhat-forks/insights-mcp/commits/main">Pushed to main</a><br/><sub><code>insights-mcp</code></sub></td><td align="right"><sub>2d ago</sub></td></tr>
 <tr><td>⬆️</td><td><a href="https://github.com/Redhat-forks/actions/commits/main">Pushed to main</a><br/><sub><code>actions</code></sub></td><td align="right"><sub>2d ago</sub></td></tr>

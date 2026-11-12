@@ -11,14 +11,14 @@
 <p align="center">
 <a href="readme.gists.md"><img src="generated/tiles/gist.svg" width="176" height="46" alt="Gists: 24"/></a>
 <a href="readme.issues.md"><img src="generated/tiles/issue.svg" width="176" height="46" alt="Issues: 64"/></a>
-<a href="readme.pull-requests.md"><img src="generated/tiles/pr.svg" width="176" height="46" alt="Pull requests: 11"/></a>
-<a href="readme.activity.md"><img src="generated/tiles/activity.svg" width="176" height="46" alt="Activity: 95"/></a>
+<a href="readme.pull-requests.md"><img src="generated/tiles/pr.svg" width="176" height="46" alt="Pull requests: 6"/></a>
+<a href="readme.activity.md"><img src="generated/tiles/activity.svg" width="176" height="46" alt="Activity: 87"/></a>
 </p>
 
 <h3>🏢 Forks &amp; work orgs</h3>
 <p align="center">
 <a href="https://github.com/dmzoneill-forks"><img src="generated/orgs/dmzoneill-forks.svg" width="134" height="46" alt="My forks: 65 forks"/></a>
-<a href="https://github.com/RedHatInsights"><img src="generated/orgs/RedHatInsights.svg" width="134" height="46" alt="RedHat Insights: 683 repos"/></a>
+<a href="https://github.com/RedHatInsights"><img src="generated/orgs/RedHatInsights.svg" width="134" height="46" alt="RedHat Insights: 684 repos"/></a>
 <a href="https://github.com/app-sre"><img src="generated/orgs/app-sre.svg" width="134" height="46" alt="AppSRE: 142 repos"/></a>
 <a href="https://github.com/Redhat-forks"><img src="generated/orgs/Redhat-forks.svg" width="134" height="46" alt="Redhat forks: 92 forks"/></a>
 <a href="https://github.com/Canonical-forks"><img src="generated/orgs/Canonical-forks.svg" width="134" height="46" alt="Canonical forks: 9 forks"/></a>

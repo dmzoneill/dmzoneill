@@ -3,12 +3,14 @@
 [← Back to profile](README.md) · [View on GitHub](https://github.com/dmzoneill)
 
 <table>
-<tr><td>💬</td><td><a href="https://github.com/dmzoneill/ashtangayogacork.ie-wearos/pull/8">Bump gradle-wrapper from 9.8.2 to 9.9.0 in the gradle group across 1…</a><br/><sub><code>ashtangayogacork.ie-wearos</code></sub></td><td align="right"><sub>59m ago</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/Leecharr/commits/main">Pushed to main</a><br/><sub><code>Leecharr</code></sub></td><td align="right"><sub>10h ago</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/forum.unknown-heroes.com/commits/main">Pushed to main</a><br/><sub><code>forum.unknown-heroes.com</code></sub></td><td align="right"><sub>10h ago</sub></td></tr>
+<tr><td>💬</td><td><a href="https://github.com/dmzoneill/android-digiweb-usage/pull/6">Bump gradle-wrapper from 9.8.2 to 9.9.0 in the gradle group across 1…</a><br/><sub><code>android-digiweb-usage</code></sub></td><td align="right"><sub>5h ago</sub></td></tr>
+<tr><td>💬</td><td><a href="https://github.com/dmzoneill/ashtangayogacork.ie-android/pull/11">Bump gradle-wrapper from 9.8.2 to 9.9.0 in the gradle group across 1…</a><br/><sub><code>ashtangayogacork.ie-android</code></sub></td><td align="right"><sub>5h ago</sub></td></tr>
+<tr><td>💬</td><td><a href="https://github.com/dmzoneill/ashtangayogacork.ie-wearos/pull/8">Bump gradle-wrapper from 9.8.2 to 9.9.0 in the gradle group across 1…</a><br/><sub><code>ashtangayogacork.ie-wearos</code></sub></td><td align="right"><sub>6h ago</sub></td></tr>
+<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/Leecharr/commits/main">Pushed to main</a><br/><sub><code>Leecharr</code></sub></td><td align="right"><sub>15h ago</sub></td></tr>
+<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/forum.unknown-heroes.com/commits/main">Pushed to main</a><br/><sub><code>forum.unknown-heroes.com</code></sub></td><td align="right"><sub>16h ago</sub></td></tr>
 <tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/ollama-proxy/commits/main">Pushed to main</a><br/><sub><code>ollama-proxy</code></sub></td><td align="right"><sub>1d ago</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/redhatter/commits/main">Pushed to main</a><br/><sub><code>redhatter</code></sub></td><td align="right"><sub>17h ago</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/Seedarr/commits/main">Pushed to main</a><br/><sub><code>Seedarr</code></sub></td><td align="right"><sub>17h ago</sub></td></tr>
+<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/redhatter/commits/main">Pushed to main</a><br/><sub><code>redhatter</code></sub></td><td align="right"><sub>22h ago</sub></td></tr>
+<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/Seedarr/commits/main">Pushed to main</a><br/><sub><code>Seedarr</code></sub></td><td align="right"><sub>22h ago</sub></td></tr>
 <tr><td>💬</td><td><a href="https://github.com/dmzoneill-forks/xdock/issues/975">[upstream-pr#2781] dash: Ignore items animating out on redisplay</a><br/><sub><code>xdock</code></sub></td><td align="right"><sub>1d ago</sub></td></tr>
 <tr><td>💬</td><td><a href="https://github.com/dmzoneill-forks/xdock/issues/976">[upstream-pr#2780] docking: Restore reliable hover reveal on X11</a><br/><sub><code>xdock</code></sub></td><td align="right"><sub>1d ago</sub></td></tr>
 <tr><td>💬</td><td><a href="https://github.com/dmzoneill-forks/xdock/issues/973">[upstream-pr#2779] notificationsMonitor: Notify DND changes reliably</a><br/><sub><code>xdock</code></sub></td><td align="right"><sub>1d ago</sub></td></tr>
@@ -73,7 +75,7 @@
 <tr><td>⬆️</td><td><a href="https://github.com/dmzoneill-forks/nemo-extensions/commits/master">Pushed to master</a><br/><sub><code>nemo-extensions</code></sub></td><td align="right"><sub>3d ago</sub></td></tr>
 <tr><td>⬆️</td><td><a href="https://github.com/dmzoneill-forks/vscode/commits/main">Pushed to main</a><br/><sub><code>vscode</code></sub></td><td align="right"><sub>3d ago</sub></td></tr>
 <tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/Leecharr/commits/main">Pushed to main</a><br/><sub><code>Leecharr</code></sub></td><td align="right"><sub>3d ago</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/redhat-ai-workflow/commits/main">Pushed to main</a><br/><sub><code>redhat-ai-workflow</code></sub></td><td align="right"><sub>3d ago</sub></td></tr>
+<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/redhat-ai-workflow/commits/main">Pushed to main</a><br/><sub><code>redhat-ai-workflow</code></sub></td><td align="right"><sub>4d ago</sub></td></tr>
 <tr><td>⬆️</td><td><a href="https://github.com/Redhat-forks/pytest-ansible/commits/main">Pushed to main</a><br/><sub><code>pytest-ansible</code></sub></td><td align="right"><sub>3d ago</sub></td></tr>
 <tr><td>⬆️</td><td><a href="https://github.com/Redhat-forks/insights-mcp/commits/main">Pushed to main</a><br/><sub><code>insights-mcp</code></sub></td><td align="right"><sub>3d ago</sub></td></tr>
 <tr><td>⬆️</td><td><a href="https://github.com/Redhat-forks/actions/commits/main">Pushed to main</a><br/><sub><code>actions</code></sub></td><td align="right"><sub>3d ago</sub></td></tr>
@@ -88,6 +90,4 @@
 <tr><td>⬆️</td><td><a href="https://github.com/Redhat-forks/data-pipeline/commits/main">Pushed to main</a><br/><sub><code>data-pipeline</code></sub></td><td align="right"><sub>3d ago</sub></td></tr>
 <tr><td>⬆️</td><td><a href="https://github.com/Redhat-forks/insights-inventory-frontend/commits/master">Pushed to master</a><br/><sub><code>insights-inventory-frontend</code></sub></td><td align="right"><sub>3d ago</sub></td></tr>
 <tr><td>⬆️</td><td><a href="https://github.com/Redhat-forks/insights-host-inventory/commits/master">Pushed to master</a><br/><sub><code>insights-host-inventory</code></sub></td><td align="right"><sub>3d ago</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/Redhat-forks/ansible-dev-environment/commits/main">Pushed to main</a><br/><sub><code>ansible-dev-environment</code></sub></td><td align="right"><sub>3d ago</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/Redhat-forks/frontend-operator/commits/main">Pushed to main</a><br/><sub><code>frontend-operator</code></sub></td><td align="right"><sub>3d ago</sub></td></tr>
 </table>

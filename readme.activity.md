@@ -3,6 +3,10 @@
 [← Back to profile](README.md) · [View on GitHub](https://github.com/dmzoneill)
 
 <table>
+<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/jira-creator/commits/main">Pushed to main</a><br/><sub><code>jira-creator</code></sub></td><td align="right"><sub>2d ago</sub></td></tr>
+<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/dmzoneill/commits/main">Pushed to main</a><br/><sub><code>dmzoneill</code></sub></td><td align="right"><sub>2d ago</sub></td></tr>
+<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/www.feeditout.com1/commits/main">Pushed to main</a><br/><sub><code>www.feeditout.com1</code></sub></td><td align="right"><sub>2d ago</sub></td></tr>
+<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/Seedarr/commits/main">Pushed to main</a><br/><sub><code>Seedarr</code></sub></td><td align="right"><sub>2d ago</sub></td></tr>
 <tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/www.feeditout.com1/commits/add-readme">Pushed to add-readme</a><br/><sub><code>www.feeditout.com1</code></sub></td><td align="right"><sub>2d ago</sub></td></tr>
 <tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/aa-dns-checker/commits/main">Pushed to main</a><br/><sub><code>aa-dns-checker</code></sub></td><td align="right"><sub>2d ago</sub></td></tr>
 <tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/www.linux-group-policy.com/commits/main">Pushed to main</a><br/><sub><code>www.linux-group-policy.com</code></sub></td><td align="right"><sub>2d ago</sub></td></tr>
@@ -12,28 +16,28 @@
 <tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/Xenith/commits/main">Pushed to main</a><br/><sub><code>Xenith</code></sub></td><td align="right"><sub>2d ago</sub></td></tr>
 <tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/Seedarr/commits/main">Pushed to main</a><br/><sub><code>Seedarr</code></sub></td><td align="right"><sub>2d ago</sub></td></tr>
 <tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/Seedarr/commits/main">Pushed to main</a><br/><sub><code>Seedarr</code></sub></td><td align="right"><sub>2d ago</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill-forks/xdock/commits/master">Pushed to master</a><br/><sub><code>xdock</code></sub></td><td align="right"><sub>2d ago</sub></td></tr>
-<tr><td>💬</td><td><a href="https://github.com/dmzoneill/android-digiweb-usage/pull/6">Bump gradle-wrapper from 9.8.2 to 9.9.0 in the gradle group across 1…</a><br/><sub><code>android-digiweb-usage</code></sub></td><td align="right"><sub>1d ago</sub></td></tr>
-<tr><td>💬</td><td><a href="https://github.com/dmzoneill/ashtangayogacork.ie-android/pull/11">Bump gradle-wrapper from 9.8.2 to 9.9.0 in the gradle group across 1…</a><br/><sub><code>ashtangayogacork.ie-android</code></sub></td><td align="right"><sub>1d ago</sub></td></tr>
-<tr><td>💬</td><td><a href="https://github.com/dmzoneill/ashtangayogacork.ie-wearos/pull/8">Bump gradle-wrapper from 9.8.2 to 9.9.0 in the gradle group across 1…</a><br/><sub><code>ashtangayogacork.ie-wearos</code></sub></td><td align="right"><sub>1d ago</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/Leecharr/commits/main">Pushed to main</a><br/><sub><code>Leecharr</code></sub></td><td align="right"><sub>1d ago</sub></td></tr>
+<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill-forks/xdock/commits/master">Pushed to master</a><br/><sub><code>xdock</code></sub></td><td align="right"><sub>3d ago</sub></td></tr>
+<tr><td>💬</td><td><a href="https://github.com/dmzoneill/android-digiweb-usage/pull/6">Bump gradle-wrapper from 9.8.2 to 9.9.0 in the gradle group across 1…</a><br/><sub><code>android-digiweb-usage</code></sub></td><td align="right"><sub>2d ago</sub></td></tr>
+<tr><td>💬</td><td><a href="https://github.com/dmzoneill/ashtangayogacork.ie-android/pull/11">Bump gradle-wrapper from 9.8.2 to 9.9.0 in the gradle group across 1…</a><br/><sub><code>ashtangayogacork.ie-android</code></sub></td><td align="right"><sub>2d ago</sub></td></tr>
+<tr><td>💬</td><td><a href="https://github.com/dmzoneill/ashtangayogacork.ie-wearos/pull/8">Bump gradle-wrapper from 9.8.2 to 9.9.0 in the gradle group across 1…</a><br/><sub><code>ashtangayogacork.ie-wearos</code></sub></td><td align="right"><sub>2d ago</sub></td></tr>
+<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/Leecharr/commits/main">Pushed to main</a><br/><sub><code>Leecharr</code></sub></td><td align="right"><sub>2d ago</sub></td></tr>
 <tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/forum.unknown-heroes.com/commits/main">Pushed to main</a><br/><sub><code>forum.unknown-heroes.com</code></sub></td><td align="right"><sub>2d ago</sub></td></tr>
 <tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/ollama-proxy/commits/main">Pushed to main</a><br/><sub><code>ollama-proxy</code></sub></td><td align="right"><sub>3d ago</sub></td></tr>
 <tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/redhatter/commits/main">Pushed to main</a><br/><sub><code>redhatter</code></sub></td><td align="right"><sub>2d ago</sub></td></tr>
 <tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/Seedarr/commits/main">Pushed to main</a><br/><sub><code>Seedarr</code></sub></td><td align="right"><sub>2d ago</sub></td></tr>
-<tr><td>💬</td><td><a href="https://github.com/dmzoneill-forks/xdock/issues/975">[upstream-pr#2781] dash: Ignore items animating out on redisplay</a><br/><sub><code>xdock</code></sub></td><td align="right"><sub>2d ago</sub></td></tr>
-<tr><td>💬</td><td><a href="https://github.com/dmzoneill-forks/xdock/issues/976">[upstream-pr#2780] docking: Restore reliable hover reveal on X11</a><br/><sub><code>xdock</code></sub></td><td align="right"><sub>2d ago</sub></td></tr>
-<tr><td>💬</td><td><a href="https://github.com/dmzoneill-forks/xdock/issues/973">[upstream-pr#2779] notificationsMonitor: Notify DND changes reliably</a><br/><sub><code>xdock</code></sub></td><td align="right"><sub>2d ago</sub></td></tr>
-<tr><td>💬</td><td><a href="https://github.com/dmzoneill-forks/xdock/issues/972">[upstream#2778] Windows never shown after login:…</a><br/><sub><code>xdock</code></sub></td><td align="right"><sub>2d ago</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill-forks/xdock/commits/master">Pushed to master</a><br/><sub><code>xdock</code></sub></td><td align="right"><sub>2d ago</sub></td></tr>
-<tr><td>🟢</td><td><a href="https://github.com/dmzoneill-forks/xdock/issues/975">[upstream-pr#2781] dash: Ignore items animating out on redisplay</a><br/><sub><code>xdock</code></sub></td><td align="right"><sub>2d ago</sub></td></tr>
-<tr><td>🟢</td><td><a href="https://github.com/dmzoneill-forks/xdock/issues/976">[upstream-pr#2780] docking: Restore reliable hover reveal on X11</a><br/><sub><code>xdock</code></sub></td><td align="right"><sub>2d ago</sub></td></tr>
-<tr><td>💬</td><td><a href="https://github.com/dmzoneill-forks/xdock/issues/974">[BUG] Context menus appear at (0,0) or become unresponsive when…</a><br/><sub><code>xdock</code></sub></td><td align="right"><sub>2d ago</sub></td></tr>
-<tr><td>🟢</td><td><a href="https://github.com/dmzoneill-forks/xdock/issues/973">[upstream-pr#2779] notificationsMonitor: Notify DND changes reliably</a><br/><sub><code>xdock</code></sub></td><td align="right"><sub>2d ago</sub></td></tr>
-<tr><td>🟢</td><td><a href="https://github.com/dmzoneill-forks/xdock/issues/972">[upstream#2778] Windows never shown after login:…</a><br/><sub><code>xdock</code></sub></td><td align="right"><sub>2d ago</sub></td></tr>
-<tr><td>🟢</td><td><a href="https://github.com/dmzoneill-forks/xdock/issues/974">[BUG] Context menus appear at (0,0) or become unresponsive when…</a><br/><sub><code>xdock</code></sub></td><td align="right"><sub>2d ago</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill-forks/xdock/commits/master">Pushed to master</a><br/><sub><code>xdock</code></sub></td><td align="right"><sub>4d ago</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/Seedarr/commits/main">Pushed to main</a><br/><sub><code>Seedarr</code></sub></td><td align="right"><sub>4d ago</sub></td></tr>
+<tr><td>💬</td><td><a href="https://github.com/dmzoneill-forks/xdock/issues/975">[upstream-pr#2781] dash: Ignore items animating out on redisplay</a><br/><sub><code>xdock</code></sub></td><td align="right"><sub>3d ago</sub></td></tr>
+<tr><td>💬</td><td><a href="https://github.com/dmzoneill-forks/xdock/issues/976">[upstream-pr#2780] docking: Restore reliable hover reveal on X11</a><br/><sub><code>xdock</code></sub></td><td align="right"><sub>3d ago</sub></td></tr>
+<tr><td>💬</td><td><a href="https://github.com/dmzoneill-forks/xdock/issues/973">[upstream-pr#2779] notificationsMonitor: Notify DND changes reliably</a><br/><sub><code>xdock</code></sub></td><td align="right"><sub>3d ago</sub></td></tr>
+<tr><td>💬</td><td><a href="https://github.com/dmzoneill-forks/xdock/issues/972">[upstream#2778] Windows never shown after login:…</a><br/><sub><code>xdock</code></sub></td><td align="right"><sub>3d ago</sub></td></tr>
+<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill-forks/xdock/commits/master">Pushed to master</a><br/><sub><code>xdock</code></sub></td><td align="right"><sub>3d ago</sub></td></tr>
+<tr><td>🟢</td><td><a href="https://github.com/dmzoneill-forks/xdock/issues/975">[upstream-pr#2781] dash: Ignore items animating out on redisplay</a><br/><sub><code>xdock</code></sub></td><td align="right"><sub>3d ago</sub></td></tr>
+<tr><td>🟢</td><td><a href="https://github.com/dmzoneill-forks/xdock/issues/976">[upstream-pr#2780] docking: Restore reliable hover reveal on X11</a><br/><sub><code>xdock</code></sub></td><td align="right"><sub>3d ago</sub></td></tr>
+<tr><td>💬</td><td><a href="https://github.com/dmzoneill-forks/xdock/issues/974">[BUG] Context menus appear at (0,0) or become unresponsive when…</a><br/><sub><code>xdock</code></sub></td><td align="right"><sub>3d ago</sub></td></tr>
+<tr><td>🟢</td><td><a href="https://github.com/dmzoneill-forks/xdock/issues/973">[upstream-pr#2779] notificationsMonitor: Notify DND changes reliably</a><br/><sub><code>xdock</code></sub></td><td align="right"><sub>3d ago</sub></td></tr>
+<tr><td>🟢</td><td><a href="https://github.com/dmzoneill-forks/xdock/issues/972">[upstream#2778] Windows never shown after login:…</a><br/><sub><code>xdock</code></sub></td><td align="right"><sub>3d ago</sub></td></tr>
+<tr><td>🟢</td><td><a href="https://github.com/dmzoneill-forks/xdock/issues/974">[BUG] Context menus appear at (0,0) or become unresponsive when…</a><br/><sub><code>xdock</code></sub></td><td align="right"><sub>3d ago</sub></td></tr>
+<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill-forks/xdock/commits/master">Pushed to master</a><br/><sub><code>xdock</code></sub></td><td align="right"><sub>5d ago</sub></td></tr>
+<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/Seedarr/commits/main">Pushed to main</a><br/><sub><code>Seedarr</code></sub></td><td align="right"><sub>5d ago</sub></td></tr>
 <tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/Seedarr/commits/main">Pushed to main</a><br/><sub><code>Seedarr</code></sub></td><td align="right"><sub>4d ago</sub></td></tr>
 <tr><td>⬆️</td><td><a href="https://github.com/Redhat-forks/ansible-rhdh-templates/commits/main">Pushed to main</a><br/><sub><code>ansible-rhdh-templates</code></sub></td><td align="right"><sub>5d ago</sub></td></tr>
 <tr><td>⬆️</td><td><a href="https://github.com/Redhat-forks/vmaas/commits/master">Pushed to master</a><br/><sub><code>vmaas</code></sub></td><td align="right"><sub>5d ago</sub></td></tr>
@@ -53,7 +57,7 @@
 <tr><td>⬆️</td><td><a href="https://github.com/Redhat-forks/eda-server/commits/main">Pushed to main</a><br/><sub><code>eda-server</code></sub></td><td align="right"><sub>5d ago</sub></td></tr>
 <tr><td>⬆️</td><td><a href="https://github.com/dmzoneill-forks/docker-deluge/commits/master">Pushed to master</a><br/><sub><code>docker-deluge</code></sub></td><td align="right"><sub>5d ago</sub></td></tr>
 <tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/redhat-ai-workflow/commits/main">Pushed to main</a><br/><sub><code>redhat-ai-workflow</code></sub></td><td align="right"><sub>5d ago</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill-forks/xdock/commits/master">Pushed to master</a><br/><sub><code>xdock</code></sub></td><td align="right"><sub>4d ago</sub></td></tr>
+<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill-forks/xdock/commits/master">Pushed to master</a><br/><sub><code>xdock</code></sub></td><td align="right"><sub>5d ago</sub></td></tr>
 <tr><td>⬆️</td><td><a href="https://github.com/dmzoneill-forks/xdock/commits/master">Pushed to master</a><br/><sub><code>xdock</code></sub></td><td align="right"><sub>4d ago</sub></td></tr>
 <tr><td>⬆️</td><td><a href="https://github.com/Intel-forks/multus-cni/commits/master">Pushed to master</a><br/><sub><code>multus-cni</code></sub></td><td align="right"><sub>5d ago</sub></td></tr>
 <tr><td>⬆️</td><td><a href="https://github.com/Redhat-forks/rhc/commits/main">Pushed to main</a><br/><sub><code>rhc</code></sub></td><td align="right"><sub>5d ago</sub></td></tr>
@@ -66,9 +70,9 @@
 <tr><td>⬆️</td><td><a href="https://github.com/Redhat-forks/ansible-podman-collections/commits/main">Pushed to main</a><br/><sub><code>ansible-podman-collections</code></sub></td><td align="right"><sub>5d ago</sub></td></tr>
 <tr><td>⬆️</td><td><a href="https://github.com/Redhat-forks/vscode-ansible/commits/main">Pushed to main</a><br/><sub><code>vscode-ansible</code></sub></td><td align="right"><sub>5d ago</sub></td></tr>
 <tr><td>⬆️</td><td><a href="https://github.com/Redhat-forks/ansible-rulebook/commits/main">Pushed to main</a><br/><sub><code>ansible-rulebook</code></sub></td><td align="right"><sub>5d ago</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill-forks/xdock/commits/master">Pushed to master</a><br/><sub><code>xdock</code></sub></td><td align="right"><sub>4d ago</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/Leecharr/commits/main">Pushed to main</a><br/><sub><code>Leecharr</code></sub></td><td align="right"><sub>4d ago</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill-forks/xdock/commits/master">Pushed to master</a><br/><sub><code>xdock</code></sub></td><td align="right"><sub>4d ago</sub></td></tr>
+<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill-forks/xdock/commits/master">Pushed to master</a><br/><sub><code>xdock</code></sub></td><td align="right"><sub>5d ago</sub></td></tr>
+<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/Leecharr/commits/main">Pushed to main</a><br/><sub><code>Leecharr</code></sub></td><td align="right"><sub>5d ago</sub></td></tr>
+<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill-forks/xdock/commits/master">Pushed to master</a><br/><sub><code>xdock</code></sub></td><td align="right"><sub>5d ago</sub></td></tr>
 <tr><td>⬆️</td><td><a href="https://github.com/Redhat-forks/aap-docs/commits/main">Pushed to main</a><br/><sub><code>aap-docs</code></sub></td><td align="right"><sub>5d ago</sub></td></tr>
 <tr><td>⬆️</td><td><a href="https://github.com/Redhat-forks/ccx-notification-writer/commits/master">Pushed to master</a><br/><sub><code>ccx-notification-writer</code></sub></td><td align="right"><sub>5d ago</sub></td></tr>
 <tr><td>⬆️</td><td><a href="https://github.com/Redhat-forks/insights-advisor-frontend/commits/master">Pushed to master</a><br/><sub><code>insights-advisor-frontend</code></sub></td><td align="right"><sub>5d ago</sub></td></tr>
@@ -84,10 +88,6 @@
 <tr><td>⬆️</td><td><a href="https://github.com/Redhat-forks/floorist-operator/commits/main">Pushed to main</a><br/><sub><code>floorist-operator</code></sub></td><td align="right"><sub>5d ago</sub></td></tr>
 <tr><td>⬆️</td><td><a href="https://github.com/dmzoneill-forks/nemo-extensions/commits/master">Pushed to master</a><br/><sub><code>nemo-extensions</code></sub></td><td align="right"><sub>5d ago</sub></td></tr>
 <tr><td>⬆️</td><td><a href="https://github.com/dmzoneill-forks/vscode/commits/main">Pushed to main</a><br/><sub><code>vscode</code></sub></td><td align="right"><sub>5d ago</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/Leecharr/commits/main">Pushed to main</a><br/><sub><code>Leecharr</code></sub></td><td align="right"><sub>4d ago</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/redhat-ai-workflow/commits/main">Pushed to main</a><br/><sub><code>redhat-ai-workflow</code></sub></td><td align="right"><sub>5d ago</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/Redhat-forks/pytest-ansible/commits/main">Pushed to main</a><br/><sub><code>pytest-ansible</code></sub></td><td align="right"><sub>5d ago</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/Redhat-forks/insights-mcp/commits/main">Pushed to main</a><br/><sub><code>insights-mcp</code></sub></td><td align="right"><sub>5d ago</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/Redhat-forks/actions/commits/main">Pushed to main</a><br/><sub><code>actions</code></sub></td><td align="right"><sub>5d ago</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/Redhat-forks/chrome-service-backend/commits/main">Pushed to main</a><br/><sub><code>chrome-service-backend</code></sub></td><td align="right"><sub>5d ago</sub></td></tr>
+<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/Leecharr/commits/main">Pushed to main</a><br/><sub><code>Leecharr</code></sub></td><td align="right"><sub>5d ago</sub></td></tr>
+<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/redhat-ai-workflow/commits/main">Pushed to main</a><br/><sub><code>redhat-ai-workflow</code></sub></td><td align="right"><sub>6d ago</sub></td></tr>
 </table>

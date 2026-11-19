@@ -1,12 +1,14 @@
-# ⚡ Activity · 60
+# ⚡ Activity · 59
 
 [← Back to profile](README.md) · [View on GitHub](https://github.com/dmzoneill)
 
 <table>
+<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/wayvox/commits/fix/codacy-url-sql-imports">Pushed to fix/codacy-url-sql-imports</a><br/><sub><code>wayvox</code></sub></td><td align="right"><sub>1d ago</sub></td></tr>
+<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/wayvox/commits/fix/codacy-url-sql-imports">Pushed to fix/codacy-url-sql-imports</a><br/><sub><code>wayvox</code></sub></td><td align="right"><sub>1d ago</sub></td></tr>
 <tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/wayvox/commits/main">Pushed to main</a><br/><sub><code>wayvox</code></sub></td><td align="right"><sub>1d ago</sub></td></tr>
 <tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/Leecharr/commits/fix/codacy-no-unnecessary-condition">Pushed to fix/codacy-no-unnecessary-condition</a><br/><sub><code>Leecharr</code></sub></td><td align="right"><sub>1d ago</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/ashtangayogacork.ie-android/commits/main">Pushed to main</a><br/><sub><code>ashtangayogacork.ie-android</code></sub></td><td align="right"><sub>15h ago</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/android-digiweb-usage/commits/dependabot/gradle/gradle-7d60e7b6db">Pushed to dependabot/gradle/gradle-7d60e7b6db</a><br/><sub><code>android-digiweb-usage</code></sub></td><td align="right"><sub>15h ago</sub></td></tr>
+<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/ashtangayogacork.ie-android/commits/main">Pushed to main</a><br/><sub><code>ashtangayogacork.ie-android</code></sub></td><td align="right"><sub>21h ago</sub></td></tr>
+<tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/android-digiweb-usage/commits/dependabot/gradle/gradle-7d60e7b6db">Pushed to dependabot/gradle/gradle-7d60e7b6db</a><br/><sub><code>android-digiweb-usage</code></sub></td><td align="right"><sub>21h ago</sub></td></tr>
 <tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/Leecharr/commits/main">Pushed to main</a><br/><sub><code>Leecharr</code></sub></td><td align="right"><sub>1d ago</sub></td></tr>
 <tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/Leecharr/commits/fix/codacy-no-unnecessary-condition">Pushed to fix/codacy-no-unnecessary-condition</a><br/><sub><code>Leecharr</code></sub></td><td align="right"><sub>1d ago</sub></td></tr>
 <tr><td>⬆️</td><td><a href="https://github.com/dmzoneill/DFakeSeeder/commits/fix/codacy-jackett-url-and-dbus-assert">Pushed to fix/codacy-jackett-url-and-dbus-assert</a><br/><sub><code>DFakeSeeder</code></sub></td><td align="right"><sub>1d ago</sub></td></tr>
@@ -60,7 +62,4 @@
 <tr><td>⬆️</td><td><a href="https://github.com/dmzoneill-forks/zed/commits/main">Pushed to main</a><br/><sub><code>zed</code></sub></td><td align="right"><sub>2d ago</sub></td></tr>
 <tr><td>⬆️</td><td><a href="https://github.com/Redhat-forks/vscode-ansible/commits/main">Pushed to main</a><br/><sub><code>vscode-ansible</code></sub></td><td align="right"><sub>2d ago</sub></td></tr>
 <tr><td>⬆️</td><td><a href="https://github.com/Redhat-forks/insights-puptoo/commits/master">Pushed to master</a><br/><sub><code>insights-puptoo</code></sub></td><td align="right"><sub>2d ago</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/Redhat-forks/insights-host-inventory/commits/master">Pushed to master</a><br/><sub><code>insights-host-inventory</code></sub></td><td align="right"><sub>2d ago</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/Redhat-forks/awx-operator-1/commits/devel">Pushed to devel</a><br/><sub><code>awx-operator-1</code></sub></td><td align="right"><sub>2d ago</sub></td></tr>
-<tr><td>⬆️</td><td><a href="https://github.com/Redhat-forks/ansible-rulebook/commits/main">Pushed to main</a><br/><sub><code>ansible-rulebook</code></sub></td><td align="right"><sub>2d ago</sub></td></tr>
 </table>

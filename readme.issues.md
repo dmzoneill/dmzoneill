@@ -3,7 +3,7 @@
 [← Back to profile](README.md) · [View on GitHub](https://github.com/issues?q=is%3Aissue+is%3Aopen+archived%3Afalse+user%3Admzoneill)
 
 <table>
-<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/Seedarr/issues/1344">Sync-over-async tracker scrape/boost blocks ThreadPool;…</a><br/><sub><code>Seedarr#1344</code></sub></td><td align="right"><sub>8h ago</sub></td></tr>
+<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/Seedarr/issues/1344">Sync-over-async tracker scrape/boost blocks ThreadPool;…</a><br/><sub><code>Seedarr#1344</code></sub></td><td align="right"><sub>1d ago</sub></td></tr>
 <tr><td>🟢</td><td><a href="https://github.com/dmzoneill/lidarr-youtube-downloader/issues/29">[FR] Only search for missing songs from artists with a given tag</a><br/><sub><code>lidarr-youtube-downloader#29</code></sub></td><td align="right"><sub>2w ago</sub></td></tr>
 <tr><td>🟢</td><td><a href="https://github.com/dmzoneill/tado-gnome-shell-extension/issues/2">Got this message after trying to enable it (Gnome45):</a><br/><sub><code>tado-gnome-shell-extension#2</code></sub></td><td align="right"><sub>3w ago</sub></td></tr>
 <tr><td>🟢</td><td><a href="https://github.com/dmzoneill/lidarr-youtube-downloader/issues/25">Most releases found are missing tracks</a><br/><sub><code>lidarr-youtube-downloader#25</code></sub></td><td align="right"><sub>3w ago</sub></td></tr>

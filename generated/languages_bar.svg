@@ -1,16 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="860" height="14" viewBox="0 0 860 14">
   <clipPath id="r"><rect width="860" height="14" rx="7"/></clipPath>
   <g clip-path="url(#r)">
-  <rect x="0.00" y="0" width="379.27" height="14" fill="#4F5D95"/>
-  <rect x="379.27" y="0" width="105.62" height="14" fill="#178600"/>
-  <rect x="484.89" y="0" width="74.13" height="14" fill="#f1e05a"/>
+  <rect x="0.00" y="0" width="379.26" height="14" fill="#4F5D95"/>
+  <rect x="379.26" y="0" width="105.62" height="14" fill="#178600"/>
+  <rect x="484.88" y="0" width="74.13" height="14" fill="#f1e05a"/>
   <rect x="559.01" y="0" width="57.80" height="14" fill="#3178c6"/>
-  <rect x="616.81" y="0" width="49.36" height="14" fill="#3572A5"/>
+  <rect x="616.81" y="0" width="49.37" height="14" fill="#3572A5"/>
   <rect x="666.17" y="0" width="42.60" height="14" fill="#e34c26"/>
-  <rect x="708.77" y="0" width="38.77" height="14" fill="#663399"/>
+  <rect x="708.78" y="0" width="38.77" height="14" fill="#663399"/>
   <rect x="747.54" y="0" width="35.21" height="14" fill="#555555"/>
   <rect x="782.75" y="0" width="30.98" height="14" fill="#0298c3"/>
-  <rect x="813.72" y="0" width="7.10" height="14" fill="#b07219"/>
+  <rect x="813.73" y="0" width="7.10" height="14" fill="#b07219"/>
   <rect x="820.82" y="0" width="6.73" height="14" fill="#f0c040"/>
   <rect x="827.55" y="0" width="6.31" height="14" fill="#89e051"/>
   <rect x="833.87" y="0" width="5.89" height="14" fill="#00ADD8"/>

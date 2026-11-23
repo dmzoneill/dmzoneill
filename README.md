@@ -10,15 +10,15 @@
 
 <p align="center">
 <a href="readme.gists.md"><img src="generated/tiles/gist.svg" width="176" height="46" alt="Gists: 24"/></a>
-<a href="readme.issues.md"><img src="generated/tiles/issue.svg" width="176" height="46" alt="Issues: 80"/></a>
-<a href="readme.pull-requests.md"><img src="generated/tiles/pr.svg" width="176" height="46" alt="Pull requests: 15"/></a>
-<a href="readme.activity.md"><img src="generated/tiles/activity.svg" width="176" height="46" alt="Activity: 71"/></a>
+<a href="readme.issues.md"><img src="generated/tiles/issue.svg" width="176" height="46" alt="Issues: 72"/></a>
+<a href="readme.pull-requests.md"><img src="generated/tiles/pr.svg" width="176" height="46" alt="Pull requests: 6"/></a>
+<a href="readme.activity.md"><img src="generated/tiles/activity.svg" width="176" height="46" alt="Activity: 69"/></a>
 </p>
 
 <h3>🏢 Forks &amp; work orgs</h3>
 <p align="center">
 <a href="https://github.com/dmzoneill-forks"><img src="generated/orgs/dmzoneill-forks.svg" width="134" height="46" alt="My forks: 65 forks"/></a>
-<a href="https://github.com/RedHatInsights"><img src="generated/orgs/RedHatInsights.svg" width="134" height="46" alt="RedHat Insights: 684 repos"/></a>
+<a href="https://github.com/RedHatInsights"><img src="generated/orgs/RedHatInsights.svg" width="134" height="46" alt="RedHat Insights: 685 repos"/></a>
 <a href="https://github.com/app-sre"><img src="generated/orgs/app-sre.svg" width="134" height="46" alt="AppSRE: 142 repos"/></a>
 <a href="https://github.com/Redhat-forks"><img src="generated/orgs/Redhat-forks.svg" width="134" height="46" alt="Redhat forks: 92 forks"/></a>
 <a href="https://github.com/Canonical-forks"><img src="generated/orgs/Canonical-forks.svg" width="134" height="46" alt="Canonical forks: 9 forks"/></a>
@@ -35,7 +35,7 @@
 <table>
 <tr>
 <td width="20%"><img src='https://img.shields.io/badge/-%20-4F5D95?style=flat-square' width='10' height='10'/> <b>PHP</b><br/><sub>112.7 MB · 43.6%</sub><br/><img src="images/spacer.svg" width="140" height="1" alt=""/></td>
-<td width="20%"><img src='https://img.shields.io/badge/-%20-178600?style=flat-square' width='10' height='10'/> <b>C#</b><br/><sub>31.7 MB · 12.3%</sub><br/><img src="images/spacer.svg" width="140" height="1" alt=""/></td>
+<td width="20%"><img src='https://img.shields.io/badge/-%20-178600?style=flat-square' width='10' height='10'/> <b>C#</b><br/><sub>31.9 MB · 12.3%</sub><br/><img src="images/spacer.svg" width="140" height="1" alt=""/></td>
 <td width="20%"><img src='https://img.shields.io/badge/-%20-f1e05a?style=flat-square' width='10' height='10'/> <b>JavaScript</b><br/><sub>22.0 MB · 8.5%</sub><br/><img src="images/spacer.svg" width="140" height="1" alt=""/></td>
 <td width="20%"><img src='https://img.shields.io/badge/-%20-3178c6?style=flat-square' width='10' height='10'/> <b>TypeScript</b><br/><sub>17.2 MB · 6.7%</sub><br/><img src="images/spacer.svg" width="140" height="1" alt=""/></td>
 <td width="20%"><img src='https://img.shields.io/badge/-%20-3572A5?style=flat-square' width='10' height='10'/> <b>Python</b><br/><sub>14.7 MB · 5.7%</sub><br/><img src="images/spacer.svg" width="140" height="1" alt=""/></td>

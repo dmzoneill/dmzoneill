@@ -4,15 +4,15 @@
 <p align="center">
 <a href="https://github.com/dmzoneill"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white"/></a>
 <a href="https://www.linkedin.com/in/dmzoneill/"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-<img alt="Last updated" src="https://img.shields.io/badge/updated-2026--11--22-brightgreen?style=for-the-badge"/>
+<img alt="Last updated" src="https://img.shields.io/badge/updated-2026--11--23-brightgreen?style=for-the-badge"/>
 <img alt="Profile views" src="https://komarev.com/ghpvc/?username=dmzoneill&color=brightgreen&style=for-the-badge"/>
 </p>
 
 <p align="center">
 <a href="readme.gists.md"><img src="generated/tiles/gist.svg" width="176" height="46" alt="Gists: 24"/></a>
-<a href="readme.issues.md"><img src="generated/tiles/issue.svg" width="176" height="46" alt="Issues: 64"/></a>
-<a href="readme.pull-requests.md"><img src="generated/tiles/pr.svg" width="176" height="46" alt="Pull requests: 6"/></a>
-<a href="readme.activity.md"><img src="generated/tiles/activity.svg" width="176" height="46" alt="Activity: 61"/></a>
+<a href="readme.issues.md"><img src="generated/tiles/issue.svg" width="176" height="46" alt="Issues: 80"/></a>
+<a href="readme.pull-requests.md"><img src="generated/tiles/pr.svg" width="176" height="46" alt="Pull requests: 15"/></a>
+<a href="readme.activity.md"><img src="generated/tiles/activity.svg" width="176" height="46" alt="Activity: 71"/></a>
 </p>
 
 <h3>🏢 Forks &amp; work orgs</h3>
@@ -34,15 +34,15 @@
 <p><img src="generated/languages_bar.svg" width="100%" alt="Language share"/></p>
 <table>
 <tr>
-<td width="20%"><img src='https://img.shields.io/badge/-%20-4F5D95?style=flat-square' width='10' height='10'/> <b>PHP</b><br/><sub>112.7 MB · 43.7%</sub><br/><img src="images/spacer.svg" width="140" height="1" alt=""/></td>
-<td width="20%"><img src='https://img.shields.io/badge/-%20-178600?style=flat-square' width='10' height='10'/> <b>C#</b><br/><sub>31.4 MB · 12.2%</sub><br/><img src="images/spacer.svg" width="140" height="1" alt=""/></td>
+<td width="20%"><img src='https://img.shields.io/badge/-%20-4F5D95?style=flat-square' width='10' height='10'/> <b>PHP</b><br/><sub>112.7 MB · 43.6%</sub><br/><img src="images/spacer.svg" width="140" height="1" alt=""/></td>
+<td width="20%"><img src='https://img.shields.io/badge/-%20-178600?style=flat-square' width='10' height='10'/> <b>C#</b><br/><sub>31.7 MB · 12.3%</sub><br/><img src="images/spacer.svg" width="140" height="1" alt=""/></td>
 <td width="20%"><img src='https://img.shields.io/badge/-%20-f1e05a?style=flat-square' width='10' height='10'/> <b>JavaScript</b><br/><sub>22.0 MB · 8.5%</sub><br/><img src="images/spacer.svg" width="140" height="1" alt=""/></td>
 <td width="20%"><img src='https://img.shields.io/badge/-%20-3178c6?style=flat-square' width='10' height='10'/> <b>TypeScript</b><br/><sub>17.2 MB · 6.7%</sub><br/><img src="images/spacer.svg" width="140" height="1" alt=""/></td>
 <td width="20%"><img src='https://img.shields.io/badge/-%20-3572A5?style=flat-square' width='10' height='10'/> <b>Python</b><br/><sub>14.7 MB · 5.7%</sub><br/><img src="images/spacer.svg" width="140" height="1" alt=""/></td>
 </tr><tr>
 <td width="20%"><img src='https://img.shields.io/badge/-%20-e34c26?style=flat-square' width='10' height='10'/> <b>HTML</b><br/><sub>12.7 MB · 4.9%</sub><br/><img src="images/spacer.svg" width="140" height="1" alt=""/></td>
 <td width="20%"><img src='https://img.shields.io/badge/-%20-663399?style=flat-square' width='10' height='10'/> <b>CSS</b><br/><sub>11.5 MB · 4.5%</sub><br/><img src="images/spacer.svg" width="140" height="1" alt=""/></td>
-<td width="20%"><img src='https://img.shields.io/badge/-%20-555555?style=flat-square' width='10' height='10'/> <b>C</b><br/><sub>10.5 MB · 4.1%</sub><br/><img src="images/spacer.svg" width="140" height="1" alt=""/></td>
+<td width="20%"><img src='https://img.shields.io/badge/-%20-555555?style=flat-square' width='10' height='10'/> <b>C</b><br/><sub>10.5 MB · 4.0%</sub><br/><img src="images/spacer.svg" width="140" height="1" alt=""/></td>
 <td width="20%"><img src='https://img.shields.io/badge/-%20-0298c3?style=flat-square' width='10' height='10'/> <b>Perl</b><br/><sub>9.2 MB · 3.6%</sub><br/><img src="images/spacer.svg" width="140" height="1" alt=""/></td>
 <td width="20%"><img src='https://img.shields.io/badge/-%20-b07219?style=flat-square' width='10' height='10'/> <b>Java</b><br/><sub>2.1 MB · 0.8%</sub><br/><img src="images/spacer.svg" width="140" height="1" alt=""/></td>
 </tr><tr>

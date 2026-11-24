@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="860" height="14" viewBox="0 0 860 14">
   <clipPath id="r"><rect width="860" height="14" rx="7"/></clipPath>
   <g clip-path="url(#r)">
-  <rect x="0.00" y="0" width="378.47" height="14" fill="#4F5D95"/>
-  <rect x="378.47" y="0" width="107.00" height="14" fill="#178600"/>
+  <rect x="0.00" y="0" width="378.46" height="14" fill="#4F5D95"/>
+  <rect x="378.46" y="0" width="107.00" height="14" fill="#178600"/>
   <rect x="485.47" y="0" width="73.97" height="14" fill="#f1e05a"/>
   <rect x="559.44" y="0" width="57.88" height="14" fill="#3178c6"/>
   <rect x="617.32" y="0" width="49.26" height="14" fill="#3572A5"/>

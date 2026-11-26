@@ -1,18 +1,20 @@
-# 🟢 Issues · 73
+# 🟢 Issues · 75
 
 [← Back to profile](README.md) · [View on GitHub](https://github.com/issues?q=is%3Aissue+is%3Aopen+archived%3Afalse+user%3Admzoneill)
 
 <table>
-<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/Seedarr/issues/1457">bug(trackers): scrape cycle always restarts at torrent #1 and times…</a><br/><sub><code>Seedarr#1457</code></sub></td><td align="right"><sub>10h ago</sub></td></tr>
-<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/Seedarr/issues/1456">bug(health): DiskSpace check warns 'Low disk space on download…</a><br/><sub><code>Seedarr#1456</code></sub></td><td align="right"><sub>18h ago</sub></td></tr>
-<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/Seedarr/issues/1455">bug(peers): listeningPort change is not applied until restart –…</a><br/><sub><code>Seedarr#1455</code></sub></td><td align="right"><sub>18h ago</sub></td></tr>
-<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/Seedarr/issues/1454">bug(automation): TorrentPaused/TorrentStarted triggers never fire…</a><br/><sub><code>Seedarr#1454</code></sub></td><td align="right"><sub>18h ago</sub></td></tr>
-<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/Seedarr/issues/1453">bug(jobs): IsSchedulerDue is true only for 1s after each slot but…</a><br/><sub><code>Seedarr#1453</code></sub></td><td align="right"><sub>18h ago</sub></td></tr>
-<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/Seedarr/issues/1452">bug(di): DryIoc still injects IHttpClientFactory's default…</a><br/><sub><code>Seedarr#1452</code></sub></td><td align="right"><sub>18h ago</sub></td></tr>
-<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/Seedarr/issues/1451">bug(vpn): kill-switch pause is rolled back before it is persisted –…</a><br/><sub><code>Seedarr#1451</code></sub></td><td align="right"><sub>18h ago</sub></td></tr>
-<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/Seedarr/issues/1400">bug(system): /system/restart spawns new process without original…</a><br/><sub><code>Seedarr#1400</code></sub></td><td align="right"><sub>1d ago</sub></td></tr>
-<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/Seedarr/issues/1371">bug(automation): ScriptHttpContext AllowAutoRedirect=true bypasses…</a><br/><sub><code>Seedarr#1371</code></sub></td><td align="right"><sub>1d ago</sub></td></tr>
-<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/Seedarr/issues/1370">bug(vpn): inbound peers that passed the pre-handshake fail-closed…</a><br/><sub><code>Seedarr#1370</code></sub></td><td align="right"><sub>1d ago</sub></td></tr>
+<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/lidarr-youtube-downloader/issues/37">Silent Metadata Failure: YouTube uploader/video strings written to…</a><br/><sub><code>lidarr-youtube-downloader#37</code></sub></td><td align="right"><sub>1d ago</sub></td></tr>
+<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/Seedarr/issues/1459">Shared bump script skips Seedarr's version= file (image reports…</a><br/><sub><code>Seedarr#1459</code></sub></td><td align="right"><sub>1d ago</sub></td></tr>
+<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/Seedarr/issues/1457">bug(trackers): scrape cycle always restarts at torrent #1 and times…</a><br/><sub><code>Seedarr#1457</code></sub></td><td align="right"><sub>2d ago</sub></td></tr>
+<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/Seedarr/issues/1456">bug(health): DiskSpace check warns 'Low disk space on download…</a><br/><sub><code>Seedarr#1456</code></sub></td><td align="right"><sub>2d ago</sub></td></tr>
+<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/Seedarr/issues/1455">bug(peers): listeningPort change is not applied until restart –…</a><br/><sub><code>Seedarr#1455</code></sub></td><td align="right"><sub>2d ago</sub></td></tr>
+<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/Seedarr/issues/1454">bug(automation): TorrentPaused/TorrentStarted triggers never fire…</a><br/><sub><code>Seedarr#1454</code></sub></td><td align="right"><sub>2d ago</sub></td></tr>
+<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/Seedarr/issues/1453">bug(jobs): IsSchedulerDue is true only for 1s after each slot but…</a><br/><sub><code>Seedarr#1453</code></sub></td><td align="right"><sub>2d ago</sub></td></tr>
+<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/Seedarr/issues/1452">bug(di): DryIoc still injects IHttpClientFactory's default…</a><br/><sub><code>Seedarr#1452</code></sub></td><td align="right"><sub>2d ago</sub></td></tr>
+<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/Seedarr/issues/1451">bug(vpn): kill-switch pause is rolled back before it is persisted –…</a><br/><sub><code>Seedarr#1451</code></sub></td><td align="right"><sub>2d ago</sub></td></tr>
+<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/Seedarr/issues/1400">bug(system): /system/restart spawns new process without original…</a><br/><sub><code>Seedarr#1400</code></sub></td><td align="right"><sub>3d ago</sub></td></tr>
+<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/Seedarr/issues/1371">bug(automation): ScriptHttpContext AllowAutoRedirect=true bypasses…</a><br/><sub><code>Seedarr#1371</code></sub></td><td align="right"><sub>3d ago</sub></td></tr>
+<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/Seedarr/issues/1370">bug(vpn): inbound peers that passed the pre-handshake fail-closed…</a><br/><sub><code>Seedarr#1370</code></sub></td><td align="right"><sub>3d ago</sub></td></tr>
 <tr><td>🟢</td><td><a href="https://github.com/dmzoneill/lidarr-youtube-downloader/issues/29">[FR] Only search for missing songs from artists with a given tag</a><br/><sub><code>lidarr-youtube-downloader#29</code></sub></td><td align="right"><sub>3w ago</sub></td></tr>
 <tr><td>🟢</td><td><a href="https://github.com/dmzoneill/tado-gnome-shell-extension/issues/2">Got this message after trying to enable it (Gnome45):</a><br/><sub><code>tado-gnome-shell-extension#2</code></sub></td><td align="right"><sub>3w ago</sub></td></tr>
 <tr><td>🟢</td><td><a href="https://github.com/dmzoneill/lidarr-youtube-downloader/issues/25">Most releases found are missing tracks</a><br/><sub><code>lidarr-youtube-downloader#25</code></sub></td><td align="right"><sub>3w ago</sub></td></tr>
@@ -27,7 +29,7 @@
 <tr><td>🟢</td><td><a href="https://github.com/dmzoneill/securetty/issues/141">plugin: No execution mechanism — installed plugins are inert</a><br/><sub><code>securetty#141</code></sub></td><td align="right"><sub>3mo ago</sub></td></tr>
 <tr><td>🟢</td><td><a href="https://github.com/dmzoneill/securetty/issues/142">jira-triage: Codeable action creates branch but never creates MR/PR</a><br/><sub><code>securetty#142</code></sub></td><td align="right"><sub>3mo ago</sub></td></tr>
 <tr><td>🟢</td><td><a href="https://github.com/dmzoneill/securetty/issues/139">run-remote: Incomplete implementation — no volumes, secrets, or…</a><br/><sub><code>securetty#139</code></sub></td><td align="right"><sub>3mo ago</sub></td></tr>
-<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/ansible-feeditout-com/issues/183">Create comprehensive disaster recovery runbook</a><br/><sub><code>ansible-feeditout-com#183</code></sub></td><td align="right"><sub>3mo ago</sub></td></tr>
+<tr><td>🟢</td><td><a href="https://github.com/dmzoneill/ansible-feeditout-com/issues/183">Create comprehensive disaster recovery runbook</a><br/><sub><code>ansible-feeditout-com#183</code></sub></td><td align="right"><sub>4mo ago</sub></td></tr>
 <tr><td>🟢</td><td><a href="https://github.com/dmzoneill/harpnet.ie/issues/44">ICANN/IEDR accreditation</a><br/><sub><code>harpnet.ie#44</code></sub></td><td align="right"><sub>4mo ago</sub></td></tr>
 <tr><td>🟢</td><td><a href="https://github.com/dmzoneill/harpnet.ie/issues/43">[DEV-06] Sub-accounts per client</a><br/><sub><code>harpnet.ie#43</code></sub></td><td align="right"><sub>4mo ago</sub></td></tr>
 <tr><td>🟢</td><td><a href="https://github.com/dmzoneill/harpnet.ie/issues/42">[DEV-05] Reseller accounts with volume pricing</a><br/><sub><code>harpnet.ie#42</code></sub></td><td align="right"><sub>4mo ago</sub></td></tr>
